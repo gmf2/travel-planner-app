@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tripio — Tu viaje, planificado día a día</title>
+<style>
+  :root{
+    --bg:#f5f4f5; --card:#ffffff; --card2:#f0eff2; --text:#2b2b33; --muted:#7d7d88;
+    --accent:#ea0558; --accent2:#ff2e7e; --green:#12a150; --amber:#f0a500; --red:#ea0558;
+    --line:#e6e4e8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,'Segoe UI',Roboto,Inter,sans-serif}
+  body{background:var(--bg);color:var(--text);padding-bottom:60px}
+  .hero{padding:34px 20px 26px;background:#ffffff;border-bottom:1px solid var(--line)}
+  .logo{font-size:34px;font-weight:800;letter-spacing:-.5px;color:var(--text)}
+  .logo span{color:var(--accent)}
+  .tag{color:var(--muted);margin-top:6px;font-size:15px}
+  .wrap{padding:0 16px;max-width:560px;margin:0 auto}
+  .card{background:var(--card);border-radius:18px;padding:18px;margin-top:16px;box-shadow:0 4px 18px rgba(30,10,25,.08)}
+  .config label{display:block;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}
+  .config select{width:100%;background:#fff;border:1px solid var(--line);border-radius:12px;color:var(--text);font-size:17px;padding:12px 14px;margin-bottom:14px;appearance:none}
+  .daysrow{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+  .daysrow button{width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:22px;font-weight:700;cursor:pointer}
+  .daysrow .n{flex:1;text-align:center;font-size:26px;font-weight:800}
+  .daysrow .n small{display:block;font-size:12px;color:var(--muted);font-weight:400}
+  .cta{width:100%;padding:15px;border:none;border-radius:14px;background:linear-gradient(90deg,var(--accent),var(--accent2));color:#fff;font-size:17px;font-weight:800;cursor:pointer}
+  .hint{font-size:12px;color:var(--muted);margin-top:10px;text-align:center}
+  h2.sec{font-size:21px;font-weight:800;margin:26px 4px 4px}
+  .sub{color:var(--muted);font-size:13.5px;margin:0 4px 10px}
+  .chips{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 10px;-webkit-overflow-scrolling:touch}
+  .chip{flex:0 0 auto;padding:8px 15px;border-radius:999px;background:#fff;color:var(--muted);font-size:14px;font-weight:600;cursor:pointer;border:1px solid var(--line);white-space:nowrap}
+  .chip.on{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#fff;border:none}
+  .daymeta{display:flex;gap:8px;flex-wrap:wrap;margin:2px 4px 10px}
+  .daymeta span{font-size:12px;background:var(--card2);border-radius:8px;padding:4px 9px;color:var(--muted)}
+  .daymeta b{color:var(--text)}
+  .mapbox{background:var(--card);border-radius:16px;padding:10px;margin-bottom:12px;box-shadow:0 4px 18px rgba(30,10,25,.08)}
+  .mapbox svg{width:100%;height:auto;display:block;border-radius:10px}
+  .stop{display:flex;gap:13px;background:var(--card);border-radius:16px;overflow:hidden;margin-bottom:12px;align-items:stretch;box-shadow:0 4px 18px rgba(30,10,25,.08)}
+  .stop img{width:112px;min-height:104px;object-fit:cover;flex:0 0 112px}
+  .stop .info{padding:11px 12px 11px 0;flex:1}
+  .stop h3{font-size:15.5px;font-weight:700}
+  .stop h3 .ord{display:inline-flex;width:20px;height:20px;border-radius:50%;background:var(--accent);color:#fff;font-size:11.5px;font-weight:800;align-items:center;justify-content:center;margin-right:6px;vertical-align:2px}
+  .stop .t{display:inline-block;font-size:11px;color:#fff;background:var(--green);border-radius:6px;padding:2px 7px;font-weight:700;margin:5px 0}
+  .stop p{font-size:12.5px;color:var(--muted);line-height:1.4}
+  .stop a{font-size:12.5px;color:var(--accent);text-decoration:none;font-weight:700;display:inline-block;margin-top:6px}
+  .food{display:flex;gap:13px;background:var(--card);border-radius:16px;overflow:hidden;margin-bottom:12px;box-shadow:0 4px 18px rgba(30,10,25,.08)}
+  .food img{width:112px;min-height:104px;object-fit:cover;flex:0 0 112px}
+  .food .info{padding:11px 12px 11px 0;flex:1}
+  .food h3{font-size:15.5px;font-weight:700;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .flag{font-size:11px;font-weight:800;border-radius:6px;padding:2px 8px}
+  .f1{background:var(--green);color:#fff}.f2{background:var(--amber);color:#fff}.f3{background:var(--red);color:#fff}
+  .stars{font-size:11px;color:var(--amber);font-weight:700}
+  .viral{font-size:10px;font-weight:800;border-radius:6px;padding:2px 7px;background:var(--accent);color:#fff}
+  .food p{font-size:12.5px;color:var(--muted);line-height:1.4;margin-top:5px}
+  .food a{font-size:12.5px;color:var(--accent);text-decoration:none;font-weight:700;display:inline-block;margin-top:6px}
+  .gmaps .step{display:flex;gap:12px;margin-bottom:12px}
+  .gmaps .num{flex:0 0 26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:13px}
+  .gmaps .step p{font-size:13.5px;line-height:1.45;padding-top:3px}
+  .opt{font-size:13px;font-weight:800;color:var(--accent);margin:14px 0 8px;text-transform:uppercase;letter-spacing:.6px}
+  .note{font-size:12px;color:var(--muted);line-height:1.5;margin-top:6px}
+  .footer{margin-top:30px;text-align:center;color:var(--muted);font-size:11.5px;padding:0 30px;line-height:1.5}
+  #planZone{display:none}
+  .extras{background:#fff;border:1px dashed var(--line);border-radius:14px;padding:14px 16px;margin-top:14px}
+  .extras h4{font-size:14px;margin-bottom:6px}
+  .extras p{font-size:12.5px;color:var(--muted);line-height:1.5}
+  .listprev{display:flex;gap:13px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;margin-bottom:12px;align-items:center}
+  .listprev .ic{flex:0 0 52px;height:52px;border-radius:14px;background:var(--card2);display:flex;align-items:center;justify-content:center;font-size:28px}
+  .listprev h3{font-size:15.5px;font-weight:800}
+  .listprev p{font-size:12.5px;color:var(--muted);margin-top:2px}
+
+  .stop{position:relative}
+  .stop .rm{position:absolute;top:8px;right:8px;width:26px;height:26px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--muted);font-size:13px;cursor:pointer;line-height:1}
+  .exrow{display:flex;align-items:center;gap:8px;margin-top:8px}
+  .exrow span{flex:1;font-size:13px;font-weight:600}
+  .exrow select{border:1px solid var(--line);border-radius:8px;padding:6px 8px;font-size:12.5px;background:#fff;color:var(--text)}
+  img.emoji{height:1.15em;width:1.15em;vertical-align:-0.2em}
+  .listprev .ic img.emoji{width:30px;height:30px}
+  .listprev h3 img.emoji{width:20px;height:20px;vertical-align:-0.15em}
+  .listprev .st{margin-left:auto;flex:0 0 auto;font-size:10.5px;font-weight:800;color:var(--amber);background:#fff7e6;border:1px solid #ffe1a3;border-radius:999px;padding:4px 9px}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="logo">Trip<span>io</span></div>
+  <div class="tag">Dime destino y días. Te hago el planning: lo que hay que ver y dónde comer.</div>
+</div>
+<div class="wrap">
+
+  <div class="card config" id="config">
+    <label>Destino</label>
+    <select id="dest" onchange="switchDest()">
+      <option value="roma">🇮🇹 Roma</option>
+      <option value="paris">🇫🇷 París</option>
+    </select>
+    <label>¿Cuántos días vas?</label>
+    <div class="daysrow">
+      <button onclick="chg(-1)">−</button>
+      <div class="n"><span id="ndays">4</span> <small>días</small></div>
+      <button onclick="chg(1)">+</button>
+    </div>
+    <button class="cta" onclick="gen(true)">Generar mi planning</button>
+    <div class="hint">Al cambiar los días el planning se rehace entero por zonas y horas reales: lo que no quepa, sale como extra.</div>
+  </div>
+
+  <div id="planZone">
+    <h2 class="sec" id="planTitle"></h2>
+    <p class="sub" id="planSub"></p>
+    <div class="chips" id="chips"></div>
+    <div class="daymeta" id="dayMeta"></div>
+    <div class="mapbox" id="mapBox"></div>
+    <div id="dayBody"></div>
+    <div class="extras" id="extras" style="display:none"></div>
+
+    <h2 class="sec" id="foodTitle">Dónde comer</h2>
+    <p class="sub" id="foodSub"></p>
+    <div id="foodBody"></div>
+
+    <h2 class="sec" id="mapsTitle">Tus listas en Google Maps</h2>
+    <p class="sub" id="mapsSub">La app te genera dos listas de Google Maps por viaje, separadas y con su icono: una de sitios y otra de comida.</p>
+    <div id="listPrev"></div>
+    <button class="cta" id="btnLists" onclick="genLists()">Crear mis listas de Google Maps</button>
+    <div class="card gmaps">
+      <div class="opt">Cómo llegan a tu Maps</div>
+      <div class="step"><div class="num">1</div><p>Revisa tu planning y déjalo a tu gusto: quita paradas o añade extras a otro día.</p></div>
+      <div class="step"><div class="num">2</div><p>Cuando estés conforme, pulsa el botón: la app genera tus dos listas con tu planning final. <b>Nada se crea hasta que lo pides tú.</b></p></div>
+      <div class="step"><div class="num">3</div><p>Te llega el enlace de cada lista. Lo abres en Google Maps y pulsas <b>Seguir</b>: aparece en tu <b>Guardado</b> y se actualiza si cambias el plan.</p></div>
+      <p class="note">En preparación: las listas las crea y mantiene la cuenta de Google de la app, que todavía no está activada. Cuando lo esté, al pulsar el botón tus listas se generan de verdad en Google Maps. Mientras tanto, cada sitio tiene su enlace <b>Ver en Maps</b> para abrirlo en tu Google Maps.</p>
+    </div>
+  </div>
+
+  <div class="footer">Propuesta de producto · demo con datos reales (octubre 2026)<br>Horarios y precios pueden cambiar: conviene confirmarlos antes de ir.<br>Fotos: Wikimedia Commons (licencias libres) · Lugares y ratings: Google · Precios: Yelp · Virales: guías TikTok 2026 de Plotline</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js"></script>
+<script>
+const DESTS={
+ roma:{
+  name:'Roma', country:'Italia', flag:'🇮🇹', foodicon:'🍝',
+  foodsub:'Los que TikTok no deja de filmar (guía 2026 de Plotline) más algún clásico muy bien valorado. Flag € = nivel de precio en Yelp; ★ = rating en Google. Fotos de archivo de los platos estrella, no de los locales.',
+  sights:[
+ {k:'coliseo', n:'Coliseo', lat:41.8902102, lng:12.4922309, h:2.5, t:'2–3 h', prio:1, d:'El anfiteatro más famoso del mundo. Entrada con fecha y hora; venta oficial en ticketing.colosseo.it.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Colosseum%20of%20Rome%20and%20Roman%20forum.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Colosseum&query_place_id=ChIJrRMgU7ZhLxMRxAOFkC7I8Sg'},
+ {k:'foro', n:'Foro Romano y Palatino', lat:41.8920906, lng:12.4864378, h:2, t:'2 h', prio:2, d:'El corazón de la Roma antigua: templos, arcos y la colina donde nació la ciudad. Misma entrada combinada del Parque.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Foro%20Romano%20Musei%20Capitolini%20Roma.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Roman+Forum&query_place_id=ChIJ782pg7NhLxMR5n3swAdAkfo'},
+ {k:'museos', n:'Museos Vaticanos y Capilla Sixtina', lat:41.9064878, lng:12.4536413, h:4, t:'3–4 h', prio:3, d:'Uno de los museos más grandes del mundo. Entrada online con fecha y hora: tickets.museivaticani.va.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Spiral%20staircase%20in%20the%20Vatican%20Museums%20from%20bottom%2002.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Vatican+Museums&query_place_id=ChIJKcGbg2NgLxMRthZkUqDs4M8'},
+ {k:'panteon', n:'Panteón de Agripa', lat:41.8986108, lng:12.4768729, h:1, t:'1 h', prio:4, d:'La cúpula mejor conservada de la antigüedad. Entrada 7 €; gratis menores de 18 y el primer domingo del mes (web oficial).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Pantheon%20in%20Rome%20%281%29.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Pantheon&query_place_id=ChIJqUCGZ09gLxMRLM42IPpl0co'},
+ {k:'sanpedro', n:'Basílica de San Pedro', lat:41.9021667, lng:12.4539367, h:1.5, t:'1,5 h', prio:5, d:'La iglesia más grande del mundo, con subida a la cúpula.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Peter%27s%20Basilica%20facade%2C%20Rome%2C%20Italy.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Saint+Peter%E2%80%99s+Basilica&query_place_id=ChIJWZsUt2FgLxMRg1KHzXfwS3I'},
+ {k:'trevi', n:'Fontana di Trevi', lat:41.9009325, lng:12.483313, h:0.5, t:'30 min', prio:6, d:'Lanza la moneda. Suele estar más tranquila a primera hora o de noche.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Fontaine%20Trevi%20-%20Rome.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Trevi+Fountain&query_place_id=ChIJ1UCDJ1NgLxMRtrsCzOHxdvY'},
+ {k:'navona', n:'Piazza Navona', lat:41.8991633, lng:12.4730742, h:0.75, t:'45 min', prio:7, d:'La plaza de la Fontana dei Quattro Fiumi de Bernini, con terrazas y artistas.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Piazza%20Navona%20Gange%20fontana%20dei%20Fiumi%20Roma.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Piazza+Navona&query_place_id=ChIJPRydwYNgLxMRSjOCLlYkV6M'},
+ {k:'trastevere', n:'Trastevere', lat:41.8848294, lng:12.4704017, h:2, t:'2 h', prio:8, d:'Pierde la tarde por sus callejones y quédate a cenar por la zona.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Maria%20in%20Trastevere%20church%20in%20Rome%20%2812%29.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Trastevere&query_place_id=ChIJ921caWhgLxMRM_bfeCcgn6M'},
+ {k:'santangelo', n:"Castel Sant'Angelo", lat:41.9030632, lng:12.466276, h:1.5, t:'1,5 h', prio:9, d:'La fortaleza junto al Vaticano y el puente de los ángeles.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/StAngelo%20Bridge%20Rome.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Castel+Sant%27Angelo&query_place_id=ChIJ0aTnEYeKJRMRiUF95xwRbDY'},
+ {k:'patria', n:'Altare della Patria', lat:41.894891, lng:12.4829541, h:0.75, t:'45 min', prio:10, d:'El monumento blanco de Piazza Venezia, con terraza panorámica sobre la ciudad.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Altar%20della%20Patria%20September%202015-1.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Altar+of+the+Fatherland&query_place_id=ChIJTYk8xExgLxMRtf6pDniJ9cg'},
+ {k:'spagna', n:'Piazza di Spagna', lat:41.9056978, lng:12.482327, h:0.75, t:'45 min', prio:11, d:'La escalinata de Trinità dei Monti y las calles de compras alrededor.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Scalinata%20della%20Trinit%C3%A0%20dei%20Monti.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Piazza+di+Spagna&query_place_id=ChIJ4_TEG1VgLxMROFkd29jWdug'},
+ {k:'popolo', n:'Piazza del Popolo', lat:41.9107038, lng:12.4763579, h:0.5, t:'30 min', prio:12, d:'La gran puerta norte de Roma, con el obelisco y la subida al Pincio.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Fontana%20del%20Nettuno%2C%20Piazza%20del%20Popolo%2C%20Rome%2C%20Italie.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Piazza+del+Popolo&query_place_id=ChIJhxbo5fhgLxMRUEPO_f-f7kM'},
+ {k:'borghese', n:'Villa Borghese', lat:41.9138782, lng:12.4853818, h:2, t:'2 h', prio:13, d:'El gran parque de Roma: lago, terraza del Pincio y la Galería Borghese si te va el arte.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Templo%20de%20Asclepio%2C%20Villa%20Borghese%2C%20Roma%2C%20Italia%2C%202022-09-14%2C%20DD%2012.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Villa+Borghese&query_place_id=ChIJj1M8HQJhLxMRRI6D_z18Pes'},
+ {k:'campo', n:"Campo de' Fiori", lat:41.8956045, lng:12.4721757, h:0.5, t:'30 min', prio:14, d:'Mercado por la mañana y ambiente por la noche. Perfecto para el aperitivo.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Campo%20dei%20Fiori.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Campo+de%27+Fiori&query_place_id=ChIJfc8DqVVgLxMRxPIIp3z8CBg'}
+],
+  foods:[
+ {n:'Bonci Pizzarium', f:'€', fc:'f1', g:'4,1', viral:true, lat:41.9066758, lng:12.4466709, d:'La pizza al taglio de Gabriele Bonci, junto al Vaticano. 4,2 en Yelp (600+ reseñas).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Pizza%20al%20taglio.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Bonci+Pizzarium&query_place_id=ChIJr76feHtgLxMRSpUk8Ed4h24'},
+ {n:'Trapizzino Trastevere', f:'€€', fc:'f2', g:'4,6', viral:true, lat:41.891494, lng:12.4698437, d:'Conos de pizza rellenos de guisos de toda la vida, en Piazza Trilussa.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Trapizzino%20-%20Pollo%20alla%20Cacciatora.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Trapizzino+%7C+Trastevere&query_place_id=ChIJhS8gpEdgLxMRYa6Yo9dyRnY'},
+ {n:'Supplizio', f:'€€€', fc:'f3', g:'4,5', lat:41.897487, lng:12.467911, d:'El supplì (croqueta de arroz con corazón de queso) llevado a cocina de autor.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Suppl%C3%AC.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Supplizio&query_place_id=ChIJ0expikRgLxMRKURtjxS0dDc'},
+ {n:'Da Enzo al 29', f:'€€', fc:'f2', g:'4,3', viral:true, lat:41.8880847, lng:12.4778554, d:'Trattoria de barrio en Trastevere. Sin reservas, por orden de llegada (su web oficial).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Spaghetti%20alla%20Carbonara%20%28Madrid%29.JPG?width=800', url:'https://www.google.com/maps/search/?api=1&query=Trattoria+Da+Enzo&query_place_id=ChIJfy613ThgLxMR-Kr1iDROgrU'},
+ {n:'Felice a Testaccio', f:'€€€', fc:'f3', g:'4,3', viral:true, lat:41.8785544, lng:12.4774541, d:'El "cacio e pepe flip" viral: lo emulsionan en tu mesa. 9.400+ reseñas en Google; reserva difícil (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Tonnarelli%20cacio%20e%20pepe.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Felice+a+Testaccio+%7C+ROMA&query_place_id=ChIJ1_AwEC5gLxMRLFf8-EiTRm0'},
+ {n:'Armando al Pantheon', f:'€€', fc:'f2', g:'4,4', lat:41.8990581, lng:12.4761819, d:'Cocina romana desde 1961 junto al Panteón. Reserva solo online (su web oficial).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Spaghetti%2C%20cacio%20e%20pepe%20%26%20bitter%20leaf%20salad%20-%20Tutto%202024-04-04.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Armando+al+Pantheon&query_place_id=ChIJcwb92FFgLxMR_nDe5ODn_ZE'},
+ {n:'Gelateria del Teatro', f:'€', fc:'f1', g:'4,6', lat:41.9004943, lng:12.4694946, d:'Helado artesano en Via dei Coronari, camino de Piazza Navona.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Ice%20cream%20in%20cones.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Gelateria+del+Teatro&query_place_id=ChIJd5qTJltgLxMRBv4VbhbC9nA'},
+ {n:'Roscioli', f:'€€', fc:'f2', g:'4,3', viral:true, lat:41.894256, lng:12.4742417, d:'Salumeria con cucina de culto en Via dei Giubbonari.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Bruschetta%2006%20%28RaBoe%29.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Roscioli+Salumeria+con+Cucina&query_place_id=ChIJ4T6-zEhgLxMRSa1VL3N0DyY'}
+]
+ },
+ paris:{
+  name:'París', country:'Francia', flag:'🇫🇷', foodicon:'🥖',
+  foodsub:'Los que TikTok no deja de filmar (guía 2026 de Plotline). Flag € = nivel de precio en Yelp; ★ = rating en Google. Fotos de archivo de los platos estrella, no de los locales.',
+  sights:[
+ {k:'eiffel', n:'Torre Eiffel', lat:48.8583701, lng:2.2944813, h:2.5, t:'2–3 h', prio:1, d:'El símbolo de París. Entrada con fecha y hora; la cima se agota. Venta oficial en ticket.toureiffel.paris.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Tour_eiffel_at_sunrise_from_the_trocadero.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Eiffel+Tower&query_place_id=ChIJLU7jZClu5kcR4PcOOO6p3I0'},
+ {k:'louvre', n:'Museo del Louvre', lat:48.8606111, lng:2.337644, h:3.5, t:'3–4 h', prio:2, d:'El museo más visitado del mundo: Mona Lisa, Venus de Milo y la pirámide de cristal. Entrada online con hora.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Louvre_Museum_Wikimedia_Commons.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Louvre+Museum&query_place_id=ChIJD3uTd9hx5kcR1IQvGfr8dbk'},
+ {k:'orsay', n:"Museo de Orsay", lat:48.8599614, lng:2.3265614, h:2.5, t:'2–3 h', prio:3, d:'Impresionismo en una antigua estación de tren: Monet, Van Gogh, Degas y su gran reloj.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Paris_-_Mus%C3%A9e_d%27Orsay_-_big_clock_seen_from_the_interior.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+d%27Orsay&query_place_id=ChIJG5Qwtitu5kcR2CNEsYy9cdA'},
+ {k:'notredame', n:'Catedral de Notre-Dame', lat:48.8529682, lng:2.3499021, h:1, t:'1 h', prio:4, d:'Reabierta en diciembre de 2024 tras el incendio. Entrada gratuita con reserva online.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Notre_Dame_Paris_front_facade_lower.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Notre-Dame+Cathedral+of+Paris&query_place_id=ChIJATr1n-Fx5kcRjQb6q6cdQDY'},
+ {k:'chapelle', n:'Sainte-Chapelle', lat:48.855375, lng:2.3449609, h:1, t:'1 h', prio:5, d:'Las vidrieras más espectaculares de París, en la isla de la Cité. Entrada con hora.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Sainte-Chapelle&query_place_id=ChIJR3122B9u5kcRaCck3PlB9DM'},
+ {k:'arco', n:'Arco del Triunfo', lat:48.8737917, lng:2.2950275, h:1, t:'1 h', prio:6, d:'Sube a la terraza para ver la estrella de avenidas y la Torre Eiffel de frente.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Arc_de_Triomphe_de_l%27%C3%89toile_at_night_vertical_fix.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Arc+de+Triomphe&query_place_id=ChIJjx37cOxv5kcRPWQuEW5ntdk'},
+ {k:'eliseos', n:'Campos Elíseos', lat:48.87294, lng:2.2979343, h:1, t:'1 h', prio:7, d:'El paseo más famoso de París, del Arco del Triunfo a la Concorde.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Avenue_des_Champs-Elys%C3%A9es%2C_Paris_12_December_2020.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Champs-%C3%89lys%C3%A9es&query_place_id=ChIJUXgA-MRv5kcR9mSP84enoVo'},
+ {k:'sacre', n:'Sacré-Cœur y Montmartre', lat:48.8867046, lng:2.3431043, h:2, t:'2 h', prio:8, d:'La basílica blanca sobre la colina de los artistas. Las mejores vistas de París al atardecer.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Basilique_du_Sacr%C3%A9-C%C5%93ur_de_Montmartre_-_Paris_-_GT-01_-_2024.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Basilique+du+Sacr%C3%A9-C%C5%93ur+de+Montmartre&query_place_id=ChIJ442GNENu5kcRGYUrvgqHw88'},
+ {k:'tullerias', n:'Jardín de las Tullerías', lat:48.8634916, lng:2.3274943, h:1, t:'1 h', prio:9, d:'El jardín entre el Louvre y la Concorde, perfecto para el descanso entre museos.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Tuileries+Garden&query_place_id=ChIJAQAAMCxu5kcRx--_4QnbGcI'},
+ {k:'orangerie', n:"Museo de l'Orangerie", lat:48.8637884, lng:2.3226724, h:1.5, t:'1,5 h', prio:10, d:'Los Nenúfares de Monet en dos salas ovales. Pequeño y redondo.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Nymph%C3%A9as%2C_le_Matin_aux_saules_%281914-1926%29_de_Claude_Monet_-_Mus%C3%A9e_de_l%27Orangerie.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+de+l%27Orangerie&query_place_id=ChIJo6qq6i5u5kcRCpYBp4rQP9w'},
+ {k:'panteonp', n:'Panteón de París', lat:48.8462218, lng:2.3464138, h:1, t:'1 h', prio:11, d:'La cúpula del Barrio Latino donde descansan Voltaire, Rousseau y Marie Curie.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Paris%2C_Panth%C3%A9on_--_2014_--_1667.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Panth%C3%A9on&query_place_id=ChIJc8mX0udx5kcRWKcjTwDr5QA'},
+ {k:'marais', n:'Le Marais y Place des Vosges', lat:48.8556114, lng:2.3655266, h:1.5, t:'1,5 h', prio:12, d:'El barrio con más encanto: plazas porticadas, tiendas y falafel en Rue des Rosiers.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Paris_3e_Place_des_Vosges_Arcades_896.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Place+des+Vosges&query_place_id=ChIJUeiI4P9x5kcRqEwHl6V32GQ'},
+ {k:'luxemburgo', n:'Jardines de Luxemburgo', lat:48.8466144, lng:2.3363309, h:1, t:'1 h', prio:13, d:'El pulmón de la Rive Gauche: estanque, estatuas y sillas verdes para ver pasar París.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Jardin_du_Luxembourg.JPG?width=800', url:'https://www.google.com/maps/search/?api=1&query=Jardin+du+Luxembourg&query_place_id=ChIJe2jeNttx5kcRi_mJsGHdkQc'},
+ {k:'invalides', n:'Los Inválidos', lat:48.856529, lng:2.3127059, h:1.5, t:'1,5 h', prio:14, d:'La cúpula dorada y la tumba de Napoleón, con el museo del Ejército.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B4tel_des_Invalides_-_20150801_16h09_%2810630%29.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=H%C3%B4tel+des+Invalides&query_place_id=ChIJUzCPuddv5kcRasGAnEUUWkU'}
+],
+  foods:[
+ {n:"L'As du Fallafel", f:'€', fc:'f1', g:'4,3', viral:true, lat:48.8574067, lng:2.3591962, d:'El falafel más famoso de París, en Rue des Rosiers (guía TikTok 2026 de Plotline).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Hummus%2C_falafel%2C_pita_bread%2C_and_mafrouka_at_Agasi%2C_Lajpat_Nagar_%28July_2025%29.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=L%27As+du+Fallafel&query_place_id=ChIJL5QZXQJu5kcRwsTfM6YEA3E'},
+ {n:'Chez Alain Miam Miam', f:'€', fc:'f1', g:'4,1', viral:true, lat:48.8622392, lng:2.3619245, d:'El sándwich gigante del Marché des Enfants Rouges que arrasa en TikTok (guía 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Steak_sandwich_with_onions_and_cheese_on_a_toasted_baguette_-_Massachusetts.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Chez+Alain+Miam+Miam&query_place_id=ChIJq5Q-nQZu5kcRR3WcrGGBKlg'},
+ {n:'Bouillon Chartier', f:'€', fc:'f1', g:'4,1', viral:true, lat:48.8719224, lng:2.3430304, d:'Cocina francesa clásica a precios de 1896 en un salón histórico. Sin reservas, cola rápida.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Steak_Tartare_in_Dresden.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Bouillon+Chartier+Grands+Boulevards&query_place_id=ChIJ4xutfT5u5kcRaJn2NkiOhPU'},
+ {n:'Du Pain et des Idées', f:'€', fc:'f1', g:'4,3', viral:true, lat:48.8712453, lng:2.3628904, d:'Panadería de culto: el pain des amis y las escargots de chocolate y pistacho (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Croissants_au_beurre_%2818953292873%29.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Du+Pain+et+des+Id%C3%A9es&query_place_id=ChIJBTgW_Atu5kcRE1YZZIA4EzQ'},
+ {n:'Pink Mamma', f:'€€', fc:'f2', g:'4,7', viral:true, lat:48.8819469, lng:2.3345309, d:'El italiano de Pigalle con la trufa por bandera y el edificio más fotografiado (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Tagliatelle_Tartufata_at_Wit_and_Wisdom_-_January_2023_-_Sarah_Stierch.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Pink+Mamma&query_place_id=ChIJaYIUUk9u5kcRfAhRNL_ZJgw'},
+ {n:"Le Relais de l'Entrecôte", f:'€€', fc:'f2', g:'4,2', viral:true, lat:48.8546373, lng:2.3327323, d:'Un solo plato: entrecôte con su salsa secreta y patatas. Sin carta ni reservas (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Reel_and_Brand_-_September_2021_-_Sarah_Stierch_05.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Le+Relais+de+l%27Entrec%C3%B4te&query_place_id=ChIJzaRYiNdx5kcRlxQ89kuogt0'},
+ {n:'Breizh Café', f:'€€', fc:'f2', g:'4,3', viral:true, lat:48.8606206, lng:2.3618066, d:'Las galettes bretonas de trigo sarraceno llevadas a cocina de autor, en el Marais.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Galette_bretonne_01.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Breizh+Caf%C3%A9&query_place_id=ChIJly1xVgFu5kcRoruGNAxdAyY'},
+ {n:'Frenchie', f:'€€€', fc:'f3', g:'4,6', viral:true, lat:48.8677099, lng:2.3479183, d:'El bistrot de Gregory Marchand que puso de moda Rue du Nil. Reserva con semanas (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Tournedos_Rossini_1.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Frenchie&query_place_id=ChIJX8C6phdu5kcRA59bbRIGM5M'}
+]
+ }
+};
+let destKey='roma';
+let SIGHTS=DESTS.roma.sights, FOODS=DESTS.roma.foods;
+let days=4, plan=null, cur=0;
+
+function switchDest(){
+  destKey=document.getElementById('dest').value;
+  SIGHTS=DESTS[destKey].sights; FOODS=DESTS[destKey].foods;
+  plan=null; cur=0;
+  document.getElementById('planZone').style.display='none';
+  listsMade=false; resetListsBtn();
+}
+
+const DAY_BUDGET_H=8.5, WALK_MIN_KM=12, MAX_STOPS=6;
+
+function hav(a,b){ const R=6371, dLa=(b.lat-a.lat)*Math.PI/180, dLo=(b.lng-a.lng)*Math.PI/180;
+  const x=Math.sin(dLa/2)**2 + Math.cos(a.lat*Math.PI/180)*Math.cos(b.lat*Math.PI/180)*Math.sin(dLo/2)**2;
+  return 2*R*Math.asin(Math.sqrt(x)); }
+function routeKm(st){ let k=0; for(let i=1;i<st.length;i++) k+=hav(st[i-1],st[i]); return k; }
+function dayCost(st){ return st.reduce((a,s)=>a+s.h,0) + routeKm(st)*WALK_MIN_KM/60; }
+
+function chainOrder(list){
+  const un=list.slice().sort((a,b)=>a.prio-b.prio);
+  const chain=[un.shift()];
+  while(un.length){
+    const last=chain[chain.length-1]; let best=null,bd=1e9;
+    un.forEach(s=>{const d=hav(last,s); if(d<bd){bd=d;best=s;}});
+    chain.push(best); un.splice(un.indexOf(best),1);
+  }
+  return chain;
+}
+function splitPlan(chain,n,budget){
+  const total=chain.reduce((a,s)=>a+s.h,0)+routeKm(chain)*WALK_MIN_KM/60;
+  const target=Math.max(total/n,3.5), cap=Math.min(budget,target*1.25);
+  const out=[]; let cur=[];
+  for(const s of chain){
+    const trial=cur.concat([s]);
+    if(cur.length && dayCost(trial)>cap){ out.push(cur); cur=[s]; } else cur=trial;
+  }
+  if(cur.length) out.push(cur);
+  let guard=30;
+  while(out.length>n && guard-->0){
+    let bi=-1,bc=1e9;
+    for(let i=0;i<out.length-1;i++){const c=dayCost(out[i].concat(out[i+1])); if(c<=budget && c<bc){bc=c;bi=i;}}
+    if(bi<0) break;
+    out.splice(bi,2,out[bi].concat(out[bi+1]));
+  }
+  return out;
+}
+function buildPlan(n){
+  const chain=chainOrder(SIGHTS);
+  const out=[]; let i=0;
+  for(let d=0; d<n && i<chain.length; d++){
+    const day=[chain[i++]];
+    while(i<chain.length && dayCost(day.concat([chain[i]]))<=DAY_BUDGET_H) day.push(chain[i++]);
+    out.push(day);
+  }
+  let extras=chain.slice(i);
+  if(!extras.length && out.length<n) return {days:splitPlan(chain,n,DAY_BUDGET_H), extras};
+  extras.sort((a,b)=>a.prio-b.prio);
+  for(let ei=0; ei<extras.length; ei++){
+    const e=extras[ei]; let best=null;
+    out.forEach((day,di)=>{ day.forEach((s,si)=>{
+      if(s.prio<=e.prio) return;
+      const trial=day.slice(); trial.splice(si,1);
+      for(let p=0;p<=trial.length;p++){
+        const t2=trial.slice(); t2.splice(p,0,e);
+        const c=dayCost(t2);
+        if(c<=DAY_BUDGET_H && (!best||c<best.c)) best={di,si,p,c};
+      }
+    });});
+    if(best){
+      const removed=out[best.di].splice(best.si,1)[0];
+      out[best.di].splice(best.p,0,e);
+      extras[ei]=removed; extras.sort((a,b)=>a.prio-b.prio);
+    }
+  }
+  return {days:out, extras};
+}
+
+function mapSVG(stops){
+  const W=560,H=280,pad=30;
+  const lats=stops.map(s=>s.lat), lngs=stops.map(s=>s.lng);
+  let minLa=Math.min(...lats),maxLa=Math.max(...lats),minLo=Math.min(...lngs),maxLo=Math.max(...lngs);
+  if(maxLa-minLa<0.006){const m=(maxLa+minLa)/2;minLa=m-0.003;maxLa=m+0.003;}
+  if(maxLo-minLo<0.008){const m=(maxLo+minLo)/2;minLo=m-0.004;maxLo=m+0.004;}
+  const px=s=>pad+(s.lng-minLo)/(maxLo-minLo)*(W-2*pad);
+  const py=s=>pad+(maxLa-s.lat)/(maxLa-minLa)*(H-2*pad);
+  let path='M'+stops.map(s=>px(s).toFixed(0)+','+py(s).toFixed(0)).join(' L');
+  let marks=stops.map((s,i)=>'<circle cx="'+px(s)+'" cy="'+py(s)+'" r="12" fill="#ea0558" stroke="#ffffff" stroke-width="2"/><text x="'+px(s)+'" y="'+(py(s)+4)+'" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">'+(i+1)+'</text>').join('');
+  let labels=stops.map((s,i)=>'<text x="'+px(s)+'" y="'+(py(s)-18)+'" text-anchor="middle" font-size="10" fill="#7d7d88">'+s.n.split(' ')[0]+'</text>').join('');
+  return '<svg viewBox="0 0 '+W+' '+(H+18)+'" xmlns="http://www.w3.org/2000/svg"><rect width="'+W+'" height="'+H+'" fill="#eceef4"/><path d="'+path+'" fill="none" stroke="#ea0558" stroke-width="2" stroke-dasharray="5 4" opacity="0.8"/>'+marks+labels+'<text x="8" y="'+(H+12)+'" font-size="10" fill="#a0a0aa">Mapa esquemático · posiciones reales, km a pie en línea recta</text></svg>';
+}
+
+function chg(d){ days=Math.min(7,Math.max(1,days+d)); document.getElementById('ndays').textContent=days; if(plan) gen(false); }
+
+function gen(scroll){
+  document.getElementById('planZone').style.display='block';
+  plan=buildPlan(days);
+  if(cur>=plan.days.length) cur=0;
+  const D=DESTS[destKey];
+  document.getElementById('planTitle').textContent=D.name+' en '+days+(days===1?' día':' días');
+  const chips=document.getElementById('chips'); chips.innerHTML='';
+  plan.days.forEach((_,i)=>{
+    const c=document.createElement('div'); c.className='chip'+(i===cur?' on':''); c.textContent='Día '+(i+1);
+    c.onclick=()=>{cur=i;render();}; chips.appendChild(c);
+  });
+  updatePlanMeta(); render(); renderFood();
+  em();
+  if(scroll) document.getElementById('planTitle').scrollIntoView({behavior:'smooth'});
+}
+
+function render(){
+  const day=plan.days[cur];
+  const h=dayCost(day), km=routeKm(day);
+  document.getElementById('dayMeta').innerHTML='<span><b>'+day.length+' paradas</b></span><span>≈<b>'+h.toFixed(1).replace('.',',')+' h</b> fuera</span><span>≈<b>'+km.toFixed(1).replace('.',',')+' km</b> a pie</span><span>sin comidas ni colas</span>';
+  document.getElementById('mapBox').innerHTML=mapSVG(day);
+  const body=document.getElementById('dayBody'); body.innerHTML='';
+  day.forEach((s,i)=>{
+    const el=document.createElement('div'); el.className='stop';
+    el.innerHTML=(day.length>1?'<button class="rm" onclick="removeStop('+i+')" title="Quitar del día">✕</button>':'')+'<img src="'+s.img+'" alt="'+s.n+'"><div class="info"><h3><span class="ord">'+(i+1)+'</span>'+s.n+'</h3><span class="t">'+s.t+'</span><p>'+s.d+'</p><a href="'+s.url+'" target="_blank">Ver en Maps ↗</a></div>';
+    body.appendChild(el);
+  });
+  const ex=document.getElementById('extras');
+  if(plan.extras.length){
+    ex.style.display='block';
+    let opts=''; plan.days.forEach((_,j)=>{ opts+='<option value="'+j+'">Día '+(j+1)+'</option>'; });
+    ex.innerHTML='<h4>Extras: no entran en '+days+(days===1?' día':' días')+' a este ritmo</h4><p>Quítalos del planning o mételos en el día que quieras:</p>'+plan.extras.map((s,i)=>'<div class="exrow"><span>'+s.n+'</span><select onchange="addExtra('+i+',this.value)"><option value="">Añadir a…</option>'+opts+'</select></div>').join('');
+  } else { ex.style.display='none'; }
+}
+
+function renderFood(){
+  document.getElementById('foodSub').textContent=DESTS[destKey].foodsub;
+  const body=document.getElementById('foodBody'); body.innerHTML='';
+  FOODS.forEach(f=>{
+    const el=document.createElement('div'); el.className='food';
+    el.innerHTML='<img src="'+f.img+'" alt="'+f.n+'"><div class="info"><h3>'+f.n+' <span class="flag '+f.fc+'">'+f.f+'</span> <span class="stars">★ '+f.g+'</span>'+(f.viral?' <span class="viral">TikTok viral</span>':'')+'</h3><p>'+f.d+'</p><a href="'+f.url+'" target="_blank">Ver en Maps ↗</a></div>';
+    body.appendChild(el);
+  });
+}
+
+
+let listsMade=false;
+function updatePlanMeta(){
+  const D=DESTS[destKey];
+  const totalH=plan.days.reduce((a,d)=>a+dayCost(d),0);
+  document.getElementById('planSub').textContent=plan.days.length+' días de planning · '+(SIGHTS.length-plan.extras.length)+' de '+SIGHTS.length+' imprescindibles · ≈'+totalH.toFixed(1).replace('.',',')+' h fuera en total, agrupadas por cercanía real. Horas y km estimados: no incluyen comidas, colas ni esperas.';
+}
+function orderDay(d){
+  if(d.length<2) return;
+  const out=[d[0]]; const rest=d.slice(1);
+  while(rest.length){ let bi=0,bd=1e9; rest.forEach((s,i)=>{ const dd=hav(out[out.length-1],s); if(dd<bd){bd=dd;bi=i;} }); out.push(rest.splice(bi,1)[0]); }
+  d.splice(0,d.length,...out);
+}
+function removeStop(i){
+  const s=plan.days[cur].splice(i,1)[0];
+  plan.extras.push(s); plan.extras.sort((a,b)=>a.prio-b.prio);
+  listsMade=false; resetListsBtn();
+  updatePlanMeta(); render();
+}
+function addExtra(i, dayIdx){
+  if(dayIdx==='') return;
+  const s=plan.extras.splice(i,1)[0];
+  plan.days[dayIdx].push(s); orderDay(plan.days[dayIdx]);
+  cur=dayIdx;
+  listsMade=false; resetListsBtn();
+  const chips=document.getElementById('chips');
+  [...chips.children].forEach((c,j)=>c.className='chip'+(j===cur?' on':''));
+  updatePlanMeta(); render();
+}
+function resetListsBtn(){
+  document.getElementById('listPrev').innerHTML='';
+  document.getElementById('btnLists').textContent='Crear mis listas de Google Maps';
+}
+function em(){ const lp=document.getElementById('listPrev'); if(window.twemoji&&lp) twemoji.parse(lp,{folder:'svg',ext:'.svg'}); }
+function genLists(){
+  const D=DESTS[destKey];
+  const inPlan=plan.days.flat();
+  const el=document.getElementById('listPrev');
+  el.innerHTML=
+   '<div class="listprev"><div class="ic">'+D.flag+'</div><div><h3>'+D.flag+' '+D.country+' · Qué ver</h3><p>'+inPlan.length+' sitios de tu planning final: '+inPlan.slice(0,6).map(s=>s.n).join(' · ')+(inPlan.length>6?' y '+(inPlan.length-6)+' más':'')+'</p></div><span class="st">EN PREPARACIÓN</span></div>'
+  +'<div class="listprev"><div class="ic">'+D.foodicon+'</div><div><h3>'+D.foodicon+' '+D.country+' · Dónde comer</h3><p>'+FOODS.length+' sitios: '+FOODS.slice(0,6).map(f=>f.n).join(' · ')+(FOODS.length>6?' y '+(FOODS.length-6)+' más':'')+'</p></div><span class="st">EN PREPARACIÓN</span></div>'
+  +'<p class="note" style="margin:0 4px 14px">Vista previa: todavía NO se crea nada en Google Maps. Así quedarán tus dos listas en cuanto se active la cuenta de la app; entonces el botón las generará de verdad. Si cambias el planning, pulsa de nuevo y se regeneran.</p>';
+  document.getElementById('btnLists').textContent='↻ Regenerar listas con mi planning actual';
+  listsMade=true;
+  em();
+  el.scrollIntoView({behavior:'smooth'});
+}
+
+const q=new URLSearchParams(location.search);
+const shot=q.get('shot');
+if(q.get('days')){ days=parseInt(q.get('days')); document.getElementById('ndays').textContent=days; }
+if(q.get('day')){ cur=parseInt(q.get('day'))-1; }
+if(q.get('dest') && DESTS[q.get('dest')]){ destKey=q.get('dest'); SIGHTS=DESTS[destKey].sights; FOODS=DESTS[destKey].foods; document.getElementById('dest').value=destKey; }
+if(q.get('mocklists')){ gen(false); genLists(); }
+if(shot && shot!=='home'){
+  gen(false);
+  document.querySelector('.hero').style.display='none';
+  document.getElementById('config').style.display='none';
+  document.querySelector('.footer').style.display='none';
+  const hide=['planTitle','planSub','chips','dayMeta','mapBox','dayBody','extras'];
+  if(shot==='food'||shot==='maps') hide.forEach(id=>document.getElementById(id).style.display='none');
+  if(shot==='maps'){ document.getElementById('foodTitle').style.display='none'; document.getElementById('foodSub').style.display='none'; document.getElementById('foodBody').style.display='none'; }
+}
+</script>
+</body>
+</html>
