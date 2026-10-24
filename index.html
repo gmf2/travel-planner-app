@@ -44,7 +44,7 @@
   .stop .t{display:inline-block;font-size:11px;color:#fff;background:var(--green);border-radius:6px;padding:2px 7px;font-weight:700;margin:5px 0}
   .stop p{font-size:12.5px;color:var(--muted);line-height:1.4}
   .stop a{font-size:12.5px;color:var(--accent);text-decoration:none;font-weight:700;display:inline-block;margin-top:6px}
-  .food{display:flex;gap:13px;background:var(--card);border-radius:16px;overflow:hidden;margin-bottom:12px;box-shadow:0 4px 18px rgba(30,10,25,.08)}
+  .food{position:relative;display:flex;gap:13px;background:var(--card);border-radius:16px;overflow:hidden;margin-bottom:12px;box-shadow:0 4px 18px rgba(30,10,25,.08)}
   .food img{width:112px;min-height:104px;object-fit:cover;flex:0 0 112px}
   .food .info{padding:11px 12px 11px 0;flex:1}
   .food h3{font-size:15.5px;font-weight:700;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
@@ -89,10 +89,10 @@
 
   <div class="card config" id="config">
     <label>Destino</label>
-    <select id="dest" onchange="switchDest()">
-      <option value="roma">🇮🇹 Roma</option>
-      <option value="paris">🇫🇷 París</option>
-    </select>
+    <div class="chips" id="destChips" style="padding-bottom:14px">
+      <div class="chip on" id="dc-roma" onclick="setDest('roma')">🇮🇹 Roma</div>
+      <div class="chip" id="dc-paris" onclick="setDest('paris')">🇫🇷 París</div>
+    </div>
     <label>¿Cuántos días vas?</label>
     <div class="daysrow">
       <button onclick="chg(-1)">−</button>
@@ -117,15 +117,15 @@
     <div id="foodBody"></div>
 
     <h2 class="sec" id="mapsTitle">Tus listas en Google Maps</h2>
-    <p class="sub" id="mapsSub">La app te genera dos listas de Google Maps por viaje, separadas y con su icono: una de sitios y otra de comida.</p>
+    <p class="sub" id="mapsSub">Vista previa de las dos listas de Google Maps que la app generará por viaje cuando esté activa: una de sitios y otra de comida, separadas y con su icono.</p>
     <div id="listPrev"></div>
     <button class="cta" id="btnLists" onclick="genLists()">Crear mis listas de Google Maps</button>
     <div class="card gmaps">
-      <div class="opt">Cómo llegan a tu Maps</div>
-      <div class="step"><div class="num">1</div><p>Revisa tu planning y déjalo a tu gusto: quita paradas o añade extras a otro día.</p></div>
-      <div class="step"><div class="num">2</div><p>Cuando estés conforme, pulsa el botón: la app genera tus dos listas con tu planning final. <b>Nada se crea hasta que lo pides tú.</b></p></div>
-      <div class="step"><div class="num">3</div><p>Te llega el enlace de cada lista. Lo abres en Google Maps y pulsas <b>Seguir</b>: aparece en tu <b>Guardado</b> y se actualiza si cambias el plan.</p></div>
-      <p class="note">En preparación: las listas las crea y mantiene la cuenta de Google de la app, que todavía no está activada. Cuando lo esté, al pulsar el botón tus listas se generan de verdad en Google Maps. Mientras tanto, cada sitio tiene su enlace <b>Ver en Maps</b> para abrirlo en tu Google Maps.</p>
+      <div class="opt">Cómo funcionará</div>
+      <div class="step"><div class="num">1</div><p>Revisa tu planning y déjalo a tu gusto: quita paradas y restaurantes, o añade extras a otro día.</p></div>
+      <div class="step"><div class="num">2</div><p>Cuando estés conforme, pulsa el botón: verás la <b>vista previa exacta</b> de tus dos listas con tu planning final.</p></div>
+      <div class="step"><div class="num">3</div><p><b>Creación en Google Maps: pendiente.</b> Para que el botón cree las listas de verdad hace falta una cuenta de Google para la app y un servicio que procese las solicitudes; ninguno de los dos existe todavía. Cuando exista, al pulsar el botón te llegará el enlace de cada lista para seguirla en tu Maps.</p></div>
+      <p class="note">Importante: las listas creadas no cambian solas si luego editas el planning; solo se tocan cuando vuelves a pulsar el botón. Mientras tanto, cada sitio tiene su enlace <b>Ver en Maps</b> para abrirlo en tu Google Maps.</p>
     </div>
   </div>
 
@@ -167,7 +167,7 @@ const DESTS={
  },
  paris:{
   name:'París', country:'Francia', flag:'🇫🇷', foodicon:'🥖',
-  foodsub:'Los que TikTok no deja de filmar (guía 2026 de Plotline). Flag € = nivel de precio en Yelp; ★ = rating en Google. Fotos de archivo de los platos estrella, no de los locales.',
+  foodsub:'Los que TikTok no deja de filmar (guía 2026 de Plotline). ★ = rating en Google hoy. Fotos de archivo de los platos estrella, no de los locales.',
   sights:[
  {k:'eiffel', n:'Torre Eiffel', lat:48.8583701, lng:2.2944813, h:2.5, t:'2–3 h', prio:1, d:'El símbolo de París. Entrada con fecha y hora; la cima se agota. Venta oficial en ticket.toureiffel.paris.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Tour_eiffel_at_sunrise_from_the_trocadero.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Eiffel+Tower&query_place_id=ChIJLU7jZClu5kcR4PcOOO6p3I0'},
  {k:'louvre', n:'Museo del Louvre', lat:48.8606111, lng:2.337644, h:3.5, t:'3–4 h', prio:2, d:'El museo más visitado del mundo: Mona Lisa, Venus de Milo y la pirámide de cristal. Entrada online con hora.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Louvre_Museum_Wikimedia_Commons.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Louvre+Museum&query_place_id=ChIJD3uTd9hx5kcR1IQvGfr8dbk'},
@@ -185,14 +185,14 @@ const DESTS={
  {k:'invalides', n:'Los Inválidos', lat:48.856529, lng:2.3127059, h:1.5, t:'1,5 h', prio:14, d:'La cúpula dorada y la tumba de Napoleón, con el museo del Ejército.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B4tel_des_Invalides_-_20150801_16h09_%2810630%29.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=H%C3%B4tel+des+Invalides&query_place_id=ChIJUzCPuddv5kcRasGAnEUUWkU'}
 ],
   foods:[
- {n:"L'As du Fallafel", f:'€', fc:'f1', g:'4,3', viral:true, lat:48.8574067, lng:2.3591962, d:'El falafel más famoso de París, en Rue des Rosiers (guía TikTok 2026 de Plotline).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Hummus%2C_falafel%2C_pita_bread%2C_and_mafrouka_at_Agasi%2C_Lajpat_Nagar_%28July_2025%29.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=L%27As+du+Fallafel&query_place_id=ChIJL5QZXQJu5kcRwsTfM6YEA3E'},
- {n:'Chez Alain Miam Miam', f:'€', fc:'f1', g:'4,1', viral:true, lat:48.8622392, lng:2.3619245, d:'El sándwich gigante del Marché des Enfants Rouges que arrasa en TikTok (guía 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Steak_sandwich_with_onions_and_cheese_on_a_toasted_baguette_-_Massachusetts.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Chez+Alain+Miam+Miam&query_place_id=ChIJq5Q-nQZu5kcRR3WcrGGBKlg'},
- {n:'Bouillon Chartier', f:'€', fc:'f1', g:'4,1', viral:true, lat:48.8719224, lng:2.3430304, d:'Cocina francesa clásica a precios de 1896 en un salón histórico. Sin reservas, cola rápida.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Steak_Tartare_in_Dresden.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Bouillon+Chartier+Grands+Boulevards&query_place_id=ChIJ4xutfT5u5kcRaJn2NkiOhPU'},
- {n:'Du Pain et des Idées', f:'€', fc:'f1', g:'4,3', viral:true, lat:48.8712453, lng:2.3628904, d:'Panadería de culto: el pain des amis y las escargots de chocolate y pistacho (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Croissants_au_beurre_%2818953292873%29.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Du+Pain+et+des+Id%C3%A9es&query_place_id=ChIJBTgW_Atu5kcRE1YZZIA4EzQ'},
- {n:'Pink Mamma', f:'€€', fc:'f2', g:'4,7', viral:true, lat:48.8819469, lng:2.3345309, d:'El italiano de Pigalle con la trufa por bandera y el edificio más fotografiado (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Tagliatelle_Tartufata_at_Wit_and_Wisdom_-_January_2023_-_Sarah_Stierch.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Pink+Mamma&query_place_id=ChIJaYIUUk9u5kcRfAhRNL_ZJgw'},
- {n:"Le Relais de l'Entrecôte", f:'€€', fc:'f2', g:'4,2', viral:true, lat:48.8546373, lng:2.3327323, d:'Un solo plato: entrecôte con su salsa secreta y patatas. Sin carta ni reservas (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Reel_and_Brand_-_September_2021_-_Sarah_Stierch_05.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Le+Relais+de+l%27Entrec%C3%B4te&query_place_id=ChIJzaRYiNdx5kcRlxQ89kuogt0'},
- {n:'Breizh Café', f:'€€', fc:'f2', g:'4,3', viral:true, lat:48.8606206, lng:2.3618066, d:'Las galettes bretonas de trigo sarraceno llevadas a cocina de autor, en el Marais.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Galette_bretonne_01.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Breizh+Caf%C3%A9&query_place_id=ChIJly1xVgFu5kcRoruGNAxdAyY'},
- {n:'Frenchie', f:'€€€', fc:'f3', g:'4,6', viral:true, lat:48.8677099, lng:2.3479183, d:'El bistrot de Gregory Marchand que puso de moda Rue du Nil. Reserva con semanas (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Tournedos_Rossini_1.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Frenchie&query_place_id=ChIJX8C6phdu5kcRA59bbRIGM5M'}
+ {n:"L'As du Fallafel", g:'4,3', viral:true, lat:48.8574067, lng:2.3591962, d:'El falafel más famoso de París, en Rue des Rosiers (guía TikTok 2026 de Plotline).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Hummus%2C_falafel%2C_pita_bread%2C_and_mafrouka_at_Agasi%2C_Lajpat_Nagar_%28July_2025%29.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=L%27As+du+Fallafel&query_place_id=ChIJL5QZXQJu5kcRwsTfM6YEA3E'},
+ {n:'Chez Alain Miam Miam', g:'4,1', viral:true, lat:48.8622392, lng:2.3619245, d:'El sándwich gigante del Marché des Enfants Rouges que arrasa en TikTok (guía 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Steak_sandwich_with_onions_and_cheese_on_a_toasted_baguette_-_Massachusetts.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Chez+Alain+Miam+Miam&query_place_id=ChIJq5Q-nQZu5kcRR3WcrGGBKlg'},
+ {n:'Bouillon Chartier', g:'4,1', viral:true, lat:48.8719224, lng:2.3430304, d:'Cocina francesa clásica a precios de 1896 en un salón histórico. Sin reservas, cola rápida.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Steak_Tartare_in_Dresden.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Bouillon+Chartier+Grands+Boulevards&query_place_id=ChIJ4xutfT5u5kcRaJn2NkiOhPU'},
+ {n:'Du Pain et des Idées', g:'4,3', viral:true, lat:48.8712453, lng:2.3628904, d:'Panadería de culto: el pain des amis y las escargots de chocolate y pistacho (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Croissants_au_beurre_%2818953292873%29.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Du+Pain+et+des+Id%C3%A9es&query_place_id=ChIJBTgW_Atu5kcRE1YZZIA4EzQ'},
+ {n:'Pink Mamma', g:'4,7', viral:true, lat:48.8819469, lng:2.3345309, d:'El italiano de Pigalle con la trufa por bandera y el edificio más fotografiado (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Tagliatelle_Tartufata_at_Wit_and_Wisdom_-_January_2023_-_Sarah_Stierch.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Pink+Mamma&query_place_id=ChIJaYIUUk9u5kcRfAhRNL_ZJgw'},
+ {n:"Le Relais de l'Entrecôte", g:'4,2', viral:true, lat:48.8546373, lng:2.3327323, d:'Un solo plato: entrecôte con su salsa secreta y patatas. Sin carta ni reservas (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Reel_and_Brand_-_September_2021_-_Sarah_Stierch_05.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Le+Relais+de+l%27Entrec%C3%B4te&query_place_id=ChIJzaRYiNdx5kcRlxQ89kuogt0'},
+ {n:'Breizh Café', g:'4,3', viral:true, lat:48.8606206, lng:2.3618066, d:'Las galettes bretonas de trigo sarraceno llevadas a cocina de autor, en el Marais.', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Galette_bretonne_01.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Breizh+Caf%C3%A9&query_place_id=ChIJly1xVgFu5kcRoruGNAxdAyY'},
+ {n:'Frenchie', g:'4,6', viral:true, lat:48.8677099, lng:2.3479183, d:'El bistrot de Gregory Marchand que puso de moda Rue du Nil. Reserva con semanas (guía TikTok 2026).', img:'https://commons.wikimedia.org/wiki/Special:FilePath/Tournedos_Rossini_1.jpg?width=800', url:'https://www.google.com/maps/search/?api=1&query=Frenchie&query_place_id=ChIJX8C6phdu5kcRA59bbRIGM5M'}
 ]
  }
 };
@@ -200,12 +200,15 @@ let destKey='roma';
 let SIGHTS=DESTS.roma.sights, FOODS=DESTS.roma.foods;
 let days=4, plan=null, cur=0;
 
-function switchDest(){
-  destKey=document.getElementById('dest').value;
-  SIGHTS=DESTS[destKey].sights; FOODS=DESTS[destKey].foods;
-  plan=null; cur=0;
+function setDest(k){
+  destKey=k;
+  SIGHTS=DESTS[k].sights; FOODS=DESTS[k].foods;
+  plan=null; cur=0; listsMade=false;
+  document.getElementById('dc-roma').className='chip'+(k==='roma'?' on':'');
+  document.getElementById('dc-paris').className='chip'+(k==='paris'?' on':'');
   document.getElementById('planZone').style.display='none';
-  listsMade=false; resetListsBtn();
+  resetListsBtn();
+  em();
 }
 
 const DAY_BUDGET_H=8.5, WALK_MIN_KM=12, MAX_STOPS=6;
@@ -331,7 +334,7 @@ function renderFood(){
   const body=document.getElementById('foodBody'); body.innerHTML='';
   FOODS.forEach(f=>{
     const el=document.createElement('div'); el.className='food';
-    el.innerHTML='<img src="'+f.img+'" alt="'+f.n+'"><div class="info"><h3>'+f.n+' <span class="flag '+f.fc+'">'+f.f+'</span> <span class="stars">★ '+f.g+'</span>'+(f.viral?' <span class="viral">TikTok viral</span>':'')+'</h3><p>'+f.d+'</p><a href="'+f.url+'" target="_blank">Ver en Maps ↗</a></div>';
+    el.innerHTML='<button class="rm" onclick="removeFood('+FOODS.indexOf(f)+')" title="Quitar de la lista">✕</button><img src="'+f.img+'" alt="'+f.n+'"><div class="info"><h3>'+f.n+' <span class="stars">★ '+f.g+'</span>'+(f.f?' <span class="flag '+f.fc+'">'+f.f+'</span>':'')+(f.viral?' <span class="viral">TikTok viral</span>':'')+'</h3><p>'+f.d+'</p><a href="'+f.url+'" target="_blank">Ver en Maps ↗</a></div>';
     body.appendChild(el);
   });
 }
@@ -365,11 +368,18 @@ function addExtra(i, dayIdx){
   [...chips.children].forEach((c,j)=>c.className='chip'+(j===cur?' on':''));
   updatePlanMeta(); render();
 }
+
+function removeFood(i){
+  FOODS.splice(i,1);
+  listsMade=false; resetListsBtn();
+  renderFood();
+}
+
 function resetListsBtn(){
   document.getElementById('listPrev').innerHTML='';
   document.getElementById('btnLists').textContent='Crear mis listas de Google Maps';
 }
-function em(){ const lp=document.getElementById('listPrev'); if(window.twemoji&&lp) twemoji.parse(lp,{folder:'svg',ext:'.svg'}); }
+function em(){ if(!window.twemoji) return; ['listPrev','destChips'].forEach(id=>{ const el2=document.getElementById(id); if(el2) twemoji.parse(el2,{folder:'svg',ext:'.svg'}); }); }
 function genLists(){
   const D=DESTS[destKey];
   const inPlan=plan.days.flat();
@@ -377,7 +387,7 @@ function genLists(){
   el.innerHTML=
    '<div class="listprev"><div class="ic">'+D.flag+'</div><div><h3>'+D.flag+' '+D.country+' · Qué ver</h3><p>'+inPlan.length+' sitios de tu planning final: '+inPlan.slice(0,6).map(s=>s.n).join(' · ')+(inPlan.length>6?' y '+(inPlan.length-6)+' más':'')+'</p></div><span class="st">EN PREPARACIÓN</span></div>'
   +'<div class="listprev"><div class="ic">'+D.foodicon+'</div><div><h3>'+D.foodicon+' '+D.country+' · Dónde comer</h3><p>'+FOODS.length+' sitios: '+FOODS.slice(0,6).map(f=>f.n).join(' · ')+(FOODS.length>6?' y '+(FOODS.length-6)+' más':'')+'</p></div><span class="st">EN PREPARACIÓN</span></div>'
-  +'<p class="note" style="margin:0 4px 14px">Vista previa: todavía NO se crea nada en Google Maps. Así quedarán tus dos listas en cuanto se active la cuenta de la app; entonces el botón las generará de verdad. Si cambias el planning, pulsa de nuevo y se regeneran.</p>';
+  +'<p class="note" style="margin:0 4px 14px">Vista previa: todavía NO se crea nada en Google Maps. Así quedarían tus dos listas; la creación real está pendiente del servicio que las procese. Si editas el planning, pulsa de nuevo el botón para actualizar esta vista previa.</p>';
   document.getElementById('btnLists').textContent='↻ Regenerar listas con mi planning actual';
   listsMade=true;
   em();
@@ -388,8 +398,9 @@ const q=new URLSearchParams(location.search);
 const shot=q.get('shot');
 if(q.get('days')){ days=parseInt(q.get('days')); document.getElementById('ndays').textContent=days; }
 if(q.get('day')){ cur=parseInt(q.get('day'))-1; }
-if(q.get('dest') && DESTS[q.get('dest')]){ destKey=q.get('dest'); SIGHTS=DESTS[destKey].sights; FOODS=DESTS[destKey].foods; document.getElementById('dest').value=destKey; }
+if(q.get('dest') && DESTS[q.get('dest')]){ setDest(q.get('dest')); }
 if(q.get('mocklists')){ gen(false); genLists(); }
+em();
 if(shot && shot!=='home'){
   gen(false);
   document.querySelector('.hero').style.display='none';
