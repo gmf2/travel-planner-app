@@ -16,9 +16,6 @@ jobs:
           - name: Ministral3-3B-Q4-native
             url: https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF/resolve/eb599d408350ea2bb60452cb86be7c7b2fc28227/Ministral-3-3B-Instruct-2512-Q4_K_M.gguf
             native: ON
-          - name: Ministral3-8B-Q4-native
-            url: https://huggingface.co/unsloth/Ministral-3-8B-Instruct-2512-GGUF/resolve/3731507ec3e867db16d620f73e14d689125758f4/Ministral-3-8B-Instruct-2512-Q4_K_M.gguf
-            native: ON
           - name: Ministral3-8B-Q4-portable
             url: https://huggingface.co/unsloth/Ministral-3-8B-Instruct-2512-GGUF/resolve/3731507ec3e867db16d620f73e14d689125758f4/Ministral-3-8B-Instruct-2512-Q4_K_M.gguf
             native: OFF
@@ -54,14 +51,22 @@ jobs:
            except Exception:time.sleep(1)
           else:raise RuntimeError('server-not-ready')
           rows=[]
+          def post(path,payload):
+           req=urllib.request.Request('http://127.0.0.1:8080'+path,data=json.dumps(payload).encode(),headers={'Content-Type':'application/json'});return json.load(urllib.request.urlopen(req,timeout=600))
+          smoke=post('/completion',{'prompt':'Return the JSON object with ok true, no other words.','json_schema':{'type':'object','properties':{'ok':{'const':True}},'required':['ok'],'additionalProperties':False},'n_predict':50,'temperature':0})
+          (out/'schema-smoke.json').write_text(json.dumps(smoke,indent=2))
+          if json.loads(smoke['content'])!={'ok':True}:raise RuntimeError('schema-smoke-failed')
           for c in cases:
            start=time.monotonic();status='done';raw={};answer=None;accepted=[];rejected=[]
-           payload={'messages':[{'role':'system','content':system},{'role':'user','content':c['text']}],'temperature':0,'seed':42,'max_tokens':2200,'response_format':{'type':'json_schema','json_schema':{'name':'tripio_evidence','strict':True,'schema':schema}},'chat_template_kwargs':{'enable_thinking':False}}
+           messages=[{'role':'system','content':system+' Required JSON schema: '+json.dumps(schema)},{'role':'user','content':c['text']}]
            try:
-            req=urllib.request.Request('http://127.0.0.1:8080/v1/chat/completions',data=json.dumps(payload).encode(),headers={'Content-Type':'application/json'})
-            raw=json.load(urllib.request.urlopen(req,timeout=600));text=raw['choices'][0]['message']['content'].strip();text=text[7:-3].strip() if text.startswith('```json') and text.endswith('```') else text;answer=json.loads(text)
+            formatted=post('/apply-template',{'messages':messages,'chat_template_kwargs':{'enable_thinking':False}})
+            raw=post('/completion',{'prompt':formatted['prompt'],'temperature':0,'seed':42,'n_predict':2200,'json_schema':schema})
+            answer=json.loads(raw['content'])
            except urllib.error.HTTPError as ex:status='http:'+ex.read().decode()
            except Exception as ex:status='error:'+str(ex)
+           if not isinstance(answer,dict) or not isinstance(answer.get('activities'),list):
+            status='schema-root-invalid';rejected.append({'raw':answer,'issues':['schema-root-invalid']})
            if isinstance(answer,dict) and isinstance(answer.get('activities'),list):
             for a in answer['activities']:
              issues=[]
