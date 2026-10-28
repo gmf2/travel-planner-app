@@ -1,0 +1,1437 @@
+{
+  "schemaVersion": 1,
+  "country": "PL",
+  "id": "poznan",
+  "name": "Poznań",
+  "localName": "Poznań",
+  "selectionReason": "Orígenes de Polonia y patrimonio propio; quinta entre seis comparadas en huéspedes hoteleros GUS 2025, no quinta por población.",
+  "reviewedAt": "2026-10-28",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita cultural y ritmo moderado. La carga por día es una estimación editorial con comida, pausas y desplazamientos, no un horario comprobado. Las paradas exteriores no implican entrar en todos los edificios. Ajustar a entradas y fecha real.",
+  "stops": [
+    {
+      "id": "rynek",
+      "name": "Stary Rynek y ayuntamiento exterior",
+      "kind": "zone",
+      "zone": "Casco antiguo",
+      "reason": "Núcleo renacentista y mejor introducción urbana.",
+      "sourceIds": [
+        "official",
+        "lp",
+        "plan"
+      ],
+      "coordinates": {
+        "lat": 52.4083,
+        "lon": 16.9336
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Old_Market_Square,_Pozna%C5%84",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Museo interior: avisos contradictorios de reforma. No se presenta abierto.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/poznan-rynek.jpg",
+        "author": "Historia3012",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Stary_Rynek_Pozna%C5%84.jpg"
+      }
+    },
+    {
+      "id": "fara",
+      "name": "Basílica Fara",
+      "kind": "visit",
+      "zone": "Casco antiguo",
+      "reason": "Interior barroco a pasos del mercado, sin desvío de zona.",
+      "sourceIds": [
+        "plan",
+        "lp"
+      ],
+      "coordinates": {
+        "lat": 52.40611111,
+        "lon": 16.93416667
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Pozna%C5%84_Fara",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Respetar culto; conciertos sólo con horario confirmado.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/poznan-fara.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Iglesia_colegial_de_Poznan,_Poznan,_Polonia,_2014-09-18,_DD_14.jpg"
+      }
+    },
+    {
+      "id": "cathedral",
+      "name": "Ostrów Tumski y catedral",
+      "kind": "visit",
+      "zone": "Isla de la Catedral",
+      "reason": "Orígenes del Estado polaco más allá de la plaza.",
+      "sourceIds": [
+        "official",
+        "lp",
+        "iyp"
+      ],
+      "coordinates": {
+        "lat": 52.41138889,
+        "lon": 16.94777778
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Pozna%C5%84_Cathedral",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/poznan-cathedral.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Catedral_de_Poznan,_Poznan,_Polonia,_2014-09-18,_DD_10.jpg"
+      }
+    },
+    {
+      "id": "porta",
+      "name": "Porta Posnania",
+      "kind": "museum",
+      "zone": "Isla de la Catedral y Śródka",
+      "reason": "Interpretación del origen de la ciudad junto a los lugares históricos.",
+      "sourceIds": [
+        "official",
+        "lp",
+        "plan"
+      ],
+      "coordinates": {
+        "lat": 52.41232,
+        "lon": 16.95162
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Porta_Posnania",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/poznan-porta.jpg",
+        "author": "Ijanczuk",
+        "license": "CC BY 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pozna%C5%84,_Brama_Poznania_(straighten).jpg"
+      }
+    },
+    {
+      "id": "srodka",
+      "name": "Śródka y mural",
+      "kind": "zone",
+      "zone": "Śródka",
+      "reason": "Cierre corto del paseo de la catedral, no otro gran bloque.",
+      "sourceIds": [
+        "lp",
+        "plan"
+      ],
+      "coordinates": {
+        "lat": 52.4108,
+        "lon": 16.9538
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/%C5%9Ar%C3%B3dka,_Pozna%C5%84",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/poznan-srodka.jpg",
+        "author": "Autor en fuente",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw_Ma%C5%82gorzaty_Pozna%C5%84_RB2.JPG"
+      }
+    },
+    {
+      "id": "enigma",
+      "name": "Centro de Cifrado Enigma",
+      "kind": "museum",
+      "zone": "Barrio Imperial",
+      "reason": "Visita singular con contenido propio; prioridad frente a añadir centros comerciales.",
+      "sourceIds": [
+        "official",
+        "lp"
+      ],
+      "coordinates": {
+        "lat": 52.40763,
+        "lon": 16.91975
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Enigma_Cipher_Centre",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/poznan-enigma.jpg",
+        "author": "Łukasz Gdak",
+        "license": "CC0",
+        "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Collegium_Martineum.jpg"
+      }
+    },
+    {
+      "id": "castle",
+      "name": "Castillo Imperial y entorno",
+      "kind": "visit",
+      "zone": "Barrio Imperial",
+      "reason": "Otra época junto a Enigma, evitando traslados innecesarios.",
+      "sourceIds": [
+        "official",
+        "plan"
+      ],
+      "coordinates": {
+        "lat": 52.40777778,
+        "lon": 16.91916667
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Imperial_Castle,_Pozna%C5%84",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Interiores y programa cultural dependen de apertura.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/poznan-castle.jpg",
+        "author": "Błażej Cisowski",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Zamek_cesarski_w_Poznaniu_01.JPG"
+      }
+    },
+    {
+      "id": "citadel",
+      "name": "Parque de la Ciudadela",
+      "kind": "park",
+      "zone": "Norte del centro",
+      "reason": "Verde, memoria militar y descanso.",
+      "sourceIds": [
+        "official",
+        "lp",
+        "summer"
+      ],
+      "coordinates": {
+        "lat": 52.421111,
+        "lon": 16.935278
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Park_Cytadela",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/poznan-citadel.jpg",
+        "author": "Rzuwig",
+        "license": "CC BY 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cytadela_Pozna%C5%84_wej%C5%9Bcie_g%C5%82%C3%B3wne.jpg"
+      }
+    },
+    {
+      "id": "malta",
+      "name": "Lago Malta",
+      "kind": "park",
+      "zone": "Este de Poznań",
+      "reason": "Alternativa veraniega para quien prefiera naturaleza.",
+      "sourceIds": [
+        "summer",
+        "plan"
+      ],
+      "coordinates": {
+        "lat": 52.4025,
+        "lon": 16.97083333
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Lake_Malta",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "No prometer tren Maltanka en invierno ni temporada futura sin calendario.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/poznan-malta.jpg",
+        "author": "Autor en fuente",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Malta_Trybuny_Pozna%C5%84_RB1.JPG"
+      }
+    },
+    {
+      "id": "freedom",
+      "name": "Plac Wolności y Biblioteca Raczyński",
+      "kind": "visit",
+      "zone": "Centro del siglo XIX",
+      "reason": "Comienzo de la ruta hacia el barrio Imperial; biblioteca por fuera, no otra visita de museo.",
+      "sourceIds": [
+        "nineteenth"
+      ],
+      "coordinates": {
+        "lat": 52.408111,
+        "lon": 16.927611
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Plac_Wolno%C5%9Bci_w_Poznaniu",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/poznan-freedom.jpg",
+        "author": "WrS.tm.pl",
+        "license": "Public domain",
+        "licenseURL": "",
+        "source": "https://commons.wikimedia.org/wiki/File:20260519_104216_Freedom_Square_in_Pozna%C5%84.jpg"
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Casco antiguo y origen de Polonia",
+          "zone": "Casco antiguo y Ostrów Tumski",
+          "stopIds": [
+            "rynek",
+            "fara",
+            "cathedral",
+            "srodka"
+          ],
+          "editorialNote": "Paseo con pausas. Porta Posnania sustituye parte del paseo si se elige hoy; no sumar todos los interiores.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "rynek",
+              "toId": "fara",
+              "straightLineKm": 0.25,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "fara",
+              "toId": "cathedral",
+              "straightLineKm": 1.09,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "cathedral",
+              "toId": "srodka",
+              "straightLineKm": 0.41,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6–7 h con comida y paseo entre casco antiguo, catedral y Śródka; no sumar Porta hoy."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Casco antiguo y origen de Polonia",
+          "zone": "Casco antiguo y Ostrów Tumski",
+          "stopIds": [
+            "rynek",
+            "fara",
+            "cathedral",
+            "srodka"
+          ],
+          "editorialNote": "Paseo con pausas. Porta Posnania sustituye parte del paseo si se elige hoy; no sumar todos los interiores.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "rynek",
+              "toId": "fara",
+              "straightLineKm": 0.25,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "fara",
+              "toId": "cathedral",
+              "straightLineKm": 1.09,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "cathedral",
+              "toId": "srodka",
+              "straightLineKm": 0.41,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6–7 h con comida y paseo entre casco antiguo, catedral y Śródka; no sumar Porta hoy."
+        },
+        {
+          "title": "Código e historia imperial",
+          "zone": "Święty Marcin y barrio Imperial",
+          "stopIds": [
+            "freedom",
+            "enigma",
+            "castle"
+          ],
+          "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "freedom",
+              "toId": "enigma",
+              "straightLineKm": 0.54,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "enigma",
+              "toId": "castle",
+              "straightLineKm": 0.04,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Casco antiguo y origen de Polonia",
+          "zone": "Casco antiguo y Ostrów Tumski",
+          "stopIds": [
+            "rynek",
+            "fara",
+            "cathedral",
+            "srodka"
+          ],
+          "editorialNote": "Paseo con pausas. Porta Posnania sustituye parte del paseo si se elige hoy; no sumar todos los interiores.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "rynek",
+              "toId": "fara",
+              "straightLineKm": 0.25,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "fara",
+              "toId": "cathedral",
+              "straightLineKm": 1.09,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "cathedral",
+              "toId": "srodka",
+              "straightLineKm": 0.41,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6–7 h con comida y paseo entre casco antiguo, catedral y Śródka; no sumar Porta hoy."
+        },
+        {
+          "title": "Código e historia imperial",
+          "zone": "Święty Marcin y barrio Imperial",
+          "stopIds": [
+            "freedom",
+            "enigma",
+            "castle"
+          ],
+          "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "freedom",
+              "toId": "enigma",
+              "straightLineKm": 0.54,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "enigma",
+              "toId": "castle",
+              "straightLineKm": 0.04,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
+        },
+        {
+          "title": "Patrimonio y verde",
+          "zone": "Porta Posnania y norte del centro",
+          "stopIds": [
+            "porta",
+            "citadel"
+          ],
+          "editorialNote": "Porta explica la isla histórica ya vista el primer día: profundización museística, no repetir la catedral. Después de comer, transporte a Ciudadela para recorrer parque y vestigios de la fortaleza. Malta sustituye Ciudadela si se prefiere lago en verano.",
+          "optionalStopIds": [
+            "malta"
+          ],
+          "geographyChecks": [
+            {
+              "fromId": "porta",
+              "toId": "citadel",
+              "straightLineKm": 1.48,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 5–6 h con comida y traslado. Es un tercer día más pausado, no una lista de museos."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Ciudadela o Malta al aire libre. Maltanka es estacional y necesita calendario del año de viaje; no se activa por defecto.",
+      "sourceIds": [
+        "summer"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": [
+        "citadel",
+        "malta"
+      ]
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Enigma y Porta sostienen el plan. Recortar parque con tiempo adverso y no incluir palmeral durante la reforma prevista.",
+      "sourceIds": [
+        "winter",
+        "palm"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad 2026",
+      "advice": "Betlejem es opción estacional real, pero el organizador consultado aún muestra 2025-26. No confirmar aquí fechas 2026-27 ni activar evento fechado.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Alternar casco antiguo, catedral e interiores; parques según tiempo. Palmeral fuera hasta confirmar reapertura.",
+      "sourceIds": [
+        "palm",
+        "plan"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": []
+    }
+  },
+  "events": [
+    {
+      "id": "market",
+      "name": "Betlejem Poznańskie",
+      "kind": "event",
+      "startDate": null,
+      "endDate": null,
+      "sourceId": "christmas",
+      "location": "Plac Wolności / Stary Rynek",
+      "status": "unverified-current-edition",
+      "closedDates": [],
+      "note": "Web sigue mostrando 2025-26. No convertir agregadores en confirmación oficial.",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-28"
+    }
+  ],
+  "cautions": [
+    "Palmeral: turismo oficial avisa de cierre por reforma desde 2026. No incluido.",
+    "Museo del ayuntamiento: guía local anuncia cierre 2026-27, ficha oficial conserva reapertura 2024. Exterior sí, interior por confirmar.",
+    "No se garantizan horarios de cabritos ni del Museo del Cruasán."
+  ],
+  "excludedOrOptional": [
+    "Museo del Cruasán: alternativa cultural-gastronómica con reserva, no visita monumental obligatoria.",
+    "Gniezno y Rogalin: excursiones aparte, no parte del plan urbano."
+  ],
+  "sources": [
+    {
+      "id": "official",
+      "title": "Turismo de Poznań: diez visitas",
+      "url": "https://visitpoznan.pl/index.php/en/poznan-top-10",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "plan",
+      "title": "Odkrywaj Poznań: itinerarios",
+      "url": "https://odkrywajpoznan.pl/en/plans",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "lp",
+      "title": "Lonely Planet: Poznań y alrededores",
+      "url": "https://www.lonelyplanet.com/articles/five-day-intinerary-poznan",
+      "type": "editorial",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "iyp",
+      "title": "In Your Pocket: Poznań",
+      "url": "https://www.inyourpocket.com/poland/poznan",
+      "type": "editorial",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "summer",
+      "title": "Turismo: verano 2026",
+      "url": "https://visitpoznan.pl/en/summer-2026-in-poznan",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "winter",
+      "title": "Turismo: invierno",
+      "url": "https://visitpoznan.pl/en/winter-in-poznan",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "palm",
+      "title": "Turismo: cierre previsto del palmeral",
+      "url": "https://visitpoznan.pl/en/poznan-palm-house",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "townhall",
+      "title": "Turismo: museo del ayuntamiento",
+      "url": "https://visitpoznan.pl/en/the-town-hall-museum-of-poznan",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "alert",
+      "title": "Guía local: avisos de cierres",
+      "url": "https://odkrywajpoznan.pl/en/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "christmas",
+      "title": "Organizador: Betlejem, web aún 2025-26",
+      "url": "https://betlejempoznanskie.pl/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "nineteenth",
+      "title": "Turismo: ruta del siglo XIX",
+      "url": "https://visitpoznan.pl/en/-19th-century-poznan-audio-guide",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {
+    "summer": {
+      "mode": "editorial",
+      "note": "Ciudadela o Malta al aire libre. Maltanka es estacional y necesita calendario del año de viaje; no se activa por defecto."
+    },
+    "winter": {
+      "mode": "editorial",
+      "excludeStopIds": [],
+      "note": "Enigma y Porta sostienen el plan. Recortar parque con tiempo adverso y no incluir palmeral durante la reforma prevista."
+    },
+    "christmas": {
+      "mode": "dated-events-and-winter",
+      "excludeStopIds": [],
+      "note": "Betlejem es opción estacional real, pero el organizador consultado aún muestra 2025-26. No confirmar aquí fechas 2026-27 ni activar evento fechado."
+    }
+  },
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco antiguo y origen de Polonia",
+            "zone": "Casco antiguo y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "fara",
+              "cathedral",
+              "srodka"
+            ],
+            "editorialNote": "Paseo con pausas. Porta Posnania sustituye parte del paseo si se elige hoy; no sumar todos los interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "fara",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "fara",
+                "toId": "cathedral",
+                "straightLineKm": 1.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "cathedral",
+                "toId": "srodka",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo entre casco antiguo, catedral y Śródka; no sumar Porta hoy."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco antiguo y origen de Polonia",
+            "zone": "Casco antiguo y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "fara",
+              "cathedral",
+              "srodka"
+            ],
+            "editorialNote": "Paseo con pausas. Porta Posnania sustituye parte del paseo si se elige hoy; no sumar todos los interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "fara",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "fara",
+                "toId": "cathedral",
+                "straightLineKm": 1.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "cathedral",
+                "toId": "srodka",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo entre casco antiguo, catedral y Śródka; no sumar Porta hoy."
+          },
+          {
+            "title": "Código e historia imperial",
+            "zone": "Święty Marcin y barrio Imperial",
+            "stopIds": [
+              "freedom",
+              "enigma",
+              "castle"
+            ],
+            "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "freedom",
+                "toId": "enigma",
+                "straightLineKm": 0.54,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "enigma",
+                "toId": "castle",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco antiguo y origen de Polonia",
+            "zone": "Casco antiguo y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "fara",
+              "cathedral",
+              "srodka"
+            ],
+            "editorialNote": "Paseo con pausas. Porta Posnania sustituye parte del paseo si se elige hoy; no sumar todos los interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "fara",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "fara",
+                "toId": "cathedral",
+                "straightLineKm": 1.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "cathedral",
+                "toId": "srodka",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo entre casco antiguo, catedral y Śródka; no sumar Porta hoy."
+          },
+          {
+            "title": "Código e historia imperial",
+            "zone": "Święty Marcin y barrio Imperial",
+            "stopIds": [
+              "freedom",
+              "enigma",
+              "castle"
+            ],
+            "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "freedom",
+                "toId": "enigma",
+                "straightLineKm": 0.54,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "enigma",
+                "toId": "castle",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
+          },
+          {
+            "title": "Patrimonio y verde",
+            "zone": "Porta Posnania y norte del centro",
+            "stopIds": [
+              "porta",
+              "citadel"
+            ],
+            "editorialNote": "Porta explica la isla histórica ya vista el primer día: profundización museística, no repetir la catedral. Después de comer, transporte a Ciudadela para recorrer parque y vestigios de la fortaleza. Malta sustituye Ciudadela si se prefiere lago en verano.",
+            "optionalStopIds": [
+              "malta"
+            ],
+            "geographyChecks": [
+              {
+                "fromId": "porta",
+                "toId": "citadel",
+                "straightLineKm": 1.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y traslado. Es un tercer día más pausado, no una lista de museos."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco antiguo y la isla histórica",
+            "zone": "Casco antiguo y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "fara",
+              "cathedral",
+              "srodka"
+            ],
+            "editorialNote": "Plaza vieja y ayuntamiento por fuera, Fara si abre y comida. Después, transporte hasta la catedral y paseo corto hacia Śródka con luz. No cerrar toda la isla por ser invierno ni prometer el museo del ayuntamiento. Porta se reserva para profundizar el tercer día.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "fara",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "fara",
+                "toId": "cathedral",
+                "straightLineKm": 1.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "cathedral",
+                "toId": "srodka",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y traslado; acortar exteriores con mal tiempo."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco antiguo y la isla histórica",
+            "zone": "Casco antiguo y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "fara",
+              "cathedral",
+              "srodka"
+            ],
+            "editorialNote": "Plaza vieja y ayuntamiento por fuera, Fara si abre y comida. Después, transporte hasta la catedral y paseo corto hacia Śródka con luz. No cerrar toda la isla por ser invierno ni prometer el museo del ayuntamiento. Porta se reserva para profundizar el tercer día.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "fara",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "fara",
+                "toId": "cathedral",
+                "straightLineKm": 1.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "cathedral",
+                "toId": "srodka",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y traslado; acortar exteriores con mal tiempo."
+          },
+          {
+            "title": "Código e historia imperial",
+            "zone": "Święty Marcin y barrio Imperial",
+            "stopIds": [
+              "enigma",
+              "castle"
+            ],
+            "editorialNote": "Enigma como visita principal, comida y Castillo Imperial con una visita interior según acceso. Plac Wolności ya se vio el primer día.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "enigma",
+                "toId": "castle",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco antiguo y la isla histórica",
+            "zone": "Casco antiguo y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "fara",
+              "cathedral",
+              "srodka"
+            ],
+            "editorialNote": "Plaza vieja y ayuntamiento por fuera, Fara si abre y comida. Después, transporte hasta la catedral y paseo corto hacia Śródka con luz. No cerrar toda la isla por ser invierno ni prometer el museo del ayuntamiento. Porta se reserva para profundizar el tercer día.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "fara",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "fara",
+                "toId": "cathedral",
+                "straightLineKm": 1.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "cathedral",
+                "toId": "srodka",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y traslado; acortar exteriores con mal tiempo."
+          },
+          {
+            "title": "Código e historia imperial",
+            "zone": "Święty Marcin y barrio Imperial",
+            "stopIds": [
+              "enigma",
+              "castle"
+            ],
+            "editorialNote": "Enigma como visita principal, comida y Castillo Imperial con una visita interior según acceso. Plac Wolności ya se vio el primer día.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "enigma",
+                "toId": "castle",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
+          },
+          {
+            "title": "Historia interpretada y Ciudadela",
+            "zone": "Porta Posnania y norte del centro",
+            "stopIds": [
+              "porta",
+              "citadel"
+            ],
+            "editorialNote": "Porta como interior principal para entender la isla ya vista. Tras comer, transporte a Ciudadela si queda luz y el tiempo permite caminar; si no, tarde libre. No repetir catedral y Śródka ni sumar Malta.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "porta",
+                "toId": "citadel",
+                "straightLineKm": 1.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Día flexible, unas 4–5 h con comida y traslado. El parque se quita con hielo o lluvia."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco antiguo y la isla histórica",
+            "zone": "Casco antiguo y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "fara",
+              "cathedral",
+              "srodka"
+            ],
+            "editorialNote": "Plaza vieja y ayuntamiento por fuera, Fara si abre y comida. Después, transporte hasta la catedral y paseo corto hacia Śródka con luz. No cerrar toda la isla por ser invierno ni prometer el museo del ayuntamiento. Porta se reserva para profundizar el tercer día.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "fara",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "fara",
+                "toId": "cathedral",
+                "straightLineKm": 1.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "cathedral",
+                "toId": "srodka",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y traslado; acortar exteriores con mal tiempo."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco antiguo y la isla histórica",
+            "zone": "Casco antiguo y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "fara",
+              "cathedral",
+              "srodka"
+            ],
+            "editorialNote": "Plaza vieja y ayuntamiento por fuera, Fara si abre y comida. Después, transporte hasta la catedral y paseo corto hacia Śródka con luz. No cerrar toda la isla por ser invierno ni prometer el museo del ayuntamiento. Porta se reserva para profundizar el tercer día.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "fara",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "fara",
+                "toId": "cathedral",
+                "straightLineKm": 1.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "cathedral",
+                "toId": "srodka",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y traslado; acortar exteriores con mal tiempo."
+          },
+          {
+            "title": "Código e historia imperial",
+            "zone": "Święty Marcin y barrio Imperial",
+            "stopIds": [
+              "enigma",
+              "castle"
+            ],
+            "editorialNote": "Enigma como visita principal, comida y Castillo Imperial con una visita interior según acceso. Plac Wolności ya se vio el primer día.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "enigma",
+                "toId": "castle",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco antiguo y la isla histórica",
+            "zone": "Casco antiguo y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "fara",
+              "cathedral",
+              "srodka"
+            ],
+            "editorialNote": "Plaza vieja y ayuntamiento por fuera, Fara si abre y comida. Después, transporte hasta la catedral y paseo corto hacia Śródka con luz. No cerrar toda la isla por ser invierno ni prometer el museo del ayuntamiento. Porta se reserva para profundizar el tercer día.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "fara",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "fara",
+                "toId": "cathedral",
+                "straightLineKm": 1.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "cathedral",
+                "toId": "srodka",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y traslado; acortar exteriores con mal tiempo."
+          },
+          {
+            "title": "Código e historia imperial",
+            "zone": "Święty Marcin y barrio Imperial",
+            "stopIds": [
+              "enigma",
+              "castle"
+            ],
+            "editorialNote": "Enigma como visita principal, comida y Castillo Imperial con una visita interior según acceso. Plac Wolności ya se vio el primer día.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "enigma",
+                "toId": "castle",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
+          },
+          {
+            "title": "Historia interpretada y Ciudadela",
+            "zone": "Porta Posnania y norte del centro",
+            "stopIds": [
+              "porta",
+              "citadel"
+            ],
+            "editorialNote": "Porta como interior principal para entender la isla ya vista. Tras comer, transporte a Ciudadela si queda luz y el tiempo permite caminar; si no, tarde libre. No repetir catedral y Śródka ni sumar Malta.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "porta",
+                "toId": "citadel",
+                "straightLineKm": 1.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Día flexible, unas 4–5 h con comida y traslado. El parque se quita con hielo o lluvia."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco antiguo y origen de Polonia",
+            "zone": "Casco antiguo y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "fara",
+              "cathedral",
+              "srodka"
+            ],
+            "editorialNote": "Paseo con pausas. Porta Posnania sustituye parte del paseo si se elige hoy; no sumar todos los interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "fara",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "fara",
+                "toId": "cathedral",
+                "straightLineKm": 1.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "cathedral",
+                "toId": "srodka",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo entre casco antiguo, catedral y Śródka; no sumar Porta hoy."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco antiguo y origen de Polonia",
+            "zone": "Casco antiguo y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "fara",
+              "cathedral",
+              "srodka"
+            ],
+            "editorialNote": "Paseo con pausas. Porta Posnania sustituye parte del paseo si se elige hoy; no sumar todos los interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "fara",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "fara",
+                "toId": "cathedral",
+                "straightLineKm": 1.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "cathedral",
+                "toId": "srodka",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo entre casco antiguo, catedral y Śródka; no sumar Porta hoy."
+          },
+          {
+            "title": "Código e historia imperial",
+            "zone": "Święty Marcin y barrio Imperial",
+            "stopIds": [
+              "freedom",
+              "enigma",
+              "castle"
+            ],
+            "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "freedom",
+                "toId": "enigma",
+                "straightLineKm": 0.54,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "enigma",
+                "toId": "castle",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco antiguo y origen de Polonia",
+            "zone": "Casco antiguo y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "fara",
+              "cathedral",
+              "srodka"
+            ],
+            "editorialNote": "Paseo con pausas. Porta Posnania sustituye parte del paseo si se elige hoy; no sumar todos los interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "fara",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "fara",
+                "toId": "cathedral",
+                "straightLineKm": 1.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "cathedral",
+                "toId": "srodka",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo entre casco antiguo, catedral y Śródka; no sumar Porta hoy."
+          },
+          {
+            "title": "Código e historia imperial",
+            "zone": "Święty Marcin y barrio Imperial",
+            "stopIds": [
+              "freedom",
+              "enigma",
+              "castle"
+            ],
+            "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "freedom",
+                "toId": "enigma",
+                "straightLineKm": 0.54,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "enigma",
+                "toId": "castle",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
+          },
+          {
+            "title": "Patrimonio y verde",
+            "zone": "Porta Posnania y norte del centro",
+            "stopIds": [
+              "porta",
+              "citadel"
+            ],
+            "editorialNote": "Porta explica la isla histórica ya vista el primer día: profundización museística, no repetir la catedral. Después de comer, transporte a Ciudadela para recorrer parque y vestigios de la fortaleza. Malta sustituye Ciudadela si se prefiere lago en verano.",
+            "optionalStopIds": [
+              "malta"
+            ],
+            "geographyChecks": [
+              {
+                "fromId": "porta",
+                "toId": "citadel",
+                "straightLineKm": 1.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y traslado. Es un tercer día más pausado, no una lista de museos."
+          }
+        ]
+      }
+    }
+  }
+}

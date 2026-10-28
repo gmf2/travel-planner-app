@@ -1,0 +1,1754 @@
+{
+  "schemaVersion": 1,
+  "country": "PL",
+  "id": "gdansk",
+  "name": "Gdańsk",
+  "localName": "Gdańsk",
+  "selectionReason": "Puerto báltico y Solidaridad; tercera entre seis ciudades comparadas en huéspedes hoteleros GUS 2025.",
+  "reviewedAt": "2026-10-28",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita cultural y ritmo moderado. La carga por día es una estimación editorial con comida, pausas y desplazamientos, no un horario comprobado. Las paradas exteriores no implican entrar en todos los edificios. Ajustar a entradas y fecha real.",
+  "stops": [
+    {
+      "id": "long",
+      "name": "Puerta Dorada y calle Długa",
+      "kind": "zone",
+      "zone": "Ciudad Principal",
+      "reason": "Entrar por la Puerta Dorada y recorrer las fachadas mercantiles de Długa antes de llegar a Długi Targ.",
+      "sourceIds": [
+        "official",
+        "rs",
+        "national"
+      ],
+      "coordinates": {
+        "lat": 54.3497,
+        "lon": 18.6482
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Brama_Z%C5%82ota_w_Gda%C5%84sku",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null
+    },
+    {
+      "id": "mary",
+      "name": "Basílica de Santa María",
+      "kind": "visit",
+      "zone": "Ciudad Principal",
+      "reason": "Interior principal del día si está accesible; subir la torre es opcional, no se suma por defecto.",
+      "sourceIds": [
+        "official",
+        "rs",
+        "ww"
+      ],
+      "coordinates": {
+        "lat": 54.34975,
+        "lon": 18.65369444
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/St._Mary%27s_Church,_Gda%C5%84sk",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Torre opcional con muchas escaleras, no imponerla.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk-mary.jpg",
+        "author": "Gyddanyzc",
+        "license": "CC0",
+        "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Bazylika_Mariacka_DSC01870.jpg"
+      }
+    },
+    {
+      "id": "crane",
+      "name": "Grúa medieval y ribera del Motława",
+      "kind": "visit",
+      "zone": "Motława",
+      "reason": "Leer el puerto desde la ribera; museo de la Grúa sólo si se sustituye otro interior.",
+      "sourceIds": [
+        "national",
+        "ww",
+        "ng"
+      ],
+      "coordinates": {
+        "lat": 54.35049429999999,
+        "lon": 18.6575279
+      },
+      "coordinateSource": null,
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Exterior y visita interior son distintos; apertura por comprobar.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "coordinateMethod": "Szeroka 67/68, geocoded and identity manually reviewed; approximate exterior point",
+      "identitySource": "https://www.poland.travel/en/gdansk-and-tricity/"
+    },
+    {
+      "id": "ecs",
+      "name": "Centro Europeo de Solidaridad",
+      "kind": "museum",
+      "zone": "Astilleros",
+      "reason": "Clave para comprender Solidaridad y el final del comunismo.",
+      "sourceIds": [
+        "official",
+        "rs",
+        "ng"
+      ],
+      "coordinates": {
+        "lat": 54.36111111,
+        "lon": 18.64916667
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/European_Solidarity_Centre",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk-ecs.jpg",
+        "author": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:European_Solidarity_Centre_2015_003.jpg"
+      }
+    },
+    {
+      "id": "ww2",
+      "name": "Museo de la Segunda Guerra Mundial",
+      "kind": "museum",
+      "zone": "Norte del centro",
+      "reason": "Otra gran lectura histórica, mejor separada de Solidaridad.",
+      "sourceIds": [
+        "official",
+        "rs",
+        "ww"
+      ],
+      "coordinates": {
+        "lat": 54.35583333,
+        "lon": 18.66055556
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Museum_of_the_Second_World_War",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "Tema emocionalmente exigente, no relleno entre compras.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk-ww2.jpg",
+        "author": "Adrian Grycuk",
+        "license": "CC BY 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Second_World_War_in_Gda%C5%84sk_2025b.jpg"
+      }
+    },
+    {
+      "id": "oliwa",
+      "name": "Catedral de Oliwa",
+      "kind": "visit",
+      "zone": "Oliwa",
+      "reason": "Interior principal de Oliwa, por su arquitectura y órgano; no se promete recital.",
+      "sourceIds": [
+        "official",
+        "oliwa",
+        "vh"
+      ],
+      "coordinates": {
+        "lat": 54.41101389,
+        "lon": 18.55891111
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Oliwa_Cathedral",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Requiere desplazamiento. Conciertos de órgano sólo con horario confirmado.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk-oliwa.jpg",
+        "author": "Bartosz MORĄG",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Archcathedral_Basilica_in_Oliwa.jpg"
+      }
+    },
+    {
+      "id": "beach",
+      "name": "Playa y muelle de Brzeźno",
+      "kind": "park",
+      "zone": "Costa",
+      "reason": "Alternativa veraniega dentro de Gdańsk sin añadir otras dos ciudades.",
+      "sourceIds": [
+        "beach",
+        "national"
+      ],
+      "coordinates": {
+        "lat": 54.414389,
+        "lon": 18.625222
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Molo_w_Brze%C5%BAnie",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Sujeta al tiempo y condiciones del mar; no se presupone baño seguro.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk-beach.jpg",
+        "author": "Emptywords",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Molo_Brzezno_Gdansk_2022_aerial.jpg"
+      }
+    },
+    {
+      "id": "market",
+      "name": "Mercado navideño de Targ Węglowy",
+      "kind": "event",
+      "zone": "Targ Węglowy",
+      "reason": "Pieza de temporada separada del barrio.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 54.35096,
+        "lon": 18.647952
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Targ_W%C4%99glowy_w_Gda%C5%84sku",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Sólo durante fechas confirmadas; en 2026 termina antes de Nochebuena.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk-market.jpg",
+        "author": "Łukasz Golowanow\nŁukasz Golowanow",
+        "license": "CC BY-SA 2.5",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source": "https://commons.wikimedia.org/wiki/File:TeatrWybrzeze_Gdansk.JPG"
+      }
+    },
+    {
+      "id": "solidarity",
+      "name": "Monumento a los trabajadores caídos",
+      "kind": "visit",
+      "zone": "Plaza Solidarności",
+      "reason": "Comenzar aquí para situar 1970 antes del relato del museo.",
+      "sourceIds": [
+        "walks"
+      ],
+      "coordinates": {
+        "lat": 54.3605,
+        "lon": 18.6492
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Monument_to_the_Fallen_Shipyard_Workers_of_1970",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk-solidarity.jpg",
+        "author": "Avi1111 dr. avishai teicher",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Monument_to_the_fallen_Shipyard_workers_of_1970.JPG"
+      }
+    },
+    {
+      "id": "gate",
+      "name": "Puerta n.º 2 del astillero",
+      "kind": "visit",
+      "zone": "Astilleros",
+      "reason": "Lugar de los acuerdos y símbolo de las huelgas; parada exterior junto al monumento.",
+      "sourceIds": [
+        "walks"
+      ],
+      "coordinates": {
+        "lat": 54.360333,
+        "lon": 18.649722
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Gate_No._2_of_the_Gda%C5%84sk_Shipyard",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk-gate.jpg",
+        "author": "Krzysztof Korczyński",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Mieszka%C5%84cy_Gda%C5%84ska_zgromadzeni_przed_historyczn%C4%85_Bram%C4%85_nr_2_Stoczni_Gda%C5%84skiej_im._Lenina.jpg",
+        "caption": "Fotografía histórica de la puerta durante las huelgas; no muestra su estado actual."
+      }
+    },
+    {
+      "id": "oliwapark",
+      "name": "Parque de Oliwa",
+      "kind": "visit",
+      "zone": "Oliwa",
+      "reason": "Paseo por los jardines tras la catedral, con pausas y sin añadir otro distrito por obligación.",
+      "sourceIds": [
+        "oliwaDetail"
+      ],
+      "coordinates": {
+        "lat": 54.411111,
+        "lon": 18.5625
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Park_Oliwski",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk-oliwapark.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Parque_Adam_Mickiewicz,_Oliwa,_Gdansk,_Polonia,_2013-05-21,_DD_04.jpg"
+      }
+    },
+    {
+      "id": "pacholek",
+      "name": "Colina Pachołek",
+      "kind": "visit",
+      "zone": "Oliwa",
+      "reason": "Subida opcional para completar el día al aire libre; descartarla con hielo, lluvia o poca energía.",
+      "sourceIds": [
+        "oliwaDetail"
+      ],
+      "coordinates": {
+        "lat": 54.411667,
+        "lon": 18.550833
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Wzg%C3%B3rze_Pacho%C5%82ek",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk-pacholek.jpg",
+        "author": "Gdaniec",
+        "license": "CC BY 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_Oliwa_-_Wzg%C3%B3rze_Pacho%C5%82ek.JPG"
+      }
+    },
+    {
+      "id": "amber",
+      "name": "Museo del Ámbar, Gran Molino",
+      "kind": "visit",
+      "zone": "Norte de la Ciudad Principal",
+      "reason": "Otra historia de Gdańsk: el ámbar y su artesanía, no un tercer museo bélico.",
+      "sourceIds": [
+        "walks"
+      ],
+      "coordinates": {
+        "lat": 54.35416,
+        "lon": 18.65
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Muzeum_Bursztynu_w_Gda%C5%84sku",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk-amber.jpg",
+        "author": "Dariusz.Biegacz",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Amber_museum7.JPG"
+      }
+    },
+    {
+      "id": "neptune",
+      "name": "Długi Targ, Neptuno y Ayuntamiento",
+      "kind": "visit",
+      "zone": "Długi Targ",
+      "reason": "Detenerse en la fuente y la fachada del Ayuntamiento para entender el centro cívico mercantil. Interior del Ayuntamiento alternativo, no obligatorio.",
+      "sourceIds": [
+        "official",
+        "walks"
+      ],
+      "coordinates": {
+        "lat": 54.34855,
+        "lon": 18.65323
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Neptune%27s_Fountain%2C_Gda%C5%84sk",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Comprobar acceso interior y horario antes de viajar.",
+      "openingHours": null,
+      "price": null,
+      "reviewedAt": "2026-10-28",
+      "photo": {
+        "img": "assets/gdansk-neptune.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Monumento_Neptuno,_Gdansk,_Polonia,_2013-05-20,_DD_01.jpg"
+      }
+    },
+    {
+      "id": "mariacka",
+      "name": "Calle Mariacka",
+      "kind": "visit",
+      "zone": "Ciudad Principal",
+      "reason": "Terrazas, portales y talleres de ámbar en el paso entre basílica y puerto; no otro museo.",
+      "sourceIds": [
+        "official",
+        "walks"
+      ],
+      "coordinates": {
+        "lat": 54.3496,
+        "lon": 18.655476
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Ulica_Mariacka_w_Gda%C5%84sku",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Comprobar acceso interior y horario antes de viajar.",
+      "openingHours": null,
+      "price": null,
+      "reviewedAt": "2026-10-28",
+      "photo": {
+        "img": "assets/gdansk-mariacka.jpg",
+        "author": "Sirleonidas",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_view_14.jpg"
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "La ciudad mercantil",
+          "zone": "Ciudad Principal y Motława",
+          "stopIds": [
+            "long",
+            "neptune",
+            "mary",
+            "mariacka",
+            "crane"
+          ],
+          "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "long",
+              "toId": "neptune",
+              "straightLineKm": 0.35,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "neptune",
+              "toId": "mary",
+              "straightLineKm": 0.14,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "mary",
+              "toId": "mariacka",
+              "straightLineKm": 0.12,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "mariacka",
+              "toId": "crane",
+              "straightLineKm": 0.17,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "La ciudad mercantil",
+          "zone": "Ciudad Principal y Motława",
+          "stopIds": [
+            "long",
+            "neptune",
+            "mary",
+            "mariacka",
+            "crane"
+          ],
+          "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "long",
+              "toId": "neptune",
+              "straightLineKm": 0.35,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "neptune",
+              "toId": "mary",
+              "straightLineKm": 0.14,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "mary",
+              "toId": "mariacka",
+              "straightLineKm": 0.12,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "mariacka",
+              "toId": "crane",
+              "straightLineKm": 0.17,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+        },
+        {
+          "title": "Solidaridad en su lugar de origen",
+          "zone": "Plaza Solidarności y astilleros",
+          "stopIds": [
+            "solidarity",
+            "gate",
+            "ecs"
+          ],
+          "optionalStopIds": [
+            "amber"
+          ],
+          "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+          "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
+          "geographyChecks": [
+            {
+              "fromId": "solidarity",
+              "toId": "gate",
+              "straightLineKm": 0.04,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "gate",
+              "toId": "ecs",
+              "straightLineKm": 0.09,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "La ciudad mercantil",
+          "zone": "Ciudad Principal y Motława",
+          "stopIds": [
+            "long",
+            "neptune",
+            "mary",
+            "mariacka",
+            "crane"
+          ],
+          "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "long",
+              "toId": "neptune",
+              "straightLineKm": 0.35,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "neptune",
+              "toId": "mary",
+              "straightLineKm": 0.14,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "mary",
+              "toId": "mariacka",
+              "straightLineKm": 0.12,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "mariacka",
+              "toId": "crane",
+              "straightLineKm": 0.17,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+        },
+        {
+          "title": "Solidaridad en su lugar de origen",
+          "zone": "Plaza Solidarności y astilleros",
+          "stopIds": [
+            "solidarity",
+            "gate",
+            "ecs"
+          ],
+          "optionalStopIds": [
+            "amber"
+          ],
+          "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+          "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
+          "geographyChecks": [
+            {
+              "fromId": "solidarity",
+              "toId": "gate",
+              "straightLineKm": 0.04,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "gate",
+              "toId": "ecs",
+              "straightLineKm": 0.09,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ]
+        },
+        {
+          "title": "Oliwa, entre catedral y jardines",
+          "zone": "Oliwa",
+          "stopIds": [
+            "oliwa",
+            "oliwapark"
+          ],
+          "optionalStopIds": [
+            "pacholek",
+            "ww2",
+            "beach"
+          ],
+          "editorialNote": "Transporte a Oliwa y jornada en una sola zona: catedral y parque. Tras comer, Pachołek sólo con tiempo seco y energía. Si se prefiere historia, sustituir Oliwa por el Museo de la Segunda Guerra Mundial. Playa es otra alternativa de verano, no tercera zona obligatoria.",
+          "pacing": "Jornada relajada de unas 4–5 h con traslado y comida; subida opcional amplía el día.",
+          "geographyChecks": [
+            {
+              "fromId": "oliwa",
+              "toId": "oliwapark",
+              "straightLineKm": 0.23,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Cambiar el tercer día por Oliwa o Brzeźno si prima el aire libre. No añadir Sopot y Gdynia en una tarde por ser Tricity.",
+      "sourceIds": [
+        "beach",
+        "oliwa"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": [
+        "oliwa",
+        "beach"
+      ]
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Priorizar Ciudad Principal e interiores. Costa opcional con tiempo favorable, no actividad fija.",
+      "sourceIds": [
+        "official",
+        "rs"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad 2026",
+      "advice": "Mercado 20/11-23/12/2026. Una visita el 25 de diciembre NO debe mostrarlo abierto; el centro histórico sí sigue siendo destino.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Centro y museos como base, Oliwa según tiempo. Playa no equivale a temporada de baño.",
+      "sourceIds": [
+        "official",
+        "beach"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": []
+    }
+  },
+  "events": [
+    {
+      "id": "christmas-market",
+      "name": "Jarmark Bożonarodzeniowy",
+      "kind": "event",
+      "startDate": "2026-11-20",
+      "endDate": "2026-12-23",
+      "sourceId": "christmas",
+      "location": "Targ Węglowy",
+      "status": "announced",
+      "closedDates": [],
+      "note": "No mostrar como disponible del 24 al 31 de diciembre de 2026.",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-28"
+    }
+  ],
+  "cautions": [
+    "No extender el calendario del mercado a la plaza o barrio.",
+    "Dos museos históricos completos seguidos pueden saturar."
+  ],
+  "excludedOrOptional": [
+    "Sopot y Gdynia son destinos distintos, excursión opcional.",
+    "Malbork es excursión aparte, no parada del plan urbano."
+  ],
+  "sources": [
+    {
+      "id": "official",
+      "title": "Turismo: principales visitas",
+      "url": "https://visitgdansk.com/top-10-atrakcji.qbpage?setLanguage=en",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "national",
+      "title": "Poland Travel: Gdańsk",
+      "url": "https://www.poland.travel/en/gdansk-and-tricity/",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "rs",
+      "title": "Rick Steves: prioridades",
+      "url": "https://www.ricksteves.com/europe/poland/gdansk",
+      "type": "editorial",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "ng",
+      "title": "National Geographic: Gdańsk",
+      "url": "https://www.nationalgeographic.com/travel/article/guide-to-gdansk-poland",
+      "type": "editorial",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "ww",
+      "title": "Wonderful Wanderings: Gdańsk",
+      "url": "https://wonderfulwanderings.com/poland/gdansk/",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "vh",
+      "title": "Very Hungry Nomads: dos días",
+      "url": "https://www.veryhungrynomads.com/2-days-in-gdansk-itinerary/",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "oliwa",
+      "title": "Turismo: Oliwa",
+      "url": "https://visitgdansk.com/en/oliwa",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "beach",
+      "title": "Turismo: playas",
+      "url": "https://visitgdansk.com/najpi%C4%99kniejsze-plaze.qbpage",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "christmas",
+      "title": "Organizador: mercado navideño",
+      "url": "https://bozonarodzeniowy.pl/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "walks",
+      "title": "Turismo: paseos y Solidaridad",
+      "url": "https://visitgdansk.com/cmsImages/dokumenty/gdansk-eng.pdf",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "oliwaDetail",
+      "title": "Turismo: lugares de Oliwa",
+      "url": "https://visitgdansk.com/oliwa.qbpage?setLanguage=pl",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {
+    "summer": {
+      "mode": "editorial",
+      "note": "Cambiar el tercer día por Oliwa o Brzeźno si prima el aire libre. No añadir Sopot y Gdynia en una tarde por ser Tricity."
+    },
+    "winter": {
+      "mode": "editorial",
+      "excludeStopIds": [],
+      "note": "Priorizar Ciudad Principal e interiores. Costa opcional con tiempo favorable, no actividad fija."
+    },
+    "christmas": {
+      "mode": "dated-events-and-winter",
+      "excludeStopIds": [],
+      "note": "Mercado 20/11-23/12/2026. Una visita el 25 de diciembre NO debe mostrarlo abierto; el centro histórico sí sigue siendo destino."
+    }
+  },
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad mercantil",
+            "zone": "Ciudad Principal y Motława",
+            "stopIds": [
+              "long",
+              "neptune",
+              "mary",
+              "mariacka",
+              "crane"
+            ],
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "long",
+                "toId": "neptune",
+                "straightLineKm": 0.35,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "neptune",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mary",
+                "toId": "mariacka",
+                "straightLineKm": 0.12,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mariacka",
+                "toId": "crane",
+                "straightLineKm": 0.17,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad mercantil",
+            "zone": "Ciudad Principal y Motława",
+            "stopIds": [
+              "long",
+              "neptune",
+              "mary",
+              "mariacka",
+              "crane"
+            ],
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "long",
+                "toId": "neptune",
+                "straightLineKm": 0.35,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "neptune",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mary",
+                "toId": "mariacka",
+                "straightLineKm": 0.12,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mariacka",
+                "toId": "crane",
+                "straightLineKm": 0.17,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+          },
+          {
+            "title": "Solidaridad en su lugar de origen",
+            "zone": "Plaza Solidarności y astilleros",
+            "stopIds": [
+              "solidarity",
+              "gate",
+              "ecs"
+            ],
+            "optionalStopIds": [
+              "amber"
+            ],
+            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
+            "geographyChecks": [
+              {
+                "fromId": "solidarity",
+                "toId": "gate",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "gate",
+                "toId": "ecs",
+                "straightLineKm": 0.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad mercantil",
+            "zone": "Ciudad Principal y Motława",
+            "stopIds": [
+              "long",
+              "neptune",
+              "mary",
+              "mariacka",
+              "crane"
+            ],
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "long",
+                "toId": "neptune",
+                "straightLineKm": 0.35,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "neptune",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mary",
+                "toId": "mariacka",
+                "straightLineKm": 0.12,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mariacka",
+                "toId": "crane",
+                "straightLineKm": 0.17,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+          },
+          {
+            "title": "Solidaridad en su lugar de origen",
+            "zone": "Plaza Solidarności y astilleros",
+            "stopIds": [
+              "solidarity",
+              "gate",
+              "ecs"
+            ],
+            "optionalStopIds": [
+              "amber"
+            ],
+            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
+            "geographyChecks": [
+              {
+                "fromId": "solidarity",
+                "toId": "gate",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "gate",
+                "toId": "ecs",
+                "straightLineKm": 0.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Oliwa, entre catedral y jardines",
+            "zone": "Oliwa",
+            "stopIds": [
+              "oliwa",
+              "oliwapark"
+            ],
+            "optionalStopIds": [
+              "pacholek",
+              "ww2",
+              "beach"
+            ],
+            "editorialNote": "Transporte a Oliwa y jornada en una sola zona: catedral y parque. Tras comer, Pachołek sólo con tiempo seco y energía. Si se prefiere historia, sustituir Oliwa por el Museo de la Segunda Guerra Mundial. Playa es otra alternativa de verano, no tercera zona obligatoria.",
+            "pacing": "Jornada relajada de unas 4–5 h con traslado y comida; subida opcional amplía el día.",
+            "geographyChecks": [
+              {
+                "fromId": "oliwa",
+                "toId": "oliwapark",
+                "straightLineKm": 0.23,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad mercantil",
+            "zone": "Ciudad Principal y Motława",
+            "stopIds": [
+              "long",
+              "neptune",
+              "mary",
+              "mariacka",
+              "crane"
+            ],
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "long",
+                "toId": "neptune",
+                "straightLineKm": 0.35,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "neptune",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mary",
+                "toId": "mariacka",
+                "straightLineKm": 0.12,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mariacka",
+                "toId": "crane",
+                "straightLineKm": 0.17,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad mercantil",
+            "zone": "Ciudad Principal y Motława",
+            "stopIds": [
+              "long",
+              "neptune",
+              "mary",
+              "mariacka",
+              "crane"
+            ],
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "long",
+                "toId": "neptune",
+                "straightLineKm": 0.35,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "neptune",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mary",
+                "toId": "mariacka",
+                "straightLineKm": 0.12,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mariacka",
+                "toId": "crane",
+                "straightLineKm": 0.17,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+          },
+          {
+            "title": "Solidaridad en su lugar de origen",
+            "zone": "Plaza Solidarności y astilleros",
+            "stopIds": [
+              "solidarity",
+              "gate",
+              "ecs"
+            ],
+            "optionalStopIds": [
+              "amber"
+            ],
+            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
+            "geographyChecks": [
+              {
+                "fromId": "solidarity",
+                "toId": "gate",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "gate",
+                "toId": "ecs",
+                "straightLineKm": 0.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad mercantil",
+            "zone": "Ciudad Principal y Motława",
+            "stopIds": [
+              "long",
+              "neptune",
+              "mary",
+              "mariacka",
+              "crane"
+            ],
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "long",
+                "toId": "neptune",
+                "straightLineKm": 0.35,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "neptune",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mary",
+                "toId": "mariacka",
+                "straightLineKm": 0.12,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mariacka",
+                "toId": "crane",
+                "straightLineKm": 0.17,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+          },
+          {
+            "title": "Solidaridad en su lugar de origen",
+            "zone": "Plaza Solidarności y astilleros",
+            "stopIds": [
+              "solidarity",
+              "gate",
+              "ecs"
+            ],
+            "optionalStopIds": [
+              "amber"
+            ],
+            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
+            "geographyChecks": [
+              {
+                "fromId": "solidarity",
+                "toId": "gate",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "gate",
+                "toId": "ecs",
+                "straightLineKm": 0.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Guerra mundial y la ciudad del ámbar",
+            "zone": "Norte del centro",
+            "stopIds": [
+              "ww2",
+              "amber"
+            ],
+            "optionalStopIds": [
+              "oliwa"
+            ],
+            "editorialNote": "Museo de la Segunda Guerra Mundial como visita principal de la mañana. Después de comer, Museo del Ámbar sólo si quedan ganas de otro interior; puede quitarse y dejar un paseo breve. No duplicar Solidaridad hoy.",
+            "pacing": "Unas 6–7 h si se hacen ambos museos; 4–5 h si se deja sólo el principal.",
+            "geographyChecks": [
+              {
+                "fromId": "ww2",
+                "toId": "amber",
+                "straightLineKm": 0.71,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad mercantil",
+            "zone": "Ciudad Principal y Motława",
+            "stopIds": [
+              "long",
+              "neptune",
+              "mary",
+              "mariacka",
+              "crane"
+            ],
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "long",
+                "toId": "neptune",
+                "straightLineKm": 0.35,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "neptune",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mary",
+                "toId": "mariacka",
+                "straightLineKm": 0.12,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mariacka",
+                "toId": "crane",
+                "straightLineKm": 0.17,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad mercantil",
+            "zone": "Ciudad Principal y Motława",
+            "stopIds": [
+              "long",
+              "neptune",
+              "mary",
+              "mariacka",
+              "crane"
+            ],
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "long",
+                "toId": "neptune",
+                "straightLineKm": 0.35,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "neptune",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mary",
+                "toId": "mariacka",
+                "straightLineKm": 0.12,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mariacka",
+                "toId": "crane",
+                "straightLineKm": 0.17,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+          },
+          {
+            "title": "Solidaridad en su lugar de origen",
+            "zone": "Plaza Solidarności y astilleros",
+            "stopIds": [
+              "solidarity",
+              "gate",
+              "ecs"
+            ],
+            "optionalStopIds": [
+              "amber"
+            ],
+            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
+            "geographyChecks": [
+              {
+                "fromId": "solidarity",
+                "toId": "gate",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "gate",
+                "toId": "ecs",
+                "straightLineKm": 0.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad mercantil",
+            "zone": "Ciudad Principal y Motława",
+            "stopIds": [
+              "long",
+              "neptune",
+              "mary",
+              "mariacka",
+              "crane"
+            ],
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "long",
+                "toId": "neptune",
+                "straightLineKm": 0.35,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "neptune",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mary",
+                "toId": "mariacka",
+                "straightLineKm": 0.12,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mariacka",
+                "toId": "crane",
+                "straightLineKm": 0.17,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+          },
+          {
+            "title": "Solidaridad en su lugar de origen",
+            "zone": "Plaza Solidarności y astilleros",
+            "stopIds": [
+              "solidarity",
+              "gate",
+              "ecs"
+            ],
+            "optionalStopIds": [
+              "amber"
+            ],
+            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
+            "geographyChecks": [
+              {
+                "fromId": "solidarity",
+                "toId": "gate",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "gate",
+                "toId": "ecs",
+                "straightLineKm": 0.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Guerra mundial y la ciudad del ámbar",
+            "zone": "Norte del centro",
+            "stopIds": [
+              "ww2",
+              "amber"
+            ],
+            "optionalStopIds": [
+              "oliwa"
+            ],
+            "editorialNote": "Museo de la Segunda Guerra Mundial como visita principal de la mañana. Después de comer, Museo del Ámbar sólo si quedan ganas de otro interior; puede quitarse y dejar un paseo breve. No duplicar Solidaridad hoy.",
+            "pacing": "Unas 6–7 h si se hacen ambos museos; 4–5 h si se deja sólo el principal.",
+            "geographyChecks": [
+              {
+                "fromId": "ww2",
+                "toId": "amber",
+                "straightLineKm": 0.71,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad mercantil",
+            "zone": "Ciudad Principal y Motława",
+            "stopIds": [
+              "long",
+              "neptune",
+              "mary",
+              "mariacka",
+              "crane"
+            ],
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "long",
+                "toId": "neptune",
+                "straightLineKm": 0.35,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "neptune",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mary",
+                "toId": "mariacka",
+                "straightLineKm": 0.12,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mariacka",
+                "toId": "crane",
+                "straightLineKm": 0.17,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad mercantil",
+            "zone": "Ciudad Principal y Motława",
+            "stopIds": [
+              "long",
+              "neptune",
+              "mary",
+              "mariacka",
+              "crane"
+            ],
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "long",
+                "toId": "neptune",
+                "straightLineKm": 0.35,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "neptune",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mary",
+                "toId": "mariacka",
+                "straightLineKm": 0.12,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mariacka",
+                "toId": "crane",
+                "straightLineKm": 0.17,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+          },
+          {
+            "title": "Solidaridad en su lugar de origen",
+            "zone": "Plaza Solidarności y astilleros",
+            "stopIds": [
+              "solidarity",
+              "gate",
+              "ecs"
+            ],
+            "optionalStopIds": [
+              "amber"
+            ],
+            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
+            "geographyChecks": [
+              {
+                "fromId": "solidarity",
+                "toId": "gate",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "gate",
+                "toId": "ecs",
+                "straightLineKm": 0.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad mercantil",
+            "zone": "Ciudad Principal y Motława",
+            "stopIds": [
+              "long",
+              "neptune",
+              "mary",
+              "mariacka",
+              "crane"
+            ],
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "long",
+                "toId": "neptune",
+                "straightLineKm": 0.35,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "neptune",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mary",
+                "toId": "mariacka",
+                "straightLineKm": 0.12,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "mariacka",
+                "toId": "crane",
+                "straightLineKm": 0.17,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5–6 h con comida y pausas; cinco lugares cercanos, un solo interior largo."
+          },
+          {
+            "title": "Solidaridad en su lugar de origen",
+            "zone": "Plaza Solidarności y astilleros",
+            "stopIds": [
+              "solidarity",
+              "gate",
+              "ecs"
+            ],
+            "optionalStopIds": [
+              "amber"
+            ],
+            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
+            "geographyChecks": [
+              {
+                "fromId": "solidarity",
+                "toId": "gate",
+                "straightLineKm": 0.04,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "gate",
+                "toId": "ecs",
+                "straightLineKm": 0.09,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Oliwa, entre catedral y jardines",
+            "zone": "Oliwa",
+            "stopIds": [
+              "oliwa",
+              "oliwapark"
+            ],
+            "optionalStopIds": [
+              "pacholek",
+              "ww2",
+              "beach"
+            ],
+            "editorialNote": "Transporte a Oliwa y jornada en una sola zona: catedral y parque. Tras comer, Pachołek sólo con tiempo seco y energía. Si se prefiere historia, sustituir Oliwa por el Museo de la Segunda Guerra Mundial. Playa es otra alternativa de verano, no tercera zona obligatoria.",
+            "pacing": "Jornada relajada de unas 4–5 h con traslado y comida; subida opcional amplía el día.",
+            "geographyChecks": [
+              {
+                "fromId": "oliwa",
+                "toId": "oliwapark",
+                "straightLineKm": 0.23,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

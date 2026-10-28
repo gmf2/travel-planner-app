@@ -1,0 +1,1493 @@
+{
+  "schemaVersion": 1,
+  "country": "PL",
+  "id": "wroclaw",
+  "name": "Wrocław",
+  "localName": "Wrocław",
+  "selectionReason": "Patrimonio silesio, islas y arquitectura; cuarta entre seis ciudades comparadas en huéspedes hoteleros GUS 2025.",
+  "reviewedAt": "2026-10-28",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita cultural y ritmo moderado. La carga por día es una estimación editorial con comida, pausas y desplazamientos, no un horario comprobado. Las paradas exteriores no implican entrar en todos los edificios. Ajustar a entradas y fecha real.",
+  "stops": [
+    {
+      "id": "rynek",
+      "name": "Rynek, ayuntamiento exterior y enanitos",
+      "kind": "zone",
+      "zone": "Centro histórico",
+      "reason": "Conjunto esencial. Los enanitos acompañan el paseo, no decenas de paradas separadas.",
+      "sourceIds": [
+        "official",
+        "one",
+        "michelin"
+      ],
+      "coordinates": {
+        "lat": 51.11,
+        "lon": 17.03194444
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Market_Square,_Wroc%C5%82aw",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/wroclaw-rynek.jpg",
+        "author": "\nHrs Poland",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rynek_Starego_Miasta_We_Wroclawiu_(152991773).jpeg"
+      }
+    },
+    {
+      "id": "university",
+      "name": "Universidad y entorno del Óder",
+      "kind": "visit",
+      "zone": "Centro norte",
+      "reason": "Arquitectura y transición hacia las islas en un recorrido compacto.",
+      "sourceIds": [
+        "official",
+        "one"
+      ],
+      "coordinates": {
+        "lat": 51.11361111,
+        "lon": 17.03333333
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/University_of_Wroc%C5%82aw",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Aula Leopoldina u otros interiores sólo según apertura.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null
+    },
+    {
+      "id": "tumski",
+      "name": "Ostrów Tumski y catedral",
+      "kind": "zone",
+      "zone": "Isla de la Catedral",
+      "reason": "Segundo núcleo histórico, con identidad distinta del Rynek.",
+      "sourceIds": [
+        "official",
+        "national",
+        "michelin"
+      ],
+      "coordinates": {
+        "lat": 51.11416667,
+        "lon": 17.04611111
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Wroc%C5%82aw_Cathedral",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null
+    },
+    {
+      "id": "panorama",
+      "name": "Panorama de Racławice",
+      "kind": "museum",
+      "zone": "Este del centro",
+      "reason": "Obra singular que merece un turno, no visita fugaz.",
+      "sourceIds": [
+        "official",
+        "national"
+      ],
+      "coordinates": {
+        "lat": 51.11014,
+        "lon": 17.04458
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Rac%C5%82awice_Panorama",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Comprobar sesión y disponibilidad antes de fijar el orden.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/wroclaw-panorama.jpg",
+        "author": "Wojciech Kossak / Jan Styka",
+        "license": "Public domain",
+        "licenseURL": "",
+        "source": "https://commons.wikimedia.org/wiki/File:WKossak006.jpg"
+      }
+    },
+    {
+      "id": "national",
+      "name": "Museo Nacional",
+      "kind": "museum",
+      "zone": "Este del centro",
+      "reason": "Complemento artístico junto al Panorama, sin otro gran desplazamiento.",
+      "sourceIds": [
+        "official",
+        "national"
+      ],
+      "coordinates": {
+        "lat": 51.11083333,
+        "lon": 17.04761111
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/National_Museum_in_Wroc%C5%82aw",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null
+    },
+    {
+      "id": "hall",
+      "name": "Hala Stulecia, Sala del Centenario",
+      "kind": "visit",
+      "zone": "Szczytniki",
+      "reason": "Conjunto arquitectónico concentrado en una zona distinta del casco antiguo.",
+      "sourceIds": [
+        "official",
+        "national",
+        "fountain"
+      ],
+      "coordinates": {
+        "lat": 51.106944,
+        "lon": 17.076944
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Hala_Stulecia_we_Wroc%C5%82awiu",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Exterior e interior son distintos; la fuente no funciona todo el año.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/wroclaw-hall.jpg",
+        "author": "Jar.ciurus",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Wroclaw_-_Hala_Stulecia_03a.jpg"
+      }
+    },
+    {
+      "id": "japan",
+      "name": "Jardín Japonés",
+      "kind": "garden",
+      "zone": "Szczytniki",
+      "reason": "Complemento verde del conjunto, sólo cuando está abierto.",
+      "sourceIds": [
+        "official",
+        "national"
+      ],
+      "coordinates": {
+        "lat": 51.110097,
+        "lon": 17.079406
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Ogr%C3%B3d_Japo%C5%84ski_we_Wroc%C5%82awiu",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Apertura estacional por verificar para la fecha de viaje. No prometer acceso en invierno.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/wroclaw-japan.jpg",
+        "author": "Puchatech K.",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Japanese_garden_Wroclaw_bridge.jpg"
+      }
+    },
+    {
+      "id": "four",
+      "name": "Barrio de las Cuatro Confesiones",
+      "kind": "zone",
+      "zone": "Suroeste del centro",
+      "reason": "Historia religiosa plural y paseo cercano al Rynek.",
+      "sourceIds": [
+        "national",
+        "michelin"
+      ],
+      "coordinates": {
+        "lat": 51.1088536,
+        "lon": 17.0267855
+      },
+      "coordinateSource": null,
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "coordinateMethod": "representative point on Swietego Antoniego, not an entrance",
+      "identitySource": "https://guide.michelin.com/pl/en/article/travel/2-days-in-wroclaw"
+    },
+    {
+      "id": "pavilion",
+      "name": "Pabellón de las Cuatro Cúpulas",
+      "kind": "museum",
+      "zone": "Szczytniki",
+      "reason": "Alternativa interior de arte contemporáneo junto a Hala Stulecia, sin regresar al centro.",
+      "sourceIds": [
+        "official"
+      ],
+      "coordinates": {
+        "lat": 51.10787879999999,
+        "lon": 17.075711
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "Wystawowa 1, geocoded and manually reviewed",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Comprobar día de cierre y entradas; no hay acceso ni turno garantizado.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null
+    },
+    {
+      "id": "markethall",
+      "name": "Hala Targowa, mercado cubierto",
+      "kind": "visit",
+      "zone": "Camino a las islas",
+      "reason": "Pausa entre la universidad y Ostrów Tumski; ciudad cotidiana además de monumentos.",
+      "sourceIds": [
+        "official"
+      ],
+      "coordinates": {
+        "lat": 51.1125,
+        "lon": 17.04
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Hala_Targowa_przy_ul._Piaskowej_we_Wroc%C5%82awiu",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/wroclaw-markethall.jpg",
+        "author": "Андрэй Дзмітрыеў (http://fgb.by/viewtopic.php?p=60515#60515)",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:%D0%A3%D1%80%D0%BE%D1%86%D0%BB%D0%B0%D1%9E%D1%81%D0%BA%D1%96%D1%8F_%D0%B7%D0%B0%D0%BC%D0%B0%D0%BB%D1%91%D1%9E%D0%BA%D1%96_38.jpg"
+      }
+    },
+    {
+      "id": "pergola",
+      "name": "Pérgola de Hala Stulecia",
+      "kind": "visit",
+      "zone": "Szczytniki",
+      "reason": "Paseo propio alrededor del conjunto modernista; no presupone espectáculo de la fuente.",
+      "sourceIds": [
+        "official"
+      ],
+      "coordinates": {
+        "lat": 51.1094,
+        "lon": 17.0783
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Pergola_we_Wroc%C5%82awiu",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/wroclaw-pergola.jpg",
+        "author": "No machine-readable author provided. Julo assumed (based on copyright claims).",
+        "license": "Public domain",
+        "licenseURL": "",
+        "source": "https://commons.wikimedia.org/wiki/File:Pergola-Wroclaw-wnetrze.jpg"
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Centro e islas",
+          "zone": "Rynek, universidad y Ostrów Tumski",
+          "stopIds": [
+            "rynek",
+            "university",
+            "markethall",
+            "tumski"
+          ],
+          "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "rynek",
+              "toId": "university",
+              "straightLineKm": 0.41,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "university",
+              "toId": "markethall",
+              "straightLineKm": 0.48,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "markethall",
+              "toId": "tumski",
+              "straightLineKm": 0.47,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Centro e islas",
+          "zone": "Rynek, universidad y Ostrów Tumski",
+          "stopIds": [
+            "rynek",
+            "university",
+            "markethall",
+            "tumski"
+          ],
+          "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "rynek",
+              "toId": "university",
+              "straightLineKm": 0.41,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "university",
+              "toId": "markethall",
+              "straightLineKm": 0.48,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "markethall",
+              "toId": "tumski",
+              "straightLineKm": 0.47,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+        },
+        {
+          "title": "Modernismo y arte en Szczytniki",
+          "zone": "Conjunto Hala Stulecia",
+          "stopIds": [
+            "hall",
+            "pergola",
+            "pavilion"
+          ],
+          "optionalStopIds": [
+            "japan"
+          ],
+          "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación.",
+          "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
+          "geographyChecks": [
+            {
+              "fromId": "hall",
+              "toId": "pergola",
+              "straightLineKm": 0.29,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "pergola",
+              "toId": "pavilion",
+              "straightLineKm": 0.25,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Centro e islas",
+          "zone": "Rynek, universidad y Ostrów Tumski",
+          "stopIds": [
+            "rynek",
+            "university",
+            "markethall",
+            "tumski"
+          ],
+          "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "rynek",
+              "toId": "university",
+              "straightLineKm": 0.41,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "university",
+              "toId": "markethall",
+              "straightLineKm": 0.48,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "markethall",
+              "toId": "tumski",
+              "straightLineKm": 0.47,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+        },
+        {
+          "title": "Modernismo y arte en Szczytniki",
+          "zone": "Conjunto Hala Stulecia",
+          "stopIds": [
+            "hall",
+            "pergola",
+            "pavilion"
+          ],
+          "optionalStopIds": [
+            "japan"
+          ],
+          "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación.",
+          "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
+          "geographyChecks": [
+            {
+              "fromId": "hall",
+              "toId": "pergola",
+              "straightLineKm": 0.29,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "pergola",
+              "toId": "pavilion",
+              "straightLineKm": 0.25,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ]
+        },
+        {
+          "title": "Arte y pluralidad",
+          "zone": "Este del centro",
+          "stopIds": [
+            "panorama",
+            "national",
+            "four"
+          ],
+          "editorialNote": "Panorama con turno confirmado primero, después una selección del Museo Nacional, no todas sus salas. Tras comer, paseo hacia el Barrio de las Cuatro Confesiones para cerrar con ciudad viva en vez de otro museo. Si hay saturación de arte, quitar Museo Nacional.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "panorama",
+              "toId": "national",
+              "straightLineKm": 0.23,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "national",
+              "toId": "four",
+              "straightLineKm": 1.47,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6–7 h con comida y traslado al barrio; Museo Nacional es prescindible si se prefiere menos arte."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "El día de Hala Stulecia gana con la Pérgola y la fuente. Turismo anuncia espectáculos de mayo a octubre sujetos a programa: no fijar hora sin consulta.",
+      "sourceIds": [
+        "fountain"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": [
+        "hall",
+        "japan"
+      ]
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Retirar jardín y fuente como promesas de acceso. Dar prioridad a interiores y paseos cortos; Hala Stulecia exterior no es el espectáculo.",
+      "sourceIds": [
+        "official",
+        "fountain"
+      ],
+      "excludeStopIds": [
+        "japan"
+      ],
+      "preferStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad 2026",
+      "advice": "Mercado 20/11/2026-07/01/2027. Cerrado 24 y 25/12 y 01/01. El 26/12 abre desde las 13:00. Restricción sólo del evento, no del Rynek.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "excludeStopIds": [
+        "japan"
+      ],
+      "preferStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Comprobar apertura estacional de jardín y fuente; conservar alternativa interior en esa zona.",
+      "sourceIds": [
+        "official",
+        "fountain"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": []
+    }
+  },
+  "events": [
+    {
+      "id": "market",
+      "name": "Jarmark Bożonarodzeniowy",
+      "kind": "event",
+      "startDate": "2026-11-20",
+      "endDate": "2027-01-07",
+      "sourceId": "christmas",
+      "location": "Rynek y calles próximas",
+      "status": "announced",
+      "closedDates": [
+        "2026-12-24",
+        "2026-12-25",
+        "2027-01-01"
+      ],
+      "note": "26/12 desde las 13:00; comprobar otros horarios especiales con el organizador.",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-28"
+    }
+  ],
+  "cautions": [
+    "Jardín y fuente no se presuponen abiertos en invierno.",
+    "Panorama sujeto a sesión disponible, no hay reserva realizada."
+  ],
+  "excludedOrOptional": [
+    "Zoo/Afrykarium: alternativa familiar de medio día, no obligación añadida a dos museos.",
+    "Książ es excursión fuera de la ciudad."
+  ],
+  "sources": [
+    {
+      "id": "official",
+      "title": "Información turística: tres días",
+      "url": "https://wroclaw-info.pl/en/poznaj-wroclaw/wroclaw-3-dni/",
+      "type": "local-tourism",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "one",
+      "title": "Información turística: un día",
+      "url": "https://wroclaw-info.pl/en/poznaj-wroclaw/wroclaw-1-dzien/",
+      "type": "local-tourism",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "national",
+      "title": "Poland Travel: Wrocław",
+      "url": "https://www.poland.travel/en/wroclaw-2/",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "michelin",
+      "title": "Michelin: dos días",
+      "url": "https://guide.michelin.com/pl/en/article/travel/2-days-in-wroclaw",
+      "type": "editorial",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "local",
+      "title": "Guía local: itinerarios",
+      "url": "https://wroclawtravelguide.com/itineraries/",
+      "type": "commercial-guide",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "fountain",
+      "title": "Turismo municipal: fuente",
+      "url": "https://visitwroclaw.eu/en/atrakcje/unesco-multimedia-fountain-and-pavilion-of-the-4-domes/",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "christmas",
+      "title": "Organizador: mercado navideño",
+      "url": "https://www.jarmarkbozonarodzeniowy.com/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {
+    "summer": {
+      "mode": "editorial",
+      "note": "El día de Hala Stulecia gana con la Pérgola y la fuente. Turismo anuncia espectáculos de mayo a octubre sujetos a programa: no fijar hora sin consulta."
+    },
+    "winter": {
+      "mode": "editorial",
+      "excludeStopIds": [
+        "japan"
+      ],
+      "note": "Retirar jardín y fuente como promesas de acceso. Dar prioridad a interiores y paseos cortos; Hala Stulecia exterior no es el espectáculo."
+    },
+    "christmas": {
+      "mode": "dated-events-and-winter",
+      "excludeStopIds": [
+        "japan"
+      ],
+      "note": "Mercado 20/11/2026-07/01/2027. Cerrado 24 y 25/12 y 01/01. El 26/12 abre desde las 13:00. Restricción sólo del evento, no del Rynek."
+    }
+  },
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro e islas",
+            "zone": "Rynek, universidad y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "university",
+              "markethall",
+              "tumski"
+            ],
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "university",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "university",
+                "toId": "markethall",
+                "straightLineKm": 0.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "markethall",
+                "toId": "tumski",
+                "straightLineKm": 0.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro e islas",
+            "zone": "Rynek, universidad y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "university",
+              "markethall",
+              "tumski"
+            ],
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "university",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "university",
+                "toId": "markethall",
+                "straightLineKm": 0.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "markethall",
+                "toId": "tumski",
+                "straightLineKm": 0.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+          },
+          {
+            "title": "Modernismo y arte en Szczytniki",
+            "zone": "Conjunto Hala Stulecia",
+            "stopIds": [
+              "hall",
+              "pergola",
+              "pavilion"
+            ],
+            "optionalStopIds": [
+              "japan"
+            ],
+            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación.",
+            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
+            "geographyChecks": [
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.29,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "pergola",
+                "toId": "pavilion",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro e islas",
+            "zone": "Rynek, universidad y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "university",
+              "markethall",
+              "tumski"
+            ],
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "university",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "university",
+                "toId": "markethall",
+                "straightLineKm": 0.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "markethall",
+                "toId": "tumski",
+                "straightLineKm": 0.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+          },
+          {
+            "title": "Modernismo y arte en Szczytniki",
+            "zone": "Conjunto Hala Stulecia",
+            "stopIds": [
+              "hall",
+              "pergola",
+              "pavilion"
+            ],
+            "optionalStopIds": [
+              "japan"
+            ],
+            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación.",
+            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
+            "geographyChecks": [
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.29,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "pergola",
+                "toId": "pavilion",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Arte y pluralidad",
+            "zone": "Este del centro",
+            "stopIds": [
+              "panorama",
+              "national",
+              "four"
+            ],
+            "editorialNote": "Panorama con turno confirmado primero, después una selección del Museo Nacional, no todas sus salas. Tras comer, paseo hacia el Barrio de las Cuatro Confesiones para cerrar con ciudad viva en vez de otro museo. Si hay saturación de arte, quitar Museo Nacional.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "panorama",
+                "toId": "national",
+                "straightLineKm": 0.23,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "national",
+                "toId": "four",
+                "straightLineKm": 1.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y traslado al barrio; Museo Nacional es prescindible si se prefiere menos arte."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro e islas",
+            "zone": "Rynek, universidad y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "university",
+              "markethall",
+              "tumski"
+            ],
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "university",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "university",
+                "toId": "markethall",
+                "straightLineKm": 0.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "markethall",
+                "toId": "tumski",
+                "straightLineKm": 0.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro e islas",
+            "zone": "Rynek, universidad y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "university",
+              "markethall",
+              "tumski"
+            ],
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "university",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "university",
+                "toId": "markethall",
+                "straightLineKm": 0.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "markethall",
+                "toId": "tumski",
+                "straightLineKm": 0.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+          },
+          {
+            "title": "Modernismo y arte en Szczytniki",
+            "zone": "Conjunto Hala Stulecia",
+            "stopIds": [
+              "hall",
+              "pergola",
+              "pavilion"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación. En invierno acortar Pérgola y concentrar tiempo en el pabellón; Jardín Japonés retirado.",
+            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
+            "geographyChecks": [
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.29,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "pergola",
+                "toId": "pavilion",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro e islas",
+            "zone": "Rynek, universidad y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "university",
+              "markethall",
+              "tumski"
+            ],
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "university",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "university",
+                "toId": "markethall",
+                "straightLineKm": 0.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "markethall",
+                "toId": "tumski",
+                "straightLineKm": 0.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+          },
+          {
+            "title": "Modernismo y arte en Szczytniki",
+            "zone": "Conjunto Hala Stulecia",
+            "stopIds": [
+              "hall",
+              "pergola",
+              "pavilion"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación. En invierno acortar Pérgola y concentrar tiempo en el pabellón; Jardín Japonés retirado.",
+            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
+            "geographyChecks": [
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.29,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "pergola",
+                "toId": "pavilion",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Arte y pluralidad",
+            "zone": "Este del centro",
+            "stopIds": [
+              "panorama",
+              "national",
+              "four"
+            ],
+            "editorialNote": "Panorama con turno confirmado primero, después una selección del Museo Nacional, no todas sus salas. Tras comer, paseo hacia el Barrio de las Cuatro Confesiones para cerrar con ciudad viva en vez de otro museo. Si hay saturación de arte, quitar Museo Nacional.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "panorama",
+                "toId": "national",
+                "straightLineKm": 0.23,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "national",
+                "toId": "four",
+                "straightLineKm": 1.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y traslado al barrio; Museo Nacional es prescindible si se prefiere menos arte."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro e islas",
+            "zone": "Rynek, universidad y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "university",
+              "markethall",
+              "tumski"
+            ],
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "university",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "university",
+                "toId": "markethall",
+                "straightLineKm": 0.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "markethall",
+                "toId": "tumski",
+                "straightLineKm": 0.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro e islas",
+            "zone": "Rynek, universidad y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "university",
+              "markethall",
+              "tumski"
+            ],
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "university",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "university",
+                "toId": "markethall",
+                "straightLineKm": 0.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "markethall",
+                "toId": "tumski",
+                "straightLineKm": 0.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+          },
+          {
+            "title": "Modernismo y arte en Szczytniki",
+            "zone": "Conjunto Hala Stulecia",
+            "stopIds": [
+              "hall",
+              "pergola",
+              "pavilion"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación. En invierno acortar Pérgola y concentrar tiempo en el pabellón; Jardín Japonés retirado.",
+            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
+            "geographyChecks": [
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.29,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "pergola",
+                "toId": "pavilion",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro e islas",
+            "zone": "Rynek, universidad y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "university",
+              "markethall",
+              "tumski"
+            ],
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "university",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "university",
+                "toId": "markethall",
+                "straightLineKm": 0.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "markethall",
+                "toId": "tumski",
+                "straightLineKm": 0.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+          },
+          {
+            "title": "Modernismo y arte en Szczytniki",
+            "zone": "Conjunto Hala Stulecia",
+            "stopIds": [
+              "hall",
+              "pergola",
+              "pavilion"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación. En invierno acortar Pérgola y concentrar tiempo en el pabellón; Jardín Japonés retirado.",
+            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
+            "geographyChecks": [
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.29,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "pergola",
+                "toId": "pavilion",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Arte y pluralidad",
+            "zone": "Este del centro",
+            "stopIds": [
+              "panorama",
+              "national",
+              "four"
+            ],
+            "editorialNote": "Panorama con turno confirmado primero, después una selección del Museo Nacional, no todas sus salas. Tras comer, paseo hacia el Barrio de las Cuatro Confesiones para cerrar con ciudad viva en vez de otro museo. Si hay saturación de arte, quitar Museo Nacional.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "panorama",
+                "toId": "national",
+                "straightLineKm": 0.23,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "national",
+                "toId": "four",
+                "straightLineKm": 1.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y traslado al barrio; Museo Nacional es prescindible si se prefiere menos arte."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro e islas",
+            "zone": "Rynek, universidad y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "university",
+              "markethall",
+              "tumski"
+            ],
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "university",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "university",
+                "toId": "markethall",
+                "straightLineKm": 0.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "markethall",
+                "toId": "tumski",
+                "straightLineKm": 0.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro e islas",
+            "zone": "Rynek, universidad y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "university",
+              "markethall",
+              "tumski"
+            ],
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "university",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "university",
+                "toId": "markethall",
+                "straightLineKm": 0.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "markethall",
+                "toId": "tumski",
+                "straightLineKm": 0.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+          },
+          {
+            "title": "Modernismo y arte en Szczytniki",
+            "zone": "Conjunto Hala Stulecia",
+            "stopIds": [
+              "hall",
+              "pergola",
+              "pavilion"
+            ],
+            "optionalStopIds": [
+              "japan"
+            ],
+            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación.",
+            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
+            "geographyChecks": [
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.29,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "pergola",
+                "toId": "pavilion",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro e islas",
+            "zone": "Rynek, universidad y Ostrów Tumski",
+            "stopIds": [
+              "rynek",
+              "university",
+              "markethall",
+              "tumski"
+            ],
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "rynek",
+                "toId": "university",
+                "straightLineKm": 0.41,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "university",
+                "toId": "markethall",
+                "straightLineKm": 0.48,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "markethall",
+                "toId": "tumski",
+                "straightLineKm": 0.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
+          },
+          {
+            "title": "Modernismo y arte en Szczytniki",
+            "zone": "Conjunto Hala Stulecia",
+            "stopIds": [
+              "hall",
+              "pergola",
+              "pavilion"
+            ],
+            "optionalStopIds": [
+              "japan"
+            ],
+            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación.",
+            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
+            "geographyChecks": [
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.29,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "pergola",
+                "toId": "pavilion",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Arte y pluralidad",
+            "zone": "Este del centro",
+            "stopIds": [
+              "panorama",
+              "national",
+              "four"
+            ],
+            "editorialNote": "Panorama con turno confirmado primero, después una selección del Museo Nacional, no todas sus salas. Tras comer, paseo hacia el Barrio de las Cuatro Confesiones para cerrar con ciudad viva en vez de otro museo. Si hay saturación de arte, quitar Museo Nacional.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "panorama",
+                "toId": "national",
+                "straightLineKm": 0.23,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "national",
+                "toId": "four",
+                "straightLineKm": 1.47,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y traslado al barrio; Museo Nacional es prescindible si se prefiere menos arte."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1379 @@
+{
+  "schemaVersion": 1,
+  "country": "PL",
+  "id": "krakow",
+  "name": "Cracovia",
+  "localName": "Kraków",
+  "selectionReason": "Gran centro patrimonial y segunda entre seis comparadas en huéspedes hoteleros GUS 2025.",
+  "reviewedAt": "2026-10-28",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita cultural y ritmo moderado. La carga por día es una estimación editorial con comida, pausas y desplazamientos, no un horario comprobado. Las paradas exteriores no implican entrar en todos los edificios. Ajustar a entradas y fecha real.",
+  "stops": [
+    {
+      "id": "wawel",
+      "name": "Colina de Wawel y catedral",
+      "kind": "visit",
+      "zone": "Wawel",
+      "reason": "Núcleo real y símbolo histórico; elegir interiores, no agotar todas las salas.",
+      "sourceIds": [
+        "et",
+        "local",
+        "literary"
+      ],
+      "coordinates": {
+        "lat": 50.05388889,
+        "lon": 19.93472222
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Wawel_Castle",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Castillo, catedral y exposiciones tienen accesos y horarios distintos.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/krakow-wawel.jpg",
+        "author": "Monika Towiańska",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Wawel_(4).jpg"
+      }
+    },
+    {
+      "id": "rynek",
+      "name": "Rynek Główny y Lonja de los Paños",
+      "kind": "zone",
+      "zone": "Stare Miasto",
+      "reason": "Conjunto urbano esencial que se recorre como una sola zona.",
+      "sourceIds": [
+        "et",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 50.06166667,
+        "lon": 19.93722222
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Main_Square,_Krak%C3%B3w",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/krakow-rynek.jpg",
+        "author": "Jorge Lascar",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Sukiennice_and_Main_Market_Square_Krakow_Poland.JPG"
+      }
+    },
+    {
+      "id": "mary",
+      "name": "Basílica de Santa María",
+      "kind": "visit",
+      "zone": "Stare Miasto",
+      "reason": "Interior de alto valor cultural junto al Rynek.",
+      "sourceIds": [
+        "et",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 50.06166667,
+        "lon": 19.93916667
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Basilica_of_the_Assumption_of_the_Blessed_Virgin_Mary,_Krak%C3%B3w",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Culto y visita turística son usos distintos; torre opcional, sin acceso garantizado.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/krakow-mary.jpg",
+        "author": "Zygmunt Put",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Church_of_Our_Lady_Assumed_into_Heaven,_5_Mariacki_square,_Old_Town,_Krak%C3%B3w,_Poland.jpg"
+      }
+    },
+    {
+      "id": "kazimierz",
+      "name": "Kazimierz y calle Szeroka",
+      "kind": "zone",
+      "zone": "Kazimierz",
+      "reason": "Historia judía y barrio vivo, distinto del centro monumental.",
+      "sourceIds": [
+        "official",
+        "et",
+        "literary"
+      ],
+      "coordinates": {
+        "lat": 50.05166667,
+        "lon": 19.94472222
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Kazimierz",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null
+    },
+    {
+      "id": "ghetto",
+      "name": "Plaza de los Héroes del Gueto",
+      "kind": "memorial",
+      "zone": "Podgórze",
+      "reason": "Memoria del gueto en el lugar, sin trivializarla como parada fotográfica.",
+      "sourceIds": [
+        "official",
+        "et"
+      ],
+      "coordinates": {
+        "lat": 50.046667,
+        "lon": 19.954167
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Plac_Bohater%C3%B3w_Getta_w_Krakowie",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/krakow-ghetto.jpg",
+        "author": "Mach240390",
+        "license": "CC BY 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:PlacBohater%C3%B3wGetta-Podg%C3%B3rze-POL,_Krak%C3%B3w.jpg"
+      }
+    },
+    {
+      "id": "schindler",
+      "name": "Fábrica de Oskar Schindler",
+      "kind": "museum",
+      "zone": "Zabłocie",
+      "reason": "Ancla documental sobre la ocupación de Cracovia. Es coherente con Podgórze.",
+      "sourceIds": [
+        "official",
+        "et",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 50.0474,
+        "lon": 19.96175
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Oskar_Schindler%27s_Enamel_Factory",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Reservar si se elige. El museo no trata sólo la biografía de Schindler.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/krakow-schindler.jpg",
+        "author": "Jennifer Boyer",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Schindler%E2%80%99s_factory,_Krak%C3%B3w,_2011.jpg"
+      }
+    },
+    {
+      "id": "czartoryski",
+      "name": "Museo Czartoryski",
+      "kind": "museum",
+      "zone": "Norte del centro",
+      "reason": "Ampliación artística para un tercer día sin salir de la ciudad.",
+      "sourceIds": [
+        "local"
+      ],
+      "coordinates": {
+        "lat": 50.06466667,
+        "lon": 19.93994444
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Czartoryski_Museum",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/krakow-czartoryski.jpg",
+        "author": "Zygmunt Put",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Czartoryski_Palace,_17-19_%C5%9Bwi%C4%99tego_Jana_street,_Old_Town,_Krak%C3%B3w,_Poland.jpg"
+      }
+    },
+    {
+      "id": "planty",
+      "name": "Planty",
+      "kind": "park",
+      "zone": "Centro",
+      "reason": "Pausa verde que no debe contarse como otro gran museo.",
+      "sourceIds": [
+        "et"
+      ],
+      "coordinates": {
+        "lat": 50.06555556,
+        "lon": 19.94
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Planty_Park_(Krak%C3%B3w)",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/krakow-planty.jpg",
+        "author": "Zygmunt Put Zetpe0202",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Planty_Park,_autumn,_Old_Town,_Krakow,_Poland.jpg"
+      }
+    },
+    {
+      "id": "florian",
+      "name": "Puerta de San Florián",
+      "kind": "visit",
+      "zone": "Norte del casco antiguo",
+      "reason": "Puerta histórica que completa la lectura de la ciudad amurallada, junto al museo y Planty.",
+      "sourceIds": [
+        "heritage"
+      ],
+      "coordinates": {
+        "lat": 50.064861,
+        "lon": 19.941389
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Brama_Floria%C5%84ska_w_Krakowie",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/krakow-florian.jpg",
+        "author": "Zygmunt Put",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:St._Florian%27s_Gate,_view_from_S,_Pijarska_street,_Old_Town,_Krak%C3%B3w,_Poland.jpg"
+      }
+    },
+    {
+      "id": "collegium",
+      "name": "Collegium Maius",
+      "kind": "visit",
+      "zone": "Barrio universitario",
+      "reason": "Segunda capa de Cracovia: la universidad histórica. Patio si está accesible; museo interior no obligatorio.",
+      "sourceIds": [
+        "heritage"
+      ],
+      "coordinates": {
+        "lat": 50.06166667,
+        "lon": 19.93388889
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Collegium_Maius%2C_Krak%C3%B3w",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/krakow-collegium.jpg",
+        "author": "Zygmunt Put",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Jagiellonian_University,_Collegium_Maius_facade,_15_Jagiello%C5%84ska_street,_Old_Town,_Krak%C3%B3w,_Poland.jpg"
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Cracovia esencial",
+          "zone": "Wawel y Stare Miasto",
+          "stopIds": [
+            "wawel",
+            "rynek",
+            "mary"
+          ],
+          "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "wawel",
+              "toId": "rynek",
+              "straightLineKm": 0.88,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "rynek",
+              "toId": "mary",
+              "straightLineKm": 0.14,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Cracovia esencial",
+          "zone": "Wawel y Stare Miasto",
+          "stopIds": [
+            "wawel",
+            "rynek",
+            "mary"
+          ],
+          "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "wawel",
+              "toId": "rynek",
+              "straightLineKm": 0.88,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "rynek",
+              "toId": "mary",
+              "straightLineKm": 0.14,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+        },
+        {
+          "title": "Historia judía y ocupación",
+          "zone": "Kazimierz, Podgórze y Zabłocie",
+          "stopIds": [
+            "kazimierz",
+            "ghetto",
+            "schindler"
+          ],
+          "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "kazimierz",
+              "toId": "ghetto",
+              "straightLineKm": 0.87,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "ghetto",
+              "toId": "schindler",
+              "straightLineKm": 0.55,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Cracovia esencial",
+          "zone": "Wawel y Stare Miasto",
+          "stopIds": [
+            "wawel",
+            "rynek",
+            "mary"
+          ],
+          "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "wawel",
+              "toId": "rynek",
+              "straightLineKm": 0.88,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "rynek",
+              "toId": "mary",
+              "straightLineKm": 0.14,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+        },
+        {
+          "title": "Historia judía y ocupación",
+          "zone": "Kazimierz, Podgórze y Zabłocie",
+          "stopIds": [
+            "kazimierz",
+            "ghetto",
+            "schindler"
+          ],
+          "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "kazimierz",
+              "toId": "ghetto",
+              "straightLineKm": 0.87,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "ghetto",
+              "toId": "schindler",
+              "straightLineKm": 0.55,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
+        },
+        {
+          "title": "Arte, murallas y universidad",
+          "zone": "Norte y oeste del casco antiguo",
+          "stopIds": [
+            "florian",
+            "czartoryski",
+            "collegium",
+            "planty"
+          ],
+          "optionalStopIds": [],
+          "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística.",
+          "pacing": "Unas 5–6 h con comida y pausas; Planty es cierre de paseo, no visita interior.",
+          "geographyChecks": [
+            {
+              "fromId": "florian",
+              "toId": "czartoryski",
+              "straightLineKm": 0.11,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "czartoryski",
+              "toId": "collegium",
+              "straightLineKm": 0.55,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "collegium",
+              "toId": "planty",
+              "straightLineKm": 0.61,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Planty y ribera del Vístula aportan descansos. Reservar interiores; no confundir recomendación de ritmo con previsión meteorológica.",
+      "sourceIds": [
+        "et",
+        "literary"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": [
+        "planty"
+      ]
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Paseos más cortos y un museo como ancla. No prometer Cueva del Dragón como si abriera todo el año.",
+      "sourceIds": [
+        "et",
+        "literary"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad 2026",
+      "advice": "Artim prevé mercado desde 27/11/2026, final 03/01 o 06/01/2027 aún alternativo. La ficha de belenes hallada es 2025-26: no se usa como calendario nuevo.",
+      "sourceIds": [
+        "christmas",
+        "cribs"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Paseos del centro y alternativa interior para lluvia. No copiar horarios ni entradas de guías antiguas.",
+      "sourceIds": [
+        "et"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": []
+    }
+  },
+  "events": [
+    {
+      "id": "market",
+      "name": "Mercado navideño del Rynek",
+      "kind": "event",
+      "startDate": "2026-11-27",
+      "endDate": null,
+      "sourceId": "christmas",
+      "location": "Rynek Główny",
+      "status": "planned",
+      "closedDates": [],
+      "note": "Final propuesto 3 o 6 de enero de 2027. No es fecha definitiva.",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-28"
+    }
+  ],
+  "cautions": [
+    "Entradas, turnos y culto pueden cambiar el orden de visitas."
+  ],
+  "excludedOrOptional": [
+    "Auschwitz-Birkenau: excursión memorial aparte, no visita de ciudad ni actividad festiva.",
+    "Wieliczka es otra excursión; no combinar ambas automáticamente en un día.",
+    "No exigir todos los museos de Wawel ni dos miradores."
+  ],
+  "sources": [
+    {
+      "id": "official",
+      "title": "Turismo: ruta histórica",
+      "url": "https://krakow.travel/en/wycieczki/22736",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "literary",
+      "title": "Turismo: Wawel-Kazimierz-Podgórze",
+      "url": "https://krakow.travel/en/wycieczki/22778?day=1",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "municipal",
+      "title": "Ayuntamiento: tres días",
+      "url": "https://www.krakow.pl/1177%2Cartykul%2Ctrzy-dni-w-krakowie.html",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "et",
+      "title": "Earth Trekkers: tres días",
+      "url": "https://www.earthtrekkers.com/3-days-in-krakow-itinerary/",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "local",
+      "title": "Visit Krakow: qué ver",
+      "url": "https://visitkrakow.com/things-to-do-in-krakow/",
+      "type": "commercial-guide",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "christmas",
+      "title": "Organizador Artim",
+      "url": "https://kiermasze.com.pl/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "cribs",
+      "title": "Turismo: belenes, edición pasada",
+      "url": "https://krakow.travel/en/62185-krakow-nativity-scenes-in-the-krzysztofory",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "heritage",
+      "title": "Turismo: patrimonio y lugares del centro",
+      "url": "https://krakow.travel/en/planer?step=2",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {
+    "summer": {
+      "mode": "editorial",
+      "note": "Planty y ribera del Vístula aportan descansos. Reservar interiores; no confundir recomendación de ritmo con previsión meteorológica."
+    },
+    "winter": {
+      "mode": "editorial",
+      "excludeStopIds": [],
+      "note": "Paseos más cortos y un museo como ancla. No prometer Cueva del Dragón como si abriera todo el año."
+    },
+    "christmas": {
+      "mode": "dated-events-and-winter",
+      "excludeStopIds": [],
+      "note": "Artim prevé mercado desde 27/11/2026, final 03/01 o 06/01/2027 aún alternativo. La ficha de belenes hallada es 2025-26: no se usa como calendario nuevo."
+    }
+  },
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Cracovia esencial",
+            "zone": "Wawel y Stare Miasto",
+            "stopIds": [
+              "wawel",
+              "rynek",
+              "mary"
+            ],
+            "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "wawel",
+                "toId": "rynek",
+                "straightLineKm": 0.88,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "rynek",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Cracovia esencial",
+            "zone": "Wawel y Stare Miasto",
+            "stopIds": [
+              "wawel",
+              "rynek",
+              "mary"
+            ],
+            "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "wawel",
+                "toId": "rynek",
+                "straightLineKm": 0.88,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "rynek",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+          },
+          {
+            "title": "Historia judía y ocupación",
+            "zone": "Kazimierz, Podgórze y Zabłocie",
+            "stopIds": [
+              "kazimierz",
+              "ghetto",
+              "schindler"
+            ],
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "kazimierz",
+                "toId": "ghetto",
+                "straightLineKm": 0.87,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "ghetto",
+                "toId": "schindler",
+                "straightLineKm": 0.55,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Cracovia esencial",
+            "zone": "Wawel y Stare Miasto",
+            "stopIds": [
+              "wawel",
+              "rynek",
+              "mary"
+            ],
+            "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "wawel",
+                "toId": "rynek",
+                "straightLineKm": 0.88,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "rynek",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+          },
+          {
+            "title": "Historia judía y ocupación",
+            "zone": "Kazimierz, Podgórze y Zabłocie",
+            "stopIds": [
+              "kazimierz",
+              "ghetto",
+              "schindler"
+            ],
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "kazimierz",
+                "toId": "ghetto",
+                "straightLineKm": 0.87,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "ghetto",
+                "toId": "schindler",
+                "straightLineKm": 0.55,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
+          },
+          {
+            "title": "Arte, murallas y universidad",
+            "zone": "Norte y oeste del casco antiguo",
+            "stopIds": [
+              "florian",
+              "czartoryski",
+              "collegium",
+              "planty"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística.",
+            "pacing": "Unas 5–6 h con comida y pausas; Planty es cierre de paseo, no visita interior.",
+            "geographyChecks": [
+              {
+                "fromId": "florian",
+                "toId": "czartoryski",
+                "straightLineKm": 0.11,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "czartoryski",
+                "toId": "collegium",
+                "straightLineKm": 0.55,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "collegium",
+                "toId": "planty",
+                "straightLineKm": 0.61,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Cracovia esencial",
+            "zone": "Wawel y Stare Miasto",
+            "stopIds": [
+              "wawel",
+              "rynek",
+              "mary"
+            ],
+            "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "wawel",
+                "toId": "rynek",
+                "straightLineKm": 0.88,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "rynek",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Cracovia esencial",
+            "zone": "Wawel y Stare Miasto",
+            "stopIds": [
+              "wawel",
+              "rynek",
+              "mary"
+            ],
+            "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "wawel",
+                "toId": "rynek",
+                "straightLineKm": 0.88,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "rynek",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+          },
+          {
+            "title": "Historia judía y ocupación",
+            "zone": "Kazimierz, Podgórze y Zabłocie",
+            "stopIds": [
+              "kazimierz",
+              "ghetto",
+              "schindler"
+            ],
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "kazimierz",
+                "toId": "ghetto",
+                "straightLineKm": 0.87,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "ghetto",
+                "toId": "schindler",
+                "straightLineKm": 0.55,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Cracovia esencial",
+            "zone": "Wawel y Stare Miasto",
+            "stopIds": [
+              "wawel",
+              "rynek",
+              "mary"
+            ],
+            "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "wawel",
+                "toId": "rynek",
+                "straightLineKm": 0.88,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "rynek",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+          },
+          {
+            "title": "Historia judía y ocupación",
+            "zone": "Kazimierz, Podgórze y Zabłocie",
+            "stopIds": [
+              "kazimierz",
+              "ghetto",
+              "schindler"
+            ],
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "kazimierz",
+                "toId": "ghetto",
+                "straightLineKm": 0.87,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "ghetto",
+                "toId": "schindler",
+                "straightLineKm": 0.55,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
+          },
+          {
+            "title": "Arte, murallas y universidad",
+            "zone": "Norte y oeste del casco antiguo",
+            "stopIds": [
+              "florian",
+              "czartoryski",
+              "collegium"
+            ],
+            "optionalStopIds": [
+              "planty"
+            ],
+            "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística. En invierno Planty queda opcional; la puerta se ve al llegar al museo, sin alargar el paseo.",
+            "pacing": "Unas 5–6 h con comida y pausas; Planty es cierre de paseo, no visita interior.",
+            "geographyChecks": [
+              {
+                "fromId": "florian",
+                "toId": "czartoryski",
+                "straightLineKm": 0.11,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "czartoryski",
+                "toId": "collegium",
+                "straightLineKm": 0.55,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Cracovia esencial",
+            "zone": "Wawel y Stare Miasto",
+            "stopIds": [
+              "wawel",
+              "rynek",
+              "mary"
+            ],
+            "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "wawel",
+                "toId": "rynek",
+                "straightLineKm": 0.88,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "rynek",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Cracovia esencial",
+            "zone": "Wawel y Stare Miasto",
+            "stopIds": [
+              "wawel",
+              "rynek",
+              "mary"
+            ],
+            "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "wawel",
+                "toId": "rynek",
+                "straightLineKm": 0.88,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "rynek",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+          },
+          {
+            "title": "Historia judía y ocupación",
+            "zone": "Kazimierz, Podgórze y Zabłocie",
+            "stopIds": [
+              "kazimierz",
+              "ghetto",
+              "schindler"
+            ],
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "kazimierz",
+                "toId": "ghetto",
+                "straightLineKm": 0.87,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "ghetto",
+                "toId": "schindler",
+                "straightLineKm": 0.55,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Cracovia esencial",
+            "zone": "Wawel y Stare Miasto",
+            "stopIds": [
+              "wawel",
+              "rynek",
+              "mary"
+            ],
+            "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "wawel",
+                "toId": "rynek",
+                "straightLineKm": 0.88,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "rynek",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+          },
+          {
+            "title": "Historia judía y ocupación",
+            "zone": "Kazimierz, Podgórze y Zabłocie",
+            "stopIds": [
+              "kazimierz",
+              "ghetto",
+              "schindler"
+            ],
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "kazimierz",
+                "toId": "ghetto",
+                "straightLineKm": 0.87,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "ghetto",
+                "toId": "schindler",
+                "straightLineKm": 0.55,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
+          },
+          {
+            "title": "Arte, murallas y universidad",
+            "zone": "Norte y oeste del casco antiguo",
+            "stopIds": [
+              "florian",
+              "czartoryski",
+              "collegium"
+            ],
+            "optionalStopIds": [
+              "planty"
+            ],
+            "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística. En invierno Planty queda opcional; la puerta se ve al llegar al museo, sin alargar el paseo.",
+            "pacing": "Unas 5–6 h con comida y pausas; Planty es cierre de paseo, no visita interior.",
+            "geographyChecks": [
+              {
+                "fromId": "florian",
+                "toId": "czartoryski",
+                "straightLineKm": 0.11,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "czartoryski",
+                "toId": "collegium",
+                "straightLineKm": 0.55,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Cracovia esencial",
+            "zone": "Wawel y Stare Miasto",
+            "stopIds": [
+              "wawel",
+              "rynek",
+              "mary"
+            ],
+            "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "wawel",
+                "toId": "rynek",
+                "straightLineKm": 0.88,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "rynek",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Cracovia esencial",
+            "zone": "Wawel y Stare Miasto",
+            "stopIds": [
+              "wawel",
+              "rynek",
+              "mary"
+            ],
+            "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "wawel",
+                "toId": "rynek",
+                "straightLineKm": 0.88,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "rynek",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+          },
+          {
+            "title": "Historia judía y ocupación",
+            "zone": "Kazimierz, Podgórze y Zabłocie",
+            "stopIds": [
+              "kazimierz",
+              "ghetto",
+              "schindler"
+            ],
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "kazimierz",
+                "toId": "ghetto",
+                "straightLineKm": 0.87,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "ghetto",
+                "toId": "schindler",
+                "straightLineKm": 0.55,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Cracovia esencial",
+            "zone": "Wawel y Stare Miasto",
+            "stopIds": [
+              "wawel",
+              "rynek",
+              "mary"
+            ],
+            "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "wawel",
+                "toId": "rynek",
+                "straightLineKm": 0.88,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "rynek",
+                "toId": "mary",
+                "straightLineKm": 0.14,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con comida y paseo; un interior principal en Wawel, Santa María breve si abre."
+          },
+          {
+            "title": "Historia judía y ocupación",
+            "zone": "Kazimierz, Podgórze y Zabłocie",
+            "stopIds": [
+              "kazimierz",
+              "ghetto",
+              "schindler"
+            ],
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "kazimierz",
+                "toId": "ghetto",
+                "straightLineKm": 0.87,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "ghetto",
+                "toId": "schindler",
+                "straightLineKm": 0.55,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
+          },
+          {
+            "title": "Arte, murallas y universidad",
+            "zone": "Norte y oeste del casco antiguo",
+            "stopIds": [
+              "florian",
+              "czartoryski",
+              "collegium",
+              "planty"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística.",
+            "pacing": "Unas 5–6 h con comida y pausas; Planty es cierre de paseo, no visita interior.",
+            "geographyChecks": [
+              {
+                "fromId": "florian",
+                "toId": "czartoryski",
+                "straightLineKm": 0.11,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "czartoryski",
+                "toId": "collegium",
+                "straightLineKm": 0.55,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "collegium",
+                "toId": "planty",
+                "straightLineKm": 0.61,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

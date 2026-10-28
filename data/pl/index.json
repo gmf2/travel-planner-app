@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "PL",
+  "name": "Polonia",
+  "reviewedAt": "2026-10-28",
+  "scope": "Cinco ciudades para un piloto, no cobertura completa del país.",
+  "selection": {
+    "basis": "Huéspedes hoteleros y similares, sin apartamentos, en seis ciudades comparadas (GUS 2025). Complementado con variedad patrimonial. No ranking nacional exhaustivo de visitantes.",
+    "sourceUrl": "https://wroclaw.travel/wp-content/uploads/2026/03/Prezentacja-Ruch-Turystyczny-we-Wroclawiu-2025-Rada-Turystyki.pdf",
+    "page": 17,
+    "counts": {
+      "warsaw": 5504719,
+      "krakow": 3251284,
+      "gdansk": 1678084,
+      "wroclaw": 1593932,
+      "poznan": 925063
+    },
+    "nationalTourismUrl": "https://www.poland.travel/en/cities/"
+  },
+  "cities": [
+    {
+      "id": "pl-warsaw",
+      "name": "Varsovia",
+      "localName": "Warszawa",
+      "path": "data/pl/warsaw.json",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "latitude": 52.2478,
+      "longitude": 21.0142,
+      "country": "Polonia",
+      "curated": true,
+      "aliases": [
+        "Varsovia",
+        "Warszawa"
+      ],
+      "catalogId": "warsaw"
+    },
+    {
+      "id": "pl-krakow",
+      "name": "Cracovia",
+      "localName": "Kraków",
+      "path": "data/pl/krakow.json",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "latitude": 50.06166,
+      "longitude": 19.93722,
+      "country": "Polonia",
+      "curated": true,
+      "aliases": [
+        "Cracovia",
+        "Kraków"
+      ],
+      "catalogId": "krakow"
+    },
+    {
+      "id": "pl-gdansk",
+      "name": "Gdańsk",
+      "localName": "Gdańsk",
+      "path": "data/pl/gdansk.json",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "latitude": 54.34855,
+      "longitude": 18.65323,
+      "country": "Polonia",
+      "curated": true,
+      "aliases": [
+        "Gdańsk",
+        "Gdańsk"
+      ],
+      "catalogId": "gdansk"
+    },
+    {
+      "id": "pl-wroclaw",
+      "name": "Wrocław",
+      "localName": "Wrocław",
+      "path": "data/pl/wroclaw.json",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "latitude": 51.11,
+      "longitude": 17.03194,
+      "country": "Polonia",
+      "curated": true,
+      "aliases": [
+        "Wrocław",
+        "Wrocław"
+      ],
+      "catalogId": "wroclaw"
+    },
+    {
+      "id": "pl-poznan",
+      "name": "Poznań",
+      "localName": "Poznań",
+      "path": "data/pl/poznan.json",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "latitude": 52.4083,
+      "longitude": 16.9336,
+      "country": "Polonia",
+      "curated": true,
+      "aliases": [
+        "Poznań",
+        "Poznań"
+      ],
+      "catalogId": "poznan"
+    }
+  ]
+}

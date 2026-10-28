@@ -1,0 +1,2089 @@
+{
+  "schemaVersion": 1,
+  "country": "PL",
+  "id": "warsaw",
+  "name": "Varsovia",
+  "localName": "Warszawa",
+  "selectionReason": "Capital y primera entre seis ciudades comparadas en huéspedes hoteleros GUS 2025.",
+  "reviewedAt": "2026-10-28",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita cultural y ritmo moderado. La carga por día es una estimación editorial con comida, pausas y desplazamientos, no un horario comprobado. Las paradas exteriores no implican entrar en todos los edificios. Ajustar a entradas y fecha real.",
+  "stops": [
+    {
+      "id": "old",
+      "name": "Castillo Real y plaza del Castillo",
+      "kind": "visit",
+      "zone": "Casco antiguo",
+      "reason": "Interior principal del día si interesa la historia real; la plaza y la columna de Segismundo se ven al llegar.",
+      "sourceIds": [
+        "official",
+        "national",
+        "michelin"
+      ],
+      "coordinates": {
+        "lat": 52.2478,
+        "lon": 21.0142
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Royal_Castle,_Warsaw",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Elegir exterior o una exposición del castillo; no se garantiza acceso a todos los interiores.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-old.jpg",
+        "author": "Chris Olszewski",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Royal_Castle_in_Warsaw,_Poland,_2022,_03.jpg"
+      },
+      "visitMode": "Interior principal, o sólo exterior"
+    },
+    {
+      "id": "polin",
+      "name": "Museo POLIN",
+      "kind": "museum",
+      "zone": "Muranów",
+      "reason": "Contexto de la historia judía, no sólo de la guerra.",
+      "sourceIds": [
+        "official",
+        "national"
+      ],
+      "coordinates": {
+        "lat": 52.24944444,
+        "lon": 20.99305556
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/POLIN_Museum_of_the_History_of_Polish_Jews",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null
+    },
+    {
+      "id": "rising",
+      "name": "Museo del Alzamiento de Varsovia",
+      "kind": "museum",
+      "zone": "Wola",
+      "reason": "Permite entender 1944 y la ciudad reconstruida.",
+      "sourceIds": [
+        "official",
+        "michelin"
+      ],
+      "coordinates": {
+        "lat": 52.23222222,
+        "lon": 20.98083333
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Warsaw_Rising_Museum",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Alternativa a POLIN, no otro museo largo obligatorio. No confundir con el levantamiento del gueto.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-rising.jpg",
+        "author": "Adrian Grycuk",
+        "license": "CC BY 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Muzeum_Powstania_Warszawskiego_2023.jpg"
+      }
+    },
+    {
+      "id": "park",
+      "name": "Palacio en la Isla, Łazienki",
+      "kind": "park",
+      "zone": "Sur del centro",
+      "reason": "Paseo hasta la residencia sobre el agua. El interior es opcional, no otra entrada obligatoria.",
+      "sourceIds": [
+        "official",
+        "national",
+        "lp"
+      ],
+      "coordinates": {
+        "lat": 52.21512,
+        "lon": 21.03582
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Palace_on_the_Isle",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Parque y palacios tienen accesos distintos. Conciertos sólo con calendario confirmado.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Exterior; interior opcional",
+      "photo": {
+        "img": "assets/warsaw-park.jpg",
+        "author": "Maciej Rolkowski",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pa%C5%82ac_na_wyspie,_%C5%81azienki_Kr%C3%B3lewskie,_Warszawa_2021.jpg"
+      }
+    },
+    {
+      "id": "library",
+      "name": "Azotea de la Biblioteca Universitaria",
+      "kind": "garden",
+      "zone": "Powiśle",
+      "reason": "Vistas del Vístula y arquitectura contemporánea en meses de apertura.",
+      "sourceIds": [
+        "lp",
+        "roof"
+      ],
+      "coordinates": {
+        "lat": 52.24203333,
+        "lon": 21.02483333
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/University_of_Warsaw_Library",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "La azotea no abre de noviembre a marzo; el jardín inferior tiene reglas distintas.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-library.jpg",
+        "author": "Adrian Grycuk",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Biblioteka_Uniwersytecka_w_Warszawie_2018.jpg"
+      }
+    },
+    {
+      "id": "palace",
+      "name": "Palacio de la Cultura y la Ciencia",
+      "kind": "visit",
+      "zone": "Śródmieście",
+      "reason": "Contrapunto del siglo XX y posible mirador.",
+      "sourceIds": [
+        "official",
+        "lp",
+        "michelin"
+      ],
+      "coordinates": {
+        "lat": 52.23166667,
+        "lon": 21.00638889
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Palace_of_Culture_and_Science",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Mirador opcional, entrada por comprobar.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-palace.jpg",
+        "author": "Maciurella",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pa%C5%82ac_Kultury_i_Nauki_24-05-2026.jpg"
+      }
+    },
+    {
+      "id": "wilanow",
+      "name": "Palacio de Wilanów",
+      "kind": "visit",
+      "zone": "Wilanów",
+      "reason": "Alternativa fuera del centro para quien priorice palacios.",
+      "sourceIds": [
+        "official",
+        "timeout"
+      ],
+      "coordinates": {
+        "lat": 52.16527778,
+        "lon": 21.09027778
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Wilan%C3%B3w_Palace",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Requiere transporte y sustituye otro bloque; no se añade al casco antiguo.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-wilanow.jpg",
+        "author": "Chris Olszewski",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Garden_facade_of_the_Wilan%C3%B3w_Palace,_2019,_02.jpg"
+      }
+    },
+    {
+      "id": "praga",
+      "name": "Praga-Północ: entorno de Ząbkowska",
+      "kind": "zone",
+      "zone": "Orilla oriental",
+      "reason": "Perspectiva vecinal y menos monumental de la ciudad.",
+      "sourceIds": [
+        "official",
+        "lp"
+      ],
+      "coordinates": {
+        "lat": 52.2527907,
+        "lon": 21.0384095
+      },
+      "coordinateSource": null,
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Barrio, punto representativo. Visitar calles concretas, no seguir el centroide administrativo como entrada.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "coordinateMethod": "Ząbkowska 1, Warszawa, geocoded representative street point, manually reviewed"
+    },
+    {
+      "id": "barbican",
+      "name": "Barbacana y murallas",
+      "kind": "visit",
+      "zone": "Norte del casco antiguo",
+      "reason": "Entrada al casco antiguo: permite leer la fortificación antes de bajar hacia el castillo.",
+      "sourceIds": [
+        "official"
+      ],
+      "coordinates": {
+        "lat": 52.25055556,
+        "lon": 21.01
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Warsaw_Barbican",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-barbican.jpg",
+        "author": "Carlos Delgado",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Barbakan_w_Warszawie_-_03.jpg"
+      }
+    },
+    {
+      "id": "market",
+      "name": "Plaza del casco antiguo y Sirena",
+      "kind": "visit",
+      "zone": "Casco antiguo",
+      "reason": "Plaza reconstruida y símbolo de Varsovia; aquí se entiende la escala de la ciudad histórica.",
+      "sourceIds": [
+        "official"
+      ],
+      "coordinates": {
+        "lat": 52.249722,
+        "lon": 21.012222
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Rynek_Starego_Miasta_w_Warszawie",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-market.jpg",
+        "author": "Adrian Grycuk",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Warsaw_Old_Town_Market_Square_10.JPG"
+      }
+    },
+    {
+      "id": "anne",
+      "name": "Iglesia de Santa Ana",
+      "kind": "visit",
+      "zone": "Plaza del Castillo",
+      "reason": "Fachada y transición a la Ruta Real. La torre es una alternativa si abre, no una subida obligatoria.",
+      "sourceIds": [
+        "official",
+        "walkGuide"
+      ],
+      "coordinates": {
+        "lat": 52.24638889,
+        "lon": 21.01416667
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/St._Anne%27s_Church%2C_Warsaw",
+      "suggestedMinutes": 20,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-anne.jpg",
+        "author": "Alina Zienowicz Ala z",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:POL_Kosciol_sw_Anny_w_Warszawie_2008_(1).JPG"
+      }
+    },
+    {
+      "id": "president",
+      "name": "Palacio Presidencial y Krakowskie Przedmieście",
+      "kind": "visit",
+      "zone": "Ruta Real",
+      "reason": "Paseo por el tramo monumental: fachada del palacio y calles universitarias, no visita al interior presidencial.",
+      "sourceIds": [
+        "official"
+      ],
+      "coordinates": {
+        "lat": 52.24300833,
+        "lon": 21.01625
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Warsaw",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-president.jpg",
+        "author": "Marcin Białek",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Warszawa_Pa%C5%82ac_Prezydencki_2011.jpg"
+      }
+    },
+    {
+      "id": "cross",
+      "name": "Iglesia de la Santa Cruz",
+      "kind": "visit",
+      "zone": "Ruta Real",
+      "reason": "Final del paseo junto al lugar que conserva el corazón de Chopin; entrada breve sólo si el culto lo permite.",
+      "sourceIds": [
+        "official",
+        "walkGuide"
+      ],
+      "coordinates": {
+        "lat": 52.23861111,
+        "lon": 21.01666667
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Holy_Cross_Church%2C_Warsaw",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-cross.jpg",
+        "author": "Adrian Grycuk",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Bazylika_%C5%9Awi%C4%99tego_Krzy%C5%BCa_w_Warszawie_2021.jpg"
+      }
+    },
+    {
+      "id": "heroes",
+      "name": "Monumento a los Héroes del Gueto",
+      "kind": "visit",
+      "zone": "Muranów",
+      "reason": "Antes de POLIN, detenerse en el memorial que vincula el museo con el lugar.",
+      "sourceIds": [
+        "judaica"
+      ],
+      "coordinates": {
+        "lat": 52.24972222,
+        "lon": 20.99388889
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Monument_to_the_Ghetto_Heroes",
+      "suggestedMinutes": 20,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-heroes.jpg",
+        "author": "Adrian Grycuk",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Monument_to_the_Ghetto_Heroes_in_Warsaw_05_(cropped).JPG"
+      }
+    },
+    {
+      "id": "umschlag",
+      "name": "Memorial Umschlagplatz",
+      "kind": "visit",
+      "zone": "Muranów",
+      "reason": "Completa la memoria del gueto en el lugar de las deportaciones; paseo sobrio, no atracción de paso.",
+      "sourceIds": [
+        "judaica"
+      ],
+      "coordinates": {
+        "lat": 52.25230833,
+        "lon": 20.98907778
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Umschlagplatz",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-umschlag.jpg",
+        "author": "Adrian Grycuk",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Umschlagplatz_Warsaw_2.JPG"
+      }
+    },
+    {
+      "id": "chopin",
+      "name": "Monumento a Chopin en Łazienki",
+      "kind": "visit",
+      "zone": "Łazienki",
+      "reason": "Inicio del paseo de jardines; no se presupone que haya concierto.",
+      "sourceIds": [
+        "official",
+        "chopinWorks"
+      ],
+      "coordinates": {
+        "lat": 52.214722,
+        "lon": 21.028056
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Pomnik_Fryderyka_Chopina_w_Warszawie",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "El operador anunció obras con final previsto en 2026: comprobar acceso al entorno antes del viaje. No se garantiza concierto.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-chopin.jpg",
+        "author": "Cezary Piwowarski",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pomnik_Chopina_w_Warszawie.jpg"
+      }
+    },
+    {
+      "id": "amphi",
+      "name": "Anfiteatro de Łazienki",
+      "kind": "visit",
+      "zone": "Łazienki",
+      "reason": "Última parada del paseo junto al agua, distinta del palacio y cercana a él.",
+      "sourceIds": [
+        "official"
+      ],
+      "coordinates": {
+        "lat": 52.213756,
+        "lon": 21.036461
+      },
+      "coordinateSource": "https://pl.wikipedia.org/wiki/Amfiteatr_w_%C5%81azienkach_Kr%C3%B3lewskich",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "visitMode": "Paseo / exterior",
+      "caution": "Comprobar acceso antes del viaje.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-amphi.jpg",
+        "author": "Adrian Grycuk",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Amfiteatr_w_%C5%81azienkach_Kr%C3%B3lewskich_w_Warszawie_2017.jpg"
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "La ciudad reconstruida, paso a paso",
+          "zone": "Casco antiguo → Ruta Real",
+          "stopIds": [
+            "barbican",
+            "market",
+            "old",
+            "anne",
+            "president",
+            "cross"
+          ],
+          "optionalStopIds": [
+            "library"
+          ],
+          "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+          "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+          "geographyChecks": [
+            {
+              "fromId": "barbican",
+              "toId": "market",
+              "straightLineKm": 0.18,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "market",
+              "toId": "old",
+              "straightLineKm": 0.25,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "old",
+              "toId": "anne",
+              "straightLineKm": 0.16,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "anne",
+              "toId": "president",
+              "straightLineKm": 0.4,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "president",
+              "toId": "cross",
+              "straightLineKm": 0.49,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "La ciudad reconstruida, paso a paso",
+          "zone": "Casco antiguo → Ruta Real",
+          "stopIds": [
+            "barbican",
+            "market",
+            "old",
+            "anne",
+            "president",
+            "cross"
+          ],
+          "optionalStopIds": [
+            "library"
+          ],
+          "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+          "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+          "geographyChecks": [
+            {
+              "fromId": "barbican",
+              "toId": "market",
+              "straightLineKm": 0.18,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "market",
+              "toId": "old",
+              "straightLineKm": 0.25,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "old",
+              "toId": "anne",
+              "straightLineKm": 0.16,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "anne",
+              "toId": "president",
+              "straightLineKm": 0.4,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "president",
+              "toId": "cross",
+              "straightLineKm": 0.49,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ]
+        },
+        {
+          "title": "Memoria judía y centro contemporáneo",
+          "zone": "Muranów → Śródmieście",
+          "stopIds": [
+            "umschlag",
+            "heroes",
+            "polin",
+            "palace"
+          ],
+          "optionalStopIds": [],
+          "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
+          "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+          "geographyChecks": [
+            {
+              "fromId": "umschlag",
+              "toId": "heroes",
+              "straightLineKm": 0.44,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "heroes",
+              "toId": "polin",
+              "straightLineKm": 0.06,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "polin",
+              "toId": "palace",
+              "straightLineKm": 2.18,
+              "isWalkingRoute": false,
+              "transportSuggested": true
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "La ciudad reconstruida, paso a paso",
+          "zone": "Casco antiguo → Ruta Real",
+          "stopIds": [
+            "barbican",
+            "market",
+            "old",
+            "anne",
+            "president",
+            "cross"
+          ],
+          "optionalStopIds": [
+            "library"
+          ],
+          "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+          "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+          "geographyChecks": [
+            {
+              "fromId": "barbican",
+              "toId": "market",
+              "straightLineKm": 0.18,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "market",
+              "toId": "old",
+              "straightLineKm": 0.25,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "old",
+              "toId": "anne",
+              "straightLineKm": 0.16,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "anne",
+              "toId": "president",
+              "straightLineKm": 0.4,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "president",
+              "toId": "cross",
+              "straightLineKm": 0.49,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ]
+        },
+        {
+          "title": "Memoria judía y centro contemporáneo",
+          "zone": "Muranów → Śródmieście",
+          "stopIds": [
+            "umschlag",
+            "heroes",
+            "polin",
+            "palace"
+          ],
+          "optionalStopIds": [],
+          "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
+          "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+          "geographyChecks": [
+            {
+              "fromId": "umschlag",
+              "toId": "heroes",
+              "straightLineKm": 0.44,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "heroes",
+              "toId": "polin",
+              "straightLineKm": 0.06,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "polin",
+              "toId": "palace",
+              "straightLineKm": 2.18,
+              "isWalkingRoute": false,
+              "transportSuggested": true
+            }
+          ]
+        },
+        {
+          "title": "1944 y los jardines reales",
+          "zone": "Wola → Łazienki",
+          "stopIds": [
+            "rising",
+            "chopin",
+            "park",
+            "amphi"
+          ],
+          "optionalStopIds": [
+            "wilanow"
+          ],
+          "editorialNote": "Mañana en el Museo del Alzamiento para entender 1944; no confundirlo con la insurrección del gueto. Tras comida y traslado en transporte, paseo por Łazienki: Chopin, Palacio en la Isla y anfiteatro. El palacio se ve por fuera por defecto. Wilanów sustituye el bloque de jardines, no se suma.",
+          "pacing": "Unas 6–7 h con museo, traslado y paseo; no se propone caminar de Wola a Łazienki.",
+          "geographyChecks": [
+            {
+              "fromId": "rising",
+              "toId": "chopin",
+              "straightLineKm": 3.76,
+              "isWalkingRoute": false,
+              "transportSuggested": true
+            },
+            {
+              "fromId": "chopin",
+              "toId": "park",
+              "straightLineKm": 0.53,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "park",
+              "toId": "amphi",
+              "straightLineKm": 0.16,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Paseos más largos con luz y calor razonables; Łazienki el tercer día. BUW es alternativa, no obligación. No fijar conciertos de otro año.",
+      "sourceIds": [
+        "seasons",
+        "roof"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": [
+        "park",
+        "library"
+      ]
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Paseos cortos y un museo. Azotea BUW cerrada de noviembre a marzo, sin cerrar por ello el jardín inferior.",
+      "sourceIds": [
+        "seasons",
+        "roof"
+      ],
+      "excludeStopIds": [
+        "library"
+      ],
+      "preferStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad 2026",
+      "advice": "Mercado de Plac Defilad anunciado 20/11/2026-06/01/2027. La página mezcla excepciones horarias de 2025: no se reutilizan como horario 2026. Azotea BUW cerrada; jardín inferior separado, sujeto a reglas propias.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "excludeStopIds": [
+        "library"
+      ],
+      "preferStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Combinar paseo e interior, comprobando apertura de la azotea para el mes real.",
+      "sourceIds": [
+        "seasons",
+        "roof"
+      ],
+      "excludeStopIds": [],
+      "preferStopIds": []
+    }
+  },
+  "events": [
+    {
+      "id": "market",
+      "name": "Jarmark Warszawski",
+      "kind": "event",
+      "startDate": "2026-11-20",
+      "endDate": "2027-01-06",
+      "sourceId": "christmas",
+      "location": "Plac Defilad",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Horarios festivos 2026 por confirmar: no copiar excepciones de 2025.",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-28"
+    }
+  ],
+  "cautions": [
+    "Entradas y horarios no verificados para una fecha de viaje concreta.",
+    "No extender una restricción de azotea a todo el jardín o barrio."
+  ],
+  "excludedOrOptional": [
+    "No encadenar POLIN, Alzamiento, Museo Nacional y Wilanów en una jornada."
+  ],
+  "sources": [
+    {
+      "id": "official",
+      "title": "Turismo de Varsovia: tres días",
+      "url": "https://go2warsaw.pl/en/three-days-in-warsaw/",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "national",
+      "title": "Poland Travel: Varsovia",
+      "url": "https://www.poland.travel/en/warsaw/",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "lp",
+      "title": "Lonely Planet: Varsovia",
+      "url": "https://www.lonelyplanet.com/articles/guide-to-warsaw",
+      "type": "editorial",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "michelin",
+      "title": "Michelin: dos días",
+      "url": "https://guide.michelin.com/en/article/travel/two-days-in-warsaw",
+      "type": "editorial",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "timeout",
+      "title": "Time Out: Varsovia",
+      "url": "https://www.timeout.com/europe/things-to-do/best-things-to-do-in-warsaw",
+      "type": "editorial",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "seasons",
+      "title": "Turismo: estaciones",
+      "url": "https://go2warsaw.pl/en/warsaw-by-season/",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "roof",
+      "title": "Biblioteca universitaria: jardín",
+      "url": "https://www.buw.uw.edu.pl/en/about-us/about-the-library/building-and-garden/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "christmas",
+      "title": "Organizador: mercado de Varsovia",
+      "url": "https://www.jarmark.waw.pl/en/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "judaica",
+      "title": "Turismo: memoria judía",
+      "url": "https://go2warsaw.pl/en/warsaw-judaica/",
+      "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "walkGuide",
+      "title": "Guía: lugares de un día en Varsovia",
+      "url": "https://www.tosomeplacenew.com/one-day-in-warsaw-itinerary/",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "chopinWorks",
+      "title": "Łazienki: obras en el entorno de Chopin",
+      "url": "https://www.lazienki-krolewskie.pl/en/aktualnosci/rewitalizacja-otoczenia-pomnika-chopina",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {
+    "summer": {
+      "mode": "editorial",
+      "note": "Más tiempo para Łazienki y Vístula; azotea BUW sólo en meses de apertura. No fijar conciertos de otro año."
+    },
+    "winter": {
+      "mode": "editorial",
+      "excludeStopIds": [
+        "library"
+      ],
+      "note": "Paseos cortos y un museo. Azotea BUW cerrada de noviembre a marzo, sin cerrar por ello el jardín inferior."
+    },
+    "christmas": {
+      "mode": "dated-events-and-winter",
+      "excludeStopIds": [
+        "library"
+      ],
+      "note": "Mercado de Plac Defilad anunciado 20/11/2026-06/01/2027. La página mezcla excepciones horarias de 2025: no se reutilizan como horario 2026. Azotea BUW cerrada; jardín inferior separado, sujeto a reglas propias."
+    }
+  },
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad reconstruida, paso a paso",
+            "zone": "Casco antiguo → Ruta Real",
+            "stopIds": [
+              "barbican",
+              "market",
+              "old",
+              "anne",
+              "president",
+              "cross"
+            ],
+            "optionalStopIds": [
+              "library"
+            ],
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+            "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+            "geographyChecks": [
+              {
+                "fromId": "barbican",
+                "toId": "market",
+                "straightLineKm": 0.18,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "market",
+                "toId": "old",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "old",
+                "toId": "anne",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "anne",
+                "toId": "president",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "president",
+                "toId": "cross",
+                "straightLineKm": 0.49,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad reconstruida, paso a paso",
+            "zone": "Casco antiguo → Ruta Real",
+            "stopIds": [
+              "barbican",
+              "market",
+              "old",
+              "anne",
+              "president",
+              "cross"
+            ],
+            "optionalStopIds": [
+              "library"
+            ],
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+            "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+            "geographyChecks": [
+              {
+                "fromId": "barbican",
+                "toId": "market",
+                "straightLineKm": 0.18,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "market",
+                "toId": "old",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "old",
+                "toId": "anne",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "anne",
+                "toId": "president",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "president",
+                "toId": "cross",
+                "straightLineKm": 0.49,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Memoria judía y centro contemporáneo",
+            "zone": "Muranów → Śródmieście",
+            "stopIds": [
+              "umschlag",
+              "heroes",
+              "polin",
+              "palace"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
+            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "geographyChecks": [
+              {
+                "fromId": "umschlag",
+                "toId": "heroes",
+                "straightLineKm": 0.44,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "heroes",
+                "toId": "polin",
+                "straightLineKm": 0.06,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "polin",
+                "toId": "palace",
+                "straightLineKm": 2.18,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad reconstruida, paso a paso",
+            "zone": "Casco antiguo → Ruta Real",
+            "stopIds": [
+              "barbican",
+              "market",
+              "old",
+              "anne",
+              "president",
+              "cross"
+            ],
+            "optionalStopIds": [
+              "library"
+            ],
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+            "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+            "geographyChecks": [
+              {
+                "fromId": "barbican",
+                "toId": "market",
+                "straightLineKm": 0.18,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "market",
+                "toId": "old",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "old",
+                "toId": "anne",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "anne",
+                "toId": "president",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "president",
+                "toId": "cross",
+                "straightLineKm": 0.49,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Memoria judía y centro contemporáneo",
+            "zone": "Muranów → Śródmieście",
+            "stopIds": [
+              "umschlag",
+              "heroes",
+              "polin",
+              "palace"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
+            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "geographyChecks": [
+              {
+                "fromId": "umschlag",
+                "toId": "heroes",
+                "straightLineKm": 0.44,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "heroes",
+                "toId": "polin",
+                "straightLineKm": 0.06,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "polin",
+                "toId": "palace",
+                "straightLineKm": 2.18,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ]
+          },
+          {
+            "title": "1944 y los jardines reales",
+            "zone": "Wola → Łazienki",
+            "stopIds": [
+              "rising",
+              "chopin",
+              "park",
+              "amphi"
+            ],
+            "optionalStopIds": [
+              "wilanow"
+            ],
+            "editorialNote": "Mañana en el Museo del Alzamiento para entender 1944; no confundirlo con la insurrección del gueto. Tras comida y traslado en transporte, paseo por Łazienki: Chopin, Palacio en la Isla y anfiteatro. El palacio se ve por fuera por defecto. Wilanów sustituye el bloque de jardines, no se suma.",
+            "pacing": "Unas 6–7 h con museo, traslado y paseo; no se propone caminar de Wola a Łazienki.",
+            "geographyChecks": [
+              {
+                "fromId": "rising",
+                "toId": "chopin",
+                "straightLineKm": 3.76,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "chopin",
+                "toId": "park",
+                "straightLineKm": 0.53,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "park",
+                "toId": "amphi",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad reconstruida, paso a paso",
+            "zone": "Casco antiguo → Ruta Real",
+            "stopIds": [
+              "barbican",
+              "market",
+              "old",
+              "anne",
+              "president",
+              "cross"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada.",
+            "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+            "geographyChecks": [
+              {
+                "fromId": "barbican",
+                "toId": "market",
+                "straightLineKm": 0.18,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "market",
+                "toId": "old",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "old",
+                "toId": "anne",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "anne",
+                "toId": "president",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "president",
+                "toId": "cross",
+                "straightLineKm": 0.49,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad reconstruida, paso a paso",
+            "zone": "Casco antiguo → Ruta Real",
+            "stopIds": [
+              "barbican",
+              "market",
+              "old",
+              "anne",
+              "president",
+              "cross"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada.",
+            "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+            "geographyChecks": [
+              {
+                "fromId": "barbican",
+                "toId": "market",
+                "straightLineKm": 0.18,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "market",
+                "toId": "old",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "old",
+                "toId": "anne",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "anne",
+                "toId": "president",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "president",
+                "toId": "cross",
+                "straightLineKm": 0.49,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Memoria judía y centro contemporáneo",
+            "zone": "Muranów → Śródmieście",
+            "stopIds": [
+              "umschlag",
+              "heroes",
+              "polin",
+              "palace"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
+            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "geographyChecks": [
+              {
+                "fromId": "umschlag",
+                "toId": "heroes",
+                "straightLineKm": 0.44,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "heroes",
+                "toId": "polin",
+                "straightLineKm": 0.06,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "polin",
+                "toId": "palace",
+                "straightLineKm": 2.18,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad reconstruida, paso a paso",
+            "zone": "Casco antiguo → Ruta Real",
+            "stopIds": [
+              "barbican",
+              "market",
+              "old",
+              "anne",
+              "president",
+              "cross"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada.",
+            "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+            "geographyChecks": [
+              {
+                "fromId": "barbican",
+                "toId": "market",
+                "straightLineKm": 0.18,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "market",
+                "toId": "old",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "old",
+                "toId": "anne",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "anne",
+                "toId": "president",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "president",
+                "toId": "cross",
+                "straightLineKm": 0.49,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Memoria judía y centro contemporáneo",
+            "zone": "Muranów → Śródmieście",
+            "stopIds": [
+              "umschlag",
+              "heroes",
+              "polin",
+              "palace"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
+            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "geographyChecks": [
+              {
+                "fromId": "umschlag",
+                "toId": "heroes",
+                "straightLineKm": 0.44,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "heroes",
+                "toId": "polin",
+                "straightLineKm": 0.06,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "polin",
+                "toId": "palace",
+                "straightLineKm": 2.18,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ]
+          },
+          {
+            "title": "1944 y los jardines reales",
+            "zone": "Łazienki → Wola",
+            "stopIds": [
+              "chopin",
+              "park",
+              "amphi",
+              "rising"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Con los días cortos, ver primero Łazienki con luz: Chopin, Palacio en la Isla por fuera y anfiteatro. Después de comer, transporte al Museo del Alzamiento como interior principal de la tarde, sólo si encaja el horario de esa fecha. No caminar de Łazienki a Wola. Acortar jardín con hielo o lluvia. Acceso al entorno de Chopin por comprobar tras obras anunciadas para 2026.",
+            "pacing": "Jornada flexible: museo y paseo breve con luz; no rellenar exteriores si el tiempo no acompaña.",
+            "geographyChecks": [
+              {
+                "fromId": "chopin",
+                "toId": "park",
+                "straightLineKm": 0.53,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "park",
+                "toId": "amphi",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "amphi",
+                "toId": "rising",
+                "straightLineKm": 4.31,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad reconstruida, paso a paso",
+            "zone": "Casco antiguo → Ruta Real",
+            "stopIds": [
+              "barbican",
+              "market",
+              "old",
+              "anne",
+              "president",
+              "cross"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada.",
+            "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+            "geographyChecks": [
+              {
+                "fromId": "barbican",
+                "toId": "market",
+                "straightLineKm": 0.18,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "market",
+                "toId": "old",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "old",
+                "toId": "anne",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "anne",
+                "toId": "president",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "president",
+                "toId": "cross",
+                "straightLineKm": 0.49,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad reconstruida, paso a paso",
+            "zone": "Casco antiguo → Ruta Real",
+            "stopIds": [
+              "barbican",
+              "market",
+              "old",
+              "anne",
+              "president",
+              "cross"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada.",
+            "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+            "geographyChecks": [
+              {
+                "fromId": "barbican",
+                "toId": "market",
+                "straightLineKm": 0.18,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "market",
+                "toId": "old",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "old",
+                "toId": "anne",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "anne",
+                "toId": "president",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "president",
+                "toId": "cross",
+                "straightLineKm": 0.49,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Memoria judía y centro contemporáneo",
+            "zone": "Muranów → Śródmieście",
+            "stopIds": [
+              "umschlag",
+              "heroes",
+              "polin",
+              "palace"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
+            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "geographyChecks": [
+              {
+                "fromId": "umschlag",
+                "toId": "heroes",
+                "straightLineKm": 0.44,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "heroes",
+                "toId": "polin",
+                "straightLineKm": 0.06,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "polin",
+                "toId": "palace",
+                "straightLineKm": 2.18,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad reconstruida, paso a paso",
+            "zone": "Casco antiguo → Ruta Real",
+            "stopIds": [
+              "barbican",
+              "market",
+              "old",
+              "anne",
+              "president",
+              "cross"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada.",
+            "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+            "geographyChecks": [
+              {
+                "fromId": "barbican",
+                "toId": "market",
+                "straightLineKm": 0.18,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "market",
+                "toId": "old",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "old",
+                "toId": "anne",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "anne",
+                "toId": "president",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "president",
+                "toId": "cross",
+                "straightLineKm": 0.49,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Memoria judía y centro contemporáneo",
+            "zone": "Muranów → Śródmieście",
+            "stopIds": [
+              "umschlag",
+              "heroes",
+              "polin",
+              "palace"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
+            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "geographyChecks": [
+              {
+                "fromId": "umschlag",
+                "toId": "heroes",
+                "straightLineKm": 0.44,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "heroes",
+                "toId": "polin",
+                "straightLineKm": 0.06,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "polin",
+                "toId": "palace",
+                "straightLineKm": 2.18,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ]
+          },
+          {
+            "title": "1944 y los jardines reales",
+            "zone": "Łazienki → Wola",
+            "stopIds": [
+              "chopin",
+              "park",
+              "amphi",
+              "rising"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Con los días cortos, ver primero Łazienki con luz: Chopin, Palacio en la Isla por fuera y anfiteatro. Después de comer, transporte al Museo del Alzamiento como interior principal de la tarde, sólo si encaja el horario de esa fecha. No caminar de Łazienki a Wola. Acortar jardín con hielo o lluvia. Acceso al entorno de Chopin por comprobar tras obras anunciadas para 2026.",
+            "pacing": "Jornada flexible: museo y paseo breve con luz; no rellenar exteriores si el tiempo no acompaña.",
+            "geographyChecks": [
+              {
+                "fromId": "chopin",
+                "toId": "park",
+                "straightLineKm": 0.53,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "park",
+                "toId": "amphi",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "amphi",
+                "toId": "rising",
+                "straightLineKm": 4.31,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad reconstruida, paso a paso",
+            "zone": "Casco antiguo → Ruta Real",
+            "stopIds": [
+              "barbican",
+              "market",
+              "old",
+              "anne",
+              "president",
+              "cross"
+            ],
+            "optionalStopIds": [
+              "library"
+            ],
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+            "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+            "geographyChecks": [
+              {
+                "fromId": "barbican",
+                "toId": "market",
+                "straightLineKm": 0.18,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "market",
+                "toId": "old",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "old",
+                "toId": "anne",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "anne",
+                "toId": "president",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "president",
+                "toId": "cross",
+                "straightLineKm": 0.49,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad reconstruida, paso a paso",
+            "zone": "Casco antiguo → Ruta Real",
+            "stopIds": [
+              "barbican",
+              "market",
+              "old",
+              "anne",
+              "president",
+              "cross"
+            ],
+            "optionalStopIds": [
+              "library"
+            ],
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+            "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+            "geographyChecks": [
+              {
+                "fromId": "barbican",
+                "toId": "market",
+                "straightLineKm": 0.18,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "market",
+                "toId": "old",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "old",
+                "toId": "anne",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "anne",
+                "toId": "president",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "president",
+                "toId": "cross",
+                "straightLineKm": 0.49,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Memoria judía y centro contemporáneo",
+            "zone": "Muranów → Śródmieście",
+            "stopIds": [
+              "umschlag",
+              "heroes",
+              "polin",
+              "palace"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
+            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "geographyChecks": [
+              {
+                "fromId": "umschlag",
+                "toId": "heroes",
+                "straightLineKm": 0.44,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "heroes",
+                "toId": "polin",
+                "straightLineKm": 0.06,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "polin",
+                "toId": "palace",
+                "straightLineKm": 2.18,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad reconstruida, paso a paso",
+            "zone": "Casco antiguo → Ruta Real",
+            "stopIds": [
+              "barbican",
+              "market",
+              "old",
+              "anne",
+              "president",
+              "cross"
+            ],
+            "optionalStopIds": [
+              "library"
+            ],
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+            "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
+            "geographyChecks": [
+              {
+                "fromId": "barbican",
+                "toId": "market",
+                "straightLineKm": 0.18,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "market",
+                "toId": "old",
+                "straightLineKm": 0.25,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "old",
+                "toId": "anne",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "anne",
+                "toId": "president",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "president",
+                "toId": "cross",
+                "straightLineKm": 0.49,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          },
+          {
+            "title": "Memoria judía y centro contemporáneo",
+            "zone": "Muranów → Śródmieście",
+            "stopIds": [
+              "umschlag",
+              "heroes",
+              "polin",
+              "palace"
+            ],
+            "optionalStopIds": [],
+            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
+            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "geographyChecks": [
+              {
+                "fromId": "umschlag",
+                "toId": "heroes",
+                "straightLineKm": 0.44,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "heroes",
+                "toId": "polin",
+                "straightLineKm": 0.06,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "polin",
+                "toId": "palace",
+                "straightLineKm": 2.18,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ]
+          },
+          {
+            "title": "1944 y los jardines reales",
+            "zone": "Wola → Łazienki",
+            "stopIds": [
+              "rising",
+              "chopin",
+              "park",
+              "amphi"
+            ],
+            "optionalStopIds": [
+              "wilanow"
+            ],
+            "editorialNote": "Mañana en el Museo del Alzamiento para entender 1944; no confundirlo con la insurrección del gueto. Tras comida y traslado en transporte, paseo por Łazienki: Chopin, Palacio en la Isla y anfiteatro. El palacio se ve por fuera por defecto. Wilanów sustituye el bloque de jardines, no se suma.",
+            "pacing": "Unas 6–7 h con museo, traslado y paseo; no se propone caminar de Wola a Łazienki.",
+            "geographyChecks": [
+              {
+                "fromId": "rising",
+                "toId": "chopin",
+                "straightLineKm": 3.76,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "chopin",
+                "toId": "park",
+                "straightLineKm": 0.53,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "park",
+                "toId": "amphi",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "editorialTradeoffs": "El primer día prioriza la identidad reconstruida y sus hitos concretos. BUW es una alternativa de verano, no la segunda mitad obligatoria de Varsovia. Día 2 trata historia judía y contraste contemporáneo; día 3 distingue 1944 y paisaje real con traslado explícito. No se impone una visita interior por cada marcador."
+}

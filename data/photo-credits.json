@@ -1,0 +1,37 @@
+{
+  "warsaw": {
+    "img": "assets/warsaw.jpg",
+    "author": "Emptywords",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aleja_Niepdleglosci_Warsaw_2022_aerial_(cropped).jpg"
+  },
+  "krakow": {
+    "img": "assets/krakow.jpg",
+    "author": "Andrzej Otrębski",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Krakow_Rynek_Glowny_panorama_2.jpg"
+  },
+  "gdansk": {
+    "img": "assets/gdansk.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calle_Dlugie_Pobrzeze,_Gdansk,_Polonia,_2013-05-20,_DD_06.jpg"
+  },
+  "wroclaw": {
+    "img": "assets/wroclaw.jpg",
+    "author": "Jar.ciurus",
+    "license": "CC BY-SA 3.0 pl",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Wroclaw-_Most_Grunwaldzki.jpg"
+  },
+  "poznan": {
+    "img": "assets/poznan.jpg",
+    "author": "Aneta Pawska",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stary_Rynek_w_Poznaniu,_widok_z_drona_(cropped).jpg"
+  }
+}

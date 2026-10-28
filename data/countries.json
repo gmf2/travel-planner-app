@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "countries": [
+    {
+      "id": "PL",
+      "name": "Polonia",
+      "path": "data/pl/index.json"
+    }
+  ]
+}
