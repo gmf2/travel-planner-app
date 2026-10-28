@@ -2,7 +2,7 @@ name: Import approved Poland catalog
 on:
   push:
     paths:
-      - 'poland-production.zip'
+      - '1-poland-production.zip'
   workflow_dispatch:
 permissions:
   contents: write
@@ -15,7 +15,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import pathlib,zipfile,hashlib
-          p=pathlib.Path('poland-production.zip')
+          p=pathlib.Path('1-poland-production.zip')
           assert hashlib.sha256(p.read_bytes()).hexdigest()=='f4ec318831cc8d718e8c9d092ec93e7a53b74c3feb39b8be2a76d5ec6a31908b'
           with zipfile.ZipFile(p) as z:
               for n in z.namelist():
