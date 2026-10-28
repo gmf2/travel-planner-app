@@ -70,7 +70,12 @@ jobs:
             if os.environ.get('MODEL_MODE')=='chat':
              raw=post('/v1/chat/completions',{'messages':messages,'temperature':0,'seed':42,'max_tokens':4000,'response_format':{'type':'json_schema','json_schema':{'name':'extraction','schema':schema,'strict':True}},'chat_template_kwargs':json.loads(os.environ['MODEL_KWARGS'])})
              raw={'content':raw['choices'][0]['message']['content'],'reasoning':raw['choices'][0]['message'].get('reasoning_content','')[:2000],'finish_reason':raw['choices'][0].get('finish_reason')}
-             answer=json.loads(raw['content'])
+             import re as _re
+             body=raw['content']
+             m=_re.search(r'<\|channel\|>final<\|message\|>(.*)',body,_re.S)
+             if m:body=m.group(1)
+             body=body.strip();body=_re.sub(r'^```(?:json)?\s*','',body);body=_re.sub(r'\s*```\s*$','',body)
+             answer=json.loads(body)
             else:
              formatted=post('/apply-template',{'messages':messages,'chat_template_kwargs':json.loads(os.environ['MODEL_KWARGS'])})
              raw=post('/completion',{'prompt':formatted['prompt'],'temperature':0,'seed':42,'n_predict':2200,'json_schema':schema})
