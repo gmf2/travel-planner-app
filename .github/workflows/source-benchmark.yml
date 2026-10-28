@@ -21,8 +21,10 @@ jobs:
           cmake --build llama.cpp/build --target llama-completion -j 4
       - name: Download public model without an account
         env:
-          MODEL_URL: https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/cb76885dc66d50759b207c5a48c4e78dfa00c638/Qwen_Qwen3-4B-Q4_K_M.gguf
+          MODEL_URL: https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/0b69f75b7472688e6808490aa2b85efdb81b5ce7/Qwen_Qwen3-8B-Q4_K_M.gguf
         run: |
+          df -h .
+          free -m
           curl --fail --location --retry 1 --max-time 300 "$MODEL_URL" --output model.gguf
       - name: Evaluate public-source semantic cases
         run: |
@@ -37,7 +39,7 @@ jobs:
            (out/'prompt.txt').write_text(prompt);start=time.monotonic();answer=None;status='done'
            cmd=['llama.cpp/build/bin/llama-completion','-m','model.gguf','-f',str(out/'prompt.txt'),'--no-conversation','--no-display-prompt','-c','2048','-b','128','-ub','128','-n','650','-t','4','--temp','0.6','--top-p','0.8','--seed','42','-jf',str(out/'schema.json')]
            try:
-            r=subprocess.run(cmd,capture_output=True,text=True,timeout=120)
+            r=subprocess.run(cmd,capture_output=True,text=True,timeout=150)
             try:answer=json.loads(r.stdout.split('[end of text]')[0].strip())
             except ValueError:status='invalid-json'
            except subprocess.TimeoutExpired:status='timeout'
@@ -60,10 +62,17 @@ jobs:
            if not any(name.casefold() in a['name'].casefold() for a in allActivities):issues.append('missing-main-identity:'+name)
           for a in allActivities:
            if a['name']=='Recoleta Cemetery' and a['kind']!='visit':issues.append('cemetery-not-visit')
+           if a['name']=='Recoleta Cemetery' and a['weekdayLimited']:issues.append('cemetery-invented-weekday-limit')
+           if a['name'] in ['WALKING CITY TOUR','Atelier Fuerza','Cuervo','tango dancers','conventillo style homes']:issues.append('non-sightseeing-entity:'+a['name'])
            if a['name'].casefold()=='san telmo' and (a['kind']!='zone' or a['weekdayLimited']):issues.append('neighborhood-identity-or-condition-error')
            if 'market' in a['name'].casefold() and not a['weekdayLimited']:issues.append('fair-condition-lost')
           if not any('Teatro Colon' in g and 'Palacio Barolo' in g for g in groups):issues.append('palace-alternative-lost')
-          result={'source':'https://solsalute.com/blog/3-days-in-buenos-aires-itinerary/','mode':'source-section-chunked-extraction','sections':rows,'semanticIssues':issues,'caveat':'Span IDs/quotes are deterministic source matches, not LLM-copied prose. Still no automatic geographic identity, global discovery or recommendation quality claim.'}
+          for g in groups:
+           if len(g)<2:issues.append('singleton-alternative')
+           if any(x in g for x in ['tango dancers','conventillo style homes']):issues.append('false-alternative')
+           if 'San Telmo Market' in g and 'Caminito' in g:issues.append('false-market-route-alternative')
+          if sum(a['name'].startswith('Recoleta Cemetery') for a in allActivities)>1:issues.append('duplicate-cemetery-identity')
+          result={'model':'Qwen3-8B Q4_K_M','source':'https://solsalute.com/blog/3-days-in-buenos-aires-itinerary/','mode':'source-section-chunked-extraction','sections':rows,'semanticIssues':issues,'caveat':'Span IDs/quotes are deterministic source matches, not LLM-copied prose. Still no automatic geographic identity, global discovery or recommendation quality claim.'}
           (out/'results.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print(json.dumps({'semanticIssues':issues,'activityCount':len(allActivities)},ensure_ascii=False),flush=True)
           raise SystemExit(0 if not issues else 1)
           PYBENCH
