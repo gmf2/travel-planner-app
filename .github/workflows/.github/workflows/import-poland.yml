@@ -1,0 +1,34 @@
+name: Import approved Poland catalog
+on:
+  push:
+    paths:
+      - 'poland-production.zip'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract approved static data and adapter
+        run: |
+          python3 - <<'PY'
+          import pathlib,zipfile,hashlib
+          p=pathlib.Path('poland-production.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='f4ec318831cc8d718e8c9d092ec93e7a53b74c3feb39b8be2a76d5ec6a31908b'
+          with zipfile.ZipFile(p) as z:
+              for n in z.namelist():
+                  assert not n.startswith('/') and '..' not in pathlib.PurePosixPath(n).parts
+                  assert n in ['index.html','poland-pilot.js'] or n.startswith(('data/','assets/'))
+                  if n!='index.html': z.extract(n,'.')
+          PY
+      - name: Commit catalog and adapter
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data assets poland-pilot.js
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add approved Poland editorial catalog and photos'
+            git push
+          fi
