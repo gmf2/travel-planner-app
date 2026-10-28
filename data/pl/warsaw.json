@@ -18,7 +18,8 @@
       "sourceIds": [
         "official",
         "national",
-        "michelin"
+        "michelin",
+        "castle-visit"
       ],
       "coordinates": {
         "lat": 52.2478,
@@ -27,7 +28,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Royal_Castle,_Warsaw",
       "suggestedMinutes": 120,
       "durationType": "editorial-estimate",
-      "caution": "Elegir exterior o una exposición del castillo; no se garantiza acceso a todos los interiores.",
+      "caution": "Castillo cerrado lunes. Miércoles gratuito con recorrido reducido y entrada de taquilla: no equivale a todas las salas. Elegir Ruta Real (~1 h) o recorrido más amplio; jardines aparte y sujetos a meteo.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -48,7 +49,8 @@
       "reason": "Contexto de la historia judía, no sólo de la guerra.",
       "sourceIds": [
         "official",
-        "national"
+        "national",
+        "polin-visit"
       ],
       "coordinates": {
         "lat": 52.24944444,
@@ -57,10 +59,18 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/POLIN_Museum_of_the_History_of_Polish_Jews",
       "suggestedMinutes": 180,
       "durationType": "editorial-estimate",
-      "caution": "",
+      "caution": "Cierra martes. Último acceso a exposición principal 2 h antes del cierre. Jueves gratuito, sin prometer cupo; contemplar control de seguridad. Festivos y cierres especiales en operador.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
-      "price": null
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-polin.jpg",
+        "author": "Fred Romero",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Warszawa_-_Muzeum_Historii_%C5%BByd%C3%B3w_Polskich_POLIN_(7).jpg",
+        "caption": "Detalle interior de POLIN, archivo2015; recorte de presentación."
+      }
     },
     {
       "id": "rising",
@@ -70,7 +80,8 @@
       "reason": "Permite entender 1944 y la ciudad reconstruida.",
       "sourceIds": [
         "official",
-        "michelin"
+        "michelin",
+        "rising-visit"
       ],
       "coordinates": {
         "lat": 52.23222222,
@@ -79,7 +90,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Warsaw_Rising_Museum",
       "suggestedMinutes": 150,
       "durationType": "editorial-estimate",
-      "caution": "Alternativa a POLIN, no otro museo largo obligatorio. No confundir con el levantamiento del gueto.",
+      "caution": "Cierra martes. Trata el alzamiento de 1944, no la insurrección del gueto. Jueves gratuito; se publica audioguía en español. En estancia corta puede sustituir POLIN por interés, no añadir ambos al mismo día.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -100,7 +111,8 @@
       "sourceIds": [
         "official",
         "national",
-        "lp"
+        "lp",
+        "lazienki-visit"
       ],
       "coordinates": {
         "lat": 52.21512,
@@ -109,7 +121,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Palace_on_the_Isle",
       "suggestedMinutes": 45,
       "durationType": "editorial-estimate",
-      "caution": "Parque y palacios tienen accesos distintos. Conciertos sólo con calendario confirmado.",
+      "caution": "Parque gratuito; edificios cerrados lunes y en festivos señalados. Viernes visitas individuales gratuitas sin reserva. Palacio opcional: sus horarios propios y cierres puntuales deben comprobarse, no confundir con acceso al jardín.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -160,7 +172,8 @@
       "sourceIds": [
         "official",
         "lp",
-        "michelin"
+        "michelin",
+        "pkin-visit"
       ],
       "coordinates": {
         "lat": 52.23166667,
@@ -169,7 +182,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Palace_of_Culture_and_Science",
       "suggestedMinutes": 60,
       "durationType": "editorial-estimate",
-      "caution": "Mirador opcional, entrada por comprobar.",
+      "caution": "Mirador de pago en planta 30, entrada principal por Marszałkowska. Venta puede suspenderse por cola. Publica cierres especiales en festivos; no se garantiza acceso ni vista despejada.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -189,7 +202,8 @@
       "reason": "Alternativa fuera del centro para quien priorice palacios.",
       "sourceIds": [
         "official",
-        "timeout"
+        "timeout",
+        "wilanow-visit"
       ],
       "coordinates": {
         "lat": 52.16527778,
@@ -198,7 +212,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Wilan%C3%B3w_Palace",
       "suggestedMinutes": 150,
       "durationType": "editorial-estimate",
-      "caution": "Requiere transporte y sustituye otro bloque; no se añade al casco antiguo.",
+      "caution": "Palacio cerrado 1/11/2026 y 21/12/2026–31/01/2027. Patio, parque e iluminación son accesos distintos; viento puede cerrar parque. Sustituye medio día, no se suma a Łazienki. No prometer palacio en Navidad.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -296,10 +310,11 @@
       "name": "Iglesia de Santa Ana",
       "kind": "visit",
       "zone": "Plaza del Castillo",
-      "reason": "Fachada y transición a la Ruta Real. La torre es una alternativa si abre, no una subida obligatoria.",
+      "reason": "Fachada y transición a la Ruta Real. La torre no se propone mientras siga el cierre por obras.",
       "sourceIds": [
         "official",
-        "walkGuide"
+        "walkGuide",
+        "anne-visit"
       ],
       "coordinates": {
         "lat": 52.24638889,
@@ -308,8 +323,8 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/St._Anne%27s_Church%2C_Warsaw",
       "suggestedMinutes": 20,
       "durationType": "editorial-estimate",
-      "visitMode": "Paseo / exterior",
-      "caution": "Comprobar acceso antes del viaje.",
+      "visitMode": "Exterior; interior condicionado",
+      "caution": "Torre-mirador cerrada por obras desde 6/10/2026 hasta nuevo aviso, según la iglesia. Exterior conservado; interior solo entre culto y con obras en presbiterio. No ofrecer torre como alternativa abierta.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -506,7 +521,8 @@
       "sourceIds": [
         "zelazowa-operator",
         "zelazowa-access",
-        "vc"
+        "vc",
+        "zelazowa-visit"
       ],
       "coordinates": {
         "lat": 52.25710590000001,
@@ -515,7 +531,7 @@
       "coordinateSource": "https://muzeum.nifc.pl/en/muzeum/wizyta-informacje-miejsce/2/1014_dojazd",
       "suggestedMinutes": 150,
       "durationType": "operator-reference-or-editorial-estimate",
-      "caution": "Los horarios de la casa y del parque son distintos. Confirmar apertura y conexión de vuelta antes de elegir esta jornada.",
+      "caution": "Casa y parque con horarios distintos; gratis lunes no significa cerrado. Recitales limitan acceso a casa. Cierra en festivos publicados; verificar conexión de vuelta.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -545,7 +561,7 @@
           "optionalStopIds": [
             "library"
           ],
-          "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+          "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
           "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
           "geographyChecks": [
             {
@@ -603,7 +619,7 @@
           "optionalStopIds": [
             "library"
           ],
-          "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+          "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
           "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
           "geographyChecks": [
             {
@@ -644,17 +660,21 @@
           ]
         },
         {
-          "title": "Memoria judía y centro contemporáneo",
-          "zone": "Muranów → Śródmieście",
+          "title": "Memoria judía y jardines reales",
+          "zone": "Muranów → Łazienki",
           "stopIds": [
             "umschlag",
             "heroes",
             "polin",
+            "chopin",
+            "park",
+            "amphi"
+          ],
+          "optionalStopIds": [
             "palace"
           ],
-          "optionalStopIds": [],
-          "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
-          "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+          "editorialNote": "Mañana: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Comida y traslado en transporte a Łazienki. Paseo exterior, sin añadir interiores del palacio. Martes POLIN cierra: intercambiar con el casco antiguo; Alzamiento también cierra martes. El mirador del Palacio de la Cultura sustituye el paseo si mal tiempo, no se añade.",
+          "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
           "geographyChecks": [
             {
               "fromId": "umschlag",
@@ -669,15 +689,9 @@
               "straightLineKm": 0.06,
               "isWalkingRoute": false,
               "transportSuggested": false
-            },
-            {
-              "fromId": "polin",
-              "toId": "palace",
-              "straightLineKm": 2.18,
-              "isWalkingRoute": false,
-              "transportSuggested": true
             }
-          ]
+          ],
+          "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
         }
       ]
     },
@@ -697,7 +711,7 @@
           "optionalStopIds": [
             "library"
           ],
-          "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+          "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
           "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
           "geographyChecks": [
             {
@@ -738,17 +752,21 @@
           ]
         },
         {
-          "title": "Memoria judía y centro contemporáneo",
-          "zone": "Muranów → Śródmieście",
+          "title": "Memoria judía y jardines reales",
+          "zone": "Muranów → Łazienki",
           "stopIds": [
             "umschlag",
             "heroes",
             "polin",
+            "chopin",
+            "park",
+            "amphi"
+          ],
+          "optionalStopIds": [
             "palace"
           ],
-          "optionalStopIds": [],
-          "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
-          "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+          "editorialNote": "Mañana: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Comida y traslado en transporte a Łazienki. Paseo exterior, sin añadir interiores del palacio. Martes POLIN cierra: intercambiar con el casco antiguo; Alzamiento también cierra martes. El mirador del Palacio de la Cultura sustituye el paseo si mal tiempo, no se añade.",
+          "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
           "geographyChecks": [
             {
               "fromId": "umschlag",
@@ -763,53 +781,25 @@
               "straightLineKm": 0.06,
               "isWalkingRoute": false,
               "transportSuggested": false
-            },
-            {
-              "fromId": "polin",
-              "toId": "palace",
-              "straightLineKm": 2.18,
-              "isWalkingRoute": false,
-              "transportSuggested": true
             }
-          ]
+          ],
+          "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
         },
         {
-          "title": "1944 y los jardines reales",
-          "zone": "Wola → Łazienki",
+          "title": "1944 y Varsovia contemporánea",
+          "zone": "Wola → Śródmieście",
           "stopIds": [
             "rising",
-            "chopin",
-            "park",
-            "amphi"
+            "palace"
           ],
           "optionalStopIds": [
-            "wilanow"
+            "praga",
+            "library"
           ],
-          "editorialNote": "Mañana en el Museo del Alzamiento para entender 1944; no confundirlo con la insurrección del gueto. Tras comida y traslado en transporte, paseo por Łazienki: Chopin, Palacio en la Isla y anfiteatro. El palacio se ve por fuera por defecto. Wilanów sustituye el bloque de jardines, no se suma.",
-          "pacing": "Unas 6–7 h con museo, traslado y paseo; no se propone caminar de Wola a Łazienki.",
-          "geographyChecks": [
-            {
-              "fromId": "rising",
-              "toId": "chopin",
-              "straightLineKm": 3.76,
-              "isWalkingRoute": false,
-              "transportSuggested": true
-            },
-            {
-              "fromId": "chopin",
-              "toId": "park",
-              "straightLineKm": 0.53,
-              "isWalkingRoute": false,
-              "transportSuggested": false
-            },
-            {
-              "fromId": "park",
-              "toId": "amphi",
-              "straightLineKm": 0.16,
-              "isWalkingRoute": false,
-              "transportSuggested": false
-            }
-          ]
+          "editorialNote": "Alzamiento como segunda capa histórica opcional, no repetición de POLIN. Después de comer, Palacio de la Cultura: exterior o mirador. Dejar tarde libre; Praga o BUW de extras sustituyen el museo o el mirador, no se suman todos. Martes museo cerrado: intercambiar con día 1. No añadir Wilanów por defecto.",
+          "pacing": "Día más ligero: unas 5–6 h con museo, traslado y comida; tarde con margen. Wola → centro: transporte recomendado, trayecto por comprobar para fecha real.",
+          "geographyChecks": [],
+          "transferNote": "Wola → centro: transporte recomendado, trayecto por comprobar para fecha real."
         }
       ]
     }
@@ -884,7 +874,11 @@
     "Las excursiones sustituyen una jornada urbana, no se añaden a su carga. No hay entradas ni transporte reservados."
   ],
   "excludedOrOptional": [
-    "No encadenar POLIN, Alzamiento, Museo Nacional y Wilanów en una jornada."
+    "Wilanów queda fuera del plan principal: traslado largo y palacio cerrado en parte de Navidad 2026/27.",
+    "Żelazowa Wola solo para interés musical claro; sacrifica una jornada urbana.",
+    "No ofrecer mirador Santa Ana hasta reapertura confirmada.",
+    "BUW no se añade al eje real de un único día: es desvío opcional en meses de acceso.",
+    "Un segundo museo histórico no es obligatorio: 3 días deja margen para interés personal."
   ],
   "sources": [
     {
@@ -991,6 +985,62 @@
       "url": "https://muzeum.nifc.pl/en/muzeum/wizyta-informacje-miejsce/2/1014_dojazd",
       "type": "operator",
       "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "polin-visit",
+      "title": "POLIN: visita y cierres",
+      "url": "https://polin.pl/en/planning-your-visit/basic-information",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "rising-visit",
+      "title": "Museo Alzamiento: visita",
+      "url": "https://www.1944.pl/en/article/visit-us%2C4993.html",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "castle-visit",
+      "title": "Castillo: rutas y condiciones",
+      "url": "https://www.zamek-krolewski.pl/en/godziny-otwarcia-i-ceny-biletow",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "lazienki-visit",
+      "title": "Łazienki: edificios y parque",
+      "url": "https://www.lazienki-krolewskie.pl/en/zwiedzanie/godziny-otwarcia",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "pkin-visit",
+      "title": "Palacio Cultura: terraza",
+      "url": "https://pkin.pl/en/viewing-terrace/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "anne-visit",
+      "title": "Santa Ana: obras y culto",
+      "url": "https://swanna.waw.pl/zwiedzanie/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "wilanow-visit",
+      "title": "Wilanów: horarios por recinto",
+      "url": "https://wilanow-palac.pl/en/opening-hours",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "zelazowa-visit",
+      "title": "Żelazowa: casa, parque y festivos",
+      "url": "https://muzeum.nifc.pl/en/muzeum/wizyta-informacje-miejsce/2_kontakt/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -1032,7 +1082,7 @@
             "optionalStopIds": [
               "library"
             ],
-            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
             "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
             "geographyChecks": [
               {
@@ -1090,7 +1140,7 @@
             "optionalStopIds": [
               "library"
             ],
-            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
             "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
             "geographyChecks": [
               {
@@ -1131,17 +1181,21 @@
             ]
           },
           {
-            "title": "Memoria judía y centro contemporáneo",
-            "zone": "Muranów → Śródmieście",
+            "title": "Memoria judía y jardines reales",
+            "zone": "Muranów → Łazienki",
             "stopIds": [
               "umschlag",
               "heroes",
               "polin",
+              "chopin",
+              "park",
+              "amphi"
+            ],
+            "optionalStopIds": [
               "palace"
             ],
-            "optionalStopIds": [],
-            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
-            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "editorialNote": "Mañana: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Comida y traslado en transporte a Łazienki. Paseo exterior, sin añadir interiores del palacio. Martes POLIN cierra: intercambiar con el casco antiguo; Alzamiento también cierra martes. El mirador del Palacio de la Cultura sustituye el paseo si mal tiempo, no se añade.",
+            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1156,15 +1210,9 @@
                 "straightLineKm": 0.06,
                 "isWalkingRoute": false,
                 "transportSuggested": false
-              },
-              {
-                "fromId": "polin",
-                "toId": "palace",
-                "straightLineKm": 2.18,
-                "isWalkingRoute": false,
-                "transportSuggested": true
               }
-            ]
+            ],
+            "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
           }
         ]
       },
@@ -1184,7 +1232,7 @@
             "optionalStopIds": [
               "library"
             ],
-            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
             "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
             "geographyChecks": [
               {
@@ -1225,17 +1273,21 @@
             ]
           },
           {
-            "title": "Memoria judía y centro contemporáneo",
-            "zone": "Muranów → Śródmieście",
+            "title": "Memoria judía y jardines reales",
+            "zone": "Muranów → Łazienki",
             "stopIds": [
               "umschlag",
               "heroes",
               "polin",
+              "chopin",
+              "park",
+              "amphi"
+            ],
+            "optionalStopIds": [
               "palace"
             ],
-            "optionalStopIds": [],
-            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
-            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "editorialNote": "Mañana: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Comida y traslado en transporte a Łazienki. Paseo exterior, sin añadir interiores del palacio. Martes POLIN cierra: intercambiar con el casco antiguo; Alzamiento también cierra martes. El mirador del Palacio de la Cultura sustituye el paseo si mal tiempo, no se añade.",
+            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1250,53 +1302,25 @@
                 "straightLineKm": 0.06,
                 "isWalkingRoute": false,
                 "transportSuggested": false
-              },
-              {
-                "fromId": "polin",
-                "toId": "palace",
-                "straightLineKm": 2.18,
-                "isWalkingRoute": false,
-                "transportSuggested": true
               }
-            ]
+            ],
+            "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
           },
           {
-            "title": "1944 y los jardines reales",
-            "zone": "Wola → Łazienki",
+            "title": "1944 y Varsovia contemporánea",
+            "zone": "Wola → Śródmieście",
             "stopIds": [
               "rising",
-              "chopin",
-              "park",
-              "amphi"
+              "palace"
             ],
             "optionalStopIds": [
-              "wilanow"
+              "praga",
+              "library"
             ],
-            "editorialNote": "Mañana en el Museo del Alzamiento para entender 1944; no confundirlo con la insurrección del gueto. Tras comida y traslado en transporte, paseo por Łazienki: Chopin, Palacio en la Isla y anfiteatro. El palacio se ve por fuera por defecto. Wilanów sustituye el bloque de jardines, no se suma.",
-            "pacing": "Unas 6–7 h con museo, traslado y paseo; no se propone caminar de Wola a Łazienki.",
-            "geographyChecks": [
-              {
-                "fromId": "rising",
-                "toId": "chopin",
-                "straightLineKm": 3.76,
-                "isWalkingRoute": false,
-                "transportSuggested": true
-              },
-              {
-                "fromId": "chopin",
-                "toId": "park",
-                "straightLineKm": 0.53,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "park",
-                "toId": "amphi",
-                "straightLineKm": 0.16,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
-            ]
+            "editorialNote": "Alzamiento como segunda capa histórica opcional, no repetición de POLIN. Después de comer, Palacio de la Cultura: exterior o mirador. Dejar tarde libre; Praga o BUW de extras sustituyen el museo o el mirador, no se suman todos. Martes museo cerrado: intercambiar con día 1. No añadir Wilanów por defecto.",
+            "pacing": "Día más ligero: unas 5–6 h con museo, traslado y comida; tarde con margen. Wola → centro: transporte recomendado, trayecto por comprobar para fecha real.",
+            "geographyChecks": [],
+            "transferNote": "Wola → centro: transporte recomendado, trayecto por comprobar para fecha real."
           }
         ]
       }
@@ -1316,7 +1340,7 @@
               "cross"
             ],
             "optionalStopIds": [],
-            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada.",
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
             "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
             "geographyChecks": [
               {
@@ -1372,7 +1396,7 @@
               "cross"
             ],
             "optionalStopIds": [],
-            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada.",
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
             "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
             "geographyChecks": [
               {
@@ -1413,17 +1437,21 @@
             ]
           },
           {
-            "title": "Memoria judía y centro contemporáneo",
-            "zone": "Muranów → Śródmieście",
+            "title": "Memoria judía y jardines reales",
+            "zone": "Muranów → Łazienki",
             "stopIds": [
+              "chopin",
+              "park",
+              "amphi",
               "umschlag",
               "heroes",
-              "polin",
+              "polin"
+            ],
+            "optionalStopIds": [
               "palace"
             ],
-            "optionalStopIds": [],
-            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
-            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "editorialNote": "Łazienki de mañana por luz y frío, solo paseo exterior breve. Tras comida y traslado, Muranów y POLIN como único interior largo. Llegar a la exposición principal al menos 2 h antes del cierre; si no encaja, quitar jardines, no comprimir el museo. Martes cerrado: intercambiar con día urbano. Mirador del Palacio de la Cultura sustituye el paseo si meteo adversa.",
+            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1438,15 +1466,9 @@
                 "straightLineKm": 0.06,
                 "isWalkingRoute": false,
                 "transportSuggested": false
-              },
-              {
-                "fromId": "polin",
-                "toId": "palace",
-                "straightLineKm": 2.18,
-                "isWalkingRoute": false,
-                "transportSuggested": true
               }
-            ]
+            ],
+            "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
           }
         ]
       },
@@ -1464,7 +1486,7 @@
               "cross"
             ],
             "optionalStopIds": [],
-            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada.",
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
             "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
             "geographyChecks": [
               {
@@ -1505,17 +1527,21 @@
             ]
           },
           {
-            "title": "Memoria judía y centro contemporáneo",
-            "zone": "Muranów → Śródmieście",
+            "title": "Memoria judía y jardines reales",
+            "zone": "Muranów → Łazienki",
             "stopIds": [
+              "chopin",
+              "park",
+              "amphi",
               "umschlag",
               "heroes",
-              "polin",
+              "polin"
+            ],
+            "optionalStopIds": [
               "palace"
             ],
-            "optionalStopIds": [],
-            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
-            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "editorialNote": "Łazienki de mañana por luz y frío, solo paseo exterior breve. Tras comida y traslado, Muranów y POLIN como único interior largo. Llegar a la exposición principal al menos 2 h antes del cierre; si no encaja, quitar jardines, no comprimir el museo. Martes cerrado: intercambiar con día urbano. Mirador del Palacio de la Cultura sustituye el paseo si meteo adversa.",
+            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1530,51 +1556,24 @@
                 "straightLineKm": 0.06,
                 "isWalkingRoute": false,
                 "transportSuggested": false
-              },
-              {
-                "fromId": "polin",
-                "toId": "palace",
-                "straightLineKm": 2.18,
-                "isWalkingRoute": false,
-                "transportSuggested": true
               }
-            ]
+            ],
+            "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
           },
           {
-            "title": "1944 y los jardines reales",
-            "zone": "Łazienki → Wola",
+            "title": "1944 y Varsovia contemporánea",
+            "zone": "Wola → Śródmieście",
             "stopIds": [
-              "chopin",
-              "park",
-              "amphi",
-              "rising"
+              "rising",
+              "palace"
             ],
-            "optionalStopIds": [],
-            "editorialNote": "Con los días cortos, ver primero Łazienki con luz: Chopin, Palacio en la Isla por fuera y anfiteatro. Después de comer, transporte al Museo del Alzamiento como interior principal de la tarde, sólo si encaja el horario de esa fecha. No caminar de Łazienki a Wola. Acortar jardín con hielo o lluvia. Acceso al entorno de Chopin por comprobar tras obras anunciadas para 2026.",
-            "pacing": "Jornada flexible: museo y paseo breve con luz; no rellenar exteriores si el tiempo no acompaña.",
-            "geographyChecks": [
-              {
-                "fromId": "chopin",
-                "toId": "park",
-                "straightLineKm": 0.53,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "park",
-                "toId": "amphi",
-                "straightLineKm": 0.16,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "amphi",
-                "toId": "rising",
-                "straightLineKm": 4.31,
-                "isWalkingRoute": false,
-                "transportSuggested": true
-              }
-            ]
+            "optionalStopIds": [
+              "praga"
+            ],
+            "editorialNote": "Alzamiento como segunda capa histórica opcional, no repetición de POLIN. Después de comer, Palacio de la Cultura: exterior o mirador. Dejar tarde libre; Praga o BUW de extras sustituyen el museo o el mirador, no se suman todos. Martes museo cerrado: intercambiar con día 1. No añadir Wilanów por defecto.",
+            "pacing": "Día más ligero: unas 5–6 h con museo, traslado y comida; tarde con margen. Wola → centro: transporte recomendado, trayecto por comprobar para fecha real.",
+            "geographyChecks": [],
+            "transferNote": "Wola → centro: transporte recomendado, trayecto por comprobar para fecha real."
           }
         ]
       }
@@ -1594,7 +1593,7 @@
               "cross"
             ],
             "optionalStopIds": [],
-            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada.",
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
             "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
             "geographyChecks": [
               {
@@ -1650,7 +1649,7 @@
               "cross"
             ],
             "optionalStopIds": [],
-            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada.",
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
             "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
             "geographyChecks": [
               {
@@ -1691,17 +1690,21 @@
             ]
           },
           {
-            "title": "Memoria judía y centro contemporáneo",
-            "zone": "Muranów → Śródmieście",
+            "title": "Memoria judía y jardines reales",
+            "zone": "Muranów → Łazienki",
             "stopIds": [
+              "chopin",
+              "park",
+              "amphi",
               "umschlag",
               "heroes",
-              "polin",
+              "polin"
+            ],
+            "optionalStopIds": [
               "palace"
             ],
-            "optionalStopIds": [],
-            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
-            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "editorialNote": "Łazienki de mañana por luz y frío, solo paseo exterior breve. Tras comida y traslado, Muranów y POLIN como único interior largo. Llegar a la exposición principal al menos 2 h antes del cierre; si no encaja, quitar jardines, no comprimir el museo. Martes cerrado: intercambiar con día urbano. Mirador del Palacio de la Cultura sustituye el paseo si meteo adversa.",
+            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1716,15 +1719,9 @@
                 "straightLineKm": 0.06,
                 "isWalkingRoute": false,
                 "transportSuggested": false
-              },
-              {
-                "fromId": "polin",
-                "toId": "palace",
-                "straightLineKm": 2.18,
-                "isWalkingRoute": false,
-                "transportSuggested": true
               }
-            ]
+            ],
+            "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
           }
         ]
       },
@@ -1742,7 +1739,7 @@
               "cross"
             ],
             "optionalStopIds": [],
-            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada.",
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. En invierno, concentrar exteriores con luz; si el Castillo cierra, elegir un museo del casco antiguo y quitar otra visita, no prometer entrada. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
             "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
             "geographyChecks": [
               {
@@ -1783,17 +1780,21 @@
             ]
           },
           {
-            "title": "Memoria judía y centro contemporáneo",
-            "zone": "Muranów → Śródmieście",
+            "title": "Memoria judía y jardines reales",
+            "zone": "Muranów → Łazienki",
             "stopIds": [
+              "chopin",
+              "park",
+              "amphi",
               "umschlag",
               "heroes",
-              "polin",
+              "polin"
+            ],
+            "optionalStopIds": [
               "palace"
             ],
-            "optionalStopIds": [],
-            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
-            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "editorialNote": "Łazienki de mañana por luz y frío, solo paseo exterior breve. Tras comida y traslado, Muranów y POLIN como único interior largo. Llegar a la exposición principal al menos 2 h antes del cierre; si no encaja, quitar jardines, no comprimir el museo. Martes cerrado: intercambiar con día urbano. Mirador del Palacio de la Cultura sustituye el paseo si meteo adversa.",
+            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1808,51 +1809,24 @@
                 "straightLineKm": 0.06,
                 "isWalkingRoute": false,
                 "transportSuggested": false
-              },
-              {
-                "fromId": "polin",
-                "toId": "palace",
-                "straightLineKm": 2.18,
-                "isWalkingRoute": false,
-                "transportSuggested": true
               }
-            ]
+            ],
+            "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
           },
           {
-            "title": "1944 y los jardines reales",
-            "zone": "Łazienki → Wola",
+            "title": "1944 y Varsovia contemporánea",
+            "zone": "Wola → Śródmieście",
             "stopIds": [
-              "chopin",
-              "park",
-              "amphi",
-              "rising"
+              "rising",
+              "palace"
             ],
-            "optionalStopIds": [],
-            "editorialNote": "Con los días cortos, ver primero Łazienki con luz: Chopin, Palacio en la Isla por fuera y anfiteatro. Después de comer, transporte al Museo del Alzamiento como interior principal de la tarde, sólo si encaja el horario de esa fecha. No caminar de Łazienki a Wola. Acortar jardín con hielo o lluvia. Acceso al entorno de Chopin por comprobar tras obras anunciadas para 2026.",
-            "pacing": "Jornada flexible: museo y paseo breve con luz; no rellenar exteriores si el tiempo no acompaña.",
-            "geographyChecks": [
-              {
-                "fromId": "chopin",
-                "toId": "park",
-                "straightLineKm": 0.53,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "park",
-                "toId": "amphi",
-                "straightLineKm": 0.16,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "amphi",
-                "toId": "rising",
-                "straightLineKm": 4.31,
-                "isWalkingRoute": false,
-                "transportSuggested": true
-              }
-            ]
+            "optionalStopIds": [
+              "praga"
+            ],
+            "editorialNote": "Alzamiento como segunda capa histórica opcional, no repetición de POLIN. Después de comer, Palacio de la Cultura: exterior o mirador. Dejar tarde libre; Praga o BUW de extras sustituyen el museo o el mirador, no se suman todos. Martes museo cerrado: intercambiar con día 1. No añadir Wilanów por defecto.",
+            "pacing": "Día más ligero: unas 5–6 h con museo, traslado y comida; tarde con margen. Wola → centro: transporte recomendado, trayecto por comprobar para fecha real.",
+            "geographyChecks": [],
+            "transferNote": "Wola → centro: transporte recomendado, trayecto por comprobar para fecha real."
           }
         ]
       }
@@ -1874,7 +1848,7 @@
             "optionalStopIds": [
               "library"
             ],
-            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
             "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
             "geographyChecks": [
               {
@@ -1932,7 +1906,7 @@
             "optionalStopIds": [
               "library"
             ],
-            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
             "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
             "geographyChecks": [
               {
@@ -1973,17 +1947,21 @@
             ]
           },
           {
-            "title": "Memoria judía y centro contemporáneo",
-            "zone": "Muranów → Śródmieście",
+            "title": "Memoria judía y jardines reales",
+            "zone": "Muranów → Łazienki",
             "stopIds": [
               "umschlag",
               "heroes",
               "polin",
+              "chopin",
+              "park",
+              "amphi"
+            ],
+            "optionalStopIds": [
               "palace"
             ],
-            "optionalStopIds": [],
-            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
-            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "editorialNote": "Mañana: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Comida y traslado en transporte a Łazienki. Paseo exterior, sin añadir interiores del palacio. Martes POLIN cierra: intercambiar con el casco antiguo; Alzamiento también cierra martes. El mirador del Palacio de la Cultura sustituye el paseo si mal tiempo, no se añade.",
+            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1998,15 +1976,9 @@
                 "straightLineKm": 0.06,
                 "isWalkingRoute": false,
                 "transportSuggested": false
-              },
-              {
-                "fromId": "polin",
-                "toId": "palace",
-                "straightLineKm": 2.18,
-                "isWalkingRoute": false,
-                "transportSuggested": true
               }
-            ]
+            ],
+            "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
           }
         ]
       },
@@ -2026,7 +1998,7 @@
             "optionalStopIds": [
               "library"
             ],
-            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio.",
+            "editorialNote": "Mañana: Barbacana y plaza del casco antiguo antes del Castillo. Parar a comer antes de seguir hacia Santa Ana, Palacio Presidencial y Santa Cruz. El Castillo es la única visita interior larga: si se entra, no añadir además torre y otro museo. Son lugares del mismo eje, no un salto a otro barrio. Lunes: Castillo solo exterior; miércoles la visita gratuita es reducida.",
             "pacing": "Día completo · unas 6–7 h con comida, paseo y pausas. No son seis entradas.",
             "geographyChecks": [
               {
@@ -2067,17 +2039,21 @@
             ]
           },
           {
-            "title": "Memoria judía y centro contemporáneo",
-            "zone": "Muranów → Śródmieście",
+            "title": "Memoria judía y jardines reales",
+            "zone": "Muranów → Łazienki",
             "stopIds": [
               "umschlag",
               "heroes",
               "polin",
+              "chopin",
+              "park",
+              "amphi"
+            ],
+            "optionalStopIds": [
               "palace"
             ],
-            "optionalStopIds": [],
-            "editorialNote": "Mañana en Muranów: memorial Umschlagplatz, Héroes del Gueto y POLIN como visita principal (reservar unas 3 h). Tras comer, transporte al Palacio de la Cultura: exterior o mirador según interés. No añadir el Museo del Alzamiento hoy.",
-            "pacing": "Unas 6–7 h con museo, comida y traslado; mirador opcional.",
+            "editorialNote": "Mañana: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Comida y traslado en transporte a Łazienki. Paseo exterior, sin añadir interiores del palacio. Martes POLIN cierra: intercambiar con el casco antiguo; Alzamiento también cierra martes. El mirador del Palacio de la Cultura sustituye el paseo si mal tiempo, no se añade.",
+            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -2092,59 +2068,31 @@
                 "straightLineKm": 0.06,
                 "isWalkingRoute": false,
                 "transportSuggested": false
-              },
-              {
-                "fromId": "polin",
-                "toId": "palace",
-                "straightLineKm": 2.18,
-                "isWalkingRoute": false,
-                "transportSuggested": true
               }
-            ]
+            ],
+            "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
           },
           {
-            "title": "1944 y los jardines reales",
-            "zone": "Wola → Łazienki",
+            "title": "1944 y Varsovia contemporánea",
+            "zone": "Wola → Śródmieście",
             "stopIds": [
               "rising",
-              "chopin",
-              "park",
-              "amphi"
+              "palace"
             ],
             "optionalStopIds": [
-              "wilanow"
+              "praga",
+              "library"
             ],
-            "editorialNote": "Mañana en el Museo del Alzamiento para entender 1944; no confundirlo con la insurrección del gueto. Tras comida y traslado en transporte, paseo por Łazienki: Chopin, Palacio en la Isla y anfiteatro. El palacio se ve por fuera por defecto. Wilanów sustituye el bloque de jardines, no se suma.",
-            "pacing": "Unas 6–7 h con museo, traslado y paseo; no se propone caminar de Wola a Łazienki.",
-            "geographyChecks": [
-              {
-                "fromId": "rising",
-                "toId": "chopin",
-                "straightLineKm": 3.76,
-                "isWalkingRoute": false,
-                "transportSuggested": true
-              },
-              {
-                "fromId": "chopin",
-                "toId": "park",
-                "straightLineKm": 0.53,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "park",
-                "toId": "amphi",
-                "straightLineKm": 0.16,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
-            ]
+            "editorialNote": "Alzamiento como segunda capa histórica opcional, no repetición de POLIN. Después de comer, Palacio de la Cultura: exterior o mirador. Dejar tarde libre; Praga o BUW de extras sustituyen el museo o el mirador, no se suman todos. Martes museo cerrado: intercambiar con día 1. No añadir Wilanów por defecto.",
+            "pacing": "Día más ligero: unas 5–6 h con museo, traslado y comida; tarde con margen. Wola → centro: transporte recomendado, trayecto por comprobar para fecha real.",
+            "geographyChecks": [],
+            "transferNote": "Wola → centro: transporte recomendado, trayecto por comprobar para fecha real."
           }
         ]
       }
     }
   },
-  "editorialTradeoffs": "El primer día prioriza la identidad reconstruida y sus hitos concretos. BUW es una alternativa de verano, no la segunda mitad obligatoria de Varsovia. Día 2 trata historia judía y contraste contemporáneo; día 3 distingue 1944 y paisaje real con traslado explícito. No se impone una visita interior por cada marcador.",
+  "editorialTradeoffs": "Decisión: 1 día para casco antiguo y Ruta Real, con un solo interior real. En 2 días se añade POLIN como historia de mil años, no solo guerra, y Łazienki para no reducir la ciudad a museos/memoria. El mirador del Palacio de la Cultura es alternativa, no obligación añadida. En 3 días se ofrece Alzamiento como segunda capa histórica, con centro contemporáneo y margen; si no interesa otro museo, se elige paseo Praga/BUW de los extras. Wilanów y Żelazowa quedan fuera del plan principal por traslado/coste de oportunidad, no por falta de calidad.",
   "excursions": [
     {
       "id": "zelazowa",
@@ -2154,10 +2102,93 @@
       "visit": "Casa y parque, con pausa. No dar por hecho un recital: depende de la programación.",
       "transport": "Tren a Sochaczew y conexión local a Żelazowa Wola. El museo confirma autobuses o taxi; los enlaces y esperas deben comprobarse para el día elegido.",
       "pacing": "Reservar unas 6–8 h de jornada total: estimación editorial con ida, visita, comida y vuelta. No es un horario de transporte.",
-      "caution": "Los horarios de la casa y del parque son distintos. Confirmar apertura y conexión de vuelta antes de elegir esta jornada.",
+      "caution": "Casa y parque tienen horarios distintos. Lunes es gratuito, no cierre semanal. Cierra en festivos publicados; conciertos pueden limitar visita a casa. Confirmar enlace de regreso.",
       "url": "https://muzeum.nifc.pl/en/muzeum/wizyta-informacje-miejsce/2_getting-here/",
-      "access": "https://muzeum.nifc.pl/en/muzeum/wizyta-informacje-miejsce/2/1014_dojazd"
+      "access": "https://muzeum.nifc.pl/en/muzeum/wizyta-informacje-miejsce/2/1014_dojazd",
+      "closedMonthDays": [
+        "01-01",
+        "01-06",
+        "11-01",
+        "12-24",
+        "12-25",
+        "12-26",
+        "12-31"
+      ],
+      "closedEasterOffsets": [
+        0,
+        1
+      ]
     }
   ],
-  "excursionDefault": "urban"
+  "excursionDefault": "urban",
+  "editorialAudit": {
+    "reviewedAt": "2026-10-28",
+    "scope": "Selección y coste de oportunidad de 1/2/3 días y 4 temporadas, cierres principales, dos comidas, un recital, excursión musical. No disponibilidad futura ni auditoría completa.",
+    "confirmedClosures2026": {
+      "polin": [
+        "2026-11-01",
+        "2026-12-24",
+        "2026-12-25",
+        "2026-12-31"
+      ],
+      "rising": [
+        "2026-11-01"
+      ],
+      "palace": [
+        "2026-11-01",
+        "2026-12-24",
+        "2026-12-25",
+        "2026-12-26"
+      ],
+      "parkInterior": [
+        "2026-11-25"
+      ]
+    },
+    "openItems": [
+      "Łazienki muestra dos bloques horarios interiores sin separación clara en texto recuperado; no se fija hora exacta.",
+      "Wilanów: distinguir régimen ordinario de noviembre gratuito, sin trasladarlo a otros años.",
+      "Rutas reales entre barrios, fotos específicas y variedad adicional de comida/experiencias: siguiente pasada."
+    ]
+  },
+  "routeEvidence": [
+    {
+      "fromId": "polin",
+      "toId": "park",
+      "walkingRouteKm": 5.502,
+      "walkingMinutes": 76,
+      "routeCheckedAt": "2026-10-28",
+      "isWalkingRoute": true,
+      "referenceOnly": true,
+      "sourceUrl": "https://www.google.com/maps/dir/?api=1&destination=Agrykola+1%2C+00-460+Warszawa%2C+Poland&destination_place_id=ChIJP37zjB7NHkcR873Uas0o4bo&origin=Mordechaja+Anielewicza+6%2C+00-157+Warszawa%2C+Poland&origin_place_id=ChIJc7iVqXnMHkcRsDBEUEPaGuI&travelmode=walking",
+      "accessibility": "No verificada; ruta puede contener escaleras."
+    }
+  ],
+  "catalogRevision": "2026-10-28-editorial-pass2",
+  "discoveryReview": {
+    "reviewedAt": "2026-10-28",
+    "method": "Búsqueda literal qué ver en la ciudad, lectura de secciones de visitas/itinerarios de varias guías, comparación con catálogo y juicio editorial; después contraste oficial de hechos operativos seleccionados.",
+    "guidesRead": [
+      "https://www.varsovia.com/varsovia-en-tres-dias",
+      "https://go2warsaw.pl/es/varsovia-en-3-dias/",
+      "https://guide.michelin.com/en/article/travel/two-days-in-warsaw"
+    ],
+    "candidatesConsidered": [
+      {
+        "candidate": "Museo Nacional / Ujazdowski",
+        "decision": "Alternativas de arte a un museo histórico según interés, no tercer gran museo obligatorio. POLIN aporta primero historia judía de larga duración."
+      },
+      {
+        "candidate": "Praga y ribera del Vístula",
+        "decision": "Alternativas de barrio/paseo para buen tiempo. No se fuerza cruzar la ciudad tras POLIN y Łazienki."
+      },
+      {
+        "candidate": "Wilanów",
+        "decision": "Se conserva opcional, no se suma al mismo día de POLIN y Łazienki; cierre del palacio actual advertido."
+      },
+      {
+        "candidate": "Auschwitz desde Varsovia",
+        "decision": "Descartado como excursión base: aparece en una guía, pero no encaja con la ciudad ni con un plan corto."
+      }
+    ]
+  }
 }

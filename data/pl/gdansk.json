@@ -41,7 +41,8 @@
       "sourceIds": [
         "official",
         "rs",
-        "ww"
+        "ww",
+        "mary-visit"
       ],
       "coordinates": {
         "lat": 54.34975,
@@ -50,7 +51,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/St._Mary%27s_Church,_Gda%C5%84sk",
       "suggestedMinutes": 60,
       "durationType": "editorial-estimate",
-      "caution": "Torre opcional con muchas escaleras, no imponerla.",
+      "caution": "Turismo no permitido durante culto; domingo acceso por franjas. Torre opcional, muchas escaleras y sujeta a meteo. Páginas propias difieren en horarios de torre y contienen aviso COVID antiguo: no se copia una hora exacta.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -71,7 +72,8 @@
       "sourceIds": [
         "national",
         "ww",
-        "ng"
+        "ng",
+        "crane-visit"
       ],
       "coordinates": {
         "lat": 54.35049429999999,
@@ -80,7 +82,7 @@
       "coordinateSource": null,
       "suggestedMinutes": 60,
       "durationType": "editorial-estimate",
-      "caution": "Exterior y visita interior son distintos; apertura por comprobar.",
+      "caution": "Exterior distinto del museo. Hasta31/12/2026 lunes no listado abierto y miércoles empieza13 h. Último acceso1 h antes del cierre. Régimen de otras temporadas distinto: confirmar fecha. No entrar además de todas las otras visitas.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -96,7 +98,8 @@
       "sourceIds": [
         "official",
         "rs",
-        "ng"
+        "ng",
+        "ecs-visit"
       ],
       "coordinates": {
         "lat": 54.36111111,
@@ -105,7 +108,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/European_Solidarity_Centre",
       "suggestedMinutes": 180,
       "durationType": "editorial-estimate",
-      "caution": "",
+      "caution": "Exposición cerrada martes de octubre a abril; edificio y terraza tienen otro acceso. Mayo–septiembre régimen distinto. Visita principal de 2–3 h, no confundir edificio abierto con exposición abierta. Festivos por confirmar en aviso vigente.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -126,7 +129,8 @@
       "sourceIds": [
         "official",
         "rs",
-        "ww"
+        "ww",
+        "ww2-visit"
       ],
       "coordinates": {
         "lat": 54.35583333,
@@ -135,7 +139,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Museum_of_the_Second_World_War",
       "suggestedMinutes": 180,
       "durationType": "editorial-estimate",
-      "caution": "Tema emocionalmente exigente, no relleno entre compras.",
+      "caution": "Cierra lunes y 7–26/01/2027 por obras. Secciones cerradas por fases entre26/10 y23/11/2026; comprobar zonas afectadas. Martes jornada reducida. Páginas polaca/inglesa difieren en hora de cierre: no fijar última entrada sin verificar.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -156,7 +160,8 @@
       "sourceIds": [
         "official",
         "oliwa",
-        "vh"
+        "vh",
+        "oliwa-organ"
       ],
       "coordinates": {
         "lat": 54.41101389,
@@ -165,7 +170,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Oliwa_Cathedral",
       "suggestedMinutes": 60,
       "durationType": "editorial-estimate",
-      "caution": "Requiere desplazamiento. Conciertos de órgano sólo con horario confirmado.",
+      "caution": "Programa propio2026: demostración de órgano de20 min, no festival completo. Noviembre/diciembre publicada a12 h lunes–sábado y15 h domingo, excepto1–2/11; no extrapolar a2027 ni prometer plaza. Catedral sujeta a culto.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -358,7 +363,9 @@
       "zone": "Norte de la Ciudad Principal",
       "reason": "Otra historia de Gdańsk: el ámbar y su artesanía, no un tercer museo bélico.",
       "sourceIds": [
-        "walks"
+        "walks",
+        "amber-operator",
+        "amber-practical"
       ],
       "coordinates": {
         "lat": 54.35416,
@@ -368,7 +375,7 @@
       "suggestedMinutes": 90,
       "durationType": "editorial-estimate",
       "visitMode": "Paseo / exterior",
-      "caution": "Comprobar acceso antes del viaje.",
+      "caution": "Wielkie Młyny16, no dirección centralDługa. Lunes gratis10–18; martes cerrado; miércoles–domingo10–18. Último acceso1 h antes. Entrada general37 zł publicada28/10/2026, no garantía futura. No sirve de sustituto del ECS un martes de invierno: ambos cierran.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -378,7 +385,8 @@
         "license": "CC BY-SA 4.0",
         "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Amber_museum7.JPG"
-      }
+      },
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Muzeum+Bursztynu.+Oddzia%C5%82+Muzeum+Gda%C5%84ska&query_place_id=ChIJjVSrXp5z_UYRZjBYZZ9nbe0"
     },
     {
       "id": "neptune",
@@ -482,7 +490,7 @@
             "mariacka",
             "crane"
           ],
-          "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+          "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
           "optionalStopIds": [],
           "geographyChecks": [
             {
@@ -530,7 +538,7 @@
             "mariacka",
             "crane"
           ],
-          "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+          "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
           "optionalStopIds": [],
           "geographyChecks": [
             {
@@ -572,10 +580,8 @@
             "gate",
             "ecs"
           ],
-          "optionalStopIds": [
-            "amber"
-          ],
-          "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+          "optionalStopIds": [],
+          "editorialNote": "Monumento y Puerta2 antes del ECS, elegido por la conexión irrepetible entre lugar e historia de Solidaridad. Un interior principal de2–3 h, pausa y entorno accesible; tarde libre deliberada. Octubre–abril martes exposición cerrada: intercambiar día o sustituir por II Guerra si está operativo, no confundir con edificio abierto. No añadir Ámbar por llenar la tarde.",
           "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
           "geographyChecks": [
             {
@@ -608,7 +614,7 @@
             "mariacka",
             "crane"
           ],
-          "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+          "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
           "optionalStopIds": [],
           "geographyChecks": [
             {
@@ -650,10 +656,8 @@
             "gate",
             "ecs"
           ],
-          "optionalStopIds": [
-            "amber"
-          ],
-          "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+          "optionalStopIds": [],
+          "editorialNote": "Monumento y Puerta2 antes del ECS, elegido por la conexión irrepetible entre lugar e historia de Solidaridad. Un interior principal de2–3 h, pausa y entorno accesible; tarde libre deliberada. Octubre–abril martes exposición cerrada: intercambiar día o sustituir por II Guerra si está operativo, no confundir con edificio abierto. No añadir Ámbar por llenar la tarde.",
           "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
           "geographyChecks": [
             {
@@ -684,7 +688,7 @@
             "ww2",
             "beach"
           ],
-          "editorialNote": "Transporte a Oliwa y jornada en una sola zona: catedral y parque. Tras comer, Pachołek sólo con tiempo seco y energía. Si se prefiere historia, sustituir Oliwa por el Museo de la Segunda Guerra Mundial. Playa es otra alternativa de verano, no tercera zona obligatoria.",
+          "editorialNote": "Oliwa como contraste relajado de catedral y parque tras ciudad mercantil/Solidaridad. Un solo distrito; transporte explícito. Pachołek solo seco y con energía. II Guerra sustituye Oliwa para interés histórico fuerte; playa sustituye el bloque por meteo favorable, no tercera zona. No se promete concierto de órgano.",
           "pacing": "Jornada relajada de unas 4–5 h con traslado y comida; subida opcional amplía el día.",
           "geographyChecks": [
             {
@@ -765,7 +769,11 @@
     "Las excursiones sustituyen una jornada urbana, no se añaden a su carga. No hay entradas ni transporte reservados."
   ],
   "excludedOrOptional": [
-    "Sopot y Gdynia son destinos distintos, excursión opcional."
+    "No sumar ECS y II Guerra al mismo día por proximidad: carga intelectual y tiempo.",
+    "Ámbar opcional/sustituto: no segundo museo obligatorio tras II Guerra.",
+    "Sopot fuera del principal de primera visita: evita diluir Gdańsk en traslados; playa es alternativa, no obligación.",
+    "No hacer torre Santa María por defecto ni prometer órgano Oliwa.",
+    "Malbork sustituye jornada: modalidad de lunes invierno puede ser solo exterior."
   ],
   "sources": [
     {
@@ -872,6 +880,62 @@
       "url": "https://zamek.malbork.pl/en/home/visit/access/",
       "type": "operator",
       "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "ecs-visit",
+      "title": "ECS: exposición y edificio",
+      "url": "https://ecs.gda.pl/en/plan-your-visit/opening-hours/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "ww2-visit",
+      "title": "II Guerra: obras y cierre enero",
+      "url": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/plan-your-visit",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "ww2-hours",
+      "title": "II Guerra: apertura",
+      "url": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/opening-hours",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "crane-visit",
+      "title": "Grúa: museo marítimo",
+      "url": "https://nmm.pl/en/crane/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "mary-visit",
+      "title": "Santa María: turismo y culto",
+      "url": "https://bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow-2/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "oliwa-organ",
+      "title": "Oliwa: programa de órgano2026",
+      "url": "https://www.archikatedraoliwa.pl/organy-oliwskie-4218/koncerty-i-prezentacje-organow-4219",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "amber-operator",
+      "title": "Ámbar: Museo de Gdańsk",
+      "url": "https://muzeumgdansk.pl/en/oddzialy-muzeum/museum-of-amber/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "amber-practical",
+      "title": "Ámbar: entrada y horarios propios",
+      "url": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -905,7 +969,7 @@
               "mariacka",
               "crane"
             ],
-            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -953,7 +1017,7 @@
               "mariacka",
               "crane"
             ],
-            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -995,10 +1059,8 @@
               "gate",
               "ecs"
             ],
-            "optionalStopIds": [
-              "amber"
-            ],
-            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "optionalStopIds": [],
+            "editorialNote": "Monumento y Puerta2 antes del ECS, elegido por la conexión irrepetible entre lugar e historia de Solidaridad. Un interior principal de2–3 h, pausa y entorno accesible; tarde libre deliberada. Octubre–abril martes exposición cerrada: intercambiar día o sustituir por II Guerra si está operativo, no confundir con edificio abierto. No añadir Ámbar por llenar la tarde.",
             "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
             "geographyChecks": [
               {
@@ -1031,7 +1093,7 @@
               "mariacka",
               "crane"
             ],
-            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1073,10 +1135,8 @@
               "gate",
               "ecs"
             ],
-            "optionalStopIds": [
-              "amber"
-            ],
-            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "optionalStopIds": [],
+            "editorialNote": "Monumento y Puerta2 antes del ECS, elegido por la conexión irrepetible entre lugar e historia de Solidaridad. Un interior principal de2–3 h, pausa y entorno accesible; tarde libre deliberada. Octubre–abril martes exposición cerrada: intercambiar día o sustituir por II Guerra si está operativo, no confundir con edificio abierto. No añadir Ámbar por llenar la tarde.",
             "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
             "geographyChecks": [
               {
@@ -1107,7 +1167,7 @@
               "ww2",
               "beach"
             ],
-            "editorialNote": "Transporte a Oliwa y jornada en una sola zona: catedral y parque. Tras comer, Pachołek sólo con tiempo seco y energía. Si se prefiere historia, sustituir Oliwa por el Museo de la Segunda Guerra Mundial. Playa es otra alternativa de verano, no tercera zona obligatoria.",
+            "editorialNote": "Oliwa como contraste relajado de catedral y parque tras ciudad mercantil/Solidaridad. Un solo distrito; transporte explícito. Pachołek solo seco y con energía. II Guerra sustituye Oliwa para interés histórico fuerte; playa sustituye el bloque por meteo favorable, no tercera zona. No se promete concierto de órgano.",
             "pacing": "Jornada relajada de unas 4–5 h con traslado y comida; subida opcional amplía el día.",
             "geographyChecks": [
               {
@@ -1135,7 +1195,7 @@
               "mariacka",
               "crane"
             ],
-            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1183,7 +1243,7 @@
               "mariacka",
               "crane"
             ],
-            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1225,10 +1285,8 @@
               "gate",
               "ecs"
             ],
-            "optionalStopIds": [
-              "amber"
-            ],
-            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "optionalStopIds": [],
+            "editorialNote": "Monumento y Puerta2 antes del ECS, elegido por la conexión irrepetible entre lugar e historia de Solidaridad. Un interior principal de2–3 h, pausa y entorno accesible; tarde libre deliberada. Octubre–abril martes exposición cerrada: intercambiar día o sustituir por II Guerra si está operativo, no confundir con edificio abierto. No añadir Ámbar por llenar la tarde.",
             "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
             "geographyChecks": [
               {
@@ -1261,7 +1319,7 @@
               "mariacka",
               "crane"
             ],
-            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1303,10 +1361,8 @@
               "gate",
               "ecs"
             ],
-            "optionalStopIds": [
-              "amber"
-            ],
-            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "optionalStopIds": [],
+            "editorialNote": "Monumento y Puerta2 antes del ECS, elegido por la conexión irrepetible entre lugar e historia de Solidaridad. Un interior principal de2–3 h, pausa y entorno accesible; tarde libre deliberada. Octubre–abril martes exposición cerrada: intercambiar día o sustituir por II Guerra si está operativo, no confundir con edificio abierto. No añadir Ámbar por llenar la tarde.",
             "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
             "geographyChecks": [
               {
@@ -1326,26 +1382,18 @@
             ]
           },
           {
-            "title": "Guerra mundial y la ciudad del ámbar",
+            "title": "Historia mundial, sin encadenar museos",
             "zone": "Norte del centro",
             "stopIds": [
-              "ww2",
-              "amber"
+              "ww2"
             ],
             "optionalStopIds": [
+              "amber",
               "oliwa"
             ],
-            "editorialNote": "Museo de la Segunda Guerra Mundial como visita principal de la mañana. Después de comer, Museo del Ámbar sólo si quedan ganas de otro interior; puede quitarse y dejar un paseo breve. No duplicar Solidaridad hoy.",
-            "pacing": "Unas 6–7 h si se hacen ambos museos; 4–5 h si se deja sólo el principal.",
-            "geographyChecks": [
-              {
-                "fromId": "ww2",
-                "toId": "amber",
-                "straightLineKm": 0.71,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
-            ]
+            "editorialNote": "II Guerra como único gran interior del día, con3–4 h editoriales, pausa y paseo corto después. No añadir Ámbar por defecto tras tema emocionalmente denso. Cierra lunes y7–26/01/2027 por obras: en ese intervalo no es opción; elegir Oliwa o repartir ciudad mercantil con calma. Ámbar sustituye al museo, no es segunda entrada obligatoria.",
+            "pacing": "Unas5–6 h con museo, comida y paseo; no jornada de dos museos.",
+            "geographyChecks": []
           }
         ]
       }
@@ -1363,7 +1411,7 @@
               "mariacka",
               "crane"
             ],
-            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1411,7 +1459,7 @@
               "mariacka",
               "crane"
             ],
-            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1453,10 +1501,8 @@
               "gate",
               "ecs"
             ],
-            "optionalStopIds": [
-              "amber"
-            ],
-            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "optionalStopIds": [],
+            "editorialNote": "Monumento y Puerta2 antes del ECS, elegido por la conexión irrepetible entre lugar e historia de Solidaridad. Un interior principal de2–3 h, pausa y entorno accesible; tarde libre deliberada. Octubre–abril martes exposición cerrada: intercambiar día o sustituir por II Guerra si está operativo, no confundir con edificio abierto. No añadir Ámbar por llenar la tarde.",
             "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
             "geographyChecks": [
               {
@@ -1489,7 +1535,7 @@
               "mariacka",
               "crane"
             ],
-            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1531,10 +1577,8 @@
               "gate",
               "ecs"
             ],
-            "optionalStopIds": [
-              "amber"
-            ],
-            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "optionalStopIds": [],
+            "editorialNote": "Monumento y Puerta2 antes del ECS, elegido por la conexión irrepetible entre lugar e historia de Solidaridad. Un interior principal de2–3 h, pausa y entorno accesible; tarde libre deliberada. Octubre–abril martes exposición cerrada: intercambiar día o sustituir por II Guerra si está operativo, no confundir con edificio abierto. No añadir Ámbar por llenar la tarde.",
             "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
             "geographyChecks": [
               {
@@ -1554,26 +1598,18 @@
             ]
           },
           {
-            "title": "Guerra mundial y la ciudad del ámbar",
+            "title": "Historia mundial, sin encadenar museos",
             "zone": "Norte del centro",
             "stopIds": [
-              "ww2",
-              "amber"
+              "ww2"
             ],
             "optionalStopIds": [
+              "amber",
               "oliwa"
             ],
-            "editorialNote": "Museo de la Segunda Guerra Mundial como visita principal de la mañana. Después de comer, Museo del Ámbar sólo si quedan ganas de otro interior; puede quitarse y dejar un paseo breve. No duplicar Solidaridad hoy.",
-            "pacing": "Unas 6–7 h si se hacen ambos museos; 4–5 h si se deja sólo el principal.",
-            "geographyChecks": [
-              {
-                "fromId": "ww2",
-                "toId": "amber",
-                "straightLineKm": 0.71,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
-            ]
+            "editorialNote": "II Guerra como único gran interior del día, con3–4 h editoriales, pausa y paseo corto después. No añadir Ámbar por defecto tras tema emocionalmente denso. Cierra lunes y7–26/01/2027 por obras: en ese intervalo no es opción; elegir Oliwa o repartir ciudad mercantil con calma. Ámbar sustituye al museo, no es segunda entrada obligatoria.",
+            "pacing": "Unas5–6 h con museo, comida y paseo; no jornada de dos museos.",
+            "geographyChecks": []
           }
         ]
       }
@@ -1591,7 +1627,7 @@
               "mariacka",
               "crane"
             ],
-            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1639,7 +1675,7 @@
               "mariacka",
               "crane"
             ],
-            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1681,10 +1717,8 @@
               "gate",
               "ecs"
             ],
-            "optionalStopIds": [
-              "amber"
-            ],
-            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "optionalStopIds": [],
+            "editorialNote": "Monumento y Puerta2 antes del ECS, elegido por la conexión irrepetible entre lugar e historia de Solidaridad. Un interior principal de2–3 h, pausa y entorno accesible; tarde libre deliberada. Octubre–abril martes exposición cerrada: intercambiar día o sustituir por II Guerra si está operativo, no confundir con edificio abierto. No añadir Ámbar por llenar la tarde.",
             "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
             "geographyChecks": [
               {
@@ -1717,7 +1751,7 @@
               "mariacka",
               "crane"
             ],
-            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas.",
+            "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1759,10 +1793,8 @@
               "gate",
               "ecs"
             ],
-            "optionalStopIds": [
-              "amber"
-            ],
-            "editorialNote": "Ver monumento y Puerta 2 antes de entrar en el Centro Europeo de Solidaridad, visita principal de unas 3 h. Después de comer, paseo corto por el entorno industrial accesible. No añadir por defecto otro gran museo: reservar margen para un tema denso.",
+            "optionalStopIds": [],
+            "editorialNote": "Monumento y Puerta2 antes del ECS, elegido por la conexión irrepetible entre lugar e historia de Solidaridad. Un interior principal de2–3 h, pausa y entorno accesible; tarde libre deliberada. Octubre–abril martes exposición cerrada: intercambiar día o sustituir por II Guerra si está operativo, no confundir con edificio abierto. No añadir Ámbar por llenar la tarde.",
             "pacing": "Unas 4–5 h con pausa y entorno; tarde libre deliberada, no otro museo obligatorio.",
             "geographyChecks": [
               {
@@ -1793,7 +1825,7 @@
               "ww2",
               "beach"
             ],
-            "editorialNote": "Transporte a Oliwa y jornada en una sola zona: catedral y parque. Tras comer, Pachołek sólo con tiempo seco y energía. Si se prefiere historia, sustituir Oliwa por el Museo de la Segunda Guerra Mundial. Playa es otra alternativa de verano, no tercera zona obligatoria.",
+            "editorialNote": "Oliwa como contraste relajado de catedral y parque tras ciudad mercantil/Solidaridad. Un solo distrito; transporte explícito. Pachołek solo seco y con energía. II Guerra sustituye Oliwa para interés histórico fuerte; playa sustituye el bloque por meteo favorable, no tercera zona. No se promete concierto de órgano.",
             "pacing": "Jornada relajada de unas 4–5 h con traslado y comida; subida opcional amplía el día.",
             "geographyChecks": [
               {
@@ -1823,5 +1855,46 @@
       "access": "https://zamek.malbork.pl/en/home/visit/access/"
     }
   ],
-  "excursionDefault": "malbork"
+  "excursionDefault": "malbork",
+  "editorialTradeoffs": "Decisión: 1 día ciudad mercantil a pie con basílica como interior, sin colección de torres. En2 días ECS prima frente a II Guerra por la conexión específica de Gdańsk con Solidaridad; ambos de calidad, no se obligan juntos. En3 días de buen tiempo Oliwa da contraste y descanso. Invierno elige II Guerra como interior único, pero no durante cierre7–26/01/2027. Ámbar queda como sustituto ligero, no entrada añadida para rellenar. Malbork solo al sacrificar una jornada urbana con interés en castillo.",
+  "editorialAudit": {
+    "reviewedAt": "2026-10-28",
+    "scope": "Selección1/2/3 días y estaciones, ECS/II Guerra/Grúa/basílica, dos comidas y kayak. No disponibilidad futura ni revisión completa.",
+    "openItems": [
+      "Discrepancias horarias II Guerra/Santa María conservadas; ECS año erróneo de Pascua no reutilizado.",
+      "Rutas reales de calle y fotos específicas siguen incompletas."
+    ]
+  },
+  "catalogRevision": "2026-10-28-editorial-pass2",
+  "discoveryReview": {
+    "reviewedAt": "2026-10-28",
+    "method": "Búsqueda literal qué ver en la ciudad, lectura de secciones de visitas/itinerarios de varias guías, comparación con catálogo y juicio editorial; después contraste oficial de hechos operativos seleccionados.",
+    "guidesRead": [
+      "https://viajeros30.com/europa/polonia/que-ver-en-gdansk/",
+      "https://lacosmopolilla.com/que-ver-en-gdansk-en-un-dia/",
+      "https://www.nationalgeographic.com/travel/article/guide-to-gdansk-poland"
+    ],
+    "candidatesConsidered": [
+      {
+        "candidate": "Corte de Artus / Casa Uphagen",
+        "decision": "Interiores de patrimonio mercantil considerados; el plan1día conserva su lectura urbana y no obliga a todos los interiores."
+      },
+      {
+        "candidate": "Santa Brígida",
+        "decision": "Candidata valiosa por altar de ámbar e historia obrera, contrastada con parroquia. Queda como alternativa temática, no otra iglesia obligatoria antes de ECS."
+      },
+      {
+        "candidate": "Westerplatte",
+        "decision": "Alternativa para interés específico en inicio de guerra, no sumar a WW2 y ECS el mismo día."
+      },
+      {
+        "candidate": "Sopot / Gdynia",
+        "decision": "Alternativas de costa y verano; se rechaza vender Malbork+Sopot como día relajado por defecto aunque las guías lo propongan."
+      },
+      {
+        "candidate": "Astilleros y almacenes regenerados",
+        "decision": "Refuerzan la elección de ECS y su entorno sobre otro museo genérico. No se prometen locales de ocio abiertos desde un artículo de2024."
+      }
+    ]
+  }
 }

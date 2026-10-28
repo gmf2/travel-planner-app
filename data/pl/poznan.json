@@ -18,7 +18,8 @@
       "sourceIds": [
         "official",
         "lp",
-        "plan"
+        "plan",
+        "townhall-operator"
       ],
       "coordinates": {
         "lat": 52.4083,
@@ -27,7 +28,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Old_Market_Square,_Pozna%C5%84",
       "suggestedMinutes": 90,
       "durationType": "editorial-estimate",
-      "caution": "Museo interior: avisos contradictorios de reforma. No se presenta abierto.",
+      "caution": "Museo del Ayuntamiento cerrado por obras. Reapertura prevista entre finales de 2027 y principios de 2028; aquí se visita la plaza y el exterior.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -47,7 +48,8 @@
       "reason": "Interior barroco a pasos del mercado, sin desvío de zona.",
       "sourceIds": [
         "plan",
-        "lp"
+        "lp",
+        "fara-visit"
       ],
       "coordinates": {
         "lat": 52.40611111,
@@ -56,7 +58,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Pozna%C5%84_Fara",
       "suggestedMinutes": 45,
       "durationType": "editorial-estimate",
-      "caution": "Respetar culto; conciertos sólo con horario confirmado.",
+      "caution": "No visitar durante misa. El órgano y las zonas especiales tienen sesiones propias, no incluidas en este paseo.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -77,7 +79,8 @@
       "sourceIds": [
         "official",
         "lp",
-        "iyp"
+        "iyp",
+        "cathedral-visit"
       ],
       "coordinates": {
         "lat": 52.41138889,
@@ -86,7 +89,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Pozna%C5%84_Cathedral",
       "suggestedMinutes": 90,
       "durationType": "editorial-estimate",
-      "caution": "",
+      "caution": "No visitar durante culto o conciertos. Criptas y torre con calendario estacional: no contarlas como abiertas en invierno.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -101,13 +104,14 @@
     {
       "id": "porta",
       "name": "Porta Posnania",
-      "kind": "museum",
+      "kind": "interpretation-centre",
       "zone": "Isla de la Catedral y Śródka",
-      "reason": "Interpretación del origen de la ciudad junto a los lugares históricos.",
+      "reason": "Centro de interpretación del origen de la ciudad junto a los lugares históricos.",
       "sourceIds": [
         "official",
         "lp",
-        "plan"
+        "plan",
+        "porta-faq"
       ],
       "coordinates": {
         "lat": 52.41232,
@@ -116,7 +120,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Porta_Posnania",
       "suggestedMinutes": 120,
       "durationType": "editorial-estimate",
-      "caution": "",
+      "caution": "Centro de interpretación, no museo de objetos. Cierra lunes; 1,5–2 h. Audioguía en español. Horario de fin de semana contradictorio en su web: confirmar última entrada.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -151,10 +155,11 @@
       "price": null,
       "photo": {
         "img": "assets/poznan-srodka.jpg",
-        "author": "Autor en fuente",
+        "author": "Radomil",
         "license": "CC BY-SA 3.0",
         "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
-        "source": "https://commons.wikimedia.org/wiki/File:Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw_Ma%C5%82gorzaty_Pozna%C5%84_RB2.JPG"
+        "source": "https://commons.wikimedia.org/wiki/File:Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw_Ma%C5%82gorzaty_Pozna%C5%84_RB2.JPG",
+        "caption": "Śródka: iglesia de Santa Margarita, no el mural"
       }
     },
     {
@@ -165,16 +170,17 @@
       "reason": "Visita singular con contenido propio; prioridad frente a añadir centros comerciales.",
       "sourceIds": [
         "official",
-        "lp"
+        "lp",
+        "enigma-visit"
       ],
       "coordinates": {
         "lat": 52.40763,
         "lon": 16.91975
       },
       "coordinateSource": "https://en.wikipedia.org/wiki/Enigma_Cipher_Centre",
-      "suggestedMinutes": 150,
+      "suggestedMinutes": 120,
       "durationType": "editorial-estimate",
-      "caution": "",
+      "caution": "Cierra lunes. Entrada por franja; unas 2 h de referencia. Audioguía sin español: inglés, polaco, alemán, ruso o ucraniano.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -194,7 +200,8 @@
       "reason": "Otra época junto a Enigma, evitando traslados innecesarios.",
       "sourceIds": [
         "official",
-        "plan"
+        "plan",
+        "castle-visit"
       ],
       "coordinates": {
         "lat": 52.40777778,
@@ -203,7 +210,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Imperial_Castle,_Pozna%C5%84",
       "suggestedMinutes": 90,
       "durationType": "editorial-estimate",
-      "caution": "Interiores y programa cultural dependen de apertura.",
+      "caution": "Ruta histórica de pago distinta del paseo exterior; horario publicado 12–19 h, entradas hasta las 18 h. Confirmar fecha.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -224,7 +231,8 @@
       "sourceIds": [
         "official",
         "lp",
-        "summer"
+        "summer",
+        "citadel-official"
       ],
       "coordinates": {
         "lat": 52.421111,
@@ -233,7 +241,7 @@
       "coordinateSource": "https://pl.wikipedia.org/wiki/Park_Cytadela",
       "suggestedMinutes": 120,
       "durationType": "editorial-estimate",
-      "caution": "",
+      "caution": "Paseo por el parque y memoria histórica; no incluye entradas a sus museos. Recortar con lluvia, hielo o poca luz.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -253,7 +261,8 @@
       "reason": "Alternativa veraniega para quien prefiera naturaleza.",
       "sourceIds": [
         "summer",
-        "plan"
+        "plan",
+        "maltanka-end"
       ],
       "coordinates": {
         "lat": 52.4025,
@@ -262,13 +271,13 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Lake_Malta",
       "suggestedMinutes": 120,
       "durationType": "editorial-estimate",
-      "caution": "No prometer tren Maltanka en invierno ni temporada futura sin calendario.",
+      "caution": "Paseo por el lago, no incluye termas, zoo ni tren. Maltanka terminó temporada el 27/09/2026; calendario de 2027 sin confirmar.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
       "photo": {
         "img": "assets/poznan-malta.jpg",
-        "author": "Autor en fuente",
+        "author": "Radomil",
         "license": "CC BY-SA 3.0",
         "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
         "source": "https://commons.wikimedia.org/wiki/File:Malta_Trybuny_Pozna%C5%84_RB1.JPG"
@@ -321,7 +330,7 @@
       "coordinateSource": "https://mnp.art.pl/en/profile/visit-5",
       "suggestedMinutes": 180,
       "durationType": "operator-reference-or-editorial-estimate",
-      "caution": "Museo cerrado los lunes y en varios festivos, incluidos 24–26/12 y 01/01. La web inglesa no completa todas las temporadas; confirmar apertura. No sumar Kórnik automáticamente. Transporte público pendiente de comprobar.",
+      "caution": "Museo cerrado lunes, 01/01, 01/11, 24–26/12, 31/12 y festivos de Pascua/Corpus. Cierre especial 17/11/2026. Plazas limitadas. Transporte público y regreso aún pendientes.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null
@@ -414,7 +423,7 @@
             "enigma",
             "castle"
           ],
-          "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo.",
+          "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo. Enigma cierra lunes: cambia de jornada o conserva el paseo exterior, sin prometer la visita.",
           "optionalStopIds": [],
           "geographyChecks": [
             {
@@ -482,7 +491,7 @@
             "enigma",
             "castle"
           ],
-          "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo.",
+          "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo. Enigma cierra lunes: cambia de jornada o conserva el paseo exterior, sin prometer la visita.",
           "optionalStopIds": [],
           "geographyChecks": [
             {
@@ -509,7 +518,7 @@
             "porta",
             "citadel"
           ],
-          "editorialNote": "Porta explica la isla histórica ya vista el primer día: profundización museística, no repetir la catedral. Después de comer, transporte a Ciudadela para recorrer parque y vestigios de la fortaleza. Malta sustituye Ciudadela si se prefiere lago en verano.",
+          "editorialNote": "Porta explica la isla histórica ya vista el primer día: profundización interpretativa, no repetir la catedral. Después de comer, transporte a Ciudadela para recorrer parque y vestigios de la fortaleza. Malta sustituye Ciudadela si se prefiere lago en verano. Porta cierra lunes; no contar con la exposición ese día.",
           "optionalStopIds": [
             "malta"
           ],
@@ -519,10 +528,14 @@
               "toId": "citadel",
               "straightLineKm": 1.48,
               "isWalkingRoute": false,
-              "transportSuggested": false
+              "transportSuggested": false,
+              "walkingRouteKm": 2.461,
+              "walkingMinutes": 35,
+              "routeCheckedAt": "2026-10-28",
+              "walkingCaution": "Ruta de referencia con escaleras; no verificada accesible."
             }
           ],
-          "pacing": "Unas 5–6 h con comida y traslado. Es un tercer día más pausado, no una lista de museos."
+          "pacing": "Unas 5–6 h con comida. Porta–Ciudadela: referencia Maps de 2,5 km / 35 min a pie, con escaleras; transporte alternativo sin verificar. Recorta parque con mal tiempo."
         }
       ]
     }
@@ -587,13 +600,17 @@
     }
   ],
   "cautions": [
-    "Palmeral: turismo oficial avisa de cierre por reforma desde 2026. No incluido.",
-    "Museo del ayuntamiento: guía local anuncia cierre 2026-27, ficha oficial conserva reapertura 2024. Exterior sí, interior por confirmar.",
+    "Palmeral cerrado temporalmente por obras según su operador. No incluido.",
+    "Museo del Ayuntamiento cerrado por obras. Reapertura prevista entre finales de 2027 y principios de 2028; aquí se visita la plaza y el exterior.",
     "No se garantizan horarios de cabritos ni del Museo del Cruasán.",
     "Las excursiones sustituyen una jornada urbana, no se añaden a su carga. No hay entradas ni transporte reservados."
   ],
   "excludedOrOptional": [
-    "Museo del Cruasán: alternativa cultural-gastronómica con reserva, no visita monumental obligatoria."
+    "Ayuntamiento museo fuera por obras, conservar plaza/exterior.",
+    "Rogal como espectáculo participativo/degustación, no clase de cocina de cada asistente.",
+    "Porta no repite catedral: interpretación, con1,5–2 h editoriales.",
+    "Malta sustituye Ciudadela en verano; Termy distinto, ticket y tiempo propios.",
+    "Rogalin no se suma al día urbano ni se impone por tener3 días."
   ],
   "sources": [
     {
@@ -698,6 +715,104 @@
       "id": "rogalin-access",
       "title": "Palacio de Rogalin y robles históricos: acceso y condiciones",
       "url": "https://mnp.art.pl/en/profile/visit-5",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "townhall-operator",
+      "title": "Operador: cierre del museo del Ayuntamiento",
+      "url": "https://mnp.art.pl/profile/wizyta-ratusz-muzeum-poznania",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "enigma-visit",
+      "title": "Enigma: visita, idiomas y cierre lunes",
+      "url": "https://csenigma.pl/en/plan-your-visit/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "porta-faq",
+      "title": "Brama: duración, idiomas y naturaleza del centro",
+      "url": "https://bramapoznania.pl/faq",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "porta-visit",
+      "title": "Brama: información al visitante",
+      "url": "https://bramapoznania.pl/dla-odwiedzajacych",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "castle-visit",
+      "title": "Castillo: visita actual",
+      "url": "https://ckzamek.pl/podstrony/6071-zwiedzanie-zamku/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "cathedral-visit",
+      "title": "Catedral: condiciones para turistas",
+      "url": "https://www.katedra.archpoznan.pl/turysci-w-katedrze/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "fara-visit",
+      "title": "Fara: visita individual",
+      "url": "https://fara.archpoznan.pl/pl/zwiedzanie?catid=2&id=24%3Agodziny-otwarcia&view=article",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "rogalin-polish",
+      "title": "Rogalin: información completa en polaco",
+      "url": "https://mnp.art.pl/profile/wizyta-muzeum-palac-w-rogalinie",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "rogalin-special",
+      "title": "Rogalin: cierres especiales 2026",
+      "url": "https://mnp.art.pl/galeria-malarstwa-i-rzezby/doskonalenie-zawodowe-pracownikow-oddzialy-w-rogalinie-i-smielowie-zamkniete",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "palm-operator",
+      "title": "Palmeral: aviso de cierre",
+      "url": "https://palmiarnia.poznan.pl/aktualnosci/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "maltanka-end",
+      "title": "MPK: fin de temporada Maltanka 2026",
+      "url": "https://www.mpk.poznan.pl/ostatnia-szansa-na-przejazdzke-kolejka-parkowa-maltanka-konczy-sie-sezon-2026/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "citadel-official",
+      "title": "Turismo: Parque de la Ciudadela",
+      "url": "https://visitpoznan.pl/en/citadel-park",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "mosina-bus",
+      "title": "PUK Mosina: líneas y horarios",
+      "url": "https://pukmosina.pl/dzial-transportu/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "bus699",
+      "title": "Operador: horario 699 vigente desde 30/08/2026",
+      "url": "https://pukmosina.pl/wp-content/uploads/2026/10/linia-699dc.pdf",
       "type": "operator",
       "retrievedAt": "2026-10-28"
     }
@@ -807,7 +922,7 @@
               "enigma",
               "castle"
             ],
-            "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo.",
+            "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo. Enigma cierra lunes: cambia de jornada o conserva el paseo exterior, sin prometer la visita.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -875,7 +990,7 @@
               "enigma",
               "castle"
             ],
-            "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo.",
+            "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo. Enigma cierra lunes: cambia de jornada o conserva el paseo exterior, sin prometer la visita.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -902,7 +1017,7 @@
               "porta",
               "citadel"
             ],
-            "editorialNote": "Porta explica la isla histórica ya vista el primer día: profundización museística, no repetir la catedral. Después de comer, transporte a Ciudadela para recorrer parque y vestigios de la fortaleza. Malta sustituye Ciudadela si se prefiere lago en verano.",
+            "editorialNote": "Porta explica la isla histórica ya vista el primer día: profundización interpretativa, no repetir la catedral. Después de comer, transporte a Ciudadela para recorrer parque y vestigios de la fortaleza. Malta sustituye Ciudadela si se prefiere lago en verano. Porta cierra lunes; no contar con la exposición ese día.",
             "optionalStopIds": [
               "malta"
             ],
@@ -912,10 +1027,14 @@
                 "toId": "citadel",
                 "straightLineKm": 1.48,
                 "isWalkingRoute": false,
-                "transportSuggested": false
+                "transportSuggested": false,
+                "walkingRouteKm": 2.461,
+                "walkingMinutes": 35,
+                "routeCheckedAt": "2026-10-28",
+                "walkingCaution": "Ruta de referencia con escaleras; no verificada accesible."
               }
             ],
-            "pacing": "Unas 5–6 h con comida y traslado. Es un tercer día más pausado, no una lista de museos."
+            "pacing": "Unas 5–6 h con comida. Porta–Ciudadela: referencia Maps de 2,5 km / 35 min a pie, con escaleras; transporte alternativo sin verificar. Recorta parque con mal tiempo."
           }
         ]
       }
@@ -1006,7 +1125,7 @@
               "enigma",
               "castle"
             ],
-            "editorialNote": "Enigma como visita principal, comida y Castillo Imperial con una visita interior según acceso. Plac Wolności ya se vio el primer día.",
+            "editorialNote": "Enigma como visita principal, comida y Castillo Imperial con una visita interior según acceso. Plac Wolności queda como paseo breve opcional, no otra entrada. Enigma cierra lunes: cambia de jornada o conserva el paseo exterior, sin prometer la visita.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1066,7 +1185,7 @@
               "enigma",
               "castle"
             ],
-            "editorialNote": "Enigma como visita principal, comida y Castillo Imperial con una visita interior según acceso. Plac Wolności ya se vio el primer día.",
+            "editorialNote": "Enigma como visita principal, comida y Castillo Imperial con una visita interior según acceso. Plac Wolności queda como paseo breve opcional, no otra entrada. Enigma cierra lunes: cambia de jornada o conserva el paseo exterior, sin prometer la visita.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1086,7 +1205,7 @@
               "porta",
               "citadel"
             ],
-            "editorialNote": "Porta como interior principal para entender la isla ya vista. Tras comer, transporte a Ciudadela si queda luz y el tiempo permite caminar; si no, tarde libre. No repetir catedral y Śródka ni sumar Malta.",
+            "editorialNote": "Porta como interior principal para entender la isla ya vista. Tras comer, transporte a Ciudadela si queda luz y el tiempo permite caminar; si no, tarde libre. No repetir catedral y Śródka ni sumar Malta. Porta cierra lunes; no contar con la exposición ese día.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1094,10 +1213,14 @@
                 "toId": "citadel",
                 "straightLineKm": 1.48,
                 "isWalkingRoute": false,
-                "transportSuggested": false
+                "transportSuggested": false,
+                "walkingRouteKm": 2.461,
+                "walkingMinutes": 35,
+                "routeCheckedAt": "2026-10-28",
+                "walkingCaution": "Ruta de referencia con escaleras; no verificada accesible."
               }
             ],
-            "pacing": "Día flexible, unas 4–5 h con comida y traslado. El parque se quita con hielo o lluvia."
+            "pacing": "Unas 5–6 h con comida. Porta–Ciudadela: referencia Maps de 2,5 km / 35 min a pie, con escaleras; transporte alternativo sin verificar. Recorta parque con mal tiempo."
           }
         ]
       }
@@ -1188,7 +1311,7 @@
               "enigma",
               "castle"
             ],
-            "editorialNote": "Enigma como visita principal, comida y Castillo Imperial con una visita interior según acceso. Plac Wolności ya se vio el primer día.",
+            "editorialNote": "Enigma como visita principal, comida y Castillo Imperial con una visita interior según acceso. Plac Wolności queda como paseo breve opcional, no otra entrada. Enigma cierra lunes: cambia de jornada o conserva el paseo exterior, sin prometer la visita.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1248,7 +1371,7 @@
               "enigma",
               "castle"
             ],
-            "editorialNote": "Enigma como visita principal, comida y Castillo Imperial con una visita interior según acceso. Plac Wolności ya se vio el primer día.",
+            "editorialNote": "Enigma como visita principal, comida y Castillo Imperial con una visita interior según acceso. Plac Wolności queda como paseo breve opcional, no otra entrada. Enigma cierra lunes: cambia de jornada o conserva el paseo exterior, sin prometer la visita.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1268,7 +1391,7 @@
               "porta",
               "citadel"
             ],
-            "editorialNote": "Porta como interior principal para entender la isla ya vista. Tras comer, transporte a Ciudadela si queda luz y el tiempo permite caminar; si no, tarde libre. No repetir catedral y Śródka ni sumar Malta.",
+            "editorialNote": "Porta como interior principal para entender la isla ya vista. Tras comer, transporte a Ciudadela si queda luz y el tiempo permite caminar; si no, tarde libre. No repetir catedral y Śródka ni sumar Malta. Porta cierra lunes; no contar con la exposición ese día.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1276,10 +1399,14 @@
                 "toId": "citadel",
                 "straightLineKm": 1.48,
                 "isWalkingRoute": false,
-                "transportSuggested": false
+                "transportSuggested": false,
+                "walkingRouteKm": 2.461,
+                "walkingMinutes": 35,
+                "routeCheckedAt": "2026-10-28",
+                "walkingCaution": "Ruta de referencia con escaleras; no verificada accesible."
               }
             ],
-            "pacing": "Día flexible, unas 4–5 h con comida y traslado. El parque se quita con hielo o lluvia."
+            "pacing": "Unas 5–6 h con comida. Porta–Ciudadela: referencia Maps de 2,5 km / 35 min a pie, con escaleras; transporte alternativo sin verificar. Recorta parque con mal tiempo."
           }
         ]
       }
@@ -1371,7 +1498,7 @@
               "enigma",
               "castle"
             ],
-            "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo.",
+            "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo. Enigma cierra lunes: cambia de jornada o conserva el paseo exterior, sin prometer la visita.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1439,7 +1566,7 @@
               "enigma",
               "castle"
             ],
-            "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo.",
+            "editorialNote": "Plac Wolności y fachada Raczyński para situar el crecimiento del XIX; seguir hacia Enigma, la visita principal, y Castillo Imperial/entorno. Comida en la zona. No cruzar a Malta ni repetir el casco antiguo. Enigma cierra lunes: cambia de jornada o conserva el paseo exterior, sin prometer la visita.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1466,7 +1593,7 @@
               "porta",
               "citadel"
             ],
-            "editorialNote": "Porta explica la isla histórica ya vista el primer día: profundización museística, no repetir la catedral. Después de comer, transporte a Ciudadela para recorrer parque y vestigios de la fortaleza. Malta sustituye Ciudadela si se prefiere lago en verano.",
+            "editorialNote": "Porta explica la isla histórica ya vista el primer día: profundización interpretativa, no repetir la catedral. Después de comer, transporte a Ciudadela para recorrer parque y vestigios de la fortaleza. Malta sustituye Ciudadela si se prefiere lago en verano. Porta cierra lunes; no contar con la exposición ese día.",
             "optionalStopIds": [
               "malta"
             ],
@@ -1476,10 +1603,14 @@
                 "toId": "citadel",
                 "straightLineKm": 1.48,
                 "isWalkingRoute": false,
-                "transportSuggested": false
+                "transportSuggested": false,
+                "walkingRouteKm": 2.461,
+                "walkingMinutes": 35,
+                "routeCheckedAt": "2026-10-28",
+                "walkingCaution": "Ruta de referencia con escaleras; no verificada accesible."
               }
             ],
-            "pacing": "Unas 5–6 h con comida y traslado. Es un tercer día más pausado, no una lista de museos."
+            "pacing": "Unas 5–6 h con comida. Porta–Ciudadela: referencia Maps de 2,5 km / 35 min a pie, con escaleras; transporte alternativo sin verificar. Recorta parque con mal tiempo."
           }
         ]
       }
@@ -1492,18 +1623,78 @@
       "priority": "Alternativa regional al tercer día urbano",
       "reason": "Residencia de los Raczyński, arte y paisaje de robles fuera de Poznań. Selección de los alrededores respaldada por turismo regional.",
       "visit": "Elegir palacio y parque, sin prometer todas las salas y galería. El parque tiene horario y billete propios.",
-      "transport": "Salida fuera de Poznań. La conexión pública y su regreso no han quedado verificados con un horario actual; planificarlos antes de elegir esta jornada, o contar con transporte por carretera.",
+      "transport": "Existe enlace local Mosina–Rogalin/Muzeum en bus 699 según horario del operador vigente desde 30/08/2026, con pocos servicios en fin de semana. Falta verificar tren desde Poznań, conexión y regreso para tu fecha. No es una excursión de transporte ya resuelto.",
       "pacing": "Reservar una jornada de unas 6–8 h con ida y vuelta y comida: estimación editorial condicionada al transporte.",
-      "caution": "Museo cerrado los lunes y en varios festivos, incluidos 24–26/12 y 01/01. La web inglesa no completa todas las temporadas; confirmar apertura. No sumar Kórnik automáticamente. Transporte público pendiente de comprobar.",
+      "caution": "Museo cerrado lunes, 01/01, 01/11, 24–26/12, 31/12 y festivos de Pascua/Corpus. Cierre especial 17/11/2026. Plazas limitadas. Transporte público y regreso aún pendientes.",
       "url": "https://mnp.art.pl/en/the-palace-museum-in-rogalin",
-      "access": "https://mnp.art.pl/en/profile/visit-5",
+      "access": "https://mnp.art.pl/profile/wizyta-muzeum-palac-w-rogalinie",
       "closedMonthDays": [
+        "01-01",
+        "11-01",
         "12-24",
         "12-25",
         "12-26",
-        "01-01"
+        "12-31"
+      ],
+      "closedDates": [
+        "2026-09-08",
+        "2026-10-06",
+        "2026-11-17"
+      ],
+      "closedEasterOffsets": [
+        -2,
+        -1,
+        0,
+        1,
+        60
+      ],
+      "sourceIds": [
+        "rogalin-polish",
+        "rogalin-special",
+        "mosina-bus",
+        "bus699"
       ]
     }
   ],
-  "excursionDefault": "urban"
+  "excursionDefault": "urban",
+  "editorialAudit": {
+    "reviewedAt": "2026-10-28",
+    "status": "in-progress-with-recorded-findings",
+    "scope": "Identidad y acceso de visitas principales, dos locales, una experiencia, rutas principales y cierres de Rogalin. No garantiza fechas futuras ni constituye ciudad terminada.",
+    "openItems": [
+      "Más variedad gastronómica y de experiencias",
+      "Fotos específicas de comida/taller con licencia y autores pendientes en dos fotos antiguas",
+      "Última entrada de Brama contradictoria",
+      "Enlace ferroviario de Poznań a bus 699 en Mosina y regreso según fecha",
+      "Fechas navideñas 2026-27 no confirmadas"
+    ]
+  },
+  "editorialTradeoffs": "Decisión: casco antiguo e isla histórica definen1 día, sin museo del Ayuntamiento cerrado. En2 días Enigma añade una historia distinta al patrimonio religioso, con Castillo exterior o recorrido elegido. En3 días Porta profundiza en origen de Polonia y Ciudadela aporta verde; no añadir Malta también. Rogal y Termy son experiencias optativas, no visitas monumentales obligatorias. Rogalin solo sustituye jornada si interesa palacio/arte y se resuelve conexión, no se impone para llenar3 días.",
+  "catalogRevision": "2026-10-28-editorial-pass2",
+  "discoveryReview": {
+    "reviewedAt": "2026-10-28",
+    "method": "Búsqueda literal qué ver en la ciudad, lectura de secciones de visitas/itinerarios de varias guías, comparación con catálogo y juicio editorial; después contraste oficial de hechos operativos seleccionados.",
+    "guidesRead": [
+      "https://www.viajablog.com/que-ver-en-poznan/",
+      "https://saltaconmigo.com/blog/2022/01/que-ver-en-poznan-polonia/"
+    ],
+    "candidatesConsidered": [
+      {
+        "candidate": "Stary Browar",
+        "decision": "Buena alternativa de arquitectura, arte y resguardo, no parada imprescindible de compras. Considerada y verificada en operador; no desplaza Enigma ni Porta."
+      },
+      {
+        "candidate": "Castillo Real / Artes Aplicadas",
+        "decision": "Mirador y colección, no confundir con Castillo Imperial. Alternativa para interés en diseño; no añadir otro interior al día2."
+      },
+      {
+        "candidate": "Museo Nacional",
+        "decision": "Alternativa de pintura, fuera del corto plan base que prioriza dos relatos propios de Poznań: criptografía y origen de la ciudad."
+      },
+      {
+        "candidate": "Malta y Ciudadela",
+        "decision": "Elegir uno según tiempo/clima, no hacer ambos por cantidad. Rogal se mantiene como espectáculo, no clase individual completa."
+      }
+    ]
+  }
 }

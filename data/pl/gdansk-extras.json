@@ -1,0 +1,72 @@
+{
+  "food": [
+    {
+      "id": "mandu-centro",
+      "name": "Mandu · Śródmieście",
+      "address": "Elżbietańska 4/8 · centro",
+      "description": "Pierogi y rellenos variados en la sucursal del centro.",
+      "strength": "Una comida centrada en dumplings polacos.",
+      "caution": "Comprobar espera, carta e ingredientes. Esta ficha es la del centro, no la de Oliwa.",
+      "officialUrl": "https://pierogarnia-mandu.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/Pierogarnia+Mandu+Centrum+Gdansk/",
+      "editorialUrl": "https://www.guialowcost.es/donde-comer-gdansk-restaurantes/",
+      "statusCheckedAt": "2026-10-28",
+      "statusEvidence": "Maps: Open · Closes 10 PM",
+      "status": "operating-hours-listed",
+      "priceLabel": "Consultar carta actual",
+      "photo": {
+        "id": "pierogi-cooked",
+        "img": "assets/enrichment/pierogi-cooked.jpg",
+        "source": "https://www.pexels.com/photo/cooked-pierogi-on-ceramic-plate-8601675/",
+        "author": "Polina Tankilevitch",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa del plato · no del local"
+      }
+    },
+    {
+      "id": "pyra-gdansk",
+      "name": "Pyra Bar · Gdańsk",
+      "address": "Garbary 6/7 · centro",
+      "description": "Tortitas, gratinados y otras formas de comer patata.",
+      "strength": "Carta propia de Gdańsk, no Poznań: sopa del día10–19 zł y platos de patata. Ejemplo leído28/10/2026, no comida completa.",
+      "caution": "El operador publica Garbary 6 y Maps 6/7. Revisar carta de esta sucursal e ingredientes.",
+      "officialUrl": "https://pyrabar.pl/en/pyrabar-gdansk-en/",
+      "mapsUrl": "https://www.google.com/maps/search/Pyra+Bar+Garbary+6+Gdansk/",
+      "editorialUrl": "https://www.guialowcost.es/donde-comer-gdansk-restaurantes/",
+      "statusCheckedAt": "2026-10-28",
+      "statusEvidence": "Maps: Closes soon · 9 PM · Opens 11 AM Thu",
+      "status": "operating-hours-listed",
+      "priceLabel": "Consultar carta actual",
+      "photo": {
+        "id": "pyra-gdansk",
+        "img": "assets/enrichment/pyra-gdansk.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Pyra_Bar_Gdansk.JPG",
+        "author": "MOs810",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "Foto del local · archivo, no estado actual"
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "kayak",
+      "name": "Gdańsk en kayak",
+      "description": "Canales y astilleros desde el agua, con guía.",
+      "duration": "2,5 h · tour diurno del operador",
+      "caution": "Exige esfuerzo físico. Ruta según viento y agua; confirmar salida, edad y condiciones meteorológicas. Chaleco incluido por operador.",
+      "officialUrl": "https://aroundgdansk.pl/gdansk-by-kayak/",
+      "editorialUrl": "https://aroundgdansk.pl/",
+      "reviewedAt": "2026-10-28",
+      "priceLabel": "Actividad de pago · consultar tarifa",
+      "photo": null,
+      "alert": "Requiere esfuerzo; salida según viento y agua."
+    }
+  ],
+  "schemaVersion": 1,
+  "cityId": "gdansk",
+  "reviewedAt": "2026-10-28",
+  "scope": "Primera muestra editorial, no catálogo exhaustivo. Revisión puntual, no vigilancia en tiempo real.",
+  "catalogRevision": "2026-10-28-editorial-pass2"
+}

@@ -1,0 +1,70 @@
+{
+  "food": [
+    {
+      "id": "konspira",
+      "name": "Konspira",
+      "address": "Plac Solny 11 · centro",
+      "description": "Platos polacos contundentes junto a Plac Solny.",
+      "strength": "Una comida sentada de cocina casera, no solo el decorado.",
+      "caution": "El operador solo acepta reservas de lunes a jueves laborables con un día de antelación. Viernes, fines de semana y festivos: por llegada.",
+      "officialUrl": "https://restauracjakonspira.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/Konspira+Wroclaw+Plac+Solny/",
+      "editorialUrl": "https://www.nomadasocasionales.com/donde-comer-en-wroclaw-breslavia-para-comer-bien-y-barato/",
+      "statusCheckedAt": "2026-10-28",
+      "statusEvidence": "Maps: Open · Closes 11 PM",
+      "status": "operating-hours-listed",
+      "priceLabel": "Consultar carta actual",
+      "photo": {
+        "id": "konspira",
+        "img": "assets/enrichment/konspira.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Konspira_restaurant_2021.jpg",
+        "author": "Fallaner",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "Foto del local · archivo, no estado actual"
+      }
+    },
+    {
+      "id": "kurna-chata",
+      "name": "Kurna Chata",
+      "address": "Odrzańska 24/7 · centro",
+      "description": "Pierogi y cocina casera polaca, cerca del casco antiguo.",
+      "caution": "Carta e ingredientes por confirmar. Sin mesa reservada.",
+      "officialUrl": "https://kurnachata.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/Restauracja+Kurna+Chata+Odrzanska+24+Wroclaw/",
+      "editorialUrl": "https://www.nomadasocasionales.com/donde-comer-en-wroclaw-breslavia-para-comer-bien-y-barato/",
+      "statusCheckedAt": "2026-10-28",
+      "status": "operating-hours-listed",
+      "priceLabel": "Consultar carta",
+      "photo": {
+        "id": "pierogi-cooked",
+        "img": "assets/enrichment/pierogi-cooked.jpg",
+        "source": "https://www.pexels.com/photo/cooked-pierogi-on-ceramic-plate-8601675/",
+        "author": "Polina Tankilevitch",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa del plato · no del local"
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "oder-cruise",
+      "name": "Navegar por el Óder",
+      "description": "Puentes y orillas del Óder, sin seguir caminando.",
+      "duration": "25–60 min · referencia de turismo local",
+      "caution": "Oferta de varios operadores, no una salida concreta. Muelle, ruta, temporada, tiempo y accesibilidad por confirmar.",
+      "officialUrl": "https://visitwroclaw.eu/en/cruises-on-the-oder-river/",
+      "editorialUrl": "https://visitwroclaw.eu/en/place/oder-boat-rides",
+      "reviewedAt": "2026-10-28",
+      "priceLabel": "Actividad de pago · consultar tarifa",
+      "photo": null,
+      "alert": "Muelle, ruta y temporada por confirmar."
+    }
+  ],
+  "schemaVersion": 1,
+  "cityId": "wroclaw",
+  "reviewedAt": "2026-10-28",
+  "scope": "Primera muestra editorial, no catálogo exhaustivo. Revisión puntual, no vigilancia en tiempo real.",
+  "catalogRevision": "2026-10-28-editorial-pass2"
+}

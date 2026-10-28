@@ -1,0 +1,6 @@
+krakow:12 seasonal variants, ids valid, no duplicates or blocked stops
+gdansk:12 seasonal variants, ids valid, no duplicates or blocked stops
+warsaw:12 seasonal variants, ids valid, no duplicates or blocked stops
+wroclaw:12 seasonal variants, ids valid, no duplicates or blocked stops
+poznan:12 seasonal variants, ids valid, no duplicates or blocked stops
+Five city save/reload/share widths320/390/1280 pass. Multi-city persistence/share pass. Rogalin fixed/Easter closures pass. Filter layout test selector updated from single card to first card after second experience, then passes.

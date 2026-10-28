@@ -47,7 +47,8 @@
       "reason": "Arquitectura y transición hacia las islas en un recorrido compacto.",
       "sourceIds": [
         "official",
-        "one"
+        "one",
+        "uni-visit"
       ],
       "coordinates": {
         "lat": 51.11361111,
@@ -56,7 +57,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/University_of_Wroc%C5%82aw",
       "suggestedMinutes": 60,
       "durationType": "editorial-estimate",
-      "caution": "Aula Leopoldina u otros interiores sólo según apertura.",
+      "caution": "Museo cerrado miércoles y festivos; Aula/Oratorio pueden cerrar por actos académicos. Ascensor solo a nivel del Aula, no a todas las zonas. No prometer torre accesible.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null
@@ -70,7 +71,8 @@
       "sourceIds": [
         "official",
         "national",
-        "michelin"
+        "michelin",
+        "cathedral-visit"
       ],
       "coordinates": {
         "lat": 51.11416667,
@@ -79,7 +81,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Wroc%C5%82aw_Cathedral",
       "suggestedMinutes": 90,
       "durationType": "editorial-estimate",
-      "caution": "",
+      "caution": "Catedral sin turismo durante culto. Nave gratuita; capillas y torre de pago aparte. Domingo zonas de visita desde 14 h; torre sujeta a meteo, no incluida por defecto.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null
@@ -92,7 +94,8 @@
       "reason": "Obra singular que merece un turno, no visita fugaz.",
       "sourceIds": [
         "official",
-        "national"
+        "national",
+        "panorama-visit"
       ],
       "coordinates": {
         "lat": 51.11014,
@@ -101,7 +104,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Rac%C5%82awice_Panorama",
       "suggestedMinutes": 75,
       "durationType": "editorial-estimate",
-      "caution": "Comprobar sesión y disponibilidad antes de fijar el orden.",
+      "caution": "Sesión de 30 min, entrada ligada a turno. Noviembre–marzo cierra lunes; abril–octubre horario distinto. Ticket incluye permanentes de otros tres museos durante 3 meses: no comprar entradas duplicadas sin revisar. Cierres especiales publicados.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -121,7 +124,8 @@
       "reason": "Complemento artístico junto al Panorama, sin otro gran desplazamiento.",
       "sourceIds": [
         "official",
-        "national"
+        "national",
+        "museum-visit"
       ],
       "coordinates": {
         "lat": 51.11083333,
@@ -130,7 +134,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/National_Museum_in_Wroc%C5%82aw",
       "suggestedMinutes": 120,
       "durationType": "editorial-estimate",
-      "caution": "",
+      "caution": "Cierra lunes. Permanente incluida con ticket Panorama durante 3 meses; sábado permanente gratuito. Selección opcional, no recorrer todas salas.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null
@@ -144,7 +148,8 @@
       "sourceIds": [
         "official",
         "national",
-        "fountain"
+        "fountain",
+        "hall-visit"
       ],
       "coordinates": {
         "lat": 51.106944,
@@ -153,7 +158,7 @@
       "coordinateSource": "https://pl.wikipedia.org/wiki/Hala_Stulecia_we_Wroc%C5%82awiu",
       "suggestedMinutes": 75,
       "durationType": "editorial-estimate",
-      "caution": "Exterior e interior son distintos; la fuente no funciona todo el año.",
+      "caution": "Exterior conservado. Interior condicionado por eventos; Visitor Centre y vista de tribuna no equivalen a entrar bajo la cúpula. Calendario inglés muestra fechas/días de semana antiguos: confirmar por canal actual, no copiarlo.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -173,7 +178,8 @@
       "reason": "Complemento verde del conjunto, sólo cuando está abierto.",
       "sourceIds": [
         "official",
-        "national"
+        "national",
+        "garden-visit"
       ],
       "coordinates": {
         "lat": 51.110097,
@@ -182,7 +188,7 @@
       "coordinateSource": "https://pl.wikipedia.org/wiki/Ogr%C3%B3d_Japo%C5%84ski_we_Wroc%C5%82awiu",
       "suggestedMinutes": 60,
       "durationType": "editorial-estimate",
-      "caution": "Apertura estacional por verificar para la fecha de viaje. No prometer acceso en invierno.",
+      "caution": "Operador confirma temporada 1 abril–31 octubre; cerrado 1 noviembre–31 marzo. Alternativa al arte contemporáneo, no entrada extra obligatoria.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -225,7 +231,8 @@
       "zone": "Szczytniki",
       "reason": "Alternativa interior de arte contemporáneo junto a Hala Stulecia, sin regresar al centro.",
       "sourceIds": [
-        "official"
+        "official",
+        "museum-visit"
       ],
       "coordinates": {
         "lat": 51.10787879999999,
@@ -235,7 +242,7 @@
       "coordinateMethod": "Wystawowa 1, geocoded and manually reviewed",
       "suggestedMinutes": 120,
       "durationType": "editorial-estimate",
-      "caution": "Comprobar día de cierre y entradas; no hay acceso ni turno garantizado.",
+      "caution": "Cierra lunes. Permanente incluida con ticket Panorama durante 3 meses; temporales y condiciones aparte. Martes permanente gratuito, sin turno garantizado.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null
@@ -276,7 +283,8 @@
       "zone": "Szczytniki",
       "reason": "Paseo propio alrededor del conjunto modernista; no presupone espectáculo de la fuente.",
       "sourceIds": [
-        "official"
+        "official",
+        "fountain-operator"
       ],
       "coordinates": {
         "lat": 51.1094,
@@ -286,7 +294,7 @@
       "suggestedMinutes": 40,
       "durationType": "editorial-estimate",
       "visitMode": "Paseo / exterior",
-      "caution": "Comprobar acceso antes del viaje.",
+      "caution": "Paseo exterior distinto del espectáculo. Operador conserva aviso de avería por rayo 20/06/2026 y formato limitado: no prometer funcionamiento pleno ni temporada futura.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -307,7 +315,9 @@
       "sourceIds": [
         "ksiaz-operator",
         "ksiaz-access",
-        "1000"
+        "1000",
+        "ksiaz-polish",
+        "ksiaz-dated"
       ],
       "coordinates": {
         "lat": 50.8423154,
@@ -316,7 +326,7 @@
       "coordinateSource": "https://www.ksiaz.walbrzych.pl/data/dokumenty/without_car.pdf",
       "suggestedMinutes": 180,
       "durationType": "operator-reference-or-editorial-estimate",
-      "caution": "La página inglesa mezcla información antigua, incluidos horarios de 2022. No se reutilizan precios ni horas. Confirmar modalidad y fecha; no sumar Świdnica por defecto sin transporte planificado.",
+      "caution": "Elegir castillo con audioguía(~90min). Subterráneos son modalidad con turno y frío(~6°C), no incluidos automáticamente. Palmiarnia está2 km aparte. Web mezcla bloques antiguos: se verifica el aviso fechado y ticket concreto, no copiar todo cennik como vigente.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -341,7 +351,7 @@
             "markethall",
             "tumski"
           ],
-          "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+          "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
           "optionalStopIds": [],
           "geographyChecks": [
             {
@@ -381,7 +391,7 @@
             "markethall",
             "tumski"
           ],
-          "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+          "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
           "optionalStopIds": [],
           "geographyChecks": [
             {
@@ -409,34 +419,21 @@
           "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
         },
         {
-          "title": "Modernismo y arte en Szczytniki",
-          "zone": "Conjunto Hala Stulecia",
+          "title": "Panorama y modernismo",
+          "zone": "Panorama → Szczytniki",
           "stopIds": [
+            "panorama",
             "hall",
-            "pergola",
-            "pavilion"
+            "pergola"
           ],
           "optionalStopIds": [
+            "pavilion",
             "japan"
           ],
-          "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación.",
-          "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
-          "geographyChecks": [
-            {
-              "fromId": "hall",
-              "toId": "pergola",
-              "straightLineKm": 0.29,
-              "isWalkingRoute": false,
-              "transportSuggested": false
-            },
-            {
-              "fromId": "pergola",
-              "toId": "pavilion",
-              "straightLineKm": 0.25,
-              "isWalkingRoute": false,
-              "transportSuggested": false
-            }
-          ]
+          "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
+          "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
+          "geographyChecks": [],
+          "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
         }
       ]
     },
@@ -451,7 +448,7 @@
             "markethall",
             "tumski"
           ],
-          "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+          "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
           "optionalStopIds": [],
           "geographyChecks": [
             {
@@ -479,62 +476,37 @@
           "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
         },
         {
-          "title": "Modernismo y arte en Szczytniki",
-          "zone": "Conjunto Hala Stulecia",
-          "stopIds": [
-            "hall",
-            "pergola",
-            "pavilion"
-          ],
-          "optionalStopIds": [
-            "japan"
-          ],
-          "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación.",
-          "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
-          "geographyChecks": [
-            {
-              "fromId": "hall",
-              "toId": "pergola",
-              "straightLineKm": 0.29,
-              "isWalkingRoute": false,
-              "transportSuggested": false
-            },
-            {
-              "fromId": "pergola",
-              "toId": "pavilion",
-              "straightLineKm": 0.25,
-              "isWalkingRoute": false,
-              "transportSuggested": false
-            }
-          ]
-        },
-        {
-          "title": "Arte y pluralidad",
-          "zone": "Este del centro",
+          "title": "Panorama y modernismo",
+          "zone": "Panorama → Szczytniki",
           "stopIds": [
             "panorama",
-            "national",
+            "hall",
+            "pergola"
+          ],
+          "optionalStopIds": [
+            "pavilion",
+            "japan"
+          ],
+          "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
+          "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
+          "geographyChecks": [],
+          "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
+        },
+        {
+          "title": "Arte elegido y Cuatro Confesiones",
+          "zone": "Szczytniki o Museo Nacional → centro",
+          "stopIds": [
+            "pavilion",
             "four"
           ],
-          "editorialNote": "Panorama con turno confirmado primero, después una selección del Museo Nacional, no todas sus salas. Tras comer, paseo hacia el Barrio de las Cuatro Confesiones para cerrar con ciudad viva en vez de otro museo. Si hay saturación de arte, quitar Museo Nacional.",
-          "optionalStopIds": [],
-          "geographyChecks": [
-            {
-              "fromId": "panorama",
-              "toId": "national",
-              "straightLineKm": 0.23,
-              "isWalkingRoute": false,
-              "transportSuggested": false
-            },
-            {
-              "fromId": "national",
-              "toId": "four",
-              "straightLineKm": 1.47,
-              "isWalkingRoute": false,
-              "transportSuggested": false
-            }
+          "editorialNote": "Una colección principal: Pabellón de las Cuatro Cúpulas para arte contemporáneo, o sustituirlo por Museo Nacional si interesa arte histórico. Comida y regreso al Barrio de las Cuatro Confesiones. Jardín Japonés sustituye la colección cuando abre. No visitar por obligación todos los museos incluidos con Panorama. Lunes ambos museos cerrados: intercambiar día urbano o paseo.",
+          "optionalStopIds": [
+            "national",
+            "japan"
           ],
-          "pacing": "Unas 6–7 h con comida y traslado al barrio; Museo Nacional es prescindible si se prefiere menos arte."
+          "geographyChecks": [],
+          "pacing": "Unas 5–6 h con una colección, comida, traslado y paseo; tiempo libre deliberado. Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria.",
+          "transferNote": "Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria."
         }
       ]
     }
@@ -612,7 +584,11 @@
     "Las excursiones sustituyen una jornada urbana, no se añaden a su carga. No hay entradas ni transporte reservados."
   ],
   "excludedOrOptional": [
-    "Zoo/Afrykarium: alternativa familiar de medio día, no obligación añadida a dos museos."
+    "No sumar Museo Nacional y Pabellón por ser gratuitos con Panorama: elegir colección.",
+    "No comprar ticket Pabellón antes de revisar inclusión de Panorama.",
+    "Zoo/Afrykarium no incluidos por defecto: consumen buena parte de jornada y cambian foco cultural.",
+    "Książ es alternativa de jornada, no apéndice de un día urbano.",
+    "Fuente no se vende como espectáculo plenamente operativo."
   ],
   "sources": [
     {
@@ -691,6 +667,69 @@
       "url": "https://www.ksiaz.walbrzych.pl/data/dokumenty/without_car.pdf",
       "type": "operator",
       "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "panorama-visit",
+      "title": "Panorama: temporada y entrada",
+      "url": "https://mnwr.pl/en/branches/panorama-of-the-battle-of-raclawice/information/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "museum-visit",
+      "title": "Museos nacionales: cierres",
+      "url": "https://mnwr.pl/en/visit/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "uni-visit",
+      "title": "Universidad: apertura",
+      "url": "https://muzeum.uni.wroc.pl/godziny-otwarcia/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "hall-visit",
+      "title": "Hala: acceso a la sala",
+      "url": "https://halastulecia.pl/en/sightseeing/practical-information/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "garden-visit",
+      "title": "Jardín Japonés: operador ZZM",
+      "url": "https://zzm.wroc.pl/obiektyzzmcp/ogrod-japonski-we-wroclawiu/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "cathedral-visit",
+      "title": "Catedral: culto y zonas",
+      "url": "https://katedra.wroclaw.pl/zwiedzanie/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "fountain-operator",
+      "title": "Fuente: avería y formato limitado",
+      "url": "https://halastulecia.pl/en/sightseeing/multimedia-fountain/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "ksiaz-polish",
+      "title": "Książ: modalidades propias en polaco",
+      "url": "https://www.ksiaz.walbrzych.pl/turystyka/zwiedzanie/dzienne",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "ksiaz-dated",
+      "title": "Książ: horario fechado octubre2026",
+      "url": "https://www.ksiaz.walbrzych.pl/turystyka/aktualnosci/godziny-otwarcia-pazdziernik-2026",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -727,7 +766,7 @@
               "markethall",
               "tumski"
             ],
-            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -767,7 +806,7 @@
               "markethall",
               "tumski"
             ],
-            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -795,34 +834,21 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Modernismo y arte en Szczytniki",
-            "zone": "Conjunto Hala Stulecia",
+            "title": "Panorama y modernismo",
+            "zone": "Panorama → Szczytniki",
             "stopIds": [
+              "panorama",
               "hall",
-              "pergola",
-              "pavilion"
+              "pergola"
             ],
             "optionalStopIds": [
+              "pavilion",
               "japan"
             ],
-            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación.",
-            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
-            "geographyChecks": [
-              {
-                "fromId": "hall",
-                "toId": "pergola",
-                "straightLineKm": 0.29,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "pergola",
-                "toId": "pavilion",
-                "straightLineKm": 0.25,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
-            ]
+            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
+            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
+            "geographyChecks": [],
+            "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
           }
         ]
       },
@@ -837,7 +863,7 @@
               "markethall",
               "tumski"
             ],
-            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -865,62 +891,37 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Modernismo y arte en Szczytniki",
-            "zone": "Conjunto Hala Stulecia",
-            "stopIds": [
-              "hall",
-              "pergola",
-              "pavilion"
-            ],
-            "optionalStopIds": [
-              "japan"
-            ],
-            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación.",
-            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
-            "geographyChecks": [
-              {
-                "fromId": "hall",
-                "toId": "pergola",
-                "straightLineKm": 0.29,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "pergola",
-                "toId": "pavilion",
-                "straightLineKm": 0.25,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
-            ]
-          },
-          {
-            "title": "Arte y pluralidad",
-            "zone": "Este del centro",
+            "title": "Panorama y modernismo",
+            "zone": "Panorama → Szczytniki",
             "stopIds": [
               "panorama",
-              "national",
+              "hall",
+              "pergola"
+            ],
+            "optionalStopIds": [
+              "pavilion",
+              "japan"
+            ],
+            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
+            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
+            "geographyChecks": [],
+            "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
+          },
+          {
+            "title": "Arte elegido y Cuatro Confesiones",
+            "zone": "Szczytniki o Museo Nacional → centro",
+            "stopIds": [
+              "pavilion",
               "four"
             ],
-            "editorialNote": "Panorama con turno confirmado primero, después una selección del Museo Nacional, no todas sus salas. Tras comer, paseo hacia el Barrio de las Cuatro Confesiones para cerrar con ciudad viva en vez de otro museo. Si hay saturación de arte, quitar Museo Nacional.",
-            "optionalStopIds": [],
-            "geographyChecks": [
-              {
-                "fromId": "panorama",
-                "toId": "national",
-                "straightLineKm": 0.23,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "national",
-                "toId": "four",
-                "straightLineKm": 1.47,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
+            "editorialNote": "Una colección principal: Pabellón de las Cuatro Cúpulas para arte contemporáneo, o sustituirlo por Museo Nacional si interesa arte histórico. Comida y regreso al Barrio de las Cuatro Confesiones. Jardín Japonés sustituye la colección cuando abre. No visitar por obligación todos los museos incluidos con Panorama. Lunes ambos museos cerrados: intercambiar día urbano o paseo.",
+            "optionalStopIds": [
+              "national",
+              "japan"
             ],
-            "pacing": "Unas 6–7 h con comida y traslado al barrio; Museo Nacional es prescindible si se prefiere menos arte."
+            "geographyChecks": [],
+            "pacing": "Unas 5–6 h con una colección, comida, traslado y paseo; tiempo libre deliberado. Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria.",
+            "transferNote": "Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria."
           }
         ]
       }
@@ -937,7 +938,7 @@
               "markethall",
               "tumski"
             ],
-            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -977,7 +978,7 @@
               "markethall",
               "tumski"
             ],
-            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1005,32 +1006,20 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Modernismo y arte en Szczytniki",
-            "zone": "Conjunto Hala Stulecia",
+            "title": "Panorama y modernismo",
+            "zone": "Panorama → Szczytniki",
             "stopIds": [
+              "panorama",
               "hall",
-              "pergola",
+              "pergola"
+            ],
+            "optionalStopIds": [
               "pavilion"
             ],
-            "optionalStopIds": [],
-            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación. En invierno acortar Pérgola y concentrar tiempo en el pabellón; Jardín Japonés retirado.",
-            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
-            "geographyChecks": [
-              {
-                "fromId": "hall",
-                "toId": "pergola",
-                "straightLineKm": 0.29,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "pergola",
-                "toId": "pavilion",
-                "straightLineKm": 0.25,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
-            ]
+            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
+            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
+            "geographyChecks": [],
+            "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
           }
         ]
       },
@@ -1045,7 +1034,7 @@
               "markethall",
               "tumski"
             ],
-            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1073,60 +1062,35 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Modernismo y arte en Szczytniki",
-            "zone": "Conjunto Hala Stulecia",
-            "stopIds": [
-              "hall",
-              "pergola",
-              "pavilion"
-            ],
-            "optionalStopIds": [],
-            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación. En invierno acortar Pérgola y concentrar tiempo en el pabellón; Jardín Japonés retirado.",
-            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
-            "geographyChecks": [
-              {
-                "fromId": "hall",
-                "toId": "pergola",
-                "straightLineKm": 0.29,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "pergola",
-                "toId": "pavilion",
-                "straightLineKm": 0.25,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
-            ]
-          },
-          {
-            "title": "Arte y pluralidad",
-            "zone": "Este del centro",
+            "title": "Panorama y modernismo",
+            "zone": "Panorama → Szczytniki",
             "stopIds": [
               "panorama",
-              "national",
+              "hall",
+              "pergola"
+            ],
+            "optionalStopIds": [
+              "pavilion"
+            ],
+            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
+            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
+            "geographyChecks": [],
+            "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
+          },
+          {
+            "title": "Arte elegido y Cuatro Confesiones",
+            "zone": "Szczytniki o Museo Nacional → centro",
+            "stopIds": [
+              "pavilion",
               "four"
             ],
-            "editorialNote": "Panorama con turno confirmado primero, después una selección del Museo Nacional, no todas sus salas. Tras comer, paseo hacia el Barrio de las Cuatro Confesiones para cerrar con ciudad viva en vez de otro museo. Si hay saturación de arte, quitar Museo Nacional.",
-            "optionalStopIds": [],
-            "geographyChecks": [
-              {
-                "fromId": "panorama",
-                "toId": "national",
-                "straightLineKm": 0.23,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "national",
-                "toId": "four",
-                "straightLineKm": 1.47,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
+            "editorialNote": "Una colección principal: Pabellón de las Cuatro Cúpulas para arte contemporáneo, o sustituirlo por Museo Nacional si interesa arte histórico. Comida y regreso al Barrio de las Cuatro Confesiones. Jardín Japonés sustituye la colección cuando abre. No visitar por obligación todos los museos incluidos con Panorama. Lunes ambos museos cerrados: intercambiar día urbano o paseo.",
+            "optionalStopIds": [
+              "national"
             ],
-            "pacing": "Unas 6–7 h con comida y traslado al barrio; Museo Nacional es prescindible si se prefiere menos arte."
+            "geographyChecks": [],
+            "pacing": "Unas 5–6 h con una colección, comida, traslado y paseo; tiempo libre deliberado. Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria.",
+            "transferNote": "Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria."
           }
         ]
       }
@@ -1143,7 +1107,7 @@
               "markethall",
               "tumski"
             ],
-            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1183,7 +1147,7 @@
               "markethall",
               "tumski"
             ],
-            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1211,32 +1175,20 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Modernismo y arte en Szczytniki",
-            "zone": "Conjunto Hala Stulecia",
+            "title": "Panorama y modernismo",
+            "zone": "Panorama → Szczytniki",
             "stopIds": [
+              "panorama",
               "hall",
-              "pergola",
+              "pergola"
+            ],
+            "optionalStopIds": [
               "pavilion"
             ],
-            "optionalStopIds": [],
-            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación. En invierno acortar Pérgola y concentrar tiempo en el pabellón; Jardín Japonés retirado.",
-            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
-            "geographyChecks": [
-              {
-                "fromId": "hall",
-                "toId": "pergola",
-                "straightLineKm": 0.29,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "pergola",
-                "toId": "pavilion",
-                "straightLineKm": 0.25,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
-            ]
+            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
+            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
+            "geographyChecks": [],
+            "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
           }
         ]
       },
@@ -1251,7 +1203,7 @@
               "markethall",
               "tumski"
             ],
-            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1279,60 +1231,35 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Modernismo y arte en Szczytniki",
-            "zone": "Conjunto Hala Stulecia",
-            "stopIds": [
-              "hall",
-              "pergola",
-              "pavilion"
-            ],
-            "optionalStopIds": [],
-            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación. En invierno acortar Pérgola y concentrar tiempo en el pabellón; Jardín Japonés retirado.",
-            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
-            "geographyChecks": [
-              {
-                "fromId": "hall",
-                "toId": "pergola",
-                "straightLineKm": 0.29,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "pergola",
-                "toId": "pavilion",
-                "straightLineKm": 0.25,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
-            ]
-          },
-          {
-            "title": "Arte y pluralidad",
-            "zone": "Este del centro",
+            "title": "Panorama y modernismo",
+            "zone": "Panorama → Szczytniki",
             "stopIds": [
               "panorama",
-              "national",
+              "hall",
+              "pergola"
+            ],
+            "optionalStopIds": [
+              "pavilion"
+            ],
+            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
+            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
+            "geographyChecks": [],
+            "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
+          },
+          {
+            "title": "Arte elegido y Cuatro Confesiones",
+            "zone": "Szczytniki o Museo Nacional → centro",
+            "stopIds": [
+              "pavilion",
               "four"
             ],
-            "editorialNote": "Panorama con turno confirmado primero, después una selección del Museo Nacional, no todas sus salas. Tras comer, paseo hacia el Barrio de las Cuatro Confesiones para cerrar con ciudad viva en vez de otro museo. Si hay saturación de arte, quitar Museo Nacional.",
-            "optionalStopIds": [],
-            "geographyChecks": [
-              {
-                "fromId": "panorama",
-                "toId": "national",
-                "straightLineKm": 0.23,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "national",
-                "toId": "four",
-                "straightLineKm": 1.47,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
+            "editorialNote": "Una colección principal: Pabellón de las Cuatro Cúpulas para arte contemporáneo, o sustituirlo por Museo Nacional si interesa arte histórico. Comida y regreso al Barrio de las Cuatro Confesiones. Jardín Japonés sustituye la colección cuando abre. No visitar por obligación todos los museos incluidos con Panorama. Lunes ambos museos cerrados: intercambiar día urbano o paseo.",
+            "optionalStopIds": [
+              "national"
             ],
-            "pacing": "Unas 6–7 h con comida y traslado al barrio; Museo Nacional es prescindible si se prefiere menos arte."
+            "geographyChecks": [],
+            "pacing": "Unas 5–6 h con una colección, comida, traslado y paseo; tiempo libre deliberado. Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria.",
+            "transferNote": "Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria."
           }
         ]
       }
@@ -1349,7 +1276,7 @@
               "markethall",
               "tumski"
             ],
-            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1389,7 +1316,7 @@
               "markethall",
               "tumski"
             ],
-            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1417,34 +1344,21 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Modernismo y arte en Szczytniki",
-            "zone": "Conjunto Hala Stulecia",
+            "title": "Panorama y modernismo",
+            "zone": "Panorama → Szczytniki",
             "stopIds": [
+              "panorama",
               "hall",
-              "pergola",
-              "pavilion"
+              "pergola"
             ],
             "optionalStopIds": [
+              "pavilion",
               "japan"
             ],
-            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación.",
-            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
-            "geographyChecks": [
-              {
-                "fromId": "hall",
-                "toId": "pergola",
-                "straightLineKm": 0.29,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "pergola",
-                "toId": "pavilion",
-                "straightLineKm": 0.25,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
-            ]
+            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
+            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
+            "geographyChecks": [],
+            "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
           }
         ]
       },
@@ -1459,7 +1373,7 @@
               "markethall",
               "tumski"
             ],
-            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar.",
+            "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1487,62 +1401,37 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Modernismo y arte en Szczytniki",
-            "zone": "Conjunto Hala Stulecia",
-            "stopIds": [
-              "hall",
-              "pergola",
-              "pavilion"
-            ],
-            "optionalStopIds": [
-              "japan"
-            ],
-            "editorialNote": "Transporte al este, visita del conjunto Hala Stulecia, paseo por la Pérgola y arte en el Pabellón de las Cuatro Cúpulas como interior principal. Jardín Japonés puede sustituir el pabellón en temporada si se prefiere aire libre; no se suman por obligación.",
-            "pacing": "Unas 5–6 h con traslado, comida y pausas. Fuente sin espectáculo garantizado.",
-            "geographyChecks": [
-              {
-                "fromId": "hall",
-                "toId": "pergola",
-                "straightLineKm": 0.29,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "pergola",
-                "toId": "pavilion",
-                "straightLineKm": 0.25,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
-            ]
-          },
-          {
-            "title": "Arte y pluralidad",
-            "zone": "Este del centro",
+            "title": "Panorama y modernismo",
+            "zone": "Panorama → Szczytniki",
             "stopIds": [
               "panorama",
-              "national",
+              "hall",
+              "pergola"
+            ],
+            "optionalStopIds": [
+              "pavilion",
+              "japan"
+            ],
+            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
+            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
+            "geographyChecks": [],
+            "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
+          },
+          {
+            "title": "Arte elegido y Cuatro Confesiones",
+            "zone": "Szczytniki o Museo Nacional → centro",
+            "stopIds": [
+              "pavilion",
               "four"
             ],
-            "editorialNote": "Panorama con turno confirmado primero, después una selección del Museo Nacional, no todas sus salas. Tras comer, paseo hacia el Barrio de las Cuatro Confesiones para cerrar con ciudad viva en vez de otro museo. Si hay saturación de arte, quitar Museo Nacional.",
-            "optionalStopIds": [],
-            "geographyChecks": [
-              {
-                "fromId": "panorama",
-                "toId": "national",
-                "straightLineKm": 0.23,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              },
-              {
-                "fromId": "national",
-                "toId": "four",
-                "straightLineKm": 1.47,
-                "isWalkingRoute": false,
-                "transportSuggested": false
-              }
+            "editorialNote": "Una colección principal: Pabellón de las Cuatro Cúpulas para arte contemporáneo, o sustituirlo por Museo Nacional si interesa arte histórico. Comida y regreso al Barrio de las Cuatro Confesiones. Jardín Japonés sustituye la colección cuando abre. No visitar por obligación todos los museos incluidos con Panorama. Lunes ambos museos cerrados: intercambiar día urbano o paseo.",
+            "optionalStopIds": [
+              "national",
+              "japan"
             ],
-            "pacing": "Unas 6–7 h con comida y traslado al barrio; Museo Nacional es prescindible si se prefiere menos arte."
+            "geographyChecks": [],
+            "pacing": "Unas 5–6 h con una colección, comida, traslado y paseo; tiempo libre deliberado. Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria.",
+            "transferNote": "Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria."
           }
         ]
       }
@@ -1554,13 +1443,63 @@
       "name": "Castillo de Książ, en Wałbrzych",
       "priority": "Alternativa regional al tercer día de arte",
       "reason": "Historia de Baja Silesia y residencia de los Hochberg fuera de Wrocław. Una alternativa con identidad propia a añadir otro museo urbano.",
-      "visit": "Castillo como visita principal; subterráneos y palmeral son opciones con accesos distintos, no extras automáticos. No prometer terrazas en invierno.",
+      "visit": "Castillo con audioguía como visita elegida (~90 min), pausa y entorno. Subterráneos solo si se elige ticket/turno específico; frío y condiciones propias. No intentar todo el complejo por comprar All Day.",
       "transport": "Tren a Wałbrzych y enlace local. El PDF del castillo indica que solo ciertos autobuses 8 llegan cerca del castillo; comprobar destino, enlace y vuelta actuales.",
       "pacing": "Reservar una jornada de unas 8–10 h con traslados y comida: estimación editorial, no tiempo medido ni horario confirmado.",
-      "caution": "La página inglesa mezcla información antigua, incluidos horarios de 2022. No se reutilizan precios ni horas. Confirmar modalidad y fecha; no sumar Świdnica por defecto sin transporte planificado.",
-      "url": "https://www.ksiaz.walbrzych.pl/en/turystyka/zwiedzanie/dzienne",
+      "caution": "Elegir castillo con audioguía(~90min). Subterráneos son modalidad con turno y frío(~6°C), no incluidos automáticamente. Palmiarnia está2 km aparte. Web mezcla bloques antiguos: se verifica el aviso fechado y ticket concreto, no copiar todo cennik como vigente.",
+      "url": "https://www.ksiaz.walbrzych.pl/turystyka/zwiedzanie/dzienne",
       "access": "https://www.ksiaz.walbrzych.pl/data/dokumenty/without_car.pdf"
     }
   ],
-  "excursionDefault": "urban"
+  "excursionDefault": "urban",
+  "editorialTradeoffs": "Decisión: Panorama entra ya en dos días por singularidad y sesión corta, en vez de posponerlo tras un museo de arte genérico. En tres días una sola colección elegida y barrio vivo, no dos museos de arte seguidos. Hala exterior por defecto, porque eventos condicionan interior. Enanitos al paso, no búsqueda que consuma toda visita. Książ fuera del principal por coste de jornada y traslado; jardín japonés sustituye colección en temporada.",
+  "editorialAudit": {
+    "reviewedAt": "2026-10-28",
+    "scope": "Selección editorial 1/2/3 días, cierres de interiores principales, jardín/catedral/fuente, dos restaurantes; no auditoría completa.",
+    "openItems": [
+      "Calendario Hala en inglés muestra 28/10 viernes y 5/11 sábado, corresponden a2022, no2026: no usar para disponibilidad.",
+      "Książ modalidad elegida y acceso general aclarados; conexiones/entrada final dependen de fecha. Más variedad solo si aporta algo distinto.",
+      "Trayectos peatonales reales y conexión por fecha no verificados."
+    ]
+  },
+  "routeEvidence": [
+    {
+      "fromId": "panorama",
+      "toId": "hall",
+      "walkingRouteKm": 2.525,
+      "walkingMinutes": 35,
+      "routeCheckedAt": "2026-10-28",
+      "isWalkingRoute": true,
+      "referenceOnly": true,
+      "sourceUrl": "https://www.google.com/maps/dir/?api=1&destination=Wystawowa+1%2C+51-618+Wroc%C5%82aw%2C+Poland&destination_place_id=ChIJaT7HDCfoD0cRlyH-4MIQYJU&origin=Jana+Ewangelisty+Purkyniego+11%2C+50-155+Wroc%C5%82aw%2C+Poland&origin_place_id=ChIJt3QO4tfpD0cRGn3pBQc7SDc&travelmode=walking",
+      "accessibility": "No verificada; ruta puede contener escaleras."
+    }
+  ],
+  "catalogRevision": "2026-10-28-editorial-pass2",
+  "discoveryReview": {
+    "reviewedAt": "2026-10-28",
+    "method": "Búsqueda literal qué ver en la ciudad, lectura de secciones de visitas/itinerarios de varias guías, comparación con catálogo y juicio editorial; después contraste oficial de hechos operativos seleccionados.",
+    "guidesRead": [
+      "https://2mundosencontrados.com/que-ver-y-hacer-en-breslavia-wroclaw/",
+      "https://www.recalculandoviajes.com/que-ver-en-breslavia/"
+    ],
+    "candidatesConsidered": [
+      {
+        "candidate": "Puente de las Penitentes / torre de Santa Isabel",
+        "decision": "Miradores atractivos, no ambos obligatorios; escalones y condiciones de apertura impiden tratarlos como paseo accesible universal. El centro no necesita dos ascensos para quedar completo."
+      },
+      {
+        "candidate": "Świdnica",
+        "decision": "Escapada con identidad propia, considerada y fuera de la primera selección de excursiones: se prioriza Książ y no se vende una combinación sin verificar enlaces."
+      },
+      {
+        "candidate": "Panorama de Racławice",
+        "decision": "Se mantiene incorporado desde2días tras comparación. No dejarlo relegado mientras se apilan museos menores."
+      },
+      {
+        "candidate": "Pabellón / Museo Nacional",
+        "decision": "Elegir una colección, no consumir las tres por estar incluidas en el ticket de Panorama."
+      }
+    ]
+  }
 }

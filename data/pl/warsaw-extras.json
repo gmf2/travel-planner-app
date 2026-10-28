@@ -1,0 +1,73 @@
+{
+  "food": [
+    {
+      "id": "bambino",
+      "name": "Bar Bambino",
+      "address": "Hoża 19 · Śródmieście",
+      "description": "Sopas, pierogi y platos polacos de temporada.",
+      "strength": "Bar mleczny de Hoża 19: pierogi, sopas y platos caseros; web propia confirma especialidades estacionales y carta polaca.",
+      "caution": "Carta del día e ingredientes por comprobar. Publica excepción 1/11/2026 de 9–17 h: no aplicar el horario normal a todos los festivos.",
+      "officialUrl": "https://www.barbambino.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/Bar+Bambino+Hoza+19+Warszawa/",
+      "editorialUrl": "https://www.mochileandoporelmundo.com/9-restaurantes-donde-comer-en-varsovia-barato/",
+      "statusCheckedAt": "2026-10-28",
+      "statusEvidence": "Maps: Closed · Opens 8 AM Thu",
+      "status": "operating-hours-listed",
+      "priceLabel": "Consultar carta actual",
+      "photo": {
+        "id": "pierogi-cooked",
+        "img": "assets/enrichment/pierogi-cooked.jpg",
+        "source": "https://www.pexels.com/photo/cooked-pierogi-on-ceramic-plate-8601675/",
+        "author": "Polina Tankilevitch",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa del plato · no del local"
+      }
+    },
+    {
+      "id": "vege-miasto",
+      "name": "Vege Miasto",
+      "address": "Al. Solidarności 60A",
+      "description": "Cocina vegana con pierogi, patatas rellenas y tartas propias.",
+      "caution": "Vegano no significa sin alérgenos: usa frutos secos, soja y trigo; avisa posibles trazas de gluten en postres. Precios y disponibilidad por reconfirmar.",
+      "officialUrl": "https://vegemiasto.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/Vege+Miasto+Solidarnosci+60+Warszawa/",
+      "editorialUrl": "https://www.mochileandoporelmundo.com/9-restaurantes-donde-comer-en-varsovia-barato/",
+      "statusCheckedAt": "2026-10-28",
+      "status": "operating-hours-listed",
+      "priceLabel": "Consultar carta",
+      "photo": null,
+      "strength": "Carta propia: pierogi con tofu o lentejas (35 zł), patatas rellenas Cudaki (39 zł). Ejemplos leídos 28/10/2026, no comida completa.",
+      "sourceUrls": [
+        "https://vegemiasto.pl/menu/"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "chopin-recital",
+      "name": "Recital de Chopin en la sala Fryderyk",
+      "description": "Piano en dos partes en Podwale 13/15; ambiente de salón, distinto del concierto estacional del parque.",
+      "duration": "Duración y sesión por confirmar",
+      "caution": "Entrada de pago. Confirmar sesión y duración elegidas; no usar el programa de Dziekania 1, que corresponde a otro organizador. Sin asiento reservado.",
+      "officialUrl": "https://fryderyk.events/",
+      "reviewedAt": "2026-10-28",
+      "priceLabel": "Actividad de pago · consultar tarifa",
+      "photo": {
+        "id": "piano",
+        "img": "assets/enrichment/piano.jpg",
+        "source": "https://www.pexels.com/photo/piano-on-stage-14719432/",
+        "author": "Matteo Basile",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa · no del lugar ni de la sesión"
+      },
+      "alert": "Entrada de pago · sesión y duración por confirmar."
+    }
+  ],
+  "schemaVersion": 1,
+  "cityId": "warsaw",
+  "reviewedAt": "2026-10-28",
+  "scope": "Primera muestra editorial, no catálogo exhaustivo. Revisión puntual, no vigilancia en tiempo real.",
+  "catalogRevision": "2026-10-28-editorial-pass2"
+}

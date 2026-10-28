@@ -1,0 +1,65 @@
+{
+  "pierogi": {
+    "id": "pierogi",
+    "img": "assets/enrichment/pierogi.jpg",
+    "source": "https://www.pexels.com/photo/freshly-made-pierogi-4084932/",
+    "author": "Karolina Grabowska / Kaboompics",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Foto ilustrativa del plato · no del local"
+  },
+  "potatoes": {
+    "id": "potatoes",
+    "img": "assets/enrichment/potatoes.jpg",
+    "source": "https://www.pexels.com/photo/potato-pancakes-served-on-plate-24870672/",
+    "author": "Kadir Avşar",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Foto ilustrativa · no del local ni de su carta"
+  },
+  "pierogi-cooked": {
+    "id": "pierogi-cooked",
+    "img": "assets/enrichment/pierogi-cooked.jpg",
+    "source": "https://www.pexels.com/photo/cooked-pierogi-on-ceramic-plate-8601675/",
+    "author": "Polina Tankilevitch",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Foto ilustrativa del plato · no del local"
+  },
+  "pyra-gdansk": {
+    "id": "pyra-gdansk",
+    "img": "assets/enrichment/pyra-gdansk.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pyra_Bar_Gdansk.JPG",
+    "author": "MOs810",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto del local · archivo, no estado actual"
+  },
+  "konspira": {
+    "id": "konspira",
+    "img": "assets/enrichment/konspira.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Konspira_restaurant_2021.jpg",
+    "author": "Fallaner",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto del local · archivo, no estado actual"
+  },
+  "piano": {
+    "id": "piano",
+    "img": "assets/enrichment/piano.jpg",
+    "source": "https://www.pexels.com/photo/piano-on-stage-14719432/",
+    "author": "Matteo Basile",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Foto ilustrativa · no del lugar ni de la sesión"
+  },
+  "dough": {
+    "id": "dough",
+    "img": "assets/enrichment/dough.jpg",
+    "source": "https://www.pexels.com/photo/hands-preparing-dough-with-flour-for-baking-28907088/",
+    "author": "Olga Volkovitskaia",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Foto ilustrativa · no del lugar ni de la sesión"
+  }
+}

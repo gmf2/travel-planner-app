@@ -1,0 +1,83 @@
+{
+  "food": [
+    {
+      "id": "starka",
+      "name": "Starka",
+      "address": "Józefa 14 · Kazimierz",
+      "description": "Cocina polaca en Kazimierz; para comer con calma.",
+      "strength": "El operador destaca pierogi caseros, codillo, carrilleras de ternera y barszcz; también opciones vegetarianas, sin asumir idoneidad para alergias.",
+      "caution": "Consultar mesa y carta. No se ha reservado ni verificado un menú para alergias.",
+      "officialUrl": "https://starka-restauracja.pl/",
+      "mapsUrl": "https://www.google.com/maps/place/Starka+%7C+Restaurant+%26+Vodkas/@50.0506783,19.9443417,17z/data=!3m1!4b1!4m6!3m5!1s0x47165b6a3da0a2b9:0x56d7c5f16a0c11d4!8m2!3d50.0506783!4d19.9443417!16s%2Fg%2F1tfmm3js?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+      "editorialUrl": "https://www.viajeroscallejeros.com/restaurantes-donde-comer-en-cracovia/",
+      "statusCheckedAt": "2026-10-28",
+      "statusEvidence": "Maps: Open · Closes 10 PM",
+      "status": "operating-hours-listed",
+      "priceLabel": "Consultar carta actual",
+      "photo": {
+        "id": "pierogi-cooked",
+        "img": "assets/enrichment/pierogi-cooked.jpg",
+        "source": "https://www.pexels.com/photo/cooked-pierogi-on-ceramic-plate-8601675/",
+        "author": "Polina Tankilevitch",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa del plato · no del local"
+      }
+    },
+    {
+      "id": "pod-temida",
+      "name": "Pod Temidą",
+      "address": "Grodzka 43 · centro",
+      "description": "Bar mleczny de comida casera y servicio de mostrador.",
+      "strength": "Carta propia: pierogi ruskie 31 zł, tortitas de patata 24 zł, sopa de tomate 15,90 zł. Precios de platos leídos 28/10/2026, no comida completa ni garantía futura.",
+      "caution": "Confirmar disponibilidad del plato y alérgenos. Web propia y Maps coinciden en Grodzka 43; horario publicado no confirma apertura futura.",
+      "officialUrl": "https://podtemida.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/Pod+Temida+Grodzka+43+Krakow/",
+      "editorialUrl": "https://www.viajeroscallejeros.com/restaurantes-donde-comer-en-cracovia/",
+      "statusCheckedAt": "2026-10-28",
+      "statusEvidence": "Maps: Closed · Opens 9 AM Thu",
+      "status": "operating-hours-listed",
+      "priceLabel": "Consultar carta actual",
+      "photo": {
+        "id": "pierogi-cooked",
+        "img": "assets/enrichment/pierogi-cooked.jpg",
+        "source": "https://www.pexels.com/photo/cooked-pierogi-on-ceramic-plate-8601675/",
+        "author": "Polina Tankilevitch",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa del plato · no del local"
+      },
+      "sourceUrls": [
+        "https://podtemida.pl/"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "obwarzanek",
+      "name": "Taller de obwarzanek",
+      "description": "Amasa y hornea tu propio pan trenzado de Cracovia.",
+      "duration": "Aprox. 1 h · operador",
+      "caution": "Sesiones e idioma por confirmar. Trigo, sésamo y amapola; contiene grasa animal. Acceso con escalones; consultar sala adaptada.",
+      "officialUrl": "https://www.muzeumobwarzanka.com/practical-information/?lang=en",
+      "editorialUrl": "https://www.muzeumobwarzanka.com/faq/?lang=en",
+      "reviewedAt": "2026-10-28",
+      "priceLabel": "Actividad de pago · consultar tarifa",
+      "photo": {
+        "id": "dough",
+        "img": "assets/enrichment/dough.jpg",
+        "source": "https://www.pexels.com/photo/hands-preparing-dough-with-flour-for-baking-28907088/",
+        "author": "Olga Volkovitskaia",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa · no del lugar ni de la sesión"
+      },
+      "alert": "Trigo, sésamo y grasa animal; acceso con escalones."
+    }
+  ],
+  "schemaVersion": 1,
+  "cityId": "krakow",
+  "reviewedAt": "2026-10-28",
+  "scope": "Primera muestra editorial, no catálogo exhaustivo. Revisión puntual, no vigilancia en tiempo real.",
+  "catalogRevision": "2026-10-28-editorial-pass2"
+}

@@ -1,0 +1,114 @@
+{
+  "food": [
+    {
+      "id": "pyra-poznan",
+      "name": "Pyra Bar · Poznań",
+      "address": "Strzelecka 13 · centro",
+      "description": "Patata en clave local: una comida informal de pyry.",
+      "strength": "Carta del operador: PYRogi 33 zł; pyry con queso 36 zł; cazuelas desde 38 zł. Referencias de platos, no precio de comida completa ni del viaje. Carta leída 28/10/2026.",
+      "caution": "Confirmar carta e ingredientes. La revisión de Maps no confirma la apertura para el día de tu viaje.",
+      "officialUrl": "https://pyrabar.pl/en/pyrabar-poznan-en/",
+      "mapsUrl": "https://www.google.com/maps/search/Pyra+Bar+Strzelecka+13+Poznan/",
+      "editorialUrl": "https://visitpoznan.pl/pyra-bar",
+      "statusCheckedAt": "2026-10-28",
+      "statusEvidence": "Maps: Closes soon · 9 PM · Opens 11 AM Thu",
+      "status": "operating-hours-listed",
+      "priceLabel": "Consultar carta actual",
+      "photo": {
+        "id": "potatoes",
+        "img": "assets/enrichment/potatoes.jpg",
+        "source": "https://www.pexels.com/photo/potato-pancakes-served-on-plate-24870672/",
+        "author": "Kadir Avşar",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa · no del local ni de su carta"
+      }
+    },
+    {
+      "id": "hycka",
+      "name": "Hyćka",
+      "address": "Rynek Śródecki 17 · Śródka",
+      "description": "Cocina de Wielkopolska: pato, pyry y platos regionales.",
+      "caution": "Reservas por teléfono según operador. Carta y horario para tu fecha sin confirmar.",
+      "officialUrl": "https://hycka.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/Hycka+Rynek+Srodecki+17+Poznan/",
+      "editorialUrl": "https://guide.michelin.com/en/article/people/Poland%3A%20Pozna%C5%84%27s%20Best%20Bites",
+      "statusCheckedAt": "2026-10-28",
+      "status": "operating-hours-listed",
+      "priceLabel": "Consultar carta",
+      "photo": {
+        "id": "potatoes",
+        "img": "assets/enrichment/potatoes.jpg",
+        "source": "https://www.pexels.com/photo/potato-pancakes-served-on-plate-24870672/",
+        "author": "Kadir Avşar",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa · no del local ni de su carta"
+      },
+      "strength": "Cocina regional: pato con col roja y pyry con queso, recomendados por Artur Skotarczyk en entrevista de Michelin de 2023. No implica estrella Michelin para Hyćka. Web propia con contenido ajeno de casino: no usar formularios de pago allí."
+    },
+    {
+      "id": "wypas",
+      "name": "WYPAS",
+      "address": "Jackowskiego 38/1 · Jeżyce",
+      "description": "Cocina vegetal casera: versión vegana de platos polacos y guisos de verduras.",
+      "strength": "La carta propia de pedidos confirma talerz polski, plato de la abuela y guiso de verduras. Precios online incluyen envase; no se trasladan como precio de sala. Aporta una alternativa vegetal y otro barrio.",
+      "caution": "Cierra martes según contacto propio. Su web y plataforma de pedidos difieren en hora final: confirma antes de desplazarte. Consultar alérgenos, una carta vegana no implica ausencia de gluten o soja. Jeżyce requiere desvío respecto al casco antiguo.",
+      "officialUrl": "https://wypas.co/kontakt/",
+      "editorialUrl": "https://visitpoznan.pl/index.php/en/wypas-en",
+      "mapsUrl": "https://www.google.com/maps/place/WYPAS/@52.4099147,16.8970312,17z/data=!3m1!4b1!4m6!3m5!1s0x470444c8e5f29813:0xd4b39cf27c9263c2!8m2!3d52.4099147!4d16.8970312!16s%2Fg%2F11bbrjzztk?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+      "status": "operating-hours-listed",
+      "statusCheckedAt": "2026-10-28",
+      "statusEvidence": "Closed · Opens 12 PM Thu; dirección y web coinciden; sin aviso de cierre temporal/permanente.",
+      "priceLabel": "Consultar carta de sala",
+      "sourceUrls": [
+        "https://restauracja-wypas.order.dish.co/menus"
+      ],
+      "reviewedAt": "2026-10-28"
+    }
+  ],
+  "activities": [
+    {
+      "id": "croissant-show",
+      "name": "Espectáculo del rogal de San Martín",
+      "description": "Espectáculo participativo y degustación del rogal; voluntarios ayudan a prepararlo.",
+      "duration": "Aprox. 60–65 min · según sesión",
+      "caution": "No es una clase de cocina individual completa. Confirmar sesión e idioma en calendario: el operador distingue show de 65 min y otro de 60 min sin vista de los cabritos. Llegar 10 min antes. Escaleras sin ascensor. Consultar ingredientes y alergias. La página aún contiene un aviso de 2025; no se toman sus horas ni tarifas como disponibilidad confirmada.",
+      "officialUrl": "https://rogalowemuzeum.pl/en/",
+      "editorialUrl": "https://visitpoznan.pl/en/poznan-croissant-museum",
+      "reviewedAt": "2026-10-28",
+      "priceLabel": "Actividad de pago · consultar tarifa",
+      "photo": {
+        "id": "dough",
+        "img": "assets/enrichment/dough.jpg",
+        "source": "https://www.pexels.com/photo/hands-preparing-dough-with-flour-for-baking-28907088/",
+        "author": "Olga Volkovitskaia",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa · no del lugar ni de la sesión"
+      },
+      "alert": "Escaleras sin ascensor · elegir idioma de la sesión."
+    },
+    {
+      "id": "termy-aquapark",
+      "name": "Aquapark de Termy Maltańskie",
+      "description": "Piscinas recreativas y zona deportiva junto a Malta; alternativa al paseo con mal tiempo.",
+      "duration": "1–3 h · según el billete elegido",
+      "priceLabel": "Actividad de pago · elegir zona y duración",
+      "alert": "El billete online no garantiza entrada · recargo si superas el tiempo.",
+      "caution": "Aquapark incluye piscinas deportivas, no sauna. El operador publica recargo de 1 zł por minuto y persona sobre el tiempo comprado (tarifa leída 28/10/2026). Consultar fecha: cierra 01/11, 24–25/12, 31/12 y Sábado/Domingo de Pascua según FAQ. Llevar bañador, toalla y calzado de piscina; revisar normas según actividad y salud. No es reserva ni sesión disponible confirmada.",
+      "officialUrl": "https://termymaltanskie.com.pl/termalne-abc/",
+      "editorialUrl": "https://visitpoznan.pl/en/summer-2026-in-poznan",
+      "reviewedAt": "2026-10-28",
+      "sourceUrls": [
+        "https://termymaltanskie.com.pl/cenniki/",
+        "https://termymaltanskie.com.pl/faq/"
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "cityId": "poznan",
+  "reviewedAt": "2026-10-28",
+  "scope": "Primera muestra editorial, no catálogo exhaustivo. Revisión puntual, no vigilancia en tiempo real.",
+  "catalogRevision": "2026-10-28-editorial-pass2"
+}

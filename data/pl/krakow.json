@@ -18,7 +18,9 @@
       "sourceIds": [
         "et",
         "local",
-        "literary"
+        "literary",
+        "wawel-cathedral",
+        "wawel-castle-visit"
       ],
       "coordinates": {
         "lat": 50.05388889,
@@ -27,7 +29,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Wawel_Castle",
       "suggestedMinutes": 150,
       "durationType": "editorial-estimate",
-      "caution": "Castillo, catedral y exposiciones tienen accesos y horarios distintos.",
+      "caution": "Castillo y catedral tienen entradas distintas. Elegir una exposición del castillo, no todas. Catedral domingo desde 12:30; museo catedralicio cerrado domingos/festivos. Cierres y cupos según recinto.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -76,7 +78,8 @@
       "reason": "Interior de alto valor cultural junto al Rynek.",
       "sourceIds": [
         "et",
-        "local"
+        "local",
+        "mariacki-visit"
       ],
       "coordinates": {
         "lat": 50.06166667,
@@ -85,7 +88,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Basilica_of_the_Assumption_of_the_Blessed_Virgin_Mary,_Krak%C3%B3w",
       "suggestedMinutes": 60,
       "durationType": "editorial-estimate",
-      "caution": "Culto y visita turística son usos distintos; torre opcional, sin acceso garantizado.",
+      "caution": "Entrada turística por el lado sur. Domingo/festivos: visita desde las 14 h según página turística propia. Culto no equivale a visita; torre con cupo y meteo, no incluida.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -158,7 +161,8 @@
       "sourceIds": [
         "official",
         "et",
-        "local"
+        "local",
+        "schindler-visit"
       ],
       "coordinates": {
         "lat": 50.0474,
@@ -167,7 +171,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Oskar_Schindler%27s_Enamel_Factory",
       "suggestedMinutes": 150,
       "durationType": "editorial-estimate",
-      "caution": "Reservar si se elige. El museo no trata sólo la biografía de Schindler.",
+      "caution": "Entrada nominativa online: llevar documento original. Lunes de acceso gratuito sin reserva anticipada y cupo limitado; cierra primer martes de mes. Consultar cierres especiales.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -186,7 +190,8 @@
       "zone": "Norte del centro",
       "reason": "Ampliación artística para un tercer día sin salir de la ciudad.",
       "sourceIds": [
-        "local"
+        "local",
+        "czartoryski-visit"
       ],
       "coordinates": {
         "lat": 50.06466667,
@@ -195,7 +200,7 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Czartoryski_Museum",
       "suggestedMinutes": 120,
       "durationType": "editorial-estimate",
-      "caution": "",
+      "caution": "Cierra lunes. Entrada por fecha y hora. Martes gratuito con cupo limitado: entradas en taquilla el mismo día, no acceso garantizado.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -271,7 +276,8 @@
       "zone": "Barrio universitario",
       "reason": "Segunda capa de Cracovia: la universidad histórica. Patio si está accesible; museo interior no obligatorio.",
       "sourceIds": [
-        "heritage"
+        "heritage",
+        "maius-visit"
       ],
       "coordinates": {
         "lat": 50.06166667,
@@ -281,7 +287,7 @@
       "suggestedMinutes": 45,
       "durationType": "editorial-estimate",
       "visitMode": "Paseo / exterior",
-      "caution": "Comprobar acceso antes del viaje.",
+      "caution": "Aquí se propone patio, no sumar museo completo: exposiciones y visitas guiadas tienen turnos propios. Páginas propias discrepan sobre jardín; no contarlo como abierto.",
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null,
@@ -425,7 +431,7 @@
             "ghetto",
             "schindler"
           ],
-          "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+          "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria. Fábrica: comprobar primer martes y festivos; lunes gratuito no permite reserva individual anticipada.",
           "optionalStopIds": [],
           "geographyChecks": [
             {
@@ -440,7 +446,10 @@
               "toId": "schindler",
               "straightLineKm": 0.55,
               "isWalkingRoute": false,
-              "transportSuggested": false
+              "transportSuggested": false,
+              "walkingRouteKm": 0.566,
+              "walkingMinutes": 7,
+              "routeCheckedAt": "2026-10-28"
             }
           ],
           "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
@@ -485,7 +494,7 @@
             "ghetto",
             "schindler"
           ],
-          "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+          "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria. Fábrica: comprobar primer martes y festivos; lunes gratuito no permite reserva individual anticipada.",
           "optionalStopIds": [],
           "geographyChecks": [
             {
@@ -500,7 +509,10 @@
               "toId": "schindler",
               "straightLineKm": 0.55,
               "isWalkingRoute": false,
-              "transportSuggested": false
+              "transportSuggested": false,
+              "walkingRouteKm": 0.566,
+              "walkingMinutes": 7,
+              "routeCheckedAt": "2026-10-28"
             }
           ],
           "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
@@ -515,7 +527,7 @@
             "planty"
           ],
           "optionalStopIds": [],
-          "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística.",
+          "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística. Czartoryski cierra lunes: reordenar el día o elegir exteriores, sin prometer otro museo abierto.",
           "pacing": "Unas 5–6 h con comida y pausas; Planty es cierre de paseo, no visita interior.",
           "geographyChecks": [
             {
@@ -608,7 +620,11 @@
     "Las excursiones sustituyen una jornada urbana, no se añaden a su carga. No hay entradas ni transporte reservados."
   ],
   "excludedOrOptional": [
-    "No exigir todos los museos de Wawel ni dos miradores."
+    "Un interior Wawel, no castillo completo más catedral/museo.",
+    "No imponer dos torres ni miradores por defecto.",
+    "Collegium por patio; museo interior sustituiría otra visita, no se suma automáticamente.",
+    "Auschwitz y Wieliczka no juntos; cada uno sacrifica jornada urbana.",
+    "Czartoryski elegido por colección singular, no obligación si se prefiere excursión."
   ],
   "sources": [
     {
@@ -708,6 +724,48 @@
       "url": "https://www.wieliczka-saltmine.com/individual-tourist/useful-information/map-and-access",
       "type": "operator",
       "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "schindler-visit",
+      "title": "Schindler: operador y condiciones",
+      "url": "https://muzeumkrakowa.pl/oddzialy/fabryka-emalia-oskara-schindlera",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "czartoryski-visit",
+      "title": "Czartoryski: operador",
+      "url": "https://mnk.pl/en/branches/czartoryski-museum/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "wawel-cathedral",
+      "title": "Catedral de Wawel: plan de visita",
+      "url": "https://www.katedra-wawelska.pl/en/katedra-wawelska/zaplanuj-wizyte/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "mariacki-visit",
+      "title": "Santa María: visita turística",
+      "url": "https://mariacki.com/turysci/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "maius-visit",
+      "title": "Collegium: visita del operador",
+      "url": "https://maius.uj.edu.pl/en_GB/zwiedzanie",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "wawel-castle-visit",
+      "title": "Castillo Wawel: exposiciones y acceso",
+      "url": "https://wawel.krakow.pl/en/what-to-see",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -799,7 +857,7 @@
               "ghetto",
               "schindler"
             ],
-            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria. Fábrica: comprobar primer martes y festivos; lunes gratuito no permite reserva individual anticipada.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -814,7 +872,10 @@
                 "toId": "schindler",
                 "straightLineKm": 0.55,
                 "isWalkingRoute": false,
-                "transportSuggested": false
+                "transportSuggested": false,
+                "walkingRouteKm": 0.566,
+                "walkingMinutes": 7,
+                "routeCheckedAt": "2026-10-28"
               }
             ],
             "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
@@ -859,7 +920,7 @@
               "ghetto",
               "schindler"
             ],
-            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria. Fábrica: comprobar primer martes y festivos; lunes gratuito no permite reserva individual anticipada.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -874,7 +935,10 @@
                 "toId": "schindler",
                 "straightLineKm": 0.55,
                 "isWalkingRoute": false,
-                "transportSuggested": false
+                "transportSuggested": false,
+                "walkingRouteKm": 0.566,
+                "walkingMinutes": 7,
+                "routeCheckedAt": "2026-10-28"
               }
             ],
             "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
@@ -889,7 +953,7 @@
               "planty"
             ],
             "optionalStopIds": [],
-            "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística.",
+            "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística. Czartoryski cierra lunes: reordenar el día o elegir exteriores, sin prometer otro museo abierto.",
             "pacing": "Unas 5–6 h con comida y pausas; Planty es cierre de paseo, no visita interior.",
             "geographyChecks": [
               {
@@ -989,7 +1053,7 @@
               "ghetto",
               "schindler"
             ],
-            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria. Fábrica: comprobar primer martes y festivos; lunes gratuito no permite reserva individual anticipada.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1004,7 +1068,10 @@
                 "toId": "schindler",
                 "straightLineKm": 0.55,
                 "isWalkingRoute": false,
-                "transportSuggested": false
+                "transportSuggested": false,
+                "walkingRouteKm": 0.566,
+                "walkingMinutes": 7,
+                "routeCheckedAt": "2026-10-28"
               }
             ],
             "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
@@ -1049,7 +1116,7 @@
               "ghetto",
               "schindler"
             ],
-            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria. Fábrica: comprobar primer martes y festivos; lunes gratuito no permite reserva individual anticipada.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1064,7 +1131,10 @@
                 "toId": "schindler",
                 "straightLineKm": 0.55,
                 "isWalkingRoute": false,
-                "transportSuggested": false
+                "transportSuggested": false,
+                "walkingRouteKm": 0.566,
+                "walkingMinutes": 7,
+                "routeCheckedAt": "2026-10-28"
               }
             ],
             "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
@@ -1080,7 +1150,7 @@
             "optionalStopIds": [
               "planty"
             ],
-            "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística. En invierno Planty queda opcional; la puerta se ve al llegar al museo, sin alargar el paseo.",
+            "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística. En invierno Planty queda opcional; la puerta se ve al llegar al museo, sin alargar el paseo. Czartoryski cierra lunes: reordenar el día o elegir exteriores, sin prometer otro museo abierto.",
             "pacing": "Unas 5–6 h con comida y pausas; Planty es cierre de paseo, no visita interior.",
             "geographyChecks": [
               {
@@ -1173,7 +1243,7 @@
               "ghetto",
               "schindler"
             ],
-            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria. Fábrica: comprobar primer martes y festivos; lunes gratuito no permite reserva individual anticipada.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1188,7 +1258,10 @@
                 "toId": "schindler",
                 "straightLineKm": 0.55,
                 "isWalkingRoute": false,
-                "transportSuggested": false
+                "transportSuggested": false,
+                "walkingRouteKm": 0.566,
+                "walkingMinutes": 7,
+                "routeCheckedAt": "2026-10-28"
               }
             ],
             "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
@@ -1233,7 +1306,7 @@
               "ghetto",
               "schindler"
             ],
-            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria. Fábrica: comprobar primer martes y festivos; lunes gratuito no permite reserva individual anticipada.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1248,7 +1321,10 @@
                 "toId": "schindler",
                 "straightLineKm": 0.55,
                 "isWalkingRoute": false,
-                "transportSuggested": false
+                "transportSuggested": false,
+                "walkingRouteKm": 0.566,
+                "walkingMinutes": 7,
+                "routeCheckedAt": "2026-10-28"
               }
             ],
             "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
@@ -1264,7 +1340,7 @@
             "optionalStopIds": [
               "planty"
             ],
-            "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística. En invierno Planty queda opcional; la puerta se ve al llegar al museo, sin alargar el paseo.",
+            "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística. En invierno Planty queda opcional; la puerta se ve al llegar al museo, sin alargar el paseo. Czartoryski cierra lunes: reordenar el día o elegir exteriores, sin prometer otro museo abierto.",
             "pacing": "Unas 5–6 h con comida y pausas; Planty es cierre de paseo, no visita interior.",
             "geographyChecks": [
               {
@@ -1357,7 +1433,7 @@
               "ghetto",
               "schindler"
             ],
-            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria. Fábrica: comprobar primer martes y festivos; lunes gratuito no permite reserva individual anticipada.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1372,7 +1448,10 @@
                 "toId": "schindler",
                 "straightLineKm": 0.55,
                 "isWalkingRoute": false,
-                "transportSuggested": false
+                "transportSuggested": false,
+                "walkingRouteKm": 0.566,
+                "walkingMinutes": 7,
+                "routeCheckedAt": "2026-10-28"
               }
             ],
             "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
@@ -1417,7 +1496,7 @@
               "ghetto",
               "schindler"
             ],
-            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria.",
+            "editorialNote": "La fábrica es la visita larga: reservar primero el turno y adaptar el paseo. Pausas entre espacios de memoria. Fábrica: comprobar primer martes y festivos; lunes gratuito no permite reserva individual anticipada.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1432,7 +1511,10 @@
                 "toId": "schindler",
                 "straightLineKm": 0.55,
                 "isWalkingRoute": false,
-                "transportSuggested": false
+                "transportSuggested": false,
+                "walkingRouteKm": 0.566,
+                "walkingMinutes": 7,
+                "routeCheckedAt": "2026-10-28"
               }
             ],
             "pacing": "Unas 6–7 h con paseo, comida y Schindler como museo principal; no otra exposición larga."
@@ -1447,7 +1529,7 @@
               "planty"
             ],
             "optionalStopIds": [],
-            "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística.",
+            "editorialNote": "Comenzar por San Florián y reservar el tramo de museo Czartoryski como visita principal. Después de comer, Collegium Maius y tramo occidental de Planty. Son historias distintas, no dos nombres para el mismo paseo. Si se elige una excursión a Wieliczka o Auschwitz, sustituye la jornada completa tras comprobar logística. Czartoryski cierra lunes: reordenar el día o elegir exteriores, sin prometer otro museo abierto.",
             "pacing": "Unas 5–6 h con comida y pausas; Planty es cierre de paseo, no visita interior.",
             "geographyChecks": [
               {
@@ -1507,5 +1589,57 @@
       "access": "https://www.wieliczka-saltmine.com/individual-tourist/useful-information/map-and-access"
     }
   ],
-  "excursionDefault": "auschwitz"
+  "excursionDefault": "auschwitz",
+  "editorialAudit": {
+    "reviewedAt": "2026-10-28",
+    "status": "bounded-first-pass",
+    "openItems": [
+      "Más diversidad gastronómica/experiencias",
+      "Fotos específicas de locales y talleres",
+      "Horarios por fecha para entradas y transporte",
+      "Contradicciones propias de horarios catedral y jardín Collegium preservadas"
+    ],
+    "scope": "Primera pasada contrastada de recintos principales, patio universitario, acceso excursiones, dos restaurantes y taller; calendario personal y ampliación de variedad pendientes."
+  },
+  "editorialTradeoffs": "Decisión:1 día eje Wawel–Rynek con un interior principal, no todo Wawel.2 días añade Kazimierz/Podgórze y Schindler como relato de ciudad y ocupación, con pausas.3 días Czartoryski, murallas y patio universitario aporta arte/universidad sin repetir Rynek. Wieliczka y Auschwitz quedan alternativas de jornada completa, no excursiones encadenadas; Auschwitz requiere tiempo emocional y visita respetuosa, no completar lista. Mantener jornada urbana por defecto evita vender como universal una elección de interés personal.",
+  "routeEvidence": [
+    {
+      "fromId": "wawel",
+      "toId": "rynek",
+      "walkingRouteKm": 0.911,
+      "walkingMinutes": 12,
+      "routeCheckedAt": "2026-10-28",
+      "isWalkingRoute": true,
+      "referenceOnly": true,
+      "sourceUrl": "https://www.google.com/maps/dir/?api=1&destination=Rynek+G%C5%82%C3%B3wny%2C+31-422+Krak%C3%B3w%2C+Poland&destination_place_id=ChIJZ9pVBBJbFkcRMw11Gwf1x8M&origin=Zamek+Wawel%2C+31-003+Krak%C3%B3w%2C+Poland&origin_place_id=ChIJY7-qdG1bFkcRJ3ataT_e_Hg&travelmode=walking",
+      "accessibility": "No verificada; ruta puede contener escaleras."
+    }
+  ],
+  "catalogRevision": "2026-10-28-editorial-pass2",
+  "discoveryReview": {
+    "reviewedAt": "2026-10-28",
+    "method": "Búsqueda literal qué ver en la ciudad, lectura de secciones de visitas/itinerarios de varias guías, comparación con catálogo y juicio editorial; después contraste oficial de hechos operativos seleccionados.",
+    "guidesRead": [
+      "https://www.viviendodeviaje.com/cracovia-en-3-dias/",
+      "https://www.cracovia.net/cracovia-en-tres-dias"
+    ],
+    "candidatesConsidered": [
+      {
+        "candidate": "Rynek subterráneo",
+        "decision": "Alternativa de historia medieval a Czartoryski, no tercer museo obligatorio. Se considera y queda fuera del plan base por carga; sus horarios actuales se han contrastado con Muzeum Krakowa."
+      },
+      {
+        "candidate": "Remuh / Sinagoga Vieja / Farmacia del Águila",
+        "decision": "Profundización judía, no suma automática a Schindler. Kazimierz sigue siendo barrio y paseo, no promesa de entrada a todas las sinagogas."
+      },
+      {
+        "candidate": "MOCAK",
+        "decision": "Alternativa especializada de arte contemporáneo, no reemplaza por defecto la historia local de Schindler."
+      },
+      {
+        "candidate": "Auschwitz + Wieliczka combinados",
+        "decision": "Rechazado como recomendación base aunque varias guías lo vendan: traslado y dos visitas intensas. Se mantiene una sola excursión sustitutiva."
+      }
+    ]
+  }
 }
