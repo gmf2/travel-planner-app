@@ -1,59 +1,78 @@
-name: Tripio source semantic benchmark
+name: Tripio other-family source benchmark
 on:
   push:
     branches: [tripio-source-benchmark]
     paths: [.github/workflows/source-benchmark.yml]
 permissions:
   contents: read
-concurrency:
-  group: tripio-source-benchmark
-  cancel-in-progress: false
 jobs:
   evaluate:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Phi-4-mini-Q8
+            url: https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/7ff82c2aaa4dde30121698a973765f39be5288c0/microsoft_Phi-4-mini-instruct-Q8_0.gguf
+          - name: SmolLM3-3B-Q8
+            url: https://huggingface.co/ggml-org/SmolLM3-3B-GGUF/resolve/4965cb60b150737b68a0408c36aeefb65078f894/SmolLM3-Q8_0.gguf
+          - name: Ministral-3-8B-Q4
+            url: https://huggingface.co/unsloth/Ministral-3-8B-Instruct-2512-GGUF/resolve/3731507ec3e867db16d620f73e14d689125758f4/Ministral-3-8B-Instruct-2512-Q4_K_M.gguf
     steps:
-      - name: Build pinned open source inference tool
+      - name: Build pinned model-native template runtime
         run: |
           git clone --filter=blob:none https://github.com/ggml-org/llama.cpp llama.cpp
-          git -C llama.cpp checkout e486a4b
-          cmake -S llama.cpp -B llama.cpp/build -DGGML_NATIVE=OFF -DLLAMA_CURL=OFF -DLLAMA_BUILD_TESTS=OFF -DLLAMA_BUILD_SERVER=OFF -DLLAMA_BUILD_APP=OFF -DCMAKE_BUILD_TYPE=Release
-          cmake --build llama.cpp/build --target llama-completion -j 4
-      - name: Download public model without an account
+          git -C llama.cpp checkout e486a4b559617dc88bf79978996f6c670b6bbc9d
+          cmake -S llama.cpp -B llama.cpp/build -DGGML_NATIVE=OFF -DLLAMA_CURL=OFF -DLLAMA_BUILD_TESTS=OFF -DLLAMA_BUILD_SERVER=ON -DLLAMA_BUILD_APP=OFF -DCMAKE_BUILD_TYPE=Release
+          cmake --build llama.cpp/build --target llama-server -j 4
+      - name: Download single public ungated GGUF
         env:
-          MODEL_URL: https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/0b69f75b7472688e6808490aa2b85efdb81b5ce7/Qwen_Qwen3-8B-Q4_K_M.gguf
+          MODEL_URL: ${{ matrix.url }}
         run: |
           df -h .
           free -m
           curl --fail --location --retry 1 --max-time 300 "$MODEL_URL" --output model.gguf
-      - name: Evaluate public-source semantic cases
+      - name: Evaluate real source meanings
+        env:
+          MODEL_NAME: ${{ matrix.name }}
         run: |
           python3 - <<'PYBENCH'
-          import json,subprocess,pathlib,time
-          chunks=[{'id': 'section-1', 'day': 1, 'text': '### Day 1, City Tour: Plaza de Mayo, Downtown, Teatro Colon, & More\nI hope you slept well for your first full day in the city because we’re going to hit the ground running.\n\nIf you love tours, and I know I do (not sarcasm), this is the best morning for a walking, bike, or history tour. \n\nStarting your visit to any new city with an informative tour is ideal. You’ll gain context and history of everything you’ll be experiencing. And if there is anything you want to revisit later you still have a few days left for it.\n\nHere are the best Buenos Aires tours to pick from:\n\n- 🥾 WALKING CITY TOUR | A walking city tour with a local guide is unbeatable. You’ll learn the history in Buenos Aires’ historic district, navigate public transportation and try the best hole in'}, {'id': 'section-2', 'day': 1, 'text': '#### Pick your Palace: Teatro Colon or Palacio Barolo\nFrom here, choose your own adventure for the afternoon. \n\nYou can tour one or both of two of the city’s most impressive buildings: Palacio Barolo and/or Teatro Colon.\n\nAt the moment you are standing just one block from the city’s palatial opera house, Teatro Colon.\n\nAt the moment there are tours in Spanish every 15 minutes but only 4 daily tours in English. Reserve your tour in advance on their official site here. \n\nWhether you tour the theater or simply admire the façade, take a few moments to visit the square where it’s located: Plaza Lavalle.\n\nYou’ll see the Tribunales courthouse and the theater, the plaza’s two main highlights. \n\nThe elegant cafe Petit Colon would fit right in in Europe'}, {'id': 'section-3', 'day': 2, 'text': '### Day 2, Recoleta: The Paris of South America\nBuen dia, I hope you’re rested for day two of this Buenos Aires itinerary because it’s another full day!\n\nToday we’ll be exploring Recoleta, the neighborhood of the city that is the most Paris of South America of them all. \n\n\n\n\n\nAtelier Fuerza’s amazing medialuna\n\n\n\n\n\nCuervo in Chacarita'}, {'id': 'section-4', 'day': 2, 'text': '#### El Ateneo Grand Splendid\nBuenos Aires has more bookstores per capita than any other city in the world.\n\nAmong the hundreds of bookstores to discover here, El Ateneo Grand Splendid is one that’s received international recognition as one of the most beautiful in the world (according to those who know at National Geographic and The Guardian).\n\nStart your day of touring here. Take a taxi or the subway to Av. Santa Fe 1860. \n\nThis breathtaking bookstore is housed in a historic theater. Take in the views from the ground floor then head upstairs to the second and third floors for the best views from above.\n\nIf you haven’t had breakfast yet grab a coffee and pastry from the café on the stage.\n\n\n\n\n\n\n\n\n\nPasaje del Correo'}, {'id': 'section-5', 'day': 2, 'text': '#### Recoleta Cemetery & Surroundings\nYou’ve now made it to one of the most important Buenos Aires landmarks.\n\nThe Recoleta Cemetery’s beautiful tombs are a veritable who’s who of Argentine history. \n\nYou’ll see the names of all the streets you’ve been walking on repeated here as past presidents, generals, and all around important historical figures are all buried in this aristocratic cemetery.\n\nThe most sought after grave is Evita’s. She’s buried with her family so you’ll see her family’s tomb under the name Duarte. \n\nIt’s on a narrow passageway but once you know where you’re going it’s easy to find, thanks to the crowds and walking tours that typically visit her.\n\nI really recommend this tour of the cemetery. There is a lot of'}, {'id': 'section-6', 'day': 3, 'text': '### Day 3: La Boca & San Telmo\nIf you itinerary allows, try to do this final day of this Buenos Aires itinerary on a Sunday for the weekly San Telmo Market (but it still worth going even if you cannot time on a Sunday).\n\nSan Telmo’s eclectic market is one of the city’s best highlights and a must-visit if you’re spending a weekend in Buenos Aires.\n\nSleep in and enjoy a leisurely start to the day.\n\nThe market doesn’t really get moving until the afternoon and the Caminito in La Boca doesn’t require too much time to explore.\n\nHave a relaxing breakfast or brunch then take a taxi to La Boca to begin your day. Aim to start your day in La Boca at around 11 am.'}, {'id': 'section-7', 'day': 3, 'text': '#### Caminito in La Boca\nSince La Boca is on the southern outskirts of the city, hail a cab on the street or take an Uber or Cabify (Cabify is one of the best apps to download in Argentina).\n\nThis open-air museum is colorful, lively and likely what’s on the cover of your copy of Lonely Planet.\n\nTake a stroll on the few blocks that make up the Caminito, taking photos of the colorful walls and tango dancers. \n\nArriving early will make for better photos as you’ll beat the crowds.\n\nYou can even take your own tango photo with one of the performers for a small price (a cheesy but fun souvenir).\n\nDon’t miss the conventillo style homes turned souvenir shops. These former multi-family dwellings are iconic to La Boca. Wealthy'}, {'id': 'section-8', 'day': 3, 'text': '#### San telmo\nIf you’re visiting on a Sunday for the market, I recommend starting at Plaza de Mayo, right at the beginning. \n\nFrom here, walk down Defensa towards Plaza Dorrego. \n\nIf you’re tight on time, you can start directly in Plaza Dorrego (especially if you already saw Plaza de Mayo on Day 1). \n\nThis is also the best idea if you’re hungry as most of the food recommendations above are near here.\n\nThe San Telmo Market takes place every Sunday and really gets going in the afternoon (this is not a city meant for the early riser).\n\nThere are stalls covering this street for ten blocks, with the antiques located mainly in Dorrego Square. \n\n\n\n\n\n\n\n\n\n\n\n\n\nDon’t miss Casa Ezeiza at Defensa 1179. \n\nThis is the c'}]
+          import os,json,pathlib,time,subprocess,urllib.request,urllib.error
           out=pathlib.Path('benchmark-results');out.mkdir(exist_ok=True)
-          schema={'type':'object','properties':{'activities':{'type':'array','items':{'type':'object','properties':{'name':{'type':'string'},'kind':{'type':'string','enum':['visit','zone','route']},'weekdayLimited':{'type':'boolean'}},'required':['name','kind','weekdayLimited'],'additionalProperties':False}},'alternatives':{'type':'array','items':{'type':'array','items':{'type':'string'}}}},'required':['activities','alternatives'],'additionalProperties':False}
-          (out/'schema.json').write_text(json.dumps(schema));rows=[]
-          for c in chunks:
-           prompt='<|im_start|>system\nExtract named sightseeing activities only from this public source section. No food, cafes, lodging or paid tour products. Preserve names exactly as a contiguous substring. A cemetery is a visit, a street walk is route, a neighborhood is zone. Only weekday-specific events are weekdayLimited: a neighborhood is not Sunday-only merely because its fair is. Group alternative visit names together in alternatives. No new facts. JSON only. /no_think<|im_end|>\n<|im_start|>user\n'+c['text']+' /no_think<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
-           (out/'prompt.txt').write_text(prompt);start=time.monotonic();answer=None;status='done'
-           cmd=['llama.cpp/build/bin/llama-completion','-m','model.gguf','-f',str(out/'prompt.txt'),'--no-conversation','--no-display-prompt','-c','2048','-b','128','-ub','128','-n','650','-t','4','--temp','0.6','--top-p','0.8','--seed','42','-jf',str(out/'schema.json')]
+          chunks=[{'id': 'section-1', 'day': 1, 'text': '### Day 1, City Tour: Plaza de Mayo, Downtown, Teatro Colon, & More\nI hope you slept well for your first full day in the city because we’re going to hit the ground running.\n\nIf you love tours, and I know I do (not sarcasm), this is the best morning for a walking, bike, or history tour. \n\nStarting your visit to any new city with an informative tour is ideal. You’ll gain context and history of everything you’ll be experiencing. And if there is anything you want to revisit later you still have a few days left for it.\n\nHere are the best Buenos Aires tours to pick from:\n\n- 🥾 WALKING CITY TOUR | A walking city tour with a local guide is unbeatable. You’ll learn the history in Buenos Aires’ historic district, navigate public transportation and try the best hole in'}, {'id': 'section-2', 'day': 1, 'text': '#### Pick your Palace: Teatro Colon or Palacio Barolo\nFrom here, choose your own adventure for the afternoon. \n\nYou can tour one or both of two of the city’s most impressive buildings: Palacio Barolo and/or Teatro Colon.\n\nAt the moment you are standing just one block from the city’s palatial opera house, Teatro Colon.\n\nAt the moment there are tours in Spanish every 15 minutes but only 4 daily tours in English. Reserve your tour in advance on their official site here. \n\nWhether you tour the theater or simply admire the façade, take a few moments to visit the square where it’s located: Plaza Lavalle.\n\nYou’ll see the Tribunales courthouse and the theater, the plaza’s two main highlights. \n\nThe elegant cafe Petit Colon would fit right in in Europe'}, {'id': 'section-3', 'day': 2, 'text': '### Day 2, Recoleta: The Paris of South America\nBuen dia, I hope you’re rested for day two of this Buenos Aires itinerary because it’s another full day!\n\nToday we’ll be exploring Recoleta, the neighborhood of the city that is the most Paris of South America of them all. \n\n\n\n\n\nAtelier Fuerza’s amazing medialuna\n\n\n\n\n\nCuervo in Chacarita'}, {'id': 'section-4', 'day': 2, 'text': '#### El Ateneo Grand Splendid\nBuenos Aires has more bookstores per capita than any other city in the world.\n\nAmong the hundreds of bookstores to discover here, El Ateneo Grand Splendid is one that’s received international recognition as one of the most beautiful in the world (according to those who know at National Geographic and The Guardian).\n\nStart your day of touring here. Take a taxi or the subway to Av. Santa Fe 1860. \n\nThis breathtaking bookstore is housed in a historic theater. Take in the views from the ground floor then head upstairs to the second and third floors for the best views from above.\n\nIf you haven’t had breakfast yet grab a coffee and pastry from the café on the stage.\n\n\n\n\n\n\n\n\n\nPasaje del Correo'}, {'id': 'section-5', 'day': 2, 'text': '#### Recoleta Cemetery & Surroundings\nYou’ve now made it to one of the most important Buenos Aires landmarks.\n\nThe Recoleta Cemetery’s beautiful tombs are a veritable who’s who of Argentine history. \n\nYou’ll see the names of all the streets you’ve been walking on repeated here as past presidents, generals, and all around important historical figures are all buried in this aristocratic cemetery.\n\nThe most sought after grave is Evita’s. She’s buried with her family so you’ll see her family’s tomb under the name Duarte. \n\nIt’s on a narrow passageway but once you know where you’re going it’s easy to find, thanks to the crowds and walking tours that typically visit her.\n\nI really recommend this tour of the cemetery. There is a lot of'}, {'id': 'section-6', 'day': 3, 'text': '### Day 3: La Boca & San Telmo\nIf you itinerary allows, try to do this final day of this Buenos Aires itinerary on a Sunday for the weekly San Telmo Market (but it still worth going even if you cannot time on a Sunday).\n\nSan Telmo’s eclectic market is one of the city’s best highlights and a must-visit if you’re spending a weekend in Buenos Aires.\n\nSleep in and enjoy a leisurely start to the day.\n\nThe market doesn’t really get moving until the afternoon and the Caminito in La Boca doesn’t require too much time to explore.\n\nHave a relaxing breakfast or brunch then take a taxi to La Boca to begin your day. Aim to start your day in La Boca at around 11 am.'}, {'id': 'section-7', 'day': 3, 'text': '#### Caminito in La Boca\nSince La Boca is on the southern outskirts of the city, hail a cab on the street or take an Uber or Cabify (Cabify is one of the best apps to download in Argentina).\n\nThis open-air museum is colorful, lively and likely what’s on the cover of your copy of Lonely Planet.\n\nTake a stroll on the few blocks that make up the Caminito, taking photos of the colorful walls and tango dancers. \n\nArriving early will make for better photos as you’ll beat the crowds.\n\nYou can even take your own tango photo with one of the performers for a small price (a cheesy but fun souvenir).\n\nDon’t miss the conventillo style homes turned souvenir shops. These former multi-family dwellings are iconic to La Boca. Wealthy'}, {'id': 'section-8', 'day': 3, 'text': '#### San telmo\nIf you’re visiting on a Sunday for the market, I recommend starting at Plaza de Mayo, right at the beginning. \n\nFrom here, walk down Defensa towards Plaza Dorrego. \n\nIf you’re tight on time, you can start directly in Plaza Dorrego (especially if you already saw Plaza de Mayo on Day 1). \n\nThis is also the best idea if you’re hungry as most of the food recommendations above are near here.\n\nThe San Telmo Market takes place every Sunday and really gets going in the afternoon (this is not a city meant for the early riser).\n\nThere are stalls covering this street for ten blocks, with the antiques located mainly in Dorrego Square. \n\n\n\n\n\n\n\n\n\n\n\n\n\nDon’t miss Casa Ezeiza at Defensa 1179. \n\nThis is the c'}]
+          schema={'type': 'object', 'properties': {'activities': {'type': 'array', 'items': {'type': 'object', 'properties': {'name': {'type': 'string'}, 'kind': {'type': 'string', 'enum': ['visit', 'zone', 'route']}, 'weekdayLimited': {'type': 'boolean'}}, 'required': ['name', 'kind', 'weekdayLimited'], 'additionalProperties': False}}, 'alternatives': {'type': 'array', 'items': {'type': 'array', 'items': {'type': 'string'}}}}, 'required': ['activities', 'alternatives'], 'additionalProperties': False}
+          serverlog=(out/'server.log').open('w')
+          server=subprocess.Popen(['llama.cpp/build/bin/llama-server','-m','model.gguf','--host','127.0.0.1','--port','8080','-c','12288','-b','256','-ub','128','-t','4','--parallel','1','--jinja'],stdout=serverlog,stderr=subprocess.STDOUT)
+          for i in range(180):
            try:
-            r=subprocess.run(cmd,capture_output=True,text=True,timeout=150)
-            try:answer=json.loads(r.stdout.split('[end of text]')[0].strip())
-            except ValueError:status='invalid-json'
-           except subprocess.TimeoutExpired:status='timeout'
+            if urllib.request.urlopen('http://127.0.0.1:8080/health',timeout=2).status==200:break
+           except Exception:time.sleep(1)
+          else:raise RuntimeError('model-server-not-ready')
+          system='Extract named sightseeing activities only from the supplied public source. No food, cafes, lodging or paid tour products. Preserve names exactly as a contiguous substring. A cemetery is a visit, a street walk is route, a neighborhood is zone. Only weekday-specific events are weekdayLimited: a neighborhood is not Sunday-only merely because its fair is. Group alternative visit names together in alternatives. No new facts. JSON only.'
+          rows=[]
+          cases=chunks+[dict(id='combined-eight-sections',day=0,text='\n\n'.join(c['text'] for c in chunks))]
+          for c in cases:
+           start=time.monotonic();answer=None;status='done';raw={}
+           payload={'messages':[{'role':'system','content':system},{'role':'user','content':c['text']}],'temperature':0,'seed':42,'max_tokens':1800 if c['day']==0 else 650,'response_format':{'type':'json_schema','schema':schema},'chat_template_kwargs':{'enable_thinking':False},'reasoning_format':'none'}
+           try:
+            req=urllib.request.Request('http://127.0.0.1:8080/v1/chat/completions',data=json.dumps(payload).encode(),headers={'Content-Type':'application/json'})
+            raw=json.load(urllib.request.urlopen(req,timeout=420 if c['day']==0 else 180));answer=json.loads(raw['choices'][0]['message']['content'])
+           except Exception as e:status='error:'+str(e)
+           (out/(c['id']+'-raw.json')).write_text(json.dumps(raw,ensure_ascii=False,indent=2))
            issues=[];activities=[]
            if answer:
             for a in answer['activities']:
              at=c['text'].find(a['name'])
              if at<0:issues.append('name-absent:'+a['name']);continue
-             activities.append(dict(a,sourceDay=c['day'],sourceSection=c['id'],sourceStart=at,sourceEnd=at+len(a['name']),evidenceQuote=c['text'][at:at+len(a['name'])]))
+             activities.append(dict(a,sourceDay=c['day'],sourceSection=c['id'],sourceStart=at,sourceEnd=at+len(a['name'])))
             names={a['name'] for a in activities}
             for group in answer['alternatives']:
              if any(n not in names for n in group):issues.append('unknown-alternative-identity')
-           row={'section':c['id'],'sourceDay':c['day'],'sourceHeading':c['text'].splitlines()[0],'seconds':round(time.monotonic()-start,2),'status':status,'activities':activities,'alternatives':answer.get('alternatives',[]) if answer else [],'issues':issues}
+           row={'section':c['id'],'sourceDay':c['day'],'seconds':round(time.monotonic()-start,2),'status':status,'activities':activities,'alternatives':answer.get('alternatives',[]) if answer else [],'issues':issues}
            rows.append(row);print(json.dumps(row,ensure_ascii=False),flush=True)
+           (out/'partial.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2))
+          combined=rows.pop()
           # Evaluate semantic identities independent of model-created grouping keys.
           allActivities=[a for r in rows for a in r['activities']];groups=[g for r in rows for g in r['alternatives']];issues=[]
           for r in rows:
@@ -72,15 +91,16 @@ jobs:
            if any(x in g for x in ['tango dancers','conventillo style homes']):issues.append('false-alternative')
            if 'San Telmo Market' in g and 'Caminito' in g:issues.append('false-market-route-alternative')
           if sum(a['name'].startswith('Recoleta Cemetery') for a in allActivities)>1:issues.append('duplicate-cemetery-identity')
-          result={'model':'Qwen3-8B Q4_K_M','source':'https://solsalute.com/blog/3-days-in-buenos-aires-itinerary/','mode':'source-section-chunked-extraction','sections':rows,'semanticIssues':issues,'caveat':'Span IDs/quotes are deterministic source matches, not LLM-copied prose. Still no automatic geographic identity, global discovery or recommendation quality claim.'}
-          (out/'results.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print(json.dumps({'semanticIssues':issues,'activityCount':len(allActivities)},ensure_ascii=False),flush=True)
-          raise SystemExit(0 if not issues else 1)
+          result={'model':os.environ['MODEL_NAME'],'source':'https://solsalute.com/blog/3-days-in-buenos-aires-itinerary/','mode':'identical-eight-sections-plus-combined-context','template':'model-embedded Jinja via llama-server, not Qwen tokens','sections':rows,'semanticIssues':issues,'combined':combined,'caveat':'Extraction test only. Original sections include truncation from previous benchmark. Combined is these eight sections, not the whole guide. No global discovery or production quality claim.'}
+          (out/'results.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print(json.dumps({'model':os.environ['MODEL_NAME'],'semanticIssues':issues,'combined':combined},ensure_ascii=False),flush=True)
+          server.terminate();server.wait(timeout=20)
+          raise SystemExit(1 if issues or combined['status']!='done' else 0)
           PYBENCH
-      - name: Save benchmark summary only
+      - name: Save source-only benchmark evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: source-semantic-results
-          path: benchmark-results/results.json
+          name: source-semantic-${{ matrix.name }}
+          path: benchmark-results/
           retention-days: 7
           if-no-files-found: warn
