@@ -13,30 +13,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - name: gpt-oss-20b-MXFP4
+          - name: gpt-oss-20b-MXFP4-chat
             url: https://huggingface.co/ggml-org/gpt-oss-20b-GGUF/resolve/15dcfc7e7c608c6161507211ed43c5b590801b4b/gpt-oss-20b-MXFP4.gguf
             native: OFF
             kwargs: '{"reasoning_effort":"low"}'
-          - name: Qwen3.5-9B-Q4
-            url: https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/3885219b6810b007914f3a7950a8d1b469d598a5/Qwen3.5-9B-Q4_K_M.gguf
-            native: OFF
-            kwargs: '{"enable_thinking":false}'
-          - name: Qwen3.5-4B-Q4
-            url: https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/e87f176479d0855a907a41277aca2f8ee7a09523/Qwen3.5-4B-Q4_K_M.gguf
-            native: OFF
-            kwargs: '{"enable_thinking":false}'
-          - name: Ministral3-14B-Q4
-            url: https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512-GGUF/resolve/74fac473c43357d7fb2671713608183cc72496d0/Ministral-3-14B-Instruct-2512-Q4_K_M.gguf
-            native: OFF
-            kwargs: '{"enable_thinking":false}'
-          - name: Gemma4-E4B-QAT
-            url: https://huggingface.co/google/gemma-4-E4B-it-qat-q4_0-gguf/resolve/4b4a2c1d584be7264f87aac328a1bc739ce81b6c/gemma-4-E4B_q4_0-it.gguf
-            native: OFF
-            kwargs: '{"enable_thinking":false}'
-          - name: Granite4.2-8B-Q4
-            url: https://huggingface.co/ibm-granite/granite-4.2-8b-GGUF/resolve/93f3f6a8938ee922b784cf4e5b4203cd3428df8f/granite-4.2-8b-Q4_K_M.gguf
-            native: OFF
-            kwargs: '{"enable_thinking":false}'
+            mode: chat
     steps:
       - name: Build pinned model-native template runtime
         run: |
@@ -62,6 +43,7 @@ jobs:
         env:
           MODEL_NAME: ${{ matrix.name }}
           MODEL_KWARGS: ${{ matrix.kwargs }}
+          MODEL_MODE: ${{ matrix.mode }}
         run: |
           python3 - <<'PYBENCH'
           import os,json,pathlib,time,subprocess,urllib.request,urllib.error
@@ -85,9 +67,14 @@ jobs:
            start=time.monotonic();status='done';raw={};answer=None;accepted=[];rejected=[]
            messages=[{'role':'system','content':system+' Required JSON schema: '+json.dumps(schema)},{'role':'user','content':c['text']}]
            try:
-            formatted=post('/apply-template',{'messages':messages,'chat_template_kwargs':json.loads(os.environ['MODEL_KWARGS'])})
-            raw=post('/completion',{'prompt':formatted['prompt'],'temperature':0,'seed':42,'n_predict':2200,'json_schema':schema})
-            answer=json.loads(raw['content'])
+            if os.environ.get('MODEL_MODE')=='chat':
+             raw=post('/v1/chat/completions',{'messages':messages,'temperature':0,'seed':42,'max_tokens':4000,'response_format':{'type':'json_schema','json_schema':{'name':'extraction','schema':schema,'strict':True}},'chat_template_kwargs':json.loads(os.environ['MODEL_KWARGS'])})
+             raw={'content':raw['choices'][0]['message']['content'],'reasoning':raw['choices'][0]['message'].get('reasoning_content','')[:2000],'finish_reason':raw['choices'][0].get('finish_reason')}
+             answer=json.loads(raw['content'])
+            else:
+             formatted=post('/apply-template',{'messages':messages,'chat_template_kwargs':json.loads(os.environ['MODEL_KWARGS'])})
+             raw=post('/completion',{'prompt':formatted['prompt'],'temperature':0,'seed':42,'n_predict':2200,'json_schema':schema})
+             answer=json.loads(raw['content'])
            except urllib.error.HTTPError as ex:status='http:'+ex.read().decode()
            except Exception as ex:status='error:'+str(ex)
            if not isinstance(answer,dict) or not isinstance(answer.get('activities'),list):
