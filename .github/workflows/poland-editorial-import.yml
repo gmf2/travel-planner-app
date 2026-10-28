@@ -1,0 +1,29 @@
+name: Publish reviewed Poland editorial release
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply approved editorial files
+        run: |
+          python3 - <<'PYCODE'
+          import pathlib,zipfile,hashlib
+          p=pathlib.Path('1-1-poland-editorial-release.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='96d642ece31221362354760fa366648ea1853d2240ae2d04039e7d0e31931564'
+          with zipfile.ZipFile(p) as z:
+              for n in z.namelist():
+                  assert not n.startswith('/') and '..' not in pathlib.PurePosixPath(n).parts
+                  assert n in ['index.html','poland-pilot.js','ui-preview.js','enrichment-preview.js'] or n.startswith(('data/','assets/','editorial/'))
+                  z.extract(n,'.')
+          PYCODE
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html poland-pilot.js ui-preview.js enrichment-preview.js data assets editorial
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish reviewed Poland editorial selection, separated filters and sequential timing'
+            git push
+          fi
