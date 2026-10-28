@@ -437,6 +437,36 @@
         "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_view_14.jpg"
       }
+    },
+    {
+      "id": "malbork",
+      "name": "Castillo de Malbork",
+      "kind": "excursion",
+      "zone": "Fuera de Gdańsk",
+      "reason": "Gran conjunto fortificado fuera de Gdańsk. Merece una jornada propia en lugar de quedar descartado por estar fuera del centro.",
+      "sourceIds": [
+        "malbork-operator",
+        "malbork-access",
+        "happyfrog"
+      ],
+      "coordinates": {
+        "lat": 54.0397526,
+        "lon": 19.0280127
+      },
+      "coordinateSource": "https://zamek.malbork.pl/en/home/visit/access/",
+      "suggestedMinutes": 210,
+      "durationType": "operator-reference-or-editorial-estimate",
+      "caution": "En la temporada 01/10/2026–25/04/2027 los lunes solo se ofrece la ruta de exteriores, no interiores. Aforo limitado y compra anticipada recomendada. Horarios de la página presentan una errata: confirmar turno en el operador, no copiarlo.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk-malbork.jpg",
+        "author": "Gregy",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Zesp%C3%B3%C5%82_Zamku_Krzy%C5%BCackiego_MALBORK_01.jpg"
+      }
     }
   ],
   "plans": {
@@ -731,11 +761,11 @@
   ],
   "cautions": [
     "No extender el calendario del mercado a la plaza o barrio.",
-    "Dos museos históricos completos seguidos pueden saturar."
+    "Dos museos históricos completos seguidos pueden saturar.",
+    "Las excursiones sustituyen una jornada urbana, no se añaden a su carga. No hay entradas ni transporte reservados."
   ],
   "excludedOrOptional": [
-    "Sopot y Gdynia son destinos distintos, excursión opcional.",
-    "Malbork es excursión aparte, no parada del plan urbano."
+    "Sopot y Gdynia son destinos distintos, excursión opcional."
   ],
   "sources": [
     {
@@ -813,6 +843,34 @@
       "title": "Turismo: lugares de Oliwa",
       "url": "https://visitgdansk.com/oliwa.qbpage?setLanguage=pl",
       "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "happyfrog",
+      "title": "Happy Frog Travels: Sopot y Malbork",
+      "url": "https://happyfrogtravels.com/es/excursiones-desde-gdansk-sopot-y-malbork/",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "visitpolska",
+      "title": "Visit Polska: qué ver en Gdańsk",
+      "url": "https://www.visitpolska.info/es/que-ver-polonia/gdansk/",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "malbork-operator",
+      "title": "Castillo de Malbork: operador",
+      "url": "https://zamek.malbork.pl/en/home/visit/tickets/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "malbork-access",
+      "title": "Castillo de Malbork: acceso y condiciones",
+      "url": "https://zamek.malbork.pl/en/home/visit/access/",
+      "type": "operator",
       "retrievedAt": "2026-10-28"
     }
   ],
@@ -1750,5 +1808,20 @@
         ]
       }
     }
-  }
+  },
+  "excursions": [
+    {
+      "id": "malbork",
+      "name": "Castillo de Malbork",
+      "priority": "Jornada recomendada en una primera visita de 3 días",
+      "reason": "Gran conjunto fortificado fuera de Gdańsk. Merece una jornada propia en lugar de quedar descartado por estar fuera del centro.",
+      "visit": "Elegir la ruta histórica con guía o audioguía y margen para patios y ribera. No todas las modalidades de entrada incluyen interiores.",
+      "transport": "El museo confirma conexión ferroviaria directa desde Gdańsk. La guía de viajeros estima 30–60 min según tren y unos 20 min a pie desde la estación; son referencias, no un servicio verificado para tu fecha.",
+      "pacing": "Reservar unas 6–8 h con trenes, paseo, castillo y comida: estimación editorial. No sumar Sopot y Oliwa ese día.",
+      "caution": "En la temporada 01/10/2026–25/04/2027 los lunes solo se ofrece la ruta de exteriores, no interiores. Aforo limitado y compra anticipada recomendada. Horarios de la página presentan una errata: confirmar turno en el operador, no copiarlo.",
+      "url": "https://zamek.malbork.pl/en/home/visit/tickets/",
+      "access": "https://zamek.malbork.pl/en/home/visit/access/"
+    }
+  ],
+  "excursionDefault": "malbork"
 }

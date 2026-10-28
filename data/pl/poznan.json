@@ -302,6 +302,29 @@
         "licenseURL": "",
         "source": "https://commons.wikimedia.org/wiki/File:20260519_104216_Freedom_Square_in_Pozna%C5%84.jpg"
       }
+    },
+    {
+      "id": "rogalin",
+      "name": "Palacio de Rogalin y robles históricos",
+      "kind": "excursion",
+      "zone": "Fuera de Poznań",
+      "reason": "Residencia de los Raczyński, arte y paisaje de robles fuera de Poznań. Selección de los alrededores respaldada por turismo regional.",
+      "sourceIds": [
+        "rogalin-operator",
+        "rogalin-access",
+        "recalc"
+      ],
+      "coordinates": {
+        "lat": 52.2345956,
+        "lon": 16.9297811
+      },
+      "coordinateSource": "https://mnp.art.pl/en/profile/visit-5",
+      "suggestedMinutes": 180,
+      "durationType": "operator-reference-or-editorial-estimate",
+      "caution": "Museo cerrado los lunes y en varios festivos, incluidos 24–26/12 y 01/01. La web inglesa no completa todas las temporadas; confirmar apertura. No sumar Kórnik automáticamente. Transporte público pendiente de comprobar.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null
     }
   ],
   "plans": {
@@ -566,11 +589,11 @@
   "cautions": [
     "Palmeral: turismo oficial avisa de cierre por reforma desde 2026. No incluido.",
     "Museo del ayuntamiento: guía local anuncia cierre 2026-27, ficha oficial conserva reapertura 2024. Exterior sí, interior por confirmar.",
-    "No se garantizan horarios de cabritos ni del Museo del Cruasán."
+    "No se garantizan horarios de cabritos ni del Museo del Cruasán.",
+    "Las excursiones sustituyen una jornada urbana, no se añaden a su carga. No hay entradas ni transporte reservados."
   ],
   "excludedOrOptional": [
-    "Museo del Cruasán: alternativa cultural-gastronómica con reserva, no visita monumental obligatoria.",
-    "Gniezno y Rogalin: excursiones aparte, no parte del plan urbano."
+    "Museo del Cruasán: alternativa cultural-gastronómica con reserva, no visita monumental obligatoria."
   ],
   "sources": [
     {
@@ -648,6 +671,34 @@
       "title": "Turismo: ruta del siglo XIX",
       "url": "https://visitpoznan.pl/en/-19th-century-poznan-audio-guide",
       "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "recalc",
+      "title": "Recalculando Viajes: qué ver en Poznań",
+      "url": "https://www.recalculandoviajes.com/que-ver-en-poznan/",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "vida",
+      "title": "Una vida de viajero: qué ver en Poznań, con error de identidad no reutilizado",
+      "url": "https://unavidadeviajero.com/polonia/que-ver-en-poznan/",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "rogalin-operator",
+      "title": "Palacio de Rogalin y robles históricos: operador",
+      "url": "https://mnp.art.pl/en/the-palace-museum-in-rogalin",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "rogalin-access",
+      "title": "Palacio de Rogalin y robles históricos: acceso y condiciones",
+      "url": "https://mnp.art.pl/en/profile/visit-5",
+      "type": "operator",
       "retrievedAt": "2026-10-28"
     }
   ],
@@ -1433,5 +1484,26 @@
         ]
       }
     }
-  }
+  },
+  "excursions": [
+    {
+      "id": "rogalin",
+      "name": "Palacio de Rogalin y robles históricos",
+      "priority": "Alternativa regional al tercer día urbano",
+      "reason": "Residencia de los Raczyński, arte y paisaje de robles fuera de Poznań. Selección de los alrededores respaldada por turismo regional.",
+      "visit": "Elegir palacio y parque, sin prometer todas las salas y galería. El parque tiene horario y billete propios.",
+      "transport": "Salida fuera de Poznań. La conexión pública y su regreso no han quedado verificados con un horario actual; planificarlos antes de elegir esta jornada, o contar con transporte por carretera.",
+      "pacing": "Reservar una jornada de unas 6–8 h con ida y vuelta y comida: estimación editorial condicionada al transporte.",
+      "caution": "Museo cerrado los lunes y en varios festivos, incluidos 24–26/12 y 01/01. La web inglesa no completa todas las temporadas; confirmar apertura. No sumar Kórnik automáticamente. Transporte público pendiente de comprobar.",
+      "url": "https://mnp.art.pl/en/the-palace-museum-in-rogalin",
+      "access": "https://mnp.art.pl/en/profile/visit-5",
+      "closedMonthDays": [
+        "12-24",
+        "12-25",
+        "12-26",
+        "01-01"
+      ]
+    }
+  ],
+  "excursionDefault": "urban"
 }

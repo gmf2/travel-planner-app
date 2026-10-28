@@ -292,6 +292,66 @@
         "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Jagiellonian_University,_Collegium_Maius_facade,_15_Jagiello%C5%84ska_street,_Old_Town,_Krak%C3%B3w,_Poland.jpg"
       }
+    },
+    {
+      "id": "auschwitz",
+      "name": "Memorial de Auschwitz-Birkenau",
+      "kind": "excursion",
+      "zone": "Fuera de Cracovia",
+      "reason": "Visita de memoria del Holocausto y de los crímenes nazis. Recorrer Auschwitz I y Auschwitz II-Birkenau con tiempo y respeto; no tratarlo como una atracción de ocio.",
+      "sourceIds": [
+        "auschwitz-operator",
+        "auschwitz-access",
+        "civitatis"
+      ],
+      "coordinates": {
+        "lat": 50.029787,
+        "lon": 19.204869
+      },
+      "coordinateSource": "https://www.auschwitz.org/en/visiting/getting-to-the-museum/",
+      "suggestedMinutes": 210,
+      "durationType": "operator-reference-or-editorial-estimate",
+      "caution": "Pase nominativo limitado, solo online; no se expide en la entrada. Recinto gratuito sin guía en franjas limitadas; guía de pago. Cerrado 25/12, 01/01 y Domingo de Pascua. Reserva y disponibilidad no comprobadas para tu fecha. Conducta y vestimenta respetuosas.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/krakow-auschwitz.jpg",
+        "author": "File:Auschwitz I (22 May 2010).jpg: xiquinhosilva\nderivative work: Georgfotoart",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Auschwitz_I_(22_May_2010)_b.jpg"
+      }
+    },
+    {
+      "id": "wieliczka",
+      "name": "Minas de sal de Wieliczka",
+      "kind": "excursion",
+      "zone": "Fuera de Cracovia",
+      "reason": "Paisaje subterráneo, capillas y trabajo de la sal. Tiene entidad para una excursión propia sin convertir el día de memoria en una carrera.",
+      "sourceIds": [
+        "wieliczka-operator",
+        "wieliczka-access",
+        "civitatis"
+      ],
+      "coordinates": {
+        "lat": 49.98350199999999,
+        "lon": 20.0551878
+      },
+      "coordinateSource": "https://www.wieliczka-saltmine.com/individual-tourist/useful-information/map-and-access",
+      "suggestedMinutes": 180,
+      "durationType": "operator-reference-or-editorial-estimate",
+      "caution": "Guía obligatorio y turnos por idioma; no hay entrada reservada. Unos 800 escalones; no asumir accesibilidad de la ruta estándar. No se combina por defecto con Auschwitz.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/krakow-wieliczka.jpg",
+        "author": "C messier",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:%CE%91%CE%BB%CE%B1%CF%84%CF%89%CF%81%CF%85%CF%87%CE%B5%CE%AF%CE%B1_%CE%92%CE%B9%CE%B5%CE%BB%CE%AF%CF%84%CF%83%CE%BA%CE%B1_5021.jpg"
+      }
     }
   ],
   "plans": {
@@ -544,11 +604,10 @@
     }
   ],
   "cautions": [
-    "Entradas, turnos y culto pueden cambiar el orden de visitas."
+    "Entradas, turnos y culto pueden cambiar el orden de visitas.",
+    "Las excursiones sustituyen una jornada urbana, no se añaden a su carga. No hay entradas ni transporte reservados."
   ],
   "excludedOrOptional": [
-    "Auschwitz-Birkenau: excursión memorial aparte, no visita de ciudad ni actividad festiva.",
-    "Wieliczka es otra excursión; no combinar ambas automáticamente en un día.",
     "No exigir todos los museos de Wawel ni dos miradores."
   ],
   "sources": [
@@ -606,6 +665,48 @@
       "title": "Turismo: patrimonio y lugares del centro",
       "url": "https://krakow.travel/en/planer?step=2",
       "type": "official",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "civitatis",
+      "title": "Cracovia.net: tres días, propuesta contrastada críticamente",
+      "url": "https://www.cracovia.net/cracovia-en-tres-dias",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "mundial",
+      "title": "Viajando por el Mundo Mundial: qué ver en Cracovia",
+      "url": "https://www.viajandoporelmundomundial.com/que-ver-en-cracovia-polonia/",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "auschwitz-operator",
+      "title": "Memorial de Auschwitz-Birkenau: operador",
+      "url": "https://www.auschwitz.org/en/visiting/guided-tours-for-individual-visitors/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "auschwitz-access",
+      "title": "Memorial de Auschwitz-Birkenau: acceso y condiciones",
+      "url": "https://www.auschwitz.org/en/visiting/getting-to-the-museum/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "wieliczka-operator",
+      "title": "Minas de sal de Wieliczka: operador",
+      "url": "https://www.wieliczka-saltmine.com/individual-tourist/useful-information/important-information/tourist-route",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "wieliczka-access",
+      "title": "Minas de sal de Wieliczka: acceso y condiciones",
+      "url": "https://www.wieliczka-saltmine.com/individual-tourist/useful-information/map-and-access",
+      "type": "operator",
       "retrievedAt": "2026-10-28"
     }
   ],
@@ -1375,5 +1476,36 @@
         ]
       }
     }
-  }
+  },
+  "excursions": [
+    {
+      "id": "auschwitz",
+      "name": "Memorial de Auschwitz-Birkenau",
+      "priority": "Jornada recomendada en una primera visita de 3 días",
+      "reason": "Visita de memoria del Holocausto y de los crímenes nazis. Recorrer Auschwitz I y Auschwitz II-Birkenau con tiempo y respeto; no tratarlo como una atracción de ocio.",
+      "visit": "La visita guiada estándar dura unas 3,5 h y comprende ambos recintos. Llegar al menos 30 min antes por los controles.",
+      "transport": "Autobús de Lajkonik desde Kraków MDA hasta el museo. El horario consultado, vigente desde 01/03/2026, marca 1 h 25 min por trayecto. Confirmar servicio, fecha y regreso; no es una reserva.",
+      "pacing": "Reservar unas 7–9 h con ida y vuelta, margen de acceso, visita, comida y pausas: estimación editorial. Después, tarde sin otra visita exigente.",
+      "caution": "Pase nominativo limitado, solo online; no se expide en la entrada. Recinto gratuito sin guía en franjas limitadas; guía de pago. Cerrado 25/12, 01/01 y Domingo de Pascua. Reserva y disponibilidad no comprobadas para tu fecha. Conducta y vestimenta respetuosas.",
+      "url": "https://www.auschwitz.org/en/visiting/guided-tours-for-individual-visitors/",
+      "access": "https://www.auschwitz.org/en/visiting/getting-to-the-museum/",
+      "closedMonthDays": [
+        "12-25",
+        "01-01"
+      ]
+    },
+    {
+      "id": "wieliczka",
+      "name": "Minas de sal de Wieliczka",
+      "priority": "Alternativa a otra jornada, no añadido a Auschwitz",
+      "reason": "Paisaje subterráneo, capillas y trabajo de la sal. Tiene entidad para una excursión propia sin convertir el día de memoria en una carrera.",
+      "visit": "Ruta turística guiada de 2–3 h, unos 3,5 km y alrededor de 800 escalones. Accesibilidad adaptada requiere consulta y reserva específica.",
+      "transport": "El operador indica tren desde Kraków Główny a Wieliczka Rynek Kopalnia o autobús 304 con billete de zonas I+II; caminar unos minutos hasta el acceso Daniłowicz.",
+      "pacing": "Reservar unas 5–6 h con traslados, acceso y comida: estimación editorial, sin tren o turno confirmado.",
+      "caution": "Guía obligatorio y turnos por idioma; no hay entrada reservada. Unos 800 escalones; no asumir accesibilidad de la ruta estándar. No se combina por defecto con Auschwitz.",
+      "url": "https://www.wieliczka-saltmine.com/individual-tourist/useful-information/important-information/tourist-route",
+      "access": "https://www.wieliczka-saltmine.com/individual-tourist/useful-information/map-and-access"
+    }
+  ],
+  "excursionDefault": "auschwitz"
 }

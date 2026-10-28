@@ -297,6 +297,36 @@
         "licenseURL": "",
         "source": "https://commons.wikimedia.org/wiki/File:Pergola-Wroclaw-wnetrze.jpg"
       }
+    },
+    {
+      "id": "ksiaz",
+      "name": "Castillo de Książ, en Wałbrzych",
+      "kind": "excursion",
+      "zone": "Fuera de Wrocław",
+      "reason": "Historia de Baja Silesia y residencia de los Hochberg fuera de Wrocław. Una alternativa con identidad propia a añadir otro museo urbano.",
+      "sourceIds": [
+        "ksiaz-operator",
+        "ksiaz-access",
+        "1000"
+      ],
+      "coordinates": {
+        "lat": 50.8423154,
+        "lon": 16.2915673
+      },
+      "coordinateSource": "https://www.ksiaz.walbrzych.pl/data/dokumenty/without_car.pdf",
+      "suggestedMinutes": 180,
+      "durationType": "operator-reference-or-editorial-estimate",
+      "caution": "La página inglesa mezcla información antigua, incluidos horarios de 2022. No se reutilizan precios ni horas. Confirmar modalidad y fecha; no sumar Świdnica por defecto sin transporte planificado.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/wroclaw-ksiaz.jpg",
+        "author": "Szymon Staniec",
+        "license": "CC BY 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Zamek_Ksi%C4%85%C5%BC_2026_01.jpg"
+      }
     }
   ],
   "plans": {
@@ -578,11 +608,11 @@
   ],
   "cautions": [
     "Jardín y fuente no se presuponen abiertos en invierno.",
-    "Panorama sujeto a sesión disponible, no hay reserva realizada."
+    "Panorama sujeto a sesión disponible, no hay reserva realizada.",
+    "Las excursiones sustituyen una jornada urbana, no se añaden a su carga. No hay entradas ni transporte reservados."
   ],
   "excludedOrOptional": [
-    "Zoo/Afrykarium: alternativa familiar de medio día, no obligación añadida a dos museos.",
-    "Książ es excursión fuera de la ciudad."
+    "Zoo/Afrykarium: alternativa familiar de medio día, no obligación añadida a dos museos."
   ],
   "sources": [
     {
@@ -631,6 +661,34 @@
       "id": "christmas",
       "title": "Organizador: mercado navideño",
       "url": "https://www.jarmarkbozonarodzeniowy.com/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "1000",
+      "title": "1000 sitios: Breslavia y Baja Silesia",
+      "url": "https://1000sitiosquever.com/que-ver-wroclaw-breslavia-polonia",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "viajablog",
+      "title": "Viajablog: Wrocław en uno, dos y tres días",
+      "url": "https://www.viajablog.com/que-ver-wroclaw-breslavia/",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "ksiaz-operator",
+      "title": "Castillo de Książ, en Wałbrzych: operador",
+      "url": "https://www.ksiaz.walbrzych.pl/en/turystyka/zwiedzanie/dzienne",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "ksiaz-access",
+      "title": "Castillo de Książ, en Wałbrzych: acceso y condiciones",
+      "url": "https://www.ksiaz.walbrzych.pl/data/dokumenty/without_car.pdf",
       "type": "operator",
       "retrievedAt": "2026-10-28"
     }
@@ -1489,5 +1547,20 @@
         ]
       }
     }
-  }
+  },
+  "excursions": [
+    {
+      "id": "ksiaz",
+      "name": "Castillo de Książ, en Wałbrzych",
+      "priority": "Alternativa regional al tercer día de arte",
+      "reason": "Historia de Baja Silesia y residencia de los Hochberg fuera de Wrocław. Una alternativa con identidad propia a añadir otro museo urbano.",
+      "visit": "Castillo como visita principal; subterráneos y palmeral son opciones con accesos distintos, no extras automáticos. No prometer terrazas en invierno.",
+      "transport": "Tren a Wałbrzych y enlace local. El PDF del castillo indica que solo ciertos autobuses 8 llegan cerca del castillo; comprobar destino, enlace y vuelta actuales.",
+      "pacing": "Reservar una jornada de unas 8–10 h con traslados y comida: estimación editorial, no tiempo medido ni horario confirmado.",
+      "caution": "La página inglesa mezcla información antigua, incluidos horarios de 2022. No se reutilizan precios ni horas. Confirmar modalidad y fecha; no sumar Świdnica por defecto sin transporte planificado.",
+      "url": "https://www.ksiaz.walbrzych.pl/en/turystyka/zwiedzanie/dzienne",
+      "access": "https://www.ksiaz.walbrzych.pl/data/dokumenty/without_car.pdf"
+    }
+  ],
+  "excursionDefault": "urban"
 }

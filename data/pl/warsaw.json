@@ -496,6 +496,36 @@
         "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
         "source": "https://commons.wikimedia.org/wiki/File:Amfiteatr_w_%C5%81azienkach_Kr%C3%B3lewskich_w_Warszawie_2017.jpg"
       }
+    },
+    {
+      "id": "zelazowa",
+      "name": "Żelazowa Wola: casa natal de Chopin y parque",
+      "kind": "excursion",
+      "zone": "Fuera de Varsovia",
+      "reason": "Salir de Varsovia para entender el origen de Chopin en su casa natal y parque. No sustituye por defecto la historia urbana de la capital.",
+      "sourceIds": [
+        "zelazowa-operator",
+        "zelazowa-access",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 52.25710590000001,
+        "lon": 20.311701
+      },
+      "coordinateSource": "https://muzeum.nifc.pl/en/muzeum/wizyta-informacje-miejsce/2/1014_dojazd",
+      "suggestedMinutes": 150,
+      "durationType": "operator-reference-or-editorial-estimate",
+      "caution": "Los horarios de la casa y del parque son distintos. Confirmar apertura y conexión de vuelta antes de elegir esta jornada.",
+      "reviewedAt": "2026-10-28",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/warsaw-zelazowa.jpg",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Poland_Zelazowa_Wola.jpg"
+      }
     }
   ],
   "plans": {
@@ -850,7 +880,8 @@
   ],
   "cautions": [
     "Entradas y horarios no verificados para una fecha de viaje concreta.",
-    "No extender una restricción de azotea a todo el jardín o barrio."
+    "No extender una restricción de azotea a todo el jardín o barrio.",
+    "Las excursiones sustituyen una jornada urbana, no se añaden a su carga. No hay entradas ni transporte reservados."
   ],
   "excludedOrOptional": [
     "No encadenar POLIN, Alzamiento, Museo Nacional y Wilanów en una jornada."
@@ -930,6 +961,34 @@
       "id": "chopinWorks",
       "title": "Łazienki: obras en el entorno de Chopin",
       "url": "https://www.lazienki-krolewskie.pl/en/aktualnosci/rewitalizacja-otoczenia-pomnika-chopina",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "vc",
+      "title": "Viajeros Callejeros: qué ver en Varsovia",
+      "url": "https://www.viajeroscallejeros.com/lugares-que-visitar-en-varsovia/",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "sm",
+      "title": "Sinmapa: Varsovia en dos días",
+      "url": "https://www.sinmapa.net/que-ver-en-varsovia-polonia-visitas-imprescindibles/",
+      "type": "traveler",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "zelazowa-operator",
+      "title": "Żelazowa Wola: casa natal de Chopin y parque: operador",
+      "url": "https://muzeum.nifc.pl/en/muzeum/wizyta-informacje-miejsce/2_getting-here/",
+      "type": "operator",
+      "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "zelazowa-access",
+      "title": "Żelazowa Wola: casa natal de Chopin y parque: acceso y condiciones",
+      "url": "https://muzeum.nifc.pl/en/muzeum/wizyta-informacje-miejsce/2/1014_dojazd",
       "type": "operator",
       "retrievedAt": "2026-10-28"
     }
@@ -2085,5 +2144,20 @@
       }
     }
   },
-  "editorialTradeoffs": "El primer día prioriza la identidad reconstruida y sus hitos concretos. BUW es una alternativa de verano, no la segunda mitad obligatoria de Varsovia. Día 2 trata historia judía y contraste contemporáneo; día 3 distingue 1944 y paisaje real con traslado explícito. No se impone una visita interior por cada marcador."
+  "editorialTradeoffs": "El primer día prioriza la identidad reconstruida y sus hitos concretos. BUW es una alternativa de verano, no la segunda mitad obligatoria de Varsovia. Día 2 trata historia judía y contraste contemporáneo; día 3 distingue 1944 y paisaje real con traslado explícito. No se impone una visita interior por cada marcador.",
+  "excursions": [
+    {
+      "id": "zelazowa",
+      "name": "Żelazowa Wola: casa natal de Chopin y parque",
+      "priority": "Alternativa para interés musical",
+      "reason": "Salir de Varsovia para entender el origen de Chopin en su casa natal y parque. No sustituye por defecto la historia urbana de la capital.",
+      "visit": "Casa y parque, con pausa. No dar por hecho un recital: depende de la programación.",
+      "transport": "Tren a Sochaczew y conexión local a Żelazowa Wola. El museo confirma autobuses o taxi; los enlaces y esperas deben comprobarse para el día elegido.",
+      "pacing": "Reservar unas 6–8 h de jornada total: estimación editorial con ida, visita, comida y vuelta. No es un horario de transporte.",
+      "caution": "Los horarios de la casa y del parque son distintos. Confirmar apertura y conexión de vuelta antes de elegir esta jornada.",
+      "url": "https://muzeum.nifc.pl/en/muzeum/wizyta-informacje-miejsce/2_getting-here/",
+      "access": "https://muzeum.nifc.pl/en/muzeum/wizyta-informacje-miejsce/2/1014_dojazd"
+    }
+  ],
+  "excursionDefault": "urban"
 }
