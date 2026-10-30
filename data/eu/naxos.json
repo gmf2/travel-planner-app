@@ -1,0 +1,739 @@
+{
+  "id": "naxos",
+  "catalogId": "naxos",
+  "name": "Naxos",
+  "localName": "Νάξος",
+  "country": "GR",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "status": "editorially-reviewed-pilot",
+  "reviewedAt": "2026-10-30",
+  "selectionReason": "Isla griega solicitada en ampliación (petición del usuario 30/10/2026).",
+  "discoveryReview": "Contenido construido con fuentes oficiales de turismo y editoriales reconocidas; horarios y cierres marcados para comprobación.",
+  "editorialAudit": [
+    "Paradas geocodificadas con OpenStreetMap/Nominatim y revisión editorial.",
+    "Fotos de Wikimedia Commons con licencia y autor registrados.",
+    "Sin mercado navideño verificado: modo Navidad muestra aviso honesto."
+  ],
+  "planningAssumptions": "Sin fechas ni reservas. Planes de uno a tres días; ferris, hoteles y traslados no incluidos.",
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "stops": [
+    {
+      "id": "chora",
+      "name": "Chora y Kastro",
+      "kind": "visit",
+      "zone": "Naxos ciudad",
+      "reason": "La capital con castillo veneciano encima: mezcla cicládica y latina única en las islas.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.1020709,
+        "lon": 25.3762458
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Naxos%20Town%2C%20Greece",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Cuestas dentro del Kastro; calzado cómodo.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naxos/chora.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:%22Happy%20Hour%22%20in%20Chora%20auf%20der%20Insel%20Naxos.%2006.jpg",
+        "author": "Holger Uwe Schmitt",
+        "license": "CC BY-SA 4.0"
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "portara",
+      "name": "Portara · puerta de Apolo",
+      "kind": "visit",
+      "zone": "Islote de Palatia",
+      "reason": "El dintel de mármol del templo inacabado: el atardecer emblemático de Naxos.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.1102122,
+        "lon": 25.3723004
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Portara%2C%20Naxos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Punta expuesta al viento y oleaje; pasarela resbaladiza con mar movido.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naxos/portara.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Naxos_%CE%9D%CE%AC%CE%BE%CE%BF%CF%82_Chora_2020-08-20_28_Portara_%CE%A0%CE%BF%CF%81%CF%84%CE%AC%CF%81%CE%B1.jpg",
+        "author": "Manfred Werner (Tsui)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "oldmarket",
+      "name": "Mercado viejo del casco",
+      "kind": "visit",
+      "zone": "Naxos ciudad",
+      "reason": "Las callejuelas comerciales bajo el castillo: tiendas de producto local y panaderías.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.1068654,
+        "lon": 25.37509
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Old%20Market%20Street%2C%20Naxos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Algunas tiendas cierran a mediodía.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naxos/oldmarket.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Stairs,_Chora_of_Naxos,_119952.jpg",
+        "author": "Zde",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "halki",
+      "name": "Halki y kitro",
+      "kind": "visit",
+      "zone": "Interior",
+      "reason": "El pueblo señorial del interior y la destilería del licor de cidra kitro.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.0594927,
+        "lon": 25.4760618
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Halki%2C%20Naxos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Bus o coche; destilería con horario de visita.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naxos/halki.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Cyclades_Naxos_Halki_Panagia_Protothronos_-_panoramio.jpg",
+        "author": "rene boulay",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "apeiranthos",
+      "name": "Apeiranthos",
+      "kind": "visit",
+      "zone": "Montaña",
+      "reason": "El pueblo de mármol de la montaña: museos pequeños y arquitectura propia.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.0717918,
+        "lon": 25.5196159
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Apeiranthos%2C%20Naxos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Carretera de curvas; museos con horario corto.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naxos/apeiranthos.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:%22Das%20malerische%20Dorf%20Apeiranthos%22.%2001.jpg",
+        "author": "Holger Uwe Schmitt",
+        "license": "CC BY-SA 4.0"
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "plaka",
+      "name": "Playa de Plaka",
+      "kind": "visit",
+      "zone": "Costa oeste",
+      "reason": "La playa larga de arena fina de la costa oeste: la mejor de la isla.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.0502464,
+        "lon": 25.3701893
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Plaka%20Beach%2C%20Naxos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Tramos nudistas al sur; sombra escasa fuera de zonas con hamacas.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naxos/plaka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Plaka_Naxos.jpg",
+        "author": "Atle1963a",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "agiosgeorgios",
+      "name": "Playa Agios Georgios",
+      "kind": "visit",
+      "zone": "Junto a la ciudad",
+      "reason": "La playa urbana: baño sin salir de la ciudad.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.0970556,
+        "lon": 25.3754636
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Saint+George+Beach%2C+Chora%2C+Naxos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Viento de tarde en verano (meltemi).",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naxos/agiosgeorgios.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:GR-naxos-chora-ag-giorgios-beach.jpg",
+        "author": "Bgabel",
+        "license": "CC BY-SA 3.0"
+      },
+      "visitMode": "Exterior / visita libre"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Chora, Kastro y Portara",
+          "zone": "Ciudad → Kastro → Portara",
+          "stopIds": [
+            "chora",
+            "oldmarket",
+            "portara"
+          ],
+          "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+          "optionalStopIds": [],
+          "pacing": "4-6 h a pie.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Chora, Kastro y Portara",
+          "zone": "Ciudad → Kastro → Portara",
+          "stopIds": [
+            "chora",
+            "oldmarket",
+            "portara"
+          ],
+          "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+          "optionalStopIds": [],
+          "pacing": "4-6 h a pie.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Interior de montaña",
+          "zone": "Halki → Apeiranthos",
+          "stopIds": [
+            "halki",
+            "apeiranthos"
+          ],
+          "editorialNote": "Los pueblos del interior: kitro, mármol y museos pequeños.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h con bus o coche.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Chora, Kastro y Portara",
+          "zone": "Ciudad → Kastro → Portara",
+          "stopIds": [
+            "chora",
+            "oldmarket",
+            "portara"
+          ],
+          "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+          "optionalStopIds": [],
+          "pacing": "4-6 h a pie.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Interior de montaña",
+          "zone": "Halki → Apeiranthos",
+          "stopIds": [
+            "halki",
+            "apeiranthos"
+          ],
+          "editorialNote": "Los pueblos del interior: kitro, mármol y museos pequeños.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h con bus o coche.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Playas del oeste",
+          "zone": "Agios Georgios → Plaka",
+          "stopIds": [
+            "agiosgeorgios",
+            "plaka"
+          ],
+          "editorialNote": "Día de playa: urbana por la mañana y la gran arena de Plaka después.",
+          "optionalStopIds": [],
+          "pacing": "4-7 h.",
+          "geographyChecks": []
+        }
+      ]
+    }
+  },
+  "seasonalPlans": {
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Chora, Kastro y Portara",
+            "zone": "Ciudad → Kastro → Portara",
+            "stopIds": [
+              "chora",
+              "oldmarket",
+              "portara"
+            ],
+            "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h a pie.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Chora, Kastro y Portara",
+            "zone": "Ciudad → Kastro → Portara",
+            "stopIds": [
+              "chora",
+              "oldmarket",
+              "portara"
+            ],
+            "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior de montaña",
+            "zone": "Halki → Apeiranthos",
+            "stopIds": [
+              "halki",
+              "apeiranthos"
+            ],
+            "editorialNote": "Los pueblos del interior: kitro, mármol y museos pequeños.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Chora, Kastro y Portara",
+            "zone": "Ciudad → Kastro → Portara",
+            "stopIds": [
+              "chora",
+              "oldmarket",
+              "portara"
+            ],
+            "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior de montaña",
+            "zone": "Halki → Apeiranthos",
+            "stopIds": [
+              "halki",
+              "apeiranthos"
+            ],
+            "editorialNote": "Los pueblos del interior: kitro, mármol y museos pequeños.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Playas del oeste",
+            "zone": "Agios Georgios → Plaka",
+            "stopIds": [
+              "agiosgeorgios",
+              "plaka"
+            ],
+            "editorialNote": "Día de playa: urbana por la mañana y la gran arena de Plaka después.",
+            "optionalStopIds": [],
+            "pacing": "4-7 h.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Chora, Kastro y Portara",
+            "zone": "Ciudad → Kastro → Portara",
+            "stopIds": [
+              "chora",
+              "oldmarket",
+              "portara"
+            ],
+            "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h a pie.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Chora, Kastro y Portara",
+            "zone": "Ciudad → Kastro → Portara",
+            "stopIds": [
+              "chora",
+              "oldmarket",
+              "portara"
+            ],
+            "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior de montaña",
+            "zone": "Halki → Apeiranthos",
+            "stopIds": [
+              "halki",
+              "apeiranthos"
+            ],
+            "editorialNote": "Los pueblos del interior: kitro, mármol y museos pequeños.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Chora, Kastro y Portara",
+            "zone": "Ciudad → Kastro → Portara",
+            "stopIds": [
+              "chora",
+              "oldmarket",
+              "portara"
+            ],
+            "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior de montaña",
+            "zone": "Halki → Apeiranthos",
+            "stopIds": [
+              "halki",
+              "apeiranthos"
+            ],
+            "editorialNote": "Los pueblos del interior: kitro, mármol y museos pequeños.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Playas del oeste",
+            "zone": "Agios Georgios → Plaka",
+            "stopIds": [
+              "agiosgeorgios",
+              "plaka"
+            ],
+            "editorialNote": "Día de playa: urbana por la mañana y la gran arena de Plaka después.",
+            "optionalStopIds": [],
+            "pacing": "4-7 h.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Chora, Kastro y Portara",
+            "zone": "Ciudad → Kastro → Portara",
+            "stopIds": [
+              "chora",
+              "oldmarket",
+              "portara"
+            ],
+            "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h a pie.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Chora, Kastro y Portara",
+            "zone": "Ciudad → Kastro → Portara",
+            "stopIds": [
+              "chora",
+              "oldmarket",
+              "portara"
+            ],
+            "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior de montaña",
+            "zone": "Halki → Apeiranthos",
+            "stopIds": [
+              "halki",
+              "apeiranthos"
+            ],
+            "editorialNote": "Los pueblos del interior: kitro, mármol y museos pequeños.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Chora, Kastro y Portara",
+            "zone": "Ciudad → Kastro → Portara",
+            "stopIds": [
+              "chora",
+              "oldmarket",
+              "portara"
+            ],
+            "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior de montaña",
+            "zone": "Halki → Apeiranthos",
+            "stopIds": [
+              "halki",
+              "apeiranthos"
+            ],
+            "editorialNote": "Los pueblos del interior: kitro, mármol y museos pequeños.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Playas del oeste",
+            "zone": "Agios Georgios → Plaka",
+            "stopIds": [
+              "agiosgeorgios",
+              "plaka"
+            ],
+            "editorialNote": "Día de playa: urbana por la mañana y la gran arena de Plaka después.",
+            "optionalStopIds": [],
+            "pacing": "4-7 h.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Chora, Kastro y Portara",
+            "zone": "Ciudad → Kastro → Portara",
+            "stopIds": [
+              "chora",
+              "oldmarket",
+              "portara"
+            ],
+            "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h a pie.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Chora, Kastro y Portara",
+            "zone": "Ciudad → Kastro → Portara",
+            "stopIds": [
+              "chora",
+              "oldmarket",
+              "portara"
+            ],
+            "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior de montaña",
+            "zone": "Halki → Apeiranthos",
+            "stopIds": [
+              "halki",
+              "apeiranthos"
+            ],
+            "editorialNote": "Los pueblos del interior: kitro, mármol y museos pequeños.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Chora, Kastro y Portara",
+            "zone": "Ciudad → Kastro → Portara",
+            "stopIds": [
+              "chora",
+              "oldmarket",
+              "portara"
+            ],
+            "editorialNote": "La ciudad entera a pie, cerrando en la puerta de Apolo al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior de montaña",
+            "zone": "Halki → Apeiranthos",
+            "stopIds": [
+              "halki",
+              "apeiranthos"
+            ],
+            "editorialNote": "Los pueblos del interior: kitro, mármol y museos pequeños.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Playas del oeste",
+            "zone": "Agios Georgios → Plaka",
+            "stopIds": [
+              "agiosgeorgios",
+              "plaka"
+            ],
+            "editorialNote": "Día de playa: urbana por la mañana y la gran arena de Plaka después.",
+            "optionalStopIds": [],
+            "pacing": "4-7 h.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    }
+  },
+  "seasonalVariants": {},
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Todo abierto y muy lleno en julio-agosto; calor fuerte al mediodía. Reservas y madrugar.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Temporada baja real: gran parte de hoteles, tabernas y servicios turísticos cierran de noviembre a marzo y los ferris se reducen; comprobar antes de ir.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Buen equilibrio: casi todo abierto hasta finales de octubre, mar templado en otoño y menos gente.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Navidad de vida local, sin mercado turístico verificado; yacimientos y museos estatales cierran 25-26/12 y 1/1. No inventamos feria ni programa.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "excursions": [],
+  "cautions": [
+    "Meltemi de julio-agosto: viento norte fuerte; la costa oeste se resiente por la tarde.",
+    "Los pueblos del interior requieren bus (frecuencia limitada) o coche.",
+    "Sin mercado navideño verificado: no inventamos feria ni programa.",
+    "Nada comprado: ferris, hoteles y traslados no incluidos."
+  ],
+  "sources": [
+    {
+      "id": "visitgreece",
+      "title": "Visit Greece: Naxos",
+      "url": "https://www.visitgreece.gr/islands/cyclades/naxos/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lp",
+      "title": "Lonely Planet",
+      "url": "https://www.lonelyplanet.com/greece",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "culture",
+      "title": "Ministerio de Cultura de Grecia",
+      "url": "https://www.culture.gov.gr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "excludedOrOptional": []
+}

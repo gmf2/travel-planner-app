@@ -378,6 +378,35 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Parque exterior; sector oriental"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Christmas in Dublin / TwinkleTown",
+      "kind": "event",
+      "zone": "Smithfield Square y St Patrick's Park",
+      "reason": "TwinkleTown y la Navidad de Dublín en Smithfield: ambiente y puestos al caer la tarde.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 53.3463254,
+        "lon": -6.2784035
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Smithfield+Square,+Dublin (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-25 a 2027-01-03 (https://dublin.ie). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dublin/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Christmas%20Market%20-%20Dublin%20Docklands%20%286540291649%29.jpg",
+        "author": "William Murphy from Dublin, Ireland",
+        "license": "CC BY-SA 2.0"
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -499,7 +528,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Christmas in Dublin / TwinkleTown",
+      "kind": "event",
+      "startDate": "2026-11-25",
+      "endDate": "2027-01-03",
+      "sourceId": "christmas",
+      "location": "Smithfield Square y St Patrick's Park",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://dublin.ie",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No entradas, comidas o alcohol comprados/reservados. Tarifas desde en euros, fecha/precio final no fijados.",
     "Dublin Castle campus entero y Chester Beatty cerrados hasta fin 2026: no paso peatonal ni museo alternativo accesible.",
@@ -665,6 +709,13 @@
       "url": "https://thefumbally.ie/",
       "type": "official",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Christmas in Dublin / TwinkleTown",
+      "url": "https://dublin.ie",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -874,7 +925,8 @@
               "trinity",
               "merrion",
               "green",
-              "grafton"
+              "grafton",
+              "xmas-market"
             ],
             "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
             "optionalStopIds": [],
@@ -892,7 +944,8 @@
               "trinity",
               "merrion",
               "green",
-              "grafton"
+              "grafton",
+              "xmas-market"
             ],
             "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
             "optionalStopIds": [],
@@ -924,7 +977,8 @@
               "trinity",
               "merrion",
               "green",
-              "grafton"
+              "grafton",
+              "xmas-market"
             ],
             "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
             "optionalStopIds": [],

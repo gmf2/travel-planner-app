@@ -1,0 +1,755 @@
+{
+  "id": "milos",
+  "catalogId": "milos",
+  "name": "Milos",
+  "localName": "Μήλος",
+  "country": "GR",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "status": "editorially-reviewed-pilot",
+  "reviewedAt": "2026-10-30",
+  "selectionReason": "Isla griega solicitada en ampliación (petición del usuario 30/10/2026).",
+  "discoveryReview": "Contenido construido con fuentes oficiales de turismo y editoriales reconocidas; horarios y cierres marcados para comprobación.",
+  "editorialAudit": [
+    "Paradas geocodificadas con OpenStreetMap/Nominatim y revisión editorial.",
+    "Fotos de Wikimedia Commons con licencia y autor registrados.",
+    "Sin mercado navideño verificado: modo Navidad muestra aviso honesto."
+  ],
+  "planningAssumptions": "Sin fechas ni reservas. Planes de uno a tres días; ferris, hoteles y traslados no incluidos.",
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "stops": [
+    {
+      "id": "plaka",
+      "name": "Plaka · la capital",
+      "kind": "visit",
+      "zone": "Plaka",
+      "reason": "La capital de cúpulas y callejones con mirador al golfo desde el Kastro.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.7443043,
+        "lon": 24.4230673
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Plaka%20Milou%2C%20Greece (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Subida al Kastro con escaleras; atardecer concurrido pero soportable.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milos/plaka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Plaka%20Milos%2001.JPG",
+        "author": "Enough4unow",
+        "license": "CC BY-SA 4.0"
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "klima",
+      "name": "Klima y las syrmata",
+      "kind": "visit",
+      "zone": "Costa norte",
+      "reason": "Las casetas de pescadores de puertas de colores sobre el agua: la postal de Milos.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.7352417,
+        "lon": 24.4202219
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Klima%2C%20Milos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Callejón estrecho junto al mar; respetar que son viviendas.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milos/klima.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Klima_on_Milos,_syrmata,_152733.jpg",
+        "author": "Zde",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "sarakiniko",
+      "name": "Sarakiniko",
+      "kind": "visit",
+      "zone": "Costa norte",
+      "reason": "La roca volcánica blanca esculpida: el paisaje lunar más famoso de Grecia.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.7427613,
+        "lon": 24.4583123
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Sarakiniko%2C%20Milos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Roca resbaladiza y sin sombra; saltos al agua por cuenta y riesgo.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milos/sarakiniko.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sarakiniko_Beach_on_Milos_Island,_Greece_with_a_view_of_the_Aegean_Sea.jpg",
+        "author": "dronepicr",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "catacombs",
+      "name": "Catacumbas de Milos",
+      "kind": "visit",
+      "zone": "Trypiti",
+      "reason": "Entre las más importantes del mundo paleocristiano, junto al lugar donde apareció la Venus de Milo.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.7436863,
+        "lon": 24.4236979
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Catacombs%20of%20Milos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Visita con horario y aforo limitado; comprobar día de cierre.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milos/catacombs.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Catacombs_milos.jpg",
+        "author": "Evosmia",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Visita con entrada y horario limitado"
+    },
+    {
+      "id": "theatre",
+      "name": "Teatro antiguo y mirador de la Venus",
+      "kind": "visit",
+      "zone": "Trypiti",
+      "reason": "El teatro romano sobre el golfo, a un paso de donde se halló la Venus.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.7378459,
+        "lon": 24.4210532
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Αρχαίο θέατρο Μήλου (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Acceso libre con camino de tierra; sin sombra.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milos/theatre.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Ancient_theatre_of_Milos,_Roman_times,_152700.jpg",
+        "author": "Zde",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "pollonia",
+      "name": "Pollonia",
+      "kind": "visit",
+      "zone": "Noreste",
+      "reason": "El pueblo de pescadores del noreste: tabernas junto al mar y barco a Kimolos.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.7620581,
+        "lon": 24.5220476
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Pollonia%2C%20Milos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Tranquilo fuera de temporada hasta casi cerrar; comprobar aperturas.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milos/pollonia.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Pollonia,_Milos,_152770.jpg",
+        "author": "Zde",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "fyriplaka",
+      "name": "Playa de Fyriplaka",
+      "kind": "visit",
+      "zone": "Sur",
+      "reason": "La gran playa del sur bajo acantilados de colores volcánicos.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.6679448,
+        "lon": 24.4616168
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Fyriplaka%20beach%2C%20Milos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Pista de tierra final; hamacas parciales.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milos/fyriplaka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Paralia_Firiplaka_on_Milos_Island,_Greece.jpg",
+        "author": "dronepicr",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Norte volcánico",
+          "zone": "Plaka → Klima → Sarakiniko",
+          "stopIds": [
+            "plaka",
+            "klima",
+            "sarakiniko"
+          ],
+          "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h con coche o quad.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Norte volcánico",
+          "zone": "Plaka → Klima → Sarakiniko",
+          "stopIds": [
+            "plaka",
+            "klima",
+            "sarakiniko"
+          ],
+          "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h con coche o quad.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Trypiti y la historia",
+          "zone": "Catacumbas → teatro → Plaka",
+          "stopIds": [
+            "catacombs",
+            "theatre",
+            "plaka"
+          ],
+          "editorialNote": "Paleocristiano y antiguo por la mañana, Plaka al atardecer.",
+          "optionalStopIds": [],
+          "pacing": "4-6 h.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Norte volcánico",
+          "zone": "Plaka → Klima → Sarakiniko",
+          "stopIds": [
+            "plaka",
+            "klima",
+            "sarakiniko"
+          ],
+          "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h con coche o quad.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Trypiti y la historia",
+          "zone": "Catacumbas → teatro → Plaka",
+          "stopIds": [
+            "catacombs",
+            "theatre",
+            "plaka"
+          ],
+          "editorialNote": "Paleocristiano y antiguo por la mañana, Plaka al atardecer.",
+          "optionalStopIds": [],
+          "pacing": "4-6 h.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Sur y Pollonia",
+          "zone": "Fyriplaka → Pollonia",
+          "stopIds": [
+            "fyriplaka",
+            "pollonia"
+          ],
+          "editorialNote": "Playa grande del sur y cena de pescadores en el noreste.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h, coche necesario.",
+          "geographyChecks": []
+        }
+      ]
+    }
+  },
+  "seasonalPlans": {
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Norte volcánico",
+            "zone": "Plaka → Klima → Sarakiniko",
+            "stopIds": [
+              "plaka",
+              "klima",
+              "sarakiniko"
+            ],
+            "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o quad.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Norte volcánico",
+            "zone": "Plaka → Klima → Sarakiniko",
+            "stopIds": [
+              "plaka",
+              "klima",
+              "sarakiniko"
+            ],
+            "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o quad.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Trypiti y la historia",
+            "zone": "Catacumbas → teatro → Plaka",
+            "stopIds": [
+              "catacombs",
+              "theatre",
+              "plaka"
+            ],
+            "editorialNote": "Paleocristiano y antiguo por la mañana, Plaka al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Norte volcánico",
+            "zone": "Plaka → Klima → Sarakiniko",
+            "stopIds": [
+              "plaka",
+              "klima",
+              "sarakiniko"
+            ],
+            "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o quad.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Trypiti y la historia",
+            "zone": "Catacumbas → teatro → Plaka",
+            "stopIds": [
+              "catacombs",
+              "theatre",
+              "plaka"
+            ],
+            "editorialNote": "Paleocristiano y antiguo por la mañana, Plaka al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Sur y Pollonia",
+            "zone": "Fyriplaka → Pollonia",
+            "stopIds": [
+              "fyriplaka",
+              "pollonia"
+            ],
+            "editorialNote": "Playa grande del sur y cena de pescadores en el noreste.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h, coche necesario.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Norte volcánico",
+            "zone": "Plaka → Klima → Sarakiniko",
+            "stopIds": [
+              "plaka",
+              "klima",
+              "sarakiniko"
+            ],
+            "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o quad.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Norte volcánico",
+            "zone": "Plaka → Klima → Sarakiniko",
+            "stopIds": [
+              "plaka",
+              "klima",
+              "sarakiniko"
+            ],
+            "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o quad.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Trypiti y la historia",
+            "zone": "Catacumbas → teatro → Plaka",
+            "stopIds": [
+              "catacombs",
+              "theatre",
+              "plaka"
+            ],
+            "editorialNote": "Paleocristiano y antiguo por la mañana, Plaka al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Norte volcánico",
+            "zone": "Plaka → Klima → Sarakiniko",
+            "stopIds": [
+              "plaka",
+              "klima",
+              "sarakiniko"
+            ],
+            "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o quad.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Trypiti y la historia",
+            "zone": "Catacumbas → teatro → Plaka",
+            "stopIds": [
+              "catacombs",
+              "theatre",
+              "plaka"
+            ],
+            "editorialNote": "Paleocristiano y antiguo por la mañana, Plaka al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Sur y Pollonia",
+            "zone": "Fyriplaka → Pollonia",
+            "stopIds": [
+              "fyriplaka",
+              "pollonia"
+            ],
+            "editorialNote": "Playa grande del sur y cena de pescadores en el noreste.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h, coche necesario.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Norte volcánico",
+            "zone": "Plaka → Klima → Sarakiniko",
+            "stopIds": [
+              "plaka",
+              "klima",
+              "sarakiniko"
+            ],
+            "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o quad.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Norte volcánico",
+            "zone": "Plaka → Klima → Sarakiniko",
+            "stopIds": [
+              "plaka",
+              "klima",
+              "sarakiniko"
+            ],
+            "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o quad.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Trypiti y la historia",
+            "zone": "Catacumbas → teatro → Plaka",
+            "stopIds": [
+              "catacombs",
+              "theatre",
+              "plaka"
+            ],
+            "editorialNote": "Paleocristiano y antiguo por la mañana, Plaka al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Norte volcánico",
+            "zone": "Plaka → Klima → Sarakiniko",
+            "stopIds": [
+              "plaka",
+              "klima",
+              "sarakiniko"
+            ],
+            "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o quad.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Trypiti y la historia",
+            "zone": "Catacumbas → teatro → Plaka",
+            "stopIds": [
+              "catacombs",
+              "theatre",
+              "plaka"
+            ],
+            "editorialNote": "Paleocristiano y antiguo por la mañana, Plaka al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Sur y Pollonia",
+            "zone": "Fyriplaka → Pollonia",
+            "stopIds": [
+              "fyriplaka",
+              "pollonia"
+            ],
+            "editorialNote": "Playa grande del sur y cena de pescadores en el noreste.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h, coche necesario.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Norte volcánico",
+            "zone": "Plaka → Klima → Sarakiniko",
+            "stopIds": [
+              "plaka",
+              "klima",
+              "sarakiniko"
+            ],
+            "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o quad.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Norte volcánico",
+            "zone": "Plaka → Klima → Sarakiniko",
+            "stopIds": [
+              "plaka",
+              "klima",
+              "sarakiniko"
+            ],
+            "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o quad.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Trypiti y la historia",
+            "zone": "Catacumbas → teatro → Plaka",
+            "stopIds": [
+              "catacombs",
+              "theatre",
+              "plaka"
+            ],
+            "editorialNote": "Paleocristiano y antiguo por la mañana, Plaka al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Norte volcánico",
+            "zone": "Plaka → Klima → Sarakiniko",
+            "stopIds": [
+              "plaka",
+              "klima",
+              "sarakiniko"
+            ],
+            "editorialNote": "Capital, casetas de colores y roca lunar en un día de norte.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o quad.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Trypiti y la historia",
+            "zone": "Catacumbas → teatro → Plaka",
+            "stopIds": [
+              "catacombs",
+              "theatre",
+              "plaka"
+            ],
+            "editorialNote": "Paleocristiano y antiguo por la mañana, Plaka al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Sur y Pollonia",
+            "zone": "Fyriplaka → Pollonia",
+            "stopIds": [
+              "fyriplaka",
+              "pollonia"
+            ],
+            "editorialNote": "Playa grande del sur y cena de pescadores en el noreste.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h, coche necesario.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    }
+  },
+  "seasonalVariants": {},
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Todo abierto y muy lleno en julio-agosto; calor fuerte al mediodía. Reservas y madrugar.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Temporada baja real: gran parte de hoteles, tabernas y servicios turísticos cierran de noviembre a marzo y los ferris se reducen; comprobar antes de ir.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Buen equilibrio: casi todo abierto hasta finales de octubre, mar templado en otoño y menos gente.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Navidad de vida local, sin mercado turístico verificado; yacimientos y museos estatales cierran 25-26/12 y 1/1. No inventamos feria ni programa.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "excursions": [],
+  "cautions": [
+    "Milos se recorre en coche o quad: distancias cortas pero transporte público limitado.",
+    "Sarakiniko sin sombra ni servicios: agua y protección.",
+    "Sin mercado navideño verificado: no inventamos feria ni programa.",
+    "Nada comprado: ferris, hoteles y traslados no incluidos."
+  ],
+  "sources": [
+    {
+      "id": "visitgreece",
+      "title": "Visit Greece: Milos",
+      "url": "https://www.visitgreece.gr/islands/cyclades/milos/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lp",
+      "title": "Lonely Planet",
+      "url": "https://www.lonelyplanet.com/greece",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "culture",
+      "title": "Ministerio de Cultura de Grecia",
+      "url": "https://www.culture.gov.gr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "excludedOrOptional": []
+}

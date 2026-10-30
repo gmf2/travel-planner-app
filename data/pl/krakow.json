@@ -358,6 +358,38 @@
         "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
         "source": "https://commons.wikimedia.org/wiki/File:%CE%91%CE%BB%CE%B1%CF%84%CF%89%CF%81%CF%85%CF%87%CE%B5%CE%AF%CE%B1_%CE%92%CE%B9%CE%B5%CE%BB%CE%AF%CF%84%CF%83%CE%BA%CE%B1_5021.jpg"
       }
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Jarmark Bożonarodzeniowy",
+      "kind": "event",
+      "zone": "Rynek Główny",
+      "reason": "El Jarmark del Rynek Główny: el gran mercado navideño de Cracovia.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 50.0614956,
+        "lon": 19.9371133
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Rynek+Główny,+Kraków (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-27 a 2027-01-06 (https://turystykakrakow.pl). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/krakow/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2025_Krak%C3%B3w_jarmark_bo%C5%BConarodzeniowy_05.jpg",
+        "author": "Zala",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -602,17 +634,17 @@
   "events": [
     {
       "id": "market",
-      "name": "Mercado navideño del Rynek",
+      "name": "Jarmark Bożonarodzeniowy (Rynek)",
       "kind": "event",
       "startDate": "2026-11-27",
-      "endDate": null,
+      "endDate": "2027-01-06",
       "sourceId": "christmas",
       "location": "Rynek Główny",
-      "status": "planned",
+      "status": "announced",
       "closedDates": [],
-      "note": "Final propuesto 3 o 6 de enero de 2027. No es fecha definitiva.",
+      "note": "cierre provisional. Fuente: https://turystykakrakow.pl (calendario oficial)",
       "appliesTo": "event-only",
-      "reviewedAt": "2026-10-28"
+      "reviewedAt": "2026-10-30"
     }
   ],
   "cautions": [
@@ -660,13 +692,6 @@
       "title": "Visit Krakow: qué ver",
       "url": "https://visitkrakow.com/things-to-do-in-krakow/",
       "type": "commercial-guide",
-      "retrievedAt": "2026-10-28"
-    },
-    {
-      "id": "christmas",
-      "title": "Organizador Artim",
-      "url": "https://kiermasze.com.pl/",
-      "type": "operator",
       "retrievedAt": "2026-10-28"
     },
     {
@@ -766,6 +791,13 @@
       "url": "https://wawel.krakow.pl/en/what-to-see",
       "type": "operator",
       "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Jarmark Bożonarodzeniowy (Rynek)",
+      "url": "https://turystykakrakow.pl",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -1181,7 +1213,8 @@
             "stopIds": [
               "wawel",
               "rynek",
-              "mary"
+              "mary",
+              "xmas-market"
             ],
             "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
             "optionalStopIds": [],
@@ -1213,7 +1246,8 @@
             "stopIds": [
               "wawel",
               "rynek",
-              "mary"
+              "mary",
+              "xmas-market"
             ],
             "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
             "optionalStopIds": [],
@@ -1276,7 +1310,8 @@
             "stopIds": [
               "wawel",
               "rynek",
-              "mary"
+              "mary",
+              "xmas-market"
             ],
             "editorialNote": "Conectar Wawel con el Rynek por Kanonicza y Grodzka. Elegir un interior del castillo o catedral, con pausas.",
             "optionalStopIds": [],

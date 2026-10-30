@@ -346,6 +346,38 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Plaza exterior; museos aparte"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Vörösmarty Classic Xmas",
+      "kind": "event",
+      "zone": "Vörösmarty tér",
+      "reason": "El mercado de la plaza Vörösmarty: el clásico navideño de Budapest, al final de la jornada.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 47.4963706,
+        "lon": 19.0504065
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Vörösmarty+tér,+Budapest (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-13 a 2027-01-01 (https://vorosmartyclassicxmas.hu/en/opening-hours/). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/budapest/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Budapest_Christmas_Market_(8227361197).jpg",
+        "author": "Top Budapest",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -464,7 +496,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Vörösmarty Classic Xmas",
+      "kind": "event",
+      "startDate": "2026-11-13",
+      "endDate": "2027-01-01",
+      "sourceId": "christmas",
+      "location": "Vörösmarty tér",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://vorosmartyclassicxmas.hu/en/opening-hours/",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No hay reservas ni entradas compradas. Parlamento puede cancelar por actos oficiales.",
     "Széchenyi no es una actividad para menores de 14 por defecto; consultar condiciones médicas.",
@@ -622,6 +669,13 @@
       "url": "https://retrolangos.hu/en/menu/",
       "type": "official",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Vörösmarty Classic Xmas",
+      "url": "https://vorosmartyclassicxmas.hu/en/opening-hours/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -824,7 +878,8 @@
             "stopIds": [
               "parliament",
               "shoes",
-              "basilica"
+              "basilica",
+              "xmas-market"
             ],
             "editorialNote": "Un día corto para Pest, sin prometer castillo, baños y varias visitas interiores.",
             "optionalStopIds": [],
@@ -842,7 +897,8 @@
               "parliament",
               "shoes",
               "basilica",
-              "synagogue"
+              "synagogue",
+              "xmas-market"
             ],
             "editorialNote": "Si se entra al Parlamento, es la visita interior principal. Basílica y sinagoga quedan exteriores; si se prefiere sinagoga, sustituir el tour y ajustar sábados y fiestas.",
             "optionalStopIds": [],
@@ -873,7 +929,8 @@
               "parliament",
               "shoes",
               "basilica",
-              "synagogue"
+              "synagogue",
+              "xmas-market"
             ],
             "editorialNote": "Si se entra al Parlamento, es la visita interior principal. Basílica y sinagoga quedan exteriores; si se prefiere sinagoga, sustituir el tour y ajustar sábados y fiestas.",
             "optionalStopIds": [],

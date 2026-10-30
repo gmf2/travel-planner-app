@@ -406,6 +406,38 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Alternativa a Josefov; visita guiada de pago con escaleras"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Mercado de la Plaza Vieja",
+      "kind": "event",
+      "zone": "Staroměstské náměstí",
+      "reason": "El mercado de la Plaza Vieja: el clásico navideño de Praga.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 50.0874453,
+        "lon": 14.4209714
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Staroměstské+náměstí,+Praha (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-28 a 2027-01-06 (https://trhypraha.cz/en/markets/list-of-markets/christmas-markets-2026). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Christmas_market_Prague_2024.jpg",
+        "author": "Helena Melezínková",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -531,7 +563,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Mercado de la Plaza Vieja",
+      "kind": "event",
+      "startDate": "2026-11-28",
+      "endDate": "2027-01-06",
+      "sourceId": "christmas",
+      "location": "Staroměstské náměstí",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://trhypraha.cz/en/markets/list-of-markets/christmas-markets-2026",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Museo Judío cierra sábados y fiestas judías: comprobar año y día antes de elegir orden.",
     "Castillo y catedral sujetos a ceremonias; bibliotecas y torres requieren su propia modalidad.",
@@ -654,6 +701,13 @@
       "url": "https://www.sistersbistro.cz/en/",
       "type": "official",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Mercado de la Plaza Vieja",
+      "url": "https://trhypraha.cz/en/markets/list-of-markets/christmas-markets-2026",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -870,7 +924,8 @@
             "stopIds": [
               "oldtown",
               "bridge",
-              "kampa"
+              "kampa",
+              "xmas-market"
             ],
             "editorialNote": "Un día para el centro y el río. Ver el castillo desde la ciudad, sin prometer circuito completo al otro lado y varias sinagogas en la misma jornada.",
             "optionalStopIds": [
@@ -889,7 +944,8 @@
             "stopIds": [
               "bridge",
               "oldtown",
-              "jewish"
+              "jewish",
+              "xmas-market"
             ],
             "editorialNote": "Un circuito principal con tiempo para comer y caminar; sábados y fiestas judías cambiar esta jornada si se busca el interior. Klementinum es una sustitución, no un añadido.",
             "optionalStopIds": [
@@ -922,7 +978,8 @@
             "stopIds": [
               "bridge",
               "oldtown",
-              "jewish"
+              "jewish",
+              "xmas-market"
             ],
             "editorialNote": "Un circuito principal con tiempo para comer y caminar; sábados y fiestas judías cambiar esta jornada si se busca el interior. Klementinum es una sustitución, no un añadido.",
             "optionalStopIds": [

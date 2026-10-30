@@ -377,6 +377,38 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Museo de pago; sustitución"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Mercatini di Natale",
+      "kind": "event",
+      "zone": "centro (zona aproximada)",
+      "reason": "Los mercadillos del centro de Génova: paseo navideño por el casco histórico.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 44.407103,
+        "lon": 8.9325604
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Piazza+Giacomo+Matteotti,+Genova (OpenStreetMap) (ubicación aproximada del centro del evento)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "El punto del mapa marca el centro aproximado del evento, no una entrada exacta. Fechas 2026 estimadas por prensa especializada, sin confirmación oficial: 2026-11-28 a 2026-12-24. Verificar antes de planear el día alrededor del mercado.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/genoa/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Ges%C3%B9_e_dei_Santi_Ambrogio_e_Andrea_christmas_market.jpg",
+        "author": "Panek",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -507,7 +539,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Mercatini di Natale",
+      "kind": "event",
+      "startDate": "2026-11-28",
+      "endDate": "2026-12-24",
+      "sourceId": "christmas",
+      "location": "centro",
+      "status": "expected",
+      "closedDates": [],
+      "note": "Fechas estimadas a partir de prensa especializada; sin confirmación oficial todavía. Fuente: aggregator, sin fuente oficial aún",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No entradas, mesas ni transporte comprados. Precios y horarios revisados, no disponibilidad para una fecha concreta.",
     "Rosso tiene ascensor fuera de servicio según aviso actual: no venderlo como accesible sin nueva confirmación.",
@@ -671,6 +718,13 @@
       "title": "Mario: focaccia y alérgenos",
       "url": "https://www.panificiomario.it/",
       "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Mercatini di Natale",
+      "url": "aggregator,",
+      "type": "editorial",
       "retrievedAt": "2026-10-30"
     }
   ],
@@ -899,7 +953,8 @@
               "ferrari",
               "lorenzo",
               "caruggi",
-              "porto"
+              "porto",
+              "xmas-market"
             ],
             "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
             "optionalStopIds": [
@@ -920,7 +975,8 @@
               "ferrari",
               "lorenzo",
               "caruggi",
-              "porto"
+              "porto",
+              "xmas-market"
             ],
             "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
             "optionalStopIds": [
@@ -954,7 +1010,8 @@
               "ferrari",
               "lorenzo",
               "caruggi",
-              "porto"
+              "porto",
+              "xmas-market"
             ],
             "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
             "optionalStopIds": [

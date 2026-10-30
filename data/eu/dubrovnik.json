@@ -409,6 +409,36 @@
         "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
         "caption": "Puerto de Lokrum en archivo; no foto del monasterio ni garantía de barcos para otra fecha. Recorte de presentación."
       }
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Advent u Gradu",
+      "kind": "event",
+      "zone": "Stradun",
+      "reason": "El Adviento en el Stradun: el paseo navideño central de Dubrovnik.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 42.6416818,
+        "lon": 18.1072678
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Stradun,+Dubrovnik (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-28 a 2027-01-03 (https://www.dubrovnik.hr). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dubrovnik/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:28.12.16%20Stradun%20Dubrovnik%2010%20%2831139741783%29.jpg",
+        "author": "donald judge",
+        "license": "CC BY 2.0",
+        "caption": "Stradun con decoración del Winter Festival; archivo de diciembre de 2016: no son los puestos del mercado de 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -539,7 +569,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Advent u Gradu",
+      "kind": "event",
+      "startDate": "2026-11-28",
+      "endDate": "2027-01-03",
+      "sourceId": "christmas",
+      "location": "Stradun",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://www.dubrovnik.hr",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Escaleras, calor y piedra resbaladiza: casco compacto no significa jornada ligera.",
     "Teleférico cerrado de diciembre a marzo; Lokrum solo con barco y acceso confirmados para la fecha.",
@@ -709,6 +754,13 @@
       "id": "pantarulcontact",
       "title": "Pantarul: contacto 24 h discrepante",
       "url": "https://www.pantarul.com/contact/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Advent u Gradu",
+      "url": "https://www.dubrovnik.hr",
       "type": "official",
       "retrievedAt": "2026-10-30"
     }
@@ -935,7 +987,8 @@
               "walls",
               "stradun",
               "jesuit",
-              "port"
+              "port",
+              "xmas-market"
             ],
             "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
             "optionalStopIds": [
@@ -956,7 +1009,8 @@
               "walls",
               "stradun",
               "jesuit",
-              "port"
+              "port",
+              "xmas-market"
             ],
             "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
             "optionalStopIds": [
@@ -990,7 +1044,8 @@
               "walls",
               "stradun",
               "jesuit",
-              "port"
+              "port",
+              "xmas-market"
             ],
             "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
             "optionalStopIds": [

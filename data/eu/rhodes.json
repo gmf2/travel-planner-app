@@ -1,0 +1,753 @@
+{
+  "id": "rhodes",
+  "catalogId": "rhodes",
+  "name": "Rodas",
+  "localName": "Ρόδος",
+  "country": "GR",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "status": "editorially-reviewed-pilot",
+  "reviewedAt": "2026-10-30",
+  "selectionReason": "Isla griega solicitada en ampliación (petición del usuario 30/10/2026).",
+  "discoveryReview": "Contenido construido con fuentes oficiales de turismo y editoriales reconocidas; horarios y cierres marcados para comprobación.",
+  "editorialAudit": [
+    "Paradas geocodificadas con OpenStreetMap/Nominatim y revisión editorial.",
+    "Fotos de Wikimedia Commons con licencia y autor registrados.",
+    "Sin mercado navideño verificado: modo Navidad muestra aviso honesto."
+  ],
+  "planningAssumptions": "Sin fechas ni reservas. Planes de uno a tres días; ferris, hoteles y traslados no incluidos.",
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "stops": [
+    {
+      "id": "oldtown",
+      "name": "Casco medieval de los Caballeros",
+      "kind": "visit",
+      "zone": "Ciudad vieja",
+      "reason": "La ciudad amurallada de los Hospitalarios: una de las medievales mejor conservadas de Europa.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.4428073,
+        "lon": 28.2263078
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Medieval%20City%20of%20Rhodes (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Calles empedradas y desnivel; calzado cómodo. Zona viva, no museo vacío.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rhodes/oldtown.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:ImageRhodes_Old_Town_Medieval_Street_3.jpg",
+        "author": "Shadowgate",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "palace",
+      "name": "Palacio del Gran Maestre",
+      "kind": "visit",
+      "zone": "Ciudad vieja",
+      "reason": "La fortaleza-palacio reconstruida que corona la ciudad vieja.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.445771,
+        "lon": 28.2236863
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Palace%20of%20the%20Grand%20Master%2C%20Rhodes",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Entrada de pago; comprobar horario y cierre semanal.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rhodes/palace.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Old_palace_Rhodes.jpg",
+        "author": "Jebulon",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior libre; interior con entrada"
+    },
+    {
+      "id": "knights",
+      "name": "Calle de los Caballeros",
+      "kind": "visit",
+      "zone": "Ciudad vieja",
+      "reason": "La calle de las posadas de las lenguas: el tramo medieval más intacto.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.4450331,
+        "lon": 28.2258857
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Street%20of%20the%20Knights%2C%20Rhodes",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Empedrado pulido que resbala; cuesta arriba.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rhodes/knights.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Auberge_of_Provence_and_Arcade_of_the_Street_of_the_Knights,_Medieval_City_of_Rhodes,_Greece.jpg",
+        "author": "Julian Lupyan",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "mandraki",
+      "name": "Puerto de Mandraki",
+      "kind": "visit",
+      "zone": "Ciudad nueva",
+      "reason": "El puerto de los ciervos y los molinos, donde la leyenda sitúa el Coloso.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.447224,
+        "lon": 28.2262478
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Μανδράκι, Ρόδος (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Paseo libre; barcos turísticos con precios variables.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rhodes/mandraki.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:M_moored_at_Quay_in_Mandraki_Marina_Mandraki_Harbour_Rhodes_26_August_2024.jpg",
+        "author": "Pjotr Mahhonin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "lindos",
+      "name": "Lindos y su acrópolis",
+      "kind": "visit",
+      "zone": "Lindos (50 km)",
+      "reason": "El pueblo blanco con acrópolis sobre la bahía: la segunda gran imagen de la isla.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.08333333,
+        "lon": 28.08333333
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Lindos (coordenadas del artículo)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "A 50 km: bus regular o coche, casi día completo. Acrópolis de pago, con cuestas y calor.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rhodes/lindos.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Lindos._View_of_the_Acropolis_and_town_from_the_north-east._Rhodes,_Greece.jpg",
+        "author": "Ввласенко",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Pueblo libre; acrópolis con entrada"
+    },
+    {
+      "id": "elli",
+      "name": "Playa Elli",
+      "kind": "visit",
+      "zone": "Ciudad nueva",
+      "reason": "La playa urbana entre casino y puerto: baño sin salir de la ciudad.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.4555474,
+        "lon": 28.2217265
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Elli%20Beach%2C%20Rhodes",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Hamacas de pago en temporada.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rhodes/elli.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Aquarium_of_Rhodes_at_Elli_Beach_Rhodes_3_September_2023.jpg",
+        "author": "Pjotr Mahhonin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "montesmith",
+      "name": "Acrópolis de Rodas (Monte Smith)",
+      "kind": "visit",
+      "zone": "Monte Smith",
+      "reason": "Templo de Apolo, estadio y odeón con vistas al oeste de la isla.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.4438806,
+        "lon": 28.2115434
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Monte%20Smith%2C%20Rhodes (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Recinto abierto con poca sombra; atardecer recomendable.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rhodes/montesmith.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Acropolis_of_Rhodes,_Stadium.jpg",
+        "author": "Burkhard Mücke",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Recinto abierto de acceso libre"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "La ciudad de los Caballeros",
+          "zone": "Murallas → palacio → caballeros → Mandraki",
+          "stopIds": [
+            "oldtown",
+            "palace",
+            "knights",
+            "mandraki"
+          ],
+          "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h a pie.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "La ciudad de los Caballeros",
+          "zone": "Murallas → palacio → caballeros → Mandraki",
+          "stopIds": [
+            "oldtown",
+            "palace",
+            "knights",
+            "mandraki"
+          ],
+          "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h a pie.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Lindos, el clásico del sur",
+          "zone": "Lindos",
+          "stopIds": [
+            "lindos"
+          ],
+          "editorialNote": "Día dedicado: pueblo, acrópolis y bahía.",
+          "optionalStopIds": [],
+          "pacing": "Día completo con bus o coche.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "La ciudad de los Caballeros",
+          "zone": "Murallas → palacio → caballeros → Mandraki",
+          "stopIds": [
+            "oldtown",
+            "palace",
+            "knights",
+            "mandraki"
+          ],
+          "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h a pie.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Lindos, el clásico del sur",
+          "zone": "Lindos",
+          "stopIds": [
+            "lindos"
+          ],
+          "editorialNote": "Día dedicado: pueblo, acrópolis y bahía.",
+          "optionalStopIds": [],
+          "pacing": "Día completo con bus o coche.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Ciudad nueva y Monte Smith",
+          "zone": "Elli → Monte Smith",
+          "stopIds": [
+            "elli",
+            "montesmith"
+          ],
+          "editorialNote": "Mañana de playa urbana y tarde de yacimiento al atardecer.",
+          "optionalStopIds": [],
+          "pacing": "4-6 h.",
+          "geographyChecks": []
+        }
+      ]
+    }
+  },
+  "seasonalPlans": {
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad de los Caballeros",
+            "zone": "Murallas → palacio → caballeros → Mandraki",
+            "stopIds": [
+              "oldtown",
+              "palace",
+              "knights",
+              "mandraki"
+            ],
+            "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h a pie.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad de los Caballeros",
+            "zone": "Murallas → palacio → caballeros → Mandraki",
+            "stopIds": [
+              "oldtown",
+              "palace",
+              "knights",
+              "mandraki"
+            ],
+            "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Lindos, el clásico del sur",
+            "zone": "Lindos",
+            "stopIds": [
+              "lindos"
+            ],
+            "editorialNote": "Día dedicado: pueblo, acrópolis y bahía.",
+            "optionalStopIds": [],
+            "pacing": "Día completo con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad de los Caballeros",
+            "zone": "Murallas → palacio → caballeros → Mandraki",
+            "stopIds": [
+              "oldtown",
+              "palace",
+              "knights",
+              "mandraki"
+            ],
+            "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Lindos, el clásico del sur",
+            "zone": "Lindos",
+            "stopIds": [
+              "lindos"
+            ],
+            "editorialNote": "Día dedicado: pueblo, acrópolis y bahía.",
+            "optionalStopIds": [],
+            "pacing": "Día completo con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Ciudad nueva y Monte Smith",
+            "zone": "Elli → Monte Smith",
+            "stopIds": [
+              "elli",
+              "montesmith"
+            ],
+            "editorialNote": "Mañana de playa urbana y tarde de yacimiento al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad de los Caballeros",
+            "zone": "Murallas → palacio → caballeros → Mandraki",
+            "stopIds": [
+              "oldtown",
+              "palace",
+              "knights",
+              "mandraki"
+            ],
+            "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h a pie.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad de los Caballeros",
+            "zone": "Murallas → palacio → caballeros → Mandraki",
+            "stopIds": [
+              "oldtown",
+              "palace",
+              "knights",
+              "mandraki"
+            ],
+            "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Lindos, el clásico del sur",
+            "zone": "Lindos",
+            "stopIds": [
+              "lindos"
+            ],
+            "editorialNote": "Día dedicado: pueblo, acrópolis y bahía.",
+            "optionalStopIds": [],
+            "pacing": "Día completo con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad de los Caballeros",
+            "zone": "Murallas → palacio → caballeros → Mandraki",
+            "stopIds": [
+              "oldtown",
+              "palace",
+              "knights",
+              "mandraki"
+            ],
+            "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Lindos, el clásico del sur",
+            "zone": "Lindos",
+            "stopIds": [
+              "lindos"
+            ],
+            "editorialNote": "Día dedicado: pueblo, acrópolis y bahía.",
+            "optionalStopIds": [],
+            "pacing": "Día completo con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Ciudad nueva y Monte Smith",
+            "zone": "Elli → Monte Smith",
+            "stopIds": [
+              "elli",
+              "montesmith"
+            ],
+            "editorialNote": "Mañana de playa urbana y tarde de yacimiento al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad de los Caballeros",
+            "zone": "Murallas → palacio → caballeros → Mandraki",
+            "stopIds": [
+              "oldtown",
+              "palace",
+              "knights",
+              "mandraki"
+            ],
+            "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h a pie.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad de los Caballeros",
+            "zone": "Murallas → palacio → caballeros → Mandraki",
+            "stopIds": [
+              "oldtown",
+              "palace",
+              "knights",
+              "mandraki"
+            ],
+            "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Lindos, el clásico del sur",
+            "zone": "Lindos",
+            "stopIds": [
+              "lindos"
+            ],
+            "editorialNote": "Día dedicado: pueblo, acrópolis y bahía.",
+            "optionalStopIds": [],
+            "pacing": "Día completo con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad de los Caballeros",
+            "zone": "Murallas → palacio → caballeros → Mandraki",
+            "stopIds": [
+              "oldtown",
+              "palace",
+              "knights",
+              "mandraki"
+            ],
+            "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Lindos, el clásico del sur",
+            "zone": "Lindos",
+            "stopIds": [
+              "lindos"
+            ],
+            "editorialNote": "Día dedicado: pueblo, acrópolis y bahía.",
+            "optionalStopIds": [],
+            "pacing": "Día completo con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Ciudad nueva y Monte Smith",
+            "zone": "Elli → Monte Smith",
+            "stopIds": [
+              "elli",
+              "montesmith"
+            ],
+            "editorialNote": "Mañana de playa urbana y tarde de yacimiento al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad de los Caballeros",
+            "zone": "Murallas → palacio → caballeros → Mandraki",
+            "stopIds": [
+              "oldtown",
+              "palace",
+              "knights",
+              "mandraki"
+            ],
+            "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h a pie.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad de los Caballeros",
+            "zone": "Murallas → palacio → caballeros → Mandraki",
+            "stopIds": [
+              "oldtown",
+              "palace",
+              "knights",
+              "mandraki"
+            ],
+            "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Lindos, el clásico del sur",
+            "zone": "Lindos",
+            "stopIds": [
+              "lindos"
+            ],
+            "editorialNote": "Día dedicado: pueblo, acrópolis y bahía.",
+            "optionalStopIds": [],
+            "pacing": "Día completo con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad de los Caballeros",
+            "zone": "Murallas → palacio → caballeros → Mandraki",
+            "stopIds": [
+              "oldtown",
+              "palace",
+              "knights",
+              "mandraki"
+            ],
+            "editorialNote": "El medieval completo a pie, sin prisa ni añadidos.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Lindos, el clásico del sur",
+            "zone": "Lindos",
+            "stopIds": [
+              "lindos"
+            ],
+            "editorialNote": "Día dedicado: pueblo, acrópolis y bahía.",
+            "optionalStopIds": [],
+            "pacing": "Día completo con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Ciudad nueva y Monte Smith",
+            "zone": "Elli → Monte Smith",
+            "stopIds": [
+              "elli",
+              "montesmith"
+            ],
+            "editorialNote": "Mañana de playa urbana y tarde de yacimiento al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    }
+  },
+  "seasonalVariants": {},
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Todo abierto y muy lleno en julio-agosto; calor fuerte al mediodía. Reservas y madrugar.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Temporada baja real: gran parte de hoteles, tabernas y servicios turísticos cierran de noviembre a marzo y los ferris se reducen; comprobar antes de ir.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Buen equilibrio: casi todo abierto hasta finales de octubre, mar templado en otoño y menos gente.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Navidad de vida local, sin mercado turístico verificado; yacimientos y museos estatales cierran 25-26/12 y 1/1. No inventamos feria ni programa.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "excursions": [],
+  "cautions": [
+    "Lindos está a unos 50 km: no cabe como parada rápida de una mañana urbana.",
+    "Palacio y museos estatales con cierre semanal habitual: comprobar día.",
+    "Sin mercado navideño verificado: no inventamos feria ni programa.",
+    "Nada comprado: ferris, hoteles y traslados no incluidos."
+  ],
+  "sources": [
+    {
+      "id": "visitgreece",
+      "title": "Visit Greece: Rhodes",
+      "url": "https://www.visitgreece.gr/islands/dodecanese/rhodes/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lp",
+      "title": "Lonely Planet",
+      "url": "https://www.lonelyplanet.com/greece",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "culture",
+      "title": "Ministerio de Cultura de Grecia",
+      "url": "https://www.culture.gov.gr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "excludedOrOptional": []
+}

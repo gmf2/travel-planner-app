@@ -1,0 +1,769 @@
+{
+  "id": "mykonos",
+  "catalogId": "mykonos",
+  "name": "Mykonos",
+  "localName": "Μύκονος",
+  "country": "GR",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "status": "editorially-reviewed-pilot",
+  "reviewedAt": "2026-10-30",
+  "selectionReason": "Isla griega solicitada en ampliación (petición del usuario 30/10/2026).",
+  "discoveryReview": "Contenido construido con fuentes oficiales de turismo y editoriales reconocidas; horarios y cierres marcados para comprobación.",
+  "editorialAudit": [
+    "Paradas geocodificadas con OpenStreetMap/Nominatim y revisión editorial.",
+    "Fotos de Wikimedia Commons con licencia y autor registrados.",
+    "Sin mercado navideño verificado: modo Navidad muestra aviso honesto."
+  ],
+  "planningAssumptions": "Sin fechas ni reservas. Planes de uno a tres días; ferris, hoteles y traslados no incluidos.",
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "stops": [
+    {
+      "id": "chora",
+      "name": "Chora · casco laberíntico",
+      "kind": "visit",
+      "zone": "Mykonos Town",
+      "reason": "Calles encaladas pensadas para despistar piratas; perderse es el plan.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.4450377,
+        "lon": 25.3259658
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Mykonos%20Town%2C%20Greece",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Compras y terrazas con precios de isla cara; mirar carta antes de sentarse.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/mykonos/chora.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Chora_Street,_Mykonos,_Greece_(53502210777).jpg",
+        "author": "Warren LeMay from Chicago, IL, United States",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "littlevenice",
+      "name": "Little Venice",
+      "kind": "visit",
+      "zone": "Mykonos Town",
+      "reason": "Casas colgadas sobre el mar: la imagen clásica al atardecer.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.4467389,
+        "lon": 25.3259023
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Μικρή Βενετία, Μύκονος (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Terrazas caras; el paseo exterior es gratis y da la misma foto.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/mykonos/littlevenice.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Dinner_with_a_view_of_Little_Venice,_Mykonos.jpg",
+        "author": "Mustang Joe",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "windmills",
+      "name": "Molinos de Kato Mili",
+      "kind": "visit",
+      "zone": "Mykonos Town",
+      "reason": "Los molinos sobre el puerto, símbolo de la isla; mejor luz a primera y última hora.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.4445997,
+        "lon": 25.3256719
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Windmills%20of%20Mykonos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Exterior libre; interior no visitable salvo museo puntual.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/mykonos/windmills.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Mykonos_20a.jpg",
+        "author": "René Hourdry",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "paraportiani",
+      "name": "Paraportiani",
+      "kind": "visit",
+      "zone": "Mykonos Town",
+      "reason": "La iglesia-escultura de cinco capillas fundidas: la joya arquitectónica de la Chora.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.4471038,
+        "lon": 25.3257145
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Paraportiani%20Church%2C%20Mykonos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Templo en uso: respeto y sin flash si hay servicio.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/mykonos/paraportiani.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Church_of_Panagia_Paraportiani,_Chora_of_Mykonos,_247692.jpg",
+        "author": "Zde",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "anomera",
+      "name": "Ano Mera y Panagia Tourliani",
+      "kind": "visit",
+      "zone": "Interior",
+      "reason": "El pueblo interior con su monasterio del siglo XVI: la Mykonos sin postureo.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.4513937,
+        "lon": 25.3923149
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Ano%20Mera%2C%20Mykonos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Bus desde Chora o coche; horario del monasterio limitado.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/mykonos/anomera.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:GR-mykonos-anomera-tourl-kloster.jpg",
+        "author": "Bgabel",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Pueblo libre; monasterio con horario"
+    },
+    {
+      "id": "ornos",
+      "name": "Playa de Ornos",
+      "kind": "visit",
+      "zone": "Ornos",
+      "reason": "Playa familiar organizada y protegida del viento del norte.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.4223988,
+        "lon": 25.3219177
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Ornos%20beach%2C%20Mykonos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Hamacas de pago en temporada; la arena libre existe pero escasea.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/mykonos/ornos.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:GR-mykonos-ornos-beach.jpg",
+        "author": "Bgabel",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "lighthouse",
+      "name": "Faro Armenistis",
+      "kind": "visit",
+      "zone": "Noroeste",
+      "reason": "El faro de 1891 con vistas al Egeo abierto y a Tinos.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.4896586,
+        "lon": 25.31462
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Armenistis%20Lighthouse%2C%20Mykonos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Camino de tierra final; viento fuerte. Acceso exterior libre.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/mykonos/lighthouse.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Armenistis_Lighthouse,_Faros_Armenistis,_Greece_-_53496905520.jpg",
+        "author": "w_lemay",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Chora a pie y atardecer",
+          "zone": "Chora → molinos → Little Venice",
+          "stopIds": [
+            "chora",
+            "paraportiani",
+            "windmills",
+            "littlevenice"
+          ],
+          "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+          "optionalStopIds": [],
+          "pacing": "4-6 h, ritmo libre.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Chora a pie y atardecer",
+          "zone": "Chora → molinos → Little Venice",
+          "stopIds": [
+            "chora",
+            "paraportiani",
+            "windmills",
+            "littlevenice"
+          ],
+          "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+          "optionalStopIds": [],
+          "pacing": "4-6 h, ritmo libre.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Interior y playa",
+          "zone": "Ano Mera → Ornos",
+          "stopIds": [
+            "anomera",
+            "ornos"
+          ],
+          "editorialNote": "Mañana de monasterio y pueblo, tarde de playa protegida.",
+          "optionalStopIds": [],
+          "pacing": "5-6 h con bus o coche.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Chora a pie y atardecer",
+          "zone": "Chora → molinos → Little Venice",
+          "stopIds": [
+            "chora",
+            "paraportiani",
+            "windmills",
+            "littlevenice"
+          ],
+          "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+          "optionalStopIds": [],
+          "pacing": "4-6 h, ritmo libre.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Interior y playa",
+          "zone": "Ano Mera → Ornos",
+          "stopIds": [
+            "anomera",
+            "ornos"
+          ],
+          "editorialNote": "Mañana de monasterio y pueblo, tarde de playa protegida.",
+          "optionalStopIds": [],
+          "pacing": "5-6 h con bus o coche.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Faro y costa norte",
+          "zone": "Armenistis",
+          "stopIds": [
+            "lighthouse"
+          ],
+          "editorialNote": "Medio día de vistas abiertas lejos de la Chora.",
+          "optionalStopIds": [
+            "ornos"
+          ],
+          "pacing": "2-4 h, requiere coche o quad.",
+          "geographyChecks": []
+        }
+      ]
+    }
+  },
+  "seasonalPlans": {
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Chora a pie y atardecer",
+            "zone": "Chora → molinos → Little Venice",
+            "stopIds": [
+              "chora",
+              "paraportiani",
+              "windmills",
+              "littlevenice"
+            ],
+            "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, ritmo libre.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Chora a pie y atardecer",
+            "zone": "Chora → molinos → Little Venice",
+            "stopIds": [
+              "chora",
+              "paraportiani",
+              "windmills",
+              "littlevenice"
+            ],
+            "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, ritmo libre.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior y playa",
+            "zone": "Ano Mera → Ornos",
+            "stopIds": [
+              "anomera",
+              "ornos"
+            ],
+            "editorialNote": "Mañana de monasterio y pueblo, tarde de playa protegida.",
+            "optionalStopIds": [],
+            "pacing": "5-6 h con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Chora a pie y atardecer",
+            "zone": "Chora → molinos → Little Venice",
+            "stopIds": [
+              "chora",
+              "paraportiani",
+              "windmills",
+              "littlevenice"
+            ],
+            "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, ritmo libre.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior y playa",
+            "zone": "Ano Mera → Ornos",
+            "stopIds": [
+              "anomera",
+              "ornos"
+            ],
+            "editorialNote": "Mañana de monasterio y pueblo, tarde de playa protegida.",
+            "optionalStopIds": [],
+            "pacing": "5-6 h con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Faro y costa norte",
+            "zone": "Armenistis",
+            "stopIds": [
+              "lighthouse"
+            ],
+            "editorialNote": "Medio día de vistas abiertas lejos de la Chora.",
+            "optionalStopIds": [
+              "ornos"
+            ],
+            "pacing": "2-4 h, requiere coche o quad.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Chora a pie y atardecer",
+            "zone": "Chora → molinos → Little Venice",
+            "stopIds": [
+              "chora",
+              "paraportiani",
+              "windmills",
+              "littlevenice"
+            ],
+            "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, ritmo libre.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Chora a pie y atardecer",
+            "zone": "Chora → molinos → Little Venice",
+            "stopIds": [
+              "chora",
+              "paraportiani",
+              "windmills",
+              "littlevenice"
+            ],
+            "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, ritmo libre.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior y playa",
+            "zone": "Ano Mera → Ornos",
+            "stopIds": [
+              "anomera",
+              "ornos"
+            ],
+            "editorialNote": "Mañana de monasterio y pueblo, tarde de playa protegida.",
+            "optionalStopIds": [],
+            "pacing": "5-6 h con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Chora a pie y atardecer",
+            "zone": "Chora → molinos → Little Venice",
+            "stopIds": [
+              "chora",
+              "paraportiani",
+              "windmills",
+              "littlevenice"
+            ],
+            "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, ritmo libre.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior y playa",
+            "zone": "Ano Mera → Ornos",
+            "stopIds": [
+              "anomera",
+              "ornos"
+            ],
+            "editorialNote": "Mañana de monasterio y pueblo, tarde de playa protegida.",
+            "optionalStopIds": [],
+            "pacing": "5-6 h con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Faro y costa norte",
+            "zone": "Armenistis",
+            "stopIds": [
+              "lighthouse"
+            ],
+            "editorialNote": "Medio día de vistas abiertas lejos de la Chora.",
+            "optionalStopIds": [
+              "ornos"
+            ],
+            "pacing": "2-4 h, requiere coche o quad.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Chora a pie y atardecer",
+            "zone": "Chora → molinos → Little Venice",
+            "stopIds": [
+              "chora",
+              "paraportiani",
+              "windmills",
+              "littlevenice"
+            ],
+            "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, ritmo libre.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Chora a pie y atardecer",
+            "zone": "Chora → molinos → Little Venice",
+            "stopIds": [
+              "chora",
+              "paraportiani",
+              "windmills",
+              "littlevenice"
+            ],
+            "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, ritmo libre.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior y playa",
+            "zone": "Ano Mera → Ornos",
+            "stopIds": [
+              "anomera",
+              "ornos"
+            ],
+            "editorialNote": "Mañana de monasterio y pueblo, tarde de playa protegida.",
+            "optionalStopIds": [],
+            "pacing": "5-6 h con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Chora a pie y atardecer",
+            "zone": "Chora → molinos → Little Venice",
+            "stopIds": [
+              "chora",
+              "paraportiani",
+              "windmills",
+              "littlevenice"
+            ],
+            "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, ritmo libre.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior y playa",
+            "zone": "Ano Mera → Ornos",
+            "stopIds": [
+              "anomera",
+              "ornos"
+            ],
+            "editorialNote": "Mañana de monasterio y pueblo, tarde de playa protegida.",
+            "optionalStopIds": [],
+            "pacing": "5-6 h con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Faro y costa norte",
+            "zone": "Armenistis",
+            "stopIds": [
+              "lighthouse"
+            ],
+            "editorialNote": "Medio día de vistas abiertas lejos de la Chora.",
+            "optionalStopIds": [
+              "ornos"
+            ],
+            "pacing": "2-4 h, requiere coche o quad.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Chora a pie y atardecer",
+            "zone": "Chora → molinos → Little Venice",
+            "stopIds": [
+              "chora",
+              "paraportiani",
+              "windmills",
+              "littlevenice"
+            ],
+            "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, ritmo libre.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Chora a pie y atardecer",
+            "zone": "Chora → molinos → Little Venice",
+            "stopIds": [
+              "chora",
+              "paraportiani",
+              "windmills",
+              "littlevenice"
+            ],
+            "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, ritmo libre.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior y playa",
+            "zone": "Ano Mera → Ornos",
+            "stopIds": [
+              "anomera",
+              "ornos"
+            ],
+            "editorialNote": "Mañana de monasterio y pueblo, tarde de playa protegida.",
+            "optionalStopIds": [],
+            "pacing": "5-6 h con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Chora a pie y atardecer",
+            "zone": "Chora → molinos → Little Venice",
+            "stopIds": [
+              "chora",
+              "paraportiani",
+              "windmills",
+              "littlevenice"
+            ],
+            "editorialNote": "La ciudad entera en una tarde caminada, cerrando al atardecer.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, ritmo libre.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Interior y playa",
+            "zone": "Ano Mera → Ornos",
+            "stopIds": [
+              "anomera",
+              "ornos"
+            ],
+            "editorialNote": "Mañana de monasterio y pueblo, tarde de playa protegida.",
+            "optionalStopIds": [],
+            "pacing": "5-6 h con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Faro y costa norte",
+            "zone": "Armenistis",
+            "stopIds": [
+              "lighthouse"
+            ],
+            "editorialNote": "Medio día de vistas abiertas lejos de la Chora.",
+            "optionalStopIds": [
+              "ornos"
+            ],
+            "pacing": "2-4 h, requiere coche o quad.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    }
+  },
+  "seasonalVariants": {},
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Todo abierto y muy lleno en julio-agosto; calor fuerte al mediodía. Reservas y madrugar.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Temporada baja real: gran parte de hoteles, tabernas y servicios turísticos cierran de noviembre a marzo y los ferris se reducen; comprobar antes de ir.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Buen equilibrio: casi todo abierto hasta finales de octubre, mar templado en otoño y menos gente.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Navidad de vida local, sin mercado turístico verificado; yacimientos y museos estatales cierran 25-26/12 y 1/1. No inventamos feria ni programa.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "excursions": [],
+  "cautions": [
+    "Meltemi de julio-agosto: viento norte fuerte; playas del sur protegidas, las del norte batidas.",
+    "Precios de isla premium: cartas sin precio son mala señal.",
+    "Delos es excursión aparte (barco, horario y entrada propios), no un añadido de media hora.",
+    "Sin mercado navideño verificado: no inventamos feria ni programa.",
+    "Nada comprado: ferris, hoteles y traslados no incluidos."
+  ],
+  "sources": [
+    {
+      "id": "visitgreece",
+      "title": "Visit Greece: Mykonos",
+      "url": "https://www.visitgreece.gr/islands/cyclades/mykonos/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lp",
+      "title": "Lonely Planet",
+      "url": "https://www.lonelyplanet.com/greece",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "culture",
+      "title": "Ministerio de Cultura de Grecia",
+      "url": "https://www.culture.gov.gr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "excludedOrOptional": []
+}

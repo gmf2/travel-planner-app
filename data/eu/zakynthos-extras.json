@@ -1,0 +1,65 @@
+{
+  "cityId": "zakynthos",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "reviewedAt": "2026-10-30",
+  "scope": "food-activities",
+  "food": [
+    {
+      "id": "ladotyri",
+      "name": "Ladotyri y mandolato",
+      "description": "El queso curado en aceite y el turrón de almendra: despensa propia de Zante.",
+      "priceLabel": "4-12 €",
+      "address": "Mercado y tiendas de la ciudad",
+      "caution": "Producto local; tiendas del paseo caras.",
+      "strength": "Sabores propios de Zante.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "sartsa",
+      "name": "Guisos de taberna de pueblo",
+      "description": "Cordero y conejo en salsa en tabernas del interior, lejos del strip de Laganas.",
+      "priceLabel": "9-16 €",
+      "address": "Pueblos del interior (Keri, Volimes)",
+      "caution": "Cocina lenta: pedir y esperar.",
+      "strength": "La Zante de verdad se come dentro.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "turtleboat",
+      "name": "Barco tortugas y cuevas azules",
+      "description": "La salida clásica del sur: tortugas con distancia reglamentaria y cuevas del cabo Skinari o Keri.",
+      "priceLabel": "20-40 €",
+      "address": "Laganas / Agios Sostis / Porto Vromi",
+      "caution": "Sólo operadores autorizados del parque marino; oleaje manda.",
+      "strength": "El parque marino desde el agua.",
+      "status": "seasonal",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ]
+}

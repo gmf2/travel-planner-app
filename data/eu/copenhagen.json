@@ -471,6 +471,35 @@
         "caption": "Entrada de Christiania, archivo; no autoriza fotografiar residentes o interiores. Recorte de presentación."
       },
       "visitMode": "Barrio residencial; acceso y normas locales"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Jul i Tivoli",
+      "kind": "event",
+      "zone": "Tivoli Gardens",
+      "reason": "Navidad en Tivoli: el parque iluminado es en sí mismo el mercado y el plan de tarde.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 55.6734161,
+        "lon": 12.5691819
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Tivoli,+København (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-13 a 2027-01-03 (https://www.tivoli.dk). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Christmas%20market%20at%20Tivoli%2C%20Copenhagen%20%2823307596954%29.jpg",
+        "author": "Maria  Eklind",
+        "license": "CC BY-SA 2.0"
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -596,7 +625,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Jul i Tivoli",
+      "kind": "event",
+      "startDate": "2026-11-13",
+      "endDate": "2027-01-03",
+      "sourceId": "christmas",
+      "location": "Tivoli Gardens",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://www.tivoli.dk",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Ninguna entrada, mesa o actividad reservada. Importes en coronas danesas, no euros.",
     "Rundetårn 60 DKK y no Copenhagen Card, entrada ordinaria sin preventa; guía 2025 de 40 DKK obsoleta.",
@@ -769,6 +813,13 @@
       "url": "https://www.eater.com/venue/96324/hart-bageri-holmen",
       "type": "editorial",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Jul i Tivoli",
+      "url": "https://www.tivoli.dk",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -986,7 +1037,8 @@
               "nyhavn",
               "amalienborg",
               "design",
-              "kastellet"
+              "kastellet",
+              "xmas-market"
             ],
             "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
             "optionalStopIds": [],
@@ -1004,7 +1056,8 @@
               "nyhavn",
               "amalienborg",
               "design",
-              "kastellet"
+              "kastellet",
+              "xmas-market"
             ],
             "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
             "optionalStopIds": [],
@@ -1037,7 +1090,8 @@
               "nyhavn",
               "amalienborg",
               "design",
-              "kastellet"
+              "kastellet",
+              "xmas-market"
             ],
             "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
             "optionalStopIds": [],

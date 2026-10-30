@@ -577,6 +577,38 @@
         "licenseURL": "https://www.pexels.com/license/",
         "caption": "Monasterio de Montserrat y entorno de montaña"
       }
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Fira de Nadal de la Sagrada Família",
+      "kind": "event",
+      "zone": "Sagrada Família",
+      "reason": "La feria clásica de Navidad junto a la Sagrada Família; paseo corto al final del día.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 41.4035046,
+        "lon": 2.1744283
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Sagrada+Família,+Barcelona (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-28 a 2027-01-04 (https://www.barcelona.cat). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:113_Fira_de_Nadal_de_la_Sagrada_Fam%C3%ADlia_(Barcelona),_pl._Sagrada_Fam%C3%ADlia,_Nadal_2024.jpg",
+        "author": "Enric",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -728,7 +760,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Fira de Nadal de la Sagrada Família",
+      "kind": "event",
+      "startDate": "2026-11-28",
+      "endDate": "2027-01-04",
+      "sourceId": "christmas",
+      "location": "Sagrada Família",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://www.barcelona.cat",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Sagrada y Park Güell requieren franjas compatibles y traslado con margen.",
     "La Pedrera, Batlló y catedral se proponen por fuera; pagar una entrada implica recortar otras visitas.",
@@ -816,6 +863,13 @@
       "url": "https://www.montserratvisita.com/en/practical-information/opening-hours",
       "type": "official",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Fira de Nadal de la Sagrada Família",
+      "url": "https://www.barcelona.cat",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -1064,7 +1118,8 @@
               "sagrada",
               "cathedral",
               "rei",
-              "maroutside"
+              "maroutside",
+              "xmas-market"
             ],
             "editorialNote": "Sagrada como único interior principal. Traslado al Gòtic; catedral y Santa Maria del Mar por fuera si se alarga la mañana. No promete Park Güell ni Montjuïc en el mismo día.",
             "optionalStopIds": [],
@@ -1081,7 +1136,8 @@
             "stopIds": [
               "sagrada",
               "guell",
-              "gracia"
+              "gracia",
+              "xmas-market"
             ],
             "editorialNote": "Sagrada es el interior principal; Park Güell una segunda visita al aire libre que requiere entrada con horario. Pausa de comida y traslado entre ambas. Sant Pau queda como alternativa al parque, no otro interior añadido. La Pedrera y Batlló sólo por fuera. Si dos franjas cansan, sustituir parque por Sant Pau exterior y bajar a Gràcia. En día corto, fachadas de Passeig quedan opcionales; no cruzar la ciudad con prisa tras el parque.",
             "optionalStopIds": [
@@ -1118,7 +1174,8 @@
             "stopIds": [
               "sagrada",
               "guell",
-              "gracia"
+              "gracia",
+              "xmas-market"
             ],
             "editorialNote": "Sagrada es el interior principal; Park Güell una segunda visita al aire libre que requiere entrada con horario. Pausa de comida y traslado entre ambas. Sant Pau queda como alternativa al parque, no otro interior añadido. La Pedrera y Batlló sólo por fuera. Si dos franjas cansan, sustituir parque por Sant Pau exterior y bajar a Gràcia. En día corto, fachadas de Passeig quedan opcionales; no cruzar la ciudad con prisa tras el parque.",
             "optionalStopIds": [

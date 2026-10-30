@@ -1,0 +1,849 @@
+{
+  "id": "santorini",
+  "catalogId": "santorini",
+  "name": "Santorini",
+  "localName": "Σαντορίνη",
+  "country": "GR",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "status": "editorially-reviewed-pilot",
+  "reviewedAt": "2026-10-30",
+  "selectionReason": "Isla griega solicitada en ampliación (petición del usuario 30/10/2026).",
+  "discoveryReview": "Contenido construido con fuentes oficiales de turismo y editoriales reconocidas; horarios y cierres marcados para comprobación.",
+  "editorialAudit": [
+    "Paradas geocodificadas con OpenStreetMap/Nominatim y revisión editorial.",
+    "Fotos de Wikimedia Commons con licencia y autor registrados.",
+    "Sin mercado navideño verificado: modo Navidad muestra aviso honesto."
+  ],
+  "planningAssumptions": "Sin fechas ni reservas. Planes de uno a tres días; ferris, hoteles y traslados no incluidos.",
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "stops": [
+    {
+      "id": "fira",
+      "name": "Fira · borde de la caldera",
+      "kind": "visit",
+      "zone": "Fira",
+      "reason": "La capital colgada sobre la caldera: primer contacto con la escala del volcán y base de buses a toda la isla.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.4183093,
+        "lon": 25.4276125
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Fira%2C%20Santorini",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Cruceros: cuando atracan varios barcos, el teleférico y las calles del borde se saturan; madrugar o ir al atardecer.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/santorini/fira.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Fira_-_caldera_-_estur_-_Grand_Celebration_-_Nea_Kameni_-_Santorini_-_Greece_-_01.jpg",
+        "author": "Norbert Nagel",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "calderawalk",
+      "name": "Sendero Fira → Imerovigli",
+      "kind": "visit",
+      "zone": "Borde de caldera",
+      "reason": "El camino del borde es la mejor vista gratis de la isla: iglesias, roca y mar en cada curva.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.4437335,
+        "lon": 25.426654
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Imerovigli%2C%20Santorini",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Sin sombra ni agua en la mayor parte del trayecto; viento fuerte en tramos expuestos. Calzado cerrado.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/santorini/calderawalk.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Imerovigli_Skaros_Santorini.JPG",
+        "author": "Rebexho",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "oia",
+      "name": "Oia · cúpulas y atardecer",
+      "kind": "visit",
+      "zone": "Oia",
+      "reason": "El pueblo de las cúpulas azules; el atardecer es famoso pero el pueblo se disfruta mejor antes de la avalancha.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.4622122,
+        "lon": 25.3757257
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Oia%2C%20Santorini",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "El punto del castillo se llena hasta lo insalvable al atardecer en temporada; vigilar bordes sin barandilla con niños.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/santorini/oia.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Oia%20-%20Santorini%20-%20Greece%20-%2016.jpg",
+        "author": "Norbert Nagel",
+        "license": "CC BY-SA 3.0"
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "amoudi",
+      "name": "Bahía de Amoudi",
+      "kind": "visit",
+      "zone": "Bajo Oia",
+      "reason": "El puertecito bajo los acantilados rojos de Oia: baño y tabernas junto al agua.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.459962,
+        "lon": 25.3705738
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Amoudi%20Bay%2C%20Santorini",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Bajada de unos 300 escalones o camino de cabras; sin acceso para movilidad reducida. Multa por bañarse si hay aviso de oleaje.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/santorini/amoudi.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Amoudi_Bay,_Santorini.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "akrotiri",
+      "name": "Akrotiri · ciudad prehistórica",
+      "kind": "visit",
+      "zone": "Akrotiri",
+      "reason": "La ciudad minoica enterrada por la erupción, visitable bajo cubierta: el yacimiento estrella de las Cícladas.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.3517932,
+        "lon": 25.4034872
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Akrotiri%20archaeological%20site%2C%20Santorini",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Comprobar horario y día de cierre antes de ir (suele cerrar un día entre semana y reduce horario en invierno). Entrada de pago.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/santorini/akrotiri.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Archaeological_site_of_Akrotiri_-_Santorini_-_July_12th_2012_-_71.jpg",
+        "author": "Norbert Nagel",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Yacimiento con entrada; comprobar horario"
+    },
+    {
+      "id": "redbeach",
+      "name": "Playa Roja",
+      "kind": "visit",
+      "zone": "Akrotiri",
+      "reason": "El acantilado rojo sobre arena oscura: la imagen volcánica más llamativa de la isla.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.3473413,
+        "lon": 25.3948164
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Red%20Beach%2C%20Santorini",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Riesgo de desprendimientos: acceso restringido o desaconsejado en varios tramos según avisos; quedarse tras las señales.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/santorini/redbeach.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_Beach,_Santorini,_176478.jpg",
+        "author": "Zde",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "pyrgos",
+      "name": "Pyrgos · la isla interior",
+      "kind": "visit",
+      "zone": "Pyrgos",
+      "reason": "El antiguo capital en lo alto: callejones, iglesias y el monasterio del Profeta Elías sin las multitudes de la caldera.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.3806466,
+        "lon": 25.4499127
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Pyrgos%20Kallistis%2C%20Santorini (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Cuestas y escaleras; la subida al monasterio es carretera sin acera en parte: mejor en coche o bus.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/santorini/pyrgos.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Greek_Easter_-_Pyrgos_village_-_Santorini_-1.jpg",
+        "author": "Georgios Michos",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "museum",
+      "name": "Museo de la Thera Prehistórica",
+      "kind": "visit",
+      "zone": "Fira",
+      "reason": "Los frescos y piezas de Akrotiri en contexto: complementa el yacimiento y es plan perfecto para horas de calor.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.4164967,
+        "lon": 25.4325796
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Museum%20of%20Prehistoric%20Thera%2C%20Fira%2C%20Santorini",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Horario reducido (suele cerrar a media tarde y un día entre semana); comprobar antes de ir.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/santorini/museum.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Assembly_on_the_hill_and_the_shipwreck,_fresco_from_Akrotiri,_17th_c_BC,_PMTh,_226358a.jpg",
+        "author": "Zde",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo con entrada; horario reducido"
+    },
+    {
+      "id": "kamari",
+      "name": "Kamari · playa de arena negra",
+      "kind": "visit",
+      "zone": "Kamari",
+      "reason": "La playa organizada más fácil de la isla, con paseo marítimo y tabernas; plan de mañana antes del calor.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 36.3761502,
+        "lon": 25.4806336
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Kamari%2C%20Santorini",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Arena negra que quema al mediodía: escarpines o chanclas hasta la orilla.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/santorini/kamari.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Boat_at_Kamari_beach,_Santorini,_Greece.jpg",
+        "author": "Eric Hossinger",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "La caldera a pie, de Fira a Oia",
+          "zone": "Fira → Imerovigli → Oia",
+          "stopIds": [
+            "fira",
+            "calderawalk",
+            "oia"
+          ],
+          "editorialNote": "El esencial de Santorini en un día: capital, sendero del borde y Oia. Sin barco ni playa añadidos a la fuerza.",
+          "optionalStopIds": [
+            "amoudi"
+          ],
+          "pacing": "6-8 h con pausas y comida. El atardecer en Oia obliga a llegar con antelación en temporada.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "La caldera a pie, de Fira a Oia",
+          "zone": "Fira → Imerovigli → Oia",
+          "stopIds": [
+            "fira",
+            "calderawalk",
+            "oia"
+          ],
+          "editorialNote": "El esencial de Santorini en un día: capital, sendero del borde y Oia.",
+          "optionalStopIds": [
+            "amoudi"
+          ],
+          "pacing": "6-8 h con pausas y comida.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Sur volcánico: Akrotiri y Playa Roja",
+          "zone": "Akrotiri → Red Beach → Pyrgos",
+          "stopIds": [
+            "akrotiri",
+            "redbeach",
+            "pyrgos"
+          ],
+          "editorialNote": "Yacimiento por la mañana (calor y horario), playa al mediodía y pueblo interior al final.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h con traslados en bus o coche.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "La caldera a pie, de Fira a Oia",
+          "zone": "Fira → Imerovigli → Oia",
+          "stopIds": [
+            "fira",
+            "calderawalk",
+            "oia"
+          ],
+          "editorialNote": "El esencial de Santorini en un día.",
+          "optionalStopIds": [
+            "amoudi"
+          ],
+          "pacing": "6-8 h con pausas y comida.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Sur volcánico: Akrotiri y Playa Roja",
+          "zone": "Akrotiri → Red Beach → Pyrgos",
+          "stopIds": [
+            "akrotiri",
+            "redbeach",
+            "pyrgos"
+          ],
+          "editorialNote": "Yacimiento por la mañana, playa al mediodía y pueblo interior al final.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h con traslados.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Museo y playa fácil",
+          "zone": "Fira → Kamari",
+          "stopIds": [
+            "museum",
+            "kamari"
+          ],
+          "editorialNote": "Un día suave: contexto prehistórico y tarde de playa organizada.",
+          "optionalStopIds": [],
+          "pacing": "4-6 h, holgado.",
+          "geographyChecks": []
+        }
+      ]
+    }
+  },
+  "seasonalPlans": {
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "La caldera a pie, de Fira a Oia",
+            "zone": "Fira → Imerovigli → Oia",
+            "stopIds": [
+              "fira",
+              "calderawalk",
+              "oia"
+            ],
+            "editorialNote": "El esencial de Santorini en un día: capital, sendero del borde y Oia. Sin barco ni playa añadidos a la fuerza.",
+            "optionalStopIds": [
+              "amoudi"
+            ],
+            "pacing": "6-8 h con pausas y comida. El atardecer en Oia obliga a llegar con antelación en temporada.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La caldera a pie, de Fira a Oia",
+            "zone": "Fira → Imerovigli → Oia",
+            "stopIds": [
+              "fira",
+              "calderawalk",
+              "oia"
+            ],
+            "editorialNote": "El esencial de Santorini en un día: capital, sendero del borde y Oia.",
+            "optionalStopIds": [
+              "amoudi"
+            ],
+            "pacing": "6-8 h con pausas y comida.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Sur volcánico: Akrotiri y Playa Roja",
+            "zone": "Akrotiri → Red Beach → Pyrgos",
+            "stopIds": [
+              "akrotiri",
+              "redbeach",
+              "pyrgos"
+            ],
+            "editorialNote": "Yacimiento por la mañana (calor y horario), playa al mediodía y pueblo interior al final.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con traslados en bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La caldera a pie, de Fira a Oia",
+            "zone": "Fira → Imerovigli → Oia",
+            "stopIds": [
+              "fira",
+              "calderawalk",
+              "oia"
+            ],
+            "editorialNote": "El esencial de Santorini en un día.",
+            "optionalStopIds": [
+              "amoudi"
+            ],
+            "pacing": "6-8 h con pausas y comida.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Sur volcánico: Akrotiri y Playa Roja",
+            "zone": "Akrotiri → Red Beach → Pyrgos",
+            "stopIds": [
+              "akrotiri",
+              "redbeach",
+              "pyrgos"
+            ],
+            "editorialNote": "Yacimiento por la mañana, playa al mediodía y pueblo interior al final.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con traslados.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Museo y playa fácil",
+            "zone": "Fira → Kamari",
+            "stopIds": [
+              "museum",
+              "kamari"
+            ],
+            "editorialNote": "Un día suave: contexto prehistórico y tarde de playa organizada.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, holgado.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "La caldera a pie, de Fira a Oia",
+            "zone": "Fira → Imerovigli → Oia",
+            "stopIds": [
+              "fira",
+              "calderawalk",
+              "oia"
+            ],
+            "editorialNote": "El esencial de Santorini en un día: capital, sendero del borde y Oia. Sin barco ni playa añadidos a la fuerza.",
+            "optionalStopIds": [
+              "amoudi"
+            ],
+            "pacing": "6-8 h con pausas y comida. El atardecer en Oia obliga a llegar con antelación en temporada.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La caldera a pie, de Fira a Oia",
+            "zone": "Fira → Imerovigli → Oia",
+            "stopIds": [
+              "fira",
+              "calderawalk",
+              "oia"
+            ],
+            "editorialNote": "El esencial de Santorini en un día: capital, sendero del borde y Oia.",
+            "optionalStopIds": [
+              "amoudi"
+            ],
+            "pacing": "6-8 h con pausas y comida.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Sur volcánico: Akrotiri y Playa Roja",
+            "zone": "Akrotiri → Red Beach → Pyrgos",
+            "stopIds": [
+              "akrotiri",
+              "redbeach",
+              "pyrgos"
+            ],
+            "editorialNote": "Yacimiento por la mañana (calor y horario), playa al mediodía y pueblo interior al final.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con traslados en bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La caldera a pie, de Fira a Oia",
+            "zone": "Fira → Imerovigli → Oia",
+            "stopIds": [
+              "fira",
+              "calderawalk",
+              "oia"
+            ],
+            "editorialNote": "El esencial de Santorini en un día.",
+            "optionalStopIds": [
+              "amoudi"
+            ],
+            "pacing": "6-8 h con pausas y comida.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Sur volcánico: Akrotiri y Playa Roja",
+            "zone": "Akrotiri → Red Beach → Pyrgos",
+            "stopIds": [
+              "akrotiri",
+              "redbeach",
+              "pyrgos"
+            ],
+            "editorialNote": "Yacimiento por la mañana, playa al mediodía y pueblo interior al final.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con traslados.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Museo y playa fácil",
+            "zone": "Fira → Kamari",
+            "stopIds": [
+              "museum",
+              "kamari"
+            ],
+            "editorialNote": "Un día suave: contexto prehistórico y tarde de playa organizada.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, holgado.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "La caldera a pie, de Fira a Oia",
+            "zone": "Fira → Imerovigli → Oia",
+            "stopIds": [
+              "fira",
+              "calderawalk",
+              "oia"
+            ],
+            "editorialNote": "El esencial de Santorini en un día: capital, sendero del borde y Oia. Sin barco ni playa añadidos a la fuerza.",
+            "optionalStopIds": [
+              "amoudi"
+            ],
+            "pacing": "6-8 h con pausas y comida. El atardecer en Oia obliga a llegar con antelación en temporada.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La caldera a pie, de Fira a Oia",
+            "zone": "Fira → Imerovigli → Oia",
+            "stopIds": [
+              "fira",
+              "calderawalk",
+              "oia"
+            ],
+            "editorialNote": "El esencial de Santorini en un día: capital, sendero del borde y Oia.",
+            "optionalStopIds": [
+              "amoudi"
+            ],
+            "pacing": "6-8 h con pausas y comida.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Sur volcánico: Akrotiri y Playa Roja",
+            "zone": "Akrotiri → Red Beach → Pyrgos",
+            "stopIds": [
+              "akrotiri",
+              "redbeach",
+              "pyrgos"
+            ],
+            "editorialNote": "Yacimiento por la mañana (calor y horario), playa al mediodía y pueblo interior al final.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con traslados en bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La caldera a pie, de Fira a Oia",
+            "zone": "Fira → Imerovigli → Oia",
+            "stopIds": [
+              "fira",
+              "calderawalk",
+              "oia"
+            ],
+            "editorialNote": "El esencial de Santorini en un día.",
+            "optionalStopIds": [
+              "amoudi"
+            ],
+            "pacing": "6-8 h con pausas y comida.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Sur volcánico: Akrotiri y Playa Roja",
+            "zone": "Akrotiri → Red Beach → Pyrgos",
+            "stopIds": [
+              "akrotiri",
+              "redbeach",
+              "pyrgos"
+            ],
+            "editorialNote": "Yacimiento por la mañana, playa al mediodía y pueblo interior al final.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con traslados.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Museo y playa fácil",
+            "zone": "Fira → Kamari",
+            "stopIds": [
+              "museum",
+              "kamari"
+            ],
+            "editorialNote": "Un día suave: contexto prehistórico y tarde de playa organizada.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, holgado.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "La caldera a pie, de Fira a Oia",
+            "zone": "Fira → Imerovigli → Oia",
+            "stopIds": [
+              "fira",
+              "calderawalk",
+              "oia"
+            ],
+            "editorialNote": "El esencial de Santorini en un día: capital, sendero del borde y Oia. Sin barco ni playa añadidos a la fuerza.",
+            "optionalStopIds": [
+              "amoudi"
+            ],
+            "pacing": "6-8 h con pausas y comida. El atardecer en Oia obliga a llegar con antelación en temporada.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La caldera a pie, de Fira a Oia",
+            "zone": "Fira → Imerovigli → Oia",
+            "stopIds": [
+              "fira",
+              "calderawalk",
+              "oia"
+            ],
+            "editorialNote": "El esencial de Santorini en un día: capital, sendero del borde y Oia.",
+            "optionalStopIds": [
+              "amoudi"
+            ],
+            "pacing": "6-8 h con pausas y comida.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Sur volcánico: Akrotiri y Playa Roja",
+            "zone": "Akrotiri → Red Beach → Pyrgos",
+            "stopIds": [
+              "akrotiri",
+              "redbeach",
+              "pyrgos"
+            ],
+            "editorialNote": "Yacimiento por la mañana (calor y horario), playa al mediodía y pueblo interior al final.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con traslados en bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La caldera a pie, de Fira a Oia",
+            "zone": "Fira → Imerovigli → Oia",
+            "stopIds": [
+              "fira",
+              "calderawalk",
+              "oia"
+            ],
+            "editorialNote": "El esencial de Santorini en un día.",
+            "optionalStopIds": [
+              "amoudi"
+            ],
+            "pacing": "6-8 h con pausas y comida.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Sur volcánico: Akrotiri y Playa Roja",
+            "zone": "Akrotiri → Red Beach → Pyrgos",
+            "stopIds": [
+              "akrotiri",
+              "redbeach",
+              "pyrgos"
+            ],
+            "editorialNote": "Yacimiento por la mañana, playa al mediodía y pueblo interior al final.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con traslados.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Museo y playa fácil",
+            "zone": "Fira → Kamari",
+            "stopIds": [
+              "museum",
+              "kamari"
+            ],
+            "editorialNote": "Un día suave: contexto prehistórico y tarde de playa organizada.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h, holgado.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    }
+  },
+  "seasonalVariants": {},
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Todo abierto pero saturado: cruceros y atardeceres llenos. Calor fuerte en el sendero del borde: hacerlo temprano. Reservas imprescindibles.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Temporada baja real: la mayoría de hoteles y tabernas turísticas cierran de noviembre a marzo y los ferris se reducen. El sendero de la caldera y Akrotiri siguen abiertos y vacíos, con horarios recortados: comprobar antes de ir.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "El mejor equilibrio: casi todo abierto hasta finales de octubre, mar aún templado en otoño y senderos sin el calor del verano.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Navidad de vida local, sin mercado turístico: comprobar qué hoteles y tabernas quedan abiertos. Yacimientos y museos estatales cierran 25-26/12 y 1/1.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "excursions": [],
+  "cautions": [
+    "Noviembre-marzo: gran parte de la hostelería turística cierra y los ferris se reducen; no planificar como en verano.",
+    "Playa Roja con avisos de desprendimiento: respetar señalización y no pasar barreras.",
+    "Sin mercado navideño verificado: no inventamos feria ni programa.",
+    "Nada de vuelos, ferris, hoteles o coches comprados: esto es planificación, no reserva."
+  ],
+  "sources": [
+    {
+      "id": "visitgreece",
+      "title": "Visit Greece: Santorini",
+      "url": "https://www.visitgreece.gr/islands/cyclades/santorini/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lp",
+      "title": "Lonely Planet: consejos Santorini",
+      "url": "https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-santorini",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "culture",
+      "title": "Ministerio de Cultura: sitios arqueológicos",
+      "url": "https://www.culture.gov.gr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "excludedOrOptional": []
+}

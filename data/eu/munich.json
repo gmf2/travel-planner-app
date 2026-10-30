@@ -372,6 +372,38 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Paseo de parque; pabellones de pago aparte"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Münchner Christkindlmarkt",
+      "kind": "event",
+      "zone": "Marienplatz y Rindermarkt",
+      "reason": "El Christkindlmarkt de Marienplatz: el mercado municipal de Múnich.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 48.1371436,
+        "lon": 11.5753989
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Marienplatz,+München (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-20 a 2026-12-24 (https://www.muenchen.de). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/munich/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Munich_City_Hall_at_night_with_Christmas_Tree_and_Christmas_market_booths.jpg",
+        "author": "User: (WT-shared) AlexE at  wts wikivoyage",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_rules",
+        "licenseURL": "https://commons.wikimedia.org/wiki/Commons:Copyright_rules",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -495,7 +527,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Münchner Christkindlmarkt",
+      "kind": "event",
+      "startDate": "2026-11-20",
+      "endDate": "2026-12-24",
+      "sourceId": "christmas",
+      "location": "Marienplatz y Rindermarkt",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://www.muenchen.de",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No hay reservas ni entradas compradas.",
     "Neue Pinakothek cerrada, reapertura prevista 2029; no se incluye.",
@@ -646,6 +693,13 @@
       "url": "https://www.sababa-munich.com/kontakt.html",
       "type": "official",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Münchner Christkindlmarkt",
+      "url": "https://www.muenchen.de",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -860,7 +914,8 @@
               "market",
               "frauen",
               "residenz",
-              "hof"
+              "hof",
+              "xmas-market"
             ],
             "editorialNote": "Residenz es el interior largo. Mercado antes de la tarde; no añadir tesoro, teatro y torre. Si se quiere carillón, ajustar inicio sin sacrificar la visita del palacio.",
             "optionalStopIds": [],
@@ -879,7 +934,8 @@
               "market",
               "frauen",
               "residenz",
-              "hof"
+              "hof",
+              "xmas-market"
             ],
             "editorialNote": "Residenz es el interior largo. Mercado antes de la tarde; no añadir tesoro, teatro y torre. Si se quiere carillón, ajustar inicio sin sacrificar la visita del palacio.",
             "optionalStopIds": [],
@@ -912,7 +968,8 @@
               "market",
               "frauen",
               "residenz",
-              "hof"
+              "hof",
+              "xmas-market"
             ],
             "editorialNote": "Residenz es el interior largo. Mercado antes de la tarde; no añadir tesoro, teatro y torre. Si se quiere carillón, ajustar inicio sin sacrificar la visita del palacio.",
             "optionalStopIds": [],

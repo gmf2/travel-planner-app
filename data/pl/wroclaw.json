@@ -337,6 +337,38 @@
         "licenseURL": "https://creativecommons.org/licenses/by/4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Zamek_Ksi%C4%85%C5%BC_2026_01.jpg"
       }
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Wrocławski Jarmark Bożonarodzeniowy",
+      "kind": "event",
+      "zone": "Rynek",
+      "reason": "El Jarmark de Wroclaw en el Rynek: el mercado más largo de Polonia esta temporada.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 51.1100431,
+        "lon": 17.0318427
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Rynek,+Wrocław (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-20 a 2027-01-07 (https://jarmarkbozonarodzeniowy.com). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/wroclaw/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Christmas_Market_in_Wroc%C5%82aw_2019.jpg",
+        "author": "Mksg1",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -590,21 +622,17 @@
   "events": [
     {
       "id": "market",
-      "name": "Jarmark Bożonarodzeniowy",
+      "name": "Wrocławski Jarmark Bożonarodzeniowy",
       "kind": "event",
       "startDate": "2026-11-20",
       "endDate": "2027-01-07",
       "sourceId": "christmas",
-      "location": "Rynek y calles próximas",
+      "location": "Rynek",
       "status": "announced",
-      "closedDates": [
-        "2026-12-24",
-        "2026-12-25",
-        "2027-01-01"
-      ],
-      "note": "26/12 desde las 13:00; comprobar otros horarios especiales con el organizador.",
+      "closedDates": [],
+      "note": "Fuente: https://jarmarkbozonarodzeniowy.com (sitio oficial del mercado)",
       "appliesTo": "event-only",
-      "reviewedAt": "2026-10-28"
+      "reviewedAt": "2026-10-30"
     }
   ],
   "cautions": [
@@ -660,13 +688,6 @@
       "title": "Turismo municipal: fuente",
       "url": "https://visitwroclaw.eu/en/atrakcje/unesco-multimedia-fountain-and-pavilion-of-the-4-domes/",
       "type": "official",
-      "retrievedAt": "2026-10-28"
-    },
-    {
-      "id": "christmas",
-      "title": "Organizador: mercado navideño",
-      "url": "https://www.jarmarkbozonarodzeniowy.com/",
-      "type": "operator",
       "retrievedAt": "2026-10-28"
     },
     {
@@ -759,6 +780,13 @@
       "url": "https://www.ksiaz.walbrzych.pl/turystyka/aktualnosci/godziny-otwarcia-pazdziernik-2026",
       "type": "operator",
       "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Wrocławski Jarmark Bożonarodzeniowy",
+      "url": "https://jarmarkbozonarodzeniowy.com",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -1192,7 +1220,8 @@
               "rynek",
               "university",
               "markethall",
-              "tumski"
+              "tumski",
+              "xmas-market"
             ],
             "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
@@ -1232,7 +1261,8 @@
               "rynek",
               "university",
               "markethall",
-              "tumski"
+              "tumski",
+              "xmas-market"
             ],
             "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],
@@ -1303,7 +1333,8 @@
               "rynek",
               "university",
               "markethall",
-              "tumski"
+              "tumski",
+              "xmas-market"
             ],
             "editorialNote": "Rynek y ayuntamiento exterior, universidad (Aula Leopoldina si abre), pausa en Hala Targowa y cruce hacia Ostrów Tumski/catedral. La universidad es el interior principal; no prometer acceso al aula ni a todas las torres. Los enanitos se encuentran al pasar. Miércoles universidad solo exterior; no forzar un interior sustituto. Catedral y mercado según culto/apertura.",
             "optionalStopIds": [],

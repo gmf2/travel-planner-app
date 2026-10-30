@@ -537,6 +537,35 @@
         "licenseURL": "https://www.pexels.com/license/",
         "caption": "Tulipanes de Keukenhof durante la temporada de primavera"
       }
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Christmas Village",
+      "kind": "event",
+      "zone": "Museumplein",
+      "reason": "El mercado del Museumplein: puestos y comida junto a los museos; encaja al final de la jornada.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 52.3572706,
+        "lon": 4.8815398
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Museumplein,+Amsterdam (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-12-03 a 2026-12-27 (https://www.icevillage.nl/en). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kerstmarkt%20in%20Amsterdam%20in%202013.jpg",
+        "author": "Smiley.toerist",
+        "license": "CC BY-SA 4.0"
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -686,7 +715,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Christmas Village (Museumplein)",
+      "kind": "event",
+      "startDate": "2026-12-03",
+      "endDate": "2026-12-27",
+      "sourceId": "christmas",
+      "location": "Museumplein",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://www.icevillage.nl/en",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Ana Frank requiere franja online; sin ella no hay visita al Anexo.",
     "Un museo principal por jornada. Van Gogh sustituye Rijks, Hortus sustituye Rembrandt.",
@@ -795,6 +839,13 @@
       "url": "https://www.winkel43.nl/en/",
       "type": "official",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Christmas Village (Museumplein)",
+      "url": "https://www.icevillage.nl/en",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -1040,7 +1091,8 @@
               "begijn",
               "nine",
               "anne",
-              "noorder"
+              "noorder",
+              "xmas-market"
             ],
             "editorialNote": "Priorizar centro y Ana Frank sólo con entrada. No cabe añadir Rijks o Van Gogh en el mismo día. Sin entrada, ampliar el paseo de canales y las pausas.",
             "optionalStopIds": [],
@@ -1059,7 +1111,8 @@
               "begijn",
               "nine",
               "anne",
-              "noorder"
+              "noorder",
+              "xmas-market"
             ],
             "editorialNote": "Ana Frank es el interior principal sólo con entrada confirmada. Organizar el paseo alrededor de su franja. No se suma Museumplein ni el ferry al final. Si no hay entrada, canales y pausa en Jordaan sustituyen ese bloque, no una visita al Anexo.",
             "optionalStopIds": [],
@@ -1094,7 +1147,8 @@
               "begijn",
               "nine",
               "anne",
-              "noorder"
+              "noorder",
+              "xmas-market"
             ],
             "editorialNote": "Ana Frank es el interior principal sólo con entrada confirmada. Organizar el paseo alrededor de su franja. No se suma Museumplein ni el ferry al final. Si no hay entrada, canales y pausa en Jordaan sustituyen ese bloque, no una visita al Anexo.",
             "optionalStopIds": [],

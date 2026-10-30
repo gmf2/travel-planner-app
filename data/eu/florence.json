@@ -442,6 +442,35 @@
         "caption": "Vista de Florencia desde Piazzale Michelangelo; luz de archivo, no atardecer garantizado. Recorte de presentación."
       },
       "visitMode": "Mirador exterior; subida con pendiente"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Mercatino di Natale",
+      "kind": "event",
+      "zone": "Piazza Santa Croce",
+      "reason": "El Weihnachtsmarkt de Santa Croce: casetas de estilo alemán frente a la basílica.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 43.5816673,
+        "lon": 11.3175839
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Piazza+Santa+Croce,+Firenze (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-14 a 2026-12-20 (https://www.feelflorence.it/en/events/christmas-market-piazza-santa-croce). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Piazza%20Santa%20Croce%20with%20german%20market.jpg",
+        "author": "Freepenguin",
+        "license": "CC BY-SA 3.0"
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -566,7 +595,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Mercatino di Natale (Piazza Santa Croce)",
+      "kind": "event",
+      "startDate": "2026-11-14",
+      "endDate": "2026-12-20",
+      "sourceId": "christmas",
+      "location": "Piazza Santa Croce",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://www.feelflorence.it/en/events/christmas-market-piazza-santa-croce",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Ninguna entrada, mesa ni actividad está reservada.",
     "No seguir tarifas de guías antiguas: Accademia oficial 20€, Uffizi 25/29€ día/anticipado. Duomo nave gratuita separada de los pases.",
@@ -718,6 +762,13 @@
       "url": "https://www.gamberorossointernational.com/news/the-7-best-gelaterias-in-florence-chosen-by-gambero-rosso/",
       "type": "editorial",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Mercatino di Natale (Piazza Santa Croce)",
+      "url": "https://www.feelflorence.it/en/events/christmas-market-piazza-santa-croce",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -933,7 +984,8 @@
               "duomo",
               "signoria",
               "uffizi",
-              "ponte"
+              "ponte",
+              "xmas-market"
             ],
             "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
             "optionalStopIds": [],
@@ -951,7 +1003,8 @@
               "duomo",
               "signoria",
               "uffizi",
-              "ponte"
+              "ponte",
+              "xmas-market"
             ],
             "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
             "optionalStopIds": [],
@@ -984,7 +1037,8 @@
               "duomo",
               "signoria",
               "uffizi",
-              "ponte"
+              "ponte",
+              "xmas-market"
             ],
             "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
             "optionalStopIds": [],

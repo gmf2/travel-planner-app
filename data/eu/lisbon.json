@@ -551,6 +551,36 @@
         "licenseURL": "https://www.pexels.com/license/",
         "caption": "A stunning aerial view of Cascais with its beach, Ferris wheel, and historic buildings by the sea. Stock Photo"
       }
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Wonderland Lisboa",
+      "kind": "event",
+      "zone": "Parque Eduardo VII",
+      "reason": "Wonderland Lisboa en el Parque Eduardo VII: noria, pista y puestos.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 38.7282116,
+        "lon": -9.1530143
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Parque+Eduardo+VII,+Lisboa (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-27 a 2027-01-03 (https://visitlisboablog.pt). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/lisbon/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Entrada%20Wonderland%20Lisboa.jpg",
+        "author": "Carolina1906",
+        "license": "CC BY-SA 4.0",
+        "caption": "Entrada de Wonderland Lisboa en el Parque Eduardo VII; foto de archivo, no acredita la edición de 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -680,7 +710,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Wonderland Lisboa",
+      "kind": "event",
+      "startDate": "2026-11-27",
+      "endDate": "2027-01-03",
+      "sourceId": "christmas",
+      "location": "Parque Eduardo VII",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://visitlisboablog.pt (blog oficial Visit Lisboa, 11.ª edição)",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Reordenar Belém si Jerónimos cae lunes; Carmo cierra domingo.",
     "La necesidad de entrada con horario no significa que haya una reserva hecha.",
@@ -790,6 +835,13 @@
       "url": "https://www.carris.pt/viaje/alteracoes-de-servico/",
       "type": "official",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Wonderland Lisboa",
+      "url": "https://visitlisboablog.pt",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -1015,7 +1067,8 @@
               "sol",
               "alfama",
               "se",
-              "comercio"
+              "comercio",
+              "xmas-market"
             ],
             "editorialNote": "Paseo exterior de Alfama con pausas. Castillo sólo si el día elegido abre: cierra 24/25/31 diciembre y 1 enero; no se promete entrada.",
             "optionalStopIds": [
@@ -1035,7 +1088,8 @@
               "sol",
               "alfama",
               "se",
-              "comercio"
+              "comercio",
+              "xmas-market"
             ],
             "editorialNote": "Paseo exterior de Alfama con pausas. Castillo sólo si el día elegido abre: cierra 24/25/31 diciembre y 1 enero; no se promete entrada.",
             "optionalStopIds": [
@@ -1070,7 +1124,8 @@
               "sol",
               "alfama",
               "se",
-              "comercio"
+              "comercio",
+              "xmas-market"
             ],
             "editorialNote": "Paseo exterior de Alfama con pausas. Castillo sólo si el día elegido abre: cierra 24/25/31 diciembre y 1 enero; no se promete entrada.",
             "optionalStopIds": [

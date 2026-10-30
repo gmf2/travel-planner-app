@@ -1,0 +1,65 @@
+{
+  "cityId": "rhodes",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "reviewedAt": "2026-10-30",
+  "scope": "food-activities",
+  "food": [
+    {
+      "id": "pitaroudia",
+      "name": "Pitaroudia y melekouni",
+      "description": "Tortitas de garbanzo y barritas de sésamo y miel: los bocados propios de Rodas.",
+      "priceLabel": "3-8 €",
+      "address": "Tabernas del casco y pueblos",
+      "caution": "En el casco, alejarse una calle de las rutas de menú turístico.",
+      "strength": "Cocina dodecanesa real.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "embonas",
+      "name": "Vino de Embonas",
+      "description": "La zona vinícola del monte Attavyros; cooperativas y bodegas familiares.",
+      "priceLabel": "Cata 10-20 €",
+      "address": "Embonas (interior)",
+      "caution": "Requiere coche; comprobar apertura fuera de temporada.",
+      "strength": "El viñedo de altura de la isla.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "boatlindos",
+      "name": "Barco costero a bahías del este",
+      "description": "Barcos de día a bahías entre la ciudad y Lindos con paradas de baño.",
+      "priceLabel": "25-45 €",
+      "address": "Mandraki",
+      "caution": "Temporada y oleaje mandan; comprobar operador con licencia.",
+      "strength": "La costa este desde el agua.",
+      "status": "seasonal",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ]
+}

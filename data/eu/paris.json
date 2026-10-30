@@ -866,18 +866,18 @@
   },
   "events": [
     {
-      "id": "plages",
-      "name": "Paris Plages",
+      "id": "market",
+      "name": "Marchés de Noël de París (calendario municipal agregado, no un mercado concreto)",
       "kind": "event",
-      "startDate": null,
-      "endDate": null,
-      "sourceId": "official",
-      "location": "Orillas del Sena y canal",
-      "status": "pending-announcement",
+      "startDate": "2026-11-02",
+      "endDate": "2027-01-03",
+      "sourceId": "christmas",
+      "location": "Varios barrios; fechas por mercado en el enlace",
+      "status": "aggregate",
       "closedDates": [],
-      "note": "Edición estival (julio-agosto) por anunciar para el año del viaje; no fijar fechas sin la web de París.",
+      "note": "Calendario agregado de la ciudad: cubre todos los mercados; las fechas del mercado de las Tullerías 2026 aún no están confirmadas oficialmente (dos calendarios circulan).. Fuente: https://www.paris.fr/evenements/marches-de-noel-2026-le-calendrier-complet-126813",
       "appliesTo": "event-only",
-      "reviewedAt": "2026-10-29"
+      "reviewedAt": "2026-10-30"
     }
   ],
   "cautions": [

@@ -445,6 +445,35 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Centro de visitantes gratuito; sustitución"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Winter Wonders / Plaisirs d'Hiver",
+      "kind": "event",
+      "zone": "Grand Place y centro",
+      "reason": "Winter Wonders alrededor de la Grand Place: el plan navideño central de Bruselas.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 50.8467139,
+        "lon": 4.3525151
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Grand+Place,+Bruxelles (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-27 a 2027-01-03 (https://www.brussels.be). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Christmas%20Market%20In%20Brussels%20%28186142075%29.jpeg",
+        "author": "Ofer Davidi",
+        "license": "CC BY-SA 3.0"
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -573,7 +602,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Winter Wonders / Plaisirs d'Hiver",
+      "kind": "event",
+      "startDate": "2026-11-27",
+      "endDate": "2027-01-03",
+      "sourceId": "christmas",
+      "location": "Grand Place y centro",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://www.brussels.be",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No entradas, comidas ni transporte reservados. Tarifas y horarios consultados no prueban disponibilidad futura.",
     "Atomium: aviso operativo actual manda sobre página genérica de 17€ y compra online; tarifa reducida sin número verificado, solo venta in situ.",
@@ -708,6 +752,13 @@
       "id": "park",
       "title": "Bruxelles Environnement: parque Laeken",
       "url": "https://gardens.brussels/fr/espaces-verts/parc-de-laeken",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Winter Wonders / Plaisirs d'Hiver",
+      "url": "https://www.brussels.be",
       "type": "official",
       "retrievedAt": "2026-10-30"
     }
@@ -933,7 +984,8 @@
               "pis",
               "grand",
               "galeries",
-              "catherine"
+              "catherine",
+              "xmas-market"
             ],
             "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
             "optionalStopIds": [],
@@ -951,7 +1003,8 @@
               "pis",
               "grand",
               "galeries",
-              "catherine"
+              "catherine",
+              "xmas-market"
             ],
             "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
             "optionalStopIds": [],
@@ -986,7 +1039,8 @@
               "pis",
               "grand",
               "galeries",
-              "catherine"
+              "catherine",
+              "xmas-market"
             ],
             "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
             "optionalStopIds": [],

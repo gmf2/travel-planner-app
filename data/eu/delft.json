@@ -347,6 +347,35 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Parque exterior opcional; no baño prometido"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Kerstmarkt Onafhankelijk Delft",
+      "kind": "event",
+      "zone": "Markt",
+      "reason": "El mercado independiente de Delft en la Markt: un solo día, el 19 de diciembre.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 52.0117085,
+        "lon": 4.3591943
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Markt,+Delft (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-12-19 a 2026-12-19 (https://zoek.officielebekendmakingen.nl). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/delft/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Stadhuis%20Delft%20lichtjesavond%202014.JPG",
+        "author": "Steven Lek",
+        "license": "CC BY-SA 4.0"
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -469,7 +498,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Kerstmarkt Onafhankelijk Delft",
+      "kind": "event",
+      "startDate": "2026-12-19",
+      "endDate": "2026-12-19",
+      "sourceId": "christmas",
+      "location": "Markt",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://zoek.officielebekendmakingen.nl (permiso municipal)",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Vermeer Centrumno originales. Criptas reales no visitables. Prinsenhof cerrado desde 05/01/2025, reapertura prevista 2028 no confirmada.",
     "Delft compacto:1-2 días razonables, tercerdía parque/tiempo libre no necesario. La Haya es otra ciudad y no excursión obligatoria.",
@@ -660,6 +704,13 @@
       "id": "hummushours",
       "title": "HUmmUS: horario/sede/pago",
       "url": "https://hummustakeaway.squarespace.com/contact",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Kerstmarkt Onafhankelijk Delft",
+      "url": "https://zoek.officielebekendmakingen.nl",
       "type": "official",
       "retrievedAt": "2026-10-30"
     }
@@ -875,7 +926,8 @@
               "canal",
               "oude",
               "vermeer",
-              "beesten"
+              "beesten",
+              "xmas-market"
             ],
             "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
             "optionalStopIds": [],
@@ -895,7 +947,8 @@
               "canal",
               "oude",
               "vermeer",
-              "beesten"
+              "beesten",
+              "xmas-market"
             ],
             "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
             "optionalStopIds": [],
@@ -927,7 +980,8 @@
               "canal",
               "oude",
               "vermeer",
-              "beesten"
+              "beesten",
+              "xmas-market"
             ],
             "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
             "optionalStopIds": [],

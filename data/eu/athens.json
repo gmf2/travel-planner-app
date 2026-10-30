@@ -411,6 +411,35 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Interior de pago; muy expuesto al sol"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Christmas Factory",
+      "kind": "event",
+      "zone": "Technopolis, Gazi",
+      "reason": "La fábrica de Navidad de Atenas en la Technopolis: puestos, pista y espectáculos; plan de tarde.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 37.9779377,
+        "lon": 23.7136361
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Pireos+100,+Athens (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-21 a 2027-01-06 (https://thechristmasfactory.gr). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Christmas%20Factory%20In%20Athens%20%28240765699%29.jpeg",
+        "author": "Georgios Liakopoulos",
+        "license": "CC BY-SA 3.0"
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -533,7 +562,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Christmas Factory (Technopolis)",
+      "kind": "event",
+      "startDate": "2026-11-21",
+      "endDate": "2027-01-06",
+      "sourceId": "christmas",
+      "location": "Technopolis, Gazi",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://thechristmasfactory.gr",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No hay reservas ni entradas compradas.",
     "Acrópolis y Museo de la Acrópolis tienen entradas separadas.",
@@ -712,6 +756,13 @@
       "url": "https://www.thisisathens.org/cafes-bakeries/stani",
       "type": "tourism-food-guide",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Christmas Factory (Technopolis)",
+      "url": "https://thechristmasfactory.gr",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -923,7 +974,8 @@
               "acropolis",
               "museum",
               "anafiotika",
-              "plaka"
+              "plaka",
+              "xmas-market"
             ],
             "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
             "optionalStopIds": [],
@@ -941,7 +993,8 @@
               "acropolis",
               "museum",
               "anafiotika",
-              "plaka"
+              "plaka",
+              "xmas-market"
             ],
             "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
             "optionalStopIds": [],
@@ -973,7 +1026,8 @@
               "acropolis",
               "museum",
               "anafiotika",
-              "plaka"
+              "plaka",
+              "xmas-market"
             ],
             "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
             "optionalStopIds": [],

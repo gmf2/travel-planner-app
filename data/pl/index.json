@@ -1198,6 +1198,216 @@
         3
       ],
       "curated": true
+    },
+    {
+      "id": "gr-santorini",
+      "catalogId": "santorini",
+      "name": "Santorini",
+      "localName": "Σαντορίνη",
+      "latitude": 36.3932,
+      "longitude": 25.4615,
+      "country": "Grecia",
+      "countryCode": "GR",
+      "aliases": [
+        "Santorini",
+        "Santorín",
+        "Thira",
+        "Thíra",
+        "Σαντορίνη"
+      ],
+      "countryAliases": [
+        "Grecia",
+        "Greece",
+        "Cícladas",
+        "Cyclades"
+      ],
+      "path": "data/eu/santorini.json",
+      "extrasPath": "data/eu/santorini-extras.json",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "curated": true
+    },
+    {
+      "id": "gr-mykonos",
+      "catalogId": "mykonos",
+      "name": "Mykonos",
+      "localName": "Μύκονος",
+      "latitude": 37.4467,
+      "longitude": 25.3289,
+      "country": "Grecia",
+      "countryCode": "GR",
+      "aliases": [
+        "Mykonos",
+        "Miconos",
+        "Míkonos",
+        "Μύκονος"
+      ],
+      "countryAliases": [
+        "Grecia",
+        "Greece",
+        "Cícladas",
+        "Cyclades"
+      ],
+      "path": "data/eu/mykonos.json",
+      "extrasPath": "data/eu/mykonos-extras.json",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "curated": true
+    },
+    {
+      "id": "gr-rhodes",
+      "catalogId": "rhodes",
+      "name": "Rodas",
+      "localName": "Ρόδος",
+      "latitude": 36.4349,
+      "longitude": 28.2176,
+      "country": "Grecia",
+      "countryCode": "GR",
+      "aliases": [
+        "Rodas",
+        "Rhodes",
+        "Ródos",
+        "Ρόδος"
+      ],
+      "countryAliases": [
+        "Grecia",
+        "Greece",
+        "Dodecaneso",
+        "Dodecanese"
+      ],
+      "path": "data/eu/rhodes.json",
+      "extrasPath": "data/eu/rhodes-extras.json",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "curated": true
+    },
+    {
+      "id": "gr-corfu",
+      "catalogId": "corfu",
+      "name": "Corfú",
+      "localName": "Κέρκυρα",
+      "latitude": 39.6243,
+      "longitude": 19.9217,
+      "country": "Grecia",
+      "countryCode": "GR",
+      "aliases": [
+        "Corfú",
+        "Corfu",
+        "Kerkyra",
+        "Kérkira",
+        "Κέρκυρα"
+      ],
+      "countryAliases": [
+        "Grecia",
+        "Greece",
+        "Jónicas",
+        "Ionian"
+      ],
+      "path": "data/eu/corfu.json",
+      "extrasPath": "data/eu/corfu-extras.json",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "curated": true
+    },
+    {
+      "id": "gr-zakynthos",
+      "catalogId": "zakynthos",
+      "name": "Zakynthos",
+      "localName": "Ζάκυνθος",
+      "latitude": 37.787,
+      "longitude": 20.8999,
+      "country": "Grecia",
+      "countryCode": "GR",
+      "aliases": [
+        "Zakynthos",
+        "Zante",
+        "Zacinto",
+        "Ζάκυνθος"
+      ],
+      "countryAliases": [
+        "Grecia",
+        "Greece",
+        "Jónicas",
+        "Ionian"
+      ],
+      "path": "data/eu/zakynthos.json",
+      "extrasPath": "data/eu/zakynthos-extras.json",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "curated": true
+    },
+    {
+      "id": "gr-naxos",
+      "catalogId": "naxos",
+      "name": "Naxos",
+      "localName": "Νάξος",
+      "latitude": 37.1036,
+      "longitude": 25.3779,
+      "country": "Grecia",
+      "countryCode": "GR",
+      "aliases": [
+        "Naxos",
+        "Naxo",
+        "Νάξος"
+      ],
+      "countryAliases": [
+        "Grecia",
+        "Greece",
+        "Cícladas",
+        "Cyclades"
+      ],
+      "path": "data/eu/naxos.json",
+      "extrasPath": "data/eu/naxos-extras.json",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "curated": true
+    },
+    {
+      "id": "gr-milos",
+      "catalogId": "milos",
+      "name": "Milos",
+      "localName": "Μήλος",
+      "latitude": 36.747,
+      "longitude": 24.427,
+      "country": "Grecia",
+      "countryCode": "GR",
+      "aliases": [
+        "Milos",
+        "Milo",
+        "Μήλος"
+      ],
+      "countryAliases": [
+        "Grecia",
+        "Greece",
+        "Cícladas",
+        "Cyclades"
+      ],
+      "path": "data/eu/milos.json",
+      "extrasPath": "data/eu/milos-extras.json",
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "curated": true
     }
   ]
 }

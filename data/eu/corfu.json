@@ -1,0 +1,770 @@
+{
+  "id": "corfu",
+  "catalogId": "corfu",
+  "name": "Corfú",
+  "localName": "Κέρκυρα",
+  "country": "GR",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "status": "editorially-reviewed-pilot",
+  "reviewedAt": "2026-10-30",
+  "selectionReason": "Isla griega solicitada en ampliación (petición del usuario 30/10/2026).",
+  "discoveryReview": "Contenido construido con fuentes oficiales de turismo y editoriales reconocidas; horarios y cierres marcados para comprobación.",
+  "editorialAudit": [
+    "Paradas geocodificadas con OpenStreetMap/Nominatim y revisión editorial.",
+    "Fotos de Wikimedia Commons con licencia y autor registrados.",
+    "Sin mercado navideño verificado: modo Navidad muestra aviso honesto."
+  ],
+  "planningAssumptions": "Sin fechas ni reservas. Planes de uno a tres días; ferris, hoteles y traslados no incluidos.",
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "stops": [
+    {
+      "id": "oldtown",
+      "name": "Casco viejo veneciano",
+      "kind": "visit",
+      "zone": "Corfú ciudad",
+      "reason": "Callejones venecianos entre dos fortalezas: la ciudad jónica más elegante, Patrimonio UNESCO.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 39.6222358,
+        "lon": 19.9226227
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Corfu%20Old%20Town%2C%20Greece",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Empedrado y cuestas suaves; perderse es el plan.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/corfu/oldtown.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Old_Corfu_town_aerial_01.jpg",
+        "author": "This photo was taken by Anton Zelenov.\nPlease credit this with : Photo : Anton Zelenov in the immediate vicinity of the image.\nIf you use one of my photos, please email me (account needed) or leave me a short message on my discussion page.\nIt would be greatly appreciated.\nDo not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain.\n\nIf you would like special permission to use, license, or purchase the image please contact me to negotiate terms.",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "liston",
+      "name": "Listón y Spianada",
+      "kind": "visit",
+      "zone": "Corfú ciudad",
+      "reason": "El paseo de arcadas parisino y la gran explanada: el salón de la ciudad.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 39.6243247,
+        "lon": 19.9239249
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Liston%2C%20Corfu",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Cafés con sobreprecio de ubicación; el paseo es gratis.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/corfu/liston.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Easter_Good_Friday_Epitafios_Procession_in_Liston_Corfu_2026-04-10.jpg",
+        "author": "Gkaridis0",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "oldfortress",
+      "name": "Fortaleza Vieja",
+      "kind": "visit",
+      "zone": "Corfú ciudad",
+      "reason": "El peñón veneciano que cierra la ciudad por el este: vistas completas.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 39.6234142,
+        "lon": 19.9295061
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Old%20Fortress%2C%20Corfu",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Entrada de pago; comprobar horario de cierre.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/corfu/oldfortress.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Corfu%20Old%20Fortress%20R02.jpg",
+        "author": "Marc Ryckaert (MJJR)",
+        "license": "CC BY 3.0"
+      },
+      "visitMode": "Recinto con entrada"
+    },
+    {
+      "id": "kanoni",
+      "name": "Kanoni e isla del Ratón",
+      "kind": "visit",
+      "zone": "Kanoni",
+      "reason": "El mirador clásico: el islote de Pontikonisi y la pista del aeropuerto en un solo encuadre.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 39.5995421,
+        "lon": 19.9213697
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Kanoni%2C%20Corfu",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Mirador concurrido; bajada al monasterio de Vlacherna por escaleras.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/corfu/kanoni.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Corfu_Kanoni_02.jpg",
+        "author": "Jean Housen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "achilleion",
+      "name": "Palacio Achilleion",
+      "kind": "visit",
+      "zone": "Gastouri",
+      "reason": "La villa de la emperatriz Sissi entre jardines y estatuas.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 39.562782,
+        "lon": 19.9041515
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Achilleion%20Palace%2C%20Corfu",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Comprobar apertura: el edificio ha alternado cierres por obras en los últimos años; jardines a veces abiertos aunque el interior no.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/corfu/achilleion.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Korfu_(GR),_Gastouri,_Achilleion_--_2018_--_1312.jpg",
+        "author": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Jardines e interior con entrada; comprobar cierres parciales"
+    },
+    {
+      "id": "paleokastritsa",
+      "name": "Paleokastritsa",
+      "kind": "visit",
+      "zone": "Costa oeste",
+      "reason": "Bahías de agua verde bajo acantilados y el monasterio sobre el mar.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 39.674417,
+        "lon": 19.7213592
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Paleokastritsa%2C%20Corfu",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "A 25 km: bus o coche; cuestas y curvas.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/corfu/paleokastritsa.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Korfu_(GR),_Paleokastritsa,_Kloster_--_2018_--_1243.jpg",
+        "author": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "newfortress",
+      "name": "Fortaleza Nueva",
+      "kind": "visit",
+      "zone": "Corfú ciudad",
+      "reason": "La otra fortaleza veneciana, menos visitada y con vistas al puerto viejo.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 39.6249419,
+        "lon": 19.9168611
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=New%20Fortress%2C%20Corfu",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Comprobar apertura; acceso con escaleras.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/corfu/newfortress.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Korfu_(GR),_Korfu,_Altstadt_--_2018_--_1113.jpg",
+        "author": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Recinto con entrada; comprobar apertura"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "La ciudad veneciana",
+          "zone": "Casco → Listón → Fortaleza Vieja",
+          "stopIds": [
+            "oldtown",
+            "liston",
+            "oldfortress"
+          ],
+          "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+          "optionalStopIds": [
+            "newfortress"
+          ],
+          "pacing": "5-6 h a pie.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "La ciudad veneciana",
+          "zone": "Casco → Listón → Fortaleza Vieja",
+          "stopIds": [
+            "oldtown",
+            "liston",
+            "oldfortress"
+          ],
+          "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+          "optionalStopIds": [
+            "newfortress"
+          ],
+          "pacing": "5-6 h a pie.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Kanoni y Achilleion",
+          "zone": "Kanoni → Gastouri",
+          "stopIds": [
+            "kanoni",
+            "achilleion"
+          ],
+          "editorialNote": "Mirador clásico por la mañana y palacio de Sissi después; comprobar apertura del Achilleion antes de ir.",
+          "optionalStopIds": [],
+          "pacing": "4-6 h con bus o coche.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "La ciudad veneciana",
+          "zone": "Casco → Listón → Fortaleza Vieja",
+          "stopIds": [
+            "oldtown",
+            "liston",
+            "oldfortress"
+          ],
+          "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+          "optionalStopIds": [
+            "newfortress"
+          ],
+          "pacing": "5-6 h a pie.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Kanoni y Achilleion",
+          "zone": "Kanoni → Gastouri",
+          "stopIds": [
+            "kanoni",
+            "achilleion"
+          ],
+          "editorialNote": "Mirador clásico por la mañana y palacio de Sissi después; comprobar apertura del Achilleion antes de ir.",
+          "optionalStopIds": [],
+          "pacing": "4-6 h con bus o coche.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Paleokastritsa, la costa oeste",
+          "zone": "Paleokastritsa",
+          "stopIds": [
+            "paleokastritsa"
+          ],
+          "editorialNote": "Día de bahías y monasterio en la costa oeste.",
+          "optionalStopIds": [],
+          "pacing": "Día completo con bus o coche.",
+          "geographyChecks": []
+        }
+      ]
+    }
+  },
+  "seasonalPlans": {
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad veneciana",
+            "zone": "Casco → Listón → Fortaleza Vieja",
+            "stopIds": [
+              "oldtown",
+              "liston",
+              "oldfortress"
+            ],
+            "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+            "optionalStopIds": [
+              "newfortress"
+            ],
+            "pacing": "5-6 h a pie.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad veneciana",
+            "zone": "Casco → Listón → Fortaleza Vieja",
+            "stopIds": [
+              "oldtown",
+              "liston",
+              "oldfortress"
+            ],
+            "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+            "optionalStopIds": [
+              "newfortress"
+            ],
+            "pacing": "5-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Kanoni y Achilleion",
+            "zone": "Kanoni → Gastouri",
+            "stopIds": [
+              "kanoni",
+              "achilleion"
+            ],
+            "editorialNote": "Mirador clásico por la mañana y palacio de Sissi después; comprobar apertura del Achilleion antes de ir.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad veneciana",
+            "zone": "Casco → Listón → Fortaleza Vieja",
+            "stopIds": [
+              "oldtown",
+              "liston",
+              "oldfortress"
+            ],
+            "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+            "optionalStopIds": [
+              "newfortress"
+            ],
+            "pacing": "5-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Kanoni y Achilleion",
+            "zone": "Kanoni → Gastouri",
+            "stopIds": [
+              "kanoni",
+              "achilleion"
+            ],
+            "editorialNote": "Mirador clásico por la mañana y palacio de Sissi después; comprobar apertura del Achilleion antes de ir.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Paleokastritsa, la costa oeste",
+            "zone": "Paleokastritsa",
+            "stopIds": [
+              "paleokastritsa"
+            ],
+            "editorialNote": "Día de bahías y monasterio en la costa oeste.",
+            "optionalStopIds": [],
+            "pacing": "Día completo con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad veneciana",
+            "zone": "Casco → Listón → Fortaleza Vieja",
+            "stopIds": [
+              "oldtown",
+              "liston",
+              "oldfortress"
+            ],
+            "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+            "optionalStopIds": [
+              "newfortress"
+            ],
+            "pacing": "5-6 h a pie.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad veneciana",
+            "zone": "Casco → Listón → Fortaleza Vieja",
+            "stopIds": [
+              "oldtown",
+              "liston",
+              "oldfortress"
+            ],
+            "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+            "optionalStopIds": [
+              "newfortress"
+            ],
+            "pacing": "5-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Kanoni y Achilleion",
+            "zone": "Kanoni → Gastouri",
+            "stopIds": [
+              "kanoni",
+              "achilleion"
+            ],
+            "editorialNote": "Mirador clásico por la mañana y palacio de Sissi después; comprobar apertura del Achilleion antes de ir.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad veneciana",
+            "zone": "Casco → Listón → Fortaleza Vieja",
+            "stopIds": [
+              "oldtown",
+              "liston",
+              "oldfortress"
+            ],
+            "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+            "optionalStopIds": [
+              "newfortress"
+            ],
+            "pacing": "5-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Kanoni y Achilleion",
+            "zone": "Kanoni → Gastouri",
+            "stopIds": [
+              "kanoni",
+              "achilleion"
+            ],
+            "editorialNote": "Mirador clásico por la mañana y palacio de Sissi después; comprobar apertura del Achilleion antes de ir.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Paleokastritsa, la costa oeste",
+            "zone": "Paleokastritsa",
+            "stopIds": [
+              "paleokastritsa"
+            ],
+            "editorialNote": "Día de bahías y monasterio en la costa oeste.",
+            "optionalStopIds": [],
+            "pacing": "Día completo con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad veneciana",
+            "zone": "Casco → Listón → Fortaleza Vieja",
+            "stopIds": [
+              "oldtown",
+              "liston",
+              "oldfortress"
+            ],
+            "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+            "optionalStopIds": [
+              "newfortress"
+            ],
+            "pacing": "5-6 h a pie.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad veneciana",
+            "zone": "Casco → Listón → Fortaleza Vieja",
+            "stopIds": [
+              "oldtown",
+              "liston",
+              "oldfortress"
+            ],
+            "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+            "optionalStopIds": [
+              "newfortress"
+            ],
+            "pacing": "5-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Kanoni y Achilleion",
+            "zone": "Kanoni → Gastouri",
+            "stopIds": [
+              "kanoni",
+              "achilleion"
+            ],
+            "editorialNote": "Mirador clásico por la mañana y palacio de Sissi después; comprobar apertura del Achilleion antes de ir.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad veneciana",
+            "zone": "Casco → Listón → Fortaleza Vieja",
+            "stopIds": [
+              "oldtown",
+              "liston",
+              "oldfortress"
+            ],
+            "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+            "optionalStopIds": [
+              "newfortress"
+            ],
+            "pacing": "5-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Kanoni y Achilleion",
+            "zone": "Kanoni → Gastouri",
+            "stopIds": [
+              "kanoni",
+              "achilleion"
+            ],
+            "editorialNote": "Mirador clásico por la mañana y palacio de Sissi después; comprobar apertura del Achilleion antes de ir.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Paleokastritsa, la costa oeste",
+            "zone": "Paleokastritsa",
+            "stopIds": [
+              "paleokastritsa"
+            ],
+            "editorialNote": "Día de bahías y monasterio en la costa oeste.",
+            "optionalStopIds": [],
+            "pacing": "Día completo con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "La ciudad veneciana",
+            "zone": "Casco → Listón → Fortaleza Vieja",
+            "stopIds": [
+              "oldtown",
+              "liston",
+              "oldfortress"
+            ],
+            "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+            "optionalStopIds": [
+              "newfortress"
+            ],
+            "pacing": "5-6 h a pie.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "La ciudad veneciana",
+            "zone": "Casco → Listón → Fortaleza Vieja",
+            "stopIds": [
+              "oldtown",
+              "liston",
+              "oldfortress"
+            ],
+            "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+            "optionalStopIds": [
+              "newfortress"
+            ],
+            "pacing": "5-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Kanoni y Achilleion",
+            "zone": "Kanoni → Gastouri",
+            "stopIds": [
+              "kanoni",
+              "achilleion"
+            ],
+            "editorialNote": "Mirador clásico por la mañana y palacio de Sissi después; comprobar apertura del Achilleion antes de ir.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "La ciudad veneciana",
+            "zone": "Casco → Listón → Fortaleza Vieja",
+            "stopIds": [
+              "oldtown",
+              "liston",
+              "oldfortress"
+            ],
+            "editorialNote": "El triángulo esencial de la ciudad en un día caminado.",
+            "optionalStopIds": [
+              "newfortress"
+            ],
+            "pacing": "5-6 h a pie.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Kanoni y Achilleion",
+            "zone": "Kanoni → Gastouri",
+            "stopIds": [
+              "kanoni",
+              "achilleion"
+            ],
+            "editorialNote": "Mirador clásico por la mañana y palacio de Sissi después; comprobar apertura del Achilleion antes de ir.",
+            "optionalStopIds": [],
+            "pacing": "4-6 h con bus o coche.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Paleokastritsa, la costa oeste",
+            "zone": "Paleokastritsa",
+            "stopIds": [
+              "paleokastritsa"
+            ],
+            "editorialNote": "Día de bahías y monasterio en la costa oeste.",
+            "optionalStopIds": [],
+            "pacing": "Día completo con bus o coche.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    }
+  },
+  "seasonalVariants": {},
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Todo abierto y muy lleno en julio-agosto; calor fuerte al mediodía. Reservas y madrugar.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Temporada baja real: gran parte de hoteles, tabernas y servicios turísticos cierran de noviembre a marzo y los ferris se reducen; comprobar antes de ir.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Buen equilibrio: casi todo abierto hasta finales de octubre, mar templado en otoño y menos gente.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Navidad de vida local, sin mercado turístico verificado; yacimientos y museos estatales cierran 25-26/12 y 1/1. No inventamos feria ni programa.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "excursions": [],
+  "cautions": [
+    "Achilleion: comprobar si abre el interior o sólo jardines antes de pagar desplazamiento.",
+    "Corfú es verde porque llueve: prever chubascos fuera de verano.",
+    "Sin mercado navideño verificado: no inventamos feria ni programa.",
+    "Nada comprado: ferris, hoteles y traslados no incluidos."
+  ],
+  "sources": [
+    {
+      "id": "visitgreece",
+      "title": "Visit Greece: Corfu",
+      "url": "https://www.visitgreece.gr/islands/ionian-islands/corfu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lp",
+      "title": "Lonely Planet",
+      "url": "https://www.lonelyplanet.com/greece",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "culture",
+      "title": "Ministerio de Cultura de Grecia",
+      "url": "https://www.culture.gov.gr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "excludedOrOptional": []
+}

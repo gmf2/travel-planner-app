@@ -412,6 +412,38 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Santuario gratuito; mirador superior aparte"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Antica Fiera di Santa Lucia",
+      "kind": "event",
+      "zone": "Portico Santa Maria dei Servi",
+      "reason": "La feria de Santa Lucia bajo los pórticos: la parada navideña clásica de Bolonia.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 44.4916127,
+        "lon": 11.3526339
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Santa+Maria+dei+Servi,+Bologna (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-06 a 2026-12-27 (https://www.bolognawelcome.com/en/events/markets/antica-fiera-di-santa-lucia-2). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Basilica_di_Santa_Maria_dei_Servi,_Bologna_4.jpg",
+        "author": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -536,7 +568,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Antica Fiera di Santa Lucia",
+      "kind": "event",
+      "startDate": "2026-11-06",
+      "endDate": "2026-12-27",
+      "sourceId": "christmas",
+      "location": "Portico Santa Maria dei Servi",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://www.bolognawelcome.com/en/events/markets/antica-fiera-di-santa-lucia-2",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Ninguna entrada, mesa ni transporte comprados. Horarios/tarifas revisados, no disponibilidad garantizada.",
     "Asinelli y Garisenda no visitables; solo exteriores respetando obras.",
@@ -708,6 +755,13 @@
       "title": "Cremeria: carta de recogida, no tarifa de cono",
       "url": "https://cremeria-santo-stefano.it/",
       "type": "venue-ordering",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Antica Fiera di Santa Lucia",
+      "url": "https://www.bolognawelcome.com/en/events/markets/antica-fiera-di-santa-lucia-2",
+      "type": "official",
       "retrievedAt": "2026-10-30"
     }
   ],
@@ -925,7 +979,8 @@
               "petronio",
               "archiginnasio",
               "quadrilatero",
-              "stefano"
+              "stefano",
+              "xmas-market"
             ],
             "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
             "optionalStopIds": [],
@@ -944,7 +999,8 @@
               "petronio",
               "archiginnasio",
               "quadrilatero",
-              "stefano"
+              "stefano",
+              "xmas-market"
             ],
             "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
             "optionalStopIds": [],
@@ -977,7 +1033,8 @@
               "petronio",
               "archiginnasio",
               "quadrilatero",
-              "stefano"
+              "stefano",
+              "xmas-market"
             ],
             "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
             "optionalStopIds": [],

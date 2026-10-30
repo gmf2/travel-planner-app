@@ -406,6 +406,38 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Parque gratuito · visita opcional de día"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Advent in Zagreb",
+      "kind": "event",
+      "zone": "centro (zona aproximada)",
+      "reason": "El Adviento de Zagreb: el centro entero se convierte en mercado navideño.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 45.8130887,
+        "lon": 15.9771683
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Trg+bana+Jelačića,+Zagreb (OpenStreetMap) (ubicación aproximada del centro del evento)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "El punto del mapa marca el centro aproximado del evento, no una entrada exacta. Fechas 2026 anunciadas: 2026-11-27 a 2027-01-06 (https://croatia.hr/en-gb/events/advent-in-zagreb). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Advent_in_Zagreb_20161229_DSC_6524.jpg",
+        "author": "Branko Radovanović",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -532,7 +564,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Advent in Zagreb",
+      "kind": "event",
+      "startDate": "2026-11-27",
+      "endDate": "2027-01-06",
+      "sourceId": "christmas",
+      "location": "centro",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://croatia.hr/en-gb/events/advent-in-zagreb (turismo oficial)",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Obras del terremoto y temporal siguen afectando recorridos; no cerrar por defecto todos los monumentos ni prometer todo restaurado.",
     "San Marcos: acceso por perímetro permitido, no cruce libre de plaza.",
@@ -717,6 +764,13 @@
       "id": "botanic",
       "title": "Botánico: temporada y avisos",
       "url": "https://botanickivrt.biol.pmf.hr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Advent in Zagreb",
+      "url": "https://croatia.hr/en-gb/events/advent-in-zagreb",
       "type": "official",
       "retrievedAt": "2026-10-30"
     }
@@ -940,7 +994,8 @@
               "stone",
               "mark",
               "broken",
-              "stross"
+              "stross",
+              "xmas-market"
             ],
             "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
             "optionalStopIds": [],
@@ -960,7 +1015,8 @@
               "stone",
               "mark",
               "broken",
-              "stross"
+              "stross",
+              "xmas-market"
             ],
             "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
             "optionalStopIds": [],
@@ -994,7 +1050,8 @@
               "stone",
               "mark",
               "broken",
-              "stross"
+              "stross",
+              "xmas-market"
             ],
             "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
             "optionalStopIds": [],

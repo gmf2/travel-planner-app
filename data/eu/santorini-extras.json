@@ -1,0 +1,65 @@
+{
+  "cityId": "santorini",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "reviewedAt": "2026-10-30",
+  "scope": "food-activities",
+  "food": [
+    {
+      "id": "fava",
+      "name": "Fava y tomatokeftedes",
+      "description": "Los dos sabores propios de la isla: puré de almortas y buñuelos de tomate; pedir como apertivo compartido.",
+      "priceLabel": "4-9 €",
+      "address": "Tabernas de Fira y Pyrgos",
+      "caution": "Sin local concreto fijado: elegir taberna con producto local del día.",
+      "strength": "Platos de la isla, no trampa de caldera.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "assyrtiko",
+      "name": "Vino assyrtiko de la isla",
+      "description": "La variedad volcánica de Santorini; cata en bodegas de Pyrgos y alrededores.",
+      "priceLabel": "Cata 15-35 €",
+      "address": "Bodegas de la isla",
+      "caution": "Bodegas con cita en temporada; comprobar apertura en invierno.",
+      "strength": "Denominación propia volcánica.",
+      "status": "generic-product",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "boat",
+      "name": "Barco por la caldera y aguas termales",
+      "description": "La excursión clásica al volcán: sólo tiene sentido con mar calmado y fuera de la saturación de cruceros.",
+      "priceLabel": "30-60 €",
+      "address": "Puerto viejo de Fira / Athinios",
+      "caution": "Temporada y oleaje mandan; en invierno salidas muy reducidas.",
+      "strength": "La perspectiva del volcán desde el agua.",
+      "status": "seasonal",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ]
+}

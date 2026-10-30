@@ -373,6 +373,36 @@
         "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
         "caption": "Paseo del puerto de Preko en archivo; no indica muelle exacto ni barco de la línea 409. Recorte de presentación."
       }
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Advent in Zadar",
+      "kind": "event",
+      "zone": "centro histórico (zona aproximada)",
+      "reason": "El Adviento de Zadar por el centro histórico: música y puestos.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 44.1142238,
+        "lon": 15.2275106
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Narodni+trg,+Zadar (OpenStreetMap) (ubicación aproximada del centro del evento)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "El punto del mapa marca el centro aproximado del evento, no una entrada exacta. Fechas 2026 anunciadas: 2026-11-24 a 2027-01-02 (https://zadar.travel). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zadar/xmas-market.jpg",
+        "source": "",
+        "author": "Ilustración generada con IA",
+        "license": "No es una foto real del mercado",
+        "caption": "Ilustración generada con IA (Zadar, con San Donato y el paseo marítimo): no documenta el mercado real ni su edición de 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -501,7 +531,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Advent in Zadar",
+      "kind": "event",
+      "startDate": "2026-11-24",
+      "endDate": "2027-01-02",
+      "sourceId": "christmas",
+      "location": "centro histórico",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://zadar.travel (oficina de turismo)",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Un casco compacto no exige tres días de museos; tercero opcional o isla como sustitución.",
     "No precio oficial confirmado para torre o comidas: incertidumbre junto a cada opción.",
@@ -680,6 +725,13 @@
       "title": "TurismoPreko: paseos y subida separada",
       "url": "https://www.preko.hr/page/active-tourism/11",
       "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Advent in Zadar",
+      "url": "https://zadar.travel",
+      "type": "official",
       "retrievedAt": "2026-10-30"
     }
   ],
@@ -905,7 +957,8 @@
               "donat",
               "cathedral",
               "organ",
-              "sun"
+              "sun",
+              "xmas-market"
             ],
             "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
             "optionalStopIds": [
@@ -926,7 +979,8 @@
               "donat",
               "cathedral",
               "organ",
-              "sun"
+              "sun",
+              "xmas-market"
             ],
             "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
             "optionalStopIds": [
@@ -961,7 +1015,8 @@
               "donat",
               "cathedral",
               "organ",
-              "sun"
+              "sun",
+              "xmas-market"
             ],
             "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
             "optionalStopIds": [

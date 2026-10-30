@@ -378,6 +378,38 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Museo de pago; sustitución"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Gentse Winterfeesten",
+      "kind": "event",
+      "zone": "centro histórico",
+      "reason": "Las Gentse Winterfeesten: mercado y pista por el centro histórico de Gante.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 51.0567231,
+        "lon": 3.7212179
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Sint-Veerleplein,+Gent (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-12-03 a 2027-01-03 (https://visit.gent.be/en/calendar/christmas-market). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/ghent/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Carousel_on_the_Christmas_market,_Goudenleeuwplein,_Ghent,_2008.jpg",
+        "author": "DimiTalen",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -500,7 +532,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Gentse Winterfeesten",
+      "kind": "event",
+      "startDate": "2026-12-03",
+      "endDate": "2027-01-03",
+      "sourceId": "christmas",
+      "location": "centro histórico",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://visit.gent.be/en/calendar/christmas-market",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No entradas, comidas ni transporte reservados. Tarifas de hoy no son disponibilidad futura.",
     "CityCard 49€/48 h o 55€/72 h según VisitGent, no 42€ de blog. Retablo tiene descuento, NO acceso completo gratis; requiere reserva. No recomendar rentabilidad automática sin sumar visitas elegidas.",
@@ -685,6 +732,13 @@
       "title": "Julie’s: carta inglesa actual",
       "url": "https://www.julieshouse.be/web/content/207836?unique=5e3cbf8bb1cb451b3186316f0daa066023ed2130&download=true",
       "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Gentse Winterfeesten",
+      "url": "https://visit.gent.be/en/calendar/christmas-market",
+      "type": "official",
       "retrievedAt": "2026-10-30"
     }
   ],
@@ -897,7 +951,8 @@
               "bavo",
               "belfry",
               "graslei",
-              "groenten"
+              "groenten",
+              "xmas-market"
             ],
             "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
             "optionalStopIds": [],
@@ -915,7 +970,8 @@
               "bavo",
               "belfry",
               "graslei",
-              "groenten"
+              "groenten",
+              "xmas-market"
             ],
             "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
             "optionalStopIds": [],
@@ -947,7 +1003,8 @@
               "bavo",
               "belfry",
               "graslei",
-              "groenten"
+              "groenten",
+              "xmas-market"
             ],
             "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
             "optionalStopIds": [],

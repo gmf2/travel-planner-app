@@ -600,6 +600,38 @@
         "licenseUrl": "https://unsplash.com/license",
         "licenseURL": "https://unsplash.com/license"
       }
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Mercado de Piazza Navona",
+      "kind": "event",
+      "zone": "Piazza Navona",
+      "reason": "El mercado de Piazza Navona: el ambiente navideño clásico de Roma.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 41.8989282,
+        "lon": 12.4731178
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Piazza+Navona,+Roma (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 estimadas por prensa especializada, sin confirmación oficial: 2026-12-01 a 2027-01-06. Verificar antes de planear el día alrededor del mercado.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:1968_Piazza_Navona%27s_Christmas_market_in_Rome.jpg",
+        "author": "AP Photo / Giuseppe Anastasi",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_rules",
+        "licenseURL": "https://commons.wikimedia.org/wiki/Commons:Copyright_rules",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -753,7 +785,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Mercado de Piazza Navona",
+      "kind": "event",
+      "startDate": "2026-12-01",
+      "endDate": "2027-01-06",
+      "sourceId": "christmas",
+      "location": "Piazza Navona",
+      "status": "expected",
+      "closedDates": [],
+      "note": "Fechas estimadas a partir de prensa especializada; sin confirmación oficial todavía. Fuente: aggregator; Roma Capitale aún muestra edición 2025-26",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Las fechas no están elegidas: reordenar Vaticano y recintos según cierres/franjas.",
     "La plaza de Trevi es visible gratis; el perímetro interior de 2 € es opcional. Panteón 7 € desde julio 2026.",
@@ -849,6 +896,13 @@
       "url": "https://villae.cultura.gov.it/en/the-locations/villa-deste/",
       "type": "official",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Mercado de Piazza Navona",
+      "url": "aggregator;",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -1093,7 +1147,8 @@
               "colosseumoutside",
               "campidoglio",
               "pantheon",
-              "trevi"
+              "trevi",
+              "xmas-market"
             ],
             "editorialNote": "Con un solo día se renuncia al interior del Coliseo y al recinto Foro/Palatino. Empezar por su exterior, continuar al Capitolio y centro histórico; Panteón es el único interior corto si hay franja. No cabe también Vaticano.",
             "optionalStopIds": [],
@@ -1112,7 +1167,8 @@
               "navona",
               "pantheon",
               "trevi",
-              "spagna"
+              "spagna",
+              "xmas-market"
             ],
             "editorialNote": "Un eje por el centro sin saltar al Vaticano ni al Coliseo. Panteón como interior corto; Trevi vista gratuita desde la plaza. Pausa de comida entre Panteón y Trevi. Subida al Pincio opcional según energía. En días cortos el Pincio queda opcional, no parada obligatoria.",
             "optionalStopIds": [
@@ -1149,7 +1205,8 @@
               "navona",
               "pantheon",
               "trevi",
-              "spagna"
+              "spagna",
+              "xmas-market"
             ],
             "editorialNote": "Un eje por el centro sin saltar al Vaticano ni al Coliseo. Panteón como interior corto; Trevi vista gratuita desde la plaza. Pausa de comida entre Panteón y Trevi. Subida al Pincio opcional según energía. En días cortos el Pincio queda opcional, no parada obligatoria.",
             "optionalStopIds": [

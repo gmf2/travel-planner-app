@@ -1,0 +1,65 @@
+{
+  "cityId": "mykonos",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "reviewedAt": "2026-10-30",
+  "scope": "food-activities",
+  "food": [
+    {
+      "id": "kopanisti",
+      "name": "Kopanisti y louza",
+      "description": "El queso picante fermentado y el lomo curado de las Cícladas; aperitivo propio de la isla.",
+      "priceLabel": "5-12 €",
+      "address": "Tabernas de Ano Mera y Chora",
+      "caution": "Producto local; pedir en taberna de pueblo mejor que en paseo marítimo.",
+      "strength": "Sabores propios de Mykonos.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "bakaliaros",
+      "name": "Mosaico de mar: pescado del día",
+      "description": "Pescado local a la brasa en tabernas de pueblo, lejos del menú foto-trampa.",
+      "priceLabel": "18-35 €",
+      "address": "Ano Mera y costa este",
+      "caution": "Precio por peso: confirmar antes de encargar.",
+      "strength": "Marisco sin escenografía.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "delos",
+      "name": "Excursión a Delos",
+      "description": "La isla sagrada arqueológica frente a Mykonos: medio día con barco y entrada propios.",
+      "priceLabel": "Barco 25 € + entrada",
+      "address": "Puerto viejo de Chora",
+      "caution": "Barcos por la mañana, reducidos fuera de temporada; sin sombra en el yacimiento.",
+      "strength": "Uno de los yacimientos mayores de Grecia.",
+      "status": "seasonal",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ]
+}

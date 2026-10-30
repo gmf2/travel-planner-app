@@ -409,6 +409,38 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Museo de pago; sustitución"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Royal Christmas Fair",
+      "kind": "event",
+      "zone": "Lange Voorhout",
+      "reason": "La Royal Christmas Fair del Lange Voorhout: el mercado elegante de La Haya.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 52.0825098,
+        "lon": 4.31312
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Lange+Voorhout,+Den+Haag (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-12-03 a 2026-12-23 (https://royalchristmasfair.nl/en/). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Royal_Christmas_Fair,_The_Hague_(2022)_46.jpg",
+        "author": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics 💴) (Articles 📚) 15:12, 13 December 2022 (UTC)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -538,7 +570,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Royal Christmas Fair",
+      "kind": "event",
+      "startDate": "2026-12-03",
+      "endDate": "2026-12-23",
+      "sourceId": "christmas",
+      "location": "Lange Voorhout",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://royalchristmasfair.nl/en/",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Binnenhof cerrado por obras. Jardines del Palacio de la Paz solo con visita guiada; Noordeinde es un palacio de trabajo.",
     "El intercambio del Mauritshuis con el Thyssen afecta a 25 obras del 15/10/2026 al 17/01/2027: Vista de Delft está fuera.",
@@ -701,6 +748,13 @@
       "id": "mauritsholidays",
       "title": "Mauritshuis: calendario especial 2026 y enero 2027",
       "url": "https://www.mauritshuis.nl/en/visit/special-opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Royal Christmas Fair",
+      "url": "https://royalchristmasfair.nl/en/",
       "type": "official",
       "retrievedAt": "2026-10-30"
     }
@@ -928,7 +982,8 @@
               "hofvijver",
               "maurits",
               "passage",
-              "voorhout"
+              "voorhout",
+              "xmas-market"
             ],
             "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
             "optionalStopIds": [
@@ -948,7 +1003,8 @@
               "hofvijver",
               "maurits",
               "passage",
-              "voorhout"
+              "voorhout",
+              "xmas-market"
             ],
             "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
             "optionalStopIds": [
@@ -982,7 +1038,8 @@
               "hofvijver",
               "maurits",
               "passage",
-              "voorhout"
+              "voorhout",
+              "xmas-market"
             ],
             "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
             "optionalStopIds": [

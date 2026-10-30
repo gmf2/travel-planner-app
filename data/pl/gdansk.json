@@ -475,6 +475,38 @@
         "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
         "source": "https://commons.wikimedia.org/wiki/File:Zesp%C3%B3%C5%82_Zamku_Krzy%C5%BCackiego_MALBORK_01.jpg"
       }
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Jarmark Bożonarodzeniowy",
+      "kind": "event",
+      "zone": "Targ Węglowy",
+      "reason": "El Jarmark de Gdansk en Targ Węglowy: uno de los mercados más cuidados de Polonia.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 54.3511475,
+        "lon": 18.6480111
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Targ+Węglowy,+Gdańsk (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-20 a 2026-12-23 (https://bozonarodzeniowy.pl/en/). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/gdansk/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_Jarmark_Bo%C5%BConarodzeniowy_006.jpg",
+        "author": "Аимаина хикари",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -749,7 +781,7 @@
   },
   "events": [
     {
-      "id": "christmas-market",
+      "id": "market",
       "name": "Jarmark Bożonarodzeniowy",
       "kind": "event",
       "startDate": "2026-11-20",
@@ -758,9 +790,9 @@
       "location": "Targ Węglowy",
       "status": "announced",
       "closedDates": [],
-      "note": "No mostrar como disponible del 24 al 31 de diciembre de 2026.",
+      "note": "Fuente: https://bozonarodzeniowy.pl/en/",
       "appliesTo": "event-only",
-      "reviewedAt": "2026-10-28"
+      "reviewedAt": "2026-10-30"
     }
   ],
   "cautions": [
@@ -830,13 +862,6 @@
       "title": "Turismo: playas",
       "url": "https://visitgdansk.com/najpi%C4%99kniejsze-plaze.qbpage",
       "type": "official",
-      "retrievedAt": "2026-10-28"
-    },
-    {
-      "id": "christmas",
-      "title": "Organizador: mercado navideño",
-      "url": "https://bozonarodzeniowy.pl/",
-      "type": "operator",
       "retrievedAt": "2026-10-28"
     },
     {
@@ -936,6 +961,13 @@
       "url": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
       "type": "operator",
       "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Jarmark Bożonarodzeniowy",
+      "url": "https://bozonarodzeniowy.pl/en/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -1409,7 +1441,8 @@
               "neptune",
               "mary",
               "mariacka",
-              "crane"
+              "crane",
+              "xmas-market"
             ],
             "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
@@ -1457,7 +1490,8 @@
               "neptune",
               "mary",
               "mariacka",
-              "crane"
+              "crane",
+              "xmas-market"
             ],
             "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],
@@ -1533,7 +1567,8 @@
               "neptune",
               "mary",
               "mariacka",
-              "crane"
+              "crane",
+              "xmas-market"
             ],
             "editorialNote": "Mañana: Puerta Dorada y Długa hasta Neptuno/Ayuntamiento; entrar en Santa María como interior principal si abre. Parar a comer y continuar por Mariacka hacia la Grúa y ribera del Motława. Ayuntamiento o Grúa por dentro sustituyen la basílica, no se añaden todas las entradas. No imponer torre: no define la visita. La Grúa interior exige entrada aparte y tiene días/temporadas propios.",
             "optionalStopIds": [],

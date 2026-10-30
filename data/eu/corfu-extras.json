@@ -1,0 +1,65 @@
+{
+  "cityId": "corfu",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "reviewedAt": "2026-10-30",
+  "scope": "food-activities",
+  "food": [
+    {
+      "id": "sofrito",
+      "name": "Sofrito y pastitsada",
+      "description": "Los dos guisos veneciano-corfiotas: ternera al vinagre y gallo en salsa de especias.",
+      "priceLabel": "10-18 €",
+      "address": "Tabernas del casco y pueblos",
+      "caution": "Platos de cocina, no de brasa rápida; pedir con tiempo.",
+      "strength": "La cocina veneciana de la isla.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "kumquat",
+      "name": "Kumquat de Corfú",
+      "description": "Licor y dulces del pequeño cítrico que sólo aquí es cultivo propio.",
+      "priceLabel": "5-15 €",
+      "address": "Tiendas del casco y destilerías",
+      "caution": "Producto local real; comparar precios entre tiendas.",
+      "strength": "El fruto insignia de Corfú.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "boatbays",
+      "name": "Barco por bahías del norte",
+      "description": "Salidas de día a bahías y cuevas de la costa norte y este.",
+      "priceLabel": "20-40 €",
+      "address": "Puerto viejo y Kassiopi",
+      "caution": "Temporada y oleaje mandan; operador con licencia.",
+      "strength": "La costa verde desde el agua.",
+      "status": "seasonal",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ]
+}

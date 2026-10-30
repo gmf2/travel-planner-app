@@ -1,0 +1,722 @@
+{
+  "id": "zakynthos",
+  "catalogId": "zakynthos",
+  "name": "Zakynthos",
+  "localName": "Ζάκυνθος",
+  "country": "GR",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "status": "editorially-reviewed-pilot",
+  "reviewedAt": "2026-10-30",
+  "selectionReason": "Isla griega solicitada en ampliación (petición del usuario 30/10/2026).",
+  "discoveryReview": "Contenido construido con fuentes oficiales de turismo y editoriales reconocidas; horarios y cierres marcados para comprobación.",
+  "editorialAudit": [
+    "Paradas geocodificadas con OpenStreetMap/Nominatim y revisión editorial.",
+    "Fotos de Wikimedia Commons con licencia y autor registrados.",
+    "Sin mercado navideño verificado: modo Navidad muestra aviso honesto."
+  ],
+  "planningAssumptions": "Sin fechas ni reservas. Planes de uno a tres días; ferris, hoteles y traslados no incluidos.",
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "stops": [
+    {
+      "id": "zantetown",
+      "name": "Zante ciudad y puerto",
+      "kind": "visit",
+      "zone": "Zante ciudad",
+      "reason": "La capital reconstruida tras el terremoto: paseo marítimo, plaza Solomou y museo bizantino.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.7828669,
+        "lon": 20.8962212
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Zakynthos%20Town%2C%20Greece",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Pocas sombras al mediodía; museo con horario limitado.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zakynthos/zantetown.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Agios_Nikolaos_Kirche_Zakynthos_Stadt.jpg",
+        "author": "Herbert wie",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "bohali",
+      "name": "Bohali y castillo veneciano",
+      "kind": "visit",
+      "zone": "Sobre la ciudad",
+      "reason": "El mirador de la ciudad con el castillo veneciano entre pinos.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.7907463,
+        "lon": 20.8938182
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Bohali%2C%20Zakynthos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Castillo de pago con horario; subida a pie empinada o en coche.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zakynthos/bohali.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:191_%CE%9C%CF%80%CF%8C%CF%87%CE%B1%CE%BB%CE%B7_%CE%96%CE%B1%CE%BA%CF%8D%CE%BD%CE%B8%CE%BF%CF%85.JPG",
+        "author": "Σαλαμούρας Σπ / Σαλαμούρας Σπύρος at Greek Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mirador libre; castillo con entrada"
+    },
+    {
+      "id": "navagio",
+      "name": "Mirador del Navagio (Playa del Naufragio)",
+      "kind": "visit",
+      "zone": "Noroeste",
+      "reason": "La vista aérea de la cala del naufragio: la imagen más famosa de la isla, desde el mirador seguro.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.8647088,
+        "lon": 20.6247737
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Navagio%20Beach%20Viewpoint%2C%20Zakynthos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Acantilados sin barandilla más allá del mirador: no buscar el borde para la foto. El acceso a la playa en barco puede estar restringido según avisos por desprendimientos.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zakynthos/navagio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Aerial_of_Navagio_%22Shipwreck%22_Beach_on_Zakynthos_island_(31530898097).jpg",
+        "author": "dronepicr",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "laganas",
+      "name": "Bahía de Laganas y tortugas",
+      "kind": "visit",
+      "zone": "Sur",
+      "reason": "El parque marino de la tortuga caretta caretta: playas del sur con avistaje regulado.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.6959347,
+        "lon": 20.8985178
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Laganas%20Bay%2C%20Zakynthos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Zona protegida: nada de tocar ni perseguir tortugas; barcos con distancia y velocidad limitadas. Zonas de playa cerradas por nidos: respetar señales.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zakynthos/laganas.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Laganas_beach_bay_Zakynthos_Greece_(32599929568).jpg",
+        "author": "dronepicr",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "keri",
+      "name": "Keri y faro",
+      "kind": "visit",
+      "zone": "Suroeste",
+      "reason": "El faro sobre acantilados blancos al suroeste: atardecer sin multitudes.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.66116667,
+        "lon": 20.81608333
+      },
+      "coordinateSource": "https://el.wikipedia.org/wiki/Κερί_Ζακύνθου (coordenadas del artículo)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Carretera estrecha final; viento.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zakynthos/keri.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Keri_tuletorn.JPG",
+        "author": "Ivo Kruusamägi",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    },
+    {
+      "id": "portovromi",
+      "name": "Porto Vromi y cuevas del oeste",
+      "kind": "visit",
+      "zone": "Oeste",
+      "reason": "El embarcadero pequeño para las cuevas azules y la costa del naufragio por mar.",
+      "sourceIds": [
+        "visitgreece"
+      ],
+      "coordinates": {
+        "lat": 37.8229585,
+        "lon": 20.6318619
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Porto%20Vromi%2C%20Zakynthos",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Barcos pequeños, sujetos a oleaje; elegir operador con licencia.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zakynthos/portovromi.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Agios_Ioannis_Island,_Porto_Vromi,_Zakynthos,_Greece_03.jpg",
+        "author": "Christaras A",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior / visita libre"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Ciudad, castillo y bahía de las tortugas",
+          "zone": "Zante → Bohali → Laganas",
+          "stopIds": [
+            "zantetown",
+            "bohali",
+            "laganas"
+          ],
+          "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h con coche o bus.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Ciudad, castillo y bahía de las tortugas",
+          "zone": "Zante → Bohali → Laganas",
+          "stopIds": [
+            "zantetown",
+            "bohali",
+            "laganas"
+          ],
+          "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h con coche o bus.",
+          "geographyChecks": []
+        },
+        {
+          "title": "El Navagio desde arriba y el oeste",
+          "zone": "Mirador Navagio → Porto Vromi",
+          "stopIds": [
+            "navagio",
+            "portovromi"
+          ],
+          "editorialNote": "La gran foto desde el mirador seguro y la costa oeste.",
+          "optionalStopIds": [],
+          "pacing": "Medio día a día completo, coche necesario.",
+          "geographyChecks": []
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Ciudad, castillo y bahía de las tortugas",
+          "zone": "Zante → Bohali → Laganas",
+          "stopIds": [
+            "zantetown",
+            "bohali",
+            "laganas"
+          ],
+          "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+          "optionalStopIds": [],
+          "pacing": "5-7 h con coche o bus.",
+          "geographyChecks": []
+        },
+        {
+          "title": "El Navagio desde arriba y el oeste",
+          "zone": "Mirador Navagio → Porto Vromi",
+          "stopIds": [
+            "navagio",
+            "portovromi"
+          ],
+          "editorialNote": "La gran foto desde el mirador seguro y la costa oeste.",
+          "optionalStopIds": [],
+          "pacing": "Medio día a día completo, coche necesario.",
+          "geographyChecks": []
+        },
+        {
+          "title": "Faros y suroeste tranquilo",
+          "zone": "Keri",
+          "stopIds": [
+            "keri"
+          ],
+          "editorialNote": "Tarde de acantilados y faro lejos del ambiente de Laganas.",
+          "optionalStopIds": [
+            "laganas"
+          ],
+          "pacing": "3-5 h.",
+          "geographyChecks": []
+        }
+      ]
+    }
+  },
+  "seasonalPlans": {
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Ciudad, castillo y bahía de las tortugas",
+            "zone": "Zante → Bohali → Laganas",
+            "stopIds": [
+              "zantetown",
+              "bohali",
+              "laganas"
+            ],
+            "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o bus.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Ciudad, castillo y bahía de las tortugas",
+            "zone": "Zante → Bohali → Laganas",
+            "stopIds": [
+              "zantetown",
+              "bohali",
+              "laganas"
+            ],
+            "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o bus.",
+            "geographyChecks": []
+          },
+          {
+            "title": "El Navagio desde arriba y el oeste",
+            "zone": "Mirador Navagio → Porto Vromi",
+            "stopIds": [
+              "navagio",
+              "portovromi"
+            ],
+            "editorialNote": "La gran foto desde el mirador seguro y la costa oeste.",
+            "optionalStopIds": [],
+            "pacing": "Medio día a día completo, coche necesario.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Ciudad, castillo y bahía de las tortugas",
+            "zone": "Zante → Bohali → Laganas",
+            "stopIds": [
+              "zantetown",
+              "bohali",
+              "laganas"
+            ],
+            "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o bus.",
+            "geographyChecks": []
+          },
+          {
+            "title": "El Navagio desde arriba y el oeste",
+            "zone": "Mirador Navagio → Porto Vromi",
+            "stopIds": [
+              "navagio",
+              "portovromi"
+            ],
+            "editorialNote": "La gran foto desde el mirador seguro y la costa oeste.",
+            "optionalStopIds": [],
+            "pacing": "Medio día a día completo, coche necesario.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Faros y suroeste tranquilo",
+            "zone": "Keri",
+            "stopIds": [
+              "keri"
+            ],
+            "editorialNote": "Tarde de acantilados y faro lejos del ambiente de Laganas.",
+            "optionalStopIds": [
+              "laganas"
+            ],
+            "pacing": "3-5 h.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Ciudad, castillo y bahía de las tortugas",
+            "zone": "Zante → Bohali → Laganas",
+            "stopIds": [
+              "zantetown",
+              "bohali",
+              "laganas"
+            ],
+            "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o bus.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Ciudad, castillo y bahía de las tortugas",
+            "zone": "Zante → Bohali → Laganas",
+            "stopIds": [
+              "zantetown",
+              "bohali",
+              "laganas"
+            ],
+            "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o bus.",
+            "geographyChecks": []
+          },
+          {
+            "title": "El Navagio desde arriba y el oeste",
+            "zone": "Mirador Navagio → Porto Vromi",
+            "stopIds": [
+              "navagio",
+              "portovromi"
+            ],
+            "editorialNote": "La gran foto desde el mirador seguro y la costa oeste.",
+            "optionalStopIds": [],
+            "pacing": "Medio día a día completo, coche necesario.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Ciudad, castillo y bahía de las tortugas",
+            "zone": "Zante → Bohali → Laganas",
+            "stopIds": [
+              "zantetown",
+              "bohali",
+              "laganas"
+            ],
+            "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o bus.",
+            "geographyChecks": []
+          },
+          {
+            "title": "El Navagio desde arriba y el oeste",
+            "zone": "Mirador Navagio → Porto Vromi",
+            "stopIds": [
+              "navagio",
+              "portovromi"
+            ],
+            "editorialNote": "La gran foto desde el mirador seguro y la costa oeste.",
+            "optionalStopIds": [],
+            "pacing": "Medio día a día completo, coche necesario.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Faros y suroeste tranquilo",
+            "zone": "Keri",
+            "stopIds": [
+              "keri"
+            ],
+            "editorialNote": "Tarde de acantilados y faro lejos del ambiente de Laganas.",
+            "optionalStopIds": [
+              "laganas"
+            ],
+            "pacing": "3-5 h.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Ciudad, castillo y bahía de las tortugas",
+            "zone": "Zante → Bohali → Laganas",
+            "stopIds": [
+              "zantetown",
+              "bohali",
+              "laganas"
+            ],
+            "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o bus.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Ciudad, castillo y bahía de las tortugas",
+            "zone": "Zante → Bohali → Laganas",
+            "stopIds": [
+              "zantetown",
+              "bohali",
+              "laganas"
+            ],
+            "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o bus.",
+            "geographyChecks": []
+          },
+          {
+            "title": "El Navagio desde arriba y el oeste",
+            "zone": "Mirador Navagio → Porto Vromi",
+            "stopIds": [
+              "navagio",
+              "portovromi"
+            ],
+            "editorialNote": "La gran foto desde el mirador seguro y la costa oeste.",
+            "optionalStopIds": [],
+            "pacing": "Medio día a día completo, coche necesario.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Ciudad, castillo y bahía de las tortugas",
+            "zone": "Zante → Bohali → Laganas",
+            "stopIds": [
+              "zantetown",
+              "bohali",
+              "laganas"
+            ],
+            "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o bus.",
+            "geographyChecks": []
+          },
+          {
+            "title": "El Navagio desde arriba y el oeste",
+            "zone": "Mirador Navagio → Porto Vromi",
+            "stopIds": [
+              "navagio",
+              "portovromi"
+            ],
+            "editorialNote": "La gran foto desde el mirador seguro y la costa oeste.",
+            "optionalStopIds": [],
+            "pacing": "Medio día a día completo, coche necesario.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Faros y suroeste tranquilo",
+            "zone": "Keri",
+            "stopIds": [
+              "keri"
+            ],
+            "editorialNote": "Tarde de acantilados y faro lejos del ambiente de Laganas.",
+            "optionalStopIds": [
+              "laganas"
+            ],
+            "pacing": "3-5 h.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Ciudad, castillo y bahía de las tortugas",
+            "zone": "Zante → Bohali → Laganas",
+            "stopIds": [
+              "zantetown",
+              "bohali",
+              "laganas"
+            ],
+            "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o bus.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Ciudad, castillo y bahía de las tortugas",
+            "zone": "Zante → Bohali → Laganas",
+            "stopIds": [
+              "zantetown",
+              "bohali",
+              "laganas"
+            ],
+            "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o bus.",
+            "geographyChecks": []
+          },
+          {
+            "title": "El Navagio desde arriba y el oeste",
+            "zone": "Mirador Navagio → Porto Vromi",
+            "stopIds": [
+              "navagio",
+              "portovromi"
+            ],
+            "editorialNote": "La gran foto desde el mirador seguro y la costa oeste.",
+            "optionalStopIds": [],
+            "pacing": "Medio día a día completo, coche necesario.",
+            "geographyChecks": []
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Ciudad, castillo y bahía de las tortugas",
+            "zone": "Zante → Bohali → Laganas",
+            "stopIds": [
+              "zantetown",
+              "bohali",
+              "laganas"
+            ],
+            "editorialNote": "La capital por la mañana y el sur protegido por la tarde.",
+            "optionalStopIds": [],
+            "pacing": "5-7 h con coche o bus.",
+            "geographyChecks": []
+          },
+          {
+            "title": "El Navagio desde arriba y el oeste",
+            "zone": "Mirador Navagio → Porto Vromi",
+            "stopIds": [
+              "navagio",
+              "portovromi"
+            ],
+            "editorialNote": "La gran foto desde el mirador seguro y la costa oeste.",
+            "optionalStopIds": [],
+            "pacing": "Medio día a día completo, coche necesario.",
+            "geographyChecks": []
+          },
+          {
+            "title": "Faros y suroeste tranquilo",
+            "zone": "Keri",
+            "stopIds": [
+              "keri"
+            ],
+            "editorialNote": "Tarde de acantilados y faro lejos del ambiente de Laganas.",
+            "optionalStopIds": [
+              "laganas"
+            ],
+            "pacing": "3-5 h.",
+            "geographyChecks": []
+          }
+        ]
+      }
+    }
+  },
+  "seasonalVariants": {},
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Todo abierto y muy lleno en julio-agosto; calor fuerte al mediodía. Reservas y madrugar.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Temporada baja real: gran parte de hoteles, tabernas y servicios turísticos cierran de noviembre a marzo y los ferris se reducen; comprobar antes de ir.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Buen equilibrio: casi todo abierto hasta finales de octubre, mar templado en otoño y menos gente.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Navidad de vida local, sin mercado turístico verificado; yacimientos y museos estatales cierran 25-26/12 y 1/1. No inventamos feria ni programa.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "excursions": [],
+  "cautions": [
+    "La bahía de Laganas es parque marino protegido: normas estrictas con tortugas y nidos.",
+    "Mirador del Navagio: quedarse en la zona habilitada; ha habido accidentes mortales por acercarse al borde.",
+    "La playa del Naufragio por mar puede cerrar por riesgo de desprendimiento: comprobar avisos vigentes.",
+    "Sin mercado navideño verificado: no inventamos feria ni programa.",
+    "Nada comprado: ferris, hoteles y traslados no incluidos."
+  ],
+  "sources": [
+    {
+      "id": "visitgreece",
+      "title": "Visit Greece: Zakynthos",
+      "url": "https://www.visitgreece.gr/islands/ionian-islands/zakynthos/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lp",
+      "title": "Lonely Planet",
+      "url": "https://www.lonelyplanet.com/greece",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "culture",
+      "title": "Ministerio de Cultura de Grecia",
+      "url": "https://www.culture.gov.gr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "excludedOrOptional": []
+}

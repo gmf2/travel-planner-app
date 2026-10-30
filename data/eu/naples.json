@@ -342,6 +342,38 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Paseo exterior; castillo cerrado"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: San Gregorio Armeno",
+      "kind": "event",
+      "zone": "San Gregorio Armeno",
+      "reason": "San Gregorio Armeno: la calle de los belenes artesanos, activa todo el día.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 40.8497774,
+        "lon": 14.2579807
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Via+San+Gregorio+Armeno,+Napoli (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 estimadas por prensa especializada, sin confirmación oficial: 2026-11-01 a 2027-01-06. Verificar antes de planear el día alrededor del mercado.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naples/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Napoli_street._Christmas_market._2019.jpg",
+        "author": "nettadi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -460,7 +492,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "San Gregorio Armeno (calle de belenes)",
+      "kind": "event",
+      "startDate": "2026-11-01",
+      "endDate": "2027-01-06",
+      "sourceId": "christmas",
+      "location": "San Gregorio Armeno",
+      "status": "expected",
+      "closedDates": [],
+      "note": "Fechas estimadas a partir de prensa especializada; sin confirmación oficial todavía. Fuente: trovanapoli.it editorial; es calle de talleres permanente",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No hay reservas ni entradas compradas.",
     "MANN y Castel Sant’Elmo cierran martes ordinario; Palacio Real cierra miércoles.",
@@ -590,6 +637,13 @@
       "url": "https://www.gamberorosso.it/rubriche/classifiche/migliori-sfogliatelle-napoli/",
       "type": "editorial",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: San Gregorio Armeno (calle de belenes)",
+      "url": "trovanapoli.it",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -793,7 +847,8 @@
               "duomo",
               "gregorio",
               "spacca",
-              "chiara"
+              "chiara",
+              "xmas-market"
             ],
             "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
             "optionalStopIds": [],
@@ -811,7 +866,8 @@
               "duomo",
               "gregorio",
               "spacca",
-              "chiara"
+              "chiara",
+              "xmas-market"
             ],
             "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
             "optionalStopIds": [],
@@ -841,7 +897,8 @@
               "duomo",
               "gregorio",
               "spacca",
-              "chiara"
+              "chiara",
+              "xmas-market"
             ],
             "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
             "optionalStopIds": [],

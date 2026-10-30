@@ -334,6 +334,38 @@
       "reviewedAt": "2026-10-28",
       "openingHours": null,
       "price": null
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Poznań Bethlehem",
+      "kind": "event",
+      "zone": "Plac Wolności / Stary Rynek",
+      "reason": "El Poznań Bethlehem: mercados de Plac Wolności y Stary Rynek.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 52.4081225,
+        "lon": 16.9277159
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Plac+Wolności,+Poznań (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 estimadas por prensa especializada, sin confirmación oficial: 2026-11-20 a 2027-01-06. Verificar antes de planear el día alrededor del mercado.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/poznan/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:USAREUR-AF_Band_%26_Chorus,_Free_Groove_plays_Poznan_(8153759).jpg",
+        "author": "U.S. Army Reserve photo by Karen Sampson",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_rules",
+        "licenseURL": "https://commons.wikimedia.org/wiki/Commons:Copyright_rules",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -581,17 +613,17 @@
   "events": [
     {
       "id": "market",
-      "name": "Betlejem Poznańskie",
+      "name": "Poznań Bethlehem (Plac Wolności y Stary Rynek)",
       "kind": "event",
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2026-11-20",
+      "endDate": "2027-01-06",
       "sourceId": "christmas",
       "location": "Plac Wolności / Stary Rynek",
-      "status": "unverified-current-edition",
+      "status": "expected",
       "closedDates": [],
-      "note": "Web sigue mostrando 2025-26. No convertir agregadores en confirmación oficial.",
+      "note": "Fechas estimadas a partir de prensa especializada; sin confirmación oficial todavía. Fuente: polandfrontier.com contrastado con páginas del organizador",
       "appliesTo": "event-only",
-      "reviewedAt": "2026-10-28"
+      "reviewedAt": "2026-10-30"
     }
   ],
   "cautions": [
@@ -669,13 +701,6 @@
       "title": "Guía local: avisos de cierres",
       "url": "https://odkrywajpoznan.pl/en/",
       "type": "local-guide",
-      "retrievedAt": "2026-10-28"
-    },
-    {
-      "id": "christmas",
-      "title": "Organizador: Betlejem, web aún 2025-26",
-      "url": "https://betlejempoznanskie.pl/",
-      "type": "operator",
       "retrievedAt": "2026-10-28"
     },
     {
@@ -810,6 +835,13 @@
       "url": "https://pukmosina.pl/wp-content/uploads/2026/10/linia-699dc.pdf",
       "type": "operator",
       "retrievedAt": "2026-10-28"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Poznań Bethlehem (Plac Wolności y Stary Rynek)",
+      "url": "polandfrontier.com",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -1220,7 +1252,8 @@
               "rynek",
               "fara",
               "cathedral",
-              "srodka"
+              "srodka",
+              "xmas-market"
             ],
             "editorialNote": "Plaza vieja y ayuntamiento por fuera, Fara si abre y comida. Después, transporte hasta la catedral y paseo corto hacia Śródka con luz. No cerrar toda la isla por ser invierno ni prometer el museo del ayuntamiento. Porta se reserva para profundizar el tercer día.",
             "optionalStopIds": [],
@@ -1260,7 +1293,8 @@
               "rynek",
               "fara",
               "cathedral",
-              "srodka"
+              "srodka",
+              "xmas-market"
             ],
             "editorialNote": "Plaza vieja y ayuntamiento por fuera, Fara si abre y comida. Después, transporte hasta la catedral y paseo corto hacia Śródka con luz. No cerrar toda la isla por ser invierno ni prometer el museo del ayuntamiento. Porta se reserva para profundizar el tercer día.",
             "optionalStopIds": [],
@@ -1321,7 +1355,8 @@
               "fara",
               "cathedral",
               "porta",
-              "srodka"
+              "srodka",
+              "xmas-market"
             ],
             "editorialNote": "Paseo con pausas, todo el origen de la ciudad en un mismo lado, sin transporte: casco antiguo, Fara, catedral, Porta Posnania (el centro de interpretación de la isla, a 4 min a pie de la catedral) y el mural de Śródka. Porta es el único interior largo (1,5–2 h); Fara y catedral son visitas cortas: no sumar otro museo.",
             "optionalStopIds": [],

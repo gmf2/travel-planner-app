@@ -456,6 +456,38 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Mirador exterior; subida a elegir"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Mercatini di Natale",
+      "kind": "event",
+      "zone": "Piazza dei Signori",
+      "reason": "Los mercados de Piazza dei Signori: casetas de estilo Núremberg en Verona.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 45.4434665,
+        "lon": 10.9980787
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Piazza+dei+Signori,+Verona (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 estimadas por prensa especializada, sin confirmación oficial: 2026-11-20 a 2026-12-26. Verificar antes de planear el día alrededor del mercado.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Christmas_markets_in_Verona,_2018_01.jpg",
+        "author": "Adert",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -581,7 +613,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Mercatini di Natale (Piazza dei Signori)",
+      "kind": "event",
+      "startDate": "2026-11-20",
+      "endDate": "2026-12-26",
+      "sourceId": "christmas",
+      "location": "Piazza dei Signori",
+      "status": "expected",
+      "closedDates": [],
+      "note": "Fechas estimadas a partir de prensa especializada; sin confirmación oficial todavía. Fuente: aggregator + festivalinitalia",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No billetes, mesas, pases ni transporte comprados. Tarifas y horarios son evidencia actual, no disponibilidad garantizada.",
     "Casa y patio Giulietta no gratis ni acceso por Via Cappello: reserva obligatoria online por Navona.",
@@ -731,6 +778,13 @@
       "title": "Borsari: casaysede",
       "url": "https://iltorrefattore.it/caffe-borsari/",
       "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Mercatini di Natale (Piazza dei Signori)",
+      "url": "aggregator",
+      "type": "editorial",
       "retrievedAt": "2026-10-30"
     }
   ],
@@ -950,7 +1004,8 @@
               "arena",
               "giulietta",
               "erbe",
-              "signori"
+              "signori",
+              "xmas-market"
             ],
             "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
             "optionalStopIds": [],
@@ -969,7 +1024,8 @@
               "arena",
               "giulietta",
               "erbe",
-              "signori"
+              "signori",
+              "xmas-market"
             ],
             "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
             "optionalStopIds": [],
@@ -1002,7 +1058,8 @@
               "arena",
               "giulietta",
               "erbe",
-              "signori"
+              "signori",
+              "xmas-market"
             ],
             "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
             "optionalStopIds": [],

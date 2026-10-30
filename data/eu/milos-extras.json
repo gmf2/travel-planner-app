@@ -1,0 +1,65 @@
+{
+  "cityId": "milos",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "reviewedAt": "2026-10-30",
+  "scope": "food-activities",
+  "food": [
+    {
+      "id": "karpouzopita",
+      "name": "Karpouzopita y pitarakia",
+      "description": "La tarta dulce de sandía y los pastelitos de queso y miel: dulcería propia de Milos.",
+      "priceLabel": "3-8 €",
+      "address": "Panaderías y tabernas de Plaka",
+      "caution": "De temporada: la karpouzopita es estival.",
+      "strength": "Dulces que no existen fuera.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "psaras",
+      "name": "Pescado del día en Pollonia",
+      "description": "Tabernas junto al embarcadero con pescado de la propia flota.",
+      "priceLabel": "15-30 €",
+      "address": "Pollonia",
+      "caution": "Precio por peso: confirmar antes de encargar.",
+      "strength": "Mar y mesa sin intermediarios.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "kleftiko",
+      "name": "Barco a Kleftiko",
+      "description": "Las cuevas piratas del suroeste sólo accesibles por mar: la excursión estrella de la isla.",
+      "priceLabel": "35-70 €",
+      "address": "Adamas",
+      "caution": "Salidas sujetas a oleaje y temporada; día completo o medio.",
+      "strength": "La costa imposible de Milos.",
+      "status": "seasonal",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ]
+}

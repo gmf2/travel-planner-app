@@ -473,6 +473,35 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Museo de pago; sustitución"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Wintergloed kerstmarkten",
+      "kind": "event",
+      "zone": "Markt y Simon Stevinplein",
+      "reason": "Los mercados de Wintergloed en el centro: el cierre natural de una jornada de canales.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 51.2087089,
+        "lon": 3.2243951
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Markt,+Brugge (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-20 a 2027-01-03 (https://www.visitbruges.be). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Bruges%20Christmas%20market%202013.jpg",
+        "author": "DimiTalen",
+        "license": "CC0"
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -603,7 +632,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Wintergloed kerstmarkten",
+      "kind": "event",
+      "startDate": "2026-11-20",
+      "endDate": "2027-01-03",
+      "sourceId": "christmas",
+      "location": "Markt y Simon Stevinplein",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://www.visitbruges.be",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No entradas, comidas ni transporte reservados. Horarios/precios consultados no garantizan disponibilidad futura.",
     "Musea Brugge Card 49€/72 h adulto, no compra automática: sumar visitas elegidas antes de recomendar ahorro. Reserva horaria recomendable en Belfort aunque se tenga tarjeta.",
@@ -781,6 +825,13 @@
       "title": "Waffle Workshop: contraste, horas descartadas",
       "url": "https://www.brugeswaffleworkshop.com/things-to-do-bruges/where-find-best-waffles-bruges.html",
       "type": "commercial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Wintergloed kerstmarkten",
+      "url": "https://www.visitbruges.be",
+      "type": "official",
       "retrievedAt": "2026-10-30"
     }
   ],
@@ -1010,7 +1061,8 @@
               "belfry",
               "burg",
               "rozen",
-              "groenerei"
+              "groenerei",
+              "xmas-market"
             ],
             "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
             "optionalStopIds": [],
@@ -1029,7 +1081,8 @@
               "belfry",
               "burg",
               "rozen",
-              "groenerei"
+              "groenerei",
+              "xmas-market"
             ],
             "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
             "optionalStopIds": [],
@@ -1065,7 +1118,8 @@
               "belfry",
               "burg",
               "rozen",
-              "groenerei"
+              "groenerei",
+              "xmas-market"
             ],
             "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
             "optionalStopIds": [],

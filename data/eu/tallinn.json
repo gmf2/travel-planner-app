@@ -408,6 +408,38 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Monumento y ribera exteriores"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Tallinn Christmas Market",
+      "kind": "event",
+      "zone": "Raekoja plats",
+      "reason": "El mercado de la Raekoja plats: uno de los más premiados de Europa.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 59.4373543,
+        "lon": 24.745211
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Raekoja+plats,+Tallinn (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 anunciadas: 2026-11-20 a 2027-01-06 (https://christmasmarket.ee). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Christmas_Market_in_the_Town_Hall_Square.jpg",
+        "author": "Marit &amp; Toomas Hinnosaar",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo del mercado o su plaza; recorte de presentación. No acredita la edición 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -530,7 +562,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Tallinn Christmas Market",
+      "kind": "event",
+      "startDate": "2026-11-20",
+      "endDate": "2027-01-06",
+      "sourceId": "christmas",
+      "location": "Raekoja plats",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://christmasmarket.ee",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No entradas, mesas, pases Tallinn Card ni transporte comprados. Importes en euros, fecha futura sin disponibilidad verificada.",
     "Guías de recorridos útiles, pero RØST no está en Telliskivi, F-hoone sí acepta reservas, Leib citado por guía no atribuir a Lee actual sin verificar.",
@@ -674,6 +721,13 @@
       "title": "Rotermann: RØSTsábado 10discrepa",
       "url": "https://rotermann.ee/en/soo-poodle-kulasta/rost-bakery-cafe/",
       "type": "district-operator",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Tallinn Christmas Market",
+      "url": "https://christmasmarket.ee",
+      "type": "official",
       "retrievedAt": "2026-10-30"
     }
   ],
@@ -886,7 +940,8 @@
               "square",
               "katariina",
               "toompea",
-              "kohtu"
+              "kohtu",
+              "xmas-market"
             ],
             "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
             "optionalStopIds": [],
@@ -904,7 +959,8 @@
               "square",
               "katariina",
               "toompea",
-              "kohtu"
+              "kohtu",
+              "xmas-market"
             ],
             "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
             "optionalStopIds": [],
@@ -936,7 +992,8 @@
               "square",
               "katariina",
               "toompea",
-              "kohtu"
+              "kohtu",
+              "xmas-market"
             ],
             "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
             "optionalStopIds": [],

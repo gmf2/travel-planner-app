@@ -338,6 +338,35 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Paseo de mercado; compra y comida aparte"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Wiener Christkindlmarkt",
+      "kind": "event",
+      "zone": "Rathausplatz",
+      "reason": "El mercado grande de Viena ante el Ayuntamiento: puestos, pista de hielo y ambiente; encaja al final de la jornada, cuando cierran los museos.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 48.2107049,
+        "lon": 16.3589982
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Rathausplatz,+Wien (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Sólo en temporada: fechas 2026 anunciadas del 13 nov al 26 dic (wien.info); comprobar horario. Aglomeraciones; suelo resbaladizo con nieve o hielo.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/vienna/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Wien%2C%20Christkindlmarkt%20am%20Rathausplatz%202018%20%283%29.jpg",
+        "author": "Palickap",
+        "license": "CC BY-SA 4.0"
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -457,7 +486,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Wiener Christkindlmarkt",
+      "kind": "event",
+      "startDate": "2026-11-13",
+      "endDate": "2026-12-26",
+      "sourceId": "christmas",
+      "location": "Rathausplatz",
+      "status": "announced",
+      "closedDates": [],
+      "note": "Fuente: https://www.wien.info/en/now-on/events/viennese-christmas-market-1001488",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No hay reservas ni entradas compradas. KHM, Schönbrunn y Belvedere requieren elegir su modalidad y franja vigente.",
     "Naschmarkt en domingo no equivale a puestos abiertos; cambiar orden si el mercado es prioritario."
@@ -593,6 +637,13 @@
       "url": "https://www.cafesperl.at/en/contact",
       "type": "official",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "wien.info: Wiener Christkindlmarkt 2026 (oficial)",
+      "url": "https://www.wien.info/en/now-on/events/viennese-christmas-market-1001488",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -798,7 +849,8 @@
               "stephansdom",
               "graben",
               "hofburg",
-              "khm"
+              "khm",
+              "xmas-market"
             ],
             "editorialNote": "Centro a pie y un museo principal. No intentar Schönbrunn y Belvedere el mismo día. Si se prefiere Sisi, sustituir KHM tras verificar billete.",
             "optionalStopIds": [],
@@ -817,7 +869,8 @@
               "graben",
               "hofburg",
               "khm",
-              "mq"
+              "mq",
+              "xmas-market"
             ],
             "editorialNote": "KHM es el único museo largo. Sisi y biblioteca son sustituciones, no visitas añadidas al mismo día. Dejar una pausa para comer antes del museo.",
             "optionalStopIds": [],
@@ -848,7 +901,8 @@
               "graben",
               "hofburg",
               "khm",
-              "mq"
+              "mq",
+              "xmas-market"
             ],
             "editorialNote": "KHM es el único museo largo. Sisi y biblioteca son sustituciones, no visitas añadidas al mismo día. Dejar una pausa para comer antes del museo.",
             "optionalStopIds": [],

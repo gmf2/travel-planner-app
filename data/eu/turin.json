@@ -413,6 +413,36 @@
         "caption": "Foto de archivo; recorte de presentación."
       },
       "visitMode": "Barrio y plazas exteriores"
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: Mercatino di Natale",
+      "kind": "event",
+      "zone": "centro (zona aproximada)",
+      "reason": "El mercadillo navideño del centro de Turín, con las Luci d'Artista encendidas.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 45.0709363,
+        "lon": 7.6873292
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Piazza+Castello,+Torino (OpenStreetMap) (ubicación aproximada del centro del evento)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "El punto del mapa marca el centro aproximado del evento, no una entrada exacta. Fechas 2026 estimadas por prensa especializada, sin confirmación oficial: 2026-12-04 a 2027-01-06. Verificar antes de planear el día alrededor del mercado.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/xmas-market.jpg",
+        "source": "",
+        "author": "Ilustración generada con IA",
+        "license": "No es una foto real del mercado",
+        "caption": "Ilustración generada con IA (Turín, con la Mole Antonelliana y los soportales): no documenta el mercado real ni su edición de 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -535,7 +565,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "Mercatino di Natale",
+      "kind": "event",
+      "startDate": "2026-12-04",
+      "endDate": "2027-01-06",
+      "sourceId": "christmas",
+      "location": "centro",
+      "status": "expected",
+      "closedDates": [],
+      "note": "Fechas estimadas a partir de prensa especializada; sin confirmación oficial todavía. Fuente: aggregator; Luci d'Artista desde 22 oct confirmado",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "No entradas, mesas, pases ni transporte comprados. Importes actuales no garantizan precio o hueco futuro.",
     "Musei Reali cierra miércoles, Cine martes, Egizio lunes horario reducido según italiano: no trasladar cierre de otro museo.",
@@ -699,6 +744,13 @@
       "title": "SlowTravelItalia: vegetal, horario corregido",
       "url": "https://slowtravelitalia.it/blogs/torino-blog/the-best-vegan-and-vegetarian-restaurants-in-torino",
       "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: Mercatino di Natale",
+      "url": "aggregator;",
+      "type": "editorial",
       "retrievedAt": "2026-10-30"
     }
   ],
@@ -911,7 +963,8 @@
               "sancarlo",
               "egizio",
               "carignano",
-              "castello"
+              "castello",
+              "xmas-market"
             ],
             "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
             "optionalStopIds": [],
@@ -929,7 +982,8 @@
               "sancarlo",
               "egizio",
               "carignano",
-              "castello"
+              "castello",
+              "xmas-market"
             ],
             "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
             "optionalStopIds": [],
@@ -961,7 +1015,8 @@
               "sancarlo",
               "egizio",
               "carignano",
-              "castello"
+              "castello",
+              "xmas-market"
             ],
             "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
             "optionalStopIds": [],

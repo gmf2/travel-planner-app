@@ -1,0 +1,65 @@
+{
+  "cityId": "naxos",
+  "schemaVersion": 1,
+  "catalogRevision": "2026-10-30-editorial-islands-pass1",
+  "reviewedAt": "2026-10-30",
+  "scope": "food-activities",
+  "food": [
+    {
+      "id": "graviera",
+      "name": "Graviera de Naxos y patatas",
+      "description": "El queso insignia de la isla y sus patatas famosas: probar el queso frito y la tortilla.",
+      "priceLabel": "5-14 €",
+      "address": "Tabernas de Chora y pueblos",
+      "caution": "Producto local abundante; difícil fallar.",
+      "strength": "La despensa más rica de las Cícladas.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "kitro",
+      "name": "Kitro de Halki",
+      "description": "El licor de hojas de cidra destilado en la isla; la destilería Vallindras ofrece cata.",
+      "priceLabel": "3-10 €",
+      "address": "Halki y tiendas de la Chora",
+      "caution": "Licor: con moderación y sin conducir después.",
+      "strength": "El licor propio de Naxos.",
+      "status": "generic-dish",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "zeus",
+      "name": "Monte Zas (Zeus)",
+      "description": "La cima más alta de las Cícladas: sendero señalizado desde Filoti o Agia Marina.",
+      "priceLabel": "Gratis",
+      "address": "Filoti",
+      "caution": "Sendero exigente y sin sombra: agua, calzado y empezar temprano; no con viento fuerte.",
+      "strength": "El techo de las Cícladas.",
+      "status": "seasonal",
+      "statusCheckedAt": "2026-10-30",
+      "statusEvidence": "Elemento genérico de la isla; sin local concreto comprometido.",
+      "alert": null,
+      "mapsUrl": null,
+      "officialUrl": null,
+      "photo": null,
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ]
+}

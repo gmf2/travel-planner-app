@@ -595,6 +595,36 @@
         "licenseURL": "https://www.pexels.com/license/",
         "caption": "Black and white view of the elegant colonnade at the Old Royal Naval College, Greenwich, England. Stock Photo"
       }
+    },
+    {
+      "id": "xmas-market",
+      "name": "Mercado navideño: King's Cross Winter Market",
+      "kind": "event",
+      "zone": "Granary Square",
+      "reason": "El Winter Market de Granary Square (King's Cross): puestos y ambiente junto al canal.",
+      "sourceIds": [
+        "christmas"
+      ],
+      "coordinates": {
+        "lat": 51.5352384,
+        "lon": -0.1254006
+      },
+      "coordinateSource": "https://nominatim.openstreetmap.org/search?q=Granary+Square,+London (OpenStreetMap)",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Fechas 2026 estimadas por prensa especializada, sin confirmación oficial: 2026-11-26 a 2027-01-03. Verificar antes de planear el día alrededor del mercado.",
+      "reviewedAt": "2026-10-30",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/xmas-market.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Christmas%20tree%20at%20Granary%20Square%202025-11-20.jpg",
+        "author": "Matt Brown",
+        "license": "CC BY 4.0",
+        "caption": "Árbol de Navidad de Granary Square (la plaza del mercado); foto de archivo, no acredita la edición de 2026."
+      },
+      "visitMode": "Mercado al aire libre"
     }
   ],
   "plans": {
@@ -752,7 +782,22 @@
       "excludeStopIds": []
     }
   },
-  "events": [],
+  "events": [
+    {
+      "id": "market",
+      "name": "King's Cross Winter Market",
+      "kind": "event",
+      "startDate": "2026-11-26",
+      "endDate": "2027-01-03",
+      "sourceId": "christmas",
+      "location": "Granary Square",
+      "status": "expected",
+      "closedDates": [],
+      "note": "Fechas estimadas a partir de prensa especializada; sin confirmación oficial todavía. Fuente: timeout.com; Winter Wonderland pendiente de página oficial",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-30"
+    }
+  ],
   "cautions": [
     "Los días son temáticos, no fechas concretas: reordenar según aperturas, mercado y franjas.",
     "Domingo la Abadía y San Pablo no abren al turismo; NHM/British Museum cierran 24-26 diciembre. Verificar servicios extraordinarios y transporte del día.",
@@ -862,6 +907,13 @@
       "url": "https://www.thamesclippers.com/plan-your-journey/route-map",
       "type": "official",
       "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christmas",
+      "title": "Mercado navideño 2026: King's Cross Winter Market",
+      "url": "timeout.com;",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
     }
   ],
   "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
@@ -1114,7 +1166,8 @@
               "abbey",
               "bigben",
               "eye",
-              "trafalgar"
+              "trafalgar",
+              "xmas-market"
             ],
             "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
             "optionalStopIds": [],
@@ -1134,7 +1187,8 @@
               "abbey",
               "bigben",
               "eye",
-              "trafalgar"
+              "trafalgar",
+              "xmas-market"
             ],
             "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
             "optionalStopIds": [],
@@ -1170,7 +1224,8 @@
               "abbey",
               "bigben",
               "eye",
-              "trafalgar"
+              "trafalgar",
+              "xmas-market"
             ],
             "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
             "optionalStopIds": [],
