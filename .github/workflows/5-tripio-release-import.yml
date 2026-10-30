@@ -1,0 +1,38 @@
+name: Import reviewed Tripio release
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and import the complete reviewed release
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,tarfile,io,json
+          parts=sorted(Path('.').glob('*tripio-release.part*'),key=lambda p:p.name.rsplit('part',1)[1])
+          assert len(parts)==3, len(parts)
+          archive=b''.join(p.read_bytes() for p in parts)
+          assert hashlib.sha256(archive).hexdigest()=='38d28607d81a55d9e30304c84f21e3c53446dacd3142a4e835339c9f44b715d1'
+          with tarfile.open(fileobj=io.BytesIO(archive),mode='r:gz') as t:
+              for m in t.getmembers():
+                  p=Path(m.name)
+                  assert m.isfile() and not p.is_absolute() and '..' not in p.parts
+              t.extractall('.')
+          manifests=list(Path('.').glob('*manifest.json'))
+          assert len(manifests)==1
+          for name,digest in json.loads(manifests[0].read_text()).items():
+              assert hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest,name
+          assert len(json.loads(manifests[0].read_text()))==144
+          for p in parts+manifests:p.unlink()
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- .
+          git commit -m 'Add day summary band, 7 Greek islands, Navidad mode with verified markets'
+          git push origin HEAD:main
