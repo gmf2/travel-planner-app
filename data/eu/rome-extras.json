@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "cityId": "rome",
+  "reviewedAt": "2026-10-29",
+  "scope": "Siete formatos: trattoria, salumeria con cocina, street food, friggitoria, osteria, pizza al peso y helado. Las fichas no son una reserva ni confirman apertura futura.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "enzo",
+      "name": "Da Enzo al 29 · Trastevere",
+      "address": "Via dei Vascellari, 29, 00153 Roma RM, Italy",
+      "description": "Trattoria para pasta romana y una comida sentada en Trastevere.",
+      "strength": "La carta propia confirma carbonara, gricia, cacio e pepe y platos de coda/trippa. La alcachofa judía es estacional, no prometerla todo el año.",
+      "caution": "No acepta reservas; orden de llegada. Web propia lunes-sábado 12-15 y 18:30-22:30, domingo no listado: comprobar. No repetir horario antiguo de la guía.",
+      "officialUrl": "https://www.daenzoal29.com/en/",
+      "sourceUrls": [
+        "https://www.daenzoal29.com/en/"
+      ],
+      "editorialUrl": "https://www.viajeroscallejeros.com/donde-comer-en-roma/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Trattoria+Da+Enzo&query_place_id=ChIJfy613ThgLxMR-Kr1iDROgrU",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha Maps exacta localizada y web propia leída 29/10/2026; no confirma apertura futura.",
+      "priceLabel": "Trattoria · consultar carta actual",
+      "photo": {
+        "img": "assets/food/pasta.jpg",
+        "source": "https://www.pexels.com/photo/pasta-on-plate-17375420/",
+        "author": "Gonzalo Acuña",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de pasta: no es del local ni garantiza un plato o presentación de su carta."
+      }
+    },
+    {
+      "id": "roscioli",
+      "name": "Roscioli · Salumeria con Cucina",
+      "address": "Via dei Giubbonari, 21, 00186 Roma RM, Italy",
+      "description": "Salumeria con restaurante para una comida de producto y pasta cerca de Campo de Fiori.",
+      "strength": "Formato distinto de una panadería: mostrador de quesos/embutidos y cocina. No confundir con Antico Forno Roscioli de Chiavari.",
+      "caution": "Reservar si se quiere mesa; revisar condiciones antes de hacerlo. Carta de la web tiene enlaces de menú: no extrapolar importes de blogs antiguos.",
+      "officialUrl": "https://salumeriaroscioli.com/en/pages/menu",
+      "sourceUrls": [
+        "https://salumeriaroscioli.com/en/pages/menu"
+      ],
+      "editorialUrl": "https://www.viajeroscallejeros.com/donde-comer-en-roma/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Roscioli+Salumeria+con+Cucina&query_place_id=ChIJ4T6-zEhgLxMRSa1VL3N0DyY",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha Maps exacta localizada y web propia leída 29/10/2026; no confirma apertura futura.",
+      "priceLabel": "Mesa / presupuesto más alto · consultar carta",
+      "photo": {
+        "img": "assets/food/charcuterie.jpg",
+        "source": "https://www.pexels.com/photo/elegant-charcuterie-board-with-cheese-and-fruits-36845205/",
+        "author": "Nadin Sh",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de quesos y embutidos: no es del local ni garantiza un plato o presentación de su carta."
+      }
+    },
+    {
+      "id": "trap",
+      "name": "Trapizzino · Piazza Trilussa",
+      "address": "Piazza Trilussa, 46, 00153 Roma RM, Italy",
+      "description": "Bolsillo de masa de pizza relleno de guisos y supplì, con opción de sentarse.",
+      "strength": "Pollo alla Cacciatora, parmigiana y polpette son sabores fijos de la carta propia; otras propuestas rotan.",
+      "caution": "No es una pizza redonda ni un menú completo por 5 €. Bebida y varias piezas se pagan aparte. Confirmar horario de la sucursal.",
+      "officialUrl": "https://www.trapizzino.it/en/trapizzino/trapizzino-roma-trastevere/",
+      "sourceUrls": [
+        "https://www.trapizzino.it/en/trapizzino/trapizzino-roma-trastevere/"
+      ],
+      "editorialUrl": "https://www.romeing.it/romes-top-street-food/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Trapizzino+%7C+Trastevere&query_place_id=ChIJhS8gpEdgLxMRYa6Yo9dyRnY",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha Maps exacta localizada y web propia leída 29/10/2026; no confirma apertura futura.",
+      "priceLabel": "Trapizzino 5 € · supplì 2 € · web 29/10/2026",
+      "photo": {
+        "img": "assets/rome/trap.jpg",
+        "source": "https://www.flickr.com/photos/dalecruse/37011618455",
+        "author": "Dale Cruse",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Trapizzini ilustrativos; no son foto de la sucursal Trilussa ni de su oferta actual. Encuadre adaptado a tarjeta."
+      }
+    },
+    {
+      "id": "sup",
+      "name": "Supplizio · Banchi Vecchi",
+      "address": "Via dei Banchi Vecchi, 143, 00186 Roma RM, Italy",
+      "description": "Friggitoria para una pausa breve cerca de Navona y el Tíber.",
+      "strength": "Carta actual con supplì clásico, cacio e pepe y amatriciana; alternativa rápida a una trattoria larga.",
+      "caution": "Domingo cerrado. Un supplì es tentempié, no comida completa; confirmar frituras del día y alérgenos.",
+      "officialUrl": "https://www.supplizioroma.it/en/",
+      "sourceUrls": [
+        "https://www.supplizioroma.it/en/"
+      ],
+      "editorialUrl": "https://www.viajeroscallejeros.com/donde-comer-en-roma/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Supplizio&query_place_id=ChIJ0expikRgLxMRKURtjxS0dDc",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha Maps exacta localizada y web propia leída 29/10/2026; no confirma apertura futura.",
+      "priceLabel": "Supplì 3 € · web 29/10/2026",
+      "photo": {
+        "img": "assets/rome/sup.jpg",
+        "source": "https://www.flickr.com/photos/prestige/164175904",
+        "author": "Giovanni Prestige",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Supplì ilustrativos de otro local romano; no son foto de Supplizio ni de su oferta actual. Encuadre adaptado a tarjeta."
+      }
+    },
+    {
+      "id": "flavio",
+      "name": "Flavio al Velavevodetto · Testaccio",
+      "address": "Via di Monte Testaccio, 97, 00153 Roma RM, Italy",
+      "description": "Osteria de cocina romana en Testaccio para quien quiera salir del circuito de plazas.",
+      "strength": "Cocina de quinto quarto y pastas en el entorno de Monte Testaccio. Crítica italiana específica, aunque antigua, contrastada con el operador actual.",
+      "caution": "Testaccio queda fuera del paseo principal: requiere traslado y tiempo propio. Precios y horarios de críticas 2015/2019 no se usan como actuales.",
+      "officialUrl": "https://www.ristorantevelavevodetto.it/",
+      "sourceUrls": [
+        "https://www.ristorantevelavevodetto.it/"
+      ],
+      "editorialUrl": "https://www.dissapore.com/ristoranti/flavio-al-velavevodetto-a-roma-recensione-menu-e-prezzi/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Flavio+al+Velavevodetto&query_place_id=ChIJIdoK9y5gLxMR3ocPcmakVLA",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha Maps exacta localizada y web propia leída 29/10/2026; no confirma apertura futura.",
+      "priceLabel": "Osteria de mesa · consultar carta",
+      "photo": {
+        "img": "assets/food/pasta.jpg",
+        "source": "https://www.pexels.com/photo/pasta-on-plate-17375420/",
+        "author": "Gonzalo Acuña",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de pasta: no es del local ni garantiza un plato o presentación de su carta."
+      }
+    },
+    {
+      "id": "fata",
+      "name": "Fatamorgana · Monti",
+      "address": "P.za degli Zingari, 5, 00184 Roma RM, Italy",
+      "description": "Helado para una pausa en Monti sin convertirla en otra comida.",
+      "strength": "Sucursal exacta en Piazza degli Zingari 5; variedad de sabores descrita por guía especializada de heladerías.",
+      "caution": "Sabores cambian. No garantizar ausencia de alérgenos ni usar una mención dietética general como seguridad para una persona alérgica.",
+      "officialUrl": "https://www.gelateriafatamorgana.com/web/index.php?c=938&p=43",
+      "sourceUrls": [
+        "https://www.gelateriafatamorgana.com/web/index.php?c=938&p=43"
+      ],
+      "editorialUrl": "https://www.con-gelato.it/gelateria/fatamorgana-monti/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fatamorgana+Monti&query_place_id=ChIJk76GTrBhLxMRI8p6TBaZ8e8",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha Maps exacta localizada y web propia leída 29/10/2026; no confirma apertura futura.",
+      "priceLabel": "Helado · consultar tamaño y precio",
+      "photo": {
+        "img": "assets/food/gelato.jpg",
+        "source": "https://www.pexels.com/photo/gelato-cone-on-a-sunny-venetian-street-38549755/",
+        "author": "Natasha Chizhevskaya",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de helado: no es del local ni garantiza un plato o presentación de su carta."
+      }
+    },
+    {
+      "id": "bonci",
+      "name": "Pizzarium Bonci · Prati",
+      "address": "Via della Meloria, 43, 00136 Roma RM, Italy",
+      "description": "Pizza al taglio junto a Cipro para comer antes o después de los Museos Vaticanos.",
+      "strength": "Masa y toppings por temporada; Romeing la destaca como pizza por porciones, no restaurante de pizza redonda.",
+      "caution": "Se paga por peso y combinación: preguntar importe antes de pagar. No usar listas de precios mal extraídas por agregadores. Confirmar pausa dominical 15-17 h.",
+      "officialUrl": "https://bonci.it/pages/dove-siamo",
+      "sourceUrls": [
+        "https://bonci.it/pages/dove-siamo"
+      ],
+      "editorialUrl": "https://www.romeing.it/romes-top-street-food/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bonci+Pizzarium&query_place_id=ChIJr76feHtgLxMRSpUk8Ed4h24",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha Maps exacta localizada y web propia leída 29/10/2026; no confirma apertura futura.",
+      "priceLabel": "Pizza al peso · precio según porción",
+      "photo": {
+        "img": "assets/food/pizza.jpg",
+        "source": "https://www.pexels.com/photo/square-pizza-slices-on-a-black-tray-26341211/",
+        "author": "Ali Dashti",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de pizza en porciones: no es del local ni garantiza un plato o presentación de su carta."
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "market",
+      "name": "Mercado de Testaccio",
+      "description": "Puestos de producto y comida para una mañana de barrio fuera del circuito de plazas.",
+      "duration": "1-2 h, más traslado",
+      "caution": "Ir de día y comprobar puestos y horario concreto. No se garantiza ningún taller, concierto o visita subterránea sin programa y reserva.",
+      "alert": "Ir de día y comprobar puestos y horario concreto. No se garantiza ningún taller, concierto o visita subterránea sin programa y reserva.",
+      "officialUrl": "https://www.turismoroma.it/it/page/mercati-rionali",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Testaccio+Market&query_place_id=ChIJB-6b3zFgLxMR7R-kXLa_VYw",
+      "priceLabel": "Paseo libre; comida y compras aparte",
+      "statusCheckedAt": "2026-10-29",
+      "photo": {
+        "img": "assets/rome/market.jpg",
+        "source": "https://www.flickr.com/photos/sipes23/52237332915/",
+        "author": "Pete (sipes23)",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Comida en el Mercado de Testaccio. Foto de archivo, no oferta actual de puestos; encuadre adaptado a tarjeta."
+      }
+    },
+    {
+      "id": "bike",
+      "name": "Vía Appia y acueductos en bicicleta",
+      "description": "Actividad de medio día con operador identificado, como alternativa a una jornada de museos.",
+      "duration": "3,5 h de actividad, más acceso al punto de salida",
+      "caution": "La ruta C de EcoBike incluye tramos con tráfico, dificultad media y sólo e-bike; no es para cualquier nivel. El operador la ofrece salvo miércoles. Confirmar condiciones, talla, precio y fecha antes de elegir. No hay reserva.",
+      "alert": "La ruta C de EcoBike incluye tramos con tráfico, dificultad media y sólo e-bike; no es para cualquier nivel. El operador la ofrece salvo miércoles. Confirmar condiciones, talla, precio y fecha antes de elegir. No hay reserva.",
+      "officialUrl": "https://www.ecobikeroma.it/en/portfolio/appia-antica-way-route-c-the-appian-way-stretch-from-the-domine-quo-vadis-church-up-to-the-park-of-the-aqueducts/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Centro+Servizi+Appia+Antica+-+EcoBike+-+Bike+Rental&query_place_id=ChIJSz6hY99hLxMRQosZCMbxgow",
+      "priceLabel": "Actividad de pago · consultar precio del grupo",
+      "statusCheckedAt": "2026-10-29",
+      "photo": {
+        "img": "assets/rome/appia.jpg",
+        "source": "https://unsplash.com/photos/a-cobblestone-road-in-the-middle-of-a-park-Ed3rSGBYMuw",
+        "author": "Mike Chrisemer",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseURL": "https://unsplash.com/license",
+        "caption": "Vía Appia: foto del entorno, no confirma bicicleta, guía ni recorrido contratado."
+      }
+    },
+    {
+      "id": "monte",
+      "name": "Centrale Montemartini",
+      "description": "Escultura antigua entre máquinas industriales: alternativa de museo en Ostiense.",
+      "duration": "1,5-2 h editoriales, más traslado",
+      "caution": "Martes-domingo 9-19 h, última entrada una hora antes. Lunes, 1/5 y 25/12 cerrado según operador; comprobar avisos y festivos. Sustituye otro interior principal, no se añade al día del Coliseo.",
+      "alert": "Martes-domingo 9-19 h, última entrada una hora antes. Lunes, 1/5 y 25/12 cerrado según operador; comprobar avisos y festivos. Sustituye otro interior principal, no se añade al día del Coliseo.",
+      "officialUrl": "https://www.centralemontemartini.org/en/informazioni_pratiche/orari_e_indirizzi/centrale_montemartini",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Centrale+Montemartini&query_place_id=ChIJpcPlnIGKJRMReN1sXvlbJ2Q",
+      "priceLabel": "Museo de pago · comprobar tarifa actual",
+      "statusCheckedAt": "2026-10-29",
+      "photo": {
+        "img": "assets/rome/monte.jpg",
+        "source": "https://www.pexels.com/zh-cn/photo/5623614/",
+        "author": "Matteo Basile",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Centrale Montemartini: sala de estatuas"
+      }
+    }
+  ]
+}

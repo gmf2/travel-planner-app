@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "cityId": "naples",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "sorbillo",
+      "name": "Gino e Toto Sorbillo · Via dei Tribunali",
+      "address": "Via dei Tribunali, 32, 80138 Napoli NA, Italy",
+      "description": "Pizza en la sede histórica del centro, no una sucursal elegida sólo por el nombre.",
+      "strength": "Pizza napolitana como comida sencilla; preguntar por opciones sin queso o cambios posibles.",
+      "caution": "Web oficial: Via dei Tribunali 32,12-23:30, domingo cerrado. Colas posibles: no cuenta como mesa reservada. Carta/precio vigente no verificados; consultar antes de pedir. No asumir que cualquier pizza vegetariana es vegana.",
+      "alert": "Web oficial: Via dei Tribunali 32,12-23:30, domingo cerrado. Colas posibles: no cuenta como mesa reservada. Carta/precio vigente no verificados; consultar antes de pedir. No asumir que cualquier pizza vegetariana es vegana.",
+      "priceLabel": "Pizzería · confirmar carta",
+      "photo": {
+        "img": "assets/naples/sorbillo.jpg",
+        "source": "https://www.flickr.com/photos/kudumomo/5886506286/",
+        "author": "momo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Pizza margarita ilustrativa de otro establecimiento, no Sorbillo ni su oferta actual. Foto de archivo; recorte de presentación."
+      },
+      "officialUrl": "https://www.sorbillo.it/gino-sorbillo-antica-pizzeria/",
+      "sourceUrls": [
+        "https://www.sorbillo.it/gino-sorbillo-antica-pizzeria/"
+      ],
+      "editorialUrl": "https://www.lonelyplanet.com/articles/best-places-to-eat-in-naples",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gino+e+Toto+Sorbillo&query_place_id=ChIJuyXzSEIIOxMR5KQy1mftAr0",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y formato contrastados; no acredita una mesa ni apertura futura."
+    },
+    {
+      "id": "tandem",
+      "name": "Tandem Ragù · Via Paladino",
+      "address": "Via Giovanni Paladino, 51, 80100 Napoli NA, Italy",
+      "description": "Alternativa de cocina de cuchara y pasta, no otra pizzería del mismo recorrido.",
+      "strength": "Ragù napolitano; carta oficial 2026 también enumera opciones vegetarianas y veganas, incluida pasta e patate con provola vegetariana, no vegana.",
+      "caution": "Sede Via Giovanni Paladino 51. Confirmar ingredientes y disponibilidad de versiones vegetales con el local. Precio exacto y horario para la fecha no verificados; consultar carta actual y reservas. Foto ilustrativa, no su plato actual.",
+      "alert": "Sede Via Giovanni Paladino 51. Confirmar ingredientes y disponibilidad de versiones vegetales con el local. Precio exacto y horario para la fecha no verificados; consultar carta actual y reservas. Foto ilustrativa, no su plato actual.",
+      "priceLabel": "Pasta y ragù · confirmar carta",
+      "photo": {
+        "img": "assets/naples/tandem.jpg",
+        "source": "https://www.flickr.com/photos/ilcorra/4346413286/",
+        "author": "Corrado Forino",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Pasta e patate ilustrativa, no Tandem ni su receta actual. Foto de archivo; recorte de presentación."
+      },
+      "officialUrl": "https://www.tandemnapoli.it/tandem-via-paladino/",
+      "sourceUrls": [
+        "https://www.tandemnapoli.it/tandem-via-paladino/",
+        "https://www.tandemnapoli.it/wp-content/uploads/2026/01/menu-tandem-inglese.pdf"
+      ],
+      "editorialUrl": "https://www.lonelyplanet.com/articles/best-places-to-eat-in-naples",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tandem+Rag%C3%B9+-+Via+Paladino&query_place_id=ChIJKeOz_UMIOxMRziks1vDh8M4",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y formato contrastados; no acredita una mesa ni apertura futura."
+    },
+    {
+      "id": "scaturchio",
+      "name": "Scaturchio · Piazza San Domenico",
+      "address": "P.za S. Domenico Maggiore, 19, 80134 Napoli NA, Italy",
+      "description": "Café y pieza dulce como desayuno o merienda, no una tercera comida completa.",
+      "strength": "Sfogliatella riccia o frolla y babà según vitrina; Gambero Rosso destaca también el Ministeriale.",
+      "caution": "Sede Piazza San Domenico Maggiore 19 confirmada en web propia y editorial. Precios y horarios actuales no verificados. Pastelería puede contener lácteos, huevo, gluten y alcohol según pieza; preguntar. Foto de otro local, no su escaparate.",
+      "alert": "Sede Piazza San Domenico Maggiore 19 confirmada en web propia y editorial. Precios y horarios actuales no verificados. Pastelería puede contener lácteos, huevo, gluten y alcohol según pieza; preguntar. Foto de otro local, no su escaparate.",
+      "priceLabel": "Pastelería y café · consultar precio",
+      "photo": {
+        "img": "assets/naples/scaturchio.jpg",
+        "source": "https://www.flickr.com/photos/avlxyz/4749040866/",
+        "author": "Alpha",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Sfogliatella ilustrativa de Caffe Vini Spuntini, Australia; no Scaturchio ni su vitrina actual. Foto de archivo; recorte de presentación."
+      },
+      "officialUrl": "https://scaturchio.it/sedi/",
+      "sourceUrls": [
+        "https://scaturchio.it/sedi/"
+      ],
+      "editorialUrl": "https://www.gamberorosso.it/rubriche/classifiche/migliori-sfogliatelle-napoli/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Scaturchio&query_place_id=ChIJRTENmkMIOxMRsCOgKnrM-jU",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y formato contrastados; no acredita una mesa ni apertura futura."
+    }
+  ],
+  "activities": []
+}

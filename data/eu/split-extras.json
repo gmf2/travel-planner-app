@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "cityId": "split",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "spiza",
+      "name": "Villa Spiza · lo que trajo el mercado",
+      "address": "Ul. Petra Kružića 3, 21000, Split, Croatia",
+      "description": "Una mesa pequeña en Petra Kružića 3 para comer cocina dálmata de temporada, sin fingir una carta fija todo el año.",
+      "strength": "GaultMillau 2026 destaca pescado a la parrilla o en gregada, risotto negro y pasta casera de marisco o setas; manda la pizarra del día.",
+      "caution": "No hay carta oficial actual con precios verificados. Crítica con visita de 2025 y listado de 2026 orienta platos 20-32€ y comida 25-40€, no tarifa garantizada. Pescado por peso: preguntar precio y tamaño. Horarios de directorios discrepan; domingo figura cerrado y lunes variable, confirmar antes de ir, especialmente invierno. Crítica indica sin reservas y efectivo, no política oficial verificada. Espacio pequeño y posible espera. Foto ajena.",
+      "alert": "No hay carta oficial actual con precios verificados. Crítica con visita de 2025 y listado de 2026 orienta platos 20-32€ y comida 25-40€, no tarifa garantizada. Pescado por peso: preguntar precio y tamaño. Horarios de directorios discrepan; domingo figura cerrado y lunes variable, confirmar antes de ir, especialmente invierno. Crítica indica sin reservas y efectivo, no política oficial verificada. Espacio pequeño y posible espera. Foto ajena.",
+      "priceLabel": "Orientación crítica 25-40€ por comida · confirmar",
+      "photo": {
+        "img": "assets/split/spiza.jpg",
+        "source": "https://www.flickr.com/photos/adactio/484111470/",
+        "author": "Jeremy Keith",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Sardinas ilustrativas de otra cocina; no Villa Spiza ni su oferta o presentación del día. Recorte de presentación."
+      },
+      "officialUrl": "https://hr.gaultmillau.com/en/restaurants/villa-spiza",
+      "sourceIds": [
+        "foodguide",
+        "spizareview",
+        "spizaprices",
+        "spizahours"
+      ],
+      "sourceUrls": [
+        "https://www.frankaboutcroatia.com/split-restaurants-eat-split/",
+        "https://hr.gaultmillau.com/en/restaurants/villa-spiza",
+        "https://restaurantsforkings.com/city/split/villa-spiza",
+        "https://www.smokvina.hr/bookyour/r/villaspiza"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Villa+Spiza&query_place_id=ChIJ8ZIzEv5dNRMRG-97ziRgDPM",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y fuentes actuales contrastadas; límites de primera parte indicados, sin reserva."
+    },
+    {
+      "id": "ciri",
+      "name": "Ćiri Biri Bela · brunch en Varoš",
+      "address": "Plinarska ul. 6, 21000, Split, Croatia",
+      "description": "En Plinarska 6, un desayuno tardío o comida temprana de terraza para el día del oeste, no una cena que el local no ofrece.",
+      "strength": "Tortitas de limón y arándano, huevos con chilli o bagel de tomate y mozzarella para cambiar del pescado dálmata. Consultar versiones veganas y sin gluten, sin inferirlas de una foto.",
+      "caution": "Web actual: mar-dom 8-14, lunes cerrado; cena cerrada durante 2026. CSV 22/10/2026: granola 11€, revuelto 11,50€, bagel tomate/queso 14,50€, Benedict 15,50€, tortitas 15€, waffles 13€, desayuno para 2 personas 42€. Bebidas y extras aparte; versión sin cerdo puede tener suplemento. Advertencia de alérgenos incluso ingredientes no listados: consultar cocina y trazas. Foto ajena.",
+      "alert": "Web actual: mar-dom 8-14, lunes cerrado; cena cerrada durante 2026. CSV 22/10/2026: granola 11€, revuelto 11,50€, bagel tomate/queso 14,50€, Benedict 15,50€, tortitas 15€, waffles 13€, desayuno para 2 personas 42€. Bebidas y extras aparte; versión sin cerdo puede tener suplemento. Advertencia de alérgenos incluso ingredientes no listados: consultar cocina y trazas. Foto ajena.",
+      "priceLabel": "Brunch 11-18,50€ · bebida y extras aparte",
+      "photo": {
+        "img": "assets/split/ciri.jpg",
+        "source": "https://www.flickr.com/photos/franksteiner/6822771585/",
+        "author": "Frank Steiner",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Tortitas de mascarpone ilustrativas de otra cocina; no Ćiri Biri Bela ni su receta o presentación actual. Recorte de presentación."
+      },
+      "officialUrl": "https://ciri-biri-bela.com/en/eat",
+      "sourceIds": [
+        "foodguide",
+        "ciri",
+        "cirimenu"
+      ],
+      "sourceUrls": [
+        "https://www.frankaboutcroatia.com/split-restaurants-eat-split/",
+        "https://ciri-biri-bela.com/en/eat",
+        "https://ciri-biri-bela.com/content/2-eat/modules/3-tabs-wg82g2/obrt_plinarska6_posl2_2026_10_22_0731.csv"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%C4%86iri+Biri+Bela&query_place_id=ChIJmfffVo1dNRMR_39HomLc3vE",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y fuentes actuales contrastadas; límites de primera parte indicados, sin reserva."
+    }
+  ],
+  "activities": []
+}

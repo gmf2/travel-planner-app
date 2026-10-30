@@ -1,0 +1,1332 @@
+{
+  "schemaVersion": 1,
+  "country": "NL",
+  "id": "amsterdam",
+  "name": "Ámsterdam",
+  "localName": "Amsterdam",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita de 1-3 días, sin fecha concreta. Un gran interior por día como máximo; franjas y cierres pueden requerir reordenar. Sin reservas ni disponibilidad garantizada.",
+  "stops": [
+    {
+      "id": "dam",
+      "name": "Plaza Dam",
+      "kind": "visit",
+      "zone": "Centro",
+      "reason": "Plaza para situar el casco antiguo antes de entrar en los canales.",
+      "sourceIds": [
+        "mm",
+        "michelin"
+      ],
+      "coordinates": {
+        "lat": 52.3730313,
+        "lon": 4.8932528
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Dam+Square&query_place_id=ChIJ7xRLO8cJxkcR-QTagFuyCZg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/dam.jpg",
+        "source": "https://www.pexels.com/photo/people-walking-near-the-royal-palace-of-amsterdam-on-dam-square-15112910/",
+        "author": "Ben N",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Plaza Dam"
+      },
+      "visitMode": "Plaza exterior; Palacio Real no incluido"
+    },
+    {
+      "id": "begijn",
+      "name": "Begijnhof",
+      "kind": "visit",
+      "zone": "Centro",
+      "reason": "Patio habitado para una visita breve y silenciosa, no un parque de picnic.",
+      "sourceIds": [
+        "begijn",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 52.3694247,
+        "lon": 4.890437899999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Begijnhof&query_place_id=ChIJeSe5CsEJxkcRdRlM21_MA9s",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Diario 10-18 h; cerrado a turistas el 27/4. Entrada por Gedempte Begijnensloot. Patio privado: no se permite comer, beber, entrar con bicicletas, perros o maletas con ruedas. Grupos de hasta 12 personas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/begijn.jpg",
+        "source": "https://www.pexels.com/photo/a-group-of-historical-buildings-begijnhof-amsterdam-netherlands-17959943/",
+        "author": "Mathias Reding",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Patio de Begijnhof"
+      },
+      "visitMode": "Patio exterior según acceso"
+    },
+    {
+      "id": "nine",
+      "name": "Las Nueve Calles",
+      "kind": "visit",
+      "zone": "Canales centrales",
+      "reason": "Cruzar pequeños puentes y canales sin convertir el paseo en una lista de tiendas.",
+      "sourceIds": [
+        "mm",
+        "michelin"
+      ],
+      "coordinates": {
+        "lat": 52.3703824,
+        "lon": 4.88606
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Negen+Straatjes&query_place_id=ChIJE2ABp8MJxkcRLPM1iYnuoIA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/nine.jpg",
+        "source": "https://www.flickr.com/photos/edenpictures/5230582098/",
+        "author": "Eden, Janine and Jim",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Nueve Calles con luces, 2010. Foto de archivo, no decoración garantizada. Encuadre adaptado a tarjeta."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "anne",
+      "name": "Casa de Ana Frank",
+      "kind": "visit",
+      "zone": "Jordaan / Westermarkt",
+      "reason": "El interior de memoria del primer día, con tiempo para leer y salir sin prisas.",
+      "sourceIds": [
+        "anne",
+        "mm",
+        "michelin"
+      ],
+      "coordinates": {
+        "lat": 52.3752182,
+        "lon": 4.8839765
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Anne+Frank+House&query_place_id=ChIJSRE-IcUJxkcRCltjPmVdmtQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Sólo venta en la web propia, sin taquilla. Publican entradas cada martes a las 10 CET para seis semanas después. Acceso real en Westermarkt 20. Escaleras empinadas; comprobar accesibilidad. No se garantiza disponibilidad. Si no hay entrada, dedicar más tiempo a canales, no prometer el Anexo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/anne.jpg",
+        "source": "https://www.flickr.com/photos/daryl_mitchell/14535429131",
+        "author": "daryl_mitchell",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Placa de la Casa de Ana Frank. Foto de archivo; no representa la entrada actual. Encuadre adaptado a tarjeta."
+      },
+      "visitMode": "Interior principal con franja online"
+    },
+    {
+      "id": "noorder",
+      "name": "Noordermarkt y Brouwersgracht",
+      "kind": "visit",
+      "zone": "Jordaan norte",
+      "reason": "Canal y plaza para terminar el día en Jordaan y hacer una pausa de café.",
+      "sourceIds": [
+        "michelin",
+        "winkel"
+      ],
+      "coordinates": {
+        "lat": 52.37989,
+        "lon": 4.886509
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Noordermarkt&query_place_id=ChIJ2dkyCM8JxkcRS2Molb9FBEA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "La plaza existe todos los días, pero no se promete mercado diario. Winkel 43 puede tener cola.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/noorder.jpg",
+        "source": "https://www.flickr.com/photos/alkanchaglar/1239560331/",
+        "author": "Alkan de Beaumont Chaglar",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Mercado en Noordermarkt. Foto de archivo; sólo según día. Encuadre adaptado a tarjeta."
+      },
+      "visitMode": "Paseo exterior; mercado sólo según día"
+    },
+    {
+      "id": "rijks",
+      "name": "Rijksmuseum",
+      "kind": "visit",
+      "zone": "Museumplein",
+      "reason": "Rembrandt, Vermeer y arte neerlandés como único gran museo del segundo día.",
+      "sourceIds": [
+        "rijks",
+        "mm",
+        "tourism"
+      ],
+      "coordinates": {
+        "lat": 52.3599976,
+        "lon": 4.8852188
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Rijksmuseum&query_place_id=ChIJ5Ra7we4JxkcRhYVAaq5zQ9U",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "Diario 9-17 h, festivos incluidos. Adultos 25 € en 2026 y 26,50 € en 2027. Reservar inicio; jardines sólo en verano. Elegir una selección de salas, no prometer ver todo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/rijks.jpg",
+        "source": "https://www.pexels.com/photo/rijksmuseum-amsterdam-architectural-facade-31251412/",
+        "author": "Ejov Igor",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Rijksmuseum: fachada"
+      },
+      "visitMode": "Interior principal con franja; alternativa a Van Gogh"
+    },
+    {
+      "id": "vangogh",
+      "name": "Museo Van Gogh",
+      "kind": "visit",
+      "zone": "Museumplein",
+      "reason": "Alternativa al Rijksmuseum para quien prefiera centrarse en Van Gogh.",
+      "sourceIds": [
+        "vangogh",
+        "tourism"
+      ],
+      "coordinates": {
+        "lat": 52.3580757,
+        "lon": 4.8812053
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Van+Gogh+Museum&query_place_id=ChIJX1rTlu8JxkcRGsV8-a4oKMI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Entrada online con hora para todos. Horario variable por fecha, incluyendo Navidad y viernes: consultar calendario. El plan no exige ambos museos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/vangogh.jpg",
+        "source": "https://www.pexels.com/photo/van-gogh-museum-in-amsterdam-netherlands-19240361/",
+        "author": "Ömer Gülen",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Museo Van Gogh: exterior"
+      },
+      "visitMode": "Sustituye al Rijksmuseum; no se acumulan"
+    },
+    {
+      "id": "museumplein",
+      "name": "Museumplein",
+      "kind": "visit",
+      "zone": "Museumplein",
+      "reason": "Plaza entre museos para descansar después del interior, sin sumar otra colección.",
+      "sourceIds": [
+        "tourism",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 52.357256,
+        "lon": 4.882328
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Museumplein&query_place_id=ChIJ8fHAr5oJxkcRYbV0gKUKxfk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/museumplein.jpg",
+        "source": "https://unsplash.com/photos/a-large-green-field-with-trees-and-buildings-in-the-background-D8pt79XWEes",
+        "author": "Murat Gonek",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseURL": "https://unsplash.com/license",
+        "caption": "Césped y paseo de Museumplein."
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "cuyp",
+      "name": "Mercado Albert Cuyp",
+      "kind": "visit",
+      "zone": "De Pijp",
+      "reason": "Parada de comida y puestos antes de seguir por el barrio.",
+      "sourceIds": [
+        "cuyp",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 52.3553059,
+        "lon": 4.8915504
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Albert+Cuyp+Markt&query_place_id=ChIJZapZuvIJxkcRmAvJTwrtnNE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Lunes-sábado, preferir mañana o primera tarde; domingo cerrado. Operador publica 9:30-17 h y cierres festivos. Si está cerrado, mantener De Pijp como barrio y comer en un local, sin prometer puestos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/cuyp2.jpg",
+        "source": "https://unsplash.com/photos/a-table-topped-with-lots-of-bowls-and-bowls-qSSKY76beCg",
+        "author": "Fons Heijnsbroek",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseURL": "https://unsplash.com/license",
+        "caption": "Puesto de cerámica del mercado Albert Cuyp"
+      },
+      "visitMode": "Mercado exterior en día de apertura"
+    },
+    {
+      "id": "vondel",
+      "name": "Vondelpark",
+      "kind": "visit",
+      "zone": "Oud-Zuid",
+      "reason": "Paseo corto por el sector oriental como alternativa al mercado o para buen tiempo.",
+      "sourceIds": [
+        "mm",
+        "tourism"
+      ],
+      "coordinates": {
+        "lat": 52.3579946,
+        "lon": 4.8686484
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Vondelpark&query_place_id=ChIJz3y0xeIJxkcRNcogBVV41Gw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "El punto del parque es orientativo, no la entrada. El tramo verificado desde Rijks lleva al acceso oriental. No atravesar todo el parque y regresar luego a De Pijp por obligación.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/vondel.jpg",
+        "source": "https://www.pexels.com/photo/gate-in-a-park-in-amsterdam-19064704/",
+        "author": "Sarah O'Shea",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Entrada de Vondelpark"
+      },
+      "visitMode": "Alternativa de paseo; no recorrido completo"
+    },
+    {
+      "id": "nieuwmarkt",
+      "name": "Nieuwmarkt y entorno de De Waag",
+      "kind": "visit",
+      "zone": "Casco antiguo oriental",
+      "reason": "Plaza y calles del casco antiguo antes de caminar hacia la casa de Rembrandt.",
+      "sourceIds": [
+        "michelin",
+        "tourism"
+      ],
+      "coordinates": {
+        "lat": 52.3725898,
+        "lon": 4.8998645
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Nieuwmarkt&query_place_id=ChIJ-WfAObkJxkcRoZ7VxKNobDY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "No es una visita interior a De Waag ni un tour nocturno contratado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/nieuwmarkt.jpg",
+        "source": "https://www.pexels.com/photo/waag-in-amsterdam-netherlands-17960012/",
+        "author": "Mathias Reding",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "De Waag en Nieuwmarkt"
+      },
+      "visitMode": "Plaza y fachadas exteriores"
+    },
+    {
+      "id": "rembrandt",
+      "name": "Casa de Rembrandt",
+      "kind": "visit",
+      "zone": "Jodenbuurt",
+      "reason": "Casa y taller para un interior de escala menor en el tercer día.",
+      "sourceIds": [
+        "rembrandt",
+        "tourism"
+      ],
+      "coordinates": {
+        "lat": 52.369369,
+        "lon": 4.901235
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Rembrandt+House+Museum&query_place_id=ChIJNR35jYUJxkcRALmB_1MbY54",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 85,
+      "durationType": "editorial-estimate",
+      "caution": "Abre a las 10; cierre estacional a las 17 o 18. Cerrado 25/12 y otras excepciones publicadas. Consultar fecha y demostraciones, no garantizar una sesión concreta.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/rembrandt.jpg",
+        "source": "https://www.flickr.com/photos/9508280@N07/54170778196/",
+        "author": "Dan Lundberg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Fachada de la Casa de Rembrandt, 2024. Encuadre adaptado a tarjeta."
+      },
+      "visitMode": "Interior principal del día; alternativa al Hortus"
+    },
+    {
+      "id": "hortus",
+      "name": "Hortus Botanicus",
+      "kind": "visit",
+      "zone": "Plantage",
+      "reason": "Jardín e invernaderos como alternativa pausada a la casa de Rembrandt.",
+      "sourceIds": [
+        "hortus",
+        "tourism"
+      ],
+      "coordinates": {
+        "lat": 52.36691889999999,
+        "lon": 4.907623099999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Hortus+Botanicus&query_place_id=ChIJqxRzZuLhxUcRpgvqX1nIp1A",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Diario 10-17 h; cerrado 25/12 y 1/1. Palmenkas parcialmente cerrada por obras según aviso. Sólo tarjeta; Museumkaart no válida. No se promete un jardín totalmente cubierto.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/hortus.jpg",
+        "source": "https://unsplash.com/photos/a-leaf-covered-path-in-front-of-a-building-71UVLP2732c",
+        "author": "Elena Rabkina",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseURL": "https://unsplash.com/license",
+        "caption": "Hortus Botanicus de Ámsterdam en otoño"
+      },
+      "visitMode": "Alternativa de pago; no otro interior obligatorio"
+    },
+    {
+      "id": "magere",
+      "name": "Magere Brug y Amstel",
+      "kind": "visit",
+      "zone": "Amstel",
+      "reason": "Final de paseo junto al río sin volver a los museos del día anterior.",
+      "sourceIds": [
+        "tourism",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 52.3635978,
+        "lon": 4.9023824
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Skinny+Bridge&query_place_id=ChIJmSIs9ZYJxkcRkx-Ou1QOZFI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/amsterdam/magere.jpg",
+        "source": "https://www.pexels.com/photo/skinny-bridge-in-amsterdam-16461464/",
+        "author": "Marcelo Verfe",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Magere Brug sobre el Amstel: puente blanco de madera."
+      },
+      "visitMode": "Puente y paseo exterior"
+    },
+    {
+      "id": "zaanse",
+      "name": "Zaanse Schans",
+      "kind": "excursion",
+      "zone": "Fuera de Ámsterdam",
+      "reason": "Pueblo de molinos para sustituir una jornada, no excursión obligatoria del día 3.",
+      "sourceIds": [
+        "zaanse",
+        "zaansetravel"
+      ],
+      "coordinates": {
+        "lat": 52.4740169,
+        "lon": 4.822729700000001
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Zaanse+Schans&query_place_id=ChIJWxTBvvf8xUcR_iDK4jdIL4s",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 330,
+      "durationType": "editorial-estimate",
+      "caution": "Pueblo de acceso gratuito; museos y molinos de pago según apertura. Cooperage y Heritage Chambres figuran temporalmente cerrados: no garantizar el paquete completo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Paseo por el pueblo y elegir uno o dos molinos/museos abiertos, no cubrir todos.",
+      "photo": {
+        "img": "assets/amsterdam/zaanse.jpg",
+        "source": "https://www.pexels.com/photo/scenic-windmills-at-zaanse-schans-in-netherlands-32762718/",
+        "author": "Dylan Ferreira",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Molinos de Zaanse Schans"
+      }
+    },
+    {
+      "id": "keukenhof",
+      "name": "Keukenhof · sólo temporada de flores",
+      "kind": "excursion",
+      "zone": "Fuera de Ámsterdam",
+      "reason": "Jardín de temporada como jornada propia en Lisse, no alternativa anual.",
+      "sourceIds": [
+        "keukenhof"
+      ],
+      "coordinates": {
+        "lat": 52.2686783,
+        "lon": 4.5523248
+      },
+      "coordinateSource": "https://www.keukenhof.nl/en/visit/plan-your-visit/",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 420,
+      "durationType": "editorial-estimate",
+      "caution": "Temporada confirmada 18/3-9/5/2027, 8-19 h, acceso hasta 18:15. Fuera de esas fechas no abre. La floración depende del tiempo; no se garantiza un campo ni una variedad concreta. Confirmar el acceso del billete, no confundir el jardín con Kasteel Keukenhof.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Visita de jardines sin sumar Zaanse Schans, Volendam y campos en una sola jornada.",
+      "photo": {
+        "img": "assets/amsterdam/keukenhof-flowers.jpg",
+        "source": "https://www.pexels.com/photo/vibrant-red-tulips-in-full-bloom-at-keukenhof-36314874/",
+        "author": "kevin yung",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Tulipanes de Keukenhof durante la temporada de primavera"
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Un día de canales y Jordaan",
+          "zone": "Dam → Begijnhof → Nueve Calles → Jordaan",
+          "stopIds": [
+            "dam",
+            "begijn",
+            "nine",
+            "anne",
+            "noorder"
+          ],
+          "editorialNote": "Priorizar centro y Ana Frank sólo con entrada. No cabe añadir Rijks o Van Gogh en el mismo día. Sin entrada, ampliar el paseo de canales y las pausas.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida; mismos enlaces cortos del primer día."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Canales, Ana Frank y Jordaan",
+          "zone": "Dam → Begijnhof → Nueve Calles → Westermarkt → Jordaan",
+          "stopIds": [
+            "dam",
+            "begijn",
+            "nine",
+            "anne",
+            "noorder"
+          ],
+          "editorialNote": "Ana Frank es el interior principal sólo con entrada confirmada. Organizar el paseo alrededor de su franja. No se suma Museumplein ni el ferry al final. Si no hay entrada, canales y pausa en Jordaan sustituyen ese bloque, no una visita al Anexo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, estimación editorial. Maps 29/10/2026 a pie: Dam→Begijnhof 0,4 km/5 min; →Nueve Calles 0,5 km/7 min; →Ana Frank 0,7 km/9 min; →Noordermarkt 0,6 km/8 min. Colas y paseos internos aparte."
+        },
+        {
+          "title": "Un museo y De Pijp",
+          "zone": "Museumplein → Albert Cuyp / De Pijp",
+          "stopIds": [
+            "rijks",
+            "museumplein",
+            "cuyp"
+          ],
+          "editorialNote": "Rijksmuseum como único gran interior. Van Gogh lo sustituye si se prefiere, sin apilar ambos. Comer en Albert Cuyp antes de su cierre; si es domingo/festivo, paseo y comida en De Pijp sin mercado. Vondelpark sustituye el bloque de mercado si apetece verde.",
+          "optionalStopIds": [
+            "vangogh",
+            "vondel"
+          ],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida. Rijks→Albert Cuyp 0,9 km/12 min a pie, Maps 29/10/2026. Rijks→acceso oriental Vondel 0,4 km/5 min. No es tiempo de atravesar todo el parque."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Canales, Ana Frank y Jordaan",
+          "zone": "Dam → Begijnhof → Nueve Calles → Westermarkt → Jordaan",
+          "stopIds": [
+            "dam",
+            "begijn",
+            "nine",
+            "anne",
+            "noorder"
+          ],
+          "editorialNote": "Ana Frank es el interior principal sólo con entrada confirmada. Organizar el paseo alrededor de su franja. No se suma Museumplein ni el ferry al final. Si no hay entrada, canales y pausa en Jordaan sustituyen ese bloque, no una visita al Anexo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, estimación editorial. Maps 29/10/2026 a pie: Dam→Begijnhof 0,4 km/5 min; →Nueve Calles 0,5 km/7 min; →Ana Frank 0,7 km/9 min; →Noordermarkt 0,6 km/8 min. Colas y paseos internos aparte."
+        },
+        {
+          "title": "Un museo y De Pijp",
+          "zone": "Museumplein → Albert Cuyp / De Pijp",
+          "stopIds": [
+            "rijks",
+            "museumplein",
+            "cuyp"
+          ],
+          "editorialNote": "Rijksmuseum como único gran interior. Van Gogh lo sustituye si se prefiere, sin apilar ambos. Comer en Albert Cuyp antes de su cierre; si es domingo/festivo, paseo y comida en De Pijp sin mercado. Vondelpark sustituye el bloque de mercado si apetece verde.",
+          "optionalStopIds": [
+            "vangogh",
+            "vondel"
+          ],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida. Rijks→Albert Cuyp 0,9 km/12 min a pie, Maps 29/10/2026. Rijks→acceso oriental Vondel 0,4 km/5 min. No es tiempo de atravesar todo el parque."
+        },
+        {
+          "title": "Casco antiguo y Plantage, sin otro gran museo",
+          "zone": "Nieuwmarkt → Jodenbuurt → Amstel",
+          "stopIds": [
+            "nieuwmarkt",
+            "rembrandt",
+            "magere"
+          ],
+          "editorialNote": "Casa de Rembrandt como interior de escala menor; Hortus es alternativa si se prefiere jardín e invernaderos, no obligación adicional. Comer en Jodenbuurt/Plantage y cerrar junto al Amstel. No es necesario ir a Zaanse Schans para dar sentido al tercer día.",
+          "optionalStopIds": [
+            "hortus"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas, estimación editorial. Las distancias son enlaces, no duración del día. Nieuwmarkt→Rembrandt 0,4 km/5 min a pie (Maps 29/10/2026); Rembrandt→Hortus 0,6 km/7 min y Hortus→Magere Brug 0,7 km/10 min si se elige la variante jardín. Ruta principal Rembrandt→Magere Brug 0,8 km/10 min a pie, Maps 29/10/2026."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Paseos y Vondelpark con buen tiempo; reservar museos y dejar margen para colas. No se garantiza sol ni apertura de todos los jardines.",
+      "sourceIds": [
+        "rijks",
+        "vangogh"
+      ],
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Acortar paseos de canal con frío, viento o lluvia. Cuyp sólo en su día de apertura y primera tarde. Un museo principal deja tiempo de descanso, no obliga a sumar otro.",
+      "sourceIds": [
+        "cuyp",
+        "rijks",
+        "vangogh"
+      ],
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Rembrandt y Hortus cierran 25/12; Hortus también 1/1. Rijks abre festivos. Ana Frank y Van Gogh publican excepciones propias. En Navidad el día 3 pasa a paseo exterior breve con café, sin prometer esos interiores.",
+      "sourceIds": [
+        "rembrandt",
+        "hortus",
+        "rijks",
+        "anne",
+        "vangogh"
+      ],
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Canales con ropa para lluvia. Keukenhof sólo abre 18 marzo-9 mayo de 2027, no durante toda la primavera ni en otoño. Confirmar temporada del año del viaje.",
+      "sourceIds": [
+        "keukenhof"
+      ],
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Ana Frank requiere franja online; sin ella no hay visita al Anexo.",
+    "Un museo principal por jornada. Van Gogh sustituye Rijks, Hortus sustituye Rembrandt.",
+    "Las aperturas dependen de fecha y festivos; no se garantizan mesas ni entradas."
+  ],
+  "excludedOrOptional": [
+    "Noord y NDSM quedan como alternativa, no salto obligatorio al final de Museumplein.",
+    "Bloemenmarkt no es un jardín de tulipanes: se omite como parada obligatoria.",
+    "No se incluye tour de cuatro pueblos ni excursión por defecto."
+  ],
+  "sources": [
+    {
+      "id": "mm",
+      "title": "Mochileando: Ámsterdam en tres días",
+      "url": "https://www.mochileandoporelmundo.com/amsterdam-en-3-dias/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "michelin",
+      "title": "Michelin: tres días por los canales",
+      "url": "https://guide.michelin.com/es/es/articulo/travel/3-dias-en-amsterdam-a-traves-de-sus-canales",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "tourism",
+      "title": "I amsterdam: tres días con City Card",
+      "url": "https://www.iamsterdam.com/es/entradas/explora-las-actividades-de-la-city-card/que-hacer-en-amsterdam-en-tres-dias-con-la-tarjeta-city-card",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "anne",
+      "title": "Ana Frank: entradas",
+      "url": "https://www.annefrank.org/en/museum/tickets/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "begijn",
+      "title": "Begijnhof: acceso",
+      "url": "https://hetbegijnhof.nl/info/?lang=en",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "rijks",
+      "title": "Rijks: horarios y precios",
+      "url": "https://www.rijksmuseum.nl/en/visit/practical-info/opening-hours-and-prices",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "vangogh",
+      "title": "Van Gogh: calendario",
+      "url": "https://www.vangoghmuseum.nl/en/visit/address-and-opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "cuyp",
+      "title": "Albert Cuyp: calendario",
+      "url": "https://albertcuyp-markt.amsterdam/openingstijden/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "rembrandt",
+      "title": "Rembrandt: calendario",
+      "url": "https://www.rembrandthuis.nl/en/plan-your-visit/visitor-information/opening-hours-fees/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "hortus",
+      "title": "Hortus: visita",
+      "url": "https://www.dehortus.nl/en/plan-your-visit/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "zaanse",
+      "title": "Zaanse Schans: acceso",
+      "url": "https://tickets.dezaanseschans.nl/en/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "zaansetravel",
+      "title": "Zaanse Schans: transporte",
+      "url": "https://tickets.dezaanseschans.nl/en/travel-to-the-zaanse-schans/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "keukenhof",
+      "title": "Keukenhof: temporada y acceso",
+      "url": "https://www.keukenhof.nl/en/visit/plan-your-visit/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "winkel",
+      "title": "Winkel 43: carta y local",
+      "url": "https://www.winkel43.nl/en/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {
+    "summer": {
+      "mode": "editorial",
+      "note": "Paseos y Vondelpark con buen tiempo; reservar museos y dejar margen para colas. No se garantiza sol ni apertura de todos los jardines."
+    },
+    "winter": {
+      "mode": "editorial",
+      "note": "Acortar paseos de canal con frío, viento o lluvia. Cuyp sólo en su día de apertura y primera tarde. Un museo principal deja tiempo de descanso, no obliga a sumar otro."
+    },
+    "christmas": {
+      "mode": "editorial",
+      "note": "Rembrandt y Hortus cierran 25/12; Hortus también 1/1. Rijks abre festivos. Ana Frank y Van Gogh publican excepciones propias. En Navidad el día 3 pasa a paseo exterior breve con café, sin prometer esos interiores."
+    },
+    "springAutumn": {
+      "mode": "editorial",
+      "note": "Canales con ropa para lluvia. Keukenhof sólo abre 18 marzo-9 mayo de 2027, no durante toda la primavera ni en otoño. Confirmar temporada del año del viaje."
+    }
+  },
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Un día de canales y Jordaan",
+            "zone": "Dam → Begijnhof → Nueve Calles → Jordaan",
+            "stopIds": [
+              "dam",
+              "begijn",
+              "nine",
+              "anne",
+              "noorder"
+            ],
+            "editorialNote": "Priorizar centro y Ana Frank sólo con entrada. No cabe añadir Rijks o Van Gogh en el mismo día. Sin entrada, ampliar el paseo de canales y las pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida; mismos enlaces cortos del primer día."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Canales, Ana Frank y Jordaan",
+            "zone": "Dam → Begijnhof → Nueve Calles → Westermarkt → Jordaan",
+            "stopIds": [
+              "dam",
+              "begijn",
+              "nine",
+              "anne",
+              "noorder"
+            ],
+            "editorialNote": "Ana Frank es el interior principal sólo con entrada confirmada. Organizar el paseo alrededor de su franja. No se suma Museumplein ni el ferry al final. Si no hay entrada, canales y pausa en Jordaan sustituyen ese bloque, no una visita al Anexo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, estimación editorial. Maps 29/10/2026 a pie: Dam→Begijnhof 0,4 km/5 min; →Nueve Calles 0,5 km/7 min; →Ana Frank 0,7 km/9 min; →Noordermarkt 0,6 km/8 min. Colas y paseos internos aparte."
+          },
+          {
+            "title": "Un museo y De Pijp",
+            "zone": "Museumplein → Albert Cuyp / De Pijp",
+            "stopIds": [
+              "rijks",
+              "museumplein",
+              "cuyp"
+            ],
+            "editorialNote": "Rijksmuseum como único gran interior. Van Gogh lo sustituye si se prefiere, sin apilar ambos. Comer en Albert Cuyp antes de su cierre; si es domingo/festivo, paseo y comida en De Pijp sin mercado. Vondelpark sustituye el bloque de mercado si apetece verde.",
+            "optionalStopIds": [
+              "vangogh",
+              "vondel"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Rijks→Albert Cuyp 0,9 km/12 min a pie, Maps 29/10/2026. Rijks→acceso oriental Vondel 0,4 km/5 min. No es tiempo de atravesar todo el parque."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Canales, Ana Frank y Jordaan",
+            "zone": "Dam → Begijnhof → Nueve Calles → Westermarkt → Jordaan",
+            "stopIds": [
+              "dam",
+              "begijn",
+              "nine",
+              "anne",
+              "noorder"
+            ],
+            "editorialNote": "Ana Frank es el interior principal sólo con entrada confirmada. Organizar el paseo alrededor de su franja. No se suma Museumplein ni el ferry al final. Si no hay entrada, canales y pausa en Jordaan sustituyen ese bloque, no una visita al Anexo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, estimación editorial. Maps 29/10/2026 a pie: Dam→Begijnhof 0,4 km/5 min; →Nueve Calles 0,5 km/7 min; →Ana Frank 0,7 km/9 min; →Noordermarkt 0,6 km/8 min. Colas y paseos internos aparte."
+          },
+          {
+            "title": "Un museo y De Pijp",
+            "zone": "Museumplein → Albert Cuyp / De Pijp",
+            "stopIds": [
+              "rijks",
+              "museumplein",
+              "cuyp"
+            ],
+            "editorialNote": "Rijksmuseum como único gran interior. Van Gogh lo sustituye si se prefiere, sin apilar ambos. Comer en Albert Cuyp antes de su cierre; si es domingo/festivo, paseo y comida en De Pijp sin mercado. Vondelpark sustituye el bloque de mercado si apetece verde.",
+            "optionalStopIds": [
+              "vangogh",
+              "vondel"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Rijks→Albert Cuyp 0,9 km/12 min a pie, Maps 29/10/2026. Rijks→acceso oriental Vondel 0,4 km/5 min. No es tiempo de atravesar todo el parque."
+          },
+          {
+            "title": "Casco antiguo y Plantage, sin otro gran museo",
+            "zone": "Nieuwmarkt → Jodenbuurt → Amstel",
+            "stopIds": [
+              "nieuwmarkt",
+              "rembrandt",
+              "magere"
+            ],
+            "editorialNote": "Casa de Rembrandt como interior de escala menor; Hortus es alternativa si se prefiere jardín e invernaderos, no obligación adicional. Comer en Jodenbuurt/Plantage y cerrar junto al Amstel. No es necesario ir a Zaanse Schans para dar sentido al tercer día.",
+            "optionalStopIds": [
+              "hortus"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Las distancias son enlaces, no duración del día. Nieuwmarkt→Rembrandt 0,4 km/5 min a pie (Maps 29/10/2026); Rembrandt→Hortus 0,6 km/7 min y Hortus→Magere Brug 0,7 km/10 min si se elige la variante jardín. Ruta principal Rembrandt→Magere Brug 0,8 km/10 min a pie, Maps 29/10/2026."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Un día de canales y Jordaan",
+            "zone": "Dam → Begijnhof → Nueve Calles → Jordaan",
+            "stopIds": [
+              "dam",
+              "begijn",
+              "nine",
+              "anne",
+              "noorder"
+            ],
+            "editorialNote": "Priorizar centro y Ana Frank sólo con entrada. No cabe añadir Rijks o Van Gogh en el mismo día. Sin entrada, ampliar el paseo de canales y las pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida; mismos enlaces cortos del primer día."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Canales, Ana Frank y Jordaan",
+            "zone": "Dam → Begijnhof → Nueve Calles → Westermarkt → Jordaan",
+            "stopIds": [
+              "dam",
+              "begijn",
+              "nine",
+              "anne",
+              "noorder"
+            ],
+            "editorialNote": "Ana Frank es el interior principal sólo con entrada confirmada. Organizar el paseo alrededor de su franja. No se suma Museumplein ni el ferry al final. Si no hay entrada, canales y pausa en Jordaan sustituyen ese bloque, no una visita al Anexo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, estimación editorial. Maps 29/10/2026 a pie: Dam→Begijnhof 0,4 km/5 min; →Nueve Calles 0,5 km/7 min; →Ana Frank 0,7 km/9 min; →Noordermarkt 0,6 km/8 min. Colas y paseos internos aparte."
+          },
+          {
+            "title": "Un museo y De Pijp",
+            "zone": "Museumplein → Albert Cuyp / De Pijp",
+            "stopIds": [
+              "rijks",
+              "museumplein",
+              "cuyp"
+            ],
+            "editorialNote": "Rijksmuseum como único gran interior. Van Gogh lo sustituye si se prefiere, sin apilar ambos. Comer en Albert Cuyp antes de su cierre; si es domingo/festivo, paseo y comida en De Pijp sin mercado. Vondelpark sustituye el bloque de mercado si apetece verde.",
+            "optionalStopIds": [
+              "vangogh",
+              "vondel"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Rijks→Albert Cuyp 0,9 km/12 min a pie, Maps 29/10/2026. Rijks→acceso oriental Vondel 0,4 km/5 min. No es tiempo de atravesar todo el parque."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Canales, Ana Frank y Jordaan",
+            "zone": "Dam → Begijnhof → Nueve Calles → Westermarkt → Jordaan",
+            "stopIds": [
+              "dam",
+              "begijn",
+              "nine",
+              "anne",
+              "noorder"
+            ],
+            "editorialNote": "Ana Frank es el interior principal sólo con entrada confirmada. Organizar el paseo alrededor de su franja. No se suma Museumplein ni el ferry al final. Si no hay entrada, canales y pausa en Jordaan sustituyen ese bloque, no una visita al Anexo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, estimación editorial. Maps 29/10/2026 a pie: Dam→Begijnhof 0,4 km/5 min; →Nueve Calles 0,5 km/7 min; →Ana Frank 0,7 km/9 min; →Noordermarkt 0,6 km/8 min. Colas y paseos internos aparte."
+          },
+          {
+            "title": "Un museo y De Pijp",
+            "zone": "Museumplein → Albert Cuyp / De Pijp",
+            "stopIds": [
+              "rijks",
+              "museumplein",
+              "cuyp"
+            ],
+            "editorialNote": "Rijksmuseum como único gran interior. Van Gogh lo sustituye si se prefiere, sin apilar ambos. Comer en Albert Cuyp antes de su cierre; si es domingo/festivo, paseo y comida en De Pijp sin mercado. Vondelpark sustituye el bloque de mercado si apetece verde.",
+            "optionalStopIds": [
+              "vangogh",
+              "vondel"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Rijks→Albert Cuyp 0,9 km/12 min a pie, Maps 29/10/2026. Rijks→acceso oriental Vondel 0,4 km/5 min. No es tiempo de atravesar todo el parque."
+          },
+          {
+            "title": "Casco antiguo y Plantage, sin otro gran museo",
+            "zone": "Nieuwmarkt → Jodenbuurt → Amstel",
+            "stopIds": [
+              "nieuwmarkt",
+              "rembrandt",
+              "magere"
+            ],
+            "editorialNote": "Casa de Rembrandt como interior de escala menor; Hortus es alternativa si se prefiere jardín e invernaderos, no obligación adicional. Comer en Jodenbuurt/Plantage y cerrar junto al Amstel. No es necesario ir a Zaanse Schans para dar sentido al tercer día. Acortar el paseo exterior según viento y luz; no sustituirlo automáticamente por dos museos.",
+            "optionalStopIds": [
+              "hortus"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Las distancias son enlaces, no duración del día. Nieuwmarkt→Rembrandt 0,4 km/5 min a pie (Maps 29/10/2026); Rembrandt→Hortus 0,6 km/7 min y Hortus→Magere Brug 0,7 km/10 min si se elige la variante jardín. Ruta principal Rembrandt→Magere Brug 0,8 km/10 min a pie, Maps 29/10/2026."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Un día de canales y Jordaan",
+            "zone": "Dam → Begijnhof → Nueve Calles → Jordaan",
+            "stopIds": [
+              "dam",
+              "begijn",
+              "nine",
+              "anne",
+              "noorder"
+            ],
+            "editorialNote": "Priorizar centro y Ana Frank sólo con entrada. No cabe añadir Rijks o Van Gogh en el mismo día. Sin entrada, ampliar el paseo de canales y las pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida; mismos enlaces cortos del primer día."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Canales, Ana Frank y Jordaan",
+            "zone": "Dam → Begijnhof → Nueve Calles → Westermarkt → Jordaan",
+            "stopIds": [
+              "dam",
+              "begijn",
+              "nine",
+              "anne",
+              "noorder"
+            ],
+            "editorialNote": "Ana Frank es el interior principal sólo con entrada confirmada. Organizar el paseo alrededor de su franja. No se suma Museumplein ni el ferry al final. Si no hay entrada, canales y pausa en Jordaan sustituyen ese bloque, no una visita al Anexo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, estimación editorial. Maps 29/10/2026 a pie: Dam→Begijnhof 0,4 km/5 min; →Nueve Calles 0,5 km/7 min; →Ana Frank 0,7 km/9 min; →Noordermarkt 0,6 km/8 min. Colas y paseos internos aparte."
+          },
+          {
+            "title": "Un museo y De Pijp",
+            "zone": "Museumplein → Albert Cuyp / De Pijp",
+            "stopIds": [
+              "rijks",
+              "museumplein",
+              "cuyp"
+            ],
+            "editorialNote": "Rijksmuseum como único gran interior. Van Gogh lo sustituye si se prefiere, sin apilar ambos. Comer en Albert Cuyp antes de su cierre; si es domingo/festivo, paseo y comida en De Pijp sin mercado. Vondelpark sustituye el bloque de mercado si apetece verde.",
+            "optionalStopIds": [
+              "vangogh",
+              "vondel"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Rijks→Albert Cuyp 0,9 km/12 min a pie, Maps 29/10/2026. Rijks→acceso oriental Vondel 0,4 km/5 min. No es tiempo de atravesar todo el parque."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Canales, Ana Frank y Jordaan",
+            "zone": "Dam → Begijnhof → Nueve Calles → Westermarkt → Jordaan",
+            "stopIds": [
+              "dam",
+              "begijn",
+              "nine",
+              "anne",
+              "noorder"
+            ],
+            "editorialNote": "Ana Frank es el interior principal sólo con entrada confirmada. Organizar el paseo alrededor de su franja. No se suma Museumplein ni el ferry al final. Si no hay entrada, canales y pausa en Jordaan sustituyen ese bloque, no una visita al Anexo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, estimación editorial. Maps 29/10/2026 a pie: Dam→Begijnhof 0,4 km/5 min; →Nueve Calles 0,5 km/7 min; →Ana Frank 0,7 km/9 min; →Noordermarkt 0,6 km/8 min. Colas y paseos internos aparte."
+          },
+          {
+            "title": "Un museo y De Pijp",
+            "zone": "Museumplein → Albert Cuyp / De Pijp",
+            "stopIds": [
+              "rijks",
+              "museumplein",
+              "cuyp"
+            ],
+            "editorialNote": "Rijksmuseum como único gran interior. Van Gogh lo sustituye si se prefiere, sin apilar ambos. Comer en Albert Cuyp antes de su cierre; si es domingo/festivo, paseo y comida en De Pijp sin mercado. Vondelpark sustituye el bloque de mercado si apetece verde.",
+            "optionalStopIds": [
+              "vangogh",
+              "vondel"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Rijks→Albert Cuyp 0,9 km/12 min a pie, Maps 29/10/2026. Rijks→acceso oriental Vondel 0,4 km/5 min. No es tiempo de atravesar todo el parque."
+          },
+          {
+            "title": "Casco antiguo y Plantage, sin otro gran museo",
+            "zone": "Nieuwmarkt → Jodenbuurt → Amstel",
+            "stopIds": [
+              "nieuwmarkt",
+              "magere"
+            ],
+            "editorialNote": "Paseo exterior breve con pausas. Rembrandt cierra 25/12 y Hortus 25/12 y 1/1; escoger un interior sólo si el calendario del día lo permite, no prometer entrada.",
+            "optionalStopIds": [
+              "rembrandt",
+              "hortus"
+            ],
+            "geographyChecks": [],
+            "pacing": "3-5 h flexibles con comida, según tiempo y aperturas. No es una jornada de interiores garantizada."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Un día de canales y Jordaan",
+            "zone": "Dam → Begijnhof → Nueve Calles → Jordaan",
+            "stopIds": [
+              "dam",
+              "begijn",
+              "nine",
+              "anne",
+              "noorder"
+            ],
+            "editorialNote": "Priorizar centro y Ana Frank sólo con entrada. No cabe añadir Rijks o Van Gogh en el mismo día. Sin entrada, ampliar el paseo de canales y las pausas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida; mismos enlaces cortos del primer día."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Canales, Ana Frank y Jordaan",
+            "zone": "Dam → Begijnhof → Nueve Calles → Westermarkt → Jordaan",
+            "stopIds": [
+              "dam",
+              "begijn",
+              "nine",
+              "anne",
+              "noorder"
+            ],
+            "editorialNote": "Ana Frank es el interior principal sólo con entrada confirmada. Organizar el paseo alrededor de su franja. No se suma Museumplein ni el ferry al final. Si no hay entrada, canales y pausa en Jordaan sustituyen ese bloque, no una visita al Anexo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, estimación editorial. Maps 29/10/2026 a pie: Dam→Begijnhof 0,4 km/5 min; →Nueve Calles 0,5 km/7 min; →Ana Frank 0,7 km/9 min; →Noordermarkt 0,6 km/8 min. Colas y paseos internos aparte."
+          },
+          {
+            "title": "Un museo y De Pijp",
+            "zone": "Museumplein → Albert Cuyp / De Pijp",
+            "stopIds": [
+              "rijks",
+              "museumplein",
+              "cuyp"
+            ],
+            "editorialNote": "Rijksmuseum como único gran interior. Van Gogh lo sustituye si se prefiere, sin apilar ambos. Comer en Albert Cuyp antes de su cierre; si es domingo/festivo, paseo y comida en De Pijp sin mercado. Vondelpark sustituye el bloque de mercado si apetece verde.",
+            "optionalStopIds": [
+              "vangogh",
+              "vondel"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Rijks→Albert Cuyp 0,9 km/12 min a pie, Maps 29/10/2026. Rijks→acceso oriental Vondel 0,4 km/5 min. No es tiempo de atravesar todo el parque."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Canales, Ana Frank y Jordaan",
+            "zone": "Dam → Begijnhof → Nueve Calles → Westermarkt → Jordaan",
+            "stopIds": [
+              "dam",
+              "begijn",
+              "nine",
+              "anne",
+              "noorder"
+            ],
+            "editorialNote": "Ana Frank es el interior principal sólo con entrada confirmada. Organizar el paseo alrededor de su franja. No se suma Museumplein ni el ferry al final. Si no hay entrada, canales y pausa en Jordaan sustituyen ese bloque, no una visita al Anexo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, estimación editorial. Maps 29/10/2026 a pie: Dam→Begijnhof 0,4 km/5 min; →Nueve Calles 0,5 km/7 min; →Ana Frank 0,7 km/9 min; →Noordermarkt 0,6 km/8 min. Colas y paseos internos aparte."
+          },
+          {
+            "title": "Un museo y De Pijp",
+            "zone": "Museumplein → Albert Cuyp / De Pijp",
+            "stopIds": [
+              "rijks",
+              "museumplein",
+              "cuyp"
+            ],
+            "editorialNote": "Rijksmuseum como único gran interior. Van Gogh lo sustituye si se prefiere, sin apilar ambos. Comer en Albert Cuyp antes de su cierre; si es domingo/festivo, paseo y comida en De Pijp sin mercado. Vondelpark sustituye el bloque de mercado si apetece verde.",
+            "optionalStopIds": [
+              "vangogh",
+              "vondel"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Rijks→Albert Cuyp 0,9 km/12 min a pie, Maps 29/10/2026. Rijks→acceso oriental Vondel 0,4 km/5 min. No es tiempo de atravesar todo el parque."
+          },
+          {
+            "title": "Casco antiguo y Plantage, sin otro gran museo",
+            "zone": "Nieuwmarkt → Jodenbuurt → Amstel",
+            "stopIds": [
+              "nieuwmarkt",
+              "rembrandt",
+              "magere"
+            ],
+            "editorialNote": "Casa de Rembrandt como interior de escala menor; Hortus es alternativa si se prefiere jardín e invernaderos, no obligación adicional. Comer en Jodenbuurt/Plantage y cerrar junto al Amstel. No es necesario ir a Zaanse Schans para dar sentido al tercer día.",
+            "optionalStopIds": [
+              "hortus"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Las distancias son enlaces, no duración del día. Nieuwmarkt→Rembrandt 0,4 km/5 min a pie (Maps 29/10/2026); Rembrandt→Hortus 0,6 km/7 min y Hortus→Magere Brug 0,7 km/10 min si se elige la variante jardín. Ruta principal Rembrandt→Magere Brug 0,8 km/10 min a pie, Maps 29/10/2026."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [
+    {
+      "id": "zaanse",
+      "name": "Zaanse Schans",
+      "zone": "Fuera de Ámsterdam",
+      "lat": 52.4740169,
+      "lon": 4.822729700000001,
+      "coordSource": "https://www.google.com/maps/search/?api=1&query=Zaanse+Schans&query_place_id=ChIJWxTBvvf8xUcR_iDK4jdIL4s",
+      "minutes": 330,
+      "sourceIds": [
+        "zaanse",
+        "zaansetravel"
+      ],
+      "priority": "Alternativa opcional de jornada",
+      "reason": "Pueblo de molinos para sustituir una jornada, no excursión obligatoria del día 3.",
+      "visit": "Paseo por el pueblo y elegir uno o dos molinos/museos abiertos, no cubrir todos.",
+      "transport": "Operador: tren Amsterdam Centraal→Zaandijk Zaanse Schans 17 min más paseo 15 min; añadir espera y acceso. Bus 800/801 con calendario propio: revisar servicio del día.",
+      "pacing": "5-7 h con traslados y comida, estimación editorial.",
+      "caution": "Pueblo de acceso gratuito; museos y molinos de pago según apertura. Cooperage y Heritage Chambres figuran temporalmente cerrados: no garantizar el paquete completo.",
+      "url": "https://tickets.dezaanseschans.nl/en/",
+      "kind": "excursion",
+      "reviewedAt": "2026-10-29",
+      "closedMonthDays": [],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "access": "https://tickets.dezaanseschans.nl/en/travel-to-the-zaanse-schans/",
+      "photo": {
+        "img": "assets/amsterdam/zaanse.jpg",
+        "source": "https://www.pexels.com/photo/scenic-windmills-at-zaanse-schans-in-netherlands-32762718/",
+        "author": "Dylan Ferreira",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Molinos de Zaanse Schans"
+      }
+    },
+    {
+      "id": "keukenhof",
+      "name": "Keukenhof · sólo temporada de flores",
+      "zone": "Fuera de Ámsterdam",
+      "lat": 52.2686783,
+      "lon": 4.5523248,
+      "coordSource": "https://www.keukenhof.nl/en/visit/plan-your-visit/",
+      "minutes": 420,
+      "sourceIds": [
+        "keukenhof"
+      ],
+      "priority": "Alternativa opcional de jornada",
+      "reason": "Jardín de temporada como jornada propia en Lisse, no alternativa anual.",
+      "visit": "Visita de jardines sin sumar Zaanse Schans, Volendam y campos en una sola jornada.",
+      "transport": "KeukenhofBuzz y billetes combinados según temporada. La web anuncia precios/venta desde mediados de enero: verificar conexiones y salida concreta antes de viajar.",
+      "pacing": "5-7 h con traslados y comida, estimación editorial.",
+      "caution": "Temporada confirmada 18/3-9/5/2027, 8-19 h, acceso hasta 18:15. Fuera de esas fechas no abre. La floración depende del tiempo; no se garantiza un campo ni una variedad concreta. Confirmar el acceso del billete, no confundir el jardín con Kasteel Keukenhof.",
+      "url": "https://www.keukenhof.nl/en/visit/plan-your-visit/",
+      "kind": "excursion",
+      "reviewedAt": "2026-10-29",
+      "closedMonthDays": [],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "access": "https://www.keukenhof.nl/en/visit/plan-your-visit/",
+      "visitDateRanges": [
+        {
+          "startDate": "2027-03-18",
+          "endDate": "2027-05-09"
+        }
+      ],
+      "photo": {
+        "img": "assets/amsterdam/keukenhof-flowers.jpg",
+        "source": "https://www.pexels.com/photo/vibrant-red-tulips-in-full-bloom-at-keukenhof-36314874/",
+        "author": "kevin yung",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Tulipanes de Keukenhof durante la temporada de primavera"
+      }
+    }
+  ],
+  "editorialAudit": [
+    "29/10/2026: tres guías comparadas antes de operadores; se rechaza acumulación Ana Frank+Rijks+Vondel+Cuyp+Noord.",
+    "29/10/2026: tramos a pie comprobados en Maps; no equivalen a tiempos completos de visita."
+  ],
+  "editorialTradeoffs": [
+    "Dos días priorizan canales/Jordaan y Museumplein/De Pijp; tercero abre casco antiguo y Plantage sin excursión forzada.",
+    "Mercado y parque son alternativas de paseo, no dos extremos obligatorios después del museo."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Michelin favorece barrios/canales; Mochileando reúne los iconos pero sobrecarga el segundo día; Iamsterdam aporta alternativas culturales. Síntesis por zonas con un interior principal y excursiones opcionales."
+}

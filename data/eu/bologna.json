@@ -1,0 +1,1134 @@
+{
+  "schemaVersion": 1,
+  "country": "IT",
+  "id": "bologna",
+  "name": "Bolonia",
+  "localName": "Bologna",
+  "selectionReason": "Ampliación italiana solicitada.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fechas; tercero opcional de caminata, no relleno ni excursión acumulada.",
+  "stops": [
+    {
+      "id": "maggiore",
+      "name": "Piazza Maggiore · el corazón de Bolonia",
+      "kind": "visit",
+      "zone": "Maggiore / Nettuno",
+      "reason": "Empezar en la gran plaza medieval y rodear la fuente de Neptuno antes de entrar en San Petronio.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 44.493945,
+        "lon": 11.3432071
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+Maggiore&query_place_id=ChIJI6gJiJXUf0cRR3IrYSi4xgo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Palacios y Torre del Reloj no incluidos. Fuente y plazas pueden tener vallados o eventos. No meter otra torre por obligación.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/maggiore.jpg",
+        "source": "https://www.flickr.com/photos/164437002@N02/31757594927/",
+        "author": "Alessio Vallero",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plazas exteriores"
+    },
+    {
+      "id": "petronio",
+      "name": "San Petronio · meridiana y nave",
+      "kind": "visit",
+      "zone": "Piazza Maggiore",
+      "reason": "Una visita breve a la nave y la línea meridiana, sin confundirla con un museo de dos horas.",
+      "sourceIds": [
+        "guide1",
+        "petronio"
+      ],
+      "coordinates": {
+        "lat": 44.4933901,
+        "lon": 11.3432131
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Basilica+di+San+Petronio&query_place_id=ChIJt0YDhpXUf0cRpbAGeVhxfaE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Diario 10-18, última entrada 17:50. Culto puede limitar visitas. Museo gratis 10-17:30; capillas de pago opcionales, no incluidas. No se promete terraza panorámica ni antigua tarifa de 5€. Acceso adaptado lateral Via de Pignattari.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/petronio.jpg",
+        "source": "https://www.flickr.com/photos/ralpe/52418278501/",
+        "author": "Ralf Peter Reimann",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Basílica; capillas aparte"
+    },
+    {
+      "id": "archiginnasio",
+      "name": "Archiginnasio · Teatro Anatómico",
+      "kind": "visit",
+      "zone": "Galvani",
+      "reason": "El interior principal del centro: anatomía y memoria universitaria en el teatro de madera, con tiempo reservado.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "archiginnasio",
+        "architickets"
+      ],
+      "coordinates": {
+        "lat": 44.491972,
+        "lon": 11.34342
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Archiginnasio+Municipal+Library&query_place_id=ChIJwa14wr_Uf0cRvNTmLLWGF5k",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Reserva obligatoria: audioguía 10€ o visita guiada 12€, no antigua entrada de 3€. Audioguía lun-sáb 10-17:30 con franjas cada 10 min; domingo cerrado salvo calendario extraordinario. Stabat Mater y otras salas dependen de actividades institucionales. Biblioteca de estudio no visitable como sala turística. Si domingo, sustituir por plazas y pasar esta visita a otro día abierto, no prometer entrar.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/archiginnasio.jpg",
+        "source": "https://www.flickr.com/photos/wordridden/15208984908/",
+        "author": "WordRidden",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Visita de pago con reserva"
+    },
+    {
+      "id": "quadrilatero",
+      "name": "Quadrilatero · calles de producto",
+      "kind": "visit",
+      "zone": "Quadrilatero",
+      "reason": "Comer o curiosear entre salumerías y puestos, sin convertir las compras en una visita obligatoria de pago.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "foodguide",
+        "vegetarian"
+      ],
+      "coordinates": {
+        "lat": 44.4924773,
+        "lon": 11.3447943
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Quadrilatero&query_place_id=ChIJnQlhsr_Uf0cRNidRPirGBGc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Cada comercio tiene su horario, no todos abren domingo ni en agosto. Consumos aparte. Friggione puede llevar manteca: preguntar si se necesita vegetal. No vender spaghetti bolognese como plato local tradicional.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/quadrilatero.jpg",
+        "source": "https://www.flickr.com/photos/fra1982/2654204614/",
+        "author": "Francesca",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio de mercado exterior"
+    },
+    {
+      "id": "stefano",
+      "name": "Santo Stefano · patios y siete iglesias",
+      "kind": "visit",
+      "zone": "Santo Stefano",
+      "reason": "Terminar el centro en una plaza recogida y un conjunto de iglesias que se recorre sin prisa.",
+      "sourceIds": [
+        "guide1",
+        "stefano"
+      ],
+      "coordinates": {
+        "lat": 44.4921725,
+        "lon": 11.3484957
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Basilica+Santuario+Santo+Stefano+-+Complesso+delle+Sette+Chiese&query_place_id=ChIJwS9yUrTVf0cRKChgUzmWXOA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Turismo mar-sáb 9:30-12:30 y 14:30-19; dom/festivos 9:30-12:30 y 15-19. Lunes visitas suspendidas, no confundir apertura del Crocifisso 18-19:30 con visita completa. Llegar por la tarde tras comer, no a la pausa de mediodía. Culto altera acceso.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/stefano.jpg",
+        "source": "https://www.flickr.com/photos/prof_richard/48776340626/",
+        "author": "Richard Mortel",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza e interior según apertura"
+    },
+    {
+      "id": "pinacoteca",
+      "name": "Pinacoteca Nazionale · pintura boloñesa",
+      "kind": "visit",
+      "zone": "Belle Arti",
+      "reason": "El museo principal del segundo día: una selección de pintura, sin encadenar MAMbo y otras colecciones.",
+      "sourceIds": [
+        "guide1",
+        "pinacoteca"
+      ],
+      "coordinates": {
+        "lat": 44.4977566,
+        "lon": 11.3534957
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Bologna+National+Art+Gallery&query_place_id=ChIJBQTnHbvUf0cRzy3PxAgueuY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 12€, mar-dom 9-19, normalmente último acceso 18:30. Lunes cerrado; 07/12/2026 abre 9-19 con última entrada especial 18 según aviso, 09/12/2026 cerrado. Palazzo Pepoli Campogrande temporalmente cerrado aunque se mencione en el billete conjunto: no visita garantizada. Exposiciones pueden cambiar precio.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/pinacoteca.jpg",
+        "source": "https://www.flickr.com/photos/prof_richard/48776021317/",
+        "author": "Richard Mortel",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago"
+    },
+    {
+      "id": "zamboni",
+      "name": "Via Zamboni · barrio universitario",
+      "kind": "visit",
+      "zone": "Universidad / Piazza Verdi",
+      "reason": "Salir de la pinacoteca al barrio universitario, con pórticos, librerías y una pausa sin nueva entrada.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 44.4964003,
+        "lon": 11.3510035
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+Giuseppe+Verdi+%26+Via+Zamboni&query_place_id=EjpQLnphIEdpdXNlcHBlIFZlcmRpICYgVmlhIFphbWJvbmksIDQwMTI2IEJvbG9nbmEgQk8sIEl0YWx5ImYiZAoUChIJIYuqkbvUf0cRNpKQZ71tBIUSFAoSCSGLqpG71H9HETaSkGe9bQSFGhQKEgkNuuGNu9R_RxFfJ0BNIqc5ehoUChIJ_XK8k7vUf0cRkqYKIG8SIcsiCg2jnIUaFZMGxAY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Facultades y bibliotecas no son visitas libres por estar abiertas a estudiantes. Ambiente y eventos cambian, no concierto ni interior prometidos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/zamboni.jpg",
+        "source": "https://www.flickr.com/photos/freshcreator/4477971997/",
+        "author": "freshcreator",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Calles y plaza exteriores"
+    },
+    {
+      "id": "torri",
+      "name": "Asinelli y Garisenda · solo exteriores",
+      "kind": "visit",
+      "zone": "Porta Ravegnana",
+      "reason": "Mirar la escala y la inclinación de las torres desde las calles permitidas, sin billete de ascenso inexistente.",
+      "sourceIds": [
+        "guide1",
+        "towerguide",
+        "torri"
+      ],
+      "coordinates": {
+        "lat": 44.4942094,
+        "lon": 11.3467312
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=The+Two+Towers%3A+Garisenda+%26+Asinelli&query_place_id=ChIJcZ-ijr7Uf0cR6iMWIosaYyg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Asinelli cerrada por mantenimiento del área; Garisenda no visitable. No reservar subida, ni prometer reapertura en 2028: no fecha oficial confirmada. Respetar vallas y desvíos. Foto anterior a obras, no estado actual de la plaza.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/torri.jpg",
+        "source": "https://www.flickr.com/photos/fotoraffo/3138712789/",
+        "author": "raffaele sergi",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Dos torres en archivo anterior a las obras actuales; acceso interior cerrado. Recorte de presentación."
+      },
+      "visitMode": "Vista exterior con obras"
+    },
+    {
+      "id": "erbe",
+      "name": "Mercato delle Erbe · puestos y aperitivo",
+      "kind": "visit",
+      "zone": "Ugo Bassi",
+      "reason": "Volver hacia el oeste para producto fresco o una comida informal, distinguiendo puestos de restaurantes.",
+      "sourceIds": [
+        "guide2",
+        "foodguide",
+        "erbe"
+      ],
+      "coordinates": {
+        "lat": 44.4961808,
+        "lon": 11.3383295
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Mercato+delle+Erbe&query_place_id=ChIJtXrr-JPUf0cRWMUZ3G0yEU0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Puestos lun-sáb 7-19:30, no domingo. Restauración publica comida 12-15:30 y cena 18-24, domingo cena hasta 23, cada local puede variar. Mejor llegar antes de comer si interesan puestos; si el museo ocupa mañana, mercado a primera hora y Pinacoteca después. Cierres de agosto individuales, no mercado entero abierto garantizado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/erbe.jpg",
+        "source": "https://www.flickr.com/photos/michaelclarke/36323296231/",
+        "author": "michael clarke stuff",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mercado; consumos aparte"
+    },
+    {
+      "id": "saragozza",
+      "name": "Porta Saragozza · comienzo del pórtico",
+      "kind": "visit",
+      "zone": "Saragozza",
+      "reason": "Un tercer día opcional dedicado a los pórticos y la colina, no una excursión en tren sumada a la ciudad.",
+      "sourceIds": [
+        "guide1",
+        "porticoguide"
+      ],
+      "coordinates": {
+        "lat": 44.4905287,
+        "lon": 11.3299908
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Porta+Saragozza&query_place_id=ChIJN92wYu3Uf0cRugdF9suBeYE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Esta parada es el comienzo de la caminata, no una subida de cinco minutos. Agua, calzado y energía para 3,5-4 km de ida más regreso. Si se elige tren turístico, salir de Galvani y omitir los tramos peatonales, no hacer ambas cosas por obligación.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/saragozza.jpg",
+        "source": "https://www.flickr.com/photos/micurs/3601234395/",
+        "author": "Michele Ursino",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Puerta y primer tramo exterior"
+    },
+    {
+      "id": "portico",
+      "name": "Pórtico de San Luca · tramo en subida",
+      "kind": "visit",
+      "zone": "Meloncello / colina",
+      "reason": "El paseo es la actividad: el tramo llano llega al Meloncello y después la pendiente y las escaleras llevan al santuario.",
+      "sourceIds": [
+        "guide1",
+        "porticoguide"
+      ],
+      "coordinates": {
+        "lat": 44.4901467,
+        "lon": 11.3109844
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Arco+del+Meloncello&query_place_id=ChIJvxSOEVzUf0cRH0Z8p9dvkOg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Maps: Porta Saragozza-Meloncello 1546m/21 min; Meloncello-santuario 1951m/38 min. Son traslados teóricos de ida, no visita completa ni regreso. Reservar 90-120 min de ida con pausas, no sumar el minuto de cada tramo al bloque de caminata. Ayuntamiento describe más de 2 km de tramo empinado; 666 arcos es cifra tradicional, no recuento exacto. No accesible como ruta continua sin escaleras.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/portico.jpg",
+        "source": "https://www.flickr.com/photos/56283488@N06/22727290400/",
+        "author": "michael kogan",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Tramo del pórtico de San Luca, no el arco del Meloncello. Recorte de presentación."
+      },
+      "visitMode": "Caminata con pendiente y escaleras"
+    },
+    {
+      "id": "luca",
+      "name": "San Luca · santuario y descanso",
+      "kind": "visit",
+      "zone": "Colle della Guardia",
+      "reason": "Llegar a la iglesia y descansar con la vista de los alrededores antes de bajar, sin prometer un horizonte despejado.",
+      "sourceIds": [
+        "guide1",
+        "luca",
+        "lucatimes",
+        "train"
+      ],
+      "coordinates": {
+        "lat": 44.4791156,
+        "lon": 11.2980641
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Sanctuary+of+the+Madonna+of+San+Luca&query_place_id=ChIJ09Ml9EzUf0cRmZhl8deVq-k",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Web del santuario: iglesia 7-18; culto limita turismo. Bologna Welcome indica hasta 18:30 marzo-octubre, pero usar cierre conservador 18 y confirmar fecha. Cúpula de pago opcional no incluida. Regreso andando añade cerca de una hora o más. San Luca Express desde Galvani 15€ adulto ida/vuelta en ficha de compra actual, bajar obligatorio y esperar otro servicio, mínimo 2 h total; tarifa genérica antigua 13€ descartada. Servicios anunciados hasta 06/01/2027, después confirmar; no prometer horario de blog. Una plaza de silla por tren, reservar con operador.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bologna/luca.jpg",
+        "source": "https://www.flickr.com/photos/strocchi/24712804076/",
+        "author": "Enrico Strocchi",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Santuario gratuito; mirador superior aparte"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Las plazas y la antigua universidad",
+          "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+          "stopIds": [
+            "maggiore",
+            "petronio",
+            "archiginnasio",
+            "quadrilatero",
+            "stefano"
+          ],
+          "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Las plazas y la antigua universidad",
+          "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+          "stopIds": [
+            "maggiore",
+            "petronio",
+            "archiginnasio",
+            "quadrilatero",
+            "stefano"
+          ],
+          "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+        },
+        {
+          "title": "Pintura, estudiantes y mercado",
+          "zone": "Belle Arti → Zamboni → Ravegnana → Ugo Bassi",
+          "stopIds": [
+            "pinacoteca",
+            "zamboni",
+            "torri",
+            "erbe"
+          ],
+          "editorialNote": "Una colección larga y paseos universitarios, sin ascenso a Asinelli. Las Erbe tiene puestos hasta 19:30 pero es mejor mañana para compras: invertir y entrar Pinacoteca por la tarde si ese es el interés.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida. Maps 325m/4 min,367m/5 min,855m/11 min. Lunes Pinacoteca cerrado: usar día de San Luca o paseo exterior, no inventar museo abierto. Domingo puestos de mercado cerrados aunque restauración abra."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Las plazas y la antigua universidad",
+          "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+          "stopIds": [
+            "maggiore",
+            "petronio",
+            "archiginnasio",
+            "quadrilatero",
+            "stefano"
+          ],
+          "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+        },
+        {
+          "title": "Pintura, estudiantes y mercado",
+          "zone": "Belle Arti → Zamboni → Ravegnana → Ugo Bassi",
+          "stopIds": [
+            "pinacoteca",
+            "zamboni",
+            "torri",
+            "erbe"
+          ],
+          "editorialNote": "Una colección larga y paseos universitarios, sin ascenso a Asinelli. Las Erbe tiene puestos hasta 19:30 pero es mejor mañana para compras: invertir y entrar Pinacoteca por la tarde si ese es el interés.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida. Maps 325m/4 min,367m/5 min,855m/11 min. Lunes Pinacoteca cerrado: usar día de San Luca o paseo exterior, no inventar museo abierto. Domingo puestos de mercado cerrados aunque restauración abra."
+        },
+        {
+          "title": "Un día lento bajo los pórticos de San Luca",
+          "zone": "Saragozza → Meloncello → santuario → regreso",
+          "stopIds": [
+            "saragozza",
+            "portico",
+            "luca"
+          ],
+          "editorialNote": "Tercer día opcional si apetece caminar: no se necesita para completar el casco antiguo. Sin Modena/Ravenna añadidas después. Con lluvia fuerte, calor o cansancio elegir tren turístico y omitir caminata, no fingir igual recorrido.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida, subida 90-120 min y bajada 60-90 min de estimación editorial; Maps ida 21+38 min no incluye descansos ni vuelta. Santuario antes 18. Alternativa tren 15€ desde Galvani, mínimo 2 h y retorno a confirmar al embarcar; no billete comprado."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Subida San Luca temprano o tren, agua y sombra no eliminan calor. Tiendas/restaurantes agosto con cierres propios, confirmar.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "San Luca antes 18 y con luz, hielo/lluvia: omitir caminata. Tren anunciado hasta 06/01/2027, después comprobar servicio.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Horarios festivos específicos en Archiginnasio y museos. Pinacoteca 07/12/2026 abre,09/12/2026 cierra. No prometer puestos domingo o Navidad.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Asinelli cerrada actualmente sin reapertura prometida. Pórtico seco o con cuidado, no accesible por tener techo.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Ninguna entrada, mesa ni transporte comprados. Horarios/tarifas revisados, no disponibilidad garantizada.",
+    "Asinelli y Garisenda no visitables; solo exteriores respetando obras.",
+    "Domingo Archiginnasio cerrado; lunes Santo Stefano/Pinacoteca no visitables: reordenar, no vender ruta idéntica todos los días."
+  ],
+  "excludedOrOptional": [
+    "Torre del Reloj alternativa de pago si se quiere mirador, no añadida a tres interiores del primer día.",
+    "Módena, Rávena y Ferrara requieren día propio y trenes actuales; no excursiones de relleno después de San Luca.",
+    "Prendiparte, MAMbo y Santa Maria Vita son sustituciones, no cadena de visitas obligadas.",
+    "Trattoria del Rosso descartada: dominio enlazado por turismo devuelve página editorial ajena y menú 10€ parece antiguo, no prometer ese precio."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "ArtTrip: dos días, cierre torres contrastado",
+      "url": "https://arttrip.it/en/what-to-see-in-bologna-in-2-days/",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "Bologna Bites: rutas urbanas",
+      "url": "https://bolognabites.com/bologna-itinerary-2-days/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "towerguide",
+      "title": "AlpacaBag: torres cerradas, sin fecha prometida",
+      "url": "https://alpacabag.app/blog/bologna-asinelli-towers-guide-2026",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "Common Wanderer: visitas y cocina",
+      "url": "https://www.thecommonwanderer.com/blog/best-bologna-restaurants",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "vegetarian",
+      "title": "Taste Bologna: friggione y opciones vegetales",
+      "url": "https://www.tastebologna.net/blog/vegetarian-food-bologna",
+      "type": "local-food-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "gelatoguide",
+      "title": "Lonely Planet: Cremeria Santo Stefano",
+      "url": "https://www.lonelyplanet.com/italy/emilia-romagna-and-san-marino/bologna/restaurants",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "petronio",
+      "title": "San Petronio: horarios actuales",
+      "url": "https://www.basilicadisanpetronio.org/en/info-and-opening-hours/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "archiginnasio",
+      "title": "Archiginnasio: 10€ audioguía,12€ guiada",
+      "url": "https://www.bolognawelcome.com/it/luoghi/torri-edifici-storici/archiginnasio",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "architickets",
+      "title": "Archiginnasio: reservas y franjas",
+      "url": "https://www.bolognawelcome.com/en/experiences/331861/Palazzo-dell-Archiginnasio-and-Teatro-Anatomico---Guided-or-audio-guided-tour",
+      "type": "official-booking",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "stefano",
+      "title": "Santo Stefano: horarios agosto 2026",
+      "url": "https://www.santostefanobologna.it/orari-e-contatti/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "pinacoteca",
+      "title": "Pinacoteca: tarifas y cierres especiales",
+      "url": "https://pinacotecabologna.cultura.gov.it/visita-e-orari",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "torri",
+      "title": "Turismo: ambas torres no visitables",
+      "url": "https://www.bolognawelcome.com/en/places/towers-historic-buildings/the-two-towers-garisenda-and-degli-asinelli-eng",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "erbe",
+      "title": "Mercado: puestos distintos de restauración",
+      "url": "https://www.mercatodelleerbe.eu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "porticoguide",
+      "title": "Ayuntamiento: pórtico, longitud y escaleras",
+      "url": "https://portici.comune.bologna.it/en/la-serie/san-luca/portico-di-san-luca",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "luca",
+      "title": "San Luca: acceso y horarios",
+      "url": "https://www.bolognawelcome.com/en/places/religious-buildings/sanctuary-of-san-luca-eng",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lucatimes",
+      "title": "Santuario: horario 7-18",
+      "url": "https://www.santuariodisanluca.it/timetables-and-celebrations/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "train",
+      "title": "Operador: San Luca 15€ y mínimo 2 h",
+      "url": "https://cityredbus.com/en/shop/biglietti-san-luca-express/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "dame",
+      "title": "Da Me: sede San Felice y horarios",
+      "url": "https://www.trattoriadame.it/home/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "damemenu",
+      "title": "Da Me: carta otoño 2026",
+      "url": "https://www.trattoriadame.it/wp-content/uploads/2026/09/SITO-CIBO_AUTUNNO_ITA.pdf",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "damebook",
+      "title": "Da Me: reservar San Felice, no otra sede",
+      "url": "https://www.trattoriadame.it/prenota/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "botanica",
+      "title": "Botanica: sede y horarios",
+      "url": "https://www.botanicalab.com/contact",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "botanicamenu",
+      "title": "Botanica: enlace carta dinámica",
+      "url": "https://www.botanicalab.com/men%C3%B9",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "gelato",
+      "title": "Cremeria: carta de recogida, no tarifa de cono",
+      "url": "https://cremeria-santo-stefano.it/",
+      "type": "venue-ordering",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Las plazas y la antigua universidad",
+            "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+            "stopIds": [
+              "maggiore",
+              "petronio",
+              "archiginnasio",
+              "quadrilatero",
+              "stefano"
+            ],
+            "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Las plazas y la antigua universidad",
+            "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+            "stopIds": [
+              "maggiore",
+              "petronio",
+              "archiginnasio",
+              "quadrilatero",
+              "stefano"
+            ],
+            "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+          },
+          {
+            "title": "Pintura, estudiantes y mercado",
+            "zone": "Belle Arti → Zamboni → Ravegnana → Ugo Bassi",
+            "stopIds": [
+              "pinacoteca",
+              "zamboni",
+              "torri",
+              "erbe"
+            ],
+            "editorialNote": "Una colección larga y paseos universitarios, sin ascenso a Asinelli. Las Erbe tiene puestos hasta 19:30 pero es mejor mañana para compras: invertir y entrar Pinacoteca por la tarde si ese es el interés.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 325m/4 min,367m/5 min,855m/11 min. Lunes Pinacoteca cerrado: usar día de San Luca o paseo exterior, no inventar museo abierto. Domingo puestos de mercado cerrados aunque restauración abra."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Las plazas y la antigua universidad",
+            "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+            "stopIds": [
+              "maggiore",
+              "petronio",
+              "archiginnasio",
+              "quadrilatero",
+              "stefano"
+            ],
+            "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+          },
+          {
+            "title": "Pintura, estudiantes y mercado",
+            "zone": "Belle Arti → Zamboni → Ravegnana → Ugo Bassi",
+            "stopIds": [
+              "pinacoteca",
+              "zamboni",
+              "torri",
+              "erbe"
+            ],
+            "editorialNote": "Una colección larga y paseos universitarios, sin ascenso a Asinelli. Las Erbe tiene puestos hasta 19:30 pero es mejor mañana para compras: invertir y entrar Pinacoteca por la tarde si ese es el interés.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 325m/4 min,367m/5 min,855m/11 min. Lunes Pinacoteca cerrado: usar día de San Luca o paseo exterior, no inventar museo abierto. Domingo puestos de mercado cerrados aunque restauración abra."
+          },
+          {
+            "title": "Un día lento bajo los pórticos de San Luca",
+            "zone": "Saragozza → Meloncello → santuario → regreso",
+            "stopIds": [
+              "saragozza",
+              "portico",
+              "luca"
+            ],
+            "editorialNote": "Tercer día opcional si apetece caminar: no se necesita para completar el casco antiguo. Sin Modena/Ravenna añadidas después. Con lluvia fuerte, calor o cansancio elegir tren turístico y omitir caminata, no fingir igual recorrido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida, subida 90-120 min y bajada 60-90 min de estimación editorial; Maps ida 21+38 min no incluye descansos ni vuelta. Santuario antes 18. Alternativa tren 15€ desde Galvani, mínimo 2 h y retorno a confirmar al embarcar; no billete comprado."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Las plazas y la antigua universidad",
+            "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+            "stopIds": [
+              "maggiore",
+              "petronio",
+              "archiginnasio",
+              "quadrilatero",
+              "stefano"
+            ],
+            "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Las plazas y la antigua universidad",
+            "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+            "stopIds": [
+              "maggiore",
+              "petronio",
+              "archiginnasio",
+              "quadrilatero",
+              "stefano"
+            ],
+            "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+          },
+          {
+            "title": "Pintura, estudiantes y mercado",
+            "zone": "Belle Arti → Zamboni → Ravegnana → Ugo Bassi",
+            "stopIds": [
+              "pinacoteca",
+              "zamboni",
+              "torri",
+              "erbe"
+            ],
+            "editorialNote": "Una colección larga y paseos universitarios, sin ascenso a Asinelli. Las Erbe tiene puestos hasta 19:30 pero es mejor mañana para compras: invertir y entrar Pinacoteca por la tarde si ese es el interés.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 325m/4 min,367m/5 min,855m/11 min. Lunes Pinacoteca cerrado: usar día de San Luca o paseo exterior, no inventar museo abierto. Domingo puestos de mercado cerrados aunque restauración abra."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Las plazas y la antigua universidad",
+            "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+            "stopIds": [
+              "maggiore",
+              "petronio",
+              "archiginnasio",
+              "quadrilatero",
+              "stefano"
+            ],
+            "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+          },
+          {
+            "title": "Pintura, estudiantes y mercado",
+            "zone": "Belle Arti → Zamboni → Ravegnana → Ugo Bassi",
+            "stopIds": [
+              "pinacoteca",
+              "zamboni",
+              "torri",
+              "erbe"
+            ],
+            "editorialNote": "Una colección larga y paseos universitarios, sin ascenso a Asinelli. Las Erbe tiene puestos hasta 19:30 pero es mejor mañana para compras: invertir y entrar Pinacoteca por la tarde si ese es el interés.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 325m/4 min,367m/5 min,855m/11 min. Lunes Pinacoteca cerrado: usar día de San Luca o paseo exterior, no inventar museo abierto. Domingo puestos de mercado cerrados aunque restauración abra."
+          },
+          {
+            "title": "Un día lento bajo los pórticos de San Luca",
+            "zone": "Saragozza → Meloncello → santuario → regreso",
+            "stopIds": [
+              "saragozza",
+              "portico",
+              "luca"
+            ],
+            "editorialNote": "Tercer día opcional si apetece caminar: no se necesita para completar el casco antiguo. Sin Modena/Ravenna añadidas después. Con lluvia fuerte, calor o cansancio elegir tren turístico y omitir caminata, no fingir igual recorrido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida, subida 90-120 min y bajada 60-90 min de estimación editorial; Maps ida 21+38 min no incluye descansos ni vuelta. Santuario antes 18. Alternativa tren 15€ desde Galvani, mínimo 2 h y retorno a confirmar al embarcar; no billete comprado."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Las plazas y la antigua universidad",
+            "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+            "stopIds": [
+              "maggiore",
+              "petronio",
+              "archiginnasio",
+              "quadrilatero",
+              "stefano"
+            ],
+            "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Las plazas y la antigua universidad",
+            "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+            "stopIds": [
+              "maggiore",
+              "petronio",
+              "archiginnasio",
+              "quadrilatero",
+              "stefano"
+            ],
+            "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+          },
+          {
+            "title": "Pintura, estudiantes y mercado",
+            "zone": "Belle Arti → Zamboni → Ravegnana → Ugo Bassi",
+            "stopIds": [
+              "pinacoteca",
+              "zamboni",
+              "torri",
+              "erbe"
+            ],
+            "editorialNote": "Una colección larga y paseos universitarios, sin ascenso a Asinelli. Las Erbe tiene puestos hasta 19:30 pero es mejor mañana para compras: invertir y entrar Pinacoteca por la tarde si ese es el interés.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 325m/4 min,367m/5 min,855m/11 min. Lunes Pinacoteca cerrado: usar día de San Luca o paseo exterior, no inventar museo abierto. Domingo puestos de mercado cerrados aunque restauración abra."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Las plazas y la antigua universidad",
+            "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+            "stopIds": [
+              "maggiore",
+              "petronio",
+              "archiginnasio",
+              "quadrilatero",
+              "stefano"
+            ],
+            "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+          },
+          {
+            "title": "Pintura, estudiantes y mercado",
+            "zone": "Belle Arti → Zamboni → Ravegnana → Ugo Bassi",
+            "stopIds": [
+              "pinacoteca",
+              "zamboni",
+              "torri",
+              "erbe"
+            ],
+            "editorialNote": "Una colección larga y paseos universitarios, sin ascenso a Asinelli. Las Erbe tiene puestos hasta 19:30 pero es mejor mañana para compras: invertir y entrar Pinacoteca por la tarde si ese es el interés.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 325m/4 min,367m/5 min,855m/11 min. Lunes Pinacoteca cerrado: usar día de San Luca o paseo exterior, no inventar museo abierto. Domingo puestos de mercado cerrados aunque restauración abra."
+          },
+          {
+            "title": "Un día lento bajo los pórticos de San Luca",
+            "zone": "Saragozza → Meloncello → santuario → regreso",
+            "stopIds": [
+              "saragozza",
+              "portico",
+              "luca"
+            ],
+            "editorialNote": "Tercer día opcional si apetece caminar: no se necesita para completar el casco antiguo. Sin Modena/Ravenna añadidas después. Con lluvia fuerte, calor o cansancio elegir tren turístico y omitir caminata, no fingir igual recorrido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida, subida 90-120 min y bajada 60-90 min de estimación editorial; Maps ida 21+38 min no incluye descansos ni vuelta. Santuario antes 18. Alternativa tren 15€ desde Galvani, mínimo 2 h y retorno a confirmar al embarcar; no billete comprado."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Las plazas y la antigua universidad",
+            "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+            "stopIds": [
+              "maggiore",
+              "petronio",
+              "archiginnasio",
+              "quadrilatero",
+              "stefano"
+            ],
+            "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Las plazas y la antigua universidad",
+            "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+            "stopIds": [
+              "maggiore",
+              "petronio",
+              "archiginnasio",
+              "quadrilatero",
+              "stefano"
+            ],
+            "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+          },
+          {
+            "title": "Pintura, estudiantes y mercado",
+            "zone": "Belle Arti → Zamboni → Ravegnana → Ugo Bassi",
+            "stopIds": [
+              "pinacoteca",
+              "zamboni",
+              "torri",
+              "erbe"
+            ],
+            "editorialNote": "Una colección larga y paseos universitarios, sin ascenso a Asinelli. Las Erbe tiene puestos hasta 19:30 pero es mejor mañana para compras: invertir y entrar Pinacoteca por la tarde si ese es el interés.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 325m/4 min,367m/5 min,855m/11 min. Lunes Pinacoteca cerrado: usar día de San Luca o paseo exterior, no inventar museo abierto. Domingo puestos de mercado cerrados aunque restauración abra."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Las plazas y la antigua universidad",
+            "zone": "Maggiore → San Petronio → Archiginnasio → Quadrilatero → Santo Stefano",
+            "stopIds": [
+              "maggiore",
+              "petronio",
+              "archiginnasio",
+              "quadrilatero",
+              "stefano"
+            ],
+            "editorialNote": "Archiginnasio es el interior principal; San Petronio y Santo Stefano son visitas breves, no añadir torre y tres museos. Si solo hay un día y se desean las torres, sustituir Santo Stefano por exteriores de Asinelli, no ampliar sin descanso.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Enlaces Maps 146m/2 min,263m/3 min,250m/3 min,458m/6 min. Reservar Archiginnasio antes de comer y Santo Stefano tras 14:30 (domingo 15); domingo Archiginnasio cerrado, lunes Santo Stefano no visitable: reordenar o exteriores."
+          },
+          {
+            "title": "Pintura, estudiantes y mercado",
+            "zone": "Belle Arti → Zamboni → Ravegnana → Ugo Bassi",
+            "stopIds": [
+              "pinacoteca",
+              "zamboni",
+              "torri",
+              "erbe"
+            ],
+            "editorialNote": "Una colección larga y paseos universitarios, sin ascenso a Asinelli. Las Erbe tiene puestos hasta 19:30 pero es mejor mañana para compras: invertir y entrar Pinacoteca por la tarde si ese es el interés.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 325m/4 min,367m/5 min,855m/11 min. Lunes Pinacoteca cerrado: usar día de San Luca o paseo exterior, no inventar museo abierto. Domingo puestos de mercado cerrados aunque restauración abra."
+          },
+          {
+            "title": "Un día lento bajo los pórticos de San Luca",
+            "zone": "Saragozza → Meloncello → santuario → regreso",
+            "stopIds": [
+              "saragozza",
+              "portico",
+              "luca"
+            ],
+            "editorialNote": "Tercer día opcional si apetece caminar: no se necesita para completar el casco antiguo. Sin Modena/Ravenna añadidas después. Con lluvia fuerte, calor o cansancio elegir tren turístico y omitir caminata, no fingir igual recorrido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida, subida 90-120 min y bajada 60-90 min de estimación editorial; Maps ida 21+38 min no incluye descansos ni vuelta. Santuario antes 18. Alternativa tren 15€ desde Galvani, mínimo 2 h y retorno a confirmar al embarcar; no billete comprado."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Varias guías antes de operadores y Maps.",
+    "Torres cerradas; blogs con ascenso descartados.",
+    "Archiginnasio 10/12€ con reserva, no 3€ antiguo.",
+    "Puestos Erbe y restauración separados; domingo no puestos.",
+    "Da Me: carta de otoño 2026 sustituye 2025 y Rosso sin web fiable.",
+    "15fotos verificadas; comidas ilustrativas explícitas."
+  ],
+  "editorialTradeoffs": [
+    "Centro universitario y mercado por zonas.",
+    "San Luca día opcional y con retorno, no gratuito en tren ni 59 min jornada completa.",
+    "Botanica precios no extraíbles reconocidos, no inventados."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "ArtTrip, BolognaBites, AlpacaBag y guías comida contrastadas con operadores. Guía que ofrecía subir Asinelli descartada. Fotografía Quadrilatero CC-BY elegida en vez de CC-BY-ND para permitir recorte."
+}

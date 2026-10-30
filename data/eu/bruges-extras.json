@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "cityId": "bruges",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "republiek",
+      "name": "De Republiek · comida y patio de barrio",
+      "address": "Sint-Jakobsstraat 36, 8000 Brugge, Belgium",
+      "description": "Sint-Jakobsstraat 36, un grand café de uso local para comer sentado sin otra brasserie de guiso y mejillones.",
+      "strength": "Carta de otoño con tostada de setas, Soup du Nord o guiso vegetal de champiñones; mezcla de pescado, carne y vegetal.",
+      "caution": "Carta enlazada ACTUAL otoño, no PDF verano encontrado en búsqueda: tostadas 14€, sopa 7€, principales 19-24€, bebidas aparte. Cocina comida 12-14 salvo martes local abre 15 h, sin almuerzo martes; cena 18-21, viernes/sábado hasta 22. Local lun/mié/jue/dom 12-24, mar 15-24, vie/sáb 12-01. No confundir hora del bar y cocina. Confirmar alérgenos en menú digital. Foto vegetal ajena.",
+      "alert": "Carta enlazada ACTUAL otoño, no PDF verano encontrado en búsqueda: tostadas 14€, sopa 7€, principales 19-24€, bebidas aparte. Cocina comida 12-14 salvo martes local abre 15 h, sin almuerzo martes; cena 18-21, viernes/sábado hasta 22. Local lun/mié/jue/dom 12-24, mar 15-24, vie/sáb 12-01. No confundir hora del bar y cocina. Confirmar alérgenos en menú digital. Foto vegetal ajena.",
+      "priceLabel": "Tostadas 14€ · principales 19-24€ · bebida aparte",
+      "photo": {
+        "img": "assets/bruges/republiek.jpg",
+        "source": "https://www.flickr.com/photos/ellaolsson/42231145040/",
+        "author": "Ella Olsson",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Platos vegetales ilustrativos de otro establecimiento; no De Republiek ni su carta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://republiekbrugge.be/grandcaf%C3%A9",
+      "sourceUrls": [
+        "https://www.visitbruges.be/en/eat-and-sleep/flavourite-bruges",
+        "https://www.thespotbruges.be/recommendations",
+        "https://republiekbrugge.be/grandcaf%C3%A9",
+        "https://republiekbrugge.be/assets/uploads/Allergenen-menukaart/DR-Herfstkaart-web-NDL-menukaart.pdf",
+        "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/de-republiek"
+      ],
+      "sourceIds": [
+        "foodguide",
+        "foodguide2",
+        "repguide",
+        "republiek",
+        "repmenu"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Republic&query_place_id=ChIJmSVc79BQw0cRhmW5RQagLu8",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas; no reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "kosmo",
+      "name": "Kosmopoliet · cena vegetal de temporada",
+      "address": "Hoogstraat 32, 8000 Brugge, Belgium",
+      "description": "Hoogstraat 32, otra cocina para una cena cerca del este y los canales, no opción de almuerzo.",
+      "strength": "Risotto rosa con setas y remolacha amarilla, dal de lenteja roja y verduras o linguine con pesto de albahaca tailandesa.",
+      "caution": "Carta gráfica oficial inspeccionada: risotto 25€, dal 23€, linguine 19-20€, entrantes 13,50€, agua 35 cl 3,50€. Dos platos no incluidos en precio de un principal. Cenas mar-jue 17:30-23(cocina 21), vie/sáb 17:30-23:30(cocina 21:30); dom/lun cerrado. Planta vegetal no sin gluten: seitán/bulgur/ciabatta/pasta en carta, confirmar alérgenos/trazas. Foto guiso vegano ajeno, no receta prometida.",
+      "alert": "Carta gráfica oficial inspeccionada: risotto 25€, dal 23€, linguine 19-20€, entrantes 13,50€, agua 35 cl 3,50€. Dos platos no incluidos en precio de un principal. Cenas mar-jue 17:30-23(cocina 21), vie/sáb 17:30-23:30(cocina 21:30); dom/lun cerrado. Planta vegetal no sin gluten: seitán/bulgur/ciabatta/pasta en carta, confirmar alérgenos/trazas. Foto guiso vegano ajeno, no receta prometida.",
+      "priceLabel": "Principales 19-25€ · bebida aparte",
+      "photo": {
+        "img": "assets/bruges/kosmo.jpg",
+        "source": "https://www.flickr.com/photos/miikkah/2354530528/",
+        "author": "Miikka H",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Guiso vegano ilustrativo de otra cocina; no Kosmopoliet ni su risotto, dal o carta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.kosmopoliet.com/menu",
+      "sourceUrls": [
+        "https://broganabroad.com/bruges-3-day-itinerary/",
+        "https://www.kosmopoliet.com/",
+        "https://www.kosmopoliet.com/menu"
+      ],
+      "sourceIds": [
+        "guide1",
+        "kosmo",
+        "kosmomenu"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kosmopoliet&query_place_id=ChIJ6c-phzFRw0cRnfSe8dkQLmQ",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas; no reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "lizzie",
+      "name": "Lizzie’s Wafels · una merienda grande",
+      "address": "Sint-Jakobsstraat 16, 8000 Brugge, Belgium",
+      "description": "Sint-Jakobsstraat 16, gofre para compartir si apetece, no desayuno diario ni otra comida completa.",
+      "strength": "Gofre casero XL con mantequilla/azúcar y toppings como chocolate, crema o fruta según temporada; chocolate caliente de la casa.",
+      "caution": "Web actual: mié-dom 13-18, lunes/martes cerrado, no 11 h de guía. Admite reservas hasta 10 personas. Precio actual no publicado de forma verificable: consultar carta y total de toppings/bebida antes de pedir. Web tiene código postal 8800 erróneo frente Maps 8000: usar dirección por calle. Gluten/huevo/lácteos según preparación, confirmar alérgenos. Foto gofre ajeno no tamaño exacto.",
+      "alert": "Web actual: mié-dom 13-18, lunes/martes cerrado, no 11 h de guía. Admite reservas hasta 10 personas. Precio actual no publicado de forma verificable: consultar carta y total de toppings/bebida antes de pedir. Web tiene código postal 8800 erróneo frente Maps 8000: usar dirección por calle. Gluten/huevo/lácteos según preparación, confirmar alérgenos. Foto gofre ajeno no tamaño exacto.",
+      "priceLabel": "Gofre XL y bebida · precio actual a confirmar",
+      "photo": {
+        "img": "assets/bruges/lizzie.jpg",
+        "source": "https://www.flickr.com/photos/johnkarakatsanis/4427047004/",
+        "author": "John Karakatsanis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Gofre bruselense ilustrativo de otro establecimiento; no Lizzie’s ni su producto o tamaño actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.lizzieswafflesbrugge.be/",
+      "sourceUrls": [
+        "https://www.lizzieswafflesbrugge.be/",
+        "https://www.brugeswaffleworkshop.com/things-to-do-bruges/where-find-best-waffles-bruges.html"
+      ],
+      "sourceIds": [
+        "waffleguide",
+        "lizzie"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lizzie%27s+Wafels&query_place_id=ChIJqwQ6gNpQw0cRceg1vHKXWsw",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas; no reserva ni apertura futura garantizada."
+    }
+  ],
+  "activities": []
+}

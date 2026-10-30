@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "cityId": "paris",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades verificada en Google Maps el 29/10/2026; no exhaustiva. Variedad de barrio, formato y precio antes que conteo.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "republique",
+      "photo": {
+        "id": "paris-republique",
+        "img": "assets/enrichment/paris-republique.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Boeuf_Bourguignon_Paris_Beaubourg.jpg",
+        "author": "Asamboi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "Foto ilustrativa del plato · no del local"
+      },
+      "name": "Bouillon République",
+      "address": "39 boulevard du Temple · 3.º (junto al Marais)",
+      "description": "El bouillon grande y moderno: clásicos franceses en un local histórico de 1932.",
+      "strength": "Del renacimiento de los bouillons (equipo de Bouillon Pigalle); admite reserva, raro en un bouillon. La guía consultada (doitinparis, 2025) lo describe como opción económica. Encaja con la comida del día 2 (Marais).",
+      "caution": "Muy demandado en hora punta: reservar o ir temprano/tarde. Confirmar carta y horario del día concreto.",
+      "editorialUrl": "https://doitinparis.com/en/best-bouillons-restaurant-paris-25916",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bouillon+R%C3%A9publique&query_place_id=ChIJQ7aZhzNv5kcR2ukcRnOizeQ",
+      "statusCheckedAt": "2026-10-29",
+      "status": "open-at-check",
+      "statusEvidence": "Maps: abierto en el momento de la comprobación (29/10/2026, ~20:23 CET)",
+      "priceLabel": "Bajo para París; consultar carta actual"
+    },
+    {
+      "id": "fallafel",
+      "photo": {
+        "id": "paris-fallafel",
+        "img": "assets/enrichment/paris-fallafel.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Falafel_in_a_pita.jpg",
+        "author": "Israel_photo_gallery",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "caption": "Foto ilustrativa del plato · no del local"
+      },
+      "name": "L'As du Fallafel",
+      "address": "34 rue des Rosiers · 4.º (Marais)",
+      "description": "Falafel al paso en la rue des Rosiers, la calle judía del Marais: formato ventanilla, rápido y distinto de los bistrós.",
+      "strength": "Opción casual y rápida para la mañana del Marais (día 2); formato totalmente distinto a los bistrós.",
+      "caution": "Cola habitual al mediodía; servicio rápido tipo ventanilla. Cierre semanal habitual el sábado: confirmar día concreto.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=L%27As+du+Fallafel&query_place_id=ChIJL5QZXQJu5kcRwsTfM6YEA3E",
+      "statusCheckedAt": "2026-10-29",
+      "status": "open-at-check",
+      "statusEvidence": "Maps: abierto en el momento de la comprobación (29/10/2026, ~20:23 CET)",
+      "priceLabel": "Consultar carta actual"
+    },
+    {
+      "id": "breizh",
+      "photo": {
+        "id": "paris-breizh",
+        "img": "assets/enrichment/paris-breizh.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Galette-based_gratin,_in_Lannion_restaurant_(89492).jpg",
+        "author": "Syced",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "caption": "Foto ilustrativa del plato · no del local"
+      },
+      "name": "Breizh Café",
+      "address": "109 rue Vieille du Temple · 3.º (Marais)",
+      "description": "Galettes de trigo sarraceno y producto breton en formato café moderno.",
+      "strength": "Alternativa ligera y distinta (crepería de calidad) dentro del Marais; también desayuno.",
+      "caution": "Local pequeño con espera en brunch de fin de semana; confirmar horario del día concreto.",
+      "officialUrl": "https://breizhcafe.com",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Breizh+Caf%C3%A9&query_place_id=ChIJly1xVgFu5kcRoruGNAxdAyY",
+      "statusCheckedAt": "2026-10-29",
+      "status": "open-at-check",
+      "statusEvidence": "Maps: abierto en el momento de la comprobación (29/10/2026, ~20:23 CET)",
+      "priceLabel": "Medio; consultar carta actual"
+    },
+    {
+      "id": "janou",
+      "photo": {
+        "id": "paris-janou",
+        "img": "assets/enrichment/paris-janou.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Ratatouille,_Mazatl%C3%A1n,_21_de_junio_de_2023.jpg",
+        "author": "El Nuevo Doge",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "caption": "Foto ilustrativa del plato · no del local"
+      },
+      "name": "Chez Janou",
+      "address": "2 rue Roger Verlomme · 3.º (junto a Place des Vosges)",
+      "description": "Bistró provenzal animado junto a la plaza, con cocina del sur de Francia.",
+      "strength": "Bistró de barrio con cocina del sur, distinto del formato bouillon; cena del día 2 cerca del plan.",
+      "caution": "Reserva recomendable para cena; ambiente ruidoso y mesas juntas, parte de su carácter. Confirmar servicio del día.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chez+Janou&query_place_id=ChIJaXXlBgBu5kcRzeSQ0Um9YSg",
+      "statusCheckedAt": "2026-10-29",
+      "status": "open-at-check",
+      "statusEvidence": "Maps: abierto en el momento de la comprobación (29/10/2026, ~20:23 CET)",
+      "priceLabel": "Medio; consultar carta actual"
+    },
+    {
+      "id": "racine",
+      "photo": {
+        "id": "paris-racine",
+        "img": "assets/enrichment/paris-racine.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Escargot_%C3%A0_la_Bourguignonne_-_eatingeast.jpg",
+        "author": "eatingeast",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "caption": "Foto ilustrativa del plato · no del local"
+      },
+      "name": "Bouillon Racine",
+      "address": "3 rue Racine · 6.º (junto al Barrio Latino)",
+      "description": "Bouillon histórico con interior modernista; cocina clásica francesa.",
+      "strength": "Encaja con el día 1 (Barrio Latino/Luxemburgo); el comedor es visita en sí mismo.",
+      "caution": "Precio algo mayor que otros bouillons por el local histórico; reservar en fin de semana. Confirmar horario del día.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bouillon+Racine&query_place_id=ChIJofo-3ypx5kcR6jC1qWRBRgg",
+      "statusCheckedAt": "2026-10-29",
+      "status": "open-at-check",
+      "statusEvidence": "Maps: abierto en el momento de la comprobación (29/10/2026, ~20:23 CET)",
+      "priceLabel": "Medio; consultar carta actual"
+    },
+    {
+      "id": "pigalle",
+      "photo": {
+        "id": "paris-pigalle",
+        "img": "assets/enrichment/paris-pigalle.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Rock_Sea%27s_steak_frites_-_February_2023_-_Sarah_Stierch_08.jpg",
+        "author": "Missvain",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "caption": "Foto ilustrativa del plato · no del local"
+      },
+      "name": "Bouillon Pigalle",
+      "address": "22 boulevard de Clichy · 18.º (a los pies de Montmartre)",
+      "description": "El bouillon que reabrió la fiebre en 2017: clásicos franceses y terraza grande.",
+      "strength": "Cierre natural del día 2 tras Montmartre al atardecer; precios contenidos según la guía consultada y servicio continuo.",
+      "editorialUrl": "https://doitinparis.com/en/best-bouillons-restaurant-paris-25916",
+      "caution": "Colas en hora de cena; ahora admite reserva. Confirmar horario del día concreto.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bouillon+Pigalle&query_place_id=ChIJVb7Sx0Vu5kcR5gDcYjssPWw",
+      "statusCheckedAt": "2026-10-29",
+      "status": "open-at-check",
+      "statusEvidence": "Maps: abierto en el momento de la comprobación (29/10/2026, ~20:23 CET)",
+      "priceLabel": "Bajo para París; consultar carta actual"
+    },
+    {
+      "id": "chartier",
+      "photo": {
+        "id": "paris-chartier",
+        "img": "assets/enrichment/paris-chartier.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Brasserie_Georges_(Lyon)_-_Oeufs_en_gel%C3%A9e_1_(nov_2022).jpg",
+        "author": "Sebleouf",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "Foto ilustrativa del plato · no del local"
+      },
+      "name": "Bouillon Chartier",
+      "address": "7 rue du Faubourg Montmartre · 9.º (Grands Boulevards)",
+      "description": "El bouillon original de 1896 con comedor clasificado como monumento histórico.",
+      "strength": "El clásico absoluto; encaja con la idea de pasajes cubiertos y Ópera («Más ideas»).",
+      "editorialUrl": "https://doitinparis.com/en/best-bouillons-restaurant-paris-25916",
+      "caution": "Sin reserva y con cola frecuente; servicio continuo 11:30-00:00 según la guía consultada: confirmar horario actual.",
+      "officialUrl": "https://www.bouillon-chartier.com",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bouillon+Chartier+Grands+Boulevards&query_place_id=ChIJ4xutfT5u5kcRaJn2NkiOhPU",
+      "statusCheckedAt": "2026-10-29",
+      "status": "open-at-check",
+      "statusEvidence": "Maps: abierto en el momento de la comprobación (29/10/2026, ~20:23 CET)",
+      "priceLabel": "Bajo para París; consultar carta actual"
+    },
+    {
+      "id": "cocottes",
+      "photo": {
+        "id": "paris-cocottes",
+        "img": "assets/enrichment/paris-cocottes.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Bowl_of_cassoulet.JPG",
+        "author": "BrokenSphere",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "Foto ilustrativa del plato · no del local"
+      },
+      "name": "Les Cocottes",
+      "address": "135 rue Saint-Dominique · 7.º (zona Eiffel)",
+      "description": "Cocina de bistró servida en cocottes de hierro, concepto de Christian Constant.",
+      "strength": "Opción de calidad cerca de la torre para el día 3, donde abundan los trampas para turistas.",
+      "caution": "Sin reserva y local estrecho con barra; confirmar horario del día concreto.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Les+Cocottes&query_place_id=ChIJU5JgmN9v5kcRPHf9BJWJqZs",
+      "statusCheckedAt": "2026-10-29",
+      "status": "open-at-check",
+      "statusEvidence": "Maps: abierto en el momento de la comprobación (29/10/2026, ~20:23 CET)",
+      "priceLabel": "Medio; consultar carta actual"
+    }
+  ],
+  "activities": [
+    {
+      "id": "batobus",
+      "photo": {
+        "id": "paris-batobus",
+        "img": "assets/enrichment/paris-batobus.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Batobus_Paris_boat_near_the_Pont_Louis-Phillippe_-_Odeon.jpg",
+        "author": "Elliott Brown",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "caption": "A Batobus Paris boat near the Pont Louis-Phillippe - Odeon"
+      },
+      "name": "Batobus por el Sena",
+      "description": "Barco lanzadera con paradas junto a los grandes puntos (torre, Orsay, Notre-Dame); sirve como descanso y como traslado escénico.",
+      "duration": "Medio día si se usa como lanzadera; 1 h el recorrido corto",
+      "caution": "Servicio estacional y frecuencias variables: confirmar calendario del día concreto en la web oficial. No confundir con los cruceros con comida.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Batobus+-+Station+Notre-Dame&query_place_id=ChIJwY5V4uNx5kcRiP9vHmQEGiw",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: estación de Notre-Dame localizada y operativa como negocio (29/10/2026)",
+      "priceLabel": "Pase diario de pago; consultar tarifa actual",
+      "alert": "Confirmar horario y paradas operativas el día elegido; cambian por temporada."
+    },
+    {
+      "id": "enfantsrouges",
+      "photo": {
+        "img": "assets/enrichment/paris-enfantsrouges.jpg",
+        "source": "https://www.flickr.com/photos/skellysf/48795427858/",
+        "author": "Stephen Kelly",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Fachada real del mercado, foto de archivo; no muestra puestos ni platos actuales. Recorte de presentación."
+      },
+      "name": "Marché des Enfants Rouges",
+      "description": "El mercado cubierto más antiguo de París (1615) en el Marais, con puestos de comida del mundo.",
+      "duration": "1-2 h con comida informal",
+      "caution": "Mercado de mañana y mediodía; muchos puestos cierran por la noche y lunes: comprobar horario del día.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=March%C3%A9+couvert+des+Enfants+Rouges&query_place_id=ChIJF4z0gwZu5kcRmxOUEU2R8Iw",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: mercado localizado (29/10/2026); horario no comprobado en detalle",
+      "priceLabel": "Gratis entrar; comida informal de pago",
+      "alert": "Encaja con la mañana del Marais (día 2), no con la tarde: cierra pronto."
+    },
+    {
+      "id": "catacumbas",
+      "photo": {
+        "id": "paris-catacumbas",
+        "img": "assets/enrichment/paris-catacumbas.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Catacombes_de_Paris_(21850419154).jpg",
+        "author": "Jorge Láscar from Melbourne, Australia",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "caption": "Catacombes de Paris (21850419154)"
+      },
+      "name": "Catacumbas de París",
+      "description": "Los osarios históricos bajo la ciudad; visita interior con franja horaria.",
+      "duration": "Unas 1,5 h",
+      "caution": "Entrada con franja horaria que se agota: reservar con antelación. Escaleras y galerías estrechas; no apto con movilidad reducida o claustrofobia.",
+      "officialUrl": "https://www.catacombes.paris.fr",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Catacombs+of+Paris&query_place_id=ChIJdbbQwbZx5kcRs7Qu5nPw18g",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: abierto en el momento de la comprobación (29/10/2026, ~20:23 CET)",
+      "priceLabel": "De pago con franja; consultar tarifa actual",
+      "alert": "Exige franja propia: no sumarlo a un día con Louvre u Orsay sin contar el tiempo."
+    },
+    {
+      "id": "lumieres",
+      "photo": {
+        "id": "paris-lumieres",
+        "img": "assets/enrichment/paris-lumieres.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Atelier_des_Lumi%C3%A8res_-_Tintin_-_01.jpg",
+        "author": "DarDarCH",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "Atelier des Lumières - Tintin - 01"
+      },
+      "name": "Atelier des Lumières",
+      "description": "Exposiciones inmersivas de arte proyectado en una antigua fundición del distrito 11.",
+      "duration": "1-1,5 h",
+      "caution": "Programación por exposición con fechas concretas: confirmar qué muestra hay en las fechas del viaje y reservar franja.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Atelier+des+Lumi%C3%A8res&query_place_id=ChIJZZTY3PBt5kcR6jdmzirZ-eY",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: localizado; cerrado a la hora de la comprobación (29/10/2026, ~20:23 CET), horario por confirmar",
+      "priceLabel": "De pago con franja; consultar tarifa actual",
+      "alert": "La exposición cambia: verificar la programación vigente antes de prometerlo."
+    }
+  ]
+}

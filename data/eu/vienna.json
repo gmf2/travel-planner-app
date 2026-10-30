@@ -1,0 +1,996 @@
+{
+  "schemaVersion": 1,
+  "country": "AT",
+  "id": "vienna",
+  "name": "Viena",
+  "localName": "Wien",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita de 1-3 días, sin fecha ni reservas. Un museo o palacio principal por jornada; transporte para Schönbrunn y pausas de comida.",
+  "stops": [
+    {
+      "id": "stephansdom",
+      "name": "Stephansdom · plaza y catedral",
+      "kind": "visit",
+      "zone": "Innere Stadt",
+      "reason": "La silueta de la catedral y su tejado como inicio del centro histórico.",
+      "sourceIds": [
+        "wien",
+        "austria"
+      ],
+      "coordinates": {
+        "lat": 48.2084114,
+        "lon": 16.3734707
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=St.+Stephen%27s+Cathedral&query_place_id=ChIJz-w_Ip8HbUcRWTHc-vNXlxc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "El plan no incluye torres, catacumbas ni visita turística completa. Culto y actos pueden limitar entrada; no confundir zona de oración con acceso a todo el edificio.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/vienna/stephansdom.jpg",
+        "source": "https://www.flickr.com/photos/clairegribbin/4552854074/",
+        "author": "Claire Gribbin",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza y exterior; breve acceso religioso si se permite"
+    },
+    {
+      "id": "graben",
+      "name": "Graben y Kohlmarkt",
+      "kind": "visit",
+      "zone": "Innere Stadt",
+      "reason": "Calles peatonales y fachadas para llegar a Hofburg sin otro interior largo.",
+      "sourceIds": [
+        "wien",
+        "cure"
+      ],
+      "coordinates": {
+        "lat": 48.2086775,
+        "lon": 16.36974
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Graben&query_place_id=ChIJs1Pb7ZgHbUcRfv7j60cs6mM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Comercios tienen horarios propios. El paseo no depende de que abran; no prometer mercados o decoraciones navideñas sin fechas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/vienna/graben.jpg",
+        "source": "https://www.flickr.com/photos/29561984@N06/39272252072/",
+        "author": "Vernaccia",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "hofburg",
+      "name": "Hofburg · Michaelerplatz y Heldenplatz",
+      "kind": "visit",
+      "zone": "Hofburg",
+      "reason": "Fachadas y plazas del conjunto imperial antes del museo de arte.",
+      "sourceIds": [
+        "wien",
+        "cure"
+      ],
+      "coordinates": {
+        "lat": 48.2081817,
+        "lon": 16.3666378
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Michaelerplatz&query_place_id=ChIJM8M9sJkHbUcRPolbBKe5maU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "El conjunto contiene instituciones y entradas distintas. Sisi o biblioteca requieren cambiar la visita principal del día, no sumarlas al KHM. Pasos y patios sujetos a actos y seguridad.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/vienna/hofburg.jpg",
+        "source": "https://www.flickr.com/photos/somkuti/54519402718/",
+        "author": "Sandor Somkuti",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Fachada de Hofburg en Michaelerplatz, foto de archivo; no incluye Museo Sisi. Recorte de presentación."
+      },
+      "visitMode": "Exteriores; Museo Sisi y Escuela Española no incluidos"
+    },
+    {
+      "id": "khm",
+      "name": "Kunsthistorisches Museum · KHM",
+      "kind": "visit",
+      "zone": "Maria-Theresien-Platz",
+      "reason": "Pintura y colecciones imperiales como única visita de museo larga de la jornada.",
+      "sourceIds": [
+        "khm",
+        "wien"
+      ],
+      "coordinates": {
+        "lat": 48.2038016,
+        "lon": 16.3617874
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Kunsthistorisches+Museum+Wien&query_place_id=ChIJ8XfPY5oHbUcRQbimbLVSYG8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "Web actual: diario 10-18, jueves hasta 21; desalojan salas 15 min antes. Adulto 22 € online / 24 € taquilla publicados. Entrada con franja desde septiembre de 2026: elegir fecha y hora oficial, no hay reserva hecha. FAQ antiguo conserva referencia a lunes cerrados: verificar calendario concreto, no aplicar ese cierre por defecto.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/vienna/khm.jpg",
+        "source": "https://www.flickr.com/photos/dalecruse/45246379304/",
+        "author": "Dale Cruse - 12M views",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago; visita principal del día"
+    },
+    {
+      "id": "mq",
+      "name": "MuseumsQuartier · patios",
+      "kind": "visit",
+      "zone": "Neubau",
+      "reason": "Patios y un descanso tras el KHM, sin añadir Leopold ni mumok.",
+      "sourceIds": [
+        "wien",
+        "austria"
+      ],
+      "coordinates": {
+        "lat": 48.2033369,
+        "lon": 16.3586166
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=MuseumsQuartier+Wien&query_place_id=ChIJ30_rPpAHbUcR_-tB67Mp1JQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "No es una entrada a las colecciones del barrio. Eventos o cierres pueden limitar patios; acortar con mal tiempo y guardar tiempo para café.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/vienna/mq.jpg",
+        "source": "https://www.flickr.com/photos/alex-photos/6379118295/",
+        "author": "alex.ch",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Pausa exterior; museos aparte"
+    },
+    {
+      "id": "schonbrunn",
+      "name": "Schönbrunn · Palace Ticket",
+      "kind": "visit",
+      "zone": "Schönbrunn",
+      "reason": "Salas del palacio en una jornada propia, con tiempo para llegar y pasear.",
+      "sourceIds": [
+        "schonticket",
+        "schonhours"
+      ],
+      "coordinates": {
+        "lat": 48.1858124,
+        "lon": 16.3127641
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Sch%C3%B6nbrunn+Palace&query_place_id=ChIJv3zAHAmobUcRyYvq5F26aU4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Palace Ticket 42 € adulto publicado; State Apartments es otro recorrido más corto. Comprar franja oficial si se elige entrar, no hay entrada comprada. 3/11/2026-31/3/2027: 8:30-17, con excepciones de diciembre; última entrada 45 min antes. Revisar día y tarifa futura. No incluir zoo, laberinto ni jardines especiales dentro de ese precio.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/vienna/schonbrunn.jpg",
+        "source": "https://www.flickr.com/photos/jodastephen/20409943323/",
+        "author": "Stephen Colebourne",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Palacio visto desde los jardines, foto de archivo; no es una imagen del interior del Palace Ticket. Recorte de presentación."
+      },
+      "visitMode": "Interior de pago; franja fija, unos 75 min de recorrido"
+    },
+    {
+      "id": "gloriette",
+      "name": "Parque de Schönbrunn y Gloriette exterior",
+      "kind": "visit",
+      "zone": "Schönbrunn",
+      "reason": "Jardines y subida opcional a la colina, con pausa y vistas del palacio.",
+      "sourceIds": [
+        "schongarden",
+        "schonhours"
+      ],
+      "coordinates": {
+        "lat": 48.1782686,
+        "lon": 16.3087421
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Gloriette+Sch%C3%B6nbrunn&query_place_id=ChIJtyTF8lqpbUcRgncv_koB670",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Parque abre 6:30; noviembre-febrero cierra 17:30, otros meses varía. Sectores especiales y terraza de Gloriette son de pago aparte. Maps estima 1,16 km / 18 min sólo de ida entre palacio y Gloriette, con escaleras: reservar más por pendiente y regreso; no es ruta accesible verificada. Se puede quedar en la zona baja. No se permiten perros.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/vienna/gloriette.jpg",
+        "source": "https://www.flickr.com/photos/michaelpollak/27342030623/",
+        "author": "Michael Pollak",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Exterior de la Gloriette, foto de archivo; terraza de pago no incluida. Recorte de presentación."
+      },
+      "visitMode": "Parque general gratuito; colina según fuerzas y tiempo"
+    },
+    {
+      "id": "belvedere",
+      "name": "Belvedere Superior · colección de arte",
+      "kind": "visit",
+      "zone": "Landstraße",
+      "reason": "Arte y Klimt como visita principal de la tercera jornada.",
+      "sourceIds": [
+        "belvedere",
+        "belvederefaq"
+      ],
+      "coordinates": {
+        "lat": 48.19147510000001,
+        "lon": 16.3809322
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Belvedere+Palace&query_place_id=ChIJpZ4LAn0HbUcRB3aToFL8ZUo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Belvedere Superior, no Inferior ni Belvedere 21. Tarifa del día 23 € adulto publicada; diario 9-18. La franja se elige online o en taquilla y puede agotarse; no hay reserva. La duración dentro no queda limitada por esa franja. Exposiciones, obras expuestas y horarios pueden cambiar.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/vienna/belvedere.jpg",
+        "source": "https://www.flickr.com/photos/kurt-b/15099729776/",
+        "author": "Kurayba",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago; franja obligatoria al comprar"
+    },
+    {
+      "id": "karlskirche",
+      "name": "Karlskirche y Karlsplatz",
+      "kind": "visit",
+      "zone": "Wieden",
+      "reason": "Fachada barroca y plaza como pausa entre Belvedere y mercado.",
+      "sourceIds": [
+        "wien",
+        "cure"
+      ],
+      "coordinates": {
+        "lat": 48.1985626,
+        "lon": 16.3716999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=St.+Charles%27s+Church&query_place_id=ChIJx2oWgoIHbUcRMvVm3Lylq84",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "No se incluye entrada, ascensor, concierto ni programa diario. Si se quiere un concierto hay que comprobar fecha y comprar aparte; no se promete actuación.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/vienna/karlskirche.jpg",
+        "source": "https://www.flickr.com/photos/somkuti/52220911055/",
+        "author": "Sandor Somkuti",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior; iglesia y mirador aparte"
+    },
+    {
+      "id": "market",
+      "name": "Naschmarkt · paseo y comida",
+      "kind": "visit",
+      "zone": "Naschmarkt",
+      "reason": "Puestos y restaurantes para terminar con tiempo a comer y sentarse.",
+      "sourceIds": [
+        "market",
+        "wien"
+      ],
+      "coordinates": {
+        "lat": 48.1986178,
+        "lon": 16.3636494
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Naschmarkt&query_place_id=ChIJUwyiX4QHbUcRvmyFdrjAugU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Horarios municipales son máximos, no apertura de cada puesto: lun-vie 6-21, sábado 6-18. Domingo no es una jornada normal de puestos; algunos restaurantes sí abren. Si se busca mercado, mover esta jornada a día hábil; en domingo elegir comida confirmada sin prometer puestos. El mercadillo tiene su propio calendario.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/vienna/market.jpg",
+        "source": "https://www.flickr.com/photos/somkuti/34239750970/",
+        "author": "Sandor Somkuti",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo de mercado; compra y comida aparte"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Primer día en el centro de Viena",
+          "zone": "Stephansdom → Graben → Hofburg → KHM",
+          "stopIds": [
+            "stephansdom",
+            "graben",
+            "hofburg",
+            "khm"
+          ],
+          "editorialNote": "Centro a pie y un museo principal. No intentar Schönbrunn y Belvedere el mismo día. Si se prefiere Sisi, sustituir KHM tras verificar billete.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y museo, estimación editorial."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Centro imperial y una gran colección",
+          "zone": "Stephansdom → Graben → Hofburg → KHM → MQ",
+          "stopIds": [
+            "stephansdom",
+            "graben",
+            "hofburg",
+            "khm",
+            "mq"
+          ],
+          "editorialNote": "KHM es el único museo largo. Sisi y biblioteca son sustituciones, no visitas añadidas al mismo día. Dejar una pausa para comer antes del museo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-8 h con museo, comida y pausas, estimación editorial. Maps: Graben→Michaelerplatz 340 m / 4 min; de allí a KHM 868 m / 12 min, y a MQ 367 m / 5 min, sólo enlaces y sin visitas."
+        },
+        {
+          "title": "Schönbrunn sin correr",
+          "zone": "Palacio → parque → Gloriette exterior",
+          "stopIds": [
+            "schonbrunn",
+            "gloriette"
+          ],
+          "editorialNote": "Una jornada para el conjunto y la llegada desde el centro. La colina es opcional dentro del paseo: con lluvia, hielo o poca energía, quedarse abajo y terminar antes.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-7 h con transporte, franja, parque y comida, estimación. Muestra Maps Karlsplatz→Schönbrunn 19 min en transporte el 30/10 a las 9; sumar espera, accesos y vuelta. No es horario garantizado para otra fecha."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Centro imperial y una gran colección",
+          "zone": "Stephansdom → Graben → Hofburg → KHM → MQ",
+          "stopIds": [
+            "stephansdom",
+            "graben",
+            "hofburg",
+            "khm",
+            "mq"
+          ],
+          "editorialNote": "KHM es el único museo largo. Sisi y biblioteca son sustituciones, no visitas añadidas al mismo día. Dejar una pausa para comer antes del museo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-8 h con museo, comida y pausas, estimación editorial. Maps: Graben→Michaelerplatz 340 m / 4 min; de allí a KHM 868 m / 12 min, y a MQ 367 m / 5 min, sólo enlaces y sin visitas."
+        },
+        {
+          "title": "Schönbrunn sin correr",
+          "zone": "Palacio → parque → Gloriette exterior",
+          "stopIds": [
+            "schonbrunn",
+            "gloriette"
+          ],
+          "editorialNote": "Una jornada para el conjunto y la llegada desde el centro. La colina es opcional dentro del paseo: con lluvia, hielo o poca energía, quedarse abajo y terminar antes.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-7 h con transporte, franja, parque y comida, estimación. Muestra Maps Karlsplatz→Schönbrunn 19 min en transporte el 30/10 a las 9; sumar espera, accesos y vuelta. No es horario garantizado para otra fecha."
+        },
+        {
+          "title": "Arte, Karlsplatz y Naschmarkt",
+          "zone": "Belvedere Superior → Karlskirche → Naschmarkt",
+          "stopIds": [
+            "belvedere",
+            "karlskirche",
+            "market"
+          ],
+          "editorialNote": "Belvedere es la visita larga. Después sólo exteriores y comida, sin otro palacio, museo o excursión. Domingo cambiar orden si se quieren ver puestos del mercado.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-7 h con arte, comida y pausas, estimación. Maps: Belvedere→Karlskirche 1,17 km / 15 min; Karlskirche→Naschmarkt 718 m / 10 min, más recorridos dentro del museo y mercado."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Calor en el parque: agua y sombra. Sperl cierra domingos de julio y agosto. No añadir zoo tras el palacio por defecto.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Poca luz y posible hielo: parque de día, Gloriette prescindible si resbala, pausa cubierta y abrigo. No depender de jardines especiales.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Consultar 24-26/12, 31/12 y 1/1 por museo y restaurante. No asumir mercadillos ni horarios ordinarios; entradas con franja siguen sujetas a disponibilidad.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Parque y luz cambian por mes. Revisar horario exacto de palacio, lluvia y sectores de pago; no convertir un pase de verano en entrada de invierno.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No hay reservas ni entradas compradas. KHM, Schönbrunn y Belvedere requieren elegir su modalidad y franja vigente.",
+    "Naschmarkt en domingo no equivale a puestos abiertos; cambiar orden si el mercado es prioritario."
+  ],
+  "excludedOrOptional": [
+    "Museo Sisi y biblioteca son alternativas al KHM, no interiores añadidos.",
+    "Prater, zoo, Belvedere Inferior y excursiones no rellenan el tercer día.",
+    "Ópera y conciertos necesitan programa y entrada propios: no se promete actuación ni visita diaria."
+  ],
+  "sources": [
+    {
+      "id": "wien",
+      "title": "Viena en tres días · turismo",
+      "url": "https://www.wien.info/en/recommendations/vienna-in-three-days",
+      "type": "tourism-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "austria",
+      "title": "Austria: Viena en tres días",
+      "url": "https://www.austria.info/de-at/highlights/wien-in-3-tagen/",
+      "type": "tourism-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "cure",
+      "title": "Geographical Cure: tres días",
+      "url": "https://www.thegeographicalcure.com/post/the-perfect-3-day-itinerary-for-vienna",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "khm",
+      "title": "KHM: visita y entradas",
+      "url": "https://www.khm.at/en/visit",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "belvedere",
+      "title": "Belvedere Superior: visita",
+      "url": "https://www.belvedere.at/en/visit/upper-belvedere",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "belvederefaq",
+      "title": "Belvedere: franjas de entrada",
+      "url": "https://www.belvedere.at/en/faq",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "schonticket",
+      "title": "Schönbrunn: modalidades y tarifas",
+      "url": "https://www.schoenbrunn.at/en/tickets-and-prices/all-tickets-tours",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "schonhours",
+      "title": "Schönbrunn: horarios",
+      "url": "https://www.schoenbrunn.at/en/visitor-information/opening-times",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "schongarden",
+      "title": "Schönbrunn: jardines",
+      "url": "https://www.schoenbrunn.at/en/about-schoenbrunn/gardens",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "market",
+      "title": "Ayuntamiento: Naschmarkt",
+      "url": "https://www.wien.gv.at/freizeit/naschmarkt",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "olive",
+      "title": "Olive: dónde comer en Viena",
+      "url": "https://www.olivemagazine.com/travel/europe/vienna-restaurants-places-to-eat/",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "mint",
+      "title": "Mint Austria: dónde comer",
+      "url": "https://mintaustria.com/en/guides/where-to-eat-in-vienna",
+      "type": "local-food-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "poschl",
+      "title": "Pöschl: carta oficial",
+      "url": "https://www.gasthauspoeschl.com/speisekarten/speisekarte.pdf",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "trzes",
+      "title": "Trzesniewski: Dorotheergasse",
+      "url": "https://www.trzesniewski.at/filialen/dorotheergasse",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "neni",
+      "title": "NENI Naschmarkt",
+      "url": "https://nenifood.com/restaurants/naschmarkt/?lang=en",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "nenimenu",
+      "title": "NENI: carta enlazada por el local",
+      "url": "https://yumzi.app/en/neni-naschmarkt?source=qr",
+      "type": "official-linked-menu",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "sperl",
+      "title": "Sperl: carta",
+      "url": "https://www.cafesperl.at/en/menu",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "sperlhours",
+      "title": "Sperl: contacto y horarios",
+      "url": "https://www.cafesperl.at/en/contact",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Primer día en el centro de Viena",
+            "zone": "Stephansdom → Graben → Hofburg → KHM",
+            "stopIds": [
+              "stephansdom",
+              "graben",
+              "hofburg",
+              "khm"
+            ],
+            "editorialNote": "Centro a pie y un museo principal. No intentar Schönbrunn y Belvedere el mismo día. Si se prefiere Sisi, sustituir KHM tras verificar billete.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y museo, estimación editorial."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro imperial y una gran colección",
+            "zone": "Stephansdom → Graben → Hofburg → KHM → MQ",
+            "stopIds": [
+              "stephansdom",
+              "graben",
+              "hofburg",
+              "khm",
+              "mq"
+            ],
+            "editorialNote": "KHM es el único museo largo. Sisi y biblioteca son sustituciones, no visitas añadidas al mismo día. Dejar una pausa para comer antes del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con museo, comida y pausas, estimación editorial. Maps: Graben→Michaelerplatz 340 m / 4 min; de allí a KHM 868 m / 12 min, y a MQ 367 m / 5 min, sólo enlaces y sin visitas."
+          },
+          {
+            "title": "Schönbrunn sin correr",
+            "zone": "Palacio → parque → Gloriette exterior",
+            "stopIds": [
+              "schonbrunn",
+              "gloriette"
+            ],
+            "editorialNote": "Una jornada para el conjunto y la llegada desde el centro. La colina es opcional dentro del paseo: con lluvia, hielo o poca energía, quedarse abajo y terminar antes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con transporte, franja, parque y comida, estimación. Muestra Maps Karlsplatz→Schönbrunn 19 min en transporte el 30/10 a las 9; sumar espera, accesos y vuelta. No es horario garantizado para otra fecha."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro imperial y una gran colección",
+            "zone": "Stephansdom → Graben → Hofburg → KHM → MQ",
+            "stopIds": [
+              "stephansdom",
+              "graben",
+              "hofburg",
+              "khm",
+              "mq"
+            ],
+            "editorialNote": "KHM es el único museo largo. Sisi y biblioteca son sustituciones, no visitas añadidas al mismo día. Dejar una pausa para comer antes del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con museo, comida y pausas, estimación editorial. Maps: Graben→Michaelerplatz 340 m / 4 min; de allí a KHM 868 m / 12 min, y a MQ 367 m / 5 min, sólo enlaces y sin visitas."
+          },
+          {
+            "title": "Schönbrunn sin correr",
+            "zone": "Palacio → parque → Gloriette exterior",
+            "stopIds": [
+              "schonbrunn",
+              "gloriette"
+            ],
+            "editorialNote": "Una jornada para el conjunto y la llegada desde el centro. La colina es opcional dentro del paseo: con lluvia, hielo o poca energía, quedarse abajo y terminar antes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con transporte, franja, parque y comida, estimación. Muestra Maps Karlsplatz→Schönbrunn 19 min en transporte el 30/10 a las 9; sumar espera, accesos y vuelta. No es horario garantizado para otra fecha."
+          },
+          {
+            "title": "Arte, Karlsplatz y Naschmarkt",
+            "zone": "Belvedere Superior → Karlskirche → Naschmarkt",
+            "stopIds": [
+              "belvedere",
+              "karlskirche",
+              "market"
+            ],
+            "editorialNote": "Belvedere es la visita larga. Después sólo exteriores y comida, sin otro palacio, museo o excursión. Domingo cambiar orden si se quieren ver puestos del mercado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con arte, comida y pausas, estimación. Maps: Belvedere→Karlskirche 1,17 km / 15 min; Karlskirche→Naschmarkt 718 m / 10 min, más recorridos dentro del museo y mercado."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Primer día en el centro de Viena",
+            "zone": "Stephansdom → Graben → Hofburg → KHM",
+            "stopIds": [
+              "stephansdom",
+              "graben",
+              "hofburg",
+              "khm"
+            ],
+            "editorialNote": "Centro a pie y un museo principal. No intentar Schönbrunn y Belvedere el mismo día. Si se prefiere Sisi, sustituir KHM tras verificar billete.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y museo, estimación editorial."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro imperial y una gran colección",
+            "zone": "Stephansdom → Graben → Hofburg → KHM → MQ",
+            "stopIds": [
+              "stephansdom",
+              "graben",
+              "hofburg",
+              "khm",
+              "mq"
+            ],
+            "editorialNote": "KHM es el único museo largo. Sisi y biblioteca son sustituciones, no visitas añadidas al mismo día. Dejar una pausa para comer antes del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con museo, comida y pausas, estimación editorial. Maps: Graben→Michaelerplatz 340 m / 4 min; de allí a KHM 868 m / 12 min, y a MQ 367 m / 5 min, sólo enlaces y sin visitas."
+          },
+          {
+            "title": "Schönbrunn sin correr",
+            "zone": "Palacio → parque → Gloriette exterior",
+            "stopIds": [
+              "schonbrunn",
+              "gloriette"
+            ],
+            "editorialNote": "Una jornada para el conjunto y la llegada desde el centro. La colina es opcional dentro del paseo: con lluvia, hielo o poca energía, quedarse abajo y terminar antes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con transporte, franja, parque y comida, estimación. Muestra Maps Karlsplatz→Schönbrunn 19 min en transporte el 30/10 a las 9; sumar espera, accesos y vuelta. No es horario garantizado para otra fecha."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro imperial y una gran colección",
+            "zone": "Stephansdom → Graben → Hofburg → KHM → MQ",
+            "stopIds": [
+              "stephansdom",
+              "graben",
+              "hofburg",
+              "khm",
+              "mq"
+            ],
+            "editorialNote": "KHM es el único museo largo. Sisi y biblioteca son sustituciones, no visitas añadidas al mismo día. Dejar una pausa para comer antes del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con museo, comida y pausas, estimación editorial. Maps: Graben→Michaelerplatz 340 m / 4 min; de allí a KHM 868 m / 12 min, y a MQ 367 m / 5 min, sólo enlaces y sin visitas."
+          },
+          {
+            "title": "Schönbrunn sin correr",
+            "zone": "Palacio → parque → Gloriette exterior",
+            "stopIds": [
+              "schonbrunn",
+              "gloriette"
+            ],
+            "editorialNote": "Una jornada para el conjunto y la llegada desde el centro. La colina es opcional dentro del paseo: con lluvia, hielo o poca energía, quedarse abajo y terminar antes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con transporte, franja, parque y comida, estimación. Muestra Maps Karlsplatz→Schönbrunn 19 min en transporte el 30/10 a las 9; sumar espera, accesos y vuelta. No es horario garantizado para otra fecha."
+          },
+          {
+            "title": "Arte, Karlsplatz y Naschmarkt",
+            "zone": "Belvedere Superior → Karlskirche → Naschmarkt",
+            "stopIds": [
+              "belvedere",
+              "karlskirche",
+              "market"
+            ],
+            "editorialNote": "Belvedere es la visita larga. Después sólo exteriores y comida, sin otro palacio, museo o excursión. Domingo cambiar orden si se quieren ver puestos del mercado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con arte, comida y pausas, estimación. Maps: Belvedere→Karlskirche 1,17 km / 15 min; Karlskirche→Naschmarkt 718 m / 10 min, más recorridos dentro del museo y mercado."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Primer día en el centro de Viena",
+            "zone": "Stephansdom → Graben → Hofburg → KHM",
+            "stopIds": [
+              "stephansdom",
+              "graben",
+              "hofburg",
+              "khm"
+            ],
+            "editorialNote": "Centro a pie y un museo principal. No intentar Schönbrunn y Belvedere el mismo día. Si se prefiere Sisi, sustituir KHM tras verificar billete.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y museo, estimación editorial."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro imperial y una gran colección",
+            "zone": "Stephansdom → Graben → Hofburg → KHM → MQ",
+            "stopIds": [
+              "stephansdom",
+              "graben",
+              "hofburg",
+              "khm",
+              "mq"
+            ],
+            "editorialNote": "KHM es el único museo largo. Sisi y biblioteca son sustituciones, no visitas añadidas al mismo día. Dejar una pausa para comer antes del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con museo, comida y pausas, estimación editorial. Maps: Graben→Michaelerplatz 340 m / 4 min; de allí a KHM 868 m / 12 min, y a MQ 367 m / 5 min, sólo enlaces y sin visitas."
+          },
+          {
+            "title": "Schönbrunn sin correr",
+            "zone": "Palacio → parque → Gloriette exterior",
+            "stopIds": [
+              "schonbrunn",
+              "gloriette"
+            ],
+            "editorialNote": "Una jornada para el conjunto y la llegada desde el centro. La colina es opcional dentro del paseo: con lluvia, hielo o poca energía, quedarse abajo y terminar antes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con transporte, franja, parque y comida, estimación. Muestra Maps Karlsplatz→Schönbrunn 19 min en transporte el 30/10 a las 9; sumar espera, accesos y vuelta. No es horario garantizado para otra fecha."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro imperial y una gran colección",
+            "zone": "Stephansdom → Graben → Hofburg → KHM → MQ",
+            "stopIds": [
+              "stephansdom",
+              "graben",
+              "hofburg",
+              "khm",
+              "mq"
+            ],
+            "editorialNote": "KHM es el único museo largo. Sisi y biblioteca son sustituciones, no visitas añadidas al mismo día. Dejar una pausa para comer antes del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con museo, comida y pausas, estimación editorial. Maps: Graben→Michaelerplatz 340 m / 4 min; de allí a KHM 868 m / 12 min, y a MQ 367 m / 5 min, sólo enlaces y sin visitas."
+          },
+          {
+            "title": "Schönbrunn sin correr",
+            "zone": "Palacio → parque → Gloriette exterior",
+            "stopIds": [
+              "schonbrunn",
+              "gloriette"
+            ],
+            "editorialNote": "Una jornada para el conjunto y la llegada desde el centro. La colina es opcional dentro del paseo: con lluvia, hielo o poca energía, quedarse abajo y terminar antes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con transporte, franja, parque y comida, estimación. Muestra Maps Karlsplatz→Schönbrunn 19 min en transporte el 30/10 a las 9; sumar espera, accesos y vuelta. No es horario garantizado para otra fecha."
+          },
+          {
+            "title": "Arte, Karlsplatz y Naschmarkt",
+            "zone": "Belvedere Superior → Karlskirche → Naschmarkt",
+            "stopIds": [
+              "belvedere",
+              "karlskirche",
+              "market"
+            ],
+            "editorialNote": "Belvedere es la visita larga. Después sólo exteriores y comida, sin otro palacio, museo o excursión. Domingo cambiar orden si se quieren ver puestos del mercado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con arte, comida y pausas, estimación. Maps: Belvedere→Karlskirche 1,17 km / 15 min; Karlskirche→Naschmarkt 718 m / 10 min, más recorridos dentro del museo y mercado."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Primer día en el centro de Viena",
+            "zone": "Stephansdom → Graben → Hofburg → KHM",
+            "stopIds": [
+              "stephansdom",
+              "graben",
+              "hofburg",
+              "khm"
+            ],
+            "editorialNote": "Centro a pie y un museo principal. No intentar Schönbrunn y Belvedere el mismo día. Si se prefiere Sisi, sustituir KHM tras verificar billete.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y museo, estimación editorial."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro imperial y una gran colección",
+            "zone": "Stephansdom → Graben → Hofburg → KHM → MQ",
+            "stopIds": [
+              "stephansdom",
+              "graben",
+              "hofburg",
+              "khm",
+              "mq"
+            ],
+            "editorialNote": "KHM es el único museo largo. Sisi y biblioteca son sustituciones, no visitas añadidas al mismo día. Dejar una pausa para comer antes del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con museo, comida y pausas, estimación editorial. Maps: Graben→Michaelerplatz 340 m / 4 min; de allí a KHM 868 m / 12 min, y a MQ 367 m / 5 min, sólo enlaces y sin visitas."
+          },
+          {
+            "title": "Schönbrunn sin correr",
+            "zone": "Palacio → parque → Gloriette exterior",
+            "stopIds": [
+              "schonbrunn",
+              "gloriette"
+            ],
+            "editorialNote": "Una jornada para el conjunto y la llegada desde el centro. La colina es opcional dentro del paseo: con lluvia, hielo o poca energía, quedarse abajo y terminar antes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con transporte, franja, parque y comida, estimación. Muestra Maps Karlsplatz→Schönbrunn 19 min en transporte el 30/10 a las 9; sumar espera, accesos y vuelta. No es horario garantizado para otra fecha."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro imperial y una gran colección",
+            "zone": "Stephansdom → Graben → Hofburg → KHM → MQ",
+            "stopIds": [
+              "stephansdom",
+              "graben",
+              "hofburg",
+              "khm",
+              "mq"
+            ],
+            "editorialNote": "KHM es el único museo largo. Sisi y biblioteca son sustituciones, no visitas añadidas al mismo día. Dejar una pausa para comer antes del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con museo, comida y pausas, estimación editorial. Maps: Graben→Michaelerplatz 340 m / 4 min; de allí a KHM 868 m / 12 min, y a MQ 367 m / 5 min, sólo enlaces y sin visitas."
+          },
+          {
+            "title": "Schönbrunn sin correr",
+            "zone": "Palacio → parque → Gloriette exterior",
+            "stopIds": [
+              "schonbrunn",
+              "gloriette"
+            ],
+            "editorialNote": "Una jornada para el conjunto y la llegada desde el centro. La colina es opcional dentro del paseo: con lluvia, hielo o poca energía, quedarse abajo y terminar antes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con transporte, franja, parque y comida, estimación. Muestra Maps Karlsplatz→Schönbrunn 19 min en transporte el 30/10 a las 9; sumar espera, accesos y vuelta. No es horario garantizado para otra fecha."
+          },
+          {
+            "title": "Arte, Karlsplatz y Naschmarkt",
+            "zone": "Belvedere Superior → Karlskirche → Naschmarkt",
+            "stopIds": [
+              "belvedere",
+              "karlskirche",
+              "market"
+            ],
+            "editorialNote": "Belvedere es la visita larga. Después sólo exteriores y comida, sin otro palacio, museo o excursión. Domingo cambiar orden si se quieren ver puestos del mercado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con arte, comida y pausas, estimación. Maps: Belvedere→Karlskirche 1,17 km / 15 min; Karlskirche→Naschmarkt 718 m / 10 min, más recorridos dentro del museo y mercado."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Tres guías contrastadas antes de operadores y Maps.",
+    "Se descartan pases, precios y modalidades antiguas de la guía de viajes.",
+    "Se descartan promesas de cero espera y pago sólo en efectivo no corroboradas por los locales.",
+    "Originales Flickr BY/BY-SA comprobados; platos ilustrativos y fotos de archivo etiquetados."
+  ],
+  "editorialTradeoffs": [
+    "Schönbrunn tiene jornada propia; no se apilan tres palacios.",
+    "KHM y Belvedere en días distintos, con exteriores y café después.",
+    "Tercer día conserva Viena y tiempo para comer, sin excursión de relleno."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Turismo de Viena y Austria priorizan centro imperial, Schönbrunn y arte. Geographical Cure aporta contexto pero acumula interiores y conserva modalidades antiguas: se reduce la carga y se comprueban operadores. Olive distingue cafés y bocados; Mint aporta taberna y mezze, no se copian sus precios ni garantías de espera."
+}

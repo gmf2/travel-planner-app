@@ -1,0 +1,1080 @@
+{
+  "schemaVersion": 1,
+  "country": "CZ",
+  "id": "prague",
+  "name": "Praga",
+  "localName": "Praha",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita 1-3 días, sin fecha ni reservas. Una visita principal por jornada y tiempo para comidas y cuestas.",
+  "stops": [
+    {
+      "id": "bridge",
+      "name": "Puente de Carlos",
+      "kind": "visit",
+      "zone": "Vltava / Staré Město",
+      "reason": "Puente peatonal, torres y vistas de la ciudad junto al río.",
+      "sourceIds": [
+        "local",
+        "earth"
+      ],
+      "coordinates": {
+        "lat": 50.0864771,
+        "lon": 14.4114366
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Charles+Bridge&query_place_id=ChIJn7WO5eWUC0cRJrHT0TiXIHU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Ir temprano si se quiere menos gente, sin prometer puente vacío. Adoquines y aglomeraciones; no se incluye subida a ninguna torre.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/bridge.jpg",
+        "source": "https://www.flickr.com/photos/maca89/44673594072/",
+        "author": "Karel Macalik",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; torres no incluidas"
+    },
+    {
+      "id": "oldtown",
+      "name": "Plaza Vieja y reloj astronómico",
+      "kind": "visit",
+      "zone": "Staré Město",
+      "reason": "Plaza, fachadas y reloj del Ayuntamiento en una sola parada.",
+      "sourceIds": [
+        "local",
+        "earth"
+      ],
+      "coordinates": {
+        "lat": 50.0874682,
+        "lon": 14.4207565
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Old+Town+Square&query_place_id=ChIJF6gfPumUC0cRNxOlactBiAU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "No incluye torre ni salas del Ayuntamiento. La animación es breve; no dedicar una larga espera al espectáculo ni bloquear el paso. Actos pueden modificar acceso.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/oldtown.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/27037566767/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Plaza Vieja y fachada de Týn, foto de archivo; el reloj está en otro lado de la plaza. Recorte de presentación."
+      },
+      "visitMode": "Plaza y reloj desde fuera"
+    },
+    {
+      "id": "jewish",
+      "name": "Josefov · Museo Judío y cementerio",
+      "kind": "visit",
+      "zone": "Josefov",
+      "reason": "Una visita con tiempo a la historia judía, entre sinagogas y el cementerio antiguo.",
+      "sourceIds": [
+        "jewish",
+        "jewishticket",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 50.08922500000001,
+        "lon": 14.4169722
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pinkas+Synagogue&query_place_id=ChIJhfGaXuiUC0cRLXI5leEqTyk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "600 CZK adulto publicados, billete individual válido tres días de apertura, una entrada por sede. Cierra sábados y fiestas judías: cambiar esta jornada si se quiere entrar. Hasta 31/12/2026: museo 9-16:30, 24/12 hasta 14; otras sedes pueden diferir. Revisar calendario del año de viaje. No hay entrada comprada ni se promete ver todas las sedes en una visita breve.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/jewish.jpg",
+        "source": "https://www.flickr.com/photos/jaygalvin/8246358502/",
+        "author": "Jay Galvin",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Circuito de pago; principal visita interior del día"
+    },
+    {
+      "id": "castle",
+      "name": "Castillo de Praga · circuito principal",
+      "kind": "visit",
+      "zone": "Hradčany",
+      "reason": "Patios, catedral de San Vito, palacio, basílica y Callejón del Oro con una mañana propia.",
+      "sourceIds": [
+        "castle",
+        "tickets",
+        "closures"
+      ],
+      "coordinates": {
+        "lat": 50.0910966,
+        "lon": 14.4016165
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Prague+Castle&query_place_id=ChIJw7ckbB6VC0cRnyUSr4g8zyo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 240,
+      "durationType": "editorial-estimate",
+      "caution": "Complejo 6-22, edificios 9-17 verano / 9-16 invierno; catedral domingo desde 12 y sujeta a culto. El circuito agrupa varios edificios: no añadir biblioteca ni torre por defecto. Tickets oficiales remiten a tarifa PDF vigente y venta presencial/online autorizada; comprobar precio y cierres por fecha. Restricciones ceremoniales frecuentes: no hay entrada reservada. Jardines no son paso garantizado en invierno.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/castle.jpg",
+        "source": "https://www.flickr.com/photos/andrewmilligansumo/49226860138/",
+        "author": "Andrew Milligan sumo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Patio III y exterior de San Vito, foto de archivo; el billete del circuito se comprueba aparte. Recorte de presentación."
+      },
+      "visitMode": "Conjunto de pago como visita principal; sin torre extra"
+    },
+    {
+      "id": "nerudova",
+      "name": "Nerudova · bajar hacia Malá Strana",
+      "kind": "visit",
+      "zone": "Malá Strana",
+      "reason": "Calle de casas con emblemas para descender del castillo sin otra visita larga.",
+      "sourceIds": [
+        "local",
+        "earth"
+      ],
+      "coordinates": {
+        "lat": 50.0885214,
+        "lon": 14.3994386
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Nerudova&query_place_id=ChIJhec43B2VC0cRGXkWPFXQpqI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Adoquines y pendiente. El plan empieza arriba para evitar una subida larga desde el puente; no significa ruta sin barreras.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/nerudova.jpg",
+        "source": "https://www.flickr.com/photos/119886413@N05/15047910983/",
+        "author": "Michel Curi",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior cuesta abajo"
+    },
+    {
+      "id": "malostranske",
+      "name": "Malostranské náměstí · San Nicolás exterior",
+      "kind": "visit",
+      "zone": "Malá Strana",
+      "reason": "Plaza y fachada de San Nicolás como pausa al pie del barrio.",
+      "sourceIds": [
+        "local",
+        "earth"
+      ],
+      "coordinates": {
+        "lat": 50.0877363,
+        "lon": 14.4032535
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Malostransk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD&query_place_id=ChIJp8CEIeKUC0cRLYLyzRAH3lI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Iglesia y campanario tienen acceso y billete propios. Tras el circuito del castillo, aquí no se suma otra subida ni iglesia larga.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/malostranske.jpg",
+        "source": "https://www.flickr.com/photos/160188653@N06/44107842291/",
+        "author": "Andrew Fedorov",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza y fachada; interior no incluido"
+    },
+    {
+      "id": "kampa",
+      "name": "Kampa y orilla del Vltava",
+      "kind": "visit",
+      "zone": "Malá Strana / Kampa",
+      "reason": "Calles junto al agua, parque y pausa con vistas hacia el puente.",
+      "sourceIds": [
+        "local",
+        "earth"
+      ],
+      "coordinates": {
+        "lat": 50.0848479,
+        "lon": 14.4083515
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Kampa+Island&query_place_id=ChIJX7tVieSUC0cRA6Lpcx9-RGg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "La foto muestra la plaza de Kampa, no un interior del museo. Aglomeraciones, crecidas o actos pueden limitar tramos; reducir paseo con mal tiempo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/kampa.jpg",
+        "source": "https://www.flickr.com/photos/andrewmilligansumo/49450444846/",
+        "author": "Andrew Milligan sumo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; Museo Kampa aparte"
+    },
+    {
+      "id": "wenceslas",
+      "name": "Plaza de Wenceslao y Museo Nacional exterior",
+      "kind": "visit",
+      "zone": "Nové Město",
+      "reason": "Bulevar y entorno del museo para empezar la parte moderna de la ciudad.",
+      "sourceIds": [
+        "local",
+        "earth"
+      ],
+      "coordinates": {
+        "lat": 50.0817831,
+        "lon": 14.4271187
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Wenceslas+Square&query_place_id=ChIJMb_LNu2UC0cRTBVR5nC64bg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "Obras y tráfico pueden modificar cruces. El Museo Nacional requiere varias horas si se elige: sustituir el bloque de paseo, no añadirlo antes de Vyšehrad.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/wenceslas.jpg",
+        "source": "https://www.flickr.com/photos/romanboed/46041396231/",
+        "author": "RB Photo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; museo no incluido"
+    },
+    {
+      "id": "lucerna",
+      "name": "Pasaje Lucerna · caballo de Černý",
+      "kind": "visit",
+      "zone": "Nové Město",
+      "reason": "Pasaje cubierto y escultura del caballo invertido para una parada breve.",
+      "sourceIds": [
+        "local",
+        "earth"
+      ],
+      "coordinates": {
+        "lat": 50.0809028,
+        "lon": 14.4263944
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Lucerna+Palace&query_place_id=ChIJG3Qbau2UC0cRPFAntRpuzQ0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "La foto es del caballo en el pasaje. Acceso sujeto al edificio y eventos; no se incluyen entradas ni se garantiza paso nocturno.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/lucerna.jpg",
+        "source": "https://www.flickr.com/photos/129231073@N06/15932915785/",
+        "author": "Fred Romero",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Pasaje según acceso; no entrada de cine ni concierto"
+    },
+    {
+      "id": "dancing",
+      "name": "Casa Danzante y paseo de ribera",
+      "kind": "visit",
+      "zone": "Nové Město / Rašínovo nábřeží",
+      "reason": "Arquitectura contemporánea y un tramo junto al río rumbo a Vyšehrad.",
+      "sourceIds": [
+        "local",
+        "earth"
+      ],
+      "coordinates": {
+        "lat": 50.0754031,
+        "lon": 14.4141786
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Dancing+House&query_place_id=ChIJFz83wvaUC0cRRDMLBTdlAZM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "No se incluye consumo, galería ni terraza. Náplavka puede servir de pausa en el recorrido, sin prometer mercado ni puestos abiertos. Atención al tráfico al cruzar y a cierres por crecidas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/dancing.jpg",
+        "source": "https://www.flickr.com/photos/ryangwu82/2628068065/",
+        "author": "Ryan Park",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Fachada exterior y paseo; azotea no incluida"
+    },
+    {
+      "id": "vysehrad",
+      "name": "Vyšehrad · parque y murallas",
+      "kind": "visit",
+      "zone": "Vyšehrad",
+      "reason": "Recinto histórico, zonas verdes y vistas del Vltava para terminar sin otro museo.",
+      "sourceIds": [
+        "vysehrad",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 50.06367909999999,
+        "lon": 14.4202128
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Vy%C5%A1ehrad&query_place_id=ChIJPy5ap2CUC0cRj8VQ-1VCcM8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Recinto gratuito todo el año según operador. Cuestas, adoquines y luz limitada en invierno. Basílica, cementerio y casamatas tienen horarios propios: no se incluyen automáticamente ni se promete recorrido interior.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/vysehrad.jpg",
+        "source": "https://www.flickr.com/photos/stefanjurca/33880570698/",
+        "author": "Stefan Jurca",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Rotonda de San Martín en el recinto exterior de Vyšehrad, foto de archivo. Recorte de presentación."
+      },
+      "visitMode": "Recinto exterior gratuito; basílica y visitas de pago aparte"
+    },
+    {
+      "id": "klementinum",
+      "name": "Klementinum · biblioteca y torre con guía",
+      "kind": "visit",
+      "zone": "Staré Město",
+      "reason": "Biblioteca barroca vista desde el umbral y mirador para quien prefiera una visita guiada corta.",
+      "sourceIds": [
+        "klementinum",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 50.0861578,
+        "lon": 14.4165904
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Klementinum+%7C+Tours+of+the+Baroque+Library+and+Astronomical+Tower&query_place_id=ChIJ89V_UO-UC0cR-eXj_VoHcbQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "380 CZK adulto publicados, grupo limitado y compra oficial recomendada. Se mira la biblioteca sin entrar;172 escalones, sin ascensor. Sustituye el Museo Judío, no se suma a museo y varias torres en la misma jornada. Foto exterior de la torre, no acceso a los libros. Horarios y Navidad en web oficial; no hay reserva hecha.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/prague/klementinum.jpg",
+        "source": "https://www.flickr.com/photos/132627961@N05/29200701112/",
+        "author": "David Koranda",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Alternativa a Josefov; visita guiada de pago con escaleras"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Primera Praga a pie",
+          "zone": "Ciudad Vieja → puente → Kampa",
+          "stopIds": [
+            "oldtown",
+            "bridge",
+            "kampa"
+          ],
+          "editorialNote": "Un día para el centro y el río. Ver el castillo desde la ciudad, sin prometer circuito completo al otro lado y varias sinagogas en la misma jornada.",
+          "optionalStopIds": [
+            "klementinum"
+          ],
+          "geographyChecks": [],
+          "pacing": "4-6 h con comida y pausas, estimación editorial. Klementinum puede sustituir parte del paseo con entrada y franja comprobadas."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Ciudad Vieja y memoria judía",
+          "zone": "Puente de Carlos → Plaza Vieja → Josefov",
+          "stopIds": [
+            "bridge",
+            "oldtown",
+            "jewish"
+          ],
+          "editorialNote": "Un circuito principal con tiempo para comer y caminar; sábados y fiestas judías cambiar esta jornada si se busca el interior. Klementinum es una sustitución, no un añadido.",
+          "optionalStopIds": [
+            "klementinum"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y pausas, estimación. Maps 29/10: enlaces principales 1,29 km / 17 min a pie, más recorridos dentro de Josefov y la plaza."
+        },
+        {
+          "title": "Castillo y bajada a Malá Strana",
+          "zone": "Hradčany → Nerudova → Malostranské → Kampa",
+          "stopIds": [
+            "castle",
+            "nerudova",
+            "malostranske",
+            "kampa"
+          ],
+          "editorialNote": "Empezar arriba con transporte según alojamiento; castillo como única visita larga. Bajar por calles públicas, no depender de jardines estacionales.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida, circuito y pausas, estimación. Maps 29/10: enlaces castillo→Nerudova→plaza→Kampa 1,47 km / 18 min, sin caminar interiores, accesos ni subida inicial."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Ciudad Vieja y memoria judía",
+          "zone": "Puente de Carlos → Plaza Vieja → Josefov",
+          "stopIds": [
+            "bridge",
+            "oldtown",
+            "jewish"
+          ],
+          "editorialNote": "Un circuito principal con tiempo para comer y caminar; sábados y fiestas judías cambiar esta jornada si se busca el interior. Klementinum es una sustitución, no un añadido.",
+          "optionalStopIds": [
+            "klementinum"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y pausas, estimación. Maps 29/10: enlaces principales 1,29 km / 17 min a pie, más recorridos dentro de Josefov y la plaza."
+        },
+        {
+          "title": "Castillo y bajada a Malá Strana",
+          "zone": "Hradčany → Nerudova → Malostranské → Kampa",
+          "stopIds": [
+            "castle",
+            "nerudova",
+            "malostranske",
+            "kampa"
+          ],
+          "editorialNote": "Empezar arriba con transporte según alojamiento; castillo como única visita larga. Bajar por calles públicas, no depender de jardines estacionales.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida, circuito y pausas, estimación. Maps 29/10: enlaces castillo→Nerudova→plaza→Kampa 1,47 km / 18 min, sin caminar interiores, accesos ni subida inicial."
+        },
+        {
+          "title": "Ciudad Nueva y el río hasta Vyšehrad",
+          "zone": "Wenceslao → Lucerna → Casa Danzante → Vyšehrad",
+          "stopIds": [
+            "wenceslas",
+            "lucerna",
+            "dancing",
+            "vysehrad"
+          ],
+          "editorialNote": "Museo Nacional sólo exterior. Paseo largo con descanso junto al río; en invierno llegar a Vyšehrad antes del anochecer o acortar ribera.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas, estimación. Maps 29/10 vía Náplavka 3,06 km / 44 min a pie entre puntos; añadir paseos del recinto, cuestas y accesos. Transporte si se quiere reducir carga."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Calor y aglomeraciones: agua y pausas; empezar temprano sin prometer espacios vacíos.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Luz corta, posibles heladas y jardines cerrados. Vyšehrad de día, acortar ribera y añadir pausa cubierta, no más museos.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Consultar 24-26/12,31/12 y 1/1 por lugar. No asumir mercados ni horarios ordinarios; museo judío cierra sábados y fiestas propias.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Lluvia y pavimento resbaladizo en cuestas. Jardines estacionales no son paso necesario del plan.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Museo Judío cierra sábados y fiestas judías: comprobar año y día antes de elegir orden.",
+    "Castillo y catedral sujetos a ceremonias; bibliotecas y torres requieren su propia modalidad.",
+    "No hay reservas ni entradas compradas."
+  ],
+  "excludedOrOptional": [
+    "Petřín y funicular no se incluyen sin estado operativo actual inequívoco.",
+    "Strahov, Museo Nacional y torres son sustituciones, no acumulaciones con castillo o Josefov.",
+    "Český Krumlov no se añade como relleno de tercer día; la primera visita conserva tiempo en Praga."
+  ],
+  "sources": [
+    {
+      "id": "local",
+      "title": "Discovering Prague: tres días",
+      "url": "https://discoveringprague.com/3-days-in-prague-itinerary/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "earth",
+      "title": "Earth Trekkers: tres días",
+      "url": "https://www.earthtrekkers.com/3-days-in-prague-itinerary/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "guide",
+      "title": "Tschechienguide: tres días",
+      "url": "https://www.tschechienguide.de/prag/prag-in-3-tagen/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "castle",
+      "title": "Castillo: horarios",
+      "url": "https://www.hrad.cz/en/prague-castle-for-visitors/opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "tickets",
+      "title": "Castillo: entradas",
+      "url": "https://www.hrad.cz/en/prague-castle-for-visitors/tickets",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "closures",
+      "title": "Castillo: cierres",
+      "url": "https://www.hrad.cz/en/prague-castle-for-visitors/archive-of-closures",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "jewish",
+      "title": "Museo Judío: horarios",
+      "url": "https://www.jewishmuseum.cz/en/info/visit/opening-hours/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "jewishticket",
+      "title": "Museo Judío: entrada",
+      "url": "https://www.jewishmuseum.cz/en/info/visit/admission/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "klementinum",
+      "title": "Klementinum: visita oficial",
+      "url": "https://prague.eu/en/objevujte/the-clementinum-astronomical-tower-and-baroque-library/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "vysehrad",
+      "title": "Vyšehrad: visita",
+      "url": "https://praha-vysehrad.cz/en/visit/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "eater",
+      "title": "Eater: restaurantes",
+      "url": "https://www.eater.com/maps/prague-best-restaurants-czech-republic-czechia",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "timeout",
+      "title": "Time Out: restaurantes",
+      "url": "https://www.timeout.com/prague/restaurants/best-restaurants-in-prague",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "finding",
+      "title": "Finding Beyond: Dlouhá",
+      "url": "https://findingbeyond.com/best-places-to-eat-in-prague-head-to-dlouha-street/",
+      "type": "traveller-food",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "lokal",
+      "title": "Lokál: carta",
+      "url": "https://lokal-dlouha.ambi.cz/en/menu/daily-menu",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "lehka",
+      "title": "Lehká hlava: carta",
+      "url": "https://www.lehkahlava.cz/en/menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "sisters",
+      "title": "Sisters: carta y local",
+      "url": "https://www.sistersbistro.cz/en/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Primera Praga a pie",
+            "zone": "Ciudad Vieja → puente → Kampa",
+            "stopIds": [
+              "oldtown",
+              "bridge",
+              "kampa"
+            ],
+            "editorialNote": "Un día para el centro y el río. Ver el castillo desde la ciudad, sin prometer circuito completo al otro lado y varias sinagogas en la misma jornada.",
+            "optionalStopIds": [
+              "klementinum"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y pausas, estimación editorial. Klementinum puede sustituir parte del paseo con entrada y franja comprobadas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Ciudad Vieja y memoria judía",
+            "zone": "Puente de Carlos → Plaza Vieja → Josefov",
+            "stopIds": [
+              "bridge",
+              "oldtown",
+              "jewish"
+            ],
+            "editorialNote": "Un circuito principal con tiempo para comer y caminar; sábados y fiestas judías cambiar esta jornada si se busca el interior. Klementinum es una sustitución, no un añadido.",
+            "optionalStopIds": [
+              "klementinum"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación. Maps 29/10: enlaces principales 1,29 km / 17 min a pie, más recorridos dentro de Josefov y la plaza."
+          },
+          {
+            "title": "Castillo y bajada a Malá Strana",
+            "zone": "Hradčany → Nerudova → Malostranské → Kampa",
+            "stopIds": [
+              "castle",
+              "nerudova",
+              "malostranske",
+              "kampa"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento; castillo como única visita larga. Bajar por calles públicas, no depender de jardines estacionales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, circuito y pausas, estimación. Maps 29/10: enlaces castillo→Nerudova→plaza→Kampa 1,47 km / 18 min, sin caminar interiores, accesos ni subida inicial."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Ciudad Vieja y memoria judía",
+            "zone": "Puente de Carlos → Plaza Vieja → Josefov",
+            "stopIds": [
+              "bridge",
+              "oldtown",
+              "jewish"
+            ],
+            "editorialNote": "Un circuito principal con tiempo para comer y caminar; sábados y fiestas judías cambiar esta jornada si se busca el interior. Klementinum es una sustitución, no un añadido.",
+            "optionalStopIds": [
+              "klementinum"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación. Maps 29/10: enlaces principales 1,29 km / 17 min a pie, más recorridos dentro de Josefov y la plaza."
+          },
+          {
+            "title": "Castillo y bajada a Malá Strana",
+            "zone": "Hradčany → Nerudova → Malostranské → Kampa",
+            "stopIds": [
+              "castle",
+              "nerudova",
+              "malostranske",
+              "kampa"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento; castillo como única visita larga. Bajar por calles públicas, no depender de jardines estacionales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, circuito y pausas, estimación. Maps 29/10: enlaces castillo→Nerudova→plaza→Kampa 1,47 km / 18 min, sin caminar interiores, accesos ni subida inicial."
+          },
+          {
+            "title": "Ciudad Nueva y el río hasta Vyšehrad",
+            "zone": "Wenceslao → Lucerna → Casa Danzante → Vyšehrad",
+            "stopIds": [
+              "wenceslas",
+              "lucerna",
+              "dancing",
+              "vysehrad"
+            ],
+            "editorialNote": "Museo Nacional sólo exterior. Paseo largo con descanso junto al río; en invierno llegar a Vyšehrad antes del anochecer o acortar ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación. Maps 29/10 vía Náplavka 3,06 km / 44 min a pie entre puntos; añadir paseos del recinto, cuestas y accesos. Transporte si se quiere reducir carga."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Primera Praga a pie",
+            "zone": "Ciudad Vieja → puente → Kampa",
+            "stopIds": [
+              "oldtown",
+              "bridge",
+              "kampa"
+            ],
+            "editorialNote": "Un día para el centro y el río. Ver el castillo desde la ciudad, sin prometer circuito completo al otro lado y varias sinagogas en la misma jornada.",
+            "optionalStopIds": [
+              "klementinum"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y pausas, estimación editorial. Klementinum puede sustituir parte del paseo con entrada y franja comprobadas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Ciudad Vieja y memoria judía",
+            "zone": "Puente de Carlos → Plaza Vieja → Josefov",
+            "stopIds": [
+              "bridge",
+              "oldtown",
+              "jewish"
+            ],
+            "editorialNote": "Un circuito principal con tiempo para comer y caminar; sábados y fiestas judías cambiar esta jornada si se busca el interior. Klementinum es una sustitución, no un añadido.",
+            "optionalStopIds": [
+              "klementinum"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación. Maps 29/10: enlaces principales 1,29 km / 17 min a pie, más recorridos dentro de Josefov y la plaza."
+          },
+          {
+            "title": "Castillo y bajada a Malá Strana",
+            "zone": "Hradčany → Nerudova → Malostranské → Kampa",
+            "stopIds": [
+              "castle",
+              "nerudova",
+              "malostranske",
+              "kampa"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento; castillo como única visita larga. Bajar por calles públicas, no depender de jardines estacionales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, circuito y pausas, estimación. Maps 29/10: enlaces castillo→Nerudova→plaza→Kampa 1,47 km / 18 min, sin caminar interiores, accesos ni subida inicial."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Ciudad Vieja y memoria judía",
+            "zone": "Puente de Carlos → Plaza Vieja → Josefov",
+            "stopIds": [
+              "bridge",
+              "oldtown",
+              "jewish"
+            ],
+            "editorialNote": "Un circuito principal con tiempo para comer y caminar; sábados y fiestas judías cambiar esta jornada si se busca el interior. Klementinum es una sustitución, no un añadido.",
+            "optionalStopIds": [
+              "klementinum"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación. Maps 29/10: enlaces principales 1,29 km / 17 min a pie, más recorridos dentro de Josefov y la plaza."
+          },
+          {
+            "title": "Castillo y bajada a Malá Strana",
+            "zone": "Hradčany → Nerudova → Malostranské → Kampa",
+            "stopIds": [
+              "castle",
+              "nerudova",
+              "malostranske",
+              "kampa"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento; castillo como única visita larga. Bajar por calles públicas, no depender de jardines estacionales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, circuito y pausas, estimación. Maps 29/10: enlaces castillo→Nerudova→plaza→Kampa 1,47 km / 18 min, sin caminar interiores, accesos ni subida inicial."
+          },
+          {
+            "title": "Ciudad Nueva y el río hasta Vyšehrad",
+            "zone": "Wenceslao → Lucerna → Casa Danzante → Vyšehrad",
+            "stopIds": [
+              "wenceslas",
+              "lucerna",
+              "dancing",
+              "vysehrad"
+            ],
+            "editorialNote": "Museo Nacional sólo exterior. Paseo largo con descanso junto al río; en invierno llegar a Vyšehrad antes del anochecer o acortar ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación. Maps 29/10 vía Náplavka 3,06 km / 44 min a pie entre puntos; añadir paseos del recinto, cuestas y accesos. Transporte si se quiere reducir carga."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Primera Praga a pie",
+            "zone": "Ciudad Vieja → puente → Kampa",
+            "stopIds": [
+              "oldtown",
+              "bridge",
+              "kampa"
+            ],
+            "editorialNote": "Un día para el centro y el río. Ver el castillo desde la ciudad, sin prometer circuito completo al otro lado y varias sinagogas en la misma jornada.",
+            "optionalStopIds": [
+              "klementinum"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y pausas, estimación editorial. Klementinum puede sustituir parte del paseo con entrada y franja comprobadas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Ciudad Vieja y memoria judía",
+            "zone": "Puente de Carlos → Plaza Vieja → Josefov",
+            "stopIds": [
+              "bridge",
+              "oldtown",
+              "jewish"
+            ],
+            "editorialNote": "Un circuito principal con tiempo para comer y caminar; sábados y fiestas judías cambiar esta jornada si se busca el interior. Klementinum es una sustitución, no un añadido.",
+            "optionalStopIds": [
+              "klementinum"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación. Maps 29/10: enlaces principales 1,29 km / 17 min a pie, más recorridos dentro de Josefov y la plaza."
+          },
+          {
+            "title": "Castillo y bajada a Malá Strana",
+            "zone": "Hradčany → Nerudova → Malostranské → Kampa",
+            "stopIds": [
+              "castle",
+              "nerudova",
+              "malostranske",
+              "kampa"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento; castillo como única visita larga. Bajar por calles públicas, no depender de jardines estacionales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, circuito y pausas, estimación. Maps 29/10: enlaces castillo→Nerudova→plaza→Kampa 1,47 km / 18 min, sin caminar interiores, accesos ni subida inicial."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Ciudad Vieja y memoria judía",
+            "zone": "Puente de Carlos → Plaza Vieja → Josefov",
+            "stopIds": [
+              "bridge",
+              "oldtown",
+              "jewish"
+            ],
+            "editorialNote": "Un circuito principal con tiempo para comer y caminar; sábados y fiestas judías cambiar esta jornada si se busca el interior. Klementinum es una sustitución, no un añadido.",
+            "optionalStopIds": [
+              "klementinum"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación. Maps 29/10: enlaces principales 1,29 km / 17 min a pie, más recorridos dentro de Josefov y la plaza."
+          },
+          {
+            "title": "Castillo y bajada a Malá Strana",
+            "zone": "Hradčany → Nerudova → Malostranské → Kampa",
+            "stopIds": [
+              "castle",
+              "nerudova",
+              "malostranske",
+              "kampa"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento; castillo como única visita larga. Bajar por calles públicas, no depender de jardines estacionales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, circuito y pausas, estimación. Maps 29/10: enlaces castillo→Nerudova→plaza→Kampa 1,47 km / 18 min, sin caminar interiores, accesos ni subida inicial."
+          },
+          {
+            "title": "Ciudad Nueva y el río hasta Vyšehrad",
+            "zone": "Wenceslao → Lucerna → Casa Danzante → Vyšehrad",
+            "stopIds": [
+              "wenceslas",
+              "lucerna",
+              "dancing",
+              "vysehrad"
+            ],
+            "editorialNote": "Museo Nacional sólo exterior. Paseo largo con descanso junto al río; en invierno llegar a Vyšehrad antes del anochecer o acortar ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación. Maps 29/10 vía Náplavka 3,06 km / 44 min a pie entre puntos; añadir paseos del recinto, cuestas y accesos. Transporte si se quiere reducir carga."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Primera Praga a pie",
+            "zone": "Ciudad Vieja → puente → Kampa",
+            "stopIds": [
+              "oldtown",
+              "bridge",
+              "kampa"
+            ],
+            "editorialNote": "Un día para el centro y el río. Ver el castillo desde la ciudad, sin prometer circuito completo al otro lado y varias sinagogas en la misma jornada.",
+            "optionalStopIds": [
+              "klementinum"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y pausas, estimación editorial. Klementinum puede sustituir parte del paseo con entrada y franja comprobadas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Ciudad Vieja y memoria judía",
+            "zone": "Puente de Carlos → Plaza Vieja → Josefov",
+            "stopIds": [
+              "bridge",
+              "oldtown",
+              "jewish"
+            ],
+            "editorialNote": "Un circuito principal con tiempo para comer y caminar; sábados y fiestas judías cambiar esta jornada si se busca el interior. Klementinum es una sustitución, no un añadido.",
+            "optionalStopIds": [
+              "klementinum"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación. Maps 29/10: enlaces principales 1,29 km / 17 min a pie, más recorridos dentro de Josefov y la plaza."
+          },
+          {
+            "title": "Castillo y bajada a Malá Strana",
+            "zone": "Hradčany → Nerudova → Malostranské → Kampa",
+            "stopIds": [
+              "castle",
+              "nerudova",
+              "malostranske",
+              "kampa"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento; castillo como única visita larga. Bajar por calles públicas, no depender de jardines estacionales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, circuito y pausas, estimación. Maps 29/10: enlaces castillo→Nerudova→plaza→Kampa 1,47 km / 18 min, sin caminar interiores, accesos ni subida inicial."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Ciudad Vieja y memoria judía",
+            "zone": "Puente de Carlos → Plaza Vieja → Josefov",
+            "stopIds": [
+              "bridge",
+              "oldtown",
+              "jewish"
+            ],
+            "editorialNote": "Un circuito principal con tiempo para comer y caminar; sábados y fiestas judías cambiar esta jornada si se busca el interior. Klementinum es una sustitución, no un añadido.",
+            "optionalStopIds": [
+              "klementinum"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación. Maps 29/10: enlaces principales 1,29 km / 17 min a pie, más recorridos dentro de Josefov y la plaza."
+          },
+          {
+            "title": "Castillo y bajada a Malá Strana",
+            "zone": "Hradčany → Nerudova → Malostranské → Kampa",
+            "stopIds": [
+              "castle",
+              "nerudova",
+              "malostranske",
+              "kampa"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento; castillo como única visita larga. Bajar por calles públicas, no depender de jardines estacionales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, circuito y pausas, estimación. Maps 29/10: enlaces castillo→Nerudova→plaza→Kampa 1,47 km / 18 min, sin caminar interiores, accesos ni subida inicial."
+          },
+          {
+            "title": "Ciudad Nueva y el río hasta Vyšehrad",
+            "zone": "Wenceslao → Lucerna → Casa Danzante → Vyšehrad",
+            "stopIds": [
+              "wenceslas",
+              "lucerna",
+              "dancing",
+              "vysehrad"
+            ],
+            "editorialNote": "Museo Nacional sólo exterior. Paseo largo con descanso junto al río; en invierno llegar a Vyšehrad antes del anochecer o acortar ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación. Maps 29/10 vía Náplavka 3,06 km / 44 min a pie entre puntos; añadir paseos del recinto, cuestas y accesos. Transporte si se quiere reducir carga."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Tres guías antes de oficiales y Maps.",
+    "Eater describe el antiguo formato de cenas de Eska y la guía local conserva referencias de transporte imprecisas: no se reproducen.",
+    "Fotos Flickr BY/BY-SA originales comprobadas; platos de otros locales etiquetados."
+  ],
+  "editorialTradeoffs": [
+    "Josefov recibe su propio bloque; no se apilan tres torres ni biblioteca.",
+    "Castillo se recorre desde arriba y se baja a Malá Strana sin biblioteca extra.",
+    "Día 3 de exteriores y río, no una colección de cuatro museos."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Discovering Prague aporta agrupación por barrios; Earth Trekkers detalla castillo y Josefov pero sugiere más interiores; Tschechienguide favorece menos masas y Vyšehrad. Se reduce acumulación, se verifican operadores y no se usan fotos generadas de blogs."
+}

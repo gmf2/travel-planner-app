@@ -1,0 +1,1076 @@
+{
+  "schemaVersion": 1,
+  "country": "NL",
+  "id": "delft",
+  "name": "Delft",
+  "localName": "Delft",
+  "selectionReason": "Ampliación neerlandesa solicitada.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-2 días suficientes; tercer día solo tiempo libre verde opcional. Sin fecha, sin reservas ni compra.",
+  "stops": [
+    {
+      "id": "markt",
+      "name": "Markt · situarse frente al Ayuntamiento",
+      "kind": "visit",
+      "zone": "Markt",
+      "reason": "Una plaza para tomar café y ver cómo se organiza el centro antes de pagar por una torre o un museo.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 52.0114321,
+        "lon": 4.3591514
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Markt&query_place_id=ChIJ336SS8K1xUcRUxrVSlR-F-U",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "No se entra en Ayuntamiento por defecto. Los mercados no funcionan todos los días ni se garantizan en festivo; no se convierte cada puesto en actividad reservada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/delft/markt.jpg",
+        "source": "https://www.flickr.com/photos/186223279@N06/50925678826/",
+        "author": "Jet Camp.com",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior; Ayuntamiento por fuera"
+    },
+    {
+      "id": "nieuwe",
+      "name": "Nieuwe Kerk · iglesia o subida, a elegir",
+      "kind": "visit",
+      "zone": "Markt / Nieuwe Kerk",
+      "reason": "El mausoleo y una posible subida para quien quiera mirar Delft desde arriba; no obligación de encadenar todas las entradas.",
+      "sourceIds": [
+        "church",
+        "tower",
+        "tombs",
+        "churchvisit"
+      ],
+      "coordinates": {
+        "lat": 52.0124176,
+        "lon": 4.3609178
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Nieuwe+Church&query_place_id=ChIJaaibXMK1xUcRybogCfclBOk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Ambas iglesias 10€ adulto, torre 7,50€ sola, combinado iglesias+torre 15€, no sumarlos. 376 peldaños sin ascensor, mínimo 6 años y buen estado físico; torre puede cerrar por clima. Feb-oct lun-sáb 10-17; nov-ene lun-vie 11-16/sáb 10-17. Torre cierra 1 h antes e iglesias última entrada 15 min antes. Domingo turismo cerrado por culto. Criptas reales NO abiertas al público: mausoleo no acceso subterráneo. Si se sube, recortar otra visita.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/delft/nieuwe.jpg",
+        "source": "https://www.flickr.com/photos/krolchatina/3920860648/",
+        "author": "Dmitry Kirillov",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Interior de pago; torre opcional"
+    },
+    {
+      "id": "canal",
+      "name": "Oude Delft · paseo junto al canal",
+      "kind": "visit",
+      "zone": "Oude Delft / entorno de Oude Kerk",
+      "reason": "Ir hacia la iglesia vieja sin correr entre los puentes, con tiempo para comer o sentarse junto al agua.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "stads"
+      ],
+      "coordinates": {
+        "lat": 52.010852,
+        "lon": 4.356406
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Stads-Koffyhuis&query_place_id=ChIJk-jj78O1xUcRU8EPwz1_sD4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Punto de referencia Stads-Koffyhuis en Oude Delft 133, no embarcadero privado ni excursión contratada. Maps devolvió primero Boat Trip Delft en Koornmarkt: descartado como punto de este paseo. No entrada a viviendas ni paseo sobre hielo aunque la foto sea de otra estación.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/delft/canal.jpg",
+        "source": "https://www.flickr.com/photos/mikecogh/9949685306/",
+        "author": "Michael Coghlan",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior por Oude Delft"
+    },
+    {
+      "id": "oude",
+      "name": "Oude Kerk · segundo interior solo si interesa",
+      "kind": "visit",
+      "zone": "Oude Kerk / Heilige Geestkerkhof",
+      "reason": "Mirar la torre inclinada desde fuera; si interesa Vermeer o ya se eligió el combinado, una visita breve al interior.",
+      "sourceIds": [
+        "church",
+        "churchvisit",
+        "prinsen",
+        "cityprinsen"
+      ],
+      "coordinates": {
+        "lat": 52.012638,
+        "lon": 4.356049899999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Old+Church&query_place_id=ChIJ28c0gsO1xUcRZ16UoaXBCn4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Interior incluido en las dos iglesias 10€ adulto; no cobrar 10€ cada una. Mismas franjas estacionales que Nieuwe Kerk y domingo cerrado a turismo. Iglesia accesible a silla según operador pero suelo irregular. No subir torre de Oude Kerk: solo se ofrece subida de Nieuwe Kerk. Museo Prinsenhof cercano cerrado por obra desde 05/01/2025, reapertura prevista 2028 no garantizada; tampoco se promete jardín durante obra.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/delft/oude.jpg",
+        "source": "https://www.flickr.com/photos/raaphorst/4861261730/",
+        "author": "Marco Raaphorst",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior de base; iglesia opcional"
+    },
+    {
+      "id": "vermeer",
+      "name": "Vermeer Centrum · luz y reproducciones",
+      "kind": "visit",
+      "zone": "Voldersgracht",
+      "reason": "Entender el trabajo y la ciudad del pintor con reproducciones de tamaño real; elegirlo por contexto, no buscando cuadros originales.",
+      "sourceIds": [
+        "vermeer",
+        "vermeerhours",
+        "church",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 52.0124626,
+        "lon": 4.3594503
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Vermeer+Centrum+Delft&query_place_id=ChIJd7edVsK1xUcR0E8wrnJ3ksM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 15€ con audioguía en español; diario 10-17.25/12 cerrado;26/12 y 01/01 11-17. Iglesias+Vermeer 18,50€ publicado por iglesia, no incluye torre. No Museo Prinsenhof ni originales de Vermeer. Mauritshuis en La Haya es otra visita y ciudad, no añadido automático al día. Si se hace torre y ambas iglesias, reducir o cambiar este interior.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/delft/vermeer.jpg",
+        "source": "https://www.flickr.com/photos/jrthibault/23873610535/",
+        "author": "Marie Thérèse Hébert & Jean Robert Thibault",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Centro interpretativo de pago; sin originales"
+    },
+    {
+      "id": "beesten",
+      "name": "Beestenmarkt · una pausa larga",
+      "kind": "visit",
+      "zone": "Beestenmarkt",
+      "reason": "Cerrar el centro con comida y plaza arbolada, en vez de sumar otra colección solo para llenar la tarde.",
+      "sourceIds": [
+        "guide1",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 52.0112816,
+        "lon": 4.3627634
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Beestenmarkt&query_place_id=ChIJ67ri3Om1xUcRcI3AOlMRoZ4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Consumiciones no incluidas ni mesa garantizada. La plaza no equivale a mercado de animales actual ni evento diario. Puede hacerse a mediodía si encaja mejor con apertura de iglesias.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/delft/beesten.jpg",
+        "source": "https://www.flickr.com/photos/nandasluijsmans/52969378197/",
+        "author": "Nanda Sluijsmans",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior y comida a elección"
+    },
+    {
+      "id": "oost",
+      "name": "Oostpoort · ir por el borde del agua",
+      "kind": "visit",
+      "zone": "Oosteinde / Oostpoort",
+      "reason": "Caminar por canales orientales hasta la puerta como transición hacia la cerámica, no como segunda mañana de plazas repetidas.",
+      "sourceIds": [
+        "guide1",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 52.0105528,
+        "lon": 4.3686999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Eastern+Gate&query_place_id=ChIJGbCpTOm1xUcRuqPA-Lw69_c",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "No acceso al interior o viviendas prometido. Desde Markt 711 m/9 min andando según Maps; paseo editorial largo incluye detenerse, no confundir 65 min con traslado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/delft/oost.jpg",
+        "source": "https://www.flickr.com/photos/bertknot/8368493873/",
+        "author": "bertknot",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Puerta y canal por fuera"
+    },
+    {
+      "id": "royal",
+      "name": "Royal Delft · dar tiempo al oficio",
+      "kind": "visit",
+      "zone": "Rotterdamseweg 196",
+      "reason": "Un bloque propio para museo y fábrica de cerámica, separado del centro para no meter tres interiores en una sola tarde.",
+      "sourceIds": [
+        "royal",
+        "guide1",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 52.0014009,
+        "lon": 4.3668872
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Royal+Delft&query_place_id=ChIJh7yvgJO1xUcRqlzkodQfI9s",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 17,50€ con audioguía; diario 9:30-17,01/04-15/05 desde 9 hsegún horario 2026. Web contradice última admisión 16 h arriba y recomendación empezar audioguía 16:30 abajo: planificar llegar antes 16 h y confirmar entrada, no prometer acceso 16:30.24/31-12 cierra 16,25/26-12 y 01/01 cerrado. Reserva recomendada incluso tarjeta. No garantizar pintores trabajando en cada momento ni taller incluido. Operador excluye sillas eléctricas de accesibilidad: confirmar necesidades. Tienda Markt NOes museo/fábrica.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/delft/royal.jpg",
+        "source": "https://www.flickr.com/photos/welikesharing/53492762328/",
+        "author": "We Like Sharing",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Edificio de De Porceleyne Fles / Royal Delft en archivo; no la tienda de Markt. Recorte de presentación."
+      },
+      "visitMode": "Museo y fábrica de pago"
+    },
+    {
+      "id": "mill",
+      "name": "Molen de Roos · opción breve, no día obligatorio",
+      "kind": "visit",
+      "zone": "Phoenixstraat / molino",
+      "reason": "Ver un molino de grano y su jardín si encaja con apertura, antes de decidir si apetece caminar hacia la zona verde.",
+      "sourceIds": [
+        "mill",
+        "millnl"
+      ],
+      "coordinates": {
+        "lat": 52.01391659999999,
+        "lon": 4.3513075
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Delft+Windmill+de+Roos&query_place_id=ChIJU46PFMW1xUcRJr8SRYAFlZs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Entrada molino gratis, escaleras empinadas, bajar también mirando escalones. Web inglesa mié/vie 13-16:30/sáb 10-16:30; neerlandesa duplica miércoles 10 h y 13 h: franja prudente miércoles 13 h y confirmar. Tienda mié-sáb 9-17 no equivale a molino abierto jueves. Jardín de acceso libre; café estacional mayo-septiembre, no invierno garantizado. Aspas/molienda dependen de viento.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/delft/mill.jpg",
+        "source": "https://www.flickr.com/photos/welikesharing/51196493349/",
+        "author": "We Like Sharing",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior; interior gratuito condicionado"
+    },
+    {
+      "id": "hout",
+      "name": "Delftse Hout · tiempo libre verde",
+      "kind": "visit",
+      "zone": "Delftse Hout / Grote Plas",
+      "reason": "Un tercer día solo para quien quiera caminar y parar junto al lago; Delft se conoce bien en 1-2 días, no se necesitan 72 horas de monumentos.",
+      "sourceIds": [
+        "hout",
+        "hortus",
+        "greenfood"
+      ],
+      "coordinates": {
+        "lat": 52.01823479999999,
+        "lon": 4.378642
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Delftse+Hout&query_place_id=ChIJGxIQJv21xUcRZXKMwDISKvc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Desde molino al lago Maps 2,9 km/39 min SOLOida, más regreso y paseo. No es junto al casco ni jornada de atracciones. Ayuntamiento advierte algas: mirar señalización y fuente oficial de calidad antes de bañarse, no se garantiza baño. Viento/oscuridad/lluvia pueden aconsejar no ir. Sin fuego abierto; no bici por aceras/playa. Hortus TU aparte cierra 01/11-fin febrero, no alternativa invernal garantizada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/delft/hout.jpg",
+        "source": "https://www.flickr.com/photos/_fabio/50829001232/",
+        "author": "Fabio Bruna",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Parque exterior opcional; no baño prometido"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Centro, canales y un interior principal",
+          "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+          "stopIds": [
+            "markt",
+            "nieuwe",
+            "canal",
+            "oude",
+            "vermeer",
+            "beesten"
+          ],
+          "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Centro, canales y un interior principal",
+          "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+          "stopIds": [
+            "markt",
+            "nieuwe",
+            "canal",
+            "oude",
+            "vermeer",
+            "beesten"
+          ],
+          "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+        },
+        {
+          "title": "Canales del este y cerámica sin prisa",
+          "zone": "Oostpoort → Royal Delft",
+          "stopIds": [
+            "oost",
+            "royal"
+          ],
+          "editorialNote": "Segundo día opcional para cerámica y paseo, no repetición de las mismas plazas. Taller de pintar solo si se elige aparte con tiempo/precio verificados, no incluido por defecto.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "Medio día largo,4-5 h con comida y vuelta. Maps Markt-Oostpoort 711 m/9 min, puerta-Royal Delft 1,36 km/18 min. Llegar al museo antes 16 h o antes 15 h 24/31 diciembre. No añadir La Haya y volver a la fábrica por relleno."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Centro, canales y un interior principal",
+          "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+          "stopIds": [
+            "markt",
+            "nieuwe",
+            "canal",
+            "oude",
+            "vermeer",
+            "beesten"
+          ],
+          "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+        },
+        {
+          "title": "Canales del este y cerámica sin prisa",
+          "zone": "Oostpoort → Royal Delft",
+          "stopIds": [
+            "oost",
+            "royal"
+          ],
+          "editorialNote": "Segundo día opcional para cerámica y paseo, no repetición de las mismas plazas. Taller de pintar solo si se elige aparte con tiempo/precio verificados, no incluido por defecto.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "Medio día largo,4-5 h con comida y vuelta. Maps Markt-Oostpoort 711 m/9 min, puerta-Royal Delft 1,36 km/18 min. Llegar al museo antes 16 h o antes 15 h 24/31 diciembre. No añadir La Haya y volver a la fábrica por relleno."
+        },
+        {
+          "title": "Día libre verde, no necesario para conocer Delft",
+          "zone": "Molen de Roos → Delftse Hout opcional",
+          "stopIds": [
+            "mill",
+            "hout"
+          ],
+          "editorialNote": "Solo si se busca descansar/caminar y la meteorología acompaña. Para monumentos basta 1-2 días. La Haya se elige como ciudad separada, no se mete para vender tres días de Delft.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "Opción de 4-5 h incluyendo ida/vuelta y pausa, no agenda llena. Maps Markt-molino 865 m/11 min, molino-lago 2,94 km/39 min SOLOida. Molino no abre todos los días; si no interesa parque, dejar día libre sin inventar atracciones."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Agua/parque si apetece, sin baño garantizado por algas. Royal Delft separado del centro, no taller incluido.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Hortus cerrado noviembre-febrero. Iglesias: nov-ene 11-16 laborables, torre cierra 1 h antes. Día verde opcional con luz, no se obliga tercera jornada.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Royal Delft 25/26-12 y 01/01 cerrado,24/31 cierra 16. Vermeer 25 cerrado,26/12 y 01/01 abre 11. Iglesias: domingo culto, calendario propio prevalece, no apertura festiva garantizada.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Hortus solo 01/03-31/10 y lun cerrado salvo festivo: no alternativa genérica todo el año. Royal Delft 01/04-15/05 abre 9 según calendario 2026. Prinsenhof sigue cerrado, reapertura prevista 2028 no asegurada.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Vermeer Centrumno originales. Criptas reales no visitables. Prinsenhof cerrado desde 05/01/2025, reapertura prevista 2028 no confirmada.",
+    "Delft compacto:1-2 días razonables, tercerdía parque/tiempo libre no necesario. La Haya es otra ciudad y no excursión obligatoria.",
+    "Precios/horarios vigentes consultados 30/10/2026, no reservas ni promesa de disponibilidad."
+  ],
+  "excludedOrOptional": [
+    "Hortus Botanicus no base: cerrado noviembre-febrero,7,50€ adulto durante temporada según operador; entrada separada.",
+    "KEKcafé confirmado pero menúimagen no recuperable 403, no añadido para completar cuota ni precio supuesto.",
+    "No tour de cerveza, tallerde pintura ni barco añadidos por rutina; requieren decisión y verificación propia."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "Discover Delft: guía comercial un día, depurada",
+      "url": "https://discover-delft.com/blog/delft-in-one-day/",
+      "type": "local-tour-operator",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "In Delft:24 horas",
+      "url": "https://www.indelft.nl/en/stay-over/24-hours",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide3",
+      "title": "Dutch City Tours: guía comercial, contraste no independencia completa",
+      "url": "https://dutchcitytours.com/delft/",
+      "type": "tour-operator",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "Wanderlustingk: comidas por local 2023",
+      "url": "https://www.wanderlustingk.com/travel-blog/where-to-eat-delft",
+      "type": "local-traveller",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "greenfood",
+      "title": "Greenlist: cocina vegetal 2025",
+      "url": "https://www.thegreenlist.nl/en/the-best-sustainable-restaurants-in-delft/",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide2",
+      "title": "Barts Boekje: guía 2017 solo descubrimiento",
+      "url": "https://www.bartsboekje.com/en/5-x-lunch-delft/",
+      "type": "editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "church",
+      "title": "Iglesias: precios/horas",
+      "url": "https://www.oudeennieuwekerkdelft.nl/en/visit/prices-and-times/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "churchvisit",
+      "title": "Iglesias: domingo culto, no turismo",
+      "url": "https://www.oudeennieuwekerkdelft.nl/en/visit/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "tower",
+      "title": "Torre:376 escalones, reglas",
+      "url": "https://www.oudeennieuwekerkdelft.nl/en/new-church/tower/climb-the-tower/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "tombs",
+      "title": "Criptas NO públicas",
+      "url": "https://www.oudeennieuwekerkdelft.nl/en/new-church/house-of-orange/royal-tombs/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "vermeer",
+      "title": "Vermeer:15€, audioguía",
+      "url": "https://www.vermeerdelft.nl/en/tickets",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "vermeerhours",
+      "title": "Vermeer: sin originales, fiestas",
+      "url": "https://www.vermeerdelft.nl/en/opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "prinsen",
+      "title": "Prinsenhof cerrado desde 2025",
+      "url": "https://www.museumprinsenhofdelft.nl/en/renovation-refurbishing",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cityprinsen",
+      "title": "Ayuntamiento: reapertura prevista 2028",
+      "url": "https://www.delft.nl/vernieuwen-prinsenhof",
+      "type": "official-city",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "royal",
+      "title": "Royal Delft:17,50€,2026 cierres",
+      "url": "https://museum.royaldelft.com/en/plan-your-visit/visitors-information/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mill",
+      "title": "Molino: entrada gratis/inglés",
+      "url": "https://molenderoos.nl/home-en/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "millnl",
+      "title": "Molino: contradicción miércoles",
+      "url": "https://molenderoos.nl/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "hout",
+      "title": "Parque/calidadagua",
+      "url": "https://www.delft.nl/delftse-hout",
+      "type": "official-city",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "hortus",
+      "title": "Hortus: cerrado noviembre-febrero",
+      "url": "https://www.tudelft.nl/en/hortus-botanicus/plan-your-visit",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "stads",
+      "title": "Stads Koffyhuis: carta vigente 2026",
+      "url": "https://www.stads-koffyhuis.nl/kaart/english-menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "stadsmenu",
+      "title": "Carta principal abril 2026",
+      "url": "https://www.stads-koffyhuis.nl/assets/menucard/SKH-menukaart-dag-april-2026-en-05-1.pdf",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "stadsbreakfast",
+      "title": "Desayuno mayo 2026",
+      "url": "https://www.stads-koffyhuis.nl/assets/Uploads/SKH-ontbijtkaart-A5-mei2026-en.pdf",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "stadshours",
+      "title": "Horario web propio sin texto legible",
+      "url": "https://www.stads-koffyhuis.nl/contact/openingstijden/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "stadstourism",
+      "title": "Turismo: horario desayuno/almuerzo",
+      "url": "https://www.indelft.nl/nl/locaties/4181507010/stads-koffyhuis",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "hummus",
+      "title": "HUmmUS: menú actual",
+      "url": "https://hummustakeaway.squarespace.com/menu",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "hummushours",
+      "title": "HUmmUS: horario/sede/pago",
+      "url": "https://hummustakeaway.squarespace.com/contact",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro, canales y un interior principal",
+            "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+            "stopIds": [
+              "markt",
+              "nieuwe",
+              "canal",
+              "oude",
+              "vermeer",
+              "beesten"
+            ],
+            "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro, canales y un interior principal",
+            "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+            "stopIds": [
+              "markt",
+              "nieuwe",
+              "canal",
+              "oude",
+              "vermeer",
+              "beesten"
+            ],
+            "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+          },
+          {
+            "title": "Canales del este y cerámica sin prisa",
+            "zone": "Oostpoort → Royal Delft",
+            "stopIds": [
+              "oost",
+              "royal"
+            ],
+            "editorialNote": "Segundo día opcional para cerámica y paseo, no repetición de las mismas plazas. Taller de pintar solo si se elige aparte con tiempo/precio verificados, no incluido por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Medio día largo,4-5 h con comida y vuelta. Maps Markt-Oostpoort 711 m/9 min, puerta-Royal Delft 1,36 km/18 min. Llegar al museo antes 16 h o antes 15 h 24/31 diciembre. No añadir La Haya y volver a la fábrica por relleno."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro, canales y un interior principal",
+            "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+            "stopIds": [
+              "markt",
+              "nieuwe",
+              "canal",
+              "oude",
+              "vermeer",
+              "beesten"
+            ],
+            "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+          },
+          {
+            "title": "Canales del este y cerámica sin prisa",
+            "zone": "Oostpoort → Royal Delft",
+            "stopIds": [
+              "oost",
+              "royal"
+            ],
+            "editorialNote": "Segundo día opcional para cerámica y paseo, no repetición de las mismas plazas. Taller de pintar solo si se elige aparte con tiempo/precio verificados, no incluido por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Medio día largo,4-5 h con comida y vuelta. Maps Markt-Oostpoort 711 m/9 min, puerta-Royal Delft 1,36 km/18 min. Llegar al museo antes 16 h o antes 15 h 24/31 diciembre. No añadir La Haya y volver a la fábrica por relleno."
+          },
+          {
+            "title": "Día libre verde, no necesario para conocer Delft",
+            "zone": "Molen de Roos → Delftse Hout opcional",
+            "stopIds": [
+              "mill",
+              "hout"
+            ],
+            "editorialNote": "Solo si se busca descansar/caminar y la meteorología acompaña. Para monumentos basta 1-2 días. La Haya se elige como ciudad separada, no se mete para vender tres días de Delft.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Opción de 4-5 h incluyendo ida/vuelta y pausa, no agenda llena. Maps Markt-molino 865 m/11 min, molino-lago 2,94 km/39 min SOLOida. Molino no abre todos los días; si no interesa parque, dejar día libre sin inventar atracciones."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro, canales y un interior principal",
+            "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+            "stopIds": [
+              "markt",
+              "nieuwe",
+              "canal",
+              "oude",
+              "vermeer",
+              "beesten"
+            ],
+            "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro, canales y un interior principal",
+            "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+            "stopIds": [
+              "markt",
+              "nieuwe",
+              "canal",
+              "oude",
+              "vermeer",
+              "beesten"
+            ],
+            "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+          },
+          {
+            "title": "Canales del este y cerámica sin prisa",
+            "zone": "Oostpoort → Royal Delft",
+            "stopIds": [
+              "oost",
+              "royal"
+            ],
+            "editorialNote": "Segundo día opcional para cerámica y paseo, no repetición de las mismas plazas. Taller de pintar solo si se elige aparte con tiempo/precio verificados, no incluido por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Medio día largo,4-5 h con comida y vuelta. Maps Markt-Oostpoort 711 m/9 min, puerta-Royal Delft 1,36 km/18 min. Llegar al museo antes 16 h o antes 15 h 24/31 diciembre. No añadir La Haya y volver a la fábrica por relleno."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro, canales y un interior principal",
+            "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+            "stopIds": [
+              "markt",
+              "nieuwe",
+              "canal",
+              "oude",
+              "vermeer",
+              "beesten"
+            ],
+            "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+          },
+          {
+            "title": "Canales del este y cerámica sin prisa",
+            "zone": "Oostpoort → Royal Delft",
+            "stopIds": [
+              "oost",
+              "royal"
+            ],
+            "editorialNote": "Segundo día opcional para cerámica y paseo, no repetición de las mismas plazas. Taller de pintar solo si se elige aparte con tiempo/precio verificados, no incluido por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Medio día largo,4-5 h con comida y vuelta. Maps Markt-Oostpoort 711 m/9 min, puerta-Royal Delft 1,36 km/18 min. Llegar al museo antes 16 h o antes 15 h 24/31 diciembre. No añadir La Haya y volver a la fábrica por relleno."
+          },
+          {
+            "title": "Día libre verde, no necesario para conocer Delft",
+            "zone": "Molen de Roos → Delftse Hout opcional",
+            "stopIds": [
+              "mill",
+              "hout"
+            ],
+            "editorialNote": "Solo si se busca descansar/caminar y la meteorología acompaña. Para monumentos basta 1-2 días. La Haya se elige como ciudad separada, no se mete para vender tres días de Delft.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Opción de 4-5 h incluyendo ida/vuelta y pausa, no agenda llena. Maps Markt-molino 865 m/11 min, molino-lago 2,94 km/39 min SOLOida. Molino no abre todos los días; si no interesa parque, dejar día libre sin inventar atracciones."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro, canales y un interior principal",
+            "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+            "stopIds": [
+              "markt",
+              "nieuwe",
+              "canal",
+              "oude",
+              "vermeer",
+              "beesten"
+            ],
+            "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro, canales y un interior principal",
+            "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+            "stopIds": [
+              "markt",
+              "nieuwe",
+              "canal",
+              "oude",
+              "vermeer",
+              "beesten"
+            ],
+            "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+          },
+          {
+            "title": "Canales del este y cerámica sin prisa",
+            "zone": "Oostpoort → Royal Delft",
+            "stopIds": [
+              "oost",
+              "royal"
+            ],
+            "editorialNote": "Segundo día opcional para cerámica y paseo, no repetición de las mismas plazas. Taller de pintar solo si se elige aparte con tiempo/precio verificados, no incluido por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Medio día largo,4-5 h con comida y vuelta. Maps Markt-Oostpoort 711 m/9 min, puerta-Royal Delft 1,36 km/18 min. Llegar al museo antes 16 h o antes 15 h 24/31 diciembre. No añadir La Haya y volver a la fábrica por relleno."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro, canales y un interior principal",
+            "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+            "stopIds": [
+              "markt",
+              "nieuwe",
+              "canal",
+              "oude",
+              "vermeer",
+              "beesten"
+            ],
+            "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+          },
+          {
+            "title": "Canales del este y cerámica sin prisa",
+            "zone": "Oostpoort → Royal Delft",
+            "stopIds": [
+              "oost",
+              "royal"
+            ],
+            "editorialNote": "Segundo día opcional para cerámica y paseo, no repetición de las mismas plazas. Taller de pintar solo si se elige aparte con tiempo/precio verificados, no incluido por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Medio día largo,4-5 h con comida y vuelta. Maps Markt-Oostpoort 711 m/9 min, puerta-Royal Delft 1,36 km/18 min. Llegar al museo antes 16 h o antes 15 h 24/31 diciembre. No añadir La Haya y volver a la fábrica por relleno."
+          },
+          {
+            "title": "Día libre verde, no necesario para conocer Delft",
+            "zone": "Molen de Roos → Delftse Hout opcional",
+            "stopIds": [
+              "mill",
+              "hout"
+            ],
+            "editorialNote": "Solo si se busca descansar/caminar y la meteorología acompaña. Para monumentos basta 1-2 días. La Haya se elige como ciudad separada, no se mete para vender tres días de Delft.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Opción de 4-5 h incluyendo ida/vuelta y pausa, no agenda llena. Maps Markt-molino 865 m/11 min, molino-lago 2,94 km/39 min SOLOida. Molino no abre todos los días; si no interesa parque, dejar día libre sin inventar atracciones."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro, canales y un interior principal",
+            "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+            "stopIds": [
+              "markt",
+              "nieuwe",
+              "canal",
+              "oude",
+              "vermeer",
+              "beesten"
+            ],
+            "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro, canales y un interior principal",
+            "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+            "stopIds": [
+              "markt",
+              "nieuwe",
+              "canal",
+              "oude",
+              "vermeer",
+              "beesten"
+            ],
+            "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+          },
+          {
+            "title": "Canales del este y cerámica sin prisa",
+            "zone": "Oostpoort → Royal Delft",
+            "stopIds": [
+              "oost",
+              "royal"
+            ],
+            "editorialNote": "Segundo día opcional para cerámica y paseo, no repetición de las mismas plazas. Taller de pintar solo si se elige aparte con tiempo/precio verificados, no incluido por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Medio día largo,4-5 h con comida y vuelta. Maps Markt-Oostpoort 711 m/9 min, puerta-Royal Delft 1,36 km/18 min. Llegar al museo antes 16 h o antes 15 h 24/31 diciembre. No añadir La Haya y volver a la fábrica por relleno."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro, canales y un interior principal",
+            "zone": "Markt → Nieuwe Kerk → Oude Delft → Oude Kerk → Voldersgracht → Beestenmarkt",
+            "stopIds": [
+              "markt",
+              "nieuwe",
+              "canal",
+              "oude",
+              "vermeer",
+              "beesten"
+            ],
+            "editorialNote": "Nieuwe Kerk interior y Vermeer pueden combinarse si no se sube torre. Oude Kerk por fuera de base. Si se elige 376 escalones y dos iglesias, Vermeer pasa a alternativa; no verlo todo por tener combinación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps Markt-Oude Kerk 411 m/5 min, Oude Kerk-Vermeer 406 m/5 min, Vermeer-Beestenmarkt 383 m/5 min. Domingo turismo en iglesias cerrado: Vermeer y canales, no puertas abiertas prometidas."
+          },
+          {
+            "title": "Canales del este y cerámica sin prisa",
+            "zone": "Oostpoort → Royal Delft",
+            "stopIds": [
+              "oost",
+              "royal"
+            ],
+            "editorialNote": "Segundo día opcional para cerámica y paseo, no repetición de las mismas plazas. Taller de pintar solo si se elige aparte con tiempo/precio verificados, no incluido por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Medio día largo,4-5 h con comida y vuelta. Maps Markt-Oostpoort 711 m/9 min, puerta-Royal Delft 1,36 km/18 min. Llegar al museo antes 16 h o antes 15 h 24/31 diciembre. No añadir La Haya y volver a la fábrica por relleno."
+          },
+          {
+            "title": "Día libre verde, no necesario para conocer Delft",
+            "zone": "Molen de Roos → Delftse Hout opcional",
+            "stopIds": [
+              "mill",
+              "hout"
+            ],
+            "editorialNote": "Solo si se busca descansar/caminar y la meteorología acompaña. Para monumentos basta 1-2 días. La Haya se elige como ciudad separada, no se mete para vender tres días de Delft.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Opción de 4-5 h incluyendo ida/vuelta y pausa, no agenda llena. Maps Markt-molino 865 m/11 min, molino-lago 2,94 km/39 min SOLOida. Molino no abre todos los días; si no interesa parque, dejar día libre sin inventar atracciones."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Guías comerciales y turismo antes de oficiales/Maps, no tratadas como consenso independiente de críticos.",
+    "No acumular torre, ambas iglesias, Vermeer, Royal Delft en un día.",
+    "Royal Delft última entrada 16 vs 16:30 contradictoria conservada; molino miércoles 10 vs 13 conservado.",
+    "Fotosactualeslicenciadas 13,12 usadas, canal Mapswrong Boat Tripdescartado."
+  ],
+  "editorialTradeoffs": [
+    "Tercer día libre verde explícito, no relleno monumental.",
+    "Dos formatos comida suficientes, no cuota artificial."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Discover Delft/Dutch City Tours comerciales no independencia total; turismo y guíalocal Wanderlustingk. Se recorta itinerario comercial de todos los museos/torre/fábrica/barco. Greenlist 2025 y Barts 2017 solo descubrimiento, cartas actuales prevalecen."
+}

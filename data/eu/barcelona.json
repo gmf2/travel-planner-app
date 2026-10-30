@@ -1,0 +1,1321 @@
+{
+  "schemaVersion": 1,
+  "country": "ES",
+  "id": "barcelona",
+  "name": "Barcelona",
+  "localName": "Barcelona",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita de 1-3 días, sin fecha. Sagrada y parque en jornada larga con dos franjas; demás interiores como alternativas. No reservas ni disponibilidad prometida.",
+  "stops": [
+    {
+      "id": "sagrada",
+      "name": "Sagrada Família",
+      "kind": "visit",
+      "zone": "Eixample",
+      "reason": "La luz del interior y las fachadas son el eje del día modernista.",
+      "sourceIds": [
+        "sagrada",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.4036299,
+        "lon": 2.1743558
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Basilica+of+the+Sagrada+Familia&query_place_id=ChIJk_s92NyipBIRUMnDG8Kq2Js",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Entradas nominativas, documento con foto y hora estricta. Nov-feb lunes-sábado 9-18, domingo 10:30-18.25/12,26/12,1/1,6/1 9-14. Cambios por actos: revisar calendario. Torres son otra modalidad, no incluidas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/sagrada.jpg",
+        "source": "https://www.pexels.com/photo/exterior-design-of-the-la-sagrada-familia-cathedral-in-barcelona-12809590/",
+        "author": "Nikola Pavlačková",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Detalle de la fachada de la Sagrada Família"
+      },
+      "visitMode": "Interior principal; requiere franja de entrada, sin torre incluida"
+    },
+    {
+      "id": "santpau",
+      "name": "Sant Pau · fachada del Recinte Modernista",
+      "kind": "visit",
+      "zone": "Eixample norte",
+      "reason": "Paseo por la avenida Gaudí hasta la fachada, sin otra visita interior obligatoria.",
+      "sourceIds": [
+        "santpau",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.4117072,
+        "lon": 2.1743395
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Recinte+Modernista+de+Sant+Pau&query_place_id=ChIJJ0AB4M-ipBIRj3HSiyLF-gE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Sagrada→Sant Pau 1 km/14 min a pie, no 2 min andando. Recinto interior 9:30-18:30 abr-oct y 9:30-17 nov-mar, cerrado 25/12. Si se entra, sustituir Park Güell o recortar tarde.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/santpau.jpg",
+        "source": "https://pixabay.com/es/photos/hospital-de-sant-pau-de-barcelona-4881012/",
+        "author": "Leonhard_Niederwimmer",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "licenseURL": "https://pixabay.com/service/license-summary/",
+        "caption": "Fachada principal del recinto modernista de Sant Pau."
+      },
+      "visitMode": "Exterior; recinto de pago como alternativa"
+    },
+    {
+      "id": "guell",
+      "name": "Park Güell",
+      "kind": "visit",
+      "zone": "La Salut / Gràcia",
+      "reason": "Arquitectura y terraza de Gaudí. Requiere entrada con horario.",
+      "sourceIds": [
+        "guell",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.4144948,
+        "lon": 2.1526945
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Park+G%C3%BCell&query_place_id=ChIJq0HUUq6ipBIRWM6qGqALmok",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 105,
+      "durationType": "editorial-estimate",
+      "caution": "General 18 € en página oficial, no 10 € de guías anteriores. Entrada hasta 30 min después de la franja, sin reentrada. Primeras/últimas horas vecinales no permiten visita turística. Subidas y acceso: comprobar puerta y transporte. No se suma a varios interiores.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/park.jpg",
+        "source": "https://www.pexels.com/photo/the-view-from-the-top-of-the-park-guell-27348502/",
+        "author": "AXP Photography",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Terraza de Park Güell"
+      },
+      "visitMode": "Recinto monumental; requiere entrada con horario"
+    },
+    {
+      "id": "gracia",
+      "name": "Plaça de la Vila y calles de Gràcia",
+      "kind": "visit",
+      "zone": "Gràcia",
+      "reason": "Pausa para comer y pasear por plazas de barrio después del parque.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 41.4003931,
+        "lon": 2.1573622
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pla%C3%A7a+de+la+Vila+de+Gr%C3%A0cia&query_place_id=ChIJ5yBfMZaipBIRGc-7orEsTcQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Desde Park Güell a Plaça de la Vila 1,9 km/24 min a pie, con desnivel. Bus/taxi son alternativas según movilidad, no prometer ruta accesible.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/gracia.jpg",
+        "source": "https://www.flickr.com/photos/krossbow/51990895795/",
+        "author": "F Delventhal",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Plaça de la Vila de Gràcia y campanario. Encuadre adaptado a tarjeta."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "pedrera",
+      "name": "La Pedrera · fachada",
+      "kind": "visit",
+      "zone": "Passeig de Gràcia",
+      "reason": "Contemplar la fachada en el paseo descendente hacia Casa Batlló.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.3952155,
+        "lon": 2.1619024
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=La+Pedrera+-+Casa+Mil%C3%A0&query_place_id=ChIJ1eGKmZOipBIRah43T2Kjn8Q",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "caution": "La entrada al interior y azotea sería otra elección de pago que sustituye parte del día; no está implícita en esta parada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/mila.jpg",
+        "source": "https://www.pexels.com/photo/casa-mila-in-barcelona-spain-18957066/",
+        "author": "Miguel Saddi Vitorino",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Fachada de La Pedrera"
+      },
+      "visitMode": "Fachada exterior; interior no incluido"
+    },
+    {
+      "id": "batllo",
+      "name": "Casa Batlló · fachada",
+      "kind": "visit",
+      "zone": "Passeig de Gràcia",
+      "reason": "Fachada modernista para terminar el paseo por el Eixample.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.3917,
+        "lon": 2.164918
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Casa+Batll%C3%B3&query_place_id=ChIJYUFLSe2ipBIRD04uni940kA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "caution": "No implica acceso a azotea, patio ni experiencia inmersiva. Si se elige interior, reducir el resto del día.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/batllo.jpg",
+        "source": "https://www.pexels.com/photo/casa-battlo-facade-and-decorative-balconies-16920381/",
+        "author": "Demetra Ioannidou ",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Fachada de Casa Batlló"
+      },
+      "visitMode": "Fachada exterior; interior no incluido"
+    },
+    {
+      "id": "cathedral",
+      "name": "Catedral de Barcelona · exterior",
+      "kind": "visit",
+      "zone": "Gòtic",
+      "reason": "Pla de la Seu y fachada como comienzo del paseo medieval.",
+      "sourceIds": [
+        "cathedral",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.383962,
+        "lon": 2.1761991
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Cathedral+of+Barcelona&query_place_id=ChIJg2xxlvmipBIRg1jhdSQR9hY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Visita cultural interior 16 € según catedral, no tarifa 14 € de ficha municipal. Horario distinto domingos/festivos. No se promete visita cultural gratis por acceso de culto.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/cathedral.jpg",
+        "source": "https://www.pexels.com/photo/view-of-the-barcelona-cathedral-from-an-alley-between-buildings-14570742/",
+        "author": "Mehmet Turgut Kirkgoz",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Catedral de Barcelona desde el Gòtic"
+      },
+      "visitMode": "Plaza y fachada exterior"
+    },
+    {
+      "id": "rei",
+      "name": "Plaça del Rei y calles del Gòtic",
+      "kind": "visit",
+      "zone": "Gòtic",
+      "reason": "Calles medievales, plaza y entorno del Carrer del Bisbe con tiempo de paseo.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.3842222,
+        "lon": 2.177278
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pla%C3%A7a+del+Rei&query_place_id=ChIJU7fTDfmipBIRmT5QmiQ0Am4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/rei.jpg",
+        "source": "https://www.pexels.com/photo/placa-del-rei-in-barcelona-5236220/",
+        "author": "Leeloo The First",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Arquitectura de Plaça del Rei"
+      },
+      "visitMode": "Paseo exterior; museos no incluidos"
+    },
+    {
+      "id": "mar",
+      "name": "Santa Maria del Mar",
+      "kind": "visit",
+      "zone": "Born",
+      "reason": "Interior gótico como la única visita cultural breve del segundo día.",
+      "sourceIds": [
+        "mar",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.3838871,
+        "lon": 2.1820711
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Bas%C3%ADlica+de+Santa+Maria+del+Mar&query_place_id=ChIJV6QNXv6ipBIRYOHAH1yUvLQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Cultural lunes-sábado 10-18, domingo 13-18; última 17:30. Web indica 8 €. Fuera de esa franja el acceso a basílica es gratis, sujeto a liturgia; no garantiza torres ni terrazas. Consultar accesibilidad.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/santamaria.jpg",
+        "source": "https://www.pexels.com/photo/gothic-architecture-of-santa-maria-del-mar-barcelona-28648468/",
+        "author": "Elif Topal",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Interior de Santa Maria del Mar"
+      },
+      "visitMode": "Interior cultural de pago; alternativa exterior"
+    },
+    {
+      "id": "born",
+      "name": "El Born · entorno del antiguo mercado",
+      "kind": "visit",
+      "zone": "Born",
+      "reason": "Calles y plaza del antiguo mercado para paseo y comida, sin añadir otro museo.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.3856869,
+        "lon": 2.1836862
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=El+Born+Centre+de+Cultura+i+Mem%C3%B2ria&query_place_id=ChIJc0WMe_GipBIR_EfbMXL48cY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Museu Picasso, Moco y yacimiento no se acumulan automáticamente con la visita a la basílica.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/born.jpg",
+        "source": "https://www.pexels.com/photo/el-born-market-entrance-in-barcelona-31405652/",
+        "author": "Johnson Hie",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Antiguo mercado de El Born"
+      },
+      "visitMode": "Barrio y exterior; yacimiento no incluido"
+    },
+    {
+      "id": "barceloneta",
+      "name": "Barceloneta y paseo marítimo",
+      "kind": "visit",
+      "zone": "Barceloneta",
+      "reason": "Terminar junto al mar después de Gòtic y Born, sin cruzar a otra colina.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.3783713,
+        "lon": 2.1924685
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Barceloneta+Beach&query_place_id=ChIJJ5Y4CaijpBIR-2VJP9cOjh4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Con viento, lluvia o poca energía, terminar en Born. No se garantiza agua apta para baño ni vigilancia.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/barceloneta.jpg",
+        "source": "https://www.pexels.com/photo/sunny-day-at-barceloneta-beach-in-barcelona-34998186/",
+        "author": "Vinícius Vieira ft",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Playa y paseo de la Barceloneta"
+      },
+      "visitMode": "Paseo exterior; baño no programado"
+    },
+    {
+      "id": "espanya",
+      "name": "Plaça d’Espanya y avenida Maria Cristina",
+      "kind": "visit",
+      "zone": "Montjuïc bajo",
+      "reason": "Entrada natural al eje del Palau Nacional, sin empezar en la playa y saltar entre colinas.",
+      "sourceIds": [
+        "font",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.3750289,
+        "lon": 2.1491173
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pla%C3%A7a+d%27Espanya&query_place_id=ChIJIY9aQnmipBIRwhBhDkqH4CM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Font Màgica es opcional según programación real; aviso oficial de mantenimiento 1-15 noviembre sin espectáculos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/espanya.jpg",
+        "source": "https://www.pexels.com/photo/view-of-plaza-of-spain-square-with-towers-and-roundabout-26561165/",
+        "author": "Alina Skazka",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Plaça d'Espanya y torres venecianas"
+      },
+      "visitMode": "Plaza y paseo exterior"
+    },
+    {
+      "id": "mnac",
+      "name": "MNAC y explanada del Palau Nacional",
+      "kind": "visit",
+      "zone": "Montjuïc",
+      "reason": "Colección elegida como interior principal del tercer día; explanada y vistas si el museo cierra.",
+      "sourceIds": [
+        "mnac",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.3684399,
+        "lon": 2.15357
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Museu+Nacional+d%27Art+de+Catalunya&query_place_id=ChIJMU59xHGipBIRkdwlcgUWAYY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Mar-sáb 10-18 oct-abr y 10-20 may-sep; domingos/festivos 10-15. Lunes cerrado salvo festivos; 1/1,1/5,25/12 cerrado. General 12 €, acceso edificio/azotea 2 €: no confundir explanada gratuita con azotea. Elegir salas, no todo el museo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/mnac.jpg",
+        "source": "https://www.pexels.com/photo/montjuic-national-palace-in-barcelona-spain-14513878/",
+        "author": "Mylo Kaye",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Palau Nacional, sede del MNAC"
+      },
+      "visitMode": "Museo principal con entrada; exterior como alternativa"
+    },
+    {
+      "id": "olimpic",
+      "name": "Anella Olímpica",
+      "kind": "visit",
+      "zone": "Montjuïc",
+      "reason": "Paseo por el conjunto olímpico exterior tras una pausa, si quedan ganas de caminar.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.36488,
+        "lon": 2.15118
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Olympic+Ring&query_place_id=ChIJNVj_v3OipBIRAALLZX5KdKU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "Accesos pueden cambiar por eventos. No incluye entrada al estadio ni instalaciones deportivas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/olimpic.jpg",
+        "source": "https://www.pexels.com/photo/empty-olympic-stadium-in-barcelona-spain-35568917/",
+        "author": "Titouan Jullien",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Estadi Olímpic de Montjuïc: foto del entorno de la Anella Olímpica, no confirma acceso interior."
+      },
+      "visitMode": "Exteriores; estadios y eventos no incluidos"
+    },
+    {
+      "id": "mirador",
+      "name": "Mirador de l’Alcalde",
+      "kind": "visit",
+      "zone": "Montjuïc",
+      "reason": "Alternativa de paseo y vistas en vez del museo o del anillo, no otro extremo obligatorio.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.3667094,
+        "lon": 2.1694179
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Mirador+de+l%27Alcalde&query_place_id=ChIJ25rMlEOipBIRAhyQMWibcSM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "MNAC→mirador 1,7 km/25 min a pie. Elegirlo en lugar de parte de la ruta, no sumar castillo, teleférico, anillo y museo por defecto.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/mirador.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/15561036039",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Jardines del Mirador de l’Alcalde. Foto de archivo; encuadre adaptado a tarjeta."
+      },
+      "visitMode": "Alternativa exterior con desnivel"
+    },
+    {
+      "id": "maroutside",
+      "name": "Santa Maria del Mar · exterior",
+      "kind": "visit",
+      "zone": "Born",
+      "reason": "Final del paseo por Born sin sumar otra entrada.",
+      "sourceIds": [
+        "mar",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.3838871,
+        "lon": 2.1820711
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Bas%C3%ADlica+de+Santa+Maria+del+Mar&query_place_id=ChIJV6QNXv6ipBIRYOHAH1yUvLQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Cultural lunes-sábado 10-18, domingo 13-18; última 17:30. Web indica 8 €. Fuera de esa franja el acceso a basílica es gratis, sujeto a liturgia; no garantiza torres ni terrazas. Consultar accesibilidad.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/barcelona/maroutside.jpg",
+        "source": "https://www.pexels.com/photo/majestic-bell-tower-of-santa-maria-del-mar-38510162/",
+        "author": "trip1 Travel",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Torre de Santa Maria del Mar"
+      },
+      "visitMode": "Fachada y plaza exterior"
+    },
+    {
+      "id": "montserrat",
+      "name": "Montserrat",
+      "kind": "excursion",
+      "zone": "Fuera de Barcelona",
+      "reason": "Jornada propia que reemplaza un día urbano; no se añade tras Park Güell.",
+      "sourceIds": [
+        "montserrat",
+        "montserrathours"
+      ],
+      "coordinates": {
+        "lat": 41.5933378,
+        "lon": 1.8376246
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Santa+Maria+de+Montserrat+Abbey&query_place_id=ChIJM91TOlH1pBIR8UpzodtBqPM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 480,
+      "durationType": "editorial-estimate",
+      "caution": "Reservar modalidad de visita y comprobar cultos/calendario de la Escolania. No se garantiza coro ni acceso gratuito de no residentes. Senderos requieren meteorología y capacidad adecuadas; no ruta accesible verificada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Elegir santuario y paseo corto señalizado. No se incluye automáticamente Sant Jeroni, funiculares, museo y coro.",
+      "photo": {
+        "img": "assets/barcelona/montserrat.jpg",
+        "source": "https://www.pexels.com/photo/high-angle-view-of-the-santa-maria-de-montserrat-abbey-13248834/",
+        "author": "Daniel Guti",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Monasterio de Montserrat y entorno de montaña"
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Un día: Sagrada y centro antiguo",
+          "zone": "Sagrada Família → Gòtic → Born",
+          "stopIds": [
+            "sagrada",
+            "cathedral",
+            "rei",
+            "maroutside"
+          ],
+          "editorialNote": "Sagrada como único interior principal. Traslado al Gòtic; catedral y Santa Maria del Mar por fuera si se alarga la mañana. No promete Park Güell ni Montjuïc en el mismo día.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida y traslado, estimación editorial. Consulta de transporte Sagrada→Catedral 17 min el 30/10/2026 a 12:30 h; añadir esperas y accesos para la fecha real. Interior de Santa Maria opcional, no segunda obligación."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Gaudí: dos visitas con horario y paseo por el Eixample",
+          "zone": "Sagrada Família → Park Güell → Gràcia → Passeig de Gràcia",
+          "stopIds": [
+            "sagrada",
+            "guell",
+            "gracia",
+            "pedrera",
+            "batllo"
+          ],
+          "editorialNote": "Sagrada es el interior principal; Park Güell una segunda visita al aire libre que requiere entrada con horario. Pausa de comida y traslado entre ambas. Sant Pau queda como alternativa al parque, no otro interior añadido. La Pedrera y Batlló sólo por fuera. Si dos franjas cansan, sustituir parque por Sant Pau exterior y bajar a Gràcia.",
+          "optionalStopIds": [
+            "santpau"
+          ],
+          "geographyChecks": [],
+          "pacing": "8-9 h con comida, larga. Sagrada→Park Güell 2,1 km/35 min a pie con subida; consulta transporte 30 min el 30/10/2026 a 13 h, no plazo garantizado. Park→Vila de Gràcia 1,9 km/24 min; →Pedrera 0,8 km/10 min; →Batlló 0,5 km/6 min. Maps 29/10/2026."
+        },
+        {
+          "title": "Gòtic, Born y mar",
+          "zone": "Catedral → Plaça del Rei → Santa Maria del Mar → Barceloneta",
+          "stopIds": [
+            "cathedral",
+            "rei",
+            "mar",
+            "born",
+            "barceloneta"
+          ],
+          "editorialNote": "Catedral por fuera y Santa Maria del Mar como interior breve si hay apertura. Comer en Born; no sumar Picasso, Palau de la Música y Moco. Barceloneta es paseo final, no obligación de bañarse ni salto posterior a Montjuïc/Carmel.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas. Catedral→Rei 0,2 km/2 min; →Santa Maria 0,4 km/5 min; basílica→playa 1,1 km/16 min a pie (Maps 29/10/2026). El paseo por barrios añade tiempo."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Gaudí: dos visitas con horario y paseo por el Eixample",
+          "zone": "Sagrada Família → Park Güell → Gràcia → Passeig de Gràcia",
+          "stopIds": [
+            "sagrada",
+            "guell",
+            "gracia",
+            "pedrera",
+            "batllo"
+          ],
+          "editorialNote": "Sagrada es el interior principal; Park Güell una segunda visita al aire libre que requiere entrada con horario. Pausa de comida y traslado entre ambas. Sant Pau queda como alternativa al parque, no otro interior añadido. La Pedrera y Batlló sólo por fuera. Si dos franjas cansan, sustituir parque por Sant Pau exterior y bajar a Gràcia.",
+          "optionalStopIds": [
+            "santpau"
+          ],
+          "geographyChecks": [],
+          "pacing": "8-9 h con comida, larga. Sagrada→Park Güell 2,1 km/35 min a pie con subida; consulta transporte 30 min el 30/10/2026 a 13 h, no plazo garantizado. Park→Vila de Gràcia 1,9 km/24 min; →Pedrera 0,8 km/10 min; →Batlló 0,5 km/6 min. Maps 29/10/2026."
+        },
+        {
+          "title": "Gòtic, Born y mar",
+          "zone": "Catedral → Plaça del Rei → Santa Maria del Mar → Barceloneta",
+          "stopIds": [
+            "cathedral",
+            "rei",
+            "mar",
+            "born",
+            "barceloneta"
+          ],
+          "editorialNote": "Catedral por fuera y Santa Maria del Mar como interior breve si hay apertura. Comer en Born; no sumar Picasso, Palau de la Música y Moco. Barceloneta es paseo final, no obligación de bañarse ni salto posterior a Montjuïc/Carmel.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas. Catedral→Rei 0,2 km/2 min; →Santa Maria 0,4 km/5 min; basílica→playa 1,1 km/16 min a pie (Maps 29/10/2026). El paseo por barrios añade tiempo."
+        },
+        {
+          "title": "Montjuïc a ritmo de museo y paseo",
+          "zone": "Espanya → MNAC → Anella Olímpica",
+          "stopIds": [
+            "espanya",
+            "mnac",
+            "olimpic"
+          ],
+          "editorialNote": "MNAC como único interior largo. Tras comer, paseo al Anillo Olímpico si hay energía; Mirador de l’Alcalde es alternativa, no agregado. No se suman castillo, Poble Espanyol, Fundació Miró y otra colina. Es una jornada de Montjuïc, no un circuito que vuelve a Born.",
+          "optionalStopIds": [
+            "mirador"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-7 h con museo, comida y paseos. Espanya→MNAC 0,8 km/13 min con subida; MNAC→Anella 0,6 km/8 min a pie, Maps 29/10/2026. Ascensores/escaleras mecánicas no se dan por operativos."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Reservar Park Güell fuera del calor fuerte cuando las franjas lo permitan; agua y pausas. Sombra y paseo corto antes que añadir colinas.",
+      "sourceIds": [
+        "guell",
+        "sagrada"
+      ],
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Sagrada y Park Güell cierran antes; dos franjas exigen margen. Gràcia y fachadas bastan para cerrar; paseo marítimo o anillo quedan opcionales según luz y tiempo.",
+      "sourceIds": [
+        "guell",
+        "sagrada",
+        "mnac"
+      ],
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Sagrada tiene horario corto 25/12,26/12,1/1,6/1. Sant Pau y MNAC cierran 25/12; MNAC también 1/1. El día 3 es exterior corto con museo sólo si abre. No prometer espectáculos ni mercados sin edición fechada.",
+      "sourceIds": [
+        "sagrada",
+        "santpau",
+        "mnac",
+        "font"
+      ],
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Intercalar exterior e interior por lluvia. Font Màgica anuncia parada 1-15 noviembre: no organizar la noche alrededor de una función no confirmada.",
+      "sourceIds": [
+        "font",
+        "sagrada",
+        "mnac"
+      ],
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Sagrada y Park Güell requieren franjas compatibles y traslado con margen.",
+    "La Pedrera, Batlló y catedral se proponen por fuera; pagar una entrada implica recortar otras visitas.",
+    "Font Màgica no es un espectáculo diario garantizado: mantenimiento 1-15 noviembre anunciado."
+  ],
+  "excludedOrOptional": [
+    "Bunkers del Carmel no se suma a Montjuïc: otra colina al otro lado de la ciudad.",
+    "Palau de la Música, Picasso y Moco quedan para sustituir un interior, no acumularlos en Born.",
+    "Sant Pau interior, Casa Vicens, Batlló y Pedrera no se apilan con Sagrada y Park Güell."
+  ],
+  "sources": [
+    {
+      "id": "vc",
+      "title": "Viajeros Callejeros: tres días",
+      "url": "https://www.viajeroscallejeros.com/barcelona-en-3-dias/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "mm",
+      "title": "Mochileando: tres días",
+      "url": "https://www.mochileandoporelmundo.com/barcelona-en-3-dias/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "sagrada",
+      "title": "Sagrada Família: calendario y entradas",
+      "url": "https://sagradafamilia.org/en/faqs",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "guell",
+      "title": "Park Güell: tarifas y acceso",
+      "url": "https://parkguell.barcelona/en/planning-your-visit/prices-and-times",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "santpau",
+      "title": "Sant Pau: visita",
+      "url": "https://santpaubarcelona.org/en/prepara-la-teva-visita/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "cathedral",
+      "title": "Catedral: visita cultural",
+      "url": "https://catedralbcn.org/en/tourist-visit/visiting-hours/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "mar",
+      "title": "Santa Maria del Mar: visitas",
+      "url": "https://www.santamariadelmar.barcelona/en/opening-hours-and-admission-fees/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "mnac",
+      "title": "MNAC: horarios y precios",
+      "url": "https://www.museunacional.cat/en/opening-hours-and-prices",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "font",
+      "title": "Font Màgica: avisos y programación",
+      "url": "https://www.barcelona.cat/en/what-to-do-in-bcn/magic-fountain",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "montserrat",
+      "title": "Montserrat: acceso por tren y cremallera",
+      "url": "https://montserratvisita.com/en/organize-the-visit/how-to-get-here/by-cremallera-and-train",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "montserrathours",
+      "title": "Montserrat: calendario",
+      "url": "https://www.montserratvisita.com/en/practical-information/opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {
+    "summer": {
+      "mode": "editorial",
+      "note": "Reservar Park Güell fuera del calor fuerte cuando las franjas lo permitan; agua y pausas. Sombra y paseo corto antes que añadir colinas."
+    },
+    "winter": {
+      "mode": "editorial",
+      "note": "Sagrada y Park Güell cierran antes; dos franjas exigen margen. Gràcia y fachadas bastan para cerrar; paseo marítimo o anillo quedan opcionales según luz y tiempo."
+    },
+    "christmas": {
+      "mode": "editorial",
+      "note": "Sagrada tiene horario corto 25/12,26/12,1/1,6/1. Sant Pau y MNAC cierran 25/12; MNAC también 1/1. El día 3 es exterior corto con museo sólo si abre. No prometer espectáculos ni mercados sin edición fechada."
+    },
+    "springAutumn": {
+      "mode": "editorial",
+      "note": "Intercalar exterior e interior por lluvia. Font Màgica anuncia parada 1-15 noviembre: no organizar la noche alrededor de una función no confirmada."
+    }
+  },
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Un día: Sagrada y centro antiguo",
+            "zone": "Sagrada Família → Gòtic → Born",
+            "stopIds": [
+              "sagrada",
+              "cathedral",
+              "rei",
+              "maroutside"
+            ],
+            "editorialNote": "Sagrada como único interior principal. Traslado al Gòtic; catedral y Santa Maria del Mar por fuera si se alarga la mañana. No promete Park Güell ni Montjuïc en el mismo día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y traslado, estimación editorial. Consulta de transporte Sagrada→Catedral 17 min el 30/10/2026 a 12:30 h; añadir esperas y accesos para la fecha real. Interior de Santa Maria opcional, no segunda obligación."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Gaudí: dos visitas con horario y paseo por el Eixample",
+            "zone": "Sagrada Família → Park Güell → Gràcia → Passeig de Gràcia",
+            "stopIds": [
+              "sagrada",
+              "guell",
+              "gracia",
+              "pedrera",
+              "batllo"
+            ],
+            "editorialNote": "Sagrada es el interior principal; Park Güell una segunda visita al aire libre que requiere entrada con horario. Pausa de comida y traslado entre ambas. Sant Pau queda como alternativa al parque, no otro interior añadido. La Pedrera y Batlló sólo por fuera. Si dos franjas cansan, sustituir parque por Sant Pau exterior y bajar a Gràcia.",
+            "optionalStopIds": [
+              "santpau"
+            ],
+            "geographyChecks": [],
+            "pacing": "8-9 h con comida, larga. Sagrada→Park Güell 2,1 km/35 min a pie con subida; consulta transporte 30 min el 30/10/2026 a 13 h, no plazo garantizado. Park→Vila de Gràcia 1,9 km/24 min; →Pedrera 0,8 km/10 min; →Batlló 0,5 km/6 min. Maps 29/10/2026."
+          },
+          {
+            "title": "Gòtic, Born y mar",
+            "zone": "Catedral → Plaça del Rei → Santa Maria del Mar → Barceloneta",
+            "stopIds": [
+              "cathedral",
+              "rei",
+              "mar",
+              "born",
+              "barceloneta"
+            ],
+            "editorialNote": "Catedral por fuera y Santa Maria del Mar como interior breve si hay apertura. Comer en Born; no sumar Picasso, Palau de la Música y Moco. Barceloneta es paseo final, no obligación de bañarse ni salto posterior a Montjuïc/Carmel.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Catedral→Rei 0,2 km/2 min; →Santa Maria 0,4 km/5 min; basílica→playa 1,1 km/16 min a pie (Maps 29/10/2026). El paseo por barrios añade tiempo."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Gaudí: dos visitas con horario y paseo por el Eixample",
+            "zone": "Sagrada Família → Park Güell → Gràcia → Passeig de Gràcia",
+            "stopIds": [
+              "sagrada",
+              "guell",
+              "gracia",
+              "pedrera",
+              "batllo"
+            ],
+            "editorialNote": "Sagrada es el interior principal; Park Güell una segunda visita al aire libre que requiere entrada con horario. Pausa de comida y traslado entre ambas. Sant Pau queda como alternativa al parque, no otro interior añadido. La Pedrera y Batlló sólo por fuera. Si dos franjas cansan, sustituir parque por Sant Pau exterior y bajar a Gràcia.",
+            "optionalStopIds": [
+              "santpau"
+            ],
+            "geographyChecks": [],
+            "pacing": "8-9 h con comida, larga. Sagrada→Park Güell 2,1 km/35 min a pie con subida; consulta transporte 30 min el 30/10/2026 a 13 h, no plazo garantizado. Park→Vila de Gràcia 1,9 km/24 min; →Pedrera 0,8 km/10 min; →Batlló 0,5 km/6 min. Maps 29/10/2026."
+          },
+          {
+            "title": "Gòtic, Born y mar",
+            "zone": "Catedral → Plaça del Rei → Santa Maria del Mar → Barceloneta",
+            "stopIds": [
+              "cathedral",
+              "rei",
+              "mar",
+              "born",
+              "barceloneta"
+            ],
+            "editorialNote": "Catedral por fuera y Santa Maria del Mar como interior breve si hay apertura. Comer en Born; no sumar Picasso, Palau de la Música y Moco. Barceloneta es paseo final, no obligación de bañarse ni salto posterior a Montjuïc/Carmel.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Catedral→Rei 0,2 km/2 min; →Santa Maria 0,4 km/5 min; basílica→playa 1,1 km/16 min a pie (Maps 29/10/2026). El paseo por barrios añade tiempo."
+          },
+          {
+            "title": "Montjuïc a ritmo de museo y paseo",
+            "zone": "Espanya → MNAC → Anella Olímpica",
+            "stopIds": [
+              "espanya",
+              "mnac",
+              "olimpic"
+            ],
+            "editorialNote": "MNAC como único interior largo. Tras comer, paseo al Anillo Olímpico si hay energía; Mirador de l’Alcalde es alternativa, no agregado. No se suman castillo, Poble Espanyol, Fundació Miró y otra colina. Es una jornada de Montjuïc, no un circuito que vuelve a Born.",
+            "optionalStopIds": [
+              "mirador"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con museo, comida y paseos. Espanya→MNAC 0,8 km/13 min con subida; MNAC→Anella 0,6 km/8 min a pie, Maps 29/10/2026. Ascensores/escaleras mecánicas no se dan por operativos."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Un día: Sagrada y centro antiguo",
+            "zone": "Sagrada Família → Gòtic → Born",
+            "stopIds": [
+              "sagrada",
+              "cathedral",
+              "rei",
+              "maroutside"
+            ],
+            "editorialNote": "Sagrada como único interior principal. Traslado al Gòtic; catedral y Santa Maria del Mar por fuera si se alarga la mañana. No promete Park Güell ni Montjuïc en el mismo día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y traslado, estimación editorial. Consulta de transporte Sagrada→Catedral 17 min el 30/10/2026 a 12:30 h; añadir esperas y accesos para la fecha real. Interior de Santa Maria opcional, no segunda obligación."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Gaudí: dos visitas con horario y paseo por el Eixample",
+            "zone": "Sagrada Família → Park Güell → Gràcia → Passeig de Gràcia",
+            "stopIds": [
+              "sagrada",
+              "guell",
+              "gracia"
+            ],
+            "editorialNote": "Sagrada es el interior principal; Park Güell una segunda visita al aire libre que requiere entrada con horario. Pausa de comida y traslado entre ambas. Sant Pau queda como alternativa al parque, no otro interior añadido. La Pedrera y Batlló sólo por fuera. Si dos franjas cansan, sustituir parque por Sant Pau exterior y bajar a Gràcia. En día corto, fachadas de Passeig quedan opcionales; no cruzar la ciudad con prisa tras el parque.",
+            "optionalStopIds": [
+              "santpau",
+              "pedrera",
+              "batllo"
+            ],
+            "geographyChecks": [],
+            "pacing": "8-9 h con comida, larga. Sagrada→Park Güell 2,1 km/35 min a pie con subida; consulta transporte 30 min el 30/10/2026 a 13 h, no plazo garantizado. Park→Vila de Gràcia 1,9 km/24 min; →Pedrera 0,8 km/10 min; →Batlló 0,5 km/6 min. Maps 29/10/2026."
+          },
+          {
+            "title": "Gòtic, Born y mar",
+            "zone": "Catedral → Plaça del Rei → Santa Maria del Mar → Barceloneta",
+            "stopIds": [
+              "cathedral",
+              "rei",
+              "mar",
+              "born"
+            ],
+            "editorialNote": "Catedral por fuera y Santa Maria del Mar como interior breve si hay apertura. Comer en Born; no sumar Picasso, Palau de la Música y Moco. Barceloneta es paseo final, no obligación de bañarse ni salto posterior a Montjuïc/Carmel. Paseo marítimo opcional según viento y luz.",
+            "optionalStopIds": [
+              "barceloneta"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Catedral→Rei 0,2 km/2 min; →Santa Maria 0,4 km/5 min; basílica→playa 1,1 km/16 min a pie (Maps 29/10/2026). El paseo por barrios añade tiempo."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Gaudí: dos visitas con horario y paseo por el Eixample",
+            "zone": "Sagrada Família → Park Güell → Gràcia → Passeig de Gràcia",
+            "stopIds": [
+              "sagrada",
+              "guell",
+              "gracia"
+            ],
+            "editorialNote": "Sagrada es el interior principal; Park Güell una segunda visita al aire libre que requiere entrada con horario. Pausa de comida y traslado entre ambas. Sant Pau queda como alternativa al parque, no otro interior añadido. La Pedrera y Batlló sólo por fuera. Si dos franjas cansan, sustituir parque por Sant Pau exterior y bajar a Gràcia. En día corto, fachadas de Passeig quedan opcionales; no cruzar la ciudad con prisa tras el parque.",
+            "optionalStopIds": [
+              "santpau",
+              "pedrera",
+              "batllo"
+            ],
+            "geographyChecks": [],
+            "pacing": "8-9 h con comida, larga. Sagrada→Park Güell 2,1 km/35 min a pie con subida; consulta transporte 30 min el 30/10/2026 a 13 h, no plazo garantizado. Park→Vila de Gràcia 1,9 km/24 min; →Pedrera 0,8 km/10 min; →Batlló 0,5 km/6 min. Maps 29/10/2026."
+          },
+          {
+            "title": "Gòtic, Born y mar",
+            "zone": "Catedral → Plaça del Rei → Santa Maria del Mar → Barceloneta",
+            "stopIds": [
+              "cathedral",
+              "rei",
+              "mar",
+              "born"
+            ],
+            "editorialNote": "Catedral por fuera y Santa Maria del Mar como interior breve si hay apertura. Comer en Born; no sumar Picasso, Palau de la Música y Moco. Barceloneta es paseo final, no obligación de bañarse ni salto posterior a Montjuïc/Carmel. Paseo marítimo opcional según viento y luz.",
+            "optionalStopIds": [
+              "barceloneta"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Catedral→Rei 0,2 km/2 min; →Santa Maria 0,4 km/5 min; basílica→playa 1,1 km/16 min a pie (Maps 29/10/2026). El paseo por barrios añade tiempo."
+          },
+          {
+            "title": "Montjuïc a ritmo de museo y paseo",
+            "zone": "Espanya → MNAC → Anella Olímpica",
+            "stopIds": [
+              "espanya",
+              "mnac"
+            ],
+            "editorialNote": "MNAC como único interior largo. Tras comer, paseo al Anillo Olímpico si hay energía; Mirador de l’Alcalde es alternativa, no agregado. No se suman castillo, Poble Espanyol, Fundació Miró y otra colina. Es una jornada de Montjuïc, no un circuito que vuelve a Born. Anillo y mirador opcionales con poca luz.",
+            "optionalStopIds": [
+              "olimpic",
+              "mirador"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con museo, comida y paseos. Espanya→MNAC 0,8 km/13 min con subida; MNAC→Anella 0,6 km/8 min a pie, Maps 29/10/2026. Ascensores/escaleras mecánicas no se dan por operativos."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Un día: Sagrada y centro antiguo",
+            "zone": "Sagrada Família → Gòtic → Born",
+            "stopIds": [
+              "sagrada",
+              "cathedral",
+              "rei",
+              "maroutside"
+            ],
+            "editorialNote": "Sagrada como único interior principal. Traslado al Gòtic; catedral y Santa Maria del Mar por fuera si se alarga la mañana. No promete Park Güell ni Montjuïc en el mismo día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y traslado, estimación editorial. Consulta de transporte Sagrada→Catedral 17 min el 30/10/2026 a 12:30 h; añadir esperas y accesos para la fecha real. Interior de Santa Maria opcional, no segunda obligación."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Gaudí: dos visitas con horario y paseo por el Eixample",
+            "zone": "Sagrada Família → Park Güell → Gràcia → Passeig de Gràcia",
+            "stopIds": [
+              "sagrada",
+              "guell",
+              "gracia"
+            ],
+            "editorialNote": "Sagrada es el interior principal; Park Güell una segunda visita al aire libre que requiere entrada con horario. Pausa de comida y traslado entre ambas. Sant Pau queda como alternativa al parque, no otro interior añadido. La Pedrera y Batlló sólo por fuera. Si dos franjas cansan, sustituir parque por Sant Pau exterior y bajar a Gràcia. En día corto, fachadas de Passeig quedan opcionales; no cruzar la ciudad con prisa tras el parque.",
+            "optionalStopIds": [
+              "santpau",
+              "pedrera",
+              "batllo"
+            ],
+            "geographyChecks": [],
+            "pacing": "8-9 h con comida, larga. Sagrada→Park Güell 2,1 km/35 min a pie con subida; consulta transporte 30 min el 30/10/2026 a 13 h, no plazo garantizado. Park→Vila de Gràcia 1,9 km/24 min; →Pedrera 0,8 km/10 min; →Batlló 0,5 km/6 min. Maps 29/10/2026."
+          },
+          {
+            "title": "Gòtic, Born y mar",
+            "zone": "Catedral → Plaça del Rei → Santa Maria del Mar → Barceloneta",
+            "stopIds": [
+              "cathedral",
+              "rei",
+              "mar",
+              "born"
+            ],
+            "editorialNote": "Catedral por fuera y Santa Maria del Mar como interior breve si hay apertura. Comer en Born; no sumar Picasso, Palau de la Música y Moco. Barceloneta es paseo final, no obligación de bañarse ni salto posterior a Montjuïc/Carmel. Paseo marítimo opcional según viento y luz.",
+            "optionalStopIds": [
+              "barceloneta"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Catedral→Rei 0,2 km/2 min; →Santa Maria 0,4 km/5 min; basílica→playa 1,1 km/16 min a pie (Maps 29/10/2026). El paseo por barrios añade tiempo."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Gaudí: dos visitas con horario y paseo por el Eixample",
+            "zone": "Sagrada Família → Park Güell → Gràcia → Passeig de Gràcia",
+            "stopIds": [
+              "sagrada",
+              "guell",
+              "gracia"
+            ],
+            "editorialNote": "Sagrada es el interior principal; Park Güell una segunda visita al aire libre que requiere entrada con horario. Pausa de comida y traslado entre ambas. Sant Pau queda como alternativa al parque, no otro interior añadido. La Pedrera y Batlló sólo por fuera. Si dos franjas cansan, sustituir parque por Sant Pau exterior y bajar a Gràcia. En día corto, fachadas de Passeig quedan opcionales; no cruzar la ciudad con prisa tras el parque.",
+            "optionalStopIds": [
+              "santpau",
+              "pedrera",
+              "batllo"
+            ],
+            "geographyChecks": [],
+            "pacing": "8-9 h con comida, larga. Sagrada→Park Güell 2,1 km/35 min a pie con subida; consulta transporte 30 min el 30/10/2026 a 13 h, no plazo garantizado. Park→Vila de Gràcia 1,9 km/24 min; →Pedrera 0,8 km/10 min; →Batlló 0,5 km/6 min. Maps 29/10/2026."
+          },
+          {
+            "title": "Gòtic, Born y mar",
+            "zone": "Catedral → Plaça del Rei → Santa Maria del Mar → Barceloneta",
+            "stopIds": [
+              "cathedral",
+              "rei",
+              "mar",
+              "born"
+            ],
+            "editorialNote": "Catedral por fuera y Santa Maria del Mar como interior breve si hay apertura. Comer en Born; no sumar Picasso, Palau de la Música y Moco. Barceloneta es paseo final, no obligación de bañarse ni salto posterior a Montjuïc/Carmel. Paseo marítimo opcional según viento y luz.",
+            "optionalStopIds": [
+              "barceloneta"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Catedral→Rei 0,2 km/2 min; →Santa Maria 0,4 km/5 min; basílica→playa 1,1 km/16 min a pie (Maps 29/10/2026). El paseo por barrios añade tiempo."
+          },
+          {
+            "title": "Montjuïc a ritmo de museo y paseo",
+            "zone": "Espanya → MNAC → Anella Olímpica",
+            "stopIds": [
+              "espanya"
+            ],
+            "editorialNote": "Paseo exterior corto y comida. MNAC sólo si abre: cerrado 25/12 y 1/1. Anillo o mirador según luz y tiempo, no ambos obligatorios.",
+            "optionalStopIds": [
+              "mnac",
+              "olimpic",
+              "mirador"
+            ],
+            "geographyChecks": [],
+            "pacing": "3-5 h flexibles según fecha; no jornada de museo garantizada."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Un día: Sagrada y centro antiguo",
+            "zone": "Sagrada Família → Gòtic → Born",
+            "stopIds": [
+              "sagrada",
+              "cathedral",
+              "rei",
+              "maroutside"
+            ],
+            "editorialNote": "Sagrada como único interior principal. Traslado al Gòtic; catedral y Santa Maria del Mar por fuera si se alarga la mañana. No promete Park Güell ni Montjuïc en el mismo día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y traslado, estimación editorial. Consulta de transporte Sagrada→Catedral 17 min el 30/10/2026 a 12:30 h; añadir esperas y accesos para la fecha real. Interior de Santa Maria opcional, no segunda obligación."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Gaudí: dos visitas con horario y paseo por el Eixample",
+            "zone": "Sagrada Família → Park Güell → Gràcia → Passeig de Gràcia",
+            "stopIds": [
+              "sagrada",
+              "guell",
+              "gracia",
+              "pedrera",
+              "batllo"
+            ],
+            "editorialNote": "Sagrada es el interior principal; Park Güell una segunda visita al aire libre que requiere entrada con horario. Pausa de comida y traslado entre ambas. Sant Pau queda como alternativa al parque, no otro interior añadido. La Pedrera y Batlló sólo por fuera. Si dos franjas cansan, sustituir parque por Sant Pau exterior y bajar a Gràcia.",
+            "optionalStopIds": [
+              "santpau"
+            ],
+            "geographyChecks": [],
+            "pacing": "8-9 h con comida, larga. Sagrada→Park Güell 2,1 km/35 min a pie con subida; consulta transporte 30 min el 30/10/2026 a 13 h, no plazo garantizado. Park→Vila de Gràcia 1,9 km/24 min; →Pedrera 0,8 km/10 min; →Batlló 0,5 km/6 min. Maps 29/10/2026."
+          },
+          {
+            "title": "Gòtic, Born y mar",
+            "zone": "Catedral → Plaça del Rei → Santa Maria del Mar → Barceloneta",
+            "stopIds": [
+              "cathedral",
+              "rei",
+              "mar",
+              "born",
+              "barceloneta"
+            ],
+            "editorialNote": "Catedral por fuera y Santa Maria del Mar como interior breve si hay apertura. Comer en Born; no sumar Picasso, Palau de la Música y Moco. Barceloneta es paseo final, no obligación de bañarse ni salto posterior a Montjuïc/Carmel.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Catedral→Rei 0,2 km/2 min; →Santa Maria 0,4 km/5 min; basílica→playa 1,1 km/16 min a pie (Maps 29/10/2026). El paseo por barrios añade tiempo."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Gaudí: dos visitas con horario y paseo por el Eixample",
+            "zone": "Sagrada Família → Park Güell → Gràcia → Passeig de Gràcia",
+            "stopIds": [
+              "sagrada",
+              "guell",
+              "gracia",
+              "pedrera",
+              "batllo"
+            ],
+            "editorialNote": "Sagrada es el interior principal; Park Güell una segunda visita al aire libre que requiere entrada con horario. Pausa de comida y traslado entre ambas. Sant Pau queda como alternativa al parque, no otro interior añadido. La Pedrera y Batlló sólo por fuera. Si dos franjas cansan, sustituir parque por Sant Pau exterior y bajar a Gràcia.",
+            "optionalStopIds": [
+              "santpau"
+            ],
+            "geographyChecks": [],
+            "pacing": "8-9 h con comida, larga. Sagrada→Park Güell 2,1 km/35 min a pie con subida; consulta transporte 30 min el 30/10/2026 a 13 h, no plazo garantizado. Park→Vila de Gràcia 1,9 km/24 min; →Pedrera 0,8 km/10 min; →Batlló 0,5 km/6 min. Maps 29/10/2026."
+          },
+          {
+            "title": "Gòtic, Born y mar",
+            "zone": "Catedral → Plaça del Rei → Santa Maria del Mar → Barceloneta",
+            "stopIds": [
+              "cathedral",
+              "rei",
+              "mar",
+              "born",
+              "barceloneta"
+            ],
+            "editorialNote": "Catedral por fuera y Santa Maria del Mar como interior breve si hay apertura. Comer en Born; no sumar Picasso, Palau de la Música y Moco. Barceloneta es paseo final, no obligación de bañarse ni salto posterior a Montjuïc/Carmel.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Catedral→Rei 0,2 km/2 min; →Santa Maria 0,4 km/5 min; basílica→playa 1,1 km/16 min a pie (Maps 29/10/2026). El paseo por barrios añade tiempo."
+          },
+          {
+            "title": "Montjuïc a ritmo de museo y paseo",
+            "zone": "Espanya → MNAC → Anella Olímpica",
+            "stopIds": [
+              "espanya",
+              "mnac",
+              "olimpic"
+            ],
+            "editorialNote": "MNAC como único interior largo. Tras comer, paseo al Anillo Olímpico si hay energía; Mirador de l’Alcalde es alternativa, no agregado. No se suman castillo, Poble Espanyol, Fundació Miró y otra colina. Es una jornada de Montjuïc, no un circuito que vuelve a Born.",
+            "optionalStopIds": [
+              "mirador"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con museo, comida y paseos. Espanya→MNAC 0,8 km/13 min con subida; MNAC→Anella 0,6 km/8 min a pie, Maps 29/10/2026. Ascensores/escaleras mecánicas no se dan por operativos."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [
+    {
+      "id": "montserrat",
+      "name": "Montserrat",
+      "zone": "Fuera de Barcelona",
+      "lat": 41.5933378,
+      "lon": 1.8376246,
+      "coordSource": "https://www.google.com/maps/search/?api=1&query=Santa+Maria+de+Montserrat+Abbey&query_place_id=ChIJM91TOlH1pBIR8UpzodtBqPM",
+      "minutes": 480,
+      "sourceIds": [
+        "montserrat",
+        "montserrathours"
+      ],
+      "priority": "Santuario y paisaje de montaña",
+      "reason": "Jornada propia que reemplaza un día urbano; no se añade tras Park Güell.",
+      "visit": "Elegir santuario y paseo corto señalizado. No se incluye automáticamente Sant Jeroni, funiculares, museo y coro.",
+      "transport": "R5 desde Barcelona-Plaça Espanya a Monistrol de Montserrat y cremallera al monasterio. El tramo de cremallera dura 15 min según operador; no es el trayecto entero desde Barcelona. Aeri usa otra parada: no confundir billetes.",
+      "pacing": "7-9 h con ida, espera, visita y vuelta, estimación editorial.",
+      "caution": "Reservar modalidad de visita y comprobar cultos/calendario de la Escolania. No se garantiza coro ni acceso gratuito de no residentes. Senderos requieren meteorología y capacidad adecuadas; no ruta accesible verificada.",
+      "url": "https://www.montserratvisita.com/en/practical-information/opening-hours",
+      "access": "https://montserratvisita.com/en/organize-the-visit/how-to-get-here/by-cremallera-and-train",
+      "kind": "excursion",
+      "reviewedAt": "2026-10-29",
+      "closedMonthDays": [],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "photo": {
+        "img": "assets/barcelona/montserrat.jpg",
+        "source": "https://www.pexels.com/photo/high-angle-view-of-the-santa-maria-de-montserrat-abbey-13248834/",
+        "author": "Daniel Guti",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Monasterio de Montserrat y entorno de montaña"
+      }
+    }
+  ],
+  "editorialAudit": [
+    "29/10/2026: dos guías comparadas; se recorta acumulación de interiores y doble colina.",
+    "29/10/2026: Park Güell 18 €, catedral 16 € y Font Màgica con mantenimiento corregidos desde operadores, no copiados de guías."
+  ],
+  "editorialTradeoffs": [
+    "Un día prioriza Sagrada y centro antiguo; no promete Park Güell además.",
+    "Tres días dejan Montjuïc como bloque propio y no vuelven a las mismas zonas."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Las guías coinciden en Gaudí, casco antiguo y Montjuïc, pero acumulan muchos interiores y barrios. Se eligen fachadas, alternativas y una colina por jornada."
+}

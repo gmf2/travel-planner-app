@@ -5,7 +5,7 @@
   "name": "Wrocław",
   "localName": "Wrocław",
   "selectionReason": "Patrimonio silesio, islas y arquitectura; cuarta entre seis ciudades comparadas en huéspedes hoteleros GUS 2025.",
-  "reviewedAt": "2026-10-28",
+  "reviewedAt": "2026-10-29",
   "status": "editorially-reviewed-pilot",
   "planningAssumptions": "Primera visita cultural y ritmo moderado. La carga por día es una estimación editorial con comida, pausas y desplazamientos, no un horario comprobado. Las paradas exteriores no implican entrar en todos los edificios. Ajustar a entradas y fecha real.",
   "stops": [
@@ -419,8 +419,8 @@
           "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
         },
         {
-          "title": "Panorama y modernismo",
-          "zone": "Panorama → Szczytniki",
+          "title": "Panorama y modernismo del este",
+          "zone": "Este del centro → Szczytniki",
           "stopIds": [
             "panorama",
             "hall",
@@ -430,9 +430,24 @@
             "pavilion",
             "japan"
           ],
-          "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
-          "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
-          "geographyChecks": [],
+          "editorialNote": "Mañana en el este: Panorama de Racławice (una sola sala, visita con turno) y después el conjunto modernista de Szczytniki (Sala del Centenario y Pérgola), todo a pie dentro del parque. Panorama→Sala del Centenario: 3,2 km, transporte corto (18 min de referencia). El Pabellón de las Cuatro Cúpulas y el Museo Nacional están en «Más ideas»: la entrada del Panorama incluye sus permanentes, pero la regla de la casa es elegir una colección, no acumular museos.",
+          "pacing": "Mañana Panorama (~1 h con turno) y tarde en el parque de Szczytniki.",
+          "geographyChecks": [
+            {
+              "fromId": "panorama",
+              "toId": "hall",
+              "straightLineKm": 3.2,
+              "isWalkingRoute": false,
+              "transportSuggested": true
+            },
+            {
+              "fromId": "hall",
+              "toId": "pergola",
+              "straightLineKm": 0.2,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
           "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
         }
       ]
@@ -476,8 +491,8 @@
           "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
         },
         {
-          "title": "Panorama y modernismo",
-          "zone": "Panorama → Szczytniki",
+          "title": "Panorama y modernismo del este",
+          "zone": "Este del centro → Szczytniki",
           "stopIds": [
             "panorama",
             "hall",
@@ -487,25 +502,39 @@
             "pavilion",
             "japan"
           ],
-          "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
-          "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
-          "geographyChecks": [],
+          "editorialNote": "Mañana en el este: Panorama de Racławice (una sola sala, visita con turno) y después el conjunto modernista de Szczytniki (Sala del Centenario y Pérgola), todo a pie dentro del parque. Panorama→Sala del Centenario: 3,2 km, transporte corto (18 min de referencia). El Pabellón de las Cuatro Cúpulas y el Museo Nacional están en «Más ideas»: la entrada del Panorama incluye sus permanentes, pero la regla de la casa es elegir una colección, no acumular museos.",
+          "pacing": "Mañana Panorama (~1 h con turno) y tarde en el parque de Szczytniki.",
+          "geographyChecks": [
+            {
+              "fromId": "panorama",
+              "toId": "hall",
+              "straightLineKm": 3.2,
+              "isWalkingRoute": false,
+              "transportSuggested": true
+            },
+            {
+              "fromId": "hall",
+              "toId": "pergola",
+              "straightLineKm": 0.2,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
           "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
         },
         {
-          "title": "Arte elegido y Cuatro Confesiones",
-          "zone": "Szczytniki o Museo Nacional → centro",
+          "title": "Cuatro Confesiones y tarde libre",
+          "zone": "Suroeste del centro",
           "stopIds": [
-            "pavilion",
             "four"
           ],
-          "editorialNote": "Una colección principal: Pabellón de las Cuatro Cúpulas para arte contemporáneo, o sustituirlo por Museo Nacional si interesa arte histórico. Comida y regreso al Barrio de las Cuatro Confesiones. Jardín Japonés sustituye la colección cuando abre. No visitar por obligación todos los museos incluidos con Panorama. Lunes ambos museos cerrados: intercambiar día urbano o paseo.",
+          "editorialNote": "Mañana ligera de cierre en el Barrio de las Cuatro Confesiones, a pie desde el Rynek. Proponemos este tercer día más tranquilo, con la tarde libre; la excursión al castillo de Książ (selector de la jornada) es la alternativa de día completo, no un apéndice del día urbano.",
           "optionalStopIds": [
             "national",
             "japan"
           ],
           "geographyChecks": [],
-          "pacing": "Unas 5–6 h con una colección, comida, traslado y paseo; tiempo libre deliberado. Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria.",
+          "pacing": "Media jornada; combinable con el mercado o los cafés del centro.",
           "transferNote": "Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria."
         }
       ]
@@ -834,8 +863,8 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Panorama y modernismo",
-            "zone": "Panorama → Szczytniki",
+            "title": "Panorama y modernismo del este",
+            "zone": "Este del centro → Szczytniki",
             "stopIds": [
               "panorama",
               "hall",
@@ -845,9 +874,24 @@
               "pavilion",
               "japan"
             ],
-            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
-            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
-            "geographyChecks": [],
+            "editorialNote": "Mañana en el este: Panorama de Racławice (una sola sala, visita con turno) y después el conjunto modernista de Szczytniki (Sala del Centenario y Pérgola), todo a pie dentro del parque. Panorama→Sala del Centenario: 3,2 km, transporte corto (18 min de referencia). El Pabellón de las Cuatro Cúpulas y el Museo Nacional están en «Más ideas»: la entrada del Panorama incluye sus permanentes, pero la regla de la casa es elegir una colección, no acumular museos.",
+            "pacing": "Mañana Panorama (~1 h con turno) y tarde en el parque de Szczytniki.",
+            "geographyChecks": [
+              {
+                "fromId": "panorama",
+                "toId": "hall",
+                "straightLineKm": 3.2,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.2,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
             "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
           }
         ]
@@ -891,8 +935,8 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Panorama y modernismo",
-            "zone": "Panorama → Szczytniki",
+            "title": "Panorama y modernismo del este",
+            "zone": "Este del centro → Szczytniki",
             "stopIds": [
               "panorama",
               "hall",
@@ -902,25 +946,39 @@
               "pavilion",
               "japan"
             ],
-            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
-            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
-            "geographyChecks": [],
+            "editorialNote": "Mañana en el este: Panorama de Racławice (una sola sala, visita con turno) y después el conjunto modernista de Szczytniki (Sala del Centenario y Pérgola), todo a pie dentro del parque. Panorama→Sala del Centenario: 3,2 km, transporte corto (18 min de referencia). El Pabellón de las Cuatro Cúpulas y el Museo Nacional están en «Más ideas»: la entrada del Panorama incluye sus permanentes, pero la regla de la casa es elegir una colección, no acumular museos.",
+            "pacing": "Mañana Panorama (~1 h con turno) y tarde en el parque de Szczytniki.",
+            "geographyChecks": [
+              {
+                "fromId": "panorama",
+                "toId": "hall",
+                "straightLineKm": 3.2,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.2,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
             "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
           },
           {
-            "title": "Arte elegido y Cuatro Confesiones",
-            "zone": "Szczytniki o Museo Nacional → centro",
+            "title": "Cuatro Confesiones y tarde libre",
+            "zone": "Suroeste del centro",
             "stopIds": [
-              "pavilion",
               "four"
             ],
-            "editorialNote": "Una colección principal: Pabellón de las Cuatro Cúpulas para arte contemporáneo, o sustituirlo por Museo Nacional si interesa arte histórico. Comida y regreso al Barrio de las Cuatro Confesiones. Jardín Japonés sustituye la colección cuando abre. No visitar por obligación todos los museos incluidos con Panorama. Lunes ambos museos cerrados: intercambiar día urbano o paseo.",
+            "editorialNote": "Mañana ligera de cierre en el Barrio de las Cuatro Confesiones, a pie desde el Rynek. Proponemos este tercer día más tranquilo, con la tarde libre; la excursión al castillo de Książ (selector de la jornada) es la alternativa de día completo, no un apéndice del día urbano.",
             "optionalStopIds": [
               "national",
               "japan"
             ],
             "geographyChecks": [],
-            "pacing": "Unas 5–6 h con una colección, comida, traslado y paseo; tiempo libre deliberado. Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria.",
+            "pacing": "Media jornada; combinable con el mercado o los cafés del centro.",
             "transferNote": "Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria."
           }
         ]
@@ -1006,8 +1064,8 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Panorama y modernismo",
-            "zone": "Panorama → Szczytniki",
+            "title": "Panorama y modernismo del este",
+            "zone": "Este del centro → Szczytniki",
             "stopIds": [
               "panorama",
               "hall",
@@ -1016,9 +1074,24 @@
             "optionalStopIds": [
               "pavilion"
             ],
-            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
-            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
-            "geographyChecks": [],
+            "editorialNote": "Mañana en el este: Panorama de Racławice (una sola sala, visita con turno) y después el conjunto modernista de Szczytniki (Sala del Centenario y Pérgola), todo a pie dentro del parque. Panorama→Sala del Centenario: 3,2 km, transporte corto (18 min de referencia). El Pabellón de las Cuatro Cúpulas y el Museo Nacional están en «Más ideas»: la entrada del Panorama incluye sus permanentes, pero la regla de la casa es elegir una colección, no acumular museos.",
+            "pacing": "Mañana Panorama (~1 h con turno) y tarde en el parque de Szczytniki.",
+            "geographyChecks": [
+              {
+                "fromId": "panorama",
+                "toId": "hall",
+                "straightLineKm": 3.2,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.2,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
             "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
           }
         ]
@@ -1062,8 +1135,8 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Panorama y modernismo",
-            "zone": "Panorama → Szczytniki",
+            "title": "Panorama y modernismo del este",
+            "zone": "Este del centro → Szczytniki",
             "stopIds": [
               "panorama",
               "hall",
@@ -1072,24 +1145,38 @@
             "optionalStopIds": [
               "pavilion"
             ],
-            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
-            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
-            "geographyChecks": [],
+            "editorialNote": "Mañana en el este: Panorama de Racławice (una sola sala, visita con turno) y después el conjunto modernista de Szczytniki (Sala del Centenario y Pérgola), todo a pie dentro del parque. Panorama→Sala del Centenario: 3,2 km, transporte corto (18 min de referencia). El Pabellón de las Cuatro Cúpulas y el Museo Nacional están en «Más ideas»: la entrada del Panorama incluye sus permanentes, pero la regla de la casa es elegir una colección, no acumular museos.",
+            "pacing": "Mañana Panorama (~1 h con turno) y tarde en el parque de Szczytniki.",
+            "geographyChecks": [
+              {
+                "fromId": "panorama",
+                "toId": "hall",
+                "straightLineKm": 3.2,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.2,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
             "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
           },
           {
-            "title": "Arte elegido y Cuatro Confesiones",
-            "zone": "Szczytniki o Museo Nacional → centro",
+            "title": "Cuatro Confesiones y tarde libre",
+            "zone": "Suroeste del centro",
             "stopIds": [
-              "pavilion",
               "four"
             ],
-            "editorialNote": "Una colección principal: Pabellón de las Cuatro Cúpulas para arte contemporáneo, o sustituirlo por Museo Nacional si interesa arte histórico. Comida y regreso al Barrio de las Cuatro Confesiones. Jardín Japonés sustituye la colección cuando abre. No visitar por obligación todos los museos incluidos con Panorama. Lunes ambos museos cerrados: intercambiar día urbano o paseo.",
+            "editorialNote": "Mañana ligera de cierre en el Barrio de las Cuatro Confesiones, a pie desde el Rynek. Proponemos este tercer día más tranquilo, con la tarde libre; la excursión al castillo de Książ (selector de la jornada) es la alternativa de día completo, no un apéndice del día urbano.",
             "optionalStopIds": [
               "national"
             ],
             "geographyChecks": [],
-            "pacing": "Unas 5–6 h con una colección, comida, traslado y paseo; tiempo libre deliberado. Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria.",
+            "pacing": "Media jornada; combinable con el mercado o los cafés del centro.",
             "transferNote": "Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria."
           }
         ]
@@ -1175,8 +1262,8 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Panorama y modernismo",
-            "zone": "Panorama → Szczytniki",
+            "title": "Panorama y modernismo del este",
+            "zone": "Este del centro → Szczytniki",
             "stopIds": [
               "panorama",
               "hall",
@@ -1185,9 +1272,24 @@
             "optionalStopIds": [
               "pavilion"
             ],
-            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
-            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
-            "geographyChecks": [],
+            "editorialNote": "Mañana en el este: Panorama de Racławice (una sola sala, visita con turno) y después el conjunto modernista de Szczytniki (Sala del Centenario y Pérgola), todo a pie dentro del parque. Panorama→Sala del Centenario: 3,2 km, transporte corto (18 min de referencia). El Pabellón de las Cuatro Cúpulas y el Museo Nacional están en «Más ideas»: la entrada del Panorama incluye sus permanentes, pero la regla de la casa es elegir una colección, no acumular museos.",
+            "pacing": "Mañana Panorama (~1 h con turno) y tarde en el parque de Szczytniki.",
+            "geographyChecks": [
+              {
+                "fromId": "panorama",
+                "toId": "hall",
+                "straightLineKm": 3.2,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.2,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
             "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
           }
         ]
@@ -1231,8 +1333,8 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Panorama y modernismo",
-            "zone": "Panorama → Szczytniki",
+            "title": "Panorama y modernismo del este",
+            "zone": "Este del centro → Szczytniki",
             "stopIds": [
               "panorama",
               "hall",
@@ -1241,24 +1343,38 @@
             "optionalStopIds": [
               "pavilion"
             ],
-            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
-            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
-            "geographyChecks": [],
+            "editorialNote": "Mañana en el este: Panorama de Racławice (una sola sala, visita con turno) y después el conjunto modernista de Szczytniki (Sala del Centenario y Pérgola), todo a pie dentro del parque. Panorama→Sala del Centenario: 3,2 km, transporte corto (18 min de referencia). El Pabellón de las Cuatro Cúpulas y el Museo Nacional están en «Más ideas»: la entrada del Panorama incluye sus permanentes, pero la regla de la casa es elegir una colección, no acumular museos.",
+            "pacing": "Mañana Panorama (~1 h con turno) y tarde en el parque de Szczytniki.",
+            "geographyChecks": [
+              {
+                "fromId": "panorama",
+                "toId": "hall",
+                "straightLineKm": 3.2,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.2,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
             "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
           },
           {
-            "title": "Arte elegido y Cuatro Confesiones",
-            "zone": "Szczytniki o Museo Nacional → centro",
+            "title": "Cuatro Confesiones y tarde libre",
+            "zone": "Suroeste del centro",
             "stopIds": [
-              "pavilion",
               "four"
             ],
-            "editorialNote": "Una colección principal: Pabellón de las Cuatro Cúpulas para arte contemporáneo, o sustituirlo por Museo Nacional si interesa arte histórico. Comida y regreso al Barrio de las Cuatro Confesiones. Jardín Japonés sustituye la colección cuando abre. No visitar por obligación todos los museos incluidos con Panorama. Lunes ambos museos cerrados: intercambiar día urbano o paseo.",
+            "editorialNote": "Mañana ligera de cierre en el Barrio de las Cuatro Confesiones, a pie desde el Rynek. Proponemos este tercer día más tranquilo, con la tarde libre; la excursión al castillo de Książ (selector de la jornada) es la alternativa de día completo, no un apéndice del día urbano.",
             "optionalStopIds": [
               "national"
             ],
             "geographyChecks": [],
-            "pacing": "Unas 5–6 h con una colección, comida, traslado y paseo; tiempo libre deliberado. Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria.",
+            "pacing": "Media jornada; combinable con el mercado o los cafés del centro.",
             "transferNote": "Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria."
           }
         ]
@@ -1344,8 +1460,8 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Panorama y modernismo",
-            "zone": "Panorama → Szczytniki",
+            "title": "Panorama y modernismo del este",
+            "zone": "Este del centro → Szczytniki",
             "stopIds": [
               "panorama",
               "hall",
@@ -1355,9 +1471,24 @@
               "pavilion",
               "japan"
             ],
-            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
-            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
-            "geographyChecks": [],
+            "editorialNote": "Mañana en el este: Panorama de Racławice (una sola sala, visita con turno) y después el conjunto modernista de Szczytniki (Sala del Centenario y Pérgola), todo a pie dentro del parque. Panorama→Sala del Centenario: 3,2 km, transporte corto (18 min de referencia). El Pabellón de las Cuatro Cúpulas y el Museo Nacional están en «Más ideas»: la entrada del Panorama incluye sus permanentes, pero la regla de la casa es elegir una colección, no acumular museos.",
+            "pacing": "Mañana Panorama (~1 h con turno) y tarde en el parque de Szczytniki.",
+            "geographyChecks": [
+              {
+                "fromId": "panorama",
+                "toId": "hall",
+                "straightLineKm": 3.2,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.2,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
             "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
           }
         ]
@@ -1401,8 +1532,8 @@
             "pacing": "Unas 6–7 h con comida y paseo. Cuatro lugares del mismo eje central."
           },
           {
-            "title": "Panorama y modernismo",
-            "zone": "Panorama → Szczytniki",
+            "title": "Panorama y modernismo del este",
+            "zone": "Este del centro → Szczytniki",
             "stopIds": [
               "panorama",
               "hall",
@@ -1412,25 +1543,39 @@
               "pavilion",
               "japan"
             ],
-            "editorialNote": "Panorama con turno elegido primero: obra circular distinta de un museo de muchas salas. Comida y transporte a Hala Stulecia/Pérgola, exterior por defecto. Pabellón o Jardín Japonés sustituyen este bloque si se prefiere arte o jardín, no añadir ambos. En invierno lunes Panorama cierra; intercambiar día o elegir paseo exterior, sin inventar sesión.",
-            "pacing": "Unas 5–6 h con sesión, comida, traslado y arquitectura; sin espectáculo de fuente garantizado. Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado.",
-            "geographyChecks": [],
+            "editorialNote": "Mañana en el este: Panorama de Racławice (una sola sala, visita con turno) y después el conjunto modernista de Szczytniki (Sala del Centenario y Pérgola), todo a pie dentro del parque. Panorama→Sala del Centenario: 3,2 km, transporte corto (18 min de referencia). El Pabellón de las Cuatro Cúpulas y el Museo Nacional están en «Más ideas»: la entrada del Panorama incluye sus permanentes, pero la regla de la casa es elegir una colección, no acumular museos.",
+            "pacing": "Mañana Panorama (~1 h con turno) y tarde en el parque de Szczytniki.",
+            "geographyChecks": [
+              {
+                "fromId": "panorama",
+                "toId": "hall",
+                "straightLineKm": 3.2,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "hall",
+                "toId": "pergola",
+                "straightLineKm": 0.2,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
             "transferNote": "Panorama→Hala: referencia real2,5 km/35min a pie, con escaleras. Transporte recomendado para reservar energía; no horario confirmado."
           },
           {
-            "title": "Arte elegido y Cuatro Confesiones",
-            "zone": "Szczytniki o Museo Nacional → centro",
+            "title": "Cuatro Confesiones y tarde libre",
+            "zone": "Suroeste del centro",
             "stopIds": [
-              "pavilion",
               "four"
             ],
-            "editorialNote": "Una colección principal: Pabellón de las Cuatro Cúpulas para arte contemporáneo, o sustituirlo por Museo Nacional si interesa arte histórico. Comida y regreso al Barrio de las Cuatro Confesiones. Jardín Japonés sustituye la colección cuando abre. No visitar por obligación todos los museos incluidos con Panorama. Lunes ambos museos cerrados: intercambiar día urbano o paseo.",
+            "editorialNote": "Mañana ligera de cierre en el Barrio de las Cuatro Confesiones, a pie desde el Rynek. Proponemos este tercer día más tranquilo, con la tarde libre; la excursión al castillo de Książ (selector de la jornada) es la alternativa de día completo, no un apéndice del día urbano.",
             "optionalStopIds": [
               "national",
               "japan"
             ],
             "geographyChecks": [],
-            "pacing": "Unas 5–6 h con una colección, comida, traslado y paseo; tiempo libre deliberado. Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria.",
+            "pacing": "Media jornada; combinable con el mercado o los cafés del centro.",
             "transferNote": "Pabellón → barrio central requiere traslado. Museo Nacional alternativo, no segunda colección obligatoria."
           }
         ]
@@ -1454,8 +1599,8 @@
   "excursionDefault": "urban",
   "editorialTradeoffs": "Decisión: Panorama entra ya en dos días por singularidad y sesión corta, en vez de posponerlo tras un museo de arte genérico. En tres días una sola colección elegida y barrio vivo, no dos museos de arte seguidos. Hala exterior por defecto, porque eventos condicionan interior. Enanitos al paso, no búsqueda que consuma toda visita. Książ fuera del principal por coste de jornada y traslado; jardín japonés sustituye colección en temporada.",
   "editorialAudit": {
-    "reviewedAt": "2026-10-28",
-    "scope": "Selección editorial 1/2/3 días, cierres de interiores principales, jardín/catedral/fuente, dos restaurantes; no auditoría completa.",
+    "reviewedAt": "2026-10-29",
+    "scope": "Selección editorial 1/2/3 días, cierres de interiores principales, jardín/catedral/fuente, dos restaurantes; no auditoría completa. Revisión 2026-10-29: el Pabellón de las Cuatro Cúpulas pasa al día de Szczytniki (a 300 m de la Sala del Centenario); el día 3 queda como mañana de Cuatro Confesiones, sin repetir zona.",
     "openItems": [
       "Calendario Hala en inglés muestra 28/10 viernes y 5/11 sábado, corresponden a2022, no2026: no usar para disponibilidad.",
       "Książ modalidad elegida y acceso general aclarados; conexiones/entrada final dependen de fecha. Más variedad solo si aporta algo distinto.",
@@ -1475,7 +1620,7 @@
       "accessibility": "No verificada; ruta puede contener escaleras."
     }
   ],
-  "catalogRevision": "2026-10-28-editorial-pass2",
+  "catalogRevision": "2026-10-29-editorial-pass3d",
   "discoveryReview": {
     "reviewedAt": "2026-10-28",
     "method": "Búsqueda literal qué ver en la ciudad, lectura de secciones de visitas/itinerarios de varias guías, comparación con catálogo y juicio editorial; después contraste oficial de hechos operativos seleccionados.",

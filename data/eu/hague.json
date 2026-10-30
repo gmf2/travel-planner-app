@@ -1,0 +1,1145 @@
+{
+  "schemaVersion": 1,
+  "country": "NL",
+  "id": "hague",
+  "name": "La Haya",
+  "localName": "Den Haag",
+  "selectionReason": "Ampliación neerlandesa solicitada.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fechas concretas; un museo principal por jornada, sin reservas ni compras.",
+  "stops": [
+    {
+      "id": "hofvijver",
+      "name": "Hofvijver · mirar el Binnenhof desde fuera",
+      "kind": "visit",
+      "zone": "Hofvijver / Buitenhof",
+      "reason": "Empezar junto al agua para entender el centro político sin confundir la vista exterior con una entrada al complejo.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "binnenhof"
+      ],
+      "coordinates": {
+        "lat": 52.0804708,
+        "lon": 4.312958399999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Hofvijver&query_place_id=ChIJf19sySS3xUcR4ULIC3qC2w0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "El complejo Binnenhof está cerrado por la reforma: no se entra al patio, la Ridderzaal ni el Parlamento histórico. Las obras pueden afectar a la vista desde fuera. La foto es anterior a las obras. No se promete mirador abierto ni fecha de reapertura.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/hofvijver.jpg",
+        "source": "https://www.flickr.com/photos/zoetnet/27939313382/",
+        "author": "zoetnet",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Hofvijver y Binnenhof en archivo previo a obras; no acceso al complejo ni aspecto sin andamios garantizado. Recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; Binnenhof cerrado por obras"
+    },
+    {
+      "id": "maurits",
+      "name": "Mauritshuis · un museo, con obras en préstamo",
+      "kind": "visit",
+      "zone": "Plein / Mauritshuis",
+      "reason": "La visita principal del centro: pintura neerlandesa con tiempo para mirar, no otra cola más tras tres museos.",
+      "sourceIds": [
+        "maurits",
+        "exchange",
+        "mauritsholidays"
+      ],
+      "coordinates": {
+        "lat": 52.0804322,
+        "lon": 4.3143148
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Mauritshuis&query_place_id=ChIJEa9zVSO3xUcRXKUtUE5Qgbk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 140,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 21€; combinado con la Galería Príncipe Guillermo V 24€, solo galería 8,50€. Lun 13-18, mar-dom 10-18; reservar hora online, también con tarjeta de museo. Cerrado el 02/11/2026 por acto privado. El 24 y 31/12/2026 cierra a las 16; 25/12/2026 y 01/01/2027 cerrado, 26/12 hasta las 18. Del 15/10/2026 al 17/01/2027 hay intercambio de 25 obras con el Thyssen: Vista de Delft está prestada a Madrid; La joven de la perla sigue en la sala 15 según comunicado oficial. Comprobar préstamos si se viene por un cuadro concreto.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/maurits.jpg",
+        "source": "https://www.flickr.com/photos/romanboed/14530191211/",
+        "author": "RB Photo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "21€ · Vista de Delft prestada hasta enero de 2027"
+    },
+    {
+      "id": "passage",
+      "name": "De Passage · calles y una pausa cubierta",
+      "kind": "visit",
+      "zone": "Passage / centro",
+      "reason": "Caminar por la galería y comer por el centro, dejando que el barrio ocupe parte de la tarde sin otra entrada de museo.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 52.0778304,
+        "lon": 4.3116683
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Passage&query_place_id=ChIJvwQHViS3xUcRRxRApuYVrTA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Los comercios tienen horarios propios; no se promete galería abierta las 24 horas ni compras incluidas. No se programa un mercado o evento diario por una imagen de archivo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/passage.jpg",
+        "source": "https://www.flickr.com/photos/129231073@N06/39818611171/",
+        "author": "Fred Romero",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Galería y calles exteriores"
+    },
+    {
+      "id": "voorhout",
+      "name": "Lange Voorhout · volver al ritmo del paseo",
+      "kind": "visit",
+      "zone": "Lange Voorhout / Denneweg",
+      "reason": "Paseo de árboles y calles con cafés para cerrar el primer día; Escher es una sustitución si interesa más que los maestros.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 52.0823204,
+        "lon": 4.3119281
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Lange+Voorhout&query_place_id=ChIJg2ilGzu3xUcRa7GGaCbnUKU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Escher sustituye a Mauritshuis, no se suman dos museos obligatorios. Ferias, esculturas y eventos cambian; la foto no garantiza instalaciones temporales ni follaje de verano.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/voorhout.jpg",
+        "source": "https://www.flickr.com/photos/remcogroeneweg/7217554246/",
+        "author": "Remco Groeneweg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; Escher alternativa"
+    },
+    {
+      "id": "noordeinde",
+      "name": "Noordeinde · palacio de trabajo por fuera",
+      "kind": "visit",
+      "zone": "Noordeinde",
+      "reason": "Ver el palacio desde la calle y seguir por el barrio, sin vender una visita interior fuera de sus aperturas especiales.",
+      "sourceIds": [
+        "guide1",
+        "royal"
+      ],
+      "coordinates": {
+        "lat": 52.080894,
+        "lon": 4.3064643
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Noordeinde+Palace&query_place_id=ChIJ7Z3p3y-3xUcRSlbLwLHm8Y8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "Es un palacio de trabajo, no un museo de acceso diario. Las aperturas especiales de verano exigen sus propias fechas y entrada. No se promete cambio de guardia, carruajes ni acceso al interior.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/noordeinde.jpg",
+        "source": "https://www.flickr.com/photos/rubenholthuijsen/53509502043/",
+        "author": "Ruben Holthuijsen",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior del palacio"
+    },
+    {
+      "id": "garden",
+      "name": "Paleistuin · parar detrás del palacio",
+      "kind": "visit",
+      "zone": "Prinsessewal / jardín",
+      "reason": "Un jardín público para sentarse antes de un interior corto, diferenciándolo de los jardines privados del Palacio de la Paz.",
+      "sourceIds": [
+        "garden",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 52.0812834,
+        "lon": 4.3043395
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Paleistuin&query_place_id=ChIJw9Ps1TG3xUcRF7Si8bMorec",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "La fuente local indica apertura de amanecer a anochecer; puertas y cierres extraordinarios prevalecen. Entrada por Prinsessewal, no atravesando el palacio. No confundir con los jardines del Palacio de la Paz. En invierno, acortar por la luz disponible.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/garden.jpg",
+        "source": "https://www.flickr.com/photos/suasso/14308723239/",
+        "author": "suasso",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Jardín público exterior"
+    },
+    {
+      "id": "mesdag",
+      "name": "Panorama Mesdag · mirar la costa pintada",
+      "kind": "visit",
+      "zone": "Zeestraat",
+      "reason": "Una visita distinta y más breve que un segundo museo de cuadros, con un panorama envolvente de Scheveningen.",
+      "sourceIds": [
+        "mesdag",
+        "mesdaghours",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 52.0846659,
+        "lon": 4.3034284
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Panorama+Mesdag&query_place_id=ChIJV43BazG3xUcRbZPF3V4QbjE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 85,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 17,50€; mar-dom 10-17, lunes cerrado salvo excepciones publicadas. Cerrado el 25/12 y 01/01; el 31/12 cierra a las 16. La tabla oficial contiene una fecha antigua de Pentecostés: no se extrapola. La foto muestra el panorama pintado, no la playa real. No se garantiza acceso sin peldaños a la plataforma sin comprobar necesidades.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/mesdag.jpg",
+        "source": "https://www.flickr.com/photos/bertknot/8411144514/",
+        "author": "bertknot",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Interior real del panorama pictórico; es una pintura, no la playa actual ni acceso sin escalones demostrado. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago"
+    },
+    {
+      "id": "peace",
+      "name": "Palacio de la Paz · exterior y centro de visitantes",
+      "kind": "visit",
+      "zone": "Carnegieplein",
+      "reason": "Ver el edificio y entender sus instituciones en una visita pequeña, sin una reserva imaginaria para entrar en tribunales.",
+      "sourceIds": [
+        "peace",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 52.0869417,
+        "lon": 4.295465099999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Peace+Palace&query_place_id=ChIJcc2cVsuwxUcRVliWwdY4lEQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "El centro de visitantes es gratis: tabla actual jue-dom 12-16, lun-mié cerrado. Audioguía de unos 30 min en el móvil; llevar auriculares. Palacio y jardines solo mediante visita guiada aparte, con sesiones y condiciones propias; no están incluidos. Los avisos puntuales de cierre o tráfico prevalecen sobre la tabla general.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/peace.jpg",
+        "source": "https://www.flickr.com/photos/sammysix/7046205857/",
+        "author": "Sammy Six",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior; centro visitantes gratuito condicionado"
+    },
+    {
+      "id": "kunst",
+      "name": "Kunstmuseum · otro lenguaje, otro día",
+      "kind": "visit",
+      "zone": "Stadhouderslaan / Kunstmuseum",
+      "reason": "Un bloque propio para arquitectura y arte moderno antes de ir a la costa, no una desviación corta desde Mauritshuis.",
+      "sourceIds": [
+        "kunst",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 52.08994509999999,
+        "lon": 4.2806689
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Kunstmuseum+The+Hague&query_place_id=ChIJwWgR-MawxUcRahar2TR7Gaw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 22€; mar-dom 10-17, lunes cerrado salvo calendario especial. Combinado con Escher 30€, solo en taquilla, sin obligar a visitar ambos. El 24 y 31/12 cierra a las 16, 25/12 cerrado, 26/12 hasta las 17. La tabla consultada no confirma el 01/01/2027. Las obras expuestas cambian; la reunión de los últimos cuadros de Mondrian anunciada para 2027-2028 no es una exposición actual de 2026.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/kunst.jpg",
+        "source": "https://www.flickr.com/photos/ciaoanita/3510882803/",
+        "author": "Ciao Anita!",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago"
+    },
+    {
+      "id": "beach",
+      "name": "Scheveningen · la costa es medio día",
+      "kind": "visit",
+      "zone": "Kurhaus / boulevard / playa",
+      "reason": "Comer y caminar con horizonte abierto después del museo; si el tiempo es malo se recorta la costa en vez de forzar un paseo largo.",
+      "sourceIds": [
+        "pier",
+        "guide1",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 52.1131865,
+        "lon": 4.2817102
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Grand+Hotel+Amr%C3%A2th+Kurhaus&query_place_id=ChIJjZzgZ6ewxUcRQwDwnGtjhrA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Kunstmuseum-Kurhaus son unos 3,1 km y 43 min andando. Una consulta de transporte para el 30/10/2026 a las 14 h dio 15 min: es un ejemplo, no una frecuencia o duración garantizada para otra fecha. Reservar margen de espera. Viento, frío u oleaje pueden desaconsejar la playa. No se garantizan baño, terrazas de verano o actividades acuáticas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/beach.jpg",
+        "source": "https://www.flickr.com/photos/avanloon/49662118726/",
+        "author": "Alexander van Loon",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Playa y boulevard exteriores"
+    },
+    {
+      "id": "pier",
+      "name": "De Pier · entrar solo si el tiempo acompaña",
+      "kind": "visit",
+      "zone": "Scheveningen / muelle",
+      "reason": "Acercarse al mar desde el muelle, como parte del paseo costero, no otra atracción de pago que haya que completar.",
+      "sourceIds": [
+        "pier",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 52.11577699999999,
+        "lon": 4.282714299999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=De+Pier&query_place_id=ChIJV_lUeAm6xUcRhhbBTFfs5oM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "El muelle es gratuito: turismo indica 10-22, comida y comercios 10-21; cada operador puede variar. Noria, bungy y tirolina se pagan aparte y no están reservados. No se reutiliza el precio antiguo de 11€ de una guía. Clima y seguridad pueden cerrar el acceso o las actividades.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/pier.jpg",
+        "source": "https://www.flickr.com/photos/deepskyobject/29646389237/",
+        "author": "deepskyobject",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Muelle gratuito; atracciones aparte"
+    },
+    {
+      "id": "escher",
+      "name": "Escher en el palacio · alternativa al museo principal",
+      "kind": "visit",
+      "zone": "Lange Voorhout / Escher",
+      "reason": "Elegir ilusiones y grabados en lugar del museo de maestros o de arte moderno según interés, sin obligar tres colecciones.",
+      "sourceIds": [
+        "escher",
+        "escherhours",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 52.0835015,
+        "lon": 4.3144847
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Escher+in+the+Palace&query_place_id=ChIJc0Higju3xUcRF2JQkCuc2_Y",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 125,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 14,50€ en 2026; mar-dom 11-17, taquilla hasta las 16:30. Lunes cerrado salvo calendario. Entradas sin fecha ni hora, válidas un año. El 24 y 31/12/2026 cierra a las 16; 25/12/2026 y 01/01/2027 cerrado; 21 y 28/12/2026 abierto 11-17. La fecha prevalece sobre un día de la semana erróneo en la web. No se presupone Museumkaart gratuita.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/hague/escher.jpg",
+        "source": "https://www.flickr.com/photos/30557460@N05/19572159753/",
+        "author": "Scott Edmunds",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago; sustitución"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Centro y un museo sin prisas",
+          "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+          "stopIds": [
+            "hofvijver",
+            "maurits",
+            "passage",
+            "voorhout"
+          ],
+          "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+          "optionalStopIds": [
+            "escher"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Centro y un museo sin prisas",
+          "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+          "stopIds": [
+            "hofvijver",
+            "maurits",
+            "passage",
+            "voorhout"
+          ],
+          "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+          "optionalStopIds": [
+            "escher"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+        },
+        {
+          "title": "Palacio, jardín y un interior corto",
+          "zone": "Noordeinde → Paleistuin → Panorama Mesdag → Palacio de la Paz",
+          "stopIds": [
+            "noordeinde",
+            "garden",
+            "mesdag",
+            "peace"
+          ],
+          "editorialNote": "Noordeinde por fuera, jardín público y Mesdag como único museo. El centro del Palacio de la Paz depende del horario; no se incluye visita a jardines privados.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Noordeinde-Mesdag: 442 m / 6 min; Mesdag-Palacio de la Paz: 710 m / 10 min andando. Lunes Mesdag cerrado; centro de la Paz cerrado lun-mié: reordenar los días."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Centro y un museo sin prisas",
+          "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+          "stopIds": [
+            "hofvijver",
+            "maurits",
+            "passage",
+            "voorhout"
+          ],
+          "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+          "optionalStopIds": [
+            "escher"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+        },
+        {
+          "title": "Palacio, jardín y un interior corto",
+          "zone": "Noordeinde → Paleistuin → Panorama Mesdag → Palacio de la Paz",
+          "stopIds": [
+            "noordeinde",
+            "garden",
+            "mesdag",
+            "peace"
+          ],
+          "editorialNote": "Noordeinde por fuera, jardín público y Mesdag como único museo. El centro del Palacio de la Paz depende del horario; no se incluye visita a jardines privados.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Noordeinde-Mesdag: 442 m / 6 min; Mesdag-Palacio de la Paz: 710 m / 10 min andando. Lunes Mesdag cerrado; centro de la Paz cerrado lun-mié: reordenar los días."
+        },
+        {
+          "title": "Arte moderno y una tarde de mar",
+          "zone": "Kunstmuseum → Scheveningen → De Pier",
+          "stopIds": [
+            "kunst",
+            "beach",
+            "pier"
+          ],
+          "editorialNote": "Un museo en su barrio y después la costa. Escher puede sustituirlo, con traslado separado. Con mal tiempo se recorta la costa, sin forzar otro museo.",
+          "optionalStopIds": [
+            "escher"
+          ],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, transporte y pausas. Kunstmuseum-Kurhaus: 43 min / 3,1 km andando; consulta puntual en transporte: 15 min más espera. De Pier forma parte del paseo, no otra media jornada. Mover el museo si cae en lunes."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "La costa necesita tiempo propio, sin baño garantizado. Noordeinde solo permite interior en aperturas especiales con entrada.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Viento y luz condicionan la playa. Hasta el 17/01/2027, el intercambio con el Thyssen cambia la selección del Mauritshuis: Vista de Delft está fuera; La joven de la perla sigue en la sala 15 según comunicado.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Mauritshuis: 24 y 31/12/2026 hasta las 16, 25/12 y 01/01/2027 cerrado, 26/12 hasta las 18. Escher: 24 y 31/12 hasta las 16, 25/12 y 01/01 cerrado; 21 y 28/12 abierto. Mesdag: 25/12 y 01/01 cerrado, 31/12 hasta las 16. Kunstmuseum: 25/12 cerrado; 24 y 31/12 hasta las 16. Consultar el calendario de la fecha exacta.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Los lunes no cierran todos los museos: Mauritshuis abre a las 13, salvo excepciones como el cierre del 02/11/2026. Binnenhof permanece inaccesible por obras, sin reapertura prometida.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Binnenhof cerrado por obras. Jardines del Palacio de la Paz solo con visita guiada; Noordeinde es un palacio de trabajo.",
+    "El intercambio del Mauritshuis con el Thyssen afecta a 25 obras del 15/10/2026 al 17/01/2027: Vista de Delft está fuera.",
+    "No hay entradas, comidas ni traslados reservados. Costa y horarios dependen de fecha y clima."
+  ],
+  "excludedOrOptional": [
+    "Escher sustituye a otro museo, no se apilan cuatro colecciones.",
+    "Delft, Rotterdam, Voorlinden y Louwman no se añaden por defecto.",
+    "Bookstor queda fuera por falta de carta y horarios actuales verificables. Noria, bungy y tirolina no incluidos."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "Hidden Holland: guíalocal/asesor comercial",
+      "url": "https://www.hiddenholland.com/things-to-do-in-the-hague/",
+      "type": "local-commercial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "Wanderlustingk: vecina 2023",
+      "url": "https://www.wanderlustingk.com/travel-blog/things-to-do-the-hague",
+      "type": "local-traveller",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide3",
+      "title": "Canal Gables:2-3 días, contraste",
+      "url": "https://canalgables.com/the-hague-itinerary",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "Turismo: tokos elegidos por locales",
+      "url": "https://denhaag.com/en/tips-for-you/the-best-indonesian-restaurants-and-tokos-according-to-locals-in-the-hague",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide2",
+      "title": "Wanderlustingk: comidalocal 2023",
+      "url": "https://www.wanderlustingk.com/travel-blog/the-hague-food-guide",
+      "type": "local-traveller",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "maurits",
+      "title": "Mauritshuis: horas/precios actuales",
+      "url": "https://www.mauritshuis.nl/en/visit",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "exchange",
+      "title": "Intercambio Thyssen y La Jovendela Perla",
+      "url": "https://www.mauritshuis.nl/en/press-releases/the-mauritshuis-and-museo-nacional-thyssen-bornemisza-are-exchanging-25-highlights-from-each-collection",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "binnenhof",
+      "title": "Complejo cerrado por reforma",
+      "url": "https://www.binnenhofrenovatie.nl/onderwerpen/i/information-centre-english/bezoek-buiten-het-binnenhof",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "royal",
+      "title": "Noordeindepalaciotrabajo",
+      "url": "https://www.royal-house.nl/topics/palaces/noordeinde-palace",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "garden",
+      "title": "Paleistuinamaneceranochecer",
+      "url": "https://takethehague.nl/en/location/palace-garden",
+      "type": "local-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mesdag",
+      "title": "Mesdag:17,50",
+      "url": "https://panorama-mesdag.nl/en/visit/ticket-prices/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mesdaghours",
+      "title": "Mesdag: horarios 2026",
+      "url": "https://panorama-mesdag.nl/bezoek/openingstijden/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "peace",
+      "title": "Centrovisitantes: tablaactual",
+      "url": "https://www.vredespaleis.nl/visit/visitors-centre-2/?lang=en",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "kunst",
+      "title": "Kunstmuseum:22€, horarios",
+      "url": "https://www.kunstmuseum.nl/en/visit",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "escher",
+      "title": "Escher:14,50€2026",
+      "url": "https://escherinhetpaleis.nl/en/visit/admission",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "escherhours",
+      "title": "Escher: horarios y fiestas",
+      "url": "https://www.escherinhetpaleis.nl/en/visit/opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "pier",
+      "title": "De Pier: gratis, horarios por parte",
+      "url": "https://denhaag.com/en/the-pier",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "toko",
+      "title": "Toko Frederik: carta actual sin precios",
+      "url": "https://www.tokofrederik.nl/menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "tokohome",
+      "title": "Toko: sede 225, opciones vegetales",
+      "url": "https://www.tokofrederik.nl/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "baladi",
+      "title": "Baladi: cartaprecios/horarios",
+      "url": "https://baladionline.nl/Menu/",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "baladicontact",
+      "title": "Baladi: sede",
+      "url": "https://baladionline.nl/Contact/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mauritsholidays",
+      "title": "Mauritshuis: calendario especial 2026 y enero 2027",
+      "url": "https://www.mauritshuis.nl/en/visit/special-opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro y un museo sin prisas",
+            "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+            "stopIds": [
+              "hofvijver",
+              "maurits",
+              "passage",
+              "voorhout"
+            ],
+            "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro y un museo sin prisas",
+            "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+            "stopIds": [
+              "hofvijver",
+              "maurits",
+              "passage",
+              "voorhout"
+            ],
+            "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+          },
+          {
+            "title": "Palacio, jardín y un interior corto",
+            "zone": "Noordeinde → Paleistuin → Panorama Mesdag → Palacio de la Paz",
+            "stopIds": [
+              "noordeinde",
+              "garden",
+              "mesdag",
+              "peace"
+            ],
+            "editorialNote": "Noordeinde por fuera, jardín público y Mesdag como único museo. El centro del Palacio de la Paz depende del horario; no se incluye visita a jardines privados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Noordeinde-Mesdag: 442 m / 6 min; Mesdag-Palacio de la Paz: 710 m / 10 min andando. Lunes Mesdag cerrado; centro de la Paz cerrado lun-mié: reordenar los días."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro y un museo sin prisas",
+            "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+            "stopIds": [
+              "hofvijver",
+              "maurits",
+              "passage",
+              "voorhout"
+            ],
+            "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+          },
+          {
+            "title": "Palacio, jardín y un interior corto",
+            "zone": "Noordeinde → Paleistuin → Panorama Mesdag → Palacio de la Paz",
+            "stopIds": [
+              "noordeinde",
+              "garden",
+              "mesdag",
+              "peace"
+            ],
+            "editorialNote": "Noordeinde por fuera, jardín público y Mesdag como único museo. El centro del Palacio de la Paz depende del horario; no se incluye visita a jardines privados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Noordeinde-Mesdag: 442 m / 6 min; Mesdag-Palacio de la Paz: 710 m / 10 min andando. Lunes Mesdag cerrado; centro de la Paz cerrado lun-mié: reordenar los días."
+          },
+          {
+            "title": "Arte moderno y una tarde de mar",
+            "zone": "Kunstmuseum → Scheveningen → De Pier",
+            "stopIds": [
+              "kunst",
+              "beach",
+              "pier"
+            ],
+            "editorialNote": "Un museo en su barrio y después la costa. Escher puede sustituirlo, con traslado separado. Con mal tiempo se recorta la costa, sin forzar otro museo.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, transporte y pausas. Kunstmuseum-Kurhaus: 43 min / 3,1 km andando; consulta puntual en transporte: 15 min más espera. De Pier forma parte del paseo, no otra media jornada. Mover el museo si cae en lunes."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro y un museo sin prisas",
+            "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+            "stopIds": [
+              "hofvijver",
+              "maurits",
+              "passage",
+              "voorhout"
+            ],
+            "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro y un museo sin prisas",
+            "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+            "stopIds": [
+              "hofvijver",
+              "maurits",
+              "passage",
+              "voorhout"
+            ],
+            "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+          },
+          {
+            "title": "Palacio, jardín y un interior corto",
+            "zone": "Noordeinde → Paleistuin → Panorama Mesdag → Palacio de la Paz",
+            "stopIds": [
+              "noordeinde",
+              "garden",
+              "mesdag",
+              "peace"
+            ],
+            "editorialNote": "Noordeinde por fuera, jardín público y Mesdag como único museo. El centro del Palacio de la Paz depende del horario; no se incluye visita a jardines privados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Noordeinde-Mesdag: 442 m / 6 min; Mesdag-Palacio de la Paz: 710 m / 10 min andando. Lunes Mesdag cerrado; centro de la Paz cerrado lun-mié: reordenar los días."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro y un museo sin prisas",
+            "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+            "stopIds": [
+              "hofvijver",
+              "maurits",
+              "passage",
+              "voorhout"
+            ],
+            "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+          },
+          {
+            "title": "Palacio, jardín y un interior corto",
+            "zone": "Noordeinde → Paleistuin → Panorama Mesdag → Palacio de la Paz",
+            "stopIds": [
+              "noordeinde",
+              "garden",
+              "mesdag",
+              "peace"
+            ],
+            "editorialNote": "Noordeinde por fuera, jardín público y Mesdag como único museo. El centro del Palacio de la Paz depende del horario; no se incluye visita a jardines privados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Noordeinde-Mesdag: 442 m / 6 min; Mesdag-Palacio de la Paz: 710 m / 10 min andando. Lunes Mesdag cerrado; centro de la Paz cerrado lun-mié: reordenar los días."
+          },
+          {
+            "title": "Arte moderno y una tarde de mar",
+            "zone": "Kunstmuseum → Scheveningen → De Pier",
+            "stopIds": [
+              "kunst",
+              "beach",
+              "pier"
+            ],
+            "editorialNote": "Un museo en su barrio y después la costa. Escher puede sustituirlo, con traslado separado. Con mal tiempo se recorta la costa, sin forzar otro museo.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, transporte y pausas. Kunstmuseum-Kurhaus: 43 min / 3,1 km andando; consulta puntual en transporte: 15 min más espera. De Pier forma parte del paseo, no otra media jornada. Mover el museo si cae en lunes."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro y un museo sin prisas",
+            "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+            "stopIds": [
+              "hofvijver",
+              "maurits",
+              "passage",
+              "voorhout"
+            ],
+            "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro y un museo sin prisas",
+            "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+            "stopIds": [
+              "hofvijver",
+              "maurits",
+              "passage",
+              "voorhout"
+            ],
+            "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+          },
+          {
+            "title": "Palacio, jardín y un interior corto",
+            "zone": "Noordeinde → Paleistuin → Panorama Mesdag → Palacio de la Paz",
+            "stopIds": [
+              "noordeinde",
+              "garden",
+              "mesdag",
+              "peace"
+            ],
+            "editorialNote": "Noordeinde por fuera, jardín público y Mesdag como único museo. El centro del Palacio de la Paz depende del horario; no se incluye visita a jardines privados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Noordeinde-Mesdag: 442 m / 6 min; Mesdag-Palacio de la Paz: 710 m / 10 min andando. Lunes Mesdag cerrado; centro de la Paz cerrado lun-mié: reordenar los días."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro y un museo sin prisas",
+            "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+            "stopIds": [
+              "hofvijver",
+              "maurits",
+              "passage",
+              "voorhout"
+            ],
+            "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+          },
+          {
+            "title": "Palacio, jardín y un interior corto",
+            "zone": "Noordeinde → Paleistuin → Panorama Mesdag → Palacio de la Paz",
+            "stopIds": [
+              "noordeinde",
+              "garden",
+              "mesdag",
+              "peace"
+            ],
+            "editorialNote": "Noordeinde por fuera, jardín público y Mesdag como único museo. El centro del Palacio de la Paz depende del horario; no se incluye visita a jardines privados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Noordeinde-Mesdag: 442 m / 6 min; Mesdag-Palacio de la Paz: 710 m / 10 min andando. Lunes Mesdag cerrado; centro de la Paz cerrado lun-mié: reordenar los días."
+          },
+          {
+            "title": "Arte moderno y una tarde de mar",
+            "zone": "Kunstmuseum → Scheveningen → De Pier",
+            "stopIds": [
+              "kunst",
+              "beach",
+              "pier"
+            ],
+            "editorialNote": "Un museo en su barrio y después la costa. Escher puede sustituirlo, con traslado separado. Con mal tiempo se recorta la costa, sin forzar otro museo.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, transporte y pausas. Kunstmuseum-Kurhaus: 43 min / 3,1 km andando; consulta puntual en transporte: 15 min más espera. De Pier forma parte del paseo, no otra media jornada. Mover el museo si cae en lunes."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro y un museo sin prisas",
+            "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+            "stopIds": [
+              "hofvijver",
+              "maurits",
+              "passage",
+              "voorhout"
+            ],
+            "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro y un museo sin prisas",
+            "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+            "stopIds": [
+              "hofvijver",
+              "maurits",
+              "passage",
+              "voorhout"
+            ],
+            "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+          },
+          {
+            "title": "Palacio, jardín y un interior corto",
+            "zone": "Noordeinde → Paleistuin → Panorama Mesdag → Palacio de la Paz",
+            "stopIds": [
+              "noordeinde",
+              "garden",
+              "mesdag",
+              "peace"
+            ],
+            "editorialNote": "Noordeinde por fuera, jardín público y Mesdag como único museo. El centro del Palacio de la Paz depende del horario; no se incluye visita a jardines privados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Noordeinde-Mesdag: 442 m / 6 min; Mesdag-Palacio de la Paz: 710 m / 10 min andando. Lunes Mesdag cerrado; centro de la Paz cerrado lun-mié: reordenar los días."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro y un museo sin prisas",
+            "zone": "Hofvijver → Mauritshuis → De Passage → Lange Voorhout",
+            "stopIds": [
+              "hofvijver",
+              "maurits",
+              "passage",
+              "voorhout"
+            ],
+            "editorialNote": "Mauritshuis es la visita principal; Escher lo sustituye. Binnenhof solo por fuera. El lunes, Mauritshuis abre a las 13: mover paseo y comida a la mañana; cerrado el 02/11/2026.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Mauritshuis-Passage: 574 m / 7 min; Passage-Lange Voorhout: 667 m / 9 min andando. Son traslados, no la duración completa de cada parada."
+          },
+          {
+            "title": "Palacio, jardín y un interior corto",
+            "zone": "Noordeinde → Paleistuin → Panorama Mesdag → Palacio de la Paz",
+            "stopIds": [
+              "noordeinde",
+              "garden",
+              "mesdag",
+              "peace"
+            ],
+            "editorialNote": "Noordeinde por fuera, jardín público y Mesdag como único museo. El centro del Palacio de la Paz depende del horario; no se incluye visita a jardines privados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Noordeinde-Mesdag: 442 m / 6 min; Mesdag-Palacio de la Paz: 710 m / 10 min andando. Lunes Mesdag cerrado; centro de la Paz cerrado lun-mié: reordenar los días."
+          },
+          {
+            "title": "Arte moderno y una tarde de mar",
+            "zone": "Kunstmuseum → Scheveningen → De Pier",
+            "stopIds": [
+              "kunst",
+              "beach",
+              "pier"
+            ],
+            "editorialNote": "Un museo en su barrio y después la costa. Escher puede sustituirlo, con traslado separado. Con mal tiempo se recorta la costa, sin forzar otro museo.",
+            "optionalStopIds": [
+              "escher"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, transporte y pausas. Kunstmuseum-Kurhaus: 43 min / 3,1 km andando; consulta puntual en transporte: 15 min más espera. De Pier forma parte del paseo, no otra media jornada. Mover el museo si cae en lunes."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Guías de barrios antes de fuentes oficiales y Maps; los lunes no tienen un cierre uniforme.",
+    "Intercambio actual con el Thyssen comprobado: no prometer Vista de Delft. Página de entradas de 2023 descartada.",
+    "Tabla actual del centro de la Paz: jue-dom 12-16, no mié-dom hasta las 17 de la guía.",
+    "14 fotos CC verificadas; comidas ilustrativas rotuladas."
+  ],
+  "editorialTradeoffs": [
+    "Un museo largo al día; Mesdag más corto en el barrio oeste y costa en bloque aparte.",
+    "Dos comidas distintas, sin cuota artificial de locales."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "HiddenHolland aporta lectura local con enlaces comerciales; Wanderlustingk, experiencia de vecina de 2023; CanalGables, contraste de recorrido. Se recortan museos y traslados, se comprueban cartas actuales y no se reciclan precios antiguos."
+}

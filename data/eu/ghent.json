@@ -1,0 +1,1102 @@
+{
+  "schemaVersion": 1,
+  "country": "BE",
+  "id": "ghent",
+  "name": "Gante",
+  "localName": "Gent",
+  "selectionReason": "Ampliación belga solicitada.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fecha; tercer día cultural opcional, sin excursión automática a Brujas.",
+  "stops": [
+    {
+      "id": "bavo",
+      "name": "San Bavón · elegir el Cordero Místico",
+      "kind": "visit",
+      "zone": "Sint-Baafsplein",
+      "reason": "El gran interior del primer día: la catedral y, si interesa, el retablo de Van Eyck, con una visita reservada en vez de tres colas seguidas.",
+      "sourceIds": [
+        "guide1",
+        "bavo",
+        "bavohours",
+        "bavorestoration",
+        "bavoaccess"
+      ],
+      "coordinates": {
+        "lat": 51.0532335,
+        "lon": 3.726506
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=St+Bavo%27s+Cathedral&query_place_id=ChIJG-d0G0Zxw0cRUkUh5bmZs5Q",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 95,
+      "durationType": "editorial-estimate",
+      "caution": "Nave libre según culto. Retablo solo 12,50€/25 min o AR+retablo 16€/60 min; no antiguo precio 5€. Catedral lun-sáb 8:30-17:30, dom 13-17:30; centro visitantes 10-17, domingo 13-17; último AR 16 h. Reserva horaria recomendada. Hasta primavera 2027 siete paneles superiores se sustituyen por reproducciones durante restauración: no retablo completo original. Centro accesible con rampa/ascensor según operador.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/ghent/bavo.jpg",
+        "source": "https://www.flickr.com/photos/brostad/5939319215/",
+        "author": "Bernt Rostad",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Catedral; retablo de pago"
+    },
+    {
+      "id": "belfry",
+      "name": "Belfort · las torres desde la plaza",
+      "kind": "visit",
+      "zone": "Sint-Baafsplein",
+      "reason": "Mirar el campanario y el perfil de las torres antes de bajar al agua; la subida es una elección, no otra entrada obligatoria.",
+      "sourceIds": [
+        "guide1",
+        "belfry"
+      ],
+      "coordinates": {
+        "lat": 51.0536348,
+        "lon": 3.7249126
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Belfort+van+Gent&query_place_id=ChIJi13qQkZxw0cRsJXH8k7AwrI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Subida 13€ adulto, diario 10-18, última venta 17 h; cerrado 24,25,31/12 y 01/01. Hay unos 100 escalones hasta ascensor, que NO puede usarse para bajar: no accesibilidad sin escaleras. Si se sube añadir 60 min y recortar paseo, no apilar con todo el castillo y AR en un día.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/ghent/belfry.jpg",
+        "source": "https://www.flickr.com/photos/archer10/13896894969/",
+        "author": "Dennis Jarvis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior; subida opcional"
+    },
+    {
+      "id": "graslei",
+      "name": "Graslei y Korenlei · quedarse junto al canal",
+      "kind": "visit",
+      "zone": "Leie / muelles históricos",
+      "reason": "Cruzar el puente y mirar las fachadas desde ambas orillas, con una pausa larga para comer o tomar algo.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 51.0547683,
+        "lon": 3.72075
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Graslei&query_place_id=ChIJXyp6K0Fxw0cRYH6jBK2jNVQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Barcos no incluidos. Cruceros dependen de operador, horario y meteorología; elegir uno en lugar de parte del paseo, no añadir otra actividad automáticamente. El agua es canal, no zona de baño.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/ghent/graslei.jpg",
+        "source": "https://www.flickr.com/photos/bjaglin/3654169295/",
+        "author": "bjaglin",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Muelles exteriores"
+    },
+    {
+      "id": "groenten",
+      "name": "Groentenmarkt · pequeños sabores del centro",
+      "kind": "visit",
+      "zone": "Groentenmarkt / puente del canal",
+      "reason": "Pasear entre tiendas y puestos, probar un dulce si apetece y dejar tiempo para calles pequeñas sin otra visita grande.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "foodguide"
+      ],
+      "coordinates": {
+        "lat": 51.0560517,
+        "lon": 3.7222175
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Groentenmarkt&query_place_id=ChIJRS1FOkdxw0cRS-zjAGPlsok",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Cuberdons y mostaza son compras opcionales; preguntar precio y alérgenos. No prometer mercado abierto cada día ni entrada al Groot Vleeshuis sin comprobar obras y uso actual. Foto del canal contiguo, no interior del mercado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/ghent/groenten.jpg",
+        "source": "https://www.flickr.com/photos/brostad/5939332525/",
+        "author": "Bernt Rostad",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Canal junto al Groentenmarkt y Waterhuis, no interior del antiguo mercado de carne. Recorte de presentación."
+      },
+      "visitMode": "Plaza y comercio según apertura"
+    },
+    {
+      "id": "castle",
+      "name": "Gravensteen · un castillo por dentro",
+      "kind": "visit",
+      "zone": "Sint-Veerleplein",
+      "reason": "Dedicar la mañana a salas, murallas y audioguía, sin comprimirlo antes de otra colección larga.",
+      "sourceIds": [
+        "guide1",
+        "castle",
+        "castleaccess"
+      ],
+      "coordinates": {
+        "lat": 51.05717689999999,
+        "lon": 3.7207225
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Castle+of+the+Counts&query_place_id=ChIJcbDulEBxw0cRvttqH71W_y0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 15€ con audioguía; diario 10-18, última entrada 16:40, cerrado 24,25,31/12 y 01/01. Venta online no reembolsable; reservar aconsejado, no reserva realizada. Más 480 escalones y cuatro escaleras de caracol, no accesible a silla de ruedas según operador. Si no se pueden subir, exterior y elegir interior accesible como San Bavón o museo confirmado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/ghent/castle.jpg",
+        "source": "https://www.flickr.com/photos/ed_webster/7826944376/",
+        "author": "Ed Webster",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Castillo de pago"
+    },
+    {
+      "id": "patershol",
+      "name": "Patershol · callejuelas y comida",
+      "kind": "visit",
+      "zone": "Patershol / Kraanlei",
+      "reason": "Después del castillo, caminar por calles pequeñas y sentarse a comer, sin buscar todos los restaurantes de una lista.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "foodguide"
+      ],
+      "coordinates": {
+        "lat": 51.0595702,
+        "lon": 3.7232341
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Patershol&query_place_id=ChIJAR5nwzhxw0cRlvWJT3AKl_Y",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Barrio habitado, calles adoquinadas y accesos particulares. Terrazas de la foto no garantizan apertura ni son reserva; locales con horarios propios. No está detrás de San Bavón como afirma una guía: está junto al castillo, al norte del centro.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/ghent/patershol.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/52172043243/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Calle y terrazas de Patershol, archivo; no recomendación del restaurante fotografiado. Recorte de presentación."
+      },
+      "visitMode": "Barrio exterior y comida"
+    },
+    {
+      "id": "vrijdag",
+      "name": "Vrijdagmarkt · la plaza como descanso",
+      "kind": "visit",
+      "zone": "Vrijdagmarkt",
+      "reason": "Abrir el paseo a la plaza y sus fachadas, con tiempo de terraza o banco sin convertir el mercado semanal en obligación.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 51.05695,
+        "lon": 3.72633
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Vrijdagmarkt&query_place_id=ChIJ_RvmjEdxw0cRt4n759gEZZc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Nombre de la plaza no garantiza puestos a diario. No se promete horario de mercado ni taberna abierta sin comprobar fecha. Cerveza opcional, no actividad necesaria ni consumo incluido.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/ghent/vrijdag.jpg",
+        "source": "https://www.flickr.com/photos/travelingotter/6866375283/",
+        "author": "TravelingOtter",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "graffiti",
+      "name": "Werregarenstraat · una calle que cambia",
+      "kind": "visit",
+      "zone": "Werregarenstraat",
+      "reason": "Un desvío corto para ver cómo el arte urbano cambia el tono del centro, antes de dejar la tarde libre.",
+      "sourceIds": [
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 51.0555297,
+        "lon": 3.7246292
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Werregarenstraat&query_place_id=ChIJ9RSQqEdxw0cREMYTGQBZ_8I",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Foto de archivo: las pinturas cambian y ninguna obra concreta está garantizada. Paso estrecho, respetar vecinos; no museo interior ni taller incluido.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/ghent/graffiti.jpg",
+        "source": "https://www.flickr.com/photos/itmpa/46715210931/",
+        "author": "Tom Parnell",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Werregarenstraat en foto de archivo; murales cambian, no obra actual garantizada. Recorte de presentación."
+      },
+      "visitMode": "Calle exterior"
+    },
+    {
+      "id": "msk",
+      "name": "MSK · una mañana para la pintura",
+      "kind": "visit",
+      "zone": "Citadelpark / Fernand Scribedreef",
+      "reason": "Un tercer día opcional para quien prefiera arte y parque al centro monumental, sin añadir todos los museos de Gante.",
+      "sourceIds": [
+        "guide2",
+        "msk",
+        "mskrates",
+        "mskhours"
+      ],
+      "coordinates": {
+        "lat": 51.0381661,
+        "lon": 3.7240782
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Museum+voor+Schone+Kunsten&query_place_id=ChIJ84sYPFhxw0cR_MrH1hkHlJg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 19€ desde 10/10/2026 durante tarifa de exposición actual; web anuncia otra tarifa desde 10/01/2027: reconfirmar fecha, no 19€ universal. Mar-vie 9:30-17:30; fin de semana/vacaciones 10-18; lunes cerrado. Cerrado 25,26/12 y 01,02/01;24,31/12 cierre 16. Desalojo de salas 15 min antes; página tickets menciona cierre de segunda planta 30 min antes: llegar con margen. Taller de restauración visible, no trabajo activo garantizado todos los días. STAM es alternativa, no segundo museo obligado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/ghent/msk.jpg",
+        "source": "https://www.flickr.com/photos/catt1788/8626967649/",
+        "author": "Cat Burston",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago"
+    },
+    {
+      "id": "park",
+      "name": "Citadelpark · respirar después del museo",
+      "kind": "visit",
+      "zone": "Citadelpark",
+      "reason": "Un paseo de árboles y bancos tras las salas, con comida y regreso al centro sin otra colección añadida.",
+      "sourceIds": [
+        "guide2",
+        "park"
+      ],
+      "coordinates": {
+        "lat": 51.0390299,
+        "lon": 3.7237006
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Citadelpark&query_place_id=ChIJG4dgTlhxw0cRlO_opZQGVhk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Lluvia, oscuridad temprana y obras pueden limitar el paseo. No incluye entrada a S.M.A.K.; el parque no es otra excusa para visitar dos museos completos. Maps MSK-parque 246 m/3 min, tiempo de traslado, no duración del paseo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/ghent/park.jpg",
+        "source": "https://www.flickr.com/photos/sjaakkempe/33511542273/",
+        "author": "Sjaak Kempe",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Parque exterior"
+    },
+    {
+      "id": "stam",
+      "name": "STAM · alternativa para entender la ciudad",
+      "kind": "visit",
+      "zone": "Bijloke / Godshuizenlaan",
+      "reason": "Elegir historia urbana en vez del MSK si interesa más cómo creció Gante que otra pinacoteca.",
+      "sourceIds": [
+        "guide2",
+        "stam"
+      ],
+      "coordinates": {
+        "lat": 51.0439769,
+        "lon": 3.717369
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=STAM+-+Ghent+City+Museum&query_place_id=ChIJ1xJtNlxxw0cRhOoDqpVc-pI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 140,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 13€. Lun-mar/jue-vie 9-17; fines de semana/festivos/vacaciones 10-18. Miércoles cerrado salvo excepciones de vacaciones indicadas;24,25,31/12 y 01/01 cerrado. No el mismo cierre de lunes del MSK. Sustituye MSK; desde STAM al MSK 872 m/13 min no hace sensato sumar dos visitas largas por cercanía.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/ghent/stam.jpg",
+        "source": "https://www.flickr.com/photos/pleuntje/5693411028/",
+        "author": "Pleuntje",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago; sustitución"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Catedral, torres y muelles sin correr",
+          "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+          "stopIds": [
+            "bavo",
+            "belfry",
+            "graslei",
+            "groenten"
+          ],
+          "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Catedral, torres y muelles sin correr",
+          "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+          "stopIds": [
+            "bavo",
+            "belfry",
+            "graslei",
+            "groenten"
+          ],
+          "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+        },
+        {
+          "title": "Castillo y callejuelas del norte",
+          "zone": "Gravensteen → Patershol → Vrijdagmarkt → Werregarenstraat",
+          "stopIds": [
+            "castle",
+            "patershol",
+            "vrijdag",
+            "graffiti"
+          ],
+          "editorialNote": "Castillo por la mañana y barrio con comida después. La tarde queda abierta; no se rellena con otro museo entero.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Maps 427 m/5 min,574 m/7 min y 263 m/3 min. Castillo con muchas escaleras; si no encaja, dejar exterior y dedicar tiempo a un interior accesible verificado."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Catedral, torres y muelles sin correr",
+          "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+          "stopIds": [
+            "bavo",
+            "belfry",
+            "graslei",
+            "groenten"
+          ],
+          "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+        },
+        {
+          "title": "Castillo y callejuelas del norte",
+          "zone": "Gravensteen → Patershol → Vrijdagmarkt → Werregarenstraat",
+          "stopIds": [
+            "castle",
+            "patershol",
+            "vrijdag",
+            "graffiti"
+          ],
+          "editorialNote": "Castillo por la mañana y barrio con comida después. La tarde queda abierta; no se rellena con otro museo entero.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Maps 427 m/5 min,574 m/7 min y 263 m/3 min. Castillo con muchas escaleras; si no encaja, dejar exterior y dedicar tiempo a un interior accesible verificado."
+        },
+        {
+          "title": "Arte y parque, solo si apetece un tercer día",
+          "zone": "MSK → Citadelpark → regreso",
+          "stopIds": [
+            "msk",
+            "park"
+          ],
+          "editorialNote": "Día cultural opcional, no relleno obligatorio. STAM puede sustituir MSK si interesa la ciudad. Brujas tiene guía propia: no se suma como excursión a una mañana de museo.",
+          "optionalStopIds": [
+            "stam"
+          ],
+          "geographyChecks": [],
+          "pacing": "4-6 h con comida y desplazamientos. Desde Graslei al MSK 2089 m/29 min a pie; regreso aparte. Museo más parque bastan. Lunes MSK cerrado, STAM suele abrir; miércoles STAM cierra."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Muelles y callejuelas con pausas. Gentse Feesten depende de fechas anuales, no evento garantizado ni motivo para apilar visitas.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Atardecer temprano, parque con luz. Un interior por día, no todos los museos para evitar lluvia. Mantener cierres diferenciados STAM/MSK.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Castillo/Belfort/STAMcerrados 24,25,31/12 y 01/01; MSK 25,26/12 y 01,02/01,24/31 cierra 16 h. No horarios festivos universales.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Retablo con 7 paneles superiores en restauración hasta primavera 2027 según aviso; comprobar estado actual antes de prometer obra íntegra. MSKtarifa cambia por calendario.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No entradas, comidas ni transporte reservados. Tarifas de hoy no son disponibilidad futura.",
+    "CityCard 49€/48 h o 55€/72 h según VisitGent, no 42€ de blog. Retablo tiene descuento, NO acceso completo gratis; requiere reserva. No recomendar rentabilidad automática sin sumar visitas elegidas.",
+    "Guía local contiene precios antiguos, ubicación errónea de Patershol y ritmo excesivo; se usa solo como descubrimiento, no logística."
+  ],
+  "excludedOrOptional": [
+    "Belfort por fuera en plan base; subida opcional recorta paseo.",
+    "STAM sustituye MSK, no se suman ambos con S.M.A.K.",
+    "Brujas, Bruselas y Amberes no se añaden al día de parque; tienen jornada y transporte propios."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "Ghent Guide: contraste de recorrido",
+      "url": "https://ghentguide.com/ghent-guide/",
+      "type": "local-guide-low-confidence",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "Eurotrip: dos y tres días, depurado",
+      "url": "https://eurotripguides.com/ghent-itinerary",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "Ghenthusiast: selección local",
+      "url": "https://www.ghenthusiast.be/recommendations",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide2",
+      "title": "Next Stop Belgium: cocinas de Gante",
+      "url": "https://nextstopbelgium.com/restaurants-in-ghent/",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "castle",
+      "title": "Gravensteen: tarifa y horario",
+      "url": "https://historischehuizen.stad.gent/en/gravensteen/bezoek/plan-je-bezoek/information-prices",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "castleaccess",
+      "title": "Gravensteen:480 escalones",
+      "url": "https://historischehuizen.stad.gent/en/gravensteen/bezoek/plan-je-bezoek/accessibility",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "belfry",
+      "title": "Belfort:13€ y escaleras",
+      "url": "https://historischehuizen.stad.gent/en/belfry/visit/info-tarifs",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "bavo",
+      "title": "San Bavón: productos 12,50/16€",
+      "url": "https://www.sintbaafskathedraal.be/en/buy-tickets/type-tour/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "bavohours",
+      "title": "San Bavón: horario",
+      "url": "https://www.sintbaafskathedraal.be/en/practical/opening-hours/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "bavorestoration",
+      "title": "Retablo: siete paneles en restauración",
+      "url": "https://www.sintbaafskathedraal.be/en/buy-tickets/ghent-altarpiece/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "bavoaccess",
+      "title": "San Bavón: accesibilidad",
+      "url": "https://www.sintbaafskathedraal.be/en/practical/accessibility/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "msk",
+      "title": "MSK: entradas",
+      "url": "https://www.mskgent.be/en/tickets",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mskrates",
+      "title": "MSK: tarifa actual 19€",
+      "url": "https://www.mskgent.be/en/tickets/overview-of-ticket-rates-exhibition",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mskhours",
+      "title": "MSK: horario",
+      "url": "https://www.mskgent.be/bezoek/praktische-info",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "stam",
+      "title": "STAM: horario y 13€",
+      "url": "https://stamgent.be/nl_be/bezoek-het-stam/praktische-info",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "park",
+      "title": "Citadelpark",
+      "url": "https://visit.gent.be/en/see-do/citadelpark",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "citycard",
+      "title": "VisitGent: CityCard 49/55€ y condiciones",
+      "url": "https://visit.gent.be/en/faq",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "meme",
+      "title": "Mémé Gusta: carta enlazada oficial",
+      "url": "https://www-v1.tablefever.com/nl/card/xLZeJ/nl",
+      "type": "official-linked-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "memecontact",
+      "title": "Mémé: sede/horario",
+      "url": "https://www.meme-gusta.be/nl/contact",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "botaniste",
+      "title": "Le Botaniste: carta belga",
+      "url": "https://lebotaniste.eu/en/menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "botprices",
+      "title": "Le Botaniste: precios carta francesa belga",
+      "url": "https://lebotaniste.eu/fr/menu-online-fr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "botlocation",
+      "title": "Le Botaniste: Gent",
+      "url": "https://lebotaniste.eu/en/locations/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "julie",
+      "title": "Julie’s: sedes/horario",
+      "url": "https://www.julieshouse.be/en_GB/winkels",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "juliebooking",
+      "title": "Julie’s: menús y reservas",
+      "url": "https://www.julieshouse.be/en_GB/reserveren",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "juliemenu",
+      "title": "Julie’s: carta inglesa actual",
+      "url": "https://www.julieshouse.be/web/content/207836?unique=5e3cbf8bb1cb451b3186316f0daa066023ed2130&download=true",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Catedral, torres y muelles sin correr",
+            "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+            "stopIds": [
+              "bavo",
+              "belfry",
+              "graslei",
+              "groenten"
+            ],
+            "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Catedral, torres y muelles sin correr",
+            "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+            "stopIds": [
+              "bavo",
+              "belfry",
+              "graslei",
+              "groenten"
+            ],
+            "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+          },
+          {
+            "title": "Castillo y callejuelas del norte",
+            "zone": "Gravensteen → Patershol → Vrijdagmarkt → Werregarenstraat",
+            "stopIds": [
+              "castle",
+              "patershol",
+              "vrijdag",
+              "graffiti"
+            ],
+            "editorialNote": "Castillo por la mañana y barrio con comida después. La tarde queda abierta; no se rellena con otro museo entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 427 m/5 min,574 m/7 min y 263 m/3 min. Castillo con muchas escaleras; si no encaja, dejar exterior y dedicar tiempo a un interior accesible verificado."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Catedral, torres y muelles sin correr",
+            "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+            "stopIds": [
+              "bavo",
+              "belfry",
+              "graslei",
+              "groenten"
+            ],
+            "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+          },
+          {
+            "title": "Castillo y callejuelas del norte",
+            "zone": "Gravensteen → Patershol → Vrijdagmarkt → Werregarenstraat",
+            "stopIds": [
+              "castle",
+              "patershol",
+              "vrijdag",
+              "graffiti"
+            ],
+            "editorialNote": "Castillo por la mañana y barrio con comida después. La tarde queda abierta; no se rellena con otro museo entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 427 m/5 min,574 m/7 min y 263 m/3 min. Castillo con muchas escaleras; si no encaja, dejar exterior y dedicar tiempo a un interior accesible verificado."
+          },
+          {
+            "title": "Arte y parque, solo si apetece un tercer día",
+            "zone": "MSK → Citadelpark → regreso",
+            "stopIds": [
+              "msk",
+              "park"
+            ],
+            "editorialNote": "Día cultural opcional, no relleno obligatorio. STAM puede sustituir MSK si interesa la ciudad. Brujas tiene guía propia: no se suma como excursión a una mañana de museo.",
+            "optionalStopIds": [
+              "stam"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y desplazamientos. Desde Graslei al MSK 2089 m/29 min a pie; regreso aparte. Museo más parque bastan. Lunes MSK cerrado, STAM suele abrir; miércoles STAM cierra."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Catedral, torres y muelles sin correr",
+            "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+            "stopIds": [
+              "bavo",
+              "belfry",
+              "graslei",
+              "groenten"
+            ],
+            "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Catedral, torres y muelles sin correr",
+            "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+            "stopIds": [
+              "bavo",
+              "belfry",
+              "graslei",
+              "groenten"
+            ],
+            "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+          },
+          {
+            "title": "Castillo y callejuelas del norte",
+            "zone": "Gravensteen → Patershol → Vrijdagmarkt → Werregarenstraat",
+            "stopIds": [
+              "castle",
+              "patershol",
+              "vrijdag",
+              "graffiti"
+            ],
+            "editorialNote": "Castillo por la mañana y barrio con comida después. La tarde queda abierta; no se rellena con otro museo entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 427 m/5 min,574 m/7 min y 263 m/3 min. Castillo con muchas escaleras; si no encaja, dejar exterior y dedicar tiempo a un interior accesible verificado."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Catedral, torres y muelles sin correr",
+            "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+            "stopIds": [
+              "bavo",
+              "belfry",
+              "graslei",
+              "groenten"
+            ],
+            "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+          },
+          {
+            "title": "Castillo y callejuelas del norte",
+            "zone": "Gravensteen → Patershol → Vrijdagmarkt → Werregarenstraat",
+            "stopIds": [
+              "castle",
+              "patershol",
+              "vrijdag",
+              "graffiti"
+            ],
+            "editorialNote": "Castillo por la mañana y barrio con comida después. La tarde queda abierta; no se rellena con otro museo entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 427 m/5 min,574 m/7 min y 263 m/3 min. Castillo con muchas escaleras; si no encaja, dejar exterior y dedicar tiempo a un interior accesible verificado."
+          },
+          {
+            "title": "Arte y parque, solo si apetece un tercer día",
+            "zone": "MSK → Citadelpark → regreso",
+            "stopIds": [
+              "msk",
+              "park"
+            ],
+            "editorialNote": "Día cultural opcional, no relleno obligatorio. STAM puede sustituir MSK si interesa la ciudad. Brujas tiene guía propia: no se suma como excursión a una mañana de museo.",
+            "optionalStopIds": [
+              "stam"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y desplazamientos. Desde Graslei al MSK 2089 m/29 min a pie; regreso aparte. Museo más parque bastan. Lunes MSK cerrado, STAM suele abrir; miércoles STAM cierra."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Catedral, torres y muelles sin correr",
+            "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+            "stopIds": [
+              "bavo",
+              "belfry",
+              "graslei",
+              "groenten"
+            ],
+            "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Catedral, torres y muelles sin correr",
+            "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+            "stopIds": [
+              "bavo",
+              "belfry",
+              "graslei",
+              "groenten"
+            ],
+            "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+          },
+          {
+            "title": "Castillo y callejuelas del norte",
+            "zone": "Gravensteen → Patershol → Vrijdagmarkt → Werregarenstraat",
+            "stopIds": [
+              "castle",
+              "patershol",
+              "vrijdag",
+              "graffiti"
+            ],
+            "editorialNote": "Castillo por la mañana y barrio con comida después. La tarde queda abierta; no se rellena con otro museo entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 427 m/5 min,574 m/7 min y 263 m/3 min. Castillo con muchas escaleras; si no encaja, dejar exterior y dedicar tiempo a un interior accesible verificado."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Catedral, torres y muelles sin correr",
+            "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+            "stopIds": [
+              "bavo",
+              "belfry",
+              "graslei",
+              "groenten"
+            ],
+            "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+          },
+          {
+            "title": "Castillo y callejuelas del norte",
+            "zone": "Gravensteen → Patershol → Vrijdagmarkt → Werregarenstraat",
+            "stopIds": [
+              "castle",
+              "patershol",
+              "vrijdag",
+              "graffiti"
+            ],
+            "editorialNote": "Castillo por la mañana y barrio con comida después. La tarde queda abierta; no se rellena con otro museo entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 427 m/5 min,574 m/7 min y 263 m/3 min. Castillo con muchas escaleras; si no encaja, dejar exterior y dedicar tiempo a un interior accesible verificado."
+          },
+          {
+            "title": "Arte y parque, solo si apetece un tercer día",
+            "zone": "MSK → Citadelpark → regreso",
+            "stopIds": [
+              "msk",
+              "park"
+            ],
+            "editorialNote": "Día cultural opcional, no relleno obligatorio. STAM puede sustituir MSK si interesa la ciudad. Brujas tiene guía propia: no se suma como excursión a una mañana de museo.",
+            "optionalStopIds": [
+              "stam"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y desplazamientos. Desde Graslei al MSK 2089 m/29 min a pie; regreso aparte. Museo más parque bastan. Lunes MSK cerrado, STAM suele abrir; miércoles STAM cierra."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Catedral, torres y muelles sin correr",
+            "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+            "stopIds": [
+              "bavo",
+              "belfry",
+              "graslei",
+              "groenten"
+            ],
+            "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Catedral, torres y muelles sin correr",
+            "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+            "stopIds": [
+              "bavo",
+              "belfry",
+              "graslei",
+              "groenten"
+            ],
+            "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+          },
+          {
+            "title": "Castillo y callejuelas del norte",
+            "zone": "Gravensteen → Patershol → Vrijdagmarkt → Werregarenstraat",
+            "stopIds": [
+              "castle",
+              "patershol",
+              "vrijdag",
+              "graffiti"
+            ],
+            "editorialNote": "Castillo por la mañana y barrio con comida después. La tarde queda abierta; no se rellena con otro museo entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 427 m/5 min,574 m/7 min y 263 m/3 min. Castillo con muchas escaleras; si no encaja, dejar exterior y dedicar tiempo a un interior accesible verificado."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Catedral, torres y muelles sin correr",
+            "zone": "San Bavón → Belfort → Graslei/Korenlei → Groentenmarkt",
+            "stopIds": [
+              "bavo",
+              "belfry",
+              "graslei",
+              "groenten"
+            ],
+            "editorialNote": "Un interior principal y el centro junto al agua. Subir al campanario es opcional, no sumar por defecto castillo, AR y crucero en una sola jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 107 m/1 min,382 m/5 min y 182 m/2 min entre hitos. Domingo la catedral abre 13 h: paseo y comida primero, visita reservada por la tarde."
+          },
+          {
+            "title": "Castillo y callejuelas del norte",
+            "zone": "Gravensteen → Patershol → Vrijdagmarkt → Werregarenstraat",
+            "stopIds": [
+              "castle",
+              "patershol",
+              "vrijdag",
+              "graffiti"
+            ],
+            "editorialNote": "Castillo por la mañana y barrio con comida después. La tarde queda abierta; no se rellena con otro museo entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 427 m/5 min,574 m/7 min y 263 m/3 min. Castillo con muchas escaleras; si no encaja, dejar exterior y dedicar tiempo a un interior accesible verificado."
+          },
+          {
+            "title": "Arte y parque, solo si apetece un tercer día",
+            "zone": "MSK → Citadelpark → regreso",
+            "stopIds": [
+              "msk",
+              "park"
+            ],
+            "editorialNote": "Día cultural opcional, no relleno obligatorio. STAM puede sustituir MSK si interesa la ciudad. Brujas tiene guía propia: no se suma como excursión a una mañana de museo.",
+            "optionalStopIds": [
+              "stam"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y desplazamientos. Desde Graslei al MSK 2089 m/29 min a pie; regreso aparte. Museo más parque bastan. Lunes MSK cerrado, STAM suele abrir; miércoles STAM cierra."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Guías contrastadas antes de operadores/Maps.",
+    "Gravensteen 15€,Belfort 13€,retablo 12,50/16€,CityCard 49/55, no tarifas blog.",
+    "Retablo 7 paneles en restauración y accesibilidad castillo/campanario explícitas.",
+    "Mémé: guiso de CERDO 25,50€,no ternera ni precio frío 15€.",
+    "14 fotos CC BY/BY-SA verificadas y platos ilustrativos rotulados."
+  ],
+  "editorialTradeoffs": [
+    "Un interior grande por día; tercer día opcional.",
+    "Zonas casco/agua, norte, arte/parque separadas.",
+    "No consumo alcohólico ni excursión obligatoria."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Guías GhentGuide/Eurotrip contrastadas con oficial; precios, ubicación de Patershol y ritmo de blog descartados. Ghenthusiast y NextStopBelgium apoyan selección de cocina, verificadas sedes y cartas actuales."
+}

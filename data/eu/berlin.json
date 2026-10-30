@@ -1,0 +1,1192 @@
+{
+  "schemaVersion": 1,
+  "country": "DE",
+  "id": "berlin",
+  "name": "Berlín",
+  "localName": "Berlin",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita de 1-3 días sin fecha ni reservas. Un interior principal por jornada; memorias históricas con tiempo propio y traslados explícitos.",
+  "stops": [
+    {
+      "id": "reichstag",
+      "name": "Reichstag · exterior y cúpula opcional",
+      "kind": "visit",
+      "zone": "Distrito parlamentario",
+      "reason": "Edificio parlamentario para empezar el centro; la cúpula sólo si se consigue registro previo.",
+      "sourceIds": [
+        "reichstag",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 52.5186202,
+        "lon": 13.3761871
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Reichstag+Building&query_place_id=ChIJbVDuQcdRqEcR5X3xq9NSG2Q",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "No hay reserva hecha. El Bundestag solicita los datos de cada visitante y aplica control de seguridad; no prometer entrada por llegar. Cierra 24/12; 31/12 acceso reducido. La web anuncia cierres de cúpula en 2027:29/3-2/4, 19-23/4, 19-23/7 y 23/8-19/11; terraza puede seguir abierta. Consultar fecha y confirmación oficial.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/reichstag.jpg",
+        "source": "https://www.flickr.com/photos/matthew_bradley/16299637872/",
+        "author": "Matthew Bradley",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior; cúpula gratuita con registro previo obligatorio"
+    },
+    {
+      "id": "brandenburg",
+      "name": "Puerta de Brandeburgo",
+      "kind": "visit",
+      "zone": "Pariser Platz",
+      "reason": "La puerta y la plaza para entender el eje del centro a escala peatonal.",
+      "sourceIds": [
+        "visit",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 52.5162746,
+        "lon": 13.377704
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Brandenburg+Gate&query_place_id=ChIJiQnyVcZRqEcRY0xnhE77uyY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Actos, seguridad y obras pueden limitar el paso. La visita no incluye museos cercanos ni acceso a edificios.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/brandenburg.jpg",
+        "source": "https://www.flickr.com/photos/77125591@N04/7166804927/",
+        "author": "Audrius Juralevicius",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "memorial",
+      "name": "Memorial a los judíos asesinados de Europa",
+      "kind": "visit",
+      "zone": "Memorial / Mitte",
+      "reason": "Campo de estelas para una visita tranquila de memoria y reflexión, respetando el lugar.",
+      "sourceIds": [
+        "memorial",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 52.5139474,
+        "lon": 13.3787126
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Memorial+to+the+Murdered+Jews+of+Europe&query_place_id=ChIJW2oZB8ZRqEcRyFvuEpCnNBQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "Estelas accesibles 24 h, entrada gratuita. Respetar el carácter del memorial: no subir a las estelas. El centro subterráneo necesita tiempo y horario propios; no se incluye automáticamente después de la cúpula. Su página mezcla excepciones festivas antiguas: verificar el día concreto.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/memorial.jpg",
+        "source": "https://www.flickr.com/photos/sethschoen/2524777627/",
+        "author": "Seth Schoen",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Estelas exteriores; centro de información aparte"
+    },
+    {
+      "id": "gendarmenmarkt",
+      "name": "Gendarmenmarkt",
+      "kind": "visit",
+      "zone": "Mitte",
+      "reason": "Plaza del Konzerthaus entre las dos iglesias, para una pausa en el paseo del centro.",
+      "sourceIds": [
+        "visit",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 52.5132122,
+        "lon": 13.3925122
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Gendarmenmarkt&query_place_id=ChIJ58_uYdpRqEcRpy2KVaPal14",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "No se incluyen conciertos, miradores ni entrada a las iglesias. Mercados y actos tienen calendario, acceso y precios propios.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/gendarmenmarkt.jpg",
+        "source": "https://www.flickr.com/photos/21022123@N04/17683555330/",
+        "author": "Mike Steele",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza y fachadas exteriores"
+    },
+    {
+      "id": "bebel",
+      "name": "Bebelplatz · memoria de la quema de libros",
+      "kind": "visit",
+      "zone": "Unter den Linden",
+      "reason": "Plaza y memorial bajo el pavimento dedicado a la quema de libros de 1933.",
+      "sourceIds": [
+        "visit",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 52.5161425,
+        "lon": 13.3944344
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Bebelplatz&query_place_id=ChIJBYGphNtRqEcRVNGhyTw0lvs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "La fotografía muestra la plaza, no garantiza que la ventana del memorial sea visible con lluvia, reflejos, obras o actos. No es una entrada a la universidad.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/bebel.jpg",
+        "source": "https://www.flickr.com/photos/prof_richard/40181191311/",
+        "author": "Richard Mortel",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior; observar el memorial sin bloquear el paso"
+    },
+    {
+      "id": "dom",
+      "name": "Berliner Dom · exterior y Lustgarten",
+      "kind": "visit",
+      "zone": "Isla de los Museos",
+      "reason": "Fachada de la catedral y jardín frente al conjunto de museos, sin sumar otra visita interior.",
+      "sourceIds": [
+        "visit",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 52.5190608,
+        "lon": 13.401078
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Berlin+Cathedral&query_place_id=ChIJS9HC895RqEcR_IovsNVoDng",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "El acceso turístico a la catedral y su cúpula es una visita de pago distinta, sujeta a culto y horarios. No se promete entrada gratis.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/dom.jpg",
+        "source": "https://www.flickr.com/photos/navaneethkn/31313827462/",
+        "author": "Navaneeth KN",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior y jardín; interior no incluido"
+    },
+    {
+      "id": "neues",
+      "name": "Neues Museum",
+      "kind": "visit",
+      "zone": "Isla de los Museos",
+      "reason": "Colecciones egipcias y prehistoria como museo principal de la jornada.",
+      "sourceIds": [
+        "neues",
+        "neuesprices",
+        "visit"
+      ],
+      "coordinates": {
+        "lat": 52.5201349,
+        "lon": 13.3976462
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Neues+Museum&query_place_id=ChIJS8OUk91RqEcRNauNAPV5P40",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Martes-domingo 10-18 h, lunes cerrado. General publicado 14 €; exposiciones pueden requerir billete adicional. Mantenimiento anunciado 15-17/3/2027. Revisar condiciones del día; no hay entrada comprada. Pergamon no se ofrece como interior alternativo mientras siga cerrado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/neues.jpg",
+        "source": "https://www.flickr.com/photos/mbschlemmer/7080530929/",
+        "author": "Mark B. Schlemmer",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Fachada real del Neues Museum, foto de archivo; no representa una exposición actual. Recorte de presentación."
+      },
+      "visitMode": "Interior de pago; comprar entrada y comprobar exposición"
+    },
+    {
+      "id": "hackescher",
+      "name": "Hackesche Höfe",
+      "kind": "visit",
+      "zone": "Spandauer Vorstadt",
+      "reason": "Patios con fachadas modernistas y comercios para un paseo con pausa de comida.",
+      "sourceIds": [
+        "visit",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 52.5240221,
+        "lon": 13.4024126
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Hackesche+H%C3%B6fe&query_place_id=ChIJ7ySn3eBRqEcROAlFzu1GfPE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Respetar residentes y espacios privados. Horarios de patios y tiendas no son idénticos; no se incluye espectáculo ni acceso a viviendas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/hackescher.jpg",
+        "source": "https://www.flickr.com/photos/la-citta-vita/5852154177/",
+        "author": "La Citta Vita",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Patios abiertos al público según acceso; comercios aparte"
+    },
+    {
+      "id": "bernauer",
+      "name": "Memorial del Muro · Bernauer Straße",
+      "kind": "visit",
+      "zone": "Bernauer Straße",
+      "reason": "Tramo conservado de frontera y documentación para entender la división, distinto de los murales de East Side.",
+      "sourceIds": [
+        "bernauer",
+        "rick"
+      ],
+      "coordinates": {
+        "lat": 52.53505209999999,
+        "lon": 13.3901898
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Berlin+Wall+Memorial&query_place_id=ChIJZ0KxF_JRqEcRrLHB-4r-U-o",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 95,
+      "durationType": "editorial-estimate",
+      "caution": "Exterior todos los días 8-22 h, gratuito. Centros martes-domingo 10-18 h; torre hasta 17:45. Centros cerrados 24, 25 y 31/12/2026. No confundir cierre de edificio con todo el recinto. La exposición se extiende 1,4 km: elegir tramo central si hay cansancio.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/bernauer.jpg",
+        "source": "https://www.flickr.com/photos/addedentry/2969458595/",
+        "author": "Owen Massey",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Recinto exterior; centro según horario"
+    },
+    {
+      "id": "topography",
+      "name": "Topografía del Terror",
+      "kind": "visit",
+      "zone": "Niederkirchnerstraße",
+      "reason": "Documentación sobre las instituciones de persecución nazi en su antiguo emplazamiento.",
+      "sourceIds": [
+        "topography",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 52.506747,
+        "lon": 13.3837099
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Topography+of+Terror&query_place_id=ChIJx3iXOMxRqEcRSGbJBczVSzc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Exposiciones diarias 10-20 h, entrada gratuita; exterior hasta el anochecer y como máximo 20 h. Cierra 24/12, 31/12 y 1/1. Contenido sensible: hacer pausas y no añadir otro museo de historia por obligación.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/topography.jpg",
+        "source": "https://www.flickr.com/photos/robbophotos/6090405753/",
+        "author": "John Robinson",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exposición y recinto; visita principal de historia"
+    },
+    {
+      "id": "markthalle",
+      "name": "Markthalle Neun",
+      "kind": "visit",
+      "zone": "Kreuzberg / Eisenbahnstraße",
+      "reason": "Mercado y puestos para comer durante el bloque de Kreuzberg, con oferta según día.",
+      "sourceIds": [
+        "market",
+        "thursday",
+        "berliner"
+      ],
+      "coordinates": {
+        "lat": 52.502135,
+        "lon": 13.4315988
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Markthalle+Neun&query_place_id=ChIJvaZWgElOqEcRElWjL2P9AZg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Gastronomía lunes-sábado 11:30-18 h. Mercado pequeño martes-jueves 12-18; grande viernes 12-18 y sábado 10-18. Street Food Thursday sólo jueves 17-22 h. Domingo no asumir mercado normal abierto: consultar eventos o comer en el barrio y seguir el paseo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/markthalle.jpg",
+        "source": "https://www.flickr.com/photos/alper/11237511994/",
+        "author": "Alper Çuğun",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Interior de Markthalle Neun durante un evento de archivo; no garantiza puestos, aforo ni evento en otra fecha. Recorte de presentación."
+      },
+      "visitMode": "Mercado y comida de pago según puestos y calendario"
+    },
+    {
+      "id": "oberbaum",
+      "name": "Oberbaumbrücke",
+      "kind": "visit",
+      "zone": "Kreuzberg → Friedrichshain",
+      "reason": "Puente de ladrillo y vistas del Spree para enlazar a pie con el muro pintado.",
+      "sourceIds": [
+        "visit",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 52.5018624,
+        "lon": 13.4457112
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Oberbaumbr%C3%BCcke&query_place_id=ChIJJzobwFFOqEcRupHEhZTPsh8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Tráfico, bicicletas y posibles obras. No se incluye barco ni se garantiza puesta de sol. No bajar a zonas de servicio del puente.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/oberbaum.jpg",
+        "source": "https://www.flickr.com/photos/184898381@N07/52678010825/",
+        "author": "Jens Cederskjold",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paso peatonal exterior"
+    },
+    {
+      "id": "eastside",
+      "name": "East Side Gallery",
+      "kind": "visit",
+      "zone": "Friedrichshain / Mühlenstraße",
+      "reason": "Murales sobre un tramo del Muro para un paseo largo y al aire libre.",
+      "sourceIds": [
+        "eastside",
+        "visit"
+      ],
+      "coordinates": {
+        "lat": 52.50502239999999,
+        "lon": 13.4396953
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=East+Side+Gallery&query_place_id=ChIJS6_t9aZHqEcRGCiRSnvpm94",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Galería exterior gratuita. Recorrido completo largo: elegir un tramo si hay cansancio o frío. La foto es de archivo, no confirma estado actual de un mural. El centro de información tiene horario propio, cierra viernes desde noviembre y del 24/12/2026 al 2/1/2027.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/berlin/eastside.jpg",
+        "source": "https://www.flickr.com/photos/trinesyv/49036369263/",
+        "author": "Trine Syvertsen",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Mural de archivo de East Side Gallery; el estado de conservación y las obras visibles pueden cambiar. Recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; no confundir con Bernauer Straße"
+    },
+    {
+      "id": "potsdam",
+      "name": "Potsdam · Sanssouci y parque",
+      "kind": "excursion",
+      "zone": "Fuera de Berlín",
+      "reason": "Palacio y parque para dedicar un día a Potsdam, sin acumular varios palacios.",
+      "sourceIds": [
+        "potsdam",
+        "local",
+        "potsdampark"
+      ],
+      "coordinates": {
+        "lat": 52.40420169999999,
+        "lon": 13.0384999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Sanssouci+Palace&query_place_id=ChIJUXWcySz0qEcRFgU6MTKjVdA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 480,
+      "durationType": "editorial-estimate",
+      "caution": "Palacio cerrado lunes; abril-octubre martes-domingo 10-17:30, noviembre-diciembre 10-16:30 h según página actual. Cierra 24 y 25/12/2026, 31/12 horario corto. Billete individual publicado 14 € sujeto a disponibilidad del día; sanssouci+ 22 € con franja. No hay entrada comprada. Parque no equivale a todos los edificios abiertos; para enero-marzo comprobar calendario actual. Parque: entrada gratuita, todos los días desde las 8 hasta el anochecer. Evitar con avisos de temporal y seguir los caminos por riesgo de ramas; no implica edificios abiertos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Sanssouci como único interior principal, con franja por elegir; parque y paseo con comida. No combinar con Berlín por la tarde ni con Palacio Nuevo por defecto.",
+      "photo": {
+        "img": "assets/berlin/potsdam.jpg",
+        "source": "https://www.flickr.com/photos/wolfgangstaudt/707878963/",
+        "author": "Wolfgang Staudt",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Centro político, plazas y memoria",
+          "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+          "stopIds": [
+            "reichstag",
+            "brandenburg",
+            "memorial",
+            "gendarmenmarkt",
+            "bebel"
+          ],
+          "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Centro político, plazas y memoria",
+          "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+          "stopIds": [
+            "reichstag",
+            "brandenburg",
+            "memorial",
+            "gendarmenmarkt",
+            "bebel"
+          ],
+          "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+        },
+        {
+          "title": "Un museo, patios y el Muro",
+          "zone": "Isla de los Museos → Hackesche Höfe → Bernauer Straße",
+          "stopIds": [
+            "dom",
+            "neues",
+            "hackescher",
+            "bernauer"
+          ],
+          "editorialNote": "Neues es el museo principal; catedral sólo exterior. Lunes: cambiar el orden de jornadas si se quiere entrar al museo. Bernauer aporta la historia de la frontera; no es el mismo lugar que East Side.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-8 h con comida, museo y transporte, estimación editorial. Maps 29/10 para 30/10 a 14 h: entorno Neues→Bernauer unos 21 min en transporte; reservar 30-40 min con acceso y espera. Desde los patios varía. No prometer una línea concreta ni llamar al traslado paseo de cinco minutos."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Centro político, plazas y memoria",
+          "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+          "stopIds": [
+            "reichstag",
+            "brandenburg",
+            "memorial",
+            "gendarmenmarkt",
+            "bebel"
+          ],
+          "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+        },
+        {
+          "title": "Un museo, patios y el Muro",
+          "zone": "Isla de los Museos → Hackesche Höfe → Bernauer Straße",
+          "stopIds": [
+            "dom",
+            "neues",
+            "hackescher",
+            "bernauer"
+          ],
+          "editorialNote": "Neues es el museo principal; catedral sólo exterior. Lunes: cambiar el orden de jornadas si se quiere entrar al museo. Bernauer aporta la historia de la frontera; no es el mismo lugar que East Side.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-8 h con comida, museo y transporte, estimación editorial. Maps 29/10 para 30/10 a 14 h: entorno Neues→Bernauer unos 21 min en transporte; reservar 30-40 min con acceso y espera. Desde los patios varía. No prometer una línea concreta ni llamar al traslado paseo de cinco minutos."
+        },
+        {
+          "title": "Historia y vida de Kreuzberg hasta el Spree",
+          "zone": "Topografía → traslado a Kreuzberg → Markthalle → Oberbaum → East Side",
+          "stopIds": [
+            "topography",
+            "markthalle",
+            "oberbaum",
+            "eastside"
+          ],
+          "editorialNote": "Topografía es la única exposición larga. Después cambiar de ambiente, comer en Kreuzberg y pasear por el río. Con mal tiempo o contenido emocional intenso, acortar East Side; no sumar Museo Judío y Checkpoint como interiores.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-8 h con comida y traslados, estimación editorial. Maps para 30/10 a 13 h: Topografía→Markthalle 25 min en transporte (4,2 km). Markthalle→Oberbaum→inicio East Side 1,24 km/17 min a pie; añadir hasta 1,3 km si se recorre toda la galería. Domingo sustituir mercado por comida del barrio."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Calor y luz larga: agua y sombra, sin prometer baño en canales ni puesta de sol.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Frío y pocas horas de luz: acortar East Side o patios, mantener un museo principal y pausas. No sumar museos para rellenar.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Revisar 24-26/12,31/12 y 1/1 por lugar. No prometer mercados navideños ni horarios ordinarios.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Lluvia y viento cambian el paseo junto al Spree. Llevar alternativa de pausa y comprobar el día del museo.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Lunes no abre Neues; reorganizar días en vez de prometer visita.",
+    "Reichstag exige registro previo gratis y control; no hay reserva hecha.",
+    "Potsdam sustituye una jornada, nunca se suma a las visitas urbanas de ese día.",
+    "Street Food Thursday sólo jueves; domingo no asumir mercado normal."
+  ],
+  "excludedOrOptional": [
+    "Pergamon interior excluido mientras siga cerrado; no copiar su presencia en guías antiguas.",
+    "Museo Judío, Charlottenburg y Gemäldegalerie son elecciones para otra visita o sustitución razonada, no añadidos automáticos.",
+    "Checkpoint Charlie no se convierte en un museo obligatorio ni se apila con Topografía."
+  ],
+  "sources": [
+    {
+      "id": "visit",
+      "title": "visitBerlin: tres días",
+      "url": "https://www.visitberlin.de/en/3-days-berlin",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "rick",
+      "title": "Rick Steves: itinerarios Berlín",
+      "url": "https://www.ricksteves.com/europe/germany/berlin-itinerary",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "local",
+      "title": "Go Ask A Local: tres días",
+      "url": "https://goaskalocal.com/blog/3-day-berlin-itinerary",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "reichstag",
+      "title": "Bundestag: registro y cierres",
+      "url": "https://www.bundestag.de/en/visittheBundestag/dome/registration-245686",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "neues",
+      "title": "Neues Museum: preparar visita",
+      "url": "https://www.smb.museum/en/museums-institutions/neues-museum/plan-your-visit/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "neuesprices",
+      "title": "Neues Museum: entradas",
+      "url": "https://www.smb.museum/en/museums-institutions/neues-museum/plan-your-visit/prices-tickets/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "memorial",
+      "title": "Memorial a los judíos asesinados: visita",
+      "url": "https://www.stiftung-denkmal.de/en/memorials/memorial-to-the-murdered-jews-of-europe/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "bernauer",
+      "title": "Memorial del Muro: visita",
+      "url": "https://www.stiftung-berliner-mauer.de/en/berlin-wall-memorial/visit/information",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "eastside",
+      "title": "East Side Gallery: visita",
+      "url": "https://www.stiftung-berliner-mauer.de/en/east-side-gallery/visit/map-information",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "topography",
+      "title": "Topografía del Terror: horarios",
+      "url": "https://www.topographie.de/en/your-visit/directions-opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "market",
+      "title": "Markthalle Neun: horarios y mercados",
+      "url": "https://markthalleneun.de/en/ueber/faq",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "thursday",
+      "title": "Markthalle Neun: Street Food Thursday",
+      "url": "https://markthalleneun.de/en/markets/street-food-thursday",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "potsdam",
+      "title": "Sanssouci: visita, entradas y cierres",
+      "url": "https://www.spsg.de/en/palaces-gardens/object/sanssouci-palace/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "eater",
+      "title": "Eater: restaurantes de Berlín",
+      "url": "https://www.eater.com/maps/best-restaurants-berlin",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "berliner",
+      "title": "The Berliner: restaurantes",
+      "url": "https://www.the-berliner.com/food/best-restaurants-berlin-101-places-to-eat/",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "potsdampark",
+      "title": "Sanssouci Park: acceso y seguridad",
+      "url": "https://www.spsg.de/en/palaces-gardens/object/sanssouci-park/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro político, plazas y memoria",
+            "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+            "stopIds": [
+              "reichstag",
+              "brandenburg",
+              "memorial",
+              "gendarmenmarkt",
+              "bebel"
+            ],
+            "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro político, plazas y memoria",
+            "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+            "stopIds": [
+              "reichstag",
+              "brandenburg",
+              "memorial",
+              "gendarmenmarkt",
+              "bebel"
+            ],
+            "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+          },
+          {
+            "title": "Un museo, patios y el Muro",
+            "zone": "Isla de los Museos → Hackesche Höfe → Bernauer Straße",
+            "stopIds": [
+              "dom",
+              "neues",
+              "hackescher",
+              "bernauer"
+            ],
+            "editorialNote": "Neues es el museo principal; catedral sólo exterior. Lunes: cambiar el orden de jornadas si se quiere entrar al museo. Bernauer aporta la historia de la frontera; no es el mismo lugar que East Side.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida, museo y transporte, estimación editorial. Maps 29/10 para 30/10 a 14 h: entorno Neues→Bernauer unos 21 min en transporte; reservar 30-40 min con acceso y espera. Desde los patios varía. No prometer una línea concreta ni llamar al traslado paseo de cinco minutos."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro político, plazas y memoria",
+            "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+            "stopIds": [
+              "reichstag",
+              "brandenburg",
+              "memorial",
+              "gendarmenmarkt",
+              "bebel"
+            ],
+            "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+          },
+          {
+            "title": "Un museo, patios y el Muro",
+            "zone": "Isla de los Museos → Hackesche Höfe → Bernauer Straße",
+            "stopIds": [
+              "dom",
+              "neues",
+              "hackescher",
+              "bernauer"
+            ],
+            "editorialNote": "Neues es el museo principal; catedral sólo exterior. Lunes: cambiar el orden de jornadas si se quiere entrar al museo. Bernauer aporta la historia de la frontera; no es el mismo lugar que East Side.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida, museo y transporte, estimación editorial. Maps 29/10 para 30/10 a 14 h: entorno Neues→Bernauer unos 21 min en transporte; reservar 30-40 min con acceso y espera. Desde los patios varía. No prometer una línea concreta ni llamar al traslado paseo de cinco minutos."
+          },
+          {
+            "title": "Historia y vida de Kreuzberg hasta el Spree",
+            "zone": "Topografía → traslado a Kreuzberg → Markthalle → Oberbaum → East Side",
+            "stopIds": [
+              "topography",
+              "markthalle",
+              "oberbaum",
+              "eastside"
+            ],
+            "editorialNote": "Topografía es la única exposición larga. Después cambiar de ambiente, comer en Kreuzberg y pasear por el río. Con mal tiempo o contenido emocional intenso, acortar East Side; no sumar Museo Judío y Checkpoint como interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida y traslados, estimación editorial. Maps para 30/10 a 13 h: Topografía→Markthalle 25 min en transporte (4,2 km). Markthalle→Oberbaum→inicio East Side 1,24 km/17 min a pie; añadir hasta 1,3 km si se recorre toda la galería. Domingo sustituir mercado por comida del barrio."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro político, plazas y memoria",
+            "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+            "stopIds": [
+              "reichstag",
+              "brandenburg",
+              "memorial",
+              "gendarmenmarkt",
+              "bebel"
+            ],
+            "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro político, plazas y memoria",
+            "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+            "stopIds": [
+              "reichstag",
+              "brandenburg",
+              "memorial",
+              "gendarmenmarkt",
+              "bebel"
+            ],
+            "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+          },
+          {
+            "title": "Un museo, patios y el Muro",
+            "zone": "Isla de los Museos → Hackesche Höfe → Bernauer Straße",
+            "stopIds": [
+              "dom",
+              "neues",
+              "hackescher",
+              "bernauer"
+            ],
+            "editorialNote": "Neues es el museo principal; catedral sólo exterior. Lunes: cambiar el orden de jornadas si se quiere entrar al museo. Bernauer aporta la historia de la frontera; no es el mismo lugar que East Side.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida, museo y transporte, estimación editorial. Maps 29/10 para 30/10 a 14 h: entorno Neues→Bernauer unos 21 min en transporte; reservar 30-40 min con acceso y espera. Desde los patios varía. No prometer una línea concreta ni llamar al traslado paseo de cinco minutos."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro político, plazas y memoria",
+            "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+            "stopIds": [
+              "reichstag",
+              "brandenburg",
+              "memorial",
+              "gendarmenmarkt",
+              "bebel"
+            ],
+            "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+          },
+          {
+            "title": "Un museo, patios y el Muro",
+            "zone": "Isla de los Museos → Hackesche Höfe → Bernauer Straße",
+            "stopIds": [
+              "dom",
+              "neues",
+              "hackescher",
+              "bernauer"
+            ],
+            "editorialNote": "Neues es el museo principal; catedral sólo exterior. Lunes: cambiar el orden de jornadas si se quiere entrar al museo. Bernauer aporta la historia de la frontera; no es el mismo lugar que East Side.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida, museo y transporte, estimación editorial. Maps 29/10 para 30/10 a 14 h: entorno Neues→Bernauer unos 21 min en transporte; reservar 30-40 min con acceso y espera. Desde los patios varía. No prometer una línea concreta ni llamar al traslado paseo de cinco minutos."
+          },
+          {
+            "title": "Historia y vida de Kreuzberg hasta el Spree",
+            "zone": "Topografía → traslado a Kreuzberg → Markthalle → Oberbaum → East Side",
+            "stopIds": [
+              "topography",
+              "markthalle",
+              "oberbaum",
+              "eastside"
+            ],
+            "editorialNote": "Topografía es la única exposición larga. Después cambiar de ambiente, comer en Kreuzberg y pasear por el río. Con mal tiempo o contenido emocional intenso, acortar East Side; no sumar Museo Judío y Checkpoint como interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida y traslados, estimación editorial. Maps para 30/10 a 13 h: Topografía→Markthalle 25 min en transporte (4,2 km). Markthalle→Oberbaum→inicio East Side 1,24 km/17 min a pie; añadir hasta 1,3 km si se recorre toda la galería. Domingo sustituir mercado por comida del barrio."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro político, plazas y memoria",
+            "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+            "stopIds": [
+              "reichstag",
+              "brandenburg",
+              "memorial",
+              "gendarmenmarkt",
+              "bebel"
+            ],
+            "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro político, plazas y memoria",
+            "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+            "stopIds": [
+              "reichstag",
+              "brandenburg",
+              "memorial",
+              "gendarmenmarkt",
+              "bebel"
+            ],
+            "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+          },
+          {
+            "title": "Un museo, patios y el Muro",
+            "zone": "Isla de los Museos → Hackesche Höfe → Bernauer Straße",
+            "stopIds": [
+              "dom",
+              "neues",
+              "hackescher",
+              "bernauer"
+            ],
+            "editorialNote": "Neues es el museo principal; catedral sólo exterior. Lunes: cambiar el orden de jornadas si se quiere entrar al museo. Bernauer aporta la historia de la frontera; no es el mismo lugar que East Side.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida, museo y transporte, estimación editorial. Maps 29/10 para 30/10 a 14 h: entorno Neues→Bernauer unos 21 min en transporte; reservar 30-40 min con acceso y espera. Desde los patios varía. No prometer una línea concreta ni llamar al traslado paseo de cinco minutos."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro político, plazas y memoria",
+            "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+            "stopIds": [
+              "reichstag",
+              "brandenburg",
+              "memorial",
+              "gendarmenmarkt",
+              "bebel"
+            ],
+            "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+          },
+          {
+            "title": "Un museo, patios y el Muro",
+            "zone": "Isla de los Museos → Hackesche Höfe → Bernauer Straße",
+            "stopIds": [
+              "dom",
+              "neues",
+              "hackescher",
+              "bernauer"
+            ],
+            "editorialNote": "Neues es el museo principal; catedral sólo exterior. Lunes: cambiar el orden de jornadas si se quiere entrar al museo. Bernauer aporta la historia de la frontera; no es el mismo lugar que East Side.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida, museo y transporte, estimación editorial. Maps 29/10 para 30/10 a 14 h: entorno Neues→Bernauer unos 21 min en transporte; reservar 30-40 min con acceso y espera. Desde los patios varía. No prometer una línea concreta ni llamar al traslado paseo de cinco minutos."
+          },
+          {
+            "title": "Historia y vida de Kreuzberg hasta el Spree",
+            "zone": "Topografía → traslado a Kreuzberg → Markthalle → Oberbaum → East Side",
+            "stopIds": [
+              "topography",
+              "markthalle",
+              "oberbaum",
+              "eastside"
+            ],
+            "editorialNote": "Topografía es la única exposición larga. Después cambiar de ambiente, comer en Kreuzberg y pasear por el río. Con mal tiempo o contenido emocional intenso, acortar East Side; no sumar Museo Judío y Checkpoint como interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida y traslados, estimación editorial. Maps para 30/10 a 13 h: Topografía→Markthalle 25 min en transporte (4,2 km). Markthalle→Oberbaum→inicio East Side 1,24 km/17 min a pie; añadir hasta 1,3 km si se recorre toda la galería. Domingo sustituir mercado por comida del barrio."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro político, plazas y memoria",
+            "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+            "stopIds": [
+              "reichstag",
+              "brandenburg",
+              "memorial",
+              "gendarmenmarkt",
+              "bebel"
+            ],
+            "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro político, plazas y memoria",
+            "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+            "stopIds": [
+              "reichstag",
+              "brandenburg",
+              "memorial",
+              "gendarmenmarkt",
+              "bebel"
+            ],
+            "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+          },
+          {
+            "title": "Un museo, patios y el Muro",
+            "zone": "Isla de los Museos → Hackesche Höfe → Bernauer Straße",
+            "stopIds": [
+              "dom",
+              "neues",
+              "hackescher",
+              "bernauer"
+            ],
+            "editorialNote": "Neues es el museo principal; catedral sólo exterior. Lunes: cambiar el orden de jornadas si se quiere entrar al museo. Bernauer aporta la historia de la frontera; no es el mismo lugar que East Side.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida, museo y transporte, estimación editorial. Maps 29/10 para 30/10 a 14 h: entorno Neues→Bernauer unos 21 min en transporte; reservar 30-40 min con acceso y espera. Desde los patios varía. No prometer una línea concreta ni llamar al traslado paseo de cinco minutos."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro político, plazas y memoria",
+            "zone": "Reichstag → Brandeburgo → Memorial → Gendarmenmarkt → Bebelplatz",
+            "stopIds": [
+              "reichstag",
+              "brandenburg",
+              "memorial",
+              "gendarmenmarkt",
+              "bebel"
+            ],
+            "editorialNote": "La cúpula es el único interior opcional y exige registro. Sin plaza, ver exterior y dedicar más tiempo a la ciudad y las pausas, no rellenar con tres museos. El memorial merece una visita respetuosa.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: enlaces a pie de 0,5 + 0,5 + 1,1 + 0,5 km, unos 36 min sin visitas ni descansos. No es toda la distancia que se camina dentro de plazas."
+          },
+          {
+            "title": "Un museo, patios y el Muro",
+            "zone": "Isla de los Museos → Hackesche Höfe → Bernauer Straße",
+            "stopIds": [
+              "dom",
+              "neues",
+              "hackescher",
+              "bernauer"
+            ],
+            "editorialNote": "Neues es el museo principal; catedral sólo exterior. Lunes: cambiar el orden de jornadas si se quiere entrar al museo. Bernauer aporta la historia de la frontera; no es el mismo lugar que East Side.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida, museo y transporte, estimación editorial. Maps 29/10 para 30/10 a 14 h: entorno Neues→Bernauer unos 21 min en transporte; reservar 30-40 min con acceso y espera. Desde los patios varía. No prometer una línea concreta ni llamar al traslado paseo de cinco minutos."
+          },
+          {
+            "title": "Historia y vida de Kreuzberg hasta el Spree",
+            "zone": "Topografía → traslado a Kreuzberg → Markthalle → Oberbaum → East Side",
+            "stopIds": [
+              "topography",
+              "markthalle",
+              "oberbaum",
+              "eastside"
+            ],
+            "editorialNote": "Topografía es la única exposición larga. Después cambiar de ambiente, comer en Kreuzberg y pasear por el río. Con mal tiempo o contenido emocional intenso, acortar East Side; no sumar Museo Judío y Checkpoint como interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida y traslados, estimación editorial. Maps para 30/10 a 13 h: Topografía→Markthalle 25 min en transporte (4,2 km). Markthalle→Oberbaum→inicio East Side 1,24 km/17 min a pie; añadir hasta 1,3 km si se recorre toda la galería. Domingo sustituir mercado por comida del barrio."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [
+    {
+      "id": "potsdam",
+      "name": "Potsdam · Sanssouci y parque",
+      "zone": "Fuera de Berlín",
+      "lat": 52.40420169999999,
+      "lon": 13.0384999,
+      "coordSource": "https://www.google.com/maps/search/?api=1&query=Sanssouci+Palace&query_place_id=ChIJUXWcySz0qEcRFgU6MTKjVdA",
+      "minutes": 480,
+      "sourceIds": [
+        "potsdam",
+        "local",
+        "potsdampark"
+      ],
+      "priority": "Alternativa de jornada",
+      "reason": "Palacio y parque para dedicar un día a Potsdam, sin acumular varios palacios.",
+      "visit": "Sanssouci como único interior principal, con franja por elegir; parque y paseo con comida. No combinar con Berlín por la tarde ni con Palacio Nuevo por defecto.",
+      "transport": "Maps consultado para sábado 31/10/2026 a 09 h: Berlin Hauptbahnhof→Sanssouci unos 70 min en transporte. Añadir acceso desde alojamiento, espera y margen de entrada; servicio y transbordos varían.",
+      "pacing": "7-9 h con ida/vuelta, comida y paseo, estimación editorial.",
+      "caution": "Palacio cerrado lunes; abril-octubre martes-domingo 10-17:30, noviembre-diciembre 10-16:30 h según página actual. Cierra 24 y 25/12/2026, 31/12 horario corto. Billete individual publicado 14 € sujeto a disponibilidad del día; sanssouci+ 22 € con franja. No hay entrada comprada. Parque no equivale a todos los edificios abiertos; para enero-marzo comprobar calendario actual. Parque: entrada gratuita, todos los días desde las 8 hasta el anochecer. Evitar con avisos de temporal y seguir los caminos por riesgo de ramas; no implica edificios abiertos.",
+      "url": "https://www.spsg.de/en/palaces-gardens/object/sanssouci-palace/",
+      "access": "https://www.spsg.de/en/palaces-gardens/object/sanssouci-palace/",
+      "kind": "excursion",
+      "reviewedAt": "2026-10-29",
+      "closedWeekdays": [
+        1
+      ],
+      "closedMonthDays": [
+        "12-24",
+        "12-25"
+      ],
+      "closedDates": [],
+      "photo": {
+        "img": "assets/berlin/potsdam.jpg",
+        "source": "https://www.flickr.com/photos/wolfgangstaudt/707878963/",
+        "author": "Wolfgang Staudt",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "closedComponent": "El palacio Sanssouci está cerrado en esta fecha. Puedes cambiar de día o hacer sólo el paseo exterior por el parque, sujeto a su acceso y al tiempo."
+    }
+  ],
+  "editorialAudit": [
+    "Tres guías primero; después operadores, museos, memoriales y Maps.",
+    "La guía Rick Steves incluye Pergamon pese al cierre; se descarta ese interior.",
+    "Primer destino por coordenadas de la ruta central resolvió otro edificio: descartado y repetido con lugares exactos.",
+    "Licencias Flickr BY/BY-SA y autores comprobados en originales; fotos de platos ajenos etiquetadas."
+  ],
+  "editorialTradeoffs": [
+    "Centro caminable sin isla de museos añadida al final; segunda jornada con un museo y patios.",
+    "Bernauer y East Side no son intercambiables: uno explica frontera, otro reúne murales.",
+    "Tercer día combina historia con comida y vida urbana, no una sucesión de memoriales."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "visitBerlin acumula doce hitos en el centro y propone oeste; Rick Steves agrupa historia y museos pero conserva interiores cerrados; Go Ask A Local ayuda a separar memoria y barrios. Se reducen visitas por jornada y se mantiene transporte al bloque oriental. Charlottenburg no se añade por cubrir una cuota."
+}

@@ -1,0 +1,980 @@
+{
+  "schemaVersion": 1,
+  "country": "IT",
+  "id": "naples",
+  "name": "Nápoles",
+  "localName": "Napoli",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita urbana de 1-3 días, sin fecha ni entradas compradas. Centro histórico, MANN/Vomero y barrio monumental. Pompeya merece día propio, no se combina con dos castillos.",
+  "stops": [
+    {
+      "id": "duomo",
+      "name": "Duomo de Nápoles",
+      "kind": "visit",
+      "zone": "Centro histórico / Via Duomo",
+      "reason": "Fachada y catedral de San Gennaro, con opción de experiencia gratuita por las áreas más antiguas.",
+      "sourceIds": [
+        "duomo",
+        "sophie"
+      ],
+      "coordinates": {
+        "lat": 40.8525429,
+        "lon": 14.2593205
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Cathedral+of+Santa+Maria+Assunta&query_place_id=ChIJOXnccWoIOxMR3HoYUq2QrYs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Experiencia oficial gratuita con donación voluntaria: 9:30-17, salidas cada media hora; confirmar disponibilidad en infopoint. Grupos de más de 25 requieren reserva. Culto puede limitar visita. No incluye Museo del Tesoro ni tejados: éstos son experiencia aparte desde 6€ y con escaleras. No trasladar el horario de la experiencia a toda la iglesia.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naples/duomo.jpg",
+        "source": "https://www.flickr.com/photos/84292292@N00/5599564015/",
+        "author": "Aleksandr Zykov",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Catedral; culto y experiencia gratuita diferenciados"
+    },
+    {
+      "id": "gregorio",
+      "name": "Via San Gregorio Armeno",
+      "kind": "visit",
+      "zone": "Centro histórico / artesanos",
+      "reason": "Calle de talleres de belenes y pequeñas figuras artesanas, no sólo un destino navideño.",
+      "sourceIds": [
+        "sophie",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 40.8500804,
+        "lon": 14.2578099
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Via+San+Gregorio+Armeno&query_place_id=ChIJHdjlmkEIOxMRapZfdvJovwA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "No se promete que todos los talleres estén abiertos ni un mercado en fechas concretas. En Navidad puede haber muchísima gente. Comprar o entrar en iglesias es opcional, no incluido.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naples/gregorio.jpg",
+        "source": "https://www.flickr.com/photos/erikkristensen/21746260319/",
+        "author": "Erik Cleves Kristensen",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; talleres según apertura"
+    },
+    {
+      "id": "spacca",
+      "name": "Spaccanapoli · Via Benedetto Croce",
+      "kind": "visit",
+      "zone": "Centro histórico / decumano inferior",
+      "reason": "Tramo del eje histórico entre librerías, fachadas y Piazza San Domenico, con tiempo para mirar sin coleccionar entradas.",
+      "sourceIds": [
+        "sophie",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 40.8478055,
+        "lon": 14.2534428
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Via+Benedetto+Croce&query_place_id=ChIJm_kqfUMIOxMR9ruA7OL1dTA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Punto de Maps en Via Benedetto Croce, no el restaurante llamado Spaccanapoli. Calles vivas con scooters y pavimento irregular. Santa Chiara tiene entrada separada; Sansevero no está incluido automáticamente.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naples/spacca.jpg",
+        "source": "https://www.flickr.com/photos/prof_richard/48749776447/",
+        "author": "Richard Mortel",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo urbano exterior"
+    },
+    {
+      "id": "chiara",
+      "name": "Santa Chiara · claustro y museo",
+      "kind": "visit",
+      "zone": "Centro histórico / Piazza del Gesù",
+      "reason": "Claustro decorado, frescos y piezas del complejo como visita interior principal del casco histórico.",
+      "sourceIds": [
+        "chiara",
+        "chiarafaq",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 40.8472262,
+        "lon": 14.2526378
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Complesso+Monumentale+di+Santa+Chiara&query_place_id=ChIJt_I9WkQIOxMR83IwPRNc3z0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 80,
+      "durationType": "editorial-estimate",
+      "caution": "7€ general. Venta oficial sólo en taquilla, no se aceptan vales de terceros. La página de horarios dice lun-sáb 9:30-17 y dom 10-14; FAQ dice cierre 30 min después con última entrada 30 min antes. Usar el horario más corto y llegar con margen, confirmar fecha. Cierra 25 dic,1 ene, Pascua según FAQ. Basílica gratuita con horario propio. No implica acceso a todos los claustros.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naples/chiara.jpg",
+        "source": "https://www.flickr.com/photos/prof_richard/48748535818/",
+        "author": "Richard Mortel",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Galería con frescos del complejo de Santa Chiara, no detalle de los bancos de mayólica. Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Complejo museal de pago; basílica separada"
+    },
+    {
+      "id": "mann",
+      "name": "MANN · Museo Arqueológico Nacional",
+      "kind": "visit",
+      "zone": "Museo / Piazza Cavour",
+      "reason": "Colección Farnesio y hallazgos de Pompeya en un bloque de museo largo, sin intentar verlo todo.",
+      "sourceIds": [
+        "mann",
+        "sorted",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 40.8535985,
+        "lon": 14.2505254
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Museo+Archeologico+Nazionale+di+Napoli&query_place_id=ChIJI0DJ4mcIOxMRmHwFiRXPjrQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "22€ general actual, no los 20€ de alguna guía. 9-19:30, última entrada 18:30, desalojo desde 19. Martes cerrado; si martes festivo abre y cierra miércoles. Entrada válida dos días de apertura consecutivos, nominal no transferible/no reembolsable según web. Magna Grecia exige reserva y 1,50€ adicional. Elegir prioridades y revisar salas cerradas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naples/mann.jpg",
+        "source": "https://www.flickr.com/photos/the-consortium/5914225667/",
+        "author": "Dave & Margie Hill / Kleerup",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago; selección de salas"
+    },
+    {
+      "id": "elmo",
+      "name": "Castel Sant’Elmo · mirador",
+      "kind": "visit",
+      "zone": "Vomero / colina de San Martino",
+      "reason": "Fortaleza y panorama del golfo para salir del centro bajo, sin añadir otro gran museo.",
+      "sourceIds": [
+        "elmo",
+        "sophie",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 40.8444515,
+        "lon": 14.2388951
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Castel+Sant%27Elmo&query_place_id=ChIJed3N-lcIOxMRb0_dM8xIY4w",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Ministerio, actualizado 21/10/2026: 5€ general, 8:30-19:30, martes cerrado. Museo del Novecento 9:30-18:30 con última 17:30. Mal tiempo puede cerrar el recinto. Transporte hasta Vomero y tramo final a pie en subida; no confundir distancia con paseo llano. Certosa de San Martino no incluida.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naples/elmo.jpg",
+        "source": "https://www.flickr.com/photos/robalter/45981785594/",
+        "author": "Rob Alter",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Panorama de Nápoles desde Castel Sant’Elmo, no vista del castillo desde fuera. Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Fortaleza de pago; subida con transporte"
+    },
+    {
+      "id": "umberto",
+      "name": "Galleria Umberto I",
+      "kind": "visit",
+      "zone": "San Carlo / barrio monumental",
+      "reason": "Galería acristalada para cruzar bajo su cúpula antes de la plaza monumental.",
+      "sourceIds": [
+        "sophie",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 40.8385287,
+        "lon": 14.2494744
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Galleria+Umberto+I&query_place_id=ChIJ3YIUnEEJOxMROixS4Tvud94",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "No incluye Teatro San Carlo, visitas guiadas ni consumiciones. Puede haber montajes o restricciones temporales. Es una parada breve, no una mañana de museo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naples/umberto.jpg",
+        "source": "https://www.flickr.com/photos/fran001/51626879859/",
+        "author": "Francisco Anzola",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Galería urbana; comercios según apertura"
+    },
+    {
+      "id": "plebiscito",
+      "name": "Piazza del Plebiscito",
+      "kind": "visit",
+      "zone": "Barrio monumental",
+      "reason": "Gran plaza entre la basílica y el Palacio Real, con espacio para leer el conjunto.",
+      "sourceIds": [
+        "sophie",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 40.8358256,
+        "lon": 14.2485831
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+del+Plebiscito&query_place_id=ChIJuVTsVVIIOxMRFDyARSoS2Yo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "No garantiza interior de la basílica ni eventos o conciertos. Accesos pueden cambiar por actos públicos; no se promete plaza vacía como en la foto de archivo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naples/plebiscito.jpg",
+        "source": "https://www.flickr.com/photos/imaffo/52216162031/",
+        "author": "Alessio Maffeis",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Piazza del Plebiscito y basílica de San Francesco di Paola. Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "palace",
+      "name": "Palacio Real de Nápoles",
+      "kind": "visit",
+      "zone": "Piazza del Plebiscito",
+      "reason": "Apartamentos históricos como visita interior principal de este día, antes del paseo junto al mar.",
+      "sourceIds": [
+        "palace",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 40.8362316,
+        "lon": 14.2494027
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Royal+Palace+of+Naples&query_place_id=ChIJn-dEW1IIOxMRye0kDMu7iz8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "15€ general. 9-20, última entrada 19; cierra miércoles,1 ene y 25 dic. Algunas salas pueden cerrar temporalmente. Jardín Romántico 2€ aparte y con acceso propio, no incluido. Comprobar fecha y condiciones del tipo de entrada; no asumir flexibilidad para exposiciones o visitas especiales. Foto de exterior.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naples/palace.jpg",
+        "source": "https://www.flickr.com/photos/chiaramarra/454534029/",
+        "author": "Chiara Marra",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Fachada del Palacio Real desde Piazza del Plebiscito, no salas interiores. Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Palacio de pago; salas según apertura"
+    },
+    {
+      "id": "lungomare",
+      "name": "Lungomare · Via Partenope y Castel dell’Ovo exterior",
+      "kind": "visit",
+      "zone": "Santa Lucia / paseo marítimo",
+      "reason": "Paseo junto al golfo hasta el entorno del castillo, sin prometer una visita interior hoy cerrada.",
+      "sourceIds": [
+        "ovo",
+        "sophie",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 40.8299574,
+        "lon": 14.2455055
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Via+Partenope&query_place_id=ChIJP754eawJOxMRB_DORVvRoAU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "El Ayuntamiento mantiene Castel dell’Ovo cerrado hasta nuevo aviso por obras. No entrar ni sugerir acceso gratuito a sus salas; sólo verlo desde el paseo y entorno permitido. Consultar estado antes de viajar. Lluvia, viento y obras pueden alterar el paseo. No se incluye barco ni baño.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/naples/lungomare.jpg",
+        "source": "https://www.flickr.com/photos/15216811@N06/11590590754/",
+        "author": "N i c o l a",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; castillo cerrado"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Catedral, artesanos y claustro",
+          "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+          "stopIds": [
+            "duomo",
+            "gregorio",
+            "spacca",
+            "chiara"
+          ],
+          "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Catedral, artesanos y claustro",
+          "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+          "stopIds": [
+            "duomo",
+            "gregorio",
+            "spacca",
+            "chiara"
+          ],
+          "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+        },
+        {
+          "title": "Arqueología y panorama del Vomero",
+          "zone": "MANN → comida → Castel Sant’Elmo",
+          "stopIds": [
+            "mann",
+            "elmo"
+          ],
+          "editorialNote": "Museo al abrir, comida y después transporte al Vomero. Dos bloques amplios, no un día para sumar Capodimonte, catacumbas y Certosa. Ambos cierran martes ordinario: mover este día entero.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, traslados y descansos, estimación editorial. Consulta de Maps para 2/11/2026 13 h: 20 min y 5,2 km en transporte entre puntos; reservar 40-60 min con espera y acceso final. No son 20 min de paseo ni un horario garantizado para otro día."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Catedral, artesanos y claustro",
+          "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+          "stopIds": [
+            "duomo",
+            "gregorio",
+            "spacca",
+            "chiara"
+          ],
+          "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+        },
+        {
+          "title": "Arqueología y panorama del Vomero",
+          "zone": "MANN → comida → Castel Sant’Elmo",
+          "stopIds": [
+            "mann",
+            "elmo"
+          ],
+          "editorialNote": "Museo al abrir, comida y después transporte al Vomero. Dos bloques amplios, no un día para sumar Capodimonte, catacumbas y Certosa. Ambos cierran martes ordinario: mover este día entero.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, traslados y descansos, estimación editorial. Consulta de Maps para 2/11/2026 13 h: 20 min y 5,2 km en transporte entre puntos; reservar 40-60 min con espera y acceso final. No son 20 min de paseo ni un horario garantizado para otro día."
+        },
+        {
+          "title": "Nápoles monumental y paseo marítimo",
+          "zone": "Galleria → Plebiscito → Palacio Real → Lungomare",
+          "stopIds": [
+            "umberto",
+            "plebiscito",
+            "palace",
+            "lungomare"
+          ],
+          "editorialNote": "Un interior principal, el palacio, y tarde junto al mar. Miércoles cambiar día del palacio; no sustituirlo por una entrada inventada a Castel dell’Ovo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas, estimación editorial. Maps enlaces 322 m 4 min,215 m 2 min y 1,3 km 16 min; paseo de costa e interiores añaden distancia. No incluye visita al Teatro San Carlo."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Centro y castillo temprano o tarde; agua, sombra y pausas interiores. Lungomare muy expuesto al sol.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Subir al mirador con luz y buen tiempo; pavimento mojado resbaladizo. No prometer panorama con niebla.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "San Gregorio puede estar muy concurrido. MANN/palacio/claustro y restaurantes tienen cierres propios: confirmar 25 dic y 1 ene.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Confirmar festivos y Pascua; lluvia y viento pueden alterar fortaleza y costa. Cambiar orden por cierres semanales.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No hay reservas ni entradas compradas.",
+    "MANN y Castel Sant’Elmo cierran martes ordinario; Palacio Real cierra miércoles.",
+    "Castel dell’Ovo cerrado por obras según Ayuntamiento: sólo exterior."
+  ],
+  "excludedOrOptional": [
+    "Sansevero es alternativa con franja:12€,9-19, martes cerrado según museo. Reserva oficial hasta 60 días, compra no modificable/no reembolsable. No se apila con todos los interiores del día.",
+    "Pompeya, Herculano, Vesubio, Capri y Costa Amalfitana no se fuerzan como media tarde de este itinerario urbano.",
+    "Capodimonte, Certosa y catacumbas requieren sustituir bloques, no llenar todos los huecos."
+  ],
+  "sources": [
+    {
+      "id": "sophie",
+      "title": "Solosophie: guía de Nápoles",
+      "url": "https://www.solosophie.com/naples-guide/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "local",
+      "title": "Partenope in Tour: tres días",
+      "url": "https://www.partenopeintour.com/2024/11/01/itinerario-di-napoli-di-3-giorni-il-tour-di-una-guida/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "sorted",
+      "title": "Naples Sorted: itinerarios",
+      "url": "https://getnaplessorted.com/it/plans",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "lp",
+      "title": "Lonely Planet: dónde comer",
+      "url": "https://www.lonelyplanet.com/articles/best-places-to-eat-in-naples",
+      "type": "editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "mann",
+      "title": "MANN: horarios y tarifas",
+      "url": "https://mann-napoli.it/en/timetables-and-fares/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "chiara",
+      "title": "Santa Chiara: horarios y tarifas",
+      "url": "https://www.monasterodisantachiara.it/orari/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "chiarafaq",
+      "title": "Santa Chiara: preguntas frecuentes",
+      "url": "https://www.monasterodisantachiara.it/faq/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "duomo",
+      "title": "Duomo: planificar visita",
+      "url": "https://duomonapoli.it/pianifica-la-visita/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "elmo",
+      "title": "Ministerio: Castel Sant’Elmo",
+      "url": "https://cultura.gov.it/luogo/castel-sant-elmo-e-museo-del-novecento-a-napoli",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "palace",
+      "title": "Palacio Real: visita",
+      "url": "https://palazzorealedinapoli.org/informazioni-per-la-visita/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "ovo",
+      "title": "Ayuntamiento: Castel dell’Ovo",
+      "url": "https://www.comune.napoli.it/vivere-il-comune/luoghi/castel-dellovo/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "sansevero",
+      "title": "Sansevero: horarios y tarifas",
+      "url": "https://www.museosansevero.it/en/plan-your-visit/opening-hours-fees",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "sorbillo",
+      "title": "Sorbillo: sede histórica",
+      "url": "https://www.sorbillo.it/gino-sorbillo-antica-pizzeria/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "tandem",
+      "title": "Tandem: Via Paladino",
+      "url": "https://www.tandemnapoli.it/tandem-via-paladino/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "menu",
+      "title": "Tandem: carta 2026",
+      "url": "https://www.tandemnapoli.it/wp-content/uploads/2026/01/menu-tandem-inglese.pdf",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "scaturchio",
+      "title": "Scaturchio: sedes",
+      "url": "https://scaturchio.it/sedi/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "gambero",
+      "title": "Gambero Rosso: sfogliatelle",
+      "url": "https://www.gamberorosso.it/rubriche/classifiche/migliori-sfogliatelle-napoli/",
+      "type": "editorial",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Catedral, artesanos y claustro",
+            "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+            "stopIds": [
+              "duomo",
+              "gregorio",
+              "spacca",
+              "chiara"
+            ],
+            "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Catedral, artesanos y claustro",
+            "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+            "stopIds": [
+              "duomo",
+              "gregorio",
+              "spacca",
+              "chiara"
+            ],
+            "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+          },
+          {
+            "title": "Arqueología y panorama del Vomero",
+            "zone": "MANN → comida → Castel Sant’Elmo",
+            "stopIds": [
+              "mann",
+              "elmo"
+            ],
+            "editorialNote": "Museo al abrir, comida y después transporte al Vomero. Dos bloques amplios, no un día para sumar Capodimonte, catacumbas y Certosa. Ambos cierran martes ordinario: mover este día entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslados y descansos, estimación editorial. Consulta de Maps para 2/11/2026 13 h: 20 min y 5,2 km en transporte entre puntos; reservar 40-60 min con espera y acceso final. No son 20 min de paseo ni un horario garantizado para otro día."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Catedral, artesanos y claustro",
+            "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+            "stopIds": [
+              "duomo",
+              "gregorio",
+              "spacca",
+              "chiara"
+            ],
+            "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+          },
+          {
+            "title": "Arqueología y panorama del Vomero",
+            "zone": "MANN → comida → Castel Sant’Elmo",
+            "stopIds": [
+              "mann",
+              "elmo"
+            ],
+            "editorialNote": "Museo al abrir, comida y después transporte al Vomero. Dos bloques amplios, no un día para sumar Capodimonte, catacumbas y Certosa. Ambos cierran martes ordinario: mover este día entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslados y descansos, estimación editorial. Consulta de Maps para 2/11/2026 13 h: 20 min y 5,2 km en transporte entre puntos; reservar 40-60 min con espera y acceso final. No son 20 min de paseo ni un horario garantizado para otro día."
+          },
+          {
+            "title": "Nápoles monumental y paseo marítimo",
+            "zone": "Galleria → Plebiscito → Palacio Real → Lungomare",
+            "stopIds": [
+              "umberto",
+              "plebiscito",
+              "palace",
+              "lungomare"
+            ],
+            "editorialNote": "Un interior principal, el palacio, y tarde junto al mar. Miércoles cambiar día del palacio; no sustituirlo por una entrada inventada a Castel dell’Ovo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps enlaces 322 m 4 min,215 m 2 min y 1,3 km 16 min; paseo de costa e interiores añaden distancia. No incluye visita al Teatro San Carlo."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Catedral, artesanos y claustro",
+            "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+            "stopIds": [
+              "duomo",
+              "gregorio",
+              "spacca",
+              "chiara"
+            ],
+            "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Catedral, artesanos y claustro",
+            "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+            "stopIds": [
+              "duomo",
+              "gregorio",
+              "spacca",
+              "chiara"
+            ],
+            "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+          },
+          {
+            "title": "Arqueología y panorama del Vomero",
+            "zone": "MANN → comida → Castel Sant’Elmo",
+            "stopIds": [
+              "mann",
+              "elmo"
+            ],
+            "editorialNote": "Museo al abrir, comida y después transporte al Vomero. Dos bloques amplios, no un día para sumar Capodimonte, catacumbas y Certosa. Ambos cierran martes ordinario: mover este día entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslados y descansos, estimación editorial. Consulta de Maps para 2/11/2026 13 h: 20 min y 5,2 km en transporte entre puntos; reservar 40-60 min con espera y acceso final. No son 20 min de paseo ni un horario garantizado para otro día."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Catedral, artesanos y claustro",
+            "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+            "stopIds": [
+              "duomo",
+              "gregorio",
+              "spacca",
+              "chiara"
+            ],
+            "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+          },
+          {
+            "title": "Arqueología y panorama del Vomero",
+            "zone": "MANN → comida → Castel Sant’Elmo",
+            "stopIds": [
+              "mann",
+              "elmo"
+            ],
+            "editorialNote": "Museo al abrir, comida y después transporte al Vomero. Dos bloques amplios, no un día para sumar Capodimonte, catacumbas y Certosa. Ambos cierran martes ordinario: mover este día entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslados y descansos, estimación editorial. Consulta de Maps para 2/11/2026 13 h: 20 min y 5,2 km en transporte entre puntos; reservar 40-60 min con espera y acceso final. No son 20 min de paseo ni un horario garantizado para otro día."
+          },
+          {
+            "title": "Nápoles monumental y paseo marítimo",
+            "zone": "Galleria → Plebiscito → Palacio Real → Lungomare",
+            "stopIds": [
+              "umberto",
+              "plebiscito",
+              "palace",
+              "lungomare"
+            ],
+            "editorialNote": "Un interior principal, el palacio, y tarde junto al mar. Miércoles cambiar día del palacio; no sustituirlo por una entrada inventada a Castel dell’Ovo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps enlaces 322 m 4 min,215 m 2 min y 1,3 km 16 min; paseo de costa e interiores añaden distancia. No incluye visita al Teatro San Carlo."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Catedral, artesanos y claustro",
+            "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+            "stopIds": [
+              "duomo",
+              "gregorio",
+              "spacca",
+              "chiara"
+            ],
+            "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Catedral, artesanos y claustro",
+            "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+            "stopIds": [
+              "duomo",
+              "gregorio",
+              "spacca",
+              "chiara"
+            ],
+            "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+          },
+          {
+            "title": "Arqueología y panorama del Vomero",
+            "zone": "MANN → comida → Castel Sant’Elmo",
+            "stopIds": [
+              "mann",
+              "elmo"
+            ],
+            "editorialNote": "Museo al abrir, comida y después transporte al Vomero. Dos bloques amplios, no un día para sumar Capodimonte, catacumbas y Certosa. Ambos cierran martes ordinario: mover este día entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslados y descansos, estimación editorial. Consulta de Maps para 2/11/2026 13 h: 20 min y 5,2 km en transporte entre puntos; reservar 40-60 min con espera y acceso final. No son 20 min de paseo ni un horario garantizado para otro día."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Catedral, artesanos y claustro",
+            "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+            "stopIds": [
+              "duomo",
+              "gregorio",
+              "spacca",
+              "chiara"
+            ],
+            "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+          },
+          {
+            "title": "Arqueología y panorama del Vomero",
+            "zone": "MANN → comida → Castel Sant’Elmo",
+            "stopIds": [
+              "mann",
+              "elmo"
+            ],
+            "editorialNote": "Museo al abrir, comida y después transporte al Vomero. Dos bloques amplios, no un día para sumar Capodimonte, catacumbas y Certosa. Ambos cierran martes ordinario: mover este día entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslados y descansos, estimación editorial. Consulta de Maps para 2/11/2026 13 h: 20 min y 5,2 km en transporte entre puntos; reservar 40-60 min con espera y acceso final. No son 20 min de paseo ni un horario garantizado para otro día."
+          },
+          {
+            "title": "Nápoles monumental y paseo marítimo",
+            "zone": "Galleria → Plebiscito → Palacio Real → Lungomare",
+            "stopIds": [
+              "umberto",
+              "plebiscito",
+              "palace",
+              "lungomare"
+            ],
+            "editorialNote": "Un interior principal, el palacio, y tarde junto al mar. Miércoles cambiar día del palacio; no sustituirlo por una entrada inventada a Castel dell’Ovo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps enlaces 322 m 4 min,215 m 2 min y 1,3 km 16 min; paseo de costa e interiores añaden distancia. No incluye visita al Teatro San Carlo."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Catedral, artesanos y claustro",
+            "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+            "stopIds": [
+              "duomo",
+              "gregorio",
+              "spacca",
+              "chiara"
+            ],
+            "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Catedral, artesanos y claustro",
+            "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+            "stopIds": [
+              "duomo",
+              "gregorio",
+              "spacca",
+              "chiara"
+            ],
+            "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+          },
+          {
+            "title": "Arqueología y panorama del Vomero",
+            "zone": "MANN → comida → Castel Sant’Elmo",
+            "stopIds": [
+              "mann",
+              "elmo"
+            ],
+            "editorialNote": "Museo al abrir, comida y después transporte al Vomero. Dos bloques amplios, no un día para sumar Capodimonte, catacumbas y Certosa. Ambos cierran martes ordinario: mover este día entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslados y descansos, estimación editorial. Consulta de Maps para 2/11/2026 13 h: 20 min y 5,2 km en transporte entre puntos; reservar 40-60 min con espera y acceso final. No son 20 min de paseo ni un horario garantizado para otro día."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Catedral, artesanos y claustro",
+            "zone": "Duomo → San Gregorio → Spaccanapoli → Santa Chiara",
+            "stopIds": [
+              "duomo",
+              "gregorio",
+              "spacca",
+              "chiara"
+            ],
+            "editorialNote": "Empezar por el Duomo y dejar margen al claustro. En domingo Santa Chiara cierra pronto: hacerlo primero o cambiar de día. Sansevero, con franja, sustituye parte del día si se elige; no se añade por defecto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps entre puntos: 383 m 5 min,521 m 7 min y 162 m 1 min. No incluye recorridos interiores, desvíos, colas ni tiempo de talleres."
+          },
+          {
+            "title": "Arqueología y panorama del Vomero",
+            "zone": "MANN → comida → Castel Sant’Elmo",
+            "stopIds": [
+              "mann",
+              "elmo"
+            ],
+            "editorialNote": "Museo al abrir, comida y después transporte al Vomero. Dos bloques amplios, no un día para sumar Capodimonte, catacumbas y Certosa. Ambos cierran martes ordinario: mover este día entero.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslados y descansos, estimación editorial. Consulta de Maps para 2/11/2026 13 h: 20 min y 5,2 km en transporte entre puntos; reservar 40-60 min con espera y acceso final. No son 20 min de paseo ni un horario garantizado para otro día."
+          },
+          {
+            "title": "Nápoles monumental y paseo marítimo",
+            "zone": "Galleria → Plebiscito → Palacio Real → Lungomare",
+            "stopIds": [
+              "umberto",
+              "plebiscito",
+              "palace",
+              "lungomare"
+            ],
+            "editorialNote": "Un interior principal, el palacio, y tarde junto al mar. Miércoles cambiar día del palacio; no sustituirlo por una entrada inventada a Castel dell’Ovo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps enlaces 322 m 4 min,215 m 2 min y 1,3 km 16 min; paseo de costa e interiores añaden distancia. No incluye visita al Teatro San Carlo."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [],
+  "editorialTradeoffs": [],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": ""
+}

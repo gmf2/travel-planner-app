@@ -41,6 +41,84 @@
       "sourceUrls": [
         "https://vegemiasto.pl/menu/"
       ]
+    },
+    {
+      "id": "zapiecek-piwna",
+      "name": "Zapiecek · Piwna",
+      "address": "Piwna 34/36 · junto al casco antiguo",
+      "description": "Pierogarnia clásica con muchos rellenos: ruskie, carne, col y setas, de temporada y dulces.",
+      "strength": "Cadena familiar de pierogi con tradición; web propia y carta de especialidades. Maps: 4,0 · unas 2.700 reseñas en esta sucursal.",
+      "caution": "Es una cadena con varias sucursales: esta ficha corresponde a Piwna 34/36. Consultar carta y alérgenos.",
+      "officialUrl": "https://zapiecek.eu/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restauracja+Zapiecek&query_place_id=ChIJLSRZZm_MHkcRGuV5mfuzhhQ",
+      "editorialUrl": "https://www.barcelo.com/guia-turismo/es/polonia/varsovia/que-ver/donde-comer-en-varsovia/",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: ficha activa 29/10/2026",
+      "status": "maps-listed-active",
+      "priceLabel": "Consultar carta actual",
+      "photo": {
+        "id": "pierogi-cooked",
+        "img": "assets/enrichment/pierogi-cooked.jpg",
+        "source": "https://www.pexels.com/photo/cooked-pierogi-on-ceramic-plate-8601675/",
+        "author": "Polina Tankilevitch",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa del plato · no del local"
+      }
+    },
+    {
+      "id": "podwale-25",
+      "name": "Podwale 25 Kompania Piwna",
+      "address": "Podwale 25 · junto al Barbakán",
+      "description": "Taberna grande junto a la muralla: codillo al horno, schabowy y cerveza en jarras.",
+      "strength": "El operador presenta su golonka como plato legendario de la casa. Maps: 4,6 · unas 24.900 reseñas.",
+      "caution": "Porciones muy grandes; pensado para compartir. Sin reserva ni mesa confirmada.",
+      "officialUrl": "https://podwale25.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Podwale+25+Kompania+Piwna&query_place_id=ChIJUZnHkG_MHkcRp0_lW-_LJfA",
+      "editorialUrl": "https://www.barcelo.com/guia-turismo/es/polonia/varsovia/que-ver/donde-comer-en-varsovia/",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: ficha activa 29/10/2026",
+      "status": "maps-listed-active",
+      "priceLabel": "Consultar carta actual"
+    },
+    {
+      "id": "bazyliszek",
+      "name": "Bazyliszek",
+      "address": "Rynek Starego Miasta 1/3 · plaza del casco antiguo",
+      "description": "Clásico de la plaza del casco antiguo: pato asado con remolacha y paté casero.",
+      "strength": "Casa en la plaza principal del casco antiguo; Maps: 4,5 · unas 19.000 reseñas.",
+      "caution": "Ubicación muy turística: comparar carta y precios antes de sentarse.",
+      "officialUrl": "https://www.bazyliszek.waw.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bazyliszek+Restaurant&query_place_id=ChIJK-HHRm_MHkcRd1PT3fu9QpQ",
+      "editorialUrl": "https://www.barcelo.com/guia-turismo/es/polonia/varsovia/que-ver/donde-comer-en-varsovia/",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: ficha activa 29/10/2026",
+      "status": "maps-listed-active",
+      "priceLabel": "Consultar carta actual"
+    },
+    {
+      "id": "prasowy",
+      "name": "Bar Mleczny Prasowy",
+      "address": "Marszałkowska 10/16 · centro sur",
+      "description": "Bar de leche histórico (años 50) con platos caseros a precio bajo, cerca de la ruta hacia Łazienki.",
+      "strength": "Bar mleczny clásico del centro sur; Maps: 4,3 · unas 6.000 reseñas.",
+      "caution": "Web propia no verificada en la revisión; confirmar horario en la ficha de Maps. Servicio de mostrador.",
+      "officialUrl": "https://www.barprasowy.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Prasowy&query_place_id=ChIJIS2CPOfMHkcRKoOBFyhNApY",
+      "editorialUrl": "https://www.barcelo.com/guia-turismo/es/polonia/varsovia/que-ver/donde-comer-en-varsovia/",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: ficha activa 29/10/2026",
+      "status": "maps-listed-active",
+      "priceLabel": "Precio bajo · consultar carta",
+      "photo": {
+        "id": "potatoes",
+        "img": "assets/enrichment/potatoes.jpg",
+        "source": "https://www.pexels.com/photo/potato-pancakes-served-on-plate-24870672/",
+        "author": "Kadir Avşar",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa · no del local ni de su carta"
+      }
     }
   ],
   "activities": [
@@ -67,7 +145,7 @@
   ],
   "schemaVersion": 1,
   "cityId": "warsaw",
-  "reviewedAt": "2026-10-28",
+  "reviewedAt": "2026-10-29",
   "scope": "Primera muestra editorial, no catálogo exhaustivo. Revisión puntual, no vigilancia en tiempo real.",
-  "catalogRevision": "2026-10-28-editorial-pass2"
+  "catalogRevision": "2026-10-29-editorial-pass3"
 }

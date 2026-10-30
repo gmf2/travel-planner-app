@@ -1,0 +1,1187 @@
+{
+  "schemaVersion": 1,
+  "country": "HR",
+  "id": "dubrovnik",
+  "name": "Dubrovnik",
+  "localName": "Dubrovnik",
+  "selectionReason": "Ampliación croata solicitada.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fecha; un bloque exigente por día, tercer día opcional, sin entradas ni reservas.",
+  "stops": [
+    {
+      "id": "pile",
+      "name": "Puerta de Pile · entrar sin perderse",
+      "kind": "visit",
+      "zone": "Pile / casco histórico",
+      "reason": "Un punto claro de llegada para empezar el casco y decidir si se sube a las murallas antes del calor.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 42.6417059,
+        "lon": 18.1072035
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pile+Gate&query_place_id=ChIJS4ZSDR4LTBMRJhdsEZdA0do",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "caution": "Pile es una entrada a la ciudad, no una entrada gratuita al recorrido elevado de las murallas. Escaleras, piedra lisa y aglomeraciones; no se garantiza accesibilidad completa.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dubrovnik/pile.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/33547873443/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Puerta y exterior gratuitos"
+    },
+    {
+      "id": "walls",
+      "name": "Murallas · la visita principal del casco",
+      "kind": "visit",
+      "zone": "Recinto amurallado",
+      "reason": "Recorrer el perfil de la ciudad con agua y tiempo para parar; no tratarlo como un mirador de diez minutos.",
+      "sourceIds": [
+        "walls",
+        "wallshop",
+        "wallfaq",
+        "pass",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 42.6417059,
+        "lon": 18.1072035
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pile+Gate&query_place_id=ChIJS4ZSDR4LTBMRJhdsEZdA0do",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 130,
+      "durationType": "editorial-estimate",
+      "caution": "Webshop oficial: adulto 40€ para octubre/noviembre de 2026; consulta del 15/12/2026:20€, menor 7-18 años 5€. No tarifa invernal de 15€ de guías antiguas ni precio 2027 confirmado. Incluye Lovrijenac, colección de monedas y muralla exterior occidental, esta última cerrada dic-feb. El pase diario de 40€ cubre murallas y museos, pero la tienda solo ofrece temporada 01/03-30/11/2026. Comparar por fecha, sin sumar ambas entradas. Circuito de unos 1,94 km con muchas escaleras y escasa sombra; llevar agua. Horario exacto cambia: no se extrapola la portada sin fecha ni se promete apertura a las 8 todo el año. Cerrado 25/12 según FAQ.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dubrovnik/walls.jpg",
+        "source": "https://www.flickr.com/photos/jimmyharris/2770728432/",
+        "author": "Jimmy Harris",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Entrada de pago · precio según fecha"
+    },
+    {
+      "id": "stradun",
+      "name": "Stradun y callejuelas · bajar el ritmo",
+      "kind": "visit",
+      "zone": "Casco histórico",
+      "reason": "Después de la altura, recorrer la calle principal y salir a las calles laterales para comer y mirar sin otra cola.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 42.6413347,
+        "lon": 18.1089301
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Stradun&query_place_id=ChIJKU9Y8jILTBMR9V8NPzgOYKA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Las calles laterales suben por escaleras; no confundir casco compacto con recorrido sin esfuerzo. No se incluye compra, visita a iglesias ni un mercado diario garantizado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dubrovnik/stradun.jpg",
+        "source": "https://www.flickr.com/photos/camperdown/53263414313/",
+        "author": "Hugh Llewelyn",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "rector",
+      "name": "Palacio del Rector · alternativa a las murallas",
+      "kind": "visit",
+      "zone": "Pred Dvorom",
+      "reason": "Entender el antiguo gobierno de la ciudad en un interior que sustituye la gran visita exterior cuando llueve o no apetece subir.",
+      "sourceIds": [
+        "museumtickets",
+        "museumhours"
+      ],
+      "coordinates": {
+        "lat": 42.640338,
+        "lon": 18.1106427
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Rector%27s+Palace&query_place_id=ChIJh3rhADMLTBMRPMwLt9DWBMA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 15€, combinado 10 museos 20€ válido 7 días desde primer uso, una entrada por institución. No incluye automáticamente el monasterio franciscano: no figura en esa lista. Incluido en DuPass cuando este sea válido. Abr-oct diario 9-18; nov-mar 9-16, lunes cerrado. Cerrado Navidad, Año Nuevo y San Blas; 24/31-12 solo 9-12. Taquillas de Dubrovnik Museums solo pago sin efectivo por POS. No sumar a murallas y otro museo por obligación.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dubrovnik/rector.jpg",
+        "source": "https://www.flickr.com/photos/104401231@N02/31889632321/",
+        "author": "TriangulatedTruth™",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago · sustitución"
+    },
+    {
+      "id": "jesuit",
+      "name": "Escaleras de los Jesuitas · otra plaza",
+      "kind": "visit",
+      "zone": "Gundulićeva / escaleras de San Ignacio",
+      "reason": "Un paseo corto por la parte sur del casco y sus plazas, sin convertir cada localización de cine en una visita de pago.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 42.63961159999999,
+        "lon": 18.1093696
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Jesuit+Stairs&query_place_id=ChIJz0CaRzILTBMRcfKAGzhh0W4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Escaleras con desgaste y posible congestión. No se incluye interior de San Ignacio, tesoro de la catedral ni una visita de rodaje organizada. Culto y horarios mandan en las iglesias.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dubrovnik/jesuit.jpg",
+        "source": "https://www.flickr.com/photos/larrywkoester/52650525771/",
+        "author": "Larry Koester",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Escaleras y plaza exteriores"
+    },
+    {
+      "id": "port",
+      "name": "Puerto viejo y Porporela · terminar junto al agua",
+      "kind": "visit",
+      "zone": "Puerto viejo / Porporela",
+      "reason": "Salir al borde del mar para cerrar el día, en vez de añadir una segunda atracción grande al circuito del casco.",
+      "sourceIds": [
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 42.63982130000001,
+        "lon": 18.113281
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Porporela&query_place_id=ChIJD-jUeDQLTBMRGXhmaT3ka7M",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "El paseo se acorta con oleaje o viento. No se garantiza baño ni salida de barco. La foto es del puerto contiguo, no una prueba del estado del rompeolas en la fecha de visita.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dubrovnik/port.jpg",
+        "source": "https://www.flickr.com/photos/archer10/10088031633/",
+        "author": "Dennis Jarvis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Puerto viejo de Dubrovnik en archivo, junto al paseo de Porporela; no servicio de barcos garantizado. Recorte de presentación."
+      },
+      "visitMode": "Paseo exterior condicionado al mar"
+    },
+    {
+      "id": "francis",
+      "name": "Franciscanos · claustro y antigua farmacia",
+      "kind": "visit",
+      "zone": "Extremo de Stradun / Pile",
+      "reason": "Un interior breve y tranquilo antes de salir hacia los fuertes del oeste, sin encadenar todos los museos del pase.",
+      "sourceIds": [
+        "francis",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 42.6417604,
+        "lon": 18.1077831
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Franciscan+Church+and+Monastery&query_place_id=ChIJPegv2St1TBMRygsVRl-Qook",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Fuente del monasterio: adulto 8€, estudiantes 4€, incluido en DuPass válido. Verano 9-18, invierno 9-14. Cerrado 25/12 y 01/01; del 01/11 al 01/04, domingos cerrado. No 10€ de revendedor ni incluido en combinado de 10 museos por defecto. Visita a la colección histórica no acceso a todas las dependencias ni servicio farmacéutico garantizado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dubrovnik/francis.jpg",
+        "source": "https://www.flickr.com/photos/pagonzales/4810983291/",
+        "author": "Patrick G",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Claustro y museo de pago"
+    },
+    {
+      "id": "lovrijenac",
+      "name": "Lovrijenac · subir solo con ganas",
+      "kind": "visit",
+      "zone": "Pile / fuerte occidental",
+      "reason": "Mirar el fuerte desde el oeste; entrar solo si apetecen más escaleras y se ha confirmado la validez del billete para esa fecha.",
+      "sourceIds": [
+        "walls",
+        "wallfaq",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 42.6406296,
+        "lon": 18.1042975
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Tvr%C4%91ava+Lovrjenac+%2F+Lovrjenac+Fortress&query_place_id=ChIJQUK5_ywLTBMRBQIbxzDZ1T8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "La entrada de murallas incluye el fuerte, pero no se ha verificado uso del mismo billete en dos días distintos: confirmar vigencia antes de contar con él o elegir solo exterior. Si se quiere usar el mismo día de las murallas, sustituir otra parada y no acumular por obligación. Tarifa propia del fuerte a confirmar por fecha, no 10€ antiguo. Pile-fuerte: 264 m / 3 min en Maps, con escaleras; no son tres minutos de visita. Eventos y seguridad pueden limitar acceso.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dubrovnik/lovrijenac.jpg",
+        "source": "https://www.flickr.com/photos/ajy/2972289117/",
+        "author": "Alistair Young",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior; subida interior opcional de pago"
+    },
+    {
+      "id": "gradac",
+      "name": "Parque Gradac · una pausa de verdad",
+      "kind": "visit",
+      "zone": "Oeste de Pile / Gradac",
+      "reason": "Sentarse a la sombra y mirar hacia la costa después del fuerte, sin rellenar la tarde con otra entrada.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 42.6414224,
+        "lon": 18.1025551
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Gradac+Park&query_place_id=ChIJRR97fSsLTBMRSeApJS6BIxw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Foto de archivo; sombra, estado del parque y acceso pueden variar. No prometer evento al aire libre, baño o sendero costero seguro con mal tiempo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dubrovnik/gradac.jpg",
+        "source": "https://www.flickr.com/photos/donaldjudge/31980147555/",
+        "author": "Donald Judge",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Parque exterior"
+    },
+    {
+      "id": "srd",
+      "name": "Srđ · teleférico opcional, no plan de invierno",
+      "kind": "visit",
+      "zone": "Estación inferior / Srđ",
+      "reason": "Elegir la vista desde la montaña cuando funciona y el cielo acompaña, sin una bajada a pie obligatoria después de tanta escalera.",
+      "sourceIds": [
+        "cable",
+        "cablecontact"
+      ],
+      "coordinates": {
+        "lat": 42.643056,
+        "lon": 18.1116695
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Dubrovnik+Cable+Car&query_place_id=ChIJ67C5sMx0TBMRkWSlwIfYR6g",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 110,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 30€ ida y vuelta, 17€ solo ida. Online y otros puntos distintos de taquilla/máquina inferior añaden 2€ según FAQ. Horario oficial: abril 9-21; mayo 1-14 hasta 22 y 15-31 hasta 23:30; jun-ago hasta 24; septiembre 1-14 hasta 24 y 15-30 hasta 23; octubre 1-20 hasta 21 y 21-31 hasta 20; noviembre 9-17. Diciembre, enero, febrero y marzo cerrado. Mantenimiento 10, 11 y 20/11/2026. Viento y rayos suspenden servicio; última subida 30 min antes del cierre. No subida reservada ni museo de guerra incluido; no imponer sendero nocturno de bajada. Punto de mapa es estación inferior, foto vista desde arriba.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dubrovnik/srd.jpg",
+        "source": "https://www.flickr.com/photos/18091975@N00/53629262256/",
+        "author": "Eoin Gardiner",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Vista real desde Srđ, no foto de la estación inferior marcada para tomar el teleférico. Recorte de presentación."
+      },
+      "visitMode": "Teleférico opcional · cerrado dic-mar"
+    },
+    {
+      "id": "lapad",
+      "name": "Lapad · un tercer día de costa opcional",
+      "kind": "visit",
+      "zone": "Uvala Lapad",
+      "reason": "Salir del casco para comer y pasear por la bahía con tiempo libre, si de verdad se quiere un tercer día tranquilo.",
+      "sourceIds": [
+        "guide1",
+        "foodguide"
+      ],
+      "coordinates": {
+        "lat": 42.6549017,
+        "lon": 18.0700503
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Uvala+Lapad+Beach&query_place_id=ChIJeVmgMkp1TBMRQmPeT1RAwSQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 200,
+      "durationType": "editorial-estimate",
+      "caution": "No es imprescindible completar tres días ni se programa baño en invierno. Maps desde Pile devolvió 4,9 km / 70 min andando con desvío y escaleras: no se presenta como paseo corto ni tiempo de autobús. La consulta de transporte no dio ruta, por lo que no se inventa frecuencia o duración. Confirmar bus local o taxi y regreso. Pantarul-playa: 774 m / 10 min a pie. Foto antigua: no garantiza chiringuitos, hamacas o actividades actuales.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dubrovnik/lapad.jpg",
+        "source": "https://www.flickr.com/photos/mpk/4824966184/",
+        "author": "Mike Knell",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Costa exterior · día relajado opcional"
+    },
+    {
+      "id": "lokrum",
+      "name": "Lokrum · isla en lugar del día urbano",
+      "kind": "excursion",
+      "zone": "Fuera del casco / reserva natural",
+      "reason": "Pasear por la reserva y sus jardines con una jornada propia, sustituyendo Lapad u otro día, no sumándola tras las murallas.",
+      "sourceIds": [
+        "lokrum",
+        "lokrumprice",
+        "lokrumschedule",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 42.6243504,
+        "lon": 18.1212603
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Benedictine+Monastery+of+St.+Mary&query_place_id=ChIJb1nBXkALTBMRuoGz9vGMVH0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 360,
+      "durationType": "editorial-estimate",
+      "caution": "Mal tiempo suspende barcos. No se garantiza servicio de noviembre a marzo ni se copia el horario de verano de una guía. Confirmar temporada, barco y acceso para la fecha exacta; si no operan, elegir jornada urbana. Tarifa oficial 2026: adulto 30€, menor de 7-18 años 5€, estudiante 10€. Descuento con DuPass de 3 días 20%, de 7 días 30%, cuando sea válido; no es entrada gratuita. Según tarifa, la entrada puede utilizarse hasta tres días después de la fecha indicada. Respetar las normas de la reserva y el último barco; no se incluye alojamiento.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Puerto, jardines y paseos según apertura; baño y subida a Fort Royal opcionales, no incluidos por obligación.",
+      "photo": {
+        "img": "assets/dubrovnik/lokrum.jpg",
+        "source": "https://www.flickr.com/photos/ajy/2973168590/",
+        "author": "Alistair Young",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Puerto de Lokrum en archivo; no foto del monasterio ni garantía de barcos para otra fecha. Recorte de presentación."
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Casco y murallas, sin maratón de interiores",
+          "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+          "stopIds": [
+            "pile",
+            "walls",
+            "stradun",
+            "jesuit",
+            "port"
+          ],
+          "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+          "optionalStopIds": [
+            "rector"
+          ],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Casco y murallas, sin maratón de interiores",
+          "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+          "stopIds": [
+            "pile",
+            "walls",
+            "stradun",
+            "jesuit",
+            "port"
+          ],
+          "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+          "optionalStopIds": [
+            "rector"
+          ],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+        },
+        {
+          "title": "Claustro, fuerte y tarde con margen",
+          "zone": "Franciscanos → Lovrijenac → Gradac → Srđ opcional",
+          "stopIds": [
+            "francis",
+            "lovrijenac",
+            "gradac"
+          ],
+          "editorialNote": "Un interior breve y paseo por el fuerte y el parque. Entrar al fuerte es opcional: no se da por válido hoy un billete de murallas usado ayer. Srđ solo con energía, buen tiempo y teleférico abierto.",
+          "optionalStopIds": [
+            "srd"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida, más teleférico opcional si se elige. Gradac-estación inferior: 1,1 km / 16 min a pie con pendiente. En invierno el monasterio cierra los domingos; teleférico cerrado dic-mar."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Casco y murallas, sin maratón de interiores",
+          "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+          "stopIds": [
+            "pile",
+            "walls",
+            "stradun",
+            "jesuit",
+            "port"
+          ],
+          "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+          "optionalStopIds": [
+            "rector"
+          ],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+        },
+        {
+          "title": "Claustro, fuerte y tarde con margen",
+          "zone": "Franciscanos → Lovrijenac → Gradac → Srđ opcional",
+          "stopIds": [
+            "francis",
+            "lovrijenac",
+            "gradac"
+          ],
+          "editorialNote": "Un interior breve y paseo por el fuerte y el parque. Entrar al fuerte es opcional: no se da por válido hoy un billete de murallas usado ayer. Srđ solo con energía, buen tiempo y teleférico abierto.",
+          "optionalStopIds": [
+            "srd"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida, más teleférico opcional si se elige. Gradac-estación inferior: 1,1 km / 16 min a pie con pendiente. En invierno el monasterio cierra los domingos; teleférico cerrado dic-mar."
+        },
+        {
+          "title": "Lapad, solo si apetece una jornada tranquila",
+          "zone": "Lapad / bahía y paseo",
+          "stopIds": [
+            "lapad"
+          ],
+          "editorialNote": "Tercer día libre opcional, no necesario para ver el casco. Lokrum puede sustituirlo si hay barcos y acceso confirmados, nunca sumarse como segunda excursión.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "4-6 h con comida, ida y vuelta. No usar los 70 min a pie como duración de bus; transporte pendiente de horario real. Con lluvia o frío, acortar sin inventar visitas para llenar el día."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Murallas cerca de apertura y con agua; sombra al mediodía. Lokrum es alternativa de jornada completa solo con barcos confirmados. No forzar dos subidas y una isla en el mismo día.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Teleférico cerrado de diciembre a marzo. Franciscanos cerrado los domingos del 01/11 al 01/04; Palacio del Rector cerrado lunes de noviembre a marzo. No se garantiza horario de verano de Lokrum ni pase de invierno. Lapad se acorta según tiempo, sin baño obligatorio.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Teleférico cerrado. Murallas cerradas el 25/12 según FAQ. Franciscanos cerrado 25/12 y 01/01, además de los domingos de invierno. Palacio del Rector cerrado 25/12 y 01/01; el 24 y 31/12 solo 9-12. Murallas consultadas para el 15/12/2026: adulto 20€, no 15€ antiguo. La tienda de DuPass consultada no ofrece temporada invernal.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Teleférico en mantenimiento el 10, 11 y 20/11/2026; noviembre 9-17, del 21 al 31/10 hasta las 20. El horario de Lokrum vigente desde el 25/10/2026 tiene último regreso a las 17, no el de verano. Confirmar fecha y clima.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Escaleras, calor y piedra resbaladiza: casco compacto no significa jornada ligera.",
+    "Teleférico cerrado de diciembre a marzo; Lokrum solo con barco y acceso confirmados para la fecha.",
+    "No hay entradas ni reservas realizadas; no se promete precio de 2027 ni pase de invierno."
+  ],
+  "excludedOrOptional": [
+    "Lokrum sustituye un día, no se suma a murallas y Srđ.",
+    "Elafitas, Mostar, Kotor y Cavtat no se añaden por defecto: requieren logística propia.",
+    "Barba queda fuera sin carta oficial actual verificable. No se recomienda Nishta a partir de guías antiguas que sobreviven a su cierre."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "CroatiaUnscripted: guía local 2026",
+      "url": "https://croatiaunscripted.com/dubrovnik-travel-guide-2026/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "Guía de Dubrovnik: recorridos locales",
+      "url": "https://www.dubrovnik-guiding.com/dubrovnik-okolica",
+      "type": "local-commercial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide3",
+      "title": "ThingsToDo: tres días y contraste de tarifas",
+      "url": "https://thingstodoindubrovnik.org/itineraries/three-days/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "DubrovnikOnline: restaurantes por barrios, septiembre 2026",
+      "url": "https://www.dubrovnik-online.net/dubrovnik-restaurants",
+      "type": "local-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide2",
+      "title": "Tripadvisor: guía gastronómica con autora, 2024",
+      "url": "https://www.tripadvisor.com/Articles-l6LtOwo0S6MI-Dubrovnik_local_food_guide.html",
+      "type": "travel-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "walls",
+      "title": "Operador de murallas",
+      "url": "https://citywallsdubrovnik.hr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "wallshop",
+      "title": "Tienda oficial por fecha: murallas",
+      "url": "https://shop.citywallsdubrovnik.hr/en/webshop?location=7f0be387-d451-4417-9525-ac70d54fd2f9",
+      "type": "official-ticketshop",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "wallfaq",
+      "title": "Murallas: FAQ y alcance",
+      "url": "https://citywallsdubrovnik.hr/faq/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "pass",
+      "title": "DuPass: temporada y precios actuales",
+      "url": "https://www.dubrovnikpass.com/web-shop?id=0",
+      "type": "official-ticketshop",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "passscope",
+      "title": "DuPass: instituciones incluidas",
+      "url": "https://www.dubrovnikpass.com/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "museumtickets",
+      "title": "Museos: tarifas y pago sin efectivo",
+      "url": "https://www.dumus.hr/en/entrance-tickets/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "museumhours",
+      "title": "Palacio del Rector: horarios",
+      "url": "https://www.dumus.hr/en/cultural-history-museum/opening-hours/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "francis",
+      "title": "Franciscanos:8€ y cierre domingos invierno",
+      "url": "https://malabraca.com/radno-vrijeme-muzeja/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cable",
+      "title": "Teleférico: tarifas, meses y mantenimiento",
+      "url": "https://dubrovnikcablecar.com/timetable-and-prices/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cablecontact",
+      "title": "Teleférico: recargo 2€ FAQ",
+      "url": "https://www.dubrovnikcablecar.com/contact/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lokrum",
+      "title": "Reserva:30€ incluyeida/vuelta",
+      "url": "https://www.lokrum.hr/en",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lokrumprice",
+      "title": "Tarifas oficiales 2026",
+      "url": "https://www.lokrum.hr/storage/useful-links/Lokrum%20-%20Cjenik%20HR-EN%202026_2.pdf",
+      "type": "official-pdf",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lokrumschedule",
+      "title": "Barcos desde 25/10/2026",
+      "url": "https://www.lokrum.hr/storage/useful-links/10-2026%20Lokrum%20-%20Plovidbeni%20red.pdf",
+      "type": "official-pdf",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "taj",
+      "title": "TajMahal: carta 2026",
+      "url": "https://tajmahal-dubrovnik.com/wp-content/uploads/2026/05/Menu-2026.pdf",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "tajcontact",
+      "title": "TajMahal: sede casco",
+      "url": "https://tajmahal-dubrovnik.com/contact/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "pantarul",
+      "title": "Pantarul: carta 2026",
+      "url": "https://www.pantarul.com/wp-content/uploads/2026/05/pantarul-2026.pdf",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "pantarulhome",
+      "title": "Pantarul: horario 23 h",
+      "url": "https://www.pantarul.com/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "pantarulcontact",
+      "title": "Pantarul: contacto 24 h discrepante",
+      "url": "https://www.pantarul.com/contact/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco y murallas, sin maratón de interiores",
+            "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+            "stopIds": [
+              "pile",
+              "walls",
+              "stradun",
+              "jesuit",
+              "port"
+            ],
+            "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+            "optionalStopIds": [
+              "rector"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco y murallas, sin maratón de interiores",
+            "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+            "stopIds": [
+              "pile",
+              "walls",
+              "stradun",
+              "jesuit",
+              "port"
+            ],
+            "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+            "optionalStopIds": [
+              "rector"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+          },
+          {
+            "title": "Claustro, fuerte y tarde con margen",
+            "zone": "Franciscanos → Lovrijenac → Gradac → Srđ opcional",
+            "stopIds": [
+              "francis",
+              "lovrijenac",
+              "gradac"
+            ],
+            "editorialNote": "Un interior breve y paseo por el fuerte y el parque. Entrar al fuerte es opcional: no se da por válido hoy un billete de murallas usado ayer. Srđ solo con energía, buen tiempo y teleférico abierto.",
+            "optionalStopIds": [
+              "srd"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, más teleférico opcional si se elige. Gradac-estación inferior: 1,1 km / 16 min a pie con pendiente. En invierno el monasterio cierra los domingos; teleférico cerrado dic-mar."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco y murallas, sin maratón de interiores",
+            "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+            "stopIds": [
+              "pile",
+              "walls",
+              "stradun",
+              "jesuit",
+              "port"
+            ],
+            "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+            "optionalStopIds": [
+              "rector"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+          },
+          {
+            "title": "Claustro, fuerte y tarde con margen",
+            "zone": "Franciscanos → Lovrijenac → Gradac → Srđ opcional",
+            "stopIds": [
+              "francis",
+              "lovrijenac",
+              "gradac"
+            ],
+            "editorialNote": "Un interior breve y paseo por el fuerte y el parque. Entrar al fuerte es opcional: no se da por válido hoy un billete de murallas usado ayer. Srđ solo con energía, buen tiempo y teleférico abierto.",
+            "optionalStopIds": [
+              "srd"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, más teleférico opcional si se elige. Gradac-estación inferior: 1,1 km / 16 min a pie con pendiente. En invierno el monasterio cierra los domingos; teleférico cerrado dic-mar."
+          },
+          {
+            "title": "Lapad, solo si apetece una jornada tranquila",
+            "zone": "Lapad / bahía y paseo",
+            "stopIds": [
+              "lapad"
+            ],
+            "editorialNote": "Tercer día libre opcional, no necesario para ver el casco. Lokrum puede sustituirlo si hay barcos y acceso confirmados, nunca sumarse como segunda excursión.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, ida y vuelta. No usar los 70 min a pie como duración de bus; transporte pendiente de horario real. Con lluvia o frío, acortar sin inventar visitas para llenar el día."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco y murallas, sin maratón de interiores",
+            "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+            "stopIds": [
+              "pile",
+              "walls",
+              "stradun",
+              "jesuit",
+              "port"
+            ],
+            "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+            "optionalStopIds": [
+              "rector"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco y murallas, sin maratón de interiores",
+            "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+            "stopIds": [
+              "pile",
+              "walls",
+              "stradun",
+              "jesuit",
+              "port"
+            ],
+            "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+            "optionalStopIds": [
+              "rector"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+          },
+          {
+            "title": "Claustro, fuerte y tarde con margen",
+            "zone": "Franciscanos → Lovrijenac → Gradac → Srđ opcional",
+            "stopIds": [
+              "francis",
+              "lovrijenac",
+              "gradac"
+            ],
+            "editorialNote": "Un interior breve y paseo por el fuerte y el parque. Entrar al fuerte es opcional: no se da por válido hoy un billete de murallas usado ayer. Srđ solo con energía, buen tiempo y teleférico abierto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, más teleférico opcional si se elige. Gradac-estación inferior: 1,1 km / 16 min a pie con pendiente. En invierno el monasterio cierra los domingos; teleférico cerrado dic-mar."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco y murallas, sin maratón de interiores",
+            "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+            "stopIds": [
+              "pile",
+              "walls",
+              "stradun",
+              "jesuit",
+              "port"
+            ],
+            "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+            "optionalStopIds": [
+              "rector"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+          },
+          {
+            "title": "Claustro, fuerte y tarde con margen",
+            "zone": "Franciscanos → Lovrijenac → Gradac → Srđ opcional",
+            "stopIds": [
+              "francis",
+              "lovrijenac",
+              "gradac"
+            ],
+            "editorialNote": "Un interior breve y paseo por el fuerte y el parque. Entrar al fuerte es opcional: no se da por válido hoy un billete de murallas usado ayer. Srđ solo con energía, buen tiempo y teleférico abierto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, más teleférico opcional si se elige. Gradac-estación inferior: 1,1 km / 16 min a pie con pendiente. En invierno el monasterio cierra los domingos; teleférico cerrado dic-mar."
+          },
+          {
+            "title": "Lapad, solo si apetece una jornada tranquila",
+            "zone": "Lapad / bahía y paseo",
+            "stopIds": [
+              "lapad"
+            ],
+            "editorialNote": "Tercer día libre opcional, no necesario para ver el casco. Lokrum puede sustituirlo si hay barcos y acceso confirmados, nunca sumarse como segunda excursión.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, ida y vuelta. No usar los 70 min a pie como duración de bus; transporte pendiente de horario real. Con lluvia o frío, acortar sin inventar visitas para llenar el día."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco y murallas, sin maratón de interiores",
+            "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+            "stopIds": [
+              "pile",
+              "walls",
+              "stradun",
+              "jesuit",
+              "port"
+            ],
+            "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+            "optionalStopIds": [
+              "rector"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco y murallas, sin maratón de interiores",
+            "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+            "stopIds": [
+              "pile",
+              "walls",
+              "stradun",
+              "jesuit",
+              "port"
+            ],
+            "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+            "optionalStopIds": [
+              "rector"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+          },
+          {
+            "title": "Claustro, fuerte y tarde con margen",
+            "zone": "Franciscanos → Lovrijenac → Gradac → Srđ opcional",
+            "stopIds": [
+              "francis",
+              "lovrijenac",
+              "gradac"
+            ],
+            "editorialNote": "Un interior breve y paseo por el fuerte y el parque. Entrar al fuerte es opcional: no se da por válido hoy un billete de murallas usado ayer. Srđ solo con energía, buen tiempo y teleférico abierto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, más teleférico opcional si se elige. Gradac-estación inferior: 1,1 km / 16 min a pie con pendiente. En invierno el monasterio cierra los domingos; teleférico cerrado dic-mar."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco y murallas, sin maratón de interiores",
+            "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+            "stopIds": [
+              "pile",
+              "walls",
+              "stradun",
+              "jesuit",
+              "port"
+            ],
+            "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+            "optionalStopIds": [
+              "rector"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+          },
+          {
+            "title": "Claustro, fuerte y tarde con margen",
+            "zone": "Franciscanos → Lovrijenac → Gradac → Srđ opcional",
+            "stopIds": [
+              "francis",
+              "lovrijenac",
+              "gradac"
+            ],
+            "editorialNote": "Un interior breve y paseo por el fuerte y el parque. Entrar al fuerte es opcional: no se da por válido hoy un billete de murallas usado ayer. Srđ solo con energía, buen tiempo y teleférico abierto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, más teleférico opcional si se elige. Gradac-estación inferior: 1,1 km / 16 min a pie con pendiente. En invierno el monasterio cierra los domingos; teleférico cerrado dic-mar."
+          },
+          {
+            "title": "Lapad, solo si apetece una jornada tranquila",
+            "zone": "Lapad / bahía y paseo",
+            "stopIds": [
+              "lapad"
+            ],
+            "editorialNote": "Tercer día libre opcional, no necesario para ver el casco. Lokrum puede sustituirlo si hay barcos y acceso confirmados, nunca sumarse como segunda excursión.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, ida y vuelta. No usar los 70 min a pie como duración de bus; transporte pendiente de horario real. Con lluvia o frío, acortar sin inventar visitas para llenar el día."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco y murallas, sin maratón de interiores",
+            "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+            "stopIds": [
+              "pile",
+              "walls",
+              "stradun",
+              "jesuit",
+              "port"
+            ],
+            "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+            "optionalStopIds": [
+              "rector"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco y murallas, sin maratón de interiores",
+            "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+            "stopIds": [
+              "pile",
+              "walls",
+              "stradun",
+              "jesuit",
+              "port"
+            ],
+            "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+            "optionalStopIds": [
+              "rector"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+          },
+          {
+            "title": "Claustro, fuerte y tarde con margen",
+            "zone": "Franciscanos → Lovrijenac → Gradac → Srđ opcional",
+            "stopIds": [
+              "francis",
+              "lovrijenac",
+              "gradac"
+            ],
+            "editorialNote": "Un interior breve y paseo por el fuerte y el parque. Entrar al fuerte es opcional: no se da por válido hoy un billete de murallas usado ayer. Srđ solo con energía, buen tiempo y teleférico abierto.",
+            "optionalStopIds": [
+              "srd"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, más teleférico opcional si se elige. Gradac-estación inferior: 1,1 km / 16 min a pie con pendiente. En invierno el monasterio cierra los domingos; teleférico cerrado dic-mar."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco y murallas, sin maratón de interiores",
+            "zone": "Pile → murallas → Stradun → Jesuitas → puerto",
+            "stopIds": [
+              "pile",
+              "walls",
+              "stradun",
+              "jesuit",
+              "port"
+            ],
+            "editorialNote": "Las murallas son la visita principal. Con lluvia o si no apetece subir, el Palacio del Rector las sustituye. Comer y parar forma parte del día.",
+            "optionalStopIds": [
+              "rector"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Entrar al recorrido elevado cerca de la apertura de la fecha concreta, no a las 8 todo el año. En verano evitar el tramo central del día."
+          },
+          {
+            "title": "Claustro, fuerte y tarde con margen",
+            "zone": "Franciscanos → Lovrijenac → Gradac → Srđ opcional",
+            "stopIds": [
+              "francis",
+              "lovrijenac",
+              "gradac"
+            ],
+            "editorialNote": "Un interior breve y paseo por el fuerte y el parque. Entrar al fuerte es opcional: no se da por válido hoy un billete de murallas usado ayer. Srđ solo con energía, buen tiempo y teleférico abierto.",
+            "optionalStopIds": [
+              "srd"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, más teleférico opcional si se elige. Gradac-estación inferior: 1,1 km / 16 min a pie con pendiente. En invierno el monasterio cierra los domingos; teleférico cerrado dic-mar."
+          },
+          {
+            "title": "Lapad, solo si apetece una jornada tranquila",
+            "zone": "Lapad / bahía y paseo",
+            "stopIds": [
+              "lapad"
+            ],
+            "editorialNote": "Tercer día libre opcional, no necesario para ver el casco. Lokrum puede sustituirlo si hay barcos y acceso confirmados, nunca sumarse como segunda excursión.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, ida y vuelta. No usar los 70 min a pie como duración de bus; transporte pendiente de horario real. Con lluvia o frío, acortar sin inventar visitas para llenar el día."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [
+    {
+      "id": "lokrum",
+      "name": "Lokrum · isla en lugar del día urbano",
+      "zone": "Fuera del casco / reserva natural",
+      "lat": 42.6243504,
+      "lon": 18.1212603,
+      "coordSource": "https://www.google.com/maps/search/?api=1&query=Benedictine+Monastery+of+St.+Mary&query_place_id=ChIJb1nBXkALTBMRuoGz9vGMVH0",
+      "minutes": 360,
+      "sourceIds": [
+        "lokrum",
+        "lokrumprice",
+        "lokrumschedule",
+        "guide1"
+      ],
+      "priority": "Excursión opcional según barcos",
+      "reason": "Pasear por la reserva y sus jardines con una jornada propia, sustituyendo Lapad u otro día, no sumándola tras las murallas.",
+      "visit": "Puerto, jardines y paseos según apertura; baño y subida a Fort Royal opcionales, no incluidos por obligación.",
+      "transport": "Barco oficial desde el puerto viejo. Entrada 30€ adulto incluye reserva y barco de ida y vuelta. Llegar en taxi acuático o barco propio no evita los 30€ de entrada. PDF vigente desde el 25/10/2026: salida 9, luego 10 y cada media hora hasta 16; regreso 10:15 y cada media hora hasta 16:15, último 17. Es un horario concreto, no anual ni garantía invernal.",
+      "pacing": "5-7 h con ida, reserva, comida y regreso: estimación editorial. Revisar último barco antes de embarcar y regresar con margen; no quedarse a dormir.",
+      "caution": "Mal tiempo suspende barcos. No se garantiza servicio de noviembre a marzo ni se copia el horario de verano de una guía. Confirmar temporada, barco y acceso para la fecha exacta; si no operan, elegir jornada urbana. Tarifa oficial 2026: adulto 30€, menor de 7-18 años 5€, estudiante 10€. Descuento con DuPass de 3 días 20%, de 7 días 30%, cuando sea válido; no es entrada gratuita. Según tarifa, la entrada puede utilizarse hasta tres días después de la fecha indicada. Respetar las normas de la reserva y el último barco; no se incluye alojamiento.",
+      "url": "https://www.lokrum.hr/en",
+      "access": "https://www.lokrum.hr/",
+      "closedMonthDays": [],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "reviewedAt": "2026-10-30",
+      "kind": "excursion",
+      "photo": {
+        "img": "assets/dubrovnik/lokrum.jpg",
+        "source": "https://www.flickr.com/photos/ajy/2973168590/",
+        "author": "Alistair Young",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Puerto de Lokrum en archivo; no foto del monasterio ni garantía de barcos para otra fecha. Recorte de presentación."
+      }
+    }
+  ],
+  "editorialAudit": [
+    "Varias guías comparadas antes de operadores y Maps. Se rechaza el plan de murallas, isla, teleférico y varios museos en el mismo día.",
+    "Tienda oficial de murallas por fecha: diciembre 20€ tras esperar la actualización, no 15€ de guías; DuPass solo ofrece la temporada publicada de 2026.",
+    "Franciscanos 8€ según operador, no 10€ de revendedor ni inclusión automática en el combinado de 10 museos.",
+    "14 fotos CC verificadas; comidas ilustrativas rotuladas."
+  ],
+  "editorialTradeoffs": [
+    "El casco ocupa un día con una visita fuerte; fuerte y claustro van en otra jornada con descanso.",
+    "Lapad es un tercer día opcional, sin relleno de museos; Lokrum es una alternativa estacional."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "CroatiaUnscripted aporta ritmo y advertencias; la guía local y ThingsToDo contrastan estructura. DubrovnikOnline 2026 y Tripadvisor 2024 orientan comida; cartas de 2026 y operadores resuelven precios, cierres y sedes. No se toma verano como regla anual."
+}

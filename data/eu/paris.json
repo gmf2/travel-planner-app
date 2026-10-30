@@ -1,0 +1,2067 @@
+{
+  "schemaVersion": 1,
+  "country": "FR",
+  "id": "paris",
+  "name": "París",
+  "localName": "Paris",
+  "selectionReason": "Escapada europea elegida por el usuario (lista de 20 confirmada el 29/10/2026). Capital con vuelo directo desde España y clásico de 1-3 días.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Selección editorial de 1-3 días, no cobertura completa de París. Tres zonas por jornada como máximo; los museos grandes (Louvre, Orsay) son interiores principales alternativos, no acumulables el mismo día.",
+  "stops": [
+    {
+      "id": "saintechapelle",
+      "name": "Sainte-Chapelle",
+      "kind": "monument",
+      "zone": "Île de la Cité",
+      "reason": "Vidrieras del XIII en la isla donde nace París; interior corto y de alto impacto.",
+      "sourceIds": [
+        "official",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.8554,
+        "lon": 2.345
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Sainte-Chapelle",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Entrada con franja; cerrada 1/1, 1/5 y 25/12. Seguridad tipo aeropuerto en el acceso al Palacio de Justicia.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-saintechapelle.jpg",
+        "author": "Miguel Hermoso Cuesta",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_Sainte_Chapelle.JPG"
+      },
+      "visitMode": "Interior corto con entrada y franja (45-60 min)"
+    },
+    {
+      "id": "notredame",
+      "name": "Notre-Dame y la isla",
+      "kind": "monument",
+      "zone": "Île de la Cité",
+      "reason": "Catedral reabierta tras el incendio; el exterior y la isla son el corazón histórico.",
+      "sourceIds": [
+        "notredame",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.853,
+        "lon": 2.3499
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Entrada gratuita; la web oficial ofrece reserva gratuita para franja concreta, recomendable en temporada alta. Torres y cripta no incluidas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-notredame.jpg",
+        "author": "DXR",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_de_Paris,_20_March_2014.jpg"
+      },
+      "visitMode": "Interior gratuito con reserva gratuita opcional; torres y cripta aparte"
+    },
+    {
+      "id": "marais",
+      "name": "Le Marais y Place des Vosges",
+      "kind": "zone",
+      "zone": "Le Marais",
+      "reason": "Barrio histórico de palacios, tiendas y la plaza más antigua de París; buen parón para comer.",
+      "sourceIds": [
+        "official",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 48.8566,
+        "lon": 2.361
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Le_Marais",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Ambiente nocturno y de compras; los museos del barrio (Carnavalet, Picasso) son opcionales, no incluidos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-marais.jpg",
+        "author": "DiscoA340",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Panorama_in_the_Place_des_Vosges_2.jpg"
+      },
+      "visitMode": "Paseo de barrio, sin entrada; comida aquí"
+    },
+    {
+      "id": "latin",
+      "name": "Barrio Latino y Panthéon",
+      "kind": "zone",
+      "zone": "Orilla izquierda este",
+      "reason": "La París universitaria alrededor de la Sorbona; el Panthéon cierra la perspectiva de la rue Soufflot.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.8462,
+        "lon": 2.3464
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Panth%C3%A9on",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Panthéon: interior opcional de pago; con lluvia prioriza librerías y cafés.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-latin.jpg",
+        "author": "Mbzt",
+        "license": "CC BY 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:F6362_Paris_5e_Pantheon_facade_rwk.jpg"
+      },
+      "visitMode": "Paseo de barrio; Panthéon interior opcional de pago"
+    },
+    {
+      "id": "luxembourg",
+      "name": "Jardines de Luxemburgo",
+      "kind": "park",
+      "zone": "Orilla izquierda este",
+      "reason": "El gran jardín del centro para descansar a media jornada.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.8462,
+        "lon": 2.3372
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Jardin_du_Luxembourg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Cierre al atardecer, varía por mes; recortar con mal tiempo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-luxembourg.jpg",
+        "author": "Luis Miguel Bugallo Sánchez (Lmbuga)",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:2017_-_Le_palais_du_Luxembourg,_dans_le_jardin_du_Luxembourg,_Paris_-_1.jpg"
+      },
+      "visitMode": "Parque gratuito, sin entrada"
+    },
+    {
+      "id": "louvre",
+      "name": "Museo del Louvre",
+      "kind": "museum",
+      "zone": "Louvre / Rivoli",
+      "reason": "El museo más visitado del mundo; la visita principal del viaje si se entra.",
+      "sourceIds": [
+        "louvre",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.8606,
+        "lon": 2.3376
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Louvre",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "Cierra martes (confirmado en louvre.fr 29/10/2026): intercambiar con el día de las islas. Entrada con franja horaria; nocturna miércoles y viernes hasta las 21 h. Con un solo día: pirámide y patio exterior, sin entrar.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-louvre.jpg",
+        "author": "Babyaimeesmom",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cour_Napol%C3%A9on_%26_Louvre_Pyramid_at_Sunset.jpg"
+      },
+      "visitMode": "Interior principal del día con entrada y franja; con 1 día, sólo exterior"
+    },
+    {
+      "id": "palaisroyal",
+      "name": "Palacio Real y sus jardines",
+      "kind": "park",
+      "zone": "Louvre / Rivoli",
+      "reason": "Respiro clásico a dos minutos del Louvre, con las columnas de Buren.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.8635,
+        "lon": 2.337
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Palais-Royal",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-palaisroyal.jpg",
+        "author": "Guilhem Vellut from Paris, France",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Colonnes_de_Buren_@_Palais_Royal_@_Paris_(25989308703).jpg"
+      },
+      "visitMode": "Jardines gratuitos, sin entrada"
+    },
+    {
+      "id": "passages",
+      "name": "Pasajes cubiertos (Galerie Vivienne)",
+      "kind": "zone",
+      "zone": "Grands Boulevards",
+      "reason": "Galerías comerciales del XIX con techos de cristal; la París elegante y refugio de lluvia.",
+      "sourceIds": [
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 48.8665,
+        "lon": 2.3394
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Galerie_Vivienne",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Comercios con horario propio; los pasajes cierran por la noche.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-passages.jpg",
+        "author": "Peter Christian Riemann",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:%22Rendez-vous%22_dans_la_Galerie_Vivienne,_Paris,_1986.jpg"
+      },
+      "visitMode": "Paseo cubierto gratuito, sin entrada"
+    },
+    {
+      "id": "opera",
+      "name": "Ópera Garnier y Galeries Lafayette",
+      "kind": "monument",
+      "zone": "Grands Boulevards",
+      "reason": "El palacio de la ópera por fuera y la cúpula de Lafayette; azotea de Lafayette como mirador gratuito.",
+      "sourceIds": [
+        "official",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.872,
+        "lon": 2.3316
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Palais_Garnier",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Interior de la Ópera con visita de pago y sujeto a ensayos; azotea de Lafayette cierra con los grandes almacenes.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-opera.jpg",
+        "author": "besopha",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:North_facade_of_Op%C3%A9ra_Garnier,_Paris_July_2020.jpg"
+      },
+      "visitMode": "Exterior y cúpula/azotea de Lafayette gratuitos; interior de la Ópera opcional de pago"
+    },
+    {
+      "id": "montmartre",
+      "name": "Montmartre y Sacré-Cœur",
+      "kind": "zone",
+      "zone": "Montmartre",
+      "reason": "La colina bohemia: basílica, place du Tertre y vistas al atardecer.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.8867,
+        "lon": 2.3431
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Montmartre",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Zona de mucha pendiente y carteristas en el funicular y Anvers. Restaurantes de la place du Tertre de calidad irregular: comer mejor en Abbesses.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-montmartre.jpg",
+        "author": "Terragio67",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Basilique_du_Sacr%C3%A9-C%C5%93ur_de_Montmartre_-_Paris_-_GT-01_-_2024.jpg"
+      },
+      "visitMode": "Barrio y basílica gratuitos; cúpula de pago opcional"
+    },
+    {
+      "id": "trocadero",
+      "name": "Trocadéro y mirador",
+      "kind": "viewpoint",
+      "zone": "Oeste / Eiffel",
+      "reason": "La vista frontal clásica de la Torre Eiffel al otro lado del Sena.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.862,
+        "lon": 2.287
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Trocad%C3%A9ro,_Paris",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Muy concurrido al atardecer; cuidado con carteristas y vendedores.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-trocadero.jpg",
+        "author": "Matthias v.d. Elbe",
+        "license": "CC BY 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Eiffel-Trocadero-Bull.jpg"
+      },
+      "visitMode": "Mirador gratuito, sin entrada"
+    },
+    {
+      "id": "eiffel",
+      "name": "Torre Eiffel y Campo de Marte",
+      "kind": "monument",
+      "zone": "Oeste / Eiffel",
+      "reason": "El emblema; subida opcional, el parque y el puente de Jena son gratuitos.",
+      "sourceIds": [
+        "official",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.8584,
+        "lon": 2.2945
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Subir requiere entrada con franja y mucha antelación en temporada alta; el parque y el mirador de Trocadéro no necesitan entrada. Réplicas y vendedores ambulantes en toda la zona.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-eiffel.jpg",
+        "author": "Maksim Sokolov (maxergon.com)",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_in_2022_02.jpg"
+      },
+      "visitMode": "Exterior y parque gratuitos; subida opcional con entrada y franja"
+    },
+    {
+      "id": "invalides",
+      "name": "Invalides y Puente Alejandro III",
+      "kind": "monument",
+      "zone": "Oeste / Eiffel",
+      "reason": "La cúpula dorada de Napoleón y el puente más ornamentado de la ciudad.",
+      "sourceIds": [
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.8565,
+        "lon": 2.3127
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Les_Invalides",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Museo del Ejército y tumba de Napoleón de pago y opcionales; el conjunto exterior es la visita.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-invalides.jpg",
+        "author": "Daniel Kraft",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dome_des_Invalides_20200301.jpg"
+      },
+      "visitMode": "Conjunto exterior y puente gratuitos; museo y tumba opcionales de pago"
+    },
+    {
+      "id": "orsay",
+      "name": "Museo de Orsay",
+      "kind": "museum",
+      "zone": "Orilla izquierda oeste",
+      "reason": "El impresionismo en una antigua estación; segundo interior grande, alternativo al Louvre.",
+      "sourceIds": [
+        "orsayweb",
+        "official",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.86,
+        "lon": 2.3266
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Cierra lunes (verificado 29/10/2026 en musee-orsay.fr; abierto ma-do 9:30-18:00, nocturna jueves hasta 21:45; cerrado también 1/5 y 25/12): intercambiar con la jornada de islas. Entrada con franja recomendable.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-orsay.jpg",
+        "author": "InSapphoWeTrust from Los Angeles, California, USA",
+        "license": "CC BY-SA 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_dOrsay,_4_November_2003.jpg"
+      },
+      "visitMode": "Interior principal del día con entrada (alternativo al Louvre)"
+    },
+    {
+      "id": "tuileries",
+      "name": "Tullerías y Plaza de la Concordia",
+      "kind": "park",
+      "zone": "Louvre / Rivoli",
+      "reason": "El jardín que une Louvre y Campos Elíseos con el obelisco al final del eje.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.8634,
+        "lon": 2.3275
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Tuileries_Garden",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Recortar con mal tiempo; la noria y atracciones son estacionales.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-tuileries.jpg",
+        "author": "jimmyweee",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:All%C3%A9e_centrale_du_jardin_des_Tuileries,_25_November_2011.jpg"
+      },
+      "visitMode": "Jardín gratuito, sin entrada"
+    },
+    {
+      "id": "champs",
+      "name": "Campos Elíseos y Arco del Triunfo",
+      "kind": "zone",
+      "zone": "Oeste / Champs-Élysées",
+      "reason": "La gran avenida hasta el Arco; terraza del arco como mirador alternativo a la torre.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.8738,
+        "lon": 2.295
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Arc_de_Triomphe",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Acceso al arco sólo por pasos subterráneos, nunca cruzando la rotonda. Terraza de pago.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/paris-champs.jpg",
+        "author": "Benh LIEU SONG",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Arc_Triomphe.jpg"
+      },
+      "visitMode": "Paseo y arco por fuera gratuitos; terraza del arco de pago"
+    },
+    {
+      "id": "versailles",
+      "name": "Palacio y jardines de Versalles",
+      "kind": "excursion",
+      "zone": "Fuera de París",
+      "reason": "El palacio real absolutista y sus jardines: jornada completa alternativa a un día de ciudad.",
+      "sourceIds": [
+        "versailles",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 48.8049,
+        "lon": 2.1204
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 420,
+      "durationType": "editorial-estimate",
+      "caution": "Palacio cerrado los lunes (confirmado en la web oficial 29/10/2026): no elegir este día si cae en lunes. Entrada con franja horaria muy recomendable. Espectáculo de fuentes musicales sólo en días señalados de primavera-otoño.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Palacio con franja horaria y jardines; el Trianón y el dominio de María Antonieta amplían la visita si sobra tiempo.",
+      "photo": {
+        "img": "assets/paris/versailles.jpg",
+        "source": "https://www.pexels.com/photo/versailles-palace-in-paris-15546889/",
+        "author": "Denitsa Kireva",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      }
+    },
+    {
+      "id": "giverny",
+      "name": "Giverny: casa y jardines de Monet",
+      "kind": "excursion",
+      "zone": "Fuera de París",
+      "reason": "Los jardines que inspiraron los nenúfares; sólo abierto en temporada.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 49.0751,
+        "lon": 1.5335
+      },
+      "coordinateSource": "https://en.wikipedia.org/wiki/Fondation_Claude_Monet",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 360,
+      "durationType": "editorial-estimate",
+      "caution": "Abierto sólo de primavera a principios de otoño (cerrado en invierno): confirmar calendario anual en fondation-monet.com antes de ofrecerlo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Casa y dos jardines; combinación natural con el impresionismo de Orsay otro día.",
+      "photo": {
+        "img": "assets/paris/giverny.jpg",
+        "source": "https://unsplash.com/photos/a-pathway-through-a-garden-with-lots-of-flowers-AECW5JhQPVY",
+        "author": "Unsplash",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseURL": "https://unsplash.com/license",
+        "caption": "Allée centrale des jardins de Monet à Giverny"
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Las islas y el eje hasta la torre",
+          "zone": "Île de la Cité → orilla → Eiffel",
+          "stopIds": [
+            "saintechapelle",
+            "notredame",
+            "louvre",
+            "tuileries",
+            "trocadero",
+            "eiffel"
+          ],
+          "editorialNote": "Un solo eje este-oeste siguiendo el Sena: islas por la mañana (Sainte-Chapelle como único interior corto), Louvre y Tullerías al paso y torre al atardecer. Con un solo día el Louvre se ve por fuera: pirámide y patio, sin entrar.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "saintechapelle",
+              "toId": "notredame",
+              "straightLineKm": 0.4,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "notredame",
+              "toId": "louvre",
+              "straightLineKm": 1.2,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "louvre",
+              "toId": "tuileries",
+              "straightLineKm": 0.4,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "tuileries",
+              "toId": "trocadero",
+              "straightLineKm": 2.3,
+              "isWalkingRoute": false,
+              "transportSuggested": true
+            },
+            {
+              "fromId": "trocadero",
+              "toId": "eiffel",
+              "straightLineKm": 0.6,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 8 h con paradas; el tramo Tullerías→Trocadéro es largo a pie (3,3 km, 47 min según Google Maps a pie, 29/10/2026): metro recomendado (24 min medidos en Maps el 29/10/2026)."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Islas y orilla izquierda",
+          "zone": "Île de la Cité → Barrio Latino → Luxemburgo",
+          "stopIds": [
+            "saintechapelle",
+            "notredame",
+            "latin",
+            "luxembourg"
+          ],
+          "editorialNote": "Mañana en la isla (Sainte-Chapelle y Notre-Dame) y tarde entre el Barrio Latino y el Luxemburgo, sin cambiar de orilla: todo a pie y sin volver sobre zonas ya vistas.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "saintechapelle",
+              "toId": "notredame",
+              "straightLineKm": 0.4,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "notredame",
+              "toId": "latin",
+              "straightLineKm": 1.0,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "latin",
+              "toId": "luxembourg",
+              "straightLineKm": 0.6,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 5-6 h con comida; un interior corto (Sainte-Chapelle) y Notre-Dame según cola."
+        },
+        {
+          "title": "Louvre y el eje oeste",
+          "zone": "Louvre → Concorde → Eiffel",
+          "stopIds": [
+            "louvre",
+            "palaisroyal",
+            "tuileries",
+            "trocadero",
+            "eiffel"
+          ],
+          "editorialNote": "Louvre a primera hora (interior principal del viaje) y tarde por el eje del oeste hasta la torre. Louvre cierra martes (verificado 29/10/2026): intercambiar con el día 1.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "louvre",
+              "toId": "palaisroyal",
+              "straightLineKm": 0.3,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "palaisroyal",
+              "toId": "tuileries",
+              "straightLineKm": 0.7,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "tuileries",
+              "toId": "trocadero",
+              "straightLineKm": 2.3,
+              "isWalkingRoute": false,
+              "transportSuggested": true
+            },
+            {
+              "fromId": "trocadero",
+              "toId": "eiffel",
+              "straightLineKm": 0.6,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Mañana de museo (2,5-3 h) y tarde de paseo; tramo Tullerías→Trocadéro en metro (24 min medidos en Maps el 29/10/2026) para ahorrar 3,3 km a pie."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Islas y orilla izquierda",
+          "zone": "Île de la Cité → Barrio Latino → Luxemburgo",
+          "stopIds": [
+            "saintechapelle",
+            "notredame",
+            "latin",
+            "luxembourg"
+          ],
+          "editorialNote": "Mañana en la isla y tarde en el Barrio Latino y el Luxemburgo, todo a pie por la misma orilla. Comida en el Barrio Latino o junto al Luxemburgo.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "saintechapelle",
+              "toId": "notredame",
+              "straightLineKm": 0.4,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "notredame",
+              "toId": "latin",
+              "straightLineKm": 1.0,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "latin",
+              "toId": "luxembourg",
+              "straightLineKm": 0.6,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 5-6 h con comida."
+        },
+        {
+          "title": "Marais, Louvre y Montmartre",
+          "zone": "Le Marais → Louvre → Montmartre",
+          "stopIds": [
+            "marais",
+            "louvre",
+            "palaisroyal",
+            "montmartre"
+          ],
+          "editorialNote": "Mañana de paseo y comida en el Marais, Louvre con franja de tarde (interior principal del día; cierra martes, verificado 29/10/2026: intercambiar con el día 1; nocturna miércoles y viernes hasta las 21 h), Palacio Real a la salida y Montmartre al atardecer. Todo en la orilla derecha, sin volver sobre el día 1.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "marais",
+              "toId": "louvre",
+              "straightLineKm": 1.5,
+              "isWalkingRoute": false,
+              "transportSuggested": true
+            },
+            {
+              "fromId": "louvre",
+              "toId": "palaisroyal",
+              "straightLineKm": 0.3,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "palaisroyal",
+              "toId": "montmartre",
+              "straightLineKm": 2.6,
+              "isWalkingRoute": false,
+              "transportSuggested": true
+            }
+          ],
+          "pacing": "Marais→Louvre en metro: 11 min medidos en Maps el 29/10/2026 (línea 1). Louvre→Montmartre en metro: 30 min medidos en Maps el 29/10/2026. A pie serían 30-40 min cada tramo."
+        },
+        {
+          "title": "La torre y la orilla oeste",
+          "zone": "Oeste / Eiffel",
+          "stopIds": [
+            "trocadero",
+            "eiffel",
+            "invalides",
+            "orsay"
+          ],
+          "editorialNote": "Mirador y torre por la mañana (exteriores; subida opcional con franja), Invalides y el puente Alejandro III al paso y Orsay por la tarde como único interior del día. Orsay cierra lunes (verificado 29/10/2026 en su web): intercambiar con el día 1. Versalles (selector de la jornada) es la alternativa de día completo.",
+          "optionalStopIds": [],
+          "geographyChecks": [
+            {
+              "fromId": "trocadero",
+              "toId": "eiffel",
+              "straightLineKm": 0.6,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "eiffel",
+              "toId": "invalides",
+              "straightLineKm": 1.3,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "invalides",
+              "toId": "orsay",
+              "straightLineKm": 1.0,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
+          "pacing": "Unas 6-7 h siguiendo el río; si no se entra a Orsay, tarde libre en la orilla."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Días largos y mucha gente en torre y Louvre: reservar franjas con antelación. Paris Plages en la orilla es programa de julio-agosto: confirmar edición del año en la web de París.",
+      "sourceIds": [
+        "official"
+      ],
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Priorizar interiores (Louvre u Orsay según el día) y cafés del Marais; los pasajes cubiertos están en «Más ideas» como refugio de lluvia. Jardines recortados según luz y tiempo; no prometer azoteas con niebla.",
+      "sourceIds": [
+        "official"
+      ],
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad 2026",
+      "advice": "Mercados e iluminación anunciados por la oficina de turismo cada otoño: no fijar fechas 2026 sin confirmar la edición concreta (Campos Elíseos cambió de formato en años recientes).",
+      "sourceIds": [
+        "official"
+      ],
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Mejor época para jardines y orilla; Orsay y Louvre con menos cola entre semana. Confirmar cierres semanales (martes Louvre, lunes Orsay) al ordenar los días.",
+      "sourceIds": [
+        "official",
+        "louvre"
+      ],
+      "excludeStopIds": []
+    }
+  },
+  "events": [
+    {
+      "id": "plages",
+      "name": "Paris Plages",
+      "kind": "event",
+      "startDate": null,
+      "endDate": null,
+      "sourceId": "official",
+      "location": "Orillas del Sena y canal",
+      "status": "pending-announcement",
+      "closedDates": [],
+      "note": "Edición estival (julio-agosto) por anunciar para el año del viaje; no fijar fechas sin la web de París.",
+      "appliesTo": "event-only",
+      "reviewedAt": "2026-10-29"
+    }
+  ],
+  "cautions": [
+    "París es selección editorial: en 1-3 días no cabe todo; los descartes están documentados en exclusiones.",
+    "Carteristas en metro, torre, Trocadéro, Sacré-Cœur y Champs-Élysées: mochila cerrada.",
+    "Louvre cierra martes y Orsay lunes (ambos verificados 29/10/2026 en sus webs oficiales): el plan indica el intercambio de días."
+  ],
+  "excludedOrOptional": [
+    "Pasajes cubiertos y Ópera Garnier quedan en «Más ideas»: cabían en la órbita del Louvre, pero sumarlos al día 2 rompía la regla de un interior principal por jornada; son el refugio de lluvia recomendado.",
+    "Campos Elíseos y Arco del Triunfo quedan fuera del plan de 3 días (el eje Louvre-Concorde ya se recorre el día 2 y la avenida es comercial); disponibles en «Más ideas» con la terraza del arco como mirador alternativo.",
+    "Disneyland París no es excursión del selector: consume la jornada completa y cambia el foco del viaje (parque temático, RER A).",
+    "Centro Pompidou fuera: cerrado por obras hasta 2030 según anuncio del centro; no mostrar como opción.",
+    "Catacumbas y Orangerie en «Más ideas»: interiores concretos que exigen franja y no caben sin sacrificar un interior principal."
+  ],
+  "sources": [
+    {
+      "id": "official",
+      "title": "Paris je t'aime, oficina de turismo",
+      "url": "https://parisjetaime.com/eng",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "louvre",
+      "title": "Louvre: horarios y tarifas",
+      "url": "https://www.louvre.fr/visiter/horaires-tarifs",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "notredame",
+      "title": "Notre-Dame de Paris: visita y reserva gratuita",
+      "url": "https://www.notredamedeparis.fr/en/visit/reservation-free/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "versailles",
+      "title": "Château de Versailles: información práctica",
+      "url": "https://en.chateauversailles.fr/plan-your-visit/practical-information",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "orsayweb",
+      "title": "Musée d'Orsay: acceso, horarios y tarifas",
+      "url": "https://www.musee-orsay.fr/fr/articles/acces-horaires-tarifs-197704",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "vc",
+      "title": "Viajeros Callejeros: París en 3 días",
+      "url": "https://www.viajeroscallejeros.com/paris-en-3-dias/",
+      "type": "guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "mm",
+      "title": "Mochileando por el Mundo: itinerario París 3 días",
+      "url": "https://www.mochileandoporelmundo.com/mejor-itinerario-paris-tres-dias/",
+      "type": "guide",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {
+    "summer": {
+      "mode": "editorial",
+      "note": "Paris Plages y terrazas; confirmar edición del año."
+    },
+    "winter": {
+      "mode": "editorial",
+      "excludeStopIds": [],
+      "note": "Pasajes y museos sostienen el plan; jardines según tiempo."
+    },
+    "christmas": {
+      "mode": "dated-events-and-winter",
+      "excludeStopIds": [],
+      "note": "Mercados e iluminación por edición anual: comprobar fechas reales."
+    },
+    "springAutumn": {
+      "mode": "editorial",
+      "excludeStopIds": [],
+      "note": "Giverny abierto en temporada; combinable como excursión."
+    }
+  },
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Las islas y el eje hasta la torre",
+            "zone": "Île de la Cité → orilla → Eiffel",
+            "stopIds": [
+              "saintechapelle",
+              "notredame",
+              "louvre",
+              "tuileries",
+              "trocadero",
+              "eiffel"
+            ],
+            "editorialNote": "Un solo eje este-oeste siguiendo el Sena: islas por la mañana (Sainte-Chapelle como único interior corto), Louvre y Tullerías al paso y torre al atardecer. Con un solo día el Louvre se ve por fuera: pirámide y patio, sin entrar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "saintechapelle",
+                "toId": "notredame",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "notredame",
+                "toId": "louvre",
+                "straightLineKm": 1.2,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "louvre",
+                "toId": "tuileries",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "tuileries",
+                "toId": "trocadero",
+                "straightLineKm": 2.3,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "trocadero",
+                "toId": "eiffel",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 8 h con paradas; el tramo Tullerías→Trocadéro es largo a pie (3,3 km, 47 min según Google Maps a pie, 29/10/2026): metro recomendado (24 min medidos en Maps el 29/10/2026)."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Islas y orilla izquierda",
+            "zone": "Île de la Cité → Barrio Latino → Luxemburgo",
+            "stopIds": [
+              "saintechapelle",
+              "notredame",
+              "latin",
+              "luxembourg"
+            ],
+            "editorialNote": "Mañana en la isla (Sainte-Chapelle y Notre-Dame) y tarde entre el Barrio Latino y el Luxemburgo, sin cambiar de orilla: todo a pie y sin volver sobre zonas ya vistas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "saintechapelle",
+                "toId": "notredame",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "notredame",
+                "toId": "latin",
+                "straightLineKm": 1.0,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "latin",
+                "toId": "luxembourg",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5-6 h con comida; un interior corto (Sainte-Chapelle) y Notre-Dame según cola."
+          },
+          {
+            "title": "Louvre y el eje oeste",
+            "zone": "Louvre → Concorde → Eiffel",
+            "stopIds": [
+              "louvre",
+              "palaisroyal",
+              "tuileries",
+              "trocadero",
+              "eiffel"
+            ],
+            "editorialNote": "Louvre a primera hora (interior principal del viaje) y tarde por el eje del oeste hasta la torre. Louvre cierra martes (verificado 29/10/2026): intercambiar con el día 1.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "louvre",
+                "toId": "palaisroyal",
+                "straightLineKm": 0.3,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "palaisroyal",
+                "toId": "tuileries",
+                "straightLineKm": 0.7,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "tuileries",
+                "toId": "trocadero",
+                "straightLineKm": 2.3,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "trocadero",
+                "toId": "eiffel",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Mañana de museo (2,5-3 h) y tarde de paseo; tramo Tullerías→Trocadéro en metro (24 min medidos en Maps el 29/10/2026) para ahorrar 3,3 km a pie."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Islas y orilla izquierda",
+            "zone": "Île de la Cité → Barrio Latino → Luxemburgo",
+            "stopIds": [
+              "saintechapelle",
+              "notredame",
+              "latin",
+              "luxembourg"
+            ],
+            "editorialNote": "Mañana en la isla y tarde en el Barrio Latino y el Luxemburgo, todo a pie por la misma orilla. Comida en el Barrio Latino o junto al Luxemburgo.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "saintechapelle",
+                "toId": "notredame",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "notredame",
+                "toId": "latin",
+                "straightLineKm": 1.0,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "latin",
+                "toId": "luxembourg",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5-6 h con comida."
+          },
+          {
+            "title": "Marais, Louvre y Montmartre",
+            "zone": "Le Marais → Louvre → Montmartre",
+            "stopIds": [
+              "marais",
+              "louvre",
+              "palaisroyal",
+              "montmartre"
+            ],
+            "editorialNote": "Mañana de paseo y comida en el Marais, Louvre con franja de tarde (interior principal del día; cierra martes, verificado 29/10/2026: intercambiar con el día 1; nocturna miércoles y viernes hasta las 21 h), Palacio Real a la salida y Montmartre al atardecer. Todo en la orilla derecha, sin volver sobre el día 1.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "marais",
+                "toId": "louvre",
+                "straightLineKm": 1.5,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "louvre",
+                "toId": "palaisroyal",
+                "straightLineKm": 0.3,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "palaisroyal",
+                "toId": "montmartre",
+                "straightLineKm": 2.6,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ],
+            "pacing": "Marais→Louvre en metro: 11 min medidos en Maps el 29/10/2026 (línea 1). Louvre→Montmartre en metro: 30 min medidos en Maps el 29/10/2026. A pie serían 30-40 min cada tramo."
+          },
+          {
+            "title": "La torre y la orilla oeste",
+            "zone": "Oeste / Eiffel",
+            "stopIds": [
+              "trocadero",
+              "eiffel",
+              "invalides",
+              "orsay"
+            ],
+            "editorialNote": "Mirador y torre por la mañana (exteriores; subida opcional con franja), Invalides y el puente Alejandro III al paso y Orsay por la tarde como único interior del día. Orsay cierra lunes (verificado 29/10/2026 en su web): intercambiar con el día 1. Versalles (selector de la jornada) es la alternativa de día completo.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "trocadero",
+                "toId": "eiffel",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "eiffel",
+                "toId": "invalides",
+                "straightLineKm": 1.3,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "invalides",
+                "toId": "orsay",
+                "straightLineKm": 1.0,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6-7 h siguiendo el río; si no se entra a Orsay, tarde libre en la orilla."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Las islas y el eje hasta la torre",
+            "zone": "Île de la Cité → orilla → Eiffel",
+            "stopIds": [
+              "saintechapelle",
+              "notredame",
+              "louvre",
+              "tuileries",
+              "trocadero",
+              "eiffel"
+            ],
+            "editorialNote": "Un solo eje este-oeste siguiendo el Sena: islas por la mañana (Sainte-Chapelle como único interior corto), Louvre y Tullerías al paso y torre al atardecer. Con un solo día el Louvre se ve por fuera: pirámide y patio, sin entrar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "saintechapelle",
+                "toId": "notredame",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "notredame",
+                "toId": "louvre",
+                "straightLineKm": 1.2,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "louvre",
+                "toId": "tuileries",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "tuileries",
+                "toId": "trocadero",
+                "straightLineKm": 2.3,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "trocadero",
+                "toId": "eiffel",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 8 h con paradas; el tramo Tullerías→Trocadéro es largo a pie (3,3 km, 47 min según Google Maps a pie, 29/10/2026): metro recomendado (24 min medidos en Maps el 29/10/2026)."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Islas y orilla izquierda",
+            "zone": "Île de la Cité → Barrio Latino → Luxemburgo",
+            "stopIds": [
+              "saintechapelle",
+              "notredame",
+              "latin",
+              "luxembourg"
+            ],
+            "editorialNote": "Mañana en la isla (Sainte-Chapelle y Notre-Dame) y tarde entre el Barrio Latino y el Luxemburgo, sin cambiar de orilla: todo a pie y sin volver sobre zonas ya vistas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "saintechapelle",
+                "toId": "notredame",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "notredame",
+                "toId": "latin",
+                "straightLineKm": 1.0,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "latin",
+                "toId": "luxembourg",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5-6 h con comida; un interior corto (Sainte-Chapelle) y Notre-Dame según cola."
+          },
+          {
+            "title": "Louvre y el eje oeste",
+            "zone": "Louvre → Concorde → Eiffel",
+            "stopIds": [
+              "louvre",
+              "palaisroyal",
+              "tuileries",
+              "trocadero",
+              "eiffel"
+            ],
+            "editorialNote": "Louvre a primera hora (interior principal del viaje) y tarde por el eje del oeste hasta la torre. Louvre cierra martes (verificado 29/10/2026): intercambiar con el día 1.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "louvre",
+                "toId": "palaisroyal",
+                "straightLineKm": 0.3,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "palaisroyal",
+                "toId": "tuileries",
+                "straightLineKm": 0.7,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "tuileries",
+                "toId": "trocadero",
+                "straightLineKm": 2.3,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "trocadero",
+                "toId": "eiffel",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Mañana de museo (2,5-3 h) y tarde de paseo; tramo Tullerías→Trocadéro en metro (24 min medidos en Maps el 29/10/2026) para ahorrar 3,3 km a pie."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Islas y orilla izquierda",
+            "zone": "Île de la Cité → Barrio Latino → Luxemburgo",
+            "stopIds": [
+              "saintechapelle",
+              "notredame",
+              "latin",
+              "luxembourg"
+            ],
+            "editorialNote": "Mañana en la isla y tarde en el Barrio Latino y el Luxemburgo, todo a pie por la misma orilla. Comida en el Barrio Latino o junto al Luxemburgo.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "saintechapelle",
+                "toId": "notredame",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "notredame",
+                "toId": "latin",
+                "straightLineKm": 1.0,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "latin",
+                "toId": "luxembourg",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5-6 h con comida."
+          },
+          {
+            "title": "Marais, Louvre y Montmartre",
+            "zone": "Le Marais → Louvre → Montmartre",
+            "stopIds": [
+              "marais",
+              "louvre",
+              "palaisroyal",
+              "montmartre"
+            ],
+            "editorialNote": "Mañana de paseo y comida en el Marais, Louvre con franja de tarde (interior principal del día; cierra martes, verificado 29/10/2026: intercambiar con el día 1; nocturna miércoles y viernes hasta las 21 h), Palacio Real a la salida y Montmartre al atardecer. Todo en la orilla derecha, sin volver sobre el día 1.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "marais",
+                "toId": "louvre",
+                "straightLineKm": 1.5,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "louvre",
+                "toId": "palaisroyal",
+                "straightLineKm": 0.3,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "palaisroyal",
+                "toId": "montmartre",
+                "straightLineKm": 2.6,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ],
+            "pacing": "Marais→Louvre en metro: 11 min medidos en Maps el 29/10/2026 (línea 1). Louvre→Montmartre en metro: 30 min medidos en Maps el 29/10/2026. A pie serían 30-40 min cada tramo."
+          },
+          {
+            "title": "La torre y la orilla oeste",
+            "zone": "Oeste / Eiffel",
+            "stopIds": [
+              "trocadero",
+              "eiffel",
+              "invalides",
+              "orsay"
+            ],
+            "editorialNote": "Mirador y torre por la mañana (exteriores; subida opcional con franja), Invalides y el puente Alejandro III al paso y Orsay por la tarde como único interior del día. Orsay cierra lunes (verificado 29/10/2026 en su web): intercambiar con el día 1. Versalles (selector de la jornada) es la alternativa de día completo.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "trocadero",
+                "toId": "eiffel",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "eiffel",
+                "toId": "invalides",
+                "straightLineKm": 1.3,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "invalides",
+                "toId": "orsay",
+                "straightLineKm": 1.0,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6-7 h siguiendo el río; si no se entra a Orsay, tarde libre en la orilla."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Las islas y el eje hasta la torre",
+            "zone": "Île de la Cité → orilla → Eiffel",
+            "stopIds": [
+              "saintechapelle",
+              "notredame",
+              "louvre",
+              "tuileries",
+              "trocadero",
+              "eiffel"
+            ],
+            "editorialNote": "Un solo eje este-oeste siguiendo el Sena: islas por la mañana (Sainte-Chapelle como único interior corto), Louvre y Tullerías al paso y torre al atardecer. Con un solo día el Louvre se ve por fuera: pirámide y patio, sin entrar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "saintechapelle",
+                "toId": "notredame",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "notredame",
+                "toId": "louvre",
+                "straightLineKm": 1.2,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "louvre",
+                "toId": "tuileries",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "tuileries",
+                "toId": "trocadero",
+                "straightLineKm": 2.3,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "trocadero",
+                "toId": "eiffel",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 8 h con paradas; el tramo Tullerías→Trocadéro es largo a pie (3,3 km, 47 min según Google Maps a pie, 29/10/2026): metro recomendado (24 min medidos en Maps el 29/10/2026)."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Islas y orilla izquierda",
+            "zone": "Île de la Cité → Barrio Latino → Luxemburgo",
+            "stopIds": [
+              "saintechapelle",
+              "notredame",
+              "latin",
+              "luxembourg"
+            ],
+            "editorialNote": "Mañana en la isla (Sainte-Chapelle y Notre-Dame) y tarde entre el Barrio Latino y el Luxemburgo, sin cambiar de orilla: todo a pie y sin volver sobre zonas ya vistas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "saintechapelle",
+                "toId": "notredame",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "notredame",
+                "toId": "latin",
+                "straightLineKm": 1.0,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "latin",
+                "toId": "luxembourg",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5-6 h con comida; un interior corto (Sainte-Chapelle) y Notre-Dame según cola."
+          },
+          {
+            "title": "Louvre y el eje oeste",
+            "zone": "Louvre → Concorde → Eiffel",
+            "stopIds": [
+              "louvre",
+              "palaisroyal",
+              "tuileries",
+              "trocadero",
+              "eiffel"
+            ],
+            "editorialNote": "Louvre a primera hora (interior principal del viaje) y tarde por el eje del oeste hasta la torre. Louvre cierra martes (verificado 29/10/2026): intercambiar con el día 1.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "louvre",
+                "toId": "palaisroyal",
+                "straightLineKm": 0.3,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "palaisroyal",
+                "toId": "tuileries",
+                "straightLineKm": 0.7,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "tuileries",
+                "toId": "trocadero",
+                "straightLineKm": 2.3,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "trocadero",
+                "toId": "eiffel",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Mañana de museo (2,5-3 h) y tarde de paseo; tramo Tullerías→Trocadéro en metro (24 min medidos en Maps el 29/10/2026) para ahorrar 3,3 km a pie."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Islas y orilla izquierda",
+            "zone": "Île de la Cité → Barrio Latino → Luxemburgo",
+            "stopIds": [
+              "saintechapelle",
+              "notredame",
+              "latin",
+              "luxembourg"
+            ],
+            "editorialNote": "Mañana en la isla y tarde en el Barrio Latino y el Luxemburgo, todo a pie por la misma orilla. Comida en el Barrio Latino o junto al Luxemburgo.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "saintechapelle",
+                "toId": "notredame",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "notredame",
+                "toId": "latin",
+                "straightLineKm": 1.0,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "latin",
+                "toId": "luxembourg",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5-6 h con comida."
+          },
+          {
+            "title": "Marais, Louvre y Montmartre",
+            "zone": "Le Marais → Louvre → Montmartre",
+            "stopIds": [
+              "marais",
+              "louvre",
+              "palaisroyal",
+              "montmartre"
+            ],
+            "editorialNote": "Mañana de paseo y comida en el Marais, Louvre con franja de tarde (interior principal del día; cierra martes, verificado 29/10/2026: intercambiar con el día 1; nocturna miércoles y viernes hasta las 21 h), Palacio Real a la salida y Montmartre al atardecer. Todo en la orilla derecha, sin volver sobre el día 1.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "marais",
+                "toId": "louvre",
+                "straightLineKm": 1.5,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "louvre",
+                "toId": "palaisroyal",
+                "straightLineKm": 0.3,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "palaisroyal",
+                "toId": "montmartre",
+                "straightLineKm": 2.6,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ],
+            "pacing": "Marais→Louvre en metro: 11 min medidos en Maps el 29/10/2026 (línea 1). Louvre→Montmartre en metro: 30 min medidos en Maps el 29/10/2026. A pie serían 30-40 min cada tramo."
+          },
+          {
+            "title": "La torre y la orilla oeste",
+            "zone": "Oeste / Eiffel",
+            "stopIds": [
+              "trocadero",
+              "eiffel",
+              "invalides",
+              "orsay"
+            ],
+            "editorialNote": "Mirador y torre por la mañana (exteriores; subida opcional con franja), Invalides y el puente Alejandro III al paso y Orsay por la tarde como único interior del día. Orsay cierra lunes (verificado 29/10/2026 en su web): intercambiar con el día 1. Versalles (selector de la jornada) es la alternativa de día completo.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "trocadero",
+                "toId": "eiffel",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "eiffel",
+                "toId": "invalides",
+                "straightLineKm": 1.3,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "invalides",
+                "toId": "orsay",
+                "straightLineKm": 1.0,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6-7 h siguiendo el río; si no se entra a Orsay, tarde libre en la orilla."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Las islas y el eje hasta la torre",
+            "zone": "Île de la Cité → orilla → Eiffel",
+            "stopIds": [
+              "saintechapelle",
+              "notredame",
+              "louvre",
+              "tuileries",
+              "trocadero",
+              "eiffel"
+            ],
+            "editorialNote": "Un solo eje este-oeste siguiendo el Sena: islas por la mañana (Sainte-Chapelle como único interior corto), Louvre y Tullerías al paso y torre al atardecer. Con un solo día el Louvre se ve por fuera: pirámide y patio, sin entrar.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "saintechapelle",
+                "toId": "notredame",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "notredame",
+                "toId": "louvre",
+                "straightLineKm": 1.2,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "louvre",
+                "toId": "tuileries",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "tuileries",
+                "toId": "trocadero",
+                "straightLineKm": 2.3,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "trocadero",
+                "toId": "eiffel",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 8 h con paradas; el tramo Tullerías→Trocadéro es largo a pie (3,3 km, 47 min según Google Maps a pie, 29/10/2026): metro recomendado (24 min medidos en Maps el 29/10/2026)."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Islas y orilla izquierda",
+            "zone": "Île de la Cité → Barrio Latino → Luxemburgo",
+            "stopIds": [
+              "saintechapelle",
+              "notredame",
+              "latin",
+              "luxembourg"
+            ],
+            "editorialNote": "Mañana en la isla (Sainte-Chapelle y Notre-Dame) y tarde entre el Barrio Latino y el Luxemburgo, sin cambiar de orilla: todo a pie y sin volver sobre zonas ya vistas.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "saintechapelle",
+                "toId": "notredame",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "notredame",
+                "toId": "latin",
+                "straightLineKm": 1.0,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "latin",
+                "toId": "luxembourg",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5-6 h con comida; un interior corto (Sainte-Chapelle) y Notre-Dame según cola."
+          },
+          {
+            "title": "Louvre y el eje oeste",
+            "zone": "Louvre → Concorde → Eiffel",
+            "stopIds": [
+              "louvre",
+              "palaisroyal",
+              "tuileries",
+              "trocadero",
+              "eiffel"
+            ],
+            "editorialNote": "Louvre a primera hora (interior principal del viaje) y tarde por el eje del oeste hasta la torre. Louvre cierra martes (verificado 29/10/2026): intercambiar con el día 1.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "louvre",
+                "toId": "palaisroyal",
+                "straightLineKm": 0.3,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "palaisroyal",
+                "toId": "tuileries",
+                "straightLineKm": 0.7,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "tuileries",
+                "toId": "trocadero",
+                "straightLineKm": 2.3,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "trocadero",
+                "toId": "eiffel",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Mañana de museo (2,5-3 h) y tarde de paseo; tramo Tullerías→Trocadéro en metro (24 min medidos en Maps el 29/10/2026) para ahorrar 3,3 km a pie."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Islas y orilla izquierda",
+            "zone": "Île de la Cité → Barrio Latino → Luxemburgo",
+            "stopIds": [
+              "saintechapelle",
+              "notredame",
+              "latin",
+              "luxembourg"
+            ],
+            "editorialNote": "Mañana en la isla y tarde en el Barrio Latino y el Luxemburgo, todo a pie por la misma orilla. Comida en el Barrio Latino o junto al Luxemburgo.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "saintechapelle",
+                "toId": "notredame",
+                "straightLineKm": 0.4,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "notredame",
+                "toId": "latin",
+                "straightLineKm": 1.0,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "latin",
+                "toId": "luxembourg",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 5-6 h con comida."
+          },
+          {
+            "title": "Marais, Louvre y Montmartre",
+            "zone": "Le Marais → Louvre → Montmartre",
+            "stopIds": [
+              "marais",
+              "louvre",
+              "palaisroyal",
+              "montmartre"
+            ],
+            "editorialNote": "Mañana de paseo y comida en el Marais, Louvre con franja de tarde (interior principal del día; cierra martes, verificado 29/10/2026: intercambiar con el día 1; nocturna miércoles y viernes hasta las 21 h), Palacio Real a la salida y Montmartre al atardecer. Todo en la orilla derecha, sin volver sobre el día 1.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "marais",
+                "toId": "louvre",
+                "straightLineKm": 1.5,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "louvre",
+                "toId": "palaisroyal",
+                "straightLineKm": 0.3,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "palaisroyal",
+                "toId": "montmartre",
+                "straightLineKm": 2.6,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              }
+            ],
+            "pacing": "Marais→Louvre en metro: 11 min medidos en Maps el 29/10/2026 (línea 1). Louvre→Montmartre en metro: 30 min medidos en Maps el 29/10/2026. A pie serían 30-40 min cada tramo."
+          },
+          {
+            "title": "La torre y la orilla oeste",
+            "zone": "Oeste / Eiffel",
+            "stopIds": [
+              "trocadero",
+              "eiffel",
+              "invalides",
+              "orsay"
+            ],
+            "editorialNote": "Mirador y torre por la mañana (exteriores; subida opcional con franja), Invalides y el puente Alejandro III al paso y Orsay por la tarde como único interior del día. Orsay cierra lunes (verificado 29/10/2026 en su web): intercambiar con el día 1. Versalles (selector de la jornada) es la alternativa de día completo.",
+            "optionalStopIds": [],
+            "geographyChecks": [
+              {
+                "fromId": "trocadero",
+                "toId": "eiffel",
+                "straightLineKm": 0.6,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "eiffel",
+                "toId": "invalides",
+                "straightLineKm": 1.3,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "invalides",
+                "toId": "orsay",
+                "straightLineKm": 1.0,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
+            "pacing": "Unas 6-7 h siguiendo el río; si no se entra a Orsay, tarde libre en la orilla."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [
+    {
+      "id": "versailles",
+      "name": "Palacio y jardines de Versalles",
+      "zone": "Fuera de París",
+      "lat": 48.8049,
+      "lon": 2.1204,
+      "coordSource": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
+      "minutes": 420,
+      "sourceIds": [
+        "versailles",
+        "vc",
+        "mm"
+      ],
+      "priority": "La gran escapada clásica",
+      "reason": "El palacio real absolutista y sus jardines: jornada completa alternativa a un día de ciudad.",
+      "visit": "Palacio con franja horaria y jardines; el Trianón y el dominio de María Antonieta amplían la visita si sobra tiempo.",
+      "transport": "RER C hasta Versailles Château Rive Gauche (unos 40 min desde Saint-Michel) y 10 min a pie. Comprobar obras del RER C y billete antes de salir.",
+      "pacing": "Reservar unas 6-8 h de jornada total: estimación editorial con ida, visita, comida y vuelta.",
+      "caution": "Palacio cerrado los lunes (confirmado en la web oficial 29/10/2026): no elegir este día si cae en lunes. Entrada con franja horaria muy recomendable. Espectáculo de fuentes musicales sólo en días señalados de primavera-otoño.",
+      "url": "https://en.chateauversailles.fr/",
+      "closedMonthDays": [],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "reviewedAt": "2026-10-29",
+      "kind": "excursion",
+      "photo": {
+        "img": "assets/paris/versailles.jpg",
+        "source": "https://www.pexels.com/photo/versailles-palace-in-paris-15546889/",
+        "author": "Denitsa Kireva",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      }
+    },
+    {
+      "id": "giverny",
+      "name": "Giverny: casa y jardines de Monet",
+      "zone": "Fuera de París",
+      "lat": 49.0751,
+      "lon": 1.5335,
+      "coordSource": "https://en.wikipedia.org/wiki/Fondation_Claude_Monet",
+      "minutes": 360,
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "priority": "Alternativa de temporada para interés en Monet",
+      "reason": "Los jardines que inspiraron los nenúfares; sólo abierto en temporada.",
+      "visit": "Casa y dos jardines; combinación natural con el impresionismo de Orsay otro día.",
+      "transport": "Tren desde Saint-Lazare a Vernon (unos 45 min) y lanzadera o bicicleta al pueblo. Comprobar horarios de lanzadera del día elegido.",
+      "pacing": "Unas 6-7 h de jornada total, estimación editorial.",
+      "caution": "Abierto sólo de primavera a principios de otoño (cerrado en invierno): confirmar calendario anual en fondation-monet.com antes de ofrecerlo.",
+      "url": "https://www.fondation-monet.com/en/",
+      "closedMonthDays": [],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "reviewedAt": "2026-10-29",
+      "kind": "excursion",
+      "photo": {
+        "img": "assets/paris/giverny.jpg",
+        "source": "https://unsplash.com/photos/a-pathway-through-a-garden-with-lots-of-flowers-AECW5JhQPVY",
+        "author": "Unsplash",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseURL": "https://unsplash.com/license",
+        "caption": "Allée centrale des jardins de Monet à Giverny"
+      }
+    }
+  ],
+  "editorialAudit": [
+    "pass 1c 29/10/2026: cierre de Orsay (lunes) confirmado en musee-orsay.fr (horarios y tarifas oficiales); frases de método/guía movidas de tarjeta a detalles; fotos ilustrativas de plato añadidas a comida y fotos reales a actividades.",
+    "pass 1b 29/10/2026: piernas a pie medidas en Google Maps (18 trayectos) y 3 tramos de metro medidos (Marais→Louvre 11 min, Louvre→Montmartre 30 min, Tullerías→Trocadéro 24 min). Reorden editorial tras medir: día 1 queda en islas y orilla izquierda (se elimina el cruce de vuelta Marais→Barrio Latino de 1,8 km/25 min) y el Marais pasa a la mañana del día 2 con Louvre en franja de tarde (todo orilla derecha; meter el Marais tras el Louvre por la mañana habría sumado 4,5 km de ida y vuelta). Pasajes y Ópera pasan a «Más ideas» por la regla de un interior principal por día. Día 3 con Orsay como único interior y torre/Invalides como exteriores.",
+    "pass 1 29/10/2026: primera ficha París desde guías Viajeros Callejeros y Mochileando contrastadas con webs oficiales (Louvre cierra martes y Versalles lunes, verificado 29/10/2026 en louvre.fr y chateauversailles.fr). Montmartre al atardecer del día 2 con metro documentado; Campos Elíseos/Arco fuera del plan de 3 días por no pisar dos veces el eje. Pompidou excluido por cierre de obras. Pendiente: restaurantes y actividades con comprobación Maps, piernas medidas en Maps, fotos licenciadas."
+  ],
+  "editorialTradeoffs": [
+    "Arco del Triunfo y Champs-Élysées descartados del plan de 3 días a favor de no repetir el eje oeste dos tardes; disponibles como idea.",
+    "Con 1 día el Louvre se ve por fuera: mejor eje completo que dos horas de cola."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Dos guías de itinerario (Viajeros Callejeros, Mochileando) coinciden en los tres ejes (islas/izquierda, Louvre-oeste, Eiffel) y en Versalles como escapada; se adopta ese consenso con Montmartre como tarde del día 2."
+}

@@ -1,0 +1,1081 @@
+{
+  "schemaVersion": 1,
+  "country": "EE",
+  "id": "tallinn",
+  "name": "Tallín",
+  "localName": "Tallinn",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días urbanos sin fecha, reserva ni gasto. Vanalinn, Kalamaja, Kadriorg en días distintos; un museo principal por día, no excursiones encadenadas.",
+  "stops": [
+    {
+      "id": "square",
+      "name": "Raekoja plats · plaza del Ayuntamiento",
+      "kind": "visit",
+      "zone": "Vanalinn / ciudad baja",
+      "reason": "Plaza y callejuelas de la ciudad baja, con tiempo para recorrerlas sin programa de torres obligatorio.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 59.4370224,
+        "lon": 24.7452895
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Tallinn+Town+Hall&query_place_id=ChIJH3QEFGKTkkYRGYn6E9CeCUc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Punto del Ayuntamiento, no ficha de mercado navideño permanente. Torre/interior sujetos a calendario y billete, no incluidos. Mercados y terrazas estacionales no prometidos todo el año.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/square.jpg",
+        "source": "https://www.flickr.com/photos/jlascar/23547346705/",
+        "author": "Jorge Láscar",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior; Ayuntamiento aparte"
+    },
+    {
+      "id": "katariina",
+      "name": "Katariina käik · pasaje medieval",
+      "kind": "visit",
+      "zone": "Vanalinn / Katariina",
+      "reason": "Pasaje de arcos y calles artesanas, una escala corta antes de subir a Toompea.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 59.4376202,
+        "lon": 24.7485031
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Katariina+k%C3%A4ik&query_place_id=ChIJx7CMhmGTkkYRW1FCT7ZYiF0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Adoquines y estrechez, evitar aglomeración; no garantiza talleres abiertos ni entrada a iglesia. No bloquear puertas privadas para fotos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/katariina.jpg",
+        "source": "https://www.flickr.com/photos/mattkieffer/34098871145/",
+        "author": "Matt Kieffer",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Pasaje y calles exteriores"
+    },
+    {
+      "id": "toompea",
+      "name": "Toompea · castillo y colina",
+      "kind": "visit",
+      "zone": "Toompea / ciudad alta",
+      "reason": "Subida al entorno del Parlamento y fachadas de la ciudad alta, sin encadenar interiores religiosos.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "views"
+      ],
+      "coordinates": {
+        "lat": 59.43550740000001,
+        "lon": 24.7376177
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Toompea+Castle&query_place_id=ChIJr-B8E52UkkYRG-BtsTnCrLs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Castillo es Parlamento, no palacio visitable libremente. Catedral Alexander Nevsky e iglesias no incluidas como visitas turísticas; respetar culto. Pendiente/adoquines y hielo: ajustar acceso o sustituir por ciudad baja.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/toompea.jpg",
+        "source": "https://www.flickr.com/photos/sergeigussev/33960540232/",
+        "author": "Sergei Gussev",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Colina y castillo exteriores"
+    },
+    {
+      "id": "kohtu",
+      "name": "Kohtuotsa · mirador de la ciudad",
+      "kind": "visit",
+      "zone": "Toompea / Kohtuotsa",
+      "reason": "Vista sobre tejados medievales y horizonte moderno desde la plataforma de la ciudad alta.",
+      "sourceIds": [
+        "views",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 59.437807,
+        "lon": 24.7418795
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Kohtuotsa+viewing+platform&query_place_id=ChIJ3TY4imKTkkYRBKgGxVfVHN8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "No requiere subir torre ni garantía de puesta de sol. No saltar barandillas, piedra mojada/hielo requiere cuidado. Patkuli es alternativa cercana, no otra subida obligatoria por contar miradores.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/kohtu.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/48241613166/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mirador exterior con pendientes"
+    },
+    {
+      "id": "telliskivi",
+      "name": "Telliskivi · patios y diseño",
+      "kind": "visit",
+      "zone": "Kalamaja / Telliskivi",
+      "reason": "Patios industriales, arte urbano y comercios, antes de comer en el mercado cercano.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 59.43984080000001,
+        "lon": 24.7289874
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Telliskivi+Creative+City&query_place_id=ChIJS4pp8H2TkkYRZWMfJVezO3o",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Fotografiska y eventos tienen entrada/calendario propios, no incluidos. Murales/tiendas cambian; no garantizar obra de foto. F-hoone está aquí, RØST NO: está en Rotermann al este del centro.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/telliskivi.jpg",
+        "source": "https://www.flickr.com/photos/vickyb/51923332858/",
+        "author": "Vicky Brock",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Mural de Telliskivi en archivo invernal, obra/estación no garantizadas. Recorte de presentación."
+      },
+      "visitMode": "Barrio exterior; exposiciones aparte"
+    },
+    {
+      "id": "market",
+      "name": "Balti Jaama Turg · mercado",
+      "kind": "visit",
+      "zone": "Kalamaja / estación Balti Jaam",
+      "reason": "Puestos de producto y comida para hacer una pausa sin cruzar toda la ciudad a mediodía.",
+      "sourceIds": [
+        "market",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 59.4411326,
+        "lon": 24.7354436
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Balti+Jaama+Turg&query_place_id=ChIJeWFVwX2TkkYRJvpHOldosHg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Mercado lun-sáb 9-19, dom 9-17; zona comida lun-sáb 9-20, dom 9-18; 2ºpiso 10-19/dom 17. Cada operador puede variar, no todo cierra igual ni todos los puestos están arriba. No precio universal 5-9€ ni comida incluida.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/market.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/49925468146/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mercado; consumos de pago"
+    },
+    {
+      "id": "seaplane",
+      "name": "Lennusadam · Seaplane Harbour",
+      "kind": "visit",
+      "zone": "Kalamaja / puerto de hidroaviones",
+      "reason": "Hangares y patrimonio marítimo con submarino Lembit, la visita interior principal del norte.",
+      "sourceIds": [
+        "seaplane",
+        "seaplanetickets",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 59.45170599999999,
+        "lon": 24.7383739
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Lennusadam+%E2%80%93+Eesti+Meremuuseum&query_place_id=ChIJTRNjNneTkkYR4qzPO1zbDuw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 22€ combinado hangar/exposición/barcos Suur Tõll/Valvas; Fat Margaret NO incluido, su combinado 30€. Oct-abr mar-dom 10-18, lun cerrado; may-sep diario 10-19.24 dic 2026/1 ene 2027 cerrado,25/26/31 dic 10-17. Venta termina 30 min antes, barcos 15 min antes. Acceso/submarino/escaleras/barcos sujeto a condiciones, no crucero incluido.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/seaplane.jpg",
+        "source": "https://www.flickr.com/photos/tammets/14831718001/",
+        "author": "Priit Tammets",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Interior real de los hangares de Lennusadam, archivo, no exposición temporal actual garantizada. Recorte de presentación."
+      },
+      "visitMode": "Museo marítimo de pago"
+    },
+    {
+      "id": "noblessner",
+      "name": "Noblessner · paseo portuario",
+      "kind": "visit",
+      "zone": "Noblessner / ribera",
+      "reason": "Antiguo entorno naval reconvertido y paseo junto al agua para acabar sin otro museo largo.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 59.45319199999999,
+        "lon": 24.7315196
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Port+Noblessner&query_place_id=ChIJaQeLwYKUkkYRZlI5Ic6DJX4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "PROTO, Kai, cervecería y restaurantes no incluidos como entradas/consumos. No acceso a muelles privados ni baño garantizado. Viento/hielo: recortar costa. Patarei/Linnahall no se añaden con acceso a obras o tejados abandonados.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/noblessner.jpg",
+        "source": "https://www.flickr.com/photos/16801915@N06/53623178326/",
+        "author": "Reading Tom",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio portuario exterior"
+    },
+    {
+      "id": "park",
+      "name": "Kadriorg · parque y estanque",
+      "kind": "visit",
+      "zone": "Kadriorg / parque",
+      "reason": "Senderos y estanque de los cisnes, un paseo verde separado de los museos de pago.",
+      "sourceIds": [
+        "park",
+        "kadriorg"
+      ],
+      "coordinates": {
+        "lat": 59.4388973,
+        "lon": 24.793038
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Kadriorg+Park&query_place_id=ChIJyRI_xlGTkkYRASfRHNMc0es",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Turismo indica parque 24 h, pero usar luz y caminos habilitados. Jardines formales, fuentes, floración y recintos pueden tener condiciones propias, no garantiza todos los espacios 24 h. Punto Maps del parque, no acceso único al estanque.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/park.jpg",
+        "source": "https://www.flickr.com/photos/81382714@N02/15818592891/",
+        "author": "Eesti.pl",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Parque público gratuito"
+    },
+    {
+      "id": "palace",
+      "name": "Palacio de Kadriorg · exterior",
+      "kind": "visit",
+      "zone": "Kadriorg / palacio",
+      "reason": "Fachada barroca y entorno ajardinado, antes de dedicar la visita larga al arte de Kumu.",
+      "sourceIds": [
+        "kadriorg",
+        "parkroute"
+      ],
+      "coordinates": {
+        "lat": 59.4385261,
+        "lon": 24.7908073
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Kadriorg+Art+Museum&query_place_id=ChIJHzFswVGTkkYR_Ej2aFtgdhA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "No incluye Kadriorg Art Museum ni Mikkel. Elegir interior del palacio en sustitución de Kumu si interesa más, no los tres por cercanía. No confundir palacio museo con residencia presidencial ni entrar a recintos protegidos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/palace.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/32733518677/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Exterior del palacio de Kadriorg, no visita interior incluida. Recorte de presentación."
+      },
+      "visitMode": "Palacio exterior; museo interior aparte"
+    },
+    {
+      "id": "kumu",
+      "name": "Kumu · arte de Estonia",
+      "kind": "visit",
+      "zone": "Kadriorg / Kumu",
+      "reason": "Arte estonio y arquitectura contemporánea, la visita interior principal del este.",
+      "sourceIds": [
+        "kumu",
+        "kumutickets",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 59.43621710000001,
+        "lon": 24.7962019
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Art+Museum+of+Estonia+%28KUMU%29&query_place_id=ChIJ3ehsiVKTkkYR8wxRU1hFIHc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 16€, no ticket donación 25€. Mar-mié/vie-dom 10-18, jue 10-20, lun cerrado; venta 30 min antes. Web avisa túnel peatonal cerrado hasta 15/11 sin año explícito: confirmar acceso alternativo, se estima margen extra. 24/25/31 dic cerrado,23 dic 10-15. Último mié 3€ según política, fecha/entrada confirmar, no pase comprado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/kumu.jpg",
+        "source": "https://www.flickr.com/photos/ninara/52907644401/",
+        "author": "Ninara",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago; exposiciones variables"
+    },
+    {
+      "id": "russalka",
+      "name": "Russalka · monumento y ribera",
+      "kind": "visit",
+      "zone": "Kadriorg / bahía",
+      "reason": "Paseo corto hasta el monumento junto al mar, sin convertirlo en travesía completa a Pirita.",
+      "sourceIds": [
+        "parkroute",
+        "kadriorg"
+      ],
+      "coordinates": {
+        "lat": 59.44339910000001,
+        "lon": 24.7939623
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Russalka+Memorial&query_place_id=ChIJgV4-J0-TkkYRdEig4ItsWeQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Cruzar por pasos señalizados; viento/hielo pueden hacer necesario omitir costa. No incluir Torre TV, Pirita/monasterio y jardín botánico por estar en el mismo lado de la ciudad. Vuelta al centro necesita tiempo propio.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/tallinn/russalka.jpg",
+        "source": "https://www.flickr.com/photos/meelisv/9387073864/",
+        "author": "Meelisv",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Monumento y ribera exteriores"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Vanalinn y la colina de Toompea",
+          "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+          "stopIds": [
+            "square",
+            "katariina",
+            "toompea",
+            "kohtu"
+          ],
+          "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Vanalinn y la colina de Toompea",
+          "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+          "stopIds": [
+            "square",
+            "katariina",
+            "toompea",
+            "kohtu"
+          ],
+          "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+        },
+        {
+          "title": "Kalamaja y el patrimonio marítimo",
+          "zone": "Telliskivi → Balti Jaama → Lennusadam → Noblessner",
+          "stopIds": [
+            "telliskivi",
+            "market",
+            "seaplane",
+            "noblessner"
+          ],
+          "editorialNote": "Museo marítimo interior principal, comida en mercado antes del puerto. No añadir Fotografiska/PROTO/Kai por cercanía. Lunes oct-abr museo cerrado: cambiar día o elegir sustitución verificada, no asumir apertura.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida y pausas. Maps 431 m/5 min,1605 m/21 min,679 m/9 min; añadir paseo costero y vuelta. Lennusadam 22€, horario invierno 10-18 no 19. En invierno costa con poca luz: acortar Noblessner o hacerlo antes del museo, revisar orden."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Vanalinn y la colina de Toompea",
+          "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+          "stopIds": [
+            "square",
+            "katariina",
+            "toompea",
+            "kohtu"
+          ],
+          "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+        },
+        {
+          "title": "Kalamaja y el patrimonio marítimo",
+          "zone": "Telliskivi → Balti Jaama → Lennusadam → Noblessner",
+          "stopIds": [
+            "telliskivi",
+            "market",
+            "seaplane",
+            "noblessner"
+          ],
+          "editorialNote": "Museo marítimo interior principal, comida en mercado antes del puerto. No añadir Fotografiska/PROTO/Kai por cercanía. Lunes oct-abr museo cerrado: cambiar día o elegir sustitución verificada, no asumir apertura.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida y pausas. Maps 431 m/5 min,1605 m/21 min,679 m/9 min; añadir paseo costero y vuelta. Lennusadam 22€, horario invierno 10-18 no 19. En invierno costa con poca luz: acortar Noblessner o hacerlo antes del museo, revisar orden."
+        },
+        {
+          "title": "Kadriorg y arte en Kumu",
+          "zone": "Parque Kadriorg → palacio exterior → Kumu → Russalka",
+          "stopIds": [
+            "park",
+            "palace",
+            "kumu",
+            "russalka"
+          ],
+          "editorialNote": "Kumu interior largo, palacio exterior. No tres museos más TV Tower/Pirita después. Lunes Kumu cerrado: intercambiar días o exterior/parque con alternativa elegida, no entrada garantizada.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, tranvía/bus desde centro y pausas. Maps 333 m/4 min,548 m/9 min con pendiente,1004 m/14 min; no incluyen túnel alternativo ni paseo completo. Aviso Kumu: túnel cerrado hasta 15/11 sin año: consultar puerta real. En invierno costa antes si oscurece o eliminarla."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Lennusadam may-sep diario 10-19. Kumu lun cerrado, aunque marítimo abra. Luz larga no autoriza añadir TV Tower/Pirita y todos los museos. Fuentes, jardines y eventos: confirmar.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Lennusadam oct-abr lunes cerrado 10-18 resto, Kumu lunes cerrado. Hielo, adoquines y cuestas en Toompea, costa viento y poca luz: recortar. No entrar al tejado de Linnahall/obras por guía.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Lennusadam 24 dic/1 ene cerrado,25/26/31 dic 10-17. Kumu 24/25/31 dic cerrado 23 dic 10-15. Mercado navideño sólo con fechas confirmadas, no permanente. RØST: domingo cerrado.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Cambio de museo marítimo en mayo/octubre, apertura lunes según temporada. Kumu avisa: túnel cerrado 15/11 sin año, confirmar puerta y margen extra. Costa/luz y suelos según tiempo.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No entradas, mesas, pases Tallinn Card ni transporte comprados. Importes en euros, fecha futura sin disponibilidad verificada.",
+    "Guías de recorridos útiles, pero RØST no está en Telliskivi, F-hoone sí acepta reservas, Leib citado por guía no atribuir a Lee actual sin verificar.",
+    "No tejado de Linnahall, Patarei interior ni obras accesibles por lectura de guías.",
+    "Kumu y Lennusadam lunes cerrados según temporada: intercambiar días y verificar festivos antes de reservar."
+  ],
+  "excludedOrOptional": [
+    "Lahemaa, Helsinki o Open Air Museum ocupan bloque/día propio, no añadidos tras tres zonas urbanas.",
+    "Fotografiska o PROTO sustituyen parte de Kalamaja, no sumados al marítimo.",
+    "Interior del palacio de Kadriorg sustituye Kumu; Torre TV/Pirita requieren otro plan."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "VisitTallinn:72 horas/barrios",
+      "url": "https://www.visittallinn.ee/eng/visitor/ideas-tips/tips-and-guides/three-days-in-tallinn",
+      "type": "official-tourism-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "Waystop: tres días, selección no logística",
+      "url": "https://waystop.app/trips/tallinn-3-days",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide3",
+      "title": "TallinnTrip: rutas, corregirlocalizaciones",
+      "url": "https://www.tallinn-trip.com/itineraries/tallinn-3-days-itinerary/",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "TallinnTrip: comida, no logística fiable",
+      "url": "https://www.tallinn-trip.com/guides/best-restaurants-in-tallinn/",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "views",
+      "title": "VisitTallinn: miradores",
+      "url": "https://www.visittallinn.ee/eng/visitor/ideas-tips/tips-and-guides/unforgettable-views-of-tallinn",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "kadriorg",
+      "title": "VisitTallinn: Kadriorg",
+      "url": "https://www.visittallinn.ee/eng/visitor/see-do/neighbourhoods/kadriorg",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "park",
+      "title": "VisitTallinn: parque 24 h",
+      "url": "https://www.visittallinn.ee/eng/visitor/see-do/things-to-do/attractions-museums/174766",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "parkroute",
+      "title": "VisitTallinn: Kadriorgyribera",
+      "url": "https://www.visittallinn.ee/eng/visitor/ideas-tips/tips-and-guides/cycling-in-tallinn-kadriorg",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "seaplane",
+      "title": "Lennusadam: horario",
+      "url": "https://meremuuseum.ee/lennusadam/en/visitor-information/opening-times/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "seaplanetickets",
+      "title": "Lennusadam: entradas",
+      "url": "https://meremuuseum.ee/lennusadam/en/visitor-information/tickets/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "kumu",
+      "title": "Kumu: horario/acceso",
+      "url": "https://kumu.ekm.ee/en/opening-hours-kumu-art-museum/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "kumutickets",
+      "title": "Museoarte: entradas",
+      "url": "https://kunstimuuseum.ekm.ee/en/tickets-museum/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "market",
+      "title": "BaltiJaama: horariosporzona",
+      "url": "https://astri.ee/bjt/en/how-to-get-here",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "rataskaevu",
+      "title": "Rataskaevu 16: sedehorario",
+      "url": "https://www.rataskaevu16.ee/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "ratmenu",
+      "title": "Rataskaevu 16: carta",
+      "url": "https://www.rataskaevu16.ee/menu",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "fhoone",
+      "title": "Fhoone: reservasyhorario",
+      "url": "https://www.fhoone.ee/en/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "fmenu",
+      "title": "Fhoone: carta",
+      "url": "https://www.fhoone.ee/menuu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "rost",
+      "title": "RØST: sedehorario",
+      "url": "https://www.rost.ee/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "rostquarter",
+      "title": "Rotermann: RØSTsábado 10discrepa",
+      "url": "https://rotermann.ee/en/soo-poodle-kulasta/rost-bakery-cafe/",
+      "type": "district-operator",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Vanalinn y la colina de Toompea",
+            "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+            "stopIds": [
+              "square",
+              "katariina",
+              "toompea",
+              "kohtu"
+            ],
+            "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Vanalinn y la colina de Toompea",
+            "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+            "stopIds": [
+              "square",
+              "katariina",
+              "toompea",
+              "kohtu"
+            ],
+            "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+          },
+          {
+            "title": "Kalamaja y el patrimonio marítimo",
+            "zone": "Telliskivi → Balti Jaama → Lennusadam → Noblessner",
+            "stopIds": [
+              "telliskivi",
+              "market",
+              "seaplane",
+              "noblessner"
+            ],
+            "editorialNote": "Museo marítimo interior principal, comida en mercado antes del puerto. No añadir Fotografiska/PROTO/Kai por cercanía. Lunes oct-abr museo cerrado: cambiar día o elegir sustitución verificada, no asumir apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps 431 m/5 min,1605 m/21 min,679 m/9 min; añadir paseo costero y vuelta. Lennusadam 22€, horario invierno 10-18 no 19. En invierno costa con poca luz: acortar Noblessner o hacerlo antes del museo, revisar orden."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Vanalinn y la colina de Toompea",
+            "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+            "stopIds": [
+              "square",
+              "katariina",
+              "toompea",
+              "kohtu"
+            ],
+            "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+          },
+          {
+            "title": "Kalamaja y el patrimonio marítimo",
+            "zone": "Telliskivi → Balti Jaama → Lennusadam → Noblessner",
+            "stopIds": [
+              "telliskivi",
+              "market",
+              "seaplane",
+              "noblessner"
+            ],
+            "editorialNote": "Museo marítimo interior principal, comida en mercado antes del puerto. No añadir Fotografiska/PROTO/Kai por cercanía. Lunes oct-abr museo cerrado: cambiar día o elegir sustitución verificada, no asumir apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps 431 m/5 min,1605 m/21 min,679 m/9 min; añadir paseo costero y vuelta. Lennusadam 22€, horario invierno 10-18 no 19. En invierno costa con poca luz: acortar Noblessner o hacerlo antes del museo, revisar orden."
+          },
+          {
+            "title": "Kadriorg y arte en Kumu",
+            "zone": "Parque Kadriorg → palacio exterior → Kumu → Russalka",
+            "stopIds": [
+              "park",
+              "palace",
+              "kumu",
+              "russalka"
+            ],
+            "editorialNote": "Kumu interior largo, palacio exterior. No tres museos más TV Tower/Pirita después. Lunes Kumu cerrado: intercambiar días o exterior/parque con alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, tranvía/bus desde centro y pausas. Maps 333 m/4 min,548 m/9 min con pendiente,1004 m/14 min; no incluyen túnel alternativo ni paseo completo. Aviso Kumu: túnel cerrado hasta 15/11 sin año: consultar puerta real. En invierno costa antes si oscurece o eliminarla."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Vanalinn y la colina de Toompea",
+            "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+            "stopIds": [
+              "square",
+              "katariina",
+              "toompea",
+              "kohtu"
+            ],
+            "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Vanalinn y la colina de Toompea",
+            "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+            "stopIds": [
+              "square",
+              "katariina",
+              "toompea",
+              "kohtu"
+            ],
+            "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+          },
+          {
+            "title": "Kalamaja y el patrimonio marítimo",
+            "zone": "Telliskivi → Balti Jaama → Lennusadam → Noblessner",
+            "stopIds": [
+              "telliskivi",
+              "market",
+              "seaplane",
+              "noblessner"
+            ],
+            "editorialNote": "Museo marítimo interior principal, comida en mercado antes del puerto. No añadir Fotografiska/PROTO/Kai por cercanía. Lunes oct-abr museo cerrado: cambiar día o elegir sustitución verificada, no asumir apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps 431 m/5 min,1605 m/21 min,679 m/9 min; añadir paseo costero y vuelta. Lennusadam 22€, horario invierno 10-18 no 19. En invierno costa con poca luz: acortar Noblessner o hacerlo antes del museo, revisar orden."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Vanalinn y la colina de Toompea",
+            "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+            "stopIds": [
+              "square",
+              "katariina",
+              "toompea",
+              "kohtu"
+            ],
+            "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+          },
+          {
+            "title": "Kalamaja y el patrimonio marítimo",
+            "zone": "Telliskivi → Balti Jaama → Lennusadam → Noblessner",
+            "stopIds": [
+              "telliskivi",
+              "market",
+              "seaplane",
+              "noblessner"
+            ],
+            "editorialNote": "Museo marítimo interior principal, comida en mercado antes del puerto. No añadir Fotografiska/PROTO/Kai por cercanía. Lunes oct-abr museo cerrado: cambiar día o elegir sustitución verificada, no asumir apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps 431 m/5 min,1605 m/21 min,679 m/9 min; añadir paseo costero y vuelta. Lennusadam 22€, horario invierno 10-18 no 19. En invierno costa con poca luz: acortar Noblessner o hacerlo antes del museo, revisar orden."
+          },
+          {
+            "title": "Kadriorg y arte en Kumu",
+            "zone": "Parque Kadriorg → palacio exterior → Kumu → Russalka",
+            "stopIds": [
+              "park",
+              "palace",
+              "kumu",
+              "russalka"
+            ],
+            "editorialNote": "Kumu interior largo, palacio exterior. No tres museos más TV Tower/Pirita después. Lunes Kumu cerrado: intercambiar días o exterior/parque con alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, tranvía/bus desde centro y pausas. Maps 333 m/4 min,548 m/9 min con pendiente,1004 m/14 min; no incluyen túnel alternativo ni paseo completo. Aviso Kumu: túnel cerrado hasta 15/11 sin año: consultar puerta real. En invierno costa antes si oscurece o eliminarla."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Vanalinn y la colina de Toompea",
+            "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+            "stopIds": [
+              "square",
+              "katariina",
+              "toompea",
+              "kohtu"
+            ],
+            "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Vanalinn y la colina de Toompea",
+            "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+            "stopIds": [
+              "square",
+              "katariina",
+              "toompea",
+              "kohtu"
+            ],
+            "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+          },
+          {
+            "title": "Kalamaja y el patrimonio marítimo",
+            "zone": "Telliskivi → Balti Jaama → Lennusadam → Noblessner",
+            "stopIds": [
+              "telliskivi",
+              "market",
+              "seaplane",
+              "noblessner"
+            ],
+            "editorialNote": "Museo marítimo interior principal, comida en mercado antes del puerto. No añadir Fotografiska/PROTO/Kai por cercanía. Lunes oct-abr museo cerrado: cambiar día o elegir sustitución verificada, no asumir apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps 431 m/5 min,1605 m/21 min,679 m/9 min; añadir paseo costero y vuelta. Lennusadam 22€, horario invierno 10-18 no 19. En invierno costa con poca luz: acortar Noblessner o hacerlo antes del museo, revisar orden."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Vanalinn y la colina de Toompea",
+            "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+            "stopIds": [
+              "square",
+              "katariina",
+              "toompea",
+              "kohtu"
+            ],
+            "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+          },
+          {
+            "title": "Kalamaja y el patrimonio marítimo",
+            "zone": "Telliskivi → Balti Jaama → Lennusadam → Noblessner",
+            "stopIds": [
+              "telliskivi",
+              "market",
+              "seaplane",
+              "noblessner"
+            ],
+            "editorialNote": "Museo marítimo interior principal, comida en mercado antes del puerto. No añadir Fotografiska/PROTO/Kai por cercanía. Lunes oct-abr museo cerrado: cambiar día o elegir sustitución verificada, no asumir apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps 431 m/5 min,1605 m/21 min,679 m/9 min; añadir paseo costero y vuelta. Lennusadam 22€, horario invierno 10-18 no 19. En invierno costa con poca luz: acortar Noblessner o hacerlo antes del museo, revisar orden."
+          },
+          {
+            "title": "Kadriorg y arte en Kumu",
+            "zone": "Parque Kadriorg → palacio exterior → Kumu → Russalka",
+            "stopIds": [
+              "park",
+              "palace",
+              "kumu",
+              "russalka"
+            ],
+            "editorialNote": "Kumu interior largo, palacio exterior. No tres museos más TV Tower/Pirita después. Lunes Kumu cerrado: intercambiar días o exterior/parque con alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, tranvía/bus desde centro y pausas. Maps 333 m/4 min,548 m/9 min con pendiente,1004 m/14 min; no incluyen túnel alternativo ni paseo completo. Aviso Kumu: túnel cerrado hasta 15/11 sin año: consultar puerta real. En invierno costa antes si oscurece o eliminarla."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Vanalinn y la colina de Toompea",
+            "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+            "stopIds": [
+              "square",
+              "katariina",
+              "toompea",
+              "kohtu"
+            ],
+            "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Vanalinn y la colina de Toompea",
+            "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+            "stopIds": [
+              "square",
+              "katariina",
+              "toompea",
+              "kohtu"
+            ],
+            "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+          },
+          {
+            "title": "Kalamaja y el patrimonio marítimo",
+            "zone": "Telliskivi → Balti Jaama → Lennusadam → Noblessner",
+            "stopIds": [
+              "telliskivi",
+              "market",
+              "seaplane",
+              "noblessner"
+            ],
+            "editorialNote": "Museo marítimo interior principal, comida en mercado antes del puerto. No añadir Fotografiska/PROTO/Kai por cercanía. Lunes oct-abr museo cerrado: cambiar día o elegir sustitución verificada, no asumir apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps 431 m/5 min,1605 m/21 min,679 m/9 min; añadir paseo costero y vuelta. Lennusadam 22€, horario invierno 10-18 no 19. En invierno costa con poca luz: acortar Noblessner o hacerlo antes del museo, revisar orden."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Vanalinn y la colina de Toompea",
+            "zone": "Raekoja plats → Katariina → Toompea → Kohtuotsa",
+            "stopIds": [
+              "square",
+              "katariina",
+              "toompea",
+              "kohtu"
+            ],
+            "editorialNote": "Ciudad baja y alta sin sumar torres, palacio, museos e iglesias de pago. Dejar rato de comida y calles laterales.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Maps 218 m/2 min,728 m/11 min con subida,396 m/5 min; no incluyen recorridos de barrio ni vistas. Hielo/movilidad: recortar colina y elegir ruta baja, sin accesibilidad garantizada."
+          },
+          {
+            "title": "Kalamaja y el patrimonio marítimo",
+            "zone": "Telliskivi → Balti Jaama → Lennusadam → Noblessner",
+            "stopIds": [
+              "telliskivi",
+              "market",
+              "seaplane",
+              "noblessner"
+            ],
+            "editorialNote": "Museo marítimo interior principal, comida en mercado antes del puerto. No añadir Fotografiska/PROTO/Kai por cercanía. Lunes oct-abr museo cerrado: cambiar día o elegir sustitución verificada, no asumir apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps 431 m/5 min,1605 m/21 min,679 m/9 min; añadir paseo costero y vuelta. Lennusadam 22€, horario invierno 10-18 no 19. En invierno costa con poca luz: acortar Noblessner o hacerlo antes del museo, revisar orden."
+          },
+          {
+            "title": "Kadriorg y arte en Kumu",
+            "zone": "Parque Kadriorg → palacio exterior → Kumu → Russalka",
+            "stopIds": [
+              "park",
+              "palace",
+              "kumu",
+              "russalka"
+            ],
+            "editorialNote": "Kumu interior largo, palacio exterior. No tres museos más TV Tower/Pirita después. Lunes Kumu cerrado: intercambiar días o exterior/parque con alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, tranvía/bus desde centro y pausas. Maps 333 m/4 min,548 m/9 min con pendiente,1004 m/14 min; no incluyen túnel alternativo ni paseo completo. Aviso Kumu: túnel cerrado hasta 15/11 sin año: consultar puerta real. En invierno costa antes si oscurece o eliminarla."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [],
+  "editorialTradeoffs": [],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": ""
+}

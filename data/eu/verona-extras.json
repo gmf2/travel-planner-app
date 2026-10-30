@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "cityId": "verona",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "duca",
+      "name": "Osteria al Duca · cocina veronesa",
+      "address": "Via Arche Scaligere, 2, 37121 Verona VR, Italy",
+      "description": "Una mesa tradicional junto a las Arche, con pasta y segundos regionales en vez de un menú genérico de la plaza.",
+      "strength": "Pappardelle al ragú de pato o pasta e fasoi; bigoli de burro y pastissada de caballo solo si apetece ese tipo de carne.",
+      "caution": "Menú 26€ primer+segundo por UNA persona, no compartible; variantes 30/32€, postre 6€, bebidas/cubierto confirmar. Crítica antigua 24€ desactualizada. Mar SOLO cena 18:30-22:30; lun 12-14:30 y 18:30-22:30; mié-sáb 12:05-14:30 y 18:30-22:30; domingo no horario publicado, confirmar/no prometer. Reserva exclusivamente teléfono. Foto pasta ajena.",
+      "alert": "Menú 26€ primer+segundo por UNA persona, no compartible; variantes 30/32€, postre 6€, bebidas/cubierto confirmar. Crítica antigua 24€ desactualizada. Mar SOLO cena 18:30-22:30; lun 12-14:30 y 18:30-22:30; mié-sáb 12:05-14:30 y 18:30-22:30; domingo no horario publicado, confirmar/no prometer. Reserva exclusivamente teléfono. Foto pasta ajena.",
+      "priceLabel": "Menú 26€/persona · extras aparte",
+      "photo": {
+        "img": "assets/verona/duca.jpg",
+        "source": "https://www.flickr.com/photos/maggiejane/5002007786/",
+        "author": "Maggie Hoffman",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Pappardelle con ragú de pato ilustrativas de otro lugar, no Osteria al Duca ni su plato actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.osteriaalduca.it/menu.html",
+      "sourceUrls": [
+        "https://terroirsense.com/en/p/8006.html",
+        "https://www.osteriaalduca.it/menu.html",
+        "https://www.osteriaalduca.it/"
+      ],
+      "sourceIds": [
+        "duca",
+        "ducabook",
+        "ducacrit"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Osteria+al+Duca&query_place_id=ChIJQSGGnElff0cRp0DaiJua2Vg",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede contrastada con web actual y Maps, sin reserva ni apertura futura garantizadas."
+    },
+    {
+      "id": "flora",
+      "name": "Flora · vegetal cerca de Bra",
+      "address": "Stradone Scipione Maffei, 8 c, 37121 Verona VR, Italy",
+      "description": "Buffet vegetal por peso a mediodía o carta para una cena sentada, sin tratarlo como barra libre.",
+      "strength": "Arroces, farinata, legumbres y verduras; la selección cambia.",
+      "caution": "Web 2,60€/100 g pero ejemplo 400 g=9€ no cuadra: cálculo 10,40€ a tarifa publicada, no 9€ prometidos; confirmar precio al pesar. Horarios 12:30-14:30 y 19-22:30, sin día de cierre especificado. Carta noche no mismo precio ni formato; bebidas/extras aparte. Casa se presenta vegana/sin gluten, alergias y contaminación confirmar. Foto risotto ajeno.",
+      "alert": "Web 2,60€/100 g pero ejemplo 400 g=9€ no cuadra: cálculo 10,40€ a tarifa publicada, no 9€ prometidos; confirmar precio al pesar. Horarios 12:30-14:30 y 19-22:30, sin día de cierre especificado. Carta noche no mismo precio ni formato; bebidas/extras aparte. Casa se presenta vegana/sin gluten, alergias y contaminación confirmar. Foto risotto ajeno.",
+      "priceLabel": "Buffet 2,60€/100 g publicado · confirmar",
+      "photo": {
+        "img": "assets/verona/flora.jpg",
+        "source": "https://www.flickr.com/photos/lablasco/40425953444/",
+        "author": "Lablascovegmenu",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Risotto vegetal ilustrativo de otro autor/lugar, no Flora ni su carta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.ristoranteflora.it/menu/",
+      "sourceUrls": [
+        "https://myvegantravels.com/destinations/vegan-food-in-verona/",
+        "https://www.ristoranteflora.it/menu/"
+      ],
+      "sourceIds": [
+        "flora",
+        "floracrit"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ristorante+Flora&query_place_id=ChIJ5XUX_0Zff0cRsLYyhbJn9s4",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede contrastada con web actual y Maps, sin reserva ni apertura futura garantizadas."
+    },
+    {
+      "id": "caffe",
+      "name": "Caffè Borsari · espresso y pausa",
+      "address": "Corso Porta Borsari, 15 D, 37121 Verona VR, Italy",
+      "description": "Un café pequeño en Corso Porta Borsari para una parada breve, no comida principal ni mesa grande garantizada.",
+      "strength": "Mezclas de la casa y selección de orígenes; espresso antes de retomar paseo.",
+      "caution": "Precio y horario oficial actual no publicados en página, confirmar; no convertir tiendas online de café en carta de bar. Turismo 15/B vs web/Maps 15/D, mismo tramo confirmar puerta 15 D. Local pequeño, no reserva ni mesa aseguradas. Foto de espresso ilustrativo ajeno.",
+      "alert": "Precio y horario oficial actual no publicados en página, confirmar; no convertir tiendas online de café en carta de bar. Turismo 15/B vs web/Maps 15/D, mismo tramo confirmar puerta 15 D. Local pequeño, no reserva ni mesa aseguradas. Foto de espresso ilustrativo ajeno.",
+      "priceLabel": "Café · precio actual por confirmar",
+      "photo": {
+        "img": "assets/verona/caffe.jpg",
+        "source": "https://www.flickr.com/photos/oberhaidinger/25000163141/",
+        "author": "Philipp Oberhaidinger",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Espresso ilustrativo de otro lugar, no Caffè Borsari ni su vajilla actual. Recorte de presentación."
+      },
+      "officialUrl": "https://iltorrefattore.it/caffe-borsari/",
+      "sourceUrls": [
+        "https://www.visitverona.it/en/poi/caffe-borsari",
+        "https://iltorrefattore.it/caffe-borsari/"
+      ],
+      "sourceIds": [
+        "caffe",
+        "borsarifood"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caff%C3%A8+Borsari&query_place_id=ChIJS90qIIJff0cRxhQ10RbMgLA",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede contrastada con web actual y Maps, sin reserva ni apertura futura garantizadas."
+    }
+  ],
+  "activities": []
+}

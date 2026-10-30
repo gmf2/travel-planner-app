@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "cityId": "plitvice",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "licka",
+      "name": "Lička kuća · una comida de Lika al salir",
+      "address": "Rastovača 11, junto a Entrada 1",
+      "description": "Cocina regional después del paseo, no una mesa escondida que justifique cruzar el parque a mitad del circuito.",
+      "strength": "GaultMillau 2026 destaca cordero, pan casero y strudels. Elegir Lički zavežljaj o trucha para una comida propia de Lika; la peka requiere encargo.",
+      "caution": "Carta oficial enlazada y leída el 30/10/2026: Lički zavežljaj 23€, trucha a la parrilla 23€, orzotto de cordero 18€, strudel de ciruela 5€. Cubierto 2,50€ y pan 2,50€ aparecen como cargos separados; bebida y extras aparte. Cordero bajo peka 30€ y ternera 26€ solo por pedido previo, no plato inmediato garantizado. Gnocchi de trucha llevan prosciutto y las patatas en mitades bacon; no suponer vegetarianos. Sitio publica 11-23 diario, pero GaultMillau 2026 advierte cierre en meses de invierno: confirmar apertura concreta antes de ir, no garantía anual. Foto de otra cocina. Sin reserva.",
+      "alert": "Carta oficial enlazada y leída el 30/10/2026: Lički zavežljaj 23€, trucha a la parrilla 23€, orzotto de cordero 18€, strudel de ciruela 5€. Cubierto 2,50€ y pan 2,50€ aparecen como cargos separados; bebida y extras aparte. Cordero bajo peka 30€ y ternera 26€ solo por pedido previo, no plato inmediato garantizado. Gnocchi de trucha llevan prosciutto y las patatas en mitades bacon; no suponer vegetarianos. Sitio publica 11-23 diario, pero GaultMillau 2026 advierte cierre en meses de invierno: confirmar apertura concreta antes de ir, no garantía anual. Foto de otra cocina. Sin reserva.",
+      "priceLabel": "Bundle o trucha 23€ · cubierto, pan y bebida aparte",
+      "photo": {
+        "img": "assets/zadar/pet.jpg",
+        "source": "https://www.flickr.com/photos/gemsling/945508815/",
+        "author": "Nathan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Cordero ilustrativo de otra cocina, no Lička kuća ni su receta o presentación. Recorte de presentación."
+      },
+      "officialUrl": "https://np-plitvicka-jezera.hr/en/plan-your-visit/hospitality-facilities/national-restaurant-licka-kuca/",
+      "sourceIds": [
+        "licka",
+        "lickamenu",
+        "critic"
+      ],
+      "sourceUrls": [
+        "https://np-plitvicka-jezera.hr/en/plan-your-visit/hospitality-facilities/national-restaurant-licka-kuca/",
+        "https://np-plitvicka-jezera.hr/wp-content/uploads/2026/07/licka_jelovnik_0.21.pdf",
+        "https://hr.gaultmillau.com/en/restaurants/li%C4%8Dka-ku%C4%87a"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Li%C4%8Dka+ku%C4%87a+Restaurant+-+Plitvice+Lakes&query_place_id=ChIJ2yBKWExZYUcRQFQkI-frLkw",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y carta actuales, cierre invernal indicado por crítica; confirmar fecha, sin reserva."
+    }
+  ],
+  "activities": []
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "cityId": "brussels",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "fin",
+      "name": "Fin de Siècle · brasserie belga",
+      "address": "Rue des Chartreux 9, 1000 Bruxelles, Belgium",
+      "description": "Rue des Chartreux 9, una mesa para comer bien después del centro y diferenciarla de la barra de pescado.",
+      "strength": "Carbonnade de ternera con cerveza, vol-au-vent o moussaka vegana; no solo mejillones y gofres.",
+      "caution": "Carta oficial: carbonnade 19,45€, vol-au-vent 18,95€, moussaka vegana 22,55€, bebidas aparte. Web indica 12 h-medianoche, no hora de última comanda de cocina. Guías señalan sin reserva; política no confirmada en oficial, consultar y prever espera. Cerveza/gluten en guiso; vegano no garantiza sin trazas. Foto ilustrativa de otro guiso, no local.",
+      "alert": "Carta oficial: carbonnade 19,45€, vol-au-vent 18,95€, moussaka vegana 22,55€, bebidas aparte. Web indica 12 h-medianoche, no hora de última comanda de cocina. Guías señalan sin reserva; política no confirmada en oficial, consultar y prever espera. Cerveza/gluten en guiso; vegano no garantiza sin trazas. Foto ilustrativa de otro guiso, no local.",
+      "priceLabel": "Principales 18,95-27,35€ · bebida aparte",
+      "photo": {
+        "img": "assets/brussels/fin.jpg",
+        "source": "https://www.flickr.com/photos/kentwang/17197166167/",
+        "author": "Kent Wang",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Guiso flamenco de ternera ilustrativo preparado por otra cocina; no Fin de Siècle ni su plato actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.findesiecle.be/en",
+      "sourceUrls": [
+        "https://www.visit.brussels/en/visitors/where-to-eat/authentic-belgian-restaurants-in-Brussels",
+        "https://bruxellessecrete.com/en/best-restaurants-brussels/",
+        "https://www.findesiecle.be/en"
+      ],
+      "sourceIds": [
+        "foodguide",
+        "foodguide2",
+        "fin"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fin+de+Si%C3%A8cle&query_place_id=ChIJnYO474fDw0cRbjsIpJgHpy4",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas; no reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "noordzee",
+      "name": "Noordzee / Mer du Nord · pescado de pie",
+      "address": "Rue Sainte-Catherine 45, 1000 Bruxelles, Belgium",
+      "description": "Rue Sainte-Catherine 45, para una comida informal junto a la plaza, no una cena de mesa larga.",
+      "strength": "Croquetas de pescado, fritura o plancha y captura del día según mostrador.",
+      "caution": "Barra mar-dom 11-18:30, lunes cerrado. No confundir horarios con pescadería. Sin reservas y mesas altas de pie según oficial; no ideal si se necesita asiento. Precios actuales no publicados de forma verificable: preguntar antes de pedir. PDF enlazado en ruta 2026 dice abril-julio 2024 y no sirve como carta actual. Pescado y marisco/alérgenos; no opción vegetal asumida ni patatas fritas como acompañamiento garantizado.",
+      "alert": "Barra mar-dom 11-18:30, lunes cerrado. No confundir horarios con pescadería. Sin reservas y mesas altas de pie según oficial; no ideal si se necesita asiento. Precios actuales no publicados de forma verificable: preguntar antes de pedir. PDF enlazado en ruta 2026 dice abril-julio 2024 y no sirve como carta actual. Pescado y marisco/alérgenos; no opción vegetal asumida ni patatas fritas como acompañamiento garantizado.",
+      "priceLabel": "Precio según mostrador · confirmar total",
+      "photo": {
+        "img": "assets/brussels/noordzee.jpg",
+        "source": "https://www.flickr.com/photos/la-citta-vita/7202587364/",
+        "author": "La Citta Vita",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "officialUrl": "https://noordzeemerdunord.be/fish-bar/?lang=en",
+      "sourceUrls": [
+        "https://bruxellessecrete.com/en/best-restaurants-brussels/",
+        "https://noordzeemerdunord.be/fish-bar/?lang=en"
+      ],
+      "sourceIds": [
+        "foodguide2",
+        "noordzee"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Noordzee&query_place_id=ChIJu1g5yYfDw0cR76Wx9uy2DN4",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas; no reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "mokafe",
+      "name": "Mokafé · una pausa bajo las galerías",
+      "address": "Galerie du Roi 9, 1000 Brussel, Belgium",
+      "description": "Galerie du Roi 9, un café y gofre durante el paseo cubierto, no otra comida pesada.",
+      "strength": "Gofres y repostería casera en un café de las galerías; una parada dulce distinta del guiso y pescado.",
+      "caution": "Directorio oficial de las galerías: diario 7-23. Precio actual de gofre/bebida no verificado: ver carta antes de pedir. No usar agregador con cientos de platos mezclados. Gofres suelen llevar gluten/huevo/lácteos; preguntar receta y trazas. Foto ilustrativa bruselense, local no confirmado.",
+      "alert": "Directorio oficial de las galerías: diario 7-23. Precio actual de gofre/bebida no verificado: ver carta antes de pedir. No usar agregador con cientos de platos mezclados. Gofres suelen llevar gluten/huevo/lácteos; preguntar receta y trazas. Foto ilustrativa bruselense, local no confirmado.",
+      "priceLabel": "Gofre y bebida · carta a confirmar",
+      "photo": {
+        "img": "assets/brussels/mokafe.jpg",
+        "source": "https://www.flickr.com/photos/javasquid/8135794672/",
+        "author": "Taiwai Yun",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Gofre bruselense ilustrativo; no se ha confirmado que sea de Mokafé ni su carta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.grsh.be/en/store/mokafe-taverne/",
+      "sourceUrls": [
+        "https://www.gotript.com/itineraries/brussels/3-days",
+        "https://www.grsh.be/en/store/mokafe-taverne/"
+      ],
+      "sourceIds": [
+        "guide1",
+        "mokafe"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mokaf%C3%A9+Taverne&query_place_id=ChIJ2wuwgIDDw0cRQe-5JDRxjlc",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas; no reserva ni apertura futura garantizada."
+    }
+  ],
+  "activities": []
+}

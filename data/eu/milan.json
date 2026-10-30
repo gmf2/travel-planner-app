@@ -1,0 +1,1059 @@
+{
+  "schemaVersion": 1,
+  "country": "IT",
+  "id": "milan",
+  "name": "Milán",
+  "localName": "Milano",
+  "selectionReason": "Ampliación italiana pedida por el usuario.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días urbanos sin fecha, reservas ni gasto. Centro, Brera y Magenta/Navigli separados, un interior largo por día.",
+  "stops": [
+    {
+      "id": "duomo",
+      "name": "Duomo · catedral y terrazas",
+      "kind": "visit",
+      "zone": "Duomo",
+      "reason": "La visita larga del centro: mármol, naves y terrazas entre agujas, según el billete elegido.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "duomo"
+      ],
+      "coordinates": {
+        "lat": 45.4640976,
+        "lon": 9.1919265
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Duomo+di+Milano&query_place_id=ChIJoTZGw67GhkcREy4aECdOf6s",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Comprar modalidad y hora oficiales; no tarifa de revendedor como oficial. Combo Lift incluye catedral, terrazas, Museo y San Gottardo, pero no obliga a verlo todo. Ascensor solo al primer nivel, segundo y bajada con escaleras; no acceso sin escalones garantizado. Catedral/terrazas 9-19, última entrada 18, inicio cierre 18:30. Museo cerrado miércoles. Culto puede impedir venta; seguridad, hombros y piernas cubiertos. Mal tiempo puede cerrar terrazas. Precio final no verificado, consultar taquilla oficial.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milan/duomo.jpg",
+        "source": "https://www.flickr.com/photos/133727831@N02/19931719823/",
+        "author": "Tomek Rychtyk",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Catedral y terrazas de pago"
+    },
+    {
+      "id": "galleria",
+      "name": "Galleria Vittorio Emanuele II",
+      "kind": "visit",
+      "zone": "Duomo / Galleria",
+      "reason": "Pasar bajo la cubierta de hierro y vidrio rumbo a la plaza de la Scala, sin hacer del paseo una obligación de compras.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 45.4658434,
+        "lon": 9.1899401
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Galleria+Vittorio+Emanuele+II&query_place_id=ChIJw7aG_QY1eUcRFtQJWKmcCyc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Tiendas y restaurantes tienen horarios/precios propios. No Osservatorio ni tejados incluidos. Punto de zona, no entrada de hotel.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milan/galleria.jpg",
+        "source": "https://www.flickr.com/photos/rubenholthuijsen/48280935911/",
+        "author": "Ruben Holthuijsen",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Galería cubierta, sin compras incluidas"
+    },
+    {
+      "id": "scala",
+      "name": "Piazza della Scala · teatro exterior",
+      "kind": "visit",
+      "zone": "Scala",
+      "reason": "Fachada del teatro y plaza, un respiro breve antes de seguir hacia el barrio de la moda.",
+      "sourceIds": [
+        "guide1",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 45.4674021,
+        "lon": 9.1895512
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Teatro+alla+Scala&query_place_id=ChIJV1caia3GhkcRT4MuEEjprRs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Museo, auditorio y espectáculo requieren otro billete; no prometer ver la sala ni ensayo. No sumar museo de la Scala al Duomo completo por proximidad.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milan/scala.jpg",
+        "source": "https://www.flickr.com/photos/whiskeytango/154091018/",
+        "author": "Bruce Turner",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza y teatro exterior"
+    },
+    {
+      "id": "fashion",
+      "name": "Quadrilatero · Via Monte Napoleone",
+      "kind": "visit",
+      "zone": "Quadrilatero",
+      "reason": "Calles y escaparates del distrito de moda, con paseo lateral por el centro en lugar de otro museo.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 45.4683338,
+        "lon": 9.1951331
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Via+Monte+Napoleone&query_place_id=ChIJ7YboRrDGhkcRtNS_v0co3TA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "No compras ni entrada a eventos privados. La foto muestra escaparate de archivo de la calle, no comercio garantizado. Recortar si la moda no interesa, no relleno obligatorio.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milan/fashion.jpg",
+        "source": "https://www.flickr.com/photos/ru_boff/6826072518/",
+        "author": "Dimitry B.",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Escaparate de archivo en Via Monte Napoleone, comercio/decoración pueden cambiar. Recorte de presentación."
+      },
+      "visitMode": "Calles y escaparates exteriores"
+    },
+    {
+      "id": "brera",
+      "name": "Brera · Pinacoteca y barrio",
+      "kind": "visit",
+      "zone": "Brera",
+      "reason": "Pintura en la Pinacoteca y tiempo para calles como Fiori Chiari, sin apilar otras colecciones.",
+      "sourceIds": [
+        "guide1",
+        "guide3",
+        "brerahours",
+        "breratickets"
+      ],
+      "coordinates": {
+        "lat": 45.4719545,
+        "lon": 9.1878145
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pinacoteca+di+Brera&query_place_id=ChIJH05-WBHuhkcRNjexLI56Nhs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "Grande Brera adulto 20€, reserva obligatoria; incluye Palazzo Citterio el mismo día y siguientes seis, no obligación de sumarlo hoy. Mar-dom 8:30-19:15, última entrada 18; lunes, 1 mayo,25 diciembre,1 enero cerrado. Primer domingo gratis con reserva, no acceso espontáneo garantizado. Foto del patio, no sala de colección.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milan/brera.jpg",
+        "source": "https://www.flickr.com/photos/frans16611/8623139696/",
+        "author": "François  Philipp",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Patio de la Pinacoteca di Brera, no interior de las salas. Recorte de presentación."
+      },
+      "visitMode": "Pinacoteca de pago y barrio"
+    },
+    {
+      "id": "castle",
+      "name": "Castello Sforzesco · patios",
+      "kind": "visit",
+      "zone": "Castello",
+      "reason": "Torres y patios gratuitos de la fortaleza, con paso hacia el parque sin añadir una segunda colección larga.",
+      "sourceIds": [
+        "guide1",
+        "guide3",
+        "castle"
+      ],
+      "coordinates": {
+        "lat": 45.4704762,
+        "lon": 9.1793325
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Sforzesco+Castle&query_place_id=ChIJPXupDrb8hkcRm8JyxGbdVmU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Patios todos los días 7-19:30. Museos aparte mar-dom 10-17:30, último acceso 16:30; no incluidos en este día de Brera. Sala delle Asse cerrada por restauración según web municipal. No toda la fortaleza cierra el lunes.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milan/castle.jpg",
+        "source": "https://www.flickr.com/photos/corerd/9627658698/",
+        "author": "Corerd",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Castillo exterior y patios gratuitos"
+    },
+    {
+      "id": "park",
+      "name": "Parco Sempione · paseo hacia el arco",
+      "kind": "visit",
+      "zone": "Sempione",
+      "reason": "Pausa verde entre caminos, praderas y vistas del Arco della Pace; dejar rato para sentarse.",
+      "sourceIds": [
+        "guide3",
+        "park"
+      ],
+      "coordinates": {
+        "lat": 45.4720981,
+        "lon": 9.1772243
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Parco+Sempione&query_place_id=ChIJWUblrUjBhkcRtpP5ICHdu7g",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Abr-sep 6-24, oct-mar 6-22 según Ayuntamiento. Tiempo estimado para paseo completo, no solo enlace al borde. Torre Branca/Triennale no incluidas; cierres por tormenta o mantenimiento pueden cambiar accesos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milan/park.jpg",
+        "source": "https://www.flickr.com/photos/letiziabarbi/4679031421/",
+        "author": "Letizia Barbi",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Parque exterior; torres aparte"
+    },
+    {
+      "id": "grazie",
+      "name": "Santa Maria delle Grazie · exterior",
+      "kind": "visit",
+      "zone": "Magenta / Grazie",
+      "reason": "Plaza y fachada de la iglesia antes de bajar hacia Sant’Ambrogio. El Cenacolo solo con reserva propia.",
+      "sourceIds": [
+        "guide1",
+        "guide3",
+        "cenacolo",
+        "cenaticket"
+      ],
+      "coordinates": {
+        "lat": 45.465963,
+        "lon": 9.1709621
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Basilica+di+Santa+Maria+delle+Grazie&query_place_id=ChIJgxy_RFrBhkcRWVrH08TNW-0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "La Última Cena está en el museo del refectorio, no en la entrada libre de la iglesia. Sin billete confirmado este bloque es exterior. Cenacolo mar-dom 8:15-19, último 18:45, sesiones 15 min; llegada obligatoria 30 min antes. Reservas trimestrales, no compra en puerta garantizada. Entrada nominal 15€ según Vivaticket, total/extras confirmar; no cambio de nombre ni reembolso. Si hay entrada, ampliar bloque a 75-90 min y ajustar orden a su hora.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milan/grazie.jpg",
+        "source": "https://www.flickr.com/photos/foupic/11031858943/",
+        "author": "FouPic",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Iglesia exterior; Cenacolo condicionado"
+    },
+    {
+      "id": "ambrogio",
+      "name": "Sant’Ambrogio · atrio y basílica",
+      "kind": "visit",
+      "zone": "Sant’Ambrogio",
+      "reason": "Ladrillo, arcos y un ambiente distinto al Duomo, con visita breve solo fuera de celebraciones.",
+      "sourceIds": [
+        "guide1",
+        "ambrogio"
+      ],
+      "coordinates": {
+        "lat": 45.462292,
+        "lon": 9.1755604
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Basilica+of+Sant%27Ambrogio&query_place_id=ChIJCfxX3lbBhkcRY78V8stFXio",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Visita turística lun-sáb 10-12 y 14:30-18; domingo 15-17, NO horario general de puertas como permiso de turismo. Respetar liturgias, no garantiza todas las capillas. Si domingo por la mañana, exterior o invertir el orden con reserva del Cenacolo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milan/ambrogio.jpg",
+        "source": "https://www.flickr.com/photos/stefanjurca/43294858374/",
+        "author": "Stefan Jurca",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Atrio / iglesia según culto"
+    },
+    {
+      "id": "colonne",
+      "name": "Colonne di San Lorenzo · Porta Ticinese",
+      "kind": "visit",
+      "zone": "Ticinese",
+      "reason": "Columnas romanas y calles de Porta Ticinese, un camino con paradas hacia el agua.",
+      "sourceIds": [
+        "guide1",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 45.4581653,
+        "lon": 9.1810499
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Colonne+di+San+Lorenzo&query_place_id=ChIJpQh7KgDDhkcRMFvvPUBrAF0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "Basílica y capillas no incluidas como museo. El punto está en la explanada de columnas. Mucha gente de noche; no contar vida nocturna como visita obligatoria.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milan/colonne.jpg",
+        "source": "https://www.flickr.com/photos/129231073@N06/22258219185/",
+        "author": "Fred Romero",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Columnas y calles exteriores"
+    },
+    {
+      "id": "navigli",
+      "name": "Naviglio Grande · paseo y Lavandai",
+      "kind": "visit",
+      "zone": "Navigli",
+      "reason": "Pasear por las orillas del canal y asomarse al antiguo lavadero, con tiempo para una pausa al final.",
+      "sourceIds": [
+        "guide1",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 45.4520768,
+        "lon": 9.1747775
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Vicolo+Privato+Lavandai&query_place_id=ChIJZ8BAnfnDhkcRyw-Ccn7V6nc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 110,
+      "durationType": "editorial-estimate",
+      "caution": "Punto en Vicolo Lavandai, inicio de paseo por orillas, no todo Naviglio Grande ni tramo rural. No crucero ni aperitivo pagado incluido. Mercadillo solo en su calendario; respetar viviendas y no invadir patios privados. Foto de canal urbano.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/milan/navigli.jpg",
+        "source": "https://www.flickr.com/photos/24429031@N06/40345199771/",
+        "author": "nschouterden",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Canal y callejón exteriores"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Duomo y el centro sin prisa",
+          "zone": "Duomo → Galleria → Scala → Quadrilatero",
+          "stopIds": [
+            "duomo",
+            "galleria",
+            "scala",
+            "fashion"
+          ],
+          "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Duomo y el centro sin prisa",
+          "zone": "Duomo → Galleria → Scala → Quadrilatero",
+          "stopIds": [
+            "duomo",
+            "galleria",
+            "scala",
+            "fashion"
+          ],
+          "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+        },
+        {
+          "title": "Magenta, Sant’Ambrogio y los canales",
+          "zone": "Grazie → Sant’Ambrogio → Ticinese → Navigli",
+          "stopIds": [
+            "grazie",
+            "ambrogio",
+            "colonne",
+            "navigli"
+          ],
+          "editorialNote": "Cenacolo únicamente con billete: adaptar el orden a la hora reservada. Sin entrada, Grazie exterior; barrio, iglesia breve y canales sostienen el día, no colas por entradas inexistentes.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y paseo, hasta 7-8 h con Cenacolo reservado. Maps 816m/11 min,864m/11 min,1103m/15 min; no recorrido de canales. Aviso de restricciones parciales en Via San Vittore: seguir acceso legal del día. Domingo iglesia 15-17, exterior por la mañana o invertir orden."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Duomo y el centro sin prisa",
+          "zone": "Duomo → Galleria → Scala → Quadrilatero",
+          "stopIds": [
+            "duomo",
+            "galleria",
+            "scala",
+            "fashion"
+          ],
+          "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+        },
+        {
+          "title": "Arte en Brera y patios del castillo",
+          "zone": "Brera → Castello → Sempione",
+          "stopIds": [
+            "brera",
+            "castle",
+            "park"
+          ],
+          "editorialNote": "Pinacoteca principal, castillo solo patios y parque largo. Lunes cambiar día o escoger alternativa verificada, no dar museo por abierto.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida y paseo de barrio. Maps Brera-castillo 847m/11 min y castillo-borde del parque 371m/4 min. Los 90 min del parque incluyen paseo hacia el arco, no tiempo de conexión. No apilar Citterio y museos del castillo."
+        },
+        {
+          "title": "Magenta, Sant’Ambrogio y los canales",
+          "zone": "Grazie → Sant’Ambrogio → Ticinese → Navigli",
+          "stopIds": [
+            "grazie",
+            "ambrogio",
+            "colonne",
+            "navigli"
+          ],
+          "editorialNote": "Cenacolo únicamente con billete: adaptar el orden a la hora reservada. Sin entrada, Grazie exterior; barrio, iglesia breve y canales sostienen el día, no colas por entradas inexistentes.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y paseo, hasta 7-8 h con Cenacolo reservado. Maps 816m/11 min,864m/11 min,1103m/15 min; no recorrido de canales. Aviso de restricciones parciales en Via San Vittore: seguir acceso legal del día. Domingo iglesia 15-17, exterior por la mañana o invertir orden."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Calor y sol en terrazas, agua y pausa interior. No lago añadido después del Duomo; terrazas sujetas a tiempo y seguridad.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Niebla y lluvia pueden limitar vistas; suelo húmedo en terrazas/canales. Brera lunes cerrado; cambiar días no asumir aperturas.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Brera 25 diciembre/1 enero cerrado. Mercados, iluminación y culto cambian, confirmar fechas; no entrada de Navidad garantizada.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Diseño/moda y ferias pueden elevar afluencia; eventos solo con fechas confirmadas. Brera 1 mayo cerrado, ajustar orden.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No entradas, mesas, transporte ni pases comprados. Precios finales y disponibilidad futuros no confirmados.",
+    "Cenacolo es museo separado y solo con reserva nominal; no confundir fachada o iglesia con ver La Última Cena.",
+    "No horarios de culto como horario turístico. Brera lunes cerrado, patios del castillo sí abiertos según calendario actual."
+  ],
+  "excludedOrOptional": [
+    "Cenacolo sustituye tiempo de la mañana al conseguir entrada; no prometer hueco por llegar.",
+    "Citterio, museos del castillo, Scala y Novecento son sustituciones, no sumas al día completo.",
+    "Lago Como, Bergamo, San Siro o museo de Ciencia necesitan medio día/día propio, no apéndice tras canales."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "Lonely Planet: tres días, reducir carga",
+      "url": "https://www.lonelyplanet.com/articles/milan-itinerary",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "YesMilano: tres días por barrios",
+      "url": "https://www.yesmilano.it/en/see-and-do/itineraries/three-days-milano",
+      "type": "official-tourism-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide3",
+      "title": "Go Ask A Local: centro, arte y canales",
+      "url": "https://goaskalocal.com/blog/3-day-milan-itinerary",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "duomo",
+      "title": "Duomo: Combo Lift, accesos y horario",
+      "url": "https://ticket.duomomilano.it/en/eventi/duomo-terrazze-museo-ascensore/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "brerahours",
+      "title": "Brera: horario",
+      "url": "https://pinacotecabrera.org/en/visit/orari/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "breratickets",
+      "title": "Brera: Grande Brera 20€",
+      "url": "https://pinacotecabrera.org/en/visit/entrances/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "castle",
+      "title": "Castello: patios/museos, Sala delle Asse",
+      "url": "https://www.milanocastello.it/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "park",
+      "title": "Ayuntamiento: Parco Sempione",
+      "url": "https://www.comune.milano.it/en/argomenti/ambiente-e-animali/parchi-e-aree-verdi-attrezzate-a-milano/parco-sempione",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "ambrogio",
+      "title": "Sant’Ambrogio: turismo distinto de culto",
+      "url": "https://www.basilicasantambrogio.it/en/orari",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cenacolo",
+      "title": "Cenacolo: reserva y 15 min",
+      "url": "https://cenacolovinciano.org/en/news-ed-eventi/how-to-plan-your-visit/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cenaticket",
+      "title": "Vivaticket: nominal 15€,activación 30 min",
+      "url": "https://cenacolovinciano.vivaticket.it/en/event/cenacolo-vinciano/151991",
+      "type": "official-ticketing",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "luini",
+      "title": "Luini: historia y horario",
+      "url": "https://www.luini.it/eng/storia.html",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "luinicritic",
+      "title": "La Cucina Italiana: Luini, panzerotto",
+      "url": "https://www.lacucinaitaliana.it/storie/piatti-tipici/panzerotti-luini/",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "matarel",
+      "title": "Al Matarel: carta",
+      "url": "https://www.almatarel.it/menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "matarelhours",
+      "title": "Al Matarel: contactos/cocina",
+      "url": "https://www.almatarel.it/contatti/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "matarelcritic",
+      "title": "Dissapore: pros y contras, no culto acrítico",
+      "url": "https://www.dissapore.com/trattorie/al-matarel-a-milano-recensione-i-pro-e-contro-di-una-vera-trattoria-tradizionale/",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "matarelcritic2",
+      "title": "Infatuation 2026: ossobuco",
+      "url": "https://www.theinfatuation.com/milan/reviews/al-matarel",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "radice",
+      "title": "Radicetonda: sedes, aviso horas variables",
+      "url": "https://www.radicetonda.it/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "radicemenu",
+      "title": "Radicetonda: carta vegana",
+      "url": "https://www.radicetonda.it/cucina-vegana-milano?menu=menu",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "radicehours",
+      "title": "Radicetonda inglés: horario difiere",
+      "url": "https://www.radicetonda.it/home-en",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Duomo y el centro sin prisa",
+            "zone": "Duomo → Galleria → Scala → Quadrilatero",
+            "stopIds": [
+              "duomo",
+              "galleria",
+              "scala",
+              "fashion"
+            ],
+            "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Duomo y el centro sin prisa",
+            "zone": "Duomo → Galleria → Scala → Quadrilatero",
+            "stopIds": [
+              "duomo",
+              "galleria",
+              "scala",
+              "fashion"
+            ],
+            "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+          },
+          {
+            "title": "Magenta, Sant’Ambrogio y los canales",
+            "zone": "Grazie → Sant’Ambrogio → Ticinese → Navigli",
+            "stopIds": [
+              "grazie",
+              "ambrogio",
+              "colonne",
+              "navigli"
+            ],
+            "editorialNote": "Cenacolo únicamente con billete: adaptar el orden a la hora reservada. Sin entrada, Grazie exterior; barrio, iglesia breve y canales sostienen el día, no colas por entradas inexistentes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y paseo, hasta 7-8 h con Cenacolo reservado. Maps 816m/11 min,864m/11 min,1103m/15 min; no recorrido de canales. Aviso de restricciones parciales en Via San Vittore: seguir acceso legal del día. Domingo iglesia 15-17, exterior por la mañana o invertir orden."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Duomo y el centro sin prisa",
+            "zone": "Duomo → Galleria → Scala → Quadrilatero",
+            "stopIds": [
+              "duomo",
+              "galleria",
+              "scala",
+              "fashion"
+            ],
+            "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+          },
+          {
+            "title": "Arte en Brera y patios del castillo",
+            "zone": "Brera → Castello → Sempione",
+            "stopIds": [
+              "brera",
+              "castle",
+              "park"
+            ],
+            "editorialNote": "Pinacoteca principal, castillo solo patios y parque largo. Lunes cambiar día o escoger alternativa verificada, no dar museo por abierto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y paseo de barrio. Maps Brera-castillo 847m/11 min y castillo-borde del parque 371m/4 min. Los 90 min del parque incluyen paseo hacia el arco, no tiempo de conexión. No apilar Citterio y museos del castillo."
+          },
+          {
+            "title": "Magenta, Sant’Ambrogio y los canales",
+            "zone": "Grazie → Sant’Ambrogio → Ticinese → Navigli",
+            "stopIds": [
+              "grazie",
+              "ambrogio",
+              "colonne",
+              "navigli"
+            ],
+            "editorialNote": "Cenacolo únicamente con billete: adaptar el orden a la hora reservada. Sin entrada, Grazie exterior; barrio, iglesia breve y canales sostienen el día, no colas por entradas inexistentes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y paseo, hasta 7-8 h con Cenacolo reservado. Maps 816m/11 min,864m/11 min,1103m/15 min; no recorrido de canales. Aviso de restricciones parciales en Via San Vittore: seguir acceso legal del día. Domingo iglesia 15-17, exterior por la mañana o invertir orden."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Duomo y el centro sin prisa",
+            "zone": "Duomo → Galleria → Scala → Quadrilatero",
+            "stopIds": [
+              "duomo",
+              "galleria",
+              "scala",
+              "fashion"
+            ],
+            "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Duomo y el centro sin prisa",
+            "zone": "Duomo → Galleria → Scala → Quadrilatero",
+            "stopIds": [
+              "duomo",
+              "galleria",
+              "scala",
+              "fashion"
+            ],
+            "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+          },
+          {
+            "title": "Magenta, Sant’Ambrogio y los canales",
+            "zone": "Grazie → Sant’Ambrogio → Ticinese → Navigli",
+            "stopIds": [
+              "grazie",
+              "ambrogio",
+              "colonne",
+              "navigli"
+            ],
+            "editorialNote": "Cenacolo únicamente con billete: adaptar el orden a la hora reservada. Sin entrada, Grazie exterior; barrio, iglesia breve y canales sostienen el día, no colas por entradas inexistentes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y paseo, hasta 7-8 h con Cenacolo reservado. Maps 816m/11 min,864m/11 min,1103m/15 min; no recorrido de canales. Aviso de restricciones parciales en Via San Vittore: seguir acceso legal del día. Domingo iglesia 15-17, exterior por la mañana o invertir orden."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Duomo y el centro sin prisa",
+            "zone": "Duomo → Galleria → Scala → Quadrilatero",
+            "stopIds": [
+              "duomo",
+              "galleria",
+              "scala",
+              "fashion"
+            ],
+            "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+          },
+          {
+            "title": "Arte en Brera y patios del castillo",
+            "zone": "Brera → Castello → Sempione",
+            "stopIds": [
+              "brera",
+              "castle",
+              "park"
+            ],
+            "editorialNote": "Pinacoteca principal, castillo solo patios y parque largo. Lunes cambiar día o escoger alternativa verificada, no dar museo por abierto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y paseo de barrio. Maps Brera-castillo 847m/11 min y castillo-borde del parque 371m/4 min. Los 90 min del parque incluyen paseo hacia el arco, no tiempo de conexión. No apilar Citterio y museos del castillo."
+          },
+          {
+            "title": "Magenta, Sant’Ambrogio y los canales",
+            "zone": "Grazie → Sant’Ambrogio → Ticinese → Navigli",
+            "stopIds": [
+              "grazie",
+              "ambrogio",
+              "colonne",
+              "navigli"
+            ],
+            "editorialNote": "Cenacolo únicamente con billete: adaptar el orden a la hora reservada. Sin entrada, Grazie exterior; barrio, iglesia breve y canales sostienen el día, no colas por entradas inexistentes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y paseo, hasta 7-8 h con Cenacolo reservado. Maps 816m/11 min,864m/11 min,1103m/15 min; no recorrido de canales. Aviso de restricciones parciales en Via San Vittore: seguir acceso legal del día. Domingo iglesia 15-17, exterior por la mañana o invertir orden."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Duomo y el centro sin prisa",
+            "zone": "Duomo → Galleria → Scala → Quadrilatero",
+            "stopIds": [
+              "duomo",
+              "galleria",
+              "scala",
+              "fashion"
+            ],
+            "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Duomo y el centro sin prisa",
+            "zone": "Duomo → Galleria → Scala → Quadrilatero",
+            "stopIds": [
+              "duomo",
+              "galleria",
+              "scala",
+              "fashion"
+            ],
+            "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+          },
+          {
+            "title": "Magenta, Sant’Ambrogio y los canales",
+            "zone": "Grazie → Sant’Ambrogio → Ticinese → Navigli",
+            "stopIds": [
+              "grazie",
+              "ambrogio",
+              "colonne",
+              "navigli"
+            ],
+            "editorialNote": "Cenacolo únicamente con billete: adaptar el orden a la hora reservada. Sin entrada, Grazie exterior; barrio, iglesia breve y canales sostienen el día, no colas por entradas inexistentes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y paseo, hasta 7-8 h con Cenacolo reservado. Maps 816m/11 min,864m/11 min,1103m/15 min; no recorrido de canales. Aviso de restricciones parciales en Via San Vittore: seguir acceso legal del día. Domingo iglesia 15-17, exterior por la mañana o invertir orden."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Duomo y el centro sin prisa",
+            "zone": "Duomo → Galleria → Scala → Quadrilatero",
+            "stopIds": [
+              "duomo",
+              "galleria",
+              "scala",
+              "fashion"
+            ],
+            "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+          },
+          {
+            "title": "Arte en Brera y patios del castillo",
+            "zone": "Brera → Castello → Sempione",
+            "stopIds": [
+              "brera",
+              "castle",
+              "park"
+            ],
+            "editorialNote": "Pinacoteca principal, castillo solo patios y parque largo. Lunes cambiar día o escoger alternativa verificada, no dar museo por abierto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y paseo de barrio. Maps Brera-castillo 847m/11 min y castillo-borde del parque 371m/4 min. Los 90 min del parque incluyen paseo hacia el arco, no tiempo de conexión. No apilar Citterio y museos del castillo."
+          },
+          {
+            "title": "Magenta, Sant’Ambrogio y los canales",
+            "zone": "Grazie → Sant’Ambrogio → Ticinese → Navigli",
+            "stopIds": [
+              "grazie",
+              "ambrogio",
+              "colonne",
+              "navigli"
+            ],
+            "editorialNote": "Cenacolo únicamente con billete: adaptar el orden a la hora reservada. Sin entrada, Grazie exterior; barrio, iglesia breve y canales sostienen el día, no colas por entradas inexistentes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y paseo, hasta 7-8 h con Cenacolo reservado. Maps 816m/11 min,864m/11 min,1103m/15 min; no recorrido de canales. Aviso de restricciones parciales en Via San Vittore: seguir acceso legal del día. Domingo iglesia 15-17, exterior por la mañana o invertir orden."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Duomo y el centro sin prisa",
+            "zone": "Duomo → Galleria → Scala → Quadrilatero",
+            "stopIds": [
+              "duomo",
+              "galleria",
+              "scala",
+              "fashion"
+            ],
+            "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Duomo y el centro sin prisa",
+            "zone": "Duomo → Galleria → Scala → Quadrilatero",
+            "stopIds": [
+              "duomo",
+              "galleria",
+              "scala",
+              "fashion"
+            ],
+            "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+          },
+          {
+            "title": "Magenta, Sant’Ambrogio y los canales",
+            "zone": "Grazie → Sant’Ambrogio → Ticinese → Navigli",
+            "stopIds": [
+              "grazie",
+              "ambrogio",
+              "colonne",
+              "navigli"
+            ],
+            "editorialNote": "Cenacolo únicamente con billete: adaptar el orden a la hora reservada. Sin entrada, Grazie exterior; barrio, iglesia breve y canales sostienen el día, no colas por entradas inexistentes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y paseo, hasta 7-8 h con Cenacolo reservado. Maps 816m/11 min,864m/11 min,1103m/15 min; no recorrido de canales. Aviso de restricciones parciales en Via San Vittore: seguir acceso legal del día. Domingo iglesia 15-17, exterior por la mañana o invertir orden."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Duomo y el centro sin prisa",
+            "zone": "Duomo → Galleria → Scala → Quadrilatero",
+            "stopIds": [
+              "duomo",
+              "galleria",
+              "scala",
+              "fashion"
+            ],
+            "editorialNote": "Duomo interior y terrazas es la visita principal. Scala solo exterior; no sumar Brera ni museo del Novecento a este bloque.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, controles, colas y paseo. Maps con fichas verificadas: 109m/1 min,109m/1 min,526m/7 min; no recorrido entero de barrio. Moda es recortable, no una compra obligada."
+          },
+          {
+            "title": "Arte en Brera y patios del castillo",
+            "zone": "Brera → Castello → Sempione",
+            "stopIds": [
+              "brera",
+              "castle",
+              "park"
+            ],
+            "editorialNote": "Pinacoteca principal, castillo solo patios y parque largo. Lunes cambiar día o escoger alternativa verificada, no dar museo por abierto.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y paseo de barrio. Maps Brera-castillo 847m/11 min y castillo-borde del parque 371m/4 min. Los 90 min del parque incluyen paseo hacia el arco, no tiempo de conexión. No apilar Citterio y museos del castillo."
+          },
+          {
+            "title": "Magenta, Sant’Ambrogio y los canales",
+            "zone": "Grazie → Sant’Ambrogio → Ticinese → Navigli",
+            "stopIds": [
+              "grazie",
+              "ambrogio",
+              "colonne",
+              "navigli"
+            ],
+            "editorialNote": "Cenacolo únicamente con billete: adaptar el orden a la hora reservada. Sin entrada, Grazie exterior; barrio, iglesia breve y canales sostienen el día, no colas por entradas inexistentes.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y paseo, hasta 7-8 h con Cenacolo reservado. Maps 816m/11 min,864m/11 min,1103m/15 min; no recorrido de canales. Aviso de restricciones parciales en Via San Vittore: seguir acceso legal del día. Domingo iglesia 15-17, exterior por la mañana o invertir orden."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Tres guías consultadas antes de logística oficial y Maps.",
+    "Brera 20€ no antiguo 15€. Duomo web parecida duomo.milano.it no usada como fuente oficial.",
+    "14fotos originales con licencia y sujeto inspeccionados, dos comidas ilustrativas explícitas."
+  ],
+  "editorialTradeoffs": [
+    "Brera en otro día evita Duomo+Brera+castillo interior apilados.",
+    "Grazie exterior por defecto, Cenacolo condicionado y tiempo adicional explícito.",
+    "Radicetonda es desvío de Porta Venezia, no comida al lado del castillo."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Comparadas LonelyPlanet, YesMilano, GoAskALocal; se redujeron días sobrecargados. Comida: Luini editorial+oficial, AlMatarel dos críticas+oficial, Radicetonda carta vegana con horarios discrepantes explícitos."
+}

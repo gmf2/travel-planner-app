@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "cityId": "thessaloniki",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "bantis",
+      "name": "Bougatsa Bantis · un desayuno con masa a mano",
+      "address": "Panagias Faneromenis 33, Thessaloniki 546 32, Greece",
+      "description": "En Panagias Faneromenis 33, no dentro de Kapani. Encaja si se quiere empezar algo al noroeste y bajar luego al centro.",
+      "strength": "National Geographic (2025) describe la masa estirada a mano de Philippos Bantis. Elegir crema dulce o queso según apetito, sin comprar una en cada panadería por cuota.",
+      "caution": "La web propia anuncia 1,50€ y lunes-sábado 6-15, domingo 7-13. Wolt actual muestra 2,80€ clásica, salada o vegetal y 3,20€ especial, con reparto 6:30-14:30. No usamos el precio antiguo como actual ni el reparto como horario de mostrador. Confirmar precio y festivo; café aparte. Gluten, lácteos y posibles huevos. Una opción vegetal no prueba que sea vegana. Foto de otra cocina, no del local.",
+      "alert": "La web propia anuncia 1,50€ y lunes-sábado 6-15, domingo 7-13. Wolt actual muestra 2,80€ clásica, salada o vegetal y 3,20€ especial, con reparto 6:30-14:30. No usamos el precio antiguo como actual ni el reparto como horario de mostrador. Confirmar precio y festivo; café aparte. Gluten, lácteos y posibles huevos. Una opción vegetal no prueba que sea vegana. Foto de otra cocina, no del local.",
+      "priceLabel": "Wolt: 2,80-3,20€ · mostrador por confirmar",
+      "photo": {
+        "img": "assets/thessaloniki/bantis.jpg",
+        "source": "https://www.flickr.com/photos/avlxyz/2894231353/",
+        "author": "Alpha",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Bougatsa de Vanilla Lounge, otra cocina y otro país; no Bantis ni su receta o presentación. Recorte de presentación."
+      },
+      "officialUrl": "https://fbandis.wixsite.com/bougatsa/menu",
+      "sourceIds": [
+        "bantiscritic",
+        "bantis",
+        "bantisdelivery"
+      ],
+      "sourceUrls": [
+        "https://fbandis.wixsite.com/bougatsa/menu",
+        "https://wolt.com/el/grc/thessaloniki/restaurant/mpougatsa-mpantis",
+        "https://www.nationalgeographic.com/travel/article/why-you-should-visit-thessaloniki-greeces-city-of-gastronomy"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bougatsa+Bantis&query_place_id=ChIJT9yMGLs5qBQRasLmvl6unTE",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede contrastada; precio y horario externos calificados. Sin reserva."
+    },
+    {
+      "id": "mourga",
+      "name": "Mourga · mar y producto de temporada",
+      "address": "Christopoulou 12, Thessaloniki 546 35, Greece",
+      "description": "En Christopoulou 12, detrás de Acheiropiitos, no en Ladadika pese a algunas fichas. Una comida con platos compartidos y tiempo.",
+      "strength": "Gastronomos (2026) destaca pescado y verduras: albóndigas de bacalao al avgolemono, sepia y pasta de gambas en aquella visita. Son ejemplos de su cocina, no platos diarios garantizados.",
+      "caution": "Gastronomos, actualizado el 18/06/2026, estima 35-40€ por persona sin bebida; indica servicio desde mediodía y domingo 14-19. Alpha Guide indica 20-40€ y cierre en agosto. Son precios críticos, no carta oficial actual. El menú cambia a diario: pedir lista, precio y unidad por ración o peso antes de pedir. No se pudo recuperar la página social propia: no se garantiza horario festivo ni carta exacta. No hay reserva. Pescado, marisco, gluten o lácteos según plato. Foto de otra cocina, no del local.",
+      "alert": "Gastronomos, actualizado el 18/06/2026, estima 35-40€ por persona sin bebida; indica servicio desde mediodía y domingo 14-19. Alpha Guide indica 20-40€ y cierre en agosto. Son precios críticos, no carta oficial actual. El menú cambia a diario: pedir lista, precio y unidad por ración o peso antes de pedir. No se pudo recuperar la página social propia: no se garantiza horario festivo ni carta exacta. No hay reserva. Pescado, marisco, gluten o lácteos según plato. Foto de otra cocina, no del local.",
+      "priceLabel": "Crítica 2026: 35-40€/persona sin bebida",
+      "photo": {
+        "img": "assets/thessaloniki/mourga.jpg",
+        "source": "https://www.flickr.com/photos/pelican/48735080346/",
+        "author": "pelican",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Pescado de otra cocina, no Mourga ni su receta o presentación del día. Recorte de presentación."
+      },
+      "officialUrl": "http://www.facebook.com/pages/%CE%97-%CE%9C%CE%BF%CF%8D%CF%81%CE%B3%CE%B1/1110503532377348",
+      "sourceIds": [
+        "mourgacritic",
+        "mourgaalpha",
+        "mourgaold"
+      ],
+      "sourceUrls": [
+        "https://www.gastronomos.gr/magazi/i-moyrga-einai-ena-magazi-poy-omoio-toy-den-yparchei-sti-thessaloniki/351265/",
+        "https://www.alpha-guide.gr/en/restaurant/10008585-mourga",
+        "https://www.greekgastronomyguide.gr/en/item/mourga-giannis-loukakis-thessaloniki/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mourga&query_place_id=ChIJLf-DRao5qBQROhPVV1ESHgU",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede contrastada; precio y horario externos calificados. Sin reserva."
+    }
+  ],
+  "activities": []
+}

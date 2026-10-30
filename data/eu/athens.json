@@ -1,0 +1,1128 @@
+{
+  "schemaVersion": 1,
+  "country": "GR",
+  "id": "athens",
+  "name": "Atenas",
+  "localName": "Αθήνα",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita 1-3 días, sin fechas ni compras. Acrópolis con museo; Ágora y mercado; jardines y estadio. Ninguna isla seleccionada ni excursión automática.",
+  "stops": [
+    {
+      "id": "acropolis",
+      "name": "Acrópolis · Partenón y recinto",
+      "kind": "visit",
+      "zone": "Colina de la Acrópolis",
+      "reason": "Partenón, Erecteion y Propileos en una visita al mismo recinto, no tres entradas distintas.",
+      "sourceIds": [
+        "acro",
+        "ministry",
+        "ticket",
+        "lush"
+      ],
+      "coordinates": {
+        "lat": 37.9715323,
+        "lon": 23.7257492
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Acropolis+of+Athens&query_place_id=ChIJ86z1Nxi9oRQR9g3r9ULAl1w",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 135,
+      "durationType": "editorial-estimate",
+      "caution": "30€ general según Ministerio, no los 20€/10€ de guías antiguas. Elegir franja oficial; llegar 30 min antes, tolerancia publicada 15 min antes/después. No incluye Museo de la Acrópolis. 8-20 abril-agosto, cierre progresivamente antes en septiembre/octubre; 8-17 noviembre-marzo. Planear entrada temprano, no al límite. Cierra 1 ene,25 mar,1 may, Domingo Pascua,25/26 dic. Calor, roca pulida, escaleras y posibles cierres de seguridad. Aviso oficial 29/10/2026: ascensor fuera de servicio; comprobar estado con guardia antes de plan accesible.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/acropolis.jpg",
+        "source": "https://www.flickr.com/photos/phanatic/30276156187/",
+        "author": "Phanatic",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Yacimiento de pago con franja obligatoria"
+    },
+    {
+      "id": "museum",
+      "name": "Museo de la Acrópolis",
+      "kind": "visit",
+      "zone": "Makrygianni",
+      "reason": "Cariátides originales y galería del Partenón después de ver la colina.",
+      "sourceIds": [
+        "museum",
+        "lush",
+        "cityby"
+      ],
+      "coordinates": {
+        "lat": 37.9684499,
+        "lon": 23.7285227
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Acropolis+Museum&query_place_id=ChIJ4eRGPxe9oRQRPAoBLGq0D7A",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "20€ general, entrada de un uso para la fecha elegida, incluye excavación inferior. Horario principal oficial: verano lunes 9-17, mar-dom 9-20, viernes 22; invierno lun-jue 9-17, viernes 22, sáb-dom 20. Página conserva un bloque FAQ con otro horario de verano: priorizar horario principal y confirmar para la fecha. Última entrada 30 min antes. No duplicar este museo con el Arqueológico Nacional ese día.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/museum.jpg",
+        "source": "https://www.flickr.com/photos/davidstanleytravel/53793825142/",
+        "author": "David Stanley",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Cariátides originales dentro del Museo de la Acrópolis; foto de archivo. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago; entrada separada del yacimiento"
+    },
+    {
+      "id": "anafiotika",
+      "name": "Anafiotika",
+      "kind": "visit",
+      "zone": "Ladera norte de la Acrópolis",
+      "reason": "Pequeñas calles blancas bajo la colina, con paseo corto y respeto al vecindario.",
+      "sourceIds": [
+        "lush",
+        "yana"
+      ],
+      "coordinates": {
+        "lat": 37.97238189999999,
+        "lon": 23.7281127
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Anafiotika&query_place_id=ChIJ1R5whRm9oRQRhlUhe3e_GQk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "No es una isla ni una excursión fuera de Atenas. Calles estrechas, desniveles y viviendas: no entrar en patios, bloquear puertas ni fotografiar interiores. Si cansancio o movilidad lo aconsejan, omitir subida y seguir por Plaka.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/anafiotika.jpg",
+        "source": "https://www.flickr.com/photos/ginispanos/51046411448/",
+        "author": "Panos Ginis",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio residencial exterior; con escaleras"
+    },
+    {
+      "id": "plaka",
+      "name": "Plaka",
+      "kind": "visit",
+      "zone": "Casco antiguo",
+      "reason": "Calles y terrazas del barrio histórico para cerrar el día sin otro yacimiento.",
+      "sourceIds": [
+        "lush",
+        "yana",
+        "cityby"
+      ],
+      "coordinates": {
+        "lat": 37.9725529,
+        "lon": 23.7303364
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Plaka&query_place_id=ChIJMTraCxe9oRQRsd0QOZ0-o1A",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 80,
+      "durationType": "editorial-estimate",
+      "caution": "Zona turística: comparar carta antes de sentarse. No incluye Ágora Romana, Biblioteca de Adriano ni Templo Zeus de pago. Foto de archivo, no terraza reservada ni comercio garantizado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/plaka.jpg",
+        "source": "https://www.flickr.com/photos/87785618@N00/2113874990/",
+        "author": "jtstewart",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; consumiciones aparte"
+    },
+    {
+      "id": "agora",
+      "name": "Ágora Antigua · templo de Hefesto",
+      "kind": "visit",
+      "zone": "Monastiraki / Thissio",
+      "reason": "Templo de Hefesto y antiguo centro cívico, con tiempo dentro del recinto.",
+      "sourceIds": [
+        "agora",
+        "yana"
+      ],
+      "coordinates": {
+        "lat": 37.974897,
+        "lon": 23.7220933
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Ancient+Agora+of+Athens&query_place_id=ChIJh3kJ9SK9oRQRyF2qMdo0KUI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 130,
+      "durationType": "editorial-estimate",
+      "caution": "20€ general según Hellenic Heritage. 8-19:30 abril-agosto, reducción gradual hasta 17:30 segunda mitad octubre;8-17 noviembre-marzo. Última admisión 20 min antes según página, pero llegar temprano. Cierra 1 ene,25 mar,1 may, Domingo Pascua,25/26 dic. Avisos de obras fechados diciembre 2025 no se trasladan a 2026. Museo del recinto sujeto a avisos; no prometer todas las salas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/agora.jpg",
+        "source": "https://www.flickr.com/photos/telemax/3966345985/",
+        "author": "Tilemahos Efthimiadis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Yacimiento de pago; no es el Ágora Romana"
+    },
+    {
+      "id": "monastiraki",
+      "name": "Monastiraki · plaza y calles del mercado",
+      "kind": "visit",
+      "zone": "Monastiraki",
+      "reason": "Plaza, pequeña iglesia y calles comerciales con la Acrópolis al fondo.",
+      "sourceIds": [
+        "lush",
+        "yana"
+      ],
+      "coordinates": {
+        "lat": 37.9758108,
+        "lon": 23.7268379
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Monastiraki&query_place_id=ChIJ9S6n5yK9oRQRUk87-S29ACY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "El llamado flea market no garantiza un mercadillo especial todos los días. No confundir plaza libre con entrada a Biblioteca Adriano o Ágora Romana. Cuidar pertenencias en aglomeraciones, sin afirmar un incidente concreto.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/monastiraki.jpg",
+        "source": "https://www.flickr.com/photos/terrazzo/48736792012/",
+        "author": "Terrazzo",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; ruinas cercanas no incluidas"
+    },
+    {
+      "id": "market",
+      "name": "Varvakios · mercado central",
+      "kind": "visit",
+      "zone": "Athinas / mercado",
+      "reason": "Mercado de alimentos y tiendas de aceitunas, especias y productos griegos del entorno.",
+      "sourceIds": [
+        "market",
+        "marketguide",
+        "lush"
+      ],
+      "coordinates": {
+        "lat": 37.9804286,
+        "lon": 23.7276638
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Varvakios+Central+Municipal+Market&query_place_id=ChIJmxTsUSO9oRQRLUSSm2pGMTA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Mercado de carne y pescado: animales enteros y olores, no opción para todo el mundo. Ir por la mañana y confirmar día/horarios de puestos, especialmente domingos y festivos; si cerrado, cambiar por paseo del entorno, no presentar puestos abiertos. Foto de fachada con persianas, no actividad garantizada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/market.jpg",
+        "source": "https://www.flickr.com/photos/warrenlemay/53457647786/",
+        "author": "Warren LeMay",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Fachada real del mercado con persianas en la foto; no representa puestos abiertos. Recorte de presentación."
+      },
+      "visitMode": "Mercado de mañana; domingo puede no funcionar"
+    },
+    {
+      "id": "psyrri",
+      "name": "Psyrri · calles y cafés",
+      "kind": "visit",
+      "zone": "Psyrri",
+      "reason": "Calles del barrio, pequeños talleres y tabernas para una tarde con pausa.",
+      "sourceIds": [
+        "lush",
+        "yana"
+      ],
+      "coordinates": {
+        "lat": 37.97836059999999,
+        "lon": 23.7247958
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Psyri&query_place_id=ChIJ13XldyO9oRQR8hT39pJaxsM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 95,
+      "durationType": "editorial-estimate",
+      "caution": "La foto muestra Agios Ioannis de Psyrri como contexto, no una actuación contratada. No se prometen música en vivo, baile, platos rotos ni acceso a talleres. Cenas y terrazas dependen del local.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/psyrri.jpg",
+        "source": "https://www.flickr.com/photos/kkoukopoulos/4376034454/",
+        "author": "Konstantinos Koukopoulos",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Iglesia Agios Ioannis de Psyrri como contexto del barrio. Recorte de presentación."
+      },
+      "visitMode": "Paseo de barrio; comida y actuaciones aparte"
+    },
+    {
+      "id": "syntagma",
+      "name": "Syntagma · Tumba del Soldado Desconocido",
+      "kind": "visit",
+      "zone": "Syntagma",
+      "reason": "Plaza y cambio de guardia frente al Parlamento si encaja la hora.",
+      "sourceIds": [
+        "guard",
+        "lush"
+      ],
+      "coordinates": {
+        "lat": 37.9753575,
+        "lon": 23.7362604
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Monument+to+the+Unknown+Soldier&query_place_id=ChIJlwGg3T69oRQRQvI-Av79lsQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "Guardia cambia cada hora en punto según Presidencia; ceremonia ampliada domingo 11 h. Llegar con margen y obedecer cordones, sin bloquear paso. Actos, seguridad o concentraciones pueden cambiar acceso. Foto de archivo, uniforme y ceremonia no garantizados.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/syntagma.jpg",
+        "source": "https://www.flickr.com/photos/luctnl/41082238345/",
+        "author": "Luc.T",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior; no incluye visita del Parlamento"
+    },
+    {
+      "id": "garden",
+      "name": "Jardín Nacional",
+      "kind": "visit",
+      "zone": "Syntagma / jardín",
+      "reason": "Senderos arbolados para descansar entre la plaza y el Zappeion.",
+      "sourceIds": [
+        "garden",
+        "lush"
+      ],
+      "coordinates": {
+        "lat": 37.9725878,
+        "lon": 23.737433
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Athens+National+Garden&query_place_id=ChIJDSQ1vT-9oRQRnAtzDrZWPIw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 85,
+      "durationType": "editorial-estimate",
+      "caution": "Operador publica apertura diaria del amanecer al anochecer, con excepciones por seguridad/clima. Algunas puertas Herodou Attikou temporalmente cerradas; seguir accesos señalados. No garantiza recorrido sin escalones ni fuentes funcionando.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/garden.jpg",
+        "source": "https://www.flickr.com/photos/bexwalton/52527799083/",
+        "author": "Bex Walton",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Jardín exterior; de amanecer a anochecer"
+    },
+    {
+      "id": "zappeion",
+      "name": "Zappeion · exterior y jardines",
+      "kind": "visit",
+      "zone": "Jardines del Zappeion",
+      "reason": "Fachada neoclásica y explanada entre los jardines.",
+      "sourceIds": [
+        "zappeion",
+        "zgarden",
+        "yana"
+      ],
+      "coordinates": {
+        "lat": 37.971523,
+        "lon": 23.7367241
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Zappeion&query_place_id=ChIJK6bPeBW9oRQRM-Hz6L8HJbk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Es edificio de congresos y eventos, no un museo de acceso continuo garantizado. No se incluye patio interior ni entrada a una exposición. Actos y montajes pueden limitar accesos a explanada o jardines.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/zappeion.jpg",
+        "source": "https://www.flickr.com/photos/telemax/5710548850/",
+        "author": "Tilemahos Efthimiadis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior; interior sólo si está permitido"
+    },
+    {
+      "id": "stadium",
+      "name": "Estadio Panatenaico",
+      "kind": "visit",
+      "zone": "Pangrati / estadio",
+      "reason": "Gradas de mármol y pista del estadio de los Juegos de 1896.",
+      "sourceIds": [
+        "stadium",
+        "stadiumprice",
+        "lush"
+      ],
+      "coordinates": {
+        "lat": 37.9683342,
+        "lon": 23.7411118
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Panathenaic+Stadium&query_place_id=ChIJYRK_3mq9oRQRRrCuJb-4Sqc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 80,
+      "durationType": "editorial-estimate",
+      "caution": "12€ general desde 1/10/2025 según operador, audioguía 30 min incluida. Marzo-octubre 8-19, noviembre-febrero 8-17. No esperar última hora para visita completa. WC 1.50€ aparte. Entrada sólo fecha emitida, sin cancelación/reembolso según web. En verano adelantar a primera hora antes de jardín/guardia o ir tarde; evitar mediodía. Mármol resbaladizo con lluvia.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/athens/stadium.jpg",
+        "source": "https://www.flickr.com/photos/antonystanley/30118794495/",
+        "author": "Antony Stanley",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Interior de pago; muy expuesto al sol"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Acrópolis, museo y barrios al pie",
+          "zone": "Acrópolis → museo → Anafiotika → Plaka",
+          "stopIds": [
+            "acropolis",
+            "museum",
+            "anafiotika",
+            "plaka"
+          ],
+          "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Acrópolis, museo y barrios al pie",
+          "zone": "Acrópolis → museo → Anafiotika → Plaka",
+          "stopIds": [
+            "acropolis",
+            "museum",
+            "anafiotika",
+            "plaka"
+          ],
+          "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+        },
+        {
+          "title": "Ágora, plazas y mercado",
+          "zone": "Ágora Antigua → Monastiraki → Varvakios → Psyrri",
+          "stopIds": [
+            "agora",
+            "monastiraki",
+            "market",
+            "psyrri"
+          ],
+          "editorialNote": "Ágora al abrir y mercado antes de la tarde. No entrar además en Biblioteca Adriano y Ágora Romana por estar cerca. Si mercado cerrado, cambiar orden de días o pasear entorno, sin prometer puestos.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y descanso, estimación. Maps enlaces 837 m 10 min,663 m 9 min y 439 m 5 min; caminatas internas y desvíos se añaden. No confundir distancia entre puntos con toda la visita."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Acrópolis, museo y barrios al pie",
+          "zone": "Acrópolis → museo → Anafiotika → Plaka",
+          "stopIds": [
+            "acropolis",
+            "museum",
+            "anafiotika",
+            "plaka"
+          ],
+          "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+        },
+        {
+          "title": "Ágora, plazas y mercado",
+          "zone": "Ágora Antigua → Monastiraki → Varvakios → Psyrri",
+          "stopIds": [
+            "agora",
+            "monastiraki",
+            "market",
+            "psyrri"
+          ],
+          "editorialNote": "Ágora al abrir y mercado antes de la tarde. No entrar además en Biblioteca Adriano y Ágora Romana por estar cerca. Si mercado cerrado, cambiar orden de días o pasear entorno, sin prometer puestos.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y descanso, estimación. Maps enlaces 837 m 10 min,663 m 9 min y 439 m 5 min; caminatas internas y desvíos se añaden. No confundir distancia entre puntos con toda la visita."
+        },
+        {
+          "title": "Guardia, jardines y mármol olímpico",
+          "zone": "Syntagma → Jardín Nacional → Zappeion → estadio",
+          "stopIds": [
+            "syntagma",
+            "garden",
+            "zappeion",
+            "stadium"
+          ],
+          "editorialNote": "Jornada más tranquila, sin sumar museo nacional ni Lycabettus. En verano estadio a primera hora y después guardia/jardines, o reservar estadio para última tarde. Jardín antes del anochecer.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas, estimación editorial. Maps enlaces 217 m 3 min,817 m 11 min y 549 m 7 min. Maps rodea parte del jardín, no verifica todas sus puertas; paseo interior añade tiempo."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Acrópolis al abrir; agua y descanso interior. Cierres por calor posibles. Estadio antes del calor o última tarde.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Yacimientos cierran 17 h, jardín al anochecer. Mármol húmedo resbala; no aplazar entradas a última hora.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Acrópolis/Ágora cierran 25/26 dic y 1 ene; revisar museo y negocios por separado, no prometer mercadillo.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Cierre progresivamente antes en septiembre/octubre. Pascua ortodoxa y festivos cambian horarios; confirmar fecha y franja.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No hay reservas ni entradas compradas.",
+    "Acrópolis y Museo de la Acrópolis tienen entradas separadas.",
+    "Ascensor Acrópolis fuera de servicio en aviso 29/10/2026; comprobar estado actual, no plan accesible garantizado."
+  ],
+  "excludedOrOptional": [
+    "Museo Arqueológico Nacional merece bloque propio, no se apila con dos visitas principales de la Acrópolis.",
+    "Lycabettus y Filopappos son alternativas, no segunda colina obligatoria al final de un día largo.",
+    "Sounion, Delfos, Riviera e islas no se fuerzan en un catálogo urbano de tres días. Pregunta de islas sigue abierta."
+  ],
+  "sources": [
+    {
+      "id": "lush",
+      "title": "Wander-Lush: tres días",
+      "url": "https://wander-lush.org/3-days-in-athens-itinerary/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "yana",
+      "title": "Athens with Yana: tres días",
+      "url": "https://yanaathens.com/en/guides/athens-itinerary-3-days/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "cityby",
+      "title": "City by Day: tres días",
+      "url": "https://citybyday.com/greece/athens/3-days-in-athens/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "acro",
+      "title": "Hellenic Heritage: Acrópolis",
+      "url": "https://www.hh.gr/en/destinations/acropolis-of-athens/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "ministry",
+      "title": "Ministerio: precio y aviso ascensor",
+      "url": "http://odysseus.culture.gr/h/3/eh355.jsp?obj_id=2384",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "ticket",
+      "title": "Entradas oficiales: franja",
+      "url": "https://hhticket.gr/tap_b2c_new/english/tap.exe?place=000000002&PM=P1P",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "museum",
+      "title": "Museo Acrópolis: visita",
+      "url": "https://www.theacropolismuseum.gr/en/plan-your-visit",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "agora",
+      "title": "Hellenic Heritage: Ágora Antigua",
+      "url": "https://www.hh.gr/en/destinations/archaia-agora-athinon/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "market",
+      "title": "Turismo Atenas: Varvakios",
+      "url": "https://www.thisisathens.org/shopping/varvakios-central-market",
+      "type": "tourism-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "marketguide",
+      "title": "Turismo Atenas: mercado de alimentos",
+      "url": "https://www.thisisathens.org/shopping/athens-central-food-market",
+      "type": "tourism-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "guard",
+      "title": "Presidencia: Guardia",
+      "url": "https://www.presidency.gr/en/organisation-operation/presidential-guard/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "garden",
+      "title": "Operador: Jardín Nacional",
+      "url": "https://green-athens.gr/en/national-garden/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "zappeion",
+      "title": "Zappeion: usos del edificio",
+      "url": "https://www.zappeion.gr/en/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "zgarden",
+      "title": "Zappeion: jardines",
+      "url": "https://www.zappeion.gr/en/zappeion-tour/gardens.html",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "stadium",
+      "title": "Estadio: visita",
+      "url": "https://www.panathenaicstadium.gr/en/visit/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "stadiumprice",
+      "title": "Estadio: nuevas tarifas",
+      "url": "https://www.panathenaicstadium.gr/en/new-prices-for-the-tickets-of-panathenaic-stadium/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "eater",
+      "title": "Eater: restaurantes Atenas",
+      "url": "https://www.eater.com/maps/best-athens-greece-restaurants",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "feyrouz",
+      "title": "Feyrouz: carta",
+      "url": "https://feyrouz.gr/en/menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "fmenu",
+      "title": "Feyrouz: carta publicada PDF",
+      "url": "https://feyrouz.gr/wp-content/uploads/2026/09/f-menu-ath-nov.25-en.pdf",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "fhours",
+      "title": "Feyrouz: contacto",
+      "url": "https://feyrouz.gr/en/contact/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "avli",
+      "title": "Turismo Atenas: Avli Psyrri",
+      "url": "https://www.thisisathens.org/restaurants/avli-psirri",
+      "type": "tourism-food-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "avlireview",
+      "title": "The City Lane: Avli junio 2025",
+      "url": "https://thecitylane.com/avli-psirri/",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "stani",
+      "title": "Stani: productos",
+      "url": "https://stani1931.gr/en_products.html",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "stanitourism",
+      "title": "Turismo Atenas: Stani",
+      "url": "https://www.thisisathens.org/cafes-bakeries/stani",
+      "type": "tourism-food-guide",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Acrópolis, museo y barrios al pie",
+            "zone": "Acrópolis → museo → Anafiotika → Plaka",
+            "stopIds": [
+              "acropolis",
+              "museum",
+              "anafiotika",
+              "plaka"
+            ],
+            "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Acrópolis, museo y barrios al pie",
+            "zone": "Acrópolis → museo → Anafiotika → Plaka",
+            "stopIds": [
+              "acropolis",
+              "museum",
+              "anafiotika",
+              "plaka"
+            ],
+            "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+          },
+          {
+            "title": "Ágora, plazas y mercado",
+            "zone": "Ágora Antigua → Monastiraki → Varvakios → Psyrri",
+            "stopIds": [
+              "agora",
+              "monastiraki",
+              "market",
+              "psyrri"
+            ],
+            "editorialNote": "Ágora al abrir y mercado antes de la tarde. No entrar además en Biblioteca Adriano y Ágora Romana por estar cerca. Si mercado cerrado, cambiar orden de días o pasear entorno, sin prometer puestos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descanso, estimación. Maps enlaces 837 m 10 min,663 m 9 min y 439 m 5 min; caminatas internas y desvíos se añaden. No confundir distancia entre puntos con toda la visita."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Acrópolis, museo y barrios al pie",
+            "zone": "Acrópolis → museo → Anafiotika → Plaka",
+            "stopIds": [
+              "acropolis",
+              "museum",
+              "anafiotika",
+              "plaka"
+            ],
+            "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+          },
+          {
+            "title": "Ágora, plazas y mercado",
+            "zone": "Ágora Antigua → Monastiraki → Varvakios → Psyrri",
+            "stopIds": [
+              "agora",
+              "monastiraki",
+              "market",
+              "psyrri"
+            ],
+            "editorialNote": "Ágora al abrir y mercado antes de la tarde. No entrar además en Biblioteca Adriano y Ágora Romana por estar cerca. Si mercado cerrado, cambiar orden de días o pasear entorno, sin prometer puestos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descanso, estimación. Maps enlaces 837 m 10 min,663 m 9 min y 439 m 5 min; caminatas internas y desvíos se añaden. No confundir distancia entre puntos con toda la visita."
+          },
+          {
+            "title": "Guardia, jardines y mármol olímpico",
+            "zone": "Estadio temprano → Syntagma → jardín → Zappeion",
+            "stopIds": [
+              "stadium",
+              "syntagma",
+              "garden",
+              "zappeion"
+            ],
+            "editorialNote": "Estadio al abrir antes del calor; después guardia si encaja la hora y jardines. No sumar Lycabettus ni otro museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Reordenación editorial para evitar estadio al mediodía, no un horario reservado. Revisar traslados para el punto de partida real."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Acrópolis, museo y barrios al pie",
+            "zone": "Acrópolis → museo → Anafiotika → Plaka",
+            "stopIds": [
+              "acropolis",
+              "museum",
+              "anafiotika",
+              "plaka"
+            ],
+            "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Acrópolis, museo y barrios al pie",
+            "zone": "Acrópolis → museo → Anafiotika → Plaka",
+            "stopIds": [
+              "acropolis",
+              "museum",
+              "anafiotika",
+              "plaka"
+            ],
+            "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+          },
+          {
+            "title": "Ágora, plazas y mercado",
+            "zone": "Ágora Antigua → Monastiraki → Varvakios → Psyrri",
+            "stopIds": [
+              "agora",
+              "monastiraki",
+              "market",
+              "psyrri"
+            ],
+            "editorialNote": "Ágora al abrir y mercado antes de la tarde. No entrar además en Biblioteca Adriano y Ágora Romana por estar cerca. Si mercado cerrado, cambiar orden de días o pasear entorno, sin prometer puestos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descanso, estimación. Maps enlaces 837 m 10 min,663 m 9 min y 439 m 5 min; caminatas internas y desvíos se añaden. No confundir distancia entre puntos con toda la visita."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Acrópolis, museo y barrios al pie",
+            "zone": "Acrópolis → museo → Anafiotika → Plaka",
+            "stopIds": [
+              "acropolis",
+              "museum",
+              "anafiotika",
+              "plaka"
+            ],
+            "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+          },
+          {
+            "title": "Ágora, plazas y mercado",
+            "zone": "Ágora Antigua → Monastiraki → Varvakios → Psyrri",
+            "stopIds": [
+              "agora",
+              "monastiraki",
+              "market",
+              "psyrri"
+            ],
+            "editorialNote": "Ágora al abrir y mercado antes de la tarde. No entrar además en Biblioteca Adriano y Ágora Romana por estar cerca. Si mercado cerrado, cambiar orden de días o pasear entorno, sin prometer puestos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descanso, estimación. Maps enlaces 837 m 10 min,663 m 9 min y 439 m 5 min; caminatas internas y desvíos se añaden. No confundir distancia entre puntos con toda la visita."
+          },
+          {
+            "title": "Guardia, jardines y mármol olímpico",
+            "zone": "Syntagma → Jardín Nacional → Zappeion → estadio",
+            "stopIds": [
+              "syntagma",
+              "garden",
+              "zappeion",
+              "stadium"
+            ],
+            "editorialNote": "Jornada más tranquila, sin sumar museo nacional ni Lycabettus. En verano estadio a primera hora y después guardia/jardines, o reservar estadio para última tarde. Jardín antes del anochecer.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps enlaces 217 m 3 min,817 m 11 min y 549 m 7 min. Maps rodea parte del jardín, no verifica todas sus puertas; paseo interior añade tiempo."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Acrópolis, museo y barrios al pie",
+            "zone": "Acrópolis → museo → Anafiotika → Plaka",
+            "stopIds": [
+              "acropolis",
+              "museum",
+              "anafiotika",
+              "plaka"
+            ],
+            "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Acrópolis, museo y barrios al pie",
+            "zone": "Acrópolis → museo → Anafiotika → Plaka",
+            "stopIds": [
+              "acropolis",
+              "museum",
+              "anafiotika",
+              "plaka"
+            ],
+            "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+          },
+          {
+            "title": "Ágora, plazas y mercado",
+            "zone": "Ágora Antigua → Monastiraki → Varvakios → Psyrri",
+            "stopIds": [
+              "agora",
+              "monastiraki",
+              "market",
+              "psyrri"
+            ],
+            "editorialNote": "Ágora al abrir y mercado antes de la tarde. No entrar además en Biblioteca Adriano y Ágora Romana por estar cerca. Si mercado cerrado, cambiar orden de días o pasear entorno, sin prometer puestos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descanso, estimación. Maps enlaces 837 m 10 min,663 m 9 min y 439 m 5 min; caminatas internas y desvíos se añaden. No confundir distancia entre puntos con toda la visita."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Acrópolis, museo y barrios al pie",
+            "zone": "Acrópolis → museo → Anafiotika → Plaka",
+            "stopIds": [
+              "acropolis",
+              "museum",
+              "anafiotika",
+              "plaka"
+            ],
+            "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+          },
+          {
+            "title": "Ágora, plazas y mercado",
+            "zone": "Ágora Antigua → Monastiraki → Varvakios → Psyrri",
+            "stopIds": [
+              "agora",
+              "monastiraki",
+              "market",
+              "psyrri"
+            ],
+            "editorialNote": "Ágora al abrir y mercado antes de la tarde. No entrar además en Biblioteca Adriano y Ágora Romana por estar cerca. Si mercado cerrado, cambiar orden de días o pasear entorno, sin prometer puestos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descanso, estimación. Maps enlaces 837 m 10 min,663 m 9 min y 439 m 5 min; caminatas internas y desvíos se añaden. No confundir distancia entre puntos con toda la visita."
+          },
+          {
+            "title": "Guardia, jardines y mármol olímpico",
+            "zone": "Syntagma → Jardín Nacional → Zappeion → estadio",
+            "stopIds": [
+              "syntagma",
+              "garden",
+              "zappeion",
+              "stadium"
+            ],
+            "editorialNote": "Jornada más tranquila, sin sumar museo nacional ni Lycabettus. En verano estadio a primera hora y después guardia/jardines, o reservar estadio para última tarde. Jardín antes del anochecer.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps enlaces 217 m 3 min,817 m 11 min y 549 m 7 min. Maps rodea parte del jardín, no verifica todas sus puertas; paseo interior añade tiempo."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Acrópolis, museo y barrios al pie",
+            "zone": "Acrópolis → museo → Anafiotika → Plaka",
+            "stopIds": [
+              "acropolis",
+              "museum",
+              "anafiotika",
+              "plaka"
+            ],
+            "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Acrópolis, museo y barrios al pie",
+            "zone": "Acrópolis → museo → Anafiotika → Plaka",
+            "stopIds": [
+              "acropolis",
+              "museum",
+              "anafiotika",
+              "plaka"
+            ],
+            "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+          },
+          {
+            "title": "Ágora, plazas y mercado",
+            "zone": "Ágora Antigua → Monastiraki → Varvakios → Psyrri",
+            "stopIds": [
+              "agora",
+              "monastiraki",
+              "market",
+              "psyrri"
+            ],
+            "editorialNote": "Ágora al abrir y mercado antes de la tarde. No entrar además en Biblioteca Adriano y Ágora Romana por estar cerca. Si mercado cerrado, cambiar orden de días o pasear entorno, sin prometer puestos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descanso, estimación. Maps enlaces 837 m 10 min,663 m 9 min y 439 m 5 min; caminatas internas y desvíos se añaden. No confundir distancia entre puntos con toda la visita."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Acrópolis, museo y barrios al pie",
+            "zone": "Acrópolis → museo → Anafiotika → Plaka",
+            "stopIds": [
+              "acropolis",
+              "museum",
+              "anafiotika",
+              "plaka"
+            ],
+            "editorialNote": "Acrópolis temprano, museo como pausa interior y comida antes del paseo. Dos visitas relacionadas, no añadir otra colina al atardecer por obligación. Si falta energía, omitir Anafiotika.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y pausas, estimación editorial. Maps enlaces 638 m 8 min,546 m 9 min y 317 m 4 min; no incluyen subida completa, recorrido del yacimiento ni espera. Hay escaleras, no ruta accesible certificada."
+          },
+          {
+            "title": "Ágora, plazas y mercado",
+            "zone": "Ágora Antigua → Monastiraki → Varvakios → Psyrri",
+            "stopIds": [
+              "agora",
+              "monastiraki",
+              "market",
+              "psyrri"
+            ],
+            "editorialNote": "Ágora al abrir y mercado antes de la tarde. No entrar además en Biblioteca Adriano y Ágora Romana por estar cerca. Si mercado cerrado, cambiar orden de días o pasear entorno, sin prometer puestos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descanso, estimación. Maps enlaces 837 m 10 min,663 m 9 min y 439 m 5 min; caminatas internas y desvíos se añaden. No confundir distancia entre puntos con toda la visita."
+          },
+          {
+            "title": "Guardia, jardines y mármol olímpico",
+            "zone": "Syntagma → Jardín Nacional → Zappeion → estadio",
+            "stopIds": [
+              "syntagma",
+              "garden",
+              "zappeion",
+              "stadium"
+            ],
+            "editorialNote": "Jornada más tranquila, sin sumar museo nacional ni Lycabettus. En verano estadio a primera hora y después guardia/jardines, o reservar estadio para última tarde. Jardín antes del anochecer.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps enlaces 217 m 3 min,817 m 11 min y 549 m 7 min. Maps rodea parte del jardín, no verifica todas sus puertas; paseo interior añade tiempo."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Tres guías diferentes antes de logística; Slow Travel News reproduce Wander-Lush y no cuenta como corroboración independiente.",
+    "Guía antigua 20€/10€ Acrópolis contradicha por 30€ Ministerio.",
+    "Horario principal Museo y FAQ difieren; se preserva caveat, no se oculta contradicción.",
+    "No se transforma cierre ascensor en cierre de toda la Acrópolis.",
+    "Fotos Flickr originales BY/BY-SA verificadas, comidas ilustrativas explícitas."
+  ],
+  "editorialTradeoffs": [
+    "Acrópolis y su museo juntos por contenido y calor, dejando tarde ligera, no otro museo nacional.",
+    "Tercer día urbano tranquilo, no excursión o islas por rellenar días.",
+    "Mercado de mañana, domingo y festivos requieren cambiar día o expectativas."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Wander-Lush aporta mercado y barrios pero precio Acrópolis está obsoleto. Yana agrupa centro y ofrece Riviera/Sounion fuera de ciudad, que no se activa sin elección. City by Day amontona museos y colinas: se rechaza ese ritmo. Slow Travel News es sindicación de Wander-Lush, no fuente independiente. Se eligen zonas compactas y un tercer día de jardines/estadio."
+}

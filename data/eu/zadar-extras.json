@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "cityId": "zadar",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "pet",
+      "name": "Pet Bunara · cocina dálmata con una comida propia",
+      "address": "Ulica obitelji Stratico 1, 23000 Zadar, Croacia",
+      "description": "Junto a los Cinco Pozos, una mesa para sentarse con tiempo, no un bocado entre todas las entradas del casco.",
+      "strength": "GaultMillau 2026 elige el cordero de cocción lenta Napoleon’s Sin y la tarta de mandarina: perfil local y estacional, sin todos los platos garantizados cada día.",
+      "caution": "Web recuperada: 12-22, excepto martes. Carta actual no verificable por bloqueo de acceso; no se presenta el precio de un agregador como oficial. Una carta externa titulada otoño muestra principales de 11, 50-23,90€ sin fecha fiable, no sirve como presupuesto confirmado. Preguntar carta y precio antes de elegir; el cordero de la crítica no tiene precio confirmado. Bebida y extras aparte. Foto ajena. Sin reserva.",
+      "alert": "Web recuperada: 12-22, excepto martes. Carta actual no verificable por bloqueo de acceso; no se presenta el precio de un agregador como oficial. Una carta externa titulada otoño muestra principales de 11, 50-23,90€ sin fecha fiable, no sirve como presupuesto confirmado. Preguntar carta y precio antes de elegir; el cordero de la crítica no tiene precio confirmado. Bebida y extras aparte. Foto ajena. Sin reserva.",
+      "priceLabel": "Precio actual no verificado · pedir carta",
+      "photo": {
+        "img": "assets/zadar/pet.jpg",
+        "source": "https://www.flickr.com/photos/gemsling/945508815/",
+        "author": "Nathan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Cordero ilustrativo de otra cocina; no Pet Bunara ni su receta o presentación del día. Recorte de presentación."
+      },
+      "officialUrl": "https://petbunara.com/",
+      "sourceIds": [
+        "petcritic",
+        "pet",
+        "petexternal",
+        "foodguide"
+      ],
+      "sourceUrls": [
+        "https://findeatlocal.com/what-to-eat-in-zadar/",
+        "https://hr.gaultmillau.com/en/restaurants/pet-bunara-dine-wine",
+        "https://petbunara.com/",
+        "https://restaurantguru.com/Pet-Bunara-Zadar/menu"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=PET+BUNARA+Dine+%26+Wine&query_place_id=ChIJ58mtQW_6YUcRRiMD5jn_nrg",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede contrastada; horas/precio pendientes cuando se indica, sin reserva."
+    },
+    {
+      "id": "ice",
+      "name": "Donat · una pausa de helado junto a Santa Anastasia",
+      "address": "Trg Svete Stošije 4, 23000 Zadar, Croacia",
+      "description": "En Trg Svete Stošije 4, una parada dulce y breve, distinta de la comida larga junto a los pozos.",
+      "strength": "La casa identifica tradición propia con vainilla, avellana, chocolate, pistacho y frutas. La oferta diaria cambia según temporada.",
+      "caution": "Sede del casco confirmada por web histórica y Maps. Put vrela 48 a en la web de sabores es un contacto productivo: no dirigir allí el paseo. Sin precio de bola ni calendario de invierno actual verificados; consultar antes, sin prometer apertura anual por un texto comercial. Los sabores frutales no prueban que sean veganos ni sin trazas. Consultar lácteos, frutos secos y gluten. Foto ajena.",
+      "alert": "Sede del casco confirmada por web histórica y Maps. Put vrela 48 a en la web de sabores es un contacto productivo: no dirigir allí el paseo. Sin precio de bola ni calendario de invierno actual verificados; consultar antes, sin prometer apertura anual por un texto comercial. Los sabores frutales no prueban que sean veganos ni sin trazas. Consultar lácteos, frutos secos y gluten. Foto ajena.",
+      "priceLabel": "Precio actual no verificado · pausa opcional",
+      "photo": {
+        "img": "assets/zadar/ice.jpg",
+        "source": "https://www.flickr.com/photos/preppybyday/5076899310/",
+        "author": "TheCulinaryGeek",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Helado ilustrativo de otra cocina; no Donat ni su presentación actual. Recorte de presentación."
+      },
+      "officialUrl": "http://www.donatice.hr/",
+      "sourceIds": [
+        "ice",
+        "iceflavours"
+      ],
+      "sourceUrls": [
+        "http://www.donatice.hr/",
+        "https://donatice.eu/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Slasticarna+Donat%2C+Ice+Cream+and+Gelato&query_place_id=ChIJX1y3jG36YUcRft6iU1qHLmo",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede contrastada; horas/precio pendientes cuando se indica, sin reserva."
+    }
+  ],
+  "activities": []
+}

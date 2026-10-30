@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "cityId": "palermo",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "buatta",
+      "name": "Buatta · una mesa de cocina siciliana",
+      "address": "Via Vittorio Emanuele, 176, 90133 Palermo PA, Italy",
+      "description": "En el Cassaro, para sentarse a comer entre el casco y la Kalsa en vez de enlazar solo frituras.",
+      "strength": "Bucatini con sardinas e hinojo, anelletti, caponata y platos de casquería; Michelin y Gambero Rosso respaldan su cocina popular.",
+      "caution": "Carta italiana oficial: bucatini 16€, caponata 9€, coperto 3€. Un principal 16€+cubierto 3€ son 19€ antes de bebida; caponata 9€+principal 16€+cubierto 3€ son 28€ antes de bebida. Cocina 12:30-14:30/19:30-22:30 según contacto, no confundir local 12-24 con cocina todo el día. Reservar y confirmar carta estacional. Sardinas, lácteos/frutos secos/gluten según plato; foto de otra cocina.",
+      "alert": "Carta italiana oficial: bucatini 16€, caponata 9€, coperto 3€. Un principal 16€+cubierto 3€ son 19€ antes de bebida; caponata 9€+principal 16€+cubierto 3€ son 28€ antes de bebida. Cocina 12:30-14:30/19:30-22:30 según contacto, no confundir local 12-24 con cocina todo el día. Reservar y confirmar carta estacional. Sardinas, lácteos/frutos secos/gluten según plato; foto de otra cocina.",
+      "priceLabel": "Pasta 16€ + cubierto 3€ · bebida aparte",
+      "photo": {
+        "img": "assets/palermo/buatta.jpg",
+        "source": "https://www.flickr.com/photos/joyosity/19947217002/",
+        "author": "Joy",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Pasta con sardinas e hinojo ilustrativo de otro establecimiento, no el local ni su plato actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.buattapalermo.it/menu-tradizione-siciliana-palermo/",
+      "sourceUrls": [
+        "https://www.buattapalermo.it/menu-tradizione-siciliana-palermo/",
+        "https://www.buattapalermo.it/en/contact-us-2/",
+        "https://guide.michelin.com/en/sicilia/palermo/restaurant/buatta-cucina-popolana",
+        "https://www.gamberorosso.it/notizie/ristoranti/buatta-di-palermo-e-una-delle-migliori-trattorie-ditalia-ecco-perche/"
+      ],
+      "sourceIds": [
+        "buatta",
+        "buattacontact",
+        "critic",
+        "critic 2"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Buatta+Cucina+Popolana&query_place_id=ChIJt 1 ptUvPlGRMRJ 1 lE 1 mqEcJA",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede listada actualmente, sin reserva ni apertura futura garantizada; Franco verificado solo por directorio y agregador."
+    },
+    {
+      "id": "franco",
+      "name": "Nni Franco U Vastiddaru · bocadillo al paso",
+      "address": "Via Vittorio Emanuele, 102, 90133 Palermo PA, Italy",
+      "description": "En Via Vittorio Emanuele 102, cerca de Marina, como alternativa rápida a una comida sentada.",
+      "strength": "Panelle para explorar el garbanzo frito o panino de milza para quien quiera casquería; no son el mismo plato ni una recomendación vegana automática.",
+      "caution": "Sede contrastada en Maps y JustEat; no web oficial autenticada encontrada. Carta de reparto muestra milza 5€, no precio de mostrador confirmado ni total con reparto. Horario de servicio y precio presencial por confirmar al llegar; no viaje especial basado en apertura supuesta. Panelle puede compartir freidora y pan con sésamo/gluten; preguntar. Foto de panino ajeno.",
+      "alert": "Sede contrastada en Maps y JustEat; no web oficial autenticada encontrada. Carta de reparto muestra milza 5€, no precio de mostrador confirmado ni total con reparto. Horario de servicio y precio presencial por confirmar al llegar; no viaje especial basado en apertura supuesta. Panelle puede compartir freidora y pan con sésamo/gluten; preguntar. Foto de panino ajeno.",
+      "priceLabel": "Street food · precio presencial por confirmar",
+      "photo": {
+        "img": "assets/palermo/franco.jpg",
+        "source": "https://www.flickr.com/photos/matte 0 ne/7472254486/",
+        "author": "mat's eye",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Panino con panelle ilustrativo de otro establecimiento, no el local ni su plato actual. Recorte de presentación."
+      },
+      "officialUrl": null,
+      "sourceUrls": [
+        "https://palermofood.tours/guides/best-food-in-palermo/",
+        "https://timeforsicily.com/palermo-street-food-guide/",
+        "https://www.justeat.it/restaurants-nni-franco-u-vastiddaru-palermo/menu"
+      ],
+      "sourceIds": [
+        "foodguide",
+        "foodguide 2",
+        "franco"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nni+Franco+U+Vastiddaru&query_place_id=ChIJfYgTIvPlGRMR 97 yR 24 rGdCA",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede listada actualmente, sin reserva ni apertura futura garantizada; Franco verificado solo por directorio y agregador."
+    },
+    {
+      "id": "chiostro",
+      "name": "I Segreti del Chiostro · un dulce y una pausa",
+      "address": "Discesa dei Giudici 33, Palermo",
+      "description": "Obrador de recetas conventuales junto a Santa Caterina, útil como merienda temprana tras Pretoria.",
+      "strength": "Cannoli y dulces de ricotta o almendra; una parada distinta del restaurante y del bocadillo.",
+      "caution": "Entrada oficial Discesa dei Giudici 33, no asumir que la referencia Maps Piazza Bellini 33 es la puerta. Invierno desde finales de octubre a febrero 9-17, último acceso 16:15; marzo-octubre 10-18, último 17:15: confirmar transición de temporada. Carta consultada sin precios legibles: consultar mostrador, no presupuesto inventado. Ricotta/leche, frutos secos y gluten según dulce; no prometer vegano ni sin gluten. Iglesia, cubiertas y claustro monumental no incluidos con el dulce. Foto de cannolo ajeno.",
+      "alert": "Entrada oficial Discesa dei Giudici 33, no asumir que la referencia Maps Piazza Bellini 33 es la puerta. Invierno desde finales de octubre a febrero 9-17, último acceso 16:15; marzo-octubre 10-18, último 17:15: confirmar transición de temporada. Carta consultada sin precios legibles: consultar mostrador, no presupuesto inventado. Ricotta/leche, frutos secos y gluten según dulce; no prometer vegano ni sin gluten. Iglesia, cubiertas y claustro monumental no incluidos con el dulce. Foto de cannolo ajeno.",
+      "priceLabel": "Pastelería · precio de mostrador",
+      "photo": {
+        "img": "assets/palermo/chiostro.jpg",
+        "source": "https://www.flickr.com/photos/hinnosaar/4737233978/",
+        "author": "Marit & Toomas Hinnosaar",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Cannolo ilustrativo de otro establecimiento, no el local ni su plato actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.isegretidelchiostro.com/",
+      "sourceUrls": [
+        "https://palermofood.tours/guides/best-food-in-palermo/",
+        "https://www.isegretidelchiostro.com/"
+      ],
+      "sourceIds": [
+        "chiostro",
+        "foodguide"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=I+Segreti+del+Chiostro&query_place_id=ChIJH-f_fjXlGRMRDxB 08 nzKYvw",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede listada actualmente, sin reserva ni apertura futura garantizada; Franco verificado solo por directorio y agregador."
+    }
+  ],
+  "activities": []
+}

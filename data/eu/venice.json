@@ -1,0 +1,1125 @@
+{
+  "schemaVersion": 1,
+  "country": "IT",
+  "id": "venice",
+  "name": "Venecia",
+  "localName": "Venezia",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Visita urbana 1-3 días sin fecha ni compras. Tres zonas, sin Murano/Burano forzados. Transporte y contribución de acceso separados de entradas.",
+  "stops": [
+    {
+      "id": "marco",
+      "name": "Piazza San Marco",
+      "kind": "visit",
+      "zone": "San Marco",
+      "reason": "La plaza y sus edificios antes de las franjas de visita, sin convertir cada fachada en otra entrada.",
+      "sourceIds": [
+        "lemming",
+        "italy"
+      ],
+      "coordinates": {
+        "lat": 45.4341668,
+        "lon": 12.3384717
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+San+Marco&query_place_id=ChIJiYRBbtexfkcRG_b_RJa70AI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Consumiciones, campanario, museo Correr y reloj no incluidos. Acqua alta y actos pueden alterar pasos. No prometer plaza vacía.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/marco.jpg",
+        "source": "https://www.flickr.com/photos/stayrarg/52496200674/",
+        "author": "Stavros Argyropoulos",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Plaza de San Marcos al anochecer; foto de archivo, no iluminación o plaza vacía garantizadas. Recorte de presentación."
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "basilica",
+      "name": "Basílica de San Marcos",
+      "kind": "visit",
+      "zone": "San Marco",
+      "reason": "Mosaicos y espacio de la basílica en visita corta con franja elegida.",
+      "sourceIds": [
+        "basilica",
+        "tariff",
+        "faq"
+      ],
+      "coordinates": {
+        "lat": 45.4345606,
+        "lon": 12.3397125
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Saint+Mark%27s+Basilica&query_place_id=ChIJv2xSZNexfkcRBaKsgyfVEgo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Tarifa particular publicada 10€ sólo basílica; 20€ con Pala d’Oro o museo, 30€ completa, campanario 15€ separado. No sumar otro 20% de descuento a tabla ya de particulares. FAQ lun-sáb 9:30-17:15, última 16:45; domingo/festivo religioso basílica desde 14 h, museo por la mañana no equivale a basílica. Elegir franja, tolerancia 5 min publicada; culto puede cambiar visita.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/basilica.jpg",
+        "source": "https://www.flickr.com/photos/jafsegal/38401627382/",
+        "author": "Juan Antonio Segal",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Interior de San Marcos; no implica acceso a museo, Pala d’Oro o campanario. Recorte de presentación."
+      },
+      "visitMode": "Basílica de pago con franja nominal"
+    },
+    {
+      "id": "palace",
+      "name": "Palacio Ducal",
+      "kind": "visit",
+      "zone": "San Marco / Piazzetta",
+      "reason": "Salas de gobierno y recorrido histórico del palacio, con tiempo para el Puente de los Suspiros interior.",
+      "sourceIds": [
+        "palace",
+        "lemming"
+      ],
+      "coordinates": {
+        "lat": 45.4337035,
+        "lon": 12.3403894
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Doge%27s+Palace&query_place_id=ChIJiYRBbtexfkcR0XTK3ATSCbg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "35€ general; 30€ sólo compra online al menos 30 días antes. Incluye otros Museos San Marco, no obligación de visitarlos todos hoy. 9-19 abril-octubre, 9-18 noviembre-marzo, última 1 h antes y salida desde 30 min antes. Billete sin franja sólo entra desde 12 h según aviso. Itinerarios Secretos 40€ aparte, no incluidos. Maletas grandes no admitidas. Dos obras en restauración sustituidas por copias, revisar avisos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/palace.jpg",
+        "source": "https://www.flickr.com/photos/rutgervandermaar/54001611151/",
+        "author": "Rutger van der Maar",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Fachada real del Palacio Ducal, no sala interior. Recorte de presentación."
+      },
+      "visitMode": "Palacio de pago; entrada de Museos San Marco"
+    },
+    {
+      "id": "riva",
+      "name": "Riva degli Schiavoni",
+      "kind": "visit",
+      "zone": "San Marco / Castello",
+      "reason": "Paseo junto a la laguna y vista exterior del Puente de los Suspiros desde el entorno permitido.",
+      "sourceIds": [
+        "lemming",
+        "italy"
+      ],
+      "coordinates": {
+        "lat": 45.4339924,
+        "lon": 12.3438683
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Riva+degli+Schiavoni&query_place_id=ChIJsz1DFiiufkcRjI12ZPYt-GY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "No es paseo en góndola ni barco contratado. Puentes con escalones y mucho tránsito; mirar acceso real y no bloquear pasos. Foto del monumento ecuestre del paseo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/riva.jpg",
+        "source": "https://www.flickr.com/photos/ell-r-brown/4830315335/",
+        "author": "Elliott Brown",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Monumento a Vittorio Emanuele II en Riva degli Schiavoni como contexto del paseo. Recorte de presentación."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "rialto",
+      "name": "Puente de Rialto",
+      "kind": "visit",
+      "zone": "Rialto / Gran Canal",
+      "reason": "Cruce del Gran Canal y vistas desde el puente antes del mercado.",
+      "sourceIds": [
+        "lemming",
+        "italy"
+      ],
+      "coordinates": {
+        "lat": 45.4379842,
+        "lon": 12.335898
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Ponte+di+Rialto&query_place_id=ChIJOzqj-sexfkcRicyOKaERIHM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "No implica viaje en góndola ni terraza privada. Madrugar reduce afluencia sin garantizar puente vacío. Pasar sin bloquear escalones.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/rialto.jpg",
+        "source": "https://www.flickr.com/photos/strato56/2388203088/",
+        "author": "GIOVANNI VOLPATO",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Puente exterior con escaleras"
+    },
+    {
+      "id": "market",
+      "name": "Mercado de Rialto · Pescheria",
+      "kind": "visit",
+      "zone": "San Polo / Rialto",
+      "reason": "Mercado cotidiano de pescado y productos, distinto del puente y de una zona sólo de souvenirs.",
+      "sourceIds": [
+        "market",
+        "lemming"
+      ],
+      "coordinates": {
+        "lat": 45.43965739999999,
+        "lon": 12.3337524
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Rialto+Market&query_place_id=ChIJW0Lx-_yxfkcRKRQZ2kfiIDE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "Turismo oficial: pescado mar-sáb 7-14, cierra dom/lun; fruta/verdura lun-sáb 7-20, cierra domingo. Ir de mañana y confirmar festivos/puestos, no garantizar todos abiertos. Si domingo, reordenar días o paseo exterior sin prometer actividad.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/market.jpg",
+        "source": "https://www.flickr.com/photos/43547009@N00/43284773361/",
+        "author": "Alejandro",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Fachada de la Pescheria de Rialto, no puestos abiertos garantizados. Recorte de presentación."
+      },
+      "visitMode": "Mercado de mañana; días distintos por producto"
+    },
+    {
+      "id": "ghetto",
+      "name": "Ghetto · memoria y Museo Ebraico",
+      "kind": "visit",
+      "zone": "Cannaregio / Ghetto Nuovo",
+      "reason": "Barrio histórico judío y museo como visita cultural principal de este día.",
+      "sourceIds": [
+        "mev",
+        "reopen",
+        "lemming"
+      ],
+      "coordinates": {
+        "lat": 45.4450297,
+        "lon": 12.3269441
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Synagogue+%26+Jewish+Museum+of+Venice&query_place_id=ChIJ43b0SMKxfkcRNImApdTixeE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Museo reabierto 22/10/2026 según operador y Ayuntamiento, no sigue cerrado como en guías antiguas. Web publica 18€+2€ preventa. Bloque de horario rotulado 23-30 oct 2026: dom-jue 10-18, viernes 9-17; no trasladarlo a otra fecha ni asumir sábado abierto. Confirmar horario, sinagogas y cobertura de entrada antes de reservar; si cerrado paseo respetuoso por barrio. Foto exterior.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/ghetto.jpg",
+        "source": "https://www.flickr.com/photos/ci_polla/3687521943/",
+        "author": "Paola Sucato",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Calle del Ghetto como contexto exterior, no interior del museo recién reabierto. Recorte de presentación."
+      },
+      "visitMode": "Barrio exterior y museo de pago diferenciados"
+    },
+    {
+      "id": "cannaregio",
+      "name": "Cannaregio · Fondamenta de la Misericordia",
+      "kind": "visit",
+      "zone": "Cannaregio",
+      "reason": "Canales y calles del barrio para terminar con comida o descanso, sin más museos obligatorios.",
+      "sourceIds": [
+        "lemming",
+        "gambero"
+      ],
+      "coordinates": {
+        "lat": 45.4441947,
+        "lon": 12.3327631
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Fondamenta+de+la+Misericordia&query_place_id=ChIJAc6nv8KxfkcRbxTM224wzLM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Zona residencial: respetar puertas, puentes y descanso nocturno. No garantiza mesas, música ni apertura de negocios. Foto de la misma fondamenta, no genérica de otra isla.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/cannaregio.jpg",
+        "source": "https://www.flickr.com/photos/edenpictures/44812896442/",
+        "author": "Eden, Janine and Jim",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo de barrio exterior"
+    },
+    {
+      "id": "bridge",
+      "name": "Puente de la Accademia",
+      "kind": "visit",
+      "zone": "Dorsoduro / Gran Canal",
+      "reason": "Puente de madera con vista hacia el Gran Canal y la Salute antes del museo.",
+      "sourceIds": [
+        "lemming",
+        "italy"
+      ],
+      "coordinates": {
+        "lat": 45.4316465,
+        "lon": 12.328905
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Ponte+dell%27Accademia&query_place_id=ChIJS6Yl_dGxfkcRgaBW1UUkEWc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "No es la galería ni entrada a la colección. Cruce elevado con escalones, no ruta accesible certificada. No detenerse bloqueando paso.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/bridge.jpg",
+        "source": "https://www.flickr.com/photos/sonofgroucho/3436837545/",
+        "author": "Son of Groucho",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Puente exterior con escaleras"
+    },
+    {
+      "id": "accademia",
+      "name": "Gallerie dell’Accademia",
+      "kind": "visit",
+      "zone": "Dorsoduro / Carità",
+      "reason": "Pintura veneciana en un bloque de museo propio, sin añadir Guggenheim y Punta della Dogana.",
+      "sourceIds": [
+        "accademia",
+        "accold",
+        "lemming"
+      ],
+      "coordinates": {
+        "lat": 45.4310784,
+        "lon": 12.3281394
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Gallerie+dell%27Accademia&query_place_id=ChIJc8AdAs6xfkcRaxen7t_aOcs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Página principal actual 15€, mar-dom 9-19, taquilla hasta 18, salida desde 18:30. Otra tabla oficial conserva 15/20€ con cambio 6/5/2026: precio contradictorio, confirmar importe de la fecha en TicketOne autorizado antes de pagar. No planear lunes sin calendario confirmado. No prometer Hombre de Vitruvio expuesto; obras/salas pueden variar.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/accademia.jpg",
+        "source": "https://www.flickr.com/photos/hisgett/7235519002/",
+        "author": "Tony Hisgett",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Fachada de las Gallerie dell’Accademia, no promesa de obra concreta expuesta. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago; elegir obras prioritarias"
+    },
+    {
+      "id": "squero",
+      "name": "Squero di San Trovaso · exterior",
+      "kind": "visit",
+      "zone": "Dorsoduro / San Trovaso",
+      "reason": "Astillero tradicional de góndolas visto desde la orilla pública opuesta.",
+      "sourceIds": [
+        "gambero",
+        "lemming"
+      ],
+      "coordinates": {
+        "lat": 45.4302714,
+        "lon": 12.3258886
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Squero+di+San+Trovaso&query_place_id=ChIJCc5DyM2xfkcRqJBesa_ACjs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "No entrar al taller ni prometer demostración o actividad a una hora concreta. Visita interior sólo con autorización propia, no incluida. No es un museo gratuito de acceso continuo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/squero.jpg",
+        "source": "https://www.flickr.com/photos/yellowbookltd/4106556999/",
+        "author": "John Lord",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Vista exterior; taller de trabajo"
+    },
+    {
+      "id": "zattere",
+      "name": "Zattere · paseo de la Giudecca",
+      "kind": "visit",
+      "zone": "Dorsoduro / Zattere",
+      "reason": "Paseo junto al canal ancho con tiempo de comida y pausa antes de la Salute.",
+      "sourceIds": [
+        "lemming",
+        "italy"
+      ],
+      "coordinates": {
+        "lat": 45.4293552,
+        "lon": 12.3268801
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Fondamenta+Zattere+Ai+Gesuati&query_place_id=ChIJB2DehM2xfkcRmTZ4ibEKSlg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Expuesto a sol, viento y acqua alta; no implica cruce a Giudecca ni baño. Consumo de terrazas aparte. No planear fotos al atardecer como luz garantizada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/zattere.jpg",
+        "source": "https://www.flickr.com/photos/yellowbookltd/4107358962/",
+        "author": "John Lord",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "salute",
+      "name": "Santa Maria della Salute",
+      "kind": "visit",
+      "zone": "Dorsoduro / Salute",
+      "reason": "Rotonda barroca y extremo del paseo junto al Gran Canal, con entrada si coincide la apertura.",
+      "sourceIds": [
+        "salute",
+        "tariff"
+      ],
+      "coordinates": {
+        "lat": 45.430675,
+        "lon": 12.3347626
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Basilica+Santa+Maria+della+Salute&query_place_id=ChIJ241oDzOwfkcRXyfdym_t-ck",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Operador: abr-oct 9-12/15-17:30, nov-mar 9:30-12:30/15-17:30. Rotonda menor reservada a oración. Sacristía/terraza son otra visita; página contradice martes de sacristía, confirmar y no incluir por defecto. Un billete válido de San Marcos puede cubrir sacristía dentro 6 meses según condiciones, no todas las visitas guiadas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/venice/salute.jpg",
+        "source": "https://www.flickr.com/photos/juanjeorio/39169859384/",
+        "author": "Juanje Orío",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Rotonda mayor gratuita; otras zonas separadas"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "San Marcos y el palacio de la República",
+          "zone": "Piazza → basílica → Palacio Ducal → Riva",
+          "stopIds": [
+            "marco",
+            "basilica",
+            "palace",
+            "riva"
+          ],
+          "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "San Marcos y el palacio de la República",
+          "zone": "Piazza → basílica → Palacio Ducal → Riva",
+          "stopIds": [
+            "marco",
+            "basilica",
+            "palace",
+            "riva"
+          ],
+          "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+        },
+        {
+          "title": "Rialto y Cannaregio",
+          "zone": "Puente Rialto → mercado → Ghetto → Misericordia",
+          "stopIds": [
+            "rialto",
+            "market",
+            "ghetto",
+            "cannaregio"
+          ],
+          "editorialNote": "Mercado por la mañana. Museo Ebraico si horario de la fecha confirmado, no sábado supuesto. Si mercado o museo cerrado reordenar días; no sustituir por cuatro iglesias a la carrera.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas. Maps enlaces 220 m 3 min, 1, 1 km 16 min, 544 m 7 min. Desvíos, puentes e interiores se añaden, no son ruta sin escalones."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "San Marcos y el palacio de la República",
+          "zone": "Piazza → basílica → Palacio Ducal → Riva",
+          "stopIds": [
+            "marco",
+            "basilica",
+            "palace",
+            "riva"
+          ],
+          "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+        },
+        {
+          "title": "Rialto y Cannaregio",
+          "zone": "Puente Rialto → mercado → Ghetto → Misericordia",
+          "stopIds": [
+            "rialto",
+            "market",
+            "ghetto",
+            "cannaregio"
+          ],
+          "editorialNote": "Mercado por la mañana. Museo Ebraico si horario de la fecha confirmado, no sábado supuesto. Si mercado o museo cerrado reordenar días; no sustituir por cuatro iglesias a la carrera.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas. Maps enlaces 220 m 3 min, 1, 1 km 16 min, 544 m 7 min. Desvíos, puentes e interiores se añaden, no son ruta sin escalones."
+        },
+        {
+          "title": "Pintura veneciana y Dorsoduro",
+          "zone": "Accademia → museo → San Trovaso → Zattere → Salute",
+          "stopIds": [
+            "bridge",
+            "accademia",
+            "squero",
+            "zattere",
+            "salute"
+          ],
+          "editorialNote": "Museo al abrir, luego taller sólo desde fuera y comida/paseo. Salute en franja de tarde. No añadir Guggenheim y Punta della Dogana; son alternativas al museo principal.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y descansos. Maps enlaces 79 m 1 min, 261 m 3 min, 250 m 3 min, 840 m 11 min; el recorrido de museo y costa añade tiempo. Ajustar por lunes y culto."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Agua, sombra y pausas; caminar temprano. Puentes y costa expuestos al sol, franjas reservables con antelación.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Acqua alta, niebla y viento pueden cambiar acceso a plaza y paseos. No garantizar panorama ni ruta seca.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Cierres de museos, iglesias y comida independientes. No prometer mercado navideño ni frittelle disponibles todo el año.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Revisar Pascua, eventos y acqua alta. Contribución de acceso según calendario oficial de cada año, no extrapolar 2026.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No hay entradas, mesas ni barcos reservados.",
+    "Contribución de acceso no es billete vaporetto ni tasa de alojamiento. Calendario 2027 publicado 26 mar-15 ago en fechas concretas, 8:30-16:30; FAQ 2027 aún pendientes según portal 29/10/2026. Consultar fecha, exención/registro e importe vigentes, no extrapolar 5/10€ de 2026.",
+    "ACTV oficial:24 h 25€, 48 hdesde 35€, 72 hdesde 45€; no incluye Aerobus aeropuerto. Comparar viajes reales antes de comprar pase, validar y revisar cobertura.",
+    "Accademia mantiene dos tablas oficiales contradictorias 15/20€; confirmar fecha e importe final. Museo Ebraico reabierto 22/10/2026, horario publicado sólo ventana inicial: confirmar futuro."
+  ],
+  "excludedOrOptional": [
+    "Murano y Burano merecen bloque de día con barco y esperas; no se añaden a la tarde de dos museos.",
+    "Góndola y campanario no incluidos automáticamente.",
+    "Guggenheim, Frari y San Rocco son sustituciones, no todos el mismo día."
+  ],
+  "sources": [
+    {
+      "id": "lemming",
+      "title": "Travel Lemming: tres días",
+      "url": "https://travellemming.com/venice-itinerary/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "italy",
+      "title": "Italy 2Love: tres días",
+      "url": "https://www.italy2love.com/3-days-in-venice/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "gambero",
+      "title": "Gambero Rosso: bacari",
+      "url": "https://www.gamberorosso.it/notizie/rubriche/itinerari/venezia-migliori-cicchetti-bacari/",
+      "type": "editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "basilica",
+      "title": "San Marcos: tarifas particulares",
+      "url": "https://tickets.basilicasanmarco.it/en/support/prices",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "tariff",
+      "title": "San Marcos: tarifa abril 2026",
+      "url": "https://www.basilicasanmarco.it/wp-content/uploads/2026/04/11-Tariffario-Biglietti.pdf",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "faq",
+      "title": "San Marcos: horarios y franjas",
+      "url": "https://tickets.basilicasanmarco.it/en/support/faq",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "palace",
+      "title": "Palacio Ducal: visita",
+      "url": "https://palazzoducale.visitmuve.it/en/visitor-information/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "accademia",
+      "title": "Accademia: horario y tarifa principal",
+      "url": "https://www.gallerieaccademia.it/en/visit/opening-hours-and-tickets/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "accold",
+      "title": "Accademia: tabla de tarifas con cambio 2026",
+      "url": "https://www.gallerieaccademia.it/en/admission-information",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "salute",
+      "title": "Salute: horarios",
+      "url": "https://basilicasalutevenezia.it/orari-e-visite-turistiche/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "mev",
+      "title": "Museo Ebraico: reapertura y visita",
+      "url": "https://www.museoebraicovenezia.it/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "reopen",
+      "title": "Ayuntamiento: Museo Ebraico reabierto",
+      "url": "https://live.comune.venezia.it/index.php/it/2026/10/inaugurato-il-rinnovato-museo-ebraico-di-venezia-dopo-sette-anni-di-restauri-damiano-un",
+      "type": "official-news",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "market",
+      "title": "Venezia Unica: mercados",
+      "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/mercati",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "tax",
+      "title": "Ayuntamiento: contribución de acceso 2027",
+      "url": "https://cda.ve.it/it/faq",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "transport",
+      "title": "Venezia Unica: transporte",
+      "url": "https://www.veneziaunica.it/en/buy-tickets/public-trasport-in-venice",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "schiavi",
+      "title": "Schiavi: local y horario",
+      "url": "https://www.cantinaschiavi.com/en/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "zucca",
+      "title": "La Zucca: cocina y horario",
+      "url": "https://www.lazucca.it/en/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "zuccareview",
+      "title": "Eat My Critique: La Zucca",
+      "url": "https://www.eatmycritique.com/foodreviews/lazucca",
+      "type": "review",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "tonolo",
+      "title": "Gambero Rosso: Tonolo",
+      "url": "https://www.gamberorossointernational.com/restaurants/restaurant/tonolo/",
+      "type": "editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "tonolo2",
+      "title": "Dissapore: Tonolo",
+      "url": "https://www.dissapore.com/locali/schede-locali/pasticceria-tonolo-a-venezia/",
+      "type": "editorial",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "San Marcos y el palacio de la República",
+            "zone": "Piazza → basílica → Palacio Ducal → Riva",
+            "stopIds": [
+              "marco",
+              "basilica",
+              "palace",
+              "riva"
+            ],
+            "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "San Marcos y el palacio de la República",
+            "zone": "Piazza → basílica → Palacio Ducal → Riva",
+            "stopIds": [
+              "marco",
+              "basilica",
+              "palace",
+              "riva"
+            ],
+            "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+          },
+          {
+            "title": "Rialto y Cannaregio",
+            "zone": "Puente Rialto → mercado → Ghetto → Misericordia",
+            "stopIds": [
+              "rialto",
+              "market",
+              "ghetto",
+              "cannaregio"
+            ],
+            "editorialNote": "Mercado por la mañana. Museo Ebraico si horario de la fecha confirmado, no sábado supuesto. Si mercado o museo cerrado reordenar días; no sustituir por cuatro iglesias a la carrera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps enlaces 220 m 3 min, 1, 1 km 16 min, 544 m 7 min. Desvíos, puentes e interiores se añaden, no son ruta sin escalones."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "San Marcos y el palacio de la República",
+            "zone": "Piazza → basílica → Palacio Ducal → Riva",
+            "stopIds": [
+              "marco",
+              "basilica",
+              "palace",
+              "riva"
+            ],
+            "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+          },
+          {
+            "title": "Rialto y Cannaregio",
+            "zone": "Puente Rialto → mercado → Ghetto → Misericordia",
+            "stopIds": [
+              "rialto",
+              "market",
+              "ghetto",
+              "cannaregio"
+            ],
+            "editorialNote": "Mercado por la mañana. Museo Ebraico si horario de la fecha confirmado, no sábado supuesto. Si mercado o museo cerrado reordenar días; no sustituir por cuatro iglesias a la carrera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps enlaces 220 m 3 min, 1, 1 km 16 min, 544 m 7 min. Desvíos, puentes e interiores se añaden, no son ruta sin escalones."
+          },
+          {
+            "title": "Pintura veneciana y Dorsoduro",
+            "zone": "Accademia → museo → San Trovaso → Zattere → Salute",
+            "stopIds": [
+              "bridge",
+              "accademia",
+              "squero",
+              "zattere",
+              "salute"
+            ],
+            "editorialNote": "Museo al abrir, luego taller sólo desde fuera y comida/paseo. Salute en franja de tarde. No añadir Guggenheim y Punta della Dogana; son alternativas al museo principal.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Maps enlaces 79 m 1 min, 261 m 3 min, 250 m 3 min, 840 m 11 min; el recorrido de museo y costa añade tiempo. Ajustar por lunes y culto."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "San Marcos y el palacio de la República",
+            "zone": "Piazza → basílica → Palacio Ducal → Riva",
+            "stopIds": [
+              "marco",
+              "basilica",
+              "palace",
+              "riva"
+            ],
+            "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "San Marcos y el palacio de la República",
+            "zone": "Piazza → basílica → Palacio Ducal → Riva",
+            "stopIds": [
+              "marco",
+              "basilica",
+              "palace",
+              "riva"
+            ],
+            "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+          },
+          {
+            "title": "Rialto y Cannaregio",
+            "zone": "Puente Rialto → mercado → Ghetto → Misericordia",
+            "stopIds": [
+              "rialto",
+              "market",
+              "ghetto",
+              "cannaregio"
+            ],
+            "editorialNote": "Mercado por la mañana. Museo Ebraico si horario de la fecha confirmado, no sábado supuesto. Si mercado o museo cerrado reordenar días; no sustituir por cuatro iglesias a la carrera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps enlaces 220 m 3 min, 1, 1 km 16 min, 544 m 7 min. Desvíos, puentes e interiores se añaden, no son ruta sin escalones."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "San Marcos y el palacio de la República",
+            "zone": "Piazza → basílica → Palacio Ducal → Riva",
+            "stopIds": [
+              "marco",
+              "basilica",
+              "palace",
+              "riva"
+            ],
+            "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+          },
+          {
+            "title": "Rialto y Cannaregio",
+            "zone": "Puente Rialto → mercado → Ghetto → Misericordia",
+            "stopIds": [
+              "rialto",
+              "market",
+              "ghetto",
+              "cannaregio"
+            ],
+            "editorialNote": "Mercado por la mañana. Museo Ebraico si horario de la fecha confirmado, no sábado supuesto. Si mercado o museo cerrado reordenar días; no sustituir por cuatro iglesias a la carrera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps enlaces 220 m 3 min, 1, 1 km 16 min, 544 m 7 min. Desvíos, puentes e interiores se añaden, no son ruta sin escalones."
+          },
+          {
+            "title": "Pintura veneciana y Dorsoduro",
+            "zone": "Accademia → museo → San Trovaso → Zattere → Salute",
+            "stopIds": [
+              "bridge",
+              "accademia",
+              "squero",
+              "zattere",
+              "salute"
+            ],
+            "editorialNote": "Museo al abrir, luego taller sólo desde fuera y comida/paseo. Salute en franja de tarde. No añadir Guggenheim y Punta della Dogana; son alternativas al museo principal.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Maps enlaces 79 m 1 min, 261 m 3 min, 250 m 3 min, 840 m 11 min; el recorrido de museo y costa añade tiempo. Ajustar por lunes y culto."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "San Marcos y el palacio de la República",
+            "zone": "Piazza → basílica → Palacio Ducal → Riva",
+            "stopIds": [
+              "marco",
+              "basilica",
+              "palace",
+              "riva"
+            ],
+            "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "San Marcos y el palacio de la República",
+            "zone": "Piazza → basílica → Palacio Ducal → Riva",
+            "stopIds": [
+              "marco",
+              "basilica",
+              "palace",
+              "riva"
+            ],
+            "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+          },
+          {
+            "title": "Rialto y Cannaregio",
+            "zone": "Puente Rialto → mercado → Ghetto → Misericordia",
+            "stopIds": [
+              "rialto",
+              "market",
+              "ghetto",
+              "cannaregio"
+            ],
+            "editorialNote": "Mercado por la mañana. Museo Ebraico si horario de la fecha confirmado, no sábado supuesto. Si mercado o museo cerrado reordenar días; no sustituir por cuatro iglesias a la carrera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps enlaces 220 m 3 min, 1, 1 km 16 min, 544 m 7 min. Desvíos, puentes e interiores se añaden, no son ruta sin escalones."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "San Marcos y el palacio de la República",
+            "zone": "Piazza → basílica → Palacio Ducal → Riva",
+            "stopIds": [
+              "marco",
+              "basilica",
+              "palace",
+              "riva"
+            ],
+            "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+          },
+          {
+            "title": "Rialto y Cannaregio",
+            "zone": "Puente Rialto → mercado → Ghetto → Misericordia",
+            "stopIds": [
+              "rialto",
+              "market",
+              "ghetto",
+              "cannaregio"
+            ],
+            "editorialNote": "Mercado por la mañana. Museo Ebraico si horario de la fecha confirmado, no sábado supuesto. Si mercado o museo cerrado reordenar días; no sustituir por cuatro iglesias a la carrera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps enlaces 220 m 3 min, 1, 1 km 16 min, 544 m 7 min. Desvíos, puentes e interiores se añaden, no son ruta sin escalones."
+          },
+          {
+            "title": "Pintura veneciana y Dorsoduro",
+            "zone": "Accademia → museo → San Trovaso → Zattere → Salute",
+            "stopIds": [
+              "bridge",
+              "accademia",
+              "squero",
+              "zattere",
+              "salute"
+            ],
+            "editorialNote": "Museo al abrir, luego taller sólo desde fuera y comida/paseo. Salute en franja de tarde. No añadir Guggenheim y Punta della Dogana; son alternativas al museo principal.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Maps enlaces 79 m 1 min, 261 m 3 min, 250 m 3 min, 840 m 11 min; el recorrido de museo y costa añade tiempo. Ajustar por lunes y culto."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "San Marcos y el palacio de la República",
+            "zone": "Piazza → basílica → Palacio Ducal → Riva",
+            "stopIds": [
+              "marco",
+              "basilica",
+              "palace",
+              "riva"
+            ],
+            "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "San Marcos y el palacio de la República",
+            "zone": "Piazza → basílica → Palacio Ducal → Riva",
+            "stopIds": [
+              "marco",
+              "basilica",
+              "palace",
+              "riva"
+            ],
+            "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+          },
+          {
+            "title": "Rialto y Cannaregio",
+            "zone": "Puente Rialto → mercado → Ghetto → Misericordia",
+            "stopIds": [
+              "rialto",
+              "market",
+              "ghetto",
+              "cannaregio"
+            ],
+            "editorialNote": "Mercado por la mañana. Museo Ebraico si horario de la fecha confirmado, no sábado supuesto. Si mercado o museo cerrado reordenar días; no sustituir por cuatro iglesias a la carrera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps enlaces 220 m 3 min, 1, 1 km 16 min, 544 m 7 min. Desvíos, puentes e interiores se añaden, no son ruta sin escalones."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "San Marcos y el palacio de la República",
+            "zone": "Piazza → basílica → Palacio Ducal → Riva",
+            "stopIds": [
+              "marco",
+              "basilica",
+              "palace",
+              "riva"
+            ],
+            "editorialNote": "Reservar franjas compatibles, no inventar entradas. Domingo basílica después 14 h: hacer palacio antes o cambiar orden de días. Basílica sólo 45 min sin extras y palacio como bloque largo; campanario y Correr quedan fuera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas, estimación editorial. Maps enlaces 124 m 1 min, 187 m 2 min, 271 m 3 min; no incluyen interiores ni acceso por controles."
+          },
+          {
+            "title": "Rialto y Cannaregio",
+            "zone": "Puente Rialto → mercado → Ghetto → Misericordia",
+            "stopIds": [
+              "rialto",
+              "market",
+              "ghetto",
+              "cannaregio"
+            ],
+            "editorialNote": "Mercado por la mañana. Museo Ebraico si horario de la fecha confirmado, no sábado supuesto. Si mercado o museo cerrado reordenar días; no sustituir por cuatro iglesias a la carrera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps enlaces 220 m 3 min, 1, 1 km 16 min, 544 m 7 min. Desvíos, puentes e interiores se añaden, no son ruta sin escalones."
+          },
+          {
+            "title": "Pintura veneciana y Dorsoduro",
+            "zone": "Accademia → museo → San Trovaso → Zattere → Salute",
+            "stopIds": [
+              "bridge",
+              "accademia",
+              "squero",
+              "zattere",
+              "salute"
+            ],
+            "editorialNote": "Museo al abrir, luego taller sólo desde fuera y comida/paseo. Salute en franja de tarde. No añadir Guggenheim y Punta della Dogana; son alternativas al museo principal.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y descansos. Maps enlaces 79 m 1 min, 261 m 3 min, 250 m 3 min, 840 m 11 min; el recorrido de museo y costa añade tiempo. Ajustar por lunes y culto."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [],
+  "editorialTradeoffs": [],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": ""
+}

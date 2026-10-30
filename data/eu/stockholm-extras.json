@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "cityId": "stockholm",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "meat",
+      "name": "Meatballs for the People",
+      "address": "Nytorgsgatan 30, 116 40 Stockholm, Sweden",
+      "description": "Clásico sueco en Södermalm, cerca de Nytorget: comida de mesa sin volver al centro.",
+      "strength": "Albóndigas con puré, pepino encurtido y arándano rojo; carne o versión vegetal a confirmar con personal.",
+      "caution": "PDF oficial junio 2026 clásico 6 albóndigas 256 SEK, 8 por 286, 10 por 296; ciervo/reno/alce y otros suplementos, no precio plano. Salsa clásica es de ternera, aunque bola sea vegetal pedir guarnición/salsa apta. Efectivo no; horario local 11-22:30 lun-jue/dom, 11-24 vie-sáb; confirmar cocina y espera.",
+      "alert": "PDF oficial junio 2026 clásico 6 albóndigas 256 SEK, 8 por 286, 10 por 296; ciervo/reno/alce y otros suplementos, no precio plano. Salsa clásica es de ternera, aunque bola sea vegetal pedir guarnición/salsa apta. Efectivo no; horario local 11-22:30 lun-jue/dom, 11-24 vie-sáb; confirmar cocina y espera.",
+      "priceLabel": "Clásico desde 256 SEK+cambios/bebida",
+      "photo": {
+        "img": "assets/stockholm/meat.jpg",
+        "source": "https://www.flickr.com/photos/kentwang/25023586284/",
+        "author": "Kent Wang",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Plato de Meatballs for the People, archivo: no variedad ni precio actual garantizados. Recorte de presentación."
+      },
+      "officialUrl": "https://meatball.se/menu",
+      "editorialUrl": "https://www.timeout.com/stockholm/restaurants/how-to-eat-like-a-local-in-stockholm",
+      "sourceUrls": [
+        "https://meatball.se/menu",
+        "https://www.timeout.com/stockholm/restaurants/how-to-eat-like-a-local-in-stockholm"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Meatballs+for+the+People&query_place_id=ChIJbYc9vPl3X0YR00NA50Rzmxw",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas, sin reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "hermans",
+      "name": "Hermans · bufé vegetal",
+      "address": "Fjällgatan 23B, 116 28 Stockholm, Sweden",
+      "description": "Comida vegetal en la ladera de Södermalm, útil cerca de Fotografiska sin confundir mesa con vista garantizada.",
+      "strength": "Bufé de platos vegetales, pan y hummus; almuerzo laborable incluye café/té según web.",
+      "caution": "Almuerzo lun-vie 11-16 a 195 SEK; cena/fin de semana 285 SEK. Web inglés sólo completa lun-jue 11-21 y dom 12-21, viernes/sábado consultar, no inventar cierre. Bufé cierra 1 h antes del local. Bebidas/postres fuera de lo indicado por menú pueden costar aparte.",
+      "alert": "Almuerzo lun-vie 11-16 a 195 SEK; cena/fin de semana 285 SEK. Web inglés sólo completa lun-jue 11-21 y dom 12-21, viernes/sábado consultar, no inventar cierre. Bufé cierra 1 h antes del local. Bebidas/postres fuera de lo indicado por menú pueden costar aparte.",
+      "priceLabel": "195 SEK almuerzo / 285 SEK cena y fin de semana",
+      "photo": {
+        "img": "assets/stockholm/hermans.jpg",
+        "source": "https://www.flickr.com/photos/ellaolsson/42231145040/",
+        "author": "Ella Olsson",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Platos vegetales ilustrativos de otro establecimiento, no Hermans ni su bufé actual. Recorte de presentación."
+      },
+      "officialUrl": "https://hermans.se/en/",
+      "editorialUrl": "https://www.redsightseeing.com/stockholm/blog/stockholm-food-guide-best-places-to-eat/",
+      "sourceUrls": [
+        "https://hermans.se/en/",
+        "https://www.redsightseeing.com/stockholm/blog/stockholm-food-guide-best-places-to-eat/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hermans&query_place_id=ChIJhcH3Ofl3X0YRspJafWpcGM4",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas, sin reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "bakery",
+      "name": "Skeppsbro Bageri · fika",
+      "address": "Tullhus 1, Skeppsbron 21, 111 30 Stockholm, Sweden",
+      "description": "Panadería de Gamla Stan junto al agua, para café y bollo sin desvío a otra isla.",
+      "strength": "Pan de masa madre y bollería, con opciones de desayuno/bocadillo y sopa según temporada.",
+      "caution": "Sede Tullhus 1, Skeppsbron 21. Principal lun-vie 7-18, sáb-dom 8-18; subpágina café dice 7-18 también finde: contradicción, ir desde 8 o confirmar. Precio actual no verificado; no atribuir premio 2025 a 2026 ni menú permanente.",
+      "alert": "Sede Tullhus 1, Skeppsbron 21. Principal lun-vie 7-18, sáb-dom 8-18; subpágina café dice 7-18 también finde: contradicción, ir desde 8 o confirmar. Precio actual no verificado; no atribuir premio 2025 a 2026 ni menú permanente.",
+      "priceLabel": "Fika · consultar precio/tamaño",
+      "photo": {
+        "img": "assets/stockholm/bakery.jpg",
+        "source": "https://www.flickr.com/photos/nina_i/4470524877/",
+        "author": "optische_taeuschung",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Bollo de canela ilustrativo de otro establecimiento, no Skeppsbro Bageri. Recorte de presentación."
+      },
+      "officialUrl": "https://www.skeppsbrobageri.com/",
+      "editorialUrl": "https://www.redsightseeing.com/stockholm/blog/stockholm-food-guide-best-places-to-eat/",
+      "sourceUrls": [
+        "https://www.skeppsbrobageri.com/",
+        "https://www.redsightseeing.com/stockholm/blog/stockholm-food-guide-best-places-to-eat/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Skeppsbro+Bakery&query_place_id=ChIJxV-0U_13X0YR-4Xn2B0txgA",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas, sin reserva ni apertura futura garantizada."
+    }
+  ],
+  "activities": []
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "cityId": "tallinn",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "rataskaevu",
+      "name": "Rataskaevu 16",
+      "address": "Rataskaevu tn 16, 10123 Tallinn, Estonia",
+      "description": "Mesa de cocina estonia en la ciudad vieja, para comer con calma tras recorrer Vanalinn.",
+      "strength": "Pescado blanco del día, carrillera de cerdo o asado de alce; rollo de col con lentejas marcado vegano.",
+      "caution": "Principales 16,80-29,40€; pescado 23,80€, alce 29,40€, col vegana 18,80€. No 16-26 plano de guía. Sede Rataskaevu 16, no Väike Niguliste 6. Lun-jue/dom 12-23, vie-sáb 12-24, confirmar cocina/reserva. Foto vegetal de otro local, no plato actual.",
+      "alert": "Principales 16,80-29,40€; pescado 23,80€, alce 29,40€, col vegana 18,80€. No 16-26 plano de guía. Sede Rataskaevu 16, no Väike Niguliste 6. Lun-jue/dom 12-23, vie-sáb 12-24, confirmar cocina/reserva. Foto vegetal de otro local, no plato actual.",
+      "priceLabel": "Principales 16,80-29,40€ · bebidas aparte",
+      "photo": {
+        "img": "assets/tallinn/rataskaevu.jpg",
+        "source": "https://www.flickr.com/photos/ellaolsson/42231145040/",
+        "author": "Ella Olsson",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Platos vegetales ilustrativos de otro establecimiento, no Rataskaevu 16 ni su carta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.rataskaevu16.ee/menu",
+      "editorialUrl": "https://www.tallinn-trip.com/guides/best-restaurants-in-tallinn/",
+      "sourceUrls": [
+        "https://www.rataskaevu16.ee/menu",
+        "https://www.rataskaevu16.ee/",
+        "https://www.tallinn-trip.com/guides/best-restaurants-in-tallinn/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant+Rataskaevu+16&query_place_id=ChIJAcfoe2KTkkYR1m02V1YbrAo",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas, sin reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "fhoone",
+      "name": "F-hoone · Telliskivi",
+      "address": "Telliskivi tn 60a-4, 10412 Tallinn, Estonia",
+      "description": "Café-restaurante informal en una antigua fábrica, con una carta distinta de los clásicos de Vanalinn.",
+      "strength": "Coliflor asada vegana, pelmeni, pescado o platos de inspiración asiática según carta.",
+      "caution": "Oficial SÍ acepta reservas, teléfono/email: guía dice no reservas y se descarta. Lun-jue 10-23, vie-sáb 10-24, dom 10-22; cocina cierra 1 h antes. Coliflor 12,80€, otros precios incompletos en web, no inventar rango. Hamburguesa vegetal lleva cheddar y brioche, no automáticamente vegana.",
+      "alert": "Oficial SÍ acepta reservas, teléfono/email: guía dice no reservas y se descarta. Lun-jue 10-23, vie-sáb 10-24, dom 10-22; cocina cierra 1 h antes. Coliflor 12,80€, otros precios incompletos en web, no inventar rango. Hamburguesa vegetal lleva cheddar y brioche, no automáticamente vegana.",
+      "priceLabel": "Coliflor 12,80€ · demás consultar",
+      "photo": {
+        "img": "assets/tallinn/fhoone.jpg",
+        "source": "https://www.flickr.com/photos/sami73/8089592331/",
+        "author": "Sami Keinänen",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Exterior nocturno de F-hoone, archivo, no plato ni terraza actual garantizados. Recorte de presentación."
+      },
+      "officialUrl": "https://www.fhoone.ee/menuu/",
+      "editorialUrl": "https://www.tallinn-trip.com/guides/best-restaurants-in-tallinn/",
+      "sourceUrls": [
+        "https://www.fhoone.ee/menuu/",
+        "https://www.fhoone.ee/en/",
+        "https://www.tallinn-trip.com/guides/best-restaurants-in-tallinn/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=F-Hoone&query_place_id=ChIJQZ7mwn2TkkYRt6ZGdLFe0Wg",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas, sin reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "rost",
+      "name": "RØST · panadería de Rotermann",
+      "address": "Rotermanni tn 14, 10111 Tallinn, Estonia",
+      "description": "Café y bollo en Rotermann, cerca del centro, como pausa aparte y no supuesto local de Telliskivi.",
+      "strength": "Pan de masa madre, bollos de canela/cardamomo y bocadillos según producción.",
+      "caution": "Rotermanni 14. Oficial lun-vie 8:30-18, sáb 9:30-17, domingo CERRADO; web Rotermann dice sábado 10, discrepancia: ir desde 10 o confirmar. Precio actual no verificado, venta depende de hornada. Foto de bollos de otro establecimiento explícitamente ilustrativa.",
+      "alert": "Rotermanni 14. Oficial lun-vie 8:30-18, sáb 9:30-17, domingo CERRADO; web Rotermann dice sábado 10, discrepancia: ir desde 10 o confirmar. Precio actual no verificado, venta depende de hornada. Foto de bollos de otro establecimiento explícitamente ilustrativa.",
+      "priceLabel": "Café/bollería · precio por confirmar",
+      "photo": {
+        "img": "assets/tallinn/rost.jpg",
+        "source": "https://www.flickr.com/photos/aerust/27021273762/",
+        "author": "Alexandra E Rust",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Bollos nórdicos ilustrativos de otro establecimiento, no RØST ni su producción actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.rost.ee/",
+      "editorialUrl": "https://rotermann.ee/en/soo-poodle-kulasta/rost-bakery-cafe/",
+      "sourceUrls": [
+        "https://www.rost.ee/",
+        "https://www.rost.ee/",
+        "https://rotermann.ee/en/soo-poodle-kulasta/rost-bakery-cafe/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=R%C3%98ST+Bakery&query_place_id=ChIJP73vtWCTkkYRAAmn7hNt9aM",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas, sin reserva ni apertura futura garantizada."
+    }
+  ],
+  "activities": []
+}

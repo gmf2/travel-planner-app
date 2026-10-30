@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "cityId": "barcelona",
+  "reviewedAt": "2026-10-29",
+  "scope": "Cuatro formatos: tapas con cocina, vegetariano, arroces sentados y chocolate. Sin cuota artificial.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "pla",
+      "name": "Bar del Pla · Born",
+      "address": "Carrer de Montcada, 2, Ciutat Vella, 08003 Barcelona, Spain",
+      "description": "Tapas y platos para una comida sentada en el eje del segundo día.",
+      "strength": "Canelón, guisos y platos vegetales de temporada, con carta de vinos; no sólo fritura y sangría.",
+      "caution": "Carta cambia. Reservar si se quiere mesa; el horario propio no lista domingo, comprobar antes de contar con él.",
+      "officialUrl": "https://www.bardelpla.cat/en/",
+      "sourceUrls": [
+        "https://www.bardelpla.cat/en/"
+      ],
+      "editorialUrl": "https://www.lonelyplanet.com/articles/the-best-places-to-eat-tapas-in-barcelona",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar+del+Pla&query_place_id=ChIJlxLxp_6ipBIRNCx_SbYvUPs",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia y sucursal exacta Maps contrastadas 29/10/2026; no reserva ni apertura futura confirmada.",
+      "priceLabel": "Tapas sentadas / precio medio · consultar carta",
+      "photo": {
+        "img": "assets/barcelona/pla.jpg",
+        "source": "https://www.pexels.com/photo/delicious-spanish-tapas-on-dining-table-37964137/",
+        "author": "Vincent Rivaud",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de tapas para compartir: no es del local ni garantiza ingredientes o presentación de su carta."
+      }
+    },
+    {
+      "id": "teresa",
+      "name": "Teresa Carles · Jovellanos",
+      "address": "Carrer de Jovellanos, 2, Ciutat Vella, 08001 Barcelona, Spain",
+      "description": "Cocina vegetariana para salir del patrón de carne, pescado y tapas.",
+      "strength": "Bomba vegana, fricandó de seitán y fideuà de ajo negro según carta vigente.",
+      "caution": "Vegetariano no significa todo vegano ni sin alérgenos. La propia carta advierte que no garantiza ausencia de contaminación cruzada.",
+      "officialUrl": "https://teresacarles.com/en/the-menu/",
+      "sourceUrls": [
+        "https://teresacarles.com/en/the-menu/"
+      ],
+      "editorialUrl": "https://www.timeout.com/barcelona/restaurants/teresa-carles",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Teresa+Carles&query_place_id=ChIJH1MVbvSipBIRl_BB017gBB4",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia y sucursal exacta Maps contrastadas 29/10/2026; no reserva ni apertura futura confirmada.",
+      "priceLabel": "Restaurante vegetariano · consultar menú y bebidas",
+      "photo": {
+        "img": "assets/barcelona/teresa.jpg",
+        "source": "https://www.pexels.com/photo/colorful-vegetarian-platter-at-outdoor-venue-36701475/",
+        "author": "Anil Sharma",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de plato vegetal: no es del local ni garantiza ingredientes o presentación de su carta."
+      }
+    },
+    {
+      "id": "portes",
+      "name": "7 Portes · Passeig Isabel II",
+      "address": "Pg. d'Isabel II, 14, Ciutat Vella, 08003 Barcelona, Spain",
+      "description": "Arroces y cocina catalana en una comida más larga cerca de Born/Port Vell.",
+      "strength": "Carta con arroces negros, Parellada y fideuà; una opción de arroz en vez de otra ronda de tapas.",
+      "caution": "No confundir con La Barra 7 Portes. Arroz publicado no es total de comida: bebidas, entrantes y postres aparte.",
+      "officialUrl": "https://7portes.com/en/restaurant-7-portes-menu/",
+      "sourceUrls": [
+        "https://7portes.com/en/restaurant-7-portes-menu/"
+      ],
+      "editorialUrl": "https://www.theinfatuation.com/barcelona/reviews/7-portes",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=7+Portes&query_place_id=ChIJUbEvx_-ipBIRtgarQLBWDZ0",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia y sucursal exacta Maps contrastadas 29/10/2026; no reserva ni apertura futura confirmada.",
+      "priceLabel": "Mesa / presupuesto medio-alto · carta actual",
+      "photo": {
+        "img": "assets/barcelona/portes.jpg",
+        "source": "https://www.pexels.com/photo/traditional-spanish-dish-with-seafood-served-in-the-pan-8969237/",
+        "author": "Dorota Semla",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de arroz con marisco: no es del local ni garantiza ingredientes o presentación de su carta."
+      }
+    },
+    {
+      "id": "pallaresa",
+      "name": "La Pallaresa · Petritxol",
+      "address": "Carrer de Petritxol, 11, Ciutat Vella, 08002 Barcelona, Spain",
+      "description": "Chocolate y merienda tradicional durante el paseo por el Gòtic.",
+      "strength": "Chocolate espeso, suizo, melindros y postres de granja; no otro restaurante de comida completa.",
+      "caution": "Cierra entre 13 y 16 h (domingo hasta 17 h). No programar la merienda dentro de esa pausa; puede haber cola.",
+      "officialUrl": "https://onacg3.wixsite.com/lapallaresa/en",
+      "sourceUrls": [
+        "https://onacg3.wixsite.com/lapallaresa/en"
+      ],
+      "editorialUrl": "https://www.timeout.es/barcelona/es/restaurantes/granja-la-pallaresa",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Pallaresa&query_place_id=ChIJxRk1pPeipBIR8GzB_4D6JmM",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia y sucursal exacta Maps contrastadas 29/10/2026; no reserva ni apertura futura confirmada.",
+      "priceLabel": "Desayuno / merienda · consultar carta",
+      "photo": {
+        "img": "assets/barcelona/palla.jpg",
+        "source": "https://www.pexels.com/photo/freshly-made-churros-with-chocolate-sauce-delight-30128913/",
+        "author": "Sylwester Ficek",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de churros con chocolate: no es del local ni garantiza ingredientes o presentación de su carta."
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "miro",
+      "name": "Fundació Joan Miró · Montjuïc",
+      "address": "Parc de Montjuïc, s/n, Sants-Montjuïc, 08038 Barcelona, Spain",
+      "description": "Arte de Miró y arquitectura de Sert como alternativa al interior del MNAC, no una visita adicional obligatoria.",
+      "caution": "Cerrada los lunes salvo excepciones publicadas. Noviembre-marzo 10-19 h; abril-octubre martes-sábado 10-20 h y domingo hasta 19 h. Tarifa general web 17 €, taquilla 18 € en revisión; comprobar fecha, exposiciones y reducciones.",
+      "alert": "Elegir en lugar de otro interior en Montjuïc.",
+      "duration": "90-120 min · alternativa de interior para el tercer día",
+      "officialUrl": "https://www.fmirobcn.org/en/visit-us/plan-your-visit/",
+      "sourceUrls": [
+        "https://www.fmirobcn.org/en/visit-us/plan-your-visit/",
+        "https://www.fmirobcn.org/en/visit-us/tickets/"
+      ],
+      "editorialUrl": "https://www.fmirobcn.org/en/visit-us/plan-your-visit/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fundaci%C3%B3+Joan+Mir%C3%B3&query_place_id=ChIJLcelLmmipBIRqmlJrcEfypY",
+      "statusCheckedAt": "2026-10-29",
+      "priceLabel": "Museo de pago · consultar fecha",
+      "photo": {
+        "img": "assets/barcelona/miro.jpg",
+        "source": "https://www.pexels.com/photo/modern-architecture-at-joan-miro-foundation-barcelona-39395910/",
+        "author": "Zoi Gaitanarou",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Arquitectura de la Fundació Joan Miró"
+      }
+    },
+    {
+      "id": "palau",
+      "name": "Concierto en el Palau de la Música Catalana",
+      "address": "C/ Palau de la Música, 4-6, Ciutat Vella, 08003 Barcelona, Spain",
+      "description": "Una noche de música en una sala modernista, si la programación y el tipo de concierto encajan con el viaje.",
+      "caution": "Programación, duración, precio y condiciones varían por concierto. Una visita al edificio no es una entrada de concierto. No prometer flamenco ni una función diaria.",
+      "alert": "Consultar la fecha y elegir la función antes de contar con esta noche.",
+      "duration": "Tarde o noche · según concierto y entrada",
+      "officialUrl": "https://www.palaumusica.cat/en/programes",
+      "sourceUrls": [
+        "https://www.palaumusica.cat/en/programes"
+      ],
+      "editorialUrl": "https://www.palaumusica.cat/en/programes",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Palau+de+la+M%C3%BAsica+Catalana&query_place_id=ChIJQQSrd_qipBIRQ2xzarVkqn8",
+      "statusCheckedAt": "2026-10-29",
+      "priceLabel": "Concierto de pago · precio según función",
+      "photo": {
+        "img": "assets/barcelona/palau.jpg",
+        "source": "https://www.pexels.com/photo/the-interior-of-the-palau-de-la-musica-catalana-10412985/",
+        "author": "Manuel Torres Garcia",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Interior del Palau de la Música Catalana: no confirma concierto ni localidad."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1311 @@
+{
+  "schemaVersion": 1,
+  "country": "PT",
+  "id": "lisbon",
+  "name": "Lisboa",
+  "localName": "Lisboa",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita de 1-3 días, sin fecha concreta. Un interior principal por día y paseos por zonas. Ninguna entrada, mesa, transporte o actuación está reservado.",
+  "stops": [
+    {
+      "id": "castelo",
+      "name": "Castillo de São Jorge",
+      "kind": "visit",
+      "zone": "Colina del Castelo",
+      "reason": "Murallas y vistas para empezar en lo alto y bajar después por Alfama.",
+      "sourceIds": [
+        "castelo",
+        "casteloticket",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 38.7139092,
+        "lon": -9.1334762
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Castelo+de+S%C3%A3o+Jorge&query_place_id=ChIJm8MOtHc0GQ0R1zPkmUFwwLQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 17 €. Marzo-octubre 9-21 h; noviembre-febrero 9-18 h. Cierra 1/1, 1/5, 24/12, 25/12 y 31/12. El museo del Castillo figura temporalmente cerrado; no equivale al cierre de todo el recinto. Torres según luz y seguridad.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "castelo",
+        "img": "assets/lisbon/castelo.jpg",
+        "source": "https://www.pexels.com/photo/scenic-view-of-lisbon-with-sao-jorge-castle-39400250/",
+        "author": "Igor Passchier",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Castillo de São Jorge visto desde otra colina. La foto no representa el acceso. Recorte de presentación."
+      },
+      "visitMode": "Recinto principal de pago; entrada por comprar"
+    },
+    {
+      "id": "sol",
+      "name": "Portas do Sol y Santa Luzia",
+      "kind": "visit",
+      "zone": "Alfama alta",
+      "reason": "Dos miradores próximos para ver los tejados y el Tajo antes de bajar al barrio.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 38.7119253,
+        "lon": -9.1299568
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Miradouro+das+Portas+do+Sol&query_place_id=ChIJlwybZnY0GQ0RwvOJskKjhrs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Cuestas, escaleras y adoquines; acortar con lluvia o movilidad limitada. No son accesos accesibles verificados.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/lisbon/sol.jpg",
+        "source": "https://www.flickr.com/photos/vitor107/45202275525/",
+        "author": "Vitor Oliveira",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Mirador Portas do Sol, foto de archivo. Recorte de presentación."
+      },
+      "visitMode": "Miradores exteriores"
+    },
+    {
+      "id": "alfama",
+      "name": "Alfama · paseo por el barrio",
+      "kind": "visit",
+      "zone": "Alfama",
+      "reason": "Calles pequeñas y plazas para pasear y comer al bajar; punto orientativo en Largo de São Miguel.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 38.7109946,
+        "lon": -9.1292535
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Largo+de+S%C3%A3o+Miguel&query_place_id=ChIJfxrbgnY0GQ0RnqedH1zin90",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Zona habitada: respetar puertas, vecinos y ropa tendida. El paseo no incluye casas de fado ni entrada a São Vicente.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "alfama",
+        "img": "assets/lisbon/alfama.jpg",
+        "source": "https://www.pexels.com/photo/scenic-view-of-lisbon-s-alfama-district-28537823/",
+        "author": "Julias Torten und Törtchen",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto de contexto: tejados de Alfama, no es una foto de Largo de São Miguel. Recorte de presentación."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "se",
+      "name": "Sé de Lisboa · exterior",
+      "kind": "visit",
+      "zone": "Sé / Alfama baja",
+      "reason": "Fachada de la catedral en el descenso hacia la ribera.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 38.7098339,
+        "lon": -9.1329535
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Lisbon+Cathedral&query_place_id=ChIJm9xRPnc0GQ0RGWK34RwdbpI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "caution": "No se promete acceso litúrgico ni visita al tesoro. Tranvías de las fotos no confirman recorrido o servicio actual.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "se",
+        "img": "assets/lisbon/se.jpg",
+        "source": "https://www.pexels.com/photo/historic-tram-passing-by-lisbon-cathedral-in-alfama-39588527/",
+        "author": "Laura Arnedo",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Sé de Lisboa desde la calle; foto de archivo con tranvía, no confirma su servicio. Recorte de presentación."
+      },
+      "visitMode": "Exterior; visita turística interior no incluida"
+    },
+    {
+      "id": "comercio",
+      "name": "Praça do Comércio y ribera",
+      "kind": "visit",
+      "zone": "Baixa / Tajo",
+      "reason": "Plaza porticada y orilla del Tajo para terminar el descenso del casco antiguo.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 38.7072828,
+        "lon": -9.1363613
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a+do+Com%C3%A9rcio&query_place_id=ChIJY0ulMHo0GQ0RROAoa18vUzA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "Arco da Rua Augusta: subida de pago no incluida. No se presupone embarque ni crucero.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "comercio",
+        "img": "assets/lisbon/comercio.jpg",
+        "source": "https://www.pexels.com/photo/praca-do-comercio-22086565/",
+        "author": "Carlos Maciel",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "View of Praça do Comércio in Lisbon, showcasing its iconic architecture and vibrant atmosphere. Stock Photo"
+      },
+      "visitMode": "Plaza y paseo exterior"
+    },
+    {
+      "id": "jeronimos",
+      "name": "Monasterio de los Jerónimos",
+      "kind": "visit",
+      "zone": "Belém",
+      "reason": "El claustro manuelino es la visita principal del día de Belém.",
+      "sourceIds": [
+        "jeronimos",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 38.6978909,
+        "lon": -9.2067039
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Jer%C3%B3nimos+Monastery&query_place_id=ChIJS5zCw0LLHg0R7euWjjRddYc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Claustro martes-domingo 9:30-17:30, última entrada 17 h; tarifa general 18 €. Cierra lunes, 1/1, Domingo de Pascua, 1/5, 13/6, 25/12. Iglesia con horario distinto, domingos/festivos desde 14 h. Cambiar el orden de días si cae lunes.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/lisbon/jeronimos.jpg",
+        "source": "https://www.flickr.com/photos/debord/4932649087/",
+        "author": "Véronique Debord-Lazaro",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Claustro del Monasterio de los Jerónimos. Recorte de presentación."
+      },
+      "visitMode": "Claustro de pago; comprobar entrada y fecha"
+    },
+    {
+      "id": "padrao",
+      "name": "Padrão dos Descobrimentos · exterior",
+      "kind": "visit",
+      "zone": "Belém / ribera",
+      "reason": "Monumento y explanada junto al Tajo entre el monasterio y la torre.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 38.6935973,
+        "lon": -9.2057115
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Monument+to+the+Discoveries&query_place_id=ChIJScpeDUTLHg0RGeb5iw7wSH8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Llegar por pasos peatonales señalizados, no cruzar la avenida ni las vías fuera de ellos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "padrao",
+        "img": "assets/lisbon/padrao.jpg",
+        "source": "https://www.pexels.com/photo/monument-to-the-discoveries-in-lisbon-portugal-35497596/",
+        "author": "Efrem Efre ",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Iconic Monument to the Discoveries against a blue sky in Lisbon, showcasing Portuguese exploration history. Stock Photo"
+      },
+      "visitMode": "Exterior; mirador de pago no incluido"
+    },
+    {
+      "id": "belem",
+      "name": "Torre de Belém · exterior",
+      "kind": "visit",
+      "zone": "Belém oeste",
+      "reason": "La torre junto al agua cierra el paseo monumental de Belém.",
+      "sourceIds": [
+        "belem",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 38.6915837,
+        "lon": -9.2159773
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Bel%C3%A9m+Tower&query_place_id=ChIJS5zCw0LLHg0RP1FSz63cAjA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Reabierta al público en mayo de 2026 tras restauración; el acceso interior funciona por franjas. Consultar la visita del día. No se incluye una segunda visita interior ni se garantiza acceso a la pasarela.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "belem",
+        "img": "assets/lisbon/belem.jpg",
+        "source": "https://www.pexels.com/photo/historic-belem-tower-on-sunny-day-28962514/",
+        "author": "Vincent Rivaud",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Scenic view of Belém Tower in Lisbon, Portugal with clear blue sky. Stock Photo"
+      },
+      "visitMode": "Exterior; interior como alternativa al claustro"
+    },
+    {
+      "id": "maat",
+      "name": "MAAT · arquitectura y ribera",
+      "kind": "visit",
+      "zone": "Belém este",
+      "reason": "Museo contemporáneo como alternativa a Jerónimos o paseo exterior más corto por la ribera.",
+      "sourceIds": [
+        "maat",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 38.6958561,
+        "lon": -9.193312
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=MAAT+-+Museum+of+Art%2C+Architecture+and+Technology&query_place_id=ChIJkfTl003LHg0RxFtZGUxQE8s",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Miércoles-lunes 10-19 h, martes cerrado. Cierra 1/1, 1/5, 25/12; 24/12 y 31/12 desde 15 h. Entrada exposiciones no residentes 16 €, residentes 12 €. Azotea/exterior sujetos al acceso del día.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "maat",
+        "img": "assets/lisbon/maat.jpg",
+        "source": "https://www.pexels.com/photo/maat-museum-lisbon-at-sunset-37555058/",
+        "author": "Niklas Jeromin",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Elegant view of MAAT Museum in Lisbon, featuring modern architecture against a sunset sky. Stock Photo"
+      },
+      "visitMode": "Alternativa de museo, no añadido al claustro"
+    },
+    {
+      "id": "rossio",
+      "name": "Rossio y Baixa",
+      "kind": "visit",
+      "zone": "Baixa",
+      "reason": "Plazas y calles de la Baixa para un día de escala más tranquila al oeste del casco antiguo.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 38.7138802,
+        "lon": -9.139051
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a+Dom+Pedro+IV&query_place_id=ChIJF3tuWoczGQ0RgmNpOPhsjYM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "La fachada de la estación no implica billete de tren ni visita interior guiada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "rossio",
+        "img": "assets/lisbon/rossio.jpg",
+        "source": "https://www.pexels.com/photo/rossio-square-in-lisbon-on-a-busy-day-38008384/",
+        "author": "Ndumiso Zimu",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Bustling scene at Rossio Square, Lisbon, with crowd and iconic monument under a blue sky. Stock Photo"
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "carmo",
+      "name": "Convento y Museo del Carmo",
+      "kind": "visit",
+      "zone": "Largo do Carmo",
+      "reason": "Arcos abiertos al cielo y museo arqueológico para el interior principal de esta jornada.",
+      "sourceIds": [
+        "carmo",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 38.7120383,
+        "lon": -9.1406129
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Carmo+Archaeological+Museum&query_place_id=ChIJP8YuN380GQ0R7yzgkmX11zI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Adultos 7 €. Lunes-sábado 10-18 h noviembre-abril y 10-19 h mayo-octubre. Cierra domingos, 1/1, 1/5, 25/12. Parte del recorrido está al aire libre. Semana Santa y 26/12-6/1: horario ampliado 10-19 h, excepto cierres.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "carmo",
+        "img": "assets/lisbon/carmo.jpg",
+        "source": "https://www.pexels.com/photo/walls-of-carmo-convent-in-lisbon-11124695/",
+        "author": "Pexels User",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Gothic arches of the Carmo Convent ruins in Lisbon under a clear blue sky. Stock Photo"
+      },
+      "visitMode": "Museo de pago; domingo elegir paseo exterior"
+    },
+    {
+      "id": "chiado",
+      "name": "Chiado · Praça Luís de Camões",
+      "kind": "visit",
+      "zone": "Chiado",
+      "reason": "Cafés, librerías y fachadas para pasear sin cambiar de barrio.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 38.7105849,
+        "lon": -9.1434764
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a+Lu%C3%ADs+de+Cam%C3%B5es&query_place_id=ChIJXV2qrX80GQ0RXr5cIDF9VgE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "No se incluye viaje en Santa Justa ni ascensores. Elegir recorrido según pendientes y estado del servicio.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/lisbon/chiado.jpg",
+        "source": "https://www.flickr.com/photos/scalleja/460803589/",
+        "author": "Sergio Calleja (Life is a trip)",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Praça Luís de Camões, foto de archivo. Recorte de presentación."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "alcantara",
+      "name": "Miradouro de São Pedro de Alcântara",
+      "kind": "visit",
+      "zone": "Bairro Alto",
+      "reason": "Terraza ajardinada con vista hacia el Castillo y la ciudad baja.",
+      "sourceIds": [
+        "mm",
+        "le",
+        "carris"
+      ],
+      "coordinates": {
+        "lat": 38.7153095,
+        "lon": -9.144176200000002
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Miradouro+de+S%C3%A3o+Pedro+de+Alc%C3%A2ntara&query_place_id=ChIJYQgAN4AzGQ0RoeNtM3J56xs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Acceso a pie con pendiente; no se promete el funicular de Glória. Consultar CARRIS para cualquier transporte.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/lisbon/alcantara.jpg",
+        "source": "https://www.flickr.com/photos/brostad/3901816752/",
+        "author": "Bernt Rostad",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Terraza y vistas del Miradouro de São Pedro de Alcântara. Recorte de presentación."
+      },
+      "visitMode": "Mirador exterior"
+    },
+    {
+      "id": "estrela",
+      "name": "Jardim da Estrela",
+      "kind": "visit",
+      "zone": "Estrela",
+      "reason": "Jardín para una pausa larga y un final de día opcional lejos de las colas del centro.",
+      "sourceIds": [
+        "estrela",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 38.714765,
+        "lon": -9.1592575
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Jardim+da+Estrela&query_place_id=ChIJqzZCU2MzGQ0RkegDvwGR1ys",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Desde Alcântara hay 1, 4 km/21 min a pie, con relieve. Puede sustituir el mirador si se prefiere verde. No se garantizan mercados, conciertos ni ferias.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/lisbon/estrela.jpg",
+        "source": "https://www.flickr.com/photos/andreamann/8186738657/",
+        "author": "Andrea Mann",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Jardim da Estrela, foto de archivo. Recorte de presentación."
+      },
+      "visitMode": "Alternativa de jardín; no visita interior a la basílica"
+    },
+    {
+      "id": "sintra",
+      "name": "Sintra · parque y Palacio da Pena",
+      "kind": "excursion",
+      "zone": "Fuera de Lisboa",
+      "reason": "Un día propio entre el parque y el palacio de Pena, con tiempo para el centro de Sintra.",
+      "sourceIds": [
+        "pena",
+        "cp",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 38.7875851,
+        "lon": -9.3906089
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=National+Palace+of+Pena&query_place_id=ChIJZ1qc8r_aHg0RWDtny30aJ3c",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 480,
+      "durationType": "editorial-estimate",
+      "caution": "El billete del palacio requiere fecha/hora y llegar al interior a esa hora, sin tolerancia al retraso. Desde puerta del parque al palacio contar unos 30 min. Transfer interno aparte según billete. Cambiar por plan urbano con tormenta o riesgo de incendio.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Elegir Pena y paseo por el centro. Regaleira puede sustituir Pena; no se apilan tres palacios y Cascais.",
+      "photo": {
+        "id": "pena",
+        "img": "assets/lisbon/pena.jpg",
+        "source": "https://www.pexels.com/photo/the-pena-palace-under-blue-sky-5511316/",
+        "author": "Mike van Schoonderwalt",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Yellow and white domed architecture of Pena Palace in Sintra, Portugal, on a sunny day. Stock Photo"
+      }
+    },
+    {
+      "id": "cascais",
+      "name": "Cascais · casco antiguo y bahía",
+      "kind": "excursion",
+      "zone": "Fuera de Lisboa",
+      "reason": "Paseo de costa y comida junto a la bahía como alternativa al día urbano.",
+      "sourceIds": [
+        "cascais",
+        "cp",
+        "le"
+      ],
+      "coordinates": {
+        "lat": 38.70016409999999,
+        "lon": -9.4167522
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Praia+da+Ribeira+de+Cascais&query_place_id=ChIJ2-TPwi3EHg0RBR_5vSfZ0NY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 360,
+      "durationType": "editorial-estimate",
+      "caution": "No combinar con Pena y Cabo da Roca en una sola jornada. Acortar con viento o lluvia; no se verifica accesibilidad ni agua apta para baño.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Centro, Praia da Ribeira y paseo litoral según tiempo. No incluye surf ni garantiza baño.",
+      "photo": {
+        "id": "cascais",
+        "img": "assets/lisbon/cascais.jpg",
+        "source": "https://www.pexels.com/photo/beach-and-sea-shore-in-town-19632191/",
+        "author": "joao Guerreiro",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "A stunning aerial view of Cascais with its beach, Ferris wheel, and historic buildings by the sea. Stock Photo"
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Castillo, Alfama y descenso al Tajo",
+          "zone": "Castelo → Alfama → Sé → ribera",
+          "stopIds": [
+            "castelo",
+            "sol",
+            "alfama",
+            "se",
+            "comercio"
+          ],
+          "editorialNote": "Castillo como única visita larga de pago. Empezar arriba y bajar por Alfama; no añadir Belém ni Chiado esta tarde. Si no se entra al Castillo, ampliar las pausas en Alfama y la ribera.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Castillo, Alfama y descenso al Tajo",
+          "zone": "Castelo → Alfama → Sé → ribera",
+          "stopIds": [
+            "castelo",
+            "sol",
+            "alfama",
+            "se",
+            "comercio"
+          ],
+          "editorialNote": "Castillo como única visita larga de pago. Empezar arriba y bajar por Alfama; no añadir Belém ni Chiado esta tarde. Si no se entra al Castillo, ampliar las pausas en Alfama y la ribera.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+        },
+        {
+          "title": "Belém: claustro y paseo por el río",
+          "zone": "Jerónimos → Padrão → Torre de Belém",
+          "stopIds": [
+            "jeronimos",
+            "padrao",
+            "belem"
+          ],
+          "editorialNote": "Un interior principal y pausa para comer en Belém. MAAT sustituye el claustro si se prefiere arte contemporáneo o si Jerónimos cierra; no se suman ambos museos. Interior de la Torre sólo como sustitución y con franja disponible.",
+          "optionalStopIds": [
+            "maat"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10: Jerónimos→Padrão 0, 6 km/8 min; →Torre 0, 9 km/12 min. Comércio→Jerónimos 25 min en transporte consultado para 30/10 a 9 h; añadir margen para esperas/cambios CARRIS. No es trayecto garantizado."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Castillo, Alfama y descenso al Tajo",
+          "zone": "Castelo → Alfama → Sé → ribera",
+          "stopIds": [
+            "castelo",
+            "sol",
+            "alfama",
+            "se",
+            "comercio"
+          ],
+          "editorialNote": "Castillo como única visita larga de pago. Empezar arriba y bajar por Alfama; no añadir Belém ni Chiado esta tarde. Si no se entra al Castillo, ampliar las pausas en Alfama y la ribera.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+        },
+        {
+          "title": "Belém: claustro y paseo por el río",
+          "zone": "Jerónimos → Padrão → Torre de Belém",
+          "stopIds": [
+            "jeronimos",
+            "padrao",
+            "belem"
+          ],
+          "editorialNote": "Un interior principal y pausa para comer en Belém. MAAT sustituye el claustro si se prefiere arte contemporáneo o si Jerónimos cierra; no se suman ambos museos. Interior de la Torre sólo como sustitución y con franja disponible.",
+          "optionalStopIds": [
+            "maat"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10: Jerónimos→Padrão 0, 6 km/8 min; →Torre 0, 9 km/12 min. Comércio→Jerónimos 25 min en transporte consultado para 30/10 a 9 h; añadir margen para esperas/cambios CARRIS. No es trayecto garantizado."
+        },
+        {
+          "title": "Baixa, Carmo y Chiado",
+          "zone": "Rossio → Carmo → Chiado → Bairro Alto",
+          "stopIds": [
+            "rossio",
+            "carmo",
+            "chiado",
+            "alcantara"
+          ],
+          "editorialNote": "Carmo como visita principal si abre. El domingo se mantiene el paseo por plazas y Chiado sin prometer el museo; Estrela es una alternativa tranquila, no otro extremo obligatorio. No se exige salir de Lisboa para completar tres días.",
+          "optionalStopIds": [
+            "estrela"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h flexibles con comida. Maps 29/10: Rossio→Carmo 0, 5 km/8 min; →Camões 0, 4 km/5 min; →São Pedro 0, 6 km/9 min. Estrela añade 1, 4 km/21 min desde el mirador: puede sustituirlo en vez de añadirse."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Empezar pronto en las colinas, agua y pausas de sombra. Reservar con margen los interiores elegidos; los paseos de ribera dependen del calor y viento.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Menos luz y adoquines resbaladizos. Acortar miradores con lluvia; no sumar museos para compensar ni dar por abierto el funicular.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Revisar 24/25/31 diciembre y 1 enero. Castillo cierra esas fechas; Jerónimos y Carmo también tienen cierres. No se prometen mercadillos ni programación todavía no contrastada.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Buen margen para paseos con cambios de tiempo. Ajustar colinas y jardines a lluvia/viento y consultar las franjas de los interiores.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Reordenar Belém si Jerónimos cae lunes; Carmo cierra domingo.",
+    "La necesidad de entrada con horario no significa que haya una reserva hecha.",
+    "Cuestas y adoquines: los puntos de Maps no son accesos accesibles verificados.",
+    "Consultar cambios CARRIS: no se promete viaje en 28E, Glória o Santa Justa."
+  ],
+  "excludedOrOptional": [
+    "Se omiten tranvía 28 y elevadores como obligación: colas y cambios de servicio no deben gobernar el día.",
+    "Panteón, São Vicente y museos de Belém quedan fuera de la ruta base para no apilar interiores.",
+    "Sintra y Cascais son alternativas de jornada; no se juntan con Belém ni entre sí."
+  ],
+  "sources": [
+    {
+      "id": "vc",
+      "title": "Viajeros Callejeros: Lisboa en tres días",
+      "url": "https://www.viajeroscallejeros.com/lisboa-en-3-dias/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "mm",
+      "title": "Mochileando: Lisboa en tres días",
+      "url": "https://www.mochileandoporelmundo.com/lisboa-en-3-dias/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "le",
+      "title": "Lisboa.es: rutas de tres días",
+      "url": "https://www.lisboa.es/lisboa-en-tres-dias/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "casteloticket",
+      "title": "Castillo: entradas",
+      "url": "https://castelodesaojorge.pt/en/plan-your-visit/choose-your-ticket/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "castelo",
+      "title": "Castillo: horarios y avisos",
+      "url": "https://castelodesaojorge.pt/en/plan-your-visit/schedules/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "jeronimos",
+      "title": "Jerónimos: horarios y entrada",
+      "url": "https://www.museusemonumentos.pt/en/museus-e-monumentos/jeronimos-monastery",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "belem",
+      "title": "Belém: reapertura mayo de 2026",
+      "url": "https://www.museusemonumentos.pt/pt/noticia-com/torre-de-belem-reabre-ao-publico",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "carmo",
+      "title": "Museo del Carmo: acceso",
+      "url": "https://www.museuarqueologicodocarmo.pt/info_en.html",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "maat",
+      "title": "MAAT: visita y tarifas",
+      "url": "https://maat.pt/en/plan-a-visit",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "estrela",
+      "title": "Turismo de Lisboa: Jardim da Estrela",
+      "url": "https://www.visitlisboa.com/en/places/jardim-da-estrela",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "pena",
+      "title": "Pena: entrada con hora y llegada al palacio",
+      "url": "https://www.parquesdesintra.pt/en/plan-your-visit/tickets-palace-of-pena/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "cp",
+      "title": "CP: billetes y validación",
+      "url": "https://www.cp.pt/info/en/w/tickets-lisbon",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "cascais",
+      "title": "CP: línea de Cascais",
+      "url": "https://www.cp.pt/info/documents/d/cp/comboios-urbanos-lisboa-cascais",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "carris",
+      "title": "CARRIS: cambios actuales de servicio",
+      "url": "https://www.carris.pt/viaje/alteracoes-de-servico/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Castillo, Alfama y descenso al Tajo",
+            "zone": "Castelo → Alfama → Sé → ribera",
+            "stopIds": [
+              "castelo",
+              "sol",
+              "alfama",
+              "se",
+              "comercio"
+            ],
+            "editorialNote": "Castillo como única visita larga de pago. Empezar arriba y bajar por Alfama; no añadir Belém ni Chiado esta tarde. Si no se entra al Castillo, ampliar las pausas en Alfama y la ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Castillo, Alfama y descenso al Tajo",
+            "zone": "Castelo → Alfama → Sé → ribera",
+            "stopIds": [
+              "castelo",
+              "sol",
+              "alfama",
+              "se",
+              "comercio"
+            ],
+            "editorialNote": "Castillo como única visita larga de pago. Empezar arriba y bajar por Alfama; no añadir Belém ni Chiado esta tarde. Si no se entra al Castillo, ampliar las pausas en Alfama y la ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+          },
+          {
+            "title": "Belém: claustro y paseo por el río",
+            "zone": "Jerónimos → Padrão → Torre de Belém",
+            "stopIds": [
+              "jeronimos",
+              "padrao",
+              "belem"
+            ],
+            "editorialNote": "Un interior principal y pausa para comer en Belém. MAAT sustituye el claustro si se prefiere arte contemporáneo o si Jerónimos cierra; no se suman ambos museos. Interior de la Torre sólo como sustitución y con franja disponible.",
+            "optionalStopIds": [
+              "maat"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10: Jerónimos→Padrão 0, 6 km/8 min; →Torre 0, 9 km/12 min. Comércio→Jerónimos 25 min en transporte consultado para 30/10 a 9 h; añadir margen para esperas/cambios CARRIS. No es trayecto garantizado."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Castillo, Alfama y descenso al Tajo",
+            "zone": "Castelo → Alfama → Sé → ribera",
+            "stopIds": [
+              "castelo",
+              "sol",
+              "alfama",
+              "se",
+              "comercio"
+            ],
+            "editorialNote": "Castillo como única visita larga de pago. Empezar arriba y bajar por Alfama; no añadir Belém ni Chiado esta tarde. Si no se entra al Castillo, ampliar las pausas en Alfama y la ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+          },
+          {
+            "title": "Belém: claustro y paseo por el río",
+            "zone": "Jerónimos → Padrão → Torre de Belém",
+            "stopIds": [
+              "jeronimos",
+              "padrao",
+              "belem"
+            ],
+            "editorialNote": "Un interior principal y pausa para comer en Belém. MAAT sustituye el claustro si se prefiere arte contemporáneo o si Jerónimos cierra; no se suman ambos museos. Interior de la Torre sólo como sustitución y con franja disponible.",
+            "optionalStopIds": [
+              "maat"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10: Jerónimos→Padrão 0, 6 km/8 min; →Torre 0, 9 km/12 min. Comércio→Jerónimos 25 min en transporte consultado para 30/10 a 9 h; añadir margen para esperas/cambios CARRIS. No es trayecto garantizado."
+          },
+          {
+            "title": "Baixa, Carmo y Chiado",
+            "zone": "Rossio → Carmo → Chiado → Bairro Alto",
+            "stopIds": [
+              "rossio",
+              "carmo",
+              "chiado",
+              "alcantara"
+            ],
+            "editorialNote": "Carmo como visita principal si abre. El domingo se mantiene el paseo por plazas y Chiado sin prometer el museo; Estrela es una alternativa tranquila, no otro extremo obligatorio. No se exige salir de Lisboa para completar tres días.",
+            "optionalStopIds": [
+              "estrela"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h flexibles con comida. Maps 29/10: Rossio→Carmo 0, 5 km/8 min; →Camões 0, 4 km/5 min; →São Pedro 0, 6 km/9 min. Estrela añade 1, 4 km/21 min desde el mirador: puede sustituirlo en vez de añadirse."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Castillo, Alfama y descenso al Tajo",
+            "zone": "Castelo → Alfama → Sé → ribera",
+            "stopIds": [
+              "castelo",
+              "sol",
+              "alfama",
+              "se",
+              "comercio"
+            ],
+            "editorialNote": "Castillo como única visita larga de pago. Empezar arriba y bajar por Alfama; no añadir Belém ni Chiado esta tarde. Si no se entra al Castillo, ampliar las pausas en Alfama y la ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Castillo, Alfama y descenso al Tajo",
+            "zone": "Castelo → Alfama → Sé → ribera",
+            "stopIds": [
+              "castelo",
+              "sol",
+              "alfama",
+              "se",
+              "comercio"
+            ],
+            "editorialNote": "Castillo como única visita larga de pago. Empezar arriba y bajar por Alfama; no añadir Belém ni Chiado esta tarde. Si no se entra al Castillo, ampliar las pausas en Alfama y la ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+          },
+          {
+            "title": "Belém: claustro y paseo por el río",
+            "zone": "Jerónimos → Padrão → Torre de Belém",
+            "stopIds": [
+              "jeronimos",
+              "padrao",
+              "belem"
+            ],
+            "editorialNote": "Un interior principal y pausa para comer en Belém. MAAT sustituye el claustro si se prefiere arte contemporáneo o si Jerónimos cierra; no se suman ambos museos. Interior de la Torre sólo como sustitución y con franja disponible.",
+            "optionalStopIds": [
+              "maat"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10: Jerónimos→Padrão 0, 6 km/8 min; →Torre 0, 9 km/12 min. Comércio→Jerónimos 25 min en transporte consultado para 30/10 a 9 h; añadir margen para esperas/cambios CARRIS. No es trayecto garantizado."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Castillo, Alfama y descenso al Tajo",
+            "zone": "Castelo → Alfama → Sé → ribera",
+            "stopIds": [
+              "castelo",
+              "sol",
+              "alfama",
+              "se",
+              "comercio"
+            ],
+            "editorialNote": "Castillo como única visita larga de pago. Empezar arriba y bajar por Alfama; no añadir Belém ni Chiado esta tarde. Si no se entra al Castillo, ampliar las pausas en Alfama y la ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+          },
+          {
+            "title": "Belém: claustro y paseo por el río",
+            "zone": "Jerónimos → Padrão → Torre de Belém",
+            "stopIds": [
+              "jeronimos",
+              "padrao",
+              "belem"
+            ],
+            "editorialNote": "Un interior principal y pausa para comer en Belém. MAAT sustituye el claustro si se prefiere arte contemporáneo o si Jerónimos cierra; no se suman ambos museos. Interior de la Torre sólo como sustitución y con franja disponible.",
+            "optionalStopIds": [
+              "maat"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10: Jerónimos→Padrão 0, 6 km/8 min; →Torre 0, 9 km/12 min. Comércio→Jerónimos 25 min en transporte consultado para 30/10 a 9 h; añadir margen para esperas/cambios CARRIS. No es trayecto garantizado."
+          },
+          {
+            "title": "Baixa, Carmo y Chiado",
+            "zone": "Rossio → Carmo → Chiado → Bairro Alto",
+            "stopIds": [
+              "rossio",
+              "carmo",
+              "chiado",
+              "alcantara"
+            ],
+            "editorialNote": "Carmo como visita principal si abre. El domingo se mantiene el paseo por plazas y Chiado sin prometer el museo; Estrela es una alternativa tranquila, no otro extremo obligatorio. No se exige salir de Lisboa para completar tres días.",
+            "optionalStopIds": [
+              "estrela"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h flexibles con comida. Maps 29/10: Rossio→Carmo 0, 5 km/8 min; →Camões 0, 4 km/5 min; →São Pedro 0, 6 km/9 min. Estrela añade 1, 4 km/21 min desde el mirador: puede sustituirlo en vez de añadirse."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Castillo, Alfama y descenso al Tajo",
+            "zone": "Castelo → Alfama → Sé → ribera",
+            "stopIds": [
+              "sol",
+              "alfama",
+              "se",
+              "comercio"
+            ],
+            "editorialNote": "Paseo exterior de Alfama con pausas. Castillo sólo si el día elegido abre: cierra 24/25/31 diciembre y 1 enero; no se promete entrada.",
+            "optionalStopIds": [
+              "castelo"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Castillo, Alfama y descenso al Tajo",
+            "zone": "Castelo → Alfama → Sé → ribera",
+            "stopIds": [
+              "sol",
+              "alfama",
+              "se",
+              "comercio"
+            ],
+            "editorialNote": "Paseo exterior de Alfama con pausas. Castillo sólo si el día elegido abre: cierra 24/25/31 diciembre y 1 enero; no se promete entrada.",
+            "optionalStopIds": [
+              "castelo"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+          },
+          {
+            "title": "Belém: claustro y paseo por el río",
+            "zone": "Jerónimos → Padrão → Torre de Belém",
+            "stopIds": [
+              "jeronimos",
+              "padrao",
+              "belem"
+            ],
+            "editorialNote": "Un interior principal y pausa para comer en Belém. MAAT sustituye el claustro si se prefiere arte contemporáneo o si Jerónimos cierra; no se suman ambos museos. Interior de la Torre sólo como sustitución y con franja disponible.",
+            "optionalStopIds": [
+              "maat"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10: Jerónimos→Padrão 0, 6 km/8 min; →Torre 0, 9 km/12 min. Comércio→Jerónimos 25 min en transporte consultado para 30/10 a 9 h; añadir margen para esperas/cambios CARRIS. No es trayecto garantizado."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Castillo, Alfama y descenso al Tajo",
+            "zone": "Castelo → Alfama → Sé → ribera",
+            "stopIds": [
+              "sol",
+              "alfama",
+              "se",
+              "comercio"
+            ],
+            "editorialNote": "Paseo exterior de Alfama con pausas. Castillo sólo si el día elegido abre: cierra 24/25/31 diciembre y 1 enero; no se promete entrada.",
+            "optionalStopIds": [
+              "castelo"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+          },
+          {
+            "title": "Belém: claustro y paseo por el río",
+            "zone": "Jerónimos → Padrão → Torre de Belém",
+            "stopIds": [
+              "jeronimos",
+              "padrao",
+              "belem"
+            ],
+            "editorialNote": "Un interior principal y pausa para comer en Belém. MAAT sustituye el claustro si se prefiere arte contemporáneo o si Jerónimos cierra; no se suman ambos museos. Interior de la Torre sólo como sustitución y con franja disponible.",
+            "optionalStopIds": [
+              "maat"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10: Jerónimos→Padrão 0, 6 km/8 min; →Torre 0, 9 km/12 min. Comércio→Jerónimos 25 min en transporte consultado para 30/10 a 9 h; añadir margen para esperas/cambios CARRIS. No es trayecto garantizado."
+          },
+          {
+            "title": "Baixa, Carmo y Chiado",
+            "zone": "Rossio → Carmo → Chiado → Bairro Alto",
+            "stopIds": [
+              "rossio",
+              "carmo",
+              "chiado",
+              "alcantara"
+            ],
+            "editorialNote": "Carmo como visita principal si abre. El domingo se mantiene el paseo por plazas y Chiado sin prometer el museo; Estrela es una alternativa tranquila, no otro extremo obligatorio. No se exige salir de Lisboa para completar tres días.",
+            "optionalStopIds": [
+              "estrela"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h flexibles con comida. Maps 29/10: Rossio→Carmo 0, 5 km/8 min; →Camões 0, 4 km/5 min; →São Pedro 0, 6 km/9 min. Estrela añade 1, 4 km/21 min desde el mirador: puede sustituirlo en vez de añadirse."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Castillo, Alfama y descenso al Tajo",
+            "zone": "Castelo → Alfama → Sé → ribera",
+            "stopIds": [
+              "castelo",
+              "sol",
+              "alfama",
+              "se",
+              "comercio"
+            ],
+            "editorialNote": "Castillo como única visita larga de pago. Empezar arriba y bajar por Alfama; no añadir Belém ni Chiado esta tarde. Si no se entra al Castillo, ampliar las pausas en Alfama y la ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Castillo, Alfama y descenso al Tajo",
+            "zone": "Castelo → Alfama → Sé → ribera",
+            "stopIds": [
+              "castelo",
+              "sol",
+              "alfama",
+              "se",
+              "comercio"
+            ],
+            "editorialNote": "Castillo como única visita larga de pago. Empezar arriba y bajar por Alfama; no añadir Belém ni Chiado esta tarde. Si no se entra al Castillo, ampliar las pausas en Alfama y la ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+          },
+          {
+            "title": "Belém: claustro y paseo por el río",
+            "zone": "Jerónimos → Padrão → Torre de Belém",
+            "stopIds": [
+              "jeronimos",
+              "padrao",
+              "belem"
+            ],
+            "editorialNote": "Un interior principal y pausa para comer en Belém. MAAT sustituye el claustro si se prefiere arte contemporáneo o si Jerónimos cierra; no se suman ambos museos. Interior de la Torre sólo como sustitución y con franja disponible.",
+            "optionalStopIds": [
+              "maat"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10: Jerónimos→Padrão 0, 6 km/8 min; →Torre 0, 9 km/12 min. Comércio→Jerónimos 25 min en transporte consultado para 30/10 a 9 h; añadir margen para esperas/cambios CARRIS. No es trayecto garantizado."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Castillo, Alfama y descenso al Tajo",
+            "zone": "Castelo → Alfama → Sé → ribera",
+            "stopIds": [
+              "castelo",
+              "sol",
+              "alfama",
+              "se",
+              "comercio"
+            ],
+            "editorialNote": "Castillo como única visita larga de pago. Empezar arriba y bajar por Alfama; no añadir Belém ni Chiado esta tarde. Si no se entra al Castillo, ampliar las pausas en Alfama y la ribera.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps 29/10: Castillo→Portas do Sol 0, 3 km/4 min; →São Miguel 0, 3 km/5 min; →Sé 0, 5 km/7 min; →Comércio 0, 5 km/7 min. Son enlaces, no visita completa; cuestas y escaleras aparte."
+          },
+          {
+            "title": "Belém: claustro y paseo por el río",
+            "zone": "Jerónimos → Padrão → Torre de Belém",
+            "stopIds": [
+              "jeronimos",
+              "padrao",
+              "belem"
+            ],
+            "editorialNote": "Un interior principal y pausa para comer en Belém. MAAT sustituye el claustro si se prefiere arte contemporáneo o si Jerónimos cierra; no se suman ambos museos. Interior de la Torre sólo como sustitución y con franja disponible.",
+            "optionalStopIds": [
+              "maat"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10: Jerónimos→Padrão 0, 6 km/8 min; →Torre 0, 9 km/12 min. Comércio→Jerónimos 25 min en transporte consultado para 30/10 a 9 h; añadir margen para esperas/cambios CARRIS. No es trayecto garantizado."
+          },
+          {
+            "title": "Baixa, Carmo y Chiado",
+            "zone": "Rossio → Carmo → Chiado → Bairro Alto",
+            "stopIds": [
+              "rossio",
+              "carmo",
+              "chiado",
+              "alcantara"
+            ],
+            "editorialNote": "Carmo como visita principal si abre. El domingo se mantiene el paseo por plazas y Chiado sin prometer el museo; Estrela es una alternativa tranquila, no otro extremo obligatorio. No se exige salir de Lisboa para completar tres días.",
+            "optionalStopIds": [
+              "estrela"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h flexibles con comida. Maps 29/10: Rossio→Carmo 0, 5 km/8 min; →Camões 0, 4 km/5 min; →São Pedro 0, 6 km/9 min. Estrela añade 1, 4 km/21 min desde el mirador: puede sustituirlo en vez de añadirse."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [
+    {
+      "id": "sintra",
+      "name": "Sintra · parque y Palacio da Pena",
+      "zone": "Fuera de Lisboa",
+      "lat": 38.7875851,
+      "lon": -9.3906089,
+      "coordSource": "https://www.google.com/maps/search/?api=1&query=National+Palace+of+Pena&query_place_id=ChIJZ1qc8r_aHg0RWDtny30aJ3c",
+      "minutes": 480,
+      "sourceIds": [
+        "pena",
+        "cp",
+        "mm"
+      ],
+      "priority": "Alternativa opcional de jornada",
+      "reason": "Un día propio entre el parque y el palacio de Pena, con tiempo para el centro de Sintra.",
+      "visit": "Elegir Pena y paseo por el centro. Regaleira puede sustituir Pena; no se apilan tres palacios y Cascais.",
+      "transport": "Tren desde Rossio a Sintra y transporte local hasta Pena. Revisar CP y la conexión del día; el tren no llega al palacio. No se admite coche privado desde el centro histórico hasta Pena.",
+      "pacing": "7-9 h con traslados, comida y visita, estimación editorial.",
+      "caution": "El billete del palacio requiere fecha/hora y llegar al interior a esa hora, sin tolerancia al retraso. Desde puerta del parque al palacio contar unos 30 min. Transfer interno aparte según billete. Cambiar por plan urbano con tormenta o riesgo de incendio.",
+      "url": "https://www.parquesdesintra.pt/en/plan-your-visit/tickets-palace-of-pena/",
+      "kind": "excursion",
+      "reviewedAt": "2026-10-29",
+      "closedMonthDays": [],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "access": "https://www.parquesdesintra.pt/en/plan-your-visit/tickets-palace-of-pena/",
+      "photo": {
+        "id": "pena",
+        "img": "assets/lisbon/pena.jpg",
+        "source": "https://www.pexels.com/photo/the-pena-palace-under-blue-sky-5511316/",
+        "author": "Mike van Schoonderwalt",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Yellow and white domed architecture of Pena Palace in Sintra, Portugal, on a sunny day. Stock Photo"
+      }
+    },
+    {
+      "id": "cascais",
+      "name": "Cascais · casco antiguo y bahía",
+      "zone": "Fuera de Lisboa",
+      "lat": 38.70016409999999,
+      "lon": -9.4167522,
+      "coordSource": "https://www.google.com/maps/search/?api=1&query=Praia+da+Ribeira+de+Cascais&query_place_id=ChIJ2-TPwi3EHg0RBR_5vSfZ0NY",
+      "minutes": 360,
+      "sourceIds": [
+        "cascais",
+        "cp",
+        "le"
+      ],
+      "priority": "Alternativa opcional de jornada",
+      "reason": "Paseo de costa y comida junto a la bahía como alternativa al día urbano.",
+      "visit": "Centro, Praia da Ribeira y paseo litoral según tiempo. No incluye surf ni garantiza baño.",
+      "transport": "Tren CP desde Cais do Sodré a Cascais; horario publicado muestra viajes de unos 40 min. Añadir acceso y espera. Validar el billete antes de embarcar.",
+      "pacing": "5-7 h con ida/vuelta, comida y paseo, estimación editorial.",
+      "caution": "No combinar con Pena y Cabo da Roca en una sola jornada. Acortar con viento o lluvia; no se verifica accesibilidad ni agua apta para baño.",
+      "url": "https://www.cp.pt/info/documents/d/cp/comboios-urbanos-lisboa-cascais",
+      "kind": "excursion",
+      "reviewedAt": "2026-10-29",
+      "closedMonthDays": [],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "access": "https://www.cp.pt/info/documents/d/cp/comboios-urbanos-lisboa-cascais",
+      "photo": {
+        "id": "cascais",
+        "img": "assets/lisbon/cascais.jpg",
+        "source": "https://www.pexels.com/photo/beach-and-sea-shore-in-town-19632191/",
+        "author": "joao Guerreiro",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "A stunning aerial view of Cascais with its beach, Ferris wheel, and historic buildings by the sea. Stock Photo"
+      }
+    }
+  ],
+  "excursionDefault": "urban",
+  "editorialAudit": [
+    "Tres guías leídas antes de elegir bloques. Fuentes de operadores revisadas después; Maps contrasta ubicación y enlaces 29/10/2026.",
+    "Se descartó la primera foto propuesta para Rossio: no mostraba la plaza correcta. Sustituida por vista identificable de Rossio y columna de Pedro IV.",
+    "Torre Belém reabrió mayo 2026: noticia 2025 de cierre no es estado vigente."
+  ],
+  "editorialTradeoffs": [
+    "Tres bloques urbanos independientes evitan volver otro día a la misma colina.",
+    "Castillo/claustro/Carmo son visitas principales; MAAT sustituye el claustro.",
+    "No copiar Sintra con tres palacios+Cascais que proponen guías de afiliación."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Viajeros Callejeros y Mochileando juntan varios barrios e interiores en una jornada; Lisboa.es separa mejor Belém, pero acumula museos y excursiones. Síntesis propia: descenso Alfama, Belém con un interior, Baixa/Chiado con pausas."
+}

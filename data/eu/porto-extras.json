@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "cityId": "porto",
+  "reviewedAt": "2026-10-29",
+  "scope": "Cuatro formatos sin cuota: cachorrinho, francesinha, buffet vegetal y pausa dulce; una bodega opcional.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "gazela",
+      "name": "Gazela · Cimo de Vila",
+      "address": "Tv. do Cimo de Vila 4, 4000-434 Porto, Portugal",
+      "description": "Cachorrinho tostado y picante para una comida breve cerca de São Bento.",
+      "strength": "Especialidad local de salchicha en pan fino, distinta de una comida larga de francesinha.",
+      "caution": "Sucursal Travessa do Cimo de Vila 4. Web: lunes-sábado 12-22:30 h; no confundir con Entreparedes o Alexandre Herculano. Local pequeño, puede haber espera. Foto de contexto de São Bento, no del local.",
+      "alert": "Sucursal Travessa do Cimo de Vila 4. Web: lunes-sábado 12-22:30 h; no confundir con Entreparedes o Alexandre Herculano. Local pequeño, puede haber espera. Foto de contexto de São Bento, no del local.",
+      "officialUrl": "http://cervejariagazela.pt/",
+      "sourceUrls": [
+        "http://cervejariagazela.pt/"
+      ],
+      "editorialUrl": "https://www.timeout.pt/porto/pt/restaurantes/os-melhores-restaurantes-no-porto",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gazela&query_place_id=ChIJgSq_0-VkJA0RxjiPioKLL3A",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia, guía editorial y sucursal Maps contrastadas 29/10/2026. No confirma mesa ni apertura futura.",
+      "priceLabel": "Consultar carta actual · sin precio de reseñas antiguas",
+      "photo": {
+        "img": "assets/porto/bento.jpg",
+        "source": "https://www.flickr.com/photos/alainrouiller/33133609281/",
+        "author": "Alain Rouiller",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "São Bento: foto de contexto de la zona, no es Gazela ni su cachorrinho. Recorte de presentación."
+      }
+    },
+    {
+      "id": "brasao",
+      "name": "Brasão Aliados",
+      "address": "R. de Ramalho Ortigão 28, 4000-407 Porto, Portugal",
+      "description": "Francesinha y cerveza para una comida sentada cerca de Aliados.",
+      "strength": "Una elección de plato contundente, no una sucesión de bocadillos por varios locales.",
+      "caution": "Sucursal Ramalho Ortigão 28. Almuerzo diario 12-16:30 h; cena desde 18:30, cierre 23:30 o 00 h según día. Reservar si la hora importa y comprobar carta/alérgenos. Foto ilustrativa de otro local.",
+      "alert": "Sucursal Ramalho Ortigão 28. Almuerzo diario 12-16:30 h; cena desde 18:30, cierre 23:30 o 00 h según día. Reservar si la hora importa y comprobar carta/alérgenos. Foto ilustrativa de otro local.",
+      "officialUrl": "https://www.brasao.pt/pt/contactos",
+      "sourceUrls": [
+        "https://www.brasao.pt/pt/contactos"
+      ],
+      "editorialUrl": "https://www.timeout.com/porto/restaurants/brasao-cervejaria",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bras%C3%A3o+Aliados&query_place_id=ChIJ_dfatPxkJA0RdeN-V4teCuw",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia, guía editorial y sucursal Maps contrastadas 29/10/2026. No confirma mesa ni apertura futura.",
+      "priceLabel": "Consultar carta actual · sin precio de reseñas antiguas",
+      "photo": {
+        "img": "assets/porto/brasao.jpg",
+        "source": "https://www.flickr.com/photos/wordridden/9047261979/",
+        "author": "WordRidden",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Francesinha ilustrativa en otro local: no es de Brasão ni representa su carta. Recorte de presentación."
+      }
+    },
+    {
+      "id": "daterra",
+      "name": "daTerra Baixa",
+      "address": "R. de Mouzinho da Silveira 249, 4050-421 Porto, Portugal",
+      "description": "Buffet vegetal para comer en el centro sin depender de platos de carne o marisco.",
+      "strength": "Verduras, cereales y legumbres en formato buffet; una opción vegetal de comida completa.",
+      "caution": "Sucursal Mouzinho da Silveira 249. Horario publicado 12-15:30 y 19-22:30 h diario; página de servicios menciona snacks de tarde: confirmar servicio concreto. Consultar alérgenos y condiciones del buffet, no prometer libre de contaminación cruzada.",
+      "alert": "Sucursal Mouzinho da Silveira 249. Horario publicado 12-15:30 y 19-22:30 h diario; página de servicios menciona snacks de tarde: confirmar servicio concreto. Consultar alérgenos y condiciones del buffet, no prometer libre de contaminación cruzada.",
+      "officialUrl": "https://www.daterra.pt/contactos-daterra-baixa/",
+      "sourceUrls": [
+        "https://www.daterra.pt/contactos-daterra-baixa/"
+      ],
+      "editorialUrl": "https://www.timeout.pt/porto/pt/restaurantes/os-melhores-restaurantes-vegetarianos-no-porto",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=daTerra+Baixa&query_place_id=ChIJuXUr2eNkJA0RNPt44IDQ-iU",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia, guía editorial y sucursal Maps contrastadas 29/10/2026. No confirma mesa ni apertura futura.",
+      "priceLabel": "Consultar carta actual · sin precio de reseñas antiguas",
+      "photo": {
+        "id": "vegan",
+        "img": "assets/lisbon/vegan.jpg",
+        "source": "https://www.pexels.com/photo/healthy-vegetable-dish-with-grilled-tofu-33474056/",
+        "author": "Deane Bayas",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de tofu y verduras; no es daTerra ni su buffet. Recorte de presentación."
+      }
+    },
+    {
+      "id": "nata",
+      "name": "Manteigaria · Bolhão",
+      "address": "R. de Alexandre Braga 24, 4000-049 Porto, Portugal",
+      "description": "Pastel de nata y café para una pausa junto al mercado, no una comida completa.",
+      "strength": "Obrador visible y formato de mostrador en el día de Bolhão.",
+      "caution": "Sucursal Rua de Alexandre Braga 24. Web 08-21 h; no depende del horario del interior del mercado. Foto ilustrativa de otra pastelería de Oporto no identificada.",
+      "alert": "Sucursal Rua de Alexandre Braga 24. Web 08-21 h; no depende del horario del interior del mercado. Foto ilustrativa de otra pastelería de Oporto no identificada.",
+      "officialUrl": "https://manteigaria.com/en/as-nossas-fabricas/bolhao/",
+      "sourceUrls": [
+        "https://manteigaria.com/en/as-nossas-fabricas/bolhao/"
+      ],
+      "editorialUrl": "https://www.olivemagazine.com/travel/europe/porto-places-to-eat-and-drink/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Manteigaria&query_place_id=ChIJr7iYO-VkJA0RJ7GCz-JcmOw",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia, guía editorial y sucursal Maps contrastadas 29/10/2026. No confirma mesa ni apertura futura.",
+      "priceLabel": "Consultar carta actual · sin precio de reseñas antiguas",
+      "photo": {
+        "id": "display",
+        "img": "assets/porto/display.jpg",
+        "source": "https://www.pexels.com/photo/delicious-pasteis-de-nata-display-in-porto-bakery-39352509/",
+        "author": "Anne-Cécile Robert",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Pastéis de nata ilustrativos en una pastelería de Oporto no identificada; no es Manteigaria. Recorte de presentación."
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "taylor",
+      "name": "Taylor’s · bodega en Gaia",
+      "address": "Rua do Choupelo 250, 4400-088 Vila Nova de Gaia, Portugal",
+      "description": "Recorrido de bodega con audioguía y degustación de vino de Oporto en Gaia.",
+      "strength": "Una bodega concreta con visita propia; sustituye otro interior o exige un día con tiempo en Gaia.",
+      "duration": "1,5-2 h editoriales más acceso y espera",
+      "caution": "Subida desde Cais de Gaia: no es una parada llana del muelle. Operador: bodega 10-18:15 h diario con horarios festivos distintos; degustación hasta más tarde no significa entrada a bodega. Audioguía en móvil: llevar auriculares. Incluye alcohol; consultar opción sin alcohol, menores, billete y condiciones antes de reservar. No hay compra ni reserva.",
+      "officialUrl": "https://www.taylor.pt/en/visit-taylors/port-cellars",
+      "sourceUrls": [
+        "https://www.taylor.pt/en/visit-taylors/port-cellars"
+      ],
+      "editorialUrl": "https://goaskalocal.com/blog/3-day-porto-itinerary",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Taylor%27s+Port&query_place_id=ChIJF9BXy9hkJA0RNrwH2SnxcSg",
+      "statusCheckedAt": "2026-10-29",
+      "priceLabel": "Actividad de pago · consultar experiencia elegida",
+      "photo": {
+        "img": "assets/porto/taylor.jpg",
+        "source": "https://www.flickr.com/photos/rayinmanila/48730636822/",
+        "author": ". Ray in Manila",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "alert": "Subida desde Cais de Gaia: no es una parada llana del muelle. Operador: bodega 10-18:15 h diario con horarios festivos distintos; degustación hasta más tarde no significa entrada a bodega. Audioguía en móvil: llevar auriculares. Incluye alcohol; consultar opción sin alcohol, menores, billete y condiciones antes de reservar. No hay compra ni reserva."
+    }
+  ]
+}

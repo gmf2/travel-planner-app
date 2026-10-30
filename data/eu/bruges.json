@@ -1,0 +1,1229 @@
+{
+  "schemaVersion": 1,
+  "country": "BE",
+  "id": "bruges",
+  "name": "Brujas",
+  "localName": "Brugge",
+  "selectionReason": "Ampliación belga solicitada.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fecha; tres días lentos opcionales, no excursión/bici/cerveza obligatoria.",
+  "stops": [
+    {
+      "id": "markt",
+      "name": "Markt · empezar por la plaza",
+      "kind": "visit",
+      "zone": "Markt",
+      "reason": "Mirar las fachadas y situar la ciudad antes de elegir una subida o sentarse a desayunar.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 51.208619,
+        "lon": 3.223992
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Markt&query_place_id=ChIJ3X8JDNBQw0cRboJw-O2qc6o",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "No incluye Historium ni Palacio Provincial. Mercados, eventos y carruajes no son una actividad garantizada ni incluida. No comprar entradas para todos los edificios por estar juntos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/markt.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/52541545436/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "belfry",
+      "name": "Belfort · elegir una subida",
+      "kind": "visit",
+      "zone": "Markt / campanario",
+      "reason": "Una vista desde la torre para quien disfrute las escaleras; si no, el exterior deja más tiempo a canales y comida.",
+      "sourceIds": [
+        "guide1",
+        "belfry"
+      ],
+      "coordinates": {
+        "lat": 51.2081466,
+        "lon": 3.2248011
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Belfry+of+Bruges&query_place_id=ChIJiw5pqdpQw0cRWIG9Y_lvVGk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 80,
+      "durationType": "editorial-estimate",
+      "caution": "366 escalones, sin acceso sin peldaños. Adulto 16€ fin de semana/verano 01/04-02/11 y 26-31/12;15€ laborable invierno 03/11-31/03, no una tarifa única. Verano 9-20; invierno lun-vie 10-18/sáb 9-20/dom 9-18;26-30/12 9-20;24/31-12 9-16;25/12 y 01/01 cerrado. Última entrada 1 h antes. Recomiendan reserva online. Sustituir subida por paseo o barco, no otra cola obligatoria.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/belfry.jpg",
+        "source": "https://www.flickr.com/photos/stignygaard/25982957547/",
+        "author": "Stig Nygaard",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Torre de pago; exterior si no se sube"
+    },
+    {
+      "id": "burg",
+      "name": "Burg · arquitectura alrededor de la plaza",
+      "kind": "visit",
+      "zone": "Burg",
+      "reason": "El Ayuntamiento y la basílica se entienden bien desde la plaza antes de bajar al canal.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 51.2085062,
+        "lon": 3.2268383
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=De+Burg&query_place_id=ChIJ2ZxAi89Qw0cRSwJ0ZY6jCaA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "No se incluyen interiores de Ayuntamiento ni Basílica de la Santa Sangre por defecto. Culto y horarios propios pueden impedir acceso; el plan no promete ver reliquias en cualquier hora.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/burg.jpg",
+        "source": "https://www.flickr.com/photos/bvi4092/53853735813/",
+        "author": "bvi 4092",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza y exteriores"
+    },
+    {
+      "id": "rozen",
+      "name": "Rozenhoedkaai · quedarse junto al agua",
+      "kind": "visit",
+      "zone": "Rozenhoedkaai / Dijver",
+      "reason": "Un tramo largo de canal, puentes y comida, con barco solo si apetece cambiar parte del paseo.",
+      "sourceIds": [
+        "guide1",
+        "boat"
+      ],
+      "coordinates": {
+        "lat": 51.207137,
+        "lon": 3.2275063
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Rozenhoedkaai&query_place_id=ChIJvQ79csVQw0cR_Ay3LBG4Wlo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 85,
+      "durationType": "editorial-estimate",
+      "caution": "Barco adulto 15€ hasta 31/12/2026,30 min circular sin paradas; no hop-onhop-off. Individuales no pueden reservar con antelación, compra en embarcadero y posible cola. Marzo-octubre 10-18 habitual, última 17:30; noviembre-febrero al menos un embarcadero rotatorio, no todos ni mismo horario. Depende de clima/demanda. Sustituye parte de paseo o subida, no visita obligatoria añadida.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/rozen.jpg",
+        "source": "https://www.flickr.com/photos/duncanh1/46858318445/",
+        "author": "Donnchadh H",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Canal exterior; barco opcional"
+    },
+    {
+      "id": "groenerei",
+      "name": "Groenerei · seguir el canal más despacio",
+      "kind": "visit",
+      "zone": "Groenerei",
+      "reason": "Alejarse un poco de los ejes más llenos y cerrar el primer día con calles pequeñas en lugar de otra entrada.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "canals"
+      ],
+      "coordinates": {
+        "lat": 51.2092284,
+        "lon": 3.2306051
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Groenerei&query_place_id=ChIJ3zZ5T89Qw0cR2_c3K4wIrY4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "No se entra en patios o jardines privados aunque se vean desde el canal. Foto de archivo: colores de árboles y barcos no garantizados.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/groenerei.jpg",
+        "source": "https://www.flickr.com/photos/donotlick/10235615555/",
+        "author": "Jennifer Morrow",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Canal y calles exteriores"
+    },
+    {
+      "id": "gruuthuse",
+      "name": "Gruuthuse · historia dentro de un palacio",
+      "kind": "visit",
+      "zone": "Dijver / Gruuthuse",
+      "reason": "El interior principal del segundo día: objetos y salas que cuentan cómo vivió la ciudad, sin encadenar tres museos.",
+      "sourceIds": [
+        "guide1",
+        "gruuthuse",
+        "general"
+      ],
+      "coordinates": {
+        "lat": 51.2052061,
+        "lon": 3.2249883
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Gruuthusemuseum&query_place_id=ChIJe_SV1MRQw0cReUbRbZCKezU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 130,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 15€; combinado con museo O.L.V. 19€, no 15+10 si se elige ambos. 9:30-17, miércoles cerrado, no lunes. 24/31-12 cierra 16;25/12 y 01/01 cerrado; Ascensión hasta 12:30. Entrada y museo con escaleras, no accesible a silla de ruedas. Sint-Janshospitaal es sustitución con ascensor según operador, no visita añadida. Groeninge alternativa solo antes de su cierre 11/01/2027.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/gruuthuse.jpg",
+        "source": "https://www.flickr.com/photos/archer10/13746754115/",
+        "author": "Dennis Jarvis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago"
+    },
+    {
+      "id": "lady",
+      "name": "Nuestra Señora · elegir exterior o museo",
+      "kind": "visit",
+      "zone": "Mariastraat",
+      "reason": "Mirar la torre y rodear la iglesia; si interesa especialmente Miguel Ángel, elegir el pequeño museo en vez de otra colección completa.",
+      "sourceIds": [
+        "guide1",
+        "lady"
+      ],
+      "coordinates": {
+        "lat": 51.20469,
+        "lon": 3.2244474
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Church+of+Our+Lady&query_place_id=ChIJNZJSMdtQw0cR651stB8oSB0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Iglesia gratuita según culto; museo con Madonna y tumbas 10€ adulto, no toda iglesia de pago. Combinado Gruuthuse 19€. 9:30-17; domingo y otros festivos católicos 13:30-17;24/31-12 hasta 16;25/12 y 01/01 y Ascensión cerrado. Bodas/funerales pueden cerrar iglesia. Si se entra, añadir 45-60 min y recortar paseo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/lady.jpg",
+        "source": "https://www.flickr.com/photos/brostad/8741089246/",
+        "author": "Bernt Rostad",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior; iglesia o museo opcional"
+    },
+    {
+      "id": "begijnhof",
+      "name": "Begijnhof · caminar en silencio",
+      "kind": "visit",
+      "zone": "Begijnhof / Wijngaardplein",
+      "reason": "Las casas blancas y el jardín merecen una visita tranquila y respetuosa, no otra sesión de fotos en puertas habitadas.",
+      "sourceIds": [
+        "guide1",
+        "begijnhof"
+      ],
+      "coordinates": {
+        "lat": 51.2012811,
+        "lon": 3.2230458
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Begijnhof&query_place_id=ChIJH7XA2txQw0cRK-buBeYdJl8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "Acceso gratuito según turismo; consultar horario de puertas, no prometer 24 h ni entrar de noche. Sigue habitado por mujeres y religiosas: silencio, no patios particulares ni interiores incluidos. Narcisos de archivo no garantizados todo el año. Caminos con asistencia para movilidad según fuente.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/begijnhof.jpg",
+        "source": "https://www.flickr.com/photos/bravenboer/2175651835/",
+        "author": "Martin Bravenboer",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Recinto exterior habitado"
+    },
+    {
+      "id": "minnewater",
+      "name": "Minnewater · terminar con parque y agua",
+      "kind": "visit",
+      "zone": "Minnewater / parque",
+      "reason": "Un paseo largo y una pausa después de las salas, con tiempo para volver sin otra atracción de pago.",
+      "sourceIds": [
+        "guide1",
+        "canals"
+      ],
+      "coordinates": {
+        "lat": 51.1995291,
+        "lon": 3.225273
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Minnewater+Park&query_place_id=ChIJDT0VwcJQw0cRq0ykrXK0h34",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 80,
+      "durationType": "editorial-estimate",
+      "caution": "No baño ni acceso a edificios privados. Meteorología y oscuridad temprana cambian el paseo; no se promete cisnes en una posición concreta ni floración de primavera en invierno.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/minnewater.jpg",
+        "source": "https://www.flickr.com/photos/neilt/15480650589/",
+        "author": "Neil Turner",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Parque y lago exteriores"
+    },
+    {
+      "id": "anna",
+      "name": "Sint-Anna · el barrio como plan",
+      "kind": "visit",
+      "zone": "Sint-Annaplein / calles del este",
+      "reason": "Un tercer día opcional para caminar por calles residenciales más tranquilas y comer en otra zona, no una obligación para llenar 72 horas.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 51.2121134,
+        "lon": 3.2319245
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Sint-Annaplein&query_place_id=ChIJ69vYSclQw0cRcvF142lNSDU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 80,
+      "durationType": "editorial-estimate",
+      "caution": "No asumir iglesias o talleres abiertos todos los días. Barrio habitado: silencio y no entrar en casas particulares. A pie basta; no alquiler de bici obligatorio ni gasto reservado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/anna.jpg",
+        "source": "https://www.flickr.com/photos/jamesbradley/6143165987/",
+        "author": "Fr James Bradley",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Calle de Sint-Anna con vista a la iglesia; no interior ni acceso a casas particulares. Recorte de presentación."
+      },
+      "visitMode": "Barrio exterior"
+    },
+    {
+      "id": "adornes",
+      "name": "Adornes · capilla de Jerusalén y familia",
+      "kind": "visit",
+      "zone": "Peperstraat / Adornesdomein",
+      "reason": "Un interior pequeño y distinto para entender una familia viajera, antes de salir a las murallas verdes.",
+      "sourceIds": [
+        "guide1",
+        "adornes"
+      ],
+      "coordinates": {
+        "lat": 51.2123332,
+        "lon": 3.2339951
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Adornes+Domain&query_place_id=ChIJe4x2cslQw0cRIbOLA_H60tU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 85,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 11€, billetes SOLO recepción, no venta online individual verificada. Octubre-marzo lun-sáb 10-17; abril-septiembre lun-vie 10-17/sáb 10-18. Domingo y festivos cerrado. Si coincide cierre, exterior y barrio, o cambiar jornada; no prometer visita interior por lista de blog.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/adornes.jpg",
+        "source": "https://www.flickr.com/photos/archer10/13639481095/",
+        "author": "Dennis Jarvis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Patrimonio de pago"
+    },
+    {
+      "id": "mill",
+      "name": "Kruisvest · molinos y murallas",
+      "kind": "visit",
+      "zone": "Kruisvest / Sint-Janshuismolen",
+      "reason": "Caminar por la franja verde y mirar el molino, con picnic o café si el tiempo acompaña.",
+      "sourceIds": [
+        "guide1",
+        "mill"
+      ],
+      "coordinates": {
+        "lat": 51.21545870000001,
+        "lon": 3.2381475
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Sint-Janshuismolen&query_place_id=ChIJt5Ky9rVQw0cRo4lndCrZCdw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Interior Sint-Janshuismolen 5€ adulto, escaleras empinadas. 01/04-02/11 9:30-12:30 y 13:30-17, lunes cerrado. Cierre invernal 03/11-31/03, desde diciembre excepción segundo domingo del mes en ese horario según operador. Exterior de murallas no equivale a interior abierto. Aspas solo si viento favorable, no funcionamiento garantizado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/mill.jpg",
+        "source": "https://www.flickr.com/photos/itmpa/32095970527/",
+        "author": "Tom Parnell",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; molino interior condicionado"
+    },
+    {
+      "id": "groeninge",
+      "name": "Groeningemuseum · cierra desde 11/01/2027",
+      "kind": "visit",
+      "zone": "Dijver",
+      "reason": "Elegir pintura flamenca en vez de Gruuthuse si la fecha lo permite, nunca como segundo museo entero por proximidad.",
+      "sourceIds": [
+        "guide1",
+        "groeninge",
+        "groeningeclosure"
+      ],
+      "coordinates": {
+        "lat": 51.2052205,
+        "lon": 3.2266679
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Groeninge+Museum&query_place_id=ChIJ31BGJsVQw0cRFo72nuLdfhY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 140,
+      "durationType": "editorial-estimate",
+      "caution": "Cierra desde 11/01/2027 durante cuatro años por reforma según turismo oficial. Núcleo de colección en BRUSK desde marzo 2027, no toda colección ni mismas entradas/horarios garantizados. Hasta cierre:15€ adulto, lunes cerrado;01/04-02/11 10-18,03/11-31/03 9:30-17;24/31-12 hasta 16;25/12 y 01/01 cerrado. No usar día de pintura como promesa genérica para 2027.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/groeninge.jpg",
+        "source": "https://www.flickr.com/photos/comunicati/13161783345/",
+        "author": "Michela Simoncini",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Edificio de Groeningemuseum en archivo; no prueba de apertura tras cierre por reforma de enero 2027. Recorte de presentación."
+      },
+      "visitMode": "Alternativa de pago solo antes de 11/01/2027; reforma de cuatro años"
+    },
+    {
+      "id": "hospital",
+      "name": "Sint-Janshospitaal · alternativa de arte y cuidados",
+      "kind": "visit",
+      "zone": "Mariastraat",
+      "reason": "Elegir Memling e historia de la atención en el hospital en vez del palacio, especialmente si sus escaleras no encajan.",
+      "sourceIds": [
+        "guide2",
+        "hospital"
+      ],
+      "coordinates": {
+        "lat": 51.2039051,
+        "lon": 3.2237571
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Saint+John%E2%80%99s+Hospital&query_place_id=ChIJYT3TO9tQw0cR58Y2QF25_tA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 135,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 15€,9:30-17, lunes cerrado. 24/31-12 hasta 16;25/12 y 01/01 cerrado; Ascensión hasta 12:30. Entrada con asistencia y ascensor amplio/museo accesible según operador, confirmar necesidades. Sustituye Gruuthuse o Groeninge, no tercer museo de la misma mañana.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/bruges/hospital.jpg",
+        "source": "https://www.flickr.com/photos/archer10/13902075744/",
+        "author": "Dennis Jarvis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago; sustitución"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Plazas y canales con una sola subida",
+          "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+          "stopIds": [
+            "markt",
+            "belfry",
+            "burg",
+            "rozen",
+            "groenerei"
+          ],
+          "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Plazas y canales con una sola subida",
+          "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+          "stopIds": [
+            "markt",
+            "belfry",
+            "burg",
+            "rozen",
+            "groenerei"
+          ],
+          "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+        },
+        {
+          "title": "Palacio, iglesia y sur verde",
+          "zone": "Gruuthuse → Nuestra Señora → Begijnhof → Minnewater",
+          "stopIds": [
+            "gruuthuse",
+            "lady",
+            "begijnhof",
+            "minnewater"
+          ],
+          "editorialNote": "Un museo largo y el sur a pie. Iglesia por fuera de base; museo de Miguel Ángel opcional recortando paseo. Groeninge o hospital sustituyen palacio según interés, apertura y movilidad.",
+          "optionalStopIds": [
+            "groeninge",
+            "hospital"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Maps 205 m/2 min,513 m/6 min,328 m/4 min. Miércoles Gruuthuse cerrado; hospital suele abrir. Lunes hospital/Groeninge cerrados, Gruuthuse suele abrir. Domingo iglesia desde 13:30, ordenar con comida."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Plazas y canales con una sola subida",
+          "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+          "stopIds": [
+            "markt",
+            "belfry",
+            "burg",
+            "rozen",
+            "groenerei"
+          ],
+          "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+        },
+        {
+          "title": "Palacio, iglesia y sur verde",
+          "zone": "Gruuthuse → Nuestra Señora → Begijnhof → Minnewater",
+          "stopIds": [
+            "gruuthuse",
+            "lady",
+            "begijnhof",
+            "minnewater"
+          ],
+          "editorialNote": "Un museo largo y el sur a pie. Iglesia por fuera de base; museo de Miguel Ángel opcional recortando paseo. Groeninge o hospital sustituyen palacio según interés, apertura y movilidad.",
+          "optionalStopIds": [
+            "groeninge",
+            "hospital"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Maps 205 m/2 min,513 m/6 min,328 m/4 min. Miércoles Gruuthuse cerrado; hospital suele abrir. Lunes hospital/Groeninge cerrados, Gruuthuse suele abrir. Domingo iglesia desde 13:30, ordenar con comida."
+        },
+        {
+          "title": "Sint-Anna y los molinos, solo si apetece",
+          "zone": "Sint-Anna → Adornes → Kruisvest",
+          "stopIds": [
+            "anna",
+            "adornes",
+            "mill"
+          ],
+          "editorialNote": "Un tercer día lento y opcional para barrios, un interior pequeño y murallas. No se añade Damme por obligación ni se promete molino abierto en invierno.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "4-6 h con comida y regreso. Maps Markt-Sint-Anna 889 m/12 min, capilla 152 m/2 min, molino 601 m/8 min. Domingo/festivos Adornes cerrado; barrio/murallas exteriores siguen siendo otra experiencia, no entrada garantizada."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Pausas junto al agua, no museo tras museo. Barco de 30 min opcional; últimos horarios sujetos a operador/clima.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Groeningemuseum cierra desde 11/01/2027 por cuatro años. Molino interior cerrado 03/11-31/03 salvo excepción segundo domingo desde diciembre. Parque con luz; barcos un embarcadero rotatorio, no servicio idéntico a verano.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Museos 25/12 y 01/01 cerrados,24/31 cierre 16 h; Belfort horario distinto 26-30 diciembre. Adornes domingos/festivos cerrado; no cierre general de todo barrio. Groeninge cierre 11/01/2027.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "No prometer narcisos todo el año. Desde 11/01/2027 Groeninge cerrado cuatro años, parte colección en BRUSK desde marzo 2027 sin programa completo aquí. Molino cierra 3 noviembre salvo excepción.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No entradas, comidas ni transporte reservados. Horarios/precios consultados no garantizan disponibilidad futura.",
+    "Musea Brugge Card 49€/72 h adulto, no compra automática: sumar visitas elegidas antes de recomendar ahorro. Reserva horaria recomendable en Belfort aunque se tenga tarjeta.",
+    "Groeninge no museo permanente disponible para 2027: cierre 11/01/2027 cuatro años. No sustituir automáticamente por BRUSK sin revisar programa/entradas de fecha."
+  ],
+  "excludedOrOptional": [
+    "Belfort opcional si no encajan 366 peldaños; barco reemplaza parte del paseo.",
+    "Hospital/Groeninge sustituyen Gruuthuse, no se apilan tres museos.",
+    "Damme, Gante y Bruselas no se añaden a un hueco ni se obliga consumo de cerveza o visita a fábrica."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "Brogan Abroad: tres días y barrios",
+      "url": "https://broganabroad.com/bruges-3-day-itinerary/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "Bruges Compass: ritmo y alternativas",
+      "url": "https://brugescompass.com/en/articles/bruges-in-three-days/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide3",
+      "title": "Bruges Explorer: selección local",
+      "url": "https://www.brugesexplorer.be/en",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "Visit Bruges: chefs locales",
+      "url": "https://www.visitbruges.be/en/eat-and-sleep/flavourite-bruges",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide2",
+      "title": "The Spot: recomendaciones locales",
+      "url": "https://www.thespotbruges.be/recommendations",
+      "type": "local-host",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "belfry",
+      "title": "Belfort: tarifas y horarios por temporada",
+      "url": "https://www.museabrugge.be/en/visit/locations/belfort",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "gruuthuse",
+      "title": "Gruuthuse:15€, miércoles y escaleras",
+      "url": "https://www.museabrugge.be/en/visit/locations/gruuthusemuseum",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lady",
+      "title": "O.L.V.: iglesia gratis, museo 10€",
+      "url": "https://www.museabrugge.be/en/visit/locations/olv-kerk-museum",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "groeninge",
+      "title": "Groeninge: tarifa/horario",
+      "url": "https://www.museabrugge.be/en/visit/locations/groeningemuseum",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "groeningeclosure",
+      "title": "Turismo: cierre 11/01/2027 cuatro años",
+      "url": "https://www.visitbruges.be/en/things-to-do/culture-and-heritage/groeningemuseum-groeninge-museum",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "hospital",
+      "title": "Sint-Janshospitaal:15€, accesibilidad",
+      "url": "https://www.museabrugge.be/en/visit/locations/sint-janshospitaal",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "general",
+      "title": "Musea Brugge: entradas y tarjeta 49€",
+      "url": "https://www.museabrugge.be/en/visit",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mill",
+      "title": "Molino: invierno cerrado/excepción",
+      "url": "https://www.museabrugge.be/en/visit/locations/sint-janshuismolen",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "adornes",
+      "title": "Adornes:11€, solo recepción y cierres",
+      "url": "https://www.adornes.org/practical-information",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "begijnhof",
+      "title": "Begijnhof: silencio y gratuidad",
+      "url": "https://www.visitbruges.be/en/things-to-do/culture-and-heritage/begijnhof-beguinage",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "boat",
+      "title": "Barcos:15€2026 y compra presencial",
+      "url": "https://www.visitbruges.be/en/things-to-do/sightseeing/bruges-boat",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "canals",
+      "title": "Canales y Minnewater",
+      "url": "https://www.visitbruges.be/en/things-to-do/sights/canals-of-bruges",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "republiek",
+      "title": "De Republiek: horario de cocina",
+      "url": "https://republiekbrugge.be/grandcaf%C3%A9",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "repmenu",
+      "title": "Republiek: carta otoño actual enlazada",
+      "url": "https://republiekbrugge.be/assets/uploads/Allergenen-menukaart/DR-Herfstkaart-web-NDL-menukaart.pdf",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "repguide",
+      "title": "Visit Bruges: Republiek",
+      "url": "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/de-republiek",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "kosmo",
+      "title": "Kosmopoliet: sede y cenas",
+      "url": "https://www.kosmopoliet.com/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "kosmomenu",
+      "title": "Kosmopoliet: carta gráfica inspeccionada",
+      "url": "https://www.kosmopoliet.com/menu",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lizzie",
+      "title": "Lizzie’s: carta/horas",
+      "url": "https://www.lizzieswafflesbrugge.be/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "waffleguide",
+      "title": "Waffle Workshop: contraste, horas descartadas",
+      "url": "https://www.brugeswaffleworkshop.com/things-to-do-bruges/where-find-best-waffles-bruges.html",
+      "type": "commercial-guide",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Plazas y canales con una sola subida",
+            "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+            "stopIds": [
+              "markt",
+              "belfry",
+              "burg",
+              "rozen",
+              "groenerei"
+            ],
+            "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Plazas y canales con una sola subida",
+            "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+            "stopIds": [
+              "markt",
+              "belfry",
+              "burg",
+              "rozen",
+              "groenerei"
+            ],
+            "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+          },
+          {
+            "title": "Palacio, iglesia y sur verde",
+            "zone": "Gruuthuse → Nuestra Señora → Begijnhof → Minnewater",
+            "stopIds": [
+              "gruuthuse",
+              "lady",
+              "begijnhof",
+              "minnewater"
+            ],
+            "editorialNote": "Un museo largo y el sur a pie. Iglesia por fuera de base; museo de Miguel Ángel opcional recortando paseo. Groeninge o hospital sustituyen palacio según interés, apertura y movilidad.",
+            "optionalStopIds": [
+              "groeninge",
+              "hospital"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 205 m/2 min,513 m/6 min,328 m/4 min. Miércoles Gruuthuse cerrado; hospital suele abrir. Lunes hospital/Groeninge cerrados, Gruuthuse suele abrir. Domingo iglesia desde 13:30, ordenar con comida."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Plazas y canales con una sola subida",
+            "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+            "stopIds": [
+              "markt",
+              "belfry",
+              "burg",
+              "rozen",
+              "groenerei"
+            ],
+            "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+          },
+          {
+            "title": "Palacio, iglesia y sur verde",
+            "zone": "Gruuthuse → Nuestra Señora → Begijnhof → Minnewater",
+            "stopIds": [
+              "gruuthuse",
+              "lady",
+              "begijnhof",
+              "minnewater"
+            ],
+            "editorialNote": "Un museo largo y el sur a pie. Iglesia por fuera de base; museo de Miguel Ángel opcional recortando paseo. Groeninge o hospital sustituyen palacio según interés, apertura y movilidad.",
+            "optionalStopIds": [
+              "groeninge",
+              "hospital"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 205 m/2 min,513 m/6 min,328 m/4 min. Miércoles Gruuthuse cerrado; hospital suele abrir. Lunes hospital/Groeninge cerrados, Gruuthuse suele abrir. Domingo iglesia desde 13:30, ordenar con comida."
+          },
+          {
+            "title": "Sint-Anna y los molinos, solo si apetece",
+            "zone": "Sint-Anna → Adornes → Kruisvest",
+            "stopIds": [
+              "anna",
+              "adornes",
+              "mill"
+            ],
+            "editorialNote": "Un tercer día lento y opcional para barrios, un interior pequeño y murallas. No se añade Damme por obligación ni se promete molino abierto en invierno.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y regreso. Maps Markt-Sint-Anna 889 m/12 min, capilla 152 m/2 min, molino 601 m/8 min. Domingo/festivos Adornes cerrado; barrio/murallas exteriores siguen siendo otra experiencia, no entrada garantizada."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Plazas y canales con una sola subida",
+            "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+            "stopIds": [
+              "markt",
+              "belfry",
+              "burg",
+              "rozen",
+              "groenerei"
+            ],
+            "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Plazas y canales con una sola subida",
+            "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+            "stopIds": [
+              "markt",
+              "belfry",
+              "burg",
+              "rozen",
+              "groenerei"
+            ],
+            "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+          },
+          {
+            "title": "Palacio, iglesia y sur verde",
+            "zone": "Gruuthuse → Nuestra Señora → Begijnhof → Minnewater",
+            "stopIds": [
+              "gruuthuse",
+              "lady",
+              "begijnhof",
+              "minnewater"
+            ],
+            "editorialNote": "Un museo largo y el sur a pie. Iglesia por fuera de base; museo de Miguel Ángel opcional recortando paseo. Groeninge o hospital sustituyen palacio según interés, apertura y movilidad.",
+            "optionalStopIds": [
+              "groeninge",
+              "hospital"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 205 m/2 min,513 m/6 min,328 m/4 min. Miércoles Gruuthuse cerrado; hospital suele abrir. Lunes hospital/Groeninge cerrados, Gruuthuse suele abrir. Domingo iglesia desde 13:30, ordenar con comida."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Plazas y canales con una sola subida",
+            "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+            "stopIds": [
+              "markt",
+              "belfry",
+              "burg",
+              "rozen",
+              "groenerei"
+            ],
+            "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+          },
+          {
+            "title": "Palacio, iglesia y sur verde",
+            "zone": "Gruuthuse → Nuestra Señora → Begijnhof → Minnewater",
+            "stopIds": [
+              "gruuthuse",
+              "lady",
+              "begijnhof",
+              "minnewater"
+            ],
+            "editorialNote": "Un museo largo y el sur a pie. Iglesia por fuera de base; museo de Miguel Ángel opcional recortando paseo. Groeninge o hospital sustituyen palacio según interés, apertura y movilidad.",
+            "optionalStopIds": [
+              "groeninge",
+              "hospital"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 205 m/2 min,513 m/6 min,328 m/4 min. Miércoles Gruuthuse cerrado; hospital suele abrir. Lunes hospital/Groeninge cerrados, Gruuthuse suele abrir. Domingo iglesia desde 13:30, ordenar con comida."
+          },
+          {
+            "title": "Sint-Anna y los molinos, solo si apetece",
+            "zone": "Sint-Anna → Adornes → Kruisvest",
+            "stopIds": [
+              "anna",
+              "adornes",
+              "mill"
+            ],
+            "editorialNote": "Un tercer día lento y opcional para barrios, un interior pequeño y murallas. No se añade Damme por obligación ni se promete molino abierto en invierno.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y regreso. Maps Markt-Sint-Anna 889 m/12 min, capilla 152 m/2 min, molino 601 m/8 min. Domingo/festivos Adornes cerrado; barrio/murallas exteriores siguen siendo otra experiencia, no entrada garantizada."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Plazas y canales con una sola subida",
+            "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+            "stopIds": [
+              "markt",
+              "belfry",
+              "burg",
+              "rozen",
+              "groenerei"
+            ],
+            "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Plazas y canales con una sola subida",
+            "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+            "stopIds": [
+              "markt",
+              "belfry",
+              "burg",
+              "rozen",
+              "groenerei"
+            ],
+            "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+          },
+          {
+            "title": "Palacio, iglesia y sur verde",
+            "zone": "Gruuthuse → Nuestra Señora → Begijnhof → Minnewater",
+            "stopIds": [
+              "gruuthuse",
+              "lady",
+              "begijnhof",
+              "minnewater"
+            ],
+            "editorialNote": "Un museo largo y el sur a pie. Iglesia por fuera de base; museo de Miguel Ángel opcional recortando paseo. Groeninge o hospital sustituyen palacio según interés, apertura y movilidad.",
+            "optionalStopIds": [
+              "groeninge",
+              "hospital"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 205 m/2 min,513 m/6 min,328 m/4 min. Miércoles Gruuthuse cerrado; hospital suele abrir. Lunes hospital/Groeninge cerrados, Gruuthuse suele abrir. Domingo iglesia desde 13:30, ordenar con comida."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Plazas y canales con una sola subida",
+            "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+            "stopIds": [
+              "markt",
+              "belfry",
+              "burg",
+              "rozen",
+              "groenerei"
+            ],
+            "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+          },
+          {
+            "title": "Palacio, iglesia y sur verde",
+            "zone": "Gruuthuse → Nuestra Señora → Begijnhof → Minnewater",
+            "stopIds": [
+              "gruuthuse",
+              "lady",
+              "begijnhof",
+              "minnewater"
+            ],
+            "editorialNote": "Un museo largo y el sur a pie. Iglesia por fuera de base; museo de Miguel Ángel opcional recortando paseo. Groeninge o hospital sustituyen palacio según interés, apertura y movilidad.",
+            "optionalStopIds": [
+              "groeninge",
+              "hospital"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 205 m/2 min,513 m/6 min,328 m/4 min. Miércoles Gruuthuse cerrado; hospital suele abrir. Lunes hospital/Groeninge cerrados, Gruuthuse suele abrir. Domingo iglesia desde 13:30, ordenar con comida."
+          },
+          {
+            "title": "Sint-Anna y los molinos, solo si apetece",
+            "zone": "Sint-Anna → Adornes → Kruisvest",
+            "stopIds": [
+              "anna",
+              "adornes",
+              "mill"
+            ],
+            "editorialNote": "Un tercer día lento y opcional para barrios, un interior pequeño y murallas. No se añade Damme por obligación ni se promete molino abierto en invierno.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y regreso. Maps Markt-Sint-Anna 889 m/12 min, capilla 152 m/2 min, molino 601 m/8 min. Domingo/festivos Adornes cerrado; barrio/murallas exteriores siguen siendo otra experiencia, no entrada garantizada."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Plazas y canales con una sola subida",
+            "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+            "stopIds": [
+              "markt",
+              "belfry",
+              "burg",
+              "rozen",
+              "groenerei"
+            ],
+            "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Plazas y canales con una sola subida",
+            "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+            "stopIds": [
+              "markt",
+              "belfry",
+              "burg",
+              "rozen",
+              "groenerei"
+            ],
+            "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+          },
+          {
+            "title": "Palacio, iglesia y sur verde",
+            "zone": "Gruuthuse → Nuestra Señora → Begijnhof → Minnewater",
+            "stopIds": [
+              "gruuthuse",
+              "lady",
+              "begijnhof",
+              "minnewater"
+            ],
+            "editorialNote": "Un museo largo y el sur a pie. Iglesia por fuera de base; museo de Miguel Ángel opcional recortando paseo. Groeninge o hospital sustituyen palacio según interés, apertura y movilidad.",
+            "optionalStopIds": [
+              "groeninge",
+              "hospital"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 205 m/2 min,513 m/6 min,328 m/4 min. Miércoles Gruuthuse cerrado; hospital suele abrir. Lunes hospital/Groeninge cerrados, Gruuthuse suele abrir. Domingo iglesia desde 13:30, ordenar con comida."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Plazas y canales con una sola subida",
+            "zone": "Markt → Belfort → Burg → Rozenhoedkaai → Groenerei",
+            "stopIds": [
+              "markt",
+              "belfry",
+              "burg",
+              "rozen",
+              "groenerei"
+            ],
+            "editorialNote": "Belfort es la elección de interior principal; quien no suba puede dar más tiempo al agua. Barco opcional reemplaza paseo, no suma otra cola al listado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps Markt-Burg 293 m/4 min, Burg-Rozen 290 m/3 min, Rozen-Groenerei 368 m/5 min. Torre en la misma plaza,366 escalones. No cruzar toda la ciudad por cada foto."
+          },
+          {
+            "title": "Palacio, iglesia y sur verde",
+            "zone": "Gruuthuse → Nuestra Señora → Begijnhof → Minnewater",
+            "stopIds": [
+              "gruuthuse",
+              "lady",
+              "begijnhof",
+              "minnewater"
+            ],
+            "editorialNote": "Un museo largo y el sur a pie. Iglesia por fuera de base; museo de Miguel Ángel opcional recortando paseo. Groeninge o hospital sustituyen palacio según interés, apertura y movilidad.",
+            "optionalStopIds": [
+              "groeninge",
+              "hospital"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Maps 205 m/2 min,513 m/6 min,328 m/4 min. Miércoles Gruuthuse cerrado; hospital suele abrir. Lunes hospital/Groeninge cerrados, Gruuthuse suele abrir. Domingo iglesia desde 13:30, ordenar con comida."
+          },
+          {
+            "title": "Sint-Anna y los molinos, solo si apetece",
+            "zone": "Sint-Anna → Adornes → Kruisvest",
+            "stopIds": [
+              "anna",
+              "adornes",
+              "mill"
+            ],
+            "editorialNote": "Un tercer día lento y opcional para barrios, un interior pequeño y murallas. No se añade Damme por obligación ni se promete molino abierto en invierno.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y regreso. Maps Markt-Sint-Anna 889 m/12 min, capilla 152 m/2 min, molino 601 m/8 min. Domingo/festivos Adornes cerrado; barrio/murallas exteriores siguen siendo otra experiencia, no entrada garantizada."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Guías antes de oficial/Maps; ritmo y horarios de guías depurados.",
+    "Gruuthuse miércoles, no lunes; Groeninge cierra 11/01/2027; molino invierno condicionado.",
+    "Republiek carta OTOÑO frente búsqueda VERANO; Kosmo carta SVG inspeccionada visualmente.",
+    "17 fotos CClicenciaautorfuenteverificados, comidailustrativarotulada."
+  ],
+  "editorialTradeoffs": [
+    "Una subida, unpalacio, unbarrio con capilla en días separados.",
+    "Tercer día opcional, no relleno ni excursión obligatoria.",
+    "Lizzie precio desconocido explícito, no cifra inventada."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Brogan Abroad, Bruges Compass y Explorer contrastadas; cocinas separadas por uso. Museos/cierres actuales prevalecen, Waffle Workshophoras antiguas descartadas. República PDFotoño y Kosmocartagráfica verificados."
+}

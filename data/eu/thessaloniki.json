@@ -1,0 +1,1120 @@
+{
+  "schemaVersion": 1,
+  "country": "GR",
+  "id": "thessaloniki",
+  "name": "Tesalónica",
+  "localName": "Θεσσαλονίκη",
+  "selectionReason": "Ciudad griega solicitada en ampliación.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fecha ni reservas. Un interior principal por día y cuestas con tiempo real.",
+  "stops": [
+    {
+      "id": "arch",
+      "name": "Arco de Galerio · empezar en la calle",
+      "kind": "visit",
+      "zone": "Kamara / Egnatia",
+      "reason": "Reconocer los relieves y la escala romana antes de entrar en la Rotonda de al lado, sin pagar por un monumento de calle.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 40.6322237,
+        "lon": 22.9517511
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Arch+of+Galerius&query_place_id=ChIJMSSAKqk5qBQRwssZ-H1wH6M",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "No subir ni tocar relieves. Kamara y Rotonda son lugares distintos: mirar el arco no incluye la entrada de la Rotonda ni un supuesto combinado vigente de todos los monumentos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/thessaloniki/arch.jpg",
+        "source": "https://www.flickr.com/photos/snowcovered/8141324428/",
+        "author": "Dmitry Artyukhov",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo del lugar; no garantiza exposición, iluminación ni acceso actuales. Recorte de presentación."
+      },
+      "visitMode": "Monumento exterior de acceso público"
+    },
+    {
+      "id": "rotunda",
+      "name": "Rotonda · el interior principal",
+      "kind": "visit",
+      "zone": "Platia Agiou Georgiou",
+      "reason": "Dar tiempo a la cúpula y los mosaicos en vez de encadenar ese mismo día tres museos de pago.",
+      "sourceIds": [
+        "rotunda",
+        "rotundatourism"
+      ],
+      "coordinates": {
+        "lat": 40.63334630000001,
+        "lon": 22.9528548
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Rotonda&query_place_id=ChIJz4i6VgA5qBQR8uS5nQItEx4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 85,
+      "durationType": "editorial-estimate",
+      "caution": "Turismo y Ministerio: general 10€, reducida 5€ según requisitos, no gratis por consejo de guía. Abril-septiembre 8-20; 1-15 de octubre 8-19; 16-31 de octubre 8-18. Noviembre-marzo 8:30-15:30. Martes cerrado todo el año; última entrada 20 min antes. Cierra 1/1, 25/3, 1/5, Pascua ortodoxa y 25-26/12. No se ofrece como actual un combinado de 15€ de una noticia de 2021.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/thessaloniki/rotunda.jpg",
+        "source": "https://www.flickr.com/photos/jorge-11/3339454280/",
+        "author": "George M. Groutas",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo del lugar; no garantiza exposición, iluminación ni acceso actuales. Recorte de presentación."
+      },
+      "visitMode": "Monumento de pago · tarifa general 10€"
+    },
+    {
+      "id": "dimitrios",
+      "name": "Agios Dimitrios · culto y memoria",
+      "kind": "visit",
+      "zone": "Agiou Dimitriou / centro norte",
+      "reason": "Entrar con respeto en la basílica y elegir la cripta si coincide el calendario, sin vender ambos espacios como un museo siempre abierto.",
+      "sourceIds": [
+        "dimitrios",
+        "crypt"
+      ],
+      "coordinates": {
+        "lat": 40.6388887,
+        "lon": 22.9476111
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Holy+Church+of+Saint+Demetrius&query_place_id=ChIJ1WFSVak5qBQRq2qyhmVr25o",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Turismo: iglesia 6-21, con prioridad del culto y vestimenta respetuosa. Cripta gratuita según directorio ministerial, con martes cerrado. Invierno: lunes, miércoles, jueves, sábado y domingo 8-15; viernes 8-13 y 19-21. Verano: lunes, miércoles, jueves y domingo 8-20; viernes 8-21; sábado 7:30-14:30. Confirmar calendario de la cripta, distinto del de la iglesia. No se cobra el precio de 2-5€ de una guía sin prueba. La numeración de calle difiere entre fuentes: usar la ficha de la iglesia.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/thessaloniki/dimitrios.jpg",
+        "source": "https://www.flickr.com/photos/liakadaweb/47958015066/",
+        "author": "Herbert Frank",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo del lugar; no garantiza exposición, iluminación ni acceso actuales. Recorte de presentación."
+      },
+      "visitMode": "Iglesia gratuita · cripta con horario propio"
+    },
+    {
+      "id": "square",
+      "name": "Aristotelous · pausa hacia el mar",
+      "kind": "visit",
+      "zone": "Plaza Aristotelous",
+      "reason": "Bajar al centro y sentarse con un café o una comida, con tiempo para mirar una ciudad que no son solo sus monumentos.",
+      "sourceIds": [
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 40.6323456,
+        "lon": 22.9408366
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Aristotelous+Square&query_place_id=ChIJvZyphQg5qBQRq2CB7Bg9nuM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Consumiciones aparte. No se promete evento, iluminación navideña o música en una fecha no fijada. Plaza y costa no son entradas de la Torre Blanca.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/thessaloniki/square.jpg",
+        "source": "https://www.flickr.com/photos/132050254@N04/43307757082/",
+        "author": "NIKOS karakasidis",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo del lugar; no garantiza exposición, iluminación ni acceso actuales. Recorte de presentación."
+      },
+      "visitMode": "Plaza y paseo exteriores"
+    },
+    {
+      "id": "tower",
+      "name": "Torre Blanca · exterior junto a la costa",
+      "kind": "visit",
+      "zone": "Nikis / frente marítimo",
+      "reason": "Terminar junto al símbolo de la ciudad. El museo interior es una elección en lugar de otro bloque, no una subida obligatoria después de todos los museos.",
+      "sourceIds": [
+        "museumvisit",
+        "tower",
+        "towerdirectory"
+      ],
+      "coordinates": {
+        "lat": 40.6264478,
+        "lon": 22.9483815
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=White+Tower+of+Thessaloniki&query_place_id=ChIJacxIJa85qBQRFi10gJ0wGO8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Operador: general 8€, reducida 4€. El directorio ministerial muestra 4€ en invierno: conflicto sin resolver, confirmar sin dar por garantizado un descuento adulto. Operador de verano 8-21 frente a directorio 8-20; usar las 20 como límite conservador. Invierno 8:30-15:30, última entrada 20 min antes. El 27/10/2026 tuvo un horario especial 8-16, no anual. Aforo 70. Sin baños, guardarropa, consigna ni cafetería. La visita virtual accesible en planta baja no significa ascensor a la terraza.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/thessaloniki/tower.jpg",
+        "source": "https://www.flickr.com/photos/bdmundo/23860961085/",
+        "author": "www.bdmundo.com",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo del lugar; no garantiza exposición, iluminación ni acceso actuales. Recorte de presentación."
+      },
+      "visitMode": "Exterior base · museo interior opcional"
+    },
+    {
+      "id": "kapani",
+      "name": "Kapani y Modiano · una mañana de mercado",
+      "kind": "visit",
+      "zone": "Vlali / Ermou / Vasileos Irakleiou",
+      "reason": "Comparar el mercado cotidiano con la nueva etapa de Modiano sin convertirlos en un tour de doce platos impuesto.",
+      "sourceIds": [
+        "guide2",
+        "modiano",
+        "modianovisit"
+      ],
+      "coordinates": {
+        "lat": 40.6358349,
+        "lon": 22.9428719
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Kapani+Market&query_place_id=ChIJMSSAKqk5qBQRTWSgt7WaK8E",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Kapani: mejor una mañana de martes a sábado según guías; muchos puestos cierran el domingo. Modiano reabrió en septiembre de 2026 con nueva gestión. Su web actual dice laborables 7:30-02; una página antigua en inglés difiere para el fin de semana. Cada puesto tiene horario propio: no se promete pescadería hasta madrugada ni todo abierto el domingo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/thessaloniki/kapani.jpg",
+        "source": "https://www.flickr.com/photos/mapa_mundi/27382288659/",
+        "author": "mapa mundi",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo del lugar; no garantiza exposición, iluminación ni acceso actuales. Recorte de presentación."
+      },
+      "visitMode": "Mercados de acceso libre · consumos aparte"
+    },
+    {
+      "id": "ano",
+      "name": "Ano Poli · subir sin convertirlo en carrera",
+      "kind": "visit",
+      "zone": "Barrio alto / calles residenciales",
+      "reason": "Entrar en las calles del barrio alto y dejar tiempo para una comida, las cuestas y la sombra.",
+      "sourceIds": [
+        "guide1",
+        "fort"
+      ],
+      "coordinates": {
+        "lat": 40.6419949,
+        "lon": 22.9460496
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Ano+Poli&query_place_id=ChIJ42G_Za45qBQRd1hk6UlTKVI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Aristotelous-Heptapyrgion: Maps devuelve 2,8 km y 48 min andando cuesta arriba, no los 15 min de una guía. Se puede subir en transporte y bajar a pie según servicio del día, sin tarifa o frecuencia antigua prometida. Bantis queda a 1,7 km y 22 min andando de Kapani, no dentro del mercado. Respetar viviendas, fotografías y descansos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/thessaloniki/ano.jpg",
+        "source": "https://www.flickr.com/photos/limagiraphe/15644549049/",
+        "author": "L'imaGiraphe",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo del lugar; no garantiza exposición, iluminación ni acceso actuales. Recorte de presentación."
+      },
+      "visitMode": "Barrio exterior de acceso público"
+    },
+    {
+      "id": "walls",
+      "name": "Murallas y entorno de Trigonion · vista exterior",
+      "kind": "visit",
+      "zone": "Borde oriental de Ano Poli",
+      "reason": "Mirar el paisaje desde el entorno abierto sin dar por comprado un acceso a cada torre o a todas las almenas.",
+      "sourceIds": [
+        "fort",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 40.6406867,
+        "lon": 22.9599962
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Trigonion+Tower&query_place_id=ChIJ6TGR-lE4qBQRNpiJA_LmLiM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Hellenic Heritage indica Trigonion general 5€ y reducida 3€, frente a 10/5€ de una ficha ministerial antigua: confirmar, sin combinado prometido. En invierno, interior solo los viernes con cita al +30 2313 310400/401. El paseo exterior no garantiza acceso a almenas ni plataformas cerradas. No cruzar vallas para repetir una fotografía.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/thessaloniki/walls.jpg",
+        "source": "https://www.flickr.com/photos/liakadaweb/47971749362/",
+        "author": "Herbert Frank",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo del lugar; no garantiza exposición, iluminación ni acceso actuales. Recorte de presentación."
+      },
+      "visitMode": "Paseo exterior · torre interior opcional"
+    },
+    {
+      "id": "fort",
+      "name": "Heptapyrgion · fortaleza por fuera o visita elegida",
+      "kind": "visit",
+      "zone": "Eptapyrgiou 40 / extremo alto",
+      "reason": "Seguir hasta la antigua fortaleza si queda energía; entrar solo si interesa su historia, no por completar otra tarifa.",
+      "sourceIds": [
+        "fort"
+      ],
+      "coordinates": {
+        "lat": 40.6441089,
+        "lon": 22.9617772
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Heptapyrgion+of+Thessaloniki&query_place_id=ChIJV7rX5U44qBQROp_AVgN38yc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Operador: general 10€, reducida 5€. Martes cerrado. Abril-mayo 8-19; junio-octubre 10-17; noviembre-marzo 8:30-15:30. Última entrada 20 min antes. Cierra 1/1, 25/3, 1/5, Pascua ortodoxa y 25-26/12. No es la Torre Trigonion ni toda muralla gratuita. Si interesa entrar, sería el pago principal del día, sin sumar otras torres por rutina.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/thessaloniki/fort.jpg",
+        "source": "https://www.flickr.com/photos/telemax/3180648462/",
+        "author": "Tilemahos Efthimiadis",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo del lugar; no garantiza exposición, iluminación ni acceso actuales. Recorte de presentación."
+      },
+      "visitMode": "Exterior base · interior opcional 10€"
+    },
+    {
+      "id": "archeo",
+      "name": "Arqueológico · el museo de la tercera mañana",
+      "kind": "visit",
+      "zone": "Manoli Andronikou 6",
+      "reason": "Dedicar una visita a Macedonia antigua y sus piezas, en vez de hacerlo a la carrera entre costa y subida al barrio alto.",
+      "sourceIds": [
+        "archeo"
+      ],
+      "coordinates": {
+        "lat": 40.6255365,
+        "lon": 22.9537021
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Archaeological+Museum+of+Thessaloniki&query_place_id=ChIJiZfaVVM4qBQRiWVSh4VWUU8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 145,
+      "durationType": "editorial-estimate",
+      "caution": "Web propia: general 10€, reducida 5€ según requisitos. 9-17 todo el año, con martes cerrado del 1/11 al 31/3. Se empieza a entrar 15 min después de abrir y a salir 15 min antes del cierre; última entrada 20 min antes. Cierra 25-26/12, 1/1, 25/3, 1/5 y Pascua ortodoxa. Horario especial hasta las 22 solo el primer jueves de mayo-septiembre y para exposiciones indicadas, no toda la colección cada jueves. No se asume vigente el combinado de 15€ de 2021.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/thessaloniki/archeo.jpg",
+        "source": "https://www.flickr.com/photos/telemax/8725655003/",
+        "author": "Tilemahos Efthimiadis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo del lugar; no garantiza exposición, iluminación ni acceso actuales. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago · general 10€"
+    },
+    {
+      "id": "umbrellas",
+      "name": "Nea Paralia y las Sombrillas · caminar sin cuota",
+      "kind": "visit",
+      "zone": "Paseo marítimo oriental",
+      "reason": "Salir del museo a una caminata abierta junto al mar, no una actividad extra con hora fija o visita de pago.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 40.6218436,
+        "lon": 22.9514462
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=The+Umbrellas+by+Zongolopoulos&query_place_id=ChIJSYwWEB05qBQRg-Wq6aJ60lo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "No trepar escultura ni prometer iluminación de archivo, puesta de sol despejada o ausencia de viento. En invierno acortar si el tiempo empeora; la costa no es una playa urbana apta para baño prometido.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/thessaloniki/umbrellas.jpg",
+        "source": "https://www.flickr.com/photos/jorge-11/52059230261/",
+        "author": "George M. Groutas",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo del lugar; no garantiza exposición, iluminación ni acceso actuales. Recorte de presentación."
+      },
+      "visitMode": "Paseo exterior de acceso público"
+    },
+    {
+      "id": "byzantine",
+      "name": "Museo Bizantino · alternativa al Arqueológico",
+      "kind": "visit",
+      "zone": "Stratou 2 / junto al área de museos",
+      "reason": "Elegir historia bizantina si interesa más que Macedonia antigua. Está cerca, pero no obliga a hacer los dos museos seguidos.",
+      "sourceIds": [
+        "museumvisit",
+        "byzantinedirectory"
+      ],
+      "coordinates": {
+        "lat": 40.6239358,
+        "lon": 22.9551444
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Museum+of+Byzantine+Civilization&query_place_id=ChIJvz6ZIuM4qBQR1YIlrzCJKM4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 145,
+      "durationType": "editorial-estimate",
+      "caution": "Operador: general 10€, reducida 5€. El directorio ministerial muestra 5€ adulto en invierno: no garantizamos mitad sin confirmar. Invierno 1/11-31/3: lunes y miércoles-domingo 8:30-15:30, martes cerrado. Verano del operador 8/5-31/10, 8-20; abril y primeros días de mayo requieren confirmar calendario. Última entrada 20 min antes. Cierra 25-26/12, 1/1, 25/3, 1/5 y Pascua ortodoxa. Sustituye al Arqueológico, no obliga a sumar ambos por una entrada conjunta antigua.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/thessaloniki/byzantine.jpg",
+        "source": "https://www.flickr.com/photos/liakadaweb/47968544083/",
+        "author": "Herbert Frank",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo del lugar; no garantiza exposición, iluminación ni acceso actuales. Recorte de presentación."
+      },
+      "visitMode": "Alternativa de pago · general publicada 10€"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Roma, mosaicos y mar con un interior",
+          "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+          "stopIds": [
+            "arch",
+            "rotunda",
+            "dimitrios",
+            "square",
+            "tower"
+          ],
+          "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Roma, mosaicos y mar con un interior",
+          "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+          "stopIds": [
+            "arch",
+            "rotunda",
+            "dimitrios",
+            "square",
+            "tower"
+          ],
+          "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+        },
+        {
+          "title": "Mercados por la mañana, barrio alto después",
+          "zone": "Kapani/Modiano → Ano Poli → murallas/Trigonion → Heptapyrgion",
+          "stopIds": [
+            "kapani",
+            "ano",
+            "walls",
+            "fort"
+          ],
+          "editorialNote": "Mercados temprano. Subida con tiempo y opción de transporte. Fortaleza y torre se ven por fuera de base. Si interesa entrar, elegir un interior principal y confirmar día y cita.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y margen para cuestas. Aristotelous-Heptapyrgion son 48 min andando sin visitas, no 15. Bantis es opcional y requiere otros 22 min hasta Kapani."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Roma, mosaicos y mar con un interior",
+          "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+          "stopIds": [
+            "arch",
+            "rotunda",
+            "dimitrios",
+            "square",
+            "tower"
+          ],
+          "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+        },
+        {
+          "title": "Mercados por la mañana, barrio alto después",
+          "zone": "Kapani/Modiano → Ano Poli → murallas/Trigonion → Heptapyrgion",
+          "stopIds": [
+            "kapani",
+            "ano",
+            "walls",
+            "fort"
+          ],
+          "editorialNote": "Mercados temprano. Subida con tiempo y opción de transporte. Fortaleza y torre se ven por fuera de base. Si interesa entrar, elegir un interior principal y confirmar día y cita.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y margen para cuestas. Aristotelous-Heptapyrgion son 48 min andando sin visitas, no 15. Bantis es opcional y requiere otros 22 min hasta Kapani."
+        },
+        {
+          "title": "Un museo elegido y costa sin prisa",
+          "zone": "Arqueológico → Nea Paralia / Sombrillas",
+          "stopIds": [
+            "archeo",
+            "umbrellas"
+          ],
+          "editorialNote": "Arqueológico como visita principal. El Bizantino lo sustituye, sin obligación de hacer ambos. Tercera jornada urbana para quien quiera más historia, no necesaria para ver el centro; sin Meteora ni Halkidiki añadidas al final.",
+          "optionalStopIds": [
+            "byzantine"
+          ],
+          "geographyChecks": [],
+          "pacing": "4-6 h con museo, comida y paseo. En invierno ambos museos cierran los martes: mover los días en vez de inventar otra jornada de relleno."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Rotonda 8-20 excepto martes. Subir a Ano Poli fuera del calor, con agua y sombra. Heptapyrgion junio-octubre 10-17, no subir para entrar después de las 17. Una crítica indica Mourga cerrado en agosto: confirmar.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Rotonda 8:30-15:30, Arqueológico 9-17 y Bizantino 8:30-15:30: los tres cierran los martes en invierno. Trigonion interior solo viernes con cita. Torre 8:30-15:30, no para un atardecer tardío. Tarifas adultas invernales de Torre y Bizantino en conflicto: confirmar sin prometer descuentos.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Museos y Rotonda cierran 25-26/12 y 1/1; la cripta tiene su propio horario. No se promete programa navideño de 2026, coro, mercado ni apertura general. Reordenar días sin pagar por una visita cerrada.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Rotonda: 1-15 de octubre hasta las 19 y 16-31 hasta las 18. Arqueológico 9-17. El Bizantino cita el horario de verano desde el 8 de mayo; confirmar abril. Modiano comenzó nueva etapa en septiembre de 2026, sin trasladar los horarios de sus puestos antiguos.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Un interior principal por día; la tercera jornada es más museo, no una excursión obligatoria a Meteora.",
+    "No se presenta como vigente el combinado de 15€ de 2021 ni la gratuidad de la Rotonda de una guía errónea.",
+    "Pascua y festivos siguen el calendario ortodoxo local. Sin compras, reservas ni comidas aseguradas."
+  ],
+  "excludedOrOptional": [
+    "El Bizantino sustituye al Arqueológico, sin maratón de museos.",
+    "Heptapyrgion y Trigonion interiores se eligen; no toda la muralla es gratis.",
+    "Meteora, Vergina, Pella, Halkidiki y Olimpo requieren logística propia. No se añaden para llenar un tercer día.",
+    "No se promete conexión de aeropuerto, frecuencia de autobús o taxi a precio antiguo sin verificar."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "Saloniki: estructura urbana y ritmo",
+      "url": "https://saloniki.net/blog/thessaloniki-itinerary-3-days",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "GreekTripPlanner: guía contrastada, con errores corregidos",
+      "url": "https://greektriplanner.me/blog/things-to-do-in-thessaloniki",
+      "type": "commercial-travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "Unlocked: comidas y barrios",
+      "url": "https://unlockeditinerary.com/thessaloniki-food-itinerary/",
+      "type": "food-travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "rotunda",
+      "title": "Hellenic Heritage: Rotonda",
+      "url": "https://www.hh.gr/en/destinations/rotunda-thessaloniki/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "rotundatourism",
+      "title": "Turismo: Rotonda y tarifa",
+      "url": "https://www.thessalonikitourism.gr/index.php/en/component/k2/item/72-church-of-agios-georgios-rotunda",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "dimitrios",
+      "title": "Turismo: iglesia de Agios Dimitrios",
+      "url": "https://www.thessalonikitourism.gr/index.php/en/component/k2/item/70-church-of-agios-dimitrios",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "crypt",
+      "title": "Ministerio: cripta y calendario",
+      "url": "https://archaeologicalmuseums.gr/en/museum/5df34af3deca5e2d79e8c1bf",
+      "type": "official-directory",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "fort",
+      "title": "Hellenic Heritage: Heptapyrgion y Trigonion",
+      "url": "https://www.hh.gr/en/destinations/heptapyrgion-and-trigonion-tower/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "archeo",
+      "title": "Arqueológico: tarifas y calendario",
+      "url": "https://www.amth.gr/en/visit/hours-and-tickets",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "museumvisit",
+      "title": "Bizantino y Torre: visita y precios",
+      "url": "https://www.mbp.gr/en/visit/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "tower",
+      "title": "Torre Blanca: acceso y servicios",
+      "url": "https://www.lpth.gr/indexeg.php",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "towerdirectory",
+      "title": "Ministerio: Torre Blanca, tarifa de invierno en conflicto",
+      "url": "https://archaeologicalmuseums.gr/en/museum/5df34af3deca5e2d79e8c155/white-tower-exhibition",
+      "type": "official-directory",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "byzantinedirectory",
+      "title": "Ministerio: Bizantino, tarifa de invierno en conflicto",
+      "url": "https://archaeologicalmuseums.gr/en/museum/5df34af3deca5e2d79e8c154/museum-of-byzantine-culture",
+      "type": "official-directory",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "modiano",
+      "title": "Modiano: reapertura de septiembre de 2026",
+      "url": "https://agoramodiano.com/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "modianovisit",
+      "title": "Modiano: horarios publicados",
+      "url": "https://agoramodiano.com/visit",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "bantis",
+      "title": "Bantis: web propia con precio antiguo",
+      "url": "https://fbandis.wixsite.com/bougatsa/menu",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "bantisdelivery",
+      "title": "Wolt: precios de reparto, no mostrador",
+      "url": "https://wolt.com/el/grc/thessaloniki/restaurant/mpougatsa-mpantis",
+      "type": "delivery-marketplace",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "bantiscritic",
+      "title": "National Geographic 2025: Bantis",
+      "url": "https://www.nationalgeographic.com/travel/article/why-you-should-visit-thessaloniki-greeces-city-of-gastronomy",
+      "type": "travel-food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mourgacritic",
+      "title": "Gastronomos 2026: Mourga y presupuesto",
+      "url": "https://www.gastronomos.gr/magazi/i-moyrga-einai-ena-magazi-poy-omoio-toy-den-yparchei-sti-thessaloniki/351265/",
+      "type": "restaurant-critic",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mourgaalpha",
+      "title": "Alpha Guide: Mourga y cierre de agosto",
+      "url": "https://www.alpha-guide.gr/en/restaurant/10008585-mourga",
+      "type": "restaurant-critic",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mourgaold",
+      "title": "Greek Gastronomy Guide 2018: estilo de cocina",
+      "url": "https://www.greekgastronomyguide.gr/en/item/mourga-giannis-loukakis-thessaloniki/",
+      "type": "food-specialist",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mourga",
+      "title": "Mourga: página social no recuperable",
+      "url": "http://www.facebook.com/pages/%CE%97-%CE%9C%CE%BF%CF%8D%CF%81%CE%B3%CE%B1/1110503532377348",
+      "type": "official-social-unverified",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Roma, mosaicos y mar con un interior",
+            "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+            "stopIds": [
+              "arch",
+              "rotunda",
+              "dimitrios",
+              "square",
+              "tower"
+            ],
+            "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Roma, mosaicos y mar con un interior",
+            "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+            "stopIds": [
+              "arch",
+              "rotunda",
+              "dimitrios",
+              "square",
+              "tower"
+            ],
+            "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+          },
+          {
+            "title": "Mercados por la mañana, barrio alto después",
+            "zone": "Kapani/Modiano → Ano Poli → murallas/Trigonion → Heptapyrgion",
+            "stopIds": [
+              "kapani",
+              "ano",
+              "walls",
+              "fort"
+            ],
+            "editorialNote": "Mercados temprano. Subida con tiempo y opción de transporte. Fortaleza y torre se ven por fuera de base. Si interesa entrar, elegir un interior principal y confirmar día y cita.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y margen para cuestas. Aristotelous-Heptapyrgion son 48 min andando sin visitas, no 15. Bantis es opcional y requiere otros 22 min hasta Kapani."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Roma, mosaicos y mar con un interior",
+            "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+            "stopIds": [
+              "arch",
+              "rotunda",
+              "dimitrios",
+              "square",
+              "tower"
+            ],
+            "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+          },
+          {
+            "title": "Mercados por la mañana, barrio alto después",
+            "zone": "Kapani/Modiano → Ano Poli → murallas/Trigonion → Heptapyrgion",
+            "stopIds": [
+              "kapani",
+              "ano",
+              "walls",
+              "fort"
+            ],
+            "editorialNote": "Mercados temprano. Subida con tiempo y opción de transporte. Fortaleza y torre se ven por fuera de base. Si interesa entrar, elegir un interior principal y confirmar día y cita.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y margen para cuestas. Aristotelous-Heptapyrgion son 48 min andando sin visitas, no 15. Bantis es opcional y requiere otros 22 min hasta Kapani."
+          },
+          {
+            "title": "Un museo elegido y costa sin prisa",
+            "zone": "Arqueológico → Nea Paralia / Sombrillas",
+            "stopIds": [
+              "archeo",
+              "umbrellas"
+            ],
+            "editorialNote": "Arqueológico como visita principal. El Bizantino lo sustituye, sin obligación de hacer ambos. Tercera jornada urbana para quien quiera más historia, no necesaria para ver el centro; sin Meteora ni Halkidiki añadidas al final.",
+            "optionalStopIds": [
+              "byzantine"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con museo, comida y paseo. En invierno ambos museos cierran los martes: mover los días en vez de inventar otra jornada de relleno."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Roma, mosaicos y mar con un interior",
+            "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+            "stopIds": [
+              "arch",
+              "rotunda",
+              "dimitrios",
+              "square",
+              "tower"
+            ],
+            "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Roma, mosaicos y mar con un interior",
+            "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+            "stopIds": [
+              "arch",
+              "rotunda",
+              "dimitrios",
+              "square",
+              "tower"
+            ],
+            "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+          },
+          {
+            "title": "Mercados por la mañana, barrio alto después",
+            "zone": "Kapani/Modiano → Ano Poli → murallas/Trigonion → Heptapyrgion",
+            "stopIds": [
+              "kapani",
+              "ano",
+              "walls",
+              "fort"
+            ],
+            "editorialNote": "Mercados temprano. Subida con tiempo y opción de transporte. Fortaleza y torre se ven por fuera de base. Si interesa entrar, elegir un interior principal y confirmar día y cita.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y margen para cuestas. Aristotelous-Heptapyrgion son 48 min andando sin visitas, no 15. Bantis es opcional y requiere otros 22 min hasta Kapani."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Roma, mosaicos y mar con un interior",
+            "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+            "stopIds": [
+              "arch",
+              "rotunda",
+              "dimitrios",
+              "square",
+              "tower"
+            ],
+            "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+          },
+          {
+            "title": "Mercados por la mañana, barrio alto después",
+            "zone": "Kapani/Modiano → Ano Poli → murallas/Trigonion → Heptapyrgion",
+            "stopIds": [
+              "kapani",
+              "ano",
+              "walls",
+              "fort"
+            ],
+            "editorialNote": "Mercados temprano. Subida con tiempo y opción de transporte. Fortaleza y torre se ven por fuera de base. Si interesa entrar, elegir un interior principal y confirmar día y cita.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y margen para cuestas. Aristotelous-Heptapyrgion son 48 min andando sin visitas, no 15. Bantis es opcional y requiere otros 22 min hasta Kapani."
+          },
+          {
+            "title": "Un museo elegido y costa sin prisa",
+            "zone": "Arqueológico → Nea Paralia / Sombrillas",
+            "stopIds": [
+              "archeo",
+              "umbrellas"
+            ],
+            "editorialNote": "Arqueológico como visita principal. El Bizantino lo sustituye, sin obligación de hacer ambos. Tercera jornada urbana para quien quiera más historia, no necesaria para ver el centro; sin Meteora ni Halkidiki añadidas al final.",
+            "optionalStopIds": [
+              "byzantine"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con museo, comida y paseo. En invierno ambos museos cierran los martes: mover los días en vez de inventar otra jornada de relleno."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Roma, mosaicos y mar con un interior",
+            "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+            "stopIds": [
+              "arch",
+              "rotunda",
+              "dimitrios",
+              "square",
+              "tower"
+            ],
+            "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Roma, mosaicos y mar con un interior",
+            "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+            "stopIds": [
+              "arch",
+              "rotunda",
+              "dimitrios",
+              "square",
+              "tower"
+            ],
+            "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+          },
+          {
+            "title": "Mercados por la mañana, barrio alto después",
+            "zone": "Kapani/Modiano → Ano Poli → murallas/Trigonion → Heptapyrgion",
+            "stopIds": [
+              "kapani",
+              "ano",
+              "walls",
+              "fort"
+            ],
+            "editorialNote": "Mercados temprano. Subida con tiempo y opción de transporte. Fortaleza y torre se ven por fuera de base. Si interesa entrar, elegir un interior principal y confirmar día y cita.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y margen para cuestas. Aristotelous-Heptapyrgion son 48 min andando sin visitas, no 15. Bantis es opcional y requiere otros 22 min hasta Kapani."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Roma, mosaicos y mar con un interior",
+            "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+            "stopIds": [
+              "arch",
+              "rotunda",
+              "dimitrios",
+              "square",
+              "tower"
+            ],
+            "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+          },
+          {
+            "title": "Mercados por la mañana, barrio alto después",
+            "zone": "Kapani/Modiano → Ano Poli → murallas/Trigonion → Heptapyrgion",
+            "stopIds": [
+              "kapani",
+              "ano",
+              "walls",
+              "fort"
+            ],
+            "editorialNote": "Mercados temprano. Subida con tiempo y opción de transporte. Fortaleza y torre se ven por fuera de base. Si interesa entrar, elegir un interior principal y confirmar día y cita.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y margen para cuestas. Aristotelous-Heptapyrgion son 48 min andando sin visitas, no 15. Bantis es opcional y requiere otros 22 min hasta Kapani."
+          },
+          {
+            "title": "Un museo elegido y costa sin prisa",
+            "zone": "Arqueológico → Nea Paralia / Sombrillas",
+            "stopIds": [
+              "archeo",
+              "umbrellas"
+            ],
+            "editorialNote": "Arqueológico como visita principal. El Bizantino lo sustituye, sin obligación de hacer ambos. Tercera jornada urbana para quien quiera más historia, no necesaria para ver el centro; sin Meteora ni Halkidiki añadidas al final.",
+            "optionalStopIds": [
+              "byzantine"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con museo, comida y paseo. En invierno ambos museos cierran los martes: mover los días en vez de inventar otra jornada de relleno."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Roma, mosaicos y mar con un interior",
+            "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+            "stopIds": [
+              "arch",
+              "rotunda",
+              "dimitrios",
+              "square",
+              "tower"
+            ],
+            "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Roma, mosaicos y mar con un interior",
+            "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+            "stopIds": [
+              "arch",
+              "rotunda",
+              "dimitrios",
+              "square",
+              "tower"
+            ],
+            "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+          },
+          {
+            "title": "Mercados por la mañana, barrio alto después",
+            "zone": "Kapani/Modiano → Ano Poli → murallas/Trigonion → Heptapyrgion",
+            "stopIds": [
+              "kapani",
+              "ano",
+              "walls",
+              "fort"
+            ],
+            "editorialNote": "Mercados temprano. Subida con tiempo y opción de transporte. Fortaleza y torre se ven por fuera de base. Si interesa entrar, elegir un interior principal y confirmar día y cita.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y margen para cuestas. Aristotelous-Heptapyrgion son 48 min andando sin visitas, no 15. Bantis es opcional y requiere otros 22 min hasta Kapani."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Roma, mosaicos y mar con un interior",
+            "zone": "Kamara → Rotonda → Agios Dimitrios → Aristotelous → Torre Blanca",
+            "stopIds": [
+              "arch",
+              "rotunda",
+              "dimitrios",
+              "square",
+              "tower"
+            ],
+            "editorialNote": "Rotonda como entrada principal. Torre Blanca por fuera. Si interesa su museo, sustituir otro bloque y respetar el cierre temprano invernal. El martes cierra la Rotonda: cambiar de día o verla por fuera, sin inventar una apertura.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, café y paseo. Sin Arqueológico, Bizantino ni subida a Ano Poli añadidos."
+          },
+          {
+            "title": "Mercados por la mañana, barrio alto después",
+            "zone": "Kapani/Modiano → Ano Poli → murallas/Trigonion → Heptapyrgion",
+            "stopIds": [
+              "kapani",
+              "ano",
+              "walls",
+              "fort"
+            ],
+            "editorialNote": "Mercados temprano. Subida con tiempo y opción de transporte. Fortaleza y torre se ven por fuera de base. Si interesa entrar, elegir un interior principal y confirmar día y cita.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y margen para cuestas. Aristotelous-Heptapyrgion son 48 min andando sin visitas, no 15. Bantis es opcional y requiere otros 22 min hasta Kapani."
+          },
+          {
+            "title": "Un museo elegido y costa sin prisa",
+            "zone": "Arqueológico → Nea Paralia / Sombrillas",
+            "stopIds": [
+              "archeo",
+              "umbrellas"
+            ],
+            "editorialNote": "Arqueológico como visita principal. El Bizantino lo sustituye, sin obligación de hacer ambos. Tercera jornada urbana para quien quiera más historia, no necesaria para ver el centro; sin Meteora ni Halkidiki añadidas al final.",
+            "optionalStopIds": [
+              "byzantine"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con museo, comida y paseo. En invierno ambos museos cierran los martes: mover los días en vez de inventar otra jornada de relleno."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Varias guías antes de operadores y Maps.",
+    "Rotonda 10€, no gratis. Combinado de 2021 no asumido vigente; conflicto de tarifas invernales explícito.",
+    "Modiano reabrió en septiembre de 2026; no se asumen vendedores ni horarios antiguos.",
+    "Fotos individuales con licencia verificada; comida ajena rotulada."
+  ],
+  "editorialTradeoffs": [
+    "Rotonda principal el día 1, mercados y barrio alto el día 2, un museo el día 3.",
+    "No se fuerza una excursión lejana para rellenar días."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Saloniki aporta estructura urbana, recortada para mantener un interior principal al día. GreekTripPlanner indica Rotonda gratis y subida de 15 min: se corrigen con operadores y Maps. Unlocked aporta comidas y barrios, sin aceptar horarios no verificados. National Geographic 2025 sostiene Bantis; Gastronomos 2026 aporta evidencia sobre Mourga y un presupuesto calificado como crítico."
+}

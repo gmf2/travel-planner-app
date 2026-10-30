@@ -1,0 +1,1067 @@
+{
+  "schemaVersion": 1,
+  "country": "IE",
+  "id": "dublin",
+  "name": "Dublín",
+  "localName": "Dublin",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días urbanos sin fecha, reserva ni gasto. Centro georgiano, The Liberties, Kilmainham separados; un interior principal por día.",
+  "stops": [
+    {
+      "id": "trinity",
+      "name": "Trinity · Book of Kells y Old Library",
+      "kind": "visit",
+      "zone": "Trinity / College Green",
+      "reason": "Manuscrito y Long Room como visita principal del centro, con paseo por el campus sin otro gran museo seguido.",
+      "sourceIds": [
+        "trinity",
+        "trinitytickets",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 53.343888,
+        "lon": -6.256755399999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=The+Book+of+Kells+Experience&query_place_id=ChIJ3Y7HLZsOZ0gRpE8_XUYbw1A",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Experience desde 25€ incluye Red Pavilion; Book of Kells & Old Library desde 19€ NO incluye ese pabellón. Precios desde, no total para fecha elegida. Reserva online recomendada. Long Room conserva libros sólo en primeras cuatro secciones: mayoría retirada por conservación, no prometer estanterías de fotos antiguas. Prohibida foto del manuscrito. Página principal lun-jue 8:30-18:30, vie-sáb 19, dom 9-18:30; reseña incrustada antigua dice domingo 16:30, manda calendario de compra.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dublin/trinity.jpg",
+        "source": "https://www.flickr.com/photos/sackton/7580281814/",
+        "author": "Tim Sackton",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Campanile del campus de Trinity, no fotografía del manuscrito ni estanterías completas actuales. Recorte de presentación."
+      },
+      "visitMode": "Entrada de pago con franja horaria"
+    },
+    {
+      "id": "merrion",
+      "name": "Merrion Square · Dublín georgiano",
+      "kind": "visit",
+      "zone": "Merrion Square",
+      "reason": "Jardín y fachadas de ladrillo del barrio georgiano, con paseo sin entrar en viviendas privadas.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 53.3390471,
+        "lon": -6.2499832
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Merrion+Square+South&query_place_id=ChIJi-JEGZcOZ0gRtPE1zG99l_c",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Punto Maps en calle sur de la plaza, no puerta accesible confirmada. National Gallery y Archaeology son alternativas, no dos museos añadidos tras Trinity. Jardín según apertura local y luz, no floración garantizada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dublin/merrion.jpg",
+        "source": "https://www.flickr.com/photos/91295117@N08/11069718975/",
+        "author": "erikaow",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza y fachadas exteriores"
+    },
+    {
+      "id": "green",
+      "name": "Saint Stephen’s Green",
+      "kind": "visit",
+      "zone": "Saint Stephen’s Green",
+      "reason": "Senderos y estanque para una pausa larga antes de volver a las calles peatonales.",
+      "sourceIds": [
+        "green",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 53.3369532,
+        "lon": -6.259999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Saint+Stephen%27s+Green&query_place_id=ChIJLaxzLpkOZ0gRglayQz8vRKA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "OPW apertura lun-sáb 7:30, dom/festivos 9:30; 25 dic 9:30-12:30. Cierre normal no publicado en página consultada: comprobar puertas y no asumir 24 h. Fotografías florales de archivo, no estación garantizada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dublin/green.jpg",
+        "source": "https://www.flickr.com/photos/cleopold73/180382636/",
+        "author": "Corey Leopold",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Parque exterior, gratuito"
+    },
+    {
+      "id": "grafton",
+      "name": "Grafton Street y calles del centro",
+      "kind": "visit",
+      "zone": "Grafton / Drury Street",
+      "reason": "Calle peatonal y desvíos hacia comercios y cafés, sin obligación de compras ni circuito de pubs.",
+      "sourceIds": [
+        "guide1",
+        "foodguide"
+      ],
+      "coordinates": {
+        "lat": 53.3416362,
+        "lon": -6.2601859
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Grafton+Street&query_place_id=ChIJ8duOjJsOZ0gR3dyOELuxr5A",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Actuaciones callejeras espontáneas, no concierto reservado. Evitar aglomeraciones y confirmar horarios de tiendas. Temple Bar puede ser paseo aparte corto, no noche de alcohol obligatoria ni música garantizada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dublin/grafton.jpg",
+        "source": "https://www.flickr.com/photos/antonf62/5692919466/",
+        "author": "antonf",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo urbano exterior"
+    },
+    {
+      "id": "patrick",
+      "name": "Saint Patrick’s · parque y exterior",
+      "kind": "visit",
+      "zone": "The Liberties / Patrick Street",
+      "reason": "Catedral vista desde su entorno y pequeña pausa exterior antes de subir hacia Christ Church.",
+      "sourceIds": [
+        "patrick",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 53.3395154,
+        "lon": -6.2714767
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=St+Patrick%27s+Cathedral&query_place_id=ChIJpVg1bAmnREgRVLEltpvmyJI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Interior adulto 11,50€ según catedral, sujeto a culto/calendario, no añadido automáticamente. Parque puede cerrar según luz: si está cerrado ver fachada desde calle, no acceso forzado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dublin/patrick.jpg",
+        "source": "https://www.flickr.com/photos/jenniferboyer/7354938804/",
+        "author": "Jennifer Boyer",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Exterior de Saint Patrick’s, no entrada interior incluida. Recorte de presentación."
+      },
+      "visitMode": "Exterior; interior no incluido"
+    },
+    {
+      "id": "christ",
+      "name": "Christ Church · exterior medieval",
+      "kind": "visit",
+      "zone": "Christchurch Place",
+      "reason": "Fachada y entorno de la catedral, antes de adentrarse en The Liberties.",
+      "sourceIds": [
+        "christ",
+        "castle",
+        "beatty",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 53.34351299999999,
+        "lon": -6.2710602
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Christ+Church+Cathedral&query_place_id=ChIJGw9ASiYMZ0gRy9yiaCZxNZI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "No incluye interior de pago, cripta ni Dublinia. No atravesar Dublin Castle para llegar: campus entero cerrado hasta fin 2026, incluido paso Dame Street–Ship Street. Chester Beatty también cerrado 15 jun-fin 2026.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dublin/christ.jpg",
+        "source": "https://www.flickr.com/photos/31068574@N05/53520633385/",
+        "author": "Le Monde1",
+        "license": "Public Domain Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "licenseURL": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "caption": "Exterior de Christ Church, no cripta ni Dublinia incluidos. Recorte de presentación."
+      },
+      "visitMode": "Exterior; cripta y Dublinia aparte"
+    },
+    {
+      "id": "liberties",
+      "name": "The Liberties · Thomas Street",
+      "kind": "visit",
+      "zone": "The Liberties / Thomas Street",
+      "reason": "Calles comerciales de barrio y patrimonio industrial, con tiempo de comida antes de Guinness.",
+      "sourceIds": [
+        "guide2",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 53.3430729,
+        "lon": -6.2804465
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Thomas+Street&query_place_id=ChIJXRT-tjoMZ0gRlKRu_ni2j9Y",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "No añadir Teeling/Roe&Co con degustación y otra visita larga por cercanía. Fachadas y tiendas de archivo, comercios concretos pueden cambiar; no entrar a recintos industriales.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dublin/liberties.jpg",
+        "source": "https://www.flickr.com/photos/infomatique/14154234624/",
+        "author": "William Murphy",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio exterior"
+    },
+    {
+      "id": "guinness",
+      "name": "Guinness Storehouse · historia y vistas",
+      "kind": "visit",
+      "zone": "St James’s Gate / The Liberties",
+      "reason": "Experiencia autoguiada sobre la cerveza y mirador Gravity Bar, visita principal del oeste cercano.",
+      "sourceIds": [
+        "guinness",
+        "guinnesshours",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 53.3418088,
+        "lon": -6.2867156
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Guinness+Storehouse&query_place_id=ChIJawXFQIQOZ0gRoucFdZIzGbM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Básica desde 24€ según fecha, no tarifa fija ni extras Academy/STOUTie incluidos. Guinness 0.0 o refresco disponibles; alcohol no obligatorio. Lun-jue/dom admisión 9:30-17 edificio hasta 19; vie-sáb admisión hasta 18 edificio hasta 20. Horas no garantizan entradas: confirmar franja. No visita a fábrica de producción por comprar básica.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dublin/guinness.jpg",
+        "source": "https://www.flickr.com/photos/giuseppemilo/33510036951/",
+        "author": "Giuseppe Milo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Acceso exterior del Guinness Storehouse, archivo, no fábrica de producción visitada. Recorte de presentación."
+      },
+      "visitMode": "Experiencia de pago; no fábrica de producción"
+    },
+    {
+      "id": "gaol",
+      "name": "Kilmainham Gaol · visita guiada",
+      "kind": "visit",
+      "zone": "Kilmainham",
+      "reason": "Historia de la prisión y de la independencia irlandesa, una visita que requiere reserva real.",
+      "sourceIds": [
+        "gaol",
+        "gaolfaq",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 53.34179349999999,
+        "lon": -6.3091417
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Kilmainham+Gaol&query_place_id=ChIJbXwkCloMZ0gRO3zBD1Jo1Bg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 8€, no 9/12€ de guías. 90 min oficiales; añadir llegada 10 min antes. Sólo sitio oficial kilmainhamgaolmuseum.ie, no reventa. Publicación 28 días antes a medianoche de Irlanda, cancelaciones 9:15-9:30 sin garantía. 24-27 dic cerrado. Sin entrada, sustituir por IMMA interior según apertura, no prometer entrar por esperar. Historia de ejecuciones; interior muy frío en invierno.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dublin/gaol.jpg",
+        "source": "https://www.flickr.com/photos/joelogon/6111113842/",
+        "author": "Joe Loong",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Prisión de pago; sólo visita guiada"
+    },
+    {
+      "id": "imma",
+      "name": "Royal Hospital Kilmainham · jardín de IMMA",
+      "kind": "visit",
+      "zone": "Kilmainham / IMMA",
+      "reason": "Jardín formal y patio histórico para salir de la prisión sin sumar otro museo largo.",
+      "sourceIds": [
+        "imma",
+        "immagardens",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 53.3429206,
+        "lon": -6.3000339
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=The+Royal+Hospital+Kilmainham&query_place_id=ChIJm1YiNeYHZ0gRi_W7SBxOmWg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Jardines abren horario museo: lunes cerrado salvo festivos. Mar/jue-sáb 10-17:30, mié 11:30-17:30, dom/festivos 12-17:30. No asumir recinto/parque 24 h. Si lunes normal omitir jardín o cambiar orden de días. Exposiciones mayoría gratis pero alguna puede ser de pago; interior sólo sustitución de Gaol, no añadido. Old Man’s House cerrado hasta aviso.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dublin/imma.jpg",
+        "source": "https://www.flickr.com/photos/infomatique/9259967073/",
+        "author": "William Murphy",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Jardines gratuitos en horario del museo"
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix Park · Wellington Monument",
+      "kind": "visit",
+      "zone": "Phoenix Park / extremo oriental",
+      "reason": "Tramo oriental de parque y monumento, sin pretender recorrer sus 707 hectáreas en una tarde.",
+      "sourceIds": [
+        "park",
+        "parkdeer",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 53.3490364,
+        "lon": -6.303101
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Wellington+Monument&query_place_id=ChIJJy1n5EsMZ0gRwdEqkxUxmHc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Parque gratis 24 h, puertas Parkgate/Castleknock 24 h, laterales aprox 7-22:45 sujetas a cierres. Usar luz diurna, no garantiza avistar ciervos ni zoo incluido. No alimentar ni acercarse a ciervos; guardar 50 m según OPW. Visitor Centre está lejos y tiene calendario propio, no parada incluida.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/dublin/phoenix.jpg",
+        "source": "https://www.flickr.com/photos/andyhay/38151491562/",
+        "author": "Andy Hay",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Parque exterior; sector oriental"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Trinity y Dublín georgiano",
+          "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+          "stopIds": [
+            "trinity",
+            "merrion",
+            "green",
+            "grafton"
+          ],
+          "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Trinity y Dublín georgiano",
+          "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+          "stopIds": [
+            "trinity",
+            "merrion",
+            "green",
+            "grafton"
+          ],
+          "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+        },
+        {
+          "title": "Catedrales exteriores y The Liberties",
+          "zone": "Saint Patrick’s → Christ Church → Thomas Street → Guinness",
+          "stopIds": [
+            "patrick",
+            "christ",
+            "liberties",
+            "guinness"
+          ],
+          "editorialNote": "Catedrales exteriores; Guinness interior principal. Dublin Castle y Chester Beatty no son alternativa abierta durante cierre hasta fin 2026 ni hay paso por campus.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas. Maps 551 m/7 min, 701 m/10 min, 607 m/8 min, añadir recorridos por barrio. Guinness antes de última admisión, no convertir cierre del edificio en hora de entrar."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Trinity y Dublín georgiano",
+          "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+          "stopIds": [
+            "trinity",
+            "merrion",
+            "green",
+            "grafton"
+          ],
+          "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+        },
+        {
+          "title": "Catedrales exteriores y The Liberties",
+          "zone": "Saint Patrick’s → Christ Church → Thomas Street → Guinness",
+          "stopIds": [
+            "patrick",
+            "christ",
+            "liberties",
+            "guinness"
+          ],
+          "editorialNote": "Catedrales exteriores; Guinness interior principal. Dublin Castle y Chester Beatty no son alternativa abierta durante cierre hasta fin 2026 ni hay paso por campus.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas. Maps 551 m/7 min, 701 m/10 min, 607 m/8 min, añadir recorridos por barrio. Guinness antes de última admisión, no convertir cierre del edificio en hora de entrar."
+        },
+        {
+          "title": "Kilmainham y el este de Phoenix Park",
+          "zone": "Kilmainham Gaol → jardín IMMA → Wellington Monument",
+          "stopIds": [
+            "gaol",
+            "imma",
+            "phoenix"
+          ],
+          "editorialNote": "Gaol sólo con entrada confirmada. Sin entrada elegir IMMA interior si abierto, en sustitución. Lunes no festivo jardín IMMA cerrado: omitirlo o intercambiar días; no esperar junto a verja ni sumar Guinness del otro día.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y desplazamiento desde centro. Maps Gaol–IMMA 1159 m/15 min, IMMA–Wellington 2129 m/29 min; el parque no está a 12 min de todo Kilmainham. Paseo del parque aparte, retorno al centro no incluido. En invierno priorizar luz y acortar parque."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Reserva Gaol 28 días antes y Trinity por franja; no entradas garantizadas. Parques con agua y descansos, ciervos a distancia. Castle y Beatty cerrados jun-dic 2026.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Gaol muy frío; 24-27 dic cerrado. Jardín IMMA sólo horario museo/lunes cerrado, priorizar luz para parque. Guinness edificio cierra después de última admisión, no llegar a cierre.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Gaol 24-27 dic cerrado. Stephen’s Green 25 dic 9:30-12:30. Resto festivos confirmar, no asumir paseos de tiendas/museos normales. Castle/Beatty cerrados hasta fin 2026, reapertura 2027 requiere verificar.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Lluvia y viento requieren ropa impermeable y ajustar parques. Trinity Long Room mayor parte libros retirados aunque siga abierto. Horarios de jardines no equivalen parque público 24 h.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No entradas, comidas o alcohol comprados/reservados. Tarifas desde en euros, fecha/precio final no fijados.",
+    "Dublin Castle campus entero y Chester Beatty cerrados hasta fin 2026: no paso peatonal ni museo alternativo accesible.",
+    "Precios de Gaol de guías 9/12€ descartados, oficial 8€. Guinness desde 24 no 30 fijo; Trinity: tipos 19/25 no 21 genérico.",
+    "No Howth, Glendalough, Jameson, Teeling y todos museos apilados tras rutas urbanas."
+  ],
+  "excludedOrOptional": [
+    "Howth costa requiere medio/día propio y verificar DART/clima/senderos, no añadido tras Phoenix Park.",
+    "IMMA interior sustituye Gaol sin entrada y sólo con horario; no llenar tercer día con museos repetidos.",
+    "Castle/Chester Beatty esperar reapertura confirmada, no asumir 01/01/2027 ni camino abierto."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "Travel Reference: tres días, selección no logística",
+      "url": "https://travel-reference.com/3-days-dublin/",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "guide2",
+      "title": "Rebel Atlas: barrios alternativos",
+      "url": "https://rebelatlas.com/destinations/europe/ireland/dublin/dublin-3-day-alternative-itinerary-stout-cobblestones-cold-water-swims/",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "foodguide",
+      "title": "Delicious Dublin: selección local",
+      "url": "https://deliciousdublintours.com/dublinfoodguide/",
+      "type": "local-food-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "foodreview",
+      "title": "2FoodTrippers: visitas a cafés",
+      "url": "https://www.2foodtrippers.com/dublin-restaurants/",
+      "type": "firsthand-food-review",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "trinity",
+      "title": "Trinity: experiencia y conservación",
+      "url": "https://www.visittrinity.ie/book-of-kells-experience/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "trinitytickets",
+      "title": "Trinity: tipos de entrada",
+      "url": "https://www.visittrinity.ie/book-now/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "castle",
+      "title": "Heritage Ireland: campus cerrado 2026",
+      "url": "https://heritageireland.ie/places-to-visit/dublin-castle/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "beatty",
+      "title": "Chester Beatty: cierre 2026",
+      "url": "https://chesterbeatty.ie/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "gaol",
+      "title": "Heritage: Kilmainham 8€,90 min",
+      "url": "https://heritageireland.ie/places-to-visit/kilmainham-gaol/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "gaolfaq",
+      "title": "Kilmainham:28díasmedianocheIrlanda",
+      "url": "https://www.kilmainhamgaolmuseum.ie/faq/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "imma",
+      "title": "IMMA: visita",
+      "url": "https://imma.ie/visit/info/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "immagardens",
+      "title": "IMMA: jardín en horario museo",
+      "url": "https://imma.ie/visit/cafe-shop-grounds/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "green",
+      "title": "Heritage: StStephen’s Green",
+      "url": "https://heritageireland.ie/places-to-visit/st-stephens-green/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "patrick",
+      "title": "SaintPatrick’s: visitas",
+      "url": "https://www.stpatrickscathedral.ie/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christ",
+      "title": "ChristChurch: visitas",
+      "url": "https://christchurchcathedral.ie/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "guinness",
+      "title": "Guinness: entradas",
+      "url": "https://www.guinness-storehouse.com/en/booking",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "guinnesshours",
+      "title": "Guinness: horario",
+      "url": "https://www.guinness-storehouse.com/en/contact-us",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "park",
+      "title": "Phoenix Park: horario",
+      "url": "https://phoenixpark.ie/opening-hours/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "parkdeer",
+      "title": "Phoenix Park: fauna",
+      "url": "https://www.phoenixpark.ie/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "boxty",
+      "title": "BoxtyHouse: carta",
+      "url": "https://www.boxtyhouse.ie/menu?menu=mains",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "hubbard",
+      "title": "BrotherHubbard: sedes",
+      "url": "https://brotherhubbard.ie/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "fumbally",
+      "title": "Fumbally: horarios",
+      "url": "https://thefumbally.ie/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Trinity y Dublín georgiano",
+            "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+            "stopIds": [
+              "trinity",
+              "merrion",
+              "green",
+              "grafton"
+            ],
+            "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Trinity y Dublín georgiano",
+            "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+            "stopIds": [
+              "trinity",
+              "merrion",
+              "green",
+              "grafton"
+            ],
+            "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+          },
+          {
+            "title": "Catedrales exteriores y The Liberties",
+            "zone": "Saint Patrick’s → Christ Church → Thomas Street → Guinness",
+            "stopIds": [
+              "patrick",
+              "christ",
+              "liberties",
+              "guinness"
+            ],
+            "editorialNote": "Catedrales exteriores; Guinness interior principal. Dublin Castle y Chester Beatty no son alternativa abierta durante cierre hasta fin 2026 ni hay paso por campus.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps 551 m/7 min, 701 m/10 min, 607 m/8 min, añadir recorridos por barrio. Guinness antes de última admisión, no convertir cierre del edificio en hora de entrar."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Trinity y Dublín georgiano",
+            "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+            "stopIds": [
+              "trinity",
+              "merrion",
+              "green",
+              "grafton"
+            ],
+            "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+          },
+          {
+            "title": "Catedrales exteriores y The Liberties",
+            "zone": "Saint Patrick’s → Christ Church → Thomas Street → Guinness",
+            "stopIds": [
+              "patrick",
+              "christ",
+              "liberties",
+              "guinness"
+            ],
+            "editorialNote": "Catedrales exteriores; Guinness interior principal. Dublin Castle y Chester Beatty no son alternativa abierta durante cierre hasta fin 2026 ni hay paso por campus.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps 551 m/7 min, 701 m/10 min, 607 m/8 min, añadir recorridos por barrio. Guinness antes de última admisión, no convertir cierre del edificio en hora de entrar."
+          },
+          {
+            "title": "Kilmainham y el este de Phoenix Park",
+            "zone": "Kilmainham Gaol → jardín IMMA → Wellington Monument",
+            "stopIds": [
+              "gaol",
+              "imma",
+              "phoenix"
+            ],
+            "editorialNote": "Gaol sólo con entrada confirmada. Sin entrada elegir IMMA interior si abierto, en sustitución. Lunes no festivo jardín IMMA cerrado: omitirlo o intercambiar días; no esperar junto a verja ni sumar Guinness del otro día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y desplazamiento desde centro. Maps Gaol–IMMA 1159 m/15 min, IMMA–Wellington 2129 m/29 min; el parque no está a 12 min de todo Kilmainham. Paseo del parque aparte, retorno al centro no incluido. En invierno priorizar luz y acortar parque."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Trinity y Dublín georgiano",
+            "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+            "stopIds": [
+              "trinity",
+              "merrion",
+              "green",
+              "grafton"
+            ],
+            "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Trinity y Dublín georgiano",
+            "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+            "stopIds": [
+              "trinity",
+              "merrion",
+              "green",
+              "grafton"
+            ],
+            "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+          },
+          {
+            "title": "Catedrales exteriores y The Liberties",
+            "zone": "Saint Patrick’s → Christ Church → Thomas Street → Guinness",
+            "stopIds": [
+              "patrick",
+              "christ",
+              "liberties",
+              "guinness"
+            ],
+            "editorialNote": "Catedrales exteriores; Guinness interior principal. Dublin Castle y Chester Beatty no son alternativa abierta durante cierre hasta fin 2026 ni hay paso por campus.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps 551 m/7 min, 701 m/10 min, 607 m/8 min, añadir recorridos por barrio. Guinness antes de última admisión, no convertir cierre del edificio en hora de entrar."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Trinity y Dublín georgiano",
+            "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+            "stopIds": [
+              "trinity",
+              "merrion",
+              "green",
+              "grafton"
+            ],
+            "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+          },
+          {
+            "title": "Catedrales exteriores y The Liberties",
+            "zone": "Saint Patrick’s → Christ Church → Thomas Street → Guinness",
+            "stopIds": [
+              "patrick",
+              "christ",
+              "liberties",
+              "guinness"
+            ],
+            "editorialNote": "Catedrales exteriores; Guinness interior principal. Dublin Castle y Chester Beatty no son alternativa abierta durante cierre hasta fin 2026 ni hay paso por campus.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps 551 m/7 min, 701 m/10 min, 607 m/8 min, añadir recorridos por barrio. Guinness antes de última admisión, no convertir cierre del edificio en hora de entrar."
+          },
+          {
+            "title": "Kilmainham y el este de Phoenix Park",
+            "zone": "Kilmainham Gaol → jardín IMMA → Wellington Monument",
+            "stopIds": [
+              "gaol",
+              "imma",
+              "phoenix"
+            ],
+            "editorialNote": "Gaol sólo con entrada confirmada. Sin entrada elegir IMMA interior si abierto, en sustitución. Lunes no festivo jardín IMMA cerrado: omitirlo o intercambiar días; no esperar junto a verja ni sumar Guinness del otro día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y desplazamiento desde centro. Maps Gaol–IMMA 1159 m/15 min, IMMA–Wellington 2129 m/29 min; el parque no está a 12 min de todo Kilmainham. Paseo del parque aparte, retorno al centro no incluido. En invierno priorizar luz y acortar parque."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Trinity y Dublín georgiano",
+            "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+            "stopIds": [
+              "trinity",
+              "merrion",
+              "green",
+              "grafton"
+            ],
+            "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Trinity y Dublín georgiano",
+            "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+            "stopIds": [
+              "trinity",
+              "merrion",
+              "green",
+              "grafton"
+            ],
+            "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+          },
+          {
+            "title": "Catedrales exteriores y The Liberties",
+            "zone": "Saint Patrick’s → Christ Church → Thomas Street → Guinness",
+            "stopIds": [
+              "patrick",
+              "christ",
+              "liberties",
+              "guinness"
+            ],
+            "editorialNote": "Catedrales exteriores; Guinness interior principal. Dublin Castle y Chester Beatty no son alternativa abierta durante cierre hasta fin 2026 ni hay paso por campus.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps 551 m/7 min, 701 m/10 min, 607 m/8 min, añadir recorridos por barrio. Guinness antes de última admisión, no convertir cierre del edificio en hora de entrar."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Trinity y Dublín georgiano",
+            "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+            "stopIds": [
+              "trinity",
+              "merrion",
+              "green",
+              "grafton"
+            ],
+            "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+          },
+          {
+            "title": "Catedrales exteriores y The Liberties",
+            "zone": "Saint Patrick’s → Christ Church → Thomas Street → Guinness",
+            "stopIds": [
+              "patrick",
+              "christ",
+              "liberties",
+              "guinness"
+            ],
+            "editorialNote": "Catedrales exteriores; Guinness interior principal. Dublin Castle y Chester Beatty no son alternativa abierta durante cierre hasta fin 2026 ni hay paso por campus.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps 551 m/7 min, 701 m/10 min, 607 m/8 min, añadir recorridos por barrio. Guinness antes de última admisión, no convertir cierre del edificio en hora de entrar."
+          },
+          {
+            "title": "Kilmainham y el este de Phoenix Park",
+            "zone": "Kilmainham Gaol → jardín IMMA → Wellington Monument",
+            "stopIds": [
+              "gaol",
+              "imma",
+              "phoenix"
+            ],
+            "editorialNote": "Gaol sólo con entrada confirmada. Sin entrada elegir IMMA interior si abierto, en sustitución. Lunes no festivo jardín IMMA cerrado: omitirlo o intercambiar días; no esperar junto a verja ni sumar Guinness del otro día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y desplazamiento desde centro. Maps Gaol–IMMA 1159 m/15 min, IMMA–Wellington 2129 m/29 min; el parque no está a 12 min de todo Kilmainham. Paseo del parque aparte, retorno al centro no incluido. En invierno priorizar luz y acortar parque."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Trinity y Dublín georgiano",
+            "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+            "stopIds": [
+              "trinity",
+              "merrion",
+              "green",
+              "grafton"
+            ],
+            "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Trinity y Dublín georgiano",
+            "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+            "stopIds": [
+              "trinity",
+              "merrion",
+              "green",
+              "grafton"
+            ],
+            "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+          },
+          {
+            "title": "Catedrales exteriores y The Liberties",
+            "zone": "Saint Patrick’s → Christ Church → Thomas Street → Guinness",
+            "stopIds": [
+              "patrick",
+              "christ",
+              "liberties",
+              "guinness"
+            ],
+            "editorialNote": "Catedrales exteriores; Guinness interior principal. Dublin Castle y Chester Beatty no son alternativa abierta durante cierre hasta fin 2026 ni hay paso por campus.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps 551 m/7 min, 701 m/10 min, 607 m/8 min, añadir recorridos por barrio. Guinness antes de última admisión, no convertir cierre del edificio en hora de entrar."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Trinity y Dublín georgiano",
+            "zone": "Trinity → Merrion Square → Stephen’s Green → Grafton",
+            "stopIds": [
+              "trinity",
+              "merrion",
+              "green",
+              "grafton"
+            ],
+            "editorialNote": "Una visita interior principal: elegir tipo de entrada Trinity antes de reservar. Museos nacionales son sustituciones, no dos paradas extra.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 994 m/13 min, 942 m/13 min, 617 m/8 min; no incluyen paseos dentro de campus/parques. Reservar Trinity por la mañana y exteriores con luz."
+          },
+          {
+            "title": "Catedrales exteriores y The Liberties",
+            "zone": "Saint Patrick’s → Christ Church → Thomas Street → Guinness",
+            "stopIds": [
+              "patrick",
+              "christ",
+              "liberties",
+              "guinness"
+            ],
+            "editorialNote": "Catedrales exteriores; Guinness interior principal. Dublin Castle y Chester Beatty no son alternativa abierta durante cierre hasta fin 2026 ni hay paso por campus.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Maps 551 m/7 min, 701 m/10 min, 607 m/8 min, añadir recorridos por barrio. Guinness antes de última admisión, no convertir cierre del edificio en hora de entrar."
+          },
+          {
+            "title": "Kilmainham y el este de Phoenix Park",
+            "zone": "Kilmainham Gaol → jardín IMMA → Wellington Monument",
+            "stopIds": [
+              "gaol",
+              "imma",
+              "phoenix"
+            ],
+            "editorialNote": "Gaol sólo con entrada confirmada. Sin entrada elegir IMMA interior si abierto, en sustitución. Lunes no festivo jardín IMMA cerrado: omitirlo o intercambiar días; no esperar junto a verja ni sumar Guinness del otro día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y desplazamiento desde centro. Maps Gaol–IMMA 1159 m/15 min, IMMA–Wellington 2129 m/29 min; el parque no está a 12 min de todo Kilmainham. Paseo del parque aparte, retorno al centro no incluido. En invierno priorizar luz y acortar parque."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [],
+  "editorialTradeoffs": [],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": ""
+}

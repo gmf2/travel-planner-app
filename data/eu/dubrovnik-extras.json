@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "cityId": "dubrovnik",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "taj",
+      "name": "Taj Mahal · cocina bosnia, no india",
+      "address": "Ul. Nikole Gučetića 2, 20000, Dubrovnik, Croatia",
+      "description": "En Nikole Gučetića 2, en el casco: una comida de parrilla, masas y guisos distinta de otro restaurante de pescado.",
+      "strength": "Ćevapi con somun, kajmak y cebolla; burek, klepe o berenjena con yogur. La cocina lenta requiere encargo previo según carta.",
+      "caution": "Carta 2026: ćevapi de 5 piezas 21€, 7 piezas 23€, 10 piezas 26€; burek 16€, klepe 26€, berenjena 20€, baklava 11€. Bebida y otros extras aparte. No todas las opciones vegetarianas son veganas por los lácteos. Sede Old Town, no Hotel Lero. No hay horario de cocina actual verificado: confirmar la fecha, especialmente en invierno. Sin reserva. Foto ajena.",
+      "alert": "Carta 2026: ćevapi de 5 piezas 21€, 7 piezas 23€, 10 piezas 26€; burek 16€, klepe 26€, berenjena 20€, baklava 11€. Bebida y otros extras aparte. No todas las opciones vegetarianas son veganas por los lácteos. Sede Old Town, no Hotel Lero. No hay horario de cocina actual verificado: confirmar la fecha, especialmente en invierno. Sin reserva. Foto ajena.",
+      "priceLabel": "Platos 15-30€ · bebida aparte",
+      "photo": {
+        "img": "assets/dubrovnik/taj.jpg",
+        "source": "https://www.flickr.com/photos/kurt-b/7714963036/",
+        "author": "Kurayba",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Ćevapi ilustrativos de otra cocina; no Taj Mahal ni su número de piezas, receta o presentación. Recorte de presentación."
+      },
+      "officialUrl": "https://tajmahal-dubrovnik.com/wp-content/uploads/2026/05/Menu-2026.pdf",
+      "sourceIds": [
+        "foodguide",
+        "foodguide2",
+        "taj",
+        "tajcontact"
+      ],
+      "sourceUrls": [
+        "https://www.dubrovnik-online.net/dubrovnik-restaurants",
+        "https://www.tripadvisor.com/Articles-l6LtOwo0S6MI-Dubrovnik_local_food_guide.html",
+        "https://tajmahal-dubrovnik.com/wp-content/uploads/2026/05/Menu-2026.pdf",
+        "https://tajmahal-dubrovnik.com/contact/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Taj+Mahal+Old+Town&query_place_id=ChIJKzS_XTILTBMRD5bN0XjEtF0",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y carta actuales contrastadas; sin reserva."
+    },
+    {
+      "id": "pantarul",
+      "name": "Pantarul · mesa de barrio en Lapad",
+      "address": "Ul. kralja Tomislava 1, 20000, Dubrovnik, Croatia",
+      "description": "En Kralja Tomislava 1, fuera del casco; funciona mejor con la jornada de Lapad que como desvío corto a mediodía.",
+      "strength": "Risotto de sepia, pasta con ragú de pulpo o verduras según carta de temporada; más pausado que un puesto de bocadillos.",
+      "caution": "PDF 2026: página de especialidades con risotto de sepia 27€, pasta con pulpo 28€, rollitos de gambas 12€; carta amplia con risotto vegetal 21€, pescado 28-34€, pollo 17€, postres 7€ y pan con aceite 4€. No todos los platos figuran en ambas páginas: disponibilidad estacional. La portada indica 12-23 y contacto 12-24; usar las 23 como cierre conservador, sin última comanda confirmada. Pantarul-playa: 10 min a pie; traslado desde el casco aparte. Foto ajena.",
+      "alert": "PDF 2026: página de especialidades con risotto de sepia 27€, pasta con pulpo 28€, rollitos de gambas 12€; carta amplia con risotto vegetal 21€, pescado 28-34€, pollo 17€, postres 7€ y pan con aceite 4€. No todos los platos figuran en ambas páginas: disponibilidad estacional. La portada indica 12-23 y contacto 12-24; usar las 23 como cierre conservador, sin última comanda confirmada. Pantarul-playa: 10 min a pie; traslado desde el casco aparte. Foto ajena.",
+      "priceLabel": "Plato 17-34€ · pan, postre y bebida aparte",
+      "photo": {
+        "img": "assets/dubrovnik/pantarul.jpg",
+        "source": "https://www.flickr.com/photos/stuart_spivack/4710650204/",
+        "author": "stu_spivack",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Risotto ilustrativo de otra cocina; no Pantarul ni su receta o presentación actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.pantarul.com/wp-content/uploads/2026/05/pantarul-2026.pdf",
+      "sourceIds": [
+        "foodguide",
+        "foodguide2",
+        "pantarul",
+        "pantarulhome",
+        "pantarulcontact"
+      ],
+      "sourceUrls": [
+        "https://www.dubrovnik-online.net/dubrovnik-restaurants",
+        "https://www.tripadvisor.com/Articles-l6LtOwo0S6MI-Dubrovnik_local_food_guide.html",
+        "https://www.pantarul.com/wp-content/uploads/2026/05/pantarul-2026.pdf",
+        "https://www.pantarul.com/",
+        "https://www.pantarul.com/contact/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pantarul&query_place_id=ChIJyTJOtTZ1TBMRdDIyuXZtnMc",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y carta actuales contrastadas; sin reserva."
+    }
+  ],
+  "activities": []
+}

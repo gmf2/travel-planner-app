@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "cityId": "dublin",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "boxty",
+      "name": "Gallagher’s Boxty House",
+      "address": "20-21, Temple Bar, Dublin 2, D02 ET66, Ireland",
+      "description": "Tradición irlandesa en Temple Bar, elegida por la cocina de patata y no por ser zona turística.",
+      "strength": "Boxty de pollo o ternera; guiso irlandés/coddle como opciones según carta.",
+      "caution": "Carta actual pollo 28€, ternera 38€, guisos 25€, no presupuesto de 25 porcomida completa. Bebidas/entrantes aparte y reservas/horario de fecha por confirmar. Boxty azul lleva lácteos y frutos secos, no vegetariano/vegano sin comprobar plato concreto.",
+      "alert": "Carta actual pollo 28€, ternera 38€, guisos 25€, no presupuesto de 25 porcomida completa. Bebidas/entrantes aparte y reservas/horario de fecha por confirmar. Boxty azul lleva lácteos y frutos secos, no vegetariano/vegano sin comprobar plato concreto.",
+      "priceLabel": "Principales 25-38€ · extras aparte",
+      "photo": {
+        "img": "assets/dublin/boxty.jpg",
+        "source": "https://www.flickr.com/photos/anoldent/52030258241/",
+        "author": "anoldent",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Desayuno casero de patata ilustrativo, no plato ni local de Gallagher’s Boxty House. Recorte de presentación."
+      },
+      "officialUrl": "https://www.boxtyhouse.ie/menu?menu=mains",
+      "editorialUrl": "https://deliciousdublintours.com/dublinfoodguide/",
+      "sourceUrls": [
+        "https://www.boxtyhouse.ie/menu?menu=mains",
+        "https://deliciousdublintours.com/dublinfoodguide/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gallaghers+Boxty+House&query_place_id=ChIJZZ4IUoMOZ0gRZEppmvkdCxE",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas, sin reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "hubbard",
+      "name": "Brother Hubbard North",
+      "address": "153 Capel St, North City, Dublin, D01 V9V0, Ireland",
+      "description": "Brunch de inspiración mediterránea y de Oriente Medio en Capel Street, cerca del río.",
+      "strength": "Cocina de temporada y café; contraste con platos irlandeses de patata y pubs.",
+      "caution": "Sede 153 Capel Street, no Ranelagh ni Harrington Street. Oficial abierto 7 días, cena sólo algunas noches sin horario completo publicado. Menús de muestra, no prometer viejo pulled pork ni Full Irish por guía genérica. Precio actual no verificado, consultar carta del local.",
+      "alert": "Sede 153 Capel Street, no Ranelagh ni Harrington Street. Oficial abierto 7 días, cena sólo algunas noches sin horario completo publicado. Menús de muestra, no prometer viejo pulled pork ni Full Irish por guía genérica. Precio actual no verificado, consultar carta del local.",
+      "priceLabel": "Brunch/café · precio por confirmar",
+      "photo": {
+        "img": "assets/dublin/hubbard.jpg",
+        "source": "https://www.flickr.com/photos/infomatique/26891165929/",
+        "author": "William Murphy",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Exterior de Brother Hubbard en Capel Street, archivo, no plato ni reforma actual garantizados. Recorte de presentación."
+      },
+      "officialUrl": "https://brotherhubbard.ie/",
+      "editorialUrl": "https://www.2foodtrippers.com/dublin-restaurants/",
+      "sourceUrls": [
+        "https://brotherhubbard.ie/",
+        "https://www.2foodtrippers.com/dublin-restaurants/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Brother+Hubbard+%28North%29&query_place_id=ChIJY-21nIIOZ0gRnZK9cNnSwww",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas, sin reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "fumbally",
+      "name": "The Fumbally",
+      "address": "Fumbally Ln, The Liberties, Dublin 8, D08 HFF2, Ireland",
+      "description": "Café de barrio de The Liberties, útil para comida temprana cerca de Saint Patrick’s.",
+      "strength": "Platos de temporada, pan y café en espacio informal; no cena obligatoria.",
+      "caution": "Oficial mar-vie 8-17 cocina 15, sáb 9-17 cocina 16, dom 10-15; lunes no anunciado, no dar por abierto. Cambió respecto a guías que citan cena miércoles: no programarla. Carta/precio del día por confirmar; foto de otro sitio expresamente ilustrativa.",
+      "alert": "Oficial mar-vie 8-17 cocina 15, sáb 9-17 cocina 16, dom 10-15; lunes no anunciado, no dar por abierto. Cambió respecto a guías que citan cena miércoles: no programarla. Carta/precio del día por confirmar; foto de otro sitio expresamente ilustrativa.",
+      "priceLabel": "Comida/café · carta variable",
+      "photo": {
+        "img": "assets/dublin/fumbally.jpg",
+        "source": "https://www.flickr.com/photos/ruthanddave/52996196547/",
+        "author": "Ruth Hartnup",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Tostada de aguacate ilustrativa de otro lugar, no The Fumbally ni su carta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://thefumbally.ie/",
+      "editorialUrl": "https://www.2foodtrippers.com/dublin-restaurants/",
+      "sourceUrls": [
+        "https://thefumbally.ie/",
+        "https://www.2foodtrippers.com/dublin-restaurants/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Fumbally&query_place_id=ChIJ200C1CMMZ0gRgnUA1Hd79oo",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas, sin reserva ni apertura futura garantizada."
+    }
+  ],
+  "activities": []
+}

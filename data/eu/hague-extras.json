@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "cityId": "hague",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "toko",
+      "name": "Toko Frederik · una comida indonesa",
+      "address": "Frederikstraat 225, 2514 LC Den Haag, Netherlands",
+      "description": "Frederikstraat 225 según web actual, no 231 de la guía. Una comida sentada de arroz y varias preparaciones.",
+      "strength": "Rendang Padang, pollo opor, saté de cordero y platos de tempeh o verdura veganos según carta. Se puede elegir intensidad mild, medium o pittig.",
+      "caution": "Diario 12-21 según web, sin última hora de cocina confirmada. No se han podido verificar precios actuales: consultar precio por persona, mínimos, bebida y tamaño del rijsttafel antes de pedir. No se reutiliza una cifra de 2023. El local no es enteramente halal: también ofrece cerdo. Los platos de soja y verduras son veganos según web, pero deben consultarse los alérgenos. Foto de rijsttafel ajena.",
+      "alert": "Diario 12-21 según web, sin última hora de cocina confirmada. No se han podido verificar precios actuales: consultar precio por persona, mínimos, bebida y tamaño del rijsttafel antes de pedir. No se reutiliza una cifra de 2023. El local no es enteramente halal: también ofrece cerdo. Los platos de soja y verduras son veganos según web, pero deben consultarse los alérgenos. Foto de rijsttafel ajena.",
+      "priceLabel": "Rijsttafel o plato · precio actual a confirmar",
+      "photo": {
+        "img": "assets/hague/toko.jpg",
+        "source": "https://www.flickr.com/photos/alper/15518884177/",
+        "author": "Alper Çuğun",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Rijsttafel ilustrativo de otro establecimiento; no Toko Frederik ni su menú o cantidad exacta. Recorte de presentación."
+      },
+      "officialUrl": "https://www.tokofrederik.nl/menu/",
+      "sourceIds": [
+        "foodguide",
+        "foodguide2",
+        "toko",
+        "tokohome"
+      ],
+      "sourceUrls": [
+        "https://denhaag.com/en/tips-for-you/the-best-indonesian-restaurants-and-tokos-according-to-locals-in-the-hague",
+        "https://www.wanderlustingk.com/travel-blog/the-hague-food-guide",
+        "https://www.tokofrederik.nl/menu/",
+        "https://www.tokofrederik.nl/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Toko+Frederik+Indonesisch+Restaurant&query_place_id=ChIJgdDyljm3xUcRHnOTOkOod-Q",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y carta contrastadas; no hay reserva."
+    },
+    {
+      "id": "baladi",
+      "name": "Baladi Manouche · almuerzo libanés",
+      "address": "Torenstraat 95, 2513 BP Den Haag, Netherlands",
+      "description": "Torenstraat 95, panes planos al horno para una comida rápida en el centro, distinta de una mesa indonesa completa.",
+      "strength": "Zaatar vegano, labneh o falafel al horno; también opciones con queso o carne. Tahini con pistacho para un final dulce.",
+      "caution": "Zaatar 4,50€, zaatar con queso 5,50€, labneh 7€, hummus 6€, falafel 7,50€; extras 1,50-2€ y bebida aparte. Mar-dom 11-18, lunes cerrado: no cena tardía. Masa sin gluten +1€ en algunos productos, pero la web advierte trazas de harina: no se garantiza aptitud para celíacos. No admite cambios fuera de los extras listados. Foto ajena de zaatar con labneh.",
+      "alert": "Zaatar 4,50€, zaatar con queso 5,50€, labneh 7€, hummus 6€, falafel 7,50€; extras 1,50-2€ y bebida aparte. Mar-dom 11-18, lunes cerrado: no cena tardía. Masa sin gluten +1€ en algunos productos, pero la web advierte trazas de harina: no se garantiza aptitud para celíacos. No admite cambios fuera de los extras listados. Foto ajena de zaatar con labneh.",
+      "priceLabel": "Manouches 4,50-9€ · bebida y extras aparte",
+      "photo": {
+        "img": "assets/hague/baladi.jpg",
+        "source": "https://www.flickr.com/photos/avlxyz/5067567622/",
+        "author": "Alpha",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Manouche de zaatar y labneh ilustrativa de otra cocina; no Baladi ni su tamaño o receta exacta. Recorte de presentación."
+      },
+      "officialUrl": "https://baladionline.nl/Menu/",
+      "sourceIds": [
+        "foodguide2",
+        "baladi",
+        "baladicontact"
+      ],
+      "sourceUrls": [
+        "https://www.wanderlustingk.com/travel-blog/the-hague-food-guide",
+        "https://baladionline.nl/Menu/",
+        "https://baladionline.nl/Contact/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Baladi+Manouche&query_place_id=ChIJQfOGUS63xUcRgXBpRuGX9S4",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y carta contrastadas; no hay reserva."
+    }
+  ],
+  "activities": []
+}

@@ -1,0 +1,992 @@
+{
+  "schemaVersion": 1,
+  "country": "GR",
+  "id": "chania",
+  "name": "Chania",
+  "localName": "Χανιά",
+  "selectionReason": "Ciudad cretense solicitada en ampliación.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Sin fechas ni reservas. Uno o dos días urbanos; tercero opcional fuera, sin playas lejanas obligatorias.",
+  "stops": [
+    {
+      "id": "oldtown",
+      "name": "Casco antiguo · callejear antes del puerto",
+      "kind": "visit",
+      "zone": "Topanas / Kondilaki / Chalidon",
+      "reason": "Recorrer las calles del oeste y bajar hacia el agua, sin convertir cada esquina en una entrada o una compra obligatoria.",
+      "sourceIds": [
+        "discover",
+        "oldtown"
+      ],
+      "coordinates": {
+        "lat": 35.5158061,
+        "lon": 24.0169592
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=%CE%A0%CE%B1%CE%BB%CE%B9%CE%AC+%CE%95%CE%B2%CF%81%CE%B1%CF%8A%CE%BA%CE%AE+%CE%A3%CF%85%CE%BD%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1+%CE%A4%CE%BF%CF%80%CE%B1%CE%BD%CE%AC%CF%82+%CE%A7%CE%B1%CE%BD%CE%AF%CF%89%CE%BD&query_place_id=ChIJdxo0dgB9nBQRgoHs7z5cwmM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 95,
+      "durationType": "editorial-estimate",
+      "caution": "No incluye entrada a la sinagoga, iglesias o edificios privados. Suelo irregular y calles estrechas; no se garantiza acceso continuo para silla o cochecito. No conducir por las callejuelas siguiendo una ruta de coche.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/chania/oldtown.jpg",
+        "source": "https://www.flickr.com/photos/romtomtom/4087381258/",
+        "author": "Romtomtom",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio exterior de acceso libre"
+    },
+    {
+      "id": "harbour",
+      "name": "Puerto veneciano · una pausa junto al agua",
+      "kind": "visit",
+      "zone": "Frente del puerto viejo",
+      "reason": "Mirar el conjunto del puerto y sentarse un rato. El faro se ve desde aquí aunque no se camine todo el espigón.",
+      "sourceIds": [
+        "discover",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 35.5171655,
+        "lon": 24.0175654
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Old+Venetian+Port+of+Chania&query_place_id=ChIJr9Y3Q7l9nBQRf9HnEshS6_8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 80,
+      "durationType": "editorial-estimate",
+      "caution": "La foto no promete misma luz, mar en calma ni espectáculo. Yali Tzamisi se contempla por fuera: exposición y horario interior deben comprobarse, no museo gratuito permanente supuesto. Consumiciones aparte.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/chania/harbour.jpg",
+        "source": "https://www.flickr.com/photos/guidosoraru/30157058761/",
+        "author": "Guido Sorarù",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior de acceso público"
+    },
+    {
+      "id": "neoria",
+      "name": "Neoria · los antiguos arsenales por fuera",
+      "kind": "visit",
+      "zone": "Lado oriental del puerto",
+      "reason": "Seguir hacia las bóvedas de los astilleros y entender otra parte del puerto sin sumar otro museo por rutina.",
+      "sourceIds": [
+        "discover",
+        "maritime"
+      ],
+      "coordinates": {
+        "lat": 35.5181327,
+        "lon": 24.0213018
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Venetian+Neoria&query_place_id=ChIJ-3jNJLl9nBQRAtz1MWRTyw8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "La exposición de construcción naval en Neorio Moro es distinta del Museo Marítimo de Firkas. Operador: 4€ general, 3€ estudiante, del 5/4 al 15/11, lunes-sábado 9-16 y última entrada 15:30; domingos y festivos cerrado. No incluida por pagar el otro museo ni abierta todo invierno.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/chania/neoria.jpg",
+        "source": "https://www.flickr.com/photos/96541566@N06/55057330451/",
+        "author": "Jan Helebrant",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior base · exposición naval separada opcional"
+    },
+    {
+      "id": "splantzia",
+      "name": "Splantzia · plaza y comida sin carrera",
+      "kind": "visit",
+      "zone": "Plaza 1821 / Agios Nikolaos",
+      "reason": "Entrar en las calles del barrio oriental y parar a comer o tomar café, en vez de salir corriendo a una playa lejana el mismo día.",
+      "sourceIds": [
+        "discover",
+        "agora"
+      ],
+      "coordinates": {
+        "lat": 35.5163997,
+        "lon": 24.0219069
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Splantzia+Square&query_place_id=ChIJA6p82b59nBQR1MUzY9LbjDU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 80,
+      "durationType": "editorial-estimate",
+      "caution": "La iglesia es un lugar de culto, no atracción con entrada garantizada a cualquier hora. El Agora cubierto sigue cerrado a 30/10/2026: el Ayuntamiento anuncia inauguración para el 04/12/2026. No añadimos puestos abiertos ni un programa navideño confirmado; comprobar si se materializó antes de entrar.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/chania/splantzia.jpg",
+        "source": "https://www.flickr.com/photos/sarah_c_murray/5267621587/",
+        "author": "Panegyrics of Granovetter",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio y plaza exteriores"
+    },
+    {
+      "id": "lighthouse",
+      "name": "Faro · paseo opcional por el espigón",
+      "kind": "visit",
+      "zone": "Espigón del puerto veneciano",
+      "reason": "Alargar el paseo si el mar está tranquilo y apetece la vista de regreso. Verlo desde el puerto también cuenta.",
+      "sourceIds": [
+        "discover",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 35.5195664,
+        "lon": 24.0167436
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Lighthouse+of+Chania&query_place_id=ChIJk5pamLt9nBQRi4KhTKbFmNA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "No se vende acceso al interior o a una terraza del faro. Acceso condicionado a viento, oleaje, obras y vallas. Si hay mar fuerte, quedarse en el paseo protegido: no cruzar por una foto. Reservar ida y vuelta sin asumir los 15 min de guía para todo el recorrido.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/chania/lighthouse.jpg",
+        "source": "https://www.flickr.com/photos/storem/106954866/",
+        "author": "storem",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior sin entrada · sin subida al faro"
+    },
+    {
+      "id": "maritime",
+      "name": "Museo Marítimo · alternativa en el puerto",
+      "kind": "visit",
+      "zone": "Akti Kountourioti / Firkas",
+      "reason": "Elegir un interior sobre historia naval si interesa más que el paseo del faro o si hace mal tiempo.",
+      "sourceIds": [
+        "maritime",
+        "firkas"
+      ],
+      "coordinates": {
+        "lat": 35.518163,
+        "lon": 24.0159945
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Maritime+Museum+of+Crete&query_place_id=ChIJz3lBSrx9nBQRG6rybC4-oQ0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Web propia: lunes-sábado 9-16, última entrada 15:30, domingos y festivos cerrado. General 5€, estudiante 4€. No incluye automáticamente Neorio Moro ni acceso a todo Firkas. Ministerio para Firkas abril-octubre de 2026: 8-15 lunes, miércoles, jueves y viernes; martes y fin de semana cerrado. El fuerte no tiene el mismo calendario del museo, ni almenas garantizadas al terminar. Invierno confirmar fortaleza.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/chania/maritime.jpg",
+        "source": "https://www.flickr.com/photos/mikecogh/52985046117/",
+        "author": "Michael Coghlan",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Interior opcional · general 5€"
+    },
+    {
+      "id": "archeo",
+      "name": "Arqueológico · mañana en Halepa, no en la iglesia vieja",
+      "kind": "visit",
+      "zone": "Skra 15 / Halepa",
+      "reason": "Dedicar tiempo a las colecciones de Creta occidental en su sede actual, y luego bajar a la costa del este sin volver al casco por una supuesta cercanía.",
+      "sourceIds": [
+        "museum",
+        "museumdirectory"
+      ],
+      "coordinates": {
+        "lat": 35.5167648,
+        "lon": 24.03772
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Archaeological+Museum+of+Chania&query_place_id=ChIJXb9zv9l9nBQR3XqdSJohAqk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Web propia: general 15€, reducida 8€ según requisitos. Sede actual Skra 15, no el antiguo monasterio de Chalidon. Directorio ministerial actualizado julio de 2026: abril-octubre 8-20, noviembre-marzo 8:30-15:30, martes cerrado todo el año. Se empieza a salir 20 min antes. Puerto-museo: Maps 2,5 km y 36 min andando, no 3 min entre calles del casco. Líneas 11/18/23 indicadas por museo, sin frecuencia o precio verificado. Foto de piezas en sede anterior rotulada, no edificio actual.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/chania/archeo.jpg",
+        "source": "https://www.flickr.com/photos/sarah_c_murray/4196084333/",
+        "author": "Panegyrics of Granovetter",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Vasijas de la colección de Chania fotografiadas en la sede anterior. No muestra el edificio ni el montaje actual de Halepa. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago · general 15€"
+    },
+    {
+      "id": "koumkapi",
+      "name": "Koum Kapi · volver por la costa con tiempo",
+      "kind": "visit",
+      "zone": "Frente marítimo al este del casco",
+      "reason": "Dejar una comida larga y una caminata al regreso de Halepa. Tabakaria está más al noreste, no en Nea Chora al oeste.",
+      "sourceIds": [
+        "discover",
+        "tabakaria"
+      ],
+      "coordinates": {
+        "lat": 35.514814,
+        "lon": 24.0290069
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Koum+Kapi&query_place_id=ChIJQ5OGi8B9nBQRIH3fYNGznyo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 110,
+      "durationType": "editorial-estimate",
+      "caution": "No se promete baño seguro, socorrista invernal ni terraza abierta con mar fuerte. Tabakaria es barrio de antiguas tenerías, con propiedades y edificios cerrados: visitarlo por calles públicas si se alarga el paseo, no entrar a fábricas abandonadas. No obliga a reservar un restaurante caro.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/chania/koumkapi.jpg",
+        "source": "https://www.flickr.com/photos/e-s/3973587065/",
+        "author": "esther",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior · comida y transporte aparte"
+    },
+    {
+      "id": "aptera",
+      "name": "Aptera · ciudad antigua sobre Souda",
+      "kind": "visit",
+      "zone": "Megala Chorafia / 15 km al este",
+      "reason": "Una salida de arqueología y paisaje cerca de Chania, sin atravesar toda Creta para llenar un tercer día.",
+      "sourceIds": [
+        "aptera",
+        "apteraown",
+        "discover"
+      ],
+      "coordinates": {
+        "lat": 35.4629011,
+        "lon": 24.1414137
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Archaeological+Site+of+Aptera&query_place_id=ChIJRwa1sAGAnBQRhveVdwxKfdE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 300,
+      "durationType": "editorial-estimate",
+      "caution": "Hellenic Heritage: general 10€, reducida 5€, martes cerrado todo el año. Abril-agosto 8-20; 1-15/9 hasta 19:30; 16-30/9 hasta 19; 1-15/10 hasta 18:30; 16-31/10 hasta 18. Noviembre-marzo 8:30-15:30. Última entrada 20 min antes. Cierra 1/1, 25/3, 1/5, Pascua ortodoxa y 25-26/12. La página del yacimiento rotula 8-18 como primavera: no usarla todo el año. Maps 15,2 km y 25 min en coche; prever 35-45 min por sentido con aparcar. No significa taxi incluido, carretera peatonal segura o transporte contratado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/chania/aptera.jpg",
+        "source": "https://www.flickr.com/photos/carolemage/30428516540/",
+        "author": "Carole Raddato",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Yacimiento de pago · general 10€"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Casco y puerto a pie, sin excursiones añadidas",
+          "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+          "stopIds": [
+            "oldtown",
+            "harbour",
+            "neoria",
+            "splantzia",
+            "lighthouse"
+          ],
+          "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+          "optionalStopIds": [
+            "maritime"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Casco y puerto a pie, sin excursiones añadidas",
+          "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+          "stopIds": [
+            "oldtown",
+            "harbour",
+            "neoria",
+            "splantzia",
+            "lighthouse"
+          ],
+          "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+          "optionalStopIds": [
+            "maritime"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+        },
+        {
+          "title": "Halepa y costa del este · una visita principal",
+          "zone": "Arqueológico de Skra 15 → Halepa → Koum Kapi",
+          "stopIds": [
+            "archeo",
+            "koumkapi"
+          ],
+          "editorialNote": "Arqueológico como interior principal. Tabakaria es una prolongación opcional por calles públicas. Si es martes, cambiar el orden de los días o dejar el museo para otra fecha, sin otra entrada prometida.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con museo, comida y paseos. Desde el puerto hay 36 min andando hasta el museo; usar transporte si conviene. No se añade Aptera después."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Casco y puerto a pie, sin excursiones añadidas",
+          "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+          "stopIds": [
+            "oldtown",
+            "harbour",
+            "neoria",
+            "splantzia",
+            "lighthouse"
+          ],
+          "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+          "optionalStopIds": [
+            "maritime"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+        },
+        {
+          "title": "Halepa y costa del este · una visita principal",
+          "zone": "Arqueológico de Skra 15 → Halepa → Koum Kapi",
+          "stopIds": [
+            "archeo",
+            "koumkapi"
+          ],
+          "editorialNote": "Arqueológico como interior principal. Tabakaria es una prolongación opcional por calles públicas. Si es martes, cambiar el orden de los días o dejar el museo para otra fecha, sin otra entrada prometida.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con museo, comida y paseos. Desde el puerto hay 36 min andando hasta el museo; usar transporte si conviene. No se añade Aptera después."
+        },
+        {
+          "title": "Aptera · tercer día opcional fuera de la ciudad",
+          "zone": "Megala Chorafia / yacimiento de Aptera",
+          "stopIds": [
+            "aptera"
+          ],
+          "editorialNote": "No hace falta un tercer día para completar el casco. Solo si interesa arqueología y hay transporte: Aptera con comida y regreso. No combinar con Balos, Elafonisi o Samaria para llenar la jornada.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "4-5 h con 2-3 h de visita, traslado de ida/vuelta y una comida. Confirmar vehículo o servicio de regreso antes de salir; no autobús directo al acceso garantizado."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Arqueológico 8-20, martes cerrado. Puerto y espigón con sombra escasa: mover paseo fuera del calor y no continuar con oleaje. Aptera abril-agosto 8-20, sin sombra o agua garantizadas en todo el recinto.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Arqueológico y Aptera 8:30-15:30, martes cerrado; ir por la mañana. Neorio Moro termina temporada publicada el 15/11. No faro con oleaje ni baño seguro. Museo Marítimo 9-16 lunes-sábado, sujeto a festivos.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Aptera y museos estatales cierran 25-26/12 y 1/1 según calendario general; confirmar Arqueológico y fortaleza. Agora: inauguración prevista para 04/12/2026, no prueba de puestos abiertos ni programa de Navidad confirmado. No ceremonia anual inventada.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Aptera adelanta cierre en septiembre y octubre; consultar tramo exacto. Faro solo con condiciones seguras. El Agora no se presenta abierto en octubre de 2026 por el calendario futuro de diciembre.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "El Agora cubierto sigue cerrado a 30/10/2026. Inauguración anunciada para el 04/12/2026, pendiente de realización y apertura de puestos, no mercado diario garantizado.",
+    "El Arqueológico está en Halepa, no en la antigua iglesia del casco; 15€ general, no 4€ de guías viejas.",
+    "No se prometen Balos, Elafonisi, Samaria, Katholiko ni baño seguro como añadidos a un día urbano. Cada salida requiere temporada, transporte, acceso y regreso propios.",
+    "Martes cierran Arqueológico y Aptera; domingo cierra Museo Marítimo. Firkas tiene calendario distinto de ese museo.",
+    "La isla de Creta no es una excursión de ferri añadida a Tesalónica. Sin vuelos, hoteles, transportes o comidas comprados."
+  ],
+  "excludedOrOptional": [
+    "Museo Marítimo sustituye faro u otro bloque, no se suma a todos los interiores.",
+    "Aptera tercer día opcional, no obligatorio para completar Chania. Sin interés o transporte se puede acortar la estancia.",
+    "No Balos por pista con coche de alquiler sin condiciones verificadas ni Samaria con cierre estacional copiado de guía.",
+    "Tabakaria por calles públicas es opcional; no entrada a tenerías, hoteles o restaurantes garantizada."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "ChaniaVisit: guía contrastada, errores corregidos",
+      "url": "https://www.chaniavisit.com/3-days-in-chania-itinerary/",
+      "type": "commercial-travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "discover",
+      "title": "DiscoverGreece: barrios, Halepa y región",
+      "url": "https://www.discovergreece.com/travel-ideas/best-of/15-best-things-do-chania",
+      "type": "tourism-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "oldguide",
+      "title": "StayInChania: guía con museo antiguo y mercado erróneos",
+      "url": "https://stayinchania.com/chania-old-town-guide",
+      "type": "commercial-travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "badfoodguide",
+      "title": "StayInChania: recomendaciones de comida contrastadas",
+      "url": "https://stayinchania.com/chania-restaurants",
+      "type": "commercial-food-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "oldtown",
+      "title": "ExploreCrete: Topanas",
+      "url": "https://www.explorecrete.com/chania-city/en-chania-06c-topanas",
+      "type": "specialist-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "museum",
+      "title": "Arqueológico: sede actual, tarifa y acceso",
+      "url": "https://amch.gr/en/plan-your-visit/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "museumdirectory",
+      "title": "Ministerio: calendario estacional del Arqueológico",
+      "url": "https://archaeologicalmuseums.culture.gov.gr/en/museum/5df34af3deca5e2d79e8c161/archaeological-museum-of-chania",
+      "type": "official-directory",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "maritime",
+      "title": "Museo Marítimo: dos sedes y precios distintos",
+      "url": "https://mar-mus-crete.gr/en/opening-hours-tickets-and-tours/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "firkas",
+      "title": "Ministerio: acceso a Firkas, no mismo calendario del museo",
+      "url": "http://odysseus.culture.gr/h/1/gh155.jsp?obj_id=14605",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "agora",
+      "title": "Ayuntamiento: inauguración prevista 04/12/2026",
+      "url": "https://www.chania.gr/enimerosi/nea/arxeia-dt/archeio-dt-2026/i-dimotiki-agora-chanion-metra-antistrofa-me-tin-kallitechniki-epimeleia-tis-ethnikis-lyrikis-skinis-i-megali-teleti-ton-egkainion-anoichti-prosklisi-se-dimiourgous/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "tabakaria",
+      "title": "Turismo Chania: antiguas tenerías de Tabakaria",
+      "url": "https://www.chaniatourism.gr/neighborhood/tabakaria/",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "aptera",
+      "title": "Hellenic Heritage: Aptera, tarifas y estaciones",
+      "url": "https://www.hh.gr/en/destinations/aptera/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "apteraown",
+      "title": "Aptera: tarifa y horario rotulado de primavera",
+      "url": "https://ancientaptera.gr/en/contact_us/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "iordanis",
+      "title": "Iordanis: pichtogalo, alternativa vegana y horarios",
+      "url": "https://iordanis.gr/en/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "natgeo",
+      "title": "National Geographic mayo 2026: comida e Iordanis",
+      "url": "https://www.nationalgeographic.com/travel/article/a-food-guide-to-chania-crete",
+      "type": "food-travel-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "chrismenu",
+      "title": "Chrisostomos: carta oficial publicada",
+      "url": "https://chrisostomos.gr/en/menu/",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "chrisabout",
+      "title": "Chrisostomos: horno y cocina de Sfakia",
+      "url": "https://chrisostomos.gr/en/about-us/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "chriscritic",
+      "title": "FlagInLife agosto 2025: visita crítica a Chrisostomos",
+      "url": "https://flaginlife.gr/chrysostomos-leventis-dyo-gefseis-mia-kriti/",
+      "type": "restaurant-critic",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco y puerto a pie, sin excursiones añadidas",
+            "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+            "stopIds": [
+              "oldtown",
+              "harbour",
+              "neoria",
+              "splantzia",
+              "lighthouse"
+            ],
+            "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+            "optionalStopIds": [
+              "maritime"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco y puerto a pie, sin excursiones añadidas",
+            "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+            "stopIds": [
+              "oldtown",
+              "harbour",
+              "neoria",
+              "splantzia",
+              "lighthouse"
+            ],
+            "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+            "optionalStopIds": [
+              "maritime"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+          },
+          {
+            "title": "Halepa y costa del este · una visita principal",
+            "zone": "Arqueológico de Skra 15 → Halepa → Koum Kapi",
+            "stopIds": [
+              "archeo",
+              "koumkapi"
+            ],
+            "editorialNote": "Arqueológico como interior principal. Tabakaria es una prolongación opcional por calles públicas. Si es martes, cambiar el orden de los días o dejar el museo para otra fecha, sin otra entrada prometida.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con museo, comida y paseos. Desde el puerto hay 36 min andando hasta el museo; usar transporte si conviene. No se añade Aptera después."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco y puerto a pie, sin excursiones añadidas",
+            "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+            "stopIds": [
+              "oldtown",
+              "harbour",
+              "neoria",
+              "splantzia",
+              "lighthouse"
+            ],
+            "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+            "optionalStopIds": [
+              "maritime"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+          },
+          {
+            "title": "Halepa y costa del este · una visita principal",
+            "zone": "Arqueológico de Skra 15 → Halepa → Koum Kapi",
+            "stopIds": [
+              "archeo",
+              "koumkapi"
+            ],
+            "editorialNote": "Arqueológico como interior principal. Tabakaria es una prolongación opcional por calles públicas. Si es martes, cambiar el orden de los días o dejar el museo para otra fecha, sin otra entrada prometida.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con museo, comida y paseos. Desde el puerto hay 36 min andando hasta el museo; usar transporte si conviene. No se añade Aptera después."
+          },
+          {
+            "title": "Aptera · tercer día opcional fuera de la ciudad",
+            "zone": "Megala Chorafia / yacimiento de Aptera",
+            "stopIds": [
+              "aptera"
+            ],
+            "editorialNote": "No hace falta un tercer día para completar el casco. Solo si interesa arqueología y hay transporte: Aptera con comida y regreso. No combinar con Balos, Elafonisi o Samaria para llenar la jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-5 h con 2-3 h de visita, traslado de ida/vuelta y una comida. Confirmar vehículo o servicio de regreso antes de salir; no autobús directo al acceso garantizado."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco y puerto a pie, sin excursiones añadidas",
+            "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+            "stopIds": [
+              "oldtown",
+              "harbour",
+              "neoria",
+              "splantzia",
+              "lighthouse"
+            ],
+            "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+            "optionalStopIds": [
+              "maritime"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco y puerto a pie, sin excursiones añadidas",
+            "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+            "stopIds": [
+              "oldtown",
+              "harbour",
+              "neoria",
+              "splantzia",
+              "lighthouse"
+            ],
+            "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+            "optionalStopIds": [
+              "maritime"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+          },
+          {
+            "title": "Halepa y costa del este · una visita principal",
+            "zone": "Arqueológico de Skra 15 → Halepa → Koum Kapi",
+            "stopIds": [
+              "archeo",
+              "koumkapi"
+            ],
+            "editorialNote": "Arqueológico como interior principal. Tabakaria es una prolongación opcional por calles públicas. Si es martes, cambiar el orden de los días o dejar el museo para otra fecha, sin otra entrada prometida.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con museo, comida y paseos. Desde el puerto hay 36 min andando hasta el museo; usar transporte si conviene. No se añade Aptera después."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco y puerto a pie, sin excursiones añadidas",
+            "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+            "stopIds": [
+              "oldtown",
+              "harbour",
+              "neoria",
+              "splantzia",
+              "lighthouse"
+            ],
+            "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+            "optionalStopIds": [
+              "maritime"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+          },
+          {
+            "title": "Halepa y costa del este · una visita principal",
+            "zone": "Arqueológico de Skra 15 → Halepa → Koum Kapi",
+            "stopIds": [
+              "archeo",
+              "koumkapi"
+            ],
+            "editorialNote": "Arqueológico como interior principal. Tabakaria es una prolongación opcional por calles públicas. Si es martes, cambiar el orden de los días o dejar el museo para otra fecha, sin otra entrada prometida.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con museo, comida y paseos. Desde el puerto hay 36 min andando hasta el museo; usar transporte si conviene. No se añade Aptera después."
+          },
+          {
+            "title": "Aptera · tercer día opcional fuera de la ciudad",
+            "zone": "Megala Chorafia / yacimiento de Aptera",
+            "stopIds": [
+              "aptera"
+            ],
+            "editorialNote": "No hace falta un tercer día para completar el casco. Solo si interesa arqueología y hay transporte: Aptera con comida y regreso. No combinar con Balos, Elafonisi o Samaria para llenar la jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-5 h con 2-3 h de visita, traslado de ida/vuelta y una comida. Confirmar vehículo o servicio de regreso antes de salir; no autobús directo al acceso garantizado."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco y puerto a pie, sin excursiones añadidas",
+            "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+            "stopIds": [
+              "oldtown",
+              "harbour",
+              "neoria",
+              "splantzia",
+              "lighthouse"
+            ],
+            "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+            "optionalStopIds": [
+              "maritime"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco y puerto a pie, sin excursiones añadidas",
+            "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+            "stopIds": [
+              "oldtown",
+              "harbour",
+              "neoria",
+              "splantzia",
+              "lighthouse"
+            ],
+            "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+            "optionalStopIds": [
+              "maritime"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+          },
+          {
+            "title": "Halepa y costa del este · una visita principal",
+            "zone": "Arqueológico de Skra 15 → Halepa → Koum Kapi",
+            "stopIds": [
+              "archeo",
+              "koumkapi"
+            ],
+            "editorialNote": "Arqueológico como interior principal. Tabakaria es una prolongación opcional por calles públicas. Si es martes, cambiar el orden de los días o dejar el museo para otra fecha, sin otra entrada prometida.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con museo, comida y paseos. Desde el puerto hay 36 min andando hasta el museo; usar transporte si conviene. No se añade Aptera después."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco y puerto a pie, sin excursiones añadidas",
+            "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+            "stopIds": [
+              "oldtown",
+              "harbour",
+              "neoria",
+              "splantzia",
+              "lighthouse"
+            ],
+            "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+            "optionalStopIds": [
+              "maritime"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+          },
+          {
+            "title": "Halepa y costa del este · una visita principal",
+            "zone": "Arqueológico de Skra 15 → Halepa → Koum Kapi",
+            "stopIds": [
+              "archeo",
+              "koumkapi"
+            ],
+            "editorialNote": "Arqueológico como interior principal. Tabakaria es una prolongación opcional por calles públicas. Si es martes, cambiar el orden de los días o dejar el museo para otra fecha, sin otra entrada prometida.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con museo, comida y paseos. Desde el puerto hay 36 min andando hasta el museo; usar transporte si conviene. No se añade Aptera después."
+          },
+          {
+            "title": "Aptera · tercer día opcional fuera de la ciudad",
+            "zone": "Megala Chorafia / yacimiento de Aptera",
+            "stopIds": [
+              "aptera"
+            ],
+            "editorialNote": "No hace falta un tercer día para completar el casco. Solo si interesa arqueología y hay transporte: Aptera con comida y regreso. No combinar con Balos, Elafonisi o Samaria para llenar la jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-5 h con 2-3 h de visita, traslado de ida/vuelta y una comida. Confirmar vehículo o servicio de regreso antes de salir; no autobús directo al acceso garantizado."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco y puerto a pie, sin excursiones añadidas",
+            "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+            "stopIds": [
+              "oldtown",
+              "harbour",
+              "neoria",
+              "splantzia",
+              "lighthouse"
+            ],
+            "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+            "optionalStopIds": [
+              "maritime"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco y puerto a pie, sin excursiones añadidas",
+            "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+            "stopIds": [
+              "oldtown",
+              "harbour",
+              "neoria",
+              "splantzia",
+              "lighthouse"
+            ],
+            "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+            "optionalStopIds": [
+              "maritime"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+          },
+          {
+            "title": "Halepa y costa del este · una visita principal",
+            "zone": "Arqueológico de Skra 15 → Halepa → Koum Kapi",
+            "stopIds": [
+              "archeo",
+              "koumkapi"
+            ],
+            "editorialNote": "Arqueológico como interior principal. Tabakaria es una prolongación opcional por calles públicas. Si es martes, cambiar el orden de los días o dejar el museo para otra fecha, sin otra entrada prometida.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con museo, comida y paseos. Desde el puerto hay 36 min andando hasta el museo; usar transporte si conviene. No se añade Aptera después."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco y puerto a pie, sin excursiones añadidas",
+            "zone": "Topanas → puerto → Neoria → Splantzia → faro si el mar permite",
+            "stopIds": [
+              "oldtown",
+              "harbour",
+              "neoria",
+              "splantzia",
+              "lighthouse"
+            ],
+            "editorialNote": "Un día basta para el casco y el puerto. Museo Marítimo sustituye el paseo del faro u otro bloque si interesa, no se suma por obligación. No mercado cubierto abierto supuesto, no arqueológico mal colocado en una iglesia antigua.",
+            "optionalStopIds": [
+              "maritime"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas. Si se entra al Museo Marítimo, hacerlo antes de su última entrada de las 15:30, no al final de la tarde."
+          },
+          {
+            "title": "Halepa y costa del este · una visita principal",
+            "zone": "Arqueológico de Skra 15 → Halepa → Koum Kapi",
+            "stopIds": [
+              "archeo",
+              "koumkapi"
+            ],
+            "editorialNote": "Arqueológico como interior principal. Tabakaria es una prolongación opcional por calles públicas. Si es martes, cambiar el orden de los días o dejar el museo para otra fecha, sin otra entrada prometida.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con museo, comida y paseos. Desde el puerto hay 36 min andando hasta el museo; usar transporte si conviene. No se añade Aptera después."
+          },
+          {
+            "title": "Aptera · tercer día opcional fuera de la ciudad",
+            "zone": "Megala Chorafia / yacimiento de Aptera",
+            "stopIds": [
+              "aptera"
+            ],
+            "editorialNote": "No hace falta un tercer día para completar el casco. Solo si interesa arqueología y hay transporte: Aptera con comida y regreso. No combinar con Balos, Elafonisi o Samaria para llenar la jornada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-5 h con 2-3 h de visita, traslado de ida/vuelta y una comida. Confirmar vehículo o servicio de regreso antes de salir; no autobús directo al acceso garantizado."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Varias guías antes de fuentes oficiales y Maps.",
+    "Corregida sede y tarifa del Arqueológico; Agora cerrado con reapertura futura explícita.",
+    "Firkas, Museo Marítimo y Neorio Moro tienen acceso y precio separados.",
+    "Fotos individuales verificadas, piezas en sede anterior y platos ajenos rotulados."
+  ],
+  "editorialTradeoffs": [
+    "Un día de casco y puerto, otro de Halepa y costa; no tres días de callejear repetido.",
+    "Aptera opcional cercano, no dos playas lejanas o un desfiladero añadidos por cuota."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "DiscoverGreece sitúa correctamente el Arqueológico en Halepa y sugiere barrios del este. ChaniaVisit y StayInChania siguen colocándolo en la iglesia antigua y ofrecen mercado abierto: se corrigen con museo y Ayuntamiento. El ritmo regional de esas guías no obliga a coche para dos días de ciudad. National Geographic 2026 y FlagInLife 2025 aportan pruebas de cocina, contrastadas con los operadores."
+}

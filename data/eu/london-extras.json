@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "cityId": "london",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección de siete formatos distintos, con webs propias y Maps revisados el 29/10/2026; no ranking ni inventario completo.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "padella",
+      "name": "Padella · Borough Market",
+      "address": "6 Southwark St, London SE1 1TQ, UK",
+      "description": "Pasta fresca junto al mercado; una comida sentada sin abandonar el eje del día 2.",
+      "strength": "Pici cacio e pepe y pappardelle con ragú de ternera figuran en la carta actual. Good Food la recomienda por la pasta hecha a mano.",
+      "caution": "La carta cambia; confirmar espera y sistema de acceso en la web. El precio del plato no incluye bebida ni un menú completo.",
+      "officialUrl": "https://www.padella.co/borough-market/",
+      "sourceUrls": [
+        "https://www.padella.co/borough-market/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Padella+Borough+Market&query_place_id=ChIJdZ6paFcDdkgRpPUHPngIeq8",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha exacta localizada en Google Maps y web propia leída el 29/10/2026. No es confirmación de apertura futura.",
+      "priceLabel": "Pasta £9,50-16,50 · carta 29/10/2026",
+      "editorialUrl": "https://www.bbcgoodfood.com/travel/cheap-eats-in-london",
+      "photo": {
+        "img": "assets/food/pasta.jpg",
+        "source": "https://www.pexels.com/photo/pasta-on-plate-17375420/",
+        "author": "Gonzalo Acuña",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de pasta: no es del local ni garantiza ese plato en carta."
+      }
+    },
+    {
+      "id": "beigel",
+      "name": "Beigel Bake · Brick Lane",
+      "address": "159 Brick Ln, London E1 6SB, UK",
+      "description": "Panadería de beigels para comer algo rápido en Brick Lane.",
+      "strength": "Alternativa de mostrador en el este, no restaurante de mesa. No se introduce un desvío a Brick Lane dentro del recorrido de la Torre: elegir sólo si se amplía esa zona.",
+      "caution": "La web confirma tienda 24 h, pero la carta online recuperada no muestra importes utilizables. Consultar precios en tienda; no usar precios de reparto como si fueran de mostrador.",
+      "officialUrl": "https://www.beigelbake.co.uk/collections/full-menu",
+      "sourceUrls": [
+        "https://www.beigelbake.co.uk/collections/full-menu"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Beigel+Bake&query_place_id=ChIJjUgahq0ddkgRDLV2zZrg4ck",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha exacta localizada en Google Maps y web propia leída el 29/10/2026. No es confirmación de apertura futura.",
+      "priceLabel": "Tentempié / mostrador · consultar precio",
+      "photo": {
+        "img": "assets/london/bagel.jpg",
+        "source": "https://www.pexels.com/photo/delicious-smoked-salmon-bagel-sandwich-38399734/",
+        "author": "Anthony Rahayel",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de bagel de salmón: no es del local ni garantiza ese plato en carta."
+      }
+    },
+    {
+      "id": "otto",
+      "name": "Ottolenghi · Notting Hill",
+      "address": "63 Ledbury Rd, London W11 2AD, UK",
+      "description": "Deli de ensaladas de temporada, platos preparados y repostería para llevar.",
+      "strength": "Opción de verduras y sabores de Oriente Medio en Ledbury Road. La página del local indica takeaway only: no prometer mesa para comer.",
+      "caution": "Menú diario. La web principal y la página de pedidos difieren en horario; confirmar recogida del día. No asumir que una ensalada equivale a comida completa.",
+      "officialUrl": "https://ottolenghi.co.uk/pages/restaurants/notting-hill",
+      "sourceUrls": [
+        "https://ottolenghi.co.uk/pages/restaurants/notting-hill"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ottolenghi+Notting+Hill&query_place_id=ChIJzUEcVv0PdkgRnjCbG6MhVxc",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha exacta localizada en Google Maps y web propia leída el 29/10/2026. No es confirmación de apertura futura.",
+      "priceLabel": "Deli para llevar · carta diaria",
+      "photo": {
+        "img": "assets/food/salad.jpg",
+        "source": "https://www.pexels.com/photo/vegetable-salad-on-plate-1059905/",
+        "author": "Chan Walrus",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de ensalada: no es del local ni garantiza ese plato en carta."
+      }
+    },
+    {
+      "id": "churchill",
+      "name": "The Churchill Arms · Kensington",
+      "address": "119 Kensington Church St, London W8 7LN, UK",
+      "description": "Pub con cocina tailandesa en su invernadero; alternativa a otra comida británica de pub.",
+      "strength": "El operador detalla pad siew y kaeng par. Encaja entre Kensington y Notting Hill; no se selecciona sólo por la fachada florida.",
+      "caution": "La cocina tiene horario propio, distinto al bar. Confirmar reserva, carta y nivel de picante; no presentarlo como pub de fish and chips.",
+      "officialUrl": "https://www.churchillarmskensington.co.uk/food",
+      "sourceUrls": [
+        "https://www.churchillarmskensington.co.uk/food"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Churchill+Arms%2C+Kensington&query_place_id=ChIJGTDVMfoPdkgROs9QO9Kgmjc",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha exacta localizada en Google Maps y web propia leída el 29/10/2026. No es confirmación de apertura futura.",
+      "priceLabel": "Plato tailandés · consultar carta",
+      "photo": {
+        "img": "assets/london/churchill-card.jpg",
+        "source": "https://www.pexels.com/photo/crowd-walking-on-street-in-london-5209907/",
+        "author": "Gotta Be Worth It",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Rótulo y fachada floral de The Churchill Arms (recorte)."
+      }
+    },
+    {
+      "id": "cheese",
+      "name": "Ye Olde Cheshire Cheese · Fleet Street",
+      "address": "145 Fleet St, London EC4A 2BP, UK",
+      "description": "Pub y chop house para una comida británica junto a la City.",
+      "strength": "Carta propia con steak & kidney pudding, salchichas con puré y fish & chips. Alternativa de cena al terminar en San Pablo.",
+      "caution": "El operador declara que no es accesible para sillas de ruedas. Carta y horario del comedor no son idénticos a los del bar.",
+      "officialUrl": "https://ye-olde-cheshire-cheese.co.uk/menus/",
+      "sourceUrls": [
+        "https://ye-olde-cheshire-cheese.co.uk/menus/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ye+Olde+Cheshire+Cheese&query_place_id=ChIJM0n9x7IEdkgRZllOf-c6RYQ",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha exacta localizada en Google Maps y web propia leída el 29/10/2026. No es confirmación de apertura futura.",
+      "priceLabel": "Principales £17,95-21; carnes desde £21,50 · carta consultada",
+      "photo": {
+        "img": "assets/food/fishchips.jpg",
+        "source": "https://www.pexels.com/photo/delicious-fish-and-chips-with-tartar-sauce-30910496/",
+        "author": "Valeria Boltneva",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de fish and chips: no es del local ni garantiza ese plato en carta."
+      }
+    },
+    {
+      "id": "wolseley",
+      "name": "The Wolseley · Piccadilly",
+      "address": "160 Piccadilly, London W1J 9EB, UK",
+      "description": "Grand café para desayuno, comida o té de tarde con un presupuesto más alto.",
+      "strength": "Aporta una experiencia de salón distinta de mercados y pubs. La guía de Viajeros Callejeros la incluye entre sus desayunos.",
+      "caution": "Consultar carta de la franja elegida y reservar. La carta enlazada incluye cover charge en comida/cena y servicio discrecional; no comparar sólo el precio de un plato.",
+      "officialUrl": "https://www.thewolseleypiccadilly.com/menu/",
+      "sourceUrls": [
+        "https://www.thewolseleypiccadilly.com/menu/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Wolseley+Piccadilly&query_place_id=ChIJr_4cVy8FdkgRIrNbO93eUFM",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha exacta localizada en Google Maps y web propia leída el 29/10/2026. No es confirmación de apertura futura.",
+      "priceLabel": "Salón / presupuesto alto · revisar servicio y cubierto",
+      "editorialUrl": "https://www.viajeroscallejeros.com/londres-en-3-dias/",
+      "photo": {
+        "img": "assets/food/breakfast.jpg",
+        "source": "https://www.pexels.com/photo/english-breakfast-with-sausages-18580145/",
+        "author": "Valeria Boltneva",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de desayuno inglés: no es del local ni garantiza ese plato en carta."
+      }
+    },
+    {
+      "id": "arome",
+      "name": "Arôme Bakery · Mercer Street",
+      "address": "9 Mercer St, London WC2H 9QJ, UK",
+      "description": "Panadería y café para una pausa de día en Covent Garden, no una cena.",
+      "strength": "Opción breve que la guía de Viajeros Callejeros cita para desayunar; evita añadir otro restaurante de comida completa.",
+      "caution": "Mercer Street cierra lunes; martes-sábado 8-17 h, domingo 9-16 h en la web consultada. No guardarla para la extensión nocturna.",
+      "officialUrl": "https://www.aromebakery.co.uk/",
+      "sourceUrls": [
+        "https://www.aromebakery.co.uk/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ar%C3%B4me+Bakery+-+Mercer+Street&query_place_id=ChIJ7Yxgn3EFdkgRUv6ODgfGHew",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha exacta localizada en Google Maps y web propia leída el 29/10/2026. No es confirmación de apertura futura.",
+      "priceLabel": "Café y repostería · consultar vitrina",
+      "editorialUrl": "https://www.viajeroscallejeros.com/londres-en-3-dias/",
+      "photo": {
+        "img": "assets/food/croissant.jpg",
+        "source": "https://www.pexels.com/photo/croissant-and-coffee-on-table-24706518/",
+        "author": "Gonzalo Mendiola",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de croissant y café: no es del local ni garantiza ese plato en carta."
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "sky",
+      "name": "Sky Garden",
+      "description": "Mirador ajardinado en la City, como alternativa que requiere reservar horario al final del día 2.",
+      "duration": "1 h de acceso, más seguridad y cola",
+      "caution": "Entrada pública gratuita con franja, plazas limitadas. Se publica hasta tres semanas antes; acceso sin reserva no garantizado. No confundir entradas gratuitas con eventos o desayunos de pago.",
+      "alert": "Elegir según franja disponible; no hay reserva hecha.",
+      "officialUrl": "https://skygarden.london/booking/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sky+Garden&query_place_id=ChIJgaI8bFIDdkgRhJJqLMxsFdU",
+      "priceLabel": "Acceso público gratuito con reserva",
+      "statusCheckedAt": "2026-10-29",
+      "photo": {
+        "img": "assets/london/sky.jpg",
+        "source": "https://www.pexels.com/photo/sky-garden-walkie-talkie-building-in-london-37871065/",
+        "author": "Guillaume Kremer",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Edificio de Sky Garden visto desde fuera, no vista desde la terraza"
+      }
+    },
+    {
+      "id": "riverboat",
+      "name": "Barco de línea por el Támesis",
+      "description": "Uber Boat by Thames Clippers para ver la ciudad desde el río o llegar a Greenwich.",
+      "duration": "Según muelles y servicio elegido",
+      "caution": "Barco de transporte, no crucero turístico narrado. Billete por zonas; consultar tarifa, frecuencia, última salida y muelles antes de guardarlo.",
+      "alert": "Pago y horario propios; no incluye billete ni reserva.",
+      "officialUrl": "https://www.thamesclippers.com/plan-your-journey/route-map",
+      "priceLabel": "Billete de pago por zonas",
+      "statusCheckedAt": "2026-10-29",
+      "photo": {
+        "img": "assets/london/riverboat.jpg",
+        "source": "https://www.pexels.com/photo/boats-passing-through-the-river-thames-21918446/",
+        "author": "Fabian Freire",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Barcos en el Támesis: imagen del entorno, no garantiza un operador o embarcación concreta"
+      }
+    },
+    {
+      "id": "camden",
+      "name": "Mercados de Camden",
+      "description": "Puestos, tiendas y ambiente de canal para quien prefiera el norte a la jornada del oeste.",
+      "duration": "2-3 h editoriales más traslado",
+      "caution": "No añadir Camden y Primrose Hill al día de la Torre sólo porque aparezcan en una misma guía. Sustituir la tarde del oeste o dedicarle media jornada.",
+      "alert": "Alternativa de barrio, no cuarta zona obligatoria.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Camden+Lock+Market&query_place_id=ChIJE3CeAlwbdkgR7cSizDf8Mh8",
+      "priceLabel": "Paseo gratis; compras y comida aparte",
+      "statusCheckedAt": "2026-10-29",
+      "photo": {
+        "img": "assets/london/camden.jpg",
+        "source": "https://www.pexels.com/photo/charming-view-of-camden-market-by-the-canal-32604940/",
+        "author": "David Allen",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Camden junto al canal"
+      }
+    }
+  ]
+}

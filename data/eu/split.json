@@ -1,0 +1,1062 @@
+{
+  "schemaVersion": 1,
+  "country": "HR",
+  "id": "split",
+  "name": "Split",
+  "localName": "Split",
+  "selectionReason": "Ampliación croata solicitada.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fechas; tercer día opcional, sin reservas ni entradas.",
+  "stops": [
+    {
+      "id": "gate",
+      "name": "Puerta Dorada · entrar en el barrio-palacio",
+      "kind": "visit",
+      "zone": "Norte del palacio",
+      "reason": "Empezar por una puerta histórica y recorrer el barrio vivo, no buscar una entrada general a un palacio vacío.",
+      "sourceIds": [
+        "guide 1",
+        "guide 2"
+      ],
+      "coordinates": {
+        "lat": 43.509192,
+        "lon": 16.4406786
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Split+Golden+Gate&query_place_id=ChIJgfFspwBeNRMRki1b3E1t-vo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Las calles del antiguo palacio son parte de la ciudad y se recorren sin billete general. Eso no da acceso gratis a catedral, torre, sótanos, museos o murallas. No se promete tocar una estatua sin colas ni acceso a interiores por una foto.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/split/gate.jpg",
+        "source": "https://www.flickr.com/photos/davidstanleytravel/53691742332/",
+        "author": "David Stanley",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Puerta y calles públicas"
+    },
+    {
+      "id": "peristyle",
+      "name": "Peristilo · entender el corazón del recinto",
+      "kind": "visit",
+      "zone": "Peristilo",
+      "reason": "Detenerse en la plaza antes de elegir un solo interior principal, con tiempo para ver cómo encajan las épocas.",
+      "sourceIds": [
+        "guide 1",
+        "cathedralofficial"
+      ],
+      "coordinates": {
+        "lat": 43.5083371,
+        "lon": 16.4402109
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Peristil&query_place_id=ChIJleRUL_5dNRMRW4mmLTVahJk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "No se garantiza cambio de guardia, espectáculo diario, concierto de klapa ni acceso reservado. Turismo confirma el lugar, no una función concreta para cada fecha.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/split/peristyle.jpg",
+        "source": "https://www.flickr.com/photos/78682408@N08/6896242940/",
+        "author": "Tours in Croatia",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "cellars",
+      "name": "Sótanos de Diocleciano · el interior principal",
+      "kind": "visit",
+      "zone": "Subestructuras / entrada sur",
+      "reason": "Recorrer las salas subterráneas para leer la arquitectura del palacio; una visita fuerte, no todas las entradas de la plaza.",
+      "sourceIds": [
+        "citymuseum"
+      ],
+      "coordinates": {
+        "lat": 43.5075475,
+        "lon": 16.4397797
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Diocletian%27s+Cellars&query_place_id=ChIJxf3Hzf9dNRMR6BwRO64jtTs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 95,
+      "durationType": "editorial-estimate",
+      "caution": "Tarifa oficial 2026: adulto 10€, reducida 8€ con documento válido de la República de Croacia cuando corresponda; no incluido en los pases de catedral. Horario publicado lun-dom 8:30-20, última entrada 30 min antes. La página aún contiene aviso del 04/04/2026 y cierre del 05/04: no se extrapolan a otro año ni se toma el horario como garantía anual. Revisar calendario de la fecha. La galería de paso con puestos no equivale a visitar gratis todas las salas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/split/cellars.jpg",
+        "source": "https://www.flickr.com/photos/archer10/9549490737/",
+        "author": "Dennis Jarvis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago · adulto 10€"
+    },
+    {
+      "id": "vestibule",
+      "name": "Vestíbulo · mirar hacia arriba",
+      "kind": "visit",
+      "zone": "Vestíbulo / sur del Peristilo",
+      "reason": "Un espacio abierto para parar entre las salas y el paseo marítimo, sin venderlo como otro museo largo.",
+      "sourceIds": [
+        "guide 1",
+        "ethno"
+      ],
+      "coordinates": {
+        "lat": 43.5079859,
+        "lon": 16.4400111
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Vestibul&query_place_id=ChIJe0CpLf5dNRMR_aKU8-MCGiE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Se distingue la estancia abierta de un posible acceso elevado gestionado por el Museo Etnográfico: este publica Vestibul 2€, no se afirma que toda la estancia cueste 2€ ni que la azotea esté incluida en la visita al museo. No canto de klapa garantizado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/split/vestibule.jpg",
+        "source": "https://www.flickr.com/photos/ajy/2953683761/",
+        "author": "Alistair Young",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Espacio de paso exterior"
+    },
+    {
+      "id": "riva",
+      "name": "Riva · sentarse también cuenta",
+      "kind": "visit",
+      "zone": "Paseo marítimo central",
+      "reason": "Terminar junto al puerto con una pausa larga, como parte del día y no como hueco para añadir otra excursión.",
+      "sourceIds": [
+        "guide 1",
+        "guide 2"
+      ],
+      "coordinates": {
+        "lat": 43.507818,
+        "lon": 16.4382254
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Split+Riva&query_place_id=ChIJUQjYsf9dNRMR6PjvDS-Fh7g",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Cafés y terrazas se pagan aparte y tienen horarios propios. Viento y lluvia pueden acortar el paseo. No salida de ferry, baño o mesa en primera fila reservados.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/split/riva.jpg",
+        "source": "https://www.flickr.com/photos/78682408@N08/7038326647/",
+        "author": "Tours in Croatia",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "cathedral",
+      "name": "San Domnio · alternativa a los sótanos",
+      "kind": "visit",
+      "zone": "Peristilo / catedral",
+      "reason": "Elegir el antiguo mausoleo convertido en catedral, con torre solo si apetecen más escaleras, en lugar de acumular entradas.",
+      "sourceIds": [
+        "cathedralofficial",
+        "cathedralguide"
+      ],
+      "coordinates": {
+        "lat": 43.5081034,
+        "lon": 16.4404805
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Saint+Domnius%E2%80%99+Cathedral&query_place_id=ChIJHUCUK_5dNRMR82mK6Ox5Z30",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "La web atribuida a la catedral no respondió a lectura ni al reintento en navegador. Guía actualizada el 30/08/2026 orienta: catedral 5€, torre 7€, combinado verde 12€ con tesoro, morado 15€ con cinco espacios; NO tarifa oficial verificada. Esa guía indica lun-sáb 8:15-19:30, dom 12:30-17:30, pero no confirma invierno ni culto: verificar en taquilla. Sótanos no incluidos. Torre con escalones metálicos abiertos, no ascensor ni acceso sin vértigo garantizado. Culto prevalece.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/split/cathedral.jpg",
+        "source": "https://www.flickr.com/photos/prof_richard/29882517951/",
+        "author": "Richard Mortel",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Interior y torre opcionales de pago"
+    },
+    {
+      "id": "varos",
+      "name": "Varoš · calles antes de la cuesta",
+      "kind": "visit",
+      "zone": "Varoš / oeste del casco",
+      "reason": "Salir del recinto por las calles de piedra y mirar la vida de barrio antes de subir al primer mirador.",
+      "sourceIds": [
+        "guide 1",
+        "guide 2"
+      ],
+      "coordinates": {
+        "lat": 43.510342,
+        "lon": 16.4313346
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Varo%C5%A1&query_place_id=ChIJBztB4mFnNRMRB4Y3YqduDqc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Zona residencial con escaleras: no invadir patios ni prometer un camino sin pendiente. La foto es de una calle de Varoš en archivo, no del itinerario exacto de cada persona.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/split/varos.jpg",
+        "source": "https://www.flickr.com/photos/kalamita/89144515/",
+        "author": "ivana",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo de barrio"
+    },
+    {
+      "id": "marjan",
+      "name": "Primer mirador de Marjan · subir y volver",
+      "kind": "visit",
+      "zone": "Prva Vidilica / Marjan",
+      "reason": "Una vista de la ciudad con un paseo limitado, sin transformar la mañana en una travesía completa de bosque y playas.",
+      "sourceIds": [
+        "guide 1",
+        "park",
+        "parknotice"
+      ],
+      "coordinates": {
+        "lat": 43.5077158,
+        "lon": 16.4303444
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Marjan+viewpoint&query_place_id=ChIJQ7HSbPhdNRMRis-XBS72XWg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 110,
+      "durationType": "editorial-estimate",
+      "caution": "Riva-mirador: unos 800 m / 12 min en Maps, con subida; reservar pausas y regreso, no son 12 min de visita. Aviso municipal del 30/04/2026 reabrió parte norte desde mayo, pero mantuvo restricciones en Bene y pista cortafuegos; no se ha verificado reapertura de esas zonas. Esta ruta no las atraviesa ni promete circuito completo. Seguir carteles actuales, cierres por incendio/viento y luz; no caminata nocturna obligatoria.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/split/marjan.jpg",
+        "source": "https://www.flickr.com/photos/mlcastle/9503674901/",
+        "author": "mike",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mirador exterior condicionado al tiempo"
+    },
+    {
+      "id": "gallery",
+      "name": "Galería Meštrović · escultura en Meje",
+      "kind": "visit",
+      "zone": "Meje / costa oeste",
+      "reason": "Dar un bloque propio a la casa y las esculturas, en vez de añadir varios museos al día del palacio.",
+      "sourceIds": [
+        "gallery",
+        "galleryreopen"
+      ],
+      "coordinates": {
+        "lat": 43.5048696,
+        "lon": 16.4179331
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Me%C5%A1trovi%C4%87+Gallery&query_place_id=ChIJd-ryCF5nNRMRqFXxA3wWqzM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 130,
+      "durationType": "editorial-estimate",
+      "caution": "Reabrió en abril de 2026 tras 15 meses de reforma; no mantener el cierre antiguo. Adulto 12€, incluye Crikvine-Kaštilac. Web actual mar-dom 8-18, última entrada 17:30; lunes y festivos cerrado. La exposición de reapertura terminó el 09/10/2026, no se promete vigente. El operador dice 15 min desde Riva, pero Maps devuelve 1, 9 km / 26 min: usar ese traslado más amplio, con vuelta aparte. No se suman suplementos de visita fuera de horario como si fueran entrada normal.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/split/gallery.jpg",
+        "source": "https://www.flickr.com/photos/currystrumpet/22682060876/",
+        "author": "currystrumpet",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Galería Meštrović en archivo anterior a la reforma; no garantiza el montaje actual. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago · 12€"
+    },
+    {
+      "id": "ethno",
+      "name": "Museo Etnográfico · otro Split, si interesa",
+      "kind": "visit",
+      "zone": "Detrás del Vestíbulo",
+      "reason": "Elegir tejidos, objetos y vida cotidiana en un interior pequeño para quien quiera un tercer día más cultural.",
+      "sourceIds": [
+        "ethno"
+      ],
+      "coordinates": {
+        "lat": 43.5075684,
+        "lon": 16.4400221
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Split+Ethnographic+Museum&query_place_id=ChIJYWgz0v9dNRMRYBjz28ST-xY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 7€, familiar 15€, Vestibul 2€ publicado aparte. De noviembre a mayo: lunes-viernes 9-16, sábado 10-14. Octubre: lunes-viernes 9-17, sábado 10-14. Junio-agosto: lunes-viernes 9-19, sábado 10-17. Septiembre: lunes-viernes 9-18, sábado 10-17. La web contradice los domingos: los bloques mensuales de junio-septiembre dicen 10-14, pero la nota general limita ese horario al 15/06-15/09. Fuera de ese intervalo no se promete domingo abierto. Otros domingos cerrado. No se da por incluido el techo o mirador sin confirmar.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/split/ethno.jpg",
+        "source": "https://www.flickr.com/photos/corsinet/33862223641/",
+        "author": "julie corsi",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Pieza de la colección en archivo; no se garantiza que siga expuesta. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago · tercer día opcional"
+    },
+    {
+      "id": "bacvice",
+      "name": "Bačvice · un paseo de costa, no baño obligado",
+      "kind": "visit",
+      "zone": "Bačvice / este del puerto",
+      "reason": "Dejar tiempo para comer y acercarse al mar si se quiere una tercera jornada tranquila, sin otra isla por obligación.",
+      "sourceIds": [
+        "guide 1",
+        "guide 2"
+      ],
+      "coordinates": {
+        "lat": 43.5023529,
+        "lon": 16.4467679
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Ba%C4%8Dvice+City+Beach&query_place_id=ChIJY7JcRS5hNRMRWsNmKnOBpJs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Desde Peristilo unos 1 km / 14 min andando. La visita no garantiza baño, partido de picigin, limpieza del agua, tumbona ni chiringuito abierto. En invierno acortar por clima y luz. No se programa como playa tranquila sin gente en verano.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/split/bacvice.jpg",
+        "source": "https://www.flickr.com/photos/slapers/30725562098/",
+        "author": "Paul Arps",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Playa y paseo exteriores opcionales"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Barrio-palacio y un solo interior fuerte",
+          "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+          "stopIds": [
+            "gate",
+            "peristyle",
+            "cellars",
+            "vestibule",
+            "riva"
+          ],
+          "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+          "optionalStopIds": [
+            "cathedral"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Barrio-palacio y un solo interior fuerte",
+          "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+          "stopIds": [
+            "gate",
+            "peristyle",
+            "cellars",
+            "vestibule",
+            "riva"
+          ],
+          "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+          "optionalStopIds": [
+            "cathedral"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+        },
+        {
+          "title": "Varoš, primer mirador y escultura al oeste",
+          "zone": "Varoš → mirador de Marjan → Meje / Galería Meštrović",
+          "stopIds": [
+            "varos",
+            "marjan",
+            "gallery"
+          ],
+          "editorialNote": "Paseo limitado al primer mirador y vuelta por el lado urbano, no circuito por Bene ni toda la montaña. Galería como único museo; si cae en lunes o festivo, cambiar día o acortar.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y traslados. Riva-mirador 12 min / unos 800 m de subida, no tiempo total. Riva-galería 26 min / 1, 9 km en Maps; regreso aparte. No añadir playa lejana y otro museo por cuota."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Barrio-palacio y un solo interior fuerte",
+          "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+          "stopIds": [
+            "gate",
+            "peristyle",
+            "cellars",
+            "vestibule",
+            "riva"
+          ],
+          "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+          "optionalStopIds": [
+            "cathedral"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+        },
+        {
+          "title": "Varoš, primer mirador y escultura al oeste",
+          "zone": "Varoš → mirador de Marjan → Meje / Galería Meštrović",
+          "stopIds": [
+            "varos",
+            "marjan",
+            "gallery"
+          ],
+          "editorialNote": "Paseo limitado al primer mirador y vuelta por el lado urbano, no circuito por Bene ni toda la montaña. Galería como único museo; si cae en lunes o festivo, cambiar día o acortar.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y traslados. Riva-mirador 12 min / unos 800 m de subida, no tiempo total. Riva-galería 26 min / 1, 9 km en Maps; regreso aparte. No añadir playa lejana y otro museo por cuota."
+        },
+        {
+          "title": "Un tercer día cultural y costero, opcional",
+          "zone": "Museo Etnográfico → Bačvice",
+          "stopIds": [
+            "ethno",
+            "bacvice"
+          ],
+          "editorialNote": "No hace falta un tercer día para completar el casco. Este es para objetos cotidianos, comida y costa sin prisa. Si se prefiere Trogir o una isla, sustituye la jornada y requiere su propia logística.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "4-5 h con comida y paseo; Peristilo-Bačvice 14 min / 1 km a pie, regreso incluido en el margen. Domingo de invierno el museo cierra; no rellenar con otro interior sin interés."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Paseos con agua y sombra al mediodía. Marjan limitado al primer mirador; no circuito completo por zonas con restricciones. Playa sin baño ni actividades garantizados.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Lluvia, viento y luz mandan en Marjan y Bačvice. Galería lunes/festivos cerrado; Etnográfico domingos cerrado fuera de temporada. Horario de catedral de guía no verificado para invierno.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Meštrović cierra festivos y lunes. Museo de ciudad cierra festivos y lunes; sótanos tienen política distinta, comprobar fecha. No se garantiza mercado navideño diario ni horario ordinario de catedral en culto.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "No conservar el cierre de reforma de Meštrović: reabrió abril 2026. La exposición inaugural terminó 09/10/2026. Marjan tuvo reapertura parcial en mayo, no permiso para pasar vallas actuales.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "El palacio es un barrio con calles públicas y recintos de pago distintos; no existe un billete general que lo cubra todo.",
+    "No todas las rutas de Marjan se dan por abiertas; seguir señalización y evitar la costa con temporal.",
+    "No entradas ni comidas reservadas. Precios de catedral y Villa Spiza señalados como orientación externa, no tarifa oficial."
+  ],
+  "excludedOrOptional": [
+    "Trogir, Salona, Klis e islas no se apilan en tres días urbanos; requieren otra jornada y logística propia.",
+    "No circuito por Bene ni baño en Bačvice obligatorio.",
+    "Sustipan no se añade por cuota si ya hay mirador y galería; Fife/Focaccina fuera sin carta actual suficientemente verificada."
+  ],
+  "sources": [
+    {
+      "id": "guide 1",
+      "title": "Turismo Split: tres días y barrios",
+      "url": "https://visitsplit.com/hr/1317/split-u-3-dana",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide 2",
+      "title": "AroundSplit: ritmo de invierno",
+      "url": "https://aroundsplit.com.hr/guides/winter-in-split/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide 3",
+      "title": "TimeWalk: guía local y alternativas, con venta propia",
+      "url": "https://timewalksplit.com/blog/3-days-in-split-itinerary",
+      "type": "local-commercial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "FrankAboutCroatia: mesas de Split",
+      "url": "https://www.frankaboutcroatia.com/split-restaurants-eat-split/",
+      "type": "local-travel-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "spizareview",
+      "title": "GaultMillau 2026: Villa Spiza",
+      "url": "https://hr.gaultmillau.com/en/restaurants/villa-spiza",
+      "type": "restaurant-critic",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "spizaprices",
+      "title": "RestaurantsForKings: visita 2025, listado 2026",
+      "url": "https://restaurantsforkings.com/city/split/villa-spiza",
+      "type": "restaurant-review",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "spizahours",
+      "title": "Smokvina: sede y horario, no primera parte",
+      "url": "https://www.smokvina.hr/bookyour/r/villaspiza",
+      "type": "local-directory",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cathedralofficial",
+      "title": "Turismo: catedral y torre, no tarifas",
+      "url": "https://visitsplit.com/en/527/cathedral-of-saint-domnius",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cathedralguide",
+      "title": "SplitHoliday: tarifas orientativas, agosto 2026",
+      "url": "https://splitholiday.com/top-attractions-split/cathedral-st-domnius-split/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "citymuseum",
+      "title": "Museo de Split: tarifas 2026 y horarios",
+      "url": "https://mgs.hr/en/visit-us/price-lists-and-working-hours/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "gallery",
+      "title": "Meštrović:12€, hora, alcance",
+      "url": "https://mestrovic.hr/en/gallery-mestrovic/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "galleryreopen",
+      "title": "Meštrović: reapertura en abril 2026",
+      "url": "https://mestrovic.hr/otvorena-obnovljena-galerija-mestrovic-u-splitu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "park",
+      "title": "Marjan: normas y avisos",
+      "url": "https://www.marjan-parksuma.hr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "parknotice",
+      "title": "Ayuntamiento: reapertura parcial mayo 2026",
+      "url": "https://split.hr/clanak/otvaranje-najposjecenijeg-dijela-park-sume-marjan-i-obiljezavanje-medjunarodnog-praznika-rada",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "ethno",
+      "title": "Museo Etnográfico: tarifas y horarios",
+      "url": "https://etnografski-muzej-split.hr/en/museum/general-information",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "ciri",
+      "title": "Ćiri Biri Bela: no cena 2026",
+      "url": "https://ciri-biri-bela.com/en/eat",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cirimenu",
+      "title": "Ćiri: carta vigente 22/10/2026",
+      "url": "https://ciri-biri-bela.com/content/2-eat/modules/3-tabs-wg82g2/obrt_plinarska6_posl2_2026_10_22_0731.csv",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Barrio-palacio y un solo interior fuerte",
+            "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+            "stopIds": [
+              "gate",
+              "peristyle",
+              "cellars",
+              "vestibule",
+              "riva"
+            ],
+            "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+            "optionalStopIds": [
+              "cathedral"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Barrio-palacio y un solo interior fuerte",
+            "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+            "stopIds": [
+              "gate",
+              "peristyle",
+              "cellars",
+              "vestibule",
+              "riva"
+            ],
+            "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+            "optionalStopIds": [
+              "cathedral"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+          },
+          {
+            "title": "Varoš, primer mirador y escultura al oeste",
+            "zone": "Varoš → mirador de Marjan → Meje / Galería Meštrović",
+            "stopIds": [
+              "varos",
+              "marjan",
+              "gallery"
+            ],
+            "editorialNote": "Paseo limitado al primer mirador y vuelta por el lado urbano, no circuito por Bene ni toda la montaña. Galería como único museo; si cae en lunes o festivo, cambiar día o acortar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y traslados. Riva-mirador 12 min / unos 800 m de subida, no tiempo total. Riva-galería 26 min / 1, 9 km en Maps; regreso aparte. No añadir playa lejana y otro museo por cuota."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Barrio-palacio y un solo interior fuerte",
+            "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+            "stopIds": [
+              "gate",
+              "peristyle",
+              "cellars",
+              "vestibule",
+              "riva"
+            ],
+            "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+            "optionalStopIds": [
+              "cathedral"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+          },
+          {
+            "title": "Varoš, primer mirador y escultura al oeste",
+            "zone": "Varoš → mirador de Marjan → Meje / Galería Meštrović",
+            "stopIds": [
+              "varos",
+              "marjan",
+              "gallery"
+            ],
+            "editorialNote": "Paseo limitado al primer mirador y vuelta por el lado urbano, no circuito por Bene ni toda la montaña. Galería como único museo; si cae en lunes o festivo, cambiar día o acortar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y traslados. Riva-mirador 12 min / unos 800 m de subida, no tiempo total. Riva-galería 26 min / 1, 9 km en Maps; regreso aparte. No añadir playa lejana y otro museo por cuota."
+          },
+          {
+            "title": "Un tercer día cultural y costero, opcional",
+            "zone": "Museo Etnográfico → Bačvice",
+            "stopIds": [
+              "ethno",
+              "bacvice"
+            ],
+            "editorialNote": "No hace falta un tercer día para completar el casco. Este es para objetos cotidianos, comida y costa sin prisa. Si se prefiere Trogir o una isla, sustituye la jornada y requiere su propia logística.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-5 h con comida y paseo; Peristilo-Bačvice 14 min / 1 km a pie, regreso incluido en el margen. Domingo de invierno el museo cierra; no rellenar con otro interior sin interés."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Barrio-palacio y un solo interior fuerte",
+            "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+            "stopIds": [
+              "gate",
+              "peristyle",
+              "cellars",
+              "vestibule",
+              "riva"
+            ],
+            "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+            "optionalStopIds": [
+              "cathedral"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Barrio-palacio y un solo interior fuerte",
+            "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+            "stopIds": [
+              "gate",
+              "peristyle",
+              "cellars",
+              "vestibule",
+              "riva"
+            ],
+            "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+            "optionalStopIds": [
+              "cathedral"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+          },
+          {
+            "title": "Varoš, primer mirador y escultura al oeste",
+            "zone": "Varoš → mirador de Marjan → Meje / Galería Meštrović",
+            "stopIds": [
+              "varos",
+              "marjan",
+              "gallery"
+            ],
+            "editorialNote": "Paseo limitado al primer mirador y vuelta por el lado urbano, no circuito por Bene ni toda la montaña. Galería como único museo; si cae en lunes o festivo, cambiar día o acortar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y traslados. Riva-mirador 12 min / unos 800 m de subida, no tiempo total. Riva-galería 26 min / 1, 9 km en Maps; regreso aparte. No añadir playa lejana y otro museo por cuota."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Barrio-palacio y un solo interior fuerte",
+            "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+            "stopIds": [
+              "gate",
+              "peristyle",
+              "cellars",
+              "vestibule",
+              "riva"
+            ],
+            "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+            "optionalStopIds": [
+              "cathedral"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+          },
+          {
+            "title": "Varoš, primer mirador y escultura al oeste",
+            "zone": "Varoš → mirador de Marjan → Meje / Galería Meštrović",
+            "stopIds": [
+              "varos",
+              "marjan",
+              "gallery"
+            ],
+            "editorialNote": "Paseo limitado al primer mirador y vuelta por el lado urbano, no circuito por Bene ni toda la montaña. Galería como único museo; si cae en lunes o festivo, cambiar día o acortar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y traslados. Riva-mirador 12 min / unos 800 m de subida, no tiempo total. Riva-galería 26 min / 1, 9 km en Maps; regreso aparte. No añadir playa lejana y otro museo por cuota."
+          },
+          {
+            "title": "Un tercer día cultural y costero, opcional",
+            "zone": "Museo Etnográfico → Bačvice",
+            "stopIds": [
+              "ethno",
+              "bacvice"
+            ],
+            "editorialNote": "No hace falta un tercer día para completar el casco. Este es para objetos cotidianos, comida y costa sin prisa. Si se prefiere Trogir o una isla, sustituye la jornada y requiere su propia logística.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-5 h con comida y paseo; Peristilo-Bačvice 14 min / 1 km a pie, regreso incluido en el margen. Domingo de invierno el museo cierra; no rellenar con otro interior sin interés."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Barrio-palacio y un solo interior fuerte",
+            "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+            "stopIds": [
+              "gate",
+              "peristyle",
+              "cellars",
+              "vestibule",
+              "riva"
+            ],
+            "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+            "optionalStopIds": [
+              "cathedral"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Barrio-palacio y un solo interior fuerte",
+            "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+            "stopIds": [
+              "gate",
+              "peristyle",
+              "cellars",
+              "vestibule",
+              "riva"
+            ],
+            "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+            "optionalStopIds": [
+              "cathedral"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+          },
+          {
+            "title": "Varoš, primer mirador y escultura al oeste",
+            "zone": "Varoš → mirador de Marjan → Meje / Galería Meštrović",
+            "stopIds": [
+              "varos",
+              "marjan",
+              "gallery"
+            ],
+            "editorialNote": "Paseo limitado al primer mirador y vuelta por el lado urbano, no circuito por Bene ni toda la montaña. Galería como único museo; si cae en lunes o festivo, cambiar día o acortar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y traslados. Riva-mirador 12 min / unos 800 m de subida, no tiempo total. Riva-galería 26 min / 1, 9 km en Maps; regreso aparte. No añadir playa lejana y otro museo por cuota."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Barrio-palacio y un solo interior fuerte",
+            "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+            "stopIds": [
+              "gate",
+              "peristyle",
+              "cellars",
+              "vestibule",
+              "riva"
+            ],
+            "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+            "optionalStopIds": [
+              "cathedral"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+          },
+          {
+            "title": "Varoš, primer mirador y escultura al oeste",
+            "zone": "Varoš → mirador de Marjan → Meje / Galería Meštrović",
+            "stopIds": [
+              "varos",
+              "marjan",
+              "gallery"
+            ],
+            "editorialNote": "Paseo limitado al primer mirador y vuelta por el lado urbano, no circuito por Bene ni toda la montaña. Galería como único museo; si cae en lunes o festivo, cambiar día o acortar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y traslados. Riva-mirador 12 min / unos 800 m de subida, no tiempo total. Riva-galería 26 min / 1, 9 km en Maps; regreso aparte. No añadir playa lejana y otro museo por cuota."
+          },
+          {
+            "title": "Un tercer día cultural y costero, opcional",
+            "zone": "Museo Etnográfico → Bačvice",
+            "stopIds": [
+              "ethno",
+              "bacvice"
+            ],
+            "editorialNote": "No hace falta un tercer día para completar el casco. Este es para objetos cotidianos, comida y costa sin prisa. Si se prefiere Trogir o una isla, sustituye la jornada y requiere su propia logística.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-5 h con comida y paseo; Peristilo-Bačvice 14 min / 1 km a pie, regreso incluido en el margen. Domingo de invierno el museo cierra; no rellenar con otro interior sin interés."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Barrio-palacio y un solo interior fuerte",
+            "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+            "stopIds": [
+              "gate",
+              "peristyle",
+              "cellars",
+              "vestibule",
+              "riva"
+            ],
+            "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+            "optionalStopIds": [
+              "cathedral"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Barrio-palacio y un solo interior fuerte",
+            "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+            "stopIds": [
+              "gate",
+              "peristyle",
+              "cellars",
+              "vestibule",
+              "riva"
+            ],
+            "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+            "optionalStopIds": [
+              "cathedral"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+          },
+          {
+            "title": "Varoš, primer mirador y escultura al oeste",
+            "zone": "Varoš → mirador de Marjan → Meje / Galería Meštrović",
+            "stopIds": [
+              "varos",
+              "marjan",
+              "gallery"
+            ],
+            "editorialNote": "Paseo limitado al primer mirador y vuelta por el lado urbano, no circuito por Bene ni toda la montaña. Galería como único museo; si cae en lunes o festivo, cambiar día o acortar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y traslados. Riva-mirador 12 min / unos 800 m de subida, no tiempo total. Riva-galería 26 min / 1, 9 km en Maps; regreso aparte. No añadir playa lejana y otro museo por cuota."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Barrio-palacio y un solo interior fuerte",
+            "zone": "Puerta Dorada → Peristilo → sótanos → Vestíbulo → Riva",
+            "stopIds": [
+              "gate",
+              "peristyle",
+              "cellars",
+              "vestibule",
+              "riva"
+            ],
+            "editorialNote": "Los sótanos son la visita principal. La catedral los sustituye si interesa más; torre opcional, no cinco entradas obligatorias. Las calles del palacio no son un museo cerrado.",
+            "optionalStopIds": [
+              "cathedral"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida, paseos y pausas. Todo en el casco, sin barco ni salida regional después de varias colas."
+          },
+          {
+            "title": "Varoš, primer mirador y escultura al oeste",
+            "zone": "Varoš → mirador de Marjan → Meje / Galería Meštrović",
+            "stopIds": [
+              "varos",
+              "marjan",
+              "gallery"
+            ],
+            "editorialNote": "Paseo limitado al primer mirador y vuelta por el lado urbano, no circuito por Bene ni toda la montaña. Galería como único museo; si cae en lunes o festivo, cambiar día o acortar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y traslados. Riva-mirador 12 min / unos 800 m de subida, no tiempo total. Riva-galería 26 min / 1, 9 km en Maps; regreso aparte. No añadir playa lejana y otro museo por cuota."
+          },
+          {
+            "title": "Un tercer día cultural y costero, opcional",
+            "zone": "Museo Etnográfico → Bačvice",
+            "stopIds": [
+              "ethno",
+              "bacvice"
+            ],
+            "editorialNote": "No hace falta un tercer día para completar el casco. Este es para objetos cotidianos, comida y costa sin prisa. Si se prefiere Trogir o una isla, sustituye la jornada y requiere su propia logística.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-5 h con comida y paseo; Peristilo-Bačvice 14 min / 1 km a pie, regreso incluido en el margen. Domingo de invierno el museo cierra; no rellenar con otro interior sin interés."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Varias guías y crítica gastronómica contrastadas antes de operadores y Maps.",
+    "Meštrović cuesta 12€ y reabrió en abril de 2026; traslado de Maps de 26 min, no 15 min de la página del museo.",
+    "Catedral con primera parte inaccesible: precio externo rotulado, no presentado como tarifa oficial.",
+    "Ćiri cerró la cena durante 2026: solo brunch. Dos comidas distintas, sin cuota.",
+    "13 fotos CC verificadas e inspeccionadas; platos ajenos rotulados."
+  ],
+  "editorialTradeoffs": [
+    "Un interior fuerte en el casco, mirador limitado y galería en otro día.",
+    "Tercer día opcional con museo etnográfico y costa, no excursiones regionales acumuladas."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Turismo Split aporta barrios; AroundSplit ajusta invierno; TimeWalk es una guía con venta propia, no se copia su suma de excursiones. FrankAboutCroatia y GaultMillau orientan comida; la web oficial y el CSV actual corrigen la cena y los horarios de Ćiri."
+}

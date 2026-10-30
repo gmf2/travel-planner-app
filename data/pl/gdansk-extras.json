@@ -47,6 +47,45 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "caption": "Foto del local · archivo, no estado actual"
       }
+    },
+    {
+      "id": "zafishowani",
+      "name": "Zafishowani",
+      "address": "Tokarska 6 (entrada por Długie Pobrzeże) · junto a la Grúa",
+      "description": "El pescado del Báltico junto al Motława: arenque, trucha, salmón y fletán, con carta de vinos.",
+      "strength": "Web propia con carta y opciones vegetales y de carne además del pescado. Maps: 4,7 · unas 2.700 reseñas.",
+      "caution": "Precio medio-alto; en temporada conviene reservar. Sin mesa confirmada.",
+      "officialUrl": "https://www.zafishowani.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zafishowani+-+restaurant+-+wine+bar%26store&query_place_id=ChIJffjCmgpz_UYReIjOHvh3JZg",
+      "editorialUrl": "https://freewalkingtour.com/es/blog/que-y-donde-comer-en-gdansk/",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: ficha activa 29/10/2026",
+      "status": "maps-listed-active",
+      "priceLabel": "Consultar carta actual"
+    },
+    {
+      "id": "stagiewna-milkbar",
+      "name": "Bar Mleczny Stągiewna",
+      "address": "Stągiewna 15 · isla de las especias",
+      "description": "Bar de leche junto a la noria medieval: comida casera contundente por unos 30 zł.",
+      "strength": "Bar mleczny reseñado por guías locales; Maps: 4,2 · unas 5.500 reseñas.",
+      "caution": "Servicio de mostrador y horario de cocina limitado; confirmar en Maps antes de ir.",
+      "officialUrl": "https://www.google.com/maps/search/?api=1&query=Bar+Mleczny+St%C4%85giewna&query_place_id=ChIJMW4gJKFz_UYRXBguazBKbr8",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar+Mleczny+St%C4%85giewna&query_place_id=ChIJMW4gJKFz_UYRXBguazBKbr8",
+      "editorialUrl": "https://freewalkingtour.com/es/blog/que-y-donde-comer-en-gdansk/",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: ficha activa 29/10/2026",
+      "status": "maps-listed-active",
+      "priceLabel": "Precio bajo · consultar carta",
+      "photo": {
+        "id": "potatoes",
+        "img": "assets/enrichment/potatoes.jpg",
+        "source": "https://www.pexels.com/photo/potato-pancakes-served-on-plate-24870672/",
+        "author": "Kadir Avşar",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa · no del local ni de su carta"
+      }
     }
   ],
   "activities": [
@@ -66,7 +105,7 @@
   ],
   "schemaVersion": 1,
   "cityId": "gdansk",
-  "reviewedAt": "2026-10-28",
+  "reviewedAt": "2026-10-29",
   "scope": "Primera muestra editorial, no catálogo exhaustivo. Revisión puntual, no vigilancia en tiempo real.",
-  "catalogRevision": "2026-10-28-editorial-pass2"
+  "catalogRevision": "2026-10-29-editorial-pass3"
 }

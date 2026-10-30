@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "cityId": "prague",
+  "reviewedAt": "2026-10-29",
+  "scope": "Tres formatos distintos y céntricos: taberna checa, vegetariano sentado y chlebíčky ligeros. Sin actividad de pago de relleno.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "lokal",
+      "name": "Lokál Dlouhááá",
+      "address": "Dlouhá 33, Staré Město, 110 00 Praha-Praha 1, Czechia",
+      "description": "Cocina checa de taberna y cerveza de tanque en Dlouhá.",
+      "strength": "Platos guisados, sopa o queso frito para una comida sentada; no una ruta de carne repetida.",
+      "caution": "Carta diaria cambia: la consultada 29/10 incluye guisos 215-245 CZK y queso 315 CZK; no prometer ese menú futuro. Lun-sáb 11-24, dom 11-22 publicados. Reservar si se desea mesa en hora punta. Foto ilustrativa de queso frito de otro local.",
+      "alert": "Carta diaria cambia: la consultada 29/10 incluye guisos 215-245 CZK y queso 315 CZK; no prometer ese menú futuro. Lun-sáb 11-24, dom 11-22 publicados. Reservar si se desea mesa en hora punta. Foto ilustrativa de queso frito de otro local.",
+      "officialUrl": "https://lokal-dlouha.ambi.cz/en/menu/daily-menu",
+      "sourceUrls": [
+        "https://lokal-dlouha.ambi.cz/en/menu/daily-menu"
+      ],
+      "editorialUrl": "https://www.eater.com/maps/prague-best-restaurants-czech-republic-czechia",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lok%C3%A1l+Dlouh%C3%A1%C3%A1%C3%A1&query_place_id=ChIJGWh--8GUC0cR4myQM-Wv3QI",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Carta y fuente oficial, editorial y sucursal Maps contrastadas. No confirma disponibilidad futura.",
+      "priceLabel": "Plato+ bebida: consultar carta actual",
+      "photo": {
+        "img": "assets/prague/lokal.jpg",
+        "source": "https://www.flickr.com/photos/sambeckwith/1123440694/",
+        "author": "Sam Beckwith",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Queso frito ilustrativo de otro local, no de Lokál ni su ración actual. Recorte de presentación."
+      }
+    },
+    {
+      "id": "lehka",
+      "name": "Lehká hlava · Boršov",
+      "address": "Boršov 280/2, Staré Město, 110 00 Praha-Praha 1, Czechia",
+      "description": "Cocina vegetariana y vegana en una casa del casco antiguo.",
+      "strength": "Svíčková vegetal, tofu o platos para compartir, con carta de alérgenos.",
+      "caution": "Carta fija consultada con principales 285-375 CZK, no equivale a menú del día: apartado semanal visible era de agosto y se descarta como actual. Web omite viernes en horario, turismo indica L-V 11:30-23 / S-D 12-23; confirmar viernes directamente y cocina una hora antes. Vegano no significa sin alérgenos. Foto de hummus ilustrativo de otro local.",
+      "alert": "Carta fija consultada con principales 285-375 CZK, no equivale a menú del día: apartado semanal visible era de agosto y se descarta como actual. Web omite viernes en horario, turismo indica L-V 11:30-23 / S-D 12-23; confirmar viernes directamente y cocina una hora antes. Vegano no significa sin alérgenos. Foto de hummus ilustrativo de otro local.",
+      "officialUrl": "https://www.lehkahlava.cz/en/menu/",
+      "sourceUrls": [
+        "https://www.lehkahlava.cz/en/menu/"
+      ],
+      "editorialUrl": "https://www.timeout.com/prague/restaurants/best-restaurants-in-prague",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lehk%C3%A1+hlava+-+vegetarian+restaurant&query_place_id=ChIJXW2Mg--UC0cRm7smgk3t-aU",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Carta y fuente oficial, editorial y sucursal Maps contrastadas. No confirma disponibilidad futura.",
+      "priceLabel": "Principal carta 285-375 CZK · bebida aparte",
+      "photo": {
+        "img": "assets/prague/lehka.jpg",
+        "source": "https://www.flickr.com/photos/lara604/3685036328/",
+        "author": "Lara604",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Hummus ilustrativo de otro local, no es Lehká hlava ni su carta actual. Recorte de presentación."
+      }
+    },
+    {
+      "id": "sisters",
+      "name": "Sisters Bistro · Dlouhá",
+      "address": "39, Dlouhá 727, Staré Město, 110 00 Praha-Praha 1, Czechia",
+      "description": "Chlebíčky, pequeños bocados abiertos con distintos ingredientes, para una pausa ligera.",
+      "strength": "Formato checo frío distinto de una taberna; combinar varias piezas según hambre.",
+      "caution": "Sucursal Dlouhá 39, no confundir Spálená. Web ofrece piezas aprox. 53-65 CZK según receta consultada, surtido cambia. Consultar horario de tienda y alérgenos: pan, huevo, mayonesa, lácteos o carne según pieza. Foto de archivo tomada en Sisters, no oferta actual.",
+      "alert": "Sucursal Dlouhá 39, no confundir Spálená. Web ofrece piezas aprox. 53-65 CZK según receta consultada, surtido cambia. Consultar horario de tienda y alérgenos: pan, huevo, mayonesa, lácteos o carne según pieza. Foto de archivo tomada en Sisters, no oferta actual.",
+      "officialUrl": "https://www.sistersbistro.cz/en/",
+      "sourceUrls": [
+        "https://www.sistersbistro.cz/en/"
+      ],
+      "editorialUrl": "https://findingbeyond.com/best-places-to-eat-in-prague-head-to-dlouha-street/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sisters+Bistro+v+Dlouh%C3%A9&query_place_id=ChIJFdxr38GUC0cRBt4Vys9tIms",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Carta y fuente oficial, editorial y sucursal Maps contrastadas. No confirma disponibilidad futura.",
+      "priceLabel": "Piezas aprox. 53-65 CZK · comprobar surtido",
+      "photo": {
+        "img": "assets/prague/sisters.jpg",
+        "source": "https://www.flickr.com/photos/bexwalton/33498249913/",
+        "author": "Bex Walton",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Chlebíčky en Sisters, foto de archivo; no confirma surtido ni presentación actual. Recorte de presentación."
+      }
+    }
+  ],
+  "activities": []
+}

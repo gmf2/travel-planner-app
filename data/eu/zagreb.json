@@ -1,0 +1,1149 @@
+{
+  "schemaVersion": 1,
+  "country": "HR",
+  "id": "zagreb",
+  "name": "Zagreb",
+  "localName": "Zagreb",
+  "selectionReason": "Ampliación croata solicitada.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fechas, tercero opcional; sin reservas.",
+  "stops": [
+    {
+      "id": "dolac",
+      "name": "Dolac · empezar por el mercado",
+      "kind": "visit",
+      "zone": "Dolac / junto a Ban Jelačić",
+      "reason": "Ver puestos y comprar algo antes de las cuestas, con el mercado como vida cotidiana y no como museo nocturno.",
+      "sourceIds": [
+        "guide 1",
+        "market"
+      ],
+      "coordinates": {
+        "lat": 45.8139846,
+        "lon": 15.9775104
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Dolac+Market&query_place_id=ChIJM76k9P3WZUcRQCrOxerFPk4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Operador: zona abierta y pescado lun-vie 6:30-16, sáb 6:30-15, dom 6:30-14; nave 7-16,7-15,7-14. Comercios de la zona abierta tienen otra franja y cada puesto puede recoger antes. No se garantiza una compra concreta ni puesto fijo de una guía. No iniciar esta visita al atardecer.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/dolac.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/34401271881/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mercado público · mejor por la mañana"
+    },
+    {
+      "id": "cathedral",
+      "name": "Catedral y Kaptol · abierta con obras",
+      "kind": "visit",
+      "zone": "Kaptol",
+      "reason": "Acercarse a una catedral que vuelve a recibir visitas mientras se restaura por sectores, sin prometer el edificio acabado.",
+      "sourceIds": [
+        "cathedral",
+        "cathedralworks"
+      ],
+      "coordinates": {
+        "lat": 45.8146217,
+        "lon": 15.9794382
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Cathedral+of+Zagreb&query_place_id=ChIJHR3v-AHXZUcR-W1_Hi9RKzE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "La catedral y el arzobispado publican apertura diaria 8-19, misa domingo/festivo 10. Noticia propia: abierta desde 24/12/2025, con trabajos por sectores; pintura de nave norte prevista para comienzos de noviembre 2026, no terminación garantizada. No se conserva el cierre total de guías antiguas ni se promete acceso a todas las naves, tesoro o torre. Sin tarifa de visita publicada en las fuentes revisadas: no se inventa un combinado. Vestimenta y silencio de culto. Foto anterior a obras.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/cathedral.jpg",
+        "source": "https://www.flickr.com/photos/dariozadro/14500265189/",
+        "author": "Dario",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Catedral en archivo anterior al terremoto y las obras actuales; no refleja el estado de las torres hoy. Recorte de presentación."
+      },
+      "visitMode": "Interior religioso sujeto a culto y obras"
+    },
+    {
+      "id": "stone",
+      "name": "Puerta de Piedra · paso y recogimiento",
+      "kind": "visit",
+      "zone": "Radićeva / acceso a Gornji Grad",
+      "reason": "Subir por el barrio y pasar un espacio de oración activo, sin convertirlo en un decorado para posar.",
+      "sourceIds": [
+        "guide 1",
+        "guide 2"
+      ],
+      "coordinates": {
+        "lat": 45.81582239999999,
+        "lon": 15.9752866
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Stone+Gate+%7C+Zagreb&query_place_id=ChIJ6wIP6wLXZUcRc6jHggz9Vgg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Respetar a quienes rezan, no bloquear el paso ni fotografiarles de cerca. Escalones y pendiente en el acceso; no se da por resuelta la accesibilidad de todo el casco por una única puerta.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/stone.jpg",
+        "source": "https://www.flickr.com/photos/archer10/9314790767/",
+        "author": "Dennis Jarvis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paso peatonal y lugar religioso"
+    },
+    {
+      "id": "mark",
+      "name": "San Marcos · verlo desde el perímetro permitido",
+      "kind": "visit",
+      "zone": "Entorno de Trg Svetog Marka",
+      "reason": "Reconocer el tejado desde donde se permite pasar, sin una visita interior ni cruce de plaza que hoy no están garantizados.",
+      "sourceIds": [
+        "markguide",
+        "marknews"
+      ],
+      "coordinates": {
+        "lat": 45.816398,
+        "lon": 15.9736343
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=St.+Mark%E2%80%99s+Church&query_place_id=ChIJpe7-NB3XZUcRhluyxHW0U9o",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Información de agosto y prensa del 12/10/2026: plaza restringida por seguridad y obras del Parlamento. Se ven la iglesia y el entorno desde calles autorizadas, no se promete llegar al portal o cruzar el centro. No confundir horario parroquial con horario turístico ni usar culto para eludir controles. La fotografía es anterior a las restricciones.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/mark.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/34411766366/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "San Marcos en archivo anterior a las restricciones de plaza; no se promete este acceso ni punto de vista actual. Recorte de presentación."
+      },
+      "visitMode": "Exterior con restricciones"
+    },
+    {
+      "id": "broken",
+      "name": "Relaciones Rotas · el museo principal del casco",
+      "kind": "visit",
+      "zone": "Gornji Grad / Ćirilometodska 2",
+      "reason": "Leer historias y objetos de rupturas en una visita con tiempo, no coleccionar tres museos seguidos.",
+      "sourceIds": [
+        "broken"
+      ],
+      "coordinates": {
+        "lat": 45.8150082,
+        "lon": 15.973605
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Museum+of+Broken+Relationships&query_place_id=ChIJb1qoV_3WZUcRqGE4Q3JSbwg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 95,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 9€, reducida 7€ con condiciones. Página detallada: junio-septiembre 9-22, octubre-mayo 9-21, última entrada 30 min antes. Bloques secundarios discrepan entre las 9 y las 10 para apertura: entrar desde las 10 es conservador. Cerrado 24/12, 25/12, 01/01, Pascua y Todos los Santos (01/11); el 31/12 abre 10-18. Hay cuadernillos en español. Relatos sensibles, no una actividad infantil neutra. Grupos de 15 o más reservan con 7 días.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/broken.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/34358543385/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago · adulto 9€"
+    },
+    {
+      "id": "stross",
+      "name": "Strossmayer · paseo y bajada sin prisa",
+      "kind": "visit",
+      "zone": "Borde sur de Gornji Grad",
+      "reason": "Cerrar la parte alta con una vista y bajar para cenar, sin obligar a otra subida de torre.",
+      "sourceIds": [
+        "guide 1",
+        "funic",
+        "tower"
+      ],
+      "coordinates": {
+        "lat": 45.8145553,
+        "lon": 15.9730661
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Strossmayerovo+%C5%A1etali%C5%A1te&query_place_id=ChIJw5iNUf3WZUcRKeDDjFBcVhQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Funicular reabierto el 19/05/2026; ZET publica 0,66€ por trayecto, cada 10 min. Texto croata: 6:30-21:50; texto inglés: hasta las 22. Usar las 21:50 como límite conservador y confirmar última salida. Torre Lotrščak aparte, 3€; lunes cerrado, martes-viernes 9-20, sábado-domingo 11-20. Cerrada el 01 y 18/11/2026. No cañonazo garantizado por una hora escrita en una guía.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/stross.jpg",
+        "source": "https://www.flickr.com/photos/jlascar/13023474605/",
+        "author": "Jorge Láscar",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior · torre opcional aparte"
+    },
+    {
+      "id": "zrin",
+      "name": "Zrinjevac · salir del casco",
+      "kind": "visit",
+      "zone": "Ciudad baja / Zrinjevac",
+      "reason": "Pasear entre jardines y cafés de la herradura verde antes de elegir el interior del día.",
+      "sourceIds": [
+        "guide 1",
+        "guide 2"
+      ],
+      "coordinates": {
+        "lat": 45.8102943,
+        "lon": 15.9783105
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Zrinjevac+Park&query_place_id=ChIJb0U_xv7WZUcR9mxGoR4CquI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "No se garantizan conciertos ni puestos de Adviento fuera de programa fechado. Con mal tiempo se reduce el paseo, no se suma otro museo solo para completar horas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/zrin.jpg",
+        "source": "https://www.flickr.com/photos/m_p_king/41433052692/",
+        "author": "m_p_king",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Jardín público exterior"
+    },
+    {
+      "id": "arch",
+      "name": "Museo Arqueológico · una visita con tiempo",
+      "kind": "visit",
+      "zone": "Zrinjevac 19",
+      "reason": "Cambiar de registro con las colecciones arqueológicas en la ciudad baja, como interior principal del segundo día.",
+      "sourceIds": [
+        "arch",
+        "archfree",
+        "archcurrent"
+      ],
+      "coordinates": {
+        "lat": 45.8110891,
+        "lon": 15.9773069
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Arheolo%C5%A1ki+muzej+u+Zagrebu&query_place_id=ChIJUYfvnv7WZUcRKGeT0YFespo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 130,
+      "durationType": "editorial-estimate",
+      "caution": "Web actual: 8€, reducida 4€, martes-viernes 10-18, sábado 10-20, domingo 10-13. Lunes y festivos cerrado, última entrada 20 min antes. Primer domingo del mes gratuito según operador. Programa de septiembre de 2026 confirma exposición permanente; la portada aún conserva avisos de cierre de 2024, no son un cierre actual automático. Piezas y salas pueden variar, no se garantiza una pieza concreta. No confundir con Galería AMZ en Pavla Hatza 6 ni sus horarios.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/arch.jpg",
+        "source": "https://www.flickr.com/photos/129231073@N06/45466099942/",
+        "author": "Fred Romero",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago · adulto 8€"
+    },
+    {
+      "id": "tomislav",
+      "name": "Tomislav · plazas y pausa larga",
+      "kind": "visit",
+      "zone": "Ciudad baja / Tomislavov trg",
+      "reason": "Un tramo de jardín y descanso junto al pabellón, sin vender cada edificio como otra entrada obligatoria.",
+      "sourceIds": [
+        "guide 2",
+        "botanic"
+      ],
+      "coordinates": {
+        "lat": 45.8065479,
+        "lon": 15.9786702
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Trg+Kralja+Tomislava&query_place_id=ChIJdQJAUPjWZUcRlzOXEYN5AHM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Pabellón de Arte solo exterior en este plan; no se promete interior abierto a partir de fotos de archivo. Botánico no es sustituto invernal garantizado: cierre de reposo estacional y calendario propio; no se fija fecha 2026 a partir de aviso 2025.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/tomislav.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/34145737960/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza y jardín exteriores"
+    },
+    {
+      "id": "theatre",
+      "name": "Teatro Nacional · el oeste de la herradura",
+      "kind": "visit",
+      "zone": "Trg Republike Hrvatske",
+      "reason": "Acabar el paseo de la ciudad baja mirando el teatro y dejando margen para una comida de barrio.",
+      "sourceIds": [
+        "guide 1",
+        "guide 2"
+      ],
+      "coordinates": {
+        "lat": 45.8093983,
+        "lon": 15.9700411
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Croatian+National+Theatre&query_place_id=ChIJp5AjU_vWZUcRIronALJH5p4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "No entrada al auditorio incluida, función ni visita guiada reservadas. El antiguo Mimara y otros museos en reforma no se añaden por itinerarios que los muestran abiertos sin comprobar.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/theatre.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/33643239283/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior · función solo con entrada aparte"
+    },
+    {
+      "id": "mirogoj",
+      "name": "Mirogoj · visita respetuosa y limitada",
+      "kind": "visit",
+      "zone": "Norte / cementerio Mirogoj",
+      "reason": "Elegir un paseo de memoria si interesa la arquitectura, sin describirlo como un parque de ocio ni prometer todas las arcadas.",
+      "sourceIds": [
+        "cemetery",
+        "cemeteryworks",
+        "guide 2"
+      ],
+      "coordinates": {
+        "lat": 45.8358759,
+        "lon": 15.9869048
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Mirogoj+cemetery&query_place_id=ChIJAX_thm3XZUcR6fAI5v3Y14k",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 140,
+      "durationType": "editorial-estimate",
+      "caution": "Operador: del 01/04 al 30/10, 6-20; del 03/11 al 31/03, 7:30-18; el 31/10 y 01-02/11, 6-24. Aviso del 23/10/2026: retirada de raíces por temporal de marzo prevista hasta finales de noviembre, además de obras de caminos e infraestructura. No se garantiza pasar todas las arcadas. Obedecer vallados y respetar funerales. Maps: Kaptol-Mirogoj 12 min en transporte para consulta del 30/10/2026 a las 10, no horario anual; reservar espera y vuelta. Bus 106 figura en operador, recorrido actual sujeto a cambios.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/mirogoj.jpg",
+        "source": "https://www.flickr.com/photos/markomaras/8774837827/",
+        "author": "Marko Maras",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Mirogoj en archivo anterior a daños y obras de 2026; no todas las arcadas ni caminos tienen acceso garantizado. Recorte de presentación."
+      },
+      "visitMode": "Cementerio activo · tercer día opcional"
+    },
+    {
+      "id": "maksimir",
+      "name": "Maksimir · verde a otro ritmo",
+      "kind": "visit",
+      "zone": "Este / parque Maksimir",
+      "reason": "Una tarde entre caminos y lagos si se desea una tercera jornada tranquila, en vez de añadir montaña, Jarun e islas imaginarias al día.",
+      "sourceIds": [
+        "park",
+        "guide 1"
+      ],
+      "coordinates": {
+        "lat": 45.8243596,
+        "lon": 16.0176259
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Park+Maksimir&query_place_id=ChIJz7l8terXZUcR_k-oDwggPNc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 170,
+      "durationType": "editorial-estimate",
+      "caution": "Operador: entrada libre, parque 0-24; oficina 8-16 no es horario del parque. Plan de día por luz y tiempo, no paseo nocturno obligatorio. No alimentar fauna ni entrar en caminos vallados. Zoo y servicios tienen entradas y horarios propios. Desde Ban Jelačić, Maps da 25 min en transporte para el 30/10/2026 a las 10. Desde Mirogoj, 45 min y 3,6 km andando, no 25 min de paseo desde el casco. Escoger solo uno si falta energía.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zagreb/maksimir.jpg",
+        "source": "https://www.flickr.com/photos/ivan_zg/30480058661/",
+        "author": "ivan_m_zg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Parque gratuito · visita opcional de día"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Mercado, catedral y la parte alta",
+          "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+          "stopIds": [
+            "dolac",
+            "cathedral",
+            "stone",
+            "mark",
+            "broken",
+            "stross"
+          ],
+          "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Mercado, catedral y la parte alta",
+          "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+          "stopIds": [
+            "dolac",
+            "cathedral",
+            "stone",
+            "mark",
+            "broken",
+            "stross"
+          ],
+          "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+        },
+        {
+          "title": "Ciudad baja, arqueología y jardines",
+          "zone": "Zrinjevac → Arqueológico → Tomislav → Teatro Nacional",
+          "stopIds": [
+            "zrin",
+            "arch",
+            "tomislav",
+            "theatre"
+          ],
+          "editorialNote": "Un único museo principal, con paseo y comida. Lunes o festivo invertir las jornadas o mantener solo exteriores, no prometer otro museo abierto sin contrastarlo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 hcon comida y pausas. Domingo el Arqueológico cierra 13: entrar primero en el museo, después jardines. Botánico no obligatorio ni abierto todo invierno."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Mercado, catedral y la parte alta",
+          "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+          "stopIds": [
+            "dolac",
+            "cathedral",
+            "stone",
+            "mark",
+            "broken",
+            "stross"
+          ],
+          "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+        },
+        {
+          "title": "Ciudad baja, arqueología y jardines",
+          "zone": "Zrinjevac → Arqueológico → Tomislav → Teatro Nacional",
+          "stopIds": [
+            "zrin",
+            "arch",
+            "tomislav",
+            "theatre"
+          ],
+          "editorialNote": "Un único museo principal, con paseo y comida. Lunes o festivo invertir las jornadas o mantener solo exteriores, no prometer otro museo abierto sin contrastarlo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 hcon comida y pausas. Domingo el Arqueológico cierra 13: entrar primero en el museo, después jardines. Botánico no obligatorio ni abierto todo invierno."
+        },
+        {
+          "title": "Memoria y verde, un tercer día opcional",
+          "zone": "Mirogoj → descanso / traslado → Maksimir",
+          "stopIds": [
+            "mirogoj",
+            "maksimir"
+          ],
+          "editorialNote": "No es necesario para completar el casco. Se puede elegir solo cementerio o parque. No juntar también Jarun, Sljeme y una excursión regional por cuota.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 hcon traslado, comida y margen. Mirogoj-Maksimir son 3,6 km/45 min a pie, no dos paradas contiguas. Reservar transporte si no se quiere esa caminata; no tiempo de bus fijo prometido."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Mercado temprano y sombra al mediodía. Relaciones Rotas 9-22 con última 21:30. Jardines y cementerio sin picnic ni baño prometidos.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Relaciones Rotas hasta 21, última 20:30; bloques propios discrepan 9/10 para apertura, ir desde 10. Mirogoj 7:30-18 desde 03/11. Botánico en reposo estacional, no parada base. Reducir Maksimir por luz y tiempo.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Relaciones Rotas cierra 24/12,25/12 y 01/01;31/12 de 10-18. Arqueológico lunes/festivos cerrado. No se garantiza mercado/fiesta de Adviento a partir de fotos ni programa de otro año.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Relaciones Rotas cerrado 01/11 y Pascua. Mirogoj 31/10 y 01-02/11 abre 6-24 pero es fecha de recuerdo, no turismo nocturno recomendado. Obras y raíces de temporal previstas hasta noviembre 2026. Funicular sí reabrió en mayo 2026.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Obras del terremoto y temporal siguen afectando recorridos; no cerrar por defecto todos los monumentos ni prometer todo restaurado.",
+    "San Marcos: acceso por perímetro permitido, no cruce libre de plaza.",
+    "Sin entradas ni reservas realizadas; tarifas y servicios deben comprobarse para fecha futura."
+  ],
+  "excludedOrOptional": [
+    "Mimara y Pabellón de Arte no se venden como interiores abiertos sin verificar.",
+    "El Museo Naíf es una alternativa cultural: su sede actual publica horario, pero no se añade como segundo museo obligatorio ni se anticipa traslado a la sede futura.",
+    "Plitvice merece logística propia y reemplaza una jornada, no se suma a Mirogoj, Maksimir y Sljeme.",
+    "Se descarta una guía que coloca Gripe y vistas al puerto en Zagreb: corresponden a otra ciudad."
+  ],
+  "sources": [
+    {
+      "id": "guide 1",
+      "title": "Footsie: guía local 3 días y opciones",
+      "url": "https://footsiezagreb.com/3-days-in-zagreb/",
+      "type": "local-commercial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide 2",
+      "title": "TurismoZagreb: historia tres días",
+      "url": "https://www.infozagreb.hr/en/about-zagreb/65ba23f922471",
+      "type": "official-tourism-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide 3",
+      "title": "Kroatien: Zagreb 2026",
+      "url": "https://www.kroatien.de/reiseziele/zagreb/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "InspiredbyCroatia: mesas 2026",
+      "url": "https://www.inspiredbycroatia.com/blog/best-zagreb-restaurants/",
+      "type": "local-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "strukcritic",
+      "title": "GaultMillau: La Štruk 2026",
+      "url": "https://hr.gaultmillau.com/en/restaurants/la-struk",
+      "type": "restaurant-critic",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "struk",
+      "title": "La Štruk: carta y reservas",
+      "url": "https://lastruk.com/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "strukbooking",
+      "title": "La Štruk: horariosTablein",
+      "url": "https://la-struk.tablein.com/en",
+      "type": "booking-platform",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "melt",
+      "title": "Melt: dirección y horarios",
+      "url": "https://meltzagreb.com/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "meltmenu",
+      "title": "Melt: carta visual",
+      "url": "https://meltzagreb.com/pages/menu",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "meltcritic",
+      "title": "Dobra Hrana: sándwiches 23/10/2026",
+      "url": "https://www.jutarnji.hr/dobrahrana/vodici/gdje-u-zagrebu-pojesti-dobar-sendvic-od-novih-mjesta-do-dobro-poznatih-favorita-15758291",
+      "type": "local-food-critic",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "market",
+      "title": "MercadoDolac: zonas y horarios",
+      "url": "https://www.trznice-zg.hr/default.aspx?id=298",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cathedral",
+      "title": "Catedral: horario actual",
+      "url": "https://www.katedrala.hr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cathedralworks",
+      "title": "Catedral: obras por sectores 2026",
+      "url": "https://katedrala.hr/hr/obnova-katedrale-ispod-zvjezdanog-svoda-sjeverne-ladje/1008",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "markguide",
+      "title": "San Marcos: accesoagosto 2026",
+      "url": "https://www.absolute-croatia.com/zagreb/attractions/st-mark-church",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "marknews",
+      "title": "Index: plaza restringida 12/10/2026",
+      "url": "https://www.index.hr/vijesti/clanak/markov-trg-zatvoren-je-vec-sest-godina-postojala-su-neka-rjesenja/2844776.aspx",
+      "type": "local-news",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "broken",
+      "title": "Relaciones Rotas: horario/precio/cierres",
+      "url": "https://brokenships.com/visit/museum-details/zagreb",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "funic",
+      "title": "ZET: funicular reabierto y tarifa",
+      "url": "https://www.zet.hr/uspinjaca/detaljnije/403",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "tower",
+      "title": "Lotrščak:3€ y festivos 2026",
+      "url": "https://gkd.hr/en/stronglotrscak-tower-strong/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "arch",
+      "title": "Arqueológico:8€ yhorarios",
+      "url": "https://amz.hr/en/visit/archaeological-museum-in-zagreb/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "archfree",
+      "title": "Arqueológico: admisión gratuita",
+      "url": "https://www.amz.hr/en/visit/archaeological-museum-in-zagreb/free-admission-to-the-archeological-museum-in-zagreb/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "archcurrent",
+      "title": "ProgramaMuseos: permanente septiembre 2026",
+      "url": "https://zg-muv.hr/en/program/permanent-exhibition-of-the-archaeological-museum-in-zagreb/",
+      "type": "official-cultural-program",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cemetery",
+      "title": "Mirogoj: horarios y transporte",
+      "url": "https://www.gradskagroblja.hr/mirogoj-430/430",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cemeteryworks",
+      "title": "Holding: obras 23/10/2026",
+      "url": "https://www.zgh.hr/aktualnosti-10/novosti-170/sanacija-mirogoja-usla-u-zavrsnu-fazu/12530",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "park",
+      "title": "Maksimir: FAQhorarios/gratuidad",
+      "url": "https://park-maksimir.hr/faq/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "botanic",
+      "title": "Botánico: temporada y avisos",
+      "url": "https://botanickivrt.biol.pmf.hr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Mercado, catedral y la parte alta",
+            "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+            "stopIds": [
+              "dolac",
+              "cathedral",
+              "stone",
+              "mark",
+              "broken",
+              "stross"
+            ],
+            "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Mercado, catedral y la parte alta",
+            "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+            "stopIds": [
+              "dolac",
+              "cathedral",
+              "stone",
+              "mark",
+              "broken",
+              "stross"
+            ],
+            "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+          },
+          {
+            "title": "Ciudad baja, arqueología y jardines",
+            "zone": "Zrinjevac → Arqueológico → Tomislav → Teatro Nacional",
+            "stopIds": [
+              "zrin",
+              "arch",
+              "tomislav",
+              "theatre"
+            ],
+            "editorialNote": "Un único museo principal, con paseo y comida. Lunes o festivo invertir las jornadas o mantener solo exteriores, no prometer otro museo abierto sin contrastarlo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Domingo el Arqueológico cierra 13: entrar primero en el museo, después jardines. Botánico no obligatorio ni abierto todo invierno."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Mercado, catedral y la parte alta",
+            "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+            "stopIds": [
+              "dolac",
+              "cathedral",
+              "stone",
+              "mark",
+              "broken",
+              "stross"
+            ],
+            "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+          },
+          {
+            "title": "Ciudad baja, arqueología y jardines",
+            "zone": "Zrinjevac → Arqueológico → Tomislav → Teatro Nacional",
+            "stopIds": [
+              "zrin",
+              "arch",
+              "tomislav",
+              "theatre"
+            ],
+            "editorialNote": "Un único museo principal, con paseo y comida. Lunes o festivo invertir las jornadas o mantener solo exteriores, no prometer otro museo abierto sin contrastarlo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Domingo el Arqueológico cierra 13: entrar primero en el museo, después jardines. Botánico no obligatorio ni abierto todo invierno."
+          },
+          {
+            "title": "Memoria y verde, un tercer día opcional",
+            "zone": "Mirogoj → descanso / traslado → Maksimir",
+            "stopIds": [
+              "mirogoj",
+              "maksimir"
+            ],
+            "editorialNote": "No es necesario para completar el casco. Se puede elegir solo cementerio o parque. No juntar también Jarun, Sljeme y una excursión regional por cuota.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon traslado, comida y margen. Mirogoj-Maksimir son 3,6 km/45 min a pie, no dos paradas contiguas. Reservar transporte si no se quiere esa caminata; no tiempo de bus fijo prometido."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Mercado, catedral y la parte alta",
+            "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+            "stopIds": [
+              "dolac",
+              "cathedral",
+              "stone",
+              "mark",
+              "broken",
+              "stross"
+            ],
+            "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Mercado, catedral y la parte alta",
+            "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+            "stopIds": [
+              "dolac",
+              "cathedral",
+              "stone",
+              "mark",
+              "broken",
+              "stross"
+            ],
+            "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+          },
+          {
+            "title": "Ciudad baja, arqueología y jardines",
+            "zone": "Zrinjevac → Arqueológico → Tomislav → Teatro Nacional",
+            "stopIds": [
+              "zrin",
+              "arch",
+              "tomislav",
+              "theatre"
+            ],
+            "editorialNote": "Un único museo principal, con paseo y comida. Lunes o festivo invertir las jornadas o mantener solo exteriores, no prometer otro museo abierto sin contrastarlo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Domingo el Arqueológico cierra 13: entrar primero en el museo, después jardines. Botánico no obligatorio ni abierto todo invierno."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Mercado, catedral y la parte alta",
+            "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+            "stopIds": [
+              "dolac",
+              "cathedral",
+              "stone",
+              "mark",
+              "broken",
+              "stross"
+            ],
+            "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+          },
+          {
+            "title": "Ciudad baja, arqueología y jardines",
+            "zone": "Zrinjevac → Arqueológico → Tomislav → Teatro Nacional",
+            "stopIds": [
+              "zrin",
+              "arch",
+              "tomislav",
+              "theatre"
+            ],
+            "editorialNote": "Un único museo principal, con paseo y comida. Lunes o festivo invertir las jornadas o mantener solo exteriores, no prometer otro museo abierto sin contrastarlo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Domingo el Arqueológico cierra 13: entrar primero en el museo, después jardines. Botánico no obligatorio ni abierto todo invierno."
+          },
+          {
+            "title": "Memoria y verde, un tercer día opcional",
+            "zone": "Mirogoj → descanso / traslado → Maksimir",
+            "stopIds": [
+              "mirogoj",
+              "maksimir"
+            ],
+            "editorialNote": "No es necesario para completar el casco. Se puede elegir solo cementerio o parque. No juntar también Jarun, Sljeme y una excursión regional por cuota.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon traslado, comida y margen. Mirogoj-Maksimir son 3,6 km/45 min a pie, no dos paradas contiguas. Reservar transporte si no se quiere esa caminata; no tiempo de bus fijo prometido."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Mercado, catedral y la parte alta",
+            "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+            "stopIds": [
+              "dolac",
+              "cathedral",
+              "stone",
+              "mark",
+              "broken",
+              "stross"
+            ],
+            "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Mercado, catedral y la parte alta",
+            "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+            "stopIds": [
+              "dolac",
+              "cathedral",
+              "stone",
+              "mark",
+              "broken",
+              "stross"
+            ],
+            "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+          },
+          {
+            "title": "Ciudad baja, arqueología y jardines",
+            "zone": "Zrinjevac → Arqueológico → Tomislav → Teatro Nacional",
+            "stopIds": [
+              "zrin",
+              "arch",
+              "tomislav",
+              "theatre"
+            ],
+            "editorialNote": "Un único museo principal, con paseo y comida. Lunes o festivo invertir las jornadas o mantener solo exteriores, no prometer otro museo abierto sin contrastarlo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Domingo el Arqueológico cierra 13: entrar primero en el museo, después jardines. Botánico no obligatorio ni abierto todo invierno."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Mercado, catedral y la parte alta",
+            "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+            "stopIds": [
+              "dolac",
+              "cathedral",
+              "stone",
+              "mark",
+              "broken",
+              "stross"
+            ],
+            "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+          },
+          {
+            "title": "Ciudad baja, arqueología y jardines",
+            "zone": "Zrinjevac → Arqueológico → Tomislav → Teatro Nacional",
+            "stopIds": [
+              "zrin",
+              "arch",
+              "tomislav",
+              "theatre"
+            ],
+            "editorialNote": "Un único museo principal, con paseo y comida. Lunes o festivo invertir las jornadas o mantener solo exteriores, no prometer otro museo abierto sin contrastarlo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Domingo el Arqueológico cierra 13: entrar primero en el museo, después jardines. Botánico no obligatorio ni abierto todo invierno."
+          },
+          {
+            "title": "Memoria y verde, un tercer día opcional",
+            "zone": "Mirogoj → descanso / traslado → Maksimir",
+            "stopIds": [
+              "mirogoj",
+              "maksimir"
+            ],
+            "editorialNote": "No es necesario para completar el casco. Se puede elegir solo cementerio o parque. No juntar también Jarun, Sljeme y una excursión regional por cuota.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon traslado, comida y margen. Mirogoj-Maksimir son 3,6 km/45 min a pie, no dos paradas contiguas. Reservar transporte si no se quiere esa caminata; no tiempo de bus fijo prometido."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Mercado, catedral y la parte alta",
+            "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+            "stopIds": [
+              "dolac",
+              "cathedral",
+              "stone",
+              "mark",
+              "broken",
+              "stross"
+            ],
+            "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Mercado, catedral y la parte alta",
+            "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+            "stopIds": [
+              "dolac",
+              "cathedral",
+              "stone",
+              "mark",
+              "broken",
+              "stross"
+            ],
+            "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+          },
+          {
+            "title": "Ciudad baja, arqueología y jardines",
+            "zone": "Zrinjevac → Arqueológico → Tomislav → Teatro Nacional",
+            "stopIds": [
+              "zrin",
+              "arch",
+              "tomislav",
+              "theatre"
+            ],
+            "editorialNote": "Un único museo principal, con paseo y comida. Lunes o festivo invertir las jornadas o mantener solo exteriores, no prometer otro museo abierto sin contrastarlo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Domingo el Arqueológico cierra 13: entrar primero en el museo, después jardines. Botánico no obligatorio ni abierto todo invierno."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Mercado, catedral y la parte alta",
+            "zone": "Dolac → Kaptol → Puerta de Piedra → San Marcos → Relaciones Rotas → Strossmayer",
+            "stopIds": [
+              "dolac",
+              "cathedral",
+              "stone",
+              "mark",
+              "broken",
+              "stross"
+            ],
+            "editorialNote": "Empezar en el mercado por la mañana. Un museo fuerte y catedral breve, no torre, museo naíf y varias iglesias obligatorias. San Marcos se ve desde el perímetro permitido.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 hcon comida y cafés; se puede acortar Kaptol o el paseo. La plaza de San Marcos no tiene cruce turístico libre garantizado; no meter después una salida a Mirogoj."
+          },
+          {
+            "title": "Ciudad baja, arqueología y jardines",
+            "zone": "Zrinjevac → Arqueológico → Tomislav → Teatro Nacional",
+            "stopIds": [
+              "zrin",
+              "arch",
+              "tomislav",
+              "theatre"
+            ],
+            "editorialNote": "Un único museo principal, con paseo y comida. Lunes o festivo invertir las jornadas o mantener solo exteriores, no prometer otro museo abierto sin contrastarlo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Domingo el Arqueológico cierra 13: entrar primero en el museo, después jardines. Botánico no obligatorio ni abierto todo invierno."
+          },
+          {
+            "title": "Memoria y verde, un tercer día opcional",
+            "zone": "Mirogoj → descanso / traslado → Maksimir",
+            "stopIds": [
+              "mirogoj",
+              "maksimir"
+            ],
+            "editorialNote": "No es necesario para completar el casco. Se puede elegir solo cementerio o parque. No juntar también Jarun, Sljeme y una excursión regional por cuota.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon traslado, comida y margen. Mirogoj-Maksimir son 3,6 km/45 min a pie, no dos paradas contiguas. Reservar transporte si no se quiere esa caminata; no tiempo de bus fijo prometido."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Guías local, turística y regional antes de operadores y Maps.",
+    "Catedral abierta por sectores; funicular reabierto el 19/05/2026.",
+    "San Marcos restringido y Mirogoj con obras, con horarios y límites propios.",
+    "14 fotos CC verificadas; imágenes antiguas y comida ajena rotuladas."
+  ],
+  "editorialTradeoffs": [
+    "Casco con un museo principal; arqueología otro día, parques sin cuota.",
+    "Tercero opcional y traslado real, no cuatro periferias en un día."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Footsie orienta estructura; Turismo aporta barrios pero contiene cierres antiguos de Medvedgrad que no se copian. Kroatien aporta cambios de 2026. Fuentes propias corrigen catedral, funicular, precios y festivos. GaultMillau e InspiredbyCroatia apoyan La Štruk; Dobra Hrana y la web propia de Melt corrigen dirección y oferta."
+}

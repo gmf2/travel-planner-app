@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "cityId": "venice",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "schiavi",
+      "name": "Cantine del Vino già Schiavi",
+      "address": "Fondamenta Nani, 992, 30123 Venezia VE, Italy",
+      "description": "Cicchetti junto a San Trovaso para una pausa salada, no un tour de bares obligatorio.",
+      "strength": "Bocados de mostrador y vino opcional; preguntar por opciones de verdura y alérgenos.",
+      "caution": "Web propia lun-sáb 8:30-20:30, domingo cerrado. Carta/precios por pieza no verificados, mirar antes de pedir. No garantiza sitio sentado ni opciones veganas.",
+      "alert": "Web propia lun-sáb 8:30-20:30, domingo cerrado. Carta/precios por pieza no verificados, mirar antes de pedir. No garantiza sitio sentado ni opciones veganas.",
+      "priceLabel": "Bacaro · confirmar precio por pieza",
+      "photo": {
+        "img": "assets/venice/schiavi.jpg",
+        "source": "https://www.flickr.com/photos/sackton/6709480031/",
+        "author": "Tim Sackton",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Fachada real de Cantine del Vino già Schiavi; archivo, no apertura garantizada. Recorte de presentación."
+      },
+      "officialUrl": "https://www.cantinaschiavi.com/en/",
+      "sourceUrls": [
+        "https://www.cantinaschiavi.com/en/"
+      ],
+      "editorialUrl": "https://www.gamberorosso.it/notizie/rubriche/itinerari/venezia-migliori-cicchetti-bacari/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cantine+del+Vino+gi%C3%A0+Schiavi&query_place_id=ChIJ1cr93M2xfkcRSIXXQKsP8Jw",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y formato contrastados; no acredita mesa ni horario futuro."
+    },
+    {
+      "id": "zucca",
+      "name": "Osteria La Zucca",
+      "address": "C. del Tentor, 1762, 30135 Venezia VE, Italy",
+      "description": "Comida sentada en Santa Croce, cerca del paso de Rialto hacia Cannaregio.",
+      "strength": "Cocina de verduras de temporada, flan de calabaza, lasaña vegetal según carta diaria; no es restaurante vegetariano exclusivo.",
+      "caution": "Web propia lun-sáb 12:30-14:30/19-22:30, domingo cerrado. Local pequeño, consultar reserva y menú diario. Hay carne; guarniciones vegetarianas y algunas veganas, no todo vegano. Precio actual no verificado.",
+      "alert": "Web propia lun-sáb 12:30-14:30/19-22:30, domingo cerrado. Local pequeño, consultar reserva y menú diario. Hay carne; guarniciones vegetarianas y algunas veganas, no todo vegano. Precio actual no verificado.",
+      "priceLabel": "Restaurante · consultar menú diario",
+      "photo": {
+        "img": "assets/venice/zucca.jpg",
+        "source": "https://www.flickr.com/photos/jonolist/2908856673/",
+        "author": "Jonathan Lin",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Lasaña vegetariana ilustrativa de otro establecimiento, no La Zucca ni su carta del día. Recorte de presentación."
+      },
+      "officialUrl": "https://www.lazucca.it/en/",
+      "sourceUrls": [
+        "https://www.lazucca.it/en/"
+      ],
+      "editorialUrl": "https://www.eatmycritique.com/foodreviews/lazucca",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Zucca&query_place_id=ChIJbbpkq6nCe0cRZWSKwGtaqiU",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y formato contrastados; no acredita mesa ni horario futuro."
+    },
+    {
+      "id": "tonolo",
+      "name": "Pasticceria Tonolo · San Pantalon",
+      "address": "Calle S. Pantalon, 3764, 30123 Venezia VE, Italy",
+      "description": "Café y pieza de pastelería en Dorsoduro como desayuno o merienda.",
+      "strength": "Krapfen, hojaldres y dulces de tradición; frittelle sólo cuando disponibles, no todo el año prometidas.",
+      "caution": "Gambero Rosso 2022 y Dissapore listan lunes cerrado y domingo sólo mañana, no horario actual confirmado: consultar antes de desviarse. No confundir web de Mirano con esta sede. Precios no verificados. Lácteos, huevo, gluten o alcohol según pieza.",
+      "alert": "Gambero Rosso 2022 y Dissapore listan lunes cerrado y domingo sólo mañana, no horario actual confirmado: consultar antes de desviarse. No confundir web de Mirano con esta sede. Precios no verificados. Lácteos, huevo, gluten o alcohol según pieza.",
+      "priceLabel": "Pastelería · consultar vitrina",
+      "photo": {
+        "img": "assets/venice/tonolo.jpg",
+        "source": "https://www.flickr.com/photos/pausetowonder/7829803166/",
+        "author": "me .",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Pastelería ilustrativa de otro establecimiento de Venecia, no Tonolo ni su vitrina actual. Recorte de presentación."
+      },
+      "officialUrl": null,
+      "sourceUrls": [
+        "https://www.gamberorossointernational.com/restaurants/restaurant/tonolo/"
+      ],
+      "editorialUrl": "https://www.dissapore.com/locali/schede-locali/pasticceria-tonolo-a-venezia/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pasticceria+Tonolo&query_place_id=ChIJycadUM-xfkcRq6u1DF0Z7LY",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y formato contrastados; no acredita mesa ni horario futuro."
+    }
+  ],
+  "activities": []
+}

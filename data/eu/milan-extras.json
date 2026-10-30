@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "cityId": "milan",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "luini",
+      "name": "Luini · panzerotti",
+      "address": "Via Santa Radegonda, 16, 20121 Milano MI, Italy",
+      "description": "Una pausa rápida de panzerotti junto al Duomo, de raíz pugliese y arraigo milanés.",
+      "strength": "Tomate y mozzarella; elegir relleno del día según vitrina, sin sentarse a una comida larga.",
+      "caution": "Lun-sáb 10-20 según web; domingos y aperturas especiales confirmar. Precio vigente no publicado en texto oficial, no inventar 2-3€. Cola posible, comida para llevar, no reservar mesa ni garantizar opción vegana. Foto fachada real de archivo.",
+      "alert": "Lun-sáb 10-20 según web; domingos y aperturas especiales confirmar. Precio vigente no publicado en texto oficial, no inventar 2-3€. Cola posible, comida para llevar, no reservar mesa ni garantizar opción vegana. Foto fachada real de archivo.",
+      "priceLabel": "Bocado económico · precio actual por confirmar",
+      "photo": {
+        "img": "assets/milan/luini.jpg",
+        "source": "https://www.flickr.com/photos/40385177@N07/14008525316/",
+        "author": "cristina.sanvito",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "officialUrl": "https://www.luini.it/eng/storia.html",
+      "sourceIds": [
+        "luini",
+        "luinicritic"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Panzerotti+Luini&query_place_id=ChIJoUEJQq7GhkcRI153LB6-eXY",
+      "coordinates": {
+        "lat": 45.46582859999999,
+        "lng": 9.1915578
+      },
+      "sourceUrls": [
+        "https://www.luini.it/eng/storia.html",
+        "https://www.lacucinaitaliana.it/storie/piatti-tipici/panzerotti-luini/"
+      ],
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede/carta contrastadas, sin reserva ni apertura futura garantizadas.",
+      "type": "food",
+      "zone": "Centro"
+    },
+    {
+      "id": "matarel",
+      "name": "Al Matarel · cocina milanesa",
+      "address": "Via Laura Solera Mantegazza, 5, 20121 Milano MI, Italy",
+      "description": "Mesa tradicional cerca de Brera/Garibaldi para un plato lombardo con tiempo, en vez de otra pizza genérica.",
+      "strength": "Ossobuco en gremolada con risotto o polenta; carta de cassoeula y cocina milanesa según temporada.",
+      "caution": "Carta oficial sin precios: consultar total, no venderlo como barato. Crítica discrepa sobre regularidad, elegida por repertorio y ossobuco, no mejor risotto garantizado. Martes cerrado, miércoles solo cena. Cocina lun/jue 12:15-14:15/19:15-22:15, vie-sáb hasta 22:30, dom 12:15-14:30/19:15-22. Web da Corso Garibaldi 75 como contacto legal, Maps y crítica sitúan puerta Via Laura Solera Mantegazza 5: confirmar entrada al reservar. Foto de risotto ilustrativa, no local.",
+      "alert": "Carta oficial sin precios: consultar total, no venderlo como barato. Crítica discrepa sobre regularidad, elegida por repertorio y ossobuco, no mejor risotto garantizado. Martes cerrado, miércoles solo cena. Cocina lun/jue 12:15-14:15/19:15-22:15, vie-sáb hasta 22:30, dom 12:15-14:30/19:15-22. Web da Corso Garibaldi 75 como contacto legal, Maps y crítica sitúan puerta Via Laura Solera Mantegazza 5: confirmar entrada al reservar. Foto de risotto ilustrativa, no local.",
+      "priceLabel": "Mesa tradicional · total por confirmar",
+      "photo": {
+        "img": "assets/milan/matarel.jpg",
+        "source": "https://www.flickr.com/photos/iz4aks/5515171837/",
+        "author": "Giorgio Minguzzi",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Risotto al azafrán ilustrativo de otro autor/lugar, no Al Matarel ni plato de su carta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.almatarel.it/menu/",
+      "sourceIds": [
+        "matarel",
+        "matarelhours",
+        "matarelcritic",
+        "matarelcritic2"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Al+Matarel&query_place_id=ChIJZV37NUrBhkcRTnFQsSpGs4M",
+      "coordinates": {
+        "lat": 45.4756174,
+        "lng": 9.1832275
+      },
+      "sourceUrls": [
+        "https://www.almatarel.it/menu/",
+        "https://www.almatarel.it/contatti/",
+        "https://www.dissapore.com/trattorie/al-matarel-a-milano-recensione-i-pro-e-contro-di-una-vera-trattoria-tradizionale/",
+        "https://www.theinfatuation.com/milan/reviews/al-matarel"
+      ],
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede/carta contrastadas, sin reserva ni apertura futura garantizadas.",
+      "type": "food",
+      "zone": "Brera / Garibaldi"
+    },
+    {
+      "id": "radice",
+      "name": "Radicetonda · Spallanzani",
+      "address": "Via Lazzaro Spallanzani, 16, 20129 Milano MI, Italy",
+      "description": "Opción vegetal de platos del día en Porta Venezia, útil si se busca una pausa más ligera fuera del circuito de carne.",
+      "strength": "Plato combinado de cereales, legumbres y verduras, sopa o burger vegetal; propuesta diaria cambia.",
+      "caution": "Sede Via Spallanzani 16, NO Buozzi 5. Desvío aparte al este: no almuerzo junto al castillo. Carta sin precios visibles, confirmar total. Web italiana avisa horarios en actualización, inglés da 22:30 y otra página 23:00: no garantizar cena tardía. Cocina vegana no equivale a libre de gluten ni de alérgenos, preguntar ingredientes. Foto vegetal de otro local.",
+      "alert": "Sede Via Spallanzani 16, NO Buozzi 5. Desvío aparte al este: no almuerzo junto al castillo. Carta sin precios visibles, confirmar total. Web italiana avisa horarios en actualización, inglés da 22:30 y otra página 23:00: no garantizar cena tardía. Cocina vegana no equivale a libre de gluten ni de alérgenos, preguntar ingredientes. Foto vegetal de otro local.",
+      "priceLabel": "Vegetal · precio actual por confirmar",
+      "photo": {
+        "img": "assets/milan/radice.jpg",
+        "source": "https://www.flickr.com/photos/ellaolsson/42231145040/",
+        "author": "Ella Olsson",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Platos vegetales ilustrativos de otro establecimiento, no Radicetonda ni su carta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.radicetonda.it/cucina-vegana-milano?menu=menu",
+      "sourceIds": [
+        "radice",
+        "radicemenu",
+        "radicehours"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Radicetonda&query_place_id=ChIJ9dIOhsDGhkcRpg6NYB8fArE",
+      "coordinates": {
+        "lat": 45.475953,
+        "lng": 9.207459
+      },
+      "sourceUrls": [
+        "https://www.radicetonda.it/",
+        "https://www.radicetonda.it/cucina-vegana-milano?menu=menu",
+        "https://www.radicetonda.it/home-en"
+      ],
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede/carta contrastadas, sin reserva ni apertura futura garantizadas.",
+      "type": "food",
+      "zone": "Porta Venezia"
+    }
+  ],
+  "activities": []
+}

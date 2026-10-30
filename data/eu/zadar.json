@@ -1,0 +1,1157 @@
+{
+  "schemaVersion": 1,
+  "country": "HR",
+  "id": "zadar",
+  "name": "Zadar",
+  "localName": "Zadar",
+  "selectionReason": "Ampliación croata solicitada.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fecha; tercero opcional, no entradas reservadas.",
+  "stops": [
+    {
+      "id": "forum",
+      "name": "Foro romano · entender el casco",
+      "kind": "visit",
+      "zone": "Foro / centro de la península",
+      "reason": "Empezar en los restos al aire libre para situar San Donato y la catedral, sin añadir de golpe todas sus entradas.",
+      "sourceIds": [
+        "guide 1",
+        "guide 2"
+      ],
+      "coordinates": {
+        "lat": 44.1153216,
+        "lon": 15.223866
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Roman+Forum&query_place_id=ChIJgxhG6G36YUcRJKGHJTGWAGo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "No trepar a los restos ni retirar piezas. El paseo exterior no incluye entradas de San Donato, museo o torre. Puede haber actuaciones, pero no se promete un concierto por una foto de archivo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zadar/forum.jpg",
+        "source": "https://www.flickr.com/photos/carolemage/16086830691/",
+        "author": "Carole Raddato",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Restos exteriores de acceso público"
+    },
+    {
+      "id": "donat",
+      "name": "San Donato · exterior o interior en temporada",
+      "kind": "visit",
+      "zone": "Foro / San Donato",
+      "reason": "Ver la rotonda por fuera y elegir entrar si interesa la arquitectura y está abierta, no una parada religiosa con horario inventado.",
+      "sourceIds": [
+        "donat",
+        "donatworks"
+      ],
+      "coordinates": {
+        "lat": 44.115842,
+        "lon": 15.2243719
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Church+of+St.+Donatus&query_place_id=ChIJSe7h8m36YUcRUAhTdlaMWXo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "Operador: entrada individual 5€, combinada con Arqueológico 10€. Visita ordinaria cerrada del 01/11 al 31/03, solo por cita. Abril 9-17, mayo 9-19, junio 9-21; del 01 al 12/07, 9-21; del 13/07 al 31/08, 9-22. Septiembre 9-21; del 01 al 15/10, 9-19; del 16 al 31/10, 9-17. Financiación de reforma anunciada en febrero de 2026: no prueba un cierre total actual ni obras terminadas. Conciertos con programa y entrada propios.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zadar/donat.jpg",
+        "source": "https://www.flickr.com/photos/zvonimir_hrvoj/6106391661/",
+        "author": "Zvonimir Hrvoj",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior base · interior opcional 5€"
+    },
+    {
+      "id": "cathedral",
+      "name": "Santa Anastasia · fachada y torre solo si apetece",
+      "kind": "visit",
+      "zone": "Trg Svete Stošije",
+      "reason": "Reconocer la fachada y dejar la subida como elección, sin vender vista, culto y acceso interior como un único servicio gratuito.",
+      "sourceIds": [
+        "cathedral",
+        "towerguide",
+        "towerreview"
+      ],
+      "coordinates": {
+        "lat": 44.11637109999999,
+        "lon": 15.2242693
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Saint+Anastasia%E2%80%99s+Cathedral&query_place_id=ChIJs8lp3XD6YUcRK-R_QO3lxtw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "Turismo confirma catedral y contacto, no tarifa ni horario actuales. Guía con visita actualizada el 01/10/2026 indica torre 4€ y combinado 5€, pero reseña de junio de 2026 menciona 5€ para subir: no tarifa oficial verificada. Confirmar en taquilla. No copiar 3€ y entrada totalmente gratis de otra guía. Horarios externos discrepan y no prueban invierno. Escalera estrecha y tramos metálicos, no ascensor garantizado. Culto y vestimenta prevalecen.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zadar/cathedral.jpg",
+        "source": "https://www.flickr.com/photos/129231073@N06/15217094383/",
+        "author": "Fred Romero",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior base · interior/torre opcionales"
+    },
+    {
+      "id": "organ",
+      "name": "Órgano del Mar · escuchar sin programa",
+      "kind": "visit",
+      "zone": "Extremo noroeste / costa",
+      "reason": "Sentarse junto a los escalones y oír el mar, con tiempo que no se mide como otra visita de diez minutos.",
+      "sourceIds": [
+        "organ",
+        "guide 1"
+      ],
+      "coordinates": {
+        "lat": 44.11722,
+        "lon": 15.2199087
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Sea+Organ&query_place_id=ChIJSZ5hqhL6YUcRqtNifhDsf7Y",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 95,
+      "durationType": "editorial-estimate",
+      "caution": "El sonido depende de olas y mareas, no de un concierto con hora fija. Con oleaje fuerte no sentarse junto al borde ni bajar por una foto. Atardecer bonito no garantiza cielo despejado ni sitio sin gente.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zadar/organ.jpg",
+        "source": "https://www.flickr.com/photos/mkolodziejski/4072018676/",
+        "author": "Michał Kołodziejski",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Instalación exterior gratuita"
+    },
+    {
+      "id": "sun",
+      "name": "Saludo al Sol · una pausa después de la luz",
+      "kind": "visit",
+      "zone": "Junto al Órgano del Mar",
+      "reason": "Quedarse si apetece ver la instalación al caer la tarde, sin pasar toda la noche esperando un espectáculo reservado.",
+      "sourceIds": [
+        "organ",
+        "guide 2"
+      ],
+      "coordinates": {
+        "lat": 44.1175922,
+        "lon": 15.2198229
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=The+Greeting+to+the+Sun&query_place_id=ChIJ20j9Uw36YUcRtst5XwEdFrk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "No se garantiza funcionamiento de todos los paneles ni espectáculo fechado. Está junto al órgano: no implica otro desplazamiento largo. El horario real de puesta de sol depende de fecha y debe consultarse, no se fija 21 htodo el año.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zadar/sun.jpg",
+        "source": "https://www.flickr.com/photos/strudelt/22846192632/",
+        "author": "strudelt",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Instalación exterior gratuita"
+    },
+    {
+      "id": "gate",
+      "name": "Puerta de Tierra y Foša · entrar por el sur",
+      "kind": "visit",
+      "zone": "Foša / borde sur del casco",
+      "reason": "Mirar la puerta y el pequeño puerto antes de seguir hacia los pozos, sin pagar por una vista de calle.",
+      "sourceIds": [
+        "walls",
+        "guide 1"
+      ],
+      "coordinates": {
+        "lat": 44.1121206,
+        "lon": 15.2284848
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Land+Gate&query_place_id=ChIJYTKk5MP7YUcR3jQZpN9EHko",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Puerto activo y piedra resbaladiza con lluvia. No acceso a fortificaciones o restaurante incluido por estar junto a la puerta. Las murallas no se tratan como un museo cerrado con billete general.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zadar/gate.jpg",
+        "source": "https://www.flickr.com/photos/129231073@N06/48913474217/",
+        "author": "Fred Romero",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Puerta y puerto exteriores"
+    },
+    {
+      "id": "wells",
+      "name": "Cinco Pozos · la ciudad también guardaba agua",
+      "kind": "visit",
+      "zone": "Trg Pet Bunara",
+      "reason": "Una plaza para leer las defensas y el agua antes del museo o de una comida tranquila.",
+      "sourceIds": [
+        "walls",
+        "guide 1"
+      ],
+      "coordinates": {
+        "lat": 44.1124922,
+        "lon": 15.2289318
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=The+Five+Wells+Square&query_place_id=ChIJFV3TQ2_6YUcREipO6iJOr5o",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "No se entra a las cisternas por mirar los pozos. No confundir la plaza Pet Bunara con el restaurante del mismo nombre ni prometer mesa. Mercado urbano mejor por la mañana si se añade como paseo, sin horario de puestos inventado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zadar/wells.jpg",
+        "source": "https://www.flickr.com/photos/larrywkoester/52659643576/",
+        "author": "Larry Koester",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "glass",
+      "name": "Museo del Vidrio Antiguo · el interior principal",
+      "kind": "visit",
+      "zone": "Poljana Zemaljskog odbora 1",
+      "reason": "Dedicar un bloque a piezas antiguas y, si coincide, una demostración, sin pagar una promesa de taller participativo.",
+      "sourceIds": [
+        "glass",
+        "glassprice"
+      ],
+      "coordinates": {
+        "lat": 44.11446129999999,
+        "lon": 15.2293115
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Museum+of+Ancient+Glass&query_place_id=ChIJlzWXom_6YUcRllfSoZQIGIM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 110,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 7€, grupos de 5 o más 5€, escolares 4€. Incluye exposición permanente y talleres demostrativos, no participación por seguridad. Octubre: diario 9-19. Invierno desde el 02/11: lunes-sábado 9-16, domingo y festivo cerrado. El cuerpo termina el 31/03 pero el pie el 30/04: abril requiere confirmar. Soplado lunes-viernes 9-14 con pausa 11-12; sábado 9-13 en la franja publicada, no domingo garantizado. Lampwork tiene otro horario. Puede suspenderse por circunstancias técnicas, no se promete al entrar.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zadar/glass.jpg",
+        "source": "https://www.flickr.com/photos/carolemage/10471448294/",
+        "author": "Carole Raddato",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Pieza de vidrio del museo en archivo; no se garantiza exposición actual ni demostración diaria. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago · adulto 7€"
+    },
+    {
+      "id": "arch",
+      "name": "Museo Arqueológico · alternativa o tercera mañana",
+      "kind": "visit",
+      "zone": "Foro / Trg opatice Čike 1",
+      "reason": "Elegir historia de la región si interesa más que el vidrio, o reservarla para una tercera jornada verdaderamente opcional.",
+      "sourceIds": [
+        "arch"
+      ],
+      "coordinates": {
+        "lat": 44.1154976,
+        "lon": 15.2249117
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Archaeological+Museum+Zadar&query_place_id=ChIJO70P4W36YUcRxM82PKpt-Ig",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 7€, combinado San Donato 10€ cuando este está abierto. Enero-marzo: lunes-sábado 9-15; abril-mayo: diario 9-19; junio: diario 9-20; julio-septiembre: diario 9-21; octubre: diario 9-19; noviembre-diciembre: diario 9-15 según tabla propia. Festivos y cambios requieren aviso actual. No trasladar el cierre invernal de San Donato al museo entero ni comprar combinado para una rotonda cerrada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zadar/arch.jpg",
+        "source": "https://www.flickr.com/photos/aiva/42753345901/",
+        "author": "aiva.",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago · adulto 7€"
+    },
+    {
+      "id": "park",
+      "name": "Parque de la Reina Jelena · paseo sin cuota",
+      "kind": "visit",
+      "zone": "Sobre las defensas / junto a los pozos",
+      "reason": "Dejar una pausa verde y vistas de las defensas, como final corto o paseo extra si se quiere otro día sin excursión.",
+      "sourceIds": [
+        "parks",
+        "walls"
+      ],
+      "coordinates": {
+        "lat": 44.1122637,
+        "lon": 15.2295685
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Queen+Jelena+Madijevka+Park&query_place_id=ChIJh7TvW2_6YUcRXlI5sipYWQc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Seguir el acceso y señalización del día, no cruzar vallas ni prometer todo adaptado sin escalones. Kolovare es otra opción costera: Maps desde Cinco Pozos da 1, 1 km y 15 min andando, no baño ni servicios garantizados. No se añade una tarjeta de playa con una foto incorrecta de hotel.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/zadar/park.jpg",
+        "source": "https://www.flickr.com/photos/larrywkoester/52659150177/",
+        "author": "Larry Koester",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Parque y entorno exteriores"
+    },
+    {
+      "id": "preko",
+      "name": "Preko · Ugljan en lugar de otra jornada urbana",
+      "kind": "excursion",
+      "zone": "Isla Ugljan / Preko",
+      "reason": "Pasear por el frente de Preko y comer en la isla con regreso planificado, en vez de fabricar tres días de entradas urbanas.",
+      "sourceIds": [
+        "boat",
+        "boatprice",
+        "boatschedule",
+        "preko"
+      ],
+      "coordinates": {
+        "lat": 44.0809536,
+        "lon": 15.1892214
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Marina+Preko&query_place_id=ChIJT_0AB8j7YUcRbC-gVE9Fliw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 360,
+      "durationType": "editorial-estimate",
+      "caution": "Comprobar ida y vuelta antes de comprar. Mal tiempo suspende navegación. El PDF de 2026 no garantiza 2027. La carretera al fuerte mide 3 km según Turismo y exige subida aparte, no es un paseo de puerto. No se garantizan servicios de playa o comida abiertos todo invierno. Foto del frente del pueblo, no muelle exacto. Sin reserva.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Puerto y paseo costero local. No se incluyen fortaleza, visita de monasterio ni baño obligatorios.",
+      "photo": {
+        "img": "assets/zadar/preko.jpg",
+        "source": "https://www.flickr.com/photos/miroslav-vajdic/26073256615/",
+        "author": "Miroslav Vajdić",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Paseo del puerto de Preko en archivo; no indica muelle exacto ni barco de la línea 409. Recorte de presentación."
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Foro, rotonda y costa sin correr",
+          "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+          "stopIds": [
+            "forum",
+            "donat",
+            "cathedral",
+            "organ",
+            "sun"
+          ],
+          "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+          "optionalStopIds": [
+            "arch"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Foro, rotonda y costa sin correr",
+          "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+          "stopIds": [
+            "forum",
+            "donat",
+            "cathedral",
+            "organ",
+            "sun"
+          ],
+          "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+          "optionalStopIds": [
+            "arch"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+        },
+        {
+          "title": "Sur del casco, vidrio y comida con tiempo",
+          "zone": "Puerta de Tierra → Cinco Pozos → Museo del Vidrio → Parque Reina Jelena",
+          "stopIds": [
+            "gate",
+            "wells",
+            "glass",
+            "park"
+          ],
+          "editorialNote": "Vidrio como interior principal y demostración solo si coincide. Domingo invernal está cerrado: mover día o elegir Arqueológico según calendario, no asegurar taller fuera de franja.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 hcon comida y paseo. No necesita taxi entre monumentos del casco. Se puede acortar el parque o caminar hasta costa con tiempo adicional."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Foro, rotonda y costa sin correr",
+          "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+          "stopIds": [
+            "forum",
+            "donat",
+            "cathedral",
+            "organ",
+            "sun"
+          ],
+          "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+          "optionalStopIds": [
+            "arch"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+        },
+        {
+          "title": "Sur del casco, vidrio y comida con tiempo",
+          "zone": "Puerta de Tierra → Cinco Pozos → Museo del Vidrio → Parque Reina Jelena",
+          "stopIds": [
+            "gate",
+            "wells",
+            "glass",
+            "park"
+          ],
+          "editorialNote": "Vidrio como interior principal y demostración solo si coincide. Domingo invernal está cerrado: mover día o elegir Arqueológico según calendario, no asegurar taller fuera de franja.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 hcon comida y paseo. No necesita taxi entre monumentos del casco. Se puede acortar el parque o caminar hasta costa con tiempo adicional."
+        },
+        {
+          "title": "Otra mañana de historia, solo si interesa",
+          "zone": "Museo Arqueológico / Foro",
+          "stopIds": [
+            "arch"
+          ],
+          "editorialNote": "Un tercer día urbano no es necesario para completar el casco. Esta mañana es opcional para quien quiera más historia y una comida larga; Ugljan puede sustituir la jornada entera, no añadirse después.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "3-4 hcon café y comida, después tiempo libre real. No rellenar con otra torre, playa lejana y museo sin interés."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Foro temprano, sombra y agua. No bañarse junto al órgano con oleaje ni prometer sitio vacío. Ugljan con horario y último barco revisados. Vidrio no garantiza demostración todos los días.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "San Donato cerrado para visita ordinaria de noviembre a marzo, solo exterior. Vidrio: lunes-sábado 9-16, domingo y festivo cerrado. Arqueológico: 9-15, enero-marzo lunes-sábado pero noviembre-diciembre diario según tabla; revisar festivos. Sin campanario con horario de verano garantizado.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "San Donato solo con cita. Museo del Vidrio cierra domingos y festivos. No mercado navideño diario ni concierto sin programa de 2026. Barco con horario festivo distinto, no copiar laborable.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Octubre: Vidrio 9-19, San Donato del 16 al 31/10 de 9-17. Vidrio contradice fin de invierno el 31/03 o 30/04: abril requiere confirmar, no asumir 9-21. Reforma de San Donato anunciada en 2026, sin inferir cierre total ni final garantizado.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Un casco compacto no exige tres días de museos; tercero opcional o isla como sustitución.",
+    "No precio oficial confirmado para torre o comidas: incertidumbre junto a cada opción.",
+    "Sin reservas ni entradas realizadas; mar, clima yhorarios mandan en costa ybarcos."
+  ],
+  "excludedOrOptional": [
+    "Proto aparece cerrado en fuente actual frente a una web que sigue mostrando menús: excluido por estado contradictorio.",
+    "No se añade una tarjeta de Kolovare con foto del hotel; se menciona paseo opcional con ruta de Maps.",
+    "Kornati, Krka y Plitvice requieren jornada y logística propias, no se suman a Ugljan.",
+    "No se recomienda Art of Raw por una reseña de 2018 como si garantizara cocina actual."
+  ],
+  "sources": [
+    {
+      "id": "guide 1",
+      "title": "LonelyPlanet: estructura y barrios, 2018",
+      "url": "https://www.lonelyplanet.com/articles/three-days-in-zadar-exploring-in-and-around-croatias-coolest-city",
+      "type": "travel-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide 2",
+      "title": "ThingsToDo: plan 3 días 2026",
+      "url": "https://thingstodoinzadar.com/itineraries/3-days/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide 3",
+      "title": "VoyageCroatie: entrevista guía 2026",
+      "url": "https://www.voyagecroatie.com/blog/zadar-que-faire-3-jours-itineraire-2026-entretien-guide-locale/",
+      "type": "travel-commercial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "FindEatLocal: Zadar 2026, afiliados",
+      "url": "https://findeatlocal.com/what-to-eat-in-zadar/",
+      "type": "food-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "petcritic",
+      "title": "GaultMillau 2026: PetBunara",
+      "url": "https://hr.gaultmillau.com/en/restaurants/pet-bunara-dine-wine",
+      "type": "restaurant-critic",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "pet",
+      "title": "PetBunara: horario y filosofía",
+      "url": "https://petbunara.com/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "petexternal",
+      "title": "RestaurantGuru: carta externa sinfecha fiable",
+      "url": "https://restaurantguru.com/Pet-Bunara-Zadar/menu",
+      "type": "menu-aggregator",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "ice",
+      "title": "Donat: historia y sedeStošije",
+      "url": "http://www.donatice.hr/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "iceflavours",
+      "title": "Donat: sabores, sede mayorista distinta",
+      "url": "https://donatice.eu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "donat",
+      "title": "SanDonato: horario y 5€",
+      "url": "https://www.amzd.hr/hr/radno-vrijeme/3/sv-donat/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "donatworks",
+      "title": "SanDonato: reforma anunciada 2026",
+      "url": "https://www.amzd.hr/hr/novost/7/obnova-sv-donata/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "arch",
+      "title": "Arqueológico:7€ yhoras",
+      "url": "https://www.amzd.hr/hr/radno-vrijeme/1/arheoloski-muzej-zadar/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "glass",
+      "title": "Vidrio: horas demostraciones",
+      "url": "https://www.mas-zadar.hr/en/visit-us/workin-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "glassprice",
+      "title": "Vidrio:7€ ycondiciones",
+      "url": "https://www.mas-zadar.hr/en/visit-us/tickets-price-list",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cathedral",
+      "title": "Turismo: catedral y contacto",
+      "url": "https://zadar.travel/attractions/attractions/cathedral-of-st-anastasia",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "towerguide",
+      "title": "TRVLOGUE: visita con precios, no oficial",
+      "url": "https://www.trvlogue.com/en/zadar-bell-tower-guide",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "towerreview",
+      "title": "Tripadvisor: reseñas 2026 con 5€",
+      "url": "https://www.tripadvisor.com/Attraction_Review-g295374-d12908345-Reviews-Bell_Tower-Zadar_Zadar_County_Dalmatia.html",
+      "type": "community-review",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "organ",
+      "title": "Turismo: órgano y saludo",
+      "url": "https://zadar.travel/attractions/attractions/morske-orgulje",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "parks",
+      "title": "Turismo: parques",
+      "url": "https://zadar.travel/attractions/attractions/parks",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "walls",
+      "title": "Turismo: defensas y pozos",
+      "url": "https://zadar.travel/news/unesco-zadar-city-walls-not-a-closed-museum-but-a-place-to-gather-and-enjoy",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "boat",
+      "title": "Jadrolinija: línea 409 centro-Preko 25 min",
+      "url": "https://www.jadrolinija.hr/en/travel/zadar_-_preko",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "boatprice",
+      "title": "Jadrolinija: tarifa 2026",
+      "url": "https://www.jadrolinija.hr/download/e883e60329fc91df616e77e65bb71494",
+      "type": "official-tariff",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "boatschedule",
+      "title": "Jadrolinija: horario 2026 por temporada",
+      "url": "https://www.jadrolinija.hr/download/5d8e965f266802e3302f1ca3fd76f9f2",
+      "type": "official-timetable",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "preko",
+      "title": "TurismoPreko: paseos y subida separada",
+      "url": "https://www.preko.hr/page/active-tourism/11",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Foro, rotonda y costa sin correr",
+            "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+            "stopIds": [
+              "forum",
+              "donat",
+              "cathedral",
+              "organ",
+              "sun"
+            ],
+            "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+            "optionalStopIds": [
+              "arch"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Foro, rotonda y costa sin correr",
+            "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+            "stopIds": [
+              "forum",
+              "donat",
+              "cathedral",
+              "organ",
+              "sun"
+            ],
+            "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+            "optionalStopIds": [
+              "arch"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+          },
+          {
+            "title": "Sur del casco, vidrio y comida con tiempo",
+            "zone": "Puerta de Tierra → Cinco Pozos → Museo del Vidrio → Parque Reina Jelena",
+            "stopIds": [
+              "gate",
+              "wells",
+              "glass",
+              "park"
+            ],
+            "editorialNote": "Vidrio como interior principal y demostración solo si coincide. Domingo invernal está cerrado: mover día o elegir Arqueológico según calendario, no asegurar taller fuera de franja.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y paseo. No necesita taxi entre monumentos del casco. Se puede acortar el parque o caminar hasta costa con tiempo adicional."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Foro, rotonda y costa sin correr",
+            "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+            "stopIds": [
+              "forum",
+              "donat",
+              "cathedral",
+              "organ",
+              "sun"
+            ],
+            "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+            "optionalStopIds": [
+              "arch"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+          },
+          {
+            "title": "Sur del casco, vidrio y comida con tiempo",
+            "zone": "Puerta de Tierra → Cinco Pozos → Museo del Vidrio → Parque Reina Jelena",
+            "stopIds": [
+              "gate",
+              "wells",
+              "glass",
+              "park"
+            ],
+            "editorialNote": "Vidrio como interior principal y demostración solo si coincide. Domingo invernal está cerrado: mover día o elegir Arqueológico según calendario, no asegurar taller fuera de franja.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y paseo. No necesita taxi entre monumentos del casco. Se puede acortar el parque o caminar hasta costa con tiempo adicional."
+          },
+          {
+            "title": "Otra mañana de historia, solo si interesa",
+            "zone": "Museo Arqueológico / Foro",
+            "stopIds": [
+              "arch"
+            ],
+            "editorialNote": "Un tercer día urbano no es necesario para completar el casco. Esta mañana es opcional para quien quiera más historia y una comida larga; Ugljan puede sustituir la jornada entera, no añadirse después.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 hcon café y comida, después tiempo libre real. No rellenar con otra torre, playa lejana y museo sin interés."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Foro, rotonda y costa sin correr",
+            "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+            "stopIds": [
+              "forum",
+              "donat",
+              "cathedral",
+              "organ",
+              "sun"
+            ],
+            "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+            "optionalStopIds": [
+              "arch"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Foro, rotonda y costa sin correr",
+            "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+            "stopIds": [
+              "forum",
+              "donat",
+              "cathedral",
+              "organ",
+              "sun"
+            ],
+            "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+            "optionalStopIds": [
+              "arch"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+          },
+          {
+            "title": "Sur del casco, vidrio y comida con tiempo",
+            "zone": "Puerta de Tierra → Cinco Pozos → Museo del Vidrio → Parque Reina Jelena",
+            "stopIds": [
+              "gate",
+              "wells",
+              "glass",
+              "park"
+            ],
+            "editorialNote": "Vidrio como interior principal y demostración solo si coincide. Domingo invernal está cerrado: mover día o elegir Arqueológico según calendario, no asegurar taller fuera de franja.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y paseo. No necesita taxi entre monumentos del casco. Se puede acortar el parque o caminar hasta costa con tiempo adicional."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Foro, rotonda y costa sin correr",
+            "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+            "stopIds": [
+              "forum",
+              "donat",
+              "cathedral",
+              "organ",
+              "sun"
+            ],
+            "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+            "optionalStopIds": [
+              "arch"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+          },
+          {
+            "title": "Sur del casco, vidrio y comida con tiempo",
+            "zone": "Puerta de Tierra → Cinco Pozos → Museo del Vidrio → Parque Reina Jelena",
+            "stopIds": [
+              "gate",
+              "wells",
+              "glass",
+              "park"
+            ],
+            "editorialNote": "Vidrio como interior principal y demostración solo si coincide. Domingo invernal está cerrado: mover día o elegir Arqueológico según calendario, no asegurar taller fuera de franja.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y paseo. No necesita taxi entre monumentos del casco. Se puede acortar el parque o caminar hasta costa con tiempo adicional."
+          },
+          {
+            "title": "Otra mañana de historia, solo si interesa",
+            "zone": "Museo Arqueológico / Foro",
+            "stopIds": [
+              "arch"
+            ],
+            "editorialNote": "Un tercer día urbano no es necesario para completar el casco. Esta mañana es opcional para quien quiera más historia y una comida larga; Ugljan puede sustituir la jornada entera, no añadirse después.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 hcon café y comida, después tiempo libre real. No rellenar con otra torre, playa lejana y museo sin interés."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Foro, rotonda y costa sin correr",
+            "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+            "stopIds": [
+              "forum",
+              "donat",
+              "cathedral",
+              "organ",
+              "sun"
+            ],
+            "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+            "optionalStopIds": [
+              "arch"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Foro, rotonda y costa sin correr",
+            "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+            "stopIds": [
+              "forum",
+              "donat",
+              "cathedral",
+              "organ",
+              "sun"
+            ],
+            "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+            "optionalStopIds": [
+              "arch"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+          },
+          {
+            "title": "Sur del casco, vidrio y comida con tiempo",
+            "zone": "Puerta de Tierra → Cinco Pozos → Museo del Vidrio → Parque Reina Jelena",
+            "stopIds": [
+              "gate",
+              "wells",
+              "glass",
+              "park"
+            ],
+            "editorialNote": "Vidrio como interior principal y demostración solo si coincide. Domingo invernal está cerrado: mover día o elegir Arqueológico según calendario, no asegurar taller fuera de franja.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y paseo. No necesita taxi entre monumentos del casco. Se puede acortar el parque o caminar hasta costa con tiempo adicional."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Foro, rotonda y costa sin correr",
+            "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+            "stopIds": [
+              "forum",
+              "donat",
+              "cathedral",
+              "organ",
+              "sun"
+            ],
+            "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+            "optionalStopIds": [
+              "arch"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+          },
+          {
+            "title": "Sur del casco, vidrio y comida con tiempo",
+            "zone": "Puerta de Tierra → Cinco Pozos → Museo del Vidrio → Parque Reina Jelena",
+            "stopIds": [
+              "gate",
+              "wells",
+              "glass",
+              "park"
+            ],
+            "editorialNote": "Vidrio como interior principal y demostración solo si coincide. Domingo invernal está cerrado: mover día o elegir Arqueológico según calendario, no asegurar taller fuera de franja.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y paseo. No necesita taxi entre monumentos del casco. Se puede acortar el parque o caminar hasta costa con tiempo adicional."
+          },
+          {
+            "title": "Otra mañana de historia, solo si interesa",
+            "zone": "Museo Arqueológico / Foro",
+            "stopIds": [
+              "arch"
+            ],
+            "editorialNote": "Un tercer día urbano no es necesario para completar el casco. Esta mañana es opcional para quien quiera más historia y una comida larga; Ugljan puede sustituir la jornada entera, no añadirse después.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 hcon café y comida, después tiempo libre real. No rellenar con otra torre, playa lejana y museo sin interés."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Foro, rotonda y costa sin correr",
+            "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+            "stopIds": [
+              "forum",
+              "donat",
+              "cathedral",
+              "organ",
+              "sun"
+            ],
+            "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+            "optionalStopIds": [
+              "arch"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Foro, rotonda y costa sin correr",
+            "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+            "stopIds": [
+              "forum",
+              "donat",
+              "cathedral",
+              "organ",
+              "sun"
+            ],
+            "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+            "optionalStopIds": [
+              "arch"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+          },
+          {
+            "title": "Sur del casco, vidrio y comida con tiempo",
+            "zone": "Puerta de Tierra → Cinco Pozos → Museo del Vidrio → Parque Reina Jelena",
+            "stopIds": [
+              "gate",
+              "wells",
+              "glass",
+              "park"
+            ],
+            "editorialNote": "Vidrio como interior principal y demostración solo si coincide. Domingo invernal está cerrado: mover día o elegir Arqueológico según calendario, no asegurar taller fuera de franja.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y paseo. No necesita taxi entre monumentos del casco. Se puede acortar el parque o caminar hasta costa con tiempo adicional."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Foro, rotonda y costa sin correr",
+            "zone": "Foro → San Donato → Santa Anastasia → Órgano del Mar → Saludo al Sol",
+            "stopIds": [
+              "forum",
+              "donat",
+              "cathedral",
+              "organ",
+              "sun"
+            ],
+            "editorialNote": "San Donato exterior fuera de temporada. Catedral y torre optativas, no varias entradas obligatorias. Si se quiere museo, sustituir una subida o entrar en Arqueológico, no sumar todos.",
+            "optionalStopIds": [
+              "arch"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y pausas. Se puede volver a la costa al atardecer, no esperar toda la tarde de pie junto al panel. Sin isla ni parque nacional después."
+          },
+          {
+            "title": "Sur del casco, vidrio y comida con tiempo",
+            "zone": "Puerta de Tierra → Cinco Pozos → Museo del Vidrio → Parque Reina Jelena",
+            "stopIds": [
+              "gate",
+              "wells",
+              "glass",
+              "park"
+            ],
+            "editorialNote": "Vidrio como interior principal y demostración solo si coincide. Domingo invernal está cerrado: mover día o elegir Arqueológico según calendario, no asegurar taller fuera de franja.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 hcon comida y paseo. No necesita taxi entre monumentos del casco. Se puede acortar el parque o caminar hasta costa con tiempo adicional."
+          },
+          {
+            "title": "Otra mañana de historia, solo si interesa",
+            "zone": "Museo Arqueológico / Foro",
+            "stopIds": [
+              "arch"
+            ],
+            "editorialNote": "Un tercer día urbano no es necesario para completar el casco. Esta mañana es opcional para quien quiera más historia y una comida larga; Ugljan puede sustituir la jornada entera, no añadirse después.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 hcon café y comida, después tiempo libre real. No rellenar con otra torre, playa lejana y museo sin interés."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [
+    {
+      "id": "preko",
+      "name": "Preko · Ugljan en lugar de otra jornada urbana",
+      "zone": "Isla Ugljan / Preko",
+      "lat": 44.0809536,
+      "lon": 15.1892214,
+      "coordSource": "https://www.google.com/maps/search/?api=1&query=Marina+Preko&query_place_id=ChIJT_0AB8j7YUcRbC-gVE9Fliw",
+      "minutes": 360,
+      "sourceIds": [
+        "boat",
+        "boatprice",
+        "boatschedule",
+        "preko"
+      ],
+      "priority": "Excursión opcional según mar y horario",
+      "reason": "Pasear por el frente de Preko y comer en la isla con regreso planificado, en vez de fabricar tres días de entradas urbanas.",
+      "visit": "Puerto y paseo costero local. No se incluyen fortaleza, visita de monasterio ni baño obligatorios.",
+      "transport": "Línea 409 de pasajeros desde el puerto central de Zadar, no ferry de coches desde Gaženica. Operador: 25 min cada sentido. PDF de 2026: 4€ por trayecto fuera del 29/05-27/09, 5€ en ese intervalo. Adulto ida/vuelta 8/10€ como suma, comida aparte. No tarifa de residente de 1,40€ para turista. Confirmar fecha y punto de embarque.",
+      "pacing": "5-7 h con barco, paseo, comida y margen de regreso. Horario de 2026 por estación y día: no se garantiza frecuencia cada hora. No usar 15 min de Turismo frente a los 25 min del operador. No se suman fortaleza Sveti Mihovil y cala Muline como una caminata corta sin transporte.",
+      "caution": "Comprobar ida y vuelta antes de comprar. Mal tiempo suspende navegación. El PDF de 2026 no garantiza 2027. La carretera al fuerte mide 3 km según Turismo y exige subida aparte, no es un paseo de puerto. No se garantizan servicios de playa o comida abiertos todo invierno. Foto del frente del pueblo, no muelle exacto. Sin reserva.",
+      "url": "https://www.jadrolinija.hr/en/travel/zadar_-_preko",
+      "access": "https://www.preko.hr/page/active-tourism/11",
+      "closedMonthDays": [],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "reviewedAt": "2026-10-30",
+      "kind": "excursion",
+      "photo": {
+        "img": "assets/zadar/preko.jpg",
+        "source": "https://www.flickr.com/photos/miroslav-vajdic/26073256615/",
+        "author": "Miroslav Vajdić",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Paseo del puerto de Preko en archivo; no indica muelle exacto ni barco de la línea 409. Recorte de presentación."
+      }
+    }
+  ],
+  "editorialAudit": [
+    "Varias guías comparadas antes de operadores y Maps.",
+    "San Donato 5€ con cierre estacional; Arqueológico 7€, Vidrio 7€ con demostración no participativa.",
+    "Torre con tarifas externas contradictorias, sin cifra oficial inventada.",
+    "13 fotos CC verificadas, comidas ajenas rotuladas y foto incorrecta de hotel rechazada."
+  ],
+  "editorialTradeoffs": [
+    "Un museo principal por día, tercero opcional.",
+    "Preko con puerto y costa, sin fuerte ni cala lejana obligatorios."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "LonelyPlanet aporta barrios y ritmo, pero sus precios antiguos no se copian. ThingsToDo y VoyageCroatie dan planes más largos que se recortan. FindEatLocal es guía con venta propia y GaultMillau aporta evidencia específica de Pet Bunara. Operadores fijan cierres, tarifas y horarios. No sedes ni fotos elegidas por cuota."
+}

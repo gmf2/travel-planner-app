@@ -5,7 +5,7 @@
   "name": "Varsovia",
   "localName": "Warszawa",
   "selectionReason": "Capital y primera entre seis ciudades comparadas en huéspedes hoteleros GUS 2025.",
-  "reviewedAt": "2026-10-28",
+  "reviewedAt": "2026-10-29",
   "status": "editorially-reviewed-pilot",
   "planningAssumptions": "Primera visita cultural y ritmo moderado. La carga por día es una estimación editorial con comida, pausas y desplazamientos, no un horario comprobado. Las paradas exteriores no implican entrar en todos los edificios. Ajustar a entradas y fecha real.",
   "stops": [
@@ -660,21 +660,17 @@
           ]
         },
         {
-          "title": "Memoria judía y jardines reales",
-          "zone": "Muranów → Łazienki",
+          "title": "Memoria judía y centro moderno",
+          "zone": "Muranów → Śródmieście",
           "stopIds": [
             "umschlag",
             "heroes",
             "polin",
-            "chopin",
-            "park",
-            "amphi"
-          ],
-          "optionalStopIds": [
             "palace"
           ],
-          "editorialNote": "Mañana: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Comida y traslado en transporte a Łazienki. Paseo exterior, sin añadir interiores del palacio. Martes POLIN cierra: intercambiar con el casco antiguo; Alzamiento también cierra martes. El mirador del Palacio de la Cultura sustituye el paseo si mal tiempo, no se añade.",
-          "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
+          "optionalStopIds": [],
+          "editorialNote": "Mañana en Muranów: Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Después, Palacio de la Cultura (2,7 km; 39 min a pie o transporte corto). Con sólo dos días, Łazienki queda en «Más ideas» en lugar de cruzar la ciudad entera en un mismo día. Martes POLIN cierra: intercambiar con el día 1.",
+          "pacing": "Unas 5–6 h con museo, comida y un traslado corto.",
           "geographyChecks": [
             {
               "fromId": "umschlag",
@@ -689,6 +685,13 @@
               "straightLineKm": 0.06,
               "isWalkingRoute": false,
               "transportSuggested": false
+            },
+            {
+              "fromId": "polin",
+              "toId": "palace",
+              "straightLineKm": 2.18,
+              "isWalkingRoute": false,
+              "transportSuggested": true
             }
           ],
           "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
@@ -752,21 +755,18 @@
           ]
         },
         {
-          "title": "Memoria judía y jardines reales",
-          "zone": "Muranów → Łazienki",
+          "title": "Memoria judía en Muranów",
+          "zone": "Muranów",
           "stopIds": [
             "umschlag",
             "heroes",
-            "polin",
-            "chopin",
-            "park",
-            "amphi"
+            "polin"
           ],
           "optionalStopIds": [
             "palace"
           ],
-          "editorialNote": "Mañana: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Comida y traslado en transporte a Łazienki. Paseo exterior, sin añadir interiores del palacio. Martes POLIN cierra: intercambiar con el casco antiguo; Alzamiento también cierra martes. El mirador del Palacio de la Cultura sustituye el paseo si mal tiempo, no se añade.",
-          "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
+          "editorialNote": "Mañana y primera tarde en el mismo barrio: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Todo a pie, sin cruzar la ciudad. Martes POLIN cierra: intercambiar con el día del casco antiguo. Tarde libre junto a Muranów o el centro; Łazienki va al día siguiente para no hacer dos veces el mismo traslado largo.",
+          "pacing": "Unas 4–5 h con el museo y la comida; tarde con margen. No añadir otro museo grande hoy.",
           "geographyChecks": [
             {
               "fromId": "umschlag",
@@ -786,19 +786,50 @@
           "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
         },
         {
-          "title": "1944 y Varsovia contemporánea",
-          "zone": "Wola → Śródmieście",
+          "title": "1944 y el eje moderno hasta Łazienki",
+          "zone": "Wola → Śródmieście → Łazienki",
           "stopIds": [
             "rising",
-            "palace"
+            "palace",
+            "chopin",
+            "park",
+            "amphi"
           ],
           "optionalStopIds": [
-            "praga",
-            "library"
+            "praga"
           ],
-          "editorialNote": "Alzamiento como segunda capa histórica opcional, no repetición de POLIN. Después de comer, Palacio de la Cultura: exterior o mirador. Dejar tarde libre; Praga o BUW de extras sustituyen el museo o el mirador, no se suman todos. Martes museo cerrado: intercambiar con día 1. No añadir Wilanów por defecto.",
-          "pacing": "Día más ligero: unas 5–6 h con museo, traslado y comida; tarde con margen. Wola → centro: transporte recomendado, trayecto por comprobar para fecha real.",
-          "geographyChecks": [],
+          "editorialNote": "Museo del Alzamiento en Wola y después un solo eje hacia el sur: Palacio de la Cultura y parque de Łazienki. Alzamiento→Palacio: 2,3 km, transporte corto recomendado; Palacio→Łazienki: 3 km por una misma avenida, transporte recomendado. Martes el Alzamiento cierra: intercambiar con el día 1. Paseo exterior en Łazienki, sin sumar interiores.",
+          "pacing": "Unas 6 h con museo, dos traslados cortos y paseo; recortar jardín según luz y energía.",
+          "geographyChecks": [
+            {
+              "fromId": "rising",
+              "toId": "palace",
+              "straightLineKm": 1.74,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "palace",
+              "toId": "chopin",
+              "straightLineKm": 2.39,
+              "isWalkingRoute": false,
+              "transportSuggested": true
+            },
+            {
+              "fromId": "chopin",
+              "toId": "park",
+              "straightLineKm": 0.53,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "park",
+              "toId": "amphi",
+              "straightLineKm": 0.16,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            }
+          ],
           "transferNote": "Wola → centro: transporte recomendado, trayecto por comprobar para fecha real."
         }
       ]
@@ -1181,21 +1212,17 @@
             ]
           },
           {
-            "title": "Memoria judía y jardines reales",
-            "zone": "Muranów → Łazienki",
+            "title": "Memoria judía y centro moderno",
+            "zone": "Muranów → Śródmieście",
             "stopIds": [
               "umschlag",
               "heroes",
               "polin",
-              "chopin",
-              "park",
-              "amphi"
-            ],
-            "optionalStopIds": [
               "palace"
             ],
-            "editorialNote": "Mañana: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Comida y traslado en transporte a Łazienki. Paseo exterior, sin añadir interiores del palacio. Martes POLIN cierra: intercambiar con el casco antiguo; Alzamiento también cierra martes. El mirador del Palacio de la Cultura sustituye el paseo si mal tiempo, no se añade.",
-            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
+            "optionalStopIds": [],
+            "editorialNote": "Mañana en Muranów: Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Después, Palacio de la Cultura (2,7 km; 39 min a pie o transporte corto). Con sólo dos días, Łazienki queda en «Más ideas» en lugar de cruzar la ciudad en un mismo día. Martes POLIN cierra: intercambiar con el día 1.",
+            "pacing": "Unas 5–6 h con museo, comida y un traslado corto.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1210,6 +1237,13 @@
                 "straightLineKm": 0.06,
                 "isWalkingRoute": false,
                 "transportSuggested": false
+              },
+              {
+                "fromId": "polin",
+                "toId": "palace",
+                "straightLineKm": 2.18,
+                "isWalkingRoute": false,
+                "transportSuggested": true
               }
             ],
             "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
@@ -1273,21 +1307,18 @@
             ]
           },
           {
-            "title": "Memoria judía y jardines reales",
-            "zone": "Muranów → Łazienki",
+            "title": "Memoria judía en Muranów",
+            "zone": "Muranów",
             "stopIds": [
               "umschlag",
               "heroes",
-              "polin",
-              "chopin",
-              "park",
-              "amphi"
+              "polin"
             ],
             "optionalStopIds": [
               "palace"
             ],
-            "editorialNote": "Mañana: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Comida y traslado en transporte a Łazienki. Paseo exterior, sin añadir interiores del palacio. Martes POLIN cierra: intercambiar con el casco antiguo; Alzamiento también cierra martes. El mirador del Palacio de la Cultura sustituye el paseo si mal tiempo, no se añade.",
-            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
+            "editorialNote": "Muranów de mañana: Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h), único interior largo del día. Martes cerrado: intercambiar con día urbano. Tarde libre junto a Muranów o el centro. Łazienki pasa al día siguiente para no repetir el traslado largo.",
+            "pacing": "Unas 4–5 h con el museo y la comida; tarde con margen.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1307,19 +1338,50 @@
             "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
           },
           {
-            "title": "1944 y Varsovia contemporánea",
-            "zone": "Wola → Śródmieście",
+            "title": "1944 y el eje moderno hasta Łazienki",
+            "zone": "Wola → Śródmieście → Łazienki",
             "stopIds": [
               "rising",
-              "palace"
+              "palace",
+              "chopin",
+              "park",
+              "amphi"
             ],
             "optionalStopIds": [
-              "praga",
-              "library"
+              "praga"
             ],
-            "editorialNote": "Alzamiento como segunda capa histórica opcional, no repetición de POLIN. Después de comer, Palacio de la Cultura: exterior o mirador. Dejar tarde libre; Praga o BUW de extras sustituyen el museo o el mirador, no se suman todos. Martes museo cerrado: intercambiar con día 1. No añadir Wilanów por defecto.",
-            "pacing": "Día más ligero: unas 5–6 h con museo, traslado y comida; tarde con margen. Wola → centro: transporte recomendado, trayecto por comprobar para fecha real.",
-            "geographyChecks": [],
+            "editorialNote": "Alzamiento en Wola y un solo eje al sur: Palacio de la Cultura y Łazienki. Alzamiento→Palacio: 2,3 km y Palacio→Łazienki: 3 km por una misma avenida; transporte recomendado en ambos. Martes Alzamiento cerrado: intercambiar con el día 1. Paseo exterior en Łazienki, sin sumar interiores.",
+            "pacing": "Unas 6 h con museo, dos traslados cortos y paseo; recortar jardín según luz y energía.",
+            "geographyChecks": [
+              {
+                "fromId": "rising",
+                "toId": "palace",
+                "straightLineKm": 1.74,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "palace",
+                "toId": "chopin",
+                "straightLineKm": 2.39,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "chopin",
+                "toId": "park",
+                "straightLineKm": 0.53,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "park",
+                "toId": "amphi",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
             "transferNote": "Wola → centro: transporte recomendado, trayecto por comprobar para fecha real."
           }
         ]
@@ -1437,21 +1499,17 @@
             ]
           },
           {
-            "title": "Memoria judía y jardines reales",
-            "zone": "Muranów → Łazienki",
+            "title": "Memoria judía y centro moderno",
+            "zone": "Muranów → Śródmieście",
             "stopIds": [
-              "chopin",
-              "park",
-              "amphi",
               "umschlag",
               "heroes",
-              "polin"
-            ],
-            "optionalStopIds": [
+              "polin",
               "palace"
             ],
-            "editorialNote": "Łazienki de mañana por luz y frío, solo paseo exterior breve. Tras comida y traslado, Muranów y POLIN como único interior largo. Llegar a la exposición principal al menos 2 h antes del cierre; si no encaja, quitar jardines, no comprimir el museo. Martes cerrado: intercambiar con día urbano. Mirador del Palacio de la Cultura sustituye el paseo si meteo adversa.",
-            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
+            "optionalStopIds": [],
+            "editorialNote": "Mañana en Muranów: Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Después, Palacio de la Cultura (2,7 km; 39 min a pie o transporte corto). Con sólo dos días, Łazienki queda en «Más ideas» en lugar de cruzar la ciudad en un mismo día. Martes POLIN cierra: intercambiar con el día 1.",
+            "pacing": "Unas 5–6 h con museo, comida y un traslado corto.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1466,6 +1524,13 @@
                 "straightLineKm": 0.06,
                 "isWalkingRoute": false,
                 "transportSuggested": false
+              },
+              {
+                "fromId": "polin",
+                "toId": "palace",
+                "straightLineKm": 2.18,
+                "isWalkingRoute": false,
+                "transportSuggested": true
               }
             ],
             "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
@@ -1527,12 +1592,9 @@
             ]
           },
           {
-            "title": "Memoria judía y jardines reales",
-            "zone": "Muranów → Łazienki",
+            "title": "Memoria judía en Muranów",
+            "zone": "Muranów",
             "stopIds": [
-              "chopin",
-              "park",
-              "amphi",
               "umschlag",
               "heroes",
               "polin"
@@ -1540,8 +1602,8 @@
             "optionalStopIds": [
               "palace"
             ],
-            "editorialNote": "Łazienki de mañana por luz y frío, solo paseo exterior breve. Tras comida y traslado, Muranów y POLIN como único interior largo. Llegar a la exposición principal al menos 2 h antes del cierre; si no encaja, quitar jardines, no comprimir el museo. Martes cerrado: intercambiar con día urbano. Mirador del Palacio de la Cultura sustituye el paseo si meteo adversa.",
-            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
+            "editorialNote": "Muranów de mañana: Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h), único interior largo del día. Martes cerrado: intercambiar con día urbano. Interior en las horas centrales por frío y luz. Łazienki pasa al día siguiente para no repetir el traslado largo.",
+            "pacing": "Unas 4–5 h con el museo y la comida; tarde con margen.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1561,18 +1623,50 @@
             "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
           },
           {
-            "title": "1944 y Varsovia contemporánea",
-            "zone": "Wola → Śródmieście",
+            "title": "1944 y el eje moderno hasta Łazienki",
+            "zone": "Wola → Śródmieście → Łazienki",
             "stopIds": [
               "rising",
-              "palace"
+              "palace",
+              "chopin",
+              "park",
+              "amphi"
             ],
             "optionalStopIds": [
               "praga"
             ],
-            "editorialNote": "Alzamiento como segunda capa histórica opcional, no repetición de POLIN. Después de comer, Palacio de la Cultura: exterior o mirador. Dejar tarde libre; Praga o BUW de extras sustituyen el museo o el mirador, no se suman todos. Martes museo cerrado: intercambiar con día 1. No añadir Wilanów por defecto.",
-            "pacing": "Día más ligero: unas 5–6 h con museo, traslado y comida; tarde con margen. Wola → centro: transporte recomendado, trayecto por comprobar para fecha real.",
-            "geographyChecks": [],
+            "editorialNote": "Alzamiento en Wola y un solo eje al sur: Palacio de la Cultura y Łazienki. Alzamiento→Palacio: 2,3 km y Palacio→Łazienki: 3 km por una misma avenida; transporte recomendado en ambos. Martes Alzamiento cerrado: intercambiar con el día 1. Łazienki al final según luz; si el frío aprieta, el mirador del Palacio sustituye el paseo.",
+            "pacing": "Unas 6 h con museo, dos traslados cortos y paseo; recortar jardín según luz y energía.",
+            "geographyChecks": [
+              {
+                "fromId": "rising",
+                "toId": "palace",
+                "straightLineKm": 1.74,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "palace",
+                "toId": "chopin",
+                "straightLineKm": 2.39,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "chopin",
+                "toId": "park",
+                "straightLineKm": 0.53,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "park",
+                "toId": "amphi",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
             "transferNote": "Wola → centro: transporte recomendado, trayecto por comprobar para fecha real."
           }
         ]
@@ -1690,21 +1784,17 @@
             ]
           },
           {
-            "title": "Memoria judía y jardines reales",
-            "zone": "Muranów → Łazienki",
+            "title": "Memoria judía y centro moderno",
+            "zone": "Muranów → Śródmieście",
             "stopIds": [
-              "chopin",
-              "park",
-              "amphi",
               "umschlag",
               "heroes",
-              "polin"
-            ],
-            "optionalStopIds": [
+              "polin",
               "palace"
             ],
-            "editorialNote": "Łazienki de mañana por luz y frío, solo paseo exterior breve. Tras comida y traslado, Muranów y POLIN como único interior largo. Llegar a la exposición principal al menos 2 h antes del cierre; si no encaja, quitar jardines, no comprimir el museo. Martes cerrado: intercambiar con día urbano. Mirador del Palacio de la Cultura sustituye el paseo si meteo adversa.",
-            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
+            "optionalStopIds": [],
+            "editorialNote": "Mañana en Muranów: Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Después, Palacio de la Cultura (2,7 km; 39 min a pie o transporte corto). Con sólo dos días, Łazienki queda en «Más ideas» en lugar de cruzar la ciudad en un mismo día. Martes POLIN cierra: intercambiar con el día 1.",
+            "pacing": "Unas 5–6 h con museo, comida y un traslado corto.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1719,6 +1809,13 @@
                 "straightLineKm": 0.06,
                 "isWalkingRoute": false,
                 "transportSuggested": false
+              },
+              {
+                "fromId": "polin",
+                "toId": "palace",
+                "straightLineKm": 2.18,
+                "isWalkingRoute": false,
+                "transportSuggested": true
               }
             ],
             "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
@@ -1780,12 +1877,9 @@
             ]
           },
           {
-            "title": "Memoria judía y jardines reales",
-            "zone": "Muranów → Łazienki",
+            "title": "Memoria judía en Muranów",
+            "zone": "Muranów",
             "stopIds": [
-              "chopin",
-              "park",
-              "amphi",
               "umschlag",
               "heroes",
               "polin"
@@ -1793,8 +1887,8 @@
             "optionalStopIds": [
               "palace"
             ],
-            "editorialNote": "Łazienki de mañana por luz y frío, solo paseo exterior breve. Tras comida y traslado, Muranów y POLIN como único interior largo. Llegar a la exposición principal al menos 2 h antes del cierre; si no encaja, quitar jardines, no comprimir el museo. Martes cerrado: intercambiar con día urbano. Mirador del Palacio de la Cultura sustituye el paseo si meteo adversa.",
-            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
+            "editorialNote": "Muranów de mañana: Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h), único interior largo del día. Martes cerrado: intercambiar con día urbano. Interior en las horas centrales por frío y luz. Łazienki pasa al día siguiente para no repetir el traslado largo.",
+            "pacing": "Unas 4–5 h con el museo y la comida; tarde con margen.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1814,18 +1908,50 @@
             "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
           },
           {
-            "title": "1944 y Varsovia contemporánea",
-            "zone": "Wola → Śródmieście",
+            "title": "1944 y el eje moderno hasta Łazienki",
+            "zone": "Wola → Śródmieście → Łazienki",
             "stopIds": [
               "rising",
-              "palace"
+              "palace",
+              "chopin",
+              "park",
+              "amphi"
             ],
             "optionalStopIds": [
               "praga"
             ],
-            "editorialNote": "Alzamiento como segunda capa histórica opcional, no repetición de POLIN. Después de comer, Palacio de la Cultura: exterior o mirador. Dejar tarde libre; Praga o BUW de extras sustituyen el museo o el mirador, no se suman todos. Martes museo cerrado: intercambiar con día 1. No añadir Wilanów por defecto.",
-            "pacing": "Día más ligero: unas 5–6 h con museo, traslado y comida; tarde con margen. Wola → centro: transporte recomendado, trayecto por comprobar para fecha real.",
-            "geographyChecks": [],
+            "editorialNote": "Alzamiento en Wola y un solo eje al sur: Palacio de la Cultura y Łazienki. Alzamiento→Palacio: 2,3 km y Palacio→Łazienki: 3 km por una misma avenida; transporte recomendado en ambos. Martes Alzamiento cerrado: intercambiar con el día 1. Łazienki al final según luz; si el frío aprieta, el mirador del Palacio sustituye el paseo.",
+            "pacing": "Unas 6 h con museo, dos traslados cortos y paseo; recortar jardín según luz y energía.",
+            "geographyChecks": [
+              {
+                "fromId": "rising",
+                "toId": "palace",
+                "straightLineKm": 1.74,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "palace",
+                "toId": "chopin",
+                "straightLineKm": 2.39,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "chopin",
+                "toId": "park",
+                "straightLineKm": 0.53,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "park",
+                "toId": "amphi",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
             "transferNote": "Wola → centro: transporte recomendado, trayecto por comprobar para fecha real."
           }
         ]
@@ -1947,21 +2073,17 @@
             ]
           },
           {
-            "title": "Memoria judía y jardines reales",
-            "zone": "Muranów → Łazienki",
+            "title": "Memoria judía y centro moderno",
+            "zone": "Muranów → Śródmieście",
             "stopIds": [
               "umschlag",
               "heroes",
               "polin",
-              "chopin",
-              "park",
-              "amphi"
-            ],
-            "optionalStopIds": [
               "palace"
             ],
-            "editorialNote": "Mañana: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Comida y traslado en transporte a Łazienki. Paseo exterior, sin añadir interiores del palacio. Martes POLIN cierra: intercambiar con el casco antiguo; Alzamiento también cierra martes. El mirador del Palacio de la Cultura sustituye el paseo si mal tiempo, no se añade.",
-            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
+            "optionalStopIds": [],
+            "editorialNote": "Mañana en Muranów: Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Después, Palacio de la Cultura (2,7 km; 39 min a pie o transporte corto). Con sólo dos días, Łazienki queda en «Más ideas» en lugar de cruzar la ciudad en un mismo día. Martes POLIN cierra: intercambiar con el día 1.",
+            "pacing": "Unas 5–6 h con museo, comida y un traslado corto.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -1976,6 +2098,13 @@
                 "straightLineKm": 0.06,
                 "isWalkingRoute": false,
                 "transportSuggested": false
+              },
+              {
+                "fromId": "polin",
+                "toId": "palace",
+                "straightLineKm": 2.18,
+                "isWalkingRoute": false,
+                "transportSuggested": true
               }
             ],
             "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
@@ -2039,21 +2168,18 @@
             ]
           },
           {
-            "title": "Memoria judía y jardines reales",
-            "zone": "Muranów → Łazienki",
+            "title": "Memoria judía en Muranów",
+            "zone": "Muranów",
             "stopIds": [
               "umschlag",
               "heroes",
-              "polin",
-              "chopin",
-              "park",
-              "amphi"
+              "polin"
             ],
             "optionalStopIds": [
               "palace"
             ],
-            "editorialNote": "Mañana: memorial Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h). Comida y traslado en transporte a Łazienki. Paseo exterior, sin añadir interiores del palacio. Martes POLIN cierra: intercambiar con el casco antiguo; Alzamiento también cierra martes. El mirador del Palacio de la Cultura sustituye el paseo si mal tiempo, no se añade.",
-            "pacing": "Unas 7–8 h con museo, comida, transporte y paseo corto; recortar jardín según luz y energía. POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha.",
+            "editorialNote": "Muranów de mañana: Umschlagplatz, Héroes del Gueto y POLIN (unas 3 h), único interior largo del día. Martes cerrado: intercambiar con día urbano. Tarde libre junto a Muranów o el centro. Łazienki pasa al día siguiente para no repetir el traslado largo.",
+            "pacing": "Unas 4–5 h con el museo y la comida; tarde con margen.",
             "geographyChecks": [
               {
                 "fromId": "umschlag",
@@ -2073,19 +2199,50 @@
             "transferNote": "POLIN→Palacio en la Isla: referencia a pie5,5 km/75min, con escaleras. El plan requiere transporte, no ese paseo adicional; enlace concreto por fecha."
           },
           {
-            "title": "1944 y Varsovia contemporánea",
-            "zone": "Wola → Śródmieście",
+            "title": "1944 y el eje moderno hasta Łazienki",
+            "zone": "Wola → Śródmieście → Łazienki",
             "stopIds": [
               "rising",
-              "palace"
+              "palace",
+              "chopin",
+              "park",
+              "amphi"
             ],
             "optionalStopIds": [
-              "praga",
-              "library"
+              "praga"
             ],
-            "editorialNote": "Alzamiento como segunda capa histórica opcional, no repetición de POLIN. Después de comer, Palacio de la Cultura: exterior o mirador. Dejar tarde libre; Praga o BUW de extras sustituyen el museo o el mirador, no se suman todos. Martes museo cerrado: intercambiar con día 1. No añadir Wilanów por defecto.",
-            "pacing": "Día más ligero: unas 5–6 h con museo, traslado y comida; tarde con margen. Wola → centro: transporte recomendado, trayecto por comprobar para fecha real.",
-            "geographyChecks": [],
+            "editorialNote": "Alzamiento en Wola y un solo eje al sur: Palacio de la Cultura y Łazienki. Alzamiento→Palacio: 2,3 km y Palacio→Łazienki: 3 km por una misma avenida; transporte recomendado en ambos. Martes Alzamiento cerrado: intercambiar con el día 1. Paseo exterior en Łazienki, sin sumar interiores.",
+            "pacing": "Unas 6 h con museo, dos traslados cortos y paseo; recortar jardín según luz y energía.",
+            "geographyChecks": [
+              {
+                "fromId": "rising",
+                "toId": "palace",
+                "straightLineKm": 1.74,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "palace",
+                "toId": "chopin",
+                "straightLineKm": 2.39,
+                "isWalkingRoute": false,
+                "transportSuggested": true
+              },
+              {
+                "fromId": "chopin",
+                "toId": "park",
+                "straightLineKm": 0.53,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "park",
+                "toId": "amphi",
+                "straightLineKm": 0.16,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              }
+            ],
             "transferNote": "Wola → centro: transporte recomendado, trayecto por comprobar para fecha real."
           }
         ]
@@ -2122,8 +2279,8 @@
   ],
   "excursionDefault": "urban",
   "editorialAudit": {
-    "reviewedAt": "2026-10-28",
-    "scope": "Selección y coste de oportunidad de 1/2/3 días y 4 temporadas, cierres principales, dos comidas, un recital, excursión musical. No disponibilidad futura ni auditoría completa.",
+    "reviewedAt": "2026-10-29",
+    "scope": "Selección y coste de oportunidad de 1/2/3 días y 4 temporadas, cierres principales, dos comidas, un recital, excursión musical. No disponibilidad futura ni auditoría completa. Revisión 2026-10-29: Łazienki sale del día de Muranów (6 km / 32 min de transporte) y pasa al día del eje Wola→centro→sur; con 2 días queda como idea libre.",
     "confirmedClosures2026": {
       "polin": [
         "2026-11-01",
@@ -2152,18 +2309,28 @@
   },
   "routeEvidence": [
     {
+      "fromId": "umschlag",
+      "toId": "chopin",
+      "transitMinutes": 32,
+      "transitKm": 6.0,
+      "routeCheckedAt": "2026-10-29",
+      "referenceOnly": true,
+      "note": "Traslado largo que motivó sacar Łazienki del día de Muranów.",
+      "sourceUrl": "https://www.google.com/maps/dir/?api=1&destination=%C5%81azienki+Kr%C3%B3lewskie+02%2C+Warszawa%2C+Poland&destination_place_id=ChIJbcIdWuDMHkcRI0E196m5-cY&origin=Stawki+10%2C+00-178+Warszawa%2C+Poland&origin_place_id=ChIJKb8_uYfLHkcRopvrXwqqIJk&travelmode=transit"
+    },
+    {
       "fromId": "polin",
-      "toId": "park",
-      "walkingRouteKm": 5.502,
-      "walkingMinutes": 76,
-      "routeCheckedAt": "2026-10-28",
+      "toId": "palace",
+      "walkingRouteKm": 2.7,
+      "walkingMinutes": 39,
+      "routeCheckedAt": "2026-10-29",
       "isWalkingRoute": true,
       "referenceOnly": true,
-      "sourceUrl": "https://www.google.com/maps/dir/?api=1&destination=Agrykola+1%2C+00-460+Warszawa%2C+Poland&destination_place_id=ChIJP37zjB7NHkcR873Uas0o4bo&origin=Mordechaja+Anielewicza+6%2C+00-157+Warszawa%2C+Poland&origin_place_id=ChIJc7iVqXnMHkcRsDBEUEPaGuI&travelmode=walking",
-      "accessibility": "No verificada; ruta puede contener escaleras."
+      "accessibility": "No verificada; la ruta puede contener escaleras.",
+      "sourceUrl": "https://www.google.com/maps/dir/?api=1&destination=Pl.+Defilad+1%2C+00-901+Warszawa%2C+Poland&destination_place_id=ChIJSS5pkozMHkcRwi0fMeV66cI&origin=Mordechaja+Anielewicza+6%2C+00-157+Warszawa%2C+Poland&origin_place_id=ChIJc7iVqXnMHkcRJ-G9XjEvP6s&travelmode=walking"
     }
   ],
-  "catalogRevision": "2026-10-28-editorial-pass2",
+  "catalogRevision": "2026-10-29-editorial-pass3",
   "discoveryReview": {
     "reviewedAt": "2026-10-28",
     "method": "Búsqueda literal qué ver en la ciudad, lectura de secciones de visitas/itinerarios de varias guías, comparación con catálogo y juicio editorial; después contraste oficial de hechos operativos seleccionados.",

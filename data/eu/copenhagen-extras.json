@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "cityId": "copenhagen",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "hallernes",
+      "name": "Hallernes Smørrebrød · Torvehallerne",
+      "address": "Rømersgade 18, 1360 København, Denmark",
+      "description": "Almuerzo danés de barra en el mercado del día de Rosenborg.",
+      "strength": "Pan de centeno con arenque, pescado, huevo/gambas o patata según carta. Local con 16 asientos de barra, no restaurante de reserva.",
+      "caution": "Carta danesa 78-128 DKK por pieza vs inglesa 68-125 en varias piezas: no precio único fiable, confirmar carta local. Dos o tres piezas y bebida cambian total. Lun-vie 10-19, sáb-dom 10-18, festivos 11-17 publicados. No reservar mesa, no asiento garantizado.",
+      "alert": "Carta danesa 78-128 DKK por pieza vs inglesa 68-125 en varias piezas: no precio único fiable, confirmar carta local. Dos o tres piezas y bebida cambian total. Lun-vie 10-19, sáb-dom 10-18, festivos 11-17 publicados. No reservar mesa, no asiento garantizado.",
+      "priceLabel": "Smørrebrød · precio por pieza",
+      "photo": {
+        "img": "assets/copenhagen/hallernes.jpg",
+        "source": "https://www.flickr.com/photos/currystrumpet/14272564324/",
+        "author": "currystrumpet",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Smørrebrød de Hallernes Torvehallerne, archivo: no rellenos ni precios actuales garantizados. Recorte de presentación."
+      },
+      "officialUrl": "https://www.hallernes.dk/en/torvehallerne-2/",
+      "editorialUrl": "https://www.visitcopenhagen.com/copenhagen/planning/3-day-copenhagen-itinerary",
+      "sourceUrls": [
+        "https://www.hallernes.dk/en/torvehallerne-2/",
+        "https://www.visitcopenhagen.com/copenhagen/planning/3-day-copenhagen-itinerary"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hallernes+Sm%C3%B8rrebr%C3%B8d+-+Torvehallerne&query_place_id=ChIJzSGiCwVTUkYRM2XmxLIIRqc",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta corroboradas, sin reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "dop",
+      "name": "DØP · hot dogs ecológicos",
+      "address": "Købmagergade 52, 1150 København, Denmark",
+      "description": "Comida rápida danesa junto a Rundetårn, con alternativa vegetal verificada.",
+      "strength": "Salchicha, pan de centeno/masa madre y guarniciones; salchicha vegetariana también vegana según carta, no todos los aderezos lo son.",
+      "caution": "Sede Rundetårn en Købmagergade 52, otra junto a Helligåndskirken: no confundir. Propio lun-sáb 11-18:30; domingo no garantizado. Confirmar precio y combinaciones veganas/alérgenos, no deducir todo producto apto.",
+      "alert": "Sede Rundetårn en Købmagergade 52, otra junto a Helligåndskirken: no confundir. Propio lun-sáb 11-18:30; domingo no garantizado. Confirmar precio y combinaciones veganas/alérgenos, no deducir todo producto apto.",
+      "priceLabel": "Hot dog · consultar precio",
+      "photo": {
+        "img": "assets/copenhagen/dop.jpg",
+        "source": "https://www.flickr.com/photos/cityfoodsters/18675680994/",
+        "author": "City Foodsters",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Hot dog danés de otro local, ilustrativo; no DØP ni versión vegana. Recorte de presentación."
+      },
+      "officialUrl": "http://www.xn--dp-lka.dk/en/AboutDOP.aspx",
+      "editorialUrl": "https://copenhagenfreewalkingtours.dk/GuideRecommendations/laura-recommendations",
+      "sourceUrls": [
+        "http://www.xn--dp-lka.dk/en/AboutDOP.aspx",
+        "https://copenhagenfreewalkingtours.dk/GuideRecommendations/laura-recommendations"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=D%C3%98P+-+The+Organic+Hotdog+Stand&query_place_id=ChIJMVjrgBBTUkYRLDts5jaW23U",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta corroboradas, sin reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "hart",
+      "name": "Hart Holmen · panadería",
+      "address": "Galionsvej 41, 1437 København, Denmark",
+      "description": "Pan, café y bollería en Holmen: parada con desvío corto desde canales, no comida completa.",
+      "strength": "Masa madre y bollería danesa reinterpretada, cardamomo, croissant y spandauer según tanda.",
+      "caution": "Sede Galionsvej 41 corroborada turismo/Eater/Maps. Web propia locations sólo devuelve Refshalevej 159 A 07:30-18, no atribuir ese horario a Holmen. Catálogo web: croissant 34/cardamomo 42/spandauer 38 DKK de referencia, no tarifa/surtido de Holmen garantizados. Confirmar horario y existencias.",
+      "alert": "Sede Galionsvej 41 corroborada turismo/Eater/Maps. Web propia locations sólo devuelve Refshalevej 159 A 07:30-18, no atribuir ese horario a Holmen. Catálogo web: croissant 34/cardamomo 42/spandauer 38 DKK de referencia, no tarifa/surtido de Holmen garantizados. Confirmar horario y existencias.",
+      "priceLabel": "Panadería · confirmar precio/sede",
+      "photo": {
+        "img": "assets/copenhagen/hart.jpg",
+        "source": "https://www.flickr.com/photos/loustejskal/45369123161/",
+        "author": "Lou Stejskal",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Bollería de Hart en otra sede, archivo ilustrativo: no Holmen ni oferta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://hartbageri.com/locations/",
+      "editorialUrl": "https://www.eater.com/venue/96324/hart-bageri-holmen",
+      "sourceUrls": [
+        "https://hartbageri.com/locations/",
+        "https://www.eater.com/venue/96324/hart-bageri-holmen"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hart&query_place_id=ChIJbbtIo8xTUkYRjkrrFl-7nv8",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta corroboradas, sin reserva ni apertura futura garantizada."
+    }
+  ],
+  "activities": []
+}

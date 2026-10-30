@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "cityId": "ghent",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "meme",
+      "name": "Mémé Gusta · clásicos flamencos",
+      "address": "Burgstraat 19, 9000 Gent, Belgium",
+      "description": "Mesa en Burgstraat junto al castillo para una comida tranquila, distinta del bol vegetal y la merienda.",
+      "strength": "Stoofvlees de cerdo con cerveza oscura, vol-au-vent y croquetas; también guiso vegetariano de seitán.",
+      "caution": "Carta enlazada desde oficial: guiso 25,50€, vol-au-vent 24€, menú 3 platos 43€, bebidas aparte. El guiso de la casa es CERDO, no asumir ternera por nombre flamenco. 15€ de web es para llevar frío, no plato sentado. Piden al menos un principal por persona y máximo 5 platos distintos por mesa. Lun/mié solo 18-22; mar/jue-sáb 12-14 y 18-22, domingo cerrado. Guiso vegetariano de seitán no sin gluten; confirmar alérgenos. Foto de guiso ajeno no receta local.",
+      "alert": "Carta enlazada desde oficial: guiso 25,50€, vol-au-vent 24€, menú 3 platos 43€, bebidas aparte. El guiso de la casa es CERDO, no asumir ternera por nombre flamenco. 15€ de web es para llevar frío, no plato sentado. Piden al menos un principal por persona y máximo 5 platos distintos por mesa. Lun/mié solo 18-22; mar/jue-sáb 12-14 y 18-22, domingo cerrado. Guiso vegetariano de seitán no sin gluten; confirmar alérgenos. Foto de guiso ajeno no receta local.",
+      "priceLabel": "Principales 23-35€ · menú 43€ sin bebidas",
+      "photo": {
+        "img": "assets/ghent/meme.jpg",
+        "source": "https://www.flickr.com/photos/naotakem/5358735581/",
+        "author": "Naotake Murayama",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Guiso de cerdo ilustrativo de otra cocina; no receta flamenca ni plato actual de Mémé Gusta. Recorte de presentación."
+      },
+      "officialUrl": "https://www.meme-gusta.be/",
+      "sourceUrls": [
+        "https://www.ghenthusiast.be/recommendations",
+        "https://www-v1.tablefever.com/nl/card/xLZeJ/nl",
+        "https://www.meme-gusta.be/nl/contact"
+      ],
+      "sourceIds": [
+        "foodguide",
+        "meme",
+        "memecontact"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C3%A9m%C3%A9+Gusta&query_place_id=ChIJNWbijEBxw0cRfaJN0kNtFu0",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y carta contrastadas; no reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "botaniste",
+      "name": "Le Botaniste · un bol vegetal",
+      "address": "Hoornstraat 13, 9000 Gent, Belgium",
+      "description": "En Hoornstraat 13 para una comida ligera cerca del centro, sin otra mesa larga ni repetir guiso flamenco.",
+      "strength": "Tibetan Mama con arroz, curry de coco/cacahuete y verduras; tajín de quinoa o chili vegetal.",
+      "caution": "Sede Gent oficial diario 11:30-21:30; no reservas ordinarias, grupos>10 consultar. Carta belga FR muestra bowls 13,50-14,50€ y menú bol pequeño+sopa 14,50€; inglés no publica precios, confirmar vigencia local, no usar dólares de web estadounidense. Tibetan Mama lleva cacahuete/soja; otros bowls frutos secos/sésamo según receta. No garantía sin trazas. Foto vegetal ajena.",
+      "alert": "Sede Gent oficial diario 11:30-21:30; no reservas ordinarias, grupos>10 consultar. Carta belga FR muestra bowls 13,50-14,50€ y menú bol pequeño+sopa 14,50€; inglés no publica precios, confirmar vigencia local, no usar dólares de web estadounidense. Tibetan Mama lleva cacahuete/soja; otros bowls frutos secos/sésamo según receta. No garantía sin trazas. Foto vegetal ajena.",
+      "priceLabel": "Carta belga bowls 13,50-14,50€ · confirmar sede",
+      "photo": {
+        "img": "assets/ghent/botaniste.jpg",
+        "source": "https://www.flickr.com/photos/ellaolsson/42231145040/",
+        "author": "Ella Olsson",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Platos vegetales ilustrativos de otro establecimiento; no Le Botaniste ni su carta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://lebotaniste.eu/en/menu/",
+      "sourceUrls": [
+        "https://www.ghenthusiast.be/recommendations",
+        "https://nextstopbelgium.com/restaurants-in-ghent/",
+        "https://lebotaniste.eu/en/menu/",
+        "https://lebotaniste.eu/fr/menu-online-fr/",
+        "https://lebotaniste.eu/en/locations/"
+      ],
+      "sourceIds": [
+        "foodguide",
+        "foodguide2",
+        "botaniste",
+        "botprices",
+        "botlocation"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Botaniste&query_place_id=ChIJ8SZpAURxw0cRa9eTCcZqLQs",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y carta contrastadas; no reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "julie",
+      "name": "Julie’s House · scone junto al canal",
+      "address": "Kraanlei 13, 9000 Gent, Belgium",
+      "description": "Kraanlei 13, una merienda después del castillo o Patershol, no la tienda de Elisabethlaan ni el obrador de Wiedauwkaai.",
+      "strength": "Scone con mermelada y clotted cream, tartas o scone vegano de chocolate; menús de desayuno y té son otro formato.",
+      "caution": "Scone clásico 4€ y chocolate vegano 4€ según PDFactual; té 30€ con reserva y horario específico, no tarifa de una merienda libre. Kraanlei lun-vie 13-18, sáb/dom 9:30-18; festivos/vacaciones 9:30-18. No aceptan reservas solo para café/tarta. Desayuno 9:30-12 y té 14-15 fines de semana/vacaciones según carta, no desayuno diario laborable. Lácteos/gluten según dulce; preguntar alérgenos. Foto scone ajeno.",
+      "alert": "Scone clásico 4€ y chocolate vegano 4€ según PDFactual; té 30€ con reserva y horario específico, no tarifa de una merienda libre. Kraanlei lun-vie 13-18, sáb/dom 9:30-18; festivos/vacaciones 9:30-18. No aceptan reservas solo para café/tarta. Desayuno 9:30-12 y té 14-15 fines de semana/vacaciones según carta, no desayuno diario laborable. Lácteos/gluten según dulce; preguntar alérgenos. Foto scone ajeno.",
+      "priceLabel": "Scone 4€ · bebida aparte",
+      "photo": {
+        "img": "assets/ghent/julie.jpg",
+        "source": "https://www.flickr.com/photos/crayonmonkey/5358004922/",
+        "author": "crayonmonkey",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Scone ilustrativo de otro establecimiento; no Julie’s House ni su producto actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.julieshouse.be/en_GB/reserveren",
+      "sourceUrls": [
+        "https://www.ghenthusiast.be/recommendations",
+        "https://www.julieshouse.be/en_GB/winkels",
+        "https://www.julieshouse.be/en_GB/reserveren",
+        "https://www.julieshouse.be/web/content/207836?unique=5e3cbf8bb1cb451b3186316f0daa066023ed2130&download=true"
+      ],
+      "sourceIds": [
+        "foodguide",
+        "julie",
+        "juliebooking",
+        "juliemenu"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Julie%27s+House+-+taartenhuis&query_place_id=ChIJ7-aNTkdxw0cRN1jdam0AWVo",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y carta contrastadas; no reserva ni apertura futura garantizada."
+    }
+  ],
+  "activities": []
+}

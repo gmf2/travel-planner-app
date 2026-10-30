@@ -1,0 +1,1115 @@
+{
+  "schemaVersion": 1,
+  "country": "IT",
+  "id": "turin",
+  "name": "Turín",
+  "localName": "Torino",
+  "selectionReason": "Ampliación italiana pedida por el usuario.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días urbanos sin fecha ni reservas. Egizio, Cine, Reali en días distintos; no Borgo ni Superga garantizados.",
+  "stops": [
+    {
+      "id": "sancarlo",
+      "name": "Piazza San Carlo · soportales",
+      "kind": "visit",
+      "zone": "Centro / Via Roma",
+      "reason": "Empezar entre soportales y fachadas de la plaza, antes de dedicar la mañana al Museo Egizio.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 45.0677909,
+        "lon": 7.6824328
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+San+Carlo&query_place_id=ChIJRbs1Qm5tiEcRReFaMXOkGig",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "Iglesias, café y comercios con horario propio, sin consumos incluidos. Foto nocturna de archivo no promete iluminación o eventos en la fecha elegida.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/sancarlo.jpg",
+        "source": "https://www.flickr.com/photos/albertoperro/30602753253/",
+        "author": "Alberto Perro",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza y soportales exteriores"
+    },
+    {
+      "id": "egizio",
+      "name": "Museo Egizio · visita larga",
+      "kind": "visit",
+      "zone": "Centro / Accademia delle Scienze",
+      "reason": "Una mañana para las colecciones egipcias, sin correr para encajar otros dos museos después.",
+      "sourceIds": [
+        "guide1",
+        "guide3",
+        "egiziohours",
+        "egiziohoursit",
+        "egiziotickets",
+        "egiziobook"
+      ],
+      "coordinates": {
+        "lat": 45.0684433,
+        "lon": 7.6844128
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Museo+Egizio&query_place_id=ChIJcbdhzm9tiEcRV5jbgVsAy24",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 18€ según tarifa oficial en imagen, compra solo online. Horarios oficiales discrepan: inglés resume 9-20, HTML italiano detallado lun 9-14, mar-vie/dom 9-18:30, sáb 9-20. Reservar por franja y confirmar calendario del día, no prometer lunes hasta 20. Última entrada 1 h antes según inglés. Foto fachada, no sala de archivo como montaje actual garantizado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/egizio.jpg",
+        "source": "https://www.flickr.com/photos/nefasth/6337531169/",
+        "author": "nefasth",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Fachada del Museo Egizio en archivo, no distribución actual de sus salas. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago con compra online"
+    },
+    {
+      "id": "carignano",
+      "name": "Piazza Carignano · pausa y fachadas",
+      "kind": "visit",
+      "zone": "Centro / Carignano",
+      "reason": "La plaza junto al museo permite comer o tomar un café sin cruzar la ciudad después de la colección.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 45.0690917,
+        "lon": 7.6848594
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+Carignano&query_place_id=ChIJW0rjJHBtiEcRfy38HdiyP7s",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Museo del Risorgimento, teatro y restaurantes no incluidos. Es pausa de barrio, no una segunda entrada larga.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/carignano.jpg",
+        "source": "https://www.flickr.com/photos/129231073@N06/38238247975/",
+        "author": "Fred Romero",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza y palacio exterior"
+    },
+    {
+      "id": "castello",
+      "name": "Piazza Castello · Madama exterior",
+      "kind": "visit",
+      "zone": "Centro / Castello",
+      "reason": "Rodear Palazzo Madama y leer las fachadas de la plaza, dejando los interiores reales para otro día.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 45.0714708,
+        "lon": 7.6858413
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+Castello&query_place_id=ChIJberAW3BtiEcR3TY4n0FO_kw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "No sumar Palazzo Madama interior, Reali y campanario después del Egizio. Piazza Castello no implica billete para todos los edificios.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/castello.jpg",
+        "source": "https://www.flickr.com/photos/11741671@N03/3914540207/",
+        "author": "Geert Orye",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza y palacios exteriores"
+    },
+    {
+      "id": "mole",
+      "name": "Mole Antonelliana · Museo del Cine",
+      "kind": "visit",
+      "zone": "Mole / Montebello",
+      "reason": "Cine y arquitectura dentro del símbolo de Turín, la visita interior principal del día del Po.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "cinema",
+        "cinemahours"
+      ],
+      "coordinates": {
+        "lat": 45.0691807,
+        "lon": 7.693233900000001
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Mole+Antonelliana&query_place_id=ChIJdeBgpXxtiEcRCA1w65O0FjM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Museo 18€, ascensor 9€, combinado 23€ según web, no 18€ por todo. Lun/mié-dom 9-19, martes cerrado; última entrada 18, cola puede cerrar antes. 09/12/2026-14/12/2026 cerrados según calendario oficial; 01/12 y 08/12 abiertos. Ascensor opcional añade cola/tiempo, no subir a pie por asumir que es alternativa: web avisa suspensión estival. Plazas de ascensor salen 19 h antes según tarifas vs 24 h FAQ: no garantía.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/mole.jpg",
+        "source": "https://www.flickr.com/photos/ralf-steinberger/36758179634/",
+        "author": "Ralf Steinberger",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago; ascensor aparte"
+    },
+    {
+      "id": "viapo",
+      "name": "Via Po · paseo bajo soportales",
+      "kind": "visit",
+      "zone": "Via Po",
+      "reason": "Volver a la calle entre librerías y soportales, con pausa de comida antes de bajar al río.",
+      "sourceIds": [
+        "guide1",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 45.0681684,
+        "lon": 7.6902124
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Via+Po&query_place_id=ChIJS4ao2mRtiEcR8RSpSkNFPiI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Comercios y cafés pueden cerrar, no prometer escaparate concreto ni comida incluida. El punto es de tramo, no toda la calle ni puerta accesible.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/viapo.jpg",
+        "source": "https://www.flickr.com/photos/o_0/49136654773/",
+        "author": "Guilhem Vellut",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Soportales y calle exterior"
+    },
+    {
+      "id": "vittorio",
+      "name": "Piazza Vittorio Veneto · puente y río",
+      "kind": "visit",
+      "zone": "Po / Vittorio Veneto",
+      "reason": "Plaza abierta, cruce del Po y entorno de la Gran Madre, antes de decidir si compensa subir al mirador.",
+      "sourceIds": [
+        "guide1",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 45.0649468,
+        "lon": 7.6951968
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+Vittorio+Veneto&query_place_id=ChIJc4SZP2JtiEcRhc-lJYpHZOY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Gran Madre exterior, no culto como visita turística. Mirador siguiente requiere pendiente, no acceso llano. Foto muestra puente y templo junto a plaza, no la plaza completa.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/vittorio.jpg",
+        "source": "https://www.flickr.com/photos/bryangeek/102185480/",
+        "author": "Bryan Allison",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Puente y Gran Madre junto a Piazza Vittorio Veneto, no interior religioso. Recorte de presentación."
+      },
+      "visitMode": "Plaza y puente exteriores"
+    },
+    {
+      "id": "monte",
+      "name": "Monte dei Cappuccini · mirador",
+      "kind": "visit",
+      "zone": "Po / colina",
+      "reason": "Subida corta pero con pendiente para ver la ciudad y la Mole desde la otra orilla.",
+      "sourceIds": [
+        "guide1",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 45.0597019,
+        "lon": 7.6976136
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Chiesa+di+Santa+Maria+del+Monte+dei+Cappuccini&query_place_id=ChIJPdjvk59yiEcRwFr_jW3XZx8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Maps 1117 m/18 min desde Vittorio es solo enlace de ida con subida; añadir descanso y vuelta. Niebla puede ocultar Alpes, no puesta de sol garantizada. Recortar con hielo, lluvia o movilidad limitada; iglesia/Museo de Montaña no incluidos. No Superga a continuación.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/monte.jpg",
+        "source": "https://www.flickr.com/photos/o_0/49425797606/",
+        "author": "Guilhem Vellut",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mirador exterior con subida"
+    },
+    {
+      "id": "market",
+      "name": "Porta Palazzo · mercado de mañana",
+      "kind": "visit",
+      "zone": "Porta Palazzo",
+      "reason": "Puestos de producto y vida diaria en la plaza antes del bloque de Musei Reali, si el mercado abre.",
+      "sourceIds": [
+        "guide1",
+        "guide3",
+        "market"
+      ],
+      "coordinates": {
+        "lat": 45.0774127,
+        "lon": 7.683323100000001
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Porta+Palazzo&query_place_id=ChIJ54oB0GRtiEcREhYacsfkX8g",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Mercado al aire libre lun-vie 7-14, sáb 7-19; domingo sin apertura publicada. No confundir con Mercato Centrale gastronómico ni mercados cubiertos. Obras desde 12/05/2025 hasta fin de necesidad pueden mover puestos. Si domingo/festivo, cambiar día o recorrido de plaza/Consolata sin mercado prometido.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/market.jpg",
+        "source": "https://www.flickr.com/photos/photobeppus/14397803131/",
+        "author": "photobeppus",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Entorno exterior de Porta Palazzo en archivo, no puestos ni mercancía garantizados. Recorte de presentación."
+      },
+      "visitMode": "Mercado exterior; consumos aparte"
+    },
+    {
+      "id": "palatina",
+      "name": "Porta Palatina · puerta romana",
+      "kind": "visit",
+      "zone": "Palatina",
+      "reason": "Torres y restos romanos en un recorrido exterior entre el mercado y el palacio.",
+      "sourceIds": [
+        "guide1",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 45.0750378,
+        "lon": 7.684685199999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Palatine+Gate&query_place_id=ChIJy3DZ6XZtiEcRr2Ydn_pFyCw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "No subir torres ni entrar recinto vallado. La puerta no es un museo interior libre. Foto y punto verificados de la puerta, no Palatino de Roma.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/palatina.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/52736877254/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Puerta y entorno exterior"
+    },
+    {
+      "id": "reale",
+      "name": "Musei Reali · palacio y colecciones",
+      "kind": "visit",
+      "zone": "Reale",
+      "reason": "Bloque largo para el palacio y la Capilla de la Sábana Santa, eligiendo salas sin intentar abarcar todo.",
+      "sourceIds": [
+        "guide2",
+        "guide3",
+        "reale"
+      ],
+      "coordinates": {
+        "lat": 45.0728337,
+        "lon": 7.686331699999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Royal+Palace+of+Turin&query_place_id=ChIJC-rXcnBtiEcRjK-icXN-bd8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 15€, jue-mar 9-19, última 18; MIÉRCOLES cerrado, no lunes. Individuales hasta 6 sin reserva obligatoria según web, pero consultar calendario. Gratuitos se emiten en taquilla, no reserva online en primeras jornadas gratuitas. Capilla de la Sindone NO exhibición permanente de la Sábana. Jardines gratis jue-mar, en invierno 25/10/2026-27/03/2027 8:30-17, última 16:40, no asumir 19.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/reale.jpg",
+        "source": "https://www.flickr.com/photos/o_0/49118111627/",
+        "author": "Guilhem Vellut",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo real de pago"
+    },
+    {
+      "id": "quadrilatero",
+      "name": "Quadrilatero Romano · calles y Consolata",
+      "kind": "visit",
+      "zone": "Quadrilatero",
+      "reason": "Cerrar el día entre calles antiguas y plazas, con pausa de café o cena sin otra visita de pago obligatoria.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 45.0764315,
+        "lon": 7.6811978
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+Emanuele+Filiberto&query_place_id=ChIJY7bErHVtiEcRZrvl282bdCc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Punto en Piazza Emanuele Filiberto, inicio de paseo hacia Consolata. Bicerin miércoles cerrado y mercado horario de mañana; no prometer ambos por la tarde. Comercios y consumos aparte.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/turin/quadrilatero.jpg",
+        "source": "https://www.flickr.com/photos/lucagalli/9249447232/",
+        "author": "Luca Galli",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio y plazas exteriores"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "El centro y una mañana en el Egizio",
+          "zone": "San Carlo → Egizio → Carignano → Castello",
+          "stopIds": [
+            "sancarlo",
+            "egizio",
+            "carignano",
+            "castello"
+          ],
+          "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "El centro y una mañana en el Egizio",
+          "zone": "San Carlo → Egizio → Carignano → Castello",
+          "stopIds": [
+            "sancarlo",
+            "egizio",
+            "carignano",
+            "castello"
+          ],
+          "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+        },
+        {
+          "title": "Cine, soportales y la otra orilla del Po",
+          "zone": "Mole → Via Po → Vittorio Veneto → Cappuccini",
+          "stopIds": [
+            "mole",
+            "viapo",
+            "vittorio",
+            "monte"
+          ],
+          "editorialNote": "Museo del Cine principal; ascensor es opcional y añade tiempo. Monte dei Cappuccini según energía y tiempo, no continuar a Superga/Valentino por obligación.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida y regreso. Maps 341 m/4 min, 530 m/7 min, 1117 m/18 min de subida. No cuentan regreso del mirador. Martes/cierre 09-14 diciembre 2026: intercambiar días o exterior con sustitución elegida, no entrada garantizada."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "El centro y una mañana en el Egizio",
+          "zone": "San Carlo → Egizio → Carignano → Castello",
+          "stopIds": [
+            "sancarlo",
+            "egizio",
+            "carignano",
+            "castello"
+          ],
+          "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+        },
+        {
+          "title": "Cine, soportales y la otra orilla del Po",
+          "zone": "Mole → Via Po → Vittorio Veneto → Cappuccini",
+          "stopIds": [
+            "mole",
+            "viapo",
+            "vittorio",
+            "monte"
+          ],
+          "editorialNote": "Museo del Cine principal; ascensor es opcional y añade tiempo. Monte dei Cappuccini según energía y tiempo, no continuar a Superga/Valentino por obligación.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida y regreso. Maps 341 m/4 min, 530 m/7 min, 1117 m/18 min de subida. No cuentan regreso del mirador. Martes/cierre 09-14 diciembre 2026: intercambiar días o exterior con sustitución elegida, no entrada garantizada."
+        },
+        {
+          "title": "Porta Palazzo y los Musei Reali",
+          "zone": "Mercado → Palatina → Reali → Quadrilatero",
+          "stopIds": [
+            "market",
+            "palatina",
+            "reale",
+            "quadrilatero"
+          ],
+          "editorialNote": "Mercado primero para no llegar después del cierre; museo real como único interior largo. Miércoles Reali cerrado, domingo mercado exterior no abierto: intercambiar días según calendario.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 400 m/5 min, 399 m/5 min, 729 m/9 min; paseo del Quadrilatero aparte. Jardines reales opcionales dentro del bloque, no otro museo largo ni visita libre garantizada a biblioteca."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Calor en plazas y subida al mirador; museos y comida con descanso. No ascenso a pie de Mole sin revisar suspensión estival.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Niebla puede ocultar montañas; hielo/lluvia aconsejan quitar Cappuccini. Jardines Reali invierno 8:30-17, última 16:40, miércoles cerrado.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Museo Cine 09/12/2026-14/12/2026 cerrado; 24/31 dic 9-18, 25 dic y 1 ene 14-21; confirmar excepciones. Bicerin 25 dic/1 ene cerrado, 24/31 dic 16. No mercado navideño permanente.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Reali miércoles cerrado, Cine martes, Egizio lunes puede cerrar 14 según italiano. Intercambiar días según reserva/calendario, no regla universal lunes.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No entradas, mesas, pases ni transporte comprados. Importes actuales no garantizan precio o hueco futuro.",
+    "Musei Reali cierra miércoles, Cine martes, Egizio lunes horario reducido según italiano: no trasladar cierre de otro museo.",
+    "Borgo Medievale excluido: ficha municipal dice no accesible, obras fin de julio 2026 no prueba reapertura. No cortar por vallados."
+  ],
+  "excludedOrOptional": [
+    "Reali sustituye Egizio o Cine si solo hay dos días y se prefiere palacio; no sumar tres interiores largos el mismo día.",
+    "Superga, Venaria, MAUTO/Lingotto requieren bloque propio, no después de Cappuccini y Valentino.",
+    "Valentino exterior puede sustituir mirador con ruta nueva; Borgo no acceso garantizado ni castillo libre."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "TurismoTorino: dos/tres días, reducir carga",
+      "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/what-to-see-in-torino-in-two-and-three-days-ideas-and-routes",
+      "type": "official-tourism-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "Michelin: tres días por capas",
+      "url": "https://www.viamichelin.com/magazine/article/weekend-visit-turin-three-days",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide3",
+      "title": "DiscoverNorthernItaly: guía local, cierres revisar",
+      "url": "https://discovernorthernitaly.com/things-to-do-in-turin/",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "egiziohours",
+      "title": "Egizio: horario inglés resumido",
+      "url": "https://museoegizio.it/en/info/hours/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "egiziohoursit",
+      "title": "Egizio: horario italiano detallado en HTML",
+      "url": "https://museoegizio.it/info/orari/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "egiziotickets",
+      "title": "Egizio: tarifa 18€ en imagen",
+      "url": "https://www.museoegizio.it/info/prezzi",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "egiziobook",
+      "title": "Egizio: solo online",
+      "url": "https://museoegizio.it/en/explore/news/official-tickets-shop",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cinema",
+      "title": "Cine: tarifas 18/9/23",
+      "url": "https://www.museocinema.it/it/orari-e-biglietti/museo-nazionale-del-cinema",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cinemahours",
+      "title": "Cine: cierres 09-14 diciembre 2026",
+      "url": "https://www.museocinema.it/it/orari-museo-nazionale-del-cinema",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "reale",
+      "title": "Reali: miércoles cerrado y jardines invierno",
+      "url": "https://museireali.cultura.gov.it/organizza-la-tua-visita/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "market",
+      "title": "Ayuntamiento: Porta Palazzo al aire libre",
+      "url": "https://commercio.comune.torino.it/mercati/mercati-allaperto/mercato-porta-palazzo/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "borgo",
+      "title": "Ayuntamiento: Borgo no accesible",
+      "url": "https://www.comune.torino.it/vivere-comune/luoghi/borgo-medievale-torino",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "borgoworks",
+      "title": "Ayuntamiento 13 julio 2026: obras fin de julio, colaboraciones posteriores",
+      "url": "https://www.comune.torino.it/novita/comunicati/borgo-medievale-fine-luglio-conclusione-dei-lavori-restauro-sopralluogo-sindaco",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "scannabue",
+      "title": "Scannabue: carta",
+      "url": "https://www.scannabue.it/menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "scannabook",
+      "title": "Scannabue: reservas",
+      "url": "https://www.scannabue.it/prenotazioni/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "scannacritic",
+      "title": "Michelin: coniglio y carrillera",
+      "url": "https://guide.michelin.com/us/en/piemonte/torino/restaurant/scannabue-caffe-restaurant",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "scannadirectory",
+      "title": "OpenTable: horarios, difieren cierre cena",
+      "url": "https://www.opentable.it/r/scannabue-torino",
+      "type": "booking-directory",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "bicerin",
+      "title": "Al Bicerin: horario italiano",
+      "url": "https://bicerin.it/dove-siamo/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "bicerinen",
+      "title": "Al Bicerin: inglés con error de año verano",
+      "url": "https://bicerin.it/en/directions/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "bicerinrecipe",
+      "title": "Al Bicerin: receta/servicio",
+      "url": "https://bicerin.it/en/the-bicerin/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mezzaluna",
+      "title": "Mezzaluna: carta y horario",
+      "url": "https://www.mezzalunatorino.it/en/vegan-menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mezzacritic",
+      "title": "SlowTravelItalia: vegetal, horario corregido",
+      "url": "https://slowtravelitalia.it/blogs/torino-blog/the-best-vegan-and-vegetarian-restaurants-in-torino",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "El centro y una mañana en el Egizio",
+            "zone": "San Carlo → Egizio → Carignano → Castello",
+            "stopIds": [
+              "sancarlo",
+              "egizio",
+              "carignano",
+              "castello"
+            ],
+            "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "El centro y una mañana en el Egizio",
+            "zone": "San Carlo → Egizio → Carignano → Castello",
+            "stopIds": [
+              "sancarlo",
+              "egizio",
+              "carignano",
+              "castello"
+            ],
+            "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+          },
+          {
+            "title": "Cine, soportales y la otra orilla del Po",
+            "zone": "Mole → Via Po → Vittorio Veneto → Cappuccini",
+            "stopIds": [
+              "mole",
+              "viapo",
+              "vittorio",
+              "monte"
+            ],
+            "editorialNote": "Museo del Cine principal; ascensor es opcional y añade tiempo. Monte dei Cappuccini según energía y tiempo, no continuar a Superga/Valentino por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y regreso. Maps 341 m/4 min, 530 m/7 min, 1117 m/18 min de subida. No cuentan regreso del mirador. Martes/cierre 09-14 diciembre 2026: intercambiar días o exterior con sustitución elegida, no entrada garantizada."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "El centro y una mañana en el Egizio",
+            "zone": "San Carlo → Egizio → Carignano → Castello",
+            "stopIds": [
+              "sancarlo",
+              "egizio",
+              "carignano",
+              "castello"
+            ],
+            "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+          },
+          {
+            "title": "Cine, soportales y la otra orilla del Po",
+            "zone": "Mole → Via Po → Vittorio Veneto → Cappuccini",
+            "stopIds": [
+              "mole",
+              "viapo",
+              "vittorio",
+              "monte"
+            ],
+            "editorialNote": "Museo del Cine principal; ascensor es opcional y añade tiempo. Monte dei Cappuccini según energía y tiempo, no continuar a Superga/Valentino por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y regreso. Maps 341 m/4 min, 530 m/7 min, 1117 m/18 min de subida. No cuentan regreso del mirador. Martes/cierre 09-14 diciembre 2026: intercambiar días o exterior con sustitución elegida, no entrada garantizada."
+          },
+          {
+            "title": "Porta Palazzo y los Musei Reali",
+            "zone": "Mercado → Palatina → Reali → Quadrilatero",
+            "stopIds": [
+              "market",
+              "palatina",
+              "reale",
+              "quadrilatero"
+            ],
+            "editorialNote": "Mercado primero para no llegar después del cierre; museo real como único interior largo. Miércoles Reali cerrado, domingo mercado exterior no abierto: intercambiar días según calendario.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 400 m/5 min, 399 m/5 min, 729 m/9 min; paseo del Quadrilatero aparte. Jardines reales opcionales dentro del bloque, no otro museo largo ni visita libre garantizada a biblioteca."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "El centro y una mañana en el Egizio",
+            "zone": "San Carlo → Egizio → Carignano → Castello",
+            "stopIds": [
+              "sancarlo",
+              "egizio",
+              "carignano",
+              "castello"
+            ],
+            "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "El centro y una mañana en el Egizio",
+            "zone": "San Carlo → Egizio → Carignano → Castello",
+            "stopIds": [
+              "sancarlo",
+              "egizio",
+              "carignano",
+              "castello"
+            ],
+            "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+          },
+          {
+            "title": "Cine, soportales y la otra orilla del Po",
+            "zone": "Mole → Via Po → Vittorio Veneto → Cappuccini",
+            "stopIds": [
+              "mole",
+              "viapo",
+              "vittorio",
+              "monte"
+            ],
+            "editorialNote": "Museo del Cine principal; ascensor es opcional y añade tiempo. Monte dei Cappuccini según energía y tiempo, no continuar a Superga/Valentino por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y regreso. Maps 341 m/4 min, 530 m/7 min, 1117 m/18 min de subida. No cuentan regreso del mirador. Martes/cierre 09-14 diciembre 2026: intercambiar días o exterior con sustitución elegida, no entrada garantizada."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "El centro y una mañana en el Egizio",
+            "zone": "San Carlo → Egizio → Carignano → Castello",
+            "stopIds": [
+              "sancarlo",
+              "egizio",
+              "carignano",
+              "castello"
+            ],
+            "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+          },
+          {
+            "title": "Cine, soportales y la otra orilla del Po",
+            "zone": "Mole → Via Po → Vittorio Veneto → Cappuccini",
+            "stopIds": [
+              "mole",
+              "viapo",
+              "vittorio",
+              "monte"
+            ],
+            "editorialNote": "Museo del Cine principal; ascensor es opcional y añade tiempo. Monte dei Cappuccini según energía y tiempo, no continuar a Superga/Valentino por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y regreso. Maps 341 m/4 min, 530 m/7 min, 1117 m/18 min de subida. No cuentan regreso del mirador. Martes/cierre 09-14 diciembre 2026: intercambiar días o exterior con sustitución elegida, no entrada garantizada."
+          },
+          {
+            "title": "Porta Palazzo y los Musei Reali",
+            "zone": "Mercado → Palatina → Reali → Quadrilatero",
+            "stopIds": [
+              "market",
+              "palatina",
+              "reale",
+              "quadrilatero"
+            ],
+            "editorialNote": "Mercado primero para no llegar después del cierre; museo real como único interior largo. Miércoles Reali cerrado, domingo mercado exterior no abierto: intercambiar días según calendario.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 400 m/5 min, 399 m/5 min, 729 m/9 min; paseo del Quadrilatero aparte. Jardines reales opcionales dentro del bloque, no otro museo largo ni visita libre garantizada a biblioteca."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "El centro y una mañana en el Egizio",
+            "zone": "San Carlo → Egizio → Carignano → Castello",
+            "stopIds": [
+              "sancarlo",
+              "egizio",
+              "carignano",
+              "castello"
+            ],
+            "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "El centro y una mañana en el Egizio",
+            "zone": "San Carlo → Egizio → Carignano → Castello",
+            "stopIds": [
+              "sancarlo",
+              "egizio",
+              "carignano",
+              "castello"
+            ],
+            "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+          },
+          {
+            "title": "Cine, soportales y la otra orilla del Po",
+            "zone": "Mole → Via Po → Vittorio Veneto → Cappuccini",
+            "stopIds": [
+              "mole",
+              "viapo",
+              "vittorio",
+              "monte"
+            ],
+            "editorialNote": "Museo del Cine principal; ascensor es opcional y añade tiempo. Monte dei Cappuccini según energía y tiempo, no continuar a Superga/Valentino por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y regreso. Maps 341 m/4 min, 530 m/7 min, 1117 m/18 min de subida. No cuentan regreso del mirador. Martes/cierre 09-14 diciembre 2026: intercambiar días o exterior con sustitución elegida, no entrada garantizada."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "El centro y una mañana en el Egizio",
+            "zone": "San Carlo → Egizio → Carignano → Castello",
+            "stopIds": [
+              "sancarlo",
+              "egizio",
+              "carignano",
+              "castello"
+            ],
+            "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+          },
+          {
+            "title": "Cine, soportales y la otra orilla del Po",
+            "zone": "Mole → Via Po → Vittorio Veneto → Cappuccini",
+            "stopIds": [
+              "mole",
+              "viapo",
+              "vittorio",
+              "monte"
+            ],
+            "editorialNote": "Museo del Cine principal; ascensor es opcional y añade tiempo. Monte dei Cappuccini según energía y tiempo, no continuar a Superga/Valentino por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y regreso. Maps 341 m/4 min, 530 m/7 min, 1117 m/18 min de subida. No cuentan regreso del mirador. Martes/cierre 09-14 diciembre 2026: intercambiar días o exterior con sustitución elegida, no entrada garantizada."
+          },
+          {
+            "title": "Porta Palazzo y los Musei Reali",
+            "zone": "Mercado → Palatina → Reali → Quadrilatero",
+            "stopIds": [
+              "market",
+              "palatina",
+              "reale",
+              "quadrilatero"
+            ],
+            "editorialNote": "Mercado primero para no llegar después del cierre; museo real como único interior largo. Miércoles Reali cerrado, domingo mercado exterior no abierto: intercambiar días según calendario.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 400 m/5 min, 399 m/5 min, 729 m/9 min; paseo del Quadrilatero aparte. Jardines reales opcionales dentro del bloque, no otro museo largo ni visita libre garantizada a biblioteca."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "El centro y una mañana en el Egizio",
+            "zone": "San Carlo → Egizio → Carignano → Castello",
+            "stopIds": [
+              "sancarlo",
+              "egizio",
+              "carignano",
+              "castello"
+            ],
+            "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "El centro y una mañana en el Egizio",
+            "zone": "San Carlo → Egizio → Carignano → Castello",
+            "stopIds": [
+              "sancarlo",
+              "egizio",
+              "carignano",
+              "castello"
+            ],
+            "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+          },
+          {
+            "title": "Cine, soportales y la otra orilla del Po",
+            "zone": "Mole → Via Po → Vittorio Veneto → Cappuccini",
+            "stopIds": [
+              "mole",
+              "viapo",
+              "vittorio",
+              "monte"
+            ],
+            "editorialNote": "Museo del Cine principal; ascensor es opcional y añade tiempo. Monte dei Cappuccini según energía y tiempo, no continuar a Superga/Valentino por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y regreso. Maps 341 m/4 min, 530 m/7 min, 1117 m/18 min de subida. No cuentan regreso del mirador. Martes/cierre 09-14 diciembre 2026: intercambiar días o exterior con sustitución elegida, no entrada garantizada."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "El centro y una mañana en el Egizio",
+            "zone": "San Carlo → Egizio → Carignano → Castello",
+            "stopIds": [
+              "sancarlo",
+              "egizio",
+              "carignano",
+              "castello"
+            ],
+            "editorialNote": "Museo Egizio como interior largo; Carignano y Madama exteriores. No añadir Reali, Risorgimento y campanario por cercanía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 264 m/3 min, 98 m/1 min, 433 m/6 min no incluyen museo ni recorridos de plaza. Lunes reservar la mañana y confirmar cierre, web italiana/inglesa discrepan."
+          },
+          {
+            "title": "Cine, soportales y la otra orilla del Po",
+            "zone": "Mole → Via Po → Vittorio Veneto → Cappuccini",
+            "stopIds": [
+              "mole",
+              "viapo",
+              "vittorio",
+              "monte"
+            ],
+            "editorialNote": "Museo del Cine principal; ascensor es opcional y añade tiempo. Monte dei Cappuccini según energía y tiempo, no continuar a Superga/Valentino por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y regreso. Maps 341 m/4 min, 530 m/7 min, 1117 m/18 min de subida. No cuentan regreso del mirador. Martes/cierre 09-14 diciembre 2026: intercambiar días o exterior con sustitución elegida, no entrada garantizada."
+          },
+          {
+            "title": "Porta Palazzo y los Musei Reali",
+            "zone": "Mercado → Palatina → Reali → Quadrilatero",
+            "stopIds": [
+              "market",
+              "palatina",
+              "reale",
+              "quadrilatero"
+            ],
+            "editorialNote": "Mercado primero para no llegar después del cierre; museo real como único interior largo. Miércoles Reali cerrado, domingo mercado exterior no abierto: intercambiar días según calendario.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, pausas y museo de 3 h. Maps 400 m/5 min, 399 m/5 min, 729 m/9 min; paseo del Quadrilatero aparte. Jardines reales opcionales dentro del bloque, no otro museo largo ni visita libre garantizada a biblioteca."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Tres guías antes de oficiales/Maps.",
+    "Egizio 18€ tarifa en imagen inspeccionada; horario inglés/italiano discrepan, HTML italiano recuperado.",
+    "Reali miércoles cerrado no lunes; Borgo obra terminada no reapertura.",
+    "15 fotos exactas licenciadas, comidas ilustrativas explícitas."
+  ],
+  "editorialTradeoffs": [
+    "Un interior largo por día, no Egizio+Reali+Madama apilados.",
+    "Mercado primero, ni domingo ni tarde laboral asumidos.",
+    "Cine martes/Reali miércoles hacen necesario adaptar orden; Cappuccini recortable, no otro mirador encima."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "TurismoTorino, Michelin y Discover Northern Italy contrastadas; reducidas rutas atiborradas. Scannabue crítico+carta, Al Bicerin oficial+guía, Mezzaluna carta corrige guía sobre almuerzos."
+}

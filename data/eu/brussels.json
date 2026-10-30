@@ -1,0 +1,1149 @@
+{
+  "schemaVersion": 1,
+  "country": "BE",
+  "id": "brussels",
+  "name": "Bruselas",
+  "localName": "Bruxelles / Brussel",
+  "selectionReason": "Ampliación belga solicitada.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fecha. Tercer día norte opcional, alternativa europea, no excursión a otra ciudad.",
+  "stops": [
+    {
+      "id": "pis",
+      "name": "Manneken Pis · una parada breve",
+      "kind": "visit",
+      "zone": "Rue de l’Étuve",
+      "reason": "Ver la pequeña fuente como detalle del centro, sin darle una mañana entera ni confundir tamaño con importancia.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 50.844993,
+        "lon": 4.349989
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Manneken+Pis&query_place_id=ChIJ0T1eGXnEw0cRH8GwIKZAuBc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 20,
+      "durationType": "editorial-estimate",
+      "caution": "Puede vestir traje según calendario; la foto no garantiza el aspecto del día. Mucha gente en una esquina pequeña. No entrada ni museo incluidos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/pis.jpg",
+        "source": "https://www.flickr.com/photos/24736216@N07/2843006102/",
+        "author": "Roger W",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Fuente exterior"
+    },
+    {
+      "id": "grand",
+      "name": "Grand-Place · mirar las fachadas con calma",
+      "kind": "visit",
+      "zone": "Grand-Place",
+      "reason": "La plaza merece recorrer sus lados y volver con otra luz, en lugar de cruzarla solo para una foto.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 50.8467887,
+        "lon": 4.3524356
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Grand+Place&query_place_id=ChIJ8fEURn_Ew0cRts_ij101PLA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 85,
+      "durationType": "editorial-estimate",
+      "caution": "No se incluye interior del Ayuntamiento ni Museo de la Ciudad. Eventos, montajes y acceso a edificios dependen de fecha. No prometer alfombra floral o espectáculo navideño todos los años.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/grand.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/52190368718/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "galeries",
+      "name": "Galerías Saint-Hubert · paseo bajo cristal",
+      "kind": "visit",
+      "zone": "Galeries Royales Saint-Hubert",
+      "reason": "Un tramo cubierto entre arquitectura, escaparates y una pausa de café, sin convertir cada chocolatería en compra obligatoria.",
+      "sourceIds": [
+        "guide1",
+        "guide3",
+        "mokafe"
+      ],
+      "coordinates": {
+        "lat": 50.8480832,
+        "lon": 4.355250600000001
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Royal+Gallery+of+Saint+Hubert&query_place_id=ChIJu1XHbn_Ew0cRMNenwioHHhM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Las galerías no equivalen a tiendas abiertas a cualquier hora. Chocolates, café y gofre se pagan aparte; confirmar precio y alérgenos antes de pedir.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/galeries.jpg",
+        "source": "https://www.flickr.com/photos/itmpa/33065900728/",
+        "author": "Tom Parnell",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Galerías y café opcional"
+    },
+    {
+      "id": "catherine",
+      "name": "Sainte-Catherine · plaza y comida",
+      "kind": "visit",
+      "zone": "Sainte-Catherine / antiguo puerto",
+      "reason": "Dejar tiempo para el barrio y una comida de pescado o una brasserie, sin meter otra colección por la tarde.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "noordzee"
+      ],
+      "coordinates": {
+        "lat": 50.8506452,
+        "lon": 4.3487934
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Place+Sainte-Catherine&query_place_id=ChIJ4WdGTYbDw0cR2vAN-Jqccnc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Iglesia por fuera en el plan base; no se promete acceso interior. Noordzee cierra lunes y es barra de pie, no comida formal sentada; elegir según día y movilidad.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/catherine.jpg",
+        "source": "https://www.flickr.com/photos/tompagenet/53590396942/",
+        "author": "Tom Page",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Exterior nocturno de Sainte-Catherine; no interior ni iluminación garantizada. Recorte de presentación."
+      },
+      "visitMode": "Barrio exterior y comida"
+    },
+    {
+      "id": "market",
+      "name": "Jeu de Balle · curiosear el rastro",
+      "kind": "visit",
+      "zone": "Marolles / Place du Jeu de Balle",
+      "reason": "Empezar entre objetos usados, puestos y cafés del barrio, sin suponer que es un mercado gastronómico.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "market"
+      ],
+      "coordinates": {
+        "lat": 50.8372263,
+        "lon": 4.3455158
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Place+du+Jeu+de+Balle&query_place_id=ChIJA3_HR2XEw0cRrmXORICBuJM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Operador actual: laborables 9-14; fines de semana y festivos 9-15. Otra página municipal da inicio anterior: usar 9 h como llegada conservadora, no 6 h de un blog. No se vende comida en el mercado; comer en cafés cercanos. Puestos y clima variables.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/market.jpg",
+        "source": "https://www.flickr.com/photos/c-b-campbell/29609948923/",
+        "author": "Carl Campbell",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mercado de segunda mano"
+    },
+    {
+      "id": "poelaert",
+      "name": "Place Poelaert · abrir la vista",
+      "kind": "visit",
+      "zone": "Marolles / Palacio de Justicia",
+      "reason": "Subir hacia la ciudad alta y hacer una pausa con vistas antes del Sablon.",
+      "sourceIds": [
+        "guide1",
+        "market"
+      ],
+      "coordinates": {
+        "lat": 50.8374059,
+        "lon": 4.3524698
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Place+Poelaert&query_place_id=ChIJL8fGzHzEw0cRs1FfeKI0y6A",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Maps desde el mercado 698m/11 min, con pendiente; no ruta accesible certificada. Existe ascensor en el entorno, pero no se ha verificado funcionamiento ni horario actual: no depender de él. Palacio de Justicia no se visita por defecto; obras pueden afectar vistas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/poelaert.jpg",
+        "source": "https://www.flickr.com/photos/doegox/955460870/",
+        "author": "Philippe Teuwen",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Vista de archivo desde Place Poelaert; no vista desde una noria ni acceso garantizado al ascensor. Recorte de presentación."
+      },
+      "visitMode": "Mirador exterior"
+    },
+    {
+      "id": "sablon",
+      "name": "Sablon · plaza, iglesia por fuera y comida",
+      "kind": "visit",
+      "zone": "Grand Sablon / Petit Sablon",
+      "reason": "Caminar entre fachadas, jardines y tiendas con tiempo de comida, antes de un único museo principal.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 50.8404329,
+        "lon": 4.356252599999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=%C3%89glise+Notre-Dame+des+Victoires+au+Sablon&query_place_id=ChIJTwlAmX3Ew0cR3ZuIQpZVoX0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 85,
+      "durationType": "editorial-estimate",
+      "caution": "No se promete mercado de antigüedades todos los días ni entrada a la iglesia en cualquier momento. Interior opcional sujeto a culto y apertura; no otra visita larga obligatoria.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/sablon.jpg",
+        "source": "https://www.flickr.com/photos/witia/10152854436/",
+        "author": "Wojciech Szczęsny",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio y exterior de iglesia"
+    },
+    {
+      "id": "magritte",
+      "name": "Musée Magritte · elegir el interior del día",
+      "kind": "visit",
+      "zone": "Place Royale",
+      "reason": "Dedicar tiempo a una colección surrealista en vez de encadenar todos los Museos Reales y el MIM.",
+      "sourceIds": [
+        "guide1",
+        "magritte",
+        "museumhours"
+      ],
+      "coordinates": {
+        "lat": 50.8424057,
+        "lon": 4.3586407
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Magritte+Museum&query_place_id=ChIJPYlgS4fEw0cRhva9IKvp0iQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 130,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 13€ solo Magritte; Old Masters 13€ aparte o combinación 20€; audioguía 5€ extra. Mar-vie 10-17, sáb/dom 11-18, lunes cerrado. Cierra 01/01, 01/05, 01/11, 11/11 y 25/12; 24/31 diciembre cierre 15 h. Con billete online acceso Place Royale 2; sin billete Rue de la Régence 3 según oficial, no seguir señal antigua de foto. MIM puede sustituir, no añadirse entero.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/magritte.jpg",
+        "source": "https://www.flickr.com/photos/mcosta1973/10058888313/",
+        "author": "Michael Costa",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Señalética del Musée Magritte en foto de archivo; no fachada ni reproducción de una pintura. No usar la flecha como acceso actual. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago"
+    },
+    {
+      "id": "mont",
+      "name": "Mont des Arts · bajar al centro",
+      "kind": "visit",
+      "zone": "Mont des Arts",
+      "reason": "Cerrar la jornada con el jardín y la perspectiva hacia el casco antiguo, sin otro museo por obligación.",
+      "sourceIds": [
+        "guide1",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 50.84347890000001,
+        "lon": 4.3574205
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Mont+des+Arts&query_place_id=ChIJ4clK53rEw0cRedyFK8jjvrM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Escaleras y pendiente; no itinerario sin peldaños certificado. Foto de archivo, no floración garantizada. Desde Magritte 176m/2 min entre puntos aproximados de Maps.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/mont.jpg",
+        "source": "https://www.flickr.com/photos/rutgervandermaar/51650534913/",
+        "author": "Rutger van der Maar",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "atomium",
+      "name": "Atomium · norte opcional con aviso actual",
+      "kind": "visit",
+      "zone": "Heysel / Atomium",
+      "reason": "Avería actual: venta solo in situ y espera de 45 min a 2 h. Elegir exterior y parque si no compensa entrar; no una visita rápida entre museos.",
+      "sourceIds": [
+        "guide1",
+        "atomium",
+        "atomiumprice",
+        "atomiumaccess"
+      ],
+      "coordinates": {
+        "lat": 50.8948787,
+        "lon": 4.3415547
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Atomium&query_place_id=ChIJAQAAAKzDw0cRCTemaB0Hk1I",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "AVISO OFICIAL ACTUAL: avería de escalera mecánica, espera 45 min-2 h, visita y exposiciones adaptadas, tarifa reducida sin importe publicado y entradas SOLO in situ. No prometer compra online ni 17€ como coste actual. Horario habitual 10-18, última 17:30; 24/31-12-2026 cierra 16/última 15:30; 25-12-2026 y 01-01-2027 abre 12-18. Tarifa general 17€ incluye Design Museum, no Mini-Europe, pero aviso manda. Silla de ruedas solo panorama por ascensor; exposiciones con 80 peldaños subida y 167 bajada/escaleras empinadas y luces estroboscópicas. Si cola no encaja, exterior y parque o cambiar el día por Parlamentarium.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/atomium.jpg",
+        "source": "https://www.flickr.com/photos/kitmasterbloke/52083166666/",
+        "author": "Steve Knight",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior; interior condicionado"
+    },
+    {
+      "id": "laeken",
+      "name": "Parque de Laeken · paseo sin otro billete",
+      "kind": "visit",
+      "zone": "Laeken / monumento a la Dinastía",
+      "reason": "Después del norte monumental, caminar por el parque público y volver al centro con tiempo para comer.",
+      "sourceIds": [
+        "guide2",
+        "park"
+      ],
+      "coordinates": {
+        "lat": 50.889217,
+        "lon": 4.3535906
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Parc+de+Laeken+-+Royal+Parc&query_place_id=ChIJbdEdNk3Cw0cRO1KiRD2y3Qk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Parque, no invernaderos reales abiertos todo el año. Horario oficial noviembre-febrero 7-19, marzo-abril 6-21, mayo-agosto 6-22, septiembre-octubre 7-20. Puede cerrar con alerta de viento. Maps Atomium-parque 1331m/18 min entre puntos; la foto del monumento queda dentro de un parque amplio, no justo a la salida del Atomium.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/laeken.jpg",
+        "source": "https://www.flickr.com/photos/xiquinho/53296468746/",
+        "author": "xiquinhosilva",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Monumento a la Dinastía en el parque público de Laeken; no cementerio ni invernaderos reales. Recorte de presentación."
+      },
+      "visitMode": "Parque público exterior"
+    },
+    {
+      "id": "mim",
+      "name": "MIM · alternativa musical al Magritte",
+      "kind": "visit",
+      "zone": "Montagne de la Cour / Old England",
+      "reason": "Elegir instrumentos y escucha en un edificio art nouveau si interesa más la música que otra pinacoteca.",
+      "sourceIds": [
+        "guide1",
+        "mim",
+        "mimprice"
+      ],
+      "coordinates": {
+        "lat": 50.8428875,
+        "lon": 4.3590038
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Musical+Instruments+Museum&query_place_id=ChIJz2gUtIDEw0cRY-bzLAHSISU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 130,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 18€, no 10€ antiguo. Mar-vie 9:30-17, fines de semana/festivos 10-17; última venta 16 h/entrada 16:15/salas hasta 16:45. Lunes cerrado; 01/01,01/05,01/11,11/11,25/12 cerrado; 24/31-12 cierra 15, última venta 14. Restaurante actualmente cerrado por reforma: no prometer café en azotea. Sustituye Magritte.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/mim.jpg",
+        "source": "https://www.flickr.com/photos/cherylcooper/3438689934/",
+        "author": "Cheryl",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago; sustitución"
+    },
+    {
+      "id": "parliament",
+      "name": "Parlamentarium · alternativa al norte",
+      "kind": "visit",
+      "zone": "Barrio Europeo / Place du Luxembourg",
+      "reason": "Una visita para entender las instituciones europeas si el Atomium no interesa o su avería hace mala la espera.",
+      "sourceIds": [
+        "guide2",
+        "parliament"
+      ],
+      "coordinates": {
+        "lat": 50.839833,
+        "lon": 4.374039199999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Parlamentarium&query_place_id=ChIJwV3mU5rEw0cRMPz-d_jabj8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Reservar gratis online; sin reserva solo si hay espacio. Documento físico: DNI nacional o pasaporte válido, no foto en móvil ni permiso de conducir. Control de seguridad y restricciones de equipaje. Lun 13-18, mar-vie 9-18, sáb/dom 10-18, última 17:30. Cerrado 01/01,01/05,01/11,24/25/31 diciembre. Visita orientativa 90 min. No incluye Hemiciclo ni sede OTAN. Desde Central 1510m/22 min a pie, ruta incluye escaleras; vuelta aparte. Sustituye día Atomium/parque, no se apila tras él.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/brussels/parliament.jpg",
+        "source": "https://www.flickr.com/photos/jirka_matousek/8500876251/",
+        "author": "Jirka Matousek",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Centro de visitantes gratuito; sustitución"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Casco histórico sin correr",
+          "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+          "stopIds": [
+            "pis",
+            "grand",
+            "galeries",
+            "catherine"
+          ],
+          "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Casco histórico sin correr",
+          "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+          "stopIds": [
+            "pis",
+            "grand",
+            "galeries",
+            "catherine"
+          ],
+          "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+        },
+        {
+          "title": "Marolles, ciudad alta y un museo",
+          "zone": "Jeu de Balle → Poelaert → Sablon → Magritte → Mont des Arts",
+          "stopIds": [
+            "market",
+            "poelaert",
+            "sablon",
+            "magritte",
+            "mont"
+          ],
+          "editorialNote": "Rastro por la mañana, comida en la ciudad alta y una colección. MIM sustituye Magritte según interés; lunes ambos cierran, intercambiar con día exterior.",
+          "optionalStopIds": [
+            "mim"
+          ],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida. Maps 11/5/5/2 min entre hitos; mercado antes de 14/15 h, museo con margen hasta cierre. Subida de Marolles con pendiente, no asumir ascensor operativo."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Casco histórico sin correr",
+          "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+          "stopIds": [
+            "pis",
+            "grand",
+            "galeries",
+            "catherine"
+          ],
+          "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+        },
+        {
+          "title": "Marolles, ciudad alta y un museo",
+          "zone": "Jeu de Balle → Poelaert → Sablon → Magritte → Mont des Arts",
+          "stopIds": [
+            "market",
+            "poelaert",
+            "sablon",
+            "magritte",
+            "mont"
+          ],
+          "editorialNote": "Rastro por la mañana, comida en la ciudad alta y una colección. MIM sustituye Magritte según interés; lunes ambos cierran, intercambiar con día exterior.",
+          "optionalStopIds": [
+            "mim"
+          ],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida. Maps 11/5/5/2 min entre hitos; mercado antes de 14/15 h, museo con margen hasta cierre. Subida de Marolles con pendiente, no asumir ascensor operativo."
+        },
+        {
+          "title": "Norte monumental, solo como tercer día elegido",
+          "zone": "Atomium → parque de Laeken → regreso",
+          "stopIds": [
+            "atomium",
+            "laeken"
+          ],
+          "editorialNote": "Jornada opcional, no relleno. Avería actual del Atomium puede dejar visita en exterior; Parlamentarium es alternativa de jornada, no otra parada añadida.",
+          "optionalStopIds": [
+            "parliament"
+          ],
+          "geographyChecks": [],
+          "pacing": "4-6 h más la espera si se decide entrar. Maps Central-Atomium 37 min en transporte en muestra 30/10/2026 9 h; no horario universal ni Bourse como línea 6. Espera oficial 45 min-2 h aparte y regreso aparte. Parque 18 min desde Atomium."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Pausas en plazas y agua. No prometer alfombra floral en toda visita; eventos necesitan fecha concreta.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Luz corta: parque antes de anochecer. Museo único por día y cierres de lunes separados de plazas exteriores.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Magritte y MIM cerrados 25/12 y 01/01;24/31 cierre 15. Parlamentarium cerrado 24,25,31/12 y 01/01. Atomium tiene horario especial distinto, no cierre uniforme.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Avería actual Atomium afecta espera, compra y visita. Revisar aviso antes de ir; lluvia invita a galerías o un museo, no a apilar todos.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No entradas, comidas ni transporte reservados. Tarifas y horarios consultados no prueban disponibilidad futura.",
+    "Atomium: aviso operativo actual manda sobre página genérica de 17€ y compra online; tarifa reducida sin número verificado, solo venta in situ.",
+    "Laeken es parque público; no se promete entrada anual a invernaderos reales. No se añaden Brujas/Gante ni otra capital en un hueco del día."
+  ],
+  "excludedOrOptional": [
+    "MIM sustituye Magritte, no dos museos completos por cercanía.",
+    "Parlamentarium sustituye jornada del norte; no se suma a Atomium con espera de hasta 2 h.",
+    "Mini-Europe y Design Museum no se añaden automáticamente; billete general Atomium no incluye Mini-Europe."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "Gotript: itinerario contrastado",
+      "url": "https://www.gotript.com/itineraries/brussels/3-days",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "City Unscripted: selección y barrios",
+      "url": "https://www.cityunscripted.com/travel-magazine/3-days-in-brussels",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide3",
+      "title": "Travelling Tom: contraste de tres días",
+      "url": "https://www.thetravellingtom.com/3-days-in-brussels-itinerary",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "Visit Brussels: cocina belga",
+      "url": "https://www.visit.brussels/en/visitors/where-to-eat/authentic-belgian-restaurants-in-Brussels",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide2",
+      "title": "Bruxelles Secrète: restaurantes",
+      "url": "https://bruxellessecrete.com/en/best-restaurants-brussels/",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "atomium",
+      "title": "Atomium: aviso avería y horarios",
+      "url": "https://www.atomium.be/atomium-opening_hours?lang=en",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "atomiumprice",
+      "title": "Atomium: tarifa general, subordinada a aviso actual",
+      "url": "https://www.atomium.be/atomium-price?lang=en",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "atomiumaccess",
+      "title": "Atomium: accesibilidad",
+      "url": "https://atomium.be/accessibility",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "magritte",
+      "title": "Museos Reales: tarifas",
+      "url": "https://fine-arts-museum.be/en/visit/planning-my-visit/admission-prices",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "museumhours",
+      "title": "Museos Reales: horarios y accesos",
+      "url": "https://fine-arts-museum.be/en/visit/planning-my-visit/opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "market",
+      "title": "Operador: mercado Jeu de Balle",
+      "url": "https://markets.brussels.be/markets/place-du-jeu-de-balle-market",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "fin",
+      "title": "Fin de Siècle: carta y sede",
+      "url": "https://www.findesiecle.be/en",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "noordzee",
+      "title": "Noordzee: barra, no pescadería",
+      "url": "https://noordzeemerdunord.be/fish-bar/?lang=en",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mim",
+      "title": "MIM: horarios, restaurante cerrado",
+      "url": "https://www.mim.be/en/opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mimprice",
+      "title": "MIM:18€",
+      "url": "https://www.mim.be/en/admission-fees",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mokafe",
+      "title": "Galerías oficiales: Mokafé",
+      "url": "https://www.grsh.be/en/store/mokafe-taverne/",
+      "type": "official-directory",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "parliament",
+      "title": "Parlamento Europeo: Parlamentarium",
+      "url": "https://visiting.europarl.europa.eu/en/visitor-offer/brussels/parlamentarium",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "park",
+      "title": "Bruxelles Environnement: parque Laeken",
+      "url": "https://gardens.brussels/fr/espaces-verts/parc-de-laeken",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco histórico sin correr",
+            "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+            "stopIds": [
+              "pis",
+              "grand",
+              "galeries",
+              "catherine"
+            ],
+            "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco histórico sin correr",
+            "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+            "stopIds": [
+              "pis",
+              "grand",
+              "galeries",
+              "catherine"
+            ],
+            "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+          },
+          {
+            "title": "Marolles, ciudad alta y un museo",
+            "zone": "Jeu de Balle → Poelaert → Sablon → Magritte → Mont des Arts",
+            "stopIds": [
+              "market",
+              "poelaert",
+              "sablon",
+              "magritte",
+              "mont"
+            ],
+            "editorialNote": "Rastro por la mañana, comida en la ciudad alta y una colección. MIM sustituye Magritte según interés; lunes ambos cierran, intercambiar con día exterior.",
+            "optionalStopIds": [
+              "mim"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 11/5/5/2 min entre hitos; mercado antes de 14/15 h, museo con margen hasta cierre. Subida de Marolles con pendiente, no asumir ascensor operativo."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco histórico sin correr",
+            "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+            "stopIds": [
+              "pis",
+              "grand",
+              "galeries",
+              "catherine"
+            ],
+            "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+          },
+          {
+            "title": "Marolles, ciudad alta y un museo",
+            "zone": "Jeu de Balle → Poelaert → Sablon → Magritte → Mont des Arts",
+            "stopIds": [
+              "market",
+              "poelaert",
+              "sablon",
+              "magritte",
+              "mont"
+            ],
+            "editorialNote": "Rastro por la mañana, comida en la ciudad alta y una colección. MIM sustituye Magritte según interés; lunes ambos cierran, intercambiar con día exterior.",
+            "optionalStopIds": [
+              "mim"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 11/5/5/2 min entre hitos; mercado antes de 14/15 h, museo con margen hasta cierre. Subida de Marolles con pendiente, no asumir ascensor operativo."
+          },
+          {
+            "title": "Norte monumental, solo como tercer día elegido",
+            "zone": "Atomium → parque de Laeken → regreso",
+            "stopIds": [
+              "atomium",
+              "laeken"
+            ],
+            "editorialNote": "Jornada opcional, no relleno. Avería actual del Atomium puede dejar visita en exterior; Parlamentarium es alternativa de jornada, no otra parada añadida.",
+            "optionalStopIds": [
+              "parliament"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h más la espera si se decide entrar. Maps Central-Atomium 37 min en transporte en muestra 30/10/2026 9 h; no horario universal ni Bourse como línea 6. Espera oficial 45 min-2 h aparte y regreso aparte. Parque 18 min desde Atomium."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco histórico sin correr",
+            "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+            "stopIds": [
+              "pis",
+              "grand",
+              "galeries",
+              "catherine"
+            ],
+            "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco histórico sin correr",
+            "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+            "stopIds": [
+              "pis",
+              "grand",
+              "galeries",
+              "catherine"
+            ],
+            "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+          },
+          {
+            "title": "Marolles, ciudad alta y un museo",
+            "zone": "Jeu de Balle → Poelaert → Sablon → Magritte → Mont des Arts",
+            "stopIds": [
+              "market",
+              "poelaert",
+              "sablon",
+              "magritte",
+              "mont"
+            ],
+            "editorialNote": "Rastro por la mañana, comida en la ciudad alta y una colección. MIM sustituye Magritte según interés; lunes ambos cierran, intercambiar con día exterior.",
+            "optionalStopIds": [
+              "mim"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 11/5/5/2 min entre hitos; mercado antes de 14/15 h, museo con margen hasta cierre. Subida de Marolles con pendiente, no asumir ascensor operativo."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco histórico sin correr",
+            "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+            "stopIds": [
+              "pis",
+              "grand",
+              "galeries",
+              "catherine"
+            ],
+            "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+          },
+          {
+            "title": "Marolles, ciudad alta y un museo",
+            "zone": "Jeu de Balle → Poelaert → Sablon → Magritte → Mont des Arts",
+            "stopIds": [
+              "market",
+              "poelaert",
+              "sablon",
+              "magritte",
+              "mont"
+            ],
+            "editorialNote": "Rastro por la mañana, comida en la ciudad alta y una colección. MIM sustituye Magritte según interés; lunes ambos cierran, intercambiar con día exterior.",
+            "optionalStopIds": [
+              "mim"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 11/5/5/2 min entre hitos; mercado antes de 14/15 h, museo con margen hasta cierre. Subida de Marolles con pendiente, no asumir ascensor operativo."
+          },
+          {
+            "title": "Norte monumental, solo como tercer día elegido",
+            "zone": "Atomium → parque de Laeken → regreso",
+            "stopIds": [
+              "atomium",
+              "laeken"
+            ],
+            "editorialNote": "Jornada opcional, no relleno. Avería actual del Atomium puede dejar visita en exterior; Parlamentarium es alternativa de jornada, no otra parada añadida.",
+            "optionalStopIds": [
+              "parliament"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h más la espera si se decide entrar. Maps Central-Atomium 37 min en transporte en muestra 30/10/2026 9 h; no horario universal ni Bourse como línea 6. Espera oficial 45 min-2 h aparte y regreso aparte. Parque 18 min desde Atomium."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco histórico sin correr",
+            "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+            "stopIds": [
+              "pis",
+              "grand",
+              "galeries",
+              "catherine"
+            ],
+            "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco histórico sin correr",
+            "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+            "stopIds": [
+              "pis",
+              "grand",
+              "galeries",
+              "catherine"
+            ],
+            "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+          },
+          {
+            "title": "Marolles, ciudad alta y un museo",
+            "zone": "Jeu de Balle → Poelaert → Sablon → Magritte → Mont des Arts",
+            "stopIds": [
+              "market",
+              "poelaert",
+              "sablon",
+              "magritte",
+              "mont"
+            ],
+            "editorialNote": "Rastro por la mañana, comida en la ciudad alta y una colección. MIM sustituye Magritte según interés; lunes ambos cierran, intercambiar con día exterior.",
+            "optionalStopIds": [
+              "mim"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 11/5/5/2 min entre hitos; mercado antes de 14/15 h, museo con margen hasta cierre. Subida de Marolles con pendiente, no asumir ascensor operativo."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco histórico sin correr",
+            "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+            "stopIds": [
+              "pis",
+              "grand",
+              "galeries",
+              "catherine"
+            ],
+            "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+          },
+          {
+            "title": "Marolles, ciudad alta y un museo",
+            "zone": "Jeu de Balle → Poelaert → Sablon → Magritte → Mont des Arts",
+            "stopIds": [
+              "market",
+              "poelaert",
+              "sablon",
+              "magritte",
+              "mont"
+            ],
+            "editorialNote": "Rastro por la mañana, comida en la ciudad alta y una colección. MIM sustituye Magritte según interés; lunes ambos cierran, intercambiar con día exterior.",
+            "optionalStopIds": [
+              "mim"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 11/5/5/2 min entre hitos; mercado antes de 14/15 h, museo con margen hasta cierre. Subida de Marolles con pendiente, no asumir ascensor operativo."
+          },
+          {
+            "title": "Norte monumental, solo como tercer día elegido",
+            "zone": "Atomium → parque de Laeken → regreso",
+            "stopIds": [
+              "atomium",
+              "laeken"
+            ],
+            "editorialNote": "Jornada opcional, no relleno. Avería actual del Atomium puede dejar visita en exterior; Parlamentarium es alternativa de jornada, no otra parada añadida.",
+            "optionalStopIds": [
+              "parliament"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h más la espera si se decide entrar. Maps Central-Atomium 37 min en transporte en muestra 30/10/2026 9 h; no horario universal ni Bourse como línea 6. Espera oficial 45 min-2 h aparte y regreso aparte. Parque 18 min desde Atomium."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Casco histórico sin correr",
+            "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+            "stopIds": [
+              "pis",
+              "grand",
+              "galeries",
+              "catherine"
+            ],
+            "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Casco histórico sin correr",
+            "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+            "stopIds": [
+              "pis",
+              "grand",
+              "galeries",
+              "catherine"
+            ],
+            "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+          },
+          {
+            "title": "Marolles, ciudad alta y un museo",
+            "zone": "Jeu de Balle → Poelaert → Sablon → Magritte → Mont des Arts",
+            "stopIds": [
+              "market",
+              "poelaert",
+              "sablon",
+              "magritte",
+              "mont"
+            ],
+            "editorialNote": "Rastro por la mañana, comida en la ciudad alta y una colección. MIM sustituye Magritte según interés; lunes ambos cierran, intercambiar con día exterior.",
+            "optionalStopIds": [
+              "mim"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 11/5/5/2 min entre hitos; mercado antes de 14/15 h, museo con margen hasta cierre. Subida de Marolles con pendiente, no asumir ascensor operativo."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Casco histórico sin correr",
+            "zone": "Manneken Pis → Grand-Place → galerías → Sainte-Catherine",
+            "stopIds": [
+              "pis",
+              "grand",
+              "galeries",
+              "catherine"
+            ],
+            "editorialNote": "Plazas, cristal y comida. No todos los interiores por cercanía; repetir Grand-Place con otra luz es mejor que coleccionar entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas. Maps 266m/3 min,77m/<1 min y 434m/5 min entre puntos amplios; el paseo real por galerías lleva más. Lunes Noordzee cerrado: elegir brasserie o café abierto."
+          },
+          {
+            "title": "Marolles, ciudad alta y un museo",
+            "zone": "Jeu de Balle → Poelaert → Sablon → Magritte → Mont des Arts",
+            "stopIds": [
+              "market",
+              "poelaert",
+              "sablon",
+              "magritte",
+              "mont"
+            ],
+            "editorialNote": "Rastro por la mañana, comida en la ciudad alta y una colección. MIM sustituye Magritte según interés; lunes ambos cierran, intercambiar con día exterior.",
+            "optionalStopIds": [
+              "mim"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Maps 11/5/5/2 min entre hitos; mercado antes de 14/15 h, museo con margen hasta cierre. Subida de Marolles con pendiente, no asumir ascensor operativo."
+          },
+          {
+            "title": "Norte monumental, solo como tercer día elegido",
+            "zone": "Atomium → parque de Laeken → regreso",
+            "stopIds": [
+              "atomium",
+              "laeken"
+            ],
+            "editorialNote": "Jornada opcional, no relleno. Avería actual del Atomium puede dejar visita en exterior; Parlamentarium es alternativa de jornada, no otra parada añadida.",
+            "optionalStopIds": [
+              "parliament"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h más la espera si se decide entrar. Maps Central-Atomium 37 min en transporte en muestra 30/10/2026 9 h; no horario universal ni Bourse como línea 6. Espera oficial 45 min-2 h aparte y regreso aparte. Parque 18 min desde Atomium."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Tres guías antes de operadores y Maps; precios y horarios corregidos con fuente oficial.",
+    "Atomium avería y venta solo in situ visibles; no tarifa reducida inventada.",
+    "Mercado 9 h conservador; Magritte 13€, MIM18€, restaurante MIM cerrado.",
+    "16 fotosCC verificadas; señalética Magritte y platos ilustrativos rotulados."
+  ],
+  "editorialTradeoffs": [
+    "Casco histórico, Marolles/ciudad alta y norte separados.",
+    "Un museo principal y tercer día opcional, no relleno.",
+    "Precios de pescado/gofre pendientes visibles, no cifras de PDF2024."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Tres guías contrastadas y selección de cocina de turismo/editorial local. Logística solo fuentes actuales oficiales y Maps. PDF Noordzee aparentemente 2026 pero contenido 2024 rechazado para precios; aviso Atomium prevalece."
+}

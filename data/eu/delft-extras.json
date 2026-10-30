@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "cityId": "delft",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "stads",
+      "name": "Stads-Koffyhuis · desayuno o almuerzo junto al canal",
+      "address": "Oude Delft 133, 2611 BE Delft, Netherlands",
+      "description": "Oude Delft 133, cocina holandesa de día, no reserva implícita de mesa en barco ni cena.",
+      "strength": "Pannenkoeken con harina del molino, bocadillos como burrata vegetal o cangrejo; desayuno con yogur de granja local.",
+      "caution": "Carta 2026: pancake 9,25€ simple,11,50€ manzana/queso,13,75€ combinados,15-16€ especiales; bocadillos 14,75-15,75€; desayuno francés desde 10,50€/yogur 11€ con zumo y café/té. No todos desayunos incluyen salmón/avocado. Turismo indica lun-sáb 9-17/dom 11-17; web propia no permite leer tabla, confirmar en fecha, no cena. Reserva posible, no obligatoria. La carta jul 2025 sigue enlazada pero se usa abril/mayo 2026.",
+      "alert": "Carta 2026: pancake 9,25€ simple,11,50€ manzana/queso,13,75€ combinados,15-16€ especiales; bocadillos 14,75-15,75€; desayuno francés desde 10,50€/yogur 11€ con zumo y café/té. No todos desayunos incluyen salmón/avocado. Turismo indica lun-sáb 9-17/dom 11-17; web propia no permite leer tabla, confirmar en fecha, no cena. Reserva posible, no obligatoria. La carta jul 2025 sigue enlazada pero se usa abril/mayo 2026.",
+      "priceLabel": "Pancakes 9,25-16€ · bocadillos 14,75-15,75€ · bebidas aparte",
+      "photo": {
+        "img": "assets/delft/stads.jpg",
+        "source": "https://www.flickr.com/photos/alper/300204025/",
+        "author": "Alper Çuğun",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Fachada real de Stads-Koffyhuis en archivo; no prueba de mesa disponible ni terraza abierta. Recorte de presentación."
+      },
+      "officialUrl": "https://www.stads-koffyhuis.nl/kaart/english-menu/",
+      "sourceIds": [
+        "foodguide",
+        "stads",
+        "stadsmenu",
+        "stadsbreakfast",
+        "stadstourism"
+      ],
+      "sourceUrls": [
+        "https://www.wanderlustingk.com/travel-blog/where-to-eat-delft",
+        "https://www.stads-koffyhuis.nl/kaart/english-menu/",
+        "https://www.stads-koffyhuis.nl/assets/menucard/SKH-menukaart-dag-april-2026-en-05-1.pdf",
+        "https://www.stads-koffyhuis.nl/assets/Uploads/SKH-ontbijtkaart-A5-mei2026-en.pdf",
+        "https://www.indelft.nl/nl/locaties/4181507010/stads-koffyhuis"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Stads-Koffyhuis&query_place_id=ChIJk-jj78O1xUcRU8EPwz1_sD4",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede/carta contrastadas, no reserva ni disponibilidad futura."
+    },
+    {
+      "id": "hummus",
+      "name": "HUmmUS · cena de Oriente Medio",
+      "address": "Molslaan 39, 2611 RJ Delft, Netherlands",
+      "description": "Molslaan 39, un cambio de cocina con hummus, pitas y platos vegetales para cena o almuerzo de fin de semana.",
+      "strength": "Hummus de berenjena o picada vegetal, falafel, sabich de berenjena y huevo o coliflor con tahini.",
+      "caution": "Hummus 11,50-14,25€ con pita/ensalada; combo falafel/sabich 15,50€, batata+3,50€; mesa compartida 24,50€ pp mínimo 2, bebida aparte. Vegetariano no todo vegano: huevo, feta, halloumi, yogur/miel en carta. Lun-jue 17-22, vie-dom 12-22, cocina 21.24-26/12,31/12,01/01 cerrado. Solo tarjeta según web actual, no consejo antiguo de llevar efectivo como única opción. Foto ajena ilustrativa.",
+      "alert": "Hummus 11,50-14,25€ con pita/ensalada; combo falafel/sabich 15,50€, batata+3,50€; mesa compartida 24,50€ pp mínimo 2, bebida aparte. Vegetariano no todo vegano: huevo, feta, halloumi, yogur/miel en carta. Lun-jue 17-22, vie-dom 12-22, cocina 21.24-26/12,31/12,01/01 cerrado. Solo tarjeta según web actual, no consejo antiguo de llevar efectivo como única opción. Foto ajena ilustrativa.",
+      "priceLabel": "Hummus 11,50-14,25€ · combo 15,50€ · bebida aparte",
+      "photo": {
+        "img": "assets/delft/hummus.jpg",
+        "source": "https://www.flickr.com/photos/averagejane/19414363806/",
+        "author": "Celeste Lindell",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Hummus y acompañamientos ilustrativos de otro establecimiento; no HUmmUS Delft ni su carta exacta. Recorte de presentación."
+      },
+      "officialUrl": "https://hummustakeaway.squarespace.com/menu",
+      "sourceIds": [
+        "foodguide",
+        "greenfood",
+        "foodguide2",
+        "hummus",
+        "hummushours"
+      ],
+      "sourceUrls": [
+        "https://www.wanderlustingk.com/travel-blog/where-to-eat-delft",
+        "https://www.thegreenlist.nl/en/the-best-sustainable-restaurants-in-delft/",
+        "https://www.bartsboekje.com/en/5-x-lunch-delft/",
+        "https://hummustakeaway.squarespace.com/menu",
+        "https://hummustakeaway.squarespace.com/contact"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hummus+Delft&query_place_id=ChIJzW-S5em1xUcRP-iP2Qbk3d0",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede/carta contrastadas, no reserva ni disponibilidad futura."
+    }
+  ],
+  "activities": []
+}

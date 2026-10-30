@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "cityId": "lisbon",
+  "reviewedAt": "2026-10-29",
+  "scope": "Cinco formatos: taberna, bifana, pastelería, marisco y cocina vegetal; una cena-fado con programación propia.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "eurico",
+      "name": "O Velho Eurico · Mouraria",
+      "address": "LG de São Cristóvão 3, 1100-179 Lisboa, Portugal",
+      "description": "Taberna portuguesa contemporánea para una comida de platos compartidos cerca del Castillo.",
+      "strength": "Recetario portugués con cocina joven; encaja al terminar Alfama sin cruzar Lisboa.",
+      "caution": "Carta cambiante y mucha demanda; reservar por el canal propio. Menus com História publica cierre domingo/lunes. Horarios de cena difieren entre directorios; confirmar antes de ir.",
+      "officialUrl": "https://menuscomhistoria.com/restaurantes/o-velho-eurico/",
+      "sourceUrls": [
+        "https://menuscomhistoria.com/restaurantes/o-velho-eurico/"
+      ],
+      "editorialUrl": "https://www.timeout.com/lisbon/restaurants/the-best-lisbon-restaurants",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=O+Velho+Eurico&query_place_id=ChIJNSbwEng0GQ0RJZqJC6w1hYU",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sucursal exacta Maps y fuentes enlazadas revisadas 29/10/2026. No confirma apertura futura ni mesa.",
+      "priceLabel": "Carta del día · consultar precio",
+      "photo": {
+        "img": "assets/lisbon/eurico.jpg",
+        "source": "https://www.flickr.com/photos/vladimix/41872736882/",
+        "author": "vladimix",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Fachada de O Velho Eurico en 2018, anterior al equipo actual; no representa su cocina ni estado actual. Recorte de presentación."
+      },
+      "alert": "Carta cambiante y mucha demanda; reservar por el canal propio. Menus com História publica cierre domingo/lunes. Horarios de cena difieren entre directorios; confirmar antes de ir."
+    },
+    {
+      "id": "afonso",
+      "name": "As Bifanas do Afonso · Rua da Madalena",
+      "address": "R. da Madalena 146, 1100-340 Lisboa, Portugal",
+      "description": "Bocadillo de cerdo para una comida rápida entre Alfama y Baixa.",
+      "strength": "Mostrador pequeño y formato breve, distinto de una comida sentada.",
+      "caution": "Sucursal original Rua da Madalena 146, no la nueva en Lisbon Art Stay. Horarios de fuentes antiguas difieren: comprobar en Maps y local. No se promete mesa ni servicio de cena.",
+      "officialUrl": "https://www.timeout.pt/lisboa/pt/restaurantes/as-bifanas-do-afonso",
+      "sourceUrls": [
+        "https://www.timeout.pt/lisboa/pt/restaurantes/as-bifanas-do-afonso"
+      ],
+      "editorialUrl": "https://www.timeout.com/lisbon/restaurants/the-best-lisbon-restaurants",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=As+Bifanas+do+Afonso&query_place_id=ChIJt9EjN3g0GQ0RXBlIfrm39tQ",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sucursal exacta Maps y fuentes enlazadas revisadas 29/10/2026. No confirma apertura futura ni mesa.",
+      "priceLabel": "Bocadillo · precio actual por confirmar",
+      "photo": {
+        "img": "assets/lisbon/afonso.jpg",
+        "source": "https://www.flickr.com/photos/sonsespics/49652989992/",
+        "author": "Sonse",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Bifana en As Bifanas do Afonso, foto de archivo; no oferta actual. Recorte de presentación."
+      },
+      "alert": "Sucursal original Rua da Madalena 146, no la nueva en Lisbon Art Stay. Horarios de fuentes antiguas difieren: comprobar en Maps y local. No se promete mesa ni servicio de cena."
+    },
+    {
+      "id": "pasteis",
+      "name": "Pastéis de Belém · Belém",
+      "address": "R. de Belém 84 92, 1300-085 Lisboa, Portugal",
+      "description": "Pausa de café y pastel junto al monasterio.",
+      "strength": "Horno histórico de Belém: tiene sentido en el día del barrio, no como comida completa.",
+      "caution": "Colas de mostrador y salón pueden ser distintas. Web:08-21 h diario, hasta 22 h julio-septiembre; 24/25/31 diciembre y 1 enero cierra 19 h. Consultar alérgenos.",
+      "officialUrl": "https://pasteisdebelem.pt/en/",
+      "sourceUrls": [
+        "https://www.pasteisdebelem.pt/menu/?lang=en",
+        "https://pasteisdebelem.pt/contactos/"
+      ],
+      "editorialUrl": "https://www.mochileandoporelmundo.com/lisboa-en-3-dias/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Past%C3%A9is+de+Bel%C3%A9m&query_place_id=ChIJW3H9LkXLHg0RZZZttMb27_8",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sucursal exacta Maps y fuentes enlazadas revisadas 29/10/2026. No confirma apertura futura ni mesa.",
+      "priceLabel": "Pastel 1, 60 € · café 1, 20 € · web 29/10/2026",
+      "photo": {
+        "img": "assets/lisbon/pasteis.jpg",
+        "source": "https://www.flickr.com/photos/ajay_suresh/34093981791/",
+        "author": "ajay_suresh",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Pastéis de Belém, foto de archivo; no presentación garantizada. Recorte de presentación."
+      },
+      "alert": "Colas de mostrador y salón pueden ser distintas. Web:08-21 h diario, hasta 22 h julio-septiembre; 24/25/31 diciembre y 1 enero cierra 19 h. Consultar alérgenos."
+    },
+    {
+      "id": "ramiro",
+      "name": "Cervejaria Ramiro · Intendente",
+      "address": "Av. Alm. Reis 1 H, 1150-007 Lisboa, Portugal",
+      "description": "Marisco para una comida específica, con margen para esperar.",
+      "strength": "Gambas y almejas: un formato de marisquería distinto de las tabernas y bocadillos.",
+      "caution": "Fuera de los bloques de Belém/Chiado: ir como comida elegida, no desvío automático. Web: martes-sábado 12-00 h y domingo 12-23 h. Muchos productos por peso/unidad: comprobar la ración y total.",
+      "officialUrl": "https://www.cervejariaramiro.com/?lang=en",
+      "sourceUrls": [
+        "https://www.cervejariaramiro.com/menu-2"
+      ],
+      "editorialUrl": "https://www.timeout.com/lisbon/restaurants/the-best-lisbon-restaurants",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant+-+Cervejaria+Ramiro&query_place_id=ChIJ-R6VlIUzGQ0RX8x1jtg9lh0",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sucursal exacta Maps y fuentes enlazadas revisadas 29/10/2026. No confirma apertura futura ni mesa.",
+      "priceLabel": "Gambas al ajillo 14, 44 € · almejas 15 € · carta web 29/10/2026",
+      "photo": {
+        "img": "assets/lisbon/ramiro.jpg",
+        "source": "https://www.flickr.com/photos/kentwang/29109082128/",
+        "author": "Kent Wang",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Gambas en Ramiro, foto de archivo; no oferta actual. Recorte de presentación."
+      },
+      "alert": "Fuera de los bloques de Belém/Chiado: ir como comida elegida, no desvío automático. Web: martes-sábado 12-00 h y domingo 12-23 h. Muchos productos por peso/unidad: comprobar la ración y total."
+    },
+    {
+      "id": "vegan",
+      "name": "26 Vegan Food Project · Chiado",
+      "address": "R. da Horta Seca 5, 1200-213 Lisboa, Portugal",
+      "description": "Cocina portuguesa vegetal para el paseo de Carmo y Chiado.",
+      "strength": "Tofu à lagareiro y bifana de seitan: alternativa vegetal con platos portugueses, no sólo ensalada.",
+      "caution": "Carta 100% vegetal según operador; consultar alérgenos y contaminación cruzada. Horarios actuales por confirmar con el local. No usar precios ni horario de la reseña 2017.",
+      "officialUrl": "http://26veganfoodproject.com/",
+      "sourceUrls": [
+        "http://26veganfoodproject.com/"
+      ],
+      "editorialUrl": "https://www.timeout.pt/lisboa/pt/restaurantes/ao-26-vegan-food-project",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26+Vegan+Food+Project&query_place_id=ChIJ85TCn340GQ0RI5KYC0dURN0",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sucursal exacta Maps y fuentes enlazadas revisadas 29/10/2026. No confirma apertura futura ni mesa.",
+      "priceLabel": "Tofu 15 € · bifana 14 € · web 29/10/2026",
+      "photo": {
+        "id": "vegan",
+        "img": "assets/lisbon/vegan.jpg",
+        "source": "https://www.pexels.com/photo/healthy-vegetable-dish-with-grilled-tofu-33474056/",
+        "author": "Deane Bayas",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de tofu y verduras; no es de 26 Vegan Food Project ni de su carta. Recorte de presentación."
+      },
+      "alert": "Carta 100% vegetal según operador; consultar alérgenos y contaminación cruzada. Horarios actuales por confirmar con el local. No usar precios ni horario de la reseña 2017."
+    }
+  ],
+  "activities": [
+    {
+      "id": "fado",
+      "name": "Mesa de Frades · cena y fado en Alfama",
+      "address": "R. dos Remédios 139, 1100-453 Lisboa, Portugal",
+      "description": "Cena con fado en una antigua capilla de Alfama, para dedicarle la noche en lugar de añadir otro recorrido.",
+      "strength": "Ambiente íntimo y menú cerrado; una actividad con tiempo propio, no música incidental durante el paseo.",
+      "caution": "Requiere reservar fecha y comprobar horario. La ficha histórica del Museu do Fado y el operador no coinciden en todos los horarios: manda la sesión confirmada por el local. Menú 60 €, con bebidas 70 €, armonización 80 € publicados 29/10/2026; no hay compra ni reserva hecha.",
+      "officialUrl": "https://mesadefrades.pt/",
+      "sourceUrls": [
+        "https://mesadefrades.pt/menu/en",
+        "https://roteiro.museudofado.pt/local/mesa-de-frades"
+      ],
+      "editorialUrl": "https://www.mochileandoporelmundo.com/lisboa-en-3-dias/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mesa+de+Frades&query_place_id=ChIJDa06CnU0GQ0Rd6J6YEcLLgw",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia, carta, ficha cultural y Maps revisados 29/10/2026.",
+      "priceLabel": "Cena/fado desde 60 € · confirmar sesión",
+      "photo": {
+        "id": "alfama",
+        "img": "assets/lisbon/alfama.jpg",
+        "source": "https://www.pexels.com/photo/scenic-view-of-lisbon-s-alfama-district-28537823/",
+        "author": "Julias Torten und Törtchen",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Tejados de Alfama: foto del barrio, no de Mesa de Frades ni de una actuación. Recorte de presentación."
+      },
+      "alert": "Requiere reservar fecha y comprobar horario. La ficha histórica del Museu do Fado y el operador no coinciden en todos los horarios: manda la sesión confirmada por el local. Menú 60 €, con bebidas 70 €, armonización 80 € publicados 29/10/2026; no hay compra ni reserva hecha."
+    }
+  ]
+}

@@ -1,0 +1,1334 @@
+{
+  "schemaVersion": 1,
+  "country": "PT",
+  "id": "porto",
+  "name": "Oporto",
+  "localName": "Porto",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita de 1-3 días, sin fecha concreta ni reservas. Un interior principal por jornada; planes urbanos sin excursión obligatoria.",
+  "stops": [
+    {
+      "id": "clerigos",
+      "name": "Torre dos Clérigos",
+      "kind": "visit",
+      "zone": "Clérigos",
+      "reason": "Torre y museo para la visita principal del centro histórico antes de bajar al río.",
+      "sourceIds": [
+        "clerigos",
+        "clerigosplan",
+        "vc",
+        "clerigossteps"
+      ],
+      "coordinates": {
+        "lat": 41.1456705,
+        "lon": -8.6145977
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Torre+dos+Cl%C3%A9rigos&query_place_id=ChIJSdbOUeJkJA0RIXwSJxPFXkI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 80,
+      "durationType": "editorial-estimate",
+      "caution": "Billete diurno general 10 €, 09-19 h y última entrada 30 min antes. Son 225 escalones: no es una subida accesible. Si no encaja, contemplar exterior y ampliar pausas; no sustituir por varias subidas. Horarios nocturnos sólo en fechas especiales.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/porto/clerigos.jpg",
+        "source": "https://www.flickr.com/photos/chilangoco/14042318140/",
+        "author": "Edgar Jiménez",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Torre y museo de pago; entrada por comprar"
+    },
+    {
+      "id": "bento",
+      "name": "São Bento · vestíbulo de azulejos",
+      "kind": "visit",
+      "zone": "São Bento",
+      "reason": "Escenas de azulejos en el vestíbulo de una estación en uso.",
+      "sourceIds": [
+        "tourism",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.145492,
+        "lon": -8.609544
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Porto+S%C3%A3o+Bento&query_place_id=ChIJR_lvdeRkJA0RPneoSR6STxI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Respetar viajeros y zonas de circulación. Obras, aforo o servicio ferroviario pueden limitar la visita; no se incluye billete ni museo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/porto/bento.jpg",
+        "source": "https://www.flickr.com/photos/alainrouiller/33133609281/",
+        "author": "Alain Rouiller",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Vestíbulo si está accesible; no acceso a andenes"
+    },
+    {
+      "id": "se",
+      "name": "Sé de Oporto · exterior y plaza",
+      "kind": "visit",
+      "zone": "Sé / ciudad alta",
+      "reason": "Fachada de la catedral y plaza alta antes de bajar hacia la Ribeira.",
+      "sourceIds": [
+        "se",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 41.1428531,
+        "lon": -8.6111165
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Porto+Cathedral&query_place_id=ChIJueuROeFkJA0R6Td1oK7MHEo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "No se promete entrada gratuita a dependencias turísticas ni acceso durante culto. La foto es vista del edificio desde el barrio, no del acceso.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "se",
+        "img": "assets/porto/se.jpg",
+        "source": "https://www.pexels.com/photo/view-of-the-porto-cathedral-among-city-buildings-portugal-20112885/",
+        "author": "Jorge Ribeiro",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Sé de Oporto desde el barrio; no es una foto del acceso ni del claustro. Recorte de presentación."
+      },
+      "visitMode": "Exterior y plaza; claustro no incluido"
+    },
+    {
+      "id": "ribeira",
+      "name": "Ribeira · plaza y ribera",
+      "kind": "visit",
+      "zone": "Ribeira",
+      "reason": "Calles de bajada y paseo junto al Duero con pausa de comida.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 41.1406179,
+        "lon": -8.6130958
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Ribeira+Square&query_place_id=ChIJiZbo8eBkJA0RXGEAgQ-KsII",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 85,
+      "durationType": "editorial-estimate",
+      "caution": "Pendientes y adoquines; no incluye crucero, restaurante ni acceso a viviendas. Evitar escaleras si no encajan con la movilidad.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "ribeira",
+        "img": "assets/porto/ribeira.jpg",
+        "source": "https://www.pexels.com/photo/people-on-ribeira-square-during-the-day-7881903/",
+        "author": "Recep Tayyip Çelik",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Explore the lively Ribeira Square in Porto with its vibrant historic buildings and bustling atmosphere. Stock Photo"
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "ponte",
+      "name": "Puente Dom Luís I · cruce bajo a Gaia",
+      "kind": "visit",
+      "zone": "Ribeira → Cais de Gaia",
+      "reason": "Cruzar el Duero y pasear por el muelle de Gaia con vistas a las fachadas de Oporto.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 41.1399589,
+        "lon": -8.6094485
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Lu%C3%ADs+I+Bridge&query_place_id=ChIJ00b9XOdkJA0Rq2pFmc9AW8I",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "No confundir el tablero inferior con el superior del metro. Para Jardim do Morro hay subida considerable: alternativa opcional, no paso directo y llano. No incluye teleférico ni bodega.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "ponte",
+        "img": "assets/porto/ponte.jpg",
+        "source": "https://www.pexels.com/photo/dom-luis-i-double-deck-arch-bridge-in-porto-24196057/",
+        "author": "Efrem Efre",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "View of the Dom Luís I Bridge over the Douro River in Porto, Portugal. A UNESCO World Heritage Site. Stock Photo"
+      },
+      "visitMode": "Cruce peatonal por tablero inferior y ribera de Gaia"
+    },
+    {
+      "id": "morro",
+      "name": "Jardim do Morro",
+      "kind": "visit",
+      "zone": "Gaia alta",
+      "reason": "Mirador sobre el Duero para quien prefiera el cruce alto desde la zona de la Sé.",
+      "sourceIds": [
+        "mm",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 41.1369369,
+        "lon": -8.6091373
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Jardim+do+Morro&query_place_id=ChIJqezitd1kJA0RmyhPjA6_g5c",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "No añadir subida desde la ribera por inercia: Maps Ribeira→Morro 1, 3 km/21 min y desnivel. Puede sustituir el descenso a Ribeira/cruce bajo. No se garantiza puesta de sol despejada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "morro",
+        "img": "assets/porto/morro.jpg",
+        "source": "https://www.pexels.com/photo/people-lying-on-the-grass-in-the-jardim-do-morro-in-porto-portugal-24960477/",
+        "author": "Uiliam Nörnberg",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Couple enjoying a sunny day in Jardim do Morro, Porto, Portugal with city views. Stock Photo"
+      },
+      "visitMode": "Alternativa de mirador; requiere elegir recorrido alto"
+    },
+    {
+      "id": "almas",
+      "name": "Capela das Almas · azulejos exteriores",
+      "kind": "visit",
+      "zone": "Bolhão / Santa Catarina",
+      "reason": "Fachadas de azulejos para empezar el paseo comercial por el centro.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 41.1498821,
+        "lon": -8.6056554
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Chapel+of+Souls&query_place_id=ChIJX55xrvpkJA0RtYd3oxxfEhE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "caution": "No bloquear aceras ni puertas; foto y paso exterior no garantizan visita interior.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "almas",
+        "img": "assets/porto/almas.jpg",
+        "source": "https://www.pexels.com/photo/azulejo-tile-facade-of-capela-das-almas-in-porto-35349956/",
+        "author": "maria Chaile",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Blue and white azulejos adorn the Capela das Almas in Porto, Portugal, under a sunny sky. Stock Photo"
+      },
+      "visitMode": "Exterior; culto interior no incluido"
+    },
+    {
+      "id": "bolhao",
+      "name": "Mercado do Bolhão",
+      "kind": "visit",
+      "zone": "Bolhão",
+      "reason": "Puestos de producto y vida de mercado para una mañana con tiempo para comer.",
+      "sourceIds": [
+        "bolhao",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 41.1493855,
+        "lon": -8.6071175
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Bolh%C3%A3o+Market&query_place_id=ChIJFQzXJeVkJA0R6XxuGdsidvE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Lunes-viernes 08-19 h, sábado 08-18 h; domingo y festivos cerrado. Restaurantes lunes-sábado 08-24 h según operador, puestos y tiendas con ritmos propios. No asumir mercado abierto por ver una terraza.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/porto/bolhao.jpg",
+        "source": "https://www.flickr.com/photos/londonexpat/54455080306/",
+        "author": "londonexpat",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Puesto de fruta en Mercado do Bolhão, foto de archivo; no confirma oferta ni vendedor actual. Recorte de presentación."
+      },
+      "visitMode": "Mercado si abre; domingo paseo exterior"
+    },
+    {
+      "id": "catarina",
+      "name": "Rua de Santa Catarina",
+      "kind": "visit",
+      "zone": "Baixa comercial",
+      "reason": "Tramo peatonal y comercios para un paseo corto junto a Bolhão.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 41.1534763,
+        "lon": -8.6047487
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Rua+de+Santa+Catarina&query_place_id=ChIJUeZfbfpkJA0Ra0pRp3lY4EY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "No se incluye café en Majestic ni se promete mesa. Las tiendas tienen horario propio; no hace falta una compra para disfrutar del paseo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/porto/catarina.jpg",
+        "source": "https://www.flickr.com/photos/fran001/40584973063/",
+        "author": "Francisco Anzola",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "aliados",
+      "name": "Avenida dos Aliados",
+      "kind": "visit",
+      "zone": "Aliados",
+      "reason": "Plaza y fachadas monumentales camino del barrio de los libros y cafés.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 41.1483096,
+        "lon": -8.6108148
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Avenida+dos+Aliados&query_place_id=ChIJj_1AWeNkJA0RENJtVObMjXM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Programación, obras y actos pueden cambiar el espacio disponible. La foto muestra la avenida y el Ayuntamiento, no acceso interior.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "id": "aliados",
+        "img": "assets/porto/aliados.jpg",
+        "source": "https://www.pexels.com/photo/historic-porto-city-hall-under-clear-blue-sky-38825931/",
+        "author": "Pedro Rodrigues Barros",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "View of the iconic Porto City Hall on Avenida dos Aliados with blue sky and vibrant atmosphere. Stock Photo"
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "lello",
+      "name": "Livraria Lello",
+      "kind": "visit",
+      "zone": "Carmelitas",
+      "reason": "Escalera y sala histórica como visita principal del segundo día si interesan libros y arquitectura.",
+      "sourceIds": [
+        "lello",
+        "lellofaq",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.1469055,
+        "lon": -8.614774599999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Livraria+Lello&query_place_id=ChIJd5pejOJkJA0RT-Sh6F5ACH8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Entrada de pago incluso para comprar libros. Web de venta y FAQ difieren en cierre 19/19:30 h: comprobar la sesión, no apurar la última hora. Cierra 1/1, Pascua, 1/5, 24/6, 25/12 según FAQ. No se garantiza billete en el día ni visita tranquila.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/porto/lello.jpg",
+        "source": "https://www.flickr.com/photos/mattkieffer/38218323992/",
+        "author": "Matt Kieffer",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Interior con Ticket-Voucher; requiere elegir franja"
+    },
+    {
+      "id": "cordoaria",
+      "name": "Jardim da Cordoaria",
+      "kind": "visit",
+      "zone": "Cordoaria",
+      "reason": "Árboles y bancos para cerrar el paseo sin otra cola de museo.",
+      "sourceIds": [
+        "mm",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 41.1459873,
+        "lon": -8.616754499999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Jardim+da+Cordoaria&query_place_id=ChIJUXHRmh1lJA0R9HvBwnBoKpA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Clérigos queda cerca pero se visita el primer día: no se vuelve a subir por defecto. Con lluvia, pausa de café o terminar antes.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/porto/cordoaria.jpg",
+        "source": "https://www.flickr.com/photos/twic/48159459366/",
+        "author": "Tom Anderson",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Jardín exterior"
+    },
+    {
+      "id": "serralves",
+      "name": "Serralves · museo y parque",
+      "kind": "visit",
+      "zone": "Oporto oeste",
+      "reason": "Arte contemporáneo y jardines para un día diferente al centro histórico.",
+      "sourceIds": [
+        "serralves",
+        "local",
+        "tourism"
+      ],
+      "coordinates": {
+        "lat": 41.1598058,
+        "lon": -8.659614999999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Serralves+Museum+of+Contemporary+Art&query_place_id=ChIJ01B3qIBlJA0R98XaUsUgXdM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "Entrada general 24 €, sólo parque 15 € para no residentes según web. Horarios varían por espacio y temporada: comprobar OCT-MAR/APR-SEPT y exposiciones del día. La tarifa de residente portugués no se aplica por hablar español. No sumar Casa da Música y Matosinhos como visitas obligatorias.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/porto/serralves.jpg",
+        "source": "https://www.flickr.com/photos/dclay/47729910832/",
+        "author": "David Clay",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Jardín formal de Serralves; foto de archivo, no representa una exposición actual. Recorte de presentación."
+      },
+      "visitMode": "Museo y parque de pago; elegir billete y exposición"
+    },
+    {
+      "id": "foz",
+      "name": "Foz · Passeio Alegre y ribera",
+      "kind": "visit",
+      "zone": "Foz do Douro",
+      "reason": "Jardín y paseo corto junto a la desembocadura para una tarde de costa.",
+      "sourceIds": [
+        "tourism",
+        "local",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.1482061,
+        "lon": -8.6708015
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Jardim+do+Passeio+Alegre&query_place_id=ChIJz772j4ZvJA0RInS1lNHpzQM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Desde Serralves 2, 2 km/28 min a pie según Maps; no es un paseo de cinco minutos. No subir a espigones con oleaje ni prometer baño, tranvía histórico o faro abierto. Con mal tiempo, quedarse más en Serralves o volver al centro.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/porto/foz.jpg",
+        "source": "https://www.flickr.com/photos/bebatut/25808576494/",
+        "author": "bebatut",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Paseo junto al Jardim do Passeio Alegre y la desembocadura del Duero; foto de archivo. Recorte de presentación."
+      },
+      "visitMode": "Paseo exterior según mar y viento"
+    },
+    {
+      "id": "bolsa",
+      "name": "Palácio da Bolsa",
+      "kind": "visit",
+      "zone": "Infante / Ribeira",
+      "reason": "Salas del palacio como alternativa a la torre si se prefiere una visita guiada sin subida.",
+      "sourceIds": [
+        "bolsa",
+        "vc"
+      ],
+      "coordinates": {
+        "lat": 41.1413772,
+        "lon": -8.615672499999999
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pal%C3%A1cio+da+Bolsa&query_place_id=ChIJQQ2CwuFkJA0RUdkM5HFBMmk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Visita obligatoriamente guiada de 30 min; añadir espera. La elección de hora/idioma se hace en taquilla según operador turístico oficial; compra no equivale a franja confirmada. Hay cierres por actos. Revisar avisos y condiciones, no comprar sin fecha.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/porto/bolsa.jpg",
+        "source": "https://www.flickr.com/photos/bvi4092/54313069847/",
+        "author": "bvi4092",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Alternativa a Clérigos, no segundo interior automático"
+    },
+    {
+      "id": "guimaraes",
+      "name": "Guimarães · centro histórico y castillo",
+      "kind": "excursion",
+      "zone": "Fuera de Oporto",
+      "reason": "Plazas medievales y castillo en una ciudad distinta, con comida y paseo propios.",
+      "sourceIds": [
+        "guimaraes",
+        "guimaraescp",
+        "guimaraestourism",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.4430179,
+        "lon": -8.2928146
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Largo+da+Oliveira&query_place_id=ChIJk7ZU8-nvJA0RTXtyDw0l7Ts",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 480,
+      "durationType": "editorial-estimate",
+      "caution": "Castillo y Paço 10-18 h, última 17:30; cierran 1/1, Pascua, 1/5, 24/6 y 25/12. Torre del homenaje cerrada; Paço en obras y ascensor puede no funcionar. Tarifas publicadas durante cierre parcial: castillo 5 €, Paço 5 €, conjunto 8 €. Revisar estado antes de elegir, no se promete visita íntegra.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Centro histórico y castillo como visita principal. Paço dos Duques sustituye el castillo si se prefiere palacio; no combinar con Braga por defecto.",
+      "photo": {
+        "id": "guimaraes",
+        "img": "assets/porto/guimaraes.jpg",
+        "source": "https://www.pexels.com/photo/historic-guimaraes-castle-in-portugal-38587398/",
+        "author": "Diego HG",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Castillo de Guimarães, foto exterior de archivo. La torre del homenaje está cerrada según aviso oficial; la foto no implica acceso. Recorte de presentación."
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Centro histórico, Ribeira y Gaia",
+          "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+          "stopIds": [
+            "clerigos",
+            "bento",
+            "se",
+            "ribeira",
+            "ponte"
+          ],
+          "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+          "optionalStopIds": [
+            "bolsa",
+            "morro"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Centro histórico, Ribeira y Gaia",
+          "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+          "stopIds": [
+            "clerigos",
+            "bento",
+            "se",
+            "ribeira",
+            "ponte"
+          ],
+          "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+          "optionalStopIds": [
+            "bolsa",
+            "morro"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+        },
+        {
+          "title": "Bolhão, Baixa y Lello",
+          "zone": "Almas → Bolhão → Santa Catarina → Aliados → Carmelitas",
+          "stopIds": [
+            "almas",
+            "bolhao",
+            "catarina",
+            "aliados",
+            "lello",
+            "cordoaria"
+          ],
+          "editorialNote": "Un interior principal en Lello y tiempo de mercado. Domingo/festivo Bolhão sólo exterior; si no interesan libros ni la cola, mantener plazas y cafés y terminar antes. No rellenar con otra torre o varios museos.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: Almas→Bolhão 0, 2 km/2 min; Bolhão→Aliados 0, 4 km/5 min; →Lello 0, 5 km/8 min; →Cordoaria 0, 3 km/4 min. Santa Catarina es paseo breve junto al mercado, no otra excursión."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Centro histórico, Ribeira y Gaia",
+          "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+          "stopIds": [
+            "clerigos",
+            "bento",
+            "se",
+            "ribeira",
+            "ponte"
+          ],
+          "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+          "optionalStopIds": [
+            "bolsa",
+            "morro"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+        },
+        {
+          "title": "Bolhão, Baixa y Lello",
+          "zone": "Almas → Bolhão → Santa Catarina → Aliados → Carmelitas",
+          "stopIds": [
+            "almas",
+            "bolhao",
+            "catarina",
+            "aliados",
+            "lello",
+            "cordoaria"
+          ],
+          "editorialNote": "Un interior principal en Lello y tiempo de mercado. Domingo/festivo Bolhão sólo exterior; si no interesan libros ni la cola, mantener plazas y cafés y terminar antes. No rellenar con otra torre o varios museos.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: Almas→Bolhão 0, 2 km/2 min; Bolhão→Aliados 0, 4 km/5 min; →Lello 0, 5 km/8 min; →Cordoaria 0, 3 km/4 min. Santa Catarina es paseo breve junto al mercado, no otra excursión."
+        },
+        {
+          "title": "Serralves y la desembocadura",
+          "zone": "Serralves → Foz / Passeio Alegre",
+          "stopIds": [
+            "serralves",
+            "foz"
+          ],
+          "editorialNote": "Museo/parque y costa aportan un tercer día propio sin repetir el centro ni exigir excursión. Elegir comida en el oeste o llevar una pausa planificada; no volver al centro sólo para comer y salir de nuevo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10 para 30/10 a 09 h: São Bento→Serralves 42 min/8, 1 km en transporte; Serralves→Passeio Alegre 2, 2 km/28 min a pie. Servicio y espera cambian. No sumar Gaia, Casa da Música y Matosinhos."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Colas y sol en la ribera: empezar pronto, agua y pausas. No convertir cada mirador en una subida obligatoria.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Lluvia y adoquines: acortar Ribeira/puente y Foz con mal tiempo. Mantener una visita principal y pausas en vez de sumar interiores.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Comprobar 25/12, 1/1 y festivos: Bolhão cierra domingo/festivos, Lello tiene cierres y Serralves horarios por espacio. No prometer ferias o conciertos no contrastados.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Cambios de tiempo en el Atlántico. Jardines y Foz según viento y luz; revisar entradas y exposición del día.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Bolhão cierra domingos y festivos; reordenar días si se quiere visitar dentro.",
+    "El cruce inferior y el mirador Jardim do Morro no son una continuidad llana: elegir altura y recorrido.",
+    "No se garantiza servicio del tranvía histórico ni crucero.",
+    "Ninguna entrada ni mesa está reservada."
+  ],
+  "excludedOrOptional": [
+    "São Francisco y claustro de la Sé no se suman a Clérigos y Bolsa.",
+    "Casa da Música, Matosinhos y bodegas múltiples no se apilan al día de Serralves/Foz.",
+    "Guimarães sustituye una jornada; Aveiro/Braga/Duero no se añaden automáticamente ni se combinan con ella."
+  ],
+  "sources": [
+    {
+      "id": "vc",
+      "title": "Viajeros Callejeros: Oporto tres días",
+      "url": "https://www.viajeroscallejeros.com/oporto-en-3-dias/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "mm",
+      "title": "Mochileando: Oporto tres días",
+      "url": "https://www.mochileandoporelmundo.com/3-dias-en-oporto-itinerario/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "local",
+      "title": "Go Ask A Local: tres días en Oporto",
+      "url": "https://goaskalocal.com/blog/3-day-porto-itinerary",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "tourism",
+      "title": "Visit Porto: tres rutas y zonas",
+      "url": "https://visitporto.travel/storage/01HRWD2GGEDZY75FC3ZZW3TAYR.pdf",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "clerigos",
+      "title": "Clérigos: tarifas y visitas",
+      "url": "https://www.torredosclerigos.pt/en/ticket-office/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "clerigosplan",
+      "title": "Clérigos: preparar visita",
+      "url": "https://www.torredosclerigos.pt/planear-visita-aos-clerigos/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "lello",
+      "title": "Lello: entradas",
+      "url": "https://tickets.livrarialello.pt/en",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "lellofaq",
+      "title": "Lello: preguntas frecuentes",
+      "url": "https://livrarialello.pt/en/faqs/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "bolhao",
+      "title": "Bolhão: horarios y cierres",
+      "url": "https://mercadobolhao.pt/perguntas-frequentes/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "serralves",
+      "title": "Serralves: visita y billetes",
+      "url": "https://www.serralves.pt/en/visitar-serralves/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "se",
+      "title": "Catedral: Diócesis de Oporto",
+      "url": "https://www.diocese-porto.pt/pt/catedral-do-porto/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "bolsa",
+      "title": "Palácio da Bolsa: visita guiada y avisos",
+      "url": "https://booking.visitportoandnorth.travel/en/experiences/palacio-da-bolsa/guided-tour-of-the-palacio-da-bolsa/",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "taylor",
+      "title": "Taylor’s: bodega y horarios",
+      "url": "https://www.taylor.pt/en/visit-taylors/port-cellars",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "guimaraes",
+      "title": "Paço dos Duques: tarifas, obras y cierres",
+      "url": "https://pacodosduques.gov.pt/planear-visita/bilhetica-horarios/?lang=en",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "guimaraescp",
+      "title": "CP: línea Guimarães",
+      "url": "https://www.cp.pt/info/documents/d/cp/comboios-urbanos-porto-guimaraes",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "guimaraestourism",
+      "title": "Turismo de Portugal: Guimarães",
+      "url": "https://www.visitportugal.com/en/content/guimaraes",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "clerigossteps",
+      "title": "Clérigos: torre y escalones",
+      "url": "https://www.torredosclerigos.pt/en/clerigos-architectural-complex/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro histórico, Ribeira y Gaia",
+            "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+            "stopIds": [
+              "clerigos",
+              "bento",
+              "se",
+              "ribeira",
+              "ponte"
+            ],
+            "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+            "optionalStopIds": [
+              "bolsa",
+              "morro"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro histórico, Ribeira y Gaia",
+            "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+            "stopIds": [
+              "clerigos",
+              "bento",
+              "se",
+              "ribeira",
+              "ponte"
+            ],
+            "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+            "optionalStopIds": [
+              "bolsa",
+              "morro"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+          },
+          {
+            "title": "Bolhão, Baixa y Lello",
+            "zone": "Almas → Bolhão → Santa Catarina → Aliados → Carmelitas",
+            "stopIds": [
+              "almas",
+              "bolhao",
+              "catarina",
+              "aliados",
+              "lello",
+              "cordoaria"
+            ],
+            "editorialNote": "Un interior principal en Lello y tiempo de mercado. Domingo/festivo Bolhão sólo exterior; si no interesan libros ni la cola, mantener plazas y cafés y terminar antes. No rellenar con otra torre o varios museos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: Almas→Bolhão 0, 2 km/2 min; Bolhão→Aliados 0, 4 km/5 min; →Lello 0, 5 km/8 min; →Cordoaria 0, 3 km/4 min. Santa Catarina es paseo breve junto al mercado, no otra excursión."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro histórico, Ribeira y Gaia",
+            "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+            "stopIds": [
+              "clerigos",
+              "bento",
+              "se",
+              "ribeira",
+              "ponte"
+            ],
+            "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+            "optionalStopIds": [
+              "bolsa",
+              "morro"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+          },
+          {
+            "title": "Bolhão, Baixa y Lello",
+            "zone": "Almas → Bolhão → Santa Catarina → Aliados → Carmelitas",
+            "stopIds": [
+              "almas",
+              "bolhao",
+              "catarina",
+              "aliados",
+              "lello",
+              "cordoaria"
+            ],
+            "editorialNote": "Un interior principal en Lello y tiempo de mercado. Domingo/festivo Bolhão sólo exterior; si no interesan libros ni la cola, mantener plazas y cafés y terminar antes. No rellenar con otra torre o varios museos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: Almas→Bolhão 0, 2 km/2 min; Bolhão→Aliados 0, 4 km/5 min; →Lello 0, 5 km/8 min; →Cordoaria 0, 3 km/4 min. Santa Catarina es paseo breve junto al mercado, no otra excursión."
+          },
+          {
+            "title": "Serralves y la desembocadura",
+            "zone": "Serralves → Foz / Passeio Alegre",
+            "stopIds": [
+              "serralves",
+              "foz"
+            ],
+            "editorialNote": "Museo/parque y costa aportan un tercer día propio sin repetir el centro ni exigir excursión. Elegir comida en el oeste o llevar una pausa planificada; no volver al centro sólo para comer y salir de nuevo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10 para 30/10 a 09 h: São Bento→Serralves 42 min/8, 1 km en transporte; Serralves→Passeio Alegre 2, 2 km/28 min a pie. Servicio y espera cambian. No sumar Gaia, Casa da Música y Matosinhos."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro histórico, Ribeira y Gaia",
+            "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+            "stopIds": [
+              "clerigos",
+              "bento",
+              "se",
+              "ribeira",
+              "ponte"
+            ],
+            "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+            "optionalStopIds": [
+              "bolsa",
+              "morro"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro histórico, Ribeira y Gaia",
+            "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+            "stopIds": [
+              "clerigos",
+              "bento",
+              "se",
+              "ribeira",
+              "ponte"
+            ],
+            "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+            "optionalStopIds": [
+              "bolsa",
+              "morro"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+          },
+          {
+            "title": "Bolhão, Baixa y Lello",
+            "zone": "Almas → Bolhão → Santa Catarina → Aliados → Carmelitas",
+            "stopIds": [
+              "almas",
+              "bolhao",
+              "catarina",
+              "aliados",
+              "lello",
+              "cordoaria"
+            ],
+            "editorialNote": "Un interior principal en Lello y tiempo de mercado. Domingo/festivo Bolhão sólo exterior; si no interesan libros ni la cola, mantener plazas y cafés y terminar antes. No rellenar con otra torre o varios museos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: Almas→Bolhão 0, 2 km/2 min; Bolhão→Aliados 0, 4 km/5 min; →Lello 0, 5 km/8 min; →Cordoaria 0, 3 km/4 min. Santa Catarina es paseo breve junto al mercado, no otra excursión."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro histórico, Ribeira y Gaia",
+            "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+            "stopIds": [
+              "clerigos",
+              "bento",
+              "se",
+              "ribeira",
+              "ponte"
+            ],
+            "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+            "optionalStopIds": [
+              "bolsa",
+              "morro"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+          },
+          {
+            "title": "Bolhão, Baixa y Lello",
+            "zone": "Almas → Bolhão → Santa Catarina → Aliados → Carmelitas",
+            "stopIds": [
+              "almas",
+              "bolhao",
+              "catarina",
+              "aliados",
+              "lello",
+              "cordoaria"
+            ],
+            "editorialNote": "Un interior principal en Lello y tiempo de mercado. Domingo/festivo Bolhão sólo exterior; si no interesan libros ni la cola, mantener plazas y cafés y terminar antes. No rellenar con otra torre o varios museos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: Almas→Bolhão 0, 2 km/2 min; Bolhão→Aliados 0, 4 km/5 min; →Lello 0, 5 km/8 min; →Cordoaria 0, 3 km/4 min. Santa Catarina es paseo breve junto al mercado, no otra excursión."
+          },
+          {
+            "title": "Serralves y la desembocadura",
+            "zone": "Serralves → Foz / Passeio Alegre",
+            "stopIds": [
+              "serralves",
+              "foz"
+            ],
+            "editorialNote": "Museo/parque y costa aportan un tercer día propio sin repetir el centro ni exigir excursión. Elegir comida en el oeste o llevar una pausa planificada; no volver al centro sólo para comer y salir de nuevo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10 para 30/10 a 09 h: São Bento→Serralves 42 min/8, 1 km en transporte; Serralves→Passeio Alegre 2, 2 km/28 min a pie. Servicio y espera cambian. No sumar Gaia, Casa da Música y Matosinhos."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro histórico, Ribeira y Gaia",
+            "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+            "stopIds": [
+              "clerigos",
+              "bento",
+              "se",
+              "ribeira",
+              "ponte"
+            ],
+            "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+            "optionalStopIds": [
+              "bolsa",
+              "morro"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro histórico, Ribeira y Gaia",
+            "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+            "stopIds": [
+              "clerigos",
+              "bento",
+              "se",
+              "ribeira",
+              "ponte"
+            ],
+            "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+            "optionalStopIds": [
+              "bolsa",
+              "morro"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+          },
+          {
+            "title": "Bolhão, Baixa y Lello",
+            "zone": "Almas → Bolhão → Santa Catarina → Aliados → Carmelitas",
+            "stopIds": [
+              "almas",
+              "bolhao",
+              "catarina",
+              "aliados",
+              "lello",
+              "cordoaria"
+            ],
+            "editorialNote": "Un interior principal en Lello y tiempo de mercado. Domingo/festivo Bolhão sólo exterior; si no interesan libros ni la cola, mantener plazas y cafés y terminar antes. No rellenar con otra torre o varios museos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: Almas→Bolhão 0, 2 km/2 min; Bolhão→Aliados 0, 4 km/5 min; →Lello 0, 5 km/8 min; →Cordoaria 0, 3 km/4 min. Santa Catarina es paseo breve junto al mercado, no otra excursión."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro histórico, Ribeira y Gaia",
+            "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+            "stopIds": [
+              "clerigos",
+              "bento",
+              "se",
+              "ribeira",
+              "ponte"
+            ],
+            "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+            "optionalStopIds": [
+              "bolsa",
+              "morro"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+          },
+          {
+            "title": "Bolhão, Baixa y Lello",
+            "zone": "Almas → Bolhão → Santa Catarina → Aliados → Carmelitas",
+            "stopIds": [
+              "almas",
+              "bolhao",
+              "catarina",
+              "aliados",
+              "lello",
+              "cordoaria"
+            ],
+            "editorialNote": "Un interior principal en Lello y tiempo de mercado. Domingo/festivo Bolhão sólo exterior; si no interesan libros ni la cola, mantener plazas y cafés y terminar antes. No rellenar con otra torre o varios museos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: Almas→Bolhão 0, 2 km/2 min; Bolhão→Aliados 0, 4 km/5 min; →Lello 0, 5 km/8 min; →Cordoaria 0, 3 km/4 min. Santa Catarina es paseo breve junto al mercado, no otra excursión."
+          },
+          {
+            "title": "Serralves y la desembocadura",
+            "zone": "Serralves → Foz / Passeio Alegre",
+            "stopIds": [
+              "serralves",
+              "foz"
+            ],
+            "editorialNote": "Museo/parque y costa aportan un tercer día propio sin repetir el centro ni exigir excursión. Elegir comida en el oeste o llevar una pausa planificada; no volver al centro sólo para comer y salir de nuevo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10 para 30/10 a 09 h: São Bento→Serralves 42 min/8, 1 km en transporte; Serralves→Passeio Alegre 2, 2 km/28 min a pie. Servicio y espera cambian. No sumar Gaia, Casa da Música y Matosinhos."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Centro histórico, Ribeira y Gaia",
+            "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+            "stopIds": [
+              "clerigos",
+              "bento",
+              "se",
+              "ribeira",
+              "ponte"
+            ],
+            "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+            "optionalStopIds": [
+              "bolsa",
+              "morro"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Centro histórico, Ribeira y Gaia",
+            "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+            "stopIds": [
+              "clerigos",
+              "bento",
+              "se",
+              "ribeira",
+              "ponte"
+            ],
+            "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+            "optionalStopIds": [
+              "bolsa",
+              "morro"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+          },
+          {
+            "title": "Bolhão, Baixa y Lello",
+            "zone": "Almas → Bolhão → Santa Catarina → Aliados → Carmelitas",
+            "stopIds": [
+              "almas",
+              "bolhao",
+              "catarina",
+              "aliados",
+              "lello",
+              "cordoaria"
+            ],
+            "editorialNote": "Un interior principal en Lello y tiempo de mercado. Domingo/festivo Bolhão sólo exterior; si no interesan libros ni la cola, mantener plazas y cafés y terminar antes. No rellenar con otra torre o varios museos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: Almas→Bolhão 0, 2 km/2 min; Bolhão→Aliados 0, 4 km/5 min; →Lello 0, 5 km/8 min; →Cordoaria 0, 3 km/4 min. Santa Catarina es paseo breve junto al mercado, no otra excursión."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Centro histórico, Ribeira y Gaia",
+            "zone": "Clérigos → São Bento → Sé → Ribeira → Gaia",
+            "stopIds": [
+              "clerigos",
+              "bento",
+              "se",
+              "ribeira",
+              "ponte"
+            ],
+            "editorialNote": "Clérigos es el interior principal. Bolsa lo sustituye si no apetece la subida. La ruta baja a Ribeira y cruza por abajo: Jardim do Morro exige otra elección de recorrido, no se promete subida sin esfuerzo al final.",
+            "optionalStopIds": [
+              "bolsa",
+              "morro"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y pausas, estimación editorial. Maps 29/10: Clérigos→São Bento 0, 4 km/6 min; →Sé 0, 5 km/7 min; →Ribeira 0, 8 km/11 min. Enlaces no incluyen visitas, colas ni descansos."
+          },
+          {
+            "title": "Bolhão, Baixa y Lello",
+            "zone": "Almas → Bolhão → Santa Catarina → Aliados → Carmelitas",
+            "stopIds": [
+              "almas",
+              "bolhao",
+              "catarina",
+              "aliados",
+              "lello",
+              "cordoaria"
+            ],
+            "editorialNote": "Un interior principal en Lello y tiempo de mercado. Domingo/festivo Bolhão sólo exterior; si no interesan libros ni la cola, mantener plazas y cafés y terminar antes. No rellenar con otra torre o varios museos.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida y pausas, estimación editorial. Maps 29/10: Almas→Bolhão 0, 2 km/2 min; Bolhão→Aliados 0, 4 km/5 min; →Lello 0, 5 km/8 min; →Cordoaria 0, 3 km/4 min. Santa Catarina es paseo breve junto al mercado, no otra excursión."
+          },
+          {
+            "title": "Serralves y la desembocadura",
+            "zone": "Serralves → Foz / Passeio Alegre",
+            "stopIds": [
+              "serralves",
+              "foz"
+            ],
+            "editorialNote": "Museo/parque y costa aportan un tercer día propio sin repetir el centro ni exigir excursión. Elegir comida en el oeste o llevar una pausa planificada; no volver al centro sólo para comer y salir de nuevo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y traslados, estimación editorial. Maps 29/10 para 30/10 a 09 h: São Bento→Serralves 42 min/8, 1 km en transporte; Serralves→Passeio Alegre 2, 2 km/28 min a pie. Servicio y espera cambian. No sumar Gaia, Casa da Música y Matosinhos."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [
+    {
+      "id": "guimaraes",
+      "name": "Guimarães · centro histórico y castillo",
+      "zone": "Fuera de Oporto",
+      "lat": 41.4430179,
+      "lon": -8.2928146,
+      "coordSource": "https://www.google.com/maps/search/?api=1&query=Largo+da+Oliveira&query_place_id=ChIJk7ZU8-nvJA0RTXtyDw0l7Ts",
+      "minutes": 480,
+      "sourceIds": [
+        "guimaraes",
+        "guimaraescp",
+        "guimaraestourism",
+        "mm"
+      ],
+      "priority": "Alternativa de jornada",
+      "reason": "Plazas medievales y castillo en una ciudad distinta, con comida y paseo propios.",
+      "visit": "Centro histórico y castillo como visita principal. Paço dos Duques sustituye el castillo si se prefiere palacio; no combinar con Braga por defecto.",
+      "transport": "Tren CP desde Porto São Bento a Guimarães: horario oficial con trayectos de unos 75-80 min según servicio. Maps consultado para 30/10/2026 a 08 h:79 min/57, 9 km. Añadir acceso, espera y paseo estación-centro, no es tiempo puerta a puerta.",
+      "pacing": "7-9 h con ida/vuelta, comida y paseo, estimación editorial.",
+      "caution": "Castillo y Paço 10-18 h, última 17:30; cierran 1/1, Pascua, 1/5, 24/6 y 25/12. Torre del homenaje cerrada; Paço en obras y ascensor puede no funcionar. Tarifas publicadas durante cierre parcial: castillo 5 €, Paço 5 €, conjunto 8 €. Revisar estado antes de elegir, no se promete visita íntegra.",
+      "url": "https://pacodosduques.gov.pt/planear-visita/bilhetica-horarios/?lang=en",
+      "kind": "excursion",
+      "reviewedAt": "2026-10-29",
+      "closedMonthDays": [
+        "01-01",
+        "05-01",
+        "06-24",
+        "12-25"
+      ],
+      "closedDates": [],
+      "closedEasterOffsets": [
+        0
+      ],
+      "access": "https://pacodosduques.gov.pt/planear-visita/bilhetica-horarios/?lang=en",
+      "photo": {
+        "id": "guimaraes",
+        "img": "assets/porto/guimaraes.jpg",
+        "source": "https://www.pexels.com/photo/historic-guimaraes-castle-in-portugal-38587398/",
+        "author": "Diego HG",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Castillo de Guimarães, foto exterior de archivo. La torre del homenaje está cerrada según aviso oficial; la foto no implica acceso. Recorte de presentación."
+      }
+    }
+  ],
+  "excursionDefault": "urban",
+  "editorialAudit": [
+    "Tres guías de viaje leídas y contrastadas con turismo oficial; después operadores y Maps.",
+    "Maps interpretó primer origen São Bento como Amarante; se descartó y repitió con coordenadas de estación Porto verificadas.",
+    "Fotografía mercado elegida en colección reciente de Bolhão, no vista anterior a reforma. Algunas fotos de comida son ilustrativas o de contexto y se etiquetan."
+  ],
+  "editorialTradeoffs": [
+    "Ruta corta de centro baja al río; Jardim do Morro es alternativa alta, no escalada final obligatoria.",
+    "Dos días de centro se separan por secuencia y contenido; Clérigos no se repite el día de Lello.",
+    "Tercer día de museo/parque y costa tiene sentido propio sin imponer salida de la ciudad."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Mochileando y Viajeros Callejeros acumulan muchos interiores y miradores el primer día. Go Ask A Local aporta Serralves y costa, pero su día Serralves/Matosinhos/Gaia implica varios traslados. Se conservan los barrios y se elimina esa acumulación; VisitPorto sustenta un tercer bloque contemporáneo al oeste."
+}

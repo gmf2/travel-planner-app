@@ -1,0 +1,1022 @@
+{
+  "schemaVersion": 1,
+  "country": "HU",
+  "id": "budapest",
+  "name": "Budapest",
+  "localName": "Budapest",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita de 1-3 días, sin fechas ni reservas. Pest, Buda y Városliget en jornadas separadas. Baño sujeto a edad, salud e interés.",
+  "stops": [
+    {
+      "id": "parliament",
+      "name": "Parlamento · Kossuth tér",
+      "kind": "visit",
+      "zone": "Pest / Danubio",
+      "reason": "El Parlamento y su plaza, con visita interior sólo si encaja la franja oficial.",
+      "sourceIds": [
+        "parliament",
+        "parliamentinfo",
+        "parliamenthours"
+      ],
+      "coordinates": {
+        "lat": 47.507121,
+        "lon": 19.045669
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Hungarian+Parliament+Building&query_place_id=ChIJPaPURhDcQUcRbg-P_7giITQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Tour interior 45 min, añadir seguridad y llegada previa. 2026: 7000 HUF adulto EEE / 14000 no EEE, documentación para tarifa reducida; venta oficial Jegymester enlazada desde Parlamento. Actos pueden cancelar visitas incluso justo antes: comprobar noticias y fecha. No hay reserva hecha. Foto exterior, no del recorrido.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/budapest/parliament.jpg",
+        "source": "https://www.flickr.com/photos/indy138/14826984336/",
+        "author": "Attila Malarik",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior; visita guiada de pago si se elige"
+    },
+    {
+      "id": "shoes",
+      "name": "Zapatos a orillas del Danubio",
+      "kind": "visit",
+      "zone": "Pest / Danubio",
+      "reason": "Memorial de las víctimas judías asesinadas junto al río durante el Holocausto.",
+      "sourceIds": [
+        "local",
+        "hungary",
+        "timeout"
+      ],
+      "coordinates": {
+        "lat": 47.50392739999999,
+        "lon": 19.0448015
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Shoes+on+the+Danube+Bank&query_place_id=ChIJ32QtdBbcQUcR1mrLvmwZjvY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Es un lugar de memoria: no posar sobre las piezas ni tratarlo como una atracción lúdica. Atención al borde del río y al tiempo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/budapest/shoes.jpg",
+        "source": "https://www.flickr.com/photos/archer10/7263586734/",
+        "author": "Dennis Jarvis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Memorial exterior; parada de recuerdo"
+    },
+    {
+      "id": "basilica",
+      "name": "Basílica de San Esteban · plaza",
+      "kind": "visit",
+      "zone": "Pest / Belváros",
+      "reason": "Fachada y plaza como pausa en el paseo hacia el barrio judío.",
+      "sourceIds": [
+        "basilicaprice",
+        "basilicahours",
+        "hungary"
+      ],
+      "coordinates": {
+        "lat": 47.5008902,
+        "lon": 19.0539887
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=St.+Stephen%27s+Basilica&query_place_id=ChIJ982jOl7BQUcRy7x_rqz8Qt0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "La visita turística interior no es gratuita, pese a lo que dice una guía. Si se elige templo, comprobar ticket, culto y horario: domingo desde 13; cierre de visitas 17:45 según página específica. Terraza y tesoro son otra modalidad. No añadir cúpula por defecto tras el Parlamento.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/budapest/basilica.jpg",
+        "source": "https://www.flickr.com/photos/mdid/2089984146/",
+        "author": "David Pursehouse",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior; templo y cúpula no incluidos"
+    },
+    {
+      "id": "synagogue",
+      "name": "Dohány · sinagoga exterior y barrio judío",
+      "kind": "visit",
+      "zone": "Pest / Erzsébetváros",
+      "reason": "Fachada de la sinagoga y un paseo atento por las calles del barrio.",
+      "sourceIds": [
+        "synagogue",
+        "synagoguehours",
+        "local",
+        "timeout"
+      ],
+      "coordinates": {
+        "lat": 47.4959071,
+        "lon": 19.0606139
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Doh%C3%A1ny+Street+Synagogue&query_place_id=ChIJz0F9UELcQUcRCIZQ0GOvKEE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Museo, jardín conmemorativo y sinagoga requieren entrada propia. El complejo cierra sábados y fiestas judías; en invierno 2026 última entrada una hora antes del cierre. Si se quiere visitarlo, sustituir la visita interior del Parlamento y reorganizar por su horario. No se promete acceso al jardín desde la calle.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/budapest/synagogue.jpg",
+        "source": "https://www.flickr.com/photos/andryn2006/35303715856/",
+        "author": "Andrew Moore",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior y barrio; complejo interior no incluido"
+    },
+    {
+      "id": "bastion",
+      "name": "Bastión de los Pescadores",
+      "kind": "visit",
+      "zone": "Buda / Várnegyed",
+      "reason": "Terrazas y vistas del Danubio junto a la iglesia de Matías.",
+      "sourceIds": [
+        "hungary",
+        "bastion",
+        "timeout"
+      ],
+      "coordinates": {
+        "lat": 47.5021827,
+        "lon": 19.0347813
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Fisherman%27s+Bastion&query_place_id=ChIJnam0fyLcQUcRRl4jRKg8Ji8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "No asumir que todo el conjunto es gratis. Guía especializada publica 1700 HUF para torres, con zonas y horas variables y pruebas de cobro en terrazas bajas. Comprobar señalización y tarifa al llegar; no planear entrar gratis a una hora supuesta. Cuestas, escaleras y afluencia.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/budapest/bastion.jpg",
+        "source": "https://www.flickr.com/photos/alex-photos/6385804573/",
+        "author": "alex.ch",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exteriores y terrazas bajas según acceso; torres de pago aparte"
+    },
+    {
+      "id": "matthias",
+      "name": "Iglesia de Matías",
+      "kind": "visit",
+      "zone": "Buda / Szentháromság tér",
+      "reason": "Interior pintado y tejado del templo, sin añadir una segunda subida.",
+      "sourceIds": [
+        "matthias",
+        "hungary"
+      ],
+      "coordinates": {
+        "lat": 47.5019537,
+        "lon": 19.0341617
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=The+Church+of+Our+Lady+of+Buda+Castle&query_place_id=ChIJ1yuefiLcQUcR1Uppb4xy0GI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Calendario del templo puede cambiar por liturgia y delegaciones. Página actual muestra estado diario no verificable para una fecha futura: comprobar calendario antes de comprar. Iglesia y torre son billetes distintos, no reembolsables; torre con 197 escalones y sin ascensor. No hay entrada comprada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/budapest/matthias.jpg",
+        "source": "https://www.flickr.com/photos/randyconnolly/8730408907/",
+        "author": "Randy Connolly",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Interior de pago según horario; torre no incluida"
+    },
+    {
+      "id": "castle",
+      "name": "Palacio de Buda · exteriores",
+      "kind": "visit",
+      "zone": "Buda / palacio",
+      "reason": "Patios y vistas del recinto real al final del paseo por la colina.",
+      "sourceIds": [
+        "hungary",
+        "local",
+        "timeout"
+      ],
+      "coordinates": {
+        "lat": 47.4962048,
+        "lon": 19.0395666
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Buda+Castle&query_place_id=ChIJDw826jzcQUcRdiUBqV86zj0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 110,
+      "durationType": "editorial-estimate",
+      "caution": "Obras y vallados pueden alterar pasos y vistas. Foto de archivo no acredita estado actual. No se promete acceso a cada patio ni una ruta sin barreras. Galería Nacional, Museo de Historia y salas son entradas distintas: elegir una sustitución, no añadir todas tras iglesia y bastión.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/budapest/castle.jpg",
+        "source": "https://www.flickr.com/photos/68177867@N00/3898661054/",
+        "author": "Avinash Bhat",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Recinto exterior según obras; museos no incluidos"
+    },
+    {
+      "id": "bath",
+      "name": "Baños Széchenyi",
+      "kind": "visit",
+      "zone": "Városliget",
+      "reason": "Un baño termal con su propia mañana, sin correr después por media ciudad.",
+      "sourceIds": [
+        "bathprice",
+        "bathhours",
+        "bathfaq"
+      ],
+      "coordinates": {
+        "lat": 47.5186568,
+        "lon": 19.0823791
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Sz%C3%A9chenyi+Thermal+Bath&query_place_id=ChIJd1VnBYbbQUcREiSNtgjDwMs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 210,
+      "durationType": "editorial-estimate",
+      "caution": "No admite menores de 14 años salvo excepción médica gestionada por el operador. Llevar bañador, chanclas y toalla; no hay alquiler actual. Diario con taquilla 13200 HUF lun-jue / 14800 vie-dom / 15800 festivos y temporada alta publicados; fast-track es más caro. Revisar restricciones de salud y piscinas. Si no se quiere nadar, quitar esta parada y dejar paseo de parque más corto, no rellenar con museos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/budapest/bath.jpg",
+        "source": "https://www.flickr.com/photos/thanate_tan/20123934468/",
+        "author": "Thanate Tan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Actividad de pago; bañarse es una elección, no una reserva"
+    },
+    {
+      "id": "vajda",
+      "name": "Vajdahunyad y parque de la ciudad",
+      "kind": "visit",
+      "zone": "Városliget",
+      "reason": "Fachadas del castillo, lago y descanso bajo los árboles después del baño.",
+      "sourceIds": [
+        "timeout",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 47.5148896,
+        "lon": 19.0830593
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Vajdahunyad+Castle&query_place_id=ChIJoaLtEYfbQUcRjp9d1Wfk97w",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "No incluye Museo de Agricultura ni alquiler. Hielo, obras o eventos pueden limitar tramos. No prometer lago navegable o pista de patinaje abierta sin calendario.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/budapest/vajda.jpg",
+        "source": "https://www.flickr.com/photos/kurt-b/43253446340/",
+        "author": "Kurayba",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; museo y barcas aparte"
+    },
+    {
+      "id": "heroes",
+      "name": "Plaza de los Héroes",
+      "kind": "visit",
+      "zone": "Városliget / Andrássy",
+      "reason": "Monumento y plaza al salir del parque, sin otro museo largo.",
+      "sourceIds": [
+        "timeout",
+        "local"
+      ],
+      "coordinates": {
+        "lat": 47.5149429,
+        "lon": 19.0778626
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Heroes%27+Square&query_place_id=ChIJaSHx-YfbQUcRPylIurx8QTQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Restauraciones y actos pueden cambiar el aspecto del monumento. Foto de archivo no garantiza ausencia de andamios. Museo de Bellas Artes y Kunsthalle sólo si sustituyen el baño, no añadidos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/budapest/heroes.jpg",
+        "source": "https://www.flickr.com/photos/chris-yunker/265801224/",
+        "author": "Chris Yunker",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior; museos aparte"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Budapest junto al Danubio",
+          "zone": "Parlamento → memorial → basílica",
+          "stopIds": [
+            "parliament",
+            "shoes",
+            "basilica"
+          ],
+          "editorialNote": "Un día corto para Pest, sin prometer castillo, baños y varias visitas interiores.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "4-6 h con visita principal si hay franja, comida y pausas, estimación editorial."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Pest junto al Danubio y barrio judío",
+          "zone": "Parlamento → memorial → basílica → Dohány",
+          "stopIds": [
+            "parliament",
+            "shoes",
+            "basilica",
+            "synagogue"
+          ],
+          "editorialNote": "Si se entra al Parlamento, es la visita interior principal. Basílica y sinagoga quedan exteriores; si se prefiere sinagoga, sustituir el tour y ajustar sábados y fiestas.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas, estimación editorial. Maps: Parlamento→memorial 495 m / 6 min, a basílica 1,08 km / 14 min y a Dohány 1,10 km / 15 min. Añadir controles, visita principal y paseo por el barrio."
+        },
+        {
+          "title": "Buda sin sumar otra colina",
+          "zone": "Bastión → Matías → palacio",
+          "stopIds": [
+            "bastion",
+            "matthias",
+            "castle"
+          ],
+          "editorialNote": "Empezar arriba con transporte según alojamiento. Iglesia como única visita interior; palacio exterior y comida con calma. No se añade Gellért Hill, baño ni crucero por obligación.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "4-6 h con comida, calles y vistas, estimación. Maps bastión→Matías 32 m / menos de 1 min; Matías→palacio 954 m / 15 min, sin paseos interiores ni acceso inicial. Cuestas y obras pueden requerir rodeos."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Pest junto al Danubio y barrio judío",
+          "zone": "Parlamento → memorial → basílica → Dohány",
+          "stopIds": [
+            "parliament",
+            "shoes",
+            "basilica",
+            "synagogue"
+          ],
+          "editorialNote": "Si se entra al Parlamento, es la visita interior principal. Basílica y sinagoga quedan exteriores; si se prefiere sinagoga, sustituir el tour y ajustar sábados y fiestas.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas, estimación editorial. Maps: Parlamento→memorial 495 m / 6 min, a basílica 1,08 km / 14 min y a Dohány 1,10 km / 15 min. Añadir controles, visita principal y paseo por el barrio."
+        },
+        {
+          "title": "Buda sin sumar otra colina",
+          "zone": "Bastión → Matías → palacio",
+          "stopIds": [
+            "bastion",
+            "matthias",
+            "castle"
+          ],
+          "editorialNote": "Empezar arriba con transporte según alojamiento. Iglesia como única visita interior; palacio exterior y comida con calma. No se añade Gellért Hill, baño ni crucero por obligación.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "4-6 h con comida, calles y vistas, estimación. Maps bastión→Matías 32 m / menos de 1 min; Matías→palacio 954 m / 15 min, sin paseos interiores ni acceso inicial. Cuestas y obras pueden requerir rodeos."
+        },
+        {
+          "title": "Baño termal y parque de la ciudad",
+          "zone": "Széchenyi → Vajdahunyad → Héroes",
+          "stopIds": [
+            "bath",
+            "vajda",
+            "heroes"
+          ],
+          "editorialNote": "Baño como actividad principal si se quiere entrar. Después sólo parque y plaza. Sin baño puede ser una media jornada: no se alarga con visitas de relleno.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-7 h con baño, comida y parque, estimación. Maps enlaces baño→Vajdahunyad 327 m / 4 min y a Héroes 317 m / 4 min; el paseo real por el parque añade distancia."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Calor y cuestas: agua, sombra y pausas. No acumular baño con otras dos visitas interiores.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Luz corta, posible hielo en Buda y frío al salir del baño. Reducir paseo de parque si hace falta; no prometer pista de hielo o fuentes activas.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Horarios especiales, cierre judío propio y precios de temporada alta en baño. Comprobar 24-26/12 y 1/1; no asumir mercadillos ni apertura ordinaria.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Lluvia en adoquines y escaleras; revisar calendario de culto, obras de Buda y estado de piscinas antes de ir.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No hay reservas ni entradas compradas. Parlamento puede cancelar por actos oficiales.",
+    "Széchenyi no es una actividad para menores de 14 por defecto; consultar condiciones médicas.",
+    "Gellért cerrado desde 1/10/2025, reapertura prevista 2028 según operador: no se incluye baño allí."
+  ],
+  "excludedOrOptional": [
+    "Sin crucero, Gellért Hill ni otra excursión añadida al día de Buda.",
+    "Galería Nacional y visita de sinagoga son sustituciones de un interior, no acumulaciones.",
+    "Mercado Central no se fuerza en el día del parque ni se presupone cerrado todos los domingos: revisar operador si se elige."
+  ],
+  "sources": [
+    {
+      "id": "local",
+      "title": "Kata Budapest: tres días",
+      "url": "https://www.katabudapest.com/blog/how-to-spend-3-days-in-budapest-a-local-guides-perfect-itinerary-2026",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "hungary",
+      "title": "Hungary Unlocked: tres días",
+      "url": "https://hungaryunlocked.com/3-days-in-budapest-itinerary/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "timeout",
+      "title": "Time Out: fin de semana",
+      "url": "https://www.timeout.com/budapest/travel/a-weekend-in-budapest",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "parliament",
+      "title": "Parlamento: precios",
+      "url": "https://www.parlament.hu/web/visitors/ticket-prices",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "parliamenthours",
+      "title": "Parlamento: calendario y noticias",
+      "url": "https://www.parlament.hu/web/visitors/opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "parliamentinfo",
+      "title": "Parlamento: visita y condiciones",
+      "url": "https://www.parlament.hu/web/visitors/important-information",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "basilicaprice",
+      "title": "Basílica: entradas",
+      "url": "https://www.bazilikabudapest.hu/jegyarak",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "basilicahours",
+      "title": "Basílica: horarios",
+      "url": "https://www.bazilikabudapest.hu/nyitvatartas",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "synagogue",
+      "title": "Dohány: complejo",
+      "url": "https://jewishtourhungary.com/en/about",
+      "type": "operator",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "synagoguehours",
+      "title": "Dohány: calendario",
+      "url": "https://jewishtourhungary.com/en/opening",
+      "type": "operator",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "bastion",
+      "title": "Bastión: zonas y entradas",
+      "url": "https://fishermansbastion.com/fishermans-bastion-prices",
+      "type": "specialist-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "matthias",
+      "title": "Matías: entradas y calendario",
+      "url": "https://matyas-templom.hu/en/buy-tickets/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "bathprice",
+      "title": "Széchenyi: precios",
+      "url": "https://www.szechenyibath.hu/prices-2026",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "bathhours",
+      "title": "Széchenyi: horarios",
+      "url": "https://www.szechenyibath.hu/opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "bathfaq",
+      "title": "Széchenyi: condiciones y edades",
+      "url": "https://www.szechenyibath.hu/faq",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "gellert",
+      "title": "Gellért: cierre",
+      "url": "https://gellertbath.hu/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "foodguide",
+      "title": "Time Out: restaurantes",
+      "url": "https://www.timeout.com/budapest/restaurants/best-restaurants-in-budapest",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "gettoreview",
+      "title": "We Love Budapest: Gettó Gulyás, 2026",
+      "url": "https://welovebudapest.com/cikk/2026/02/26/getto-gulyas-10-eves-magyaros-etterem-budapest/",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "getto",
+      "title": "Gettó Gulyás: carta",
+      "url": "https://gettogulyas.hu/etlap/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "napfenyes",
+      "title": "Napfényes: local y menú diario",
+      "url": "https://napfenyesetterem.hu/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "retro",
+      "title": "Retro Lángos: menú y locales",
+      "url": "https://retrolangos.hu/en/menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Budapest junto al Danubio",
+            "zone": "Parlamento → memorial → basílica",
+            "stopIds": [
+              "parliament",
+              "shoes",
+              "basilica"
+            ],
+            "editorialNote": "Un día corto para Pest, sin prometer castillo, baños y varias visitas interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con visita principal si hay franja, comida y pausas, estimación editorial."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Pest junto al Danubio y barrio judío",
+            "zone": "Parlamento → memorial → basílica → Dohány",
+            "stopIds": [
+              "parliament",
+              "shoes",
+              "basilica",
+              "synagogue"
+            ],
+            "editorialNote": "Si se entra al Parlamento, es la visita interior principal. Basílica y sinagoga quedan exteriores; si se prefiere sinagoga, sustituir el tour y ajustar sábados y fiestas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps: Parlamento→memorial 495 m / 6 min, a basílica 1,08 km / 14 min y a Dohány 1,10 km / 15 min. Añadir controles, visita principal y paseo por el barrio."
+          },
+          {
+            "title": "Buda sin sumar otra colina",
+            "zone": "Bastión → Matías → palacio",
+            "stopIds": [
+              "bastion",
+              "matthias",
+              "castle"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento. Iglesia como única visita interior; palacio exterior y comida con calma. No se añade Gellért Hill, baño ni crucero por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, calles y vistas, estimación. Maps bastión→Matías 32 m / menos de 1 min; Matías→palacio 954 m / 15 min, sin paseos interiores ni acceso inicial. Cuestas y obras pueden requerir rodeos."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Pest junto al Danubio y barrio judío",
+            "zone": "Parlamento → memorial → basílica → Dohány",
+            "stopIds": [
+              "parliament",
+              "shoes",
+              "basilica",
+              "synagogue"
+            ],
+            "editorialNote": "Si se entra al Parlamento, es la visita interior principal. Basílica y sinagoga quedan exteriores; si se prefiere sinagoga, sustituir el tour y ajustar sábados y fiestas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps: Parlamento→memorial 495 m / 6 min, a basílica 1,08 km / 14 min y a Dohány 1,10 km / 15 min. Añadir controles, visita principal y paseo por el barrio."
+          },
+          {
+            "title": "Buda sin sumar otra colina",
+            "zone": "Bastión → Matías → palacio",
+            "stopIds": [
+              "bastion",
+              "matthias",
+              "castle"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento. Iglesia como única visita interior; palacio exterior y comida con calma. No se añade Gellért Hill, baño ni crucero por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, calles y vistas, estimación. Maps bastión→Matías 32 m / menos de 1 min; Matías→palacio 954 m / 15 min, sin paseos interiores ni acceso inicial. Cuestas y obras pueden requerir rodeos."
+          },
+          {
+            "title": "Baño termal y parque de la ciudad",
+            "zone": "Széchenyi → Vajdahunyad → Héroes",
+            "stopIds": [
+              "bath",
+              "vajda",
+              "heroes"
+            ],
+            "editorialNote": "Baño como actividad principal si se quiere entrar. Después sólo parque y plaza. Sin baño puede ser una media jornada: no se alarga con visitas de relleno.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con baño, comida y parque, estimación. Maps enlaces baño→Vajdahunyad 327 m / 4 min y a Héroes 317 m / 4 min; el paseo real por el parque añade distancia."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Budapest junto al Danubio",
+            "zone": "Parlamento → memorial → basílica",
+            "stopIds": [
+              "parliament",
+              "shoes",
+              "basilica"
+            ],
+            "editorialNote": "Un día corto para Pest, sin prometer castillo, baños y varias visitas interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con visita principal si hay franja, comida y pausas, estimación editorial."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Pest junto al Danubio y barrio judío",
+            "zone": "Parlamento → memorial → basílica → Dohány",
+            "stopIds": [
+              "parliament",
+              "shoes",
+              "basilica",
+              "synagogue"
+            ],
+            "editorialNote": "Si se entra al Parlamento, es la visita interior principal. Basílica y sinagoga quedan exteriores; si se prefiere sinagoga, sustituir el tour y ajustar sábados y fiestas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps: Parlamento→memorial 495 m / 6 min, a basílica 1,08 km / 14 min y a Dohány 1,10 km / 15 min. Añadir controles, visita principal y paseo por el barrio."
+          },
+          {
+            "title": "Buda sin sumar otra colina",
+            "zone": "Bastión → Matías → palacio",
+            "stopIds": [
+              "bastion",
+              "matthias",
+              "castle"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento. Iglesia como única visita interior; palacio exterior y comida con calma. No se añade Gellért Hill, baño ni crucero por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, calles y vistas, estimación. Maps bastión→Matías 32 m / menos de 1 min; Matías→palacio 954 m / 15 min, sin paseos interiores ni acceso inicial. Cuestas y obras pueden requerir rodeos."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Pest junto al Danubio y barrio judío",
+            "zone": "Parlamento → memorial → basílica → Dohány",
+            "stopIds": [
+              "parliament",
+              "shoes",
+              "basilica",
+              "synagogue"
+            ],
+            "editorialNote": "Si se entra al Parlamento, es la visita interior principal. Basílica y sinagoga quedan exteriores; si se prefiere sinagoga, sustituir el tour y ajustar sábados y fiestas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps: Parlamento→memorial 495 m / 6 min, a basílica 1,08 km / 14 min y a Dohány 1,10 km / 15 min. Añadir controles, visita principal y paseo por el barrio."
+          },
+          {
+            "title": "Buda sin sumar otra colina",
+            "zone": "Bastión → Matías → palacio",
+            "stopIds": [
+              "bastion",
+              "matthias",
+              "castle"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento. Iglesia como única visita interior; palacio exterior y comida con calma. No se añade Gellért Hill, baño ni crucero por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, calles y vistas, estimación. Maps bastión→Matías 32 m / menos de 1 min; Matías→palacio 954 m / 15 min, sin paseos interiores ni acceso inicial. Cuestas y obras pueden requerir rodeos."
+          },
+          {
+            "title": "Baño termal y parque de la ciudad",
+            "zone": "Széchenyi → Vajdahunyad → Héroes",
+            "stopIds": [
+              "bath",
+              "vajda",
+              "heroes"
+            ],
+            "editorialNote": "Baño como actividad principal si se quiere entrar. Después sólo parque y plaza. Sin baño puede ser una media jornada: no se alarga con visitas de relleno.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con baño, comida y parque, estimación. Maps enlaces baño→Vajdahunyad 327 m / 4 min y a Héroes 317 m / 4 min; el paseo real por el parque añade distancia."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Budapest junto al Danubio",
+            "zone": "Parlamento → memorial → basílica",
+            "stopIds": [
+              "parliament",
+              "shoes",
+              "basilica"
+            ],
+            "editorialNote": "Un día corto para Pest, sin prometer castillo, baños y varias visitas interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con visita principal si hay franja, comida y pausas, estimación editorial."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Pest junto al Danubio y barrio judío",
+            "zone": "Parlamento → memorial → basílica → Dohány",
+            "stopIds": [
+              "parliament",
+              "shoes",
+              "basilica",
+              "synagogue"
+            ],
+            "editorialNote": "Si se entra al Parlamento, es la visita interior principal. Basílica y sinagoga quedan exteriores; si se prefiere sinagoga, sustituir el tour y ajustar sábados y fiestas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps: Parlamento→memorial 495 m / 6 min, a basílica 1,08 km / 14 min y a Dohány 1,10 km / 15 min. Añadir controles, visita principal y paseo por el barrio."
+          },
+          {
+            "title": "Buda sin sumar otra colina",
+            "zone": "Bastión → Matías → palacio",
+            "stopIds": [
+              "bastion",
+              "matthias",
+              "castle"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento. Iglesia como única visita interior; palacio exterior y comida con calma. No se añade Gellért Hill, baño ni crucero por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, calles y vistas, estimación. Maps bastión→Matías 32 m / menos de 1 min; Matías→palacio 954 m / 15 min, sin paseos interiores ni acceso inicial. Cuestas y obras pueden requerir rodeos."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Pest junto al Danubio y barrio judío",
+            "zone": "Parlamento → memorial → basílica → Dohány",
+            "stopIds": [
+              "parliament",
+              "shoes",
+              "basilica",
+              "synagogue"
+            ],
+            "editorialNote": "Si se entra al Parlamento, es la visita interior principal. Basílica y sinagoga quedan exteriores; si se prefiere sinagoga, sustituir el tour y ajustar sábados y fiestas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps: Parlamento→memorial 495 m / 6 min, a basílica 1,08 km / 14 min y a Dohány 1,10 km / 15 min. Añadir controles, visita principal y paseo por el barrio."
+          },
+          {
+            "title": "Buda sin sumar otra colina",
+            "zone": "Bastión → Matías → palacio",
+            "stopIds": [
+              "bastion",
+              "matthias",
+              "castle"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento. Iglesia como única visita interior; palacio exterior y comida con calma. No se añade Gellért Hill, baño ni crucero por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, calles y vistas, estimación. Maps bastión→Matías 32 m / menos de 1 min; Matías→palacio 954 m / 15 min, sin paseos interiores ni acceso inicial. Cuestas y obras pueden requerir rodeos."
+          },
+          {
+            "title": "Baño termal y parque de la ciudad",
+            "zone": "Széchenyi → Vajdahunyad → Héroes",
+            "stopIds": [
+              "bath",
+              "vajda",
+              "heroes"
+            ],
+            "editorialNote": "Baño como actividad principal si se quiere entrar. Después sólo parque y plaza. Sin baño puede ser una media jornada: no se alarga con visitas de relleno.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con baño, comida y parque, estimación. Maps enlaces baño→Vajdahunyad 327 m / 4 min y a Héroes 317 m / 4 min; el paseo real por el parque añade distancia."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Budapest junto al Danubio",
+            "zone": "Parlamento → memorial → basílica",
+            "stopIds": [
+              "parliament",
+              "shoes",
+              "basilica"
+            ],
+            "editorialNote": "Un día corto para Pest, sin prometer castillo, baños y varias visitas interiores.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con visita principal si hay franja, comida y pausas, estimación editorial."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Pest junto al Danubio y barrio judío",
+            "zone": "Parlamento → memorial → basílica → Dohány",
+            "stopIds": [
+              "parliament",
+              "shoes",
+              "basilica",
+              "synagogue"
+            ],
+            "editorialNote": "Si se entra al Parlamento, es la visita interior principal. Basílica y sinagoga quedan exteriores; si se prefiere sinagoga, sustituir el tour y ajustar sábados y fiestas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps: Parlamento→memorial 495 m / 6 min, a basílica 1,08 km / 14 min y a Dohány 1,10 km / 15 min. Añadir controles, visita principal y paseo por el barrio."
+          },
+          {
+            "title": "Buda sin sumar otra colina",
+            "zone": "Bastión → Matías → palacio",
+            "stopIds": [
+              "bastion",
+              "matthias",
+              "castle"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento. Iglesia como única visita interior; palacio exterior y comida con calma. No se añade Gellért Hill, baño ni crucero por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, calles y vistas, estimación. Maps bastión→Matías 32 m / menos de 1 min; Matías→palacio 954 m / 15 min, sin paseos interiores ni acceso inicial. Cuestas y obras pueden requerir rodeos."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Pest junto al Danubio y barrio judío",
+            "zone": "Parlamento → memorial → basílica → Dohány",
+            "stopIds": [
+              "parliament",
+              "shoes",
+              "basilica",
+              "synagogue"
+            ],
+            "editorialNote": "Si se entra al Parlamento, es la visita interior principal. Basílica y sinagoga quedan exteriores; si se prefiere sinagoga, sustituir el tour y ajustar sábados y fiestas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Maps: Parlamento→memorial 495 m / 6 min, a basílica 1,08 km / 14 min y a Dohány 1,10 km / 15 min. Añadir controles, visita principal y paseo por el barrio."
+          },
+          {
+            "title": "Buda sin sumar otra colina",
+            "zone": "Bastión → Matías → palacio",
+            "stopIds": [
+              "bastion",
+              "matthias",
+              "castle"
+            ],
+            "editorialNote": "Empezar arriba con transporte según alojamiento. Iglesia como única visita interior; palacio exterior y comida con calma. No se añade Gellért Hill, baño ni crucero por obligación.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, calles y vistas, estimación. Maps bastión→Matías 32 m / menos de 1 min; Matías→palacio 954 m / 15 min, sin paseos interiores ni acceso inicial. Cuestas y obras pueden requerir rodeos."
+          },
+          {
+            "title": "Baño termal y parque de la ciudad",
+            "zone": "Széchenyi → Vajdahunyad → Héroes",
+            "stopIds": [
+              "bath",
+              "vajda",
+              "heroes"
+            ],
+            "editorialNote": "Baño como actividad principal si se quiere entrar. Después sólo parque y plaza. Sin baño puede ser una media jornada: no se alarga con visitas de relleno.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con baño, comida y parque, estimación. Maps enlaces baño→Vajdahunyad 327 m / 4 min y a Héroes 317 m / 4 min; el paseo real por el parque añade distancia."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Tres guías leídas antes de oficiales y Maps.",
+    "Se corrige la afirmación de guía local de que la basílica es gratuita.",
+    "Se evita mezclar Gellért cerrado, condiciones variables de Rudas y baños familiares.",
+    "Bastión no se etiqueta como web oficial municipal y no se garantiza gratuidad de terrazas.",
+    "Fotos originales Flickr BY/BY-SA verificadas; comidas ilustrativas de otro local explícitas."
+  ],
+  "editorialTradeoffs": [
+    "Pest y Buda separados, sin volver a la misma zona otro día.",
+    "Parlamento como único interior principal de Pest si se elige; sinagoga y basílica exteriores.",
+    "Día de baño centrado en parque y Héroes, sin mercado al otro lado de la ciudad."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Kata aporta calles y lectura local, pero su día 1 es muy largo y llama gratis a la basílica, contradicho por operador. Hungary Unlocked agrupa geografía y advierte cierres, aunque añade otra colina y crucero. Time Out aporta parque, arquitectura y alternativas; se reduce la carga y se verifica cada condición de pago."
+}

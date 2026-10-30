@@ -1,0 +1,1384 @@
+{
+  "schemaVersion": 1,
+  "country": "IT",
+  "id": "rome",
+  "name": "Roma",
+  "localName": "Roma",
+  "selectionReason": "Ciudad de las veinte confirmadas por el usuario, sin duplicarla en la ampliación italiana.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita de 1-3 días. Conjunto arqueológico como bloque principal, museos grandes como alternativas y días agrupados por zona. Sin reservas ni promesa de disponibilidad.",
+  "stops": [
+    {
+      "id": "campo",
+      "name": "Campo de' Fiori",
+      "kind": "visit",
+      "zone": "Centro histórico",
+      "reason": "Plaza de mercado y hornos para empezar la mañana en el centro.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.8956045,
+        "lon": 12.4721757
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Campo+de%27+Fiori&query_place_id=ChIJfc8DqVVgLxMRxPIIp3z8CBg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "El ambiente y los puestos dependen de día y hora; no prometer mercado nocturno.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/campo.jpg",
+        "source": "https://www.pexels.com/photo/giordano-bruno-statue-in-campo-de-fiori-rome-39375552/",
+        "author": "Lajos Kristóf Kántor",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Plaza y mercado exterior"
+    },
+    {
+      "id": "navona",
+      "name": "Piazza Navona",
+      "kind": "visit",
+      "zone": "Centro histórico",
+      "reason": "Plaza barroca con fuentes que se disfruta sin una visita interior larga.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.8991633,
+        "lon": 12.4730742
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+Navona&query_place_id=ChIJPRydwYNgLxMRSjOCLlYkV6M",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/navona.jpg",
+        "source": "https://www.pexels.com/photo/piazza-navona-with-fountain-and-obelisk-35709294/",
+        "author": "Magda Ehlers",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "pantheon",
+      "name": "Panteón",
+      "kind": "visit",
+      "zone": "Centro histórico",
+      "reason": "La cúpula y el óculo justifican el interior corto elegido para el día de plazas.",
+      "sourceIds": [
+        "pantheon",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.8986108,
+        "lon": 12.4768729
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pantheon&query_place_id=ChIJqUCGZ09gLxMRLM42IPpl0co",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Tarifa general 7 € desde 1/7/2026, no 5 € de guías anteriores. Diario 9-19 h, última entrada individual 18:30; liturgia puede cambiar acceso. Cierra 25/12 y 1/1 salvo apertura especial. Confirmar fecha.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/pantheon.jpg",
+        "source": "https://www.pexels.com/photo/front-view-of-the-pantheon-in-rome-italy-29893934/",
+        "author": "Vinicius A. Nascimento",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Interior con entrada y franja"
+    },
+    {
+      "id": "trevi",
+      "name": "Fontana di Trevi",
+      "kind": "visit",
+      "zone": "Centro histórico",
+      "reason": "La fuente barroca se puede contemplar desde la plaza sin pagar el acceso cercano.",
+      "sourceIds": [
+        "trevi",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.9009325,
+        "lon": 12.483313
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Trevi+Fountain&query_place_id=ChIJ1UCDJ1NgLxMRtrsCzOHxdvY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Desde 2/2/2026 el perímetro interior cuesta 2 € a no residentes. Lunes y viernes 11:30-22 h; resto 9-22 h; última entrada 21 h. La fuente sigue visible gratis. No tratarlo como entrada obligatoria al barrio.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/trevi.jpg",
+        "source": "https://www.pexels.com/photo/trevi-fountain-in-rome-italy-36672666/",
+        "author": "C1 Superstar",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Vista exterior gratuita; perímetro interior opcional de pago"
+    },
+    {
+      "id": "spagna",
+      "name": "Piazza di Spagna",
+      "kind": "visit",
+      "zone": "Tridente",
+      "reason": "Escalinata y plazas del Tridente en el camino hacia el mirador.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.9056978,
+        "lon": 12.482327
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+di+Spagna&query_place_id=ChIJ4_TEG1VgLxMROFkd29jWdug",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Respetar normas del monumento y el paso; la subida no es una ruta accesible verificada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/spagna.jpg",
+        "source": "https://www.pexels.com/photo/historic-spanish-steps-in-rome-under-sunny-skies-39241380/",
+        "author": "Ben Prater",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Plaza y escalinata exteriores"
+    },
+    {
+      "id": "pincio",
+      "name": "Piazza del Popolo y Pincio",
+      "kind": "visit",
+      "zone": "Tridente / Villa Borghese",
+      "reason": "Final de tarde sobre la plaza del Popolo, sin añadir una visita a la Galería Borghese.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.9111207,
+        "lon": 12.4779391
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Terrazza+del+Pincio&query_place_id=ChIJxTF2FABhLxMRMCggaPaPG6s",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "Hay subida al mirador; con lluvia, movilidad reducida o poca energía, terminar en la plaza.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/pincio.jpg",
+        "source": "https://www.flickr.com/photos/benedettobuono/6088899409",
+        "author": "2benny",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Piazza del Popolo vista desde el Pincio. Foto de archivo; encuadre adaptado a tarjeta."
+      },
+      "visitMode": "Plaza y mirador exterior"
+    },
+    {
+      "id": "colosseum",
+      "name": "Coliseo",
+      "kind": "visit",
+      "zone": "Roma antigua",
+      "reason": "El anfiteatro abre la jornada arqueológica antes de seguir al Foro. Requiere reservar una franja de entrada.",
+      "sourceIds": [
+        "colosseum",
+        "colticket",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.8902102,
+        "lon": 12.4922309
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Colosseum&query_place_id=ChIJrRMgU7ZhLxMRxAOFkC7I8Sg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Entrada nominativa y franja obligatoria; llevar identificación. El billete general no incluye arena ni subterráneos. Ventas 30 días antes según operador. Del 25/10/2026 al 28/2/2027 cierra 16:30, última entrada 15:30.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/colosseum.jpg",
+        "source": "https://www.pexels.com/photo/the-colosseum-in-rome-14836534/",
+        "author": "Efrem Efre",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Parte del conjunto arqueológico principal con entrada"
+    },
+    {
+      "id": "forum",
+      "name": "Foro Romano",
+      "kind": "visit",
+      "zone": "Roma antigua",
+      "reason": "Templos y espacios públicos que dan contexto al Coliseo, dentro del mismo bloque de visita.",
+      "sourceIds": [
+        "colosseum",
+        "colticket",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.8920906,
+        "lon": 12.4864378
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Roman+Forum&query_place_id=ChIJ782pg7NhLxMR5n3swAdAkfo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Comprobar entrada y salida del recinto según el billete. Terreno irregular y poca sombra. La distancia entre puntos del mapa no confirma acceso ni recorrido interno.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/forum.jpg",
+        "source": "https://www.pexels.com/photo/forum-romanum-in-rome-21550404/",
+        "author": "esrageziyor",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Conjunto arqueológico principal; mismo bloque que Coliseo"
+    },
+    {
+      "id": "palatine",
+      "name": "Palatino",
+      "kind": "visit",
+      "zone": "Roma antigua",
+      "reason": "Colina de palacios y vistas sobre el Foro como continuación opcional del conjunto.",
+      "sourceIds": [
+        "colosseum",
+        "colticket",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.8886559,
+        "lon": 12.4875481
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Palatine+Hill&query_place_id=ChIJowJff7VhLxMRLmHQKoSniFE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "El conjunto Coliseo+Foro+Palatino ocupa la mañana y parte de la tarde. Con calor o movilidad limitada, recortar recorrido sin añadir otro museo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/palatine.jpg",
+        "source": "https://www.pexels.com/photo/ancient-ruins-of-the-palatine-hill-in-rome-italy-36984029/",
+        "author": "Aliguieri",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Recinto arqueológico; elegir un recorrido, no cobertura completa"
+    },
+    {
+      "id": "campidoglio",
+      "name": "Campidoglio y Piazza Venezia",
+      "kind": "visit",
+      "zone": "Capitolio",
+      "reason": "Plaza de Miguel Ángel y vistas exteriores al Foro después del bloque arqueológico.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.8933592,
+        "lon": 12.4828018
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+del+Campidoglio&query_place_id=ChIJOclom0xgLxMRURy9OLL7Hg4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "El museo es una alternativa de interior, no otra visita añadida tras cuatro horas de arqueología.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/campidoglio.jpg",
+        "source": "https://www.pexels.com/photo/photo-of-stairs-in-piazza-del-campidoglio-in-rome-italy-14940194/",
+        "author": "Vito Giaccari",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Plaza y miradores; Museos Capitolinos no incluidos"
+    },
+    {
+      "id": "ghetto",
+      "name": "Gueto judío y Pórtico de Octavia",
+      "kind": "visit",
+      "zone": "Tíber central",
+      "reason": "Calles, pórtico y entorno del Teatro Marcelo antes de cruzar hacia Trastevere.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.8925126,
+        "lon": 12.4785372
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Portico+of+Octavia&query_place_id=ChIJpTF0RUlgLxMRUMm5Pi9Tc10",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "El paseo no incluye visitas guiadas, ceremonias religiosas ni comidas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/ghetto.jpg",
+        "source": "https://www.flickr.com/photos/kleptoclaire/988631737/",
+        "author": "amandabullock",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Pórtico de Octavia. Foto de archivo; encuadre adaptado a tarjeta."
+      },
+      "visitMode": "Paseo exterior; sin entrada a museo o sinagoga"
+    },
+    {
+      "id": "trastevere",
+      "name": "Trastevere",
+      "kind": "visit",
+      "zone": "Trastevere",
+      "reason": "Tarde tranquila por las plazas del barrio y cena, sin obligar a subir al Gianicolo.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.889493,
+        "lon": 12.4698361
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Basilica+of+Santa+Maria+in+Trastevere&query_place_id=ChIJs_RYejhgLxMRIkBM8PNSZzY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "La visita a Santa María en Trastevere depende de culto y horario. No se promete música en vivo ni mesa sin reserva.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/trastevere.jpg",
+        "source": "https://www.pexels.com/photo/charming-historic-street-in-rome-s-trastevere-33009161/",
+        "author": "AXP Photography",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Barrio exterior; iglesias según apertura"
+    },
+    {
+      "id": "vatican",
+      "name": "Museos Vaticanos y Capilla Sixtina",
+      "kind": "visit",
+      "zone": "Vaticano / Prati",
+      "reason": "El gran interior artístico del tercer día: reservar tiempo y energía para sus colecciones.",
+      "sourceIds": [
+        "vatican",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.9064878,
+        "lon": 12.4536413
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Vatican+Museums&query_place_id=ChIJKcGbg2NgLxMRthZkUqDs4M8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 210,
+      "durationType": "editorial-estimate",
+      "caution": "Lunes-sábado 8-20 h, última entrada 18 h según calendario. Domingos cerrado salvo último del mes con excepciones y horario corto. Cierres festivos publicados; confirmar fecha. No se garantiza paso directo del museo a la basílica.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/vatican.jpg",
+        "source": "https://www.pexels.com/photo/the-painted-ceiling-gallery-corridor-in-the-vatican-museum-5035513/",
+        "author": "Mike Tyurin",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Interior principal con entrada nominativa y franja"
+    },
+    {
+      "id": "stpeter",
+      "name": "Plaza y Basílica de San Pedro",
+      "kind": "visit",
+      "zone": "Vaticano",
+      "reason": "La plaza completa la mañana vaticana; entrar a la basílica es una elección, no una obligación tras el museo.",
+      "sourceIds": [
+        "peter",
+        "peterfaq",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.9021667,
+        "lon": 12.4539367
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Saint+Peter%E2%80%99s+Basilica&query_place_id=ChIJWZsUt2FgLxMRg1KHzXfwS3I",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "La basílica es gratis por acceso ordinario, con seguridad y cola; reservar una franja con audioguía es un servicio de pago no obligatorio. Del 26/10/2026 al 28/3/2027 la basílica anuncia 7-19 h; ceremonias pueden limitar acceso. Cúpula aparte: no incluida.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/stpeter.jpg",
+        "source": "https://www.pexels.com/photo/facade-of-st-peters-basilica-with-oltramontano-clock-in-vatican-city-9869786/",
+        "author": "Marina Gr",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Fachada de San Pedro en el Vaticano, con el reloj septentrional."
+      },
+      "visitMode": "Plaza exterior; basílica alternativa o extensión consciente"
+    },
+    {
+      "id": "castel",
+      "name": "Castel Sant'Angelo y puente",
+      "kind": "visit",
+      "zone": "Prati / Tíber",
+      "reason": "Fortaleza y puente vistos por fuera como paseo de tarde después del Vaticano.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.9030632,
+        "lon": 12.466276
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Castel+Sant%27Angelo&query_place_id=ChIJ0aTnEYeKJRMRiUF95xwRbDY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "No añadir el interior del castillo al de los Museos Vaticanos por estar cerca. Elegir uno como visita principal.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/castel.jpg",
+        "source": "https://www.pexels.com/photo/historic-castel-sant-angelo-in-rome-italy-28990361/",
+        "author": "Henry Acevedo",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Exterior; museo alternativo con entrada"
+    },
+    {
+      "id": "colosseumoutside",
+      "name": "Coliseo · vista exterior",
+      "kind": "visit",
+      "zone": "Roma antigua",
+      "reason": "Contemplar el anfiteatro desde fuera sin consumir la jornada en el recinto arqueológico.",
+      "sourceIds": [
+        "colosseum",
+        "colticket",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 41.8902102,
+        "lon": 12.4922309
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Colosseum&query_place_id=ChIJrRMgU7ZhLxMRxAOFkC7I8Sg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "La vista exterior no incluye Foro/Palatino ni arena o subterráneos. Para entrar hay que cambiar el alcance del día.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/rome/colosseum.jpg",
+        "source": "https://www.pexels.com/photo/the-colosseum-in-rome-14836534/",
+        "author": "Efrem Efre",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Exterior; sin entrada al recinto"
+    },
+    {
+      "id": "ostia",
+      "name": "Ostia Antica",
+      "kind": "excursion",
+      "zone": "Fuera del centro",
+      "reason": "Ciudad portuaria romana como jornada propia, en lugar de una jornada de Roma.",
+      "sourceIds": [
+        "ostia",
+        "tourism"
+      ],
+      "coordinates": {
+        "lat": 41.7558,
+        "lon": 12.2917
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 390,
+      "durationType": "editorial-estimate",
+      "caution": "Yacimiento martes-domingo y festivos desde 8:30, lunes cerrado; cierre 16:30 en invierno y hasta 19 h en verano, última entrada 1 h antes. Cerrado 25/12 y 1/1. El museo tiene otro horario y cierra también días de entrada gratuita: no garantizar ambos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Yacimiento y paseo seleccionado; museo con horarios y cierres distintos. No se acumula con Coliseo/Foro.",
+      "photo": {
+        "img": "assets/rome/ostia.jpg",
+        "source": "https://www.flickr.com/photos/wwarby/1479041313",
+        "author": "William Warby",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Teatro de Ostia Antica. Foto de archivo; encuadre adaptado a tarjeta."
+      }
+    },
+    {
+      "id": "tivoli",
+      "name": "Tivoli · Villa d'Este",
+      "kind": "excursion",
+      "zone": "Fuera de Roma",
+      "reason": "Villa y jardines de Tivoli para sustituir un día de ciudad, sin añadir automáticamente Villa Adriana.",
+      "sourceIds": [
+        "tivoli"
+      ],
+      "coordinates": {
+        "lat": 41.9625,
+        "lon": 12.7963
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 420,
+      "durationType": "editorial-estimate",
+      "caution": "Lunes abre 14 h; si lunes es festivo abre por la mañana y el martes siguiente desde 14 h. Cerrado 1/1 y 25/12 salvo apertura especial. Jardines y fuentes pueden limitarse por maltiempo. Confirmar calendario y hora de última entrada por mes.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Villa d’Este y paseo por Tivoli. Villa Adriana es otro recinto y necesita otro traslado: no incluida.",
+      "photo": {
+        "img": "assets/rome/tivoli.jpg",
+        "source": "https://unsplash.com/photos/a-fountain-in-a-park-H739Q2Jna4A",
+        "author": "Marian Florinel Condruz",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseURL": "https://unsplash.com/license"
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Roma en un día: plazas y Coliseo exterior",
+          "zone": "Coliseo → Capitolio → Panteón → Trevi",
+          "stopIds": [
+            "colosseumoutside",
+            "campidoglio",
+            "pantheon",
+            "trevi"
+          ],
+          "editorialNote": "Con un solo día se renuncia al interior del Coliseo y al recinto Foro/Palatino. Empezar por su exterior, continuar al Capitolio y centro histórico; Panteón es el único interior corto si hay franja. No cabe también Vaticano.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-8 h con comida, estimación editorial. Campidoglio→Panteón: 1,0 km / 14 min a pie (Maps 29/10/2026). No incluye colas ni paseo dentro de los recintos."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Plazas, Panteón y mirador",
+          "zone": "Campo de Fiori → Navona → Trevi → Tridente",
+          "stopIds": [
+            "campo",
+            "navona",
+            "pantheon",
+            "trevi",
+            "spagna",
+            "pincio"
+          ],
+          "editorialNote": "Un eje por el centro sin saltar al Vaticano ni al Coliseo. Panteón como interior corto; Trevi vista gratuita desde la plaza. Pausa de comida entre Panteón y Trevi. Subida al Pincio opcional según energía.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida. Enlaces Maps 29/10/2026: Campo→Navona 0,4 km 5 min; →Panteón 0,4 km 4 min; →Trevi 0,6 km 8 min; →España 0,7 km 8 min; →Pincio 0,8 km 12 min. No incluyen paseos dentro de plazas, colas ni regreso al alojamiento."
+        },
+        {
+          "title": "Roma antigua y tarde junto al Tíber",
+          "zone": "Coliseo / Foro / Palatino → Capitolio → Gueto → Trastevere",
+          "stopIds": [
+            "colosseum",
+            "forum",
+            "palatine",
+            "campidoglio",
+            "ghetto",
+            "trastevere"
+          ],
+          "editorialNote": "Coliseo+Foro+Palatino forman un solo bloque arqueológico de 4-5 h, no tres visitas breves. Comer al salir y seguir al Capitolio exterior, Gueto e Isla Tiberina hacia Trastevere. Sin Museos Capitolinos, Aventino ni Gianicolo añadidos. Si la arqueología se alarga, pasar directo a la cena.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "Jornada de 8-9 h con comida, larga por el recinto arqueológico. Campidoglio→Pórtico Octavia 0,6 km 9 min; →Santa María Trastevere 1 km 14 min, Maps 29/10/2026. No se afirma recorrido verificado dentro del yacimiento."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Plazas, Panteón y mirador",
+          "zone": "Campo de Fiori → Navona → Trevi → Tridente",
+          "stopIds": [
+            "campo",
+            "navona",
+            "pantheon",
+            "trevi",
+            "spagna",
+            "pincio"
+          ],
+          "editorialNote": "Un eje por el centro sin saltar al Vaticano ni al Coliseo. Panteón como interior corto; Trevi vista gratuita desde la plaza. Pausa de comida entre Panteón y Trevi. Subida al Pincio opcional según energía.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida. Enlaces Maps 29/10/2026: Campo→Navona 0,4 km 5 min; →Panteón 0,4 km 4 min; →Trevi 0,6 km 8 min; →España 0,7 km 8 min; →Pincio 0,8 km 12 min. No incluyen paseos dentro de plazas, colas ni regreso al alojamiento."
+        },
+        {
+          "title": "Roma antigua y tarde junto al Tíber",
+          "zone": "Coliseo / Foro / Palatino → Capitolio → Gueto → Trastevere",
+          "stopIds": [
+            "colosseum",
+            "forum",
+            "palatine",
+            "campidoglio",
+            "ghetto",
+            "trastevere"
+          ],
+          "editorialNote": "Coliseo+Foro+Palatino forman un solo bloque arqueológico de 4-5 h, no tres visitas breves. Comer al salir y seguir al Capitolio exterior, Gueto e Isla Tiberina hacia Trastevere. Sin Museos Capitolinos, Aventino ni Gianicolo añadidos. Si la arqueología se alarga, pasar directo a la cena.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "Jornada de 8-9 h con comida, larga por el recinto arqueológico. Campidoglio→Pórtico Octavia 0,6 km 9 min; →Santa María Trastevere 1 km 14 min, Maps 29/10/2026. No se afirma recorrido verificado dentro del yacimiento."
+        },
+        {
+          "title": "Vaticano sin acumular museos",
+          "zone": "Museos Vaticanos → plaza San Pedro → Tíber",
+          "stopIds": [
+            "vatican",
+            "stpeter",
+            "castel"
+          ],
+          "editorialNote": "Museos Vaticanos como único interior principal. San Pedro se propone como plaza: si se quiere entrar también, reservar 1-2 h más de visita y cola y quitar el paseo final. La alternativa de no ir a los museos permite dedicar la mañana a la basílica y cúpula. No se suman castillo interior y Gianicolo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-8 h con museos, comida y paseo. Acceso Museos→plaza San Pedro 0,9 km 12 min por fuera; plaza→Castel 0,7 km 10 min, Maps 29/10/2026. Seguridad y colas aparte."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Bloque arqueológico temprano, agua y sombra: no concentrar colinas y museos en la misma tarde. La lluvia o calor pueden cambiar el paseo.",
+      "sourceIds": [
+        "colosseum",
+        "vatican",
+        "pantheon",
+        "peter"
+      ],
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Coliseo/Foro cierran pronto: reservar la mañana. Acortar Pincio y jardines según luz, no mover el yacimiento al atardecer.",
+      "sourceIds": [
+        "colosseum",
+        "vatican",
+        "pantheon",
+        "peter"
+      ],
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Coliseo y Panteón cierran 25/12 y 1/1 salvo anuncios especiales; Museos Vaticanos tienen cierres festivos propios. San Pedro depende de ceremonias. Elegir fecha y revisar calendario antes de confirmar la jornada.",
+      "sourceIds": [
+        "colosseum",
+        "vatican",
+        "pantheon",
+        "peter"
+      ],
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Buen equilibrio de exterior e interior, con lluvia posible. Mantener arqueología de mañana y reservar franjas; no prometer ausencia de colas.",
+      "sourceIds": [
+        "colosseum",
+        "vatican",
+        "pantheon",
+        "peter"
+      ],
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Las fechas no están elegidas: reordenar Vaticano y recintos según cierres/franjas.",
+    "La plaza de Trevi es visible gratis; el perímetro interior de 2 € es opcional. Panteón 7 € desde julio 2026.",
+    "No se suman Museos Capitolinos, Borghese, Castel interior y Museos Vaticanos a las mismas jornadas sólo por estar próximos."
+  ],
+  "excludedOrOptional": [
+    "Museos Capitolinos: alternativa a parte del bloque arqueológico, no añadido automático al final.",
+    "Galería Borghese: queda para una elección artística específica con reserva, en lugar de otro interior. Villa Borghese no equivale a entrada al museo.",
+    "Aventino/Gianicolo: miradores adicionales recortados para evitar colinas y traslados tras jornadas cargadas.",
+    "Vía Appia/catacumbas: fuera del plan principal; no se inventa media jornada sin verificar operador/transporte."
+  ],
+  "sources": [
+    {
+      "id": "vc",
+      "title": "Viajeros Callejeros: Roma en tres días",
+      "url": "https://www.viajeroscallejeros.com/roma-en-3-dias/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "mm",
+      "title": "Mochileando: Roma en tres días",
+      "url": "https://www.mochileandoporelmundo.com/3-dias-en-roma-el-mejor-itinerario/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "tourism",
+      "title": "Turismo Roma: 72 horas",
+      "url": "https://www.turismoroma.it/it/itinerari/roma-72-ore",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "colosseum",
+      "title": "Coliseo: aperturas y entradas",
+      "url": "https://colosseo.it/en/opening-times-and-tickets/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "colticket",
+      "title": "Coliseo, Foro y Palatino: condiciones",
+      "url": "https://colosseo.it/en/tickets/colosseum-roman-forum-palatine/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "vatican",
+      "title": "Museos Vaticanos: días y cierres",
+      "url": "https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "peter",
+      "title": "San Pedro: horarios",
+      "url": "https://www.basilicasanpietro.va/en/opening-hours",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "peterfaq",
+      "title": "San Pedro: acceso gratuito y servicios",
+      "url": "https://www.basilicasanpietro.va/en/help/the-basilica",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "pantheon",
+      "title": "Panteón: horarios y entradas",
+      "url": "https://direzionemuseiroma.cultura.gov.it/en/pantheon/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "trevi",
+      "title": "Fontana di Trevi: acceso al perímetro",
+      "url": "https://fontanaditrevi.roma.it/en",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "ostia",
+      "title": "Ostia Antica: visita",
+      "url": "https://ostiaantica.cultura.gov.it/en/info/archaeological-area-of-ostia-antica-visitor-information/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "tivoli",
+      "title": "Villa d’Este: acceso y transporte",
+      "url": "https://villae.cultura.gov.it/en/the-locations/villa-deste/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {
+    "summer": {
+      "mode": "editorial",
+      "note": "Bloque arqueológico temprano, agua y sombra: no concentrar colinas y museos en la misma tarde. La lluvia o calor pueden cambiar el paseo."
+    },
+    "winter": {
+      "mode": "editorial",
+      "note": "Coliseo/Foro cierran pronto: reservar la mañana. Acortar Pincio y jardines según luz, no mover el yacimiento al atardecer."
+    },
+    "christmas": {
+      "mode": "editorial",
+      "note": "Coliseo y Panteón cierran 25/12 y 1/1 salvo anuncios especiales; Museos Vaticanos tienen cierres festivos propios. San Pedro depende de ceremonias. Elegir fecha y revisar calendario antes de confirmar la jornada."
+    },
+    "springAutumn": {
+      "mode": "editorial",
+      "note": "Buen equilibrio de exterior e interior, con lluvia posible. Mantener arqueología de mañana y reservar franjas; no prometer ausencia de colas."
+    }
+  },
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Roma en un día: plazas y Coliseo exterior",
+            "zone": "Coliseo → Capitolio → Panteón → Trevi",
+            "stopIds": [
+              "colosseumoutside",
+              "campidoglio",
+              "pantheon",
+              "trevi"
+            ],
+            "editorialNote": "Con un solo día se renuncia al interior del Coliseo y al recinto Foro/Palatino. Empezar por su exterior, continuar al Capitolio y centro histórico; Panteón es el único interior corto si hay franja. No cabe también Vaticano.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida, estimación editorial. Campidoglio→Panteón: 1,0 km / 14 min a pie (Maps 29/10/2026). No incluye colas ni paseo dentro de los recintos."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Plazas, Panteón y mirador",
+            "zone": "Campo de Fiori → Navona → Trevi → Tridente",
+            "stopIds": [
+              "campo",
+              "navona",
+              "pantheon",
+              "trevi",
+              "spagna",
+              "pincio"
+            ],
+            "editorialNote": "Un eje por el centro sin saltar al Vaticano ni al Coliseo. Panteón como interior corto; Trevi vista gratuita desde la plaza. Pausa de comida entre Panteón y Trevi. Subida al Pincio opcional según energía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Enlaces Maps 29/10/2026: Campo→Navona 0,4 km 5 min; →Panteón 0,4 km 4 min; →Trevi 0,6 km 8 min; →España 0,7 km 8 min; →Pincio 0,8 km 12 min. No incluyen paseos dentro de plazas, colas ni regreso al alojamiento."
+          },
+          {
+            "title": "Roma antigua y tarde junto al Tíber",
+            "zone": "Coliseo / Foro / Palatino → Capitolio → Gueto → Trastevere",
+            "stopIds": [
+              "colosseum",
+              "forum",
+              "palatine",
+              "campidoglio",
+              "ghetto",
+              "trastevere"
+            ],
+            "editorialNote": "Coliseo+Foro+Palatino forman un solo bloque arqueológico de 4-5 h, no tres visitas breves. Comer al salir y seguir al Capitolio exterior, Gueto e Isla Tiberina hacia Trastevere. Sin Museos Capitolinos, Aventino ni Gianicolo añadidos. Si la arqueología se alarga, pasar directo a la cena.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Jornada de 8-9 h con comida, larga por el recinto arqueológico. Campidoglio→Pórtico Octavia 0,6 km 9 min; →Santa María Trastevere 1 km 14 min, Maps 29/10/2026. No se afirma recorrido verificado dentro del yacimiento."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Plazas, Panteón y mirador",
+            "zone": "Campo de Fiori → Navona → Trevi → Tridente",
+            "stopIds": [
+              "campo",
+              "navona",
+              "pantheon",
+              "trevi",
+              "spagna",
+              "pincio"
+            ],
+            "editorialNote": "Un eje por el centro sin saltar al Vaticano ni al Coliseo. Panteón como interior corto; Trevi vista gratuita desde la plaza. Pausa de comida entre Panteón y Trevi. Subida al Pincio opcional según energía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Enlaces Maps 29/10/2026: Campo→Navona 0,4 km 5 min; →Panteón 0,4 km 4 min; →Trevi 0,6 km 8 min; →España 0,7 km 8 min; →Pincio 0,8 km 12 min. No incluyen paseos dentro de plazas, colas ni regreso al alojamiento."
+          },
+          {
+            "title": "Roma antigua y tarde junto al Tíber",
+            "zone": "Coliseo / Foro / Palatino → Capitolio → Gueto → Trastevere",
+            "stopIds": [
+              "colosseum",
+              "forum",
+              "palatine",
+              "campidoglio",
+              "ghetto",
+              "trastevere"
+            ],
+            "editorialNote": "Coliseo+Foro+Palatino forman un solo bloque arqueológico de 4-5 h, no tres visitas breves. Comer al salir y seguir al Capitolio exterior, Gueto e Isla Tiberina hacia Trastevere. Sin Museos Capitolinos, Aventino ni Gianicolo añadidos. Si la arqueología se alarga, pasar directo a la cena.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Jornada de 8-9 h con comida, larga por el recinto arqueológico. Campidoglio→Pórtico Octavia 0,6 km 9 min; →Santa María Trastevere 1 km 14 min, Maps 29/10/2026. No se afirma recorrido verificado dentro del yacimiento."
+          },
+          {
+            "title": "Vaticano sin acumular museos",
+            "zone": "Museos Vaticanos → plaza San Pedro → Tíber",
+            "stopIds": [
+              "vatican",
+              "stpeter",
+              "castel"
+            ],
+            "editorialNote": "Museos Vaticanos como único interior principal. San Pedro se propone como plaza: si se quiere entrar también, reservar 1-2 h más de visita y cola y quitar el paseo final. La alternativa de no ir a los museos permite dedicar la mañana a la basílica y cúpula. No se suman castillo interior y Gianicolo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con museos, comida y paseo. Acceso Museos→plaza San Pedro 0,9 km 12 min por fuera; plaza→Castel 0,7 km 10 min, Maps 29/10/2026. Seguridad y colas aparte."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Roma en un día: plazas y Coliseo exterior",
+            "zone": "Coliseo → Capitolio → Panteón → Trevi",
+            "stopIds": [
+              "colosseumoutside",
+              "campidoglio",
+              "pantheon",
+              "trevi"
+            ],
+            "editorialNote": "Con un solo día se renuncia al interior del Coliseo y al recinto Foro/Palatino. Empezar por su exterior, continuar al Capitolio y centro histórico; Panteón es el único interior corto si hay franja. No cabe también Vaticano.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida, estimación editorial. Campidoglio→Panteón: 1,0 km / 14 min a pie (Maps 29/10/2026). No incluye colas ni paseo dentro de los recintos."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Plazas, Panteón y mirador",
+            "zone": "Campo de Fiori → Navona → Trevi → Tridente",
+            "stopIds": [
+              "campo",
+              "navona",
+              "pantheon",
+              "trevi",
+              "spagna"
+            ],
+            "editorialNote": "Un eje por el centro sin saltar al Vaticano ni al Coliseo. Panteón como interior corto; Trevi vista gratuita desde la plaza. Pausa de comida entre Panteón y Trevi. Subida al Pincio opcional según energía. En días cortos el Pincio queda opcional, no parada obligatoria.",
+            "optionalStopIds": [
+              "pincio"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Enlaces Maps 29/10/2026: Campo→Navona 0,4 km 5 min; →Panteón 0,4 km 4 min; →Trevi 0,6 km 8 min; →España 0,7 km 8 min; →Pincio 0,8 km 12 min. No incluyen paseos dentro de plazas, colas ni regreso al alojamiento."
+          },
+          {
+            "title": "Roma antigua y tarde junto al Tíber",
+            "zone": "Coliseo / Foro / Palatino → Capitolio → Gueto → Trastevere",
+            "stopIds": [
+              "colosseum",
+              "forum",
+              "palatine",
+              "campidoglio",
+              "ghetto",
+              "trastevere"
+            ],
+            "editorialNote": "Coliseo+Foro+Palatino forman un solo bloque arqueológico de 4-5 h, no tres visitas breves. Comer al salir y seguir al Capitolio exterior, Gueto e Isla Tiberina hacia Trastevere. Sin Museos Capitolinos, Aventino ni Gianicolo añadidos. Si la arqueología se alarga, pasar directo a la cena.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Jornada de 8-9 h con comida, larga por el recinto arqueológico. Campidoglio→Pórtico Octavia 0,6 km 9 min; →Santa María Trastevere 1 km 14 min, Maps 29/10/2026. No se afirma recorrido verificado dentro del yacimiento."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Plazas, Panteón y mirador",
+            "zone": "Campo de Fiori → Navona → Trevi → Tridente",
+            "stopIds": [
+              "campo",
+              "navona",
+              "pantheon",
+              "trevi",
+              "spagna"
+            ],
+            "editorialNote": "Un eje por el centro sin saltar al Vaticano ni al Coliseo. Panteón como interior corto; Trevi vista gratuita desde la plaza. Pausa de comida entre Panteón y Trevi. Subida al Pincio opcional según energía. En días cortos el Pincio queda opcional, no parada obligatoria.",
+            "optionalStopIds": [
+              "pincio"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Enlaces Maps 29/10/2026: Campo→Navona 0,4 km 5 min; →Panteón 0,4 km 4 min; →Trevi 0,6 km 8 min; →España 0,7 km 8 min; →Pincio 0,8 km 12 min. No incluyen paseos dentro de plazas, colas ni regreso al alojamiento."
+          },
+          {
+            "title": "Roma antigua y tarde junto al Tíber",
+            "zone": "Coliseo / Foro / Palatino → Capitolio → Gueto → Trastevere",
+            "stopIds": [
+              "colosseum",
+              "forum",
+              "palatine",
+              "campidoglio",
+              "ghetto",
+              "trastevere"
+            ],
+            "editorialNote": "Coliseo+Foro+Palatino forman un solo bloque arqueológico de 4-5 h, no tres visitas breves. Comer al salir y seguir al Capitolio exterior, Gueto e Isla Tiberina hacia Trastevere. Sin Museos Capitolinos, Aventino ni Gianicolo añadidos. Si la arqueología se alarga, pasar directo a la cena.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Jornada de 8-9 h con comida, larga por el recinto arqueológico. Campidoglio→Pórtico Octavia 0,6 km 9 min; →Santa María Trastevere 1 km 14 min, Maps 29/10/2026. No se afirma recorrido verificado dentro del yacimiento."
+          },
+          {
+            "title": "Vaticano sin acumular museos",
+            "zone": "Museos Vaticanos → plaza San Pedro → Tíber",
+            "stopIds": [
+              "vatican",
+              "stpeter",
+              "castel"
+            ],
+            "editorialNote": "Museos Vaticanos como único interior principal. San Pedro se propone como plaza: si se quiere entrar también, reservar 1-2 h más de visita y cola y quitar el paseo final. La alternativa de no ir a los museos permite dedicar la mañana a la basílica y cúpula. No se suman castillo interior y Gianicolo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con museos, comida y paseo. Acceso Museos→plaza San Pedro 0,9 km 12 min por fuera; plaza→Castel 0,7 km 10 min, Maps 29/10/2026. Seguridad y colas aparte."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Roma en un día: plazas y Coliseo exterior",
+            "zone": "Coliseo → Capitolio → Panteón → Trevi",
+            "stopIds": [
+              "colosseumoutside",
+              "campidoglio",
+              "pantheon",
+              "trevi"
+            ],
+            "editorialNote": "Con un solo día se renuncia al interior del Coliseo y al recinto Foro/Palatino. Empezar por su exterior, continuar al Capitolio y centro histórico; Panteón es el único interior corto si hay franja. No cabe también Vaticano.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida, estimación editorial. Campidoglio→Panteón: 1,0 km / 14 min a pie (Maps 29/10/2026). No incluye colas ni paseo dentro de los recintos."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Plazas, Panteón y mirador",
+            "zone": "Campo de Fiori → Navona → Trevi → Tridente",
+            "stopIds": [
+              "campo",
+              "navona",
+              "pantheon",
+              "trevi",
+              "spagna"
+            ],
+            "editorialNote": "Un eje por el centro sin saltar al Vaticano ni al Coliseo. Panteón como interior corto; Trevi vista gratuita desde la plaza. Pausa de comida entre Panteón y Trevi. Subida al Pincio opcional según energía. En días cortos el Pincio queda opcional, no parada obligatoria.",
+            "optionalStopIds": [
+              "pincio"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Enlaces Maps 29/10/2026: Campo→Navona 0,4 km 5 min; →Panteón 0,4 km 4 min; →Trevi 0,6 km 8 min; →España 0,7 km 8 min; →Pincio 0,8 km 12 min. No incluyen paseos dentro de plazas, colas ni regreso al alojamiento."
+          },
+          {
+            "title": "Roma antigua y tarde junto al Tíber",
+            "zone": "Coliseo / Foro / Palatino → Capitolio → Gueto → Trastevere",
+            "stopIds": [
+              "colosseum",
+              "forum",
+              "palatine",
+              "campidoglio",
+              "ghetto",
+              "trastevere"
+            ],
+            "editorialNote": "Coliseo+Foro+Palatino forman un solo bloque arqueológico de 4-5 h, no tres visitas breves. Comer al salir y seguir al Capitolio exterior, Gueto e Isla Tiberina hacia Trastevere. Sin Museos Capitolinos, Aventino ni Gianicolo añadidos. Si la arqueología se alarga, pasar directo a la cena.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Jornada de 8-9 h con comida, larga por el recinto arqueológico. Campidoglio→Pórtico Octavia 0,6 km 9 min; →Santa María Trastevere 1 km 14 min, Maps 29/10/2026. No se afirma recorrido verificado dentro del yacimiento."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Plazas, Panteón y mirador",
+            "zone": "Campo de Fiori → Navona → Trevi → Tridente",
+            "stopIds": [
+              "campo",
+              "navona",
+              "pantheon",
+              "trevi",
+              "spagna"
+            ],
+            "editorialNote": "Un eje por el centro sin saltar al Vaticano ni al Coliseo. Panteón como interior corto; Trevi vista gratuita desde la plaza. Pausa de comida entre Panteón y Trevi. Subida al Pincio opcional según energía. En días cortos el Pincio queda opcional, no parada obligatoria.",
+            "optionalStopIds": [
+              "pincio"
+            ],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Enlaces Maps 29/10/2026: Campo→Navona 0,4 km 5 min; →Panteón 0,4 km 4 min; →Trevi 0,6 km 8 min; →España 0,7 km 8 min; →Pincio 0,8 km 12 min. No incluyen paseos dentro de plazas, colas ni regreso al alojamiento."
+          },
+          {
+            "title": "Roma antigua y tarde junto al Tíber",
+            "zone": "Coliseo / Foro / Palatino → Capitolio → Gueto → Trastevere",
+            "stopIds": [
+              "colosseum",
+              "forum",
+              "palatine",
+              "campidoglio",
+              "ghetto",
+              "trastevere"
+            ],
+            "editorialNote": "Coliseo+Foro+Palatino forman un solo bloque arqueológico de 4-5 h, no tres visitas breves. Comer al salir y seguir al Capitolio exterior, Gueto e Isla Tiberina hacia Trastevere. Sin Museos Capitolinos, Aventino ni Gianicolo añadidos. Si la arqueología se alarga, pasar directo a la cena.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Jornada de 8-9 h con comida, larga por el recinto arqueológico. Campidoglio→Pórtico Octavia 0,6 km 9 min; →Santa María Trastevere 1 km 14 min, Maps 29/10/2026. No se afirma recorrido verificado dentro del yacimiento."
+          },
+          {
+            "title": "Vaticano sin acumular museos",
+            "zone": "Museos Vaticanos → plaza San Pedro → Tíber",
+            "stopIds": [
+              "vatican",
+              "stpeter",
+              "castel"
+            ],
+            "editorialNote": "Museos Vaticanos como único interior principal. San Pedro se propone como plaza: si se quiere entrar también, reservar 1-2 h más de visita y cola y quitar el paseo final. La alternativa de no ir a los museos permite dedicar la mañana a la basílica y cúpula. No se suman castillo interior y Gianicolo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con museos, comida y paseo. Acceso Museos→plaza San Pedro 0,9 km 12 min por fuera; plaza→Castel 0,7 km 10 min, Maps 29/10/2026. Seguridad y colas aparte."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Roma en un día: plazas y Coliseo exterior",
+            "zone": "Coliseo → Capitolio → Panteón → Trevi",
+            "stopIds": [
+              "colosseumoutside",
+              "campidoglio",
+              "pantheon",
+              "trevi"
+            ],
+            "editorialNote": "Con un solo día se renuncia al interior del Coliseo y al recinto Foro/Palatino. Empezar por su exterior, continuar al Capitolio y centro histórico; Panteón es el único interior corto si hay franja. No cabe también Vaticano.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con comida, estimación editorial. Campidoglio→Panteón: 1,0 km / 14 min a pie (Maps 29/10/2026). No incluye colas ni paseo dentro de los recintos."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Plazas, Panteón y mirador",
+            "zone": "Campo de Fiori → Navona → Trevi → Tridente",
+            "stopIds": [
+              "campo",
+              "navona",
+              "pantheon",
+              "trevi",
+              "spagna",
+              "pincio"
+            ],
+            "editorialNote": "Un eje por el centro sin saltar al Vaticano ni al Coliseo. Panteón como interior corto; Trevi vista gratuita desde la plaza. Pausa de comida entre Panteón y Trevi. Subida al Pincio opcional según energía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Enlaces Maps 29/10/2026: Campo→Navona 0,4 km 5 min; →Panteón 0,4 km 4 min; →Trevi 0,6 km 8 min; →España 0,7 km 8 min; →Pincio 0,8 km 12 min. No incluyen paseos dentro de plazas, colas ni regreso al alojamiento."
+          },
+          {
+            "title": "Roma antigua y tarde junto al Tíber",
+            "zone": "Coliseo / Foro / Palatino → Capitolio → Gueto → Trastevere",
+            "stopIds": [
+              "colosseum",
+              "forum",
+              "palatine",
+              "campidoglio",
+              "ghetto",
+              "trastevere"
+            ],
+            "editorialNote": "Coliseo+Foro+Palatino forman un solo bloque arqueológico de 4-5 h, no tres visitas breves. Comer al salir y seguir al Capitolio exterior, Gueto e Isla Tiberina hacia Trastevere. Sin Museos Capitolinos, Aventino ni Gianicolo añadidos. Si la arqueología se alarga, pasar directo a la cena.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Jornada de 8-9 h con comida, larga por el recinto arqueológico. Campidoglio→Pórtico Octavia 0,6 km 9 min; →Santa María Trastevere 1 km 14 min, Maps 29/10/2026. No se afirma recorrido verificado dentro del yacimiento."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Plazas, Panteón y mirador",
+            "zone": "Campo de Fiori → Navona → Trevi → Tridente",
+            "stopIds": [
+              "campo",
+              "navona",
+              "pantheon",
+              "trevi",
+              "spagna",
+              "pincio"
+            ],
+            "editorialNote": "Un eje por el centro sin saltar al Vaticano ni al Coliseo. Panteón como interior corto; Trevi vista gratuita desde la plaza. Pausa de comida entre Panteón y Trevi. Subida al Pincio opcional según energía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida. Enlaces Maps 29/10/2026: Campo→Navona 0,4 km 5 min; →Panteón 0,4 km 4 min; →Trevi 0,6 km 8 min; →España 0,7 km 8 min; →Pincio 0,8 km 12 min. No incluyen paseos dentro de plazas, colas ni regreso al alojamiento."
+          },
+          {
+            "title": "Roma antigua y tarde junto al Tíber",
+            "zone": "Coliseo / Foro / Palatino → Capitolio → Gueto → Trastevere",
+            "stopIds": [
+              "colosseum",
+              "forum",
+              "palatine",
+              "campidoglio",
+              "ghetto",
+              "trastevere"
+            ],
+            "editorialNote": "Coliseo+Foro+Palatino forman un solo bloque arqueológico de 4-5 h, no tres visitas breves. Comer al salir y seguir al Capitolio exterior, Gueto e Isla Tiberina hacia Trastevere. Sin Museos Capitolinos, Aventino ni Gianicolo añadidos. Si la arqueología se alarga, pasar directo a la cena.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Jornada de 8-9 h con comida, larga por el recinto arqueológico. Campidoglio→Pórtico Octavia 0,6 km 9 min; →Santa María Trastevere 1 km 14 min, Maps 29/10/2026. No se afirma recorrido verificado dentro del yacimiento."
+          },
+          {
+            "title": "Vaticano sin acumular museos",
+            "zone": "Museos Vaticanos → plaza San Pedro → Tíber",
+            "stopIds": [
+              "vatican",
+              "stpeter",
+              "castel"
+            ],
+            "editorialNote": "Museos Vaticanos como único interior principal. San Pedro se propone como plaza: si se quiere entrar también, reservar 1-2 h más de visita y cola y quitar el paseo final. La alternativa de no ir a los museos permite dedicar la mañana a la basílica y cúpula. No se suman castillo interior y Gianicolo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con museos, comida y paseo. Acceso Museos→plaza San Pedro 0,9 km 12 min por fuera; plaza→Castel 0,7 km 10 min, Maps 29/10/2026. Seguridad y colas aparte."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [
+    {
+      "id": "ostia",
+      "name": "Ostia Antica",
+      "zone": "Fuera del centro",
+      "lat": 41.7558,
+      "lon": 12.2917,
+      "minutes": 390,
+      "sourceIds": [
+        "ostia",
+        "tourism"
+      ],
+      "priority": "Arqueología fuera del centro",
+      "reason": "Ciudad portuaria romana como jornada propia, en lugar de una jornada de Roma.",
+      "visit": "Yacimiento y paseo seleccionado; museo con horarios y cierres distintos. No se acumula con Coliseo/Foro.",
+      "transport": "Metromare desde Roma Porta San Paolo hacia Ostia Antica. Maps 29/10/2026 devolvió 26 min de tren y 39 min desde un punto de Piramide, no puerta a puerta al yacimiento. Añadir acceso al tren, espera y paseo final; revisar obras y horarios.",
+      "pacing": "5-7 h con ida, visita, comida y vuelta: estimación editorial.",
+      "caution": "Yacimiento martes-domingo y festivos desde 8:30, lunes cerrado; cierre 16:30 en invierno y hasta 19 h en verano, última entrada 1 h antes. Cerrado 25/12 y 1/1. El museo tiene otro horario y cierra también días de entrada gratuita: no garantizar ambos.",
+      "url": "https://ostiaantica.cultura.gov.it/en/info/archaeological-area-of-ostia-antica-visitor-information/",
+      "kind": "excursion",
+      "reviewedAt": "2026-10-29",
+      "closedMonthDays": [
+        "12-25",
+        "01-01"
+      ],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "access": "https://ostiaantica.cultura.gov.it/en/info/archaeological-area-of-ostia-antica-visitor-information/",
+      "photo": {
+        "img": "assets/rome/ostia.jpg",
+        "source": "https://www.flickr.com/photos/wwarby/1479041313",
+        "author": "William Warby",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Teatro de Ostia Antica. Foto de archivo; encuadre adaptado a tarjeta."
+      }
+    },
+    {
+      "id": "tivoli",
+      "name": "Tivoli · Villa d'Este",
+      "zone": "Fuera de Roma",
+      "lat": 41.9625,
+      "lon": 12.7963,
+      "minutes": 420,
+      "sourceIds": [
+        "tivoli"
+      ],
+      "priority": "Jardines y fuentes",
+      "reason": "Villa y jardines de Tivoli para sustituir un día de ciudad, sin añadir automáticamente Villa Adriana.",
+      "visit": "Villa d’Este y paseo por Tivoli. Villa Adriana es otro recinto y necesita otro traslado: no incluida.",
+      "transport": "Tren regional desde Roma Tiburtina a Tivoli; Maps 29/10/2026 devolvió 53 min de tren en el servicio consultado. Añadir paseo de estación a Villa, espera y llegada a Tiburtina. El operador también explica bus Cotral desde Ponte Mammolo.",
+      "pacing": "6-8 h con traslado, visita y comida, estimación editorial.",
+      "caution": "Lunes abre 14 h; si lunes es festivo abre por la mañana y el martes siguiente desde 14 h. Cerrado 1/1 y 25/12 salvo apertura especial. Jardines y fuentes pueden limitarse por maltiempo. Confirmar calendario y hora de última entrada por mes.",
+      "url": "https://villae.cultura.gov.it/en/the-locations/villa-deste/",
+      "kind": "excursion",
+      "reviewedAt": "2026-10-29",
+      "closedMonthDays": [
+        "01-01",
+        "12-25"
+      ],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "access": "https://villae.cultura.gov.it/en/the-locations/villa-deste/",
+      "photo": {
+        "img": "assets/rome/tivoli.jpg",
+        "source": "https://unsplash.com/photos/a-fountain-in-a-park-H739Q2Jna4A",
+        "author": "Marian Florinel Condruz",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseURL": "https://unsplash.com/license"
+      }
+    }
+  ],
+  "editorialAudit": [
+    "29/10/2026: dos guías y turismo oficial contrastados; se recorta la acumulación de Museos Capitolinos tras Foro y Gianicolo tras Vaticano.",
+    "29/10/2026: Panteón 7€ y Trevi 2€ contrastados en fuentes propietarias.",
+    "29/10/2026: Maps resolvió mal la entrada pedida del Foro. La medida de 57 m se descarta, no se publica como acceso verificado."
+  ],
+  "editorialTradeoffs": [
+    "Dos días priorizan centro y Roma antigua; Vaticano requiere sustituir una de esas jornadas o añadir un tercero.",
+    "Un solo día ve el Coliseo por fuera y Panteón como interior corto, no promete grandes recintos y museos."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Dos guías y turismo oficial coinciden en Roma antigua, centro barroco y Vaticano. Se agrupan por zona, sin sumar Museos Capitolinos al bloque arqueológico ni Gianicolo tras los Museos Vaticanos. Trastevere se une al Gueto por proximidad."
+}

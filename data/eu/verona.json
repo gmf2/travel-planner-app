@@ -1,0 +1,1160 @@
+{
+  "schemaVersion": 1,
+  "country": "IT",
+  "id": "verona",
+  "name": "Verona",
+  "localName": "Verona",
+  "selectionReason": "Ampliación italiana del usuario.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fecha ni reservas, tercer día opcional de jardín/arqueología, no relleno ni excursión inventada.",
+  "stops": [
+    {
+      "id": "bra",
+      "name": "Piazza Bra · primera mirada",
+      "kind": "visit",
+      "zone": "Bra / centro",
+      "reason": "Empezar en la plaza, con tiempo para mirar la Arena antes de entrar y no tratar el anfiteatro como un trámite.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 45.4384761,
+        "lon": 10.9929582
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+Bra&query_place_id=ChIJa3mw3EVff0cRpAMzOf8iIdc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Consumos y eventos aparte. Visita interior Arena es la siguiente parada, no dos entradas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/bra.jpg",
+        "source": "https://www.flickr.com/photos/storem/235269129/",
+        "author": "storem",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "arena",
+      "name": "Arena · anfiteatro romano",
+      "kind": "visit",
+      "zone": "Bra",
+      "reason": "Un bloque de visita para la estructura romana, sin prometer ópera ni escenario vacío.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "fees",
+        "hours",
+        "arena",
+        "ticketing"
+      ],
+      "coordinates": {
+        "lat": 45.4389958,
+        "lon": 10.9943574
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Arena+di+Verona&query_place_id=ChIJ-6S2dUZff0cR9fOf0ltELZc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 12€, mar-dom 9-19 excepto espectáculos, lunes cerrado salvo 07/12/2026 extraordinario. Revisar calendario del día y último acceso, eventos reducen horario. Desde 01/10/2026 compra oficial verona.coopculture.it, no antiguo museiverona.com. Foto montaje de archivo, visita monumental no entrada a función.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/arena.jpg",
+        "source": "https://www.flickr.com/photos/mcpig/2047989423/",
+        "author": "McPig",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Interior de Arena en archivo con montaje de espectáculo, no montaje ni evento garantizados. Recorte de presentación."
+      },
+      "visitMode": "Anfiteatro de pago"
+    },
+    {
+      "id": "giulietta",
+      "name": "Giulietta · patio con reserva",
+      "kind": "visit",
+      "zone": "Via Cappello / Navona",
+      "reason": "Si interesa el mito literario, dedicar una franja al patio y su balcón, sin presentarlo como prueba de una persona real.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "giulietta",
+        "fees",
+        "ticketing"
+      ],
+      "coordinates": {
+        "lat": 45.4419488,
+        "lon": 10.9986594
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Casa+di+Giulietta&query_place_id=ChIJ3YjPrElff0cR6yw4k2cuSgs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "Desde 01/04/2026 ENTRADA por Teatro Nuovo en piazzetta Navona, SALIDA Via Cappello 23. Patio 5€, casa+patio 12€ NO acumulativos. Ambos solo online y reserva obligatoria incluso VeronaCard, no patio gratis. Lun 14-19, mar-dom 9-19; 25 dic/1 ene cerrado. Última franja 18:30, Navona 18:35, casa 18:40, salida 18:55. Casa interior opcional añade tiempo, sin billete sustituir por paseo de calle, balcón no visible garantizado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/giulietta.jpg",
+        "source": "https://www.flickr.com/photos/sonofgroucho/10569914265/",
+        "author": "Son of Groucho",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Balcón desde el patio en archivo. Desde 01/04/2026 el patio requiere billete y reserva, no vista gratuita desde la calle. Recorte de presentación."
+      },
+      "visitMode": "Patio de pago con reserva online"
+    },
+    {
+      "id": "erbe",
+      "name": "Piazza delle Erbe · fachadas y pausa",
+      "kind": "visit",
+      "zone": "Erbe",
+      "reason": "Mirar fachadas, fuente y vida de la plaza, con comida sin cruzar la ciudad.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "guide3"
+      ],
+      "coordinates": {
+        "lat": 45.4433477,
+        "lon": 10.9969872
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+delle+Erbe&query_place_id=ChIJYbnAFklff0cRC13SMLoLbfM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Puestos y terrazas no garantizados por fecha, no mercado de producto fresco diario asumido. Consumos aparte.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/erbe.jpg",
+        "source": "https://www.flickr.com/photos/storem/296669571/",
+        "author": "storem",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "signori",
+      "name": "Piazza dei Signori · Arche exteriores",
+      "kind": "visit",
+      "zone": "Signori / Scaligere",
+      "reason": "Pasar a la plaza de Dante y rodear las tumbas de los Scaligeri, sin acumular otra visita larga.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "hours"
+      ],
+      "coordinates": {
+        "lat": 45.4435331,
+        "lon": 10.9982135
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+dei+Signori&query_place_id=ChIJnSZCnklff0cR1Xfx_CaWSEw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Arche interiores solo sáb/dom hasta 01/11/2026 según calendario actual, no proyectar apertura anual. Lamberti y GAM sustituciones de pago, no incluidas ni otro mirador obligado. Romeo vivienda privada, no visitable ni historia literaria probada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/signori.jpg",
+        "source": "https://www.flickr.com/photos/ladyous/6233387631/",
+        "author": "Richard, enjoy my life!",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza y tumbas desde exterior"
+    },
+    {
+      "id": "zeno",
+      "name": "San Zeno · basílica y barrio",
+      "kind": "visit",
+      "zone": "San Zeno",
+      "reason": "Románico, puertas de bronce y Mantegna con tiempo, antes de la colección de Castelvecchio.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "churchhours",
+        "churchfees"
+      ],
+      "coordinates": {
+        "lat": 45.44259290000001,
+        "lon": 10.979264
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Church+of+Saint+Zeno&query_place_id=ChIJo8Bgk1dff0cRpWc4dY3SMUQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Entrada individual 4€ en taquilla sin preventa; audioguía+1€. Pase 4 iglesias 8€ no obliga verlas todas. Invierno 01/11/2026-28/02/2027 lun-vie 10-17, sáb 9:30-17:30, dom/festivos 13-17:30. Marzo-oct 2026 lun-sáb 9-18, dom 13-18:30. Domingo empezar por Castelvecchio y venir después 13. Culto suspende turismo, acceso silla parcial.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/zeno.jpg",
+        "source": "https://www.flickr.com/photos/pedrocaetano/24727463974/",
+        "author": "Pedro",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Basílica cultural de pago"
+    },
+    {
+      "id": "castelvecchio",
+      "name": "Castelvecchio · museo y Carlo Scarpa",
+      "kind": "visit",
+      "zone": "Castelvecchio",
+      "reason": "Colección medieval y renacentista con el montaje de Scarpa, el interior largo del día occidental.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "castelvecchio",
+        "fees",
+        "ticketing"
+      ],
+      "coordinates": {
+        "lat": 45.4396401,
+        "lon": 10.9882949
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Castelvecchio+Museum&query_place_id=ChIJgRfBNEVff0cRpqRSmH_bPXU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 9€, mar-dom 10-18, última 17:15, lunes cerrado salvo 07/12/2026. Puede haber salas cerradas por calor. Compra oficial actual verona.coopculture.it, ficha turística aún enlaza plataforma vieja. No confundir puente público con museo gratis ni todas almenas libres.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/castelvecchio.jpg",
+        "source": "https://www.flickr.com/photos/kentwang/53576573263/",
+        "author": "Kent Wang",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago"
+    },
+    {
+      "id": "scaligero",
+      "name": "Ponte Scaligero · el Adige",
+      "kind": "visit",
+      "zone": "Castelvecchio / río",
+      "reason": "Cruzar el puente fortificado y volver al paseo junto al río después del museo.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 45.4404039,
+        "lon": 10.9872824
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Castelvecchio+Bridge&query_place_id=ChIJdy5foVpff0cRaIqcMsCTepA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "No subirse a parapetos ni almenas para comer o foto. 32 m/<1 min en Maps es conexión de puntos museo-puente, no tiempo real de cruzarlo y mirarlo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/scaligero.jpg",
+        "source": "https://www.flickr.com/photos/hisgett/14384879739/",
+        "author": "Tony Hisgett",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Puente peatonal exterior"
+    },
+    {
+      "id": "borsari",
+      "name": "Porta Borsari · paseo y café",
+      "kind": "visit",
+      "zone": "Corso Porta Borsari",
+      "reason": "Volver hacia el centro por la puerta romana y las calles de cafés, sin sumar otro museo por obligación.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "borsarifood"
+      ],
+      "coordinates": {
+        "lat": 45.4419544,
+        "lon": 10.9934266
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Porta+Borsari&query_place_id=ChIJJ9TKEE9ff0cRhh8XnkqOTTM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "No subir a la puerta. Cafés y tiendas con horario propio; Borsari café distinto de la puerta, enlace en comida.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/borsari.jpg",
+        "source": "https://www.flickr.com/photos/rubenholthuijsen/52289929292/",
+        "author": "Ruben Holthuijsen",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Puerta romana y calle exterior"
+    },
+    {
+      "id": "giusti",
+      "name": "Giardino Giusti · jardín con calma",
+      "kind": "visit",
+      "zone": "Veronetta / Giusti",
+      "reason": "Un jardín de pago en la otra orilla, para empezar un tercer día opcional más tranquilo.",
+      "sourceIds": [
+        "guide1",
+        "giusti"
+      ],
+      "coordinates": {
+        "lat": 45.44302949999999,
+        "lon": 11.0064535
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Giusti+Garden&query_place_id=ChIJl-dcAjRff0cRkakvDrUPOVg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 14€, VeronaCard 9€ NO gratis. Cabecera actual 10-18, última 17; pie distingue verano 9-19/invierno 10-18: confirmar fecha, no extrapolar verano. 25 dic cerrado. Laderas/escaleras en parte alta, no accesibilidad total. Cierre 16/10/2026 pasado no permanente.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/giusti.jpg",
+        "source": "https://www.flickr.com/photos/kentwang/53576896685/",
+        "author": "Kent Wang",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Jardín privado de pago"
+    },
+    {
+      "id": "teatro",
+      "name": "Teatro Romano · museo arqueológico",
+      "kind": "visit",
+      "zone": "Teatro Romano",
+      "reason": "Elegir el conjunto arqueológico como museo del día, sin confundir este teatro al norte con la Arena.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "hours",
+        "fees"
+      ],
+      "coordinates": {
+        "lat": 45.4471672,
+        "lon": 11.0017766
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Museo+Archeologico+al+Teatro+Romano&query_place_id=ChIJ14O1CDlff0cRVghhs2bd3Gk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 110,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 9€, mar-dom 10-18, última 17:30, lunes cerrado salvo 07/12/2026. Montajes o condiciones pueden cambiar recorridos; función teatral aparte. Foto de archivo no asegura todas gradas abiertas ni misma exposición.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/teatro.jpg",
+        "source": "https://www.flickr.com/photos/nigelhomer/385696485/",
+        "author": "puffin11k",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Teatro y museo de pago"
+    },
+    {
+      "id": "pietra",
+      "name": "Ponte Pietra · orilla antigua",
+      "kind": "visit",
+      "zone": "Ponte Pietra",
+      "reason": "Pausa junto al puente romano y las dos orillas antes de la subida al mirador.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 45.44780009999999,
+        "lon": 11.0000309
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Ponte+Pietra&query_place_id=ChIJYzxKH0tff0cRulPdEp0sqZA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "Cruce corto no paseo completo. Respetar parapetos y no bajar a cauce. No seguir a San Zeno otra vez, queda al oeste y ya tiene día propio.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/pietra.jpg",
+        "source": "https://www.flickr.com/photos/jocelyn777/52216676077/",
+        "author": "Jocelyn Erskine-Kellie",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Puente y orilla exterior"
+    },
+    {
+      "id": "pietro",
+      "name": "Castel San Pietro · mirador",
+      "kind": "visit",
+      "zone": "Colina San Pietro",
+      "reason": "Cerrar con una vista del Adige, eligiendo escaleras o funicular según energía y horario.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "funicular"
+      ],
+      "coordinates": {
+        "lat": 45.44797459999999,
+        "lon": 11.0029173
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Castel+San+Pietro&query_place_id=ChIJH1aLzEpff0cRo5hyu8x9ktk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Maps 313 m/6 min desde Ponte Pietra incluye escaleras y pendiente, no llano ni accesible. Funicular 3€ ida/vuelta o 2€ solo trayecto, abr-oct 10-21, nov-mar 10-17, 25 dic/1 ene cerrado. Si funicular cerrado no prometer alternativa accesible por escalera. Castillo interior no incluido, puesta de sol/Alpes no garantizados.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/verona/pietro.jpg",
+        "source": "https://www.flickr.com/photos/amanessinger/50561724853/",
+        "author": "Andreas Manessinger",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mirador exterior; subida a elegir"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Arena y las plazas del casco antiguo",
+          "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+          "stopIds": [
+            "bra",
+            "arena",
+            "giulietta",
+            "erbe",
+            "signori"
+          ],
+          "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Arena y las plazas del casco antiguo",
+          "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+          "stopIds": [
+            "bra",
+            "arena",
+            "giulietta",
+            "erbe",
+            "signori"
+          ],
+          "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+        },
+        {
+          "title": "Románico y Castelvecchio hacia el oeste",
+          "zone": "San Zeno → Castelvecchio → puente → Borsari",
+          "stopIds": [
+            "zeno",
+            "castelvecchio",
+            "scaligero",
+            "borsari"
+          ],
+          "editorialNote": "Museo Castelvecchio largo y San Zeno de 75 min, sin excursión al lago encima. Domingo visitar museo primero y basílica después 13; lunes museo cerrado.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y barrio; Maps 1010 m/13 min, 32 m/<1 min entre puntos, 504 m/6 min. Recorrido de puente/museo no son esos 32 m. Si solo 2 días y se prefiere mirador, sustituir bloque de museo por ruta oriental, no sumar ambas enteras."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Arena y las plazas del casco antiguo",
+          "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+          "stopIds": [
+            "bra",
+            "arena",
+            "giulietta",
+            "erbe",
+            "signori"
+          ],
+          "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+        },
+        {
+          "title": "Románico y Castelvecchio hacia el oeste",
+          "zone": "San Zeno → Castelvecchio → puente → Borsari",
+          "stopIds": [
+            "zeno",
+            "castelvecchio",
+            "scaligero",
+            "borsari"
+          ],
+          "editorialNote": "Museo Castelvecchio largo y San Zeno de 75 min, sin excursión al lago encima. Domingo visitar museo primero y basílica después 13; lunes museo cerrado.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y barrio; Maps 1010 m/13 min, 32 m/<1 min entre puntos, 504 m/6 min. Recorrido de puente/museo no son esos 32 m. Si solo 2 días y se prefiere mirador, sustituir bloque de museo por ruta oriental, no sumar ambas enteras."
+        },
+        {
+          "title": "Veronetta, jardín y arqueología",
+          "zone": "Giusti → Teatro Romano → Ponte Pietra → San Pietro",
+          "stopIds": [
+            "giusti",
+            "teatro",
+            "pietra",
+            "pietro"
+          ],
+          "editorialNote": "Tercer día opcional para jardín y arqueología, no imprescindible para ver plazas. No excursión ficticia ni siete museos. Giusti antes de comer, Teatro como interior, mirador con luz.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida y pausas; Maps 503 m/7 min, 166 m/2 min, 313 m/6 min con escaleras. Funicular invierno 17: organizar arqueológico antes 16 o quitar mirador, no prometer subir al anochecer con funicular."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Arena funciones cambia horario. Calor y escaleras San Pietro, pausas; Giusti web verano 9-19 frente a cabecera 10-18, confirmar.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Funicular 10-17, Giusti 10-18 última 17. Hielo/lluvia: quitar colina; San Zeno domingo 13. Arqueológico antes de mirador con luz.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Giulietta/funicular 25 dic y 1 ene cerrados, Giusti 25 dic cerrado. Arena/museos confirmar festivos; 07/12/2026 apertura extraordinaria lunes, no todos los lunes.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Desde abril 2026 patio Giulietta 5€ reserva, desde octubre plataforma CoopCulture. Arche interior finde hasta 01/11/2026 no extrapolar.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No billetes, mesas, pases ni transporte comprados. Tarifas y horarios son evidencia actual, no disponibilidad garantizada.",
+    "Casa y patio Giulietta no gratis ni acceso por Via Cappello: reserva obligatoria online por Navona.",
+    "Lunes Arena/Castelvecchio/Arqueológico cerrados, Giulietta abre 14: reordenar o exteriores, no entradas asumidas."
+  ],
+  "excludedOrOptional": [
+    "Lago Garda/Sirmione requiere día propio y logística estacional, no añadido tras recorrer centro; no bus de blog antiguo prometido.",
+    "Ópera es evento con billete específico, no incluida en visita Arena.",
+    "Lamberti, Duomo, Sant Anastasia, GAM sustituciones, no cadena de todos los interiores."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "Ayuntamiento: dosdías, dividido/reducido",
+      "url": "https://turismo.comune.verona.it/nqcontent.cfm?a_id=60655",
+      "type": "official-tourism-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "NeverEndingFootsteps: tres días, logística antigua corregida",
+      "url": "https://www.neverendingfootsteps.com/verona-italy-three-day-itinerary/",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide3",
+      "title": "GoVerona: rutas peatonales",
+      "url": "https://www.goverona.it/scarica-il-pdf-itinerari-a-piedi-di-verona/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "fees",
+      "title": "Museos: tarifas vigentes",
+      "url": "https://museicivici.comune.verona.it/nqcontent.cfm?a_id=89621",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "hours",
+      "title": "Museos: horarios actuales",
+      "url": "https://museicivici.comune.verona.it/nqcontent.cfm?a_id=44528",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "ticketing",
+      "title": "Nuevooperador 01/10/2026",
+      "url": "https://museicivici.comune.verona.it/nqcontent.cfm?a_id=98838",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "arena",
+      "title": "Arena: horarios y funciones",
+      "url": "https://museicivici.comune.verona.it/nqcontent.cfm?a_id=69387",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "giulietta",
+      "title": "Giulietta: entradapor Navona, reserva",
+      "url": "https://casadigiulietta.comune.verona.it/nqcontent.cfm?a_id=98352",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "castelvecchio",
+      "title": "Castelvecchio: horarios/plataforma vieja",
+      "url": "https://turismo.comune.verona.it/nqcontent.cfm?a_id=42561",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "churchhours",
+      "title": "Iglesias: horarios 2026/27",
+      "url": "https://chieseverona.it/it/info-visita",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "churchfees",
+      "title": "Iglesias:4 individual 8 pase",
+      "url": "https://chieseverona.it/it/visite",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "giusti",
+      "title": "Giusti: horario/tarifa",
+      "url": "https://giardinogiusti.com/opening/?lan=en",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "funicular",
+      "title": "Funicular: tarifas y estaciones",
+      "url": "https://www.funicolarediverona.it/biglietteria/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "ducacrit",
+      "title": "TerroirSense: AlDuca, dic 2023 precioantiguo 24",
+      "url": "https://terroirsense.com/en/p/8006.html",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "duca",
+      "title": "AlDuca: carta 26 actual",
+      "url": "https://www.osteriaalduca.it/menu.html",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "ducabook",
+      "title": "AlDuca: reserva telefónica",
+      "url": "https://www.osteriaalduca.it/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "floracrit",
+      "title": "MyVeganTravels: visitamayo 2026",
+      "url": "https://myvegantravels.com/destinations/vegan-food-in-verona/",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "flora",
+      "title": "Flora: carta/peso con aritmética contradictoria",
+      "url": "https://www.ristoranteflora.it/menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "borsarifood",
+      "title": "Turismo: caféBorsari",
+      "url": "https://www.visitverona.it/en/poi/caffe-borsari",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "caffe",
+      "title": "Borsari: casaysede",
+      "url": "https://iltorrefattore.it/caffe-borsari/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Arena y las plazas del casco antiguo",
+            "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+            "stopIds": [
+              "bra",
+              "arena",
+              "giulietta",
+              "erbe",
+              "signori"
+            ],
+            "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Arena y las plazas del casco antiguo",
+            "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+            "stopIds": [
+              "bra",
+              "arena",
+              "giulietta",
+              "erbe",
+              "signori"
+            ],
+            "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+          },
+          {
+            "title": "Románico y Castelvecchio hacia el oeste",
+            "zone": "San Zeno → Castelvecchio → puente → Borsari",
+            "stopIds": [
+              "zeno",
+              "castelvecchio",
+              "scaligero",
+              "borsari"
+            ],
+            "editorialNote": "Museo Castelvecchio largo y San Zeno de 75 min, sin excursión al lago encima. Domingo visitar museo primero y basílica después 13; lunes museo cerrado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y barrio; Maps 1010 m/13 min, 32 m/<1 min entre puntos, 504 m/6 min. Recorrido de puente/museo no son esos 32 m. Si solo 2 días y se prefiere mirador, sustituir bloque de museo por ruta oriental, no sumar ambas enteras."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Arena y las plazas del casco antiguo",
+            "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+            "stopIds": [
+              "bra",
+              "arena",
+              "giulietta",
+              "erbe",
+              "signori"
+            ],
+            "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+          },
+          {
+            "title": "Románico y Castelvecchio hacia el oeste",
+            "zone": "San Zeno → Castelvecchio → puente → Borsari",
+            "stopIds": [
+              "zeno",
+              "castelvecchio",
+              "scaligero",
+              "borsari"
+            ],
+            "editorialNote": "Museo Castelvecchio largo y San Zeno de 75 min, sin excursión al lago encima. Domingo visitar museo primero y basílica después 13; lunes museo cerrado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y barrio; Maps 1010 m/13 min, 32 m/<1 min entre puntos, 504 m/6 min. Recorrido de puente/museo no son esos 32 m. Si solo 2 días y se prefiere mirador, sustituir bloque de museo por ruta oriental, no sumar ambas enteras."
+          },
+          {
+            "title": "Veronetta, jardín y arqueología",
+            "zone": "Giusti → Teatro Romano → Ponte Pietra → San Pietro",
+            "stopIds": [
+              "giusti",
+              "teatro",
+              "pietra",
+              "pietro"
+            ],
+            "editorialNote": "Tercer día opcional para jardín y arqueología, no imprescindible para ver plazas. No excursión ficticia ni siete museos. Giusti antes de comer, Teatro como interior, mirador con luz.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas; Maps 503 m/7 min, 166 m/2 min, 313 m/6 min con escaleras. Funicular invierno 17: organizar arqueológico antes 16 o quitar mirador, no prometer subir al anochecer con funicular."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Arena y las plazas del casco antiguo",
+            "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+            "stopIds": [
+              "bra",
+              "arena",
+              "giulietta",
+              "erbe",
+              "signori"
+            ],
+            "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Arena y las plazas del casco antiguo",
+            "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+            "stopIds": [
+              "bra",
+              "arena",
+              "giulietta",
+              "erbe",
+              "signori"
+            ],
+            "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+          },
+          {
+            "title": "Románico y Castelvecchio hacia el oeste",
+            "zone": "San Zeno → Castelvecchio → puente → Borsari",
+            "stopIds": [
+              "zeno",
+              "castelvecchio",
+              "scaligero",
+              "borsari"
+            ],
+            "editorialNote": "Museo Castelvecchio largo y San Zeno de 75 min, sin excursión al lago encima. Domingo visitar museo primero y basílica después 13; lunes museo cerrado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y barrio; Maps 1010 m/13 min, 32 m/<1 min entre puntos, 504 m/6 min. Recorrido de puente/museo no son esos 32 m. Si solo 2 días y se prefiere mirador, sustituir bloque de museo por ruta oriental, no sumar ambas enteras."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Arena y las plazas del casco antiguo",
+            "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+            "stopIds": [
+              "bra",
+              "arena",
+              "giulietta",
+              "erbe",
+              "signori"
+            ],
+            "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+          },
+          {
+            "title": "Románico y Castelvecchio hacia el oeste",
+            "zone": "San Zeno → Castelvecchio → puente → Borsari",
+            "stopIds": [
+              "zeno",
+              "castelvecchio",
+              "scaligero",
+              "borsari"
+            ],
+            "editorialNote": "Museo Castelvecchio largo y San Zeno de 75 min, sin excursión al lago encima. Domingo visitar museo primero y basílica después 13; lunes museo cerrado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y barrio; Maps 1010 m/13 min, 32 m/<1 min entre puntos, 504 m/6 min. Recorrido de puente/museo no son esos 32 m. Si solo 2 días y se prefiere mirador, sustituir bloque de museo por ruta oriental, no sumar ambas enteras."
+          },
+          {
+            "title": "Veronetta, jardín y arqueología",
+            "zone": "Giusti → Teatro Romano → Ponte Pietra → San Pietro",
+            "stopIds": [
+              "giusti",
+              "teatro",
+              "pietra",
+              "pietro"
+            ],
+            "editorialNote": "Tercer día opcional para jardín y arqueología, no imprescindible para ver plazas. No excursión ficticia ni siete museos. Giusti antes de comer, Teatro como interior, mirador con luz.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas; Maps 503 m/7 min, 166 m/2 min, 313 m/6 min con escaleras. Funicular invierno 17: organizar arqueológico antes 16 o quitar mirador, no prometer subir al anochecer con funicular."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Arena y las plazas del casco antiguo",
+            "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+            "stopIds": [
+              "bra",
+              "arena",
+              "giulietta",
+              "erbe",
+              "signori"
+            ],
+            "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Arena y las plazas del casco antiguo",
+            "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+            "stopIds": [
+              "bra",
+              "arena",
+              "giulietta",
+              "erbe",
+              "signori"
+            ],
+            "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+          },
+          {
+            "title": "Románico y Castelvecchio hacia el oeste",
+            "zone": "San Zeno → Castelvecchio → puente → Borsari",
+            "stopIds": [
+              "zeno",
+              "castelvecchio",
+              "scaligero",
+              "borsari"
+            ],
+            "editorialNote": "Museo Castelvecchio largo y San Zeno de 75 min, sin excursión al lago encima. Domingo visitar museo primero y basílica después 13; lunes museo cerrado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y barrio; Maps 1010 m/13 min, 32 m/<1 min entre puntos, 504 m/6 min. Recorrido de puente/museo no son esos 32 m. Si solo 2 días y se prefiere mirador, sustituir bloque de museo por ruta oriental, no sumar ambas enteras."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Arena y las plazas del casco antiguo",
+            "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+            "stopIds": [
+              "bra",
+              "arena",
+              "giulietta",
+              "erbe",
+              "signori"
+            ],
+            "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+          },
+          {
+            "title": "Románico y Castelvecchio hacia el oeste",
+            "zone": "San Zeno → Castelvecchio → puente → Borsari",
+            "stopIds": [
+              "zeno",
+              "castelvecchio",
+              "scaligero",
+              "borsari"
+            ],
+            "editorialNote": "Museo Castelvecchio largo y San Zeno de 75 min, sin excursión al lago encima. Domingo visitar museo primero y basílica después 13; lunes museo cerrado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y barrio; Maps 1010 m/13 min, 32 m/<1 min entre puntos, 504 m/6 min. Recorrido de puente/museo no son esos 32 m. Si solo 2 días y se prefiere mirador, sustituir bloque de museo por ruta oriental, no sumar ambas enteras."
+          },
+          {
+            "title": "Veronetta, jardín y arqueología",
+            "zone": "Giusti → Teatro Romano → Ponte Pietra → San Pietro",
+            "stopIds": [
+              "giusti",
+              "teatro",
+              "pietra",
+              "pietro"
+            ],
+            "editorialNote": "Tercer día opcional para jardín y arqueología, no imprescindible para ver plazas. No excursión ficticia ni siete museos. Giusti antes de comer, Teatro como interior, mirador con luz.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas; Maps 503 m/7 min, 166 m/2 min, 313 m/6 min con escaleras. Funicular invierno 17: organizar arqueológico antes 16 o quitar mirador, no prometer subir al anochecer con funicular."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Arena y las plazas del casco antiguo",
+            "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+            "stopIds": [
+              "bra",
+              "arena",
+              "giulietta",
+              "erbe",
+              "signori"
+            ],
+            "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Arena y las plazas del casco antiguo",
+            "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+            "stopIds": [
+              "bra",
+              "arena",
+              "giulietta",
+              "erbe",
+              "signori"
+            ],
+            "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+          },
+          {
+            "title": "Románico y Castelvecchio hacia el oeste",
+            "zone": "San Zeno → Castelvecchio → puente → Borsari",
+            "stopIds": [
+              "zeno",
+              "castelvecchio",
+              "scaligero",
+              "borsari"
+            ],
+            "editorialNote": "Museo Castelvecchio largo y San Zeno de 75 min, sin excursión al lago encima. Domingo visitar museo primero y basílica después 13; lunes museo cerrado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y barrio; Maps 1010 m/13 min, 32 m/<1 min entre puntos, 504 m/6 min. Recorrido de puente/museo no son esos 32 m. Si solo 2 días y se prefiere mirador, sustituir bloque de museo por ruta oriental, no sumar ambas enteras."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Arena y las plazas del casco antiguo",
+            "zone": "Bra → Arena → Navona/Giulietta → Erbe → Signori",
+            "stopIds": [
+              "bra",
+              "arena",
+              "giulietta",
+              "erbe",
+              "signori"
+            ],
+            "editorialNote": "No patio gratuito: elegir reserva de 5€ o paseo exterior de calle. Arena visita monumental, ópera aparte. No añadir Lamberti, Duomo y GAM por llenar horas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas; Maps enlaces 45 m/<1 min, 546 m/7 min, 230 m/3 min, 165 m/2 min. Entrada Giulietta SOLO por Navona, ajustar franja; lunes Arena cerrado, Giulietta 14."
+          },
+          {
+            "title": "Románico y Castelvecchio hacia el oeste",
+            "zone": "San Zeno → Castelvecchio → puente → Borsari",
+            "stopIds": [
+              "zeno",
+              "castelvecchio",
+              "scaligero",
+              "borsari"
+            ],
+            "editorialNote": "Museo Castelvecchio largo y San Zeno de 75 min, sin excursión al lago encima. Domingo visitar museo primero y basílica después 13; lunes museo cerrado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y barrio; Maps 1010 m/13 min, 32 m/<1 min entre puntos, 504 m/6 min. Recorrido de puente/museo no son esos 32 m. Si solo 2 días y se prefiere mirador, sustituir bloque de museo por ruta oriental, no sumar ambas enteras."
+          },
+          {
+            "title": "Veronetta, jardín y arqueología",
+            "zone": "Giusti → Teatro Romano → Ponte Pietra → San Pietro",
+            "stopIds": [
+              "giusti",
+              "teatro",
+              "pietra",
+              "pietro"
+            ],
+            "editorialNote": "Tercer día opcional para jardín y arqueología, no imprescindible para ver plazas. No excursión ficticia ni siete museos. Giusti antes de comer, Teatro como interior, mirador con luz.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas; Maps 503 m/7 min, 166 m/2 min, 313 m/6 min con escaleras. Funicular invierno 17: organizar arqueológico antes 16 o quitar mirador, no prometer subir al anochecer con funicular."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Tres guías antes de oficiales y Maps.",
+    "Casa Giulietta 2026 patio pago reserva Navona, no guía obsoleta.",
+    "Operador museos desde 01/10/2026 CoopCulture, castelvecchio ficha vieja descartada.",
+    "Flora 2, 60/100 g vs 400 g 9€ conflicto aritmético explícito.",
+    "16 fotos licenciadas, comidas ilustrativas explícitas."
+  ],
+  "editorialTradeoffs": [
+    "Centro, oeste y este por días, sin lago añadido.",
+    "Tercer día opcional de interés por jardín/arqueología, sin necesidad de fabricar 7 paradas.",
+    "San Zeno domingo 13, funicular invierno 17: reordenar con horarios."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "Ayuntamiento, GoVerona y Never Ending Footsteps antes de oficiales y Maps. Blog ruta sobrepoblada reducida a zonas. Crítica Al Duca con precio viejo corregido; café: fuente turística/casa; Flora visita vegana 2026+carta."
+}

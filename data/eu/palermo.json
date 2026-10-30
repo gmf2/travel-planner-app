@@ -1,0 +1,1096 @@
+{
+  "schemaVersion": 1,
+  "country": "IT",
+  "id": "palermo",
+  "name": "Palermo",
+  "localName": "Palermo",
+  "selectionReason": "Ampliación italiana solicitada.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fecha; Monreale opcional, alternativas de museo no acumuladas.",
+  "stops": [
+    {
+      "id": "palatina",
+      "name": "Cappella Palatina · mosaicos para empezar",
+      "kind": "visit",
+      "zone": "Palazzo Reale",
+      "reason": "El gran interior del día: mosaicos dorados y una capilla donde se cruzan tradiciones, sin añadir tres iglesias de pago después.",
+      "sourceIds": [
+        "guide 1",
+        "guide 2",
+        "palatina"
+      ],
+      "coordinates": {
+        "lat": 38.1109676,
+        "lon": 13.35362
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Royal+Palace+and+Palatine+Chapel&query_place_id=ChIJRT-UYGTvGRMR 47 yr 7 zq 9 rbA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 110,
+      "durationType": "editorial-estimate",
+      "caution": "Fuente italiana actual: jue-lun y festivos 14,50€ con apartamentos; mar-mié 10€ sin apartamentos. 8€ es reducido, no adulto. Lun-sáb desde 8:30, último ingreso 16:30; dom/festivos último 12:30, capilla cerrada domingo 9:30-11. Cerrado 25/12 y 01/01. Restauración y funciones institucionales pueden limitar zonas. La versión inglesa antigua muestra otro producto/precio: reconfirmar calendario y total al comprar.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/palermo/palatina.jpg",
+        "source": "https://www.flickr.com/photos/rutgervandermaar/54371969704/",
+        "author": "Rutger van der Maar",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Palacio y capilla de pago"
+    },
+    {
+      "id": "cathedral",
+      "name": "La catedral · una fachada sin prisas",
+      "kind": "visit",
+      "zone": "Cassaro / Cattedrale",
+      "reason": "Rodear la catedral y mirar su mezcla de estilos, con un breve acceso a la nave solo si el culto lo permite.",
+      "sourceIds": [
+        "guide 1",
+        "cathedral",
+        "roofs"
+      ],
+      "coordinates": {
+        "lat": 38.1143321,
+        "lon": 13.3560504
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Palermo+Cathedral&query_place_id=ChIJySXqmGHvGRMRancw-ZBf 2 ow",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Áreas monumentales y cubiertas NO incluidas. La azotea cuesta 7€ adulto, no el reclamo desde 4€; último acceso 35 min antes del cierre, escaleras y restricciones por vértigo/salud/tiempo. Página oficial contiene secciones horarias distintas: consultar fecha, no prometer horario universal. Si se sube, recortar mercado y no añadir otra visita larga.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/palermo/cathedral.jpg",
+        "source": "https://www.flickr.com/photos/archer 10/5280214596/",
+        "author": "Dennis Jarvis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior y nave libre según culto"
+    },
+    {
+      "id": "ballaro",
+      "name": "Ballarò · mercado y comida al paso",
+      "kind": "visit",
+      "zone": "Albergheria",
+      "reason": "Dar tiempo a las calles del mercado y elegir un bocado, sin tratar el barrio como una foto de cinco minutos.",
+      "sourceIds": [
+        "guide 1",
+        "guide 3",
+        "foodguide"
+      ],
+      "coordinates": {
+        "lat": 38.1106144,
+        "lon": 13.3636751
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Mercato+Ballar%C 3%B 2&query_place_id=ChIJG 10 YKgDlGRMRgvss 8 tSK 0 oc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Puestos y cocinas tienen horarios propios; la actividad es mejor de mañana/mediodía, no mercado completo garantizado al anochecer. Preguntar precios y alérgenos antes de pedir; frituras compartidas no garantizan aptitud para celíacos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/palermo/ballaro.jpg",
+        "source": "https://www.flickr.com/photos/freshcreator/5418269986/",
+        "author": "freshcreator",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mercado exterior y comida"
+    },
+    {
+      "id": "canti",
+      "name": "Quattro Canti · el cruce del centro",
+      "kind": "visit",
+      "zone": "Via Maqueda / Cassaro",
+      "reason": "Detenerse bajo las fachadas curvas para orientarse y seguir por el eje histórico, no otra entrada de museo.",
+      "sourceIds": [
+        "guide 1",
+        "guide 3"
+      ],
+      "coordinates": {
+        "lat": 38.1156779,
+        "lon": 13.3614681
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Quattro+Canti&query_place_id=ChIJmcmp 1 orlGRMRoPpbuqeU 7 yI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 25,
+      "durationType": "editorial-estimate",
+      "caution": "Espacio público con tránsito y grupos; el tiempo es para observar fachadas. No incluye interiores de iglesias cercanas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/palermo/canti.jpg",
+        "source": "https://www.flickr.com/photos/rutgervandermaar/54352922450/",
+        "author": "Rutger van der Maar",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Cruce exterior"
+    },
+    {
+      "id": "pretoria",
+      "name": "Piazza Pretoria · fuente y pausa",
+      "kind": "visit",
+      "zone": "Pretoria / Bellini",
+      "reason": "Cerrar el paseo entre la fuente y las plazas de Bellini, con margen para un dulce en vez de otra cola.",
+      "sourceIds": [
+        "guide 1",
+        "guide 3",
+        "chiostro"
+      ],
+      "coordinates": {
+        "lat": 38.1155096,
+        "lon": 13.3620874
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Fontana+Pretoria&query_place_id=ChIJKf 7-44 rlGRMRT_CHUh 6 mCvw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Acceso junto a la fuente sujeto a cierres y mantenimiento. Martorana, San Cataldo y Santa Caterina no están incluidas como tres interiores obligatorios. El obrador del Chiostro tiene entrada propia y horario de cierre temprano.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/palermo/pretoria.jpg",
+        "source": "https://www.flickr.com/photos/rutgervandermaar/54362655015/",
+        "author": "Rutger van der Maar",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plazas exteriores"
+    },
+    {
+      "id": "capo",
+      "name": "Il Capo · la ciudad empieza en los puestos",
+      "kind": "visit",
+      "zone": "Monte di Pietà",
+      "reason": "Un segundo mercado con otro ambiente, como desayuno o paseo breve antes de la visita al teatro.",
+      "sourceIds": [
+        "guide 2",
+        "guide 3",
+        "foodguide 2"
+      ],
+      "coordinates": {
+        "lat": 38.1188438,
+        "lon": 13.35396
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Mercato+del+Capo&query_place_id=ChIJ 9 VAiNADvGRMRIkCM 9 YrjrgI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "No hace falta comer dos menús completos en dos mercados; Ballarò puede bastar con un solo día. Puestos con horarios propios, no apertura uniforme en domingo o tarde.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/palermo/capo.jpg",
+        "source": "https://www.flickr.com/photos/25422544@N 03/53838385831/",
+        "author": "Giuseppe Pappa",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mercado exterior"
+    },
+    {
+      "id": "massimo",
+      "name": "Teatro Massimo · detrás de la fachada",
+      "kind": "visit",
+      "zone": "Piazza Verdi",
+      "reason": "La visita guiada es el interior principal de este día, distinto de las iglesias y palacios del primero.",
+      "sourceIds": [
+        "guide 2",
+        "massimo"
+      ],
+      "coordinates": {
+        "lat": 38.1202618,
+        "lon": 13.3574867
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Teatro+Massimo+di+Palermo&query_place_id=ChIJSc 5 EgvXlGRMRLUA 6 cDzA 7 I 4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Oficial: tour 14€, diario 9:30-19, última visita 18:20; duración de tour 40 min y margen editorial para entrada. Precio antiguo 12€ descartado. Recorrido accesible según operador, salas dependen de ensayos. No incluye espectáculo ni una butaca para ópera.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/palermo/massimo.jpg",
+        "source": "https://www.flickr.com/photos/rutgervandermaar/54421702630/",
+        "author": "Rutger van der Maar",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Visita guiada de pago"
+    },
+    {
+      "id": "marina",
+      "name": "Piazza Marina · sombra hacia la Kalsa",
+      "kind": "visit",
+      "zone": "Piazza Marina",
+      "reason": "Bajar al este y cambiar de ritmo junto al jardín y los palacios, con tiempo para comida sin otra lista de monumentos.",
+      "sourceIds": [
+        "guide 1",
+        "guide 3"
+      ],
+      "coordinates": {
+        "lat": 38.1175252,
+        "lon": 13.3683243
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+Marina&query_place_id=ChIJh 0 OgwfLlGRMRKYxhb 2 Zht 50",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 85,
+      "durationType": "editorial-estimate",
+      "caution": "La fotografía es el borde arbolado de la plaza. Jardín y palacios tienen acceso propio; no se promete entrada interior. Abatellis es alternativa al teatro para quien prefiera pintura, no un segundo museo largo que se suma.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/palermo/marina.jpg",
+        "source": "https://www.flickr.com/photos/46604778@N 00/5539153017/",
+        "author": "domjisch",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Borde arbolado de Piazza Marina en foto de archivo, no vista completa del jardín ni estado actual."
+      },
+      "visitMode": "Plaza y barrio exterior"
+    },
+    {
+      "id": "foro",
+      "name": "Foro Italico · terminar junto al agua",
+      "kind": "visit",
+      "zone": "Kalsa / paseo marítimo",
+      "reason": "Un paseo abierto junto al mar para cerrar la tarde y descansar, no una playa de baño.",
+      "sourceIds": [
+        "guide 2",
+        "guide 3"
+      ],
+      "coordinates": {
+        "lat": 38.11722109999999,
+        "lon": 13.3750284
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Foro+Italico&query_place_id=ChIJ 18 wCpuzlGRMRoEooc 4 DUKfk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "No es excursión a Mondello ni playa de arena. Sombra escasa, viento o lluvia pueden desaconsejarlo. Desde Abatellis Maps 474 m/6 min, tiempo de traslado, no duración de la pausa.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/palermo/foro.jpg",
+        "source": "https://www.flickr.com/photos/irlend/13277768314/",
+        "author": "Ira Smirnova",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "abatellis",
+      "name": "Palazzo Abatellis · elegir pintura",
+      "kind": "visit",
+      "zone": "Via Alloro / Kalsa",
+      "reason": "El museo para quien prefiera arte al teatro, con tiempo para mirar la colección y El triunfo de la muerte.",
+      "sourceIds": [
+        "guide 1",
+        "abatellis",
+        "abattickets"
+      ],
+      "coordinates": {
+        "lat": 38.1167179,
+        "lon": 13.3710308
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Palazzo+Abatellis&query_place_id=ChIJbYeXTu 3 lGRMRZQjz 9 O 7 I 80 k",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 8€; mar-sáb 9-19 último 18:30, dom/festivos 9-13:30 último 13, lunes cerrado. Billete combinado 10€ menciona Palazzo Mirto, pero Mirto está temporalmente cerrado por mantenimiento: no prometer visita conjunta. Sustituye Teatro Massimo y recorta mercado, no añade dos horas a la misma tarde.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/palermo/abatellis.jpg",
+        "source": "https://www.flickr.com/photos/paolosub/376825233/",
+        "author": "paolo s.",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Detalle de El triunfo de la muerte, en Palazzo Abatellis; fotografía de archivo, no fachada del museo."
+      },
+      "visitMode": "Museo de pago; sustitución"
+    },
+    {
+      "id": "monreale",
+      "name": "Monreale · un día opcional de mosaicos",
+      "kind": "visit",
+      "zone": "Monreale, fuera de Palermo",
+      "reason": "Si apetece salir, dedicar la jornada a catedral, claustro y comida, sin añadir Mondello en la misma tarde.",
+      "sourceIds": [
+        "guide 1",
+        "monreale",
+        "cloister",
+        "amat",
+        "amatfares"
+      ],
+      "coordinates": {
+        "lat": 38.0820509,
+        "lon": 13.29207
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Cattedrale+di+Monreale&query_place_id=ChIJkzHupj_uGRMRguQLH 5 DlPgM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 360,
+      "durationType": "editorial-estimate",
+      "caution": "Sustituye el día urbano abierto, no se añade a una mañana completa de Palermo. AMAT 389 prolongado hasta 15/06/2027; Maps 30/10/2026:40 min Indipendenza-Duomo con bus y paseo, espera previa y regreso aparte. Reservar 60-75 min editoriales por sentido y comprobar salidas de la fecha. Ordinario 1,40€/90 min, diario 3,50€; no prometer venta a bordo. Catedral lun-sáb 9-13 última 12:45 y 14-17; domingo/festivo SOLO 14-17, culto puede cambiar acceso. Claustro 8€ adulto, lun-sáb 9-19, dom/festivo 9-13:30 última 30 min antes. El domingo NO coinciden: claustro por la mañana y catedral por la tarde exige espera; preferir lun-sáb o elegir solo uno. Otros espacios del complejo y cubiertas con producto propio no incluidos. Catedral: entrada/importe del producto exacto por confirmar; no afirmar que todo es gratis.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/palermo/monreale.jpg",
+        "source": "https://www.flickr.com/photos/jkrauss/44164441860/",
+        "author": "Jane Krauss",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Excursión opcional; entradas aparte"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Mosaicos, mercado y plazas del casco",
+          "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+          "stopIds": [
+            "palatina",
+            "cathedral",
+            "ballaro",
+            "canti",
+            "pretoria"
+          ],
+          "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Mosaicos, mercado y plazas del casco",
+          "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+          "stopIds": [
+            "palatina",
+            "cathedral",
+            "ballaro",
+            "canti",
+            "pretoria"
+          ],
+          "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+        },
+        {
+          "title": "Del Capo al teatro y la Kalsa",
+          "zone": "Capo → Teatro Massimo → Piazza Marina → Foro Italico",
+          "stopIds": [
+            "capo",
+            "massimo",
+            "marina",
+            "foro"
+          ],
+          "editorialNote": "Un interior principal y paseo hacia el agua. Si interesa más pintura, cambiar teatro por Abatellis, que está entre Marina y Foro; no hacer los dos por obligación.",
+          "optionalStopIds": [
+            "abatellis"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Capo-Massimo 286 m/3 min y Massimo-Marina 1281 m/16 min. Marina-Abatellis 340 m/4 min; Abatellis-Foro 474 m/6 min si se elige esa alternativa. Lunes Abatellis cerrado; domingo hacerlo antes 13 h y reorganizar la mañana."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Mosaicos, mercado y plazas del casco",
+          "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+          "stopIds": [
+            "palatina",
+            "cathedral",
+            "ballaro",
+            "canti",
+            "pretoria"
+          ],
+          "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+        },
+        {
+          "title": "Del Capo al teatro y la Kalsa",
+          "zone": "Capo → Teatro Massimo → Piazza Marina → Foro Italico",
+          "stopIds": [
+            "capo",
+            "massimo",
+            "marina",
+            "foro"
+          ],
+          "editorialNote": "Un interior principal y paseo hacia el agua. Si interesa más pintura, cambiar teatro por Abatellis, que está entre Marina y Foro; no hacer los dos por obligación.",
+          "optionalStopIds": [
+            "abatellis"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Capo-Massimo 286 m/3 min y Massimo-Marina 1281 m/16 min. Marina-Abatellis 340 m/4 min; Abatellis-Foro 474 m/6 min si se elige esa alternativa. Lunes Abatellis cerrado; domingo hacerlo antes 13 h y reorganizar la mañana."
+        },
+        {
+          "title": "Monreale si apetece salir de la ciudad",
+          "zone": "Indipendenza → Monreale → regreso a Palermo",
+          "stopIds": [
+            "monreale"
+          ],
+          "editorialNote": "Tercer día opcional, no relleno. Una excursión con mosaicos, claustro y comida basta; no añadir Mondello. Si no interesa otra catedral, mantener una jornada libre en Palermo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-8 h con ida, visitas, comida y vuelta. Maps 40 min por sentido en una consulta fechada no garantiza frecuencia; reservar margen para espera/tráfico. Domingos los dos recintos no tienen apertura simultánea: elegir o aceptar pausa larga."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Mercados por la mañana; sombra y agua antes del Foro. No añadir Mondello al día de Monreale.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Mar y jardines sujetos a lluvia y viento. Chiostro pastelería cierra 17 h; excursión con regreso comprobado, no frecuencia supuesta.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Palazzo Reale cerrado 25/12 y 01/01; mover la visita o dejar exterior, no cobrar mentalmente un billete en día cerrado. Catedrales con culto y horarios festivos especiales.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "AMAT 389 prolongado hasta 15/06/2027 según aviso actual; después requiere nueva confirmación. Otoño cambia horario de pastelería, comprobar día.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No entradas, mesas ni transporte reservados. Tarifas verificadas no equivalen a disponibilidad para fecha concreta.",
+    "Palatina italiana 14,50€/10€ según día frente a inglés antiguo: usar calendario oficial actual y reconfirmar producto.",
+    "Domingo Monreale catedral y claustro no abren simultáneamente; no vender visita conjunta de mañana."
+  ],
+  "excludedOrOptional": [
+    "Abatellis sustituye Teatro Massimo, no se añade como segundo interior largo.",
+    "Monreale es día opcional con ida y vuelta; Mondello y Cefalù necesitan otra jornada, no añadido automático.",
+    "Cubiertas de catedral, Martorana, San Cataldo y Santa Caterina son elecciones, no cuatro entradas obligatorias."
+  ],
+  "sources": [
+    {
+      "id": "guide 1",
+      "title": "Sicily Escape: tres días",
+      "url": "https://www.sicily-escape.com/itineraries/palermo-3-days/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide 2",
+      "title": "Keptour: barrios, mercados y mosaicos",
+      "url": "https://keptour.com/en/blog/palermo-itinerary-3-days-markets-mosaics",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide 3",
+      "title": "Eppure: Palermo a pie",
+      "url": "https://eppuresonoinviaggio.it/visitare-palermo-a-piedi-in-tre-giorni-cosa-fare-vedere-e-dove-mangiare/",
+      "type": "local-travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "Palermo Food: platos y locales",
+      "url": "https://palermofood.tours/guides/best-food-in-palermo/",
+      "type": "food-specialist",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide 2",
+      "title": "Time for Sicily: street food",
+      "url": "https://timeforsicily.com/palermo-street-food-guide/",
+      "type": "local-food-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "palatina",
+      "title": "Fondazione: tarifa italiana actual",
+      "url": "https://www.federicosecondo.org/visita/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cathedral",
+      "title": "Catedral: accesos y horarios",
+      "url": "https://www.ticket-shop-cattedraledipalermo.it/amc/orari-e-modalita-di-visita-della-cattedrale/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "roofs",
+      "title": "Catedral: cubiertas 7€ adulto",
+      "url": "https://www.ticket-shop-cattedraledipalermo.it/amc/prodotto/tetti/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "massimo",
+      "title": "Teatro Massimo: visitas 14€",
+      "url": "https://www.teatromassimo.it/visite-guidate/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "abatellis",
+      "title": "Abatellis: horarios y cierre Mirto",
+      "url": "https://parchiarcheologici.regione.sicilia.it/musei/abatellis/orari/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "abattickets",
+      "title": "Abatellis:8€ adulto",
+      "url": "https://parchiarcheologici.regione.sicilia.it/musei/abatellis/en/biglietti/galleria-regionale-di-palazzo-abatellis/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "monreale",
+      "title": "Diócesis Monreale: horarios",
+      "url": "https://www.diocesimonreale.it/diocesi/basilica-cattedrale/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cloister",
+      "title": "CoopCulture: claustro 8€",
+      "url": "https://www.coopculture.it/it/prodotti/chiostro-di-santa-maria-nuova-monreale-biglietto-di-ingresso/",
+      "type": "official-operator",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "amat",
+      "title": "AMAT 389: prolongación 2026/27",
+      "url": "https://www.amat.pa.it/18-06-2026-linea-389-riattivazione-prolungamento-per-monreale/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "amatfares",
+      "title": "AMAT: billetes",
+      "url": "https://www.amat.pa.it/biglietti/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "buatta",
+      "title": "Buatta: carta italiana",
+      "url": "https://www.buattapalermo.it/menu-tradizione-siciliana-palermo/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "buattacontact",
+      "title": "Buatta: cocina y sede",
+      "url": "https://www.buattapalermo.it/en/contact-us-2/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "critic",
+      "title": "Michelin: Buatta",
+      "url": "https://guide.michelin.com/en/sicilia/palermo/restaurant/buatta-cucina-popolana",
+      "type": "food-critic",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "critic 2",
+      "title": "Gambero Rosso: Buatta",
+      "url": "https://www.gamberorosso.it/notizie/ristoranti/buatta-di-palermo-e-una-delle-migliori-trattorie-ditalia-ecco-perche/",
+      "type": "food-critic",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "franco",
+      "title": "Nni Franco: carta de reparto, no mostrador",
+      "url": "https://www.justeat.it/restaurants-nni-franco-u-vastiddaru-palermo/menu",
+      "type": "delivery-aggregator",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "chiostro",
+      "title": "I Segreti: obrador y horario",
+      "url": "https://www.isegretidelchiostro.com/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Mosaicos, mercado y plazas del casco",
+            "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+            "stopIds": [
+              "palatina",
+              "cathedral",
+              "ballaro",
+              "canti",
+              "pretoria"
+            ],
+            "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Mosaicos, mercado y plazas del casco",
+            "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+            "stopIds": [
+              "palatina",
+              "cathedral",
+              "ballaro",
+              "canti",
+              "pretoria"
+            ],
+            "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+          },
+          {
+            "title": "Del Capo al teatro y la Kalsa",
+            "zone": "Capo → Teatro Massimo → Piazza Marina → Foro Italico",
+            "stopIds": [
+              "capo",
+              "massimo",
+              "marina",
+              "foro"
+            ],
+            "editorialNote": "Un interior principal y paseo hacia el agua. Si interesa más pintura, cambiar teatro por Abatellis, que está entre Marina y Foro; no hacer los dos por obligación.",
+            "optionalStopIds": [
+              "abatellis"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Capo-Massimo 286 m/3 min y Massimo-Marina 1281 m/16 min. Marina-Abatellis 340 m/4 min; Abatellis-Foro 474 m/6 min si se elige esa alternativa. Lunes Abatellis cerrado; domingo hacerlo antes 13 h y reorganizar la mañana."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Mosaicos, mercado y plazas del casco",
+            "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+            "stopIds": [
+              "palatina",
+              "cathedral",
+              "ballaro",
+              "canti",
+              "pretoria"
+            ],
+            "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+          },
+          {
+            "title": "Del Capo al teatro y la Kalsa",
+            "zone": "Capo → Teatro Massimo → Piazza Marina → Foro Italico",
+            "stopIds": [
+              "capo",
+              "massimo",
+              "marina",
+              "foro"
+            ],
+            "editorialNote": "Un interior principal y paseo hacia el agua. Si interesa más pintura, cambiar teatro por Abatellis, que está entre Marina y Foro; no hacer los dos por obligación.",
+            "optionalStopIds": [
+              "abatellis"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Capo-Massimo 286 m/3 min y Massimo-Marina 1281 m/16 min. Marina-Abatellis 340 m/4 min; Abatellis-Foro 474 m/6 min si se elige esa alternativa. Lunes Abatellis cerrado; domingo hacerlo antes 13 h y reorganizar la mañana."
+          },
+          {
+            "title": "Monreale si apetece salir de la ciudad",
+            "zone": "Indipendenza → Monreale → regreso a Palermo",
+            "stopIds": [
+              "monreale"
+            ],
+            "editorialNote": "Tercer día opcional, no relleno. Una excursión con mosaicos, claustro y comida basta; no añadir Mondello. Si no interesa otra catedral, mantener una jornada libre en Palermo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con ida, visitas, comida y vuelta. Maps 40 min por sentido en una consulta fechada no garantiza frecuencia; reservar margen para espera/tráfico. Domingos los dos recintos no tienen apertura simultánea: elegir o aceptar pausa larga."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Mosaicos, mercado y plazas del casco",
+            "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+            "stopIds": [
+              "palatina",
+              "cathedral",
+              "ballaro",
+              "canti",
+              "pretoria"
+            ],
+            "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Mosaicos, mercado y plazas del casco",
+            "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+            "stopIds": [
+              "palatina",
+              "cathedral",
+              "ballaro",
+              "canti",
+              "pretoria"
+            ],
+            "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+          },
+          {
+            "title": "Del Capo al teatro y la Kalsa",
+            "zone": "Capo → Teatro Massimo → Piazza Marina → Foro Italico",
+            "stopIds": [
+              "capo",
+              "massimo",
+              "marina",
+              "foro"
+            ],
+            "editorialNote": "Un interior principal y paseo hacia el agua. Si interesa más pintura, cambiar teatro por Abatellis, que está entre Marina y Foro; no hacer los dos por obligación.",
+            "optionalStopIds": [
+              "abatellis"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Capo-Massimo 286 m/3 min y Massimo-Marina 1281 m/16 min. Marina-Abatellis 340 m/4 min; Abatellis-Foro 474 m/6 min si se elige esa alternativa. Lunes Abatellis cerrado; domingo hacerlo antes 13 h y reorganizar la mañana."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Mosaicos, mercado y plazas del casco",
+            "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+            "stopIds": [
+              "palatina",
+              "cathedral",
+              "ballaro",
+              "canti",
+              "pretoria"
+            ],
+            "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+          },
+          {
+            "title": "Del Capo al teatro y la Kalsa",
+            "zone": "Capo → Teatro Massimo → Piazza Marina → Foro Italico",
+            "stopIds": [
+              "capo",
+              "massimo",
+              "marina",
+              "foro"
+            ],
+            "editorialNote": "Un interior principal y paseo hacia el agua. Si interesa más pintura, cambiar teatro por Abatellis, que está entre Marina y Foro; no hacer los dos por obligación.",
+            "optionalStopIds": [
+              "abatellis"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Capo-Massimo 286 m/3 min y Massimo-Marina 1281 m/16 min. Marina-Abatellis 340 m/4 min; Abatellis-Foro 474 m/6 min si se elige esa alternativa. Lunes Abatellis cerrado; domingo hacerlo antes 13 h y reorganizar la mañana."
+          },
+          {
+            "title": "Monreale si apetece salir de la ciudad",
+            "zone": "Indipendenza → Monreale → regreso a Palermo",
+            "stopIds": [
+              "monreale"
+            ],
+            "editorialNote": "Tercer día opcional, no relleno. Una excursión con mosaicos, claustro y comida basta; no añadir Mondello. Si no interesa otra catedral, mantener una jornada libre en Palermo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con ida, visitas, comida y vuelta. Maps 40 min por sentido en una consulta fechada no garantiza frecuencia; reservar margen para espera/tráfico. Domingos los dos recintos no tienen apertura simultánea: elegir o aceptar pausa larga."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Mosaicos, mercado y plazas del casco",
+            "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+            "stopIds": [
+              "palatina",
+              "cathedral",
+              "ballaro",
+              "canti",
+              "pretoria"
+            ],
+            "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Mosaicos, mercado y plazas del casco",
+            "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+            "stopIds": [
+              "palatina",
+              "cathedral",
+              "ballaro",
+              "canti",
+              "pretoria"
+            ],
+            "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+          },
+          {
+            "title": "Del Capo al teatro y la Kalsa",
+            "zone": "Capo → Teatro Massimo → Piazza Marina → Foro Italico",
+            "stopIds": [
+              "capo",
+              "massimo",
+              "marina",
+              "foro"
+            ],
+            "editorialNote": "Un interior principal y paseo hacia el agua. Si interesa más pintura, cambiar teatro por Abatellis, que está entre Marina y Foro; no hacer los dos por obligación.",
+            "optionalStopIds": [
+              "abatellis"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Capo-Massimo 286 m/3 min y Massimo-Marina 1281 m/16 min. Marina-Abatellis 340 m/4 min; Abatellis-Foro 474 m/6 min si se elige esa alternativa. Lunes Abatellis cerrado; domingo hacerlo antes 13 h y reorganizar la mañana."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Mosaicos, mercado y plazas del casco",
+            "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+            "stopIds": [
+              "palatina",
+              "cathedral",
+              "ballaro",
+              "canti",
+              "pretoria"
+            ],
+            "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+          },
+          {
+            "title": "Del Capo al teatro y la Kalsa",
+            "zone": "Capo → Teatro Massimo → Piazza Marina → Foro Italico",
+            "stopIds": [
+              "capo",
+              "massimo",
+              "marina",
+              "foro"
+            ],
+            "editorialNote": "Un interior principal y paseo hacia el agua. Si interesa más pintura, cambiar teatro por Abatellis, que está entre Marina y Foro; no hacer los dos por obligación.",
+            "optionalStopIds": [
+              "abatellis"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Capo-Massimo 286 m/3 min y Massimo-Marina 1281 m/16 min. Marina-Abatellis 340 m/4 min; Abatellis-Foro 474 m/6 min si se elige esa alternativa. Lunes Abatellis cerrado; domingo hacerlo antes 13 h y reorganizar la mañana."
+          },
+          {
+            "title": "Monreale si apetece salir de la ciudad",
+            "zone": "Indipendenza → Monreale → regreso a Palermo",
+            "stopIds": [
+              "monreale"
+            ],
+            "editorialNote": "Tercer día opcional, no relleno. Una excursión con mosaicos, claustro y comida basta; no añadir Mondello. Si no interesa otra catedral, mantener una jornada libre en Palermo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con ida, visitas, comida y vuelta. Maps 40 min por sentido en una consulta fechada no garantiza frecuencia; reservar margen para espera/tráfico. Domingos los dos recintos no tienen apertura simultánea: elegir o aceptar pausa larga."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Mosaicos, mercado y plazas del casco",
+            "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+            "stopIds": [
+              "palatina",
+              "cathedral",
+              "ballaro",
+              "canti",
+              "pretoria"
+            ],
+            "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Mosaicos, mercado y plazas del casco",
+            "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+            "stopIds": [
+              "palatina",
+              "cathedral",
+              "ballaro",
+              "canti",
+              "pretoria"
+            ],
+            "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+          },
+          {
+            "title": "Del Capo al teatro y la Kalsa",
+            "zone": "Capo → Teatro Massimo → Piazza Marina → Foro Italico",
+            "stopIds": [
+              "capo",
+              "massimo",
+              "marina",
+              "foro"
+            ],
+            "editorialNote": "Un interior principal y paseo hacia el agua. Si interesa más pintura, cambiar teatro por Abatellis, que está entre Marina y Foro; no hacer los dos por obligación.",
+            "optionalStopIds": [
+              "abatellis"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Capo-Massimo 286 m/3 min y Massimo-Marina 1281 m/16 min. Marina-Abatellis 340 m/4 min; Abatellis-Foro 474 m/6 min si se elige esa alternativa. Lunes Abatellis cerrado; domingo hacerlo antes 13 h y reorganizar la mañana."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Mosaicos, mercado y plazas del casco",
+            "zone": "Palazzo Reale → Cattedrale → Ballarò → Quattro Canti → Pretoria",
+            "stopIds": [
+              "palatina",
+              "cathedral",
+              "ballaro",
+              "canti",
+              "pretoria"
+            ],
+            "editorialNote": "Palatina es el gran interior. La catedral se plantea breve y sin cubiertas; mercado y comida son parte del día, no una pausa comprimida entre cinco entradas.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-7 h con comida y colas. Maps:458 m/5 min,917 m/12 min,662 m/8 min y 82 m/1 min entre hitos. Domingo coordinar Palatina fuera de 9:30-11 y antes del último acceso 12:30; horarios festivos no garantizados."
+          },
+          {
+            "title": "Del Capo al teatro y la Kalsa",
+            "zone": "Capo → Teatro Massimo → Piazza Marina → Foro Italico",
+            "stopIds": [
+              "capo",
+              "massimo",
+              "marina",
+              "foro"
+            ],
+            "editorialNote": "Un interior principal y paseo hacia el agua. Si interesa más pintura, cambiar teatro por Abatellis, que está entre Marina y Foro; no hacer los dos por obligación.",
+            "optionalStopIds": [
+              "abatellis"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Capo-Massimo 286 m/3 min y Massimo-Marina 1281 m/16 min. Marina-Abatellis 340 m/4 min; Abatellis-Foro 474 m/6 min si se elige esa alternativa. Lunes Abatellis cerrado; domingo hacerlo antes 13 h y reorganizar la mañana."
+          },
+          {
+            "title": "Monreale si apetece salir de la ciudad",
+            "zone": "Indipendenza → Monreale → regreso a Palermo",
+            "stopIds": [
+              "monreale"
+            ],
+            "editorialNote": "Tercer día opcional, no relleno. Una excursión con mosaicos, claustro y comida basta; no añadir Mondello. Si no interesa otra catedral, mantener una jornada libre en Palermo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-8 h con ida, visitas, comida y vuelta. Maps 40 min por sentido en una consulta fechada no garantiza frecuencia; reservar margen para espera/tráfico. Domingos los dos recintos no tienen apertura simultánea: elegir o aceptar pausa larga."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Varias guías antes de oficiales y Maps.",
+    "Palatina precios de HTML italiano, web_fetch omite intero 10€ recuperado de HTML.",
+    "Massimo 14€, Abatellis 8€, cubiertas 7€, reducidos descartados.",
+    "Monreale domingo incompatibilidad horaria y retorno explícitos.",
+    "14 fotos CC BY/BY-SA verificadas; comidas ilustrativas explícitas."
+  ],
+  "editorialTradeoffs": [
+    "Casco y mercados primero, teatro y Kalsa después.",
+    "Monreale opcional sin obligar tercer día ni playa acumulada.",
+    "Franco sin web oficial validada ni precio presencial prometido."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "SicilyEscape, Keptour, Eppure y dos especialistas de comida antes de operadores. Buatta con dos críticas independientes y carta italiana. Rechazado Monreale+Mondello por ritmo y horarios. Datos antiguos ingleses de palacio y precio 12€ de teatro descartados."
+}

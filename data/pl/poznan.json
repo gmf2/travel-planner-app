@@ -5,7 +5,7 @@
   "name": "Poznań",
   "localName": "Poznań",
   "selectionReason": "Orígenes de Polonia y patrimonio propio; quinta entre seis comparadas en huéspedes hoteleros GUS 2025, no quinta por población.",
-  "reviewedAt": "2026-10-28",
+  "reviewedAt": "2026-10-29",
   "status": "editorially-reviewed-pilot",
   "planningAssumptions": "Primera visita cultural y ritmo moderado. La carga por día es una estimación editorial con comida, pausas y desplazamientos, no un horario comprobado. Las paradas exteriores no implican entrar en todos los edificios. Ajustar a entradas y fecha real.",
   "stops": [
@@ -454,9 +454,10 @@
             "rynek",
             "fara",
             "cathedral",
+            "porta",
             "srodka"
           ],
-          "editorialNote": "Paseo con pausas. Porta Posnania sustituye parte del paseo si se elige hoy; no sumar todos los interiores.",
+          "editorialNote": "Paseo con pausas, todo el origen de la ciudad en un mismo lado, sin transporte: casco antiguo, Fara, catedral, Porta Posnania (el centro de interpretación de la isla, a 4 min a pie de la catedral) y el mural de Śródka. Porta es el único interior largo (1,5–2 h); Fara y catedral son visitas cortas: no sumar otro museo.",
           "optionalStopIds": [],
           "geographyChecks": [
             {
@@ -475,13 +476,20 @@
             },
             {
               "fromId": "cathedral",
+              "toId": "porta",
+              "straightLineKm": 0.28,
+              "isWalkingRoute": false,
+              "transportSuggested": false
+            },
+            {
+              "fromId": "porta",
               "toId": "srodka",
-              "straightLineKm": 0.41,
+              "straightLineKm": 0.22,
               "isWalkingRoute": false,
               "transportSuggested": false
             }
           ],
-          "pacing": "Unas 6–7 h con comida y paseo entre casco antiguo, catedral y Śródka; no sumar Porta hoy."
+          "pacing": "Día completo a pie, unas 6–7 h con comida: Rynek (1 h), Fara (30 min), paseo de 15 min, catedral (45 min), Porta Posnania (1,5–2 h) y mural de Śródka (20 min). Todo en un radio de 1,5 km."
         },
         {
           "title": "Código e historia imperial",
@@ -512,30 +520,17 @@
           "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
         },
         {
-          "title": "Patrimonio y verde",
-          "zone": "Porta Posnania y norte del centro",
+          "title": "Ciudadela y tarde libre",
+          "zone": "Norte del centro",
           "stopIds": [
-            "porta",
             "citadel"
           ],
-          "editorialNote": "Porta explica la isla histórica ya vista el primer día: profundización interpretativa, no repetir la catedral. Después de comer, transporte a Ciudadela para recorrer parque y vestigios de la fortaleza. Malta sustituye Ciudadela si se prefiere lago en verano. Porta cierra lunes; no contar con la exposición ese día.",
+          "editorialNote": "Mañana tranquila en el parque y la memoria al aire libre de la Ciudadela. Proponemos este tercer día más ligero, con la tarde libre; la excursión a Rogalin (selector de la jornada) es la alternativa de día completo: no sumar ambas sin margen.",
           "optionalStopIds": [
             "malta"
           ],
-          "geographyChecks": [
-            {
-              "fromId": "porta",
-              "toId": "citadel",
-              "straightLineKm": 1.48,
-              "isWalkingRoute": false,
-              "transportSuggested": false,
-              "walkingRouteKm": 2.461,
-              "walkingMinutes": 35,
-              "routeCheckedAt": "2026-10-28",
-              "walkingCaution": "Ruta de referencia con escaleras; no verificada accesible."
-            }
-          ],
-          "pacing": "Unas 5–6 h con comida. Porta–Ciudadela: referencia Maps de 2,5 km / 35 min a pie, con escaleras; transporte alternativo sin verificar. Recorta parque con mal tiempo."
+          "geographyChecks": [],
+          "pacing": "Media jornada; ampliable con los museos del parque o recortable con mal tiempo."
         }
       ]
     }
@@ -953,9 +948,10 @@
               "rynek",
               "fara",
               "cathedral",
+              "porta",
               "srodka"
             ],
-            "editorialNote": "Paseo con pausas. Porta Posnania sustituye parte del paseo si se elige hoy; no sumar todos los interiores.",
+            "editorialNote": "Paseo con pausas, todo el origen de la ciudad en un mismo lado, sin transporte: casco antiguo, Fara, catedral, Porta Posnania (el centro de interpretación de la isla, a 4 min a pie de la catedral) y el mural de Śródka. Porta es el único interior largo (1,5–2 h); Fara y catedral son visitas cortas: no sumar otro museo.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -974,13 +970,20 @@
               },
               {
                 "fromId": "cathedral",
+                "toId": "porta",
+                "straightLineKm": 0.28,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "porta",
                 "toId": "srodka",
-                "straightLineKm": 0.41,
+                "straightLineKm": 0.22,
                 "isWalkingRoute": false,
                 "transportSuggested": false
               }
             ],
-            "pacing": "Unas 6–7 h con comida y paseo entre casco antiguo, catedral y Śródka; no sumar Porta hoy."
+            "pacing": "Día completo a pie, unas 6–7 h con comida: Rynek (1 h), Fara (30 min), paseo de 15 min, catedral (45 min), Porta Posnania (1,5–2 h) y mural de Śródka (20 min). Todo en un radio de 1,5 km."
           },
           {
             "title": "Código e historia imperial",
@@ -1011,30 +1014,17 @@
             "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
           },
           {
-            "title": "Patrimonio y verde",
-            "zone": "Porta Posnania y norte del centro",
+            "title": "Ciudadela y tarde libre",
+            "zone": "Norte del centro",
             "stopIds": [
-              "porta",
               "citadel"
             ],
-            "editorialNote": "Porta explica la isla histórica ya vista el primer día: profundización interpretativa, no repetir la catedral. Después de comer, transporte a Ciudadela para recorrer parque y vestigios de la fortaleza. Malta sustituye Ciudadela si se prefiere lago en verano. Porta cierra lunes; no contar con la exposición ese día.",
+            "editorialNote": "Mañana tranquila en el parque y la memoria al aire libre de la Ciudadela. Proponemos este tercer día más ligero, con la tarde libre; la excursión a Rogalin (selector de la jornada) es la alternativa de día completo: no sumar ambas sin margen.",
             "optionalStopIds": [
               "malta"
             ],
-            "geographyChecks": [
-              {
-                "fromId": "porta",
-                "toId": "citadel",
-                "straightLineKm": 1.48,
-                "isWalkingRoute": false,
-                "transportSuggested": false,
-                "walkingRouteKm": 2.461,
-                "walkingMinutes": 35,
-                "routeCheckedAt": "2026-10-28",
-                "walkingCaution": "Ruta de referencia con escaleras; no verificada accesible."
-              }
-            ],
-            "pacing": "Unas 5–6 h con comida. Porta–Ciudadela: referencia Maps de 2,5 km / 35 min a pie, con escaleras; transporte alternativo sin verificar. Recorta parque con mal tiempo."
+            "geographyChecks": [],
+            "pacing": "Media jornada; ampliable con los museos del parque o recortable con mal tiempo."
           }
         ]
       }
@@ -1149,9 +1139,10 @@
               "rynek",
               "fara",
               "cathedral",
+              "porta",
               "srodka"
             ],
-            "editorialNote": "Plaza vieja y ayuntamiento por fuera, Fara si abre y comida. Después, transporte hasta la catedral y paseo corto hacia Śródka con luz. No cerrar toda la isla por ser invierno ni prometer el museo del ayuntamiento. Porta se reserva para profundizar el tercer día.",
+            "editorialNote": "Paseo con pausas, todo el origen de la ciudad en un mismo lado, sin transporte: casco antiguo, Fara, catedral, Porta Posnania (el centro de interpretación de la isla, a 4 min a pie de la catedral) y el mural de Śródka. Porta es el único interior largo (1,5–2 h); Fara y catedral son visitas cortas: no sumar otro museo.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1170,13 +1161,20 @@
               },
               {
                 "fromId": "cathedral",
+                "toId": "porta",
+                "straightLineKm": 0.28,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "porta",
                 "toId": "srodka",
-                "straightLineKm": 0.41,
+                "straightLineKm": 0.22,
                 "isWalkingRoute": false,
                 "transportSuggested": false
               }
             ],
-            "pacing": "Unas 5–6 h con comida y traslado; acortar exteriores con mal tiempo."
+            "pacing": "Día completo a pie, unas 6–7 h con comida: Rynek (1 h), Fara (30 min), paseo de 15 min, catedral (45 min), Porta Posnania (1,5–2 h) y mural de Śródka (20 min). Todo en un radio de 1,5 km."
           },
           {
             "title": "Código e historia imperial",
@@ -1199,28 +1197,15 @@
             "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
           },
           {
-            "title": "Historia interpretada y Ciudadela",
-            "zone": "Porta Posnania y norte del centro",
+            "title": "Ciudadela y tarde libre",
+            "zone": "Norte del centro",
             "stopIds": [
-              "porta",
               "citadel"
             ],
-            "editorialNote": "Porta como interior principal para entender la isla ya vista. Tras comer, transporte a Ciudadela si queda luz y el tiempo permite caminar; si no, tarde libre. No repetir catedral y Śródka ni sumar Malta. Porta cierra lunes; no contar con la exposición ese día.",
+            "editorialNote": "Mañana tranquila en el parque y la memoria al aire libre de la Ciudadela. Proponemos este tercer día más ligero, con la tarde libre; la excursión a Rogalin (selector de la jornada) es la alternativa de día completo: no sumar ambas sin margen.",
             "optionalStopIds": [],
-            "geographyChecks": [
-              {
-                "fromId": "porta",
-                "toId": "citadel",
-                "straightLineKm": 1.48,
-                "isWalkingRoute": false,
-                "transportSuggested": false,
-                "walkingRouteKm": 2.461,
-                "walkingMinutes": 35,
-                "routeCheckedAt": "2026-10-28",
-                "walkingCaution": "Ruta de referencia con escaleras; no verificada accesible."
-              }
-            ],
-            "pacing": "Unas 5–6 h con comida. Porta–Ciudadela: referencia Maps de 2,5 km / 35 min a pie, con escaleras; transporte alternativo sin verificar. Recorta parque con mal tiempo."
+            "geographyChecks": [],
+            "pacing": "Media jornada; ampliable con los museos del parque o recortable con mal tiempo."
           }
         ]
       }
@@ -1335,9 +1320,10 @@
               "rynek",
               "fara",
               "cathedral",
+              "porta",
               "srodka"
             ],
-            "editorialNote": "Plaza vieja y ayuntamiento por fuera, Fara si abre y comida. Después, transporte hasta la catedral y paseo corto hacia Śródka con luz. No cerrar toda la isla por ser invierno ni prometer el museo del ayuntamiento. Porta se reserva para profundizar el tercer día.",
+            "editorialNote": "Paseo con pausas, todo el origen de la ciudad en un mismo lado, sin transporte: casco antiguo, Fara, catedral, Porta Posnania (el centro de interpretación de la isla, a 4 min a pie de la catedral) y el mural de Śródka. Porta es el único interior largo (1,5–2 h); Fara y catedral son visitas cortas: no sumar otro museo.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1356,13 +1342,20 @@
               },
               {
                 "fromId": "cathedral",
+                "toId": "porta",
+                "straightLineKm": 0.28,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "porta",
                 "toId": "srodka",
-                "straightLineKm": 0.41,
+                "straightLineKm": 0.22,
                 "isWalkingRoute": false,
                 "transportSuggested": false
               }
             ],
-            "pacing": "Unas 5–6 h con comida y traslado; acortar exteriores con mal tiempo."
+            "pacing": "Día completo a pie, unas 6–7 h con comida: Rynek (1 h), Fara (30 min), paseo de 15 min, catedral (45 min), Porta Posnania (1,5–2 h) y mural de Śródka (20 min). Todo en un radio de 1,5 km."
           },
           {
             "title": "Código e historia imperial",
@@ -1385,28 +1378,15 @@
             "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
           },
           {
-            "title": "Historia interpretada y Ciudadela",
-            "zone": "Porta Posnania y norte del centro",
+            "title": "Ciudadela y tarde libre",
+            "zone": "Norte del centro",
             "stopIds": [
-              "porta",
               "citadel"
             ],
-            "editorialNote": "Porta como interior principal para entender la isla ya vista. Tras comer, transporte a Ciudadela si queda luz y el tiempo permite caminar; si no, tarde libre. No repetir catedral y Śródka ni sumar Malta. Porta cierra lunes; no contar con la exposición ese día.",
+            "editorialNote": "Mañana tranquila en el parque y la memoria al aire libre de la Ciudadela. Proponemos este tercer día más ligero, con la tarde libre; la excursión a Rogalin (selector de la jornada) es la alternativa de día completo: no sumar ambas sin margen.",
             "optionalStopIds": [],
-            "geographyChecks": [
-              {
-                "fromId": "porta",
-                "toId": "citadel",
-                "straightLineKm": 1.48,
-                "isWalkingRoute": false,
-                "transportSuggested": false,
-                "walkingRouteKm": 2.461,
-                "walkingMinutes": 35,
-                "routeCheckedAt": "2026-10-28",
-                "walkingCaution": "Ruta de referencia con escaleras; no verificada accesible."
-              }
-            ],
-            "pacing": "Unas 5–6 h con comida. Porta–Ciudadela: referencia Maps de 2,5 km / 35 min a pie, con escaleras; transporte alternativo sin verificar. Recorta parque con mal tiempo."
+            "geographyChecks": [],
+            "pacing": "Media jornada; ampliable con los museos del parque o recortable con mal tiempo."
           }
         ]
       }
@@ -1529,9 +1509,10 @@
               "rynek",
               "fara",
               "cathedral",
+              "porta",
               "srodka"
             ],
-            "editorialNote": "Paseo con pausas. Porta Posnania sustituye parte del paseo si se elige hoy; no sumar todos los interiores.",
+            "editorialNote": "Paseo con pausas, todo el origen de la ciudad en un mismo lado, sin transporte: casco antiguo, Fara, catedral, Porta Posnania (el centro de interpretación de la isla, a 4 min a pie de la catedral) y el mural de Śródka. Porta es el único interior largo (1,5–2 h); Fara y catedral son visitas cortas: no sumar otro museo.",
             "optionalStopIds": [],
             "geographyChecks": [
               {
@@ -1550,13 +1531,20 @@
               },
               {
                 "fromId": "cathedral",
+                "toId": "porta",
+                "straightLineKm": 0.28,
+                "isWalkingRoute": false,
+                "transportSuggested": false
+              },
+              {
+                "fromId": "porta",
                 "toId": "srodka",
-                "straightLineKm": 0.41,
+                "straightLineKm": 0.22,
                 "isWalkingRoute": false,
                 "transportSuggested": false
               }
             ],
-            "pacing": "Unas 6–7 h con comida y paseo entre casco antiguo, catedral y Śródka; no sumar Porta hoy."
+            "pacing": "Día completo a pie, unas 6–7 h con comida: Rynek (1 h), Fara (30 min), paseo de 15 min, catedral (45 min), Porta Posnania (1,5–2 h) y mural de Śródka (20 min). Todo en un radio de 1,5 km."
           },
           {
             "title": "Código e historia imperial",
@@ -1587,30 +1575,17 @@
             "pacing": "Unas 5–6 h con comida; Enigma y la visita elegida del Castillo definen la carga."
           },
           {
-            "title": "Patrimonio y verde",
-            "zone": "Porta Posnania y norte del centro",
+            "title": "Ciudadela y tarde libre",
+            "zone": "Norte del centro",
             "stopIds": [
-              "porta",
               "citadel"
             ],
-            "editorialNote": "Porta explica la isla histórica ya vista el primer día: profundización interpretativa, no repetir la catedral. Después de comer, transporte a Ciudadela para recorrer parque y vestigios de la fortaleza. Malta sustituye Ciudadela si se prefiere lago en verano. Porta cierra lunes; no contar con la exposición ese día.",
+            "editorialNote": "Mañana tranquila en el parque y la memoria al aire libre de la Ciudadela. Proponemos este tercer día más ligero, con la tarde libre; la excursión a Rogalin (selector de la jornada) es la alternativa de día completo: no sumar ambas sin margen.",
             "optionalStopIds": [
               "malta"
             ],
-            "geographyChecks": [
-              {
-                "fromId": "porta",
-                "toId": "citadel",
-                "straightLineKm": 1.48,
-                "isWalkingRoute": false,
-                "transportSuggested": false,
-                "walkingRouteKm": 2.461,
-                "walkingMinutes": 35,
-                "routeCheckedAt": "2026-10-28",
-                "walkingCaution": "Ruta de referencia con escaleras; no verificada accesible."
-              }
-            ],
-            "pacing": "Unas 5–6 h con comida. Porta–Ciudadela: referencia Maps de 2,5 km / 35 min a pie, con escaleras; transporte alternativo sin verificar. Recorta parque con mal tiempo."
+            "geographyChecks": [],
+            "pacing": "Media jornada; ampliable con los museos del parque o recortable con mal tiempo."
           }
         ]
       }
@@ -1658,9 +1633,9 @@
   ],
   "excursionDefault": "urban",
   "editorialAudit": {
-    "reviewedAt": "2026-10-28",
+    "reviewedAt": "2026-10-29",
     "status": "in-progress-with-recorded-findings",
-    "scope": "Identidad y acceso de visitas principales, dos locales, una experiencia, rutas principales y cierres de Rogalin. No garantiza fechas futuras ni constituye ciudad terminada.",
+    "scope": "Identidad y acceso de visitas principales, dos locales, una experiencia, rutas principales y cierres de Rogalin. No garantiza fechas futuras ni constituye ciudad terminada. Revisión 2026-10-29: Porta Posnania se une al día de la catedral (350 m a pie) en el plan de 3 días; el día 3 queda como mañana de Ciudadela con Rogalin como excursión sugerida, sin volver a Śródka.",
     "openItems": [
       "Más variedad gastronómica y de experiencias",
       "Fotos específicas de comida/taller con licencia y autores pendientes en dos fotos antiguas",
@@ -1670,7 +1645,7 @@
     ]
   },
   "editorialTradeoffs": "Decisión: casco antiguo e isla histórica definen1 día, sin museo del Ayuntamiento cerrado. En2 días Enigma añade una historia distinta al patrimonio religioso, con Castillo exterior o recorrido elegido. En3 días Porta profundiza en origen de Polonia y Ciudadela aporta verde; no añadir Malta también. Rogal y Termy son experiencias optativas, no visitas monumentales obligatorias. Rogalin solo sustituye jornada si interesa palacio/arte y se resuelve conexión, no se impone para llenar3 días.",
-  "catalogRevision": "2026-10-28-editorial-pass2",
+  "catalogRevision": "2026-10-29-editorial-pass3d",
   "discoveryReview": {
     "reviewedAt": "2026-10-28",
     "method": "Búsqueda literal qué ver en la ciudad, lectura de secciones de visitas/itinerarios de varias guías, comparación con catálogo y juicio editorial; después contraste oficial de hechos operativos seleccionados.",

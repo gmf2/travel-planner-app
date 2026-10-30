@@ -45,6 +45,54 @@
         "licenseUrl": "https://www.pexels.com/license/",
         "caption": "Foto ilustrativa del plato · no del local"
       }
+    },
+    {
+      "id": "mis-milkbar",
+      "name": "Bar Mleczny Miś",
+      "address": "Kuźnicza 48 · centro",
+      "description": "El bar de leche clásico de Wrocław: pierogi, nalesniki y sopas a precio de estudiante.",
+      "strength": "Referencia local con décadas de historia; Maps: 4,4 · unas 7.200 reseñas.",
+      "caution": "Servicio de mostrador; cierra pronto por la tarde. Confirmar horario en Maps.",
+      "officialUrl": "https://www.google.com/maps/search/?api=1&query=Bar+mleczny+Mi%C5%9B&query_place_id=ChIJlS7WaN_pD0cRtwFL3YT9SX4",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar+mleczny+Mi%C5%9B&query_place_id=ChIJlS7WaN_pD0cRtwFL3YT9SX4",
+      "editorialUrl": "https://wroclawturysta.pl/en/wroclaw-milk-bars/",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: ficha activa 29/10/2026",
+      "status": "maps-listed-active",
+      "priceLabel": "Precio bajo · consultar carta",
+      "photo": {
+        "id": "pierogi-cooked",
+        "img": "assets/enrichment/pierogi-cooked.jpg",
+        "source": "https://www.pexels.com/photo/cooked-pierogi-on-ceramic-plate-8601675/",
+        "author": "Polina Tankilevitch",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa del plato · no del local"
+      }
+    },
+    {
+      "id": "karmazyn",
+      "name": "Karmazyn · Hala Targowa",
+      "address": "Piaskowa 17 · mercado Hala Targowa",
+      "description": "Bar de leche dentro del mercado de 1908: comer entre puestos y compras del día.",
+      "strength": "Mercado histórico junto al río; Maps: 4,5 · unas 340 reseñas en el puesto.",
+      "caution": "Horario ligado al mercado (cierra a última hora de la tarde y domingos limitado). Confirmar en Maps.",
+      "officialUrl": "https://www.google.com/maps/search/?api=1&query=Karmazyn&query_place_id=ChIJm8a88djpD0cRZDHVQOBXEVc",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Karmazyn&query_place_id=ChIJm8a88djpD0cRZDHVQOBXEVc",
+      "editorialUrl": "https://wroclawturysta.pl/en/wroclaw-milk-bars/",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: ficha activa 29/10/2026",
+      "status": "maps-listed-active",
+      "priceLabel": "Precio bajo · consultar carta",
+      "photo": {
+        "id": "potatoes",
+        "img": "assets/enrichment/potatoes.jpg",
+        "source": "https://www.pexels.com/photo/potato-pancakes-served-on-plate-24870672/",
+        "author": "Kadir Avşar",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa · no del local ni de su carta"
+      }
     }
   ],
   "activities": [
@@ -64,7 +112,7 @@
   ],
   "schemaVersion": 1,
   "cityId": "wroclaw",
-  "reviewedAt": "2026-10-28",
+  "reviewedAt": "2026-10-29",
   "scope": "Primera muestra editorial, no catálogo exhaustivo. Revisión puntual, no vigilancia en tiempo real.",
-  "catalogRevision": "2026-10-28-editorial-pass2"
+  "catalogRevision": "2026-10-29-editorial-pass3"
 }

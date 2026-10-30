@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "cityId": "genoa",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "genovese",
+      "name": "Il Genovese · el pesto como motivo",
+      "address": "Via Galata, 35r, 16121 Genova GE, Italy",
+      "description": "Una mesa de cocina ligur en Via Galata, para sentarse a comer después de varios bocados al paso.",
+      "strength": "Trofie de harina de castaña al pesto, pansoti con nueces y panissette; Gambero Rosso respalda esta cocina tradicional.",
+      "caution": "Lun-sáb 12-14:30 y 19-22:30, domingo cerrado. Web oficial sin precios actuales; carta de Chic encontrada pero no vinculada desde la oficial en esta revisión, no tratar sus cifras como tarifa confirmada. Pesto y pansoti llevan lácteos/frutos secos; no inferir opción vegana ni aptitud alérgica. Reservar y confirmar total. Foto de pasta ajena.",
+      "alert": "Lun-sáb 12-14:30 y 19-22:30, domingo cerrado. Web oficial sin precios actuales; carta de Chic encontrada pero no vinculada desde la oficial en esta revisión, no tratar sus cifras como tarifa confirmada. Pesto y pansoti llevan lácteos/frutos secos; no inferir opción vegana ni aptitud alérgica. Reservar y confirmar total. Foto de pasta ajena.",
+      "priceLabel": "Mesa ligur · carta actual por confirmar",
+      "photo": {
+        "img": "assets/genoa/genovese.jpg",
+        "source": "https://www.flickr.com/photos/pelican/9828569174/",
+        "author": "pelican",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Pasta al pesto ilustrativa de otra cocina, no el local ni su plato actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.ilgenovese.com/il-nostro-menu/",
+      "sourceUrls": [
+        "https://www.gamberorosso.it/ristoranti/pasta-pesto-genova-ristoranti/",
+        "https://www.ilgenovese.com/il-nostro-menu/",
+        "https://www.ilgenovese.com/come-raggiungerci/"
+      ],
+      "sourceIds": [
+        "critic",
+        "genovese",
+        "genovesecontact"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Il+Genovese&query_place_id=ChIJhX8CxMFD0xIR2FWOv-eljEo",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Web de sede y Maps contrastados; no reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "sapesta",
+      "name": "Sa Pesta · horno y farinata",
+      "address": "Via dei Giustiniani, 16r, 16123 Genova GE, Italy",
+      "description": "Una sciamadda histórica en los caruggi para comer de forma sencilla, distinta de una cena larga.",
+      "strength": "Farinata de garbanzo y tortas de verduras; la carta también incluye anchoas y otras preparaciones, no menú enteramente vegetal.",
+      "caution": "Oficial: lun-sáb 12-15; pie de página cena jue-sáb 19-22. Menú dice sin reserva pero contacto invita a reservar: preferir comida sin reserva y confirmar cena/política directamente. Precio 10€ aparece como testimonio, no carta actual: no prometer menú 10€. Preguntar ingredientes de tortas y contaminación cruzada. Foto farinata ajena.",
+      "alert": "Oficial: lun-sáb 12-15; pie de página cena jue-sáb 19-22. Menú dice sin reserva pero contacto invita a reservar: preferir comida sin reserva y confirmar cena/política directamente. Precio 10€ aparece como testimonio, no carta actual: no prometer menú 10€. Preguntar ingredientes de tortas y contaminación cruzada. Foto farinata ajena.",
+      "priceLabel": "Horno tradicional · precio por confirmar",
+      "photo": {
+        "img": "assets/genoa/sapesta.jpg",
+        "source": "https://www.flickr.com/photos/41099823@N00/2869187069/",
+        "author": "ho visto nina volare",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Farinata ilustrativa de otra cocina, no el local ni su plato actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.anticasapesta.com/",
+      "sourceUrls": [
+        "https://www.liguria.info/en/genoa/where-to-eat-genoa/",
+        "https://genovabb.it/en/genoa-guide/where-to-eat/",
+        "https://www.anticasapesta.com/",
+        "https://www.anticasapesta.com/menu/"
+      ],
+      "sourceIds": [
+        "foodguide",
+        "foodguide2",
+        "sapesta",
+        "sapestamenu"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=S%C3%A0+Pesta&query_place_id=ChIJhSuBA95D0xIRRmLGs3qMrSo",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Web de sede y Maps contrastados; no reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "mario",
+      "name": "Panificio Mario · focaccia para el camino",
+      "address": "Via San Vincenzo 61r, Genova",
+      "description": "Panadería en San Vincenzo cerca de Brignole, para desayuno o bocado antes de ir hacia Foce, no otra comida sentada.",
+      "strength": "Focaccia clásica o de cebolla; la web presenta variantes de salvia, aceitunas y otras según hornada.",
+      "caution": "Sede oficial San Vincenzo 61r; Maps sitúa 59: mismo tramo de calle, seguir rótulo del local. No horario ni precio actual publicados en página extraída: confirmar antes de desviar y pagar por peso según mostrador, no precio inventado por porción. NO fabrica productos artesanos para celíacos, solo vende algunos envasados. Foto focaccia ajena.",
+      "alert": "Sede oficial San Vincenzo 61r; Maps sitúa 59: mismo tramo de calle, seguir rótulo del local. No horario ni precio actual publicados en página extraída: confirmar antes de desviar y pagar por peso según mostrador, no precio inventado por porción. NO fabrica productos artesanos para celíacos, solo vende algunos envasados. Foto focaccia ajena.",
+      "priceLabel": "Panadería · precio de mostrador",
+      "photo": {
+        "img": "assets/genoa/mario.jpg",
+        "source": "https://www.flickr.com/photos/matte4president/6310670780/",
+        "author": "Matteo Paciotti",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Focaccia ilustrativa de otra cocina, no el local ni su plato actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.panificiomario.it/",
+      "sourceUrls": [
+        "https://www.liguria.info/en/genoa/where-to-eat-genoa/",
+        "https://www.panificiomario.it/"
+      ],
+      "sourceIds": [
+        "foodguide",
+        "mario"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Panificio+Mario&query_place_id=ChIJnaIYfepD0xIRBy-1kI498dM",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Web de sede y Maps contrastados; no reserva ni apertura futura garantizada."
+    }
+  ],
+  "activities": []
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "cityId": "athens",
+  "reviewedAt": "2026-10-29",
+  "scope": "Levantino con variantes vegetales, taberna de patio y lechería tradicional; no tres locales del mismo formato.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "feyrouz",
+      "name": "Feyrouz · Agathonos",
+      "address": "Αγάθωνος 1 και, Karori, Athina 105 51, Greece",
+      "description": "Comida levantina informal junto al triángulo comercial.",
+      "strength": "Lahmatzun, masa con verduras lahmanikon o zaatar; una alternativa a otra pita de carne.",
+      "caution": "Carta oficial confirma formatos y variantes vegetales. No asumir toda la carta vegana ni libre de alérgenos. Confirmar precios actuales al pedir. Contacto publica lun-jue 12-22 y vi-sáb 12-23, domingo no indicado: consultar apertura antes de ir.",
+      "alert": "Carta oficial confirma formatos y variantes vegetales, no asumir toda la carta vegana ni libre de alérgenos. PDF publicado accesible como texto, descarga directa 403; precios no legibles, confirmar al pedir. Web contacto lun-jue 12-22, vi-sáb 12-23, domingo no indicado; teléfono mostrado tiene prefijo distinto al de Atenas, no se reutiliza.",
+      "priceLabel": "Informal · precio por confirmar",
+      "photo": {
+        "img": "assets/athens/feyrouz.jpg",
+        "source": "https://www.flickr.com/photos/dominik/6171761657/",
+        "author": "Dominik Schwind",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Lahmacun ilustrativo de otro local, no Feyrouz ni su oferta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://feyrouz.gr/en/menu/",
+      "sourceUrls": [
+        "https://feyrouz.gr/en/menu/"
+      ],
+      "editorialUrl": "https://www.eater.com/maps/best-athens-greece-restaurants",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Feyrouz&query_place_id=ChIJb8cKsjy9oRQRVIceKfoicHM",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Local y formato revisados en fuentes indicadas; no acredita horario futuro ni mesa."
+    },
+    {
+      "id": "avli",
+      "name": "Avli · Psyrri",
+      "address": "Ag. Dimitriou 12, Athina 105 54, Greece",
+      "description": "Taberna de patio pequeño escondida en Agiou Dimitriou 12.",
+      "strength": "Keftedakia, ensalada griega, saganaki y platos para compartir; una comida sentada.",
+      "caution": "Turismo y crítica junio 2025 confirman local/formato; no confundir con otros Avli de Atenas. Crítica dice sin reservas y martes cerrado, pero no hay carta/horario propio actualizado verificado: confirmar antes de ir. No prometer precio, disponibilidad ni platos todos los días. No se incluyen actuaciones.",
+      "alert": "Turismo y crítica junio 2025 confirman local/formato; no confundir con otros Avli de Atenas. Crítica dice sin reservas y martes cerrado, pero no hay carta/horario propio actualizado verificado: confirmar antes de ir. No prometer precio, disponibilidad ni platos todos los días. No se incluyen actuaciones.",
+      "priceLabel": "Taberna para compartir · confirmar carta",
+      "photo": {
+        "img": "assets/athens/avli.jpg",
+        "source": "https://www.flickr.com/photos/stuart_spivack/179089871/",
+        "author": "stu_spivack",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Keftedes de calabacín ilustrativos de otro local, no Avli ni su plato actual. Recorte de presentación."
+      },
+      "officialUrl": null,
+      "sourceUrls": [
+        "https://www.thisisathens.org/restaurants/avli-psirri"
+      ],
+      "editorialUrl": "https://thecitylane.com/avli-psirri/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Avli+Taverne&query_place_id=ChIJc99TmCS9oRQR2pw94VIs2tw",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Local y formato revisados en fuentes indicadas; no acredita horario futuro ni mesa."
+    },
+    {
+      "id": "stani",
+      "name": "Stani · lechería tradicional",
+      "address": "Marikas Kotopouli 10, Athina 104 32, Greece",
+      "description": "Pausa de desayuno o merienda cerca de Omonia, al norte del mercado.",
+      "strength": "Yogur de oveja con miel y nueces, arroz con leche o bougatsa según vitrina.",
+      "caution": "Productos y dirección confirmados en web propia y turismo. No se verifican precio/horarios actuales: consultar antes de desviarse. Lácteos, frutos secos y gluten según pieza; no asumir vegano. No hace falta añadir otra comida completa.",
+      "alert": "Productos y dirección confirmados en web propia y turismo. No se verifican precio/horarios actuales: consultar antes de desviarse. Lácteos, frutos secos y gluten según pieza; no asumir vegano. No hace falta añadir otra comida completa.",
+      "priceLabel": "Café, yogur o pieza dulce · consultar precio",
+      "photo": {
+        "img": "assets/athens/stani.jpg",
+        "source": "https://www.flickr.com/photos/philipmallis/53305406947/",
+        "author": "Philip Mallis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Bougatsa ilustrativa de otro establecimiento de Atenas, no Stani ni su oferta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://stani1931.gr/en_products.html",
+      "sourceUrls": [
+        "https://stani1931.gr/en_products.html"
+      ],
+      "editorialUrl": "https://www.thisisathens.org/cafes-bakeries/stani",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Stani&query_place_id=ChIJve59JjC9oRQRH5_fC0yS_xk",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Local y formato revisados en fuentes indicadas; no acredita horario futuro ni mesa."
+    }
+  ],
+  "activities": []
+}

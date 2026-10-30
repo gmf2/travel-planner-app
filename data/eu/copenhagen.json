@@ -1,0 +1,1187 @@
+{
+  "schemaVersion": 1,
+  "country": "DK",
+  "id": "copenhagen",
+  "name": "Copenhague",
+  "localName": "København",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días urbanos sin fecha, reservas o gasto. Selección por barrios con un museo largo al día y subidas opcionales.",
+  "stops": [
+    {
+      "id": "nyhavn",
+      "name": "Nyhavn · puerto histórico",
+      "kind": "visit",
+      "zone": "Centro / Nyhavn",
+      "reason": "Canal y fachadas al empezar, antes de continuar por la ribera hacia los palacios.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 55.679776,
+        "lon": 12.5913041
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Nyhavn&query_place_id=ChIJr21nqiJTUkYR6-rlKAmgwpk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "No incluye crucero ni bebida. Puestos, terrazas y embarcaderos tienen horarios propios; respetar borde del agua y pasos ciclistas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/nyhavn.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/28435382407/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; barco no incluido"
+    },
+    {
+      "id": "amalienborg",
+      "name": "Amalienborg · plaza de palacios",
+      "kind": "visit",
+      "zone": "Frederiksstaden",
+      "reason": "Conjunto de palacios y plaza real, sin convertir cada edificio en otro museo.",
+      "sourceIds": [
+        "guide2",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 55.6842689,
+        "lon": 12.5927992
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Amalienborg+Slotsplads&query_place_id=ChIJuyLJNyJTUkYR2eHJe0FH1bQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Cambio de guardia no garantizado por esta ruta; consultar ceremonial del día. Museo Amalienborg no incluido ni permiso para entrar en palacios residenciales.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/amalienborg.jpg",
+        "source": "https://www.flickr.com/photos/archer10/3990546376/",
+        "author": "Dennis Jarvis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior; museo aparte"
+    },
+    {
+      "id": "design",
+      "name": "Designmuseum Danmark",
+      "kind": "visit",
+      "zone": "Frederiksstaden / Bredgade",
+      "reason": "La visita larga del día: diseño danés, objetos y salas con tiempo para mirar.",
+      "sourceIds": [
+        "design",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 55.6864299,
+        "lon": 12.5936135
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Designmuseum+Danmark&query_place_id=ChIJMTzE6yFTUkYR90_sHEhzRqc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 140 DKK; mar-dom 10-18, jueves 10-20, lunes cerrado ordinariamente. Venta cierra 1 h antes, exposiciones 30 min antes. La web lista 24/25/26/31 dic y 1 ene 2027 bajo “cierres” pero imprime horas: contradicción, confirmar con museo antes de plan navideño. No prometer esas fechas abiertas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/design.jpg",
+        "source": "https://www.flickr.com/photos/129231073@N06/30964561516/",
+        "author": "Fred Romero",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Salas reales del Designmuseum, foto de archivo: no exposición actual garantizada. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago; exposición de fecha"
+    },
+    {
+      "id": "kastellet",
+      "name": "Kastellet · fortaleza y caminos",
+      "kind": "visit",
+      "zone": "Langelinie / Kastellet",
+      "reason": "Recorrido por caminos públicos y bastiones, para acabar con aire libre sin otro interior.",
+      "sourceIds": [
+        "kastellet",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 55.691376,
+        "lon": 12.594301
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Kastellet&query_place_id=ChIJecok-N9SUkYRM2v7tTvxyPg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Gratis 06-22 semestre verano/06-20 invierno según Defensa; seguir señales y guardia. No pisar césped ni sentarse cañones; sin bicis/patinetes en bastiones. No acceso a edificios militares, cantina o áreas restringidas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/kastellet.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/30267894218/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Recinto militar con acceso público limitado"
+    },
+    {
+      "id": "rosenborg",
+      "name": "Castillo de Rosenborg",
+      "kind": "visit",
+      "zone": "Centro norte / Rosenborg",
+      "reason": "Castillo y tesoro real como visita principal de la mañana, sin sumar otro palacio.",
+      "sourceIds": [
+        "rosenborg",
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 55.6858274,
+        "lon": 12.5772687
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Rosenborg+Castle&query_place_id=ChIJHVOeQhtTUkYRPBsoRTOcNVI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 110,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 140 DKK online/150 puerta; confirmar total y franja. Calendario 2026 general 10-17; 2 nov-23 dic mar-dom 10-16, lunes cerrado. 24/25 dic cerrado, 31 dic 10-14, 1 ene 2027 11-16 publicados: confirmar semana real, no extrapolar a todos los años. Jardín aparte, no cierra por cerrar castillo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/rosenborg.jpg",
+        "source": "https://www.flickr.com/photos/pjposullivan/29288614960/",
+        "author": "Pjposullivan1",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Castillo de pago; entrada de fecha"
+    },
+    {
+      "id": "garden",
+      "name": "Kongens Have · Jardín del Rey",
+      "kind": "visit",
+      "zone": "Centro norte / Rosenborg",
+      "reason": "Alamedas y jardín de Rosenborg después del interior, con pausa sin nueva cola.",
+      "sourceIds": [
+        "garden",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 55.6852905,
+        "lon": 12.5798452
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=The+King%27s+Garden&query_place_id=ChIJHVOeQhtTUkYRaKzp1xE05Q0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Acceso público del jardín separado de la entrada al castillo. Seguir puertas y avisos del día; no usar noticia temporal 2020 como horario vigente ni prometer césped florido todo el año.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/garden.jpg",
+        "source": "https://www.flickr.com/photos/petr-kadlec/9396702276/",
+        "author": "Petr Kadlec",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Parque público; puertas según temporada"
+    },
+    {
+      "id": "market",
+      "name": "Torvehallerne · mercado",
+      "kind": "visit",
+      "zone": "Nørreport / Torvehallerne",
+      "reason": "Almuerzo y puestos bajo cubierta antes de volver al casco antiguo.",
+      "sourceIds": [
+        "hallernes",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 55.6837848,
+        "lon": 12.568928
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=TorvehallerneKBH&query_place_id=ChIJGzGFEgVTUkYRO2LpXOPtdHM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Cada puesto manda sobre cocina y cierre. Hallernes publica 10-19 lun-vie, 10-18 fin de semana, festivos 11-17, no significa todos los puestos iguales. No mesa garantizada ni reserva de asiento.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/market.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/44104884842/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mercado; comida y compras aparte"
+    },
+    {
+      "id": "round",
+      "name": "Rundetårn · Torre Redonda",
+      "kind": "visit",
+      "zone": "Centro / barrio latino",
+      "reason": "Rampa histórica y vista del centro; subida más corta que la aguja exterior de Christianshavn.",
+      "sourceIds": [
+        "round",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 55.681347,
+        "lon": 12.57573
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=The+Round+Tower&query_place_id=ChIJoZv7gxBTUkYRN6Q-o22fOuc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 60 DKK, no 40 de guía 2025. Entrada ordinaria no se compra anticipada; NO incluida Copenhagen Card. Oct-mar lun/mar 10-21, mié-dom 10-18; abr-sep diario 10-20. Rampa y escalera estrecha final, sin ascensor, aforo limita venta. Observación astronómica sólo lun/mar 18-21 oct-mar según tiempo, no garantía.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/round.jpg",
+        "source": "https://www.flickr.com/photos/veritatem/6495514707/",
+        "author": "Heidi De Vries",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Torre de pago; sin ascensor"
+    },
+    {
+      "id": "latin",
+      "name": "Gråbrødretorv y barrio latino",
+      "kind": "visit",
+      "zone": "Centro / barrio latino",
+      "reason": "Plaza colorida y calles para terminar el casco antiguo sin una segunda visita larga.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 55.6797519,
+        "lon": 12.5759959
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Gr%C3%A5br%C3%B8dretorv&query_place_id=ChIJgVPI8xBTUkYRNvZ9xlfINFU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "No garantiza comercios abiertos, actuaciones o mercados navideños. Strøget puede alargar el paseo si apetece, no otra obligación ni regreso otro día al mismo sector.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/latin.jpg",
+        "source": "https://www.flickr.com/photos/bruchez/26598572000/",
+        "author": "Olivier Bruchez",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "slot",
+      "name": "Christiansborg · Slotsholmen",
+      "kind": "visit",
+      "zone": "Slotsholmen",
+      "reason": "Plaza, puentes y exterior de la sede parlamentaria antes de cruzar al barrio de canales.",
+      "sourceIds": [
+        "guide2",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 55.6769062,
+        "lon": 12.5811351
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Christiansborg+Slotsplads&query_place_id=ChIJ4RNe7RZTUkYRWZCkR6BzN4Y",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "No incluye salones, ruinas, establos ni Parlamento. Torre accesos y cierres propios; no ofrecer subida gratis sin verificar disponibilidad de fecha ni sustituir por ella una reserva inexistente.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/slot.jpg",
+        "source": "https://www.flickr.com/photos/travelingotter/14008829713/",
+        "author": "TravelingOtter",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior; salones y torre aparte"
+    },
+    {
+      "id": "diamond",
+      "name": "Black Diamond · Biblioteca Real",
+      "kind": "visit",
+      "zone": "Slotsholmen / ribera",
+      "reason": "Arquitectura contemporánea y zonas públicas de la biblioteca junto al agua.",
+      "sourceIds": [
+        "diamond"
+      ],
+      "coordinates": {
+        "lat": 55.6733994,
+        "lon": 12.5826588
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Det+Kgl.+Bibliotek%2C+The+Royal+Library&query_place_id=ChIJ36KzuxVTUkYRDDCgC3HCTGw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "Visita general gratuita; salas lectura, exposiciones y eventos condiciones distintas. Semana 26 oct-1 nov 2026 web: lun-vie 8-20, sáb 9-18, dom 10-16; referencia fechada, no horario perpetuo. Silencio y normas de estudio; no prometer acceso a salas privadas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/diamond.jpg",
+        "source": "https://www.flickr.com/photos/nh53/41534133230/",
+        "author": "Nigel Hoult",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Exterior y áreas públicas según apertura"
+    },
+    {
+      "id": "canal",
+      "name": "Christianshavn · canales",
+      "kind": "visit",
+      "zone": "Christianshavn",
+      "reason": "Paseo por calles, muelles y barcos amarrados del barrio, con comida o café sin prisa.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 55.6755541,
+        "lon": 12.5926294
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Christianshavns+Kanal&query_place_id=ChIJa_IbEzxTUkYRfXWaqr5zJqk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 80,
+      "durationType": "editorial-estimate",
+      "caution": "No incluye alquiler/barco, sauna ni baño en canal. No entrar en barcos o casas privadas; seguir señales en muelles y carriles bici.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/canal.jpg",
+        "source": "https://www.flickr.com/photos/184898381@N07/51884483000/",
+        "author": "Jens Cederskjold",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio y canales desde tierra"
+    },
+    {
+      "id": "church",
+      "name": "Vor Frelsers Kirke · iglesia y aguja",
+      "kind": "visit",
+      "zone": "Christianshavn",
+      "reason": "Exterior de la iglesia; la subida en espiral es opcional si tiempo, aforo y movilidad encajan.",
+      "sourceIds": [
+        "church",
+        "churchwork",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 55.6729387,
+        "lon": 12.5942102
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Church+of+Our+Saviour&query_place_id=ChIJye06RjlTUkYRK7RPt-oBGME",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Torre 70 DKK 2026, 400 escalones, 150 exteriores a 86 m, franja recomendable; no accesible sin escaleras. Enero cerrado, 24/25 dic cerrado; lluvia/nieve/viento pueden cerrar. Iglesia web dice 11-15:30, ceremonias alteran. Restauración verano 2026-final 2028 con andamios entrada, no cierre general. Añadir 60-75 min sólo si se elige torre.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/church.jpg",
+        "source": "https://www.flickr.com/photos/blondinrikard/20302087774/",
+        "author": "Blondinrikard Fröberg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Torre e iglesia reales antes de la restauración 2026-2028; fachada actual puede tener andamios. Recorte de presentación."
+      },
+      "visitMode": "Exterior; torre opcional de pago"
+    },
+    {
+      "id": "christiania",
+      "name": "Christiania · espacios públicos",
+      "kind": "visit",
+      "zone": "Christianshavn / Christiania",
+      "reason": "Paseo respetuoso por entrada, arte público y calles permitidas de una comunidad residencial.",
+      "sourceIds": [
+        "christiania",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 55.67341200000001,
+        "lon": 12.5964061
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Freetown+Christiania&query_place_id=ChIJpz3tBzlTUkYRuSiVCeI9GK4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Leer señales, pedir permiso para fotos, no fotografiar personas/casas privadas sin consentimiento. El mercado abierto de Pusher Street cerró 2024; no buscar drogas ni asumir acceso a interiores, conciertos o recorridos. Si zona se restringe, cambiar por paseo de canales, no forzar entrada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/copenhagen/christiania.jpg",
+        "source": "https://www.flickr.com/photos/mikecogh/54146595992/",
+        "author": "Michael Coghlan",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Entrada de Christiania, archivo; no autoriza fotografiar residentes o interiores. Recorte de presentación."
+      },
+      "visitMode": "Barrio residencial; acceso y normas locales"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Puerto, palacios y diseño danés",
+          "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+          "stopIds": [
+            "nyhavn",
+            "amalienborg",
+            "design",
+            "kastellet"
+          ],
+          "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Puerto, palacios y diseño danés",
+          "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+          "stopIds": [
+            "nyhavn",
+            "amalienborg",
+            "design",
+            "kastellet"
+          ],
+          "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+        },
+        {
+          "title": "Rosenborg y el casco antiguo",
+          "zone": "Rosenborg → Kongens Have → Torvehallerne → Rundetårn → Gråbrødretorv",
+          "stopIds": [
+            "rosenborg",
+            "garden",
+            "market",
+            "round",
+            "latin"
+          ],
+          "editorialNote": "Castillo por la mañana, almuerzo de mercado y torre después. No sumar SMK ni otro palacio. Rosenborg cierra lunes en parte del invierno; parque no hereda cierre del museo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida y pausas. Maps enlaces 207 m/3 min, 860 m/11 min, 581 m/8 min, 255 m/3 min; orden evita volver otro día al mismo grupo. Rampa final puede tener cola, no reserva previa de Rundetårn."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Puerto, palacios y diseño danés",
+          "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+          "stopIds": [
+            "nyhavn",
+            "amalienborg",
+            "design",
+            "kastellet"
+          ],
+          "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+        },
+        {
+          "title": "Rosenborg y el casco antiguo",
+          "zone": "Rosenborg → Kongens Have → Torvehallerne → Rundetårn → Gråbrødretorv",
+          "stopIds": [
+            "rosenborg",
+            "garden",
+            "market",
+            "round",
+            "latin"
+          ],
+          "editorialNote": "Castillo por la mañana, almuerzo de mercado y torre después. No sumar SMK ni otro palacio. Rosenborg cierra lunes en parte del invierno; parque no hereda cierre del museo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida y pausas. Maps enlaces 207 m/3 min, 860 m/11 min, 581 m/8 min, 255 m/3 min; orden evita volver otro día al mismo grupo. Rampa final puede tener cola, no reserva previa de Rundetårn."
+        },
+        {
+          "title": "Slotsholmen y los canales de Christianshavn",
+          "zone": "Christiansborg → Black Diamond → canales → Vor Frelsers → Christiania",
+          "stopIds": [
+            "slot",
+            "diamond",
+            "canal",
+            "church",
+            "christiania"
+          ],
+          "editorialNote": "Palacio sólo exterior, library zonas públicas y barrio a pie. Torre iglesia opcional, no segunda subida obligatoria tras Rundetårn. Refshaleøen/Reffen no se añaden como si estuviesen al lado ni abiertos todo el año.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y paseos; Maps 531 m/7 min, 978 m/14 min, 430 m/5 min, 232 m/3 min, sin contar interior/barrio. Si se sube torre, añadir 60-75 min y recortar paseo. Hart Holmen 784 m/10 min desde punto canal, desvío, no sobre ruta automática."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Días largos no equivalen a energía ilimitada. Agua y pausas, seguir carriles bici. No meter Refshaleøen, Reffen y Tivoli después de dos museos.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Viento y lluvia en puerto/bastiones; Rosenborg 2 nov-23 dic cierra lunes y 16 h. Aguja de Vor Frelsers cerrada en enero, exterior no implica subir. Reordenar según fecha.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Tivoli 2026 temporada 13 nov-3 ene 2027; no parque permanente. Entrada no incluye atracciones, precio por fecha por verificar. Designmuseum fiestas lista cierres con horas contradictorias: confirmar. Rosenborg 24/25 dic cerrado.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Tivoli Halloween 2026 del 2 oct-1 nov, se cierra entre temporadas. Lluvia/viento puede cerrar aguja. No usar viejos avisos de obra de Rundetårn como cierre actual continuo.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Ninguna entrada, mesa o actividad reservada. Importes en coronas danesas, no euros.",
+    "Rundetårn 60 DKK y no Copenhagen Card, entrada ordinaria sin preventa; guía 2025 de 40 DKK obsoleta.",
+    "Tivoli es visita opcional de otra duración, no añadido obligatorio: calendario y precio de fecha antes de elegir, entrada simple no atracciones.",
+    "Copenhagen Card no compra automática: comparar visitas efectivamente elegidas, evitar pagar por incluir museos que no se visitarán."
+  ],
+  "excludedOrOptional": [
+    "Tivoli sustituye una tarde completa según temporada, no se apila automáticamente al final de cada día.",
+    "Refshaleøen, Reffen, CopenHill y Louisiana requieren otro ritmo o día, no relleno de una tarde tras estas rutas.",
+    "Nørrebro/Vesterbro son alternativas de barrio si se renuncia a un día central, no salto de punta a punta presentado como paseo corto."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "VisitCopenhagen: tres días, agosto 2026",
+      "url": "https://www.visitcopenhagen.com/copenhagen/planning/3-day-copenhagen-itinerary",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "guide2",
+      "title": "Danny Maiorca: itinerario local, mayo 2025",
+      "url": "https://danny-cph.com/copenhagen-3-day-itinerary/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "design",
+      "title": "Designmuseum: horarios y entradas",
+      "url": "https://designmuseum.dk/en/besog-os/opening-hours-admission-2/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "rosenborg",
+      "title": "Colección Real: Rosenborg 2026",
+      "url": "https://denkongeligesamling.dk/rosenborg-slot/planlaeg-dit-besoeg/aabningstider-og-billetpriser/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "garden",
+      "title": "Cultura: Kongens Have",
+      "url": "https://slks.dk/omraader/slotte-og-ejendomme/slotte-og-anlaeg/rosenborg-slot-og-kongens-have",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "round",
+      "title": "Rundetårn: entradas y horarios",
+      "url": "https://www.rundetaarn.dk/en/tickets/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "kastellet",
+      "title": "Defensa: reglas Kastellet",
+      "url": "https://www.forsvaret.dk/da/side/kastellet/ordensregler/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "church",
+      "title": "Iglesia: torre 2026",
+      "url": "https://www.vorfrelserskirke.dk/taarn/tower/booking",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "churchwork",
+      "title": "Iglesia: restauración 2026-2028",
+      "url": "https://www.vorfrelserskirke.dk/taarn/tarnet/abningstider-booking-og-priser",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "diamond",
+      "title": "Biblioteca Real: Black Diamond",
+      "url": "https://www.kb.dk/en/visit-us/black-diamond-copenhagen",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "christiania",
+      "title": "Turismo: normas Christiania",
+      "url": "https://www.visitcopenhagen.com/copenhagen/areas/neighborhoods/area-guide-christiania",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "tivoli",
+      "title": "Tivoli: temporadas",
+      "url": "https://www.tivoli.dk/en/opening-hours-and-seasons",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "hallernes",
+      "title": "Hallernes: Torvehallerne",
+      "url": "https://www.hallernes.dk/en/torvehallerne-2/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "hallernesmenu",
+      "title": "Hallernes: carta danesa",
+      "url": "https://www.hallernes.dk/faste-smorrebrod/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "hallernesmenuen",
+      "title": "Hallernes: carta inglesa discrepante",
+      "url": "https://www.hallernes.dk/en/standard-smorrebrod/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "foodguide",
+      "title": "BBC: smørrebrød, Laura Hall 2023",
+      "url": "https://www.bbc.com/travel/article/20231026-eight-of-the-best-smorrebrod-restaurants-in-copenhagen",
+      "type": "editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "dop",
+      "title": "DØP: concepto y puestos",
+      "url": "http://www.xn--dp-lka.dk/en/AboutDOP.aspx",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "dopmenu",
+      "title": "DØP: carta",
+      "url": "http://www.xn--dp-lka.dk/Menu.aspx",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "dopguide",
+      "title": "Guía local: comida",
+      "url": "https://copenhagenfreewalkingtours.dk/GuideRecommendations/laura-recommendations",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "hart",
+      "title": "Hart: sedes, contenido parcial",
+      "url": "https://hartbageri.com/locations/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "hartmenu",
+      "title": "Hart: catálogo web",
+      "url": "https://hartbageri.com/ajax/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "hartguide",
+      "title": "Turismo: Hart Holmen",
+      "url": "https://www.visitcopenhagen.com/copenhagen/planning/hart-holmen-gdk1122179",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "hartreview",
+      "title": "Eater: Hart Holmen 2024",
+      "url": "https://www.eater.com/venue/96324/hart-bageri-holmen",
+      "type": "editorial",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Puerto, palacios y diseño danés",
+            "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+            "stopIds": [
+              "nyhavn",
+              "amalienborg",
+              "design",
+              "kastellet"
+            ],
+            "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Puerto, palacios y diseño danés",
+            "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+            "stopIds": [
+              "nyhavn",
+              "amalienborg",
+              "design",
+              "kastellet"
+            ],
+            "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+          },
+          {
+            "title": "Rosenborg y el casco antiguo",
+            "zone": "Rosenborg → Kongens Have → Torvehallerne → Rundetårn → Gråbrødretorv",
+            "stopIds": [
+              "rosenborg",
+              "garden",
+              "market",
+              "round",
+              "latin"
+            ],
+            "editorialNote": "Castillo por la mañana, almuerzo de mercado y torre después. No sumar SMK ni otro palacio. Rosenborg cierra lunes en parte del invierno; parque no hereda cierre del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps enlaces 207 m/3 min, 860 m/11 min, 581 m/8 min, 255 m/3 min; orden evita volver otro día al mismo grupo. Rampa final puede tener cola, no reserva previa de Rundetårn."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Puerto, palacios y diseño danés",
+            "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+            "stopIds": [
+              "nyhavn",
+              "amalienborg",
+              "design",
+              "kastellet"
+            ],
+            "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+          },
+          {
+            "title": "Rosenborg y el casco antiguo",
+            "zone": "Rosenborg → Kongens Have → Torvehallerne → Rundetårn → Gråbrødretorv",
+            "stopIds": [
+              "rosenborg",
+              "garden",
+              "market",
+              "round",
+              "latin"
+            ],
+            "editorialNote": "Castillo por la mañana, almuerzo de mercado y torre después. No sumar SMK ni otro palacio. Rosenborg cierra lunes en parte del invierno; parque no hereda cierre del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps enlaces 207 m/3 min, 860 m/11 min, 581 m/8 min, 255 m/3 min; orden evita volver otro día al mismo grupo. Rampa final puede tener cola, no reserva previa de Rundetårn."
+          },
+          {
+            "title": "Slotsholmen y los canales de Christianshavn",
+            "zone": "Christiansborg → Black Diamond → canales → Vor Frelsers → Christiania",
+            "stopIds": [
+              "slot",
+              "diamond",
+              "canal",
+              "church",
+              "christiania"
+            ],
+            "editorialNote": "Palacio sólo exterior, library zonas públicas y barrio a pie. Torre iglesia opcional, no segunda subida obligatoria tras Rundetårn. Refshaleøen/Reffen no se añaden como si estuviesen al lado ni abiertos todo el año.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y paseos; Maps 531 m/7 min, 978 m/14 min, 430 m/5 min, 232 m/3 min, sin contar interior/barrio. Si se sube torre, añadir 60-75 min y recortar paseo. Hart Holmen 784 m/10 min desde punto canal, desvío, no sobre ruta automática."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Puerto, palacios y diseño danés",
+            "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+            "stopIds": [
+              "nyhavn",
+              "amalienborg",
+              "design",
+              "kastellet"
+            ],
+            "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Puerto, palacios y diseño danés",
+            "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+            "stopIds": [
+              "nyhavn",
+              "amalienborg",
+              "design",
+              "kastellet"
+            ],
+            "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+          },
+          {
+            "title": "Rosenborg y el casco antiguo",
+            "zone": "Rosenborg → Kongens Have → Torvehallerne → Rundetårn → Gråbrødretorv",
+            "stopIds": [
+              "rosenborg",
+              "garden",
+              "market",
+              "round",
+              "latin"
+            ],
+            "editorialNote": "Castillo por la mañana, almuerzo de mercado y torre después. No sumar SMK ni otro palacio. Rosenborg cierra lunes en parte del invierno; parque no hereda cierre del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps enlaces 207 m/3 min, 860 m/11 min, 581 m/8 min, 255 m/3 min; orden evita volver otro día al mismo grupo. Rampa final puede tener cola, no reserva previa de Rundetårn."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Puerto, palacios y diseño danés",
+            "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+            "stopIds": [
+              "nyhavn",
+              "amalienborg",
+              "design",
+              "kastellet"
+            ],
+            "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+          },
+          {
+            "title": "Rosenborg y el casco antiguo",
+            "zone": "Rosenborg → Kongens Have → Torvehallerne → Rundetårn → Gråbrødretorv",
+            "stopIds": [
+              "rosenborg",
+              "garden",
+              "market",
+              "round",
+              "latin"
+            ],
+            "editorialNote": "Castillo por la mañana, almuerzo de mercado y torre después. No sumar SMK ni otro palacio. Rosenborg cierra lunes en parte del invierno; parque no hereda cierre del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps enlaces 207 m/3 min, 860 m/11 min, 581 m/8 min, 255 m/3 min; orden evita volver otro día al mismo grupo. Rampa final puede tener cola, no reserva previa de Rundetårn."
+          },
+          {
+            "title": "Slotsholmen y los canales de Christianshavn",
+            "zone": "Christiansborg → Black Diamond → canales → Vor Frelsers → Christiania",
+            "stopIds": [
+              "slot",
+              "diamond",
+              "canal",
+              "church",
+              "christiania"
+            ],
+            "editorialNote": "Palacio sólo exterior, library zonas públicas y barrio a pie. Torre iglesia opcional, no segunda subida obligatoria tras Rundetårn. Refshaleøen/Reffen no se añaden como si estuviesen al lado ni abiertos todo el año.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y paseos; Maps 531 m/7 min, 978 m/14 min, 430 m/5 min, 232 m/3 min, sin contar interior/barrio. Si se sube torre, añadir 60-75 min y recortar paseo. Hart Holmen 784 m/10 min desde punto canal, desvío, no sobre ruta automática."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Puerto, palacios y diseño danés",
+            "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+            "stopIds": [
+              "nyhavn",
+              "amalienborg",
+              "design",
+              "kastellet"
+            ],
+            "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Puerto, palacios y diseño danés",
+            "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+            "stopIds": [
+              "nyhavn",
+              "amalienborg",
+              "design",
+              "kastellet"
+            ],
+            "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+          },
+          {
+            "title": "Rosenborg y el casco antiguo",
+            "zone": "Rosenborg → Kongens Have → Torvehallerne → Rundetårn → Gråbrødretorv",
+            "stopIds": [
+              "rosenborg",
+              "garden",
+              "market",
+              "round",
+              "latin"
+            ],
+            "editorialNote": "Castillo por la mañana, almuerzo de mercado y torre después. No sumar SMK ni otro palacio. Rosenborg cierra lunes en parte del invierno; parque no hereda cierre del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps enlaces 207 m/3 min, 860 m/11 min, 581 m/8 min, 255 m/3 min; orden evita volver otro día al mismo grupo. Rampa final puede tener cola, no reserva previa de Rundetårn."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Puerto, palacios y diseño danés",
+            "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+            "stopIds": [
+              "nyhavn",
+              "amalienborg",
+              "design",
+              "kastellet"
+            ],
+            "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+          },
+          {
+            "title": "Rosenborg y el casco antiguo",
+            "zone": "Rosenborg → Kongens Have → Torvehallerne → Rundetårn → Gråbrødretorv",
+            "stopIds": [
+              "rosenborg",
+              "garden",
+              "market",
+              "round",
+              "latin"
+            ],
+            "editorialNote": "Castillo por la mañana, almuerzo de mercado y torre después. No sumar SMK ni otro palacio. Rosenborg cierra lunes en parte del invierno; parque no hereda cierre del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps enlaces 207 m/3 min, 860 m/11 min, 581 m/8 min, 255 m/3 min; orden evita volver otro día al mismo grupo. Rampa final puede tener cola, no reserva previa de Rundetårn."
+          },
+          {
+            "title": "Slotsholmen y los canales de Christianshavn",
+            "zone": "Christiansborg → Black Diamond → canales → Vor Frelsers → Christiania",
+            "stopIds": [
+              "slot",
+              "diamond",
+              "canal",
+              "church",
+              "christiania"
+            ],
+            "editorialNote": "Palacio sólo exterior, library zonas públicas y barrio a pie. Torre iglesia opcional, no segunda subida obligatoria tras Rundetårn. Refshaleøen/Reffen no se añaden como si estuviesen al lado ni abiertos todo el año.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y paseos; Maps 531 m/7 min, 978 m/14 min, 430 m/5 min, 232 m/3 min, sin contar interior/barrio. Si se sube torre, añadir 60-75 min y recortar paseo. Hart Holmen 784 m/10 min desde punto canal, desvío, no sobre ruta automática."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Puerto, palacios y diseño danés",
+            "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+            "stopIds": [
+              "nyhavn",
+              "amalienborg",
+              "design",
+              "kastellet"
+            ],
+            "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Puerto, palacios y diseño danés",
+            "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+            "stopIds": [
+              "nyhavn",
+              "amalienborg",
+              "design",
+              "kastellet"
+            ],
+            "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+          },
+          {
+            "title": "Rosenborg y el casco antiguo",
+            "zone": "Rosenborg → Kongens Have → Torvehallerne → Rundetårn → Gråbrødretorv",
+            "stopIds": [
+              "rosenborg",
+              "garden",
+              "market",
+              "round",
+              "latin"
+            ],
+            "editorialNote": "Castillo por la mañana, almuerzo de mercado y torre después. No sumar SMK ni otro palacio. Rosenborg cierra lunes en parte del invierno; parque no hereda cierre del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps enlaces 207 m/3 min, 860 m/11 min, 581 m/8 min, 255 m/3 min; orden evita volver otro día al mismo grupo. Rampa final puede tener cola, no reserva previa de Rundetårn."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Puerto, palacios y diseño danés",
+            "zone": "Nyhavn → Amalienborg → Designmuseum → Kastellet",
+            "stopIds": [
+              "nyhavn",
+              "amalienborg",
+              "design",
+              "kastellet"
+            ],
+            "editorialNote": "Un solo interior largo: Designmuseum. Amalienborg exterior, no otra visita palaciega apilada. Reordenar lunes; Kastellet sujeto a puertas y uso militar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, pausas y control museo. Maps:642 m/8 min, 471 m/6 min, 557 m/7 min entre paradas; no incluye recorrido interno. La Sirenita no añade obligación ni otra vuelta al día siguiente."
+          },
+          {
+            "title": "Rosenborg y el casco antiguo",
+            "zone": "Rosenborg → Kongens Have → Torvehallerne → Rundetårn → Gråbrødretorv",
+            "stopIds": [
+              "rosenborg",
+              "garden",
+              "market",
+              "round",
+              "latin"
+            ],
+            "editorialNote": "Castillo por la mañana, almuerzo de mercado y torre después. No sumar SMK ni otro palacio. Rosenborg cierra lunes en parte del invierno; parque no hereda cierre del museo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps enlaces 207 m/3 min, 860 m/11 min, 581 m/8 min, 255 m/3 min; orden evita volver otro día al mismo grupo. Rampa final puede tener cola, no reserva previa de Rundetårn."
+          },
+          {
+            "title": "Slotsholmen y los canales de Christianshavn",
+            "zone": "Christiansborg → Black Diamond → canales → Vor Frelsers → Christiania",
+            "stopIds": [
+              "slot",
+              "diamond",
+              "canal",
+              "church",
+              "christiania"
+            ],
+            "editorialNote": "Palacio sólo exterior, library zonas públicas y barrio a pie. Torre iglesia opcional, no segunda subida obligatoria tras Rundetårn. Refshaleøen/Reffen no se añaden como si estuviesen al lado ni abiertos todo el año.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y paseos; Maps 531 m/7 min, 978 m/14 min, 430 m/5 min, 232 m/3 min, sin contar interior/barrio. Si se sube torre, añadir 60-75 min y recortar paseo. Hart Holmen 784 m/10 min desde punto canal, desvío, no sobre ruta automática."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [],
+  "editorialTradeoffs": [],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": ""
+}

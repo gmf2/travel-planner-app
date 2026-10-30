@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "cityId": "berlin",
+  "reviewedAt": "2026-10-29",
+  "scope": "Cuatro formatos: currywurst, fideos anchos, falafel sudanés y panadería; mercado integrado en ruta, sin actividad de pago de relleno.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "curry",
+      "name": "Curry 36 · Mehringdamm",
+      "address": "Mehringdamm 36, 10961 Berlin-Bezirk Friedrichshain-Kreuzberg, Germany",
+      "description": "Currywurst y patatas en formato de mostrador para una comida breve en Kreuzberg.",
+      "strength": "Una especialidad callejera local, no una comida larga ni una ruta obligatoria de salchichas.",
+      "caution": "Sucursal Mehringdamm 36; web publica diario 9-5 h de la madrugada siguiente. No confundir otras sucursales. Puede haber cola; pedir opción y alérgenos concretos, no asumir que todas las salchichas son iguales. Queda al oeste del bloque de Markthalle, no justo al lado.",
+      "alert": "Sucursal Mehringdamm 36; web publica diario 9-5 h de la madrugada siguiente. No confundir otras sucursales. Puede haber cola; pedir opción y alérgenos concretos, no asumir que todas las salchichas son iguales. Queda al oeste del bloque de Markthalle, no justo al lado.",
+      "officialUrl": "https://curry36.de/mehringdamm/",
+      "sourceUrls": [
+        "https://curry36.de/mehringdamm/"
+      ],
+      "editorialUrl": "https://www.the-berliner.com/food/the-best-currywurst-in-berlin",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Curry+36&query_place_id=ChIJyaf_HylQqEcRBNsfZFxr-IQ",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia, carta, guía editorial y sucursal Maps contrastadas. No confirma mesa ni apertura futura.",
+      "priceLabel": "Consultar carta actual · sin precio de reseñas antiguas",
+      "photo": {
+        "img": "assets/berlin/curry.jpg",
+        "source": "https://www.flickr.com/photos/gorriti/2839927440/",
+        "author": "Jesús Gorriti",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Currywurst ilustrativa de archivo; no confirma plato ni ración actual de Curry 36. Recorte de presentación."
+      }
+    },
+    {
+      "id": "wen",
+      "name": "Wen Cheng · Görlitzer",
+      "address": "Spreewaldpl. 5, 10999 Berlin, Germany",
+      "description": "Fideos anchos biang biang con aceite de chile para comer sentado cerca del parque.",
+      "strength": "La carta distingue biang biang más intensos y Wen Cheng más suaves; opciones de tofu o berenjena.",
+      "caution": "Sucursal Spreewaldplatz 5. Picante, cilantro, ajo y aceite forman parte del formato; consultar adaptación y alérgenos antes de elegir. La foto es un plato ilustrativo de otro restaurante en París, no de Wen Cheng. No se promete jardín abierto con mal tiempo.",
+      "alert": "Sucursal Spreewaldplatz 5. Picante, cilantro, ajo y aceite forman parte del formato; consultar adaptación y alérgenos antes de elegir. La foto es un plato ilustrativo de otro restaurante en París, no de Wen Cheng. No se promete jardín abierto con mal tiempo.",
+      "officialUrl": "https://www.wenchengnoodles.com/locations/berlin/goerlitzer",
+      "sourceUrls": [
+        "https://www.wenchengnoodles.com/locations/berlin/goerlitzer"
+      ],
+      "editorialUrl": "https://www.eater.com/maps/best-restaurants-berlin",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wen+Cheng+G%C3%B6rlitzer&query_place_id=ChIJoaQbXwBPqEcRzefq86tUa3s",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia, carta, guía editorial y sucursal Maps contrastadas. No confirma mesa ni apertura futura.",
+      "priceLabel": "Consultar carta actual · sin precio de reseñas antiguas",
+      "photo": {
+        "img": "assets/berlin/wen.jpg",
+        "source": "https://www.flickr.com/photos/o_0/30535910711/",
+        "author": "Guilhem Vellut",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Biang biang ilustrativos de Chez Mam en París, no son de Wen Cheng ni su carta actual. Recorte de presentación."
+      }
+    },
+    {
+      "id": "omdur",
+      "name": "Omdur · Schlesische Straße",
+      "address": "Schlesische Str. 38, 10997 Berlin-Bezirk Friedrichshain-Kreuzberg, Germany",
+      "description": "Falafel, verduras fritas y salsa de cacahuete en formato sudanés cerca de Oberbaum.",
+      "strength": "Alternativa vegetal a la salchicha y a los fideos; se puede elegir pan o plato según carta.",
+      "caution": "Sucursal Schlesische Straße 38. Cacahuete explícito en salsas: no apto para asumir ausencia de alérgenos. Foto ilustrativa de falafel en otro local, no representa la salsa ni el plato de Omdur. Carta de pedido puede diferir del precio en sala.",
+      "alert": "Sucursal Schlesische Straße 38. Cacahuete explícito en salsas: no apto para asumir ausencia de alérgenos. Foto ilustrativa de falafel en otro local, no representa la salsa ni el plato de Omdur. Carta de pedido puede diferir del precio en sala.",
+      "officialUrl": "https://www.omdurberlin.de/",
+      "sourceUrls": [
+        "https://www.omdurberlin.de/"
+      ],
+      "editorialUrl": "https://www.eater.com/maps/best-restaurants-berlin",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Omdur+-+Sudanese+Streetfood+Restaurant&query_place_id=ChIJcxGZ4I5PqEcRb-4YP450Qf4",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia, carta, guía editorial y sucursal Maps contrastadas. No confirma mesa ni apertura futura.",
+      "priceLabel": "Consultar carta actual · sin precio de reseñas antiguas",
+      "photo": {
+        "img": "assets/berlin/omdur.jpg",
+        "source": "https://www.flickr.com/photos/alper/53870107510/",
+        "author": "Alper Çuğun",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Plato de falafel ilustrativo en otro local: no es Omdur ni muestra su salsa de cacahuete. Recorte de presentación."
+      }
+    },
+    {
+      "id": "brot",
+      "name": "Zeit für Brot · Alte Schönhauser",
+      "address": "Alte Schönhauser Str. 4, 10119 Berlin, Germany",
+      "description": "Panadería y rollos dulces para una pausa junto a Hackesche Höfe, no una cena completa.",
+      "strength": "Obrador y formato de panadería para variar las pausas entre museos y patios.",
+      "caution": "Sucursal Alte Schönhauser Straße 4. Web: lunes-viernes 7-20, sábado 8-20, domingo 8-18 h. Consultar surtido y alérgenos; no prometer un rollo concreto. Foto de desayuno ilustrativo en otro local.",
+      "alert": "Sucursal Alte Schönhauser Straße 4. Web: lunes-viernes 7-20, sábado 8-20, domingo 8-18 h. Consultar surtido y alérgenos; no prometer un rollo concreto. Foto de desayuno ilustrativo en otro local.",
+      "officialUrl": "https://zeitfuerbrot.com/en/bakeries",
+      "sourceUrls": [
+        "https://zeitfuerbrot.com/en/bakeries"
+      ],
+      "editorialUrl": "https://city-circle.de/en/berlin-food-guide/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zeit+f%C3%BCr+Brot&query_place_id=ChIJyTPda-JRqEcRFHRtJJAZIwE",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Web propia, carta, guía editorial y sucursal Maps contrastadas. No confirma mesa ni apertura futura.",
+      "priceLabel": "Consultar carta actual · sin precio de reseñas antiguas",
+      "photo": {
+        "img": "assets/berlin/brot.jpg",
+        "source": "https://www.flickr.com/photos/kmardahl/16560117099/",
+        "author": "Karen Mardahl",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Desayuno ilustrativo de archivo en otro local; no es Zeit für Brot ni muestra su oferta actual. Recorte de presentación."
+      }
+    }
+  ],
+  "activities": []
+}

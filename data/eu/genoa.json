@@ -1,0 +1,1121 @@
+{
+  "schemaVersion": 1,
+  "country": "IT",
+  "id": "genoa",
+  "name": "Génova",
+  "localName": "Genova",
+  "selectionReason": "Ampliación italiana solicitada.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días sin fechas; tercer día costero opcional; Acuario y Galata sustituyen, no se acumulan.",
+  "stops": [
+    {
+      "id": "ferrari",
+      "name": "Piazza De Ferrari · la ciudad se abre",
+      "kind": "visit",
+      "zone": "De Ferrari",
+      "reason": "La fuente y las fachadas sitúan el centro antes de bajar hacia la catedral y los callejones.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 44.4071699,
+        "lon": 8.9340399
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+De+Ferrari&query_place_id=ChIJN_31dgBD0xIRE6KlaTO8ZsE",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Palazzo Ducale y Teatro Carlo Felice se ven por fuera; exposiciones y funciones no incluidas. No añadir otro museo por estar al lado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/genoa/ferrari.jpg",
+        "source": "https://www.flickr.com/photos/kentwang/50572424197/",
+        "author": "Kent Wang",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "lorenzo",
+      "name": "San Lorenzo · mármol y nave",
+      "kind": "visit",
+      "zone": "Catedral",
+      "reason": "Una visita breve a la catedral rayada, sin convertir capillas, torres y tesoro en tres entradas obligatorias.",
+      "sourceIds": [
+        "guide1",
+        "cathedral"
+      ],
+      "coordinates": {
+        "lat": 44.4078367,
+        "lon": 8.9310841
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Cathedral+of+San+Lorenzo&query_place_id=ChIJxdpSZudD0xIRuEo0hgxWxAk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Diócesis: 8-12 y 15-19; visitas suspendidas durante celebraciones. En domingo las misas de 9 y 10:30 ocupan la mañana: confirmar acceso o pasar después de las 15. Museo del Tesoro y torres no incluidos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/genoa/lorenzo.jpg",
+        "source": "https://www.flickr.com/photos/littlemisspurps/9404895712/",
+        "author": "Becks",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Catedral según culto"
+    },
+    {
+      "id": "caruggi",
+      "name": "Los caruggi · perderse con criterio",
+      "kind": "visit",
+      "zone": "Piazza Banchi / Giustiniani",
+      "reason": "Calles estrechas, pequeñas plazas y una parada de farinata: aquí el paseo y la comida son la actividad.",
+      "sourceIds": [
+        "guide1",
+        "guide3",
+        "foodguide"
+      ],
+      "coordinates": {
+        "lat": 44.4093236,
+        "lon": 8.9299428
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+Banchi&query_place_id=ChIJhb170uBD0xIRB2xFmfbRMGk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Piazza Banchi es punto de orientación, no visita interior de duración fija. Comercios con horarios propios; no prometer locales abiertos domingo. La foto muestra otro callejón del mismo casco, no la plaza exacta.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/genoa/caruggi.jpg",
+        "source": "https://www.flickr.com/photos/giasco/26638060689/",
+        "author": "giasco",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Callejón genovés ilustrativo del casco antiguo, no la entrada exacta de Piazza Banchi. Recorte de presentación."
+      },
+      "visitMode": "Barrio exterior y comida"
+    },
+    {
+      "id": "porto",
+      "name": "Porto Antico · pausa junto al agua",
+      "kind": "visit",
+      "zone": "Puerto antiguo",
+      "reason": "Abrir el paseo al muelle y descansar frente al agua, con tiempo para comer sin otra cola obligatoria.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 44.40974670000001,
+        "lon": 8.9283289
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Porto+Antico&query_place_id=ChIJhxQh4-BD0xIR9LdEk_hZEOc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "Acuario, Biosfera, Bigo y barco no incluidos por estar en el puerto. Si se elige Acuario o Galata, sustituir este bloque largo y parte de caruggi, no añadir ambos. Muelles pueden cerrarse por eventos o mal tiempo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/genoa/porto.jpg",
+        "source": "https://www.flickr.com/photos/fabriziomorando/7263050186/",
+        "author": "Fabrizio Morando",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Muelles exteriores"
+    },
+    {
+      "id": "garibaldi",
+      "name": "Via Garibaldi · fachadas de los Rolli",
+      "kind": "visit",
+      "zone": "Strada Nuova",
+      "reason": "Una calle de palacios para mirar despacio antes de elegir una colección, no una maratón de todos los Rolli.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "strada"
+      ],
+      "coordinates": {
+        "lat": 44.4110836,
+        "lon": 8.9331181
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Via+Garibaldi&query_place_id=ChIJD6biY-ZD0xIRhYfoVMkSbLU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Palacios privados y sedes institucionales no son todos visitables. Rolli Days requiere fecha y reservas; no prometer puertas abiertas a diario.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/genoa/garibaldi.jpg",
+        "source": "https://www.flickr.com/photos/sjaakkempe/29049896811/",
+        "author": "Sjaak Kempe",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Calle exterior"
+    },
+    {
+      "id": "rosso",
+      "name": "Palazzo Rosso · una casa de coleccionistas",
+      "kind": "visit",
+      "zone": "Via Garibaldi",
+      "reason": "El interior principal del segundo día: pintura, frescos y habitaciones de una casa-museo, sin agotar todas las salas del billete.",
+      "sourceIds": [
+        "guide1",
+        "strada",
+        "stradatickets"
+      ],
+      "coordinates": {
+        "lat": 44.4111331,
+        "lon": 8.932106
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Musei+di+Strada+Nuova+-+Palazzo+Rosso&query_place_id=ChIJ79ALkuZD0xIRVU4H7MbJHPY",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Billete combinado Strada Nuova + Sant’Agostino: 14€ adulto, no 9€ que es reducido. Del 28/09/2026 al 18/04/2027 10-18:30, última entrada 17:30; lunes SOLO Rosso, no Bianco/Tursi. 25/12 cerrado. Aviso actual: ascensor de Rosso fuera de servicio, acceso a salas por escaleras; no accesible si no se pueden usar. Consultar restauración del servicio antes de ir. Rolli Days solo reserva/guiada con selección de salas; alerta meteorológica roja cierra museo. Bianco/Tursi son alternativa dentro del billete, no tres museos completos añadidos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/genoa/rosso.jpg",
+        "source": "https://www.flickr.com/photos/14667436@N02/16232072009/",
+        "author": "fabrizio.binello",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Interior histórico de Palazzo Rosso; el recorrido y salas abiertas pueden variar. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago"
+    },
+    {
+      "id": "castelletto",
+      "name": "Castelletto · mirar la ciudad desde arriba",
+      "kind": "visit",
+      "zone": "Spianata / Portello",
+      "reason": "Terminar con tejados y puerto desde el mirador, dejando la tarde para una pausa o regresar al casco sin otra colección.",
+      "sourceIds": [
+        "guide1",
+        "lifts",
+        "fares"
+      ],
+      "coordinates": {
+        "lat": 44.4133484,
+        "lon": 8.9330361
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Spianata+di+Castelletto&query_place_id=ChIJ32lQtOVD0xIRW59YnnZ2Guc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Ascensor Castelletto Levante desde Piazza Portello, 57m de desnivel, diario 6:40-24 según AMT. Viaje sencillo 1,20€; ida y vuelta no es un solo viaje. Desde 01/11/2025 ya no es gratis para turistas: descartar blogs de gratuidad antigua. Confirmar averías y billete aplicable; alternativa a pie incluye subida y escaleras. Vista depende del tiempo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/genoa/castelletto.jpg",
+        "source": "https://www.flickr.com/photos/sonsespics/54459935988/",
+        "author": "Sonse",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Mirador; ascensor de pago"
+    },
+    {
+      "id": "corso",
+      "name": "Corso Italia · caminar junto al mar",
+      "kind": "visit",
+      "zone": "Foce / Punta Vagno",
+      "reason": "Un tercer día opcional de costa: caminar desde Foce sin sumar otra excursión o un museo entero antes.",
+      "sourceIds": [
+        "guide2",
+        "coast"
+      ],
+      "coordinates": {
+        "lat": 44.3926401,
+        "lon": 8.951476
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Punta+Vagno&query_place_id=ChIJaRAcXxND0xIRKXbDHnxT1_A",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Maps desde De Ferrari a Punta Vagno: 2544m/35 min solo traslado; añadir tiempo o elegir transporte urbano con horario de la fecha. Desde Punta Vagno a Boccadasse 2409m/34 min sin paradas: este bloque ya incluye paseo pausado, no sumar dos veces. Viento y temporal pueden hacer mala idea la costa. Baños privados y tumbonas no incluidos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/genoa/corso.jpg",
+        "source": "https://www.flickr.com/photos/photobeppus/6303444837/",
+        "author": "photobeppus",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Corso Italia en fotografía de archivo en blanco y negro; no estado actual ni acceso sin escalones garantizados."
+      },
+      "visitMode": "Paseo exterior"
+    },
+    {
+      "id": "boccadasse",
+      "name": "Boccadasse · casas y una playa pequeña",
+      "kind": "visit",
+      "zone": "Boccadasse",
+      "reason": "Llegar al antiguo barrio de pescadores para una comida tranquila y un rato mirando el mar, no para completar una lista de monumentos.",
+      "sourceIds": [
+        "guide2",
+        "coast"
+      ],
+      "coordinates": {
+        "lat": 44.3916153,
+        "lon": 8.9762948
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Boccadasse&query_place_id=ChIJ50-dQQRD0xIRZ7KZjZhAXiM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 110,
+      "durationType": "editorial-estimate",
+      "caution": "Playa pequeña de guijarros, accesos y calles con escalones; no playa de arena ni baño seguro garantizados. Regreso al centro no incluido en los 34 min de ida: reservar tiempo y comprobar bus en la fecha o volver caminando. Consumos aparte. No añadir Nervi, Portofino y Cinque Terre en esta misma tarde.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/genoa/boccadasse.jpg",
+        "source": "https://www.flickr.com/photos/iz4aks/9742079114/",
+        "author": "Giorgio Minguzzi",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio costero y descanso"
+    },
+    {
+      "id": "aquarium",
+      "name": "Acuario · alternativa de puerto",
+      "kind": "visit",
+      "zone": "Ponte Spinola",
+      "reason": "Elegir fauna marina como visita principal si interesa, sustituyendo parte del casco y del paseo del puerto.",
+      "sourceIds": [
+        "guide1",
+        "aquatickets",
+        "aquatimes"
+      ],
+      "coordinates": {
+        "lat": 44.4102499,
+        "lon": 8.926672
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Acquario+di+Genova&query_place_id=ChIJJ3LlAeFD0xIRJhH9BbrDt1c",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "Operador muestra Data Fissa 26€, caja 34€ y Open Flexi 38€ al revisar, pero precio y hora dependen del producto y la fecha: no tarifa universal de 26€ ni disponibilidad confirmada. Abierto 365 días con calendario variable; consultar día exacto y última entrada. Reservar 2,5-3 h editoriales y comida. No sumar Galata, Rosso y costa el mismo día.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/genoa/aquarium.jpg",
+        "source": "https://www.flickr.com/photos/josefgrunig/32602185607/",
+        "author": "Josef Grunig",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Acuario de pago; sustitución"
+    },
+    {
+      "id": "galata",
+      "name": "Galata · historia de mar y migración",
+      "kind": "visit",
+      "zone": "Darsena",
+      "reason": "Alternativa al acuario para quien prefiera barcos e historias de emigración; una sola visita larga en el puerto.",
+      "sourceIds": [
+        "guide1",
+        "galata",
+        "galatatickets"
+      ],
+      "coordinates": {
+        "lat": 44.4142845,
+        "lon": 8.923625
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Galata+Museo+del+Mare&query_place_id=ChIJ9TKpl1hB0xIRCwDvd4h6JSw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "Invierno 01/11/2026-31/03/2027: lunes cerrado; mar-vie 10-18, sáb-dom/festivos 10-19, último acceso una hora antes. Abril-octubre diario 10-19. Open Pass oficial 19€ adulto museo+submarino: producto específico, no afirmar tarifa única de cualquier fecha. Submarino no accesible con movilidad reducida ni menores de 4 años. Maps desde Porto Antico 720m/9 min. Sustituye acuario, no se acumula.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/genoa/galata.jpg",
+        "source": "https://www.flickr.com/photos/mrgrugnito/9627108891/",
+        "author": "Mr.Grugnito",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Museo de pago; sustitución"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Del centro al puerto, a paso de callejón",
+          "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+          "stopIds": [
+            "ferrari",
+            "lorenzo",
+            "caruggi",
+            "porto"
+          ],
+          "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+          "optionalStopIds": [
+            "aquarium",
+            "galata"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Del centro al puerto, a paso de callejón",
+          "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+          "stopIds": [
+            "ferrari",
+            "lorenzo",
+            "caruggi",
+            "porto"
+          ],
+          "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+          "optionalStopIds": [
+            "aquarium",
+            "galata"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+        },
+        {
+          "title": "Palacios y tejados sin maratón de museos",
+          "zone": "Garibaldi → Palazzo Rosso → Portello / Castelletto",
+          "stopIds": [
+            "garibaldi",
+            "rosso",
+            "castelletto"
+          ],
+          "editorialNote": "Rosso es la colección principal. Bianco/Tursi son sustituciones o selección dentro del mismo bloque, no otras cuatro horas obligatorias. La tarde queda abierta para callejear, comer o descansar.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "4-6 h con comida y mirador. Maps Via Garibaldi-Rosso 78m/<1 min y Rosso-Portello 249m/3 min, después ascensor de pago o subida a pie. Lunes solo Rosso, 25/12 cerrado; revisar avería del ascensor del museo antes de decidir accesibilidad."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Del centro al puerto, a paso de callejón",
+          "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+          "stopIds": [
+            "ferrari",
+            "lorenzo",
+            "caruggi",
+            "porto"
+          ],
+          "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+          "optionalStopIds": [
+            "aquarium",
+            "galata"
+          ],
+          "geographyChecks": [],
+          "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+        },
+        {
+          "title": "Palacios y tejados sin maratón de museos",
+          "zone": "Garibaldi → Palazzo Rosso → Portello / Castelletto",
+          "stopIds": [
+            "garibaldi",
+            "rosso",
+            "castelletto"
+          ],
+          "editorialNote": "Rosso es la colección principal. Bianco/Tursi son sustituciones o selección dentro del mismo bloque, no otras cuatro horas obligatorias. La tarde queda abierta para callejear, comer o descansar.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "4-6 h con comida y mirador. Maps Via Garibaldi-Rosso 78m/<1 min y Rosso-Portello 249m/3 min, después ascensor de pago o subida a pie. Lunes solo Rosso, 25/12 cerrado; revisar avería del ascensor del museo antes de decidir accesibilidad."
+        },
+        {
+          "title": "Un día opcional de mar y Boccadasse",
+          "zone": "Foce / Punta Vagno → Corso Italia → Boccadasse → regreso",
+          "stopIds": [
+            "corso",
+            "boccadasse"
+          ],
+          "editorialNote": "Un día costero lento si hay buen tiempo, no relleno para quien solo tiene dos días. Con lluvia o temporal cambiar por Galata o Acuario si no se visitó, no hacer ambos después del paseo.",
+          "optionalStopIds": [
+            "aquarium",
+            "galata"
+          ],
+          "geographyChecks": [],
+          "pacing": "4-6 h con comida, traslados y regreso. 2,4 km/34 min Maps es solo ida sin pausas desde Punta Vagno; centro-Punta Vagno suma 2,5 km/35 min si se va a pie. Volver exige otro trayecto, no un circuito total de media hora."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Costa temprano o tarde con agua y protección solar. Baños privados de pago, no playa libre amplia prometida. Rolli horarios y cierres de agosto individuales.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Con temporal sustituir costa por un interior, no dos museos apilados. Galata lunes cerrado 01/11/2026-31/03/2027; Rosso sigue abierto lunes, solo ese palacio.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Rosso cerrado 25/12. Festivos en catedral y otros interiores por calendario de la fecha, no horarios ordinarios garantizados.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Rolli Days requiere reserva y recorrido específico; no acceso libre a todos los palacios. Alerta roja cierra Strada Nuova, revisar avisos antes de salir.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "No entradas, mesas ni transporte comprados. Precios y horarios revisados, no disponibilidad para una fecha concreta.",
+    "Rosso tiene ascensor fuera de servicio según aviso actual: no venderlo como accesible sin nueva confirmación.",
+    "Ascensores AMT ya no gratuitos para turistas; sencillo 1,20€ y regreso aparte."
+  ],
+  "excludedOrOptional": [
+    "Acuario o Galata sustituyen parte del día de puerto o el día de costa si hace mal tiempo; no ambos junto a Rosso.",
+    "Nervi, Portofino y Cinque Terre necesitan jornada propia y trenes actuales, no excursiones de relleno añadidas a Boccadasse.",
+    "Palazzo Ducale, Tesoro y torres de catedral solo alternativas según interés y apertura, no incluidas por proximidad."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "Visit Genoa: tres días",
+      "url": "https://www.visitgenoa.it/en/genoa-three-days",
+      "type": "tourism-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "Italia: Rolli y naturaleza",
+      "url": "https://www.italia.it/en/liguria/genoa/things-to-do/itinerary-3-days-for-genova-among-rolli-and-nature",
+      "type": "tourism-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide3",
+      "title": "ViaMichelin: fin de semana",
+      "url": "https://www.viamichelin.com/magazine/article/weekend-visit-genoa-in-three-days",
+      "type": "editorial-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide4",
+      "title": "GenovaBB: 1-3 días, contrastado",
+      "url": "https://genovabb.it/en/genoa-guide/what-to-see-in-1-2-3-days/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide",
+      "title": "Liguria: focaccia y mesas genovesas",
+      "url": "https://www.liguria.info/en/genoa/where-to-eat-genoa/",
+      "type": "food-editorial",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "foodguide2",
+      "title": "GenovaBB: sciamadde y barrios",
+      "url": "https://genovabb.it/en/genoa-guide/where-to-eat/",
+      "type": "local-food-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "critic",
+      "title": "Gambero Rosso: trofie y Genovese",
+      "url": "https://www.gamberorosso.it/ristoranti/pasta-pesto-genova-ristoranti/",
+      "type": "food-critic",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "strada",
+      "title": "Strada Nuova: invierno y accesibilidad",
+      "url": "https://www.museidigenova.it/it/musei-di-strada-nuova",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "stradatickets",
+      "title": "Strada Nuova: 14€ y aviso ascensor",
+      "url": "https://www.museidigenova.it/it/musei-di-strada-nuova?tickets=1",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "aquatickets",
+      "title": "Acuario: productos y precios variables",
+      "url": "https://www.acquariodigenova.it/biglietti",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "aquatimes",
+      "title": "Acuario: calendario por fecha",
+      "url": "https://www.acquariodigenova.it/orari-e-calendario",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lifts",
+      "title": "AMT: ascensores y horarios",
+      "url": "https://www.amt.genova.it/amt/trasporto-multimodale/ascensori/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "fares",
+      "title": "AMT: fin de gratuidad y sencillo 1,20€",
+      "url": "https://www.amt.genova.it/amt/nuova-politica-tariffaria-ecco-i-titoli-di-viaggio-in-vendita-online-dal-5-novembre/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "galata",
+      "title": "Galata: invierno 2026/27",
+      "url": "https://www.museidigenova.it/it/galata-museo-del-mare",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "galatatickets",
+      "title": "Galata: Open Pass 19€, producto concreto",
+      "url": "https://en.galatamuseodelmare.it/ticket/?noredirect=en-001&productId=10229245402955",
+      "type": "official-booking",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cathedral",
+      "title": "Diócesis: horarios y misas",
+      "url": "https://www.chiesadigenova.it/cattedrale/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "coast",
+      "title": "Turismo: Boccadasse y Corso Italia",
+      "url": "https://www.visitgenoa.it/en/node/21375",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "genovese",
+      "title": "Il Genovese: platos",
+      "url": "https://www.ilgenovese.com/il-nostro-menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "genovesecontact",
+      "title": "Il Genovese: horarios y sede",
+      "url": "https://www.ilgenovese.com/come-raggiungerci/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "sapesta",
+      "title": "Sa Pesta: horarios",
+      "url": "https://www.anticasapesta.com/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "sapestamenu",
+      "title": "Sa Pesta: carta sin precios",
+      "url": "https://www.anticasapesta.com/menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "mario",
+      "title": "Mario: focaccia y alérgenos",
+      "url": "https://www.panificiomario.it/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Del centro al puerto, a paso de callejón",
+            "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+            "stopIds": [
+              "ferrari",
+              "lorenzo",
+              "caruggi",
+              "porto"
+            ],
+            "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Del centro al puerto, a paso de callejón",
+            "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+            "stopIds": [
+              "ferrari",
+              "lorenzo",
+              "caruggi",
+              "porto"
+            ],
+            "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+          },
+          {
+            "title": "Palacios y tejados sin maratón de museos",
+            "zone": "Garibaldi → Palazzo Rosso → Portello / Castelletto",
+            "stopIds": [
+              "garibaldi",
+              "rosso",
+              "castelletto"
+            ],
+            "editorialNote": "Rosso es la colección principal. Bianco/Tursi son sustituciones o selección dentro del mismo bloque, no otras cuatro horas obligatorias. La tarde queda abierta para callejear, comer o descansar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y mirador. Maps Via Garibaldi-Rosso 78m/<1 min y Rosso-Portello 249m/3 min, después ascensor de pago o subida a pie. Lunes solo Rosso, 25/12 cerrado; revisar avería del ascensor del museo antes de decidir accesibilidad."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Del centro al puerto, a paso de callejón",
+            "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+            "stopIds": [
+              "ferrari",
+              "lorenzo",
+              "caruggi",
+              "porto"
+            ],
+            "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+          },
+          {
+            "title": "Palacios y tejados sin maratón de museos",
+            "zone": "Garibaldi → Palazzo Rosso → Portello / Castelletto",
+            "stopIds": [
+              "garibaldi",
+              "rosso",
+              "castelletto"
+            ],
+            "editorialNote": "Rosso es la colección principal. Bianco/Tursi son sustituciones o selección dentro del mismo bloque, no otras cuatro horas obligatorias. La tarde queda abierta para callejear, comer o descansar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y mirador. Maps Via Garibaldi-Rosso 78m/<1 min y Rosso-Portello 249m/3 min, después ascensor de pago o subida a pie. Lunes solo Rosso, 25/12 cerrado; revisar avería del ascensor del museo antes de decidir accesibilidad."
+          },
+          {
+            "title": "Un día opcional de mar y Boccadasse",
+            "zone": "Foce / Punta Vagno → Corso Italia → Boccadasse → regreso",
+            "stopIds": [
+              "corso",
+              "boccadasse"
+            ],
+            "editorialNote": "Un día costero lento si hay buen tiempo, no relleno para quien solo tiene dos días. Con lluvia o temporal cambiar por Galata o Acuario si no se visitó, no hacer ambos después del paseo.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, traslados y regreso. 2,4 km/34 min Maps es solo ida sin pausas desde Punta Vagno; centro-Punta Vagno suma 2,5 km/35 min si se va a pie. Volver exige otro trayecto, no un circuito total de media hora."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Del centro al puerto, a paso de callejón",
+            "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+            "stopIds": [
+              "ferrari",
+              "lorenzo",
+              "caruggi",
+              "porto"
+            ],
+            "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Del centro al puerto, a paso de callejón",
+            "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+            "stopIds": [
+              "ferrari",
+              "lorenzo",
+              "caruggi",
+              "porto"
+            ],
+            "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+          },
+          {
+            "title": "Palacios y tejados sin maratón de museos",
+            "zone": "Garibaldi → Palazzo Rosso → Portello / Castelletto",
+            "stopIds": [
+              "garibaldi",
+              "rosso",
+              "castelletto"
+            ],
+            "editorialNote": "Rosso es la colección principal. Bianco/Tursi son sustituciones o selección dentro del mismo bloque, no otras cuatro horas obligatorias. La tarde queda abierta para callejear, comer o descansar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y mirador. Maps Via Garibaldi-Rosso 78m/<1 min y Rosso-Portello 249m/3 min, después ascensor de pago o subida a pie. Lunes solo Rosso, 25/12 cerrado; revisar avería del ascensor del museo antes de decidir accesibilidad."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Del centro al puerto, a paso de callejón",
+            "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+            "stopIds": [
+              "ferrari",
+              "lorenzo",
+              "caruggi",
+              "porto"
+            ],
+            "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+          },
+          {
+            "title": "Palacios y tejados sin maratón de museos",
+            "zone": "Garibaldi → Palazzo Rosso → Portello / Castelletto",
+            "stopIds": [
+              "garibaldi",
+              "rosso",
+              "castelletto"
+            ],
+            "editorialNote": "Rosso es la colección principal. Bianco/Tursi son sustituciones o selección dentro del mismo bloque, no otras cuatro horas obligatorias. La tarde queda abierta para callejear, comer o descansar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y mirador. Maps Via Garibaldi-Rosso 78m/<1 min y Rosso-Portello 249m/3 min, después ascensor de pago o subida a pie. Lunes solo Rosso, 25/12 cerrado; revisar avería del ascensor del museo antes de decidir accesibilidad."
+          },
+          {
+            "title": "Un día opcional de mar y Boccadasse",
+            "zone": "Foce / Punta Vagno → Corso Italia → Boccadasse → regreso",
+            "stopIds": [
+              "corso",
+              "boccadasse"
+            ],
+            "editorialNote": "Un día costero lento si hay buen tiempo, no relleno para quien solo tiene dos días. Con lluvia o temporal cambiar por Galata o Acuario si no se visitó, no hacer ambos después del paseo.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, traslados y regreso. 2,4 km/34 min Maps es solo ida sin pausas desde Punta Vagno; centro-Punta Vagno suma 2,5 km/35 min si se va a pie. Volver exige otro trayecto, no un circuito total de media hora."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Del centro al puerto, a paso de callejón",
+            "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+            "stopIds": [
+              "ferrari",
+              "lorenzo",
+              "caruggi",
+              "porto"
+            ],
+            "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Del centro al puerto, a paso de callejón",
+            "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+            "stopIds": [
+              "ferrari",
+              "lorenzo",
+              "caruggi",
+              "porto"
+            ],
+            "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+          },
+          {
+            "title": "Palacios y tejados sin maratón de museos",
+            "zone": "Garibaldi → Palazzo Rosso → Portello / Castelletto",
+            "stopIds": [
+              "garibaldi",
+              "rosso",
+              "castelletto"
+            ],
+            "editorialNote": "Rosso es la colección principal. Bianco/Tursi son sustituciones o selección dentro del mismo bloque, no otras cuatro horas obligatorias. La tarde queda abierta para callejear, comer o descansar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y mirador. Maps Via Garibaldi-Rosso 78m/<1 min y Rosso-Portello 249m/3 min, después ascensor de pago o subida a pie. Lunes solo Rosso, 25/12 cerrado; revisar avería del ascensor del museo antes de decidir accesibilidad."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Del centro al puerto, a paso de callejón",
+            "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+            "stopIds": [
+              "ferrari",
+              "lorenzo",
+              "caruggi",
+              "porto"
+            ],
+            "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+          },
+          {
+            "title": "Palacios y tejados sin maratón de museos",
+            "zone": "Garibaldi → Palazzo Rosso → Portello / Castelletto",
+            "stopIds": [
+              "garibaldi",
+              "rosso",
+              "castelletto"
+            ],
+            "editorialNote": "Rosso es la colección principal. Bianco/Tursi son sustituciones o selección dentro del mismo bloque, no otras cuatro horas obligatorias. La tarde queda abierta para callejear, comer o descansar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y mirador. Maps Via Garibaldi-Rosso 78m/<1 min y Rosso-Portello 249m/3 min, después ascensor de pago o subida a pie. Lunes solo Rosso, 25/12 cerrado; revisar avería del ascensor del museo antes de decidir accesibilidad."
+          },
+          {
+            "title": "Un día opcional de mar y Boccadasse",
+            "zone": "Foce / Punta Vagno → Corso Italia → Boccadasse → regreso",
+            "stopIds": [
+              "corso",
+              "boccadasse"
+            ],
+            "editorialNote": "Un día costero lento si hay buen tiempo, no relleno para quien solo tiene dos días. Con lluvia o temporal cambiar por Galata o Acuario si no se visitó, no hacer ambos después del paseo.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, traslados y regreso. 2,4 km/34 min Maps es solo ida sin pausas desde Punta Vagno; centro-Punta Vagno suma 2,5 km/35 min si se va a pie. Volver exige otro trayecto, no un circuito total de media hora."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Del centro al puerto, a paso de callejón",
+            "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+            "stopIds": [
+              "ferrari",
+              "lorenzo",
+              "caruggi",
+              "porto"
+            ],
+            "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Del centro al puerto, a paso de callejón",
+            "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+            "stopIds": [
+              "ferrari",
+              "lorenzo",
+              "caruggi",
+              "porto"
+            ],
+            "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+          },
+          {
+            "title": "Palacios y tejados sin maratón de museos",
+            "zone": "Garibaldi → Palazzo Rosso → Portello / Castelletto",
+            "stopIds": [
+              "garibaldi",
+              "rosso",
+              "castelletto"
+            ],
+            "editorialNote": "Rosso es la colección principal. Bianco/Tursi son sustituciones o selección dentro del mismo bloque, no otras cuatro horas obligatorias. La tarde queda abierta para callejear, comer o descansar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y mirador. Maps Via Garibaldi-Rosso 78m/<1 min y Rosso-Portello 249m/3 min, después ascensor de pago o subida a pie. Lunes solo Rosso, 25/12 cerrado; revisar avería del ascensor del museo antes de decidir accesibilidad."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Del centro al puerto, a paso de callejón",
+            "zone": "De Ferrari → San Lorenzo → caruggi → Porto Antico",
+            "stopIds": [
+              "ferrari",
+              "lorenzo",
+              "caruggi",
+              "porto"
+            ],
+            "editorialNote": "El casco y el puerto bastan para un día tranquilo. Si interesa un gran interior, elegir Acuario O Galata y recortar el paseo de caruggi/puerto; no convertir las dos alternativas en visitas obligatorias.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "5-6 h con comida. Enlaces Maps: 317m/4 min, 233m/2 min y 164m/2 min; son desplazamientos, no duración del barrio. Catedral antes de las 12 o después de las 15, fuera de misas."
+          },
+          {
+            "title": "Palacios y tejados sin maratón de museos",
+            "zone": "Garibaldi → Palazzo Rosso → Portello / Castelletto",
+            "stopIds": [
+              "garibaldi",
+              "rosso",
+              "castelletto"
+            ],
+            "editorialNote": "Rosso es la colección principal. Bianco/Tursi son sustituciones o selección dentro del mismo bloque, no otras cuatro horas obligatorias. La tarde queda abierta para callejear, comer o descansar.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida y mirador. Maps Via Garibaldi-Rosso 78m/<1 min y Rosso-Portello 249m/3 min, después ascensor de pago o subida a pie. Lunes solo Rosso, 25/12 cerrado; revisar avería del ascensor del museo antes de decidir accesibilidad."
+          },
+          {
+            "title": "Un día opcional de mar y Boccadasse",
+            "zone": "Foce / Punta Vagno → Corso Italia → Boccadasse → regreso",
+            "stopIds": [
+              "corso",
+              "boccadasse"
+            ],
+            "editorialNote": "Un día costero lento si hay buen tiempo, no relleno para quien solo tiene dos días. Con lluvia o temporal cambiar por Galata o Acuario si no se visitó, no hacer ambos después del paseo.",
+            "optionalStopIds": [
+              "aquarium",
+              "galata"
+            ],
+            "geographyChecks": [],
+            "pacing": "4-6 h con comida, traslados y regreso. 2,4 km/34 min Maps es solo ida sin pausas desde Punta Vagno; centro-Punta Vagno suma 2,5 km/35 min si se va a pie. Volver exige otro trayecto, no un circuito total de media hora."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Varias guías antes de operadores y Maps.",
+    "Strada Nuova 14€, lunes solo Rosso y ascensor averiado contrastados.",
+    "AMT1,20€ sustituye gratuidad antigua.",
+    "Galata invierno 2026/27, no antiguo calendario ministerial 2022.",
+    "Precios no oficiales de comidas descartados; platos y horarios sí verificados.",
+    "14 fotos verificadas CC BY/BY-SA; comidas ilustrativas explícitas."
+  ],
+  "editorialTradeoffs": [
+    "Centro/puerto, palacios/mirador y costa en días separados.",
+    "Un gran interior por día como máximo, alternativas no añadidas automáticamente.",
+    "Costa opcional sin obligar tercer día ni excursión ferroviaria."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "VisitGenoa, Italia, ViaMichelin, GenovaBB y guías de cocina contrastadas; blogs gratuitos AMT y tarifas reducidas descartados. Restaurante de pesto, horno de farinata y panadería son usos diferentes, sin rellenar con tres cenas similares."
+}

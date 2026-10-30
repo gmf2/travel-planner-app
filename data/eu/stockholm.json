@@ -1,0 +1,1036 @@
+{
+  "schemaVersion": 1,
+  "country": "SE",
+  "id": "stockholm",
+  "name": "Estocolmo",
+  "localName": "Stockholm",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días urbanos sin fecha, reserva o gasto. Gamla Stan, Djurgården, Södermalm separados; un interior largo al día y exteriores ajustables.",
+  "stops": [
+    {
+      "id": "square",
+      "name": "Gamla Stan · Stortorget y callejuelas",
+      "kind": "visit",
+      "zone": "Gamla Stan",
+      "reason": "Plaza histórica y calles laterales, con tiempo para recorrer la isla sin circuito de tiendas obligatorio.",
+      "sourceIds": [
+        "guide1",
+        "guide2",
+        "districts"
+      ],
+      "coordinates": {
+        "lat": 59.3251078,
+        "lon": 18.0706785
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Stortorget&query_place_id=ChIJH5EbYuJ3X0YRe8ROxQLpCfI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Nobel Prize Museum no incluido. Mårten Trotzigs gränd tiene escaleras y estrechez, evitar aglomeraciones; no garantizar paso accesible ni mercados festivos todo el año.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/stockholm/square.jpg",
+        "source": "https://www.flickr.com/photos/franganillo/52808435505/",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio y plaza exteriores"
+    },
+    {
+      "id": "cathedral",
+      "name": "Storkyrkan · exterior",
+      "kind": "visit",
+      "zone": "Gamla Stan / catedral",
+      "reason": "Fachada de la catedral junto al palacio, una parada breve antes de la visita principal.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 59.32582550000001,
+        "lon": 18.0703536
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Storkyrkan&query_place_id=ChIJUfc6eeJ3X0YRO3LFh0X38X8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "No incluye billete ni acceso a ceremonias u obras de la catedral. Si se quiere interior, consultar horario/entrada de fecha y recortar el paseo, no sumarlo por proximidad automáticamente.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/stockholm/cathedral.jpg",
+        "source": "https://www.flickr.com/photos/jlascar/24489091799/",
+        "author": "Jorge Láscar",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Exterior real de Storkyrkan al anochecer, no interior incluido. Recorte de presentación."
+      },
+      "visitMode": "Exterior; catedral interior aparte"
+    },
+    {
+      "id": "palace",
+      "name": "Palacio Real · Kungliga slottet",
+      "kind": "visit",
+      "zone": "Gamla Stan / palacio",
+      "reason": "Apartamentos, Tesoro y museo de las Tres Coronas como selección dentro de la visita larga del día.",
+      "sourceIds": [
+        "palace",
+        "prices",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 59.3268215,
+        "lon": 18.0717194
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=The+Royal+Palace&query_place_id=ChIJAUpMflidX0YRNj52SJZ6-b0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Tarifa 2026 adulto 220 SEK, 240 mayo-septiembre, no 180 de guía. Calendario oct-nov 2026 diario 10-16, consultar día exacto. Recepciones reales pueden cerrar salas/parcial o total; billete general no garantiza todas abiertas. Cambio de guardia no prometido por esta ruta. No añadir otro museo tras palacio.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/stockholm/palace.jpg",
+        "source": "https://www.flickr.com/photos/ekilby/17127081756/",
+        "author": "Eric Kilby",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Fachada del Palacio Real de Gamla Stan; no Drottningholm. Recorte de presentación."
+      },
+      "visitMode": "Palacio de pago; salas según calendario"
+    },
+    {
+      "id": "riddar",
+      "name": "Riddarholmen · Evert Taubes Terrass",
+      "kind": "visit",
+      "zone": "Riddarholmen / ribera",
+      "reason": "Vistas al agua y Ayuntamiento desde la terraza, para acabar sin otro interior.",
+      "sourceIds": [
+        "guide1",
+        "districts"
+      ],
+      "coordinates": {
+        "lat": 59.3248793,
+        "lon": 18.061572
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Evert+Taubes+Terrass&query_place_id=ChIJy7_XV1p3X0YRUclJuJi1lpk",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Riddarholmskyrkan no incluida ni Ayuntamiento visitado por verlo desde aquí. Barandillas y piedra mojada requieren cuidado; no bajar al agua ni atardecer garantizado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/stockholm/riddar.jpg",
+        "source": "https://www.flickr.com/photos/jrthibault/29058455974/",
+        "author": "Marie Thérèse Hébert & Jean Robert Thibault",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Ribera y mirador exteriores"
+    },
+    {
+      "id": "vasa",
+      "name": "Museo Vasa · barco original",
+      "kind": "visit",
+      "zone": "Djurgården / Galärvarvet",
+      "reason": "Barco conservado y varios niveles de observación: la visita interior principal de Djurgården.",
+      "sourceIds": [
+        "vasa",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 59.3280233,
+        "lon": 18.0913964
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Vasa+Museum&query_place_id=ChIJrymDbVSdX0YRQTLBtPGa8M8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 240 SEK may-sep, 195 ene-abr/oct-dic. Diario sep-may 10-17, mié 20; jun-ago 8:30-18, NO mar-dom 12-16 de guía. 24/25 dic cerrado, 31 dic 10-15. Compra a llegada posible, tarjeta sólo; prepago no salta cola. Vrak es museo aparte, no comprar combinado por obligación ni subir al barco.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/stockholm/vasa.jpg",
+        "source": "https://www.flickr.com/photos/camperdown/50901301326/",
+        "author": "Hugh Llewelyn",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Barco Vasa original en el museo, no maqueta. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago; sin acceso prioritario"
+    },
+    {
+      "id": "rosendal",
+      "name": "Rosendals Trädgård · jardín y café",
+      "kind": "visit",
+      "zone": "Djurgården / Rosendal",
+      "reason": "Jardín de cultivo, invernaderos y pausa de comida sin otro museo de tres horas.",
+      "sourceIds": [
+        "rosendal",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 59.3274562,
+        "lon": 18.1148482
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Rosendals+Tr%C3%A4dg%C3%A5rd&query_place_id=ChIJPT1T4K6CX0YROHhBJau4FpI",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Web actual: café/tienda/vivero 11-16 diario, comida 11-14:30, sin reservas/prepedidos. Confirmar temporada y cierre de fecha: no prometer flores, huerta activa o terraza en pleno invierno. Caminos grava, ligera pendiente, rampas en invernaderos; tarjeta/Swish, no efectivo/Amex.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/stockholm/rosendal.jpg",
+        "source": "https://www.flickr.com/photos/diversey/15364296615/",
+        "author": "Tony Webster",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Jardín y pausa; comida de pago"
+    },
+    {
+      "id": "canal",
+      "name": "Djurgårdsbrunn · paseo junto al canal",
+      "kind": "visit",
+      "zone": "Djurgården / Djurgårdsbrunnsbron",
+      "reason": "Paseo hacia el puente y ribera arbolada, con vuelta en transporte por confirmar si no apetece desandar.",
+      "sourceIds": [
+        "districts",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 59.32964439999999,
+        "lon": 18.1321469
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Djurg%C3%A5rdsbrunnsbron&query_place_id=ChIJP5sNc4eDX0YRHypx3Y698H4",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Punto Maps del puente Djurgårdsbrunnsbron, NO punto genérico del canal 1 km más al este. Tiempo de enlace no cubre un circuito entero de la isla. En hielo, barro o viento acortar; no cruzar por agua helada ni asumir barco incluido.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/stockholm/canal.jpg",
+        "source": "https://www.flickr.com/photos/andreas_poike/29758432347/",
+        "author": "Andreas Poike",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Paseo junto a Djurgårdsbrunnskanalen, archivo otoñal, no estación garantizada. Recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; tramo junto al puente"
+    },
+    {
+      "id": "montelius",
+      "name": "Monteliusvägen · mirador de Södermalm",
+      "kind": "visit",
+      "zone": "Södermalm / Mariaberget",
+      "reason": "Camino alto con vistas hacia Gamla Stan y el Ayuntamiento, antes de bajar al barrio.",
+      "sourceIds": [
+        "montelius",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 59.3207158,
+        "lon": 18.0602193
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Monteliusv%C3%A4gen&query_place_id=ChIJkaEhA-R3X0YR07E0Bkkiw2w",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Turismo describe 500 m con barandilla; puede resbalar en invierno. Hielo/nieve o movilidad limitada: evitar subida y escoger calle baja. No garantizar sol, atardecer ni acceso llano.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/stockholm/montelius.jpg",
+        "source": "https://www.flickr.com/photos/mdesjardin/52155867005/",
+        "author": "non-euclidean photography",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Camino panorámico con pendientes"
+    },
+    {
+      "id": "maria",
+      "name": "Mariatorget y calles de Södermalm",
+      "kind": "visit",
+      "zone": "Södermalm / Maria",
+      "reason": "Plaza, café y calles residenciales para conocer el barrio sin correr entre monumentos.",
+      "sourceIds": [
+        "districts",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 59.3181392,
+        "lon": 18.0622887
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Mariatorget&query_place_id=ChIJo9m9SuR3X0YRS4GJrD6trz8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 55,
+      "durationType": "editorial-estimate",
+      "caution": "No entrar en patios o portales privados. Cafés y tiendas horarios propios; no confundir estación de metro con la plaza ni presentarla como visita artística incluida.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/stockholm/maria.jpg",
+        "source": "https://www.flickr.com/photos/184898381@N07/50846297157/",
+        "author": "Jens Cederskjold",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza y barrio exteriores"
+    },
+    {
+      "id": "nytorg",
+      "name": "Nytorget · SoFo",
+      "kind": "visit",
+      "zone": "Södermalm / SoFo",
+      "reason": "Plaza y calles de comercios independientes, con margen para comer antes de la fotografía.",
+      "sourceIds": [
+        "nytorg",
+        "districts"
+      ],
+      "coordinates": {
+        "lat": 59.3120414,
+        "lon": 18.0840345
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Nytorget&query_place_id=ChIJ51OTivd3X0YRk8cnEFuPP5k",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 80,
+      "durationType": "editorial-estimate",
+      "caution": "No es mercado permanente ni asegura todas las tiendas abiertas domingo. SoFo Nights el último jueves aparece en turismo, evento concreto confirmar, no disponible cada tarde. Fotografiska requiere bajar a ribera: dejar traslado real.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/stockholm/nytorg.jpg",
+        "source": "https://www.flickr.com/photos/tarquingemstone/42379333651/",
+        "author": "chas B",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio y plaza exteriores"
+    },
+    {
+      "id": "foto",
+      "name": "Fotografiska · fotografía y cultura",
+      "kind": "visit",
+      "zone": "Södermalm / Stadsgårdshamnen",
+      "reason": "La visita larga de Södermalm, con exposiciones temporales y horario tardío útil.",
+      "sourceIds": [
+        "foto",
+        "fotofaq"
+      ],
+      "coordinates": {
+        "lat": 59.31796189999999,
+        "lon": 18.0848268
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Fotografiska&query_place_id=ChIJhaN0M_l3X0YRpOq8uRb_RcA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "Adulto 195 SEK actual. Diario 10-23; FAQ 24 dic 10-20 y Midsummer Eve cerrado, confirmar fecha. Entrada incluye exposiciones actuales, no futuras específicas. Bar/comida requieren entrada salvo restaurante/brunch con mesa reservada según FAQ; ninguna mesa reservada aquí. Bajada desde Södermalm y obras/itinerario peatonal pueden alterar acceso.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/stockholm/foto.jpg",
+        "source": "https://www.flickr.com/photos/layant/5754480910/",
+        "author": "pedro  layant",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Exterior real de Fotografiska, no obras o exposiciones actuales garantizadas. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago; exposiciones variables"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Gamla Stan y el Palacio Real",
+          "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+          "stopIds": [
+            "square",
+            "cathedral",
+            "palace",
+            "riddar"
+          ],
+          "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Gamla Stan y el Palacio Real",
+          "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+          "stopIds": [
+            "square",
+            "cathedral",
+            "palace",
+            "riddar"
+          ],
+          "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+        },
+        {
+          "title": "Vasa y el paisaje de Djurgården",
+          "zone": "Vasa → Rosendals Trädgård → Djurgårdsbrunnsbron",
+          "stopIds": [
+            "vasa",
+            "rosendal",
+            "canal"
+          ],
+          "editorialNote": "Vasa al abrir, jardín para comer antes 14:30 si encaja. Paseo por isla sin sumar Skansen, ABBA y Nordiska Museet al mismo día. Si mal tiempo, recortar jardín/canal y elegir otra visita interior en sustitución, no añadir todo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, traslado a isla y pausas. Maps Vasa–Rosendal 1622 m/22 min, Rosendal–puente 1173 m/15 min; recorrido adicional ribera/retorno no incluido. En invierno poca luz: acortar exterior y confirmar café antes 16 h. No crucero/archipiélago incluido."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Gamla Stan y el Palacio Real",
+          "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+          "stopIds": [
+            "square",
+            "cathedral",
+            "palace",
+            "riddar"
+          ],
+          "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+        },
+        {
+          "title": "Vasa y el paisaje de Djurgården",
+          "zone": "Vasa → Rosendals Trädgård → Djurgårdsbrunnsbron",
+          "stopIds": [
+            "vasa",
+            "rosendal",
+            "canal"
+          ],
+          "editorialNote": "Vasa al abrir, jardín para comer antes 14:30 si encaja. Paseo por isla sin sumar Skansen, ABBA y Nordiska Museet al mismo día. Si mal tiempo, recortar jardín/canal y elegir otra visita interior en sustitución, no añadir todo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida, traslado a isla y pausas. Maps Vasa–Rosendal 1622 m/22 min, Rosendal–puente 1173 m/15 min; recorrido adicional ribera/retorno no incluido. En invierno poca luz: acortar exterior y confirmar café antes 16 h. No crucero/archipiélago incluido."
+        },
+        {
+          "title": "Södermalm y Fotografiska",
+          "zone": "Monteliusvägen → Mariatorget → Nytorget → Fotografiska",
+          "stopIds": [
+            "montelius",
+            "maria",
+            "nytorg",
+            "foto"
+          ],
+          "editorialNote": "Mirador con luz y sin hielo, barrio/comida a mediodía, Fotografiska después. No volver a Gamla Stan para completar pendientes ni cruzar a Östermalm como si estuviera al lado.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida y pausas. Maps 471 m/6 min, 1907 m/26 min, 1883 m/25 min entre puntos; no sólo 10 min de paseo. Añadir pendientes/bajada y desvíos de obras. Si hielo evitar Montelius; fotografía sigue visita elegible con fecha."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Vasa junio-agosto 8:30-18, precio 240 mayo-sept. Palacio 240 mayo-sept. Madrugar no implica añadir Skansen, ABBA y otro museo después. Jardín/canal con agua y pausas.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Vasa 10-17 diario, mié 20; no horario mar-dom de guía. Montelius puede tener hielo; acortar canal/jardín según luz y meteorología. Café Rosendal: confirmar fecha, no flores garantizadas.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Vasa 24/25 dic cerrado, 31 dic 10-15. Fotografiska FAQ 24 dic 10-20, no asumir mismo horario a todos los museos. Palacio calendario y posibles recepciones antes de reservar. Mercados navideños no permanentes.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Vasa septiembre ya horario 10-17/mié 20, aunque tarifa 240 hasta septiembre. Fotografiska cierra Midsummer Eve aunque la página general diga diario. Confirmar fecha festiva, hojas/flores no garantizadas.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Ninguna entrada, mesa o barco reservado. Importes en SEK, coronas suecas, no euros.",
+    "Guía Karen útil para barrios pero precios/horarios de Palacio y Vasa desactualizados; operadores mandan.",
+    "No añadir archipiélago, Skansen, ABBA, Ayuntamiento y todos museos a tres días sin sustituir rutas.",
+    "Transporte a Djurgården y retorno del canal se elige según origen/horario; no trayecto gratuito ni pase SL comprado por defecto."
+  ],
+  "excludedOrOptional": [
+    "Skansen o ABBA sustituyen parte de Djurgården, requieren su propio billete/horario, no están incluidos.",
+    "Ayuntamiento sólo interior con tour autorizado según calendario, no visita por libre incluida; su torre no aparece como actividad garantizada.",
+    "Drottningholm o archipiélago ocupan otro día/reemplazo, no excursión añadida después del Vasa."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "Karen Roldan: itinerario local actualizado 2026",
+      "url": "https://karenroldan.com/3-days-in-stockholm/",
+      "type": "local-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "guide2",
+      "title": "Stockholmania: tres días",
+      "url": "https://www.stockholmania.tours/en/itineraries-of-stockholm/stockholm-in-3-days/",
+      "type": "local-tour-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "districts",
+      "title": "Turismo: barrios",
+      "url": "https://www.visitstockholm.com/stockholms-districts/",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "palace",
+      "title": "Palacios Reales: calendario 2026",
+      "url": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-royal-palace/opening-hours.html",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "prices",
+      "title": "Palacios Reales: tarifas 2026",
+      "url": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/admission-charges.html",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "vasa",
+      "title": "Vasa: horarios y entradas",
+      "url": "https://www.vasamuseet.se/en/visit/hours--admission",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "rosendal",
+      "title": "Rosendals: visita, jardín y café",
+      "url": "https://www.rosendalstradgard.se/about-rosendals-tradgard/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "montelius",
+      "title": "Turismo: Monteliusvägen",
+      "url": "https://www.visitstockholm.com/o/monteliusvagen/",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "nytorg",
+      "title": "Turismo: SoFo",
+      "url": "https://www.visitstockholm.com/see-do/shopping/guide-to-sofo/",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "foto",
+      "title": "Fotografiska: visita",
+      "url": "https://stockholm.fotografiska.com/en/visit",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "fotofaq",
+      "title": "Fotografiska: FAQ",
+      "url": "https://stockholm.fotografiska.com/en/faq",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "meat",
+      "title": "Meatballs: carta oficial enlazada",
+      "url": "https://meatball.se/menu",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "meatpdf",
+      "title": "Meatballs: PDF junio 2026",
+      "url": "https://static.thatsup.website/308/90455/June-2026-ready-for-web.pdf?v=1781282336",
+      "type": "official-linked-menu",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "hermans",
+      "title": "Hermans: sede y bufé",
+      "url": "https://hermans.se/en/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "hermanslunch",
+      "title": "Hermans: comida 11-16",
+      "url": "https://hermans.se/en/lunchbuffet/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "bakery",
+      "title": "Skeppsbro: sede y horarios",
+      "url": "https://www.skeppsbrobageri.com/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "bakerycafe",
+      "title": "Skeppsbro: café, discrepa sábado/domingo",
+      "url": "https://www.skeppsbrobageri.com/cafe",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "foodguide",
+      "title": "RedSightseeing: comida y fika",
+      "url": "https://www.redsightseeing.com/stockholm/blog/stockholm-food-guide-best-places-to-eat/",
+      "type": "tour-operator-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "meatguide",
+      "title": "TimeOut: platos de Estocolmo 2018",
+      "url": "https://www.timeout.com/stockholm/restaurants/how-to-eat-like-a-local-in-stockholm",
+      "type": "editorial",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Gamla Stan y el Palacio Real",
+            "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+            "stopIds": [
+              "square",
+              "cathedral",
+              "palace",
+              "riddar"
+            ],
+            "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Gamla Stan y el Palacio Real",
+            "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+            "stopIds": [
+              "square",
+              "cathedral",
+              "palace",
+              "riddar"
+            ],
+            "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+          },
+          {
+            "title": "Vasa y el paisaje de Djurgården",
+            "zone": "Vasa → Rosendals Trädgård → Djurgårdsbrunnsbron",
+            "stopIds": [
+              "vasa",
+              "rosendal",
+              "canal"
+            ],
+            "editorialNote": "Vasa al abrir, jardín para comer antes 14:30 si encaja. Paseo por isla sin sumar Skansen, ABBA y Nordiska Museet al mismo día. Si mal tiempo, recortar jardín/canal y elegir otra visita interior en sustitución, no añadir todo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslado a isla y pausas. Maps Vasa–Rosendal 1622 m/22 min, Rosendal–puente 1173 m/15 min; recorrido adicional ribera/retorno no incluido. En invierno poca luz: acortar exterior y confirmar café antes 16 h. No crucero/archipiélago incluido."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Gamla Stan y el Palacio Real",
+            "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+            "stopIds": [
+              "square",
+              "cathedral",
+              "palace",
+              "riddar"
+            ],
+            "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+          },
+          {
+            "title": "Vasa y el paisaje de Djurgården",
+            "zone": "Vasa → Rosendals Trädgård → Djurgårdsbrunnsbron",
+            "stopIds": [
+              "vasa",
+              "rosendal",
+              "canal"
+            ],
+            "editorialNote": "Vasa al abrir, jardín para comer antes 14:30 si encaja. Paseo por isla sin sumar Skansen, ABBA y Nordiska Museet al mismo día. Si mal tiempo, recortar jardín/canal y elegir otra visita interior en sustitución, no añadir todo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslado a isla y pausas. Maps Vasa–Rosendal 1622 m/22 min, Rosendal–puente 1173 m/15 min; recorrido adicional ribera/retorno no incluido. En invierno poca luz: acortar exterior y confirmar café antes 16 h. No crucero/archipiélago incluido."
+          },
+          {
+            "title": "Södermalm y Fotografiska",
+            "zone": "Monteliusvägen → Mariatorget → Nytorget → Fotografiska",
+            "stopIds": [
+              "montelius",
+              "maria",
+              "nytorg",
+              "foto"
+            ],
+            "editorialNote": "Mirador con luz y sin hielo, barrio/comida a mediodía, Fotografiska después. No volver a Gamla Stan para completar pendientes ni cruzar a Östermalm como si estuviera al lado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps 471 m/6 min, 1907 m/26 min, 1883 m/25 min entre puntos; no sólo 10 min de paseo. Añadir pendientes/bajada y desvíos de obras. Si hielo evitar Montelius; fotografía sigue visita elegible con fecha."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Gamla Stan y el Palacio Real",
+            "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+            "stopIds": [
+              "square",
+              "cathedral",
+              "palace",
+              "riddar"
+            ],
+            "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Gamla Stan y el Palacio Real",
+            "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+            "stopIds": [
+              "square",
+              "cathedral",
+              "palace",
+              "riddar"
+            ],
+            "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+          },
+          {
+            "title": "Vasa y el paisaje de Djurgården",
+            "zone": "Vasa → Rosendals Trädgård → Djurgårdsbrunnsbron",
+            "stopIds": [
+              "vasa",
+              "rosendal",
+              "canal"
+            ],
+            "editorialNote": "Vasa al abrir, jardín para comer antes 14:30 si encaja. Paseo por isla sin sumar Skansen, ABBA y Nordiska Museet al mismo día. Si mal tiempo, recortar jardín/canal y elegir otra visita interior en sustitución, no añadir todo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslado a isla y pausas. Maps Vasa–Rosendal 1622 m/22 min, Rosendal–puente 1173 m/15 min; recorrido adicional ribera/retorno no incluido. En invierno poca luz: acortar exterior y confirmar café antes 16 h. No crucero/archipiélago incluido."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Gamla Stan y el Palacio Real",
+            "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+            "stopIds": [
+              "square",
+              "cathedral",
+              "palace",
+              "riddar"
+            ],
+            "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+          },
+          {
+            "title": "Vasa y el paisaje de Djurgården",
+            "zone": "Vasa → Rosendals Trädgård → Djurgårdsbrunnsbron",
+            "stopIds": [
+              "vasa",
+              "rosendal",
+              "canal"
+            ],
+            "editorialNote": "Vasa al abrir, jardín para comer antes 14:30 si encaja. Paseo por isla sin sumar Skansen, ABBA y Nordiska Museet al mismo día. Si mal tiempo, recortar jardín/canal y elegir otra visita interior en sustitución, no añadir todo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslado a isla y pausas. Maps Vasa–Rosendal 1622 m/22 min, Rosendal–puente 1173 m/15 min; recorrido adicional ribera/retorno no incluido. En invierno poca luz: acortar exterior y confirmar café antes 16 h. No crucero/archipiélago incluido."
+          },
+          {
+            "title": "Södermalm y Fotografiska",
+            "zone": "Monteliusvägen → Mariatorget → Nytorget → Fotografiska",
+            "stopIds": [
+              "montelius",
+              "maria",
+              "nytorg",
+              "foto"
+            ],
+            "editorialNote": "Mirador con luz y sin hielo, barrio/comida a mediodía, Fotografiska después. No volver a Gamla Stan para completar pendientes ni cruzar a Östermalm como si estuviera al lado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps 471 m/6 min, 1907 m/26 min, 1883 m/25 min entre puntos; no sólo 10 min de paseo. Añadir pendientes/bajada y desvíos de obras. Si hielo evitar Montelius; fotografía sigue visita elegible con fecha."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Gamla Stan y el Palacio Real",
+            "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+            "stopIds": [
+              "square",
+              "cathedral",
+              "palace",
+              "riddar"
+            ],
+            "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Gamla Stan y el Palacio Real",
+            "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+            "stopIds": [
+              "square",
+              "cathedral",
+              "palace",
+              "riddar"
+            ],
+            "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+          },
+          {
+            "title": "Vasa y el paisaje de Djurgården",
+            "zone": "Vasa → Rosendals Trädgård → Djurgårdsbrunnsbron",
+            "stopIds": [
+              "vasa",
+              "rosendal",
+              "canal"
+            ],
+            "editorialNote": "Vasa al abrir, jardín para comer antes 14:30 si encaja. Paseo por isla sin sumar Skansen, ABBA y Nordiska Museet al mismo día. Si mal tiempo, recortar jardín/canal y elegir otra visita interior en sustitución, no añadir todo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslado a isla y pausas. Maps Vasa–Rosendal 1622 m/22 min, Rosendal–puente 1173 m/15 min; recorrido adicional ribera/retorno no incluido. En invierno poca luz: acortar exterior y confirmar café antes 16 h. No crucero/archipiélago incluido."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Gamla Stan y el Palacio Real",
+            "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+            "stopIds": [
+              "square",
+              "cathedral",
+              "palace",
+              "riddar"
+            ],
+            "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+          },
+          {
+            "title": "Vasa y el paisaje de Djurgården",
+            "zone": "Vasa → Rosendals Trädgård → Djurgårdsbrunnsbron",
+            "stopIds": [
+              "vasa",
+              "rosendal",
+              "canal"
+            ],
+            "editorialNote": "Vasa al abrir, jardín para comer antes 14:30 si encaja. Paseo por isla sin sumar Skansen, ABBA y Nordiska Museet al mismo día. Si mal tiempo, recortar jardín/canal y elegir otra visita interior en sustitución, no añadir todo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslado a isla y pausas. Maps Vasa–Rosendal 1622 m/22 min, Rosendal–puente 1173 m/15 min; recorrido adicional ribera/retorno no incluido. En invierno poca luz: acortar exterior y confirmar café antes 16 h. No crucero/archipiélago incluido."
+          },
+          {
+            "title": "Södermalm y Fotografiska",
+            "zone": "Monteliusvägen → Mariatorget → Nytorget → Fotografiska",
+            "stopIds": [
+              "montelius",
+              "maria",
+              "nytorg",
+              "foto"
+            ],
+            "editorialNote": "Mirador con luz y sin hielo, barrio/comida a mediodía, Fotografiska después. No volver a Gamla Stan para completar pendientes ni cruzar a Östermalm como si estuviera al lado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps 471 m/6 min, 1907 m/26 min, 1883 m/25 min entre puntos; no sólo 10 min de paseo. Añadir pendientes/bajada y desvíos de obras. Si hielo evitar Montelius; fotografía sigue visita elegible con fecha."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Gamla Stan y el Palacio Real",
+            "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+            "stopIds": [
+              "square",
+              "cathedral",
+              "palace",
+              "riddar"
+            ],
+            "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Gamla Stan y el Palacio Real",
+            "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+            "stopIds": [
+              "square",
+              "cathedral",
+              "palace",
+              "riddar"
+            ],
+            "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+          },
+          {
+            "title": "Vasa y el paisaje de Djurgården",
+            "zone": "Vasa → Rosendals Trädgård → Djurgårdsbrunnsbron",
+            "stopIds": [
+              "vasa",
+              "rosendal",
+              "canal"
+            ],
+            "editorialNote": "Vasa al abrir, jardín para comer antes 14:30 si encaja. Paseo por isla sin sumar Skansen, ABBA y Nordiska Museet al mismo día. Si mal tiempo, recortar jardín/canal y elegir otra visita interior en sustitución, no añadir todo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslado a isla y pausas. Maps Vasa–Rosendal 1622 m/22 min, Rosendal–puente 1173 m/15 min; recorrido adicional ribera/retorno no incluido. En invierno poca luz: acortar exterior y confirmar café antes 16 h. No crucero/archipiélago incluido."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Gamla Stan y el Palacio Real",
+            "zone": "Stortorget → Storkyrkan → Palacio Real → Riddarholmen",
+            "stopIds": [
+              "square",
+              "cathedral",
+              "palace",
+              "riddar"
+            ],
+            "editorialNote": "Un interior largo: Palacio Real. Catedral y Nobel Museum no se suman automáticamente. Si recepción cierra palacio, volver al plan con horario real y alternativa elegida, no entrada garantizada.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, colas y pausas. Maps enlaces 105 m/1 min, 77 m/1 min, 623 m/8 min, no todo paseo de Gamla Stan/interiores. Comenzar por la mañana y entrar palacio antes de cierre según fecha."
+          },
+          {
+            "title": "Vasa y el paisaje de Djurgården",
+            "zone": "Vasa → Rosendals Trädgård → Djurgårdsbrunnsbron",
+            "stopIds": [
+              "vasa",
+              "rosendal",
+              "canal"
+            ],
+            "editorialNote": "Vasa al abrir, jardín para comer antes 14:30 si encaja. Paseo por isla sin sumar Skansen, ABBA y Nordiska Museet al mismo día. Si mal tiempo, recortar jardín/canal y elegir otra visita interior en sustitución, no añadir todo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida, traslado a isla y pausas. Maps Vasa–Rosendal 1622 m/22 min, Rosendal–puente 1173 m/15 min; recorrido adicional ribera/retorno no incluido. En invierno poca luz: acortar exterior y confirmar café antes 16 h. No crucero/archipiélago incluido."
+          },
+          {
+            "title": "Södermalm y Fotografiska",
+            "zone": "Monteliusvägen → Mariatorget → Nytorget → Fotografiska",
+            "stopIds": [
+              "montelius",
+              "maria",
+              "nytorg",
+              "foto"
+            ],
+            "editorialNote": "Mirador con luz y sin hielo, barrio/comida a mediodía, Fotografiska después. No volver a Gamla Stan para completar pendientes ni cruzar a Östermalm como si estuviera al lado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida y pausas. Maps 471 m/6 min, 1907 m/26 min, 1883 m/25 min entre puntos; no sólo 10 min de paseo. Añadir pendientes/bajada y desvíos de obras. Si hielo evitar Montelius; fotografía sigue visita elegible con fecha."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [],
+  "editorialTradeoffs": [],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": ""
+}

@@ -1,0 +1,1407 @@
+{
+  "schemaVersion": 1,
+  "country": "GB",
+  "id": "london",
+  "name": "Londres",
+  "localName": "London",
+  "selectionReason": "Una de las veinte ciudades cuya preparación confirmó el usuario el 29/10/2026.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Primera visita de 1-3 días, a ritmo de una visita interior principal por jornada. No pretende agotar Londres. Transporte, entradas y comidas no reservados.",
+  "stops": [
+    {
+      "id": "stjames",
+      "name": "St James's Park",
+      "kind": "visit",
+      "zone": "Westminster",
+      "reason": "Paseo junto al lago antes del palacio; una entrada tranquila al Londres ceremonial.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5025,
+        "lon": -0.1347
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Parque al aire libre. Acortar el paseo con lluvia o poca luz.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/stjames.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:St_James%27s_Park_Lake_%E2%80%93_East_from_the_Blue_Bridge_-_2012-10-06.jpg",
+        "author": "Colin",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "visitMode": "Parque al aire libre"
+    },
+    {
+      "id": "buckingham",
+      "name": "Palacio de Buckingham",
+      "kind": "visit",
+      "zone": "Westminster",
+      "reason": "Fachada y Victoria Memorial: el hito real del eje de Westminster.",
+      "sourceIds": [
+        "rct",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5014,
+        "lon": -0.1419
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Exterior; interiores sólo con entrada y calendario. State Rooms abren cada verano; el resto del año hay visitas especiales en fechas seleccionadas. El cambio de guardia no se celebra a diario: comprobar calendario, sin prometer ceremonia.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/buckingham.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace,_London_-_April_2009.jpg",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "visitMode": "Exterior; interiores sólo con entrada y calendario"
+    },
+    {
+      "id": "abbey",
+      "name": "Abadía de Westminster",
+      "kind": "visit",
+      "zone": "Westminster",
+      "reason": "Coronaciones y tumbas reales: el interior elegido para la jornada de Westminster.",
+      "sourceIds": [
+        "abbey",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.4994,
+        "lon": -0.1273
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 100,
+      "durationType": "editorial-estimate",
+      "caution": "Interior principal con entrada; exterior si no se entra. Visita turística lunes-viernes 9:30-15:30 y sábado 9:30-15:00 según la web consultada; domingo sólo culto. Puede cerrar por servicios: comprobar fecha y reservar franja.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/abbey.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:View_of_the_quire_of_Westminster_Abbey_from_the_nave_%5E2_-_geograph.org.uk_-_6305032.jpg",
+        "author": "Robert Lamb",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "visitMode": "Interior principal con entrada; exterior si no se entra"
+    },
+    {
+      "id": "bigben",
+      "name": "Big Ben y Parlamento",
+      "kind": "visit",
+      "zone": "Westminster",
+      "reason": "El Parlamento y la torre del reloj desde Parliament Square y el puente.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5007,
+        "lon": -0.1246
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Exterior; el plan no incluye visita al Parlamento. Puentes y plaza concurridos; no bloquear el paso para las fotos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/bigben.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Big_Ben_Elizabeth_Tower_London_2023_01.jpg",
+        "author": "Julian Herzog (Website)",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "visitMode": "Exterior; el plan no incluye visita al Parlamento"
+    },
+    {
+      "id": "eye",
+      "name": "South Bank y London Eye",
+      "kind": "visit",
+      "zone": "South Bank",
+      "reason": "La ribera frente al Parlamento permite ver el skyline sin pagar una subida.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5033,
+        "lon": -0.1195
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 45,
+      "durationType": "editorial-estimate",
+      "caution": "Paseo exterior; noria de pago opcional. La subida no está incluida en el tiempo del paseo; añadir espera y reserva si se elige, en lugar de otro interior.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/eye.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:London_Eye_at_Night_(long_exposure).JPG",
+        "author": "Martin Falbisoner",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "visitMode": "Paseo exterior; noria de pago opcional"
+    },
+    {
+      "id": "trafalgar",
+      "name": "Trafalgar Square",
+      "kind": "visit",
+      "zone": "West End",
+      "reason": "La plaza de Nelson cierra el eje peatonal junto a la National Gallery.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.508,
+        "lon": -0.1281
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Plaza; National Gallery como alternativa interior. No sumar un museo completo tras Abadía y noria. La colección de pintura puede sustituir al interior de la Abadía.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/trafalgar.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Fountain_in_Trafalgar_Square_2.jpg",
+        "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "visitMode": "Plaza; National Gallery como alternativa interior"
+    },
+    {
+      "id": "tower",
+      "name": "Torre de Londres",
+      "kind": "visit",
+      "zone": "City este",
+      "reason": "Fortaleza, historia real y Joyas de la Corona: el interior principal de esta jornada.",
+      "sourceIds": [
+        "tower",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5081,
+        "lon": -0.0759
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "Interior principal con entrada y franja. Empezar aquí para no dejar la entrada al final. La web muestra un calendario por fecha, no un horario único de invierno: comprobar el día concreto. Reservar 2-3 horas, más posibles colas de las Joyas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/tower.jpg",
+        "source": "https://www.pexels.com/photo/historic-tower-of-london-castle-walls-on-a-sunny-day-30428505/",
+        "author": "David Allen",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Interior principal con entrada y franja"
+    },
+    {
+      "id": "towerbridge",
+      "name": "Tower Bridge",
+      "kind": "visit",
+      "zone": "Támesis este",
+      "reason": "El puente de torres sobre el Támesis, visto desde la orilla y su paso peatonal.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5055,
+        "lon": -0.0754
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Exterior gratuito; exposición y pasarela alta opcionales. La exposición y la pasarela de cristal necesitan entrada y tiempo adicional; no están incluidas en el paseo.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/towerbridge.jpg",
+        "source": "https://www.pexels.com/photo/tower-bridge-in-london-10771574/",
+        "author": "David Pickup",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Exterior gratuito; exposición y pasarela alta opcionales"
+    },
+    {
+      "id": "borough",
+      "name": "Borough Market",
+      "kind": "visit",
+      "zone": "Southwark",
+      "reason": "Puestos de comida para la pausa del mediodía, entre el puente y la ribera cultural.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5055,
+        "lon": -0.0911
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Mercado y comida; gasto según puesto. Comprobar horario y puestos del día; puede haber mucha gente. No es una reserva de restaurante.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/borough.jpg",
+        "source": "https://www.pexels.com/photo/bustling-scene-at-borough-market-london-31270596/",
+        "author": "Jean-Paul Wright",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Mercado y comida; gasto según puesto"
+    },
+    {
+      "id": "tate",
+      "name": "Tate Modern y Bankside",
+      "kind": "visit",
+      "zone": "Southwark",
+      "reason": "La antigua central eléctrica y el paseo de ribera enlazan mercado y Millennium Bridge.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5076,
+        "lon": -0.0994
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Exterior; colección interior sólo como alternativa. Si se entra a una exposición o se amplía la visita, recortar otra parada. El plan principal ya dedica 2-3 horas a la Torre.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/tate.jpg",
+        "source": "https://www.pexels.com/photo/monochrome-view-of-tate-modern-in-london-35100738/",
+        "author": "Jesujoba Isaac Adedeji",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Exterior; colección interior sólo como alternativa"
+    },
+    {
+      "id": "millennium",
+      "name": "Millennium Bridge",
+      "kind": "visit",
+      "zone": "Támesis central",
+      "reason": "Cruce peatonal con la cúpula de San Pablo enfrente.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5095,
+        "lon": -0.0983
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 20,
+      "durationType": "editorial-estimate",
+      "caution": "Paso peatonal al aire libre. Puente expuesto al viento y a la lluvia.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/millennium.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:London_Millennium_Bridge_from_Saint_Paul%27s.jpg",
+        "author": "Jan Kameníček",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "visitMode": "Paso peatonal al aire libre"
+    },
+    {
+      "id": "stpaul",
+      "name": "Catedral de San Pablo",
+      "kind": "visit",
+      "zone": "City",
+      "reason": "La cúpula de Wren cierra el recorrido de ribera por el lado de la City.",
+      "sourceIds": [
+        "stpaul",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5138,
+        "lon": -0.0984
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Exterior; interior alternativo a la Torre. Visita turística de pago lunes-sábado desde 8:30; galerías desde 9:30, última entrada 16:15 según web consultada. Domingo sólo culto. Para entrar, elegirla como interior principal y recortar Torre/Tate, no llegar al final contando con acceso.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/stpaul.jpg",
+        "source": "https://www.pexels.com/photo/st-paul-s-cathedral-in-london-6638637/",
+        "author": "Daniele Gerini",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Exterior; interior alternativo a la Torre"
+    },
+    {
+      "id": "nhm",
+      "name": "Museo de Historia Natural",
+      "kind": "visit",
+      "zone": "South Kensington",
+      "reason": "Dinosaurios, minerales y el gran vestíbulo: el interior principal gratuito del oeste.",
+      "sourceIds": [
+        "nhm",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.4967,
+        "lon": -0.1764
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 150,
+      "durationType": "editorial-estimate",
+      "caution": "Interior principal; entrada general gratuita con reserva recomendada. Diario 10:00-17:50, última entrada 17:30; cerrado 24-26 diciembre. La página también enumera cierres excepcionales: comprobar fecha. Las exposiciones especiales pueden ser de pago.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/nhm.jpg",
+        "source": "https://www.pexels.com/photo/photograph-of-the-exterior-of-the-natural-history-museum-5731609/",
+        "author": "Mike Bird",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Interior principal; entrada general gratuita con reserva recomendada"
+    },
+    {
+      "id": "kensington",
+      "name": "Kensington Gardens y Albert Memorial",
+      "kind": "visit",
+      "zone": "Kensington",
+      "reason": "Paseo corto junto al Royal Albert Hall y entrada sur de los jardines, sin cruzar todo Hyde Park.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5025,
+        "lon": -0.1778
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "Paseo de jardín y monumento exterior. Con lluvia o tarde corta, ir directamente a Notting Hill en transporte. No se propone atravesar todo Hyde Park de ida y vuelta.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/kensington.jpg",
+        "source": "https://www.pexels.com/photo/albert-memorial-in-kensington-gardens-london-32666620/",
+        "author": "Bob Jenkin",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Albert Memorial, Kensington Gardens"
+      },
+      "visitMode": "Paseo de jardín y monumento exterior"
+    },
+    {
+      "id": "notting",
+      "name": "Notting Hill y Portobello Road",
+      "kind": "visit",
+      "zone": "Notting Hill",
+      "reason": "Calles residenciales, tiendas y tramos de mercado; la jornada acaba en el oeste, sin volver al centro por obligación.",
+      "sourceIds": [
+        "portobello",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5153,
+        "lon": -0.2058
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Barrio; mercado según día y temporada. Viernes y sábado funciona el mercado completo; sábados destacan antigüedades. Domingos de invierno no hay mercado callejero en Portobello/Golborne, aunque abren sectores y tiendas. Verano y domingos de diciembre cambian: confirmar edición.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/notting.jpg",
+        "source": "https://www.pexels.com/photo/front-of-a-house-in-notting-hill-london-england-9954854/",
+        "author": "Lina Sali",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Barrio; mercado según día y temporada"
+    },
+    {
+      "id": "covent",
+      "name": "Covent Garden y Soho",
+      "kind": "visit",
+      "zone": "West End",
+      "reason": "Plazas y calles de teatro para una tarde-noche opcional en el centro.",
+      "sourceIds": [
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.5118,
+        "lon": -0.1232
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 90,
+      "durationType": "editorial-estimate",
+      "caution": "Barrio exterior, extensión opcional. Desde Notting Hill Gate a Covent Garden: 21 min en transporte según Maps 29/10/2026, más el paseo hasta la estación. No es una cuarta visita obligatoria al final del día. Arôme Mercer Street cierra antes de la noche.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/london/covent.jpg",
+        "source": "https://www.pexels.com/photo/covent-garden-market-in-london-with-colorful-flowers-35375959/",
+        "author": "Felix-Antoine Coutu",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/"
+      },
+      "visitMode": "Barrio exterior, extensión opcional"
+    },
+    {
+      "id": "windsor",
+      "name": "Windsor y su castillo",
+      "kind": "excursion",
+      "zone": "Fuera de Londres",
+      "reason": "Castillo real y paseo por Windsor, sustituyendo una jornada de Londres.",
+      "sourceIds": [
+        "windsor",
+        "windsortimes",
+        "windsortrain"
+      ],
+      "coordinates": {
+        "lat": 51.4839,
+        "lon": -0.6044
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 420,
+      "durationType": "editorial-estimate",
+      "caution": "El calendario RCT 2026 abre de jueves a lunes, con excepciones: martes 22 y 29/12/2026 sí abre. Martes y miércoles normalmente cerrado. No aplicar las excepciones de 2026 a otro año; comprobar fecha en RCT.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Castillo con entrada y franja; paseo por el pueblo. No se acumula con el día urbano.",
+      "photo": {
+        "img": "assets/london/windsor.jpg",
+        "source": "https://www.pexels.com/photo/windsor-castle-round-tower-under-blue-sky-29562533/",
+        "author": "Nelemson G",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Majestic Windsor Castle's Round Tower amidst lush greenery on a sunny day. Stock Photo"
+      }
+    },
+    {
+      "id": "greenwich",
+      "name": "Greenwich y el parque",
+      "kind": "excursion",
+      "zone": "Este de Londres",
+      "reason": "Barrio marítimo y parque al este; alternativa a una jornada urbana, no añadido automático.",
+      "sourceIds": [
+        "boat",
+        "vc",
+        "mm"
+      ],
+      "coordinates": {
+        "lat": 51.481,
+        "lon": -0.009
+      },
+      "coordinateSource": null,
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 330,
+      "durationType": "editorial-estimate",
+      "caution": "El selector reemplaza todo el día aunque el paseo pueda ocupar medio día. La subida al parque tiene pendiente y el tiempo condiciona las vistas; no se incluyen entradas.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "visitMode": "Paseo por la ribera y parque; Observatorio y Cutty Sark son interiores opcionales de pago, elegir uno.",
+      "photo": {
+        "img": "assets/london/greenwich.jpg",
+        "source": "https://www.pexels.com/photo/colonnade-of-the-old-royal-naval-college-20870609/",
+        "author": "Rita K",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Black and white view of the elegant colonnade at the Old Royal Naval College, Greenwich, England. Stock Photo"
+      }
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Westminster y la ribera",
+          "zone": "St James → Westminster → South Bank → Trafalgar",
+          "stopIds": [
+            "stjames",
+            "buckingham",
+            "abbey",
+            "bigben",
+            "eye",
+            "trafalgar"
+          ],
+          "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Westminster y la ribera",
+          "zone": "St James → Westminster → South Bank → Trafalgar",
+          "stopIds": [
+            "stjames",
+            "buckingham",
+            "abbey",
+            "bigben",
+            "eye",
+            "trafalgar"
+          ],
+          "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+        },
+        {
+          "title": "Torre primero, mercado y Támesis",
+          "zone": "Torre → Tower Bridge → Borough → Bankside → City",
+          "stopIds": [
+            "tower",
+            "towerbridge",
+            "borough",
+            "tate",
+            "millennium",
+            "stpaul"
+          ],
+          "editorialNote": "Empezar con la Torre y reservar 2-3 horas. Cruzar Tower Bridge, comer en Borough y seguir por Bankside a Millennium Bridge y San Pablo. Tate y San Pablo son exteriores en esta propuesta; para entrar en alguno hay que sustituir el interior de la Torre o reducir el día.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "Unas 7-8 h con Torre y comida. Enlaces medidos a pie (Maps 29/10/2026): 5 + 14 + 12 + 4 + 4 min; distancias redondeadas 0,4 + 1,0 + 0,9 + 0,3 + 0,3 km. Las colas y visitas no están incluidas."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Westminster y la ribera",
+          "zone": "St James → Westminster → South Bank → Trafalgar",
+          "stopIds": [
+            "stjames",
+            "buckingham",
+            "abbey",
+            "bigben",
+            "eye",
+            "trafalgar"
+          ],
+          "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+        },
+        {
+          "title": "Torre primero, mercado y Támesis",
+          "zone": "Torre → Tower Bridge → Borough → Bankside → City",
+          "stopIds": [
+            "tower",
+            "towerbridge",
+            "borough",
+            "tate",
+            "millennium",
+            "stpaul"
+          ],
+          "editorialNote": "Empezar con la Torre y reservar 2-3 horas. Cruzar Tower Bridge, comer en Borough y seguir por Bankside a Millennium Bridge y San Pablo. Tate y San Pablo son exteriores en esta propuesta; para entrar en alguno hay que sustituir el interior de la Torre o reducir el día.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "Unas 7-8 h con Torre y comida. Enlaces medidos a pie (Maps 29/10/2026): 5 + 14 + 12 + 4 + 4 min; distancias redondeadas 0,4 + 1,0 + 0,9 + 0,3 + 0,3 km. Las colas y visitas no están incluidas."
+        },
+        {
+          "title": "Museo y barrios del oeste",
+          "zone": "South Kensington → Kensington Gardens → Notting Hill",
+          "stopIds": [
+            "nhm",
+            "kensington",
+            "notting"
+          ],
+          "editorialNote": "NHM por la mañana, comida y un paseo corto por Kensington Gardens antes de Notting Hill. No atravesar Hyde Park completo. Covent Garden/Soho queda como extensión nocturna, no como cuarta zona obligatoria. Ajustar el orden al mercado: para antigüedades el sábado, Portobello primero y NHM por la tarde con franja.",
+          "optionalStopIds": [
+            "covent"
+          ],
+          "geographyChecks": [],
+          "pacing": "Unas 6-7 h con comida. NHM→Albert Memorial 0,7 km/10 min; Memorial→Portobello 2,5 km/34 min a pie (Maps 29/10/2026). Puede usarse transporte para acortar."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Jardines más largos y mucha demanda: reservar interiores. Buckingham sólo si el calendario anual ofrece entrada; no fijar fechas de otra edición.",
+      "sourceIds": [
+        "nhm",
+        "bm",
+        "rct",
+        "portobello"
+      ],
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Poca luz: NHM por la mañana, jardín corto o suprimido según tiempo y Notting Hill temprano. No prometer el mercado callejero un domingo invernal.",
+      "sourceIds": [
+        "nhm",
+        "bm",
+        "rct",
+        "portobello"
+      ],
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "NHM y British Museum cierran 24-26 diciembre. Consultar transporte y aperturas especiales antes de elegir días; no dar por hecho que el 25/12 funciona el plan. Luces y mercados cambian de fecha por edición.",
+      "sourceIds": [
+        "nhm",
+        "bm",
+        "rct",
+        "portobello"
+      ],
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Paseos entre barrios con capa de lluvia; mantener un solo interior principal y usar el jardín según luz y tiempo.",
+      "sourceIds": [
+        "nhm",
+        "bm",
+        "rct",
+        "portobello"
+      ],
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Los días son temáticos, no fechas concretas: reordenar según aperturas, mercado y franjas.",
+    "Domingo la Abadía y San Pablo no abren al turismo; NHM/British Museum cierran 24-26 diciembre. Verificar servicios extraordinarios y transporte del día.",
+    "Medidas Maps fechadas 29/10/2026: no equivalen a horarios futuros ni a accesibilidad verificada."
+  ],
+  "excludedOrOptional": [
+    "British Museum: alternativa al NHM como museo principal si interesa historia y arqueología; no acumulado con la Torre ni añadido al final de Camden. Reserva gratuita recomendada y cierre 24-26 diciembre según web propia.",
+    "Covent Garden/Soho: extensión opcional tras el oeste, con metro; no forma parte de la carga obligatoria del día 3.",
+    "Camden y Primrose Hill: alternativa norte documentada en Qué hacer, no mezclada con Torre/Tower Bridge en el mismo día.",
+    "London Eye, pasarela alta de Tower Bridge y State Rooms: interiores de pago opcionales que sustituyen tiempo de otras visitas; no incluidos como reservas."
+  ],
+  "sources": [
+    {
+      "id": "vc",
+      "title": "Viajeros Callejeros: Londres en tres días",
+      "url": "https://www.viajeroscallejeros.com/londres-en-3-dias/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "mm",
+      "title": "Mochileando: tres días en Londres",
+      "url": "https://www.mochileandoporelmundo.com/3-dias-en-londres-el-mejor-itinerario/",
+      "type": "traveller-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "abbey",
+      "title": "Westminster Abbey: preparar visita",
+      "url": "https://www.westminster-abbey.org/visit-us/plan-your-visit",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "rct",
+      "title": "Buckingham Palace: State Rooms",
+      "url": "https://www.rct.uk/visit/the-state-rooms-buckingham-palace",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "stpaul",
+      "title": "St Paul: información de visita",
+      "url": "https://www.stpauls.co.uk/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "tower",
+      "title": "Torre: calendario de aperturas",
+      "url": "https://www.hrp.org.uk/tower-of-london/visit/opening-and-closing-times/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "nhm",
+      "title": "Natural History Museum: visita",
+      "url": "https://www.nhm.ac.uk/visit.html",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "bm",
+      "title": "British Museum: visita",
+      "url": "https://www.britishmuseum.org/visit",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "portobello",
+      "title": "Portobello: días y sectores del mercado",
+      "url": "https://visitportobello.com/where/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "sky",
+      "title": "Sky Garden: entradas",
+      "url": "https://skygarden.london/booking/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "windsor",
+      "title": "Windsor Castle",
+      "url": "https://www.rct.uk/visit/windsor-castle",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "windsortimes",
+      "title": "RCT: aperturas y cierres 2026",
+      "url": "https://media.rct.uk/sites/default/files/2026-06/01-07-2026%20Opening%20times%20and%20closure%20list.pdf",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "windsortrain",
+      "title": "Windsor: llegar en tren",
+      "url": "https://www.windsor.gov.uk/visitor-information/travel-information/getting-here/by-train",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "boat",
+      "title": "Uber Boat: mapa de servicio",
+      "url": "https://www.thamesclippers.com/plan-your-journey/route-map",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {
+    "summer": {
+      "mode": "editorial",
+      "note": "Jardines más largos y mucha demanda: reservar interiores. Buckingham sólo si el calendario anual ofrece entrada; no fijar fechas de otra edición."
+    },
+    "winter": {
+      "mode": "editorial",
+      "note": "Poca luz: NHM por la mañana, jardín corto o suprimido según tiempo y Notting Hill temprano. No prometer el mercado callejero un domingo invernal."
+    },
+    "christmas": {
+      "mode": "editorial",
+      "note": "NHM y British Museum cierran 24-26 diciembre. Consultar transporte y aperturas especiales antes de elegir días; no dar por hecho que el 25/12 funciona el plan. Luces y mercados cambian de fecha por edición."
+    },
+    "springAutumn": {
+      "mode": "editorial",
+      "note": "Paseos entre barrios con capa de lluvia; mantener un solo interior principal y usar el jardín según luz y tiempo."
+    }
+  },
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Westminster y la ribera",
+            "zone": "St James → Westminster → South Bank → Trafalgar",
+            "stopIds": [
+              "stjames",
+              "buckingham",
+              "abbey",
+              "bigben",
+              "eye",
+              "trafalgar"
+            ],
+            "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Westminster y la ribera",
+            "zone": "St James → Westminster → South Bank → Trafalgar",
+            "stopIds": [
+              "stjames",
+              "buckingham",
+              "abbey",
+              "bigben",
+              "eye",
+              "trafalgar"
+            ],
+            "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+          },
+          {
+            "title": "Torre primero, mercado y Támesis",
+            "zone": "Torre → Tower Bridge → Borough → Bankside → City",
+            "stopIds": [
+              "tower",
+              "towerbridge",
+              "borough",
+              "tate",
+              "millennium",
+              "stpaul"
+            ],
+            "editorialNote": "Empezar con la Torre y reservar 2-3 horas. Cruzar Tower Bridge, comer en Borough y seguir por Bankside a Millennium Bridge y San Pablo. Tate y San Pablo son exteriores en esta propuesta; para entrar en alguno hay que sustituir el interior de la Torre o reducir el día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 7-8 h con Torre y comida. Enlaces medidos a pie (Maps 29/10/2026): 5 + 14 + 12 + 4 + 4 min; distancias redondeadas 0,4 + 1,0 + 0,9 + 0,3 + 0,3 km. Las colas y visitas no están incluidas."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Westminster y la ribera",
+            "zone": "St James → Westminster → South Bank → Trafalgar",
+            "stopIds": [
+              "stjames",
+              "buckingham",
+              "abbey",
+              "bigben",
+              "eye",
+              "trafalgar"
+            ],
+            "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+          },
+          {
+            "title": "Torre primero, mercado y Támesis",
+            "zone": "Torre → Tower Bridge → Borough → Bankside → City",
+            "stopIds": [
+              "tower",
+              "towerbridge",
+              "borough",
+              "tate",
+              "millennium",
+              "stpaul"
+            ],
+            "editorialNote": "Empezar con la Torre y reservar 2-3 horas. Cruzar Tower Bridge, comer en Borough y seguir por Bankside a Millennium Bridge y San Pablo. Tate y San Pablo son exteriores en esta propuesta; para entrar en alguno hay que sustituir el interior de la Torre o reducir el día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 7-8 h con Torre y comida. Enlaces medidos a pie (Maps 29/10/2026): 5 + 14 + 12 + 4 + 4 min; distancias redondeadas 0,4 + 1,0 + 0,9 + 0,3 + 0,3 km. Las colas y visitas no están incluidas."
+          },
+          {
+            "title": "Museo y barrios del oeste",
+            "zone": "South Kensington → Kensington Gardens → Notting Hill",
+            "stopIds": [
+              "nhm",
+              "kensington",
+              "notting"
+            ],
+            "editorialNote": "NHM por la mañana, comida y un paseo corto por Kensington Gardens antes de Notting Hill. No atravesar Hyde Park completo. Covent Garden/Soho queda como extensión nocturna, no como cuarta zona obligatoria. Ajustar el orden al mercado: para antigüedades el sábado, Portobello primero y NHM por la tarde con franja.",
+            "optionalStopIds": [
+              "covent"
+            ],
+            "geographyChecks": [],
+            "pacing": "Unas 6-7 h con comida. NHM→Albert Memorial 0,7 km/10 min; Memorial→Portobello 2,5 km/34 min a pie (Maps 29/10/2026). Puede usarse transporte para acortar."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Westminster y la ribera",
+            "zone": "St James → Westminster → South Bank → Trafalgar",
+            "stopIds": [
+              "stjames",
+              "buckingham",
+              "abbey",
+              "bigben",
+              "eye",
+              "trafalgar"
+            ],
+            "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Westminster y la ribera",
+            "zone": "St James → Westminster → South Bank → Trafalgar",
+            "stopIds": [
+              "stjames",
+              "buckingham",
+              "abbey",
+              "bigben",
+              "eye",
+              "trafalgar"
+            ],
+            "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+          },
+          {
+            "title": "Torre primero, mercado y Támesis",
+            "zone": "Torre → Tower Bridge → Borough → Bankside → City",
+            "stopIds": [
+              "tower",
+              "towerbridge",
+              "borough",
+              "tate",
+              "millennium",
+              "stpaul"
+            ],
+            "editorialNote": "Empezar con la Torre y reservar 2-3 horas. Cruzar Tower Bridge, comer en Borough y seguir por Bankside a Millennium Bridge y San Pablo. Tate y San Pablo son exteriores en esta propuesta; para entrar en alguno hay que sustituir el interior de la Torre o reducir el día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 7-8 h con Torre y comida. Enlaces medidos a pie (Maps 29/10/2026): 5 + 14 + 12 + 4 + 4 min; distancias redondeadas 0,4 + 1,0 + 0,9 + 0,3 + 0,3 km. Las colas y visitas no están incluidas."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Westminster y la ribera",
+            "zone": "St James → Westminster → South Bank → Trafalgar",
+            "stopIds": [
+              "stjames",
+              "buckingham",
+              "abbey",
+              "bigben",
+              "eye",
+              "trafalgar"
+            ],
+            "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+          },
+          {
+            "title": "Torre primero, mercado y Támesis",
+            "zone": "Torre → Tower Bridge → Borough → Bankside → City",
+            "stopIds": [
+              "tower",
+              "towerbridge",
+              "borough",
+              "tate",
+              "millennium",
+              "stpaul"
+            ],
+            "editorialNote": "Empezar con la Torre y reservar 2-3 horas. Cruzar Tower Bridge, comer en Borough y seguir por Bankside a Millennium Bridge y San Pablo. Tate y San Pablo son exteriores en esta propuesta; para entrar en alguno hay que sustituir el interior de la Torre o reducir el día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 7-8 h con Torre y comida. Enlaces medidos a pie (Maps 29/10/2026): 5 + 14 + 12 + 4 + 4 min; distancias redondeadas 0,4 + 1,0 + 0,9 + 0,3 + 0,3 km. Las colas y visitas no están incluidas."
+          },
+          {
+            "title": "Museo y barrios del oeste",
+            "zone": "South Kensington → Kensington Gardens → Notting Hill",
+            "stopIds": [
+              "nhm",
+              "notting"
+            ],
+            "editorialNote": "NHM por la mañana y Notting Hill a primera hora de la tarde; jardín y Covent/Soho opcionales según luz, lluvia y energía. Revisar mercado del día. En Navidad NHM cierra 24-26/12: cambiar fecha o elegir una jornada exterior con aperturas comprobadas.",
+            "optionalStopIds": [
+              "kensington",
+              "covent"
+            ],
+            "geographyChecks": [],
+            "pacing": "Unas 5-6 h con comida y transporte; no se impone el jardín con poca luz."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Westminster y la ribera",
+            "zone": "St James → Westminster → South Bank → Trafalgar",
+            "stopIds": [
+              "stjames",
+              "buckingham",
+              "abbey",
+              "bigben",
+              "eye",
+              "trafalgar"
+            ],
+            "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Westminster y la ribera",
+            "zone": "St James → Westminster → South Bank → Trafalgar",
+            "stopIds": [
+              "stjames",
+              "buckingham",
+              "abbey",
+              "bigben",
+              "eye",
+              "trafalgar"
+            ],
+            "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+          },
+          {
+            "title": "Torre primero, mercado y Támesis",
+            "zone": "Torre → Tower Bridge → Borough → Bankside → City",
+            "stopIds": [
+              "tower",
+              "towerbridge",
+              "borough",
+              "tate",
+              "millennium",
+              "stpaul"
+            ],
+            "editorialNote": "Empezar con la Torre y reservar 2-3 horas. Cruzar Tower Bridge, comer en Borough y seguir por Bankside a Millennium Bridge y San Pablo. Tate y San Pablo son exteriores en esta propuesta; para entrar en alguno hay que sustituir el interior de la Torre o reducir el día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 7-8 h con Torre y comida. Enlaces medidos a pie (Maps 29/10/2026): 5 + 14 + 12 + 4 + 4 min; distancias redondeadas 0,4 + 1,0 + 0,9 + 0,3 + 0,3 km. Las colas y visitas no están incluidas."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Westminster y la ribera",
+            "zone": "St James → Westminster → South Bank → Trafalgar",
+            "stopIds": [
+              "stjames",
+              "buckingham",
+              "abbey",
+              "bigben",
+              "eye",
+              "trafalgar"
+            ],
+            "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+          },
+          {
+            "title": "Torre primero, mercado y Támesis",
+            "zone": "Torre → Tower Bridge → Borough → Bankside → City",
+            "stopIds": [
+              "tower",
+              "towerbridge",
+              "borough",
+              "tate",
+              "millennium",
+              "stpaul"
+            ],
+            "editorialNote": "Empezar con la Torre y reservar 2-3 horas. Cruzar Tower Bridge, comer en Borough y seguir por Bankside a Millennium Bridge y San Pablo. Tate y San Pablo son exteriores en esta propuesta; para entrar en alguno hay que sustituir el interior de la Torre o reducir el día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 7-8 h con Torre y comida. Enlaces medidos a pie (Maps 29/10/2026): 5 + 14 + 12 + 4 + 4 min; distancias redondeadas 0,4 + 1,0 + 0,9 + 0,3 + 0,3 km. Las colas y visitas no están incluidas."
+          },
+          {
+            "title": "Museo y barrios del oeste",
+            "zone": "South Kensington → Kensington Gardens → Notting Hill",
+            "stopIds": [
+              "nhm",
+              "notting"
+            ],
+            "editorialNote": "NHM por la mañana y Notting Hill a primera hora de la tarde; jardín y Covent/Soho opcionales según luz, lluvia y energía. Revisar mercado del día. En Navidad NHM cierra 24-26/12: cambiar fecha o elegir una jornada exterior con aperturas comprobadas.",
+            "optionalStopIds": [
+              "kensington",
+              "covent"
+            ],
+            "geographyChecks": [],
+            "pacing": "Unas 5-6 h con comida y transporte; no se impone el jardín con poca luz."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Westminster y la ribera",
+            "zone": "St James → Westminster → South Bank → Trafalgar",
+            "stopIds": [
+              "stjames",
+              "buckingham",
+              "abbey",
+              "bigben",
+              "eye",
+              "trafalgar"
+            ],
+            "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Westminster y la ribera",
+            "zone": "St James → Westminster → South Bank → Trafalgar",
+            "stopIds": [
+              "stjames",
+              "buckingham",
+              "abbey",
+              "bigben",
+              "eye",
+              "trafalgar"
+            ],
+            "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+          },
+          {
+            "title": "Torre primero, mercado y Támesis",
+            "zone": "Torre → Tower Bridge → Borough → Bankside → City",
+            "stopIds": [
+              "tower",
+              "towerbridge",
+              "borough",
+              "tate",
+              "millennium",
+              "stpaul"
+            ],
+            "editorialNote": "Empezar con la Torre y reservar 2-3 horas. Cruzar Tower Bridge, comer en Borough y seguir por Bankside a Millennium Bridge y San Pablo. Tate y San Pablo son exteriores en esta propuesta; para entrar en alguno hay que sustituir el interior de la Torre o reducir el día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 7-8 h con Torre y comida. Enlaces medidos a pie (Maps 29/10/2026): 5 + 14 + 12 + 4 + 4 min; distancias redondeadas 0,4 + 1,0 + 0,9 + 0,3 + 0,3 km. Las colas y visitas no están incluidas."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Westminster y la ribera",
+            "zone": "St James → Westminster → South Bank → Trafalgar",
+            "stopIds": [
+              "stjames",
+              "buckingham",
+              "abbey",
+              "bigben",
+              "eye",
+              "trafalgar"
+            ],
+            "editorialNote": "Un eje a pie, con la Abadía como único interior principal. Buckingham y London Eye se ven por fuera. Si la Abadía cierra al turismo (domingo o servicio), cambiar esta jornada o elegir National Gallery en su lugar. No fijar el recorrido al cambio de guardia: su calendario varía.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 6-8 h con comida y Abadía; unos 3,8 km de enlaces a pie (Maps 29/10/2026), sin contar paseos dentro de parques ni colas."
+          },
+          {
+            "title": "Torre primero, mercado y Támesis",
+            "zone": "Torre → Tower Bridge → Borough → Bankside → City",
+            "stopIds": [
+              "tower",
+              "towerbridge",
+              "borough",
+              "tate",
+              "millennium",
+              "stpaul"
+            ],
+            "editorialNote": "Empezar con la Torre y reservar 2-3 horas. Cruzar Tower Bridge, comer en Borough y seguir por Bankside a Millennium Bridge y San Pablo. Tate y San Pablo son exteriores en esta propuesta; para entrar en alguno hay que sustituir el interior de la Torre o reducir el día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "Unas 7-8 h con Torre y comida. Enlaces medidos a pie (Maps 29/10/2026): 5 + 14 + 12 + 4 + 4 min; distancias redondeadas 0,4 + 1,0 + 0,9 + 0,3 + 0,3 km. Las colas y visitas no están incluidas."
+          },
+          {
+            "title": "Museo y barrios del oeste",
+            "zone": "South Kensington → Kensington Gardens → Notting Hill",
+            "stopIds": [
+              "nhm",
+              "kensington",
+              "notting"
+            ],
+            "editorialNote": "NHM por la mañana, comida y un paseo corto por Kensington Gardens antes de Notting Hill. No atravesar Hyde Park completo. Covent Garden/Soho queda como extensión nocturna, no como cuarta zona obligatoria. Ajustar el orden al mercado: para antigüedades el sábado, Portobello primero y NHM por la tarde con franja.",
+            "optionalStopIds": [
+              "covent"
+            ],
+            "geographyChecks": [],
+            "pacing": "Unas 6-7 h con comida. NHM→Albert Memorial 0,7 km/10 min; Memorial→Portobello 2,5 km/34 min a pie (Maps 29/10/2026). Puede usarse transporte para acortar."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [
+    {
+      "id": "windsor",
+      "name": "Windsor y su castillo",
+      "zone": "Fuera de Londres",
+      "lat": 51.4839,
+      "lon": -0.6044,
+      "minutes": 420,
+      "sourceIds": [
+        "windsor",
+        "windsortimes",
+        "windsortrain"
+      ],
+      "priority": "Excursión de jornada propia",
+      "reason": "Castillo real y paseo por Windsor, sustituyendo una jornada de Londres.",
+      "visit": "Castillo con entrada y franja; paseo por el pueblo. No se acumula con el día urbano.",
+      "transport": "Paddington→Windsor & Eton Central, aproximadamente 35 min con cambio en Slough según turismo de Windsor; Waterloo→Riverside, unos 55 min directo. Son tiempos de tren, no puerta a puerta. Confirmar conexiones y billete; Oyster no cubre Windsor.",
+      "pacing": "6-8 h con ida, visita, comida y vuelta: estimación editorial.",
+      "caution": "El calendario RCT 2026 abre de jueves a lunes, con excepciones: martes 22 y 29/12/2026 sí abre. Martes y miércoles normalmente cerrado. No aplicar las excepciones de 2026 a otro año; comprobar fecha en RCT.",
+      "url": "https://www.rct.uk/visit/windsor-castle",
+      "closedMonthDays": [],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "reviewedAt": "2026-10-29",
+      "kind": "excursion",
+      "access": "https://www.rct.uk/visit/windsor-castle",
+      "photo": {
+        "img": "assets/london/windsor.jpg",
+        "source": "https://www.pexels.com/photo/windsor-castle-round-tower-under-blue-sky-29562533/",
+        "author": "Nelemson G",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Majestic Windsor Castle's Round Tower amidst lush greenery on a sunny day. Stock Photo"
+      }
+    },
+    {
+      "id": "greenwich",
+      "name": "Greenwich y el parque",
+      "zone": "Este de Londres",
+      "lat": 51.481,
+      "lon": -0.009,
+      "minutes": 330,
+      "sourceIds": [
+        "boat",
+        "vc",
+        "mm"
+      ],
+      "priority": "Medio día largo o jornada tranquila",
+      "reason": "Barrio marítimo y parque al este; alternativa a una jornada urbana, no añadido automático.",
+      "visit": "Paseo por la ribera y parque; Observatorio y Cutty Sark son interiores opcionales de pago, elegir uno.",
+      "transport": "DLR desde Bank hacia Cutty Sark; el horario TfL consultado muestra un ejemplo de 21 min. Confirmar servicio y obras para la fecha. Barco como alternativa: tarifa y frecuencia dependen del operador y muelle.",
+      "pacing": "4-6 h con traslado, paseo y comida; más si se elige un interior.",
+      "caution": "El selector reemplaza todo el día aunque el paseo pueda ocupar medio día. La subida al parque tiene pendiente y el tiempo condiciona las vistas; no se incluyen entradas.",
+      "url": "https://www.thamesclippers.com/plan-your-journey/route-map",
+      "closedMonthDays": [],
+      "closedDates": [],
+      "closedEasterOffsets": [],
+      "reviewedAt": "2026-10-29",
+      "kind": "excursion",
+      "access": "https://www.thamesclippers.com/plan-your-journey/route-map",
+      "photo": {
+        "img": "assets/london/greenwich.jpg",
+        "source": "https://www.pexels.com/photo/colonnade-of-the-old-royal-naval-college-20870609/",
+        "author": "Rita K",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Black and white view of the elegant colonnade at the Old Royal Naval College, Greenwich, England. Stock Photo"
+      }
+    }
+  ],
+  "editorialAudit": [
+    "29/10/2026: dos guías contrastadas con fuentes propietarias; la propuesta de las guías no se copia como ruta.",
+    "29/10/2026: Torre movida al inicio para no depender de llegar antes del cierre; San Pablo y Tate explícitamente exteriores/alternativos.",
+    "29/10/2026: corregida etiqueta errónea del borrador anterior: 50/53/61 min eran a pie, no metro; mediciones nuevas para el recorrido final."
+  ],
+  "editorialTradeoffs": [
+    "Se elige NHM para la jornada oeste y se conserva British Museum como alternativa con identidad propia, no como interior añadido.",
+    "El día 3 acaba en Notting Hill: se quita la obligación de volver a Covent Garden de noche."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "VC combina norte y este en su tercer día; Mochileando también mezcla barrios distantes. Se separan Westminster, Torre/ribera y oeste, priorizando aperturas y un solo interior principal."
+}

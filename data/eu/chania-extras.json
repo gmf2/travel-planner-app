@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "cityId": "chania",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "iordanis",
+      "name": "Bougatsa Iordanis · queso local para desayunar",
+      "address": "Apokoronou 24",
+      "description": "Desayuno al sur del casco antes de empezar el paseo, no una tarta de crema intercambiable con cualquier otra ciudad.",
+      "strength": "National Geographic (mayo de 2026) visita el obrador y destaca la masa manual y el pichtogalo de Chania, queso ligeramente ácido. La web propia confirma esa versión y una crema vegana distinta.",
+      "caution": "Web propia: lunes-sábado 6-14:30, domingo 6-13:30. Precio de mostrador no publicado ni confirmado: no usar 3,50€ de reseña como tarifa actual. Café aparte. Hay mesas descritas por National Geographic y opción para llevar, no solo de pie ni solo efectivo por afirmación de guía. Queso con lácteos; crema vegana anunciada por operador, confirmar ingredientes y contaminación cruzada si hay alergia. Foto de bougatsa en Chania sin autoría de local probada, no presentación actual garantizada.",
+      "alert": "Web propia: lunes-sábado 6-14:30, domingo 6-13:30. Precio de mostrador no publicado ni confirmado: no usar 3,50€ de reseña como tarifa actual. Café aparte. Hay mesas descritas por National Geographic y opción para llevar, no solo de pie ni solo efectivo por afirmación de guía. Queso con lácteos; crema vegana anunciada por operador, confirmar ingredientes y contaminación cruzada si hay alergia. Foto de bougatsa en Chania sin autoría de local probada, no presentación actual garantizada.",
+      "priceLabel": "Precio de mostrador por confirmar",
+      "photo": {
+        "img": "assets/chania/iordanis.jpg",
+        "source": "https://www.flickr.com/photos/lrosa/50862394828/",
+        "author": "Luigi Rosa",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Bougatsa de Chania de archivo; no acredita que sea de Iordanis ni su receta o presentación actual. Recorte de presentación."
+      },
+      "officialUrl": "https://iordanis.gr/en/",
+      "sourceIds": [
+        "iordanis",
+        "natgeo"
+      ],
+      "sourceUrls": [
+        "https://iordanis.gr/en/",
+        "https://www.nationalgeographic.com/travel/article/a-food-guide-to-chania-crete"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bougatsa+Iordanis&query_place_id=ChIJ3XuYG759nBQRy1RcgP_KhE8",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y web actuales contrastadas; sin reserva."
+    },
+    {
+      "id": "chrisostomos",
+      "name": "Chrisostomos · horno y cocina de Sfakia",
+      "address": "Defkalionos con Ikarou / junto al aparcamiento oriental",
+      "description": "Una comida cretense de verdad cerca de los arsenales, con carne, verduras y masa al horno; no paga una supuesta mesa colgada sobre el mar.",
+      "strength": "FlagInLife (agosto de 2025) destaca pan de horno con anthogalo, hojas rellenas, cordero tsigariasto y ternera con pasta. La cocina de Sfakia tiene pruebas concretas, no solo puntuación de agregador.",
+      "caution": "Carta oficial consultada 30/10/2026 sin fecha de actualización: boureki 9€, gallo con pasta 13€, conejo 14€, cordero tsigariasto 15,50€, ofto de 500 g 25€, pulpo 23€. Son precios publicados, confirmar en mesa. Crítica 2025 orienta 15-25€/persona sin bebida, no total actual garantizado. Operador lunes y miércoles-domingo 13-23:45, martes cerrado. La gemista lleva yogur y el boureki queso; no suponer que un plato vegetal sea vegano. Preguntar pan, suplementos y disponibilidad del día. Sin reserva. Foto de otra cocina.",
+      "alert": "Carta oficial consultada 30/10/2026 sin fecha de actualización: boureki 9€, gallo con pasta 13€, conejo 14€, cordero tsigariasto 15,50€, ofto de 500 g 25€, pulpo 23€. Son precios publicados, confirmar en mesa. Crítica 2025 orienta 15-25€/persona sin bebida, no total actual garantizado. Operador lunes y miércoles-domingo 13-23:45, martes cerrado. La gemista lleva yogur y el boureki queso; no suponer que un plato vegetal sea vegano. Preguntar pan, suplementos y disponibilidad del día. Sin reserva. Foto de otra cocina.",
+      "priceLabel": "Carta publicada: principales 9-25€ · bebida aparte",
+      "photo": {
+        "img": "assets/zadar/pet.jpg",
+        "source": "https://www.flickr.com/photos/gemsling/945508815/",
+        "author": "Nathan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Cordero de otra cocina, no Chrisostomos ni su receta, porción o presentación. Recorte de presentación."
+      },
+      "officialUrl": "https://chrisostomos.gr/en/menu/",
+      "sourceIds": [
+        "chrismenu",
+        "chrisabout",
+        "chriscritic"
+      ],
+      "sourceUrls": [
+        "https://chrisostomos.gr/en/menu/",
+        "https://chrisostomos.gr/en/about-us/",
+        "https://flaginlife.gr/chrysostomos-leventis-dyo-gefseis-mia-kriti/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chrisostomos&query_place_id=ChIJx1E97bh9nBQRFzJrnEWy074",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y web actuales contrastadas; sin reserva."
+    }
+  ],
+  "activities": []
+}

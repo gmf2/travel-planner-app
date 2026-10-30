@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "cityId": "turin",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "scannabue",
+      "name": "Scannabue · cocina piamontesa",
+      "address": "Largo Saluzzo, 25/h, 10125 Torino TO, Italy",
+      "description": "Mesa de cocina regional en San Salvario, una cena aparte en vez de confundirla con un restaurante junto al palacio.",
+      "strength": "Vitello tonnato, agnolotti del plin y carrillera al Barbera; Michelin destaca coniglio y carrillera.",
+      "caution": "Menú tradición 42,50€ por persona mínimo 2; con división 52,50€ en múltiplos de 2, bebidas/otros cargos confirmar. No es menú para 1 ni precio de toda la carta. Coperto incluye pan/agua microfiltrada según carta. Horario directorios 12:15-14:15, cena 19:30-22:15/22:30 discrepante, confirmar turno oficial, reserva solo válida con email. Foto vitello de otro lugar.",
+      "alert": "Menú tradición 42,50€ por persona mínimo 2; con división 52,50€ en múltiplos de 2, bebidas/otros cargos confirmar. No es menú para 1 ni precio de toda la carta. Coperto incluye pan/agua microfiltrada según carta. Horario directorios 12:15-14:15, cena 19:30-22:15/22:30 discrepante, confirmar turno oficial, reserva solo válida con email. Foto vitello de otro lugar.",
+      "priceLabel": "Tradición 42,50€/persona · mínimo 2",
+      "photo": {
+        "img": "assets/turin/scannabue.jpg",
+        "source": "https://www.flickr.com/photos/cyclonebill/14678776345/",
+        "author": "cyclonebill",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Vitello tonnato ilustrativo de otro autor/lugar, no Scannabue ni su plato actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.scannabue.it/menu/",
+      "sourceUrls": [
+        "https://www.scannabue.it/menu/",
+        "https://www.scannabue.it/prenotazioni/",
+        "https://guide.michelin.com/us/en/piemonte/torino/restaurant/scannabue-caffe-restaurant",
+        "https://www.opentable.it/r/scannabue-torino"
+      ],
+      "sourceIds": [
+        "scannabue",
+        "scannabook",
+        "scannacritic",
+        "scannadirectory"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Scannabue&query_place_id=ChIJ4YaFL0JtiEcRY2C-6YgMqWk",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y carta contrastadas, sin reserva ni apertura futura garantizadas."
+    },
+    {
+      "id": "bicerin",
+      "name": "Caffè Al Bicerin · Consolata",
+      "address": "Piazza della Consolata, 5, 10122 Torino TO, Italy",
+      "description": "Pausa dulce de café y chocolate frente a la Consolata, no sustituto de una comida ni bebida alcohólica obligatoria.",
+      "strength": "Bicerin de café, chocolate y crema de leche: tomar las capas sin mezclar según la casa.",
+      "caution": "9-19:15, miércoles cerrado salvo aperturas especiales; 25 dic/1 ene cerrado, 24/31 dic cierra 16. Precio actual no verificado, consultar carta. Web inglesa tiene error verano 28/07/2026-27/08/2027, italiana dice 28/07/2027-27/08/2027: no afirmar cierre de un año. No sin lácteos automáticamente; cola/mesa no garantizadas. Foto bebida real del café en archivo.",
+      "alert": "9-19:15, miércoles cerrado salvo aperturas especiales; 25 dic/1 ene cerrado, 24/31 dic cierra 16. Precio actual no verificado, consultar carta. Web inglesa tiene error verano 28/07/2026-27/08/2027, italiana dice 28/07/2027-27/08/2027: no afirmar cierre de un año. No sin lácteos automáticamente; cola/mesa no garantizadas. Foto bebida real del café en archivo.",
+      "priceLabel": "Café y dulce · precio actual por confirmar",
+      "photo": {
+        "img": "assets/turin/bicerin.jpg",
+        "source": "https://www.flickr.com/photos/giuseppemilo/8854751188/",
+        "author": "Giuseppe Milo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "officialUrl": "https://bicerin.it/dove-siamo/",
+      "sourceUrls": [
+        "https://discovernorthernitaly.com/things-to-do-in-turin/",
+        "https://bicerin.it/dove-siamo/",
+        "https://bicerin.it/en/directions/",
+        "https://bicerin.it/en/the-bicerin/"
+      ],
+      "sourceIds": [
+        "bicerin",
+        "bicerinen",
+        "bicerinrecipe",
+        "guide3"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caff%C3%A9+Al+Bicerin&query_place_id=ChIJw6Mj3nRtiEcR4hC722k5b6Q",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y carta contrastadas, sin reserva ni apertura futura garantizadas."
+    },
+    {
+      "id": "mezzaluna",
+      "name": "Mezzaluna · Quadrilatero",
+      "address": "Piazza Emanuele Filiberto, 8/d, 10122 Torino TO, Italy",
+      "description": "Mesa vegetal cerca de Porta Palazzo, con versiones piamontesas y platos de temporada.",
+      "strength": "Insalata russa vegana 7€, agnolotti al plin rellenos de queso de anacardo, nuez y tomillo 14€.",
+      "caution": "Cena mar-sáb 19:30-23, comida SOLO sáb/dom 12-15:30, lunes cerrado: guía que promete almuerzo entre semana se descarta. Precios 7/14 platos concretos, no comida completa 14; bebidas/cubierto confirmar. Gluten y frutos secos dependen de plato, preguntar alergias. Foto vegetal de otro local.",
+      "alert": "Cena mar-sáb 19:30-23, comida SOLO sáb/dom 12-15:30, lunes cerrado: guía que promete almuerzo entre semana se descarta. Precios 7/14 platos concretos, no comida completa 14; bebidas/cubierto confirmar. Gluten y frutos secos dependen de plato, preguntar alergias. Foto vegetal de otro local.",
+      "priceLabel": "Entrante 7€ · plin 14€ · extras aparte",
+      "photo": {
+        "img": "assets/turin/mezzaluna.jpg",
+        "source": "https://www.flickr.com/photos/ellaolsson/42231145040/",
+        "author": "Ella Olsson",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Platos vegetales ilustrativos de otro establecimiento, no Mezzaluna ni su carta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.mezzalunatorino.it/en/vegan-menu/",
+      "sourceUrls": [
+        "https://www.mezzalunatorino.it/en/vegan-menu/",
+        "https://slowtravelitalia.it/blogs/torino-blog/the-best-vegan-and-vegetarian-restaurants-in-torino"
+      ],
+      "sourceIds": [
+        "mezzaluna",
+        "mezzacritic"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mezzaluna&query_place_id=ChIJvX1VrHVtiEcRfS8uxWPOIC4",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y carta contrastadas, sin reserva ni apertura futura garantizadas."
+    }
+  ],
+  "activities": []
+}

@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "cityId": "amsterdam",
+  "reviewedAt": "2026-10-29",
+  "scope": "Cinco formatos con razón distinta: tarta, cocina neerlandesa, rijsttafel, puestos cubiertos y patatas. Sin cuota artificial ni reserva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "winkel",
+      "name": "Winkel 43 · Jordaan",
+      "address": "Noordermarkt 43, 1015 NA Amsterdam, Netherlands",
+      "description": "Café y tarta de manzana junto al final del paseo del primer día.",
+      "strength": "La tarta tiene sentido como pausa, no como comida completa ni razón para cruzar la ciudad.",
+      "caution": "Puede haber cola. Revisar horario del día; no prometer mesa inmediata.",
+      "officialUrl": "https://www.winkel43.nl/en/",
+      "sourceUrls": [
+        "https://www.winkel43.nl/en/"
+      ],
+      "editorialUrl": "https://www.cntraveler.com/restaurants/amsterdam/winkel-43",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Winkel+43&query_place_id=ChIJAUBsos8JxkcRwnuLcQmb2-M",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha exacta Maps y web propia contrastadas 29/10/2026; no confirma apertura futura.",
+      "priceLabel": "Café / dulce · consultar carta",
+      "photo": {
+        "img": "assets/amsterdam/winkel.jpg",
+        "source": "https://www.pexels.com/photo/close-up-of-woman-eating-a-slice-of-apple-pie-with-whipped-cream-5426882/",
+        "author": "Kaboompics.com",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de tarta de manzana con nata: no es del local ni garantiza presentación o ingredientes de su carta."
+      }
+    },
+    {
+      "id": "moeders",
+      "name": "Moeders · Rozengracht",
+      "address": "Rozengracht 251, 1016 SX Amsterdam, Netherlands",
+      "description": "Cena de cocina neerlandesa casera al oeste de Jordaan.",
+      "strength": "Stamppot y guisos, para una comida sentada distinta de los tentempiés.",
+      "caution": "Abre desde 17 h, cocina hasta 22 h. Reservas sólo en web propia, local pequeño; no es opción de almuerzo.",
+      "officialUrl": "https://moeders.com/",
+      "sourceUrls": [
+        "https://moeders.com/"
+      ],
+      "editorialUrl": "https://www.theinfatuation.com/amsterdam/reviews/restaurant-moeders",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Moeders&query_place_id=ChIJU9-Lo94JxkcRBzlvVAQV7n8",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha exacta Maps y web propia contrastadas 29/10/2026; no confirma apertura futura.",
+      "priceLabel": "Restaurante sentado · consultar carta actual",
+      "photo": {
+        "img": "assets/amsterdam/moeders.jpg",
+        "source": "https://www.flickr.com/photos/elisa_atene/8503457714/",
+        "author": "Elisa Triolo",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Fachada de Moeders, 2013. Foto de archivo, no estado actual del local. Encuadre adaptado a tarjeta."
+      }
+    },
+    {
+      "id": "blauw",
+      "name": "Restaurant Blauw · Amstelveenseweg",
+      "address": "Amstelveenseweg 158-160, 1075 XN Amsterdam, Netherlands",
+      "description": "Rijsttafel indonesio para una cena compartida cerca del extremo oeste de Vondelpark.",
+      "strength": "Varios platos de arroz, guisos y condimentos para compartir, con opciones vegetarianas/veganas según carta.",
+      "caution": "No está pegado al acceso oriental del parque ni al Rijks. Reservar cena específica; no asumir precio por plato como coste del rijsttafel completo.",
+      "officialUrl": "https://restaurantblauw.nl/en/home/",
+      "sourceUrls": [
+        "https://restaurantblauw.nl/en/home/"
+      ],
+      "editorialUrl": "https://www.cntraveler.com/restaurants/amsterdam/restaurant-blauw",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant+Blauw+Amsterdam&query_place_id=ChIJLUFCYATixUcR6YBOTuasB5Y",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha exacta Maps y web propia contrastadas 29/10/2026; no confirma apertura futura.",
+      "priceLabel": "Cena compartida / presupuesto medio-alto · consultar menú",
+      "photo": {
+        "img": "assets/amsterdam/blauw.jpg",
+        "source": "https://www.pexels.com/photo/traditional-indonesian-meal-with-rice-and-side-dishes-37073148/",
+        "author": "Esase",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de comida indonesia con arroz y acompañamientos: no es del local ni garantiza presentación o ingredientes de su carta."
+      }
+    },
+    {
+      "id": "foodhallen",
+      "name": "Foodhallen · De Hallen",
+      "address": "Hannie Dankbaarpassage 16, 1053 RT Amsterdam, Netherlands",
+      "description": "Mercado cubierto de cocinas distintas para quien quiera comer informal.",
+      "strength": "Puestos de comida indonesia, vietnamita, falafel y otros formatos; útil para gustos distintos.",
+      "caution": "Está en Amsterdam-West, no al lado de Albert Cuyp. Desde 12 h; cierra 25/12 y antes 24/12 y 31/12. No todos los puestos ni mesas se garantizan.",
+      "officialUrl": "https://foodhallen.nl/amsterdam",
+      "sourceUrls": [
+        "https://foodhallen.nl/amsterdam"
+      ],
+      "editorialUrl": "https://www.mochileandoporelmundo.com/amsterdam-en-3-dias/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Foodhallen&query_place_id=ChIJtWMWEeAJxkcR7PV7zX9aRh0",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha exacta Maps y web propia contrastadas 29/10/2026; no confirma apertura futura.",
+      "priceLabel": "Puestos informales · cada puesto cobra por separado",
+      "photo": {
+        "img": "assets/amsterdam/foodhallen.jpg",
+        "source": "https://unsplash.com/photos/a-man-standing-in-a-bar-FPfZ_pr8sYg",
+        "author": "Lala Azizli",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseURL": "https://unsplash.com/license",
+        "caption": "Bar de Foodhallen: los puestos y su oferta pueden cambiar."
+      }
+    },
+    {
+      "id": "vlem",
+      "name": "Vleminckx · Voetboogstraat",
+      "address": "Voetboogstraat 33, 1012 XK Amsterdam, Netherlands",
+      "description": "Cucurucho de patatas junto a Begijnhof/Spui para un tentempié.",
+      "strength": "Patatas de estilo belga y salsas; distinto de una mesa y menú completo.",
+      "caution": "La salsa se cobra aparte. Es un mostrador, no una comida sentada; respetar portales y vecindario.",
+      "officialUrl": "https://vleminckxdesausmeester.nl/en/",
+      "sourceUrls": [
+        "https://vleminckxdesausmeester.nl/en/"
+      ],
+      "editorialUrl": "https://www.iamsterdam.com/en/see-and-do/restaurant-and-bars/best-fries",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vlaams+Friteshuis+Vleminckx&query_place_id=ChIJW8FgycEJxkcRImIYQha8SXI",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Ficha exacta Maps y web propia contrastadas 29/10/2026; no confirma apertura futura.",
+      "priceLabel": "Tentempié económico · salsa aparte",
+      "photo": {
+        "img": "assets/amsterdam/vlem.jpg",
+        "source": "https://www.pexels.com/photo/fries-with-sauce-16975242/",
+        "author": "Nadin Sh",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "licenseURL": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa de patatas fritas con salsa: no es del local ni garantiza presentación o ingredientes de su carta."
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "canal",
+      "name": "Crucero de canales · Blue Boat",
+      "description": "Ver los canales desde el agua sin añadir otra larga caminata.",
+      "duration": "75 min más llegada y embarque",
+      "caution": "Dos embarques, Stadhouderskade 501 o 550: comprobar el del billete. Precio promocional puede excluir tasa; confirmar total. Elegir una salida, no varias.",
+      "alert": "Dos embarques, Stadhouderskade 501 o 550: comprobar el del billete. Precio promocional puede excluir tasa; confirmar total. Elegir una salida, no varias.",
+      "officialUrl": "https://www.blueboat.nl/en/canal-cruise-amsterdam/canal-tour-amsterdam/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Blue+Boat+Company+-+Gray+Line+Amsterdam&query_place_id=ChIJxTAuNe8JxkcRKs39ocznr5c",
+      "priceLabel": "Actividad de pago · consultar total final",
+      "statusCheckedAt": "2026-10-29",
+      "photo": {
+        "img": "assets/amsterdam/canal.jpg",
+        "source": "https://www.flickr.com/photos/kroszka/5317563294",
+        "author": "kroszk@",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Crucero por canales de Ámsterdam, foto de archivo ilustrativa. No confirma barco ni operador Blue Boat. Encuadre adaptado a tarjeta."
+      }
+    },
+    {
+      "id": "ndsm",
+      "name": "Ferry del IJ hacia NDSM",
+      "description": "Cruzar al antiguo astillero como alternativa de medio día, no añadido tras Museumplein y Jordaan.",
+      "duration": "2-3 h editoriales con cruce y paseo",
+      "caution": "GVB confirma ferries del IJ gratuitos para peatones; F4 une Centraal y NDSM. Revisar servicio y regreso, especialmente con mal tiempo. No incluye entradas a museos de Noord.",
+      "alert": "GVB confirma ferries del IJ gratuitos para peatones; F4 une Centraal y NDSM. Revisar servicio y regreso, especialmente con mal tiempo. No incluye entradas a museos de Noord.",
+      "officialUrl": "https://www.gvb.nl/en/privacy-statement/travelling-by-ferry",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=NDSM&query_place_id=ChIJg7YwoTkIxkcRdRzJp-FRIIg",
+      "priceLabel": "Ferry gratuito; consumos/entradas aparte",
+      "statusCheckedAt": "2026-10-29",
+      "photo": {
+        "img": "assets/amsterdam/ndsm.jpg",
+        "source": "https://unsplash.com/photos/a-building-with-a-large-door-1PZmmJRAlR4",
+        "author": "Ishan Loya",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "licenseURL": "https://unsplash.com/license",
+        "caption": "Instalación en el entorno de NDSM-werf: no es el ferry."
+      }
+    }
+  ]
+}

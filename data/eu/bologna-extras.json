@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "cityId": "bologna",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "dame",
+      "name": "Trattoria Da Me · San Felice",
+      "address": "Via S. Felice, 50a, 40122 Bologna BO, Italy",
+      "description": "Pasta hecha a mano y tradición boloñesa con una carta que también se permite jugar. La sede de San Felice encaja tras el mercado occidental.",
+      "strength": "Tagliatelle al ragù17€ y tortellini 17€ en otoño 2026; gelati al formaggio 13€ como entrada distinta.",
+      "caution": "Carta otoño 2026: lasagne 18€ SOLO domingo; no precio 15€ de ragù en carta 2025. Estimación 30-45€/persona con pasta y otro plato, bebidas/cubierto aparte, confirmar total. Lun cerrado; mar-vie 12:30-14:30 y 19:30-22; sáb-dom 12-14:30 y 19:30-22. Reservar sede San Felice 50A, NO Torre Galluzzi. Foto de pasta ajena.",
+      "alert": "Carta otoño 2026: lasagne 18€ SOLO domingo; no precio 15€ de ragù en carta 2025. Estimación 30-45€/persona con pasta y otro plato, bebidas/cubierto aparte, confirmar total. Lun cerrado; mar-vie 12:30-14:30 y 19:30-22; sáb-dom 12-14:30 y 19:30-22. Reservar sede San Felice 50A, NO Torre Galluzzi. Foto de pasta ajena.",
+      "priceLabel": "Pasta 17€ · comida 30-45€ estimados +extras",
+      "photo": {
+        "img": "assets/bologna/rosso.jpg",
+        "source": "https://www.flickr.com/photos/adactio/3189006384/",
+        "author": "Jeremy Keith",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Tagliatelle al ragù ilustrativas de otro lugar, no Trattoria Da Me ni su plato actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.trattoriadame.it/home/",
+      "sourceUrls": [
+        "https://www.thecommonwanderer.com/blog/best-bologna-restaurants",
+        "https://www.trattoriadame.it/home/",
+        "https://www.trattoriadame.it/wp-content/uploads/2026/09/SITO-CIBO_AUTUNNO_ITA.pdf",
+        "https://www.trattoriadame.it/prenota/"
+      ],
+      "sourceIds": [
+        "foodguide",
+        "dame",
+        "damemenu",
+        "damebook"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Trattoria+da+Me&query_place_id=ChIJFfR7G47Uf0cRjkVtGRy5-B8",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede contrastada con web/portal de recogida actual y Maps; no mesa ni apertura futura garantizada."
+    },
+    {
+      "id": "botanica",
+      "name": "Botanica Lab · mesa vegetal",
+      "address": "Via Battibecco, 4c, 40123 Bologna BO, Italy",
+      "description": "Una comida enteramente vegetal cerca de Piazza Maggiore, para alternar con la pasta al ragù en vez de repetir salumi cada día.",
+      "strength": "Cocina vegetal de temporada; la guía destaca pasta y postres creativos, no se garantiza un plato de otra estación.",
+      "caution": "Mar-dom 12:30-15:30 (cocina 15) y 19:30-22:30 (cocina 22), lunes cerrado. Carta enlazada a menú dinámico no extraíble en esta revisión: precios y platos actuales por confirmar antes de reservar, sin rango inventado. No inferir aptitud para alergia por ser vegetal. Foto pasta ajena.",
+      "alert": "Mar-dom 12:30-15:30 (cocina 15) y 19:30-22:30 (cocina 22), lunes cerrado. Carta enlazada a menú dinámico no extraíble en esta revisión: precios y platos actuales por confirmar antes de reservar, sin rango inventado. No inferir aptitud para alergia por ser vegetal. Foto pasta ajena.",
+      "priceLabel": "Carta actual · precio por confirmar",
+      "photo": {
+        "img": "assets/bologna/botanica.jpg",
+        "source": "https://www.flickr.com/photos/saaleha/7403825570/",
+        "author": "Saaleha Bamjee",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Pasta vegetal ilustrativa de otra cocina, no Botanica Lab ni su carta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.botanicalab.com/contact",
+      "sourceUrls": [
+        "https://www.thecommonwanderer.com/blog/best-bologna-restaurants",
+        "https://www.botanicalab.com/contact",
+        "https://www.botanicalab.com/men%C3%B9"
+      ],
+      "sourceIds": [
+        "foodguide",
+        "botanica",
+        "botanicamenu"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Botanica+Lab+Cucina&query_place_id=ChIJH2_YxI3Uf0cRwa9MWt9f360",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede contrastada con web/portal de recogida actual y Maps; no mesa ni apertura futura garantizada."
+    },
+    {
+      "id": "gelato",
+      "name": "Cremeria Santo Stefano · pausa de helado",
+      "address": "Via Santo Stefano, 70c, 40125 Bologna BO, Italy",
+      "description": "Una parada dulce en Via Santo Stefano, distinta de una comida y a unos minutos de las siete iglesias.",
+      "strength": "Crema delle Zitelle con mascarpone y piñones; crema libanesa con agua de azahar, almendra y pistacho, según carta actual de recogida.",
+      "caution": "Portal de recogida publica mié-dom 11:30-20:30, lunes y martes cerrado; entrega hasta 21 no horario de mostrador. Confirmar temporada antes de desviar. Precio de cono no verificado; tarrinas online 1 kg 30€ y 750 g 22,50€ no se convierten en precio de ración. Leche/huevo/frutos secos: comprobar alérgenos. Foto de helado ajeno.",
+      "alert": "Portal de recogida publica mié-dom 11:30-20:30, lunes y martes cerrado; entrega hasta 21 no horario de mostrador. Confirmar temporada antes de desviar. Precio de cono no verificado; tarrinas online 1 kg 30€ y 750 g 22,50€ no se convierten en precio de ración. Leche/huevo/frutos secos: comprobar alérgenos. Foto de helado ajeno.",
+      "priceLabel": "Helado · precio de ración por confirmar",
+      "photo": {
+        "img": "assets/bologna/gelato.jpg",
+        "source": "https://www.flickr.com/photos/paulbaker/5128071895/",
+        "author": "Paul Baker",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Helado ilustrativo de otra heladería, no Cremeria Santo Stefano ni sus sabores actuales. Recorte de presentación."
+      },
+      "officialUrl": "https://cremeria-santo-stefano.it/",
+      "sourceUrls": [
+        "https://www.lonelyplanet.com/italy/emilia-romagna-and-san-marino/bologna/restaurants",
+        "https://cremeria-santo-stefano.it/"
+      ],
+      "sourceIds": [
+        "gelatoguide",
+        "gelato"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cremeria+Santo+Stefano&query_place_id=ChIJWWz22cfUf0cRn6BB5JM3Oj0",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede contrastada con web/portal de recogida actual y Maps; no mesa ni apertura futura garantizada."
+    }
+  ],
+  "activities": []
+}

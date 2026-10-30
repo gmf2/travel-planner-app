@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "cityId": "budapest",
+  "reviewedAt": "2026-10-29",
+  "scope": "Tres formatos distintos: taberna de guisos, vegano sentado y lángos rápido. El baño es actividad del plan, no se duplica en extras.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "getto",
+      "name": "Gettó Gulyás",
+      "address": "Budapest, Wesselényi utca 18, 1077 Hungary",
+      "description": "Guisos y paprikás húngaros en Wesselényi utca, barrio judío.",
+      "strength": "Pörkölt de ternera o paprikás con nokedli; carta también incluye setas y opciones vegetales.",
+      "caution": "Diario 12-23 publicado; reservar para comida o cena si se busca mesa. Carta actual: paprikás pollo 4490 HUF, guiso vacuno 4690, setas 4390; bebida y posibles cargos de servicio aparte, consultar cuenta completa. No confundir sopa gulyás con pörkölt. Foto ilustrativa de sopa en otro local, no su plato actual.",
+      "alert": "Diario 12-23 publicado; reservar para comida o cena si se busca mesa. Carta actual: paprikás pollo 4490 HUF, guiso vacuno 4690, setas 4390; bebida y posibles cargos de servicio aparte, consultar cuenta completa. No confundir sopa gulyás con pörkölt. Foto ilustrativa de sopa en otro local, no su plato actual.",
+      "officialUrl": "https://gettogulyas.hu/etlap/",
+      "sourceUrls": [
+        "https://gettogulyas.hu/etlap/"
+      ],
+      "editorialUrl": "https://welovebudapest.com/cikk/2026/02/26/getto-gulyas-10-eves-magyaros-etterem-budapest/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gett%C3%B3+Guly%C3%A1s&query_place_id=ChIJZb83JGjcQUcR1M0xNU7rtsI",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Carta/formato oficial, crítica gastronómica y sucursal Maps comprobados; no confirma mesa futura.",
+      "priceLabel": "Principal aprox. 4390-5790 HUF · bebida/cargos aparte",
+      "photo": {
+        "img": "assets/budapest/getto.jpg",
+        "source": "https://www.flickr.com/photos/vialbost/42152185001/",
+        "author": "Frédérique Voisin-Demery",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Gulyás ilustrativo de otro local; no es Gettó Gulyás ni una foto de su pörkölt. Recorte de presentación."
+      }
+    },
+    {
+      "id": "napfenyes",
+      "name": "Napfényes · Curia / Ferenciek tere",
+      "address": "Budapest, Budapest Ferenciek tere 2, Veres Pálné, Curia u. sarok, 1053 Hungary",
+      "description": "Cocina vegana húngara e internacional, con repostería.",
+      "strength": "Guiso de legumbres, seitán o plato vegetal para variar sin otra comida de carne.",
+      "caution": "Local en esquina Curia / Veres Pálné, web también usa Ferenciek tere 2. Diario 11:30-21, cocina hasta 20:30. Menú diario cambia: el 29/10 sopa 1100 y platos 2600 HUF, no prometer esos precios para otra fecha. Carta completa y servicio se consultan al reservar. Vegano no significa libre de gluten o frutos secos.",
+      "alert": "Local en esquina Curia / Veres Pálné, web también usa Ferenciek tere 2. Diario 11:30-21, cocina hasta 20:30. Menú diario cambia: el 29/10 sopa 1100 y platos 2600 HUF, no prometer esos precios para otra fecha. Carta completa y servicio se consultan al reservar. Vegano no significa libre de gluten o frutos secos.",
+      "officialUrl": "https://napfenyesetterem.hu/",
+      "sourceUrls": [
+        "https://napfenyesetterem.hu/"
+      ],
+      "editorialUrl": "https://www.timeout.com/budapest/restaurants/best-restaurants-in-budapest",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Napf%C3%A9nyes+Restaurant+and+Confectionery&query_place_id=ChIJ5cJtSWXcQUcRZukYcrslL14",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Carta/formato oficial, crítica gastronómica y sucursal Maps comprobados; no confirma mesa futura.",
+      "priceLabel": "Menú diario variable · bebida y servicio aparte",
+      "photo": {
+        "img": "assets/budapest/napfenyes.jpg",
+        "source": "https://www.flickr.com/photos/lara604/3685036328/",
+        "author": "Lara604",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Hummus ilustrativo de otro restaurante, no es Napfényes ni su menú actual. Recorte de presentación."
+      }
+    },
+    {
+      "id": "retro",
+      "name": "Retro Lángos · Bajcsy-Zsilinszky",
+      "address": "Budapest, Bajcsy-Zsilinszky út 25, 1065 Hungary",
+      "description": "Masa frita con distintos acompañamientos para una comida rápida.",
+      "strength": "Formato húngaro informal y distinto de una taberna sentada.",
+      "caution": "Sucursal Bajcsy-Zsilinszky út 25, no Vécsey 3, que también figura en la web. Horario general 11-22 diario; confirmar sucursal y carta. Precio y alérgenos según ingredientes; nata y queso no son veganos. Foto de lángos de otro puesto, no Retro.",
+      "alert": "Sucursal Bajcsy-Zsilinszky út 25, no Vécsey 3, que también figura en la web. Horario general 11-22 diario; confirmar sucursal y carta. Precio y alérgenos según ingredientes; nata y queso no son veganos. Foto de lángos de otro puesto, no Retro.",
+      "officialUrl": "https://retrolangos.hu/en/menu/",
+      "sourceUrls": [
+        "https://retrolangos.hu/en/menu/"
+      ],
+      "editorialUrl": "https://hungaryunlocked.com/3-days-in-budapest-itinerary/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Retro+L%C3%A1ngos+Budapest&query_place_id=ChIJIZUXVGvcQUcRmGhtnafDysU",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Carta/formato oficial, crítica gastronómica y sucursal Maps comprobados; no confirma mesa futura.",
+      "priceLabel": "Por pieza e ingredientes · consultar carta",
+      "photo": {
+        "img": "assets/budapest/retro.jpg",
+        "source": "https://www.flickr.com/photos/scaredykat/8221960403/",
+        "author": "Krista",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Lángos ilustrativo de otro puesto de Budapest; no es Retro ni su ración actual. Recorte de presentación."
+      }
+    }
+  ],
+  "activities": []
+}

@@ -1,0 +1,1132 @@
+{
+  "schemaVersion": 1,
+  "country": "IT",
+  "id": "florence",
+  "name": "Florencia",
+  "localName": "Firenze",
+  "selectionReason": "Una de las veinte ciudades confirmadas.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "1-3 días urbanos sin fecha ni compras, un museo largo al día y jardín separado. Sin Pisa/Siena añadidas de relleno.",
+  "stops": [
+    {
+      "id": "duomo",
+      "name": "Duomo · Santa Maria del Fiore",
+      "kind": "visit",
+      "zone": "Centro / Piazza del Duomo",
+      "reason": "Fachada, plaza y nave de la catedral si la cola y la apertura encajan.",
+      "sourceIds": [
+        "duomo",
+        "passes",
+        "faq"
+      ],
+      "coordinates": {
+        "lat": 43.773145,
+        "lon": 11.2559602
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Cathedral+of+Santa+Maria+del+Fiore&query_place_id=ChIJ9S_ivwNUKhMR9fGqh4RDkVU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 65,
+      "durationType": "editorial-estimate",
+      "caution": "Catedral gratuita sin reserva: lun-sáb 10:15-15:45, domingo y celebraciones religiosas cerrada a turismo. Vestimenta adecuada y control de bultos. Cúpula NO incluida; Brunelleschi Pass 30€, Giotto 20€, Ghiberti 15€, válidos 3 días según condiciones. Baptisterio con mosaicos de bóveda ocultos por restauración; campanario abierto con vistas parcialmente reducidas por obra. No existe salto de cola oficial para la nave.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/duomo.jpg",
+        "source": "https://www.flickr.com/photos/cliffano/8134583829/",
+        "author": "Cliffano Subagio",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Fachada real de la catedral; no subida a la cúpula. Recorte de presentación."
+      },
+      "visitMode": "Exterior y catedral gratuita; cúpula aparte"
+    },
+    {
+      "id": "signoria",
+      "name": "Piazza della Signoria",
+      "kind": "visit",
+      "zone": "Centro / Signoria",
+      "reason": "Plaza cívica y esculturas de la Loggia dei Lanzi antes de la visita larga del día.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 43.7696855,
+        "lon": 11.2556422
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+della+Signoria&query_place_id=ChIJNa5CIAFUKhMRbZDj-HFpvJ8",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 50,
+      "durationType": "editorial-estimate",
+      "caution": "El David de la plaza es una copia, original en Accademia. Palazzo Vecchio, torre y Bargello no entran en este paseo ni se apilan tras Uffizi. Respetar vallados y actos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/signoria.jpg",
+        "source": "https://www.flickr.com/photos/houseofhall/5921351900/",
+        "author": "Dr Bob Hall",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior; Palazzo Vecchio sólo fachada"
+    },
+    {
+      "id": "uffizi",
+      "name": "Galería de los Uffizi",
+      "kind": "visit",
+      "zone": "Centro / Arno",
+      "reason": "Pintura renacentista con selección de salas y pausa, no una carrera por todas las obras.",
+      "sourceIds": [
+        "uffizi",
+        "fares",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 43.7677856,
+        "lon": 11.2553108
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Uffizi+Galleries&query_place_id=ChIJgZDFjQBUKhMRzcTwm8i33s0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 180,
+      "durationType": "editorial-estimate",
+      "caution": "Tarifa oficial 25€ compra el día, 29€ compra anticipada; confirmar total de la fecha, no sumar de nuevo suplemento ya incluido. Mar-dom 8:15-18:30, taquilla 17:30; lunes, 1 enero y 25 diciembre cerrado salvo apertura especial. Reservar franja compatible con Duomo y comida. Corredor Vasariano NO incluido en entrada simple: combinado 43/47€ día/anticipado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/uffizi.jpg",
+        "source": "https://www.flickr.com/photos/z_wenjie/5541411085/",
+        "author": "Wenjie, Zhang  | A Certain Slant of Light",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Galería interior de Uffizi; obras y salas pueden cambiar. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago; entrada con nombre y franja"
+    },
+    {
+      "id": "ponte",
+      "name": "Ponte Vecchio y ribera del Arno",
+      "kind": "visit",
+      "zone": "Centro / Arno",
+      "reason": "Puente y vistas del río para cambiar de ritmo tras el museo.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 43.767925,
+        "lon": 11.2531435
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Ponte+Vecchio&query_place_id=ChIJZ7bcoqpWKhMR6ALnMOgKMUA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "No es acceso al Corredor Vasariano ni actividad sobre el río. Pasar sin bloquear tiendas o paso peatonal. No se garantiza puesta de sol ni iluminación especial.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/ponte.jpg",
+        "source": "https://www.flickr.com/photos/ed_webster/6303880436/",
+        "author": "Ed Webster",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Puente y paseo exteriores"
+    },
+    {
+      "id": "annunziata",
+      "name": "Piazza Santissima Annunziata",
+      "kind": "visit",
+      "zone": "San Marco / Annunziata",
+      "reason": "Pórticos renacentistas y plaza antes de la franja de Accademia.",
+      "sourceIds": [
+        "annunziata",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 43.776236,
+        "lon": 11.2603431
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+della+Santissima+Annunziata&query_place_id=ChIJ9_bq1ARUKhMR46x_xK1ZuQo",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 35,
+      "durationType": "editorial-estimate",
+      "caution": "Museo degli Innocenti, arqueológico e iglesia son visitas distintas, no entradas incluidas. La Rificolona es tradición de 7 septiembre, no evento disponible todo el año.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/annunziata.jpg",
+        "source": "https://www.flickr.com/photos/pavdw/4066827930/",
+        "author": "Paul VanDerWerf",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior"
+    },
+    {
+      "id": "accademia",
+      "name": "Galleria dell’Accademia · David",
+      "kind": "visit",
+      "zone": "San Marco / Via Ricasoli",
+      "reason": "David original, Prisioneros y otras salas en un museo más acotado que Uffizi.",
+      "sourceIds": [
+        "accademia",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 43.7768145,
+        "lon": 11.2586424
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Galleria+dell%E2%80%99Accademia+di+Firenze&query_place_id=ChIJJ7mRvIxVKhMRx6JB-q73TG0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 105,
+      "durationType": "editorial-estimate",
+      "caution": "Operador actual 20€ general desde 1 febrero, no 16€ de guías antiguas; reserva telefónica oficial 4€ publicados, confirmar importe final online. Mar-dom 8:15-18:50; web contradice última entrada 18:10 vs 30 min antes, usar 18:10 como límite conservador y confirmar franja. Lunes, 1 enero y 25 diciembre cerrado salvo especiales. B-Ticket canal oficial autorizado.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/accademia.jpg",
+        "source": "https://www.flickr.com/photos/petervisser/3974032085/",
+        "author": "Peter Visser",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "David original en la Accademia, no copia de la plaza. Recorte de presentación."
+      },
+      "visitMode": "Museo de pago; reserva muy recomendable"
+    },
+    {
+      "id": "lorenzo",
+      "name": "San Lorenzo · plaza y barrio",
+      "kind": "visit",
+      "zone": "San Lorenzo",
+      "reason": "Fachada inacabada y calles del barrio antes de comer en el mercado.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 43.7749802,
+        "lon": 11.2546861
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+di+San+Lorenzo&query_place_id=ChIJW5Rj8gJUKhMRGPY7RKlGofs",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "Capillas Medici, biblioteca y basílica son entradas distintas, no incluidas por estar al lado. No sumar todos esos interiores a Accademia. Puestos de calle y mercado cubierto tienen horarios distintos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/lorenzo.jpg",
+        "source": "https://www.flickr.com/photos/virtusincertus/26598479386/",
+        "author": "virtusincertus",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Paseo exterior; basílica y capillas aparte"
+    },
+    {
+      "id": "market",
+      "name": "Mercato Centrale · San Lorenzo",
+      "kind": "visit",
+      "zone": "San Lorenzo / mercado",
+      "reason": "Puestos y comida: distinguir mercado tradicional de planta baja y restauración de arriba.",
+      "sourceIds": [
+        "market",
+        "market2",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 43.7764676,
+        "lon": 11.2528338
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=il+Mercato+Centrale+Firenze&query_place_id=ChIJl8DqtwJUKhMRtRP0_Mh84X0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 70,
+      "durationType": "editorial-estimate",
+      "caution": "Operador del primer piso publica 9-23 todos los días. Fuente turística da planta baja 7-15, cierra domingo, y arriba 10-24: contradicción para arriba, preferir 9-23 del operador y confirmar fecha/negocio. La apertura del food hall no garantiza mercado tradicional ni todos los puestos.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/market.jpg",
+        "source": "https://www.flickr.com/photos/kanesue/48558723071/",
+        "author": "Kanesue",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Interior del Mercato Centrale; archivo, no garantiza puestos abiertos. Recorte de presentación."
+      },
+      "visitMode": "Mercado; compras y comida aparte"
+    },
+    {
+      "id": "novella",
+      "name": "Piazza Santa Maria Novella",
+      "kind": "visit",
+      "zone": "Santa Maria Novella",
+      "reason": "Plaza y fachada de mármol para cerrar la ruta del norte sin otro museo obligatorio.",
+      "sourceIds": [
+        "novella",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 43.7734894,
+        "lon": 11.249783
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+di+Santa+Maria+Novella&query_place_id=ChIJmUNteKlWKhMRuNeT8xNS5Ls",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 40,
+      "durationType": "editorial-estimate",
+      "caution": "No incluye entrada a iglesia, claustros ni farmacia. No usar apertura de la plaza como horario del complejo. Se puede sustituir otra visita por el interior con su billete propio, no añadirlo a la carrera.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/novella.jpg",
+        "source": "https://www.flickr.com/photos/andyhay/9756558015/",
+        "author": "Andy Hay",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Plaza exterior; complejo monumental aparte"
+    },
+    {
+      "id": "santo",
+      "name": "Santo Spirito y calles de Oltrarno",
+      "kind": "visit",
+      "zone": "Oltrarno / Santo Spirito",
+      "reason": "Plaza y calles de talleres del otro lado del Arno antes de los jardines.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 43.766855,
+        "lon": 11.2474139
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazza+Santo+Spirito&query_place_id=ChIJHUqFj1RRKhMRL7ATkNupM-s",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "No garantiza talleres abiertos ni acceso a propiedades privadas. Iglesia, sacristía y crucifijo son visitas separadas, no incluidas. Mantener descanso de residentes.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/santo.jpg",
+        "source": "https://www.flickr.com/photos/designsbykari/4151599123/",
+        "author": "Kari",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Barrio y plaza exteriores"
+    },
+    {
+      "id": "pitti",
+      "name": "Palazzo Pitti · fachada",
+      "kind": "visit",
+      "zone": "Oltrarno / Pitti",
+      "reason": "Plaza y fachada del palacio como entrada al día de jardines, sin sumar todas sus colecciones.",
+      "sourceIds": [
+        "pitti",
+        "fares",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 43.7651533,
+        "lon": 11.2500081
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Palazzo+Pitti&query_place_id=ChIJ8ZnbQVRRKhMRKlDx5uTM0Fw",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 30,
+      "durationType": "editorial-estimate",
+      "caution": "Interior opcional en sustitución de Boboli si mal tiempo:16€ día/19€ anticipado; mar-dom 8:15-18:30, taquilla 1 h antes, lunes/1 enero/25 diciembre cerrado. Entresuelo del Tesoro cerrado hasta nuevo aviso. Apartamentos reales tienen reserva propia según tarifa, no todos incluidos por estar en el palacio.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/pitti.jpg",
+        "source": "https://www.flickr.com/photos/153089859@N08/40156030314/",
+        "author": "Rosi Olivan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Fachada real del Palacio Pitti; no salas incluidas por defecto. Recorte de presentación."
+      },
+      "visitMode": "Exterior; museo es alternativa al jardín"
+    },
+    {
+      "id": "boboli",
+      "name": "Jardines de Boboli",
+      "kind": "visit",
+      "zone": "Oltrarno / Boboli",
+      "reason": "Jardín histórico en colina como visita principal al aire libre de este día.",
+      "sourceIds": [
+        "boboli",
+        "fares",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 43.7624972,
+        "lon": 11.2483996
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Boboli+Gardens&query_place_id=ChIJl05zkFZRKhMRstkDO_cCDAQ",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "10€ día/13€ anticipado. Abre 8:15, cierra 16:30 nov-feb, 17:30 mar/octhora estándar, 18:30 primavera/sep-octhora verano, 19:10 jun-ago; última 1 h antes. Primer y último lunes del mes y 25 dic cerrado. Cierre por meteorología posible; Museo Porcelana cerrado por obras. No plan accesible sin apoyo ni sombra continua.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/boboli.jpg",
+        "source": "https://www.flickr.com/photos/harshlight/946405868/",
+        "author": "HarshLight",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Foto de archivo; recorte de presentación."
+      },
+      "visitMode": "Jardín de pago con cuestas y grava"
+    },
+    {
+      "id": "michelangelo",
+      "name": "Piazzale Michelangelo",
+      "kind": "visit",
+      "zone": "Oltrarno / colina de San Niccolò",
+      "reason": "Mirador alto de Florencia para terminar si energía y meteorología acompañan.",
+      "sourceIds": [
+        "guide1",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 43.7629314,
+        "lon": 11.2650561
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Piazzale+Michelangelo&query_place_id=ChIJQzhmQ_dTKhMRGVENguFo97Q",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Desde Piazza Pitti Maps da 2 km 29 min de enlace andando, no desde cualquier salida interna de Boboli. Añadir margen de subida y descansos; taxi/bus alternativos por confirmar según fecha. No garantiza atardecer despejado ni visita a San Miniato incluida.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/florence/michelangelo.jpg",
+        "source": "https://www.flickr.com/photos/rayinmanila/28331684403/",
+        "author": ". Ray in Manila",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Vista de Florencia desde Piazzale Michelangelo; luz de archivo, no atardecer garantizado. Recorte de presentación."
+      },
+      "visitMode": "Mirador exterior; subida con pendiente"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "El Duomo y la pintura de los Uffizi",
+          "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+          "stopIds": [
+            "duomo",
+            "signoria",
+            "uffizi",
+            "ponte"
+          ],
+          "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "El Duomo y la pintura de los Uffizi",
+          "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+          "stopIds": [
+            "duomo",
+            "signoria",
+            "uffizi",
+            "ponte"
+          ],
+          "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+        },
+        {
+          "title": "David y el barrio de San Lorenzo",
+          "zone": "Annunziata → Accademia → San Lorenzo → mercado → Santa Maria Novella",
+          "stopIds": [
+            "annunziata",
+            "accademia",
+            "lorenzo",
+            "market",
+            "novella"
+          ],
+          "editorialNote": "Plaza temprano y Accademia con franja, luego mercado antes 15 h si interesa planta baja. No sumar San Marco, Capillas Medici y basílica al mismo día. Lunes cambiar orden; mercado tradicional no garantizado domingo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas, estimación editorial. Trayectos cortos del centro comprobados en Maps; tiempos de enlace no incluyen colas o museo."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "El Duomo y la pintura de los Uffizi",
+          "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+          "stopIds": [
+            "duomo",
+            "signoria",
+            "uffizi",
+            "ponte"
+          ],
+          "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+        },
+        {
+          "title": "David y el barrio de San Lorenzo",
+          "zone": "Annunziata → Accademia → San Lorenzo → mercado → Santa Maria Novella",
+          "stopIds": [
+            "annunziata",
+            "accademia",
+            "lorenzo",
+            "market",
+            "novella"
+          ],
+          "editorialNote": "Plaza temprano y Accademia con franja, luego mercado antes 15 h si interesa planta baja. No sumar San Marco, Capillas Medici y basílica al mismo día. Lunes cambiar orden; mercado tradicional no garantizado domingo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas, estimación editorial. Trayectos cortos del centro comprobados en Maps; tiempos de enlace no incluyen colas o museo."
+        },
+        {
+          "title": "Oltrarno, Boboli y la ciudad desde arriba",
+          "zone": "Santo Spirito → Pitti exterior → Boboli → Piazzale Michelangelo",
+          "stopIds": [
+            "santo",
+            "pitti",
+            "boboli",
+            "michelangelo"
+          ],
+          "editorialNote": "Jardín a media mañana antes de calor, cierre o mal tiempo. Pitti museo es alternativa a Boboli, no suma automática. Mirador sólo si energía y tiempo; no añadir San Miniato interior ni otra subida obligatoria.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "6-7 h con comida y pausas. Santo Spirito-Pitti 262 m 3 min; Pitti-mirador 2 km 29 min de enlace andando. Boboli añade 2 h en cuestas y salida real; permitir 45-60 min al mirador con descansos."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Boboli temprano, agua y pausas a sombra; las cuestas no son descanso del calor. Mirador si temperatura y energía acompañan.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Boboli cierra 16:30 nov-feb, entrar antes 15:30. Si lluvia o viento, cambiar jardín por Pitti con entrada propia y horario confirmado, no añadir ambos.",
+      "excludeStopIds": []
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Uffizi, Accademia y Pitti cierran 25 diciembre/1 enero ordinariamente; Boboli 25 diciembre. Revisar calendario de la fecha, no todo el centro cerrado ni todo abierto.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Cambio de hora altera cierre de Boboli en marzo/octubre; revisar calendario y meteorología. No atribuir eventos anuales a cualquier fecha.",
+      "excludeStopIds": []
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Ninguna entrada, mesa ni actividad está reservada.",
+    "No seguir tarifas de guías antiguas: Accademia oficial 20€, Uffizi 25/29€ día/anticipado. Duomo nave gratuita separada de los pases.",
+    "No prometer mosaicos visibles del Baptisterio: bóveda restaurándose; campanario abierto con vistas parcialmente reducidas por obras.",
+    "Lunes museos principales cerrados salvo especial; Boboli sólo primer/último lunes, no todos. Reordenar según fechas y franjas reales."
+  ],
+  "excludedOrOptional": [
+    "Pisa, Siena y viñedos requieren un día propio, no una tarde extra después de dos museos.",
+    "Cúpula o campanario sustituyen una parte del día, no ambos más Uffizi.",
+    "Pitti interior sustituye Boboli si mal tiempo; no usar billete combinado como obligación de visitar todo."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "VisitFlorence: itinerario tres días",
+      "url": "https://www.visitflorence.com/itineraries-in-florence/3-days-in-florence.html",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "guide2",
+      "title": "Florence Trip: itinerario 2026",
+      "url": "https://www.florence-trip.com/itineraries/florence-in-three-days/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "duomo",
+      "title": "Opera Duomo: catedral",
+      "url": "https://duomo.firenze.it/en/discover/cathedral/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "passes",
+      "title": "Opera Duomo: tarifas",
+      "url": "https://tickets.duomo.firenze.it/en/support/prices",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "faq",
+      "title": "Opera Duomo: FAQ y obras",
+      "url": "https://tickets.duomo.firenze.it/en/support/faq",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "uffizi",
+      "title": "Uffizi: visita",
+      "url": "https://www.uffizi.it/en/the-uffizi",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "fares",
+      "title": "Uffizi: tarifas vigentes",
+      "url": "https://www.uffizi.it/en/pages/tickets-fares",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "accademia",
+      "title": "Accademia: visita y precio 2026",
+      "url": "https://www.galleriaaccademiafirenze.it/en/visit/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "boboli",
+      "title": "Boboli: visita y cierres",
+      "url": "https://www.uffizi.it/en/boboli-garden",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "pitti",
+      "title": "Palazzo Pitti: visita",
+      "url": "https://www.uffizi.it/en/pitti-palace",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "annunziata",
+      "title": "Ayuntamiento: Annunziata",
+      "url": "https://www.feelflorence.it/en/points-interest/piazza-santissima-annunziata",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "novella",
+      "title": "Ayuntamiento: Santa Maria Novella",
+      "url": "https://www.feelflorence.it/en/points-interest/piazza-santa-maria-novella",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "market",
+      "title": "Mercato Centrale: primer piso",
+      "url": "https://www.mercatocentrale.it/firenze/info/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "market2",
+      "title": "Turismo: mercado planta baja",
+      "url": "https://www.visita-firenze.it/esplorare-firenze/vivere-firenze/mercati-e-botteghe/mercato-centrale-san-lorenzo",
+      "type": "tourism",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "brac",
+      "title": "Brac: cocina",
+      "url": "https://www.libreriabrac.net/asporto/menu/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "bracreview",
+      "title": "Firenze Made in Tuscany: vegetarianos",
+      "url": "https://www.firenzemadeintuscany.com/en/article/the-best-vegetarian-and-vegan-restaurants-in-florence/",
+      "type": "editorial",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "ino",
+      "title": "’Ino: local y horario",
+      "url": "https://www.inofirenze.com/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "inoreview",
+      "title": "Firenze Today: street food de Gambero",
+      "url": "https://www.firenzetoday.it/social/migliori-street-food-gambero-rosso-firenze.html",
+      "type": "editorial-secondary",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "gelato",
+      "title": "Gelateria della Passera: local",
+      "url": "https://gelateriadellapassera.it/",
+      "type": "official",
+      "retrievedAt": "2026-10-29"
+    },
+    {
+      "id": "gelatoreview",
+      "title": "Gambero Rosso 2023: heladerías",
+      "url": "https://www.gamberorossointernational.com/news/the-7-best-gelaterias-in-florence-chosen-by-gambero-rosso/",
+      "type": "editorial",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "El Duomo y la pintura de los Uffizi",
+            "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+            "stopIds": [
+              "duomo",
+              "signoria",
+              "uffizi",
+              "ponte"
+            ],
+            "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "El Duomo y la pintura de los Uffizi",
+            "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+            "stopIds": [
+              "duomo",
+              "signoria",
+              "uffizi",
+              "ponte"
+            ],
+            "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+          },
+          {
+            "title": "David y el barrio de San Lorenzo",
+            "zone": "Annunziata → Accademia → San Lorenzo → mercado → Santa Maria Novella",
+            "stopIds": [
+              "annunziata",
+              "accademia",
+              "lorenzo",
+              "market",
+              "novella"
+            ],
+            "editorialNote": "Plaza temprano y Accademia con franja, luego mercado antes 15 h si interesa planta baja. No sumar San Marco, Capillas Medici y basílica al mismo día. Lunes cambiar orden; mercado tradicional no garantizado domingo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Trayectos cortos del centro comprobados en Maps; tiempos de enlace no incluyen colas o museo."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "El Duomo y la pintura de los Uffizi",
+            "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+            "stopIds": [
+              "duomo",
+              "signoria",
+              "uffizi",
+              "ponte"
+            ],
+            "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+          },
+          {
+            "title": "David y el barrio de San Lorenzo",
+            "zone": "Annunziata → Accademia → San Lorenzo → mercado → Santa Maria Novella",
+            "stopIds": [
+              "annunziata",
+              "accademia",
+              "lorenzo",
+              "market",
+              "novella"
+            ],
+            "editorialNote": "Plaza temprano y Accademia con franja, luego mercado antes 15 h si interesa planta baja. No sumar San Marco, Capillas Medici y basílica al mismo día. Lunes cambiar orden; mercado tradicional no garantizado domingo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Trayectos cortos del centro comprobados en Maps; tiempos de enlace no incluyen colas o museo."
+          },
+          {
+            "title": "Oltrarno, Boboli y la ciudad desde arriba",
+            "zone": "Santo Spirito → Pitti exterior → Boboli → Piazzale Michelangelo",
+            "stopIds": [
+              "santo",
+              "pitti",
+              "boboli",
+              "michelangelo"
+            ],
+            "editorialNote": "Jardín a media mañana antes de calor, cierre o mal tiempo. Pitti museo es alternativa a Boboli, no suma automática. Mirador sólo si energía y tiempo; no añadir San Miniato interior ni otra subida obligatoria.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Santo Spirito-Pitti 262 m 3 min; Pitti-mirador 2 km 29 min de enlace andando. Boboli añade 2 h en cuestas y salida real; permitir 45-60 min al mirador con descansos."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "El Duomo y la pintura de los Uffizi",
+            "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+            "stopIds": [
+              "duomo",
+              "signoria",
+              "uffizi",
+              "ponte"
+            ],
+            "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "El Duomo y la pintura de los Uffizi",
+            "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+            "stopIds": [
+              "duomo",
+              "signoria",
+              "uffizi",
+              "ponte"
+            ],
+            "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+          },
+          {
+            "title": "David y el barrio de San Lorenzo",
+            "zone": "Annunziata → Accademia → San Lorenzo → mercado → Santa Maria Novella",
+            "stopIds": [
+              "annunziata",
+              "accademia",
+              "lorenzo",
+              "market",
+              "novella"
+            ],
+            "editorialNote": "Plaza temprano y Accademia con franja, luego mercado antes 15 h si interesa planta baja. No sumar San Marco, Capillas Medici y basílica al mismo día. Lunes cambiar orden; mercado tradicional no garantizado domingo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Trayectos cortos del centro comprobados en Maps; tiempos de enlace no incluyen colas o museo."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "El Duomo y la pintura de los Uffizi",
+            "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+            "stopIds": [
+              "duomo",
+              "signoria",
+              "uffizi",
+              "ponte"
+            ],
+            "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+          },
+          {
+            "title": "David y el barrio de San Lorenzo",
+            "zone": "Annunziata → Accademia → San Lorenzo → mercado → Santa Maria Novella",
+            "stopIds": [
+              "annunziata",
+              "accademia",
+              "lorenzo",
+              "market",
+              "novella"
+            ],
+            "editorialNote": "Plaza temprano y Accademia con franja, luego mercado antes 15 h si interesa planta baja. No sumar San Marco, Capillas Medici y basílica al mismo día. Lunes cambiar orden; mercado tradicional no garantizado domingo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Trayectos cortos del centro comprobados en Maps; tiempos de enlace no incluyen colas o museo."
+          },
+          {
+            "title": "Oltrarno, Boboli y la ciudad desde arriba",
+            "zone": "Santo Spirito → Pitti exterior → Boboli → Piazzale Michelangelo",
+            "stopIds": [
+              "santo",
+              "pitti",
+              "boboli",
+              "michelangelo"
+            ],
+            "editorialNote": "Jardín a media mañana antes de calor, cierre o mal tiempo. Pitti museo es alternativa a Boboli, no suma automática. Mirador sólo si energía y tiempo; no añadir San Miniato interior ni otra subida obligatoria.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Santo Spirito-Pitti 262 m 3 min; Pitti-mirador 2 km 29 min de enlace andando. Boboli añade 2 h en cuestas y salida real; permitir 45-60 min al mirador con descansos."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "El Duomo y la pintura de los Uffizi",
+            "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+            "stopIds": [
+              "duomo",
+              "signoria",
+              "uffizi",
+              "ponte"
+            ],
+            "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "El Duomo y la pintura de los Uffizi",
+            "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+            "stopIds": [
+              "duomo",
+              "signoria",
+              "uffizi",
+              "ponte"
+            ],
+            "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+          },
+          {
+            "title": "David y el barrio de San Lorenzo",
+            "zone": "Annunziata → Accademia → San Lorenzo → mercado → Santa Maria Novella",
+            "stopIds": [
+              "annunziata",
+              "accademia",
+              "lorenzo",
+              "market",
+              "novella"
+            ],
+            "editorialNote": "Plaza temprano y Accademia con franja, luego mercado antes 15 h si interesa planta baja. No sumar San Marco, Capillas Medici y basílica al mismo día. Lunes cambiar orden; mercado tradicional no garantizado domingo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Trayectos cortos del centro comprobados en Maps; tiempos de enlace no incluyen colas o museo."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "El Duomo y la pintura de los Uffizi",
+            "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+            "stopIds": [
+              "duomo",
+              "signoria",
+              "uffizi",
+              "ponte"
+            ],
+            "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+          },
+          {
+            "title": "David y el barrio de San Lorenzo",
+            "zone": "Annunziata → Accademia → San Lorenzo → mercado → Santa Maria Novella",
+            "stopIds": [
+              "annunziata",
+              "accademia",
+              "lorenzo",
+              "market",
+              "novella"
+            ],
+            "editorialNote": "Plaza temprano y Accademia con franja, luego mercado antes 15 h si interesa planta baja. No sumar San Marco, Capillas Medici y basílica al mismo día. Lunes cambiar orden; mercado tradicional no garantizado domingo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Trayectos cortos del centro comprobados en Maps; tiempos de enlace no incluyen colas o museo."
+          },
+          {
+            "title": "Oltrarno, Boboli y la ciudad desde arriba",
+            "zone": "Santo Spirito → Pitti exterior → Boboli → Piazzale Michelangelo",
+            "stopIds": [
+              "santo",
+              "pitti",
+              "boboli",
+              "michelangelo"
+            ],
+            "editorialNote": "Jardín a media mañana antes de calor, cierre o mal tiempo. Pitti museo es alternativa a Boboli, no suma automática. Mirador sólo si energía y tiempo; no añadir San Miniato interior ni otra subida obligatoria.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Santo Spirito-Pitti 262 m 3 min; Pitti-mirador 2 km 29 min de enlace andando. Boboli añade 2 h en cuestas y salida real; permitir 45-60 min al mirador con descansos."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "El Duomo y la pintura de los Uffizi",
+            "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+            "stopIds": [
+              "duomo",
+              "signoria",
+              "uffizi",
+              "ponte"
+            ],
+            "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "El Duomo y la pintura de los Uffizi",
+            "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+            "stopIds": [
+              "duomo",
+              "signoria",
+              "uffizi",
+              "ponte"
+            ],
+            "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+          },
+          {
+            "title": "David y el barrio de San Lorenzo",
+            "zone": "Annunziata → Accademia → San Lorenzo → mercado → Santa Maria Novella",
+            "stopIds": [
+              "annunziata",
+              "accademia",
+              "lorenzo",
+              "market",
+              "novella"
+            ],
+            "editorialNote": "Plaza temprano y Accademia con franja, luego mercado antes 15 h si interesa planta baja. No sumar San Marco, Capillas Medici y basílica al mismo día. Lunes cambiar orden; mercado tradicional no garantizado domingo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Trayectos cortos del centro comprobados en Maps; tiempos de enlace no incluyen colas o museo."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "El Duomo y la pintura de los Uffizi",
+            "zone": "Duomo → Signoria → Uffizi → Ponte Vecchio",
+            "stopIds": [
+              "duomo",
+              "signoria",
+              "uffizi",
+              "ponte"
+            ],
+            "editorialNote": "Catedral al abrir si hay margen de cola; reservar Uffizi después de comida. Domingo catedral exterior o reordenar días. No subir además a cúpula/campanario ni entrar Palazzo Vecchio.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "7-8 h con comida, colas y descansos. Maps enlaces 462 m 6 min, 235 m 3 min, 167 m 2 min, no interiores ni controles. Si cola de nave amenaza franja Uffizi, exterior y volver otro día."
+          },
+          {
+            "title": "David y el barrio de San Lorenzo",
+            "zone": "Annunziata → Accademia → San Lorenzo → mercado → Santa Maria Novella",
+            "stopIds": [
+              "annunziata",
+              "accademia",
+              "lorenzo",
+              "market",
+              "novella"
+            ],
+            "editorialNote": "Plaza temprano y Accademia con franja, luego mercado antes 15 h si interesa planta baja. No sumar San Marco, Capillas Medici y basílica al mismo día. Lunes cambiar orden; mercado tradicional no garantizado domingo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas, estimación editorial. Trayectos cortos del centro comprobados en Maps; tiempos de enlace no incluyen colas o museo."
+          },
+          {
+            "title": "Oltrarno, Boboli y la ciudad desde arriba",
+            "zone": "Santo Spirito → Pitti exterior → Boboli → Piazzale Michelangelo",
+            "stopIds": [
+              "santo",
+              "pitti",
+              "boboli",
+              "michelangelo"
+            ],
+            "editorialNote": "Jardín a media mañana antes de calor, cierre o mal tiempo. Pitti museo es alternativa a Boboli, no suma automática. Mirador sólo si energía y tiempo; no añadir San Miniato interior ni otra subida obligatoria.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "6-7 h con comida y pausas. Santo Spirito-Pitti 262 m 3 min; Pitti-mirador 2 km 29 min de enlace andando. Boboli añade 2 h en cuestas y salida real; permitir 45-60 min al mirador con descansos."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [],
+  "editorialTradeoffs": [],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": ""
+}

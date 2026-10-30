@@ -65,6 +65,45 @@
         "https://restauracja-wypas.order.dish.co/menus"
       ],
       "reviewedAt": "2026-10-28"
+    },
+    {
+      "id": "brovaria",
+      "name": "Brovaria",
+      "address": "Stary Rynek 73/74 · plaza mayor",
+      "description": "Cervecería con cocina en la plaza mayor: cerveza propia y platos polacos.",
+      "strength": "Browar con hotel en el propio Stary Rynek; web propia verificada. Maps: 4,4 · unas 3.000 reseñas.",
+      "caution": "Plaza muy turística; comparar carta. Sin mesa confirmada.",
+      "officialUrl": "https://brovaria.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Brovaria&query_place_id=ChIJ1ZUWpDhbBEcR--j66OkzlXw",
+      "editorialUrl": "https://baifoworld.com/donde-comer-en-poznan-guia-completa/",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: ficha activa 29/10/2026",
+      "status": "maps-listed-active",
+      "priceLabel": "Consultar carta actual"
+    },
+    {
+      "id": "wiejskie-jadlo",
+      "name": "Wiejskie Jadło",
+      "address": "Stary Rynek 77 (entrada por Franciszkańska) · plaza mayor",
+      "description": "Cocina polaca de recetario clásico: kwaśnica, żurek, pato, bigos y pyry z gzikiem.",
+      "strength": "Carta propia con clásicos regionales y precios publicados. Maps: 4,6 · unas 10.200 reseñas.",
+      "caution": "Decoración temática; la cocina es la referencia. Consultar alérgenos.",
+      "officialUrl": "https://wiejskie-jadlo.pl/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wiejskie+Jad%C5%82o+Pozna%C5%84&query_place_id=ChIJaZO0oDhbBEcROaSd0VBxg7c",
+      "editorialUrl": "https://baifoworld.com/donde-comer-en-poznan-guia-completa/",
+      "statusCheckedAt": "2026-10-29",
+      "statusEvidence": "Maps: ficha activa 29/10/2026",
+      "status": "maps-listed-active",
+      "priceLabel": "Consultar carta actual",
+      "photo": {
+        "id": "pierogi-cooked",
+        "img": "assets/enrichment/pierogi-cooked.jpg",
+        "source": "https://www.pexels.com/photo/cooked-pierogi-on-ceramic-plate-8601675/",
+        "author": "Polina Tankilevitch",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "caption": "Foto ilustrativa del plato · no del local"
+      }
     }
   ],
   "activities": [
@@ -108,7 +147,7 @@
   ],
   "schemaVersion": 1,
   "cityId": "poznan",
-  "reviewedAt": "2026-10-28",
+  "reviewedAt": "2026-10-29",
   "scope": "Primera muestra editorial, no catálogo exhaustivo. Revisión puntual, no vigilancia en tiempo real.",
-  "catalogRevision": "2026-10-28-editorial-pass2"
+  "catalogRevision": "2026-10-29-editorial-pass3"
 }

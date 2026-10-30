@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "cityId": "vienna",
+  "reviewedAt": "2026-10-29",
+  "scope": "Cuatro formatos útiles: taberna, bocados fríos, mezze con opciones vegetales y café con repostería. No actividad de pago de relleno.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "poschl",
+      "name": "Gasthaus Pöschl",
+      "address": "Weihburggasse 17, 1010 Wien, Austria",
+      "description": "Taberna vienesa en Weihburggasse, para una comida sentada del centro.",
+      "strength": "Schnitzel de ternera, goulash o lentejas con Serviettenknödel: cocina de taberna, no sólo un plato famoso.",
+      "caution": "Lun-sáb 12-23, cocina hasta 22; domingo cerrado. Reservar si se busca mesa. Carta oficial consultada 29/10: schnitzel 29 €, goulash 18 €, lentejas 17,50 €; bebida aparte y precios futuros pueden cambiar. Foto de schnitzel de otro local, no Pöschl.",
+      "alert": "Lun-sáb 12-23, cocina hasta 22; domingo cerrado. Reservar si se busca mesa. Carta oficial consultada 29/10: schnitzel 29 €, goulash 18 €, lentejas 17,50 €; bebida aparte y precios futuros pueden cambiar. Foto de schnitzel de otro local, no Pöschl.",
+      "officialUrl": "https://www.gasthauspoeschl.com/speisekarten/speisekarte.pdf",
+      "sourceUrls": [
+        "https://www.gasthauspoeschl.com/speisekarten/speisekarte.pdf"
+      ],
+      "editorialUrl": "https://mintaustria.com/en/guides/where-to-eat-in-vienna",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gasthaus+P%C3%B6schl&query_place_id=ChIJp324WJ4HbUcRb3WRtwYb7Dc",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Fuente oficial, carta o formato, guía gastronómica y ubicación Maps contrastados. No confirma mesa futura.",
+      "priceLabel": "Principal 17,50-31,50 € según carta · bebida aparte",
+      "photo": {
+        "img": "assets/vienna/poschl.jpg",
+        "source": "https://www.flickr.com/photos/awaradiaries/33058268443/",
+        "author": "Awara Diaries",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Schnitzel ilustrativo fotografiado en Huth, otro local de Viena; no es Pöschl ni su ración actual. Recorte de presentación."
+      }
+    },
+    {
+      "id": "trzes",
+      "name": "Trzesniewski · Dorotheergasse",
+      "address": "Dorotheergasse 1, 1010 Wien, Austria",
+      "description": "Bocaditos de pan abiertos para una comida ligera cerca de Graben.",
+      "strength": "Elegir varias piezas con distintos ingredientes, sin otra gran comida de taberna.",
+      "caution": "Dorotheergasse 1: lun-vie 8:30-19:30, sáb 9-18, dom/fest 10-17 publicados. Surtido y precio por pieza se consultan en el mostrador; huevo, pescado y lácteos según receta. La foto de archivo muestra producto de la marca, no garantiza surtido ni sucursal.",
+      "alert": "Dorotheergasse 1: lun-vie 8:30-19:30, sáb 9-18, dom/fest 10-17 publicados. Surtido y precio por pieza se consultan en el mostrador; huevo, pescado y lácteos según receta. La foto de archivo muestra producto de la marca, no garantiza surtido ni sucursal.",
+      "officialUrl": "https://www.trzesniewski.at/filialen/dorotheergasse",
+      "sourceUrls": [
+        "https://www.trzesniewski.at/filialen/dorotheergasse"
+      ],
+      "editorialUrl": "https://www.olivemagazine.com/travel/europe/vienna-restaurants-places-to-eat/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Buffet+Trzesniewski+Dorotheergasse&query_place_id=ChIJN0Ab2JgHbUcRSzYQg4luHw8",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Fuente oficial, carta o formato, guía gastronómica y ubicación Maps contrastados. No confirma mesa futura.",
+      "priceLabel": "Por piezas · consultar precio y completar según hambre",
+      "photo": {
+        "img": "assets/vienna/trzes.jpg",
+        "source": "https://www.flickr.com/photos/scaredykat/8223031692/",
+        "author": "Krista",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Brötchen de Trzesniewski en envase de la marca, foto de archivo; sucursal no identificada. Recorte de presentación."
+      }
+    },
+    {
+      "id": "neni",
+      "name": "NENI am Naschmarkt",
+      "address": "Naschmarkt 510, 1060 Wien, Austria",
+      "description": "Mezze y cocina levantina para variar la comida del viaje.",
+      "strength": "Hummus, falafel o mezze para compartir, con opciones vegetales indicadas en la carta.",
+      "caution": "Sucursal Naschmarkt 510, no Prater ni agua. Lun-sáb 8-23, dom 9-21 publicados; cocina y desayuno tienen franjas propias. Carta enlazada: hummus 7 €, falafel 8 €, trío mezze 21 €; bebida y otros platos aparte. La carta de desayuno marca 8 en domingo pero el local abre 9: usar 9. Foto ilustrativa de plato levantino, local no acreditado.",
+      "alert": "Sucursal Naschmarkt 510, no Prater ni agua. Lun-sáb 8-23, dom 9-21 publicados; cocina y desayuno tienen franjas propias. Carta enlazada: hummus 7 €, falafel 8 €, trío mezze 21 €; bebida y otros platos aparte. La carta de desayuno marca 8 en domingo pero el local abre 9: usar 9. Foto ilustrativa de plato levantino, local no acreditado.",
+      "officialUrl": "https://nenifood.com/restaurants/naschmarkt/?lang=en",
+      "sourceUrls": [
+        "https://nenifood.com/restaurants/naschmarkt/?lang=en",
+        "https://yumzi.app/en/neni-naschmarkt?source=qr"
+      ],
+      "editorialUrl": "https://mintaustria.com/en/guides/where-to-eat-in-vienna",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=NENI+am+Naschmarkt&query_place_id=ChIJTaKjjIQHbUcRr1Cvk38JjHI",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Fuente oficial, carta o formato, guía gastronómica y ubicación Maps contrastados. No confirma mesa futura.",
+      "priceLabel": "Mezze 7-21 € por plato · varios para compartir",
+      "photo": {
+        "img": "assets/vienna/neni.jpg",
+        "source": "https://www.flickr.com/photos/pokpok/14242367420/",
+        "author": "Christian Kadluba",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Plato levantino de archivo; no se ha acreditado que la foto sea de NENI ni de su carta actual. Recorte de presentación."
+      }
+    },
+    {
+      "id": "sperl",
+      "name": "Café Sperl",
+      "address": "Gumpendorfer Str. 11, 1060 Wien, Austria",
+      "description": "Café histórico para parar con café y repostería casera junto a Naschmarkt.",
+      "strength": "Una pausa larga de café y tarta, distinta de comer de pie o pedir otro schnitzel.",
+      "caution": "Gumpendorfer Straße 11. Lun-sáb 7-22; dom 10-20, cerrado domingos de julio y agosto. Repostería y precio según carta del día. Piano dominical desde 15:30 anunciado, sujeto a servicio y temporada; no prometer actuación. Foto del salón de archivo, no un plato.",
+      "alert": "Gumpendorfer Straße 11. Lun-sáb 7-22; dom 10-20, cerrado domingos de julio y agosto. Repostería y precio según carta del día. Piano dominical desde 15:30 anunciado, sujeto a servicio y temporada; no prometer actuación. Foto del salón de archivo, no un plato.",
+      "officialUrl": "https://www.cafesperl.at/en/menu",
+      "sourceUrls": [
+        "https://www.cafesperl.at/en/menu",
+        "https://www.cafesperl.at/en/contact"
+      ],
+      "editorialUrl": "https://www.olivemagazine.com/travel/europe/vienna-restaurants-places-to-eat/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Sperl&query_place_id=ChIJ2XE5E4UHbUcRnNXnuwsVah8",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Fuente oficial, carta o formato, guía gastronómica y ubicación Maps contrastados. No confirma mesa futura.",
+      "priceLabel": "Café + dulce · consultar carta actual",
+      "photo": {
+        "img": "assets/vienna/sperl.jpg",
+        "source": "https://www.flickr.com/photos/somkuti/28817755508/",
+        "author": "Sandor Somkuti",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Salón de Café Sperl, foto de archivo; no representa la repostería disponible hoy. Recorte de presentación."
+      }
+    }
+  ],
+  "activities": []
+}

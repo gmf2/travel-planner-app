@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "cityId": "florence",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "brac",
+      "name": "Brac · librería y cocina",
+      "address": "Via dei Vagellai, 18/R, 50122 Firenze FI, Italy",
+      "description": "Comida sentada vegetal en el centro, cerca del Arno y del día de Uffizi.",
+      "strength": "Platos vegetarianos y veganos hechos al momento, con productos de temporada; no todo el menú es vegano.",
+      "caution": "Web propia verifica cocina y sede, no lista de precios/horario actual accesible. Consultar menú, franja de cocina, reserva y alérgenos antes de ir; libros/café no equivalen a cocina abierta.",
+      "alert": "Web propia verifica cocina y sede, no lista de precios/horario actual accesible. Consultar menú, franja de cocina, reserva y alérgenos antes de ir; libros/café no equivalen a cocina abierta.",
+      "priceLabel": "Cocina vegetal · consultar menú",
+      "photo": {
+        "img": "assets/florence/brac.jpg",
+        "source": "https://www.flickr.com/photos/ellaolsson/42231145040/",
+        "author": "Ella Olsson",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Ensalada vegetal ilustrativa de otro establecimiento, no Brac ni su carta del día. Recorte de presentación."
+      },
+      "officialUrl": "https://www.libreriabrac.net/asporto/menu/",
+      "editorialUrl": "https://www.firenzemadeintuscany.com/en/article/the-best-vegetarian-and-vegan-restaurants-in-florence/",
+      "sourceUrls": [
+        "https://www.libreriabrac.net/asporto/menu/",
+        "https://www.firenzemadeintuscany.com/en/article/the-best-vegetarian-and-vegan-restaurants-in-florence/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Brac&query_place_id=ChIJ50zyUwdUKhMRtKXCAD8sGAQ",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas, sin reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "ino",
+      "name": "’Ino · panini de autor",
+      "address": "Via dei Georgofili, 3r/7r, 50122 Firenze FI, Italy",
+      "description": "Almuerzo rápido junto a Uffizi, con producto escogido y combinaciones de temporada.",
+      "strength": "Panini con quesos, salumi y verduras. Web mayo 2026 documenta caponata, alioli de aglione y pecorino, no receta vegana garantizada.",
+      "caution": "Cabecera y contacto actuales publican todos los días 12-15; entrada antigua de horarios dice otras horas/lunes cerrado, no usarla como vigente. Precio y relleno por confirmar en mostrador. Sin mesa garantizada.",
+      "alert": "Cabecera y contacto actuales publican todos los días 12-15; entrada antigua de horarios dice otras horas/lunes cerrado, no usarla como vigente. Precio y relleno por confirmar en mostrador. Sin mesa garantizada.",
+      "priceLabel": "Panino · precio en mostrador",
+      "photo": {
+        "img": "assets/florence/ino.jpg",
+        "source": "https://www.flickr.com/photos/70253321@N00/2553617268/",
+        "author": "fugzu",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Schiacciata toscana ilustrativa, no un panino de ’Ino ni su relleno actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.inofirenze.com/",
+      "editorialUrl": "https://www.firenzetoday.it/social/migliori-street-food-gambero-rosso-firenze.html",
+      "sourceUrls": [
+        "https://www.inofirenze.com/",
+        "https://www.firenzetoday.it/social/migliori-street-food-gambero-rosso-firenze.html"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ino&query_place_id=ChIJwZz6YwBUKhMRwbRqRMQnERw",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas, sin reserva ni apertura futura garantizada."
+    },
+    {
+      "id": "gelato",
+      "name": "Gelateria della Passera",
+      "address": "Via Toscanella, 15/red, 50125 Firenze FI, Italy",
+      "description": "Parada dulce pequeña en Oltrarno, cerca de Santo Spirito y Pitti.",
+      "strength": "Helados y sabores de temporada, con sorbetes según oferta. Preguntar por ingredientes y gustos disponibles.",
+      "caution": "Dirección propia Via Toscanella 15/r. No usar precio 3,50€ de reseña incrustada como tarifa oficial. Horario y precio actual no publicados en texto consultado: confirmar. Algunos sabores al agua llevan miel; no deducir vegano.",
+      "alert": "Dirección propia Via Toscanella 15/r. No usar precio 3,50€ de reseña incrustada como tarifa oficial. Horario y precio actual no publicados en texto consultado: confirmar. Algunos sabores al agua llevan miel; no deducir vegano.",
+      "priceLabel": "Helado · consultar tamaño/precio",
+      "photo": {
+        "img": "assets/florence/gelato.jpg",
+        "source": "https://www.flickr.com/photos/sanguineseas/7345529306/",
+        "author": "Adam Heath",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Helado ilustrativo de otro establecimiento de Florencia, no della Passera ni sus sabores actuales. Recorte de presentación."
+      },
+      "officialUrl": "https://gelateriadellapassera.it/",
+      "editorialUrl": "https://www.gamberorossointernational.com/news/the-7-best-gelaterias-in-florence-chosen-by-gambero-rosso/",
+      "sourceUrls": [
+        "https://gelateriadellapassera.it/",
+        "https://www.gamberorossointernational.com/news/the-7-best-gelaterias-in-florence-chosen-by-gambero-rosso/"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gelateria+Della+Passera&query_place_id=ChIJyX-vPlVRKhMRMq3bf96feeM",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede y oferta contrastadas, sin reserva ni apertura futura garantizada."
+    }
+  ],
+  "activities": []
+}

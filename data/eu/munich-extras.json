@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "cityId": "munich",
+  "reviewedAt": "2026-10-29",
+  "scope": "Taberna bávara, café de masa frita y pita/falafel: tres formatos sin duplicar cervecerías.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "kloster",
+      "name": "Augustiner Klosterwirt",
+      "address": "Augustinerstraße 1, 80331 München-Altstadt-Lehel, Germany",
+      "description": "Taberna bávara junto a Frauenkirche, para una comida sentada.",
+      "strength": "Asado de cerdo con Knödel; Käsespätzle para variar sin otro plato de carne.",
+      "caution": "Carta oficial accesible tiene título 2024-2025: asado 18.90€ y Käsespätzle 16.80€ son referencias publicadas, confirmar precio al pedir. No se presentan como tarifa garantizada 2026. Compartir mesa y ruido posibles; bebida aparte.",
+      "alert": "Carta oficial accesible tiene título 2024-2025: asado 18.90€ y Käsespätzle 16.80€ son referencias publicadas, confirmar precio al pedir. No se presentan como tarifa garantizada 2026. Compartir mesa y ruido posibles; bebida aparte.",
+      "priceLabel": "Comida sentada · consultar precio actual",
+      "photo": {
+        "img": "assets/munich/kloster.jpg",
+        "source": "https://www.flickr.com/photos/brostad/8109795026/",
+        "author": "Bernt Rostad",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Codillo ilustrativo de otro local muniqués, no Klosterwirt ni su asado actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.augustiner-klosterwirt.de/index.php/speisen-getraenke/speisekarte",
+      "sourceUrls": [
+        "https://www.augustiner-klosterwirt.de/index.php/speisen-getraenke/speisekarte"
+      ],
+      "editorialUrl": "https://happytowander.com/3-day-munich-itinerary/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Augustiner+Klosterwirt&query_place_id=ChIJV8rJWPR1nkcRfAVGOrZIeVs",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Formato/carta y sucursal revisados; no acredita disponibilidad futura."
+    },
+    {
+      "id": "frisch",
+      "name": "Café Frischhut · Schmalznudel",
+      "address": "Prälat-Zistl-Straße 8, 80331 München-Altstadt-Lehel, Germany",
+      "description": "Café tradicional con masa frita junto al mercado.",
+      "strength": "Schmalznudel/Auszogne recién hecho y una pausa dulce, no otra cena completa.",
+      "caution": "Turismo municipal y Eater confirman formato y local. Web propia no devuelve carta/horarios verificables en esta lectura; confirmar precio y apertura antes de ir. No asumir vegano ni apto alérgicos: tradición con manteca, preguntar ingredientes.",
+      "alert": "Turismo municipal y Eater confirman formato y local. Web propia no devuelve carta/horarios verificables en esta lectura; confirmar precio y apertura antes de ir. No asumir vegano ni apto alérgicos: tradición con manteca, preguntar ingredientes.",
+      "priceLabel": "Café y pieza dulce · precio por confirmar",
+      "photo": {
+        "img": "assets/munich/frisch.jpg",
+        "source": "https://www.flickr.com/photos/kudwien/8132739085/",
+        "author": "Stefan Kudwien",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Fachada real de Café Frischhut, foto de archivo; no estado ni oferta actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.munich.travel/en/pois/eat-drink/cafe-frischhut-schmalznudel",
+      "sourceUrls": [
+        "https://www.munich.travel/en/pois/eat-drink/cafe-frischhut-schmalznudel"
+      ],
+      "editorialUrl": "https://www.eater.com/maps/munich-germany-best-restaurants",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Schmalznudel+-+Cafe+Frischhut&query_place_id=ChIJwUG8qYp1nkcRHt2dsqjyRxU",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Formato/carta y sucursal revisados; no acredita disponibilidad futura."
+    },
+    {
+      "id": "sababa",
+      "name": "Sababa · Viktualienmarkt",
+      "address": "Westenriederstraße 9, 80331 München, Germany",
+      "description": "Pita, falafel y platos de cocina oriental en Westenriederstrasse.",
+      "strength": "Falafel con hummus para una comida informal distinta de la taberna bávara.",
+      "caution": "Lun-sáb 10-19 según local, no domingo ordinario. Carta publica pita falafel 8.50€, plato falafel 14.50€, hummus 9.50€; bebida aparte. Alérgenos y guarniciones consultar; no todo el local es vegano.",
+      "alert": "Lun-sáb 10-19 según local, no domingo ordinario. Carta publica pita falafel 8.50€, plato falafel 14.50€, hummus 9.50€; bebida aparte. Alérgenos y guarniciones consultar; no todo el local es vegano.",
+      "priceLabel": "Pita 8.50€ / plato 14.50€ · bebida aparte",
+      "photo": {
+        "img": "assets/munich/sababa.jpg",
+        "source": "https://www.flickr.com/photos/alper/53870107510/",
+        "author": "Alper Çuğun",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Falafel ilustrativo de otro local, no Sababa Múnich ni su plato actual. Recorte de presentación."
+      },
+      "officialUrl": "https://www.sababa-munich.com/speisekarte.html",
+      "sourceUrls": [
+        "https://www.sababa-munich.com/speisekarte.html"
+      ],
+      "editorialUrl": "https://www.munich.travel/en/topics/eat-drink/veggie-vegan-take-away",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sababa&query_place_id=ChIJD79Eh4p1nkcR8aMnHmhcUQM",
+      "statusCheckedAt": "2026-10-29",
+      "status": "listed-at-check",
+      "statusEvidence": "Formato/carta y sucursal revisados; no acredita disponibilidad futura."
+    }
+  ],
+  "activities": []
+}

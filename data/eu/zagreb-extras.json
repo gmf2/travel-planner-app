@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "cityId": "zagreb",
+  "reviewedAt": "2026-10-29",
+  "scope": "Selección editorial de comida y actividades; no exhaustiva.",
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "food": [
+    {
+      "id": "struk",
+      "name": "La Štruk · una especialidad, no una carta interminable",
+      "address": "Skalinska ul. 5, 10000, Zagreb, Croatia",
+      "description": "En Skalinska 5, masa estirada y queso fresco de Zagorje para comer entre Dolac y la parte alta.",
+      "strength": "Štrukli al horno de queso salado 11€; trufa, pimiento asado o pipas de calabaza 11,50€. Compartir otra versión dulce si apetece, sin convertirla en menú obligatorio.",
+      "caution": "Carta propia 11-11,50€ para variantes horneadas verificadas; bebidas aparte. GaultMillau 2026 indica unos 20 min de preparación, más espera para enfriar. Masa, lácteos y huevo: consultar alergias; sin gluten no garantía de ausencia de trazas. Tablein muestra 12-22, otros directorios 11-22: no asegurar apertura 11 ni última comanda. Web acepta reservas hasta un día antes, mantiene 30 min; no se ha reservado. Foto real del local en archivo.",
+      "alert": "Carta propia 11-11,50€ para variantes horneadas verificadas; bebidas aparte. GaultMillau 2026 indica unos 20 min de preparación, más espera para enfriar. Masa, lácteos y huevo: consultar alergias; sin gluten no garantía de ausencia de trazas. Tablein muestra 12-22, otros directorios 11-22: no asegurar apertura 11 ni última comanda. Web acepta reservas hasta un día antes, mantiene 30 min; no se ha reservado. Foto real del local en archivo.",
+      "priceLabel": "11-11,50€ por porción · bebida aparte",
+      "photo": {
+        "img": "assets/zagreb/struk.jpg",
+        "source": "https://www.flickr.com/photos/sharonhahndarlin/52240110776/",
+        "author": "Sharon Hahn Darlin",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Štrukli fotografiados en La Štruk en archivo; no se garantiza presentación idéntica actual. Recorte de presentación."
+      },
+      "officialUrl": "https://lastruk.com/",
+      "sourceIds": [
+        "foodguide",
+        "strukcritic",
+        "struk",
+        "strukbooking"
+      ],
+      "sourceUrls": [
+        "https://www.inspiredbycroatia.com/blog/best-zagreb-restaurants/",
+        "https://hr.gaultmillau.com/en/restaurants/la-struk",
+        "https://lastruk.com/",
+        "https://la-struk.tablein.com/en"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+%C5%A0truk&query_place_id=ChIJ6VE-egLXZUcRomv2xXXW5WU",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede contrastada en Maps y fuentes actuales; sin reserva."
+    },
+    {
+      "id": "melt",
+      "name": "Melt · sándwiches en la nueva sede",
+      "address": "Dalmatinska ul. 5, 10000, Zagreb, Croatia",
+      "description": "Dalmatinska 5, en la ciudad baja, para cambiar de queso horneado a un sándwich trabajado o brunch. No la antigua Radićeva.",
+      "strength": "Dobra Hrana 23/10/2026 destaca pastrami 16€ y Prawn Roll; patatas 6€ por separado. Encaja como comida informal, no otra taberna dálmata.",
+      "caution": "Web actual: lunes 8-15, martes-viernes 8-23, sábado 9-23, domingo 9-16; sin cierre de cocina verificado. La página de menú no da precios legibles: pastrami 16€ y patatas 6€ vienen de crítica del 23/10/2026, no son tarifa oficial garantizada. La misma crítica dice fritura en grasa de vacuno: las patatas no son vegetarianas por defecto. No mantener la afirmación de 2025 de que todo es sin gluten: la oferta de 2026 incluye brioche y pan. Consultar cocina y alérgenos. Foto ajena, no presentación de Melt.",
+      "alert": "Web actual: lunes 8-15, martes-viernes 8-23, sábado 9-23, domingo 9-16; sin cierre de cocina verificado. La página de menú no da precios legibles: pastrami 16€ y patatas 6€ vienen de crítica del 23/10/2026, no son tarifa oficial garantizada. La misma crítica dice fritura en grasa de vacuno: las patatas no son vegetarianas por defecto. No mantener la afirmación de 2025 de que todo es sin gluten: la oferta de 2026 incluye brioche y pan. Consultar cocina y alérgenos. Foto ajena, no presentación de Melt.",
+      "priceLabel": "Crítica actual: sándwich 16€ + patatas 6€ · bebida aparte",
+      "photo": {
+        "img": "assets/zagreb/melt.jpg",
+        "source": "https://www.flickr.com/photos/adactio/6934910057/",
+        "author": "Jeremy Keith",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Sándwich de pastrami ilustrativo de otra cocina; no Melt ni su presentación actual. Recorte de presentación."
+      },
+      "officialUrl": "https://meltzagreb.com/",
+      "sourceIds": [
+        "melt",
+        "meltmenu",
+        "meltcritic"
+      ],
+      "sourceUrls": [
+        "https://meltzagreb.com/",
+        "https://meltzagreb.com/pages/menu",
+        "https://www.jutarnji.hr/dobrahrana/vodici/gdje-u-zagrebu-pojesti-dobar-sendvic-od-novih-mjesta-do-dobro-poznatih-favorita-15758291"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Melt&query_place_id=ChIJebrujTfXZUcRvW_iFfAfjL4",
+      "statusCheckedAt": "2026-10-30",
+      "status": "listed-at-check",
+      "statusEvidence": "Sede contrastada en Maps y fuentes actuales; sin reserva."
+    }
+  ],
+  "activities": []
+}

@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "country": "HR",
+  "id": "plitvice",
+  "name": "Lagos de Plitvice",
+  "localName": "Plitvička jezera",
+  "selectionReason": "Parque croata solicitado en la ampliación.",
+  "reviewedAt": "2026-10-29",
+  "status": "editorially-reviewed-pilot",
+  "planningAssumptions": "Sin fechas concretas ni reservas. Uno o dos días de lagos; tercero opcional fuera, no obligación de comprar otra entrada.",
+  "stops": [
+    {
+      "id": "lower",
+      "name": "Lagos Inferiores · bajar al cañón",
+      "kind": "visit",
+      "zone": "Entrada 1 / lagos bajos",
+      "reason": "Empezar en la Entrada 1 que figura en el billete y seguir las señales del circuito, sin convertir cada lago en una visita independiente.",
+      "sourceIds": [
+        "routes",
+        "faq",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 44.8965284,
+        "lon": 15.610736
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Milanovac&query_place_id=ChIJc1WI0rFeYUcRp0SbRJ2iYhA",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 75,
+      "durationType": "editorial-estimate",
+      "caution": "No es otra entrada de pago. C completo: 8 km y 4-5 h oficiales; reservar 5-6 h con fotos y esperas. B: 4 km, 3-4 h. Escaleras, cuestas y pasarelas estrechas, no accesibilidad continua ni carro garantizado. Seguir el mapa oficial, no una línea recta entre puntos de Maps.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/plitvice/lower.jpg",
+        "source": "https://www.flickr.com/photos/sergeigussev/50731489687/",
+        "author": "Sergei Gussev",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Cañón de los Lagos Inferiores en archivo; no promete un mirador extra fuera del circuito señalizado. Recorte de presentación."
+      },
+      "visitMode": "Sector del parque · mismo billete"
+    },
+    {
+      "id": "slap",
+      "name": "Veliki Slap · el desvío señalizado",
+      "kind": "visit",
+      "zone": "Lagos Inferiores / gran cascada",
+      "reason": "Acercarse a la gran cascada dentro del circuito abierto, sin reservar una actividad aparte ni perseguir un punto fuera del sendero.",
+      "sourceIds": [
+        "routes",
+        "alerts",
+        "faq"
+      ],
+      "coordinates": {
+        "lat": 44.9025369,
+        "lon": 15.6084431
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Great+Waterfall&query_place_id=ChIJazX7ZrNeYUcRBLszG_pOqz0",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "Caudal, hielo y acceso cambian con lluvia y seguridad. La foto no garantiza cascada congelada ni mismo aspecto. No salirse del camino, cruzar vallas ni caminar sobre hielo o barreras de toba. En invierno la ruta A es una alternativa oficial de 3,5 km y 2-3 h si está abierta.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/plitvice/slap.jpg",
+        "source": "https://www.flickr.com/photos/sergeigussev/50709264593/",
+        "author": "Sergei Gussev",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Veliki Slap en archivo de mayo de 2019; no garantiza caudal ni acceso actual. Recorte de presentación."
+      },
+      "visitMode": "Dentro del billete del parque"
+    },
+    {
+      "id": "kozjak",
+      "name": "Kozjak · pausa y barco del circuito",
+      "kind": "visit",
+      "zone": "P3 → P2 según circuito elegido",
+      "reason": "Dejar margen para comer algo en una zona permitida y cruzar el lago, no calcular solo los minutos de navegación.",
+      "sourceIds": [
+        "routes",
+        "autumn",
+        "price"
+      ],
+      "coordinates": {
+        "lat": 44.8863889,
+        "lon": 15.61
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Kozjak&query_place_id=ChIJ8_6LT6JeYUcRmLZPD4-DJCM",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 60,
+      "durationType": "editorial-estimate",
+      "caution": "En C y B se combina barco con recorrido a pie y vehículo panorámico; seguir carteles y horario del día. El punto de Maps sitúa el lago, no el muelle exacto. Otoño 2026: P3-P2 8:30-16, P2-P3 8-15:30 cada 30 min; la línea corta P1-P2 es distinta. No garantía de invierno. Una cola puede hacer perder la última conexión.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/plitvice/kozjak.jpg",
+        "source": "https://www.flickr.com/photos/aiva/42598844182/",
+        "author": "aiva.",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Barco Srna en Kozjak en archivo; no garantiza embarcación ni salidas actuales. Recorte de presentación."
+      },
+      "visitMode": "Barco incluido cuando opera · no crucero extra"
+    },
+    {
+      "id": "upper",
+      "name": "Lagos Superiores · Prštavci con tiempo",
+      "kind": "visit",
+      "zone": "Lagos Superiores / Prštavci",
+      "reason": "En un día, continuar el circuito C. Con dos días, dedicar la segunda jornada a E desde la Entrada 2, sin volver a hacer toda la vuelta del primer día.",
+      "sourceIds": [
+        "routes",
+        "alerts",
+        "faq",
+        "guide1"
+      ],
+      "coordinates": {
+        "lat": 44.8771415,
+        "lon": 15.6083764
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Mali+Pr%C5%A1tavac&query_place_id=ChIJ27ePjsVfYUcR-O9psNXeinc",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 125,
+      "durationType": "editorial-estimate",
+      "caution": "E oficial: 5,1 km y 2-3 h, barco corto por Kozjak primero, paseo aguas arriba y regreso en vehículo. No invertir el programa por una guía ni copiar sus 5,5 km. En C esta tarjeta no añade otro circuito E ni otro billete. Los altos suelen cerrar en invierno hasta que el tiempo permite reabrir, a menudo abril. Alertas del 30/10/2026: altos y bajos abiertos, no garantía para otra fecha.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/plitvice/upper.jpg",
+        "source": "https://www.flickr.com/photos/jrthibault/39727796033/",
+        "author": "Marie Thérèse Hébert & Jean Robert Thibault",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Mali Prštavac, Lagos Superiores, en archivo. No indica acceso abierto en invierno. Recorte de presentación."
+      },
+      "visitMode": "C o E según plan · solo si abiertos"
+    },
+    {
+      "id": "weather",
+      "name": "Otra mañana en los bajos · solo por clima o interés",
+      "kind": "visit",
+      "zone": "Entrada 1 / sectores abiertos",
+      "reason": "Una segunda oportunidad opcional si el primer día tuvo mal tiempo o apetece repetir con otra luz. No es necesaria para completar Plitvice.",
+      "sourceIds": [
+        "faq",
+        "price",
+        "alerts"
+      ],
+      "coordinates": {
+        "lat": 44.9050696,
+        "lon": 15.6112752
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Plitvice+Entrance+1+Ticket+Office&query_place_id=ChIJi8ts-7xZYUcReJ3vjoK0YXU",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 120,
+      "durationType": "editorial-estimate",
+      "caution": "En invierno no sustituimos los altos cerrados por una ruta inventada. Confirmar sectores con personal y usar solo senderos abiertos. Requiere billete válido para esa segunda jornada; una entrada de un día no cubre visitas posteriores salvo extensión concedida por el hotel. Si no interesa repetir, dejar el día libre o acortar estancia.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/plitvice/lower.jpg",
+        "source": "https://www.flickr.com/photos/sergeigussev/50731489687/",
+        "author": "Sergei Gussev",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Cañón de los Lagos Inferiores en archivo; no promete un mirador extra fuera del circuito señalizado. Recorte de presentación."
+      },
+      "visitMode": "Repetición opcional · no nueva zona garantizada"
+    },
+    {
+      "id": "rastoke",
+      "name": "Rastoke · tercer día opcional fuera del parque",
+      "kind": "visit",
+      "zone": "Slunj / Rastoke",
+      "reason": "Si se tienen tres días y transporte, pasear entre agua y molinos de otro pueblo. Plitvice no necesita una tercera entrada para sus lagos.",
+      "sourceIds": [
+        "rastoke",
+        "rastokefaq",
+        "guide2"
+      ],
+      "coordinates": {
+        "lat": 45.120557,
+        "lon": 15.5875853
+      },
+      "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Rastoke&query_place_id=ChIJU12zVXP_Y0cRBm6p09EbQWg",
+      "coordinateMethod": "editorial-crosscheck",
+      "suggestedMinutes": 200,
+      "durationType": "editorial-estimate",
+      "caution": "No incluido en el billete de Plitvice. Turismo distingue carretera pública gratuita de ida y vuelta, y sendero Vodene Tajne con puente nuevo: 5€, kioscos solo tarjeta. Fincas y molinos privados tienen su propio precio y calendario; no están incluidos. Consultar acceso con crecida o hielo. Maps desde Entrada 1 devuelve 46,5 km y 46 min en coche por D429/D1; prever cerca de 1 h por sentido con aparcar, no prometer 30 min. Autobús y regreso deben comprobarse para la fecha, sin frecuencia garantizada.",
+      "reviewedAt": "2026-10-29",
+      "openingHours": null,
+      "price": null,
+      "photo": {
+        "img": "assets/plitvice/rastoke.jpg",
+        "source": "https://www.flickr.com/photos/miroslav-vajdic/9509051046/",
+        "author": "Miroslav Vajdić",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Cascadas y casas de Rastoke en archivo. No implica acceso gratuito a fincas privadas. Recorte de presentación."
+      },
+      "visitMode": "Pueblo exterior · paseo parcial gratis, circuito opcional 5€"
+    }
+  ],
+  "plans": {
+    "1": {
+      "days": [
+        {
+          "title": "Una jornada completa · circuito C",
+          "zone": "Entrada 1 → Lagos Inferiores → Veliki Slap → Kozjak → Lagos Superiores → regreso",
+          "stopIds": [
+            "lower",
+            "slap",
+            "kozjak",
+            "upper"
+          ],
+          "editorialNote": "Seguir el circuito C completo desde Entrada 1, no cuatro excursiones sueltas. Un único billete incluye el transporte interno cuando funciona. H desde Entrada 2 es alternativa completa de 8,9 km y 4-6 h, no se suma después.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "5-6 h con pausas, comida y espera de transporte. Entrar temprano en el horario comprado. No encajar después Rastoke o un traslado largo con hora límite."
+        }
+      ]
+    },
+    "2": {
+      "days": [
+        {
+          "title": "Lagos Inferiores sin la vuelta completa",
+          "zone": "Entrada 1 / circuito B",
+          "stopIds": [
+            "lower",
+            "slap",
+            "kozjak"
+          ],
+          "editorialNote": "Plan de dos días: B de 4 km y 3-4 h, con barco y vehículo si operan. No continuar hacia los altos hoy: quedan para E mañana. Mismo billete interno, no pagar barco separado.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "4-5 h con pausa y comida; volver por la parte señalizada del cañón. Los minutos de tarjetas no sustituyen duración total del circuito."
+        },
+        {
+          "title": "Lagos Superiores · circuito E",
+          "zone": "Entrada 2 / circuito E",
+          "stopIds": [
+            "upper"
+          ],
+          "editorialNote": "Entrada 2, no la entrada del primer día por inercia. E: barco corto inicial, caminar aguas arriba y vehículo de vuelta. Billete de dos días consecutivos o nueva entrada válida; confirmar activación del segundo día.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "3-4 h con fotos y comida. No repetir además B, C o H. Si los altos están cerrados, acortar la estancia o dejar una segunda mañana opcional en los bajos."
+        }
+      ]
+    },
+    "3": {
+      "days": [
+        {
+          "title": "Lagos Inferiores sin la vuelta completa",
+          "zone": "Entrada 1 / circuito B",
+          "stopIds": [
+            "lower",
+            "slap",
+            "kozjak"
+          ],
+          "editorialNote": "Plan de dos días: B de 4 km y 3-4 h, con barco y vehículo si operan. No continuar hacia los altos hoy: quedan para E mañana. Mismo billete interno, no pagar barco separado.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "4-5 h con pausa y comida; volver por la parte señalizada del cañón. Los minutos de tarjetas no sustituyen duración total del circuito."
+        },
+        {
+          "title": "Lagos Superiores · circuito E",
+          "zone": "Entrada 2 / circuito E",
+          "stopIds": [
+            "upper"
+          ],
+          "editorialNote": "Entrada 2, no la entrada del primer día por inercia. E: barco corto inicial, caminar aguas arriba y vehículo de vuelta. Billete de dos días consecutivos o nueva entrada válida; confirmar activación del segundo día.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "3-4 h con fotos y comida. No repetir además B, C o H. Si los altos están cerrados, acortar la estancia o dejar una segunda mañana opcional en los bajos."
+        },
+        {
+          "title": "Rastoke si sobra un día y hay transporte",
+          "zone": "Slunj / fuera del parque",
+          "stopIds": [
+            "rastoke"
+          ],
+          "editorialNote": "Día opcional fuera del parque, no otra jornada obligatoria de lagos. Con dos días ya se ven ambos sectores cuando están abiertos; sin transporte o ganas, no hace falta añadirlo.",
+          "optionalStopIds": [],
+          "geographyChecks": [],
+          "pacing": "4-6 h con paseo, comida y traslado de ida/vuelta. No incluye entrada a cada propiedad ni actividades reservadas."
+        }
+      ]
+    }
+  },
+  "seasons": {
+    "summer": {
+      "label": "Verano",
+      "advice": "Primer horario útil y billete de entrada correcto. C/H 5-6 h reales con esperas; la entrada tardía es más barata pero puede no dar tiempo al circuito entero. Agua y sombra, no baño.",
+      "excludeStopIds": []
+    },
+    "springAutumn": {
+      "label": "Primavera / otoño",
+      "advice": "Altos sujetos a clima. Otoño 2026: venta 7-14 y parking 7-18; las últimas conexiones son anteriores. No extrapolar a invierno ni a 2027. Promoción de 10€ solo 24/10-01/11/2026, no todo octubre.",
+      "excludeStopIds": []
+    },
+    "winter": {
+      "label": "Invierno",
+      "advice": "Bajos normalmente abiertos según condiciones, altos suelen cerrados. Sustituimos C/E por A o sector autorizado. Barco, vehículo y kioscos pueden suspenderse; salida antes de noche. No nieve garantizada.",
+      "excludeStopIds": [
+        "upper"
+      ]
+    },
+    "christmas": {
+      "label": "Navidad",
+      "advice": "Mismo límite invernal, sin circuito de altos garantizado. No inventamos mercado, horario festivo de barco o restaurante abierto: confirmar calendario y seguridad.",
+      "excludeStopIds": [
+        "upper"
+      ]
+    }
+  },
+  "events": [],
+  "cautions": [
+    "Tarifa adulta ordinaria publicada: enero-marzo y noviembre-diciembre 10€, abril-mayo y octubre 23€, junio-septiembre 40€. En verano entrada tardía 25€: desde las 16 h junio-agosto y 15 h septiembre, con menos tiempo útil. Dos días consecutivos: 15/39/60€ según esos periodos. Barco y vehículo incluidos cuando operan; parking, comida y viaje aparte. Del 24/10 al 01/11/2026 hay promoción de 10€ adulto solo online, no tarifa general de todo octubre ni promesa para 2027.",
+    "El billete debe validarse en la entrada y hora elegidas. No entrar antes; FAQ permite como máximo una hora de retraso, no planificar con ese margen. Comprar online antes, especialmente en verano; sin reserva realizada.",
+    "Calzado con agarre, agua, abrigo y comida de apoyo. Pasarelas estrechas, escalones y hielo posibles. No bañarse, volar dron sin permiso ni salir del sendero. No acceso continuo para silla o cochecito.",
+    "No usar el reloj de cierre del parking como última hora útil del barco. Consultar alertas y últimos transportes antes de escoger el circuito.",
+    "El hotel Jezero puede extender billete de un día en recepción bajo sus condiciones, antes de entrar otra jornada. No toda pensión o camping incluye extensiones automáticas."
+  ],
+  "excludedOrOptional": [
+    "No K de 16,5/17,5 km por defecto: 6-8 h y más caminata, no atajo de C.",
+    "Rastoke es externo y opcional. No se añade después de un circuito completo por cuota.",
+    "No se promete hielo, nieve, altos abiertos, barco de invierno o carta disponible sin confirmar."
+  ],
+  "sources": [
+    {
+      "id": "guide1",
+      "title": "Carey: dos días en otoño, dirección E contrastada",
+      "url": "https://careyontravels.com/plitvice-lakes-autumn/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide2",
+      "title": "OurCroatia: circuitos y ritmo de primera visita",
+      "url": "https://ourcroatia.com/national-parks/plitvice-lakes/",
+      "type": "travel-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "guide3",
+      "title": "PlitviceLakesInfo: invierno y límites",
+      "url": "https://www.plitvice-lakes.info/winter-plitvice-lakes/",
+      "type": "specialist-guide",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "routes",
+      "title": "Parque: circuitos oficiales y longitudes",
+      "url": "https://np-plitvicka-jezera.hr/en/plan-your-visit/istrazite-jezera/activities/lake-tour-programmes/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "price",
+      "title": "Parque: tarifas, billete y parking",
+      "url": "https://np-plitvicka-jezera.hr/en/plan-your-visit/istrazite-jezera/price-list/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "faq",
+      "title": "Parque: preguntas frecuentes",
+      "url": "https://np-plitvicka-jezera.hr/en/faq/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "alerts",
+      "title": "Parque: condiciones actuales",
+      "url": "https://np-plitvicka-jezera.hr/en/plan-your-visit/current-conditions-alerts/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "autumn",
+      "title": "Parque: horarios de otoño 2026",
+      "url": "https://np-plitvicka-jezera.hr/en/autumn-at-plitvice-lakes-en/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "promo",
+      "title": "Parque: promoción 24/10-01/11/2026",
+      "url": "https://np-plitvicka-jezera.hr/en/promotional-october-week-in-plitvice-lakes-national-park/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "licka",
+      "title": "Lička kuća: sede y horario publicado",
+      "url": "https://np-plitvicka-jezera.hr/en/plan-your-visit/hospitality-facilities/national-restaurant-licka-kuca/",
+      "type": "official",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lickamenu",
+      "title": "Lička kuća: carta enlazada julio 2026, PDF imagen",
+      "url": "https://np-plitvicka-jezera.hr/wp-content/uploads/2026/07/licka_jelovnik_0.21.pdf",
+      "type": "official-menu",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "critic",
+      "title": "GaultMillau 2026: Lička kuća y cierre invernal",
+      "url": "https://hr.gaultmillau.com/en/restaurants/li%C4%8Dka-ku%C4%87a",
+      "type": "restaurant-critic",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "rastoke",
+      "title": "Turismo Slunj: zonas públicas, 5€ y parking",
+      "url": "https://slunj-rastoke.hr/en/rastoke-ticket-and-parking-information/",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "rastokefaq",
+      "title": "Turismo Slunj: fincas privadas y calendario",
+      "url": "https://slunj-rastoke.hr/en/qa_en/",
+      "type": "official-tourism",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+  "seasonalVariants": {},
+  "seasonalPlans": {
+    "summer": {
+      "1": {
+        "days": [
+          {
+            "title": "Una jornada completa · circuito C",
+            "zone": "Entrada 1 → Lagos Inferiores → Veliki Slap → Kozjak → Lagos Superiores → regreso",
+            "stopIds": [
+              "lower",
+              "slap",
+              "kozjak",
+              "upper"
+            ],
+            "editorialNote": "Seguir el circuito C completo desde Entrada 1, no cuatro excursiones sueltas. Un único billete incluye el transporte interno cuando funciona. H desde Entrada 2 es alternativa completa de 8,9 km y 4-6 h, no se suma después.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con pausas, comida y espera de transporte. Entrar temprano en el horario comprado. No encajar después Rastoke o un traslado largo con hora límite."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Lagos Inferiores sin la vuelta completa",
+            "zone": "Entrada 1 / circuito B",
+            "stopIds": [
+              "lower",
+              "slap",
+              "kozjak"
+            ],
+            "editorialNote": "Plan de dos días: B de 4 km y 3-4 h, con barco y vehículo si operan. No continuar hacia los altos hoy: quedan para E mañana. Mismo billete interno, no pagar barco separado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-5 h con pausa y comida; volver por la parte señalizada del cañón. Los minutos de tarjetas no sustituyen duración total del circuito."
+          },
+          {
+            "title": "Lagos Superiores · circuito E",
+            "zone": "Entrada 2 / circuito E",
+            "stopIds": [
+              "upper"
+            ],
+            "editorialNote": "Entrada 2, no la entrada del primer día por inercia. E: barco corto inicial, caminar aguas arriba y vehículo de vuelta. Billete de dos días consecutivos o nueva entrada válida; confirmar activación del segundo día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 h con fotos y comida. No repetir además B, C o H. Si los altos están cerrados, acortar la estancia o dejar una segunda mañana opcional en los bajos."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Lagos Inferiores sin la vuelta completa",
+            "zone": "Entrada 1 / circuito B",
+            "stopIds": [
+              "lower",
+              "slap",
+              "kozjak"
+            ],
+            "editorialNote": "Plan de dos días: B de 4 km y 3-4 h, con barco y vehículo si operan. No continuar hacia los altos hoy: quedan para E mañana. Mismo billete interno, no pagar barco separado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-5 h con pausa y comida; volver por la parte señalizada del cañón. Los minutos de tarjetas no sustituyen duración total del circuito."
+          },
+          {
+            "title": "Lagos Superiores · circuito E",
+            "zone": "Entrada 2 / circuito E",
+            "stopIds": [
+              "upper"
+            ],
+            "editorialNote": "Entrada 2, no la entrada del primer día por inercia. E: barco corto inicial, caminar aguas arriba y vehículo de vuelta. Billete de dos días consecutivos o nueva entrada válida; confirmar activación del segundo día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 h con fotos y comida. No repetir además B, C o H. Si los altos están cerrados, acortar la estancia o dejar una segunda mañana opcional en los bajos."
+          },
+          {
+            "title": "Rastoke si sobra un día y hay transporte",
+            "zone": "Slunj / fuera del parque",
+            "stopIds": [
+              "rastoke"
+            ],
+            "editorialNote": "Día opcional fuera del parque, no otra jornada obligatoria de lagos. Con dos días ya se ven ambos sectores cuando están abiertos; sin transporte o ganas, no hace falta añadirlo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con paseo, comida y traslado de ida/vuelta. No incluye entrada a cada propiedad ni actividades reservadas."
+          }
+        ]
+      }
+    },
+    "winter": {
+      "1": {
+        "days": [
+          {
+            "title": "Invierno · solo los bajos que estén abiertos",
+            "zone": "Entrada 1 / ruta A o recorrido autorizado",
+            "stopIds": [
+              "lower",
+              "slap"
+            ],
+            "editorialNote": "Preguntar sectores y horario al entrar. A oficial: 3,5 km, 2-3 h; no prometer barco ni vehículo si el clima los suspende. No ruta C o E con altos cerrados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 h con margen, antes de la última salida y del anochecer. La nieve y el hielo no están garantizados."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Invierno · solo los bajos que estén abiertos",
+            "zone": "Entrada 1 / ruta A o recorrido autorizado",
+            "stopIds": [
+              "lower",
+              "slap"
+            ],
+            "editorialNote": "Preguntar sectores y horario al entrar. A oficial: 3,5 km, 2-3 h; no prometer barco ni vehículo si el clima los suspende. No ruta C o E con altos cerrados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 h con margen, antes de la última salida y del anochecer. La nieve y el hielo no están garantizados."
+          },
+          {
+            "title": "Segunda oportunidad, no otro día obligatorio",
+            "zone": "Entrada 1 / sectores abiertos",
+            "stopIds": [
+              "weather"
+            ],
+            "editorialNote": "Solo para repetir por clima o interés. En invierno un día suele bastar para los bajos abiertos. Se puede acortar estancia; no prometemos nuevos lagos para justificar dos días.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "2-3 h opcionales y descanso. Billete válido para la segunda fecha, no la entrada caducada del primer día."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Invierno · solo los bajos que estén abiertos",
+            "zone": "Entrada 1 / ruta A o recorrido autorizado",
+            "stopIds": [
+              "lower",
+              "slap"
+            ],
+            "editorialNote": "Preguntar sectores y horario al entrar. A oficial: 3,5 km, 2-3 h; no prometer barco ni vehículo si el clima los suspende. No ruta C o E con altos cerrados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 h con margen, antes de la última salida y del anochecer. La nieve y el hielo no están garantizados."
+          },
+          {
+            "title": "Segunda oportunidad, no otro día obligatorio",
+            "zone": "Entrada 1 / sectores abiertos",
+            "stopIds": [
+              "weather"
+            ],
+            "editorialNote": "Solo para repetir por clima o interés. En invierno un día suele bastar para los bajos abiertos. Se puede acortar estancia; no prometemos nuevos lagos para justificar dos días.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "2-3 h opcionales y descanso. Billete válido para la segunda fecha, no la entrada caducada del primer día."
+          },
+          {
+            "title": "Rastoke si sobra un día y hay transporte",
+            "zone": "Slunj / fuera del parque",
+            "stopIds": [
+              "rastoke"
+            ],
+            "editorialNote": "Día opcional fuera del parque, no otra jornada obligatoria de lagos. Con dos días ya se ven ambos sectores cuando están abiertos; sin transporte o ganas, no hace falta añadirlo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con paseo, comida y traslado de ida/vuelta. No incluye entrada a cada propiedad ni actividades reservadas."
+          }
+        ]
+      }
+    },
+    "christmas": {
+      "1": {
+        "days": [
+          {
+            "title": "Invierno · solo los bajos que estén abiertos",
+            "zone": "Entrada 1 / ruta A o recorrido autorizado",
+            "stopIds": [
+              "lower",
+              "slap"
+            ],
+            "editorialNote": "Preguntar sectores y horario al entrar. A oficial: 3,5 km, 2-3 h; no prometer barco ni vehículo si el clima los suspende. No ruta C o E con altos cerrados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 h con margen, antes de la última salida y del anochecer. La nieve y el hielo no están garantizados."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Invierno · solo los bajos que estén abiertos",
+            "zone": "Entrada 1 / ruta A o recorrido autorizado",
+            "stopIds": [
+              "lower",
+              "slap"
+            ],
+            "editorialNote": "Preguntar sectores y horario al entrar. A oficial: 3,5 km, 2-3 h; no prometer barco ni vehículo si el clima los suspende. No ruta C o E con altos cerrados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 h con margen, antes de la última salida y del anochecer. La nieve y el hielo no están garantizados."
+          },
+          {
+            "title": "Segunda oportunidad, no otro día obligatorio",
+            "zone": "Entrada 1 / sectores abiertos",
+            "stopIds": [
+              "weather"
+            ],
+            "editorialNote": "Solo para repetir por clima o interés. En invierno un día suele bastar para los bajos abiertos. Se puede acortar estancia; no prometemos nuevos lagos para justificar dos días.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "2-3 h opcionales y descanso. Billete válido para la segunda fecha, no la entrada caducada del primer día."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Invierno · solo los bajos que estén abiertos",
+            "zone": "Entrada 1 / ruta A o recorrido autorizado",
+            "stopIds": [
+              "lower",
+              "slap"
+            ],
+            "editorialNote": "Preguntar sectores y horario al entrar. A oficial: 3,5 km, 2-3 h; no prometer barco ni vehículo si el clima los suspende. No ruta C o E con altos cerrados.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 h con margen, antes de la última salida y del anochecer. La nieve y el hielo no están garantizados."
+          },
+          {
+            "title": "Segunda oportunidad, no otro día obligatorio",
+            "zone": "Entrada 1 / sectores abiertos",
+            "stopIds": [
+              "weather"
+            ],
+            "editorialNote": "Solo para repetir por clima o interés. En invierno un día suele bastar para los bajos abiertos. Se puede acortar estancia; no prometemos nuevos lagos para justificar dos días.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "2-3 h opcionales y descanso. Billete válido para la segunda fecha, no la entrada caducada del primer día."
+          },
+          {
+            "title": "Rastoke si sobra un día y hay transporte",
+            "zone": "Slunj / fuera del parque",
+            "stopIds": [
+              "rastoke"
+            ],
+            "editorialNote": "Día opcional fuera del parque, no otra jornada obligatoria de lagos. Con dos días ya se ven ambos sectores cuando están abiertos; sin transporte o ganas, no hace falta añadirlo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con paseo, comida y traslado de ida/vuelta. No incluye entrada a cada propiedad ni actividades reservadas."
+          }
+        ]
+      }
+    },
+    "springAutumn": {
+      "1": {
+        "days": [
+          {
+            "title": "Una jornada completa · circuito C",
+            "zone": "Entrada 1 → Lagos Inferiores → Veliki Slap → Kozjak → Lagos Superiores → regreso",
+            "stopIds": [
+              "lower",
+              "slap",
+              "kozjak",
+              "upper"
+            ],
+            "editorialNote": "Seguir el circuito C completo desde Entrada 1, no cuatro excursiones sueltas. Un único billete incluye el transporte interno cuando funciona. H desde Entrada 2 es alternativa completa de 8,9 km y 4-6 h, no se suma después.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "5-6 h con pausas, comida y espera de transporte. Entrar temprano en el horario comprado. No encajar después Rastoke o un traslado largo con hora límite."
+          }
+        ]
+      },
+      "2": {
+        "days": [
+          {
+            "title": "Lagos Inferiores sin la vuelta completa",
+            "zone": "Entrada 1 / circuito B",
+            "stopIds": [
+              "lower",
+              "slap",
+              "kozjak"
+            ],
+            "editorialNote": "Plan de dos días: B de 4 km y 3-4 h, con barco y vehículo si operan. No continuar hacia los altos hoy: quedan para E mañana. Mismo billete interno, no pagar barco separado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-5 h con pausa y comida; volver por la parte señalizada del cañón. Los minutos de tarjetas no sustituyen duración total del circuito."
+          },
+          {
+            "title": "Lagos Superiores · circuito E",
+            "zone": "Entrada 2 / circuito E",
+            "stopIds": [
+              "upper"
+            ],
+            "editorialNote": "Entrada 2, no la entrada del primer día por inercia. E: barco corto inicial, caminar aguas arriba y vehículo de vuelta. Billete de dos días consecutivos o nueva entrada válida; confirmar activación del segundo día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 h con fotos y comida. No repetir además B, C o H. Si los altos están cerrados, acortar la estancia o dejar una segunda mañana opcional en los bajos."
+          }
+        ]
+      },
+      "3": {
+        "days": [
+          {
+            "title": "Lagos Inferiores sin la vuelta completa",
+            "zone": "Entrada 1 / circuito B",
+            "stopIds": [
+              "lower",
+              "slap",
+              "kozjak"
+            ],
+            "editorialNote": "Plan de dos días: B de 4 km y 3-4 h, con barco y vehículo si operan. No continuar hacia los altos hoy: quedan para E mañana. Mismo billete interno, no pagar barco separado.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-5 h con pausa y comida; volver por la parte señalizada del cañón. Los minutos de tarjetas no sustituyen duración total del circuito."
+          },
+          {
+            "title": "Lagos Superiores · circuito E",
+            "zone": "Entrada 2 / circuito E",
+            "stopIds": [
+              "upper"
+            ],
+            "editorialNote": "Entrada 2, no la entrada del primer día por inercia. E: barco corto inicial, caminar aguas arriba y vehículo de vuelta. Billete de dos días consecutivos o nueva entrada válida; confirmar activación del segundo día.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "3-4 h con fotos y comida. No repetir además B, C o H. Si los altos están cerrados, acortar la estancia o dejar una segunda mañana opcional en los bajos."
+          },
+          {
+            "title": "Rastoke si sobra un día y hay transporte",
+            "zone": "Slunj / fuera del parque",
+            "stopIds": [
+              "rastoke"
+            ],
+            "editorialNote": "Día opcional fuera del parque, no otra jornada obligatoria de lagos. Con dos días ya se ven ambos sectores cuando están abiertos; sin transporte o ganas, no hace falta añadirlo.",
+            "optionalStopIds": [],
+            "geographyChecks": [],
+            "pacing": "4-6 h con paseo, comida y traslado de ida/vuelta. No incluye entrada a cada propiedad ni actividades reservadas."
+          }
+        ]
+      }
+    }
+  },
+  "excursions": [],
+  "editorialAudit": [
+    "Tres guías antes de operadores; corregidas dirección y longitud E de guía externa.",
+    "Tarifa normal y promoción fechada separadas; barco no cobrado dos veces.",
+    "Cinco fotos propias de lugar con licencia individual verificada y una ilustrativa de comida ajena rotulada."
+  ],
+  "editorialTradeoffs": [
+    "Un día completo o dos más lentos. Tercero no necesario.",
+    "Invierno cambia el recorrido de verdad y no mantiene los altos cerrados."
+  ],
+  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "discoveryReview": "OurCroatia recomienda C/H en un día; Carey aporta ritmo de dos días, pero su E aparece invertido y con longitud distinta al operador. PlitviceLakesInfo ayuda con invierno, sin copiar sus precios aproximados. GaultMillau aporta evidencia de cocina y cierre invernal; la carta oficial imagen fija ingredientes, suplementos y pedido previo."
+}
