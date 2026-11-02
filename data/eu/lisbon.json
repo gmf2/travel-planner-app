@@ -569,7 +569,7 @@
       "coordinateMethod": "editorial-crosscheck",
       "suggestedMinutes": 75,
       "durationType": "editorial-estimate",
-      "caution": "Fechas 2026 anunciadas: 2026-11-27 a 2027-01-03 (https://visitlisboablog.pt). Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
+      "caution": "Fechas 2026 previstas: 2026-11-27 a 2027-01-03 (visitlisboablog.pt), sin confirmación oficial todavía. Comprobar horario. Aglomeraciones y suelo resbaladizo posibles.",
       "reviewedAt": "2026-10-30",
       "openingHours": null,
       "price": null,
@@ -719,9 +719,9 @@
       "endDate": "2027-01-03",
       "sourceId": "christmas",
       "location": "Parque Eduardo VII",
-      "status": "announced",
+      "status": "expected",
       "closedDates": [],
-      "note": "Fuente: https://visitlisboablog.pt (blog oficial Visit Lisboa, 11.ª edição)",
+      "note": "Fechas de 2026 según visitlisboablog.pt (11.ª edição), pendientes de confirmación oficial; la página oficial visitlisboa.com confirma el evento anual pero aún no sus fechas de 2026.",
       "appliesTo": "event-only",
       "reviewedAt": "2026-10-30"
     }
@@ -840,7 +840,7 @@
       "id": "christmas",
       "title": "Mercado navideño 2026: Wonderland Lisboa",
       "url": "https://visitlisboablog.pt",
-      "type": "official",
+      "type": "editorial",
       "retrievedAt": "2026-10-30"
     }
   ],
@@ -1361,6 +1361,6 @@
     "Castillo/claustro/Carmo son visitas principales; MAAT sustituye el claustro.",
     "No copiar Sintra con tres palacios+Cascais que proponen guías de afiliación."
   ],
-  "catalogRevision": "2026-10-29-editorial-eu-pass1",
+  "catalogRevision": "2026-10-30-navidad-v1",
   "discoveryReview": "Viajeros Callejeros y Mochileando juntan varios barrios e interiores en una jornada; Lisboa.es separa mejor Belém, pero acumula museos y excursiones. Síntesis propia: descenso Alfama, Belém con un interior, Baixa/Chiado con pausas."
 }
