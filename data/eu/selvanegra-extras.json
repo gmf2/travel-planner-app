@@ -1,0 +1,119 @@
+{
+ "schemaVersion": 1,
+ "cityId": "selvanegra",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "freiburg_oberkirch",
+   "name": "Oberkirchs Weinstuben · Friburgo",
+   "address": "Münsterplatz 22, 79098 Freiburg im Breisgau, Germany",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Oberkirch&query_place_id=ChIJ_7K4cZkckUcRqNemLZSvq3g",
+   "lat": 47.9950617,
+   "lon": 7.8524784,
+   "description": "Weinstube junto al Münster con cocina de Baden y carta estacional. Falstaff 2026 destaca trucha, carne cocida y caza; el menú propio consultado tiene crema de calabaza y dúo de corzo con albóndigas de patata y lombarda. Elegida por cocina regional y encaje en el paseo, no como hotel o menú barato.",
+   "compactDescription": "En Friburgo, junto al Münster: cocina de Baden, caza estacional y vinos regionales. Sin salida extra del casco.",
+   "priceLabel": "Ejemplo de carta estacional: crema de calabaza 14 € + dúo de corzo 42 € + manzana asada en vaso 14 € = 70 € antes de bebidas, posibles cargos y otros extras. Componentes publicados, no menú cerrado ni total final.",
+   "compactPrice": "Ejemplo sopa + corzo + postre: 70 € antes de bebidas y posibles cargos.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.hotel-oberkirch.de/iframes/speisekartenframe/",
+   "editorialUrl": "https://www.falstaff.com/en/restaurants/oberkirchs-weinstuben-freiburg",
+   "sourceUrls": [
+    "https://www.hotel-oberkirch.de/en/restaurant/"
+   ],
+   "statusEvidence": "Carta propia alemana y horarios de restaurante tras reapertura 14/02/2026 leídos, Falstaff 2026 y Maps contrastados. Horarios generales de Falstaff no sustituyen cocina propia. Carta estacional sin garantía para todas las fechas.",
+   "alert": "Cocina lunes-sábado 12:00-17:00 y 17:30-21:00, viernes/sábado hasta 21:30 según web. Domingo solo se publica apertura mayo-octubre. Confirmar festivos, mesa y carta para fecha.",
+   "compactAlert": "Domingo solo apertura publicada mayo-octubre. Confirmar cocina/festivos; no hay reserva.",
+   "caution": "Horario del local desde las 07:00 no significa cocina caliente todo el día. Reservar recomendado, especialmente fin de semana; política de cancelación, cargos y acceso sin escalones pendientes. No se ha reservado ni verificado aptitud ante alergias. No asumir permiso de coche para entrar en la zona peatonal.",
+   "photo": {
+    "img": "assets/selvanegra/freiburg_oberkirch-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes de Selva Negra imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes de Selva Negra imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "freiburg_martins",
+   "name": "Martin's Bräu · Friburgo",
+   "address": "Kaiser-Joseph-Straße 237, 79098 Freiburg im Breisgau, Germany",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Martinsbr%C3%A4u&query_place_id=ChIJ7-4d0J4ckUcRecNPIJFe35s",
+   "placeId": "ChIJ7-4d0J4ckUcRecNPIJFe35s",
+   "lat": 47.99365239999999,
+   "lon": 7.8495611,
+   "description": "Cervecería bajo la Markthalle junto a Martinstor, para el día urbano de Friburgo. Cocina badense contundente: Käseknöpfle con queso y cebolla, Maultaschen vegetarianos, Schäufele con ensalada de patata y tarta Selva Negra. Turismo local confirma cerveza propia y cocina abierta. Brunnenbräu describe Knöpfle sabrosos y saciantes y valora Pils/cerveza estacional más que trigo; es crónica de visita, no garantía de la cerveza del mes. Alternativa más sencilla a la mesa de Oberkirch, no una recomendación por estrellas.",
+   "compactDescription": "Cervecería y cocina badense en Friburgo: Knöpfle de queso o Schäufele. Alternativa más sencilla al menú de Oberkirch.",
+   "priceLabel": "Carta propia individual: Käseknöpfle 15,90 € + tarta Selva Negra 6,20 € = 22,10 € sin bebida; Schäufele 19,40 € + tarta 6,20 € = 25,60 € sin bebida. Precio actual de bebida no recuperado, por tanto no es presupuesto total de comida. No usar precios menores del menú de grupo: exige 8 personas y pedido previo. Schwarzwaldplatte individual 28,50 €/persona exige mínimo 2.",
+   "compactPrice": "Principal + tarta 22,10-25,60 € según elección; bebida y posibles cargos aparte.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://xn--martinsbru-freiburg-owb.de/",
+   "editorialUrl": "https://blog.brunnenbraeu.eu/?p=33182",
+   "sourceUrls": [
+    "https://visit.freiburg.de/martins-braeu"
+   ],
+   "statusEvidence": "Carta y horario propios leídos; turismo local coincide nombre/dirección/formato y horarios. Maps coincide establecimiento/dirección, no se afirma apertura para fecha concreta. Crónica Brunnenbräu con distintas visitas leída como evidencia de cocina/cerveza, no precio actual.",
+   "alert": "Propia y turismo: domingo-jueves/festivos 11-23; viernes-sábado 11-24. No son horas de último pedido de cocina. Web aconseja reservar especialmente fin de semana. Local bajo mercado, acceso sin escalones pendiente.",
+   "compactAlert": "Dom-jue 11-23, vie-sáb 11-24 publicados; cocina/mesa y acceso por confirmar.",
+   "caution": "Sin mesa ni política de cancelación/cargos comprobadas. Carta distingue alérgenos: trigo/cebada, huevo, leche, apio, mostaza y sulfitos según plato; no asumir Knöpfle veganos ni sin gluten. Preguntar trazas/adaptaciones al local. Tarta puede contener alcohol, confirmar. No conducir tras beber; la cerveza mensual de la crónica no está garantizada ahora.",
+   "photo": {
+    "img": "assets/selvanegra/freiburg_martins-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes de Selva Negra imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes de Selva Negra imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "freiburg_augustinermuseum",
+   "name": "Augustinermuseum · Friburgo",
+   "address": "Augustinerpl., 79098 Freiburg im Breisgau, Germany",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Augustiner+Museum&query_place_id=ChIJ3waKVJgckUcRXOHQKFEzPD4",
+   "lat": 47.9940119,
+   "lon": 7.8524901,
+   "description": "Arte del medievo al siglo XIX dentro de una antigua iglesia de convento: figuras y vidrieras originales del Münster, escultura, pintura y galerías en el ático. Alternativa bajo techo en la jornada urbana; sustituye torre/Schlossberg, no se añaden todos como obligaciones.",
+   "duration": "Reserva editorial de 90-120 min para colección, más exposiciones si interesan. No duración guiada oficial.",
+   "compactDuration": "90-120 min orientativos; alternativa bajo techo en Friburgo.",
+   "priceLabel": "12 € ordinaria / 8 € reducida para colectivos acreditados; gratis menores de 27 según museo. Entrada de Augustinermuseum también vale como pase de día de Museen Freiburg. Comprobar condiciones y exposiciones concretas.",
+   "compactPrice": "12 € ordinaria / 8 € reducida acreditada; menores de 27 gratis.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://museen.freiburg.de/am",
+   "sourceUrls": [
+    "https://www.museen-freiburg.de/shop/information/preise"
+   ],
+   "statusEvidence": "Horario/colección y taquilla de Museen Freiburg leídos, dirección Maps contrastada. No se ha seleccionado evento ni comprado entrada.",
+   "alert": "Martes-domingo 10:00-17:00; viernes hasta 19:00. No contar con lunes. Festivos, última entrada, política de compra online e itinerario accesible concreto pendientes.",
+   "compactAlert": "Martes-domingo 10:00-17:00, viernes hasta 19:00. Confirmar festivos.",
+   "caution": "No se certifica acceso sin barreras solo por ser museo. Consultar ascensores, plantas y necesidades concretas antes de ir. La visita libre no incluye guía o concierto; cada evento tiene condiciones propias. No hay reserva ni pago.",
+   "photo": {
+    "img": "assets/selvanegra/freiburg_augustinermuseum-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Monasterio-museo imaginado, no edificio exacto ni obras de Augustinermuseum. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Monasterio-museo imaginado, no edificio exacto ni obras de Augustinermuseum. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ]
+}

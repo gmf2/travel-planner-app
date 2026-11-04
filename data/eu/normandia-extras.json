@@ -1,0 +1,119 @@
+{
+ "schemaVersion": 1,
+ "cityId": "normandia",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "bayeux_pommier",
+   "name": "Le Pommier · Bayeux",
+   "address": "38-40 Rue des Cuisiniers, 14400 Bayeux, France",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Pommier&query_place_id=ChIJnxw3BaysC0gRuQf-wNAbnZ8",
+   "lat": 49.2764072,
+   "lon": -0.7036928,
+   "description": "Cocina regional en el centro de Bayeux. Carta propia con tripes à la mode de Caen, quesos normandos y postre de manzana con caramelo de sidra; la oficina local señala productos de la región y cocina de carácter. Opción de comida en la jornada Bayeux-playas si el horario permite, no parada obligatoria antes del cementerio.",
+   "compactDescription": "En Bayeux: cocina regional, quesos normandos y manzana/sidra. Encajar la comida sin apurar el cementerio.",
+   "priceLabel": "Carta propia: fórmula turística de 2 platos 25 €, completa 29,50 €; Épicure 2 platos 36,50 € o completa 44,50 €. Bebidas y suplementos aparte; ris de veau suplemento 10 €. Oficina local publica 28/42 €, distinto: carta propia como referencia publicada, no precio final garantizado.",
+   "compactPrice": "Carta propia: 2 platos 25 € o menú 29,50 €. Bebidas/suplementos aparte; confirmar fecha.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.restaurantlepommier.com/",
+   "editorialUrl": "https://bayeux-bessin-tourisme.com/fr/restauration/restaurants/traditionnel/bayeux/le-pommier",
+   "sourceUrls": [
+    "https://www.restaurantlepommier.com/nos-menus"
+   ],
+   "statusEvidence": "Web propia/carta y Maps coinciden en dirección. Turismo local con tarifas y servicios distintos; confirmar para fecha. Criterio regional, no se atribuye estrella ni guía Michelin actual.",
+   "caution": "Web propia: 12:00-14:00 y 19:00-21:00. Redacción de cierres: martes, miércoles al mediodía y jueves mediodía/noche; oficina local indica miércoles/jueves y enero cerrado. Confirmar servicio, fecha, alergias y accesibilidad. El formulario es solicitud, no reserva confirmada. Nada gestionado.",
+   "alert": "Horarios/cierres y precios de web propia y turismo difieren. Confirmar servicio antes de contar con esta comida.",
+   "compactAlert": "Cierres y horario con fuentes distintas; confirmar para fecha.",
+   "photo": {
+    "img": "assets/normandia/bayeux_pommier-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes normandos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes normandos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "honfleur_lendroit",
+   "name": "L'Endroit · Honfleur",
+   "address": "3 Rue P et Charles Bréard, 14600 Honfleur, France",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=L%27Endroit&query_place_id=ChIJQVUWC7sz4EcRc2TTCmnr3yM",
+   "placeId": "ChIJQVUWC7sz4EcRc2TTCmnr3yM",
+   "lat": 49.4181801,
+   "lon": 0.2332732,
+   "description": "Bistró del barrio Saint-Léonard, aparte del frente inmediato del puerto, para la etapa Honfleur y no para ir a cenar desde Bayeux. Petit Futé destaca platos de mercado con acentos normandos, cocina cambiante, moules a la normanda y carnes guisadas; son ejemplos de la guía, no platos garantizados hoy. Carta propia usa pescado de costa, sidra, ostras de Agon-Coutainville y Pont-l’Évêque, con cambios según llegada. No confundir con L’Endroit de Île de Ré ni Au Chalutier.",
+   "compactDescription": "Bistró de mercado en Honfleur: pescado, sidra y acentos normandos. Encaja en esta etapa, no añade desplazamiento desde Bayeux.",
+   "priceLabel": "Página propia de menús anuncia entrada + principal + postre 29 € comida/cena, excluye sábado noche y días/fines de semana festivos. Turismo pone menú desde 58 €, Petit Futé 35 €/fórmula 27 €: cifras discrepantes, pedir precio y menú del día antes de elegir. Propia también anuncia veladas jazz a 60 €/persona SIN bebidas, otro formato solo con reserva. No prometer 29 € en jazz. Bebidas, suplementos y precio final sin comprobar.",
+   "compactPrice": "Propia anuncia 3 platos 29 € con excepciones; turismo 58 €. Confirmar menú/precio. Jazz 60 € sin bebidas.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.restaurantlendroithonfleur.com/",
+   "editorialUrl": "https://www.petitfute.com/v4792-honfleur-14600/c1165-restaurants/c4-cuisine-francaise/809583-l-endroit.html",
+   "sourceUrls": [
+    "https://www.restaurantlendroithonfleur.com/menus-et-cartes-restaurant-honfleur-normandie",
+    "https://www.ot-honfleur.fr/restaurant/lendroit/"
+   ],
+   "statusEvidence": "Propia menú y horarios leídos, turismo y crítica específica Petit Futé contrastados. Direcciones y nombre coinciden con Maps; no es confirmación de apertura/mesa. Precios entre fuentes contradictorios, se conserva diferencia.",
+   "alert": "Propia martes-sábado 12:15-14 y 19:30-21:30; turismo cerrado domingo/lunes salvo algunos festivos. Jazz anunciado primer jueves/viernes con reserva, precio distinto; confirmar programación/año y servicio para fecha.",
+   "compactAlert": "Mar-sáb 12:15-14 / 19:30-21:30 publicados. Jazz y festivos pueden cambiar precio/servicio.",
+   "caution": "Sin reserva ni cancelación/cargos comprobados. Acceso sin escalones no confirmado con el local aunque guía etiqueta PMR. Carta incluye moluscos, pescado, leche, mostaza y frutos secos; no asumir adaptación ni ausencia de trazas. Risotto vegetariano publicado no garantiza menú vegetariano 29 €. No conducir después de beber.",
+   "photo": {
+    "img": "assets/normandia/bayeux_pommier-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes normandos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes normandos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local. Concepto regional compartido entre fichas, no producto específico de este local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "pontleveque_calvados",
+   "name": "Père Magloire L’Experience · Calvados en Pont-l’Évêque",
+   "address": "Route de Trouville, 14130 Pont-l’Évêque, Francia; turismo local indica número 13",
+   "description": "Recorrido inmersivo sobre la historia de Normandía y la transformación de manzanas en Calvados, seguido de degustación. Turismo local indica zumo de manzana como alternativa. Es un museo sensorial con degustación, no un taller para destilar ni una visita garantizada a una fábrica en producción.",
+   "compactDescription": "Museo inmersivo y degustación en Pont-l’Évêque. Desplazamiento propio desde la costa o Bayeux.",
+   "duration": "Duración publicada por el operador: 1 h 15 min, más llegada y traslado a Pont-l’Évêque. No tiempo puerta a puerta desde otra base.",
+   "compactDuration": "1 h 15 min publicados; llegada y traslados aparte.",
+   "priceLabel": "Operador y turismo local: adulto mayor de 18, 19 €. Propio: estudiante y 12-18, 15 €; 6-11, 11 €; menor de 6 gratis. No se adopta el descuento bajo carbono de turismo porque tabla y porcentaje no coinciden. Confirmar condiciones de acreditación y cesta.",
+   "compactPrice": "Adulto 19 € publicados; confirmar tarifa y condiciones al comprar.",
+   "officialUrl": "https://distillerieperemagloire.com/?lang=en",
+   "editorialUrl": "https://www.indeauville.fr/en/activite/distillerie-pere-magloire/",
+   "sourceUrls": [
+    "https://billetterie.calvados-experience.com/bin/index.php?code_langue=en"
+   ],
+   "statusEvidence": "Operador publica apertura diaria y entradas hasta 17:45; turismo para 02/11/2026-31/12/2026 señala 10:00-18:00 y última entrada 16:45. Taquilla pide contactar para otros idiomas. Horarios e idiomas pendientes de confirmar, no sesión disponible.",
+   "alert": "Del 02/11/2026 al 31/12/2026 turismo señala última entrada 16:45, antes que la web propia (17:45). Confirmar antes de desplazarse. Luces, humo y sonido pueden molestar a personas sensibles; no conducir después de consumir alcohol.",
+   "compactAlert": "02/11/2026-31/12/2026: turismo señala última entrada 16:45; web propia difiere. Confirmar horario e idioma.",
+   "caution": "Taquilla vende para día y hora específicos y pide contactar para idiomas extranjeros; no se confirma salida en español aunque operador lo enumere. Política de cancelación/cambio/reembolso no recuperada, revisar antes de pagar. Operador declara planta baja, bancos y WC adaptado; confirmar necesidades concretas. No hay reserva ni compra y el traslado no está incluido.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/normandia/pontleveque_calvados-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Manzanos y barril imaginados, no finca, destilería ni degustación de Père Magloire. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Manzanos y barril imaginados, no finca, destilería ni degustación de Père Magloire. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ]
+}

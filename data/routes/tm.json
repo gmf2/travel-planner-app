@@ -1,0 +1,114 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "TM",
+ "country": "Turkmenistán",
+ "reviewedAt": "2026-11-02",
+ "status": "preview",
+ "coverageScope": "Eje turistico clasico unicamente; orientado a combinarse con Uzbekistan.",
+ "verificationLimits": [
+  "No se ha comprobado la autorización de estos pasos terrestres para este circuito ni las condiciones concretas de entrada.",
+  "Exteriores indica visado obligatorio y registro del pasaporte en tres días. Verifica requisitos según nacionalidad, viaje y punto de entrada antes de reservar.",
+  "Conducción nocturna fuera de ciudades desaconsejada por Exteriores. Las jornadas de 8-10 h exigen revisar luz disponible, descansos y viabilidad con operador."
+ ],
+ "routes": [
+  {
+   "id": "tm-5",
+   "title": "Turkmenistán entre fronteras · 5 días",
+   "scope": "Cruce Farap→Shavat con Merv, Aşgabat, costa del Caspio, Yangykala y Darvaza. Empieza y termina en frontera con Uzbekistán, no incluye llegada internacional ni estancia en Uzbekistán.",
+   "pace": "5 días; transporte interurbano separado de las visitas. Duraciones de la fuente orientativas, no horarios contratados.",
+   "assumptions": "Ejemplo de operador con guía y conductor, no propuesta autoguiada. Muy intenso: unas 37 h de conducción según operador. Admisión en frontera y viabilidad de estas jornadas pendientes; no reservar a partir de esta ficha.",
+   "sources": [
+    {
+     "id": "tkm",
+     "title": "Darvaza Tour - Turkmenistan 3/5/7/9 dias (operador)",
+     "url": "https://darvazatour.com/turkmenistan-itinerary/"
+    },
+    {
+     "id": "maec-tm",
+     "title": "Exteriores · requisitos y seguridad (actualizado 29/10/2026)",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Turkmenist%C3%A1n"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Frontera Farap y Merv",
+     "overnight": "Aşgabat",
+     "stops": [
+      "Antigua Merv (Gyaur Kala, Erk Kala, mausoleo del Sultan Sanjar)"
+     ],
+     "transfer": "Farap → Merv → Aşgabat: unas 8 h de conducción según operador, además de frontera y visitas. Salir desde Uzbekistán requiere organización separada.",
+     "sourceIds": [
+      "tkm"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Aşgabat → Kow-Ata → Nokhur → Turkmenbashi",
+     "overnight": "Turkmenbashi",
+     "stops": [
+      "Lago subterráneo Kow-Ata, si opera",
+      "Nokhur",
+      "Llegada a la costa del Caspio"
+     ],
+     "transfer": "Unas 8 h de carretera según operador. Jornada larga, no añadir circuito urbano de Aşgabat.",
+     "sourceIds": [
+      "tkm"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Turkmenbashi → Yangykala → Aşgabat",
+     "overnight": "Aşgabat",
+     "stops": [
+      "Miradores del cañón Yangykala"
+     ],
+     "transfer": "Tramos 4 x 4 y retorno por Balkanabat: unas 10 h de conducción según operador. Es el día más largo, no día de visitas en la capital.",
+     "sourceIds": [
+      "tkm"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Crater de Darvaza",
+     "overnight": "campamento en Darvaza",
+     "stops": [
+      "Crater de gas de Darvaza al atardecer y de noche"
+     ],
+     "transfer": "Aşgabat → Darvaza por Karakum: unas 4 h en carretera según operador, más paradas. Noche en campamento concertado.",
+     "sourceIds": [
+      "tkm"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Kunya-Urgench y frontera Shavat",
+     "overnight": null,
+     "stops": [
+      "Kunya-Urgench (minarete Kutlug Timur)",
+      "Frontera Shavat hacia Jiva"
+     ],
+     "transfer": "Darvaza → Kunya-Urgench → frontera Shavat: unas 7 h de conducción según operador. Frontera y continuación a Jiva no garantizadas ni incluidas.",
+     "sourceIds": [
+      "tkm"
+     ]
+    }
+   ]
+  }
+ ],
+ "photo": {
+  "img": "assets/routes/tm.jpg",
+  "name": "Turkmenistán · cráter de Darvaza (foto de archivo)",
+  "source": "https://commons.wikimedia.org/wiki/File:Darvaza_Gas_Crater.jpg",
+  "originalSource": "https://www.flickr.com/photos/79721788@N00/5730561397",
+  "author": "David Stanley from Nanaimo, Canada",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ },
+ "advisory": {
+  "text": "Circuito de operador en revisión, no recomendación de viaje. Exteriores aconseja viajar con precaución y evitar las zonas fronterizas, de acceso limitado o prohibido para extranjeros. Este ejemplo comienza y termina en pasos terrestres: no lo uses como ruta lista para viajar. Revisado el 2 de noviembre de 2026; aviso oficial actualizado el 29 de octubre.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Turkmenist%C3%A1n"
+ },
+ "routeType": "operator_reference"
+}

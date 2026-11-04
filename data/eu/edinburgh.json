@@ -1,0 +1,732 @@
+{
+ "schemaVersion": 1,
+ "country": "GB",
+ "id": "edinburgh",
+ "name": "Edimburgo",
+ "localName": "Edinburgh",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "castillo",
+   "name": "Castillo de Edimburgo",
+   "kind": "visit",
+   "zone": "Ciudad Vieja",
+   "reason": "La fortaleza sobre la roca volcánica que domina la ciudad: joyas de la corona escocesa y vistas completas.",
+   "sourceIds": [
+    "castle"
+   ],
+   "coordinates": {
+    "lat": 55.9487,
+    "lon": -3.20073
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Castillo_de_Edimburgo",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Reservar franja antes de ordenar el día. Octubre-marzo último acceso habitual 16:00, con excepciones; cerrado 25 y 26 diciembre. Posibles cierres parciales por conservación.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Interior de pago con reserva recomendada + explanada",
+   "photo": {
+    "img": "assets/edinburgh/castillo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Edinburgh_Castle_from_the_Grassmarket_-_geograph.org.uk_-_2541093.jpg",
+    "author": "kim traynor",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "fileTitle": "File:Edinburgh Castle from the Grassmarket - geograph.org.uk - 2541093.jpg",
+    "candFile": "castillo-cand4",
+    "caption": "Foto de archivo: Castillo de Edimburgo. El acceso del día depende del lugar y de su calendario."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "royalmile",
+   "name": "Royal Mile",
+   "kind": "visit",
+   "zone": "Ciudad Vieja",
+   "reason": "La milla escocesa entre el castillo y Holyrood: closes, tabernas y el corazón histórico.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 55.95056,
+    "lon": -3.18556
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Royal_Mile",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Zona y exterior libres",
+   "photo": {
+    "img": "assets/edinburgh/royalmile.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Royal_Mile,_Edinburgh_-_geograph.org.uk_-_502544.jpg",
+    "author": "Dave Hitchborne",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "fileTitle": "File:Royal Mile, Edinburgh - geograph.org.uk - 502544.jpg",
+    "candFile": "royalmile-cand0",
+    "caption": "Foto de archivo: Royal Mile. El acceso del día depende del lugar y de su calendario."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "victoria",
+   "name": "Victoria Street y Grassmarket",
+   "kind": "visit",
+   "zone": "Ciudad Vieja",
+   "reason": "Calle curva de fachadas de colores que comunica el entorno de George IV Bridge con Grassmarket.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 55.94865,
+    "lon": -3.19377
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org (OSM)",
+   "coordinateMethod": "osm-nominatim (identidad: Victoria Street (OSM Nominatim, identidad: Victoria Street, Abbeyhill, Old Town, City of Edinburgh, Alb))",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Zona y exterior libres",
+   "photo": {
+    "img": "assets/edinburgh/victoria.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Diagon_Alley_(49520096076).jpg",
+    "author": "Mike McBey",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "fileTitle": "File:Diagon Alley (49520096076).jpg",
+    "candFile": "victoria-cand1",
+    "caption": "Foto de archivo: Victoria Street y Grassmarket. El acceso del día depende del lugar y de su calendario."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "stgiles",
+   "name": "Catedral de St Giles",
+   "kind": "visit",
+   "zone": "Ciudad Vieja",
+   "reason": "La High Kirk del siglo XII con su torre-corona: vidrieras, Capilla del Cardo y el Heart of Midlothian junto a la entrada.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 55.94944,
+    "lon": -3.19083
+   },
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1547466",
+   "coordinateMethod": "wikidata-entity (identidad verificada: St Giles' Cathedral)",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior libre; interior con horario de culto (sin afirmar horarios)",
+   "photo": {
+    "img": "assets/edinburgh/stgiles.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:The_High_Kirk_of_Edinburgh,_St_Giles%27_Cathedral_-_geograph.org.uk_-_352137.jpg",
+    "author": "Sandy Gemmill",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "fileTitle": "File:The High Kirk of Edinburgh, St Giles' Cathedral - geograph.org.uk - 352137.jpg",
+    "candFile": "stgiles-cand1",
+    "caption": "Foto de archivo: Catedral de St Giles. El acceso del día depende del lugar y de su calendario."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "holyrood",
+   "name": "Palacio de Holyroodhouse",
+   "kind": "visit",
+   "zone": "Ciudad Vieja",
+   "reason": "Residencia oficial de la monarquía en Escocia: apartamentos de María Estuardo y ruinas de la abadía.",
+   "sourceIds": [
+    "rct",
+    "palacetix"
+   ],
+   "coordinates": {
+    "lat": 55.9527,
+    "lon": -3.17229
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Palacio_de_Holyrood",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Habitualmente cerrado martes y miércoles salvo excepciones/visitas especiales. En noviembre-diciembre 2026 abre jueves-lunes; 25 y 26 diciembre cerrado. Actos oficiales pueden cambiar acceso. Elegir fecha y entrada, no hay reserva.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Interior de pago + jardines",
+   "photo": {
+    "img": "assets/edinburgh/holyrood.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Edinburgh_Holyrood_Palace-20110904-RM-130303.jpg",
+    "author": "Ermell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fileTitle": "File:Edinburgh Holyrood Palace-20110904-RM-130303.jpg",
+    "candFile": "holyrood-cand1",
+    "caption": "Foto de archivo: Palacio de Holyroodhouse. El acceso del día depende del lugar y de su calendario."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "calton",
+   "name": "Calton Hill",
+   "kind": "visit",
+   "zone": "Ciudad Nueva",
+   "reason": "Colina de monumentos neoclásicos y vistas de la ciudad. Visita con luz y buen tiempo.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 55.95528,
+    "lon": -3.18222
+   },
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1199959",
+   "coordinateMethod": "wikidata-entity (identidad verificada: Calton Hill)",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Zona y exterior libres",
+   "photo": {
+    "img": "assets/edinburgh/calton.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Edinburgh_Night_Panorama_from_Calton_Hill.jpg",
+    "author": "Farwestern Photo by Gregg M. Erickson",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "fileTitle": "File:Edinburgh Night Panorama from Calton Hill.jpg",
+    "candFile": "calton-cand0",
+    "caption": "Panorámica nocturna desde Calton Hill, foto de archivo. La visita propuesta se hace con luz y condiciones seguras."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "princes",
+   "name": "Princes Street Gardens y Monumento a Scott",
+   "kind": "visit",
+   "zone": "Ciudad Nueva",
+   "reason": "Los jardines del antiguo loch con la fuente Ross y el monumento gótico a Walter Scott.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 55.95005,
+    "lon": -3.20299
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Princes_Street_Gardens",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Zona y exterior libres",
+   "photo": {
+    "img": "assets/edinburgh/princes.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Statue_of_Walter_Scott_at_the_base_of_Scott_Monument_in_Edinburgh_-_geograph.org.uk_-_1301194.jpg",
+    "author": "james denham",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "fileTitle": "File:Statue of Walter Scott at the base of Scott Monument in Edinburgh - geograph.org.uk - 1301194.jpg",
+    "candFile": "princes-cand2",
+    "caption": "Detalle de la estatua de Walter Scott en su monumento. Representa una parte del entorno de Princes Street, no una vista de todo el jardín."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "deanvillage",
+   "name": "Dean Village",
+   "kind": "visit",
+   "zone": "Ciudad Nueva",
+   "reason": "Antiguo pueblo molinero junto al Water of Leith. Paseo alternativo al noroeste del centro, sin duración peatonal verificada.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 55.952,
+    "lon": -3.218
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Dean_Village",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Zona y exterior libres",
+   "photo": {
+    "img": "assets/edinburgh/deanvillage.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:DSCN6828_Well_Court_Dean_Village.jpg",
+    "author": "AlasdairW",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fileTitle": "File:DSCN6828 Well Court Dean Village.jpg",
+    "candFile": "deanvillage-cand2",
+    "caption": "Foto de archivo: Dean Village. El acceso del día depende del lugar y de su calendario."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "arthurs",
+   "name": "Arthur's Seat",
+   "kind": "visit",
+   "zone": "Holyrood Park",
+   "reason": "Mirador elevado de Holyrood Park. Subida opcional que requiere elegir ruta, luz diurna y tiempo seguro.",
+   "sourceIds": [
+    "park"
+   ],
+   "coordinates": {
+    "lat": 55.94417,
+    "lon": -3.16194
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Arthur%27s_Seat",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Subida opcional con luz diurna, buen tiempo, calzado y ruta abierta elegida. Sección norte de Radical Road cerrada por caída de rocas. Respetar señales y desvíos. No programar al atardecer después de cruzar toda la ciudad.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Sendero libre",
+   "photo": {
+    "img": "assets/edinburgh/arthurs.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Edinburgh_Arthur_Seat_dsc06165.jpg",
+    "author": "David Monniaux",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "fileTitle": "File:Edinburgh Arthur Seat dsc06165.jpg",
+    "candFile": "arthurs-cand0",
+    "caption": "Foto de archivo: Arthur's Seat. El acceso del día depende del lugar y de su calendario."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "museo",
+   "name": "Museo Nacional de Escocia",
+   "kind": "visit",
+   "zone": "Ciudad Vieja",
+   "reason": "La Gran Galería victoriana y colecciones de historia escocesa, ciencia y mundo natural; entrada general gratuita según el operador.",
+   "sourceIds": [
+    "nms"
+   ],
+   "coordinates": {
+    "lat": 55.94694,
+    "lon": -3.19
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Escocia",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Entrada general gratuita; exposiciones especiales pueden ser de pago. Cerrado 25 diciembre; horarios especiales de festivos. Confirmar antes de ir.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Interior, entrada general gratuita (donación)",
+   "photo": {
+    "img": "assets/edinburgh/museo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Scotland_Grand_Gallery.jpg",
+    "author": "Elshad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fileTitle": "File:National Museum of Scotland Grand Gallery.jpg",
+    "candFile": "museo-cand0",
+    "caption": "Foto de archivo: Museo Nacional de Escocia. El acceso del día depende del lugar y de su calendario."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "botanico",
+   "name": "Real Jardín Botánico",
+   "kind": "visit",
+   "zone": "Inverleith",
+   "reason": "Jardín botánico al norte del centro, alternativa de paseo sin combinarlo con una subida al otro extremo de la ciudad.",
+   "sourceIds": [
+    "rbge"
+   ],
+   "coordinates": {
+    "lat": 55.96507,
+    "lon": -3.20853
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Real_Jard%C3%ADn_Bot%C3%A1nico_de_Edimburgo",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Jardín exterior gratuito, abre 10:00. Noviembre/enero cierra 16:00 y diciembre 15:30; cerrado 25 diciembre y 1 enero. Palm Houses reabiertas según página principal; resto de invernaderos cerrados por obras. Foto de archivo interior, no entrada incluida.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Jardín exterior gratuito; acceso a Palm Houses y cierres según operador",
+   "photo": {
+    "img": "assets/edinburgh/botanico.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tropical_Palm_House,_Royal_Botanic_Garden,_Edinburgh_-_geograph.org.uk_-_1475447.jpg",
+    "author": "Ian Petticrew",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "fileTitle": "File:Tropical Palm House, Royal Botanic Garden, Edinburgh - geograph.org.uk - 1475447.jpg",
+    "candFile": "botanico-cand1",
+    "caption": "Foto de archivo: Real Jardín Botánico. El acceso del día depende del lugar y de su calendario."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "britannia",
+   "name": "Yate Real Britannia (Leith)",
+   "kind": "visit",
+   "zone": "Leith",
+   "reason": "Antiguo yate real convertido en visita museística en Leith. Acceso de pago con horario estacional.",
+   "sourceIds": [
+    "brit",
+    "trams"
+   ],
+   "coordinates": {
+    "lat": 55.98213,
+    "lon": -3.1773
+   },
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1529544",
+   "coordinateMethod": "wikidata-entity (identidad verificada: HMY Britannia)",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "En Leith, parada de tranvía Ocean Terminal. Noviembre-marzo último acceso 15:00, cierre 17:00; cerrado 25 diciembre y 1 enero. El 15 diciembre 2026 último acceso 12:00 y cierre 14:00. Confirmar calendario del día.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Interior de pago con audioguía",
+   "photo": {
+    "img": "assets/edinburgh/britannia.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Royal_Yacht_Britannia,Ocean_Terminal,_Edinburgh_-_geograph.org.uk_-_545709.jpg",
+    "author": "Carol Walker",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "fileTitle": "File:Royal Yacht Britannia,Ocean Terminal, Edinburgh - geograph.org.uk - 545709.jpg",
+    "candFile": "britannia-cand3",
+    "caption": "Foto de archivo: Yate Real Britannia (Leith). El acceso del día depende del lugar y de su calendario."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "stirling",
+   "name": "Stirling y su castillo",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 56.1166,
+    "lon": -3.9369
+   },
+   "zone": "Fuera de Edimburgo",
+   "suggestedMinutes": 360,
+   "reason": "Castillo y casco histórico de Stirling como jornada alternativa, con tren directo y subida desde la estación. No incluye desvío al monumento a Wallace.",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "Castillo de Stirling cerrado 25-26 diciembre y con horarios estacionales. La estación no es la entrada del castillo: añadir subida y acceso. Excursión sustituye una jornada.",
+   "sourceIds": [
+    "rail-stir",
+    "stir"
+   ],
+   "photo": {
+    "img": "assets/edinburgh/stirling.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stirling_Castle_Great_Hall_2016.jpg",
+    "author": "DeFacto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fileTitle": "File:Stirling Castle Great Hall 2016.jpg",
+    "candFile": "stirling-cand1"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "glasgow",
+   "name": "Glasgow",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 55.86111,
+    "lon": -4.25
+   },
+   "zone": "Fuera de Edimburgo",
+   "suggestedMinutes": 360,
+   "reason": "Centro de Glasgow como jornada alternativa en tren directo.",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "Paseo por el centro; cualquier museo o visita interior requiere comprobar su propio horario. Sustituye una jornada, no añade otra ciudad después de Britannia.",
+   "sourceIds": [
+    "rail-glas"
+   ],
+   "photo": {
+    "img": "assets/edinburgh/glasgow.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Statue_Of_James_Watt.jpg",
+    "author": "TomZoy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fileTitle": "File:Statue Of James Watt.jpg",
+    "candFile": "glasgow-cand1",
+    "caption": "Foto de archivo de la estatua de James Watt en George Square; no muestra el estado actual de la plaza."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "saintandrews",
+   "name": "St Andrews",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 56.33889,
+    "lon": -2.79889
+   },
+   "zone": "Fuera de Edimburgo",
+   "suggestedMinutes": 360,
+   "reason": "La cuna del golf, las ruinas de su catedral medieval y la universidad más antigua de Escocia.",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "Casco y costa como paseo. Acceso a ruinas/torres sujeto a calendario propio. Nada reservado y no se garantiza una visita interior.",
+   "sourceIds": [
+    "x59"
+   ],
+   "photo": {
+    "img": "assets/edinburgh/saintandrews.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ruins_of_St_Andrews_Cathedral_-_geograph.org.uk_-_2063810.jpg",
+    "author": "Dave Fergusson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "fileTitle": "File:Ruins of St Andrews Cathedral - geograph.org.uk - 2063810.jpg",
+    "candFile": "saintandrews-cand0"
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Castillo y Ciudad Vieja",
+     "zone": "Castillo → Victoria Street → Royal Mile",
+     "stopIds": [
+      "castillo",
+      "victoria",
+      "stgiles",
+      "royalmile"
+     ],
+     "editorialNote": "Castillo como único interior largo. Después Victoria Street y Royal Mile, con St Giles solo si permite el culto. Holyrood no se apila como segundo palacio este día.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "Jornada editorial con pausas. Fijar los accesos de pago y las horas de luz antes de cerrar el orden."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Castillo y Ciudad Vieja",
+     "zone": "Castillo → Victoria Street → Royal Mile",
+     "stopIds": [
+      "castillo",
+      "victoria",
+      "stgiles",
+      "royalmile"
+     ],
+     "editorialNote": "Castillo como único interior largo. Después Victoria Street y Royal Mile, con St Giles solo si permite el culto. Holyrood no se apila como segundo palacio este día.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "Jornada editorial con pausas. Fijar los accesos de pago y las horas de luz antes de cerrar el orden."
+    },
+    {
+     "title": "Holyrood y miradores con luz",
+     "zone": "Holyrood → parque o Calton Hill",
+     "stopIds": [
+      "holyrood",
+      "calton"
+     ],
+     "editorialNote": "Holyrood en un día de apertura y mirador con luz. Arthur’s Seat sustituye Calton si eliges una subida y las condiciones lo permiten; no se añade tras los jardines del norte. En martes/miércoles, intercambiar Holyrood con un día abierto o hacer paseo exterior.",
+     "optionalStopIds": [
+      "arthurs"
+     ],
+     "geographyChecks": [],
+     "pacing": "Jornada editorial con pausas. Fijar los accesos de pago y las horas de luz antes de cerrar el orden."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Castillo y Ciudad Vieja",
+     "zone": "Castillo → Victoria Street → Royal Mile",
+     "stopIds": [
+      "castillo",
+      "victoria",
+      "stgiles",
+      "royalmile"
+     ],
+     "editorialNote": "Castillo como único interior largo. Después Victoria Street y Royal Mile, con St Giles solo si permite el culto. Holyrood no se apila como segundo palacio este día.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "Jornada editorial con pausas. Fijar los accesos de pago y las horas de luz antes de cerrar el orden."
+    },
+    {
+     "title": "Holyrood y miradores con luz",
+     "zone": "Holyrood → parque o Calton Hill",
+     "stopIds": [
+      "holyrood",
+      "calton"
+     ],
+     "editorialNote": "Holyrood en un día de apertura y mirador con luz. Arthur’s Seat sustituye Calton si eliges una subida y las condiciones lo permiten; no se añade tras los jardines del norte. En martes/miércoles, intercambiar Holyrood con un día abierto o hacer paseo exterior.",
+     "optionalStopIds": [
+      "arthurs"
+     ],
+     "geographyChecks": [],
+     "pacing": "Jornada editorial con pausas. Fijar los accesos de pago y las horas de luz antes de cerrar el orden."
+    },
+    {
+     "title": "Britannia por la mañana y Museo Nacional",
+     "zone": "Leith → tranvía al centro → Chambers Street",
+     "stopIds": [
+      "britannia",
+      "museo"
+     ],
+     "editorialNote": "Britannia por la mañana para evitar su último acceso temprano en invierno. Volver al centro y elegir un bloque del Museo Nacional si queda horario. Dean Village, Princes Street y Botanics son alternativas para cambiar este día, no visitas extra obligatorias.",
+     "optionalStopIds": [
+      "deanvillage",
+      "princes",
+      "botanico"
+     ],
+     "geographyChecks": [],
+     "pacing": "Jornada editorial con pausas. Fijar los accesos de pago y las horas de luz antes de cerrar el orden."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "El castillo agota entradas online con antelación según edinburghcastle.scot; Holyroodhouse cierra en actos oficiales según rct.uk: comprobar ambos antes de fijar el plan.",
+  "Arthur's Seat no tiene iluminación: planificar la bajada con luz.",
+  "Ninguna entrada, mesa o billete está reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "wp",
+   "title": "Wikipedia: Edimburgo y artículos de cada lugar",
+   "url": "https://es.wikipedia.org/wiki/Edimburgo",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ot",
+   "title": "Turismo oficial: VisitScotland / Forever Edinburgh",
+   "url": "https://edinburgh.org/",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: Edimburgo en 3 días",
+   "url": "https://www.viajeroscallejeros.com/edimburgo-en-3-dias/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "castle",
+   "title": "Edinburgh Castle (Historic Environment Scotland): horarios y entradas",
+   "url": "https://www.edinburghcastle.scot/plan-your-visit/opening-times/",
+   "type": "official-operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "rct",
+   "title": "Royal Collection Trust: Palace of Holyroodhouse",
+   "url": "https://www.rct.uk/visit/palace-of-holyroodhouse",
+   "type": "official-operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "brit",
+   "title": "The Royal Yacht Britannia: horarios oficiales",
+   "url": "https://www.royalyachtbritannia.co.uk/visit/opening-hours/",
+   "type": "official-operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "nms",
+   "title": "National Museums Scotland",
+   "url": "https://www.nms.ac.uk/national-museum-of-scotland",
+   "type": "official-operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "rbge",
+   "title": "Royal Botanic Garden Edinburgh",
+   "url": "https://www.rbge.org.uk/visit/royal-botanic-garden-edinburgh/",
+   "type": "official-operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "trams",
+   "title": "Edinburgh Trams · Ocean Terminal",
+   "url": "https://edinburghtrams.com/stop/ocean-terminal",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "park",
+   "title": "Historic Environment Scotland · Holyrood Park y cierres",
+   "url": "https://www.historicenvironment.scot/about-us/our-work/looking-after-the-sites-in-our-care/how-we-manage-holyrood-park/",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "palacetix",
+   "title": "Royal Collection · Holyroodhouse acceso y días",
+   "url": "https://tickets.rct.uk/product/11/6964",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "rail-stir",
+   "title": "ScotRail · Edimburgo-Stirling",
+   "url": "https://www.scotrail.co.uk/train-times/edinburgh-waverley-to-stirling",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "rail-glas",
+   "title": "ScotRail · Edimburgo-Glasgow Queen Street",
+   "url": "https://www.scotrail.co.uk/train-times/edinburgh-waverley-to-glasgow-queen-street",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "x59",
+   "title": "Stagecoach · Edimburgo y St Andrews",
+   "url": "https://www.stagecoachbus.com/promos-and-offers/east-scotland/go-to-edinburgh-by-bus",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "stir",
+   "title": "Historic Environment Scotland · Stirling Castle",
+   "url": "https://www.historicenvironment.scot/visit/all/stirling-castle/plan-your-visit/",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

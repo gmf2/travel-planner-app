@@ -1,0 +1,103 @@
+{
+ "schemaVersion": 1,
+ "cityId": "bilbao",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "vina",
+   "name": "La Viña del Ensanche",
+   "address": "Diputazio Kalea, 10, Abando, 48008 Bilbao, Bizkaia, Spain",
+   "description": "Mesa de cocina vasca con énfasis ibérico: croquetas Joselito, Josellinis y carrillera. Opción del Ensanche para comer sentado.",
+   "strength": "La crónica de Yendo por la Vida detalla croquetas, paleta y gratinado de frutos rojos; carta actual mantiene platos y menú. Experiencia de 2023 con actualización parcial de 2025, no crítica de hoy.",
+   "alert": "55 € menú, mínimo 2, no compartir ni modificar. Lunes, domingo y festivos cerrado.",
+   "caution": "Carta propia: menú 55 €, bebida no declarada incluida. Croquetas 8 €, Josellinis 4 unidades 20 €, pescados 18-22 €, carnes 16-20 €, postres 7,50 €. Entrada compartida + principal + postre 27,50-39,50 € sin bebida, estimación editorial. Restaurante mar-sáb 13-15:30/20-21:30. Bar mar-jue 10-22:30, viernes hasta 23 según home/23:30 según contacto, sábado 13-23, no horario continuo de cocina. Reserva 2-8 personas, mínimo 24 h y máximo 3 meses, mantiene 15 min, carritos bajo confirmación manual. Menú no compartible ni modificable, cerdo, lácteos y foie frecuentes; consultar alergias. Nada reservado.",
+   "officialUrl": "https://carta.lavinadelensanche.com/carta-esp/",
+   "editorialUrl": "https://yendoporlavida.com/menu-degustacion-la-vina-del-ensanche-bilbao/",
+   "sourceUrls": [
+    "https://lavinadelensanche.com/es/",
+    "https://lavinadelensanche.com/reservas/",
+    "https://lavinadelensanche.com/contacto/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurante+Vi%C3%B1a+del+Ensanche&query_place_id=ChIJ01w-NddPTg0RQq8SKT1irWI",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta y horarios propios, dirección Maps; discrepancia de cierre de bar viernes explícita, sin mesa.",
+   "priceLabel": "55 € menú, bebida por confirmar; carta 27,50-39,50 € sin bebida con entrante compartido, estimación.",
+   "photo": {
+    "img": "assets/bilbao/vina-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes imaginados de cocina vasca. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes imaginados de cocina vasca. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "compactPrice": "Menú55 €; carta27,50-39,50 € estimada, sin bebida.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "guggenheim-interior",
+   "name": "Guggenheim: exposición interior",
+   "address": "Museo Guggenheim Bilbao, Abandoibarra 2, Bilbao",
+   "description": "Interior y audioguía en móvil, el mismo bloque cultural del día 1. No una segunda visita duplicada.",
+   "duration": "2-3 h editoriales más seguridad y cola.",
+   "compactDuration": "2-3 h orientativas",
+   "alert": "Tarifa hoy12€adulto segúnpropio, no precioanualgarantizado. Entradasemitidas sin devolución.",
+   "compactAlert": "Hoy 12 € adulto según web; cambia por fecha. Entrada emitida sin devolución.",
+   "caution": "Consulta 3 noviembre 2026 muestra adulto 12 €, estudiante 18-<26 y mayores de 65/pensionistas 6 €, menores de 18 gratis. Categorías con acreditación, audio QR en móvil incluido. Mar-dom 10-19, lunes solo aperturas listadas 2026, entre ellas 7/28 diciembre; 25 diciembre/1 enero cerrado y24/31 diciembre hasta17. Taquilla 30 min antes, salas 15 min antes. Exposiciones y tarifas cambian por fecha: 12 € no precio anual. Conjunta Bellas Artes 16 € es otro producto. Nada reservado.",
+   "officialUrl": "https://www.guggenheim-bilbao.eus/horarios-y-tarifas",
+   "sourceUrls": [
+    "https://www.guggenheim-bilbao.eus/planea-tu-visita"
+   ],
+   "priceLabel": "12 € adulto mostrado hoy; categoría y fecha pueden cambiar total.",
+   "photo": {
+    "img": "assets/bilbao/guggenheim.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Museo_Guggenheim,_Bilbao_(31273245344).jpg",
+    "author": "Naotake Murayama",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Exterior del Guggenheim en foto de archivo. No muestra exposición o salas abiertas ahora."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Tarifa de hoy y horario oficial leídos, no compra ni disponibilidad futura.",
+   "photoPending": false
+  },
+  {
+   "id": "artxanda-ride",
+   "name": "Funicular de Artxanda y mirador",
+   "address": "Carretera Artxanda-Santo Domingo Errepidea, 27, 48015 Bilbao, Bizkaia, Spain",
+   "description": "Subida en funicular y paseo corto por mirador del día 2. No senderismo completo.",
+   "duration": "3 min de viaje; 45-90 min con paseo, estimación editorial.",
+   "compactDuration": "45-90 min con paseo; viaje 3 min",
+   "alert": "3,50€sencillo/6€ida-vuelta. Invierno último22h; revisar servicio ytiempo para bajar.",
+   "compactAlert": "3,50 € sencillo/6 € ida-vuelta. Invierno cierra 22 h; revisar regreso y tiempo.",
+   "caution": "1 octubre-31 mayo lun-sáb 7:15-22/dom y festivos 8:15-22. 1 junio-30 septiembre vie/sáb/vísperas hasta 23; Aste Nagusia hasta 24 según operador. Frecuencia 10 min entre 11-20/resto 15 min, sin garantía ante averías o cola. Menor de 6 y acompañante de silla de ruedas/invidente gratis según propio. HTML actual Kide 0,44 €/Gizatrans 0,22 €, no 0,32/0,16 del blog ni idéntica tarifa para toda Barik. Mirador expuesto a tiempo, accesos sin barreras por confirmar si necesarios. Sin billete comprado.",
+   "officialUrl": "https://funicularartxanda.bilbao.eus/horarios-y-tarifas/",
+   "sourceUrls": [
+    "https://funicularartxanda.bilbao.eus/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Artxanda+Funicular&query_place_id=ChIJKSoCYOpPTg0REYBCBMoACak",
+   "priceLabel": "3,50 € ocasional/6 € ida-vuelta, IVA incluido; Barik según categoría.",
+   "photo": {
+    "img": "assets/bilbao/artxanda.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Funicular_de_Artxanda_1.jpg",
+    "author": "Xabier",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Artxanda en foto de archivo. No confirma servicio ni visibilidad del día elegido."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Operador HTML completo leído, tarifa de blog contradictoria descartada; servicio futuro por comprobar.",
+   "photoPending": false
+  }
+ ]
+}

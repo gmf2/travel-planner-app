@@ -1,0 +1,104 @@
+{
+ "schemaVersion": 1,
+ "cityId": "loira",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "les-arpents",
+   "name": "Les Arpents · cocina de temporada en Amboise",
+   "address": "5 Rue d'Orange, 37400 Amboise, France",
+   "description": "Bistró contemporáneo de producto de Touraine, cerca del castillo. Michelin destaca trabajo con verduras y fruta de temporada, cerdo roi rose, queso de cabra y un tratamiento preciso de salsas y postres. Mejor para sentarse a comer que para una pausa rápida entre castillos.",
+   "strength": "Crítica específica de Michelin y proveedores locales explicados por la propia casa, no elegido solo por un distintivo.",
+   "alert": "Menú de mercado solo mediodía de martes a viernes, fuera de festivos.",
+   "compactAlert": "Menú de mercado: solo mar-vie al mediodía, sin festivos.",
+   "caution": "Web propia publica martes-sábado 12-14 y 19-21; Michelin coincide en cierre domingo y lunes. Menús sin bebidas, impuestos y servicio incluidos. Menú de cinco pases para toda la mesa. Documento publicado en ruta de 2026, confirmar carta, alergias y precio de la fecha. Ninguna mesa ni disponibilidad comprobada. El texto sobre cubierto adicional 15 € mediodía/25 € noche no es suplemento automático por comensal: alcance por aclarar si se comparte sin menú.",
+   "officialUrl": "https://restaurant-lesarpents.fr/",
+   "editorialUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/amboise/restaurant/les-arpents",
+   "sourceUrls": [
+    "https://restaurant-lesarpents.fr/carte-et-menu-restaurant-les-arpents/",
+    "https://restaurant-lesarpents.fr/wp-content/uploads/2026/01/tarif_menu_2026-scaled.jpg"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant+Les+Arpents&query_place_id=ChIJdx4JQoLK_EcRskO01dw94qM",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Web propia y menú 2026 inspeccionado en píxeles, crítica Michelin leída, dirección Maps coincide. Sin reserva.",
+   "priceLabel": "Mercado 23 € dos partes o 27 € tres al mediodía mar-vie sin festivos; menú de tres pases 43 € y de cinco 63 €. Sin bebidas, servicio e impuestos incluidos.",
+   "compactPrice": "23-27 € almuerzo mar-vie; 43/63 € otros menús, sin bebidas.",
+   "photo": {
+    "img": "assets/loira/les-arpents-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes del Loira imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes del Loira imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "chambord-dedicated",
+   "name": "Chambord y jardines, no segundo castillo",
+   "address": "Chambord",
+   "description": "Es la visita del catálogo, no una actividad adicional para duplicar el mismo interior. Elegirla como foco o alternativa del día.",
+   "duration": "2 h de castillo + 30 min de jardines según operador, más traslados y pausas.",
+   "compactDuration": "2 h de castillo + 30 min de jardines según operador, más traslados y pausas.",
+   "alert": "21 € EEE/31 € fuera del EEE hasta 31 diciembre de 2026, con justificante y gratuidades.",
+   "caution": "Bosque y entorno: acceso gratuito 24 horas según operador, no recomendación de recorrer bosque de noche ni acceso a zonas cerradas. Castillo: unas dos horas y jardines unos 30 minutos según operador, más traslado y comida. Billete sin fecha ni franja válido hasta el 31 de diciembre del año indicado, permite salir y entrar el mismo día después del primer escaneo. No reembolsable ni intercambiable salvo cancelación del dominio; visita libre sin reserva obligatoria. Actividades con cupo y billetes propios. Acceso oficial por línea Rémi 2 desde estación de Blois: 3,40 € trayecto, 6,80 € ida y vuelta; horarios de 2026 y retorno por comprobar. No hay parada breve en arcén, todos los coches usan parking. Amboise-Chambord: Maps estima 51,6 km y 54 minutos de conducción sin tráfico para esta consulta, no tiempo final con parking.",
+   "officialUrl": "https://www.chambord.org/en/informations-pratiques/tarifs",
+   "sourceUrls": [
+    "https://www.chambord.org/en/informations-pratiques/horaires-et-lieux"
+   ],
+   "priceLabel": "Hasta 31 de diciembre de 2026: 21 € para nacionales o residentes del EEE con justificante; 31 € para quienes no sean nacionales ni residentes del EEE. Reducida 18,50 € EEE o 28,50 € fuera del EEE, con condiciones. Gratis menores de 18 y jóvenes de 18-25 nacionales UE o nacionales/residentes EEE según lista detallada. Discapacidad y un acompañante gratis con justificante. No es gratis el primer domingo del mes.",
+   "photo": {
+    "img": "assets/loira/chambord.jpg",
+    "alt": "Vista exterior de Chambord y su entorno desde el agua. Foto de archivo, no acredita acceso o espectáculo actual.",
+    "caption": "Vista exterior de Chambord y su entorno desde el agua. Foto de archivo, no acredita acceso o espectáculo actual.",
+    "source": "https://www.pexels.com/photo/chateau-de-chambord-in-summer-serenity-33584320/",
+    "author": "Eduardo Reiser",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Producto y límites revisados en operador; no entrada ni sesión reservada.",
+   "compactPrice": "2026:21 € EEE con justificante;31 € resto.",
+   "compactAlert": "Entrada por categoría; transporte y reservas aparte.",
+   "photoPending": false
+  },
+  {
+   "id": "clos_luce-dedicated",
+   "name": "Clos Lucé, alternativa dedicada en Amboise",
+   "address": "Amboise",
+   "description": "Es la visita del catálogo, no una actividad adicional para duplicar el mismo interior. Elegirla como foco o alternativa del día.",
+   "duration": "2 h orientativas editoriales; taquilla cierra una hora antes del recinto.",
+   "compactDuration": "2 h orientativas editoriales; taquilla cierra una hora antes del recinto.",
+   "alert": "20 € adulto para castillo, parque y galerías; exposición temporal tiene calendario y producto distintos.",
+   "caution": "Taquilla cierra una hora antes del recinto. Parking de coches privado de pago a 300 metros; el parking gratis citado por operador es para autocares, no coches. Distancias a pie desde castillo y estación aparecen incompletas en la página: no afirmar 500 metros como ruta verificada.",
+   "officialUrl": "https://www.vinci-closluce.com/tarifs/",
+   "sourceUrls": [
+    "https://www.vinci-closluce.com/acces-et-horaires/"
+   ],
+   "priceLabel": "Castillo, parque y galerías: 20 € adulto; 15 € de 7-18, estudiantes y reducidas con condiciones; menores de 7 gratis. Discapacidad 11 €; acompañante 11 € si documento indica acompañante obligatorio. Familia de dos adultos y dos niños 7-18: 60 €, niño adicional 5 €. Producto de exposición temporal del 6 de junio al 13 de septiembre publicado por separado; no venderlo como opción actual de noviembre.",
+   "photo": {
+    "img": "assets/loira/clos_luce.jpg",
+    "alt": "Fachada del Clos Lucé. Foto publicada en 2024, no acredita exposición temporal ni acceso actual.",
+    "caption": "Fachada del Clos Lucé. Foto publicada en 2024, no acredita exposición temporal ni acceso actual.",
+    "source": "https://www.worldhistory.org/image/18584/chateau-du-clos-luce/",
+    "author": "Werner Bayer",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.worldhistory.org/image/18584/chateau-du-clos-luce/"
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Producto y límites revisados en operador; no entrada ni sesión reservada.",
+   "compactPrice": "Adulto20 €;7-18años15 €; menores7gratis.",
+   "compactAlert": "Castillo/parque/galerías; exposición de verano no incluida por defecto.",
+   "photoPending": false
+  }
+ ]
+}

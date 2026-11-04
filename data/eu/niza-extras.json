@@ -1,0 +1,128 @@
+{
+ "schemaVersion": 1,
+ "cityId": "niza",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "pipo",
+   "name": "Chez Pipo",
+   "address": "13 Rue Bavastro, 06300 Nice, France",
+   "description": "Socca de harina de garbanzo hecha al horno, con pissaladière y especialidades niçoises. Formato informal junto al puerto, sin reserva.",
+   "strength": "Lonely Planet lo prefiere frente a buscar socca solo en el casco; su horno y especialización local lo distinguen de un restaurante mediterráneo genérico. Encaja al terminar Garibaldi/Puerto, sin desviarlo al día de Cimiez.",
+   "caution": "Web propia: miércoles-domingo 11:30-14:30 y 17:30-22, sin reservas. Turismo añade martes en verano: no se aplica fuera de temporada ni se garantiza otra fecha. Carta y precio total por comprobar; cifra turística 3,50-7,50 € es por plato publicado 2022-2026, no presupuesto de comida completa. Socca de garbanzo no prueba ausencia de contaminación para alergias. No foto libre del local validada todavía.",
+   "officialUrl": "https://www.chezpipo.fr/en",
+   "editorialUrl": "https://www.lonelyplanet.com/france/nice/le-port-garibaldi/restaurants/chez-pipo/a/poi-eat/1514245/1342248",
+   "sourceUrls": [
+    "https://www.explorenicecotedazur.com/en/restaurant/chez-pipo/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chez+Pipo&query_place_id=ChIJ0c0IXrjazRIR4Evm9bdMnZg",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Identidad/dirección en Maps, cerrado durante revisión nocturna, no cierre permanente. Horario de web propia, no horario detallado de Maps verificado.",
+   "priceLabel": "Informal; carta de pago, total por confirmar según pedido.",
+   "photo": {
+    "img": "assets/niza/pipo-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Garbanzos, harina y sartén vacía imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Garbanzos, harina y sartén vacía imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "alert": "Miércoles-domingo según web propia; sin reservas. Martes de verano solo según calendario.",
+   "realPhotoPending": true
+  },
+  {
+   "id": "davia",
+   "name": "Chez Davia",
+   "address": "11bis Rue Grimaldi, 06000 Nice, France",
+   "description": "Mesa familiar de cocina niçoise: daube, barbajuans y recetas de temporada. Alternativa sentada al formato socca del puerto.",
+   "strength": "Crónica de Edouard Amoiel del 27 de septiembre de 2026 elogia el trabajo de Pierre Altobelli, la cocina regional y el producto. Web propia confirma tercera generación desde 1953. No se reduce la elección a una insignia o media de reseñas.",
+   "caution": "Web propia: lunes cerrado, martes 19-21:30, miércoles-domingo 12-13:30 y 19-21:30. Confirmar carta, coste final y mesa para fecha; nada reservado. Fuente editorial es una crítica entusiasta, no promesa de experiencia perfecta ni unanimidad en opiniones. Sin foto libre del local validada todavía.",
+   "officialUrl": "https://www.chezdavia.com/",
+   "editorialUrl": "https://amoiel.ch/en/chronicle/at-davia-we-help-you-rediscover-the-joy-of-life/",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chez+Davia&query_place_id=ChIJqTIC_AnQzRIR96POL-9UfMc",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Identidad/dirección en Maps; horario y cocina propios contrastados. Sin prueba de disponibilidad de mesa ni de precio individual final.",
+   "priceLabel": "Comida/cena sentada; menú y total por confirmar, no presupuesto verificado.",
+   "photo": {
+    "img": "assets/niza/pipo-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Garbanzos, harina y sartén vacía imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Garbanzos, harina y sartén vacía imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local. Concepto regional compartido entre fichas, no producto específico de este local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "alert": "Lunes cerrado; martes solo cena. Confirmar carta y mesa para la fecha.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "opera",
+   "name": "Visita guiada de la Ópera de Niza",
+   "address": "4-6 Rue Saint-François de Paule, 06300 Nice, France",
+   "description": "Salas, escalera de honor y foyer con guía del Centre du Patrimoine. Se elige con fecha y reserva, no basta entrar desde la plaza.",
+   "duration": "1 h 30 publicada; sustituye otra visita cultural del día.",
+   "alert": "Reserva necesaria. La web anuncia lunes 15 h, 15:30 desde abril, solo durante períodos programados: confirmar fecha, idioma y plaza.",
+   "caution": "Operador publica 8 € adulto/3 € reducido, menores de 18 gratis; confirmar elegibilidad y tarifa para fecha. Reservas con Centre du Patrimoine, 14 rue Jules Gilly; no espectáculo incluido. Web dice ciertas épocas del año, no todos los lunes garantizados ni acceso a cualquier área siempre. No reserva hecha.",
+   "officialUrl": "https://www.opera-nice.org/lopera/linstitution/visitez-lopera/",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Op%C3%A9ra+de+Nice&query_place_id=ChIJOdYiS6LazRIRBQmeCxgnWs4",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Fuente propia y localización Maps contrastadas. Sin entrada ni sesión confirmada.",
+   "priceLabel": "8 € adulto publicados; reserva previa, función aparte.",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Op%C3%A9ra_de_Nice_IMG_1254.jpg",
+    "author": "Alexander Migl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "img": "assets/niza/opera.jpg",
+    "caption": "Exterior real de la Ópera de Niza, foto de archivo. No muestra salas ni tour confirmado."
+   },
+   "compactDuration": "1 h 30",
+   "compactAlert": "Reserva necesaria; fecha, idioma y plaza por confirmar.",
+   "photoPending": false
+  },
+  {
+   "id": "fragonard",
+   "name": "Fragonard · visita de la fábrica en Èze",
+   "address": "158 Av. de Verdun, 06360 Èze, France",
+   "description": "Recorrido guiado de perfumería y cosmética con final en tienda. Opción dentro de la excursión a Èze, no actividad céntrica de Niza.",
+   "duration": "60-90 min orientativos con espera, más transporte a Èze.",
+   "alert": "Visita guiada gratuita sin reserva para individuales; no incluye taller de perfumería ni compras. Queda fuera de Niza y sustituye tiempo de la excursión.",
+   "caution": "Fábrica laboratorio en La Condamine, Èze Village: propio 9-18 diario, 25 de diciembre 9-12:30/14:30-18. Página general dice salidas aprox. cada 30 min, no plaza/idioma garantizados al llegar; idiomas francés, inglés, alemán, español, italiano según disponibilidad. Individuales se presentan en recepción, grupos profesionales tienen otra mecánica. Bus 82 hasta pueblo; tren Èze-sur-mer no está arriba: requiere enlace 83 u otro confirmado. No usar anuncio de tren sin explicar diferencia de cota. Talleres de pago separados.",
+   "officialUrl": "https://usines-parfum.fragonard.com/usines/lusine-laboratoire-eze/",
+   "sourceUrls": [
+    "https://usines-parfum.fragonard.com/visite/",
+    "https://www.explorenicecotedazur.com/en/explore/towns-villages/coastal-area/eze/get-to-eze/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parfumerie+Fragonard+%E2%80%94+Usine+Laboratoire+d%E2%80%99%C3%88ze&query_place_id=ChIJyRrwPGbDzRIRX0TKPUar-e8",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Fábrica de Èze identificada en Maps y operador, no Grasse ni París. No sesión reservada.",
+   "priceLabel": "Visita gratuita; transporte, taller y compras aparte.",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Parfumerie_Fragonard_-_Eze_-_panoramio_-_kajikawa.jpg",
+    "author": "kajikawa",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+    "img": "assets/niza/fragonardext.jpg",
+    "caption": "Exterior real de la fábrica Fragonard en Èze, foto de archivo. No demuestra visita ni acceso actuales."
+   },
+   "compactDuration": "60-90 min + traslado a Èze",
+   "compactAlert": "Visita gratuita, no taller ni compras. Sustituye parte de la excursión.",
+   "photoPending": false
+  }
+ ]
+}

@@ -1,0 +1,633 @@
+{
+ "schemaVersion": 1,
+ "country": "FR",
+ "id": "loira",
+ "name": "Valle del Loira",
+ "localName": "Val de Loire",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "amboise",
+   "name": "Amboise, el castillo real sobre el Loira",
+   "kind": "landmark",
+   "zone": "Amboise",
+   "reason": "El castillo real y sus terrazas reúnen una visita histórica con vistas al Loira. La capilla Saint-Hubert forma parte del recinto y tiene condiciones de acceso propias.",
+   "sourceIds": [
+    "vel",
+    "wp",
+    "chamboise"
+   ],
+   "coordinates": {
+    "lat": 47.413629,
+    "lon": 0.985972
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Ch%C3%A2teau%20Royal%20d%27Amboise%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Histopad en español incluido. Acceso principal en pendiente desde Place Michel Debré; acceso adaptado por entrada privada con justificante y coordinación. No confundir cercanía al Clos Lucé con capacidad de hacer dos interiores completos sin margen. Maps propone 866 m y 12 minutos a pie hasta Clos Lucé entre puntos representativos, con aviso de posible falta de aceras. No son 500 m de ruta comprobada ni todo el tiempo entre visitas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Cierra 1 de enero y 25 de diciembre. Horarios diarios del calendario dinámico no extraídos de forma suficiente: comprobar fecha. Parque cierra 45 minutos después de taquilla. Para discapacidad, operador recomienda llegada al menos una hora antes del cierre de taquilla.",
+    "source": "https://www.chateau-amboise.com/en/practical-information/"
+   },
+   "price": "2026: 17,30 € adulto con Histopad, 14,40 € estudiante, 11 € de 7-18, menores de 7 gratis. Discapacidad y acompañante: adulto 13,10 €, estudiante 11,80 €, niño 9,30 €. Familia numerosa: descuento de 2 € sobre tarifa infantil, no todos los adultos. Desempleo: -2 € con certificado de menos de dos meses.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/loira/amboise.jpg",
+    "alt": "Castillo de Amboise visto desde la otra orilla del Loira, con puente y reflejo. Fotografía tomada en 2019, no acredita apertura de interiores.",
+    "caption": "Castillo de Amboise visto desde la otra orilla del Loira, con puente y reflejo. Fotografía tomada en 2019, no acredita apertura de interiores.",
+    "source": "https://www.pexels.com/photo/chateau-d-amboise-and-loire-river-view-35215886/",
+    "author": "Jean-Paul Wettstein",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "accessRules": {
+    "scope": "Interior del castillo de Amboise.",
+    "closedMonthDays": [
+     "01-01",
+     "12-25"
+    ],
+    "verifiedThrough": "2026-12-31",
+    "noticeLabel": "Amboise"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "clos_luce",
+   "name": "Clos Lucé, la última casa de Leonardo",
+   "kind": "museum",
+   "zone": "Amboise",
+   "reason": "La última residencia de Leonardo da Vinci en Amboise combina casa, parque con maquetas y galerías dedicadas a su obra. Una alternativa centrada en Leonardo, no un segundo interior obligatorio.",
+   "sourceIds": [
+    "vel",
+    "wp",
+    "closluce",
+    "clos-hours-own"
+   ],
+   "coordinates": {
+    "lat": 47.410324,
+    "lon": 0.992109
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Ch%C3%A2teau%20du%20Clos%20Luc%C3%A9%2C%20Amboise%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Taquilla cierra una hora antes del recinto. Parking de coches privado de pago a 300 metros; el parking gratis citado por operador es para autocares, no coches. Distancias a pie desde castillo y estación aparecen incompletas en la página: no afirmar 500 metros como ruta verificada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abierto todos los días salvo 25 dic y 1 ene: ene 10-18; feb-jun 9-19; jul-ago 9-20; sep-oct 9-19; nov-dic 9-18. Taquilla cierra 1 h antes.",
+    "source": "https://www.vinci-closluce.com/acces-et-horaires/"
+   },
+   "price": "Castillo, parque y galerías: 20 € adulto; 15 € de 7-18, estudiantes y reducidas con condiciones; menores de 7 gratis. Discapacidad 11 €; acompañante 11 € si documento indica acompañante obligatorio. Familia de dos adultos y dos niños 7-18: 60 €, niño adicional 5 €. Producto de exposición temporal del 6 de junio al 13 de septiembre publicado por separado; no venderlo como opción actual de noviembre.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/loira/clos_luce.jpg",
+    "alt": "Fachada del Clos Lucé. Foto publicada en 2024, no acredita exposición temporal ni acceso actual.",
+    "caption": "Fachada del Clos Lucé. Foto publicada en 2024, no acredita exposición temporal ni acceso actual.",
+    "source": "https://www.worldhistory.org/image/18584/chateau-du-clos-luce/",
+    "author": "Werner Bayer",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.worldhistory.org/image/18584/chateau-du-clos-luce/"
+   },
+   "accessRules": {
+    "scope": "Castillo, parque y galerías del Clos Lucé.",
+    "closedMonthDays": [
+     "01-01",
+     "12-25"
+    ],
+    "verifiedThrough": "2026-12-31",
+    "noticeLabel": "Clos Lucé"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "chambord",
+   "name": "Chambord, el castillo de los castillos",
+   "kind": "landmark",
+   "zone": "Chambord",
+   "reason": "La escalera de doble hélice, las terrazas y el volumen del castillo lo convierten en una visita principal distinta de Amboise. Jardines, bosque y actividades tienen productos y condiciones diferentes.",
+   "sourceIds": [
+    "vel",
+    "wp",
+    "chambord",
+    "chambord-prices-own",
+    "chambord-access"
+   ],
+   "coordinates": {
+    "lat": 47.61607,
+    "lon": 1.51705
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Ch%C3%A2teau%20de%20Chambord%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 240,
+   "durationType": "editorial-estimate",
+   "caution": "Bosque y entorno: acceso gratuito 24 horas según operador, no recomendación de recorrer bosque de noche ni acceso a zonas cerradas. Castillo: unas dos horas y jardines unos 30 minutos según operador, más traslado y comida. Billete sin fecha ni franja válido hasta el 31 de diciembre del año indicado, permite salir y entrar el mismo día después del primer escaneo. No reembolsable ni intercambiable salvo cancelación del dominio; visita libre sin reserva obligatoria. Actividades con cupo y billetes propios. Acceso oficial por línea Rémi 2 desde estación de Blois: 3,40 € trayecto, 6,80 € ida y vuelta; horarios de 2026 y retorno por comprobar. No hay parada breve en arcén, todos los coches usan parking. Amboise-Chambord: Maps estima 51,6 km y 54 minutos de conducción sin tráfico para esta consulta, no tiempo final con parking.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Todo el año salvo 1 ene y 25 dic. Castillo+jardines: temporada alta 9:00-18:00 (hasta 25 oct 2026 y 19 dic 2026-3 ene 2027, cierre 16:00 los 24 y 31 dic); baja 9:00-17:00 (26 oct-18 dic 2026; 4 ene-26 mar 2027). Jardines y taquillas cierran 30 min antes; última admisión 30 min antes. 2027: lunes 18 y 25 ene, 1 feb y 8 mar cerrados. Bosque: gratis, 24/7.",
+    "source": "https://www.chambord.org/en/informations-pratiques/horaires-et-lieux"
+   },
+   "price": "Hasta 31 de diciembre de 2026: 21 € para nacionales o residentes del EEE con justificante; 31 € para quienes no sean nacionales ni residentes del EEE. Reducida 18,50 € EEE o 28,50 € fuera del EEE, con condiciones. Gratis menores de 18 y jóvenes de 18-25 nacionales UE o nacionales/residentes EEE según lista detallada. Discapacidad y un acompañante gratis con justificante. No es gratis el primer domingo del mes.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/loira/chambord.jpg",
+    "alt": "Vista exterior de Chambord y su entorno desde el agua. Foto de archivo, no acredita acceso o espectáculo actual.",
+    "caption": "Vista exterior de Chambord y su entorno desde el agua. Foto de archivo, no acredita acceso o espectáculo actual.",
+    "source": "https://www.pexels.com/photo/chateau-de-chambord-in-summer-serenity-33584320/",
+    "author": "Eduardo Reiser",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "accessRules": {
+    "scope": "Castillo y jardines; el bosque tiene acceso distinto.",
+    "closedDates": [
+     "2026-12-25",
+     "2027-01-01",
+     "2027-01-18",
+     "2027-01-25",
+     "2027-02-01",
+     "2027-03-08",
+     "2027-12-25"
+    ],
+    "verifiedThrough": "2027-12-31",
+    "specialDates": [
+     {
+      "date": "2026-12-24",
+      "text": "Castillo cierra a las 16; última entrada 15:30."
+     },
+     {
+      "date": "2026-12-31",
+      "text": "Castillo cierra a las 16; última entrada 15:30."
+     }
+    ],
+    "noticeLabel": "Castillo y jardines, no bosque"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "chenonceau",
+   "name": "Chenonceau, el castillo de las damas",
+   "kind": "landmark",
+   "zone": "Chenonceaux",
+   "reason": "El castillo cruza el Cher con su galería y se acompaña de jardines. Dedicarle su jornada permite ver el conjunto sin encadenar otro castillo por defecto.",
+   "sourceIds": [
+    "vel",
+    "wp",
+    "chenonceau",
+    "chenonceau-hours-own",
+    "chenonceau-access"
+   ],
+   "coordinates": {
+    "lat": 47.324622,
+    "lon": 1.070418
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Ch%C3%A2teau%20de%20Chenonceau%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "La página de tarifas dice grupos de más de 20, no desde 20. La reserva obligatoria publicada se refiere a audioguías de grupos, con texto de no reservas en julio y agosto: no convertirlo en prohibición general de reservar entradas. Aperturas diarias en calendario de 2026, incluidos festivos, no aplicables automáticamente a 2027. Estación de Chenonceaux a 400 m de taquilla según operador; TER desde Tours indicado en 25 minutos, no tren directo desde Amboise garantizado. Maps estima 13,4 km y 16 minutos en coche desde Amboise, sin tráfico ni parking.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Calendario 2026: 2 de noviembre-4 de diciembre 9:30-16:30. Diciembre por bloques: 5-6 de 9-17; 7-11 de 9:30-16:30; 12-13 de 9:30-17; 14-18 de 9:30-16:30; 19-25 de 9:30-18; 26-31 de 9:30-18:30. Consultar calendario completo para otras fechas. No se infiere última entrada sin verificar.",
+    "source": "https://www.chenonceau.com/en/practical-information/opening-times/"
+   },
+   "price": "2026: 19 € adulto con folleto o 24 € con audioguía. Mayores de 65 y estudiantes con carné: 16/21 €. Niños de 7-18: 15/20 €. Menores de 7 gratis sin audioguía. Discapacidad: entrada gratis, audioguía +5 €; acompañante 16 €. Condiciones de grupo y reserva de audioguías distintas, no regla general de reserva para todos.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/loira/chenonceau.jpg",
+    "alt": "Fachada de Chenonceau desde los jardines. Foto de archivo, no acredita qué salas están abiertas.",
+    "caption": "Fachada de Chenonceau desde los jardines. Foto de archivo, no acredita qué salas están abiertas.",
+    "source": "https://www.pexels.com/photo/elegant-chateau-de-chenonceau-in-lush-gardens-31340782/",
+    "author": "Autor no expuesto",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "blois",
+   "name": "Blois, el castillo de las intrigas reales",
+   "kind": "landmark",
+   "zone": "Blois",
+   "reason": "Cuatro alas de estilos diferentes alrededor del patio y los apartamentos reales ofrecen otra lectura de los castillos del Loira. El espectáculo nocturno es un producto estacional aparte.",
+   "sourceIds": [
+    "vel",
+    "wp",
+    "blois-own"
+   ],
+   "coordinates": {
+    "lat": 47.585589,
+    "lon": 1.330242
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Ch%C3%A2teau%20Royal%20de%20Blois%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Espectáculo estacional con billete distinto; no incluido en entrada del castillo. Histopad y visitas guiadas dependen del producto, no prometer todos incluidos. Acceso al interior, museo y patio con condiciones propias.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Guía pública de 2026: del 2 de noviembre al 18 de diciembre 10-17; del 19 de diciembre al 3 de enero de 2027 10-18. Última taquilla 30 minutos antes. Cerrado 25 diciembre y 1 enero. Consultar otros periodos en el calendario.",
+    "source": "https://en.chateaudeblois.fr/include/viewFile.php?idtf=37216&path=e0%2F37216_853_Brochure-Chateau-royal-de-Blois-et-Maison-de-la-Magie-2026.pdf"
+   },
+   "price": "2026, individual: castillo 16 € adulto, 12 € reducida con condiciones, 8 € de 6-17; menores de 6 gratis. Castillo y espectáculo 24/19/12 €. Espectáculo solo 13/11/8 €. No usar tarifas de revendedor ni de grupo para visita individual.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/loira/blois.jpg",
+    "alt": "Fachada y escalera del castillo de Blois. Foto de archivo, no acredita espectáculo nocturno ni apertura actual.",
+    "caption": "Fachada y escalera del castillo de Blois. Foto de archivo, no acredita espectáculo nocturno ni apertura actual.",
+    "source": "https://pxhere.com/en/photo/345305",
+    "author": "Autor no expuesto en página consultada",
+    "license": "CC0 Public Domain",
+    "licenseUrl": "https://pxhere.com/en/photo/345305"
+   },
+   "accessRules": {
+    "scope": "Castillo de Blois, no toda la ciudad.",
+    "noticeLabel": "Castillo de Blois",
+    "closedMonthDays": [
+     "01-01",
+     "12-25"
+    ],
+    "verifiedThrough": "2027-01-03"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "tours",
+   "name": "Tours, la capital de la Touraine",
+   "kind": "walk",
+   "zone": "Tours",
+   "reason": "Alternativa urbana en torno al casco histórico, la catedral de Saint-Gatien y la place Plumereau. Los museos y sus horarios se comprueban por separado.",
+   "sourceIds": [
+    "vel",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.395582,
+    "lon": 0.694456
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Cath%C3%A9drale%20Saint-Gatien%2C%20Tours%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Alternativa con tarifas, calendario de interiores y transporte pendientes de primaria actual. No se garantiza espectáculo, festival, exposición ni hora de comida de animales.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Casco libre; museos (MBA, Compagnonnage) de pago sin primaria esta sesión.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/loira/tours.jpg",
+    "alt": "Basílica de Saint-Martin en Tours. Representa esta parte del paseo urbano, no acceso a museos o a toda la ciudad.",
+    "caption": "Basílica de Saint-Martin en Tours. Representa esta parte del paseo urbano, no acceso a museos o a toda la ciudad.",
+    "source": "https://www.pexels.com/photo/basilica-of-saint-martin-in-tours-france-19544488/",
+    "author": "ram",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "villandry",
+   "name": "Villandry, los jardines del Renacimiento",
+   "kind": "excursion",
+   "zone": "Villandry",
+   "reason": "Jardines ornamentales, huerto decorativo y perspectivas desde el castillo. Se pueden elegir solo jardines o castillo y jardines, con calendarios distintos.",
+   "sourceIds": [
+    "vel",
+    "wp",
+    "villandry-own"
+   ],
+   "coordinates": {
+    "lat": 47.340565,
+    "lon": 0.514606
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Ch%C3%A2teau%20de%20Villandry%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 240,
+   "durationType": "editorial-estimate",
+   "caution": "Operador estima una hora de castillo y 1 h 30 de jardines. E-ticket no evita cola. Sin reserva ni límite de plazas según página; permite salir a comer y volver ese día. Parking gratuito durante visita, no pernocta de camper. Desde Tours hay línea 32 a Villandry Centre o Résabus R5 con petición el día anterior; confirmar horario y retorno. No es alternativa de una tarde a todos los otros castillos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Jardines diarios excepto 25 diciembre. Castillo abierto 7 febrero-11 noviembre de 2026 y 28 noviembre de 2026-3 enero de 2027, salvo 25 diciembre. Castillo cerrado 12-27 noviembre, jardines siguen con su horario. Confirmar horas de cada producto.",
+    "source": "https://www.chateauvillandry.fr/useful-information/prices-opening-times-how-to-get-there-how-to-visit-villandry/?lang=en"
+   },
+   "price": "2026: castillo y jardines 14 € adulto u 8 € de 8-17 y estudiantes menores de 26 con carné; solo jardines 8,50/5,50 €. Menores de 8 gratis. Audioguía +4 € para castillo y jardines, última entrega dos horas antes del cierre.",
+   "visitMode": "Castillo, jardines y otros productos con tarifas y calendarios distintos. Ver detalles.",
+   "photo": {
+    "img": "assets/loira/villandry.jpg",
+    "alt": "Castillo y jardines geométricos de Villandry desde una terraza. Foto de archivo, no acredita temporada o acceso actual.",
+    "caption": "Castillo y jardines geométricos de Villandry desde una terraza. Foto de archivo, no acredita temporada o acceso actual.",
+    "source": "https://www.pexels.com/photo/the-chateau-de-villandry-in-france-13303447/",
+    "author": "Autor no expuesto",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "accessRules": {
+    "scope": "Interior de Villandry, no jardines",
+    "noticeLabel": "Interior de Villandry, no jardines",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-01-03",
+    "closedRanges": [
+     {
+      "start": "2026-11-12",
+      "end": "2026-11-27",
+      "label": "interior de Villandry; jardines tienen horario propio"
+     }
+    ],
+    "closedDates": [
+     "2026-12-25"
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "chaumont",
+   "name": "Chaumont-sur-Loire y su Festival de Jardines",
+   "kind": "excursion",
+   "zone": "Chaumont-sur-Loire",
+   "reason": "Castillo, parque y propuestas de arte y jardines en un dominio extenso. El Festival Internacional de Jardines tiene edición y temporada propias, no está incluido como experiencia activa todo el año.",
+   "sourceIds": [
+    "vel",
+    "wp",
+    "chaumont-own"
+   ],
+   "coordinates": {
+    "lat": 47.479146,
+    "lon": 1.181524
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Ch%C3%A2teau%20de%20Chaumont-sur-Loire%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 240,
+   "durationType": "editorial-estimate",
+   "caution": "Operador pide al menos tres horas solo para Festival de Jardines, y más para todo el dominio. Una alternativa de jornada, no un castillo extra tras otro completo. Exposiciones y accesos cambian por temporada; no extrapolar edición de 2026 a 2027.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Del 2 noviembre de 2026 al 31 enero de 2027: dominio 10-17:30, última taquilla 16:30, última entrada al castillo 17. Cerrado 1 enero y 25 diciembre. No confundir límite de taquilla con acceso al castillo. Festival de Jardines 2026 del 22 abril al 1 noviembre, no activo todo el invierno.",
+    "source": "https://www.domaine-chaumont.fr/en_GB/informations-pratiques"
+   },
+   "price": "Hasta 31 diciembre de 2026: 21 € general, 13 € reducida, 6 € de 6-11, menores de 6 gratis. Familia 42 €, dos adultos y dos niños menores de 12. Discapacidad gratis, acompañante a tarifa reducida. Pase de dos días publicado solo hasta el 1 de noviembre de 2026, no producto actual de invierno.",
+   "visitMode": "Castillo, jardines y otros productos con tarifas y calendarios distintos. Ver detalles.",
+   "photo": {
+    "img": "assets/loira/chaumont.jpg",
+    "alt": "Exterior de Chaumont-sur-Loire y jardines junto al castillo. No acredita la edición actual del Festival de Jardines.",
+    "caption": "Exterior de Chaumont-sur-Loire y jardines junto al castillo. No acredita la edición actual del Festival de Jardines.",
+    "source": "https://www.pexels.com/photo/towers-of-the-medieval-french-chaumont-castle-19136625/",
+    "author": "AXP Photography",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "accessRules": {
+    "scope": "Dominio de Chaumont",
+    "noticeLabel": "Dominio de Chaumont",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-01-31",
+    "closedDates": [
+     "2026-12-25",
+     "2027-01-01"
+    ],
+    "notices": [
+     "Festival de Jardines 2026 terminó 1 noviembre. El dominio tiene oferta de invierno propia, no festival garantizado."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "cheverny",
+   "name": "Cheverny, el castillo de Tintín",
+   "kind": "excursion",
+   "zone": "Cheverny",
+   "reason": "Interiores amueblados, jardines y una exposición de Tintín que se compra como producto distinto. La visita básica no incluye automáticamente paseo en barco o coche eléctrico.",
+   "sourceIds": [
+    "vel",
+    "wp",
+    "cheverny-own"
+   ],
+   "coordinates": {
+    "lat": 47.500231,
+    "lon": 1.458018
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Ch%C3%A2teau%20de%20Cheverny%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 180,
+   "durationType": "editorial-estimate",
+   "caution": "Billetes solo en taquilla, sin reserva. Guiada individual algunos días +5 € según disponibilidad. Visita básica estimada por operador 1 h 30-1 h 45; con Tintín 2 h 15-2 h 30. Productos con paseo estacionales. No prometer comida de perros a una hora no verificada. La página discrepa en redacción de tarifa discapacidad, comprobar producto final antes de pagar.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abre todos los días, incluso 25 diciembre y 1 enero. Del 1 octubre de 2026 al 31 marzo de 2027, castillo y jardines 10-17. Exposición Tintín 10-12:45 y 13:45-17. Horarios de tiendas y servicios distintos.",
+    "source": "https://www.chateau-cheverny.fr/en/practical-information/prices-opening-hours"
+   },
+   "price": "Castillo y jardines 15,50 € adulto/11,50 € reducida. Con exposición Tintín 20,50/16 €. Con barco y coche eléctricos 21/16,50 €; todo 26/21 €. Paseo eléctrico de abril al 11 de noviembre según operador. Menores de 7 y discapacidad gratis en visita básica, pero pagan 4 € en productos de paseo. Acompañante discapacidad paga tarifa ordinaria.",
+   "visitMode": "Castillo, jardines y otros productos con tarifas y calendarios distintos. Ver detalles.",
+   "photo": {
+    "img": "assets/loira/cheverny.jpg",
+    "alt": "Fachada principal de Cheverny. No representa la exposición Tintín ni una actividad incluida.",
+    "caption": "Fachada principal de Cheverny. No representa la exposición Tintín ni una actividad incluida.",
+    "source": "https://www.pexels.com/photo/chateau-de-cheverny-19136596/",
+    "author": "AXP Photography",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Amboise, una visita interior principal",
+     "stopIds": [
+      "amboise"
+     ],
+     "optionalStopIds": [
+      "clos_luce"
+     ],
+     "editorialNote": "Castillo real como visita principal, con casco y comida. Clos Lucé es alternativa o visita adicional solo si se elige conscientemente tras comprobar horarios y ritmo. No son dos castillos obligatorios ni se promete distancia de 500 metros.",
+     "pacing": "Estimación editorial para coche: prever conducción, parking, comida y luz. Referencias Maps sin tráfico: Amboise-Chambord 54 min y Amboise-Chenonceau 16 min; no tiempos puerta a puerta ni para una fecha concreta."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Amboise, una visita interior principal",
+     "stopIds": [
+      "amboise"
+     ],
+     "optionalStopIds": [
+      "clos_luce"
+     ],
+     "editorialNote": "Castillo real como visita principal, con casco y comida. Clos Lucé es alternativa o visita adicional solo si se elige conscientemente tras comprobar horarios y ritmo. No son dos castillos obligatorios ni se promete distancia de 500 metros.",
+     "pacing": "Estimación editorial para coche: prever conducción, parking, comida y luz. Referencias Maps sin tráfico: Amboise-Chambord 54 min y Amboise-Chenonceau 16 min; no tiempos puerta a puerta ni para una fecha concreta."
+    },
+    {
+     "title": "Chambord con jardines",
+     "stopIds": [
+      "chambord"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Una visita principal con traslado desde Amboise, unas dos horas de castillo y 30 minutos de jardines según operador. Bosque opcional a la luz del día, no medio día de bicicleta obligatorio.",
+     "pacing": "Estimación editorial para coche: prever conducción, parking, comida y luz. Referencias Maps sin tráfico: Amboise-Chambord 54 min y Amboise-Chenonceau 16 min; no tiempos puerta a puerta ni para una fecha concreta."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Amboise, una visita interior principal",
+     "stopIds": [
+      "amboise"
+     ],
+     "optionalStopIds": [
+      "clos_luce"
+     ],
+     "editorialNote": "Castillo real como visita principal, con casco y comida. Clos Lucé es alternativa o visita adicional solo si se elige conscientemente tras comprobar horarios y ritmo. No son dos castillos obligatorios ni se promete distancia de 500 metros.",
+     "pacing": "Estimación editorial para coche: prever conducción, parking, comida y luz. Referencias Maps sin tráfico: Amboise-Chambord 54 min y Amboise-Chenonceau 16 min; no tiempos puerta a puerta ni para una fecha concreta."
+    },
+    {
+     "title": "Chambord con jardines",
+     "stopIds": [
+      "chambord"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Una visita principal con traslado desde Amboise, unas dos horas de castillo y 30 minutos de jardines según operador. Bosque opcional a la luz del día, no medio día de bicicleta obligatorio.",
+     "pacing": "Estimación editorial para coche: prever conducción, parking, comida y luz. Referencias Maps sin tráfico: Amboise-Chambord 54 min y Amboise-Chenonceau 16 min; no tiempos puerta a puerta ni para una fecha concreta."
+    },
+    {
+     "title": "Chenonceau, día sin otro castillo obligatorio",
+     "stopIds": [
+      "chenonceau"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Dedicar tiempo al castillo y jardines con traslado y comida. Blois, Tours, Villandry, Chaumont y Cheverny sustituyen la visita o una jornada, no son añadidos por defecto.",
+     "pacing": "Estimación editorial para coche: prever conducción, parking, comida y luz. Referencias Maps sin tráfico: Amboise-Chambord 54 min y Amboise-Chenonceau 16 min; no tiempos puerta a puerta ni para una fecha concreta."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Tarifas y calendarios separados por producto: castillo, jardines, exposiciones y actividades.",
+  "Chambord requiere parking autorizado, sin paradas en arcén. Transporte sin coche aún requiere conexiones para la fecha.",
+  "Villandry cierra interior 12-27 noviembre de 2026, no los jardines. Cheverny abre festivos, pero paseo eléctrico es estacional.",
+  "Cierres de interiores se avisan en fecha sin borrar las ediciones guardadas. No hay garantía de apertura por ausencia de un cierre registrado.",
+  "Visitas ilustradas. Extras y datos de alternativas parciales; revisión del usuario pendiente."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vel",
+   "title": "Viajando entre Leyendas: Castillos del Loira, guía completa y ruta",
+   "url": "https://viajandoentreleyendas.com/castillos-del-loira/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Valle del Loira",
+   "url": "https://es.wikipedia.org/wiki/Valle_del_Loira",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "chambord",
+   "title": "Domaine national de Chambord: horarios y billetes",
+   "url": "https://www.chambord.org/en/informations-pratiques/horaires-et-lieux",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "chenonceau",
+   "title": "Château de Chenonceau: horarios y tarifas 2026",
+   "url": "https://www.chenonceau.com/en/practical-information/ticket-prices/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "chamboise",
+   "title": "Château Royal d'Amboise: información práctica y tarifas 2026",
+   "url": "https://www.chateau-amboise.com/en/practical-information/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "closluce",
+   "title": "Le Clos Lucé (sitio oficial actual): horarios y tarifas",
+   "url": "https://www.vinci-closluce.com/tarifs/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "chambord-prices-own",
+   "title": "Chambord: tarifas y condiciones de 2026",
+   "url": "https://www.chambord.org/en/informations-pratiques/tarifs",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "chenonceau-hours-own",
+   "title": "Chenonceau: calendario de 2026",
+   "url": "https://www.chenonceau.com/en/practical-information/opening-times/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "clos-hours-own",
+   "title": "Clos Lucé: acceso y horarios",
+   "url": "https://www.vinci-closluce.com/acces-et-horaires/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "chambord-access",
+   "title": "Chambord: transporte y parking",
+   "url": "https://www.chambord.org/en/informations-pratiques/comment-venir",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "chenonceau-access",
+   "title": "Chenonceau: acceso y estación",
+   "url": "https://www.chenonceau.com/en/practical-information/how-to-get-here/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "villandry-own",
+   "title": "Villandry: productos y calendario de 2026",
+   "url": "https://www.chateauvillandry.fr/useful-information/prices-opening-times-how-to-get-there-how-to-visit-villandry/?lang=en",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cheverny-own",
+   "title": "Cheverny: productos, horarios y compra presencial",
+   "url": "https://www.chateau-cheverny.fr/en/practical-information/prices-opening-hours",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "chaumont-own",
+   "title": "Chaumont: calendario, duración y tarifas",
+   "url": "https://www.domaine-chaumont.fr/en_GB/informations-pratiques",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "blois-own",
+   "title": "Blois: guía oficial de 2026 con tarifas individuales",
+   "url": "https://en.chateaudeblois.fr/include/viewFile.php?idtf=37216&path=e0%2F37216_853_Brochure-Chateau-royal-de-Blois-et-Maison-de-la-Magie-2026.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

@@ -1,0 +1,993 @@
+{
+ "schemaVersion": 1,
+ "country": "FR",
+ "id": "burdeos",
+ "name": "Burdeos",
+ "localName": "Bordeaux",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "capucins",
+   "name": "Mercado de los Capuchins",
+   "kind": "walk",
+   "zone": "Saint-Michel / Marché des Capucins",
+   "reason": "Mercado de Capucins por la mañana, para ver puestos y elegir algo de comer si apetece. Foto de un plato de ostras en el mercado, no vista de la nave.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "capu"
+   ],
+   "coordinates": {
+    "lat": 44.8304433,
+    "lon": -0.5677867
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Foto de un plato de ostras tomado en el mercado: no muestra la nave ni garantiza disponibilidad, precio o un puesto concreto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes a sábado 6:00-13:30; domingo 6:00-13:00; LUNES CERRADO.",
+    "source": "https://www.marchedescapucins.com/infos-pratiques/"
+   },
+   "price": null,
+   "visitMode": "Mercado: martes-sábado 6-13:30/domingo 6-13/lunes cerrado",
+   "photo": {
+    "img": "assets/burdeos/capucins.jpg",
+    "alt": "Mercado de los Capuchins · foto de archivo",
+    "author": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oysters_March%C3%A9_des_Capucins_Bordeaux_(2).jpg",
+    "caption": "Plato de ostras fotografiado en Marché des Capucins. No vista de la nave, puesto ni precio confirmados."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "saintmichel",
+   "name": "Basílica de Saint-Michel y su Flèche",
+   "kind": "monument",
+   "zone": "Saint-Michel",
+   "reason": "Basílica y campanario Saint-Michel desde fuera, con interior de iglesia si abre.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "fleche",
+    "paroisse"
+   ],
+   "coordinates": {
+    "lat": 44.8344,
+    "lon": -0.5649
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Basilique_Saint-Michel_de_Bordeaux",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Subida de230 escalones según propio,3 niveles y aforo 19 personas, sin acceso PMR. No 233 de guía. Última entrada 30 min antes, 7 € adulto/5 € reducida. No colocar subida en ruta invierno sin fecha confirmada. Horario culto de basílica distinto del campanario.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Basílica: a diario 9:00-18:00 (parroquia; la guía decía 9-19, corregido). Flèche: abril-octubre a diario 10-13 y 14-18, último acceso 30 min antes; jaula limitada a 19 personas.",
+    "source": "https://fleche-saint-michel.com/infos-pratiques/"
+   },
+   "price": "Basílica libre; Flèche 7€ (5€ reducida).",
+   "visitMode": "Flèche: abril-octubre 10-13/14-18 publicado; invierno sin apertura confirmada",
+   "photo": {
+    "img": "assets/burdeos/saintmichel.jpg",
+    "alt": "Basílica de Saint-Michel y su Flèche · foto de archivo",
+    "author": "Orikrin1998",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:10-Bordeaux_-_basilique_Saint-Michel_(3).JPG"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "grossecloche",
+   "name": "Puerta de la Gran Campana (Grosse Cloche)",
+   "kind": "monument",
+   "zone": "Centro histórico",
+   "reason": "Grosse Cloche por fuera en el casco, sin visita interior comprada.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "bt"
+   ],
+   "coordinates": {
+    "lat": 44.8353,
+    "lon": -0.571389
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Grosse_cloche_de_Bordeaux",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "Campana suena en ocasiones publicadas, no a cada hora ni en una visita normal. Billete guiado no confirma fecha sin consultar agenda.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Interior solo con visita guiada oficial de 30 min EN FRANCÉS, 6€.",
+   "visitMode": "Exterior; interior solo visita guiada en francés por programación",
+   "photo": {
+    "img": "assets/burdeos/grossecloche.jpg",
+    "alt": "Puerta de la Gran Campana (Grosse Cloche) · foto de archivo",
+    "author": "Joancharmant",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Grosse_cloche_de_Bordeaux.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "saintecatherine",
+   "name": "Rue Sainte-Catherine",
+   "kind": "walk",
+   "zone": "Centro histórico",
+   "reason": "Tramo elegido de Rue Sainte-Catherine, calle peatonal comercial entre casco y entorno de catedral.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.839798,
+    "lon": -0.574183
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Rue_Sainte-Catherine_%28Bordeaux%29",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Tiendas con horarios propios. No hace falta repetir toda calle ni afirmar récord europeo para escoger paseo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior, no recorrer 1,2 km entero obligatorio",
+   "photo": {
+    "img": "assets/burdeos/saintecatherine.jpg",
+    "alt": "Rue Sainte-Catherine · foto de archivo",
+    "author": "Horcrux",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bordeaux,_rue_Sainte-Catherine,_2023-02-25_(2).jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral de Saint-André y Torre Pey Berland",
+   "kind": "monument",
+   "zone": "Centro histórico",
+   "reason": "Catedral Saint-André por fuera y posible interior; torre Pey Berland es opción aparte, no segunda subida obligatoria.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "peyb",
+    "cat-hours",
+    "cat-tourism"
+   ],
+   "coordinates": {
+    "lat": 44.83778,
+    "lon": -0.57778
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Saint-Andr%C3%A9_de_Bordeaux",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Página propia interior dice horario válido solo hasta 30 junio, sin año actual: no asumir vigencia noviembre. Turismo publica lun 14-19/mar-sáb 10-12 y 14-19/dom 9:30-12:15 y 14-18 sujeto cambio/culto. Torre 9 € según operador, 25 mayo-27 septiembre 10-18/resto 10-12:30/14-17:30; 1 enero/1 mayo/25 diciembre y 30 noviembre 2026 cerrada. No ascensor ni toda iglesia libre de barreras garantizados.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Torre Pey Berland: 25 may-27 sep a diario 10-18; 28 sep-fin de mayo a diario 10-12:30 y 14-17:30. Cierres anuales: 1 enero, 1 mayo, 25 diciembre. Cerrada el 30-11-2026 por inventario.",
+    "source": "https://www.pey-berland.fr/visiter/informations-pratiques"
+   },
+   "price": "Catedral: entrada libre. Torre Pey Berland: 9€; primer domingo de mes (nov-mar) gratis.",
+   "visitMode": "Interior por culto; torre Pey Berland con billete y 231 escalones",
+   "photo": {
+    "img": "assets/burdeos/catedral.jpg",
+    "alt": "Catedral de Saint-André y Torre Pey Berland · foto de archivo",
+    "author": "Marc Ryckaert (MJJR)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bordeaux_Cath%C3%A9drale_R01.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "cailhau",
+   "name": "Puerta de Cailhau",
+   "kind": "monument",
+   "zone": "Saint-Pierre / muelles",
+   "reason": "Puerta renacentista de 1495 que celebraba la victoria de Carlos VIII en Fornovo: 35 m entre el barrio de Saint-Pierre y los muelles, con exposición interior sobre la historia de la ciudad y mirador.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "cailhau"
+   ],
+   "coordinates": {
+    "lat": 44.83879444,
+    "lon": -0.56848056
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Porte_Cailhau",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "En invierno (nov-mar) solo abre de miércoles a domingo y con horario partido; lunes y martes cerrada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abril-octubre: a diario 10-13 y 14-18. Noviembre-marzo: miércoles a viernes 14-18, sábado y domingo 11-13 y 14-18. Las visitas cesan 30 min antes del cierre.",
+    "source": "https://www.porte-cailhau.com/infos-pratiques/"
+   },
+   "price": "7€ (5€ reducida); gratis con CityPass, menores de 13 y primer domingo de mes (salvo jul-ago).",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/burdeos/cailhau.jpg",
+    "alt": "Puerta de Cailhau · foto de archivo",
+    "author": "Gzen92",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Porte_Cailhau_(Bordeaux)_(1).jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "saintpierre",
+   "name": "Barrio de Saint-Pierre",
+   "kind": "walk",
+   "zone": "Saint-Pierre",
+   "reason": "El corazón histórico de la ciudad del vino: callejuelas empedradas, la place du Parlement con su fuente y terrazas, y la place Saint-Pierre con la iglesia homónima.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.840717,
+    "lon": -0.572019
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Place_du_Parlement_%28Bordeaux%29",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/burdeos/saintpierre.jpg",
+    "alt": "Barrio de Saint-Pierre · foto de archivo",
+    "author": "Marc Ryckaert (MJJR)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bordeaux_Place_du_Parlement_R01.jpg",
+    "caption": "Place du Parlement en el barrio Saint-Pierre, archivo."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "bolsa",
+   "name": "Plaza de la Bolsa y Miroir d'Eau",
+   "kind": "walk",
+   "zone": "Muelles",
+   "reason": "Plaza de la Bolsa y fuente, con gran explanada del Miroir dEau enfrente.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "bt",
+    "water"
+   ],
+   "coordinates": {
+    "lat": 44.841458,
+    "lon": -0.570045
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Place_de_la_Bourse_%28Bordeaux%29",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Fuera de invierno turismo publica 10-22; mantenimiento/hielo paran agua y niebla, no reflejo en modo Navidad. Foto muestra fuente de las Tres Gracias, no el espejo de agua completo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Miroir d'eau: acceso libre, ciclo programado espejo/brouillard sin horario fijo publicado.",
+    "source": "https://www.bordeaux-tourisme.com/"
+   },
+   "price": null,
+   "visitMode": "Exterior; espejo NO en servicio noviembre-abril según turismo",
+   "photo": {
+    "img": "assets/burdeos/bolsa.jpg",
+    "alt": "Plaza de la Bolsa y Miroir d'Eau · foto de archivo",
+    "author": "W. Bulach",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:00_0695_Place_de_la_Bourse_(Bordeaux)_-_Fountain_of_the_Three_Graces.jpg",
+    "caption": "Fuente de las Tres Gracias y fachada de Place de la Bourse. No imagen del Miroir dEau en servicio."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "granteatro",
+   "name": "Gran Teatro",
+   "kind": "monument",
+   "zone": "Place de la Comédie",
+   "reason": "Obra maestra neoclásica de Victor Louis (1780): pórtico de 12 columnas corintias coronado por 12 estatuas de musas y diosas. Sede de la Ópera de Burdeos.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "opera"
+   ],
+   "coordinates": {
+    "lat": 44.842624,
+    "lon": -0.573675
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "El interior solo se visita con las visitas temáticas puntuales del teatro (con reserva) o las guiadas de la oficina de turismo; la programación concreta no quedó verificada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Visitas temáticas puntuales 5-8€ con reserva; visitas guiadas generales vía oficina de turismo.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/burdeos/granteatro.jpg",
+    "alt": "Gran Teatro · foto de archivo",
+    "author": "Víctor Perea Ros",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Grand_Th%C3%A9%C3%A2tre_de_Bordeaux_(2).jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "quinconces",
+   "name": "Place des Quinconces",
+   "kind": "walk",
+   "zone": "Quinconces",
+   "reason": "Place des Quinconces y Monument aux Girondins, eligiendo un tramo de la plaza.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.84556,
+    "lon": -0.57361
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Place_des_Quinconces",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Foto es detalle de una alegoría del monumento, no panorámica de toda plaza ni fuente operando.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; foto detalle escultórico",
+   "photo": {
+    "img": "assets/burdeos/quinconces.jpg",
+    "alt": "Place des Quinconces · foto de archivo",
+    "author": "Antoninmorvan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:All%C3%A9goriedelas%C3%A9curit%C3%A9triomphedelar%C3%A9publiquemonumentauxgirondins.jpg",
+    "caption": "Detalle de alegoría del Monument aux Girondins, no vista completa de Quinconces."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "jardinpublic",
+   "name": "Jardin Public",
+   "kind": "walk",
+   "zone": "Jardin Public",
+   "reason": "Paseo de parque y estanque en Jardin Public, sin visita de museo obligatoria.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "bfr"
+   ],
+   "coordinates": {
+    "lat": 44.848954,
+    "lon": -0.578014
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Jardin_public_de_Bordeaux",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Municipio publica cierre 18-21 según mes, no parque 24 h. Muséum tiene horario/billete separados. Evitar prometer picnic o todas pasarelas en cualquier clima.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "A diario con cierre estacional: abril-mayo 7-20, junio-agosto 7-21, septiembre 7-20, octubre 7-19, noviembre-14 febrero 7-18, 15 febrero-marzo 7-19.",
+    "source": "https://www.bordeaux.fr/parc-jardin/jardin-public"
+   },
+   "price": null,
+   "visitMode": "Parque con cierre estacional",
+   "photo": {
+    "img": "assets/burdeos/jardinpublic.jpg",
+    "alt": "Jardin Public · foto de archivo",
+    "author": "Marc Ryckaert (MJJR)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bordeaux_Jardin_Public_R02.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "chartrons",
+   "name": "Barrio de Chartrons",
+   "kind": "walk",
+   "zone": "Chartrons",
+   "reason": "Calles de Chartrons y Rue Notre-Dame, barrio relacionado con comercio de vino y anticuarios.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.8586425,
+    "lon": -0.5642323
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "CAPC o tienda no incluidos como interior automático. Foto de calle de archivo, no prueba negocios actuales.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior; tiendas con horario propio",
+   "photo": {
+    "img": "assets/burdeos/chartrons.jpg",
+    "alt": "Barrio de Chartrons · foto de archivo",
+    "author": "Ardfern",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rue_Notre-Dame,_Bordeaux,_July_2014_(05).JPG"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "citeduvin",
+   "name": "Cité du Vin",
+   "kind": "museum",
+   "zone": "Bacalan",
+   "reason": "Cité du Vin como bloque principal de 2-3 h para exposición y Belvédère según billete elegido. Foto de archivo con barco delante, edificio al fondo; barco no incluido.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "cdv",
+    "vin-info"
+   ],
+   "coordinates": {
+    "lat": 44.8623716,
+    "lon": -0.5500191
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Un vino con billete 23 €; 27 € dos vasos, no todos talleres.1 noviembre 2026-3 enero 2027 lun-vie y dom 10-18/sáb y 26 diciembre-2 enero 10-19; 24 diciembre 16 h/25 diciembre cerrado. Homepage anuncia cierre 25-31 enero 2027; página/info retiene tabla enero 2026, no trasladarla sin fecha. Foto con barco delante y edificio detrás, no paseo en barco incluido.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Hasta 31-10-2026: a diario 10-19. 1-11-2026 a 3-1-2027: lu-vi y do 10-18, sá y vacaciones 10-19 (24 dic hasta 16; 25 dic cerrado). 3-1 a 2-4-2027: a diario 10-18 EXCEPTO cierre anual 25-31 enero; sábados de marzo hasta 19.",
+    "source": "https://www.laciteduvin.com/"
+   },
+   "price": "Recorrido permanente + cata en el Belvédère: 23€ adulto, 18,40€ reducida, 9€ niño 6-17, familia 56€.",
+   "visitMode": "Exposición+Belvédère 23 € adulto fechado/28 € open según propio",
+   "photo": {
+    "img": "assets/burdeos/citeduvin.jpg",
+    "alt": "Cité du Vin · foto de archivo",
+    "author": "Anthony Levrot",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bordeaux_-_33100_-_2026.07.04_-_Le_Bato_-_Inter-Rives_Bordeaux_-_%C2%AB_La_Fauvette_%C2%BB_devant_la_Cit%C3%A9_du_Vin_%C2%A9_Anthony_Levrot.jpg",
+    "caption": "Cité du Vin al fondo y barco en primer plano, archivo. No incluye paseo en barco."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "bassins",
+   "name": "Bassins des Lumières",
+   "kind": "museum",
+   "zone": "Bacalan (Base sous-marine)",
+   "reason": "Bassins des Lumières como alternativa de arte digital en antigua base submarina, con experiencia elegida por fecha.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "bass",
+    "bass-hours",
+    "bass-access"
+   ],
+   "coordinates": {
+    "lat": 44.869909,
+    "lon": -0.558644
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Base_sous-marine_de_Bordeaux",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Calendario actual 2-8 noviembre 2026 Matisse/Kahlo mar/jue/vie 10-18; Dinosaurios lun/mié/dom 10-18 y sáb 10-20. No extrapolar a todo año ni usar tabla 31 agosto-30 septiembre 10-19. Última entrada 1 h antes, 16 € adulto, tarjeta solo y visita 1-1 h 15; frío invierno, online recomendado. Entrada por Impasse Brown de Colstoun, no tram B a puerta: operador propone bus 5 Bassins à Flot + 700 m pie o Tram C Ravezies + bus 9 Base sous-marine + 500 m pie, confirmar red actual. Foto exposición 2024 de archivo no programación vigente.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Calendario por temporada (10-19 en la temporada consultada); última entrada y cierre de taquilla 1 h antes; visita de 1h-1h15.",
+    "source": "https://www.bassins-lumieres.com/fr/visiter/horaires-tarifs"
+   },
+   "price": "16€ adulto, 15€ senior, 12,50€ reducida, 9€ joven 6-25, familia 43€.",
+   "visitMode": "Exposición/programa por calendario, no siempre Matisse/Kahlo",
+   "photo": {
+    "img": "assets/burdeos/bassins.jpg",
+    "alt": "Bassins des Lumières · foto de archivo",
+    "author": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bassins_de_Lumi%C3%A8res_Boreaux_2024_(1).jpg",
+    "caption": "Proyección de archivo de 2024 en Bassins des Lumières. La experiencia actual cambia por día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "aquitania",
+   "name": "Museo de Aquitania",
+   "kind": "museum",
+   "zone": "Centro histórico",
+   "reason": "Musée dAquitaine como alternativa cultural de historia de Burdeos, no añadido al final de dos museos. Foto histórica del siglo XX, no estado actual.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "aqui",
+    "aqui"
+   ],
+   "coordinates": {
+    "lat": 44.8356189,
+    "lon": -0.5746906
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "6 € adulto sin exposición/8 € con temporal según propio, verificar salas/billete actual. Foto de fachada del siglo XX, histórica y no estado actual.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes a domingo 11-18; LUNES y festivos CERRADO (abierto el 14 jul y 15 ago).",
+    "source": "https://www.musee-aquitaine-bordeaux.fr/"
+   },
+   "price": "8€ (4,50€ reducida) en periodo de exposición temporal; 6€/3,50€ sin ella; estudiantes <26 2€.",
+   "visitMode": "Martes-domingo 11-18, lunes/festivos cerrado salvo 14 julio/15 agosto",
+   "photo": {
+    "img": "assets/burdeos/aquitania.jpg",
+    "alt": "Museo de Aquitania · foto de archivo",
+    "author": "Lysiane Gauthier",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_mus%C3%A9e_d%27Aquitaine_au_20%C3%A8me_si%C3%A8cle.jpg",
+    "caption": "Fachada histórica del Musée dAquitaine, siglo XX. No prueba del estado actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "orillas",
+   "name": "Orilla del Garona (Quais)",
+   "kind": "walk",
+   "zone": "Muelles",
+   "reason": "Tramo escogido de los muelles del Garona para mirar fachadas y río.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.8440926,
+    "lon": -0.5700994
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Elegir ribera y regreso, viento/calor/lluvia pueden recortar. Distancias UI línea recta, no paseo a pie. No paseo en barco incluido.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior, no 4 km obligatorios",
+   "photo": {
+    "img": "assets/burdeos/orillas.jpg",
+    "alt": "Orilla del Garona (Quais) · foto de archivo",
+    "author": "Olivier Aumage",
+    "license": "CC BY-SA 2.0 fr",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Bordeaux_quais_04.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "pontdepierre",
+   "name": "Puente de Piedra",
+   "kind": "walk",
+   "zone": "Muelles / Bastide",
+   "reason": "Pont de Pierre desde el río o un tramo a pie si el acceso opera, sin cruzar entero por defecto.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.8384221,
+    "lon": -0.5628416
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "No explicación de 17 arcos como letras Napoléon probada ni mejor panorámica universal. Revisar accesos/obras si hace falta cruzar.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior, foto dearchivo",
+   "photo": {
+    "img": "assets/burdeos/pontdepierre.jpg",
+    "alt": "Puente de Piedra · foto de archivo",
+    "author": "Olivier Accart",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pont_de_Pierre_-_Bordeaux_-_PA33000067.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "saintemilion",
+   "name": "Saint-Émilion, pueblo y viñedos",
+   "kind": "excursion",
+   "zone": "Saint-Émilion (Gironde)",
+   "reason": "Saint-Émilion: casco medieval y calles del pueblo como jornada propia, no viñedos y todas catas incluidas.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "r2r",
+    "ter",
+    "st-tourism",
+    "st-access"
+   ],
+   "coordinates": {
+    "lat": 44.8931452,
+    "lon": -0.1560662
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Turismo confirma estación TER 1,5 km cuesta abajo, 20-30 min mínimo pie hacia casco, tramos sin acera según guía accesibilidad 2026. No accesible automático;transfer estacional por reserva/disponibilidad y coste aparte, no esperándolo al llegar. Confirmar tren/ida-vuelta por fecha, no 31 min garantía de agregador. Iglesia monolítica interior requiere oferta/guía/billete propio; bodegas/catas y viñedos no automáticos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "TER línea Bordeaux-Sarlat y 1,5 km estación-casco",
+   "photo": {
+    "img": "assets/burdeos/saintemilion.jpg",
+    "alt": "Saint-Émilion, pueblo y viñedos · foto de archivo",
+    "author": "JLPC",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Saint-Emilion_33_Place_2013.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "dunapilat",
+   "name": "Duna de Pilat y bahía de Arcachon",
+   "kind": "excursion",
+   "zone": "La Teste-de-Buch (Gironde)",
+   "reason": "Duna de Pilat como jornada de naturaleza con traslado a Arcachon y conexión final elegida, no bahía entera.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "dune",
+    "baia",
+    "baia3"
+   ],
+   "coordinates": {
+    "lat": 44.5887759,
+    "lon": -1.2141676
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 480,
+   "durationType": "editorial-estimate",
+   "caution": "Baïa 3 horario invierno 5 octubre 2026-4 abril 2027, no domingos/festivos. Grand Site aproxima 50 min tren+25 min bus, no total puerta a puerta ni frecuencia garantizada. Ver tren/espera/último regreso. Duna requiere subir arena/desnivel, acceso PMR no garantizado; escalera estacional y tiempo/viento, no recorrer 2,7 km enteros ni baño incluido. Aparcamiento de pago si coche.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Acceso a la duna libre todo el año.",
+    "source": "https://www.ladunedupilat.com/preparation/comment-venir/"
+   },
+   "price": null,
+   "visitMode": "Tren Arcachon+Baïa 3 excepto domingos/festivos,101 solo julio-agosto",
+   "photo": {
+    "img": "assets/burdeos/dunapilat.jpg",
+    "alt": "Duna de Pilat y bahía de Arcachon · foto de archivo",
+    "author": "Jörg Braukmann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sommet_de_la_Dune_du_Pilat.jpg"
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Saint-Michel y casco histórico",
+     "zone": "Capucins → Saint-Michel → Grosse Cloche → Sainte-Catherine → Saint-André",
+     "stopIds": [
+      "capucins",
+      "saintmichel",
+      "grossecloche",
+      "saintecatherine",
+      "catedral"
+     ],
+     "editorialNote": "Mercado por la mañana, lunes cerrado. Basílica y dos campanarios: exterior como base; elegir UNA subida si abre, no ambas. Flèche solo publica abril-octubre, no subida en invierno asegurada. Catedral culto, Pey Berland 231 escalones aparte y 30 noviembre 2026 cerrada."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Saint-Michel y casco histórico",
+     "zone": "Capucins → Saint-Michel → Grosse Cloche → Sainte-Catherine → Saint-André",
+     "stopIds": [
+      "capucins",
+      "saintmichel",
+      "grossecloche",
+      "saintecatherine",
+      "catedral"
+     ],
+     "editorialNote": "Mercado por la mañana, lunes cerrado. Basílica y dos campanarios: exterior como base; elegir UNA subida si abre, no ambas. Flèche solo publica abril-octubre, no subida en invierno asegurada. Catedral culto, Pey Berland 231 escalones aparte y 30 noviembre 2026 cerrada."
+    },
+    {
+     "title": "Saint-Pierre, plazas y río",
+     "zone": "Saint-Pierre → Cailhau → Bourse → Grand Théâtre → Quinconces → muelles/Pont de Pierre",
+     "stopIds": [
+      "saintpierre",
+      "cailhau",
+      "bolsa",
+      "granteatro",
+      "quinconces",
+      "orillas",
+      "pontdepierre"
+     ],
+     "editorialNote": "Día principalmente exterior, recortar muelles/puente si se elige visita interior. Cailhau invierno mié-vie 14-18/sáb-dom 11-13/14-18; lun-mar no interior. Miroir dEau apagado noviembre-abril, plaza sí, no reflejo Navidad. Grand Théâtre interior por agenda aparte."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Saint-Michel y casco histórico",
+     "zone": "Capucins → Saint-Michel → Grosse Cloche → Sainte-Catherine → Saint-André",
+     "stopIds": [
+      "capucins",
+      "saintmichel",
+      "grossecloche",
+      "saintecatherine",
+      "catedral"
+     ],
+     "editorialNote": "Mercado por la mañana, lunes cerrado. Basílica y dos campanarios: exterior como base; elegir UNA subida si abre, no ambas. Flèche solo publica abril-octubre, no subida en invierno asegurada. Catedral culto, Pey Berland 231 escalones aparte y 30 noviembre 2026 cerrada."
+    },
+    {
+     "title": "Saint-Pierre, plazas y río",
+     "zone": "Saint-Pierre → Cailhau → Bourse → Grand Théâtre → Quinconces → muelles/Pont de Pierre",
+     "stopIds": [
+      "saintpierre",
+      "cailhau",
+      "bolsa",
+      "granteatro",
+      "quinconces",
+      "orillas",
+      "pontdepierre"
+     ],
+     "editorialNote": "Día principalmente exterior, recortar muelles/puente si se elige visita interior. Cailhau invierno mié-vie 14-18/sáb-dom 11-13/14-18; lun-mar no interior. Miroir dEau apagado noviembre-abril, plaza sí, no reflejo Navidad. Grand Théâtre interior por agenda aparte."
+    },
+    {
+     "title": "Chartrons y UN museo elegido",
+     "zone": "Jardin Public → Chartrons → Cité du Vin; alternativas Bassins/Aquitaine",
+     "stopIds": [
+      "jardinpublic",
+      "chartrons",
+      "citeduvin"
+     ],
+     "optionalStopIds": [
+      "bassins",
+      "aquitania"
+     ],
+     "editorialNote": "Cité du Vin bloque 2-3 h y transporte, no Cité+Bassins+Aquitania en misma tarde. Bassins sustituye principal por calendario/entrada propia, no tram B 10 min directo: conexión y tramo a pie según operador. Aquitania alternativa central, lunes/festivoscerrado. Si Cité cerrado 25 diciembre/25-31 enero 2027, elegir alternativa abierta o exterior, no programa automático."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Miroir dEau apagado noviembre-abril; Flèche invierno sin apertura publicada.",
+  "Un museo principal al día. Bassins no misma exposición todos días ni tranvía B a puerta.",
+  "Saint-Émilion 1,5 km 20-30 min cuesta/tramos sin acera, no conexión apta todos confirmada.",
+  "Fotos Capucins y CitéVin parciales, Aquitania histórica. Cobertura visual mejorable, no vista actual interior confirmada."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: 18 lugares que ver en Burdeos",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-en-burdeos/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Burdeos y lugares",
+   "url": "https://es.wikipedia.org/wiki/Burdeos",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "capu",
+   "title": "Marché des Capucins: infos pratiques",
+   "url": "https://www.marchedescapucins.com/infos-pratiques/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fleche",
+   "title": "Flèche Saint-Michel: infos pratiques",
+   "url": "https://fleche-saint-michel.com/infos-pratiques/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "paroisse",
+   "title": "Paroisse Bordeaux Saint-Jean (basílica Saint-Michel)",
+   "url": "https://paroissebordeauxsaintjean.fr/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "peyb",
+   "title": "Tour Pey Berland (monuments nationaux): informations pratiques",
+   "url": "https://www.pey-berland.fr/visiter/informations-pratiques",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cailhau",
+   "title": "Porte Cailhau: infos pratiques",
+   "url": "https://www.porte-cailhau.com/infos-pratiques/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bt",
+   "title": "Bordeaux Tourisme: Grosse Cloche y Miroir d'eau",
+   "url": "https://www.bordeaux-tourisme.com/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "opera",
+   "title": "Opéra de Bordeaux: visiter le Grand-Théâtre",
+   "url": "https://www.opera-bordeaux.com/visiter-le-grand-theatre-62311",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bfr",
+   "title": "Ville de Bordeaux: Jardin Public",
+   "url": "https://www.bordeaux.fr/parc-jardin/jardin-public",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cdv",
+   "title": "La Cité du Vin: horaires et tarifs",
+   "url": "https://www.laciteduvin.com/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bass",
+   "title": "Bassins des Lumières: horaires et tarifs",
+   "url": "https://www.bassins-lumieres.com/fr/visiter/horaires-tarifs",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "aqui",
+   "title": "Musée d'Aquitaine: horaires et tarifs",
+   "url": "https://www.musee-aquitaine-bordeaux.fr/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "dune",
+   "title": "Dune du Pilat (Grand Site): comment venir",
+   "url": "https://www.ladunedupilat.com/preparation/comment-venir/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ter",
+   "title": "TER Nouvelle-Aquitaine: Bordeaux - Saint-Émilion (ficha escueta)",
+   "url": "https://www.ter.sncf.com/nouvelle-aquitaine/trajet-bordeaux-st-emilion",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "r2r",
+   "title": "Rome2Rio: tren Bordeaux-Saint-Émilion (agregador)",
+   "url": "https://www.rome2rio.com/",
+   "type": "aggregator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bass-hours",
+   "title": "Bassins · calendrierhebdomadaire",
+   "url": "https://www.bassins-lumieres.com/fr/visiter/informations-pratiques/horaires",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bass-access",
+   "title": "Bassins · accès",
+   "url": "https://www.bassins-lumieres.com/fr/visiter/informations-pratiques/acces",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "water",
+   "title": "Tourisme · miroir arrêté en hiver",
+   "url": "https://www.bordeaux-tourisme.com/sites-monuments/miroir-eau-place-bourse",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "st-tourism",
+   "title": "SaintÉmilion · FAQgare/casco",
+   "url": "https://www.saint-emilion-tourisme.com/fr/sejourner/infos-pratiques/foire-aux-questions",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "st-access",
+   "title": "SaintÉmilion · guideaccessibilité2026",
+   "url": "https://www.saint-emilion-tourisme.com/uploads/brochure/fr-saint-emilion-pour-tous-guide-2026-compressed-6a6ca4d64d535124537456.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "baia",
+   "title": "Baïa · hiver5oct2026-4avr2027",
+   "url": "https://www.bus-baia.fr/actualite-nouveaux-horaires-des-le-05-octobre-2026-163.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "baia3",
+   "title": "Baïa · horairesligne3",
+   "url": "https://www.bus-baia.fr/pdf/l3.pdf?t=1786369980",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cat-hours",
+   "title": "Cathédrale · horairelimitéjusquau30juin",
+   "url": "https://www.cathedrale-bordeaux.fr/decouvrir-la-cathedrale/horaires-douverture/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cat-tourism",
+   "title": "Tourisme · cathédrale",
+   "url": "https://www.bordeaux-tourisme.com/patrimoine-culturel/cathedrale-saint-andre.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vin-info",
+   "title": "Cité du Vin · horaires/billets",
+   "url": "https://www.laciteduvin.com/fr/info",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

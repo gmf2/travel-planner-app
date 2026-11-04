@@ -1,0 +1,1141 @@
+{
+ "schemaVersion": 1,
+ "country": "BG",
+ "id": "sofia",
+ "name": "Sofía",
+ "localName": "Sofia",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "nedelya",
+   "name": "Catedral Sveta-Nedelya",
+   "kind": "monument",
+   "zone": "Centro",
+   "reason": "La catedral ortodoxa del centro (s. X, reconstruida en 1933 tras el atentado de 1925): su plaza es el kilómetro emocional de la ciudad y el arranque del bulevar Vitosha.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.6967181,
+    "lon": 23.3213892
+   },
+   "coordinateSource": "Света Неделя, пл. Света Неделя, София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Sin horario turístico verificado: visita diurna fuera de culto. No precio/accesointeriorgarantizadoporsertemplo,confirmardía.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/sofia/nedelya-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Sveta-Nedelya, concepto exterior sin arte sacro inventado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Sveta-Nedelya, concepto exterior sin arte sacro inventado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso turístico interior de Catedral Sveta-Nedelya",
+    "noticeLabel": "Acceso turístico interior de Catedral Sveta-Nedelya",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Templo activo: horario turístico y posible entrada no acreditados. Parada base exterior, no garantizar acceso fuera del culto."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "mezquita",
+   "name": "Mezquita Banya Bashi",
+   "kind": "monument",
+   "zone": "Centro",
+   "reason": "La única mezquita en activo de Sofía (1576, obra de Sinán): su nombre ('mucho baño') recuerda que se alza sobre las termas romanas, a un paso de los baños minerales.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.6995002,
+    "lon": 23.322572
+   },
+   "coordinateSource": "Баня баши джамия, София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Visita respetuosa fuera de oración: hombros y rodillas cubiertos, calzado fuera; sin horario primario. No precio/accesointeriorgarantizadoporsertemplo,confirmardía.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Mezquita en uso; acceso de visitantes fuera de las cinco oraciones (horario exacto no publicado en primaria).",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/sofia/mezquita.jpg",
+    "source": "https://www.pexels.com/photo/banya-bashi-mosque-in-sofia-bulgaria-at-dusk-38788101/",
+    "author": "Luis Carlos Acosta",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Exterior de la mezquita Banya Bashi con cúpula y minarete. Acceso interior no garantizado por la foto.",
+    "alt": "Exterior de la mezquita Banya Bashi con cúpula y minarete. Acceso interior no garantizado por la foto."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso turístico interior de Mezquita Banya Bashi",
+    "noticeLabel": "Acceso turístico interior de Mezquita Banya Bashi",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Templo activo: horario turístico y posible entrada no acreditados. Parada base exterior, no garantizar acceso fuera del culto."
+    ]
+   }
+  },
+  {
+   "id": "mercado",
+   "name": "Mercado Central (Halite)",
+   "kind": "market",
+   "zone": "Centro",
+   "reason": "Edificio de las Hali reabierto23mayo2024 tras restauración: comercio gestionado por Kaufland, espacio de historia/arqueología y programación cultural. No prometer el formato del antiguo mercado de puestos independientes.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.6998886,
+    "lon": 23.3237301
+   },
+   "coordinateSource": "Централни хали (Halite), София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Edificio renovado y en uso comercial desde2024. Oferta y espacios pueden no coincidir con fotos antiguas. Horario y entrada de actividades por separado; no suponer mercado tradicional de puestos ni programa diario.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Web propia confirma reapertura y programación, pero horario completo no aparece en la página consultada. Confirmar horario comercial y de actividades por fecha.",
+    "source": "https://sofia-hali.bg/"
+   },
+   "price": "Entrada libre.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/sofia/mercado-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Mercado Central, concepto exterior sin puestos inventados. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Mercado Central, concepto exterior sin puestos inventados. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "museo_regional",
+   "name": "Museo Histórico Regional (antiguos baños)",
+   "kind": "museum",
+   "zone": "Pl. Banski",
+   "reason": "Museo de la historia de Sofía en los antiguos baños minerales centrales. Elegirlo como visita interior principal del día; fachada y museo tienen accesos distintos.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "rhm",
+    "rhm-pdf"
+   ],
+   "coordinates": {
+    "lat": 42.6992256,
+    "lon": 23.3237962
+   },
+   "coordinateSource": "Централна минерална баня (Museo Histórico Regional), пл. Бански, София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Entrada individual5€, audioguía3€ aparte y primer jueves gratis según PDF propio revisado. Horario actual10-18; reducción de verano terminó5septiembre. No confundir con pase conjunto de cuatro sitios.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes-domingo10-18, última entrada17:30; lunes cerrado. Aviso11agosto-5septiembre2026 de9-15 ya no corresponde a noviembre.",
+    "source": "https://sofiahistorymuseum.bg/en/2-uncategorised/168-important"
+   },
+   "price": "5 €adulto,2 €7-18/estudiantes/doctorandos/seniors,familia2adultos+≤3menores10 €. Audioguía3 €aparte. Primerjuevesmesgratis. PDFoficialinspeccionado3nov2026.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/sofia/museo_regional-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: antiguos baños de Sofía, concepto exterior sin piezas inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en antiguos baños de Sofía, concepto exterior sin piezas inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo Histórico Regional en antiguos baños",
+    "noticeLabel": "Museo Histórico Regional en antiguos baños",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "notices": [
+     "Martes-domingo10-18, último acceso17:30. Aviso9-15 era11ago-5sep2026, no noviembre. Primer jueves gratis según tarifas propias; no incluye automáticamente otras sedes."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "sinagoga",
+   "name": "Sinagoga de Sofía",
+   "kind": "monument",
+   "zone": "Centro",
+   "reason": "Sinagoga sefardí en el centro de Sofía. Parada exterior; visita interior y controles se confirman por fecha, sin garantizar acceso durante culto o sábado.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.7002211,
+    "lon": 23.3209327
+   },
+   "coordinateSource": "Софийска синагога, София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Sin horario primario: llevar identificación (control de seguridad habitual) y no prometer apertura en sábado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Horario de visita no verificado en primaria en esta sesión; sinagoga-museo con cierre habitual en sábado (shabat) — confirmar antes de ir.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/sofia/sinagoga-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Sinagoga de Sofía, concepto exterior sin arte sacro inventado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Sinagoga de Sofía, concepto exterior sin arte sacro inventado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso turístico interior de Sinagoga de Sofía",
+    "noticeLabel": "Acceso turístico interior de Sinagoga de Sofía",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Templo activo: horario turístico y posible entrada no acreditados. Parada base exterior, no garantizar acceso fuera del culto."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "sveti_georgi",
+   "name": "Rotonda de Sveti Georgi",
+   "kind": "monument",
+   "zone": "El Largo",
+   "reason": "El edificio más antiguo de Sofía: la rotonda romana de ladrillo del siglo IV escondida en el patio entre el Sheraton y la Presidencia, con frescos medievales en la cúpula.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.6969094,
+    "lon": 23.3228488
+   },
+   "coordinateSource": "Св. Георги Победоносец (rotonda), София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Sin horario turístico verificado: visita diurna fuera de culto. No precio/accesointeriorgarantizadoporsertemplo,confirmardía.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/sofia/sveti_georgi.jpg",
+    "alt": "Rotonda de San Jorge en Sofia: iglesia de ladrillo y restos de Serdica dentro del patio urbano. Foto de archivo; no muestra los frescos interiores.",
+    "caption": "Rotonda de San Jorge en Sofia: iglesia de ladrillo y restos de Serdica dentro del patio urbano. Foto de archivo; no muestra los frescos interiores.",
+    "author": "Stijn Dijkstra",
+    "source": "https://www.pexels.com/photo/saint-george-rotunda-in-sofia-15074414/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.visitsofia.bg/en/cityinfrastructure/what-to-see/temples/st-george-rotunda"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso turístico interior de Rotonda de Sveti Georgi",
+    "noticeLabel": "Acceso turístico interior de Rotonda de Sveti Georgi",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Templo activo: horario turístico y posible entrada no acreditados. Parada base exterior, no garantizar acceso fuera del culto."
+    ]
+   }
+  },
+  {
+   "id": "largo",
+   "name": "Plaza de la Independencia (el Largo)",
+   "kind": "walk",
+   "zone": "El Largo",
+   "reason": "El eje institucional comunista: Presidencia, Consejo de Ministros y antigua Casa del Partido formando el 'Largo' de mármol amarillo, con la estatua de Santa Sofía donde estuvo la de Lenin.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.6975639,
+    "lon": 23.3228233
+   },
+   "coordinateSource": "пл. Независимост (Largo), София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/sofia/largo-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: el Largo, concepto de plaza monumental. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en el Largo, concepto de plaza monumental. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "serdica",
+   "name": "Yacimiento de Serdica",
+   "kind": "monument",
+   "zone": "Centro",
+   "reason": "La Sofía romana al descubierto: restos de la vía principal, termas y el anfiteatro (mayor que el de Arlés) bajo y junto al Largo, con la estación de metro Serdika convertida en museo al aire libre.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "serdica-pdf"
+   ],
+   "coordinates": {
+    "lat": 42.6974623,
+    "lon": 23.3274507
+   },
+   "coordinateSource": "Античен амфитеатър на Сердика, София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Distinguirpasourbanoyexposicióncerradadepago. PDFoperador3 €/1,50 €. Horariointeriorpendiente; no asignartodoyacimientoalhotelArena.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Exposiciónarqueológica3 €adulto/1,50 €reducida,menores7gratis. No es tarifa delpaso urbano.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/sofia/serdica.jpg",
+    "source": "https://www.pexels.com/photo/night-view-of-serdica-archaeological-complex-in-sofia-28892583/",
+    "author": "Muhammed zeya",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Restos de Serdica en el espacio urbano al anochecer. No representa necesariamente la exposición cerrada de pago ni su horario.",
+    "alt": "Restos de Serdica en el espacio urbano al anochecer. No representa necesariamente la exposición cerrada de pago ni su horario."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "nevski",
+   "name": "Catedral de Alejandro Nevski",
+   "kind": "monument",
+   "zone": "Pl. Alejandro Nevski",
+   "reason": "El símbolo de Sofía: la catedral-memorial balcánica (1912) de cúpulas doradas en honor a los rusos caídos en la liberación de 1878; en su cripta, el Museo de Arte Cristiano de la Galería Nacional.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "ng",
+    "crypt-own",
+    "cathedral-hours1196"
+   ],
+   "coordinates": {
+    "lat": 42.6958124,
+    "lon": 23.3327934
+   },
+   "coordinateSource": "Храм-паметник Св. Александър Невски, София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Templo principal diario07-19: oficios08y17, domingo liturgia09:30; no visita turística libre de culto garantizada. La cripta es otro museo, ma-do10-18/taquilla17:30 y lunes/festivos cerrada. Su página EN mantiene tarifas antiguas; orden propia vigente desde10/08/2026 y página actual sin /en publican10 € adulto/4 € reducida. No copiar4,09 € de la traducción antigua ni aplicar entrada de cripta al templo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Catedral principal: diario07-19 según propio. Cripta-museo independiente: martes-domingo10-18, taquilla17:30; lunes y festivos cerrada.",
+    "source": "https://cathedral.bg/en/visit-us"
+   },
+   "price": "Cripta10 € adulto/4 € reducida según orden desde10/08/2026; jueves2 € en sede actual. Tarifa/aportación turística del templo principal no publicada en página consultada.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/sofia/nevski.jpg",
+    "alt": "Catedral de Alejandro Nevski de Sofia: campanario y cúpulas de la fachada exterior. No muestra la cripta-museo ni implica entrada incluida.",
+    "caption": "Catedral de Alejandro Nevski de Sofia: campanario y cúpulas de la fachada exterior. No muestra la cripta-museo ni implica entrada incluida.",
+    "author": "Eftim Futekov",
+    "source": "https://www.pexels.com/photo/st-alexander-nevsky-cathedral-in-sofia-bulgaria-36690088/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://visitsofia.bg/index.php?option=com_cityinfrastructure&view=objectdetails&Itemid=485&obektid=2118&layer=50000&lang=en"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo de Arte Cristiano en cripta, no catedral principal",
+    "noticeLabel": "Museo de Arte Cristiano en cripta, no catedral principal",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "closedMonthDays": [
+     "12-25"
+    ],
+    "notices": [
+     "Cripta:10 € adulto/4 € reducida según orden10/08/2026; jueves2 € en sede actual. Ma-do10-18/taquilla17:30. Catedral principal aparte, diario07-19con culto."
+    ],
+    "noticeRanges": [
+     {
+      "start": "2026-12-24",
+      "end": "2026-12-31",
+      "text": "Operador cierra festivos búlgaros/Navidad, sin calendario detallado confirmado aquí. No asumir abierto otros días de esta semana; consultar sede."
+     }
+    ]
+   }
+  },
+  {
+   "id": "hagia_sofia",
+   "name": "Iglesia de Hagia Sofía",
+   "kind": "monument",
+   "zone": "Pl. Alejandro Nevski",
+   "reason": "La iglesia que da nombre a la ciudad (s. VI): sobria basílica de ladrillo junto a Nevski, con la tumba del Soldado Desconocido y el león fuera, y la necrópolis romana visitable en la cripta.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "hagia-pdf"
+   ],
+   "coordinates": {
+    "lat": 42.6965,
+    "lon": 23.3328
+   },
+   "coordinateSource": "Punto editorial junto a Alejandro Nevski (la iglesia de Santa Sofía no tiene nodo en Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Sin horario turístico verificado; coordenada editorial junto a Alejandro Nevski (sin nodo propio en OSM). TarifaarqueologíadePDFoficial,no gratuitotodoconjunto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": "Nivelarqueológico4 €adulto/1,50 €reducida,menores7gratis. Entradaaltemplono verificadaseparada.",
+   "visitMode": "exterior; arqueología opcional de pago",
+   "photo": {
+    "img": "assets/sofia/hagia_sofia-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Hagia Sofía de Sofía, concepto exterior de iglesia de ladrillo. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Hagia Sofía de Sofía, concepto exterior de iglesia de ladrillo. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Nivel arqueológico de Santa Sofía, no templo principal",
+    "noticeLabel": "Nivel arqueológico de Santa Sofía, no templo principal",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Arqueología4€ adulto/1,50€ reducida según PDF propio. Horario de este nivel por confirmar; no confundir entrada al templo con acceso a arqueología."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "iglesia_rusa",
+   "name": "Iglesia Rusa de San Nicolás",
+   "kind": "monument",
+   "zone": "Bulevar Tsar Osvoboditel",
+   "reason": "La iglesia de las cinco cebollas doradas (1914), capilla de la embajada rusa: abajo, la cripta del taumaturgo San Serafín, donde los fieles dejan cartas con sus deseos.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.6956936,
+    "lon": 23.3289348
+   },
+   "coordinateSource": "Св. Николай Чудотворец, бул. Цар Освободител, София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Sin horario turístico verificado: visita diurna fuera de culto. No precio/accesointeriorgarantizadoporsertemplo,confirmardía.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/sofia/iglesia_rusa.jpg",
+    "alt": "Iglesia rusa de San Nicolás de Sofia: cubierta verde, cúpulas doradas y entrada exterior. No muestra cripta ni confirma acceso.",
+    "caption": "Iglesia rusa de San Nicolás de Sofia: cubierta verde, cúpulas doradas y entrada exterior. No muestra cripta ni confirma acceso.",
+    "author": "Artur Kluska",
+    "source": "https://www.pexels.com/photo/russian-church-in-sofia-bulgaria-sunny-day-38625032/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://visitsofia.bg/index.php?option=com_cityinfrastructure&view=objectdetails&Itemid=485&obektid=2764&layer=50000&lang=en"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso turístico interior de Iglesia Rusa de San Nicolás",
+    "noticeLabel": "Acceso turístico interior de Iglesia Rusa de San Nicolás",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Templo activo: horario turístico y posible entrada no acreditados. Parada base exterior, no garantizar acceso fuera del culto."
+    ]
+   }
+  },
+  {
+   "id": "arqueologico",
+   "name": "Museo Arqueológico Nacional",
+   "kind": "museum",
+   "zone": "Centro",
+   "reason": "En la antigua mezquita Büyük Camii (1474): el tesoro de Valchitran, los bronces tracios, el mosaico de la deusa Madre y gran parte de los hallazgos de Serdica.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "naim"
+   ],
+   "coordinates": {
+    "lat": 42.6963979,
+    "lon": 23.3245781
+   },
+   "coordinateSource": "Национален археологически институт с музей, Съборна 2, София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Verano (may-oct): a diario 10:00-18:00. Invierno (nov-abr): 10:00-17:00, LUNES CERRADO. Última entrada 30 min antes. Cerrado 25 dic y 1 ene; 24 y 31 dic 10-14.",
+    "source": "https://www.naim.bg/en/content/category/300/80/"
+   },
+   "price": "Adulto 6€ (11,73 BGN); estudiantes 1,50€; familia (1 adulto + niños <16) 6€; (2 adultos + niños) 8€. Visita guiada: 10€ búlgaro / 20€ inglés.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/sofia/arqueologico-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo Arqueológico, concepto exterior sin piezas inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo Arqueológico, concepto exterior sin piezas inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo Arqueológico Nacional, no exterior",
+    "noticeLabel": "Museo Arqueológico Nacional, no exterior",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "closedMonthDays": [
+     "01-01",
+     "12-25"
+    ],
+    "specialDates": [
+     {
+      "date": "2026-12-24",
+      "text": "24/31 diciembre: museo10-14; último acceso30min antes."
+     },
+     {
+      "date": "2026-12-31",
+      "text": "24/31 diciembre: museo10-14; último acceso30min antes."
+     }
+    ],
+    "notices": [
+     "Invierno10-17, última16:30. Último domingo del mes gratis para todos; segundo jueves solo pensionistas."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "galeria_palacio",
+   "name": "Galería Nacional (Palacio Real)",
+   "kind": "museum",
+   "zone": "Bulevar Tsar Osvoboditel",
+   "reason": "El antiguo Palacio Real (1873) alberga la mayor colección de arte búlgaro del país: 50.000 piezas del s. XIX a hoy, con el ala etnográfica en el piso alto.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "ng",
+    "palace-own"
+   ],
+   "coordinates": {
+    "lat": 42.6962267,
+    "lon": 23.3271243
+   },
+   "coordinateSource": "Двореца (Palacio Real / Galería Nacional), бул. Цар Освободител, София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Página actual de esta sede ya coincide con ordenagosto2026:8 €/4 €,jueves2 €. No mantenerconflictoBGNdeotraURLcomo siestasede siguieradesactualizada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Ma-do10-18,taquilla17:30. Cerrado lunes,festivosbúlgaros/Navidad/AñoNuevo/Pascua.",
+    "source": "https://nationalgallery.bg/visiting/the-palace/"
+   },
+   "price": "8 €adulto,4 €65+/estudiantes,<18gratis; jueves2 €segúnpáginaactualde sede. Confirmarexcepciones/exposiciones.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/sofia/galeria_palacio-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Palacio Real, concepto exterior sin obras inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Palacio Real, concepto exterior sin obras inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Interior de Galería Nacional (Palacio Real)",
+    "noticeLabel": "Interior de Galería Nacional (Palacio Real)",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "closedMonthDays": [
+     "12-25"
+    ],
+    "weekdayNotices": [
+     {
+      "weekday": 4,
+      "text": "Jueves: entrada2€ según sede. No confirma apertura en festivo ni reserva."
+     }
+    ],
+    "notices": [
+     "Martes-domingo10-18, taquilla17:30. General8€, reducida4€, menores18gratis; otros festivos búlgaros cerrados, calendario extraordinario por confirmar."
+    ],
+    "noticeRanges": [
+     {
+      "start": "2026-12-24",
+      "end": "2026-12-31",
+      "text": "Operador cierra festivos búlgaros/Navidad, sin calendario detallado confirmado aquí. No asumir abierto otros días de esta semana; consultar sede."
+     }
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "teatro",
+   "name": "Teatro Nacional Ivan Vazov",
+   "kind": "monument",
+   "zone": "Jardín de la Ciudad",
+   "reason": "Teatro Nacional Ivan Vazov junto al Jardín de la Ciudad. Parada exterior para la fachada; función o visita interior requieren programación y entrada propias.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.6941714,
+    "lon": 23.3265711
+   },
+   "coordinateSource": "Народен театър Иван Вазов, София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "El interior solo con función (cartelera en nationaltheatre.bg); parada exterior con el Jardín de la Ciudad.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/sofia/teatro.jpg",
+    "source": "https://www.pexels.com/photo/national-theatre-ivan-vazov-in-sofia-28901712/",
+    "author": "Pham Ngoc Anh",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada del Teatro Nacional Ivan Vazov y su plaza. No acredita función ni visita interior.",
+    "alt": "Fachada del Teatro Nacional Ivan Vazov y su plaza. No acredita función ni visita interior."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "vitosha",
+   "name": "Bulevar Vitosha",
+   "kind": "walk",
+   "zone": "Centro",
+   "reason": "La arteria peatonal y comercial de Sofía desde Sveta-Nedelya hasta el Palacio de la Cultura: tiendas, cafés y, al fondo, la silueta del monte Vitosha (2.290 m) cerrando la perspectiva.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.6829605,
+    "lon": 23.3148159
+   },
+   "coordinateSource": "бул. Витоша, София (Nominatim; punto de calle, el bulevar es eje largo)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/sofia/vitosha-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: bulevar Vitosha, paseo imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en bulevar Vitosha, paseo imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "arte_socialista",
+   "name": "Museo de Arte Socialista",
+   "kind": "museum",
+   "zone": "Iztok (este)",
+   "reason": "La sede de la Galería Nacional con el pasado reciente al aire: 80 estatuas de la era comunista (la estrella roja de la Casa del Partido, el Lenin del Largo) y proyección de cine de propaganda.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "ng",
+    "socialist-own"
+   ],
+   "coordinates": {
+    "lat": 42.6657537,
+    "lon": 23.3581933
+   },
+   "coordinateSource": "Музей на социалистическото изкуство, София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Sede7LuchezarStanchev,al sureste delcentro. No confundirconSofiaArsenalMuseoArteContemporáneo2CherniVruh,otra sede. Traslado desdeBoyanaporverificar,nopaseocontiguo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Ma-do10-18,taquilla17:30. Cerrado lunes,festivosbúlgaros/Navidad/AñoNuevo/Pascua.",
+    "source": "https://nationalgallery.bg/visiting/museum-of-socialist-period/"
+   },
+   "price": "8 €adulto,4 €65+/estudiantes,<18gratis; jueves2 €segúnpáginaactualde sede. Confirmarexcepciones/exposiciones.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/sofia/arte_socialista-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo de Arte Socialista, edificio imaginado, no reproducción del museo ni de sus piezas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo de Arte Socialista, edificio imaginado, no reproducción del museo ni de sus piezas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Interior de Museo de Arte Socialista",
+    "noticeLabel": "Interior de Museo de Arte Socialista",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "closedMonthDays": [
+     "12-25"
+    ],
+    "weekdayNotices": [
+     {
+      "weekday": 4,
+      "text": "Jueves: entrada2€ según sede. No confirma apertura en festivo ni reserva."
+     }
+    ],
+    "notices": [
+     "Martes-domingo10-18, taquilla17:30. General8€, reducida4€, menores18gratis; otros festivos búlgaros cerrados, calendario extraordinario por confirmar."
+    ],
+    "noticeRanges": [
+     {
+      "start": "2026-12-24",
+      "end": "2026-12-31",
+      "text": "Operador cierra festivos búlgaros/Navidad, sin calendario detallado confirmado aquí. No asumir abierto otros días de esta semana; consultar sede."
+     }
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "boyana",
+   "name": "Iglesia de Boyana",
+   "kind": "monument",
+   "zone": "Boyana (monte Vitosha)",
+   "reason": "Iglesia medieval con frescos de1259 inscrita en la lista UNESCO. Interior limitado a10min y9personas; el traslado, compra y espera requieren margen separado.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "nhm"
+   ],
+   "coordinates": {
+    "lat": 42.6446239,
+    "lon": 23.2661946
+   },
+   "coordinateSource": "Боянска църква, кв. Бояна, София (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Máximo9personas dentro, estancia10minutos,no30minutosdemuseo. Franjas alternas gruposreservados/individuales≤5; reservasindividualesenel sitio tras comprar. Billetesprecompradosválidoshastafinmes,transferenciasnocanjeadasnoreembolsadas. HorariosdeltextoENcontienenerrata12:30-3:00,no copiarfranjaincoherente. Trasladobus64/107pendienteoperador,nogarantizar.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Invierno9-17:30/taquilla17;verano9:30-18/taquilla17:30,lu-do. Estanciainterior10minmáx9personas; bloquesreservasgrupos30minno duraciónvisita. Gratisúltimolunesmestras15/18may/17sep/1nov,sinreservaesosperiodos.",
+    "source": "https://historymuseum.org/boyana-church-2/?lang=en"
+   },
+   "price": "Webpropiaactual6,14 €adulto(12lvmostrado),1,53 €estudiante;grupos10+4,09 €/estudiantes1,02 €. Ticketseparado,no pasecombinadoconMuseoHistóricoasumido.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/sofia/boyana-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Boyana, concepto exterior sin frescos inventados. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Boyana, concepto exterior sin frescos inventados. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Interior de Iglesia de Boyana",
+    "noticeLabel": "Interior de Iglesia de Boyana",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Invierno9-17:30, taquilla17. Máximo9personas y10min dentro; espera y desplazamiento aparte. Último lunes del mes gratis después15, sin reservas durante periodo gratis. Reserva individual en sitio tras billete; precompra válida hasta final del mes, no reembolso por transferencia sin usar."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "rila",
+   "name": "Monasterio de Rila",
+   "kind": "excursion",
+   "zone": "Rila (montañas homónimas)",
+   "reason": "El monasterio más impresionante de Bulgaria (s. X, Patrimonio UNESCO): el patio a rayas blancas y negras con la torre de Hrelyo, la iglesia de los frescos exteriores y los museos del tesoro monástico.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "rila"
+   ],
+   "coordinates": {
+    "lat": 42.1332985,
+    "lon": 23.3401865
+   },
+   "coordinateSource": "Рилски манастир, Рила (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "Transporte público escaso y de fuente secundaria (sin primaria del operador verificada): planificar con margen o tour. Monasterio activo: vestimenta respetuosa; el patio es libre, los museos de pago.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Exposiciones museísticas: a diario 8:30-16:30, sin día de cierre; entradas solo en el monasterio. Patio y exterior: acceso libre.",
+    "source": "https://rilskimanastir.org/en/museums/"
+   },
+   "price": "Entrada combinada a todas las exposiciones: 12€ (23,47 BGN); visita guiada en inglés 15€. Patio gratuito.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/sofia/rila.jpg",
+    "source": "https://www.pexels.com/photo/the-monastery-of-saint-john-of-rila-14447495/",
+    "author": "Andreas Ebner",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Patio y galerías exteriores del monasterio de Rila con la montaña. No muestra las exposiciones de pago ni garantiza traslado.",
+    "alt": "Patio y galerías exteriores del monasterio de Rila con la montaña. No muestra las exposiciones de pago ni garantiza traslado."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "plovdiv",
+   "name": "Plovdiv, la ciudad de los siete cerros",
+   "kind": "excursion",
+   "zone": "Plovdiv",
+   "reason": "La segunda ciudad del país y una de las más antiguas de Europa habitada sin interrupción: el teatro romano del s. II con la filarmónica, el casco viejo del Renacimiento Nacional y el barrio artístico Kapana.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.1469081,
+    "lon": 24.7511016
+   },
+   "coordinateSource": "Античен театър, Пловдив (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "Duración del tren de fuente secundaria (BDZ sin primaria verificable en esta sesión): caution explícito; verificar ida y vuelta por separado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/sofia/plovdiv-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Plovdiv, concepto de calle histórica. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Plovdiv, concepto de calle histórica. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "La Sofía de las cuatro religiones",
+     "zone": "Sveta-Nedelya → Mezquita Banya Bashi → Mercado Central → Museo Histórico Regional → Sinagoga → Rotonda Sveti Georgi → Largo → Serdica",
+     "stopIds": [
+      "nedelya",
+      "mezquita",
+      "mercado",
+      "museo_regional",
+      "sinagoga",
+      "sveti_georgi",
+      "largo",
+      "serdica"
+     ],
+     "editorialNote": "Paseo compacto del centro. Escoger MuseoRegional como entrada principal, templos interiores solo si se confirma acceso fuera de culto, sinagoga condicionada a su horario/seguridad. PasourbanoSerdicadistintodeexposición3 €. Histórico5 €adulto,audioguía3 €aparte."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "La Sofía de las cuatro religiones",
+     "zone": "Sveta-Nedelya → Mezquita Banya Bashi → Mercado Central → Museo Histórico Regional → Sinagoga → Rotonda Sveti Georgi → Largo → Serdica",
+     "stopIds": [
+      "nedelya",
+      "mezquita",
+      "mercado",
+      "museo_regional",
+      "sinagoga",
+      "sveti_georgi",
+      "largo",
+      "serdica"
+     ],
+     "editorialNote": "Paseo compacto del centro. Escoger MuseoRegional como entrada principal, templos interiores solo si se confirma acceso fuera de culto, sinagoga condicionada a su horario/seguridad. PasourbanoSerdicadistintodeexposición3 €. Histórico5 €adulto,audioguía3 €aparte."
+    },
+    {
+     "title": "Nevski, el arqueológico y el bulevar",
+     "zone": "Alejandro Nevski → Hagia Sofía → Iglesia Rusa → Museo Arqueológico → Teatro Ivan Vazov → Bulevar Vitosha",
+     "stopIds": [
+      "nevski",
+      "hagia_sofia",
+      "iglesia_rusa",
+      "arqueologico",
+      "teatro",
+      "vitosha"
+     ],
+     "editorialNote": "Arqueológico como museo principal. Galería del Palacio es alternativa, no segunda visita interior impuesta. Nevski y Hagia Sofía: exterior base; cripta y arqueología son entradas separadas. En invierno Arqueológico y Palacio cierran lunes. Bulevar al final según luz.",
+     "optionalStopIds": [
+      "galeria_palacio"
+     ]
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "La Sofía de las cuatro religiones",
+     "zone": "Sveta-Nedelya → Mezquita Banya Bashi → Mercado Central → Museo Histórico Regional → Sinagoga → Rotonda Sveti Georgi → Largo → Serdica",
+     "stopIds": [
+      "nedelya",
+      "mezquita",
+      "mercado",
+      "museo_regional",
+      "sinagoga",
+      "sveti_georgi",
+      "largo",
+      "serdica"
+     ],
+     "editorialNote": "Paseo compacto del centro. Escoger MuseoRegional como entrada principal, templos interiores solo si se confirma acceso fuera de culto, sinagoga condicionada a su horario/seguridad. PasourbanoSerdicadistintodeexposición3 €. Histórico5 €adulto,audioguía3 €aparte."
+    },
+    {
+     "title": "Nevski, el arqueológico y el bulevar",
+     "zone": "Alejandro Nevski → Hagia Sofía → Iglesia Rusa → Museo Arqueológico → Teatro Ivan Vazov → Bulevar Vitosha",
+     "stopIds": [
+      "nevski",
+      "hagia_sofia",
+      "iglesia_rusa",
+      "arqueologico",
+      "teatro",
+      "vitosha"
+     ],
+     "editorialNote": "Arqueológico como museo principal. Galería del Palacio es alternativa, no segunda visita interior impuesta. Nevski y Hagia Sofía: exterior base; cripta y arqueología son entradas separadas. En invierno Arqueológico y Palacio cierran lunes. Bulevar al final según luz.",
+     "optionalStopIds": [
+      "galeria_palacio"
+     ]
+    },
+    {
+     "title": "Boyana como visita principal, arte socialista opcional",
+     "zone": "Boyana y traslado de vuelta; ArteSocialista como alternativa de tarde",
+     "stopIds": [
+      "boyana"
+     ],
+     "editorialNote": "Reservar media jornada para llegar a Boyana, compra/espera y regreso, aunque el interior dura como máximo10min. Arte Socialista es alternativa de tarde en otra zona; traslado pendiente, no paseo contiguo. Sin senderismo o teleférico Vitosha garantizados.",
+     "optionalStopIds": [
+      "arte_socialista"
+     ]
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Faltan horarios de templos y traslados por fecha. Ampliación aún no publicada.",
+  "Patrón búlgaro: los lunes cierran la mayoría de los museos (Galería Nacional y sedes; Arqueológico solo en invierno; excepción Boyana, que abre a diario).",
+  "Discrepancia del propio operador en la Galería Nacional: página de visita con precios antiguos en BGN vs Orden oficial de 03-08-2026 en euros; se usan los euros de la Orden y se declara la discrepancia.",
+  "Museo Histórico Regional: tarifario oficial publicado SOLO como imágenes: precio no extraíble, no afirmar cifra.",
+  "Templos (Nevski, Hagia Sofía, Rusa, Nedelya, Rotonda, mezquita, sinagoga) sin horario turístico primario: visitas diurnas fuera de culto; sinagoga con control de seguridad y cierre probable en sábado.",
+  "Transporte de excursiones (bus a Rila ~2 h, tren BDZ a Plovdiv ~2 h 30): fuentes secundarias; confirmar horarios (ida y vuelta por separado) antes de viajar.",
+  "Moneda dual en las fuentes: Bulgaria en euro con páginas aún en BGN (1€ ≈ 1,95583 BGN): cifras citadas con ambas cuando el operador las da.",
+  "Visitas: 7 fotos reales y 12 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Nada reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en Sofía",
+   "url": "https://www.viajeroscallejeros.com/que-ver-en-sofia/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Sofía y lugares",
+   "url": "https://es.wikipedia.org/wiki/Sof%C3%ADa",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "nhm",
+   "title": "Museo Nacional de Historia: Boyana Church (horarios/tarifas)",
+   "url": "https://historymuseum.org/boyana-church-2/?lang=en",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ng",
+   "title": "Galería Nacional: orden de precios 03-08-2026 y horarios",
+   "url": "https://nationalgallery.bg/ticket-prices-for-visiting-the-national-gallery-from-10-08-202607-08-2026/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "naim",
+   "title": "Museo Arqueológico Nacional: tickets y horario",
+   "url": "https://www.naim.bg/en/content/category/300/80/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rhm",
+   "title": "Museo Histórico Regional de Sofía: tickets (imágenes)",
+   "url": "https://www.sofiahistorymuseum.bg/en/tickets",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rila",
+   "title": "Monasterio de Rila: museos (horario/tarifa)",
+   "url": "https://rilskimanastir.org/en/museums/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "palace-own",
+   "title": "Galería · Palacio sede",
+   "url": "https://nationalgallery.bg/visiting/the-palace/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "socialist-own",
+   "title": "Galería · ArteSocialista sede",
+   "url": "https://nationalgallery.bg/visiting/museum-of-socialist-period/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "crypt-own",
+   "title": "Galería · Cripta sede",
+   "url": "https://nationalgallery.bg/visiting/museum-of-christian-art/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rhm-pdf",
+   "title": "HistóricoRegional · PDFtarifas",
+   "url": "https://www.sofiahistorymuseum.bg/images/pdf/men.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hagia-pdf",
+   "title": "SantaSofía · arqueologíaPDFtarifas",
+   "url": "https://www.sofiahistorymuseum.bg/images/pdf/stsen.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "serdica-pdf",
+   "title": "Serdica · exposiciónPDFtarifas",
+   "url": "https://www.sofiahistorymuseum.bg/images/pdf/aken.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cathedral-hours1196",
+   "url": "https://cathedral.bg/en/visit-us",
+   "title": "Alejandro Nevski: horario propio y oficios"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

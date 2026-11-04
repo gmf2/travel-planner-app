@@ -1,0 +1,160 @@
+{
+ "schemaVersion": 1,
+ "cityId": "provenza",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "avignon_fourchette",
+   "name": "La Fourchette · Aviñón",
+   "address": "17 Rue Racine, 84000 Avignon, France",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Fourchette&query_place_id=ChIJx1kILYTrtRIRnxOqGm5V5KI",
+   "lat": 43.9501987,
+   "lon": 4.8048813,
+   "description": "Bistró del centro con recetas tradicionales del sur: la carta propia incluye daube de buey a la avignonnaise, pescado con pistou y cerdo con ajo confitado. Michelin destaca ejecución y ambiente familiar; Gault&Millau 2026 señala el menú de elección amplia. No es el Bistrot d’Avenio del MIN ni el antiguo Avenio de otra dirección.",
+   "compactDescription": "En Aviñón: daube de buey y cocina tradicional del sur. Encaja en el paseo urbano, no en una jornada de aldeas lejana.",
+   "priceLabel": "Turismo oficial y Gault&Millau 2026 publican menú adulto 45 €; Gault&Millau indica fórmula de 2 platos 33 €. PDF propio enlazado no muestra precio total del menú adulto, así que confirmar importe actual, bebidas y suplementos. Escargots +4 € en carta propia.",
+   "compactPrice": "Menú 45 € publicado por turismo/guía; confirmar total actual, bebidas y suplementos.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://la-fourchette.eatbu.com/?lang=fr",
+   "editorialUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/avignon/restaurant/la-fourchette",
+   "sourceUrls": [
+    "https://cdn.website.dish.co/media/e6/b5/10225756/Menu-1.pdf",
+    "https://fr.gaultmillau.com/fr/restaurants/la-fourchette-restaurant",
+    "https://avignon-tourisme.com/offres/la-fourchette-avignon-fr-4143823/"
+   ],
+   "statusEvidence": "Web propia enlazada por turismo, PDF directo inspeccionado visualmente, Michelin/Gault&Millau y Maps contrastados. Guías discrepan sobre cenas/horas y atribuyen chef histórico frente a actuales Florine/Benjamin: no se afirma chef actual.",
+   "alert": "Turismo publica lunes-viernes 12: 30-13: 30 y 19: 15-21: 30, cerrado sábado/domingo y 25/12/2026. Michelin solo muestra comida 12: 15-13: 30: confirmar servicio exacto antes de ir. Turismo indica no accesible en silla de ruedas.",
+   "compactAlert": "Lunes-viernes; confirmar cenas y festivos. Turismo indica no accesible en silla de ruedas.",
+   "caution": "No hay mesa reservada. Política de cancelación y cargos pendientes; pedir carta de alérgenos al local. Precio 45 € no es cuenta final con bebidas. No prometer adaptación sin confirmar; sitio en casco, no entrar en coche sin verificar acceso.",
+   "photo": {
+    "img": "assets/provenza/avignon_fourchette-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes provenzales imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes provenzales imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "roussillon_omma",
+   "name": "Omma · Roussillon",
+   "address": "38 place de la poste, 84220 Roussillon, France",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant+Omma&query_place_id=ChIJQ8YlCFgTyhIRAVHe92eRygY",
+   "placeId": "ChIJQ8YlCFgTyhIRAVHe92eRygY",
+   "lat": 43.9022554,
+   "lon": 5.293857399999999,
+   "description": "Mesa de cocina de temporada frente a los ocres, para la jornada Roussillon/Bonnieux y no para volver expresamente desde Aviñón. Michelin describe una carta corta con influencias provenzales; la carta propia enlazada muestra cerdo de Ventoux, buey de Gordes con setas y un mille-feuille con miel/lavanda. La crónica de Littleboboon de agosto 2025 valora producto local y cocina ligera; servicio joven algo dubitativo. Sus platos son evidencia histórica, no la carta actual.",
+   "compactDescription": "En Roussillon, junto a los ocres: producto provenzal de temporada. Mejor comida que desvío nocturno desde Aviñón.",
+   "priceLabel": "PDF enlazado ahora por la web: comida 29 € dos platos o 36 € tres; vino tinto +4 € publicado, otras bebidas aparte. Cena 58 € publicada con entrada, principal y postre o queso; misma página muestra queso +16 €, por lo que confirmar suplemento o elegir postre. No es cuenta final ni menú garantizado para tu fecha. No usar el menú 36 € del 12-14/10/2026 localizado por búsqueda: ese PDF antiguo es distinto.",
+   "compactPrice": "Comida 29 € / 36 € (2/3 platos), bebidas aparte. Cena 58 €; suplemento queso ambiguo.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.ommaluberon.com/en/restaurant",
+   "editorialUrl": "https://guide.michelin.com/en/provence-alpes-cote-dazur/roussillon/restaurant/omma",
+   "sourceUrls": [
+    "https://www.ommaluberon.com/en/_files/ugd/b0344e_33ba7bdecc5f4536ae6f90fa096814fe.pdf",
+    "https://www.littleboboon.com/2025/08/omma.html",
+    "https://www.provenceguide.co.uk/restaurants/luberon/restaurant-omma/provence-755772-1.html"
+   ],
+   "statusEvidence": "Web propia y PDF enlazado leídos; páginas 1/2 inspeccionadas visualmente. Maps coincide nombre/dirección, no prueba de apertura/horario. Michelin y crónica independiente específica contrastados. Turismo usa precios 44/55-62 € y otro cierre, no prevalece sobre propia.",
+   "alert": "Web propia: comida 12-15 (pedido antes 14), cena 19-22 (pedido antes 21), cerrado jueves/viernes. Turismo dice miércoles y temporada 1 jun-1 oct: contradicción retenida. Confirmar servicio para fecha antes de ir.",
+   "compactAlert": "Propia cierra jueves/viernes; turismo discrepa. Confirmar fecha, mesa y servicio.",
+   "caution": "Sin reserva. Alérgenos, adaptación dietética, acceso sin escalones y política de cancelación/cargos no verificados. Carta con apio, lácteos, moluscos, frutos secos y cerdo; no prometer alternativa vegana ni ausencia de trazas. No conducir después de beber. Dirección propia Place de la Poste; Michelin escribe rue, Maps coincide Place.",
+   "photo": {
+    "img": "assets/provenza/avignon_fourchette-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes provenzales imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes provenzales imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local. Concepto regional compartido entre fichas, no producto específico de este local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "avignon_chiri_cooking",
+   "name": "Les Halles · clase de cocina con Jonathan Chiri",
+   "address": "18 Pl. Pie, 84000 Avignon, France",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cuisine+Centr%27Halles+Avignon&query_place_id=ChIJKwogMjXrtRIRzitCgYsF1XM",
+   "lat": 43.9476702,
+   "lon": 4.810160100000001,
+   "description": "Recorrido breve por el mercado con degustaciones, unas 2 h cocinando y comida de 3 platos preparada por los participantes. Es una experiencia de mañana y comida en Aviñón, no la demostración pública de los sábados ni clase añadida a otra jornada llena.",
+   "duration": "Compartida martes-viernes 09: 30-14: 15 según operador, unas 4 h 45 min de evento total; incluye mercado, cocina y comida.",
+   "compactDuration": "09: 30-14: 15; mercado, cocina y comida. Sustituye buena parte del día urbano.",
+   "priceLabel": "Compartida martes-viernes 120 €/persona, con comida 3 platos, vinos, agua mineral y café publicados. Grupos de 9+ 110 €/persona según operador. Fin de semana solo privada: mínimo 8 personas o coste equivalente a 8, no 120 € para una reserva individual.",
+   "compactPrice": "120 €/persona compartida martes-viernes. Fin de semana solo privada, mínimo 8 o coste equivalente.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.jonathanchiri.com/suppliers",
+   "sourceUrls": [
+    "https://www.jonathanchiri.com/"
+   ],
+   "statusEvidence": "Oferta y punto dentro de Les Halles leídos en web del operador, dirección Maps contrastada. Sesión, idioma, cancelación, restricciones dietéticas y acceso exacto pendientes. No plazas seleccionadas.",
+   "alert": "Confirmar fecha, idioma, alergias y política de cancelación antes de pagar. No hay sesión ni precio final de checkout confirmado. La demostración de 40 € es otro producto para mínimo 8, no alternativa individual garantizada.",
+   "compactAlert": "Fecha, idioma, alergias y cancelación pendientes; no hay reserva.",
+   "caution": "Fin de semana privada publicada 09: 00-14: 30, no trasladar condiciones compartidas. Clase privada entre semana mínimo 8 o coste equivalente. No conducir tras beber; pedir opción sin alcohol. No se ha certificado acceso sin escalones al puesto/cocina. La petite cuisine pública del mercado es otro evento y su calendario concreto debe comprobarse.",
+   "photo": {
+    "img": "assets/provenza/avignon_chiri_cooking-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Cocina y mercado provenzales imaginados, no sala, receta ni clase real de Jonathan Chiri. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Cocina y mercado provenzales imaginados, no sala, receta ni clase real de Jonathan Chiri. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "gordes_bories",
+   "name": "Village des Bories · arquitectura de piedra seca",
+   "address": "1570 chemin du Village des Bories, 84220 Gordes, France",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Village+des+Bories&query_place_id=ChIJU9E_JiwMyhIRCqF6WdJ-lSA",
+   "placeId": "ChIJU9E_JiwMyhIRCqF6WdJ-lSA",
+   "lat": 43.9066944,
+   "lon": 5.180122799999999,
+   "description": "Museo al aire libre de construcciones agrícolas de piedra seca, fuera del casco de Gordes. Visita libre individual, no taller de construcción ni entrada al castillo. Añade desplazamiento: sustituir parte de otra visita, no sumarlo sin tiempo a Gordes/Sénanque.",
+   "compactDescription": "Piedra seca fuera de Gordes. Visita individual sin reserva; sustituye otra parada, no es un taller.",
+   "duration": "45-60 min de visita como estimación editorial, sin desplazamientos. Bus/camper aparcan en D 2, 1, 7 km / unos 20 min a pie según propia.",
+   "compactDuration": "45-60 min estimados, más desplazamiento.",
+   "priceLabel": "Propia: adulto 8 €, estudiante 4 €, 12-17 años 4 €, menores de 12 gratis; discapacidad/PMR con tarjeta gratis. No precio confirmado para 2027. Parking coche en sitio según propia, gratuito según turismo, distinto de los parkings del pueblo.",
+   "compactPrice": "8 € adulto; estudiante/12-17 años 4 €; menor de 12 gratis. Parking coche gratuito según turismo.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.levillagedesbories.com/informations-pratiques.php",
+   "sourceUrls": [
+    "https://www.destinationluberon.com/decouvrir/les-incontournables/village-des-bories"
+   ],
+   "statusEvidence": "Web propia y turismo oficial leídos. Maps coincide nombre/dirección. Horarios propios y turismo 2026 difieren en primavera, junio y noviembre; se conserva la discrepancia. No hay reserva.",
+   "alert": "Propia cierra 01/01 y 25/12, última entrada 30 min antes. Publica 26/10-15/11 9-17: 30 y 16/11-31/12 10-17; turismo 2026 cambia a 9-17 desde 04/11, luego 10-17 en diciembre. Confirmar horario para fecha; no extrapolar calendario 2027.",
+   "compactAlert": "Horario por fecha: propia y turismo discrepan, especialmente noviembre. Cerrado 01/01 y 25/12.",
+   "caution": "Turismo indica acceso en silla con ayuda, no accesibilidad autónoma certificada; propia deja pregunta cochecito sin respuesta. Suelo irregular. Grupos 10+7 €/adulto, reserva deseable. Naveta gratuita solo grupos, con reserva en ayuntamiento 15 días antes, no sábados tarde/domingos/festivos. No es transporte público individual. Política de devolución y visita guiada no verificadas.",
+   "photo": {
+    "img": "assets/provenza/gordes_bories-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Village des Bories, arquitectura de piedra seca. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Village des Bories, arquitectura de piedra seca. No es una foto real ni una reproducción exacta de edificios, ruinas, caminos o acceso actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  }
+ ]
+}

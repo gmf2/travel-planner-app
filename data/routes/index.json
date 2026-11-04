@@ -1,0 +1,681 @@
+{
+ "schemaVersion": 1,
+ "id": "ASIA",
+ "name": "Asia",
+ "reviewedAt": "2026-11-03",
+ "scope": "Rutas de primera visita por país, revisadas una a una; avisos oficiales sin itinerario cuando el viaje está desaconsejado.",
+ "countries": [
+  {
+   "code": "KZ",
+   "name": "Kazajstán",
+   "region": "Asia central",
+   "status": "preview",
+   "path": "data/routes/kz.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Kazajstán",
+    "Kazakhstan"
+   ]
+  },
+  {
+   "code": "KG",
+   "name": "Kirguistán",
+   "region": "Asia central",
+   "status": "preview",
+   "path": "data/routes/kg.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Kirguistán",
+    "Kirguizistán",
+    "Kyrgyzstan"
+   ]
+  },
+  {
+   "code": "TJ",
+   "name": "Tayikistán",
+   "region": "Asia central",
+   "status": "preview",
+   "path": "data/routes/tj.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Tayikistán",
+    "Tajikistan"
+   ]
+  },
+  {
+   "code": "TM",
+   "name": "Turkmenistán",
+   "region": "Asia central",
+   "status": "preview",
+   "path": "data/routes/tm.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Turkmenistán",
+    "Turkmenistan"
+   ]
+  },
+  {
+   "code": "UZ",
+   "name": "Uzbekistán",
+   "region": "Asia central",
+   "status": "preview",
+   "path": "data/routes/uz.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Uzbekistán",
+    "Uzbekistan"
+   ]
+  },
+  {
+   "code": "CN",
+   "name": "China",
+   "region": "Asia oriental",
+   "status": "preview",
+   "path": "data/routes/cn.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "China"
+   ]
+  },
+  {
+   "code": "HK",
+   "name": "Hong Kong",
+   "region": "Asia oriental",
+   "status": "preview",
+   "path": "data/routes/hk.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Hong Kong"
+   ]
+  },
+  {
+   "code": "MO",
+   "name": "Macao",
+   "region": "Asia oriental",
+   "status": "preview",
+   "path": "data/routes/mo.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Macao",
+    "Macau"
+   ]
+  },
+  {
+   "code": "KP",
+   "name": "Corea del Norte",
+   "region": "Asia oriental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "MAEC desaconseja el viaje a todo el país. Revisión2nov2026; última actualización oficial6may2026. No se ofrece una ruta como recomendación de viaje.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=corea-del-norte",
+   "aliases": [
+    "Corea del Norte",
+    "North Korea"
+   ]
+  },
+  {
+   "code": "JP",
+   "name": "Japón",
+   "region": "Asia oriental",
+   "status": "preview",
+   "path": "data/routes/jp.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Japón",
+    "Japan"
+   ]
+  },
+  {
+   "code": "MN",
+   "name": "Mongolia",
+   "region": "Asia oriental",
+   "status": "preview",
+   "path": "data/routes/mn.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Mongolia"
+   ]
+  },
+  {
+   "code": "KR",
+   "name": "Corea del Sur",
+   "region": "Asia oriental",
+   "status": "preview",
+   "path": "data/routes/kr.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Corea del Sur",
+    "South Korea"
+   ]
+  },
+  {
+   "code": "BN",
+   "name": "Brunéi",
+   "region": "Asia sudoriental",
+   "status": "preview",
+   "path": "data/routes/bn.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Brunéi",
+    "Brunei"
+   ]
+  },
+  {
+   "code": "KH",
+   "name": "Camboya",
+   "region": "Asia sudoriental",
+   "status": "preview",
+   "path": "data/routes/kh.json",
+   "stateReason": "Revisado el 2 de noviembre de 2026: Exteriores aconseja evitar la frontera con Tailandia y sus pasos terrestres por enfrentamientos y cierres. Esta ruta entra y sale por avión, sin esa frontera. Lluvias y crecidas pueden afectar Tonlé Sap y carreteras; ajusta el día de lago si no es seguro.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Camboya",
+   "aliases": [
+    "Camboya",
+    "Cambodia"
+   ]
+  },
+  {
+   "code": "ID",
+   "name": "Indonesia",
+   "region": "Asia sudoriental",
+   "status": "preview",
+   "path": "data/routes/id.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Indonesia"
+   ]
+  },
+  {
+   "code": "LA",
+   "name": "Laos",
+   "region": "Asia sudoriental",
+   "status": "preview",
+   "path": "data/routes/la.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Laos"
+   ]
+  },
+  {
+   "code": "MY",
+   "name": "Malasia",
+   "region": "Asia sudoriental",
+   "status": "preview",
+   "path": "data/routes/my.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Malasia",
+    "Malaysia"
+   ]
+  },
+  {
+   "code": "MM",
+   "name": "Myanmar",
+   "region": "Asia sudoriental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores recomienda no viajar salvo razones excepcionales y justificadas por conflictos armados e inseguridad jurídica. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 22/07/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=myanmar",
+   "aliases": [
+    "Myanmar",
+    "Birmania",
+    "Burma"
+   ]
+  },
+  {
+   "code": "PH",
+   "name": "Filipinas",
+   "region": "Asia sudoriental",
+   "status": "preview",
+   "path": "data/routes/ph.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Filipinas",
+    "Philippines"
+   ]
+  },
+  {
+   "code": "SG",
+   "name": "Singapur",
+   "region": "Asia sudoriental",
+   "status": "preview",
+   "path": "data/routes/sg.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Singapur",
+    "Singapore"
+   ]
+  },
+  {
+   "code": "TH",
+   "name": "Tailandia",
+   "region": "Asia sudoriental",
+   "status": "preview",
+   "path": "data/routes/th.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Tailandia",
+    "Thailand"
+   ]
+  },
+  {
+   "code": "TL",
+   "name": "Timor-Leste",
+   "region": "Asia sudoriental",
+   "status": "preview",
+   "path": "data/routes/tl.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Timor-Leste",
+    "Timor Oriental",
+    "East Timor"
+   ]
+  },
+  {
+   "code": "VN",
+   "name": "Vietnam",
+   "region": "Asia sudoriental",
+   "status": "preview",
+   "path": "data/routes/vn.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Vietnam",
+    "Viet Nam"
+   ]
+  },
+  {
+   "code": "AF",
+   "name": "Afganistán",
+   "region": "Asia meridional",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores recomienda no viajar bajo ninguna circunstancia. Elevado riesgo de secuestro y atentado en todo el país. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 24/04/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=afganistan",
+   "aliases": [
+    "Afganistán",
+    "Afghanistan"
+   ]
+  },
+  {
+   "code": "BD",
+   "name": "Bangladesh",
+   "region": "Asia meridional",
+   "status": "preview",
+   "path": "data/routes/bd.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Bangladesh",
+    "Bangladés"
+   ]
+  },
+  {
+   "code": "BT",
+   "name": "Bután",
+   "region": "Asia meridional",
+   "status": "preview",
+   "path": "data/routes/bt.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Bután",
+    "Bhutan"
+   ]
+  },
+  {
+   "code": "IN",
+   "name": "India",
+   "region": "Asia meridional",
+   "status": "preview",
+   "path": "data/routes/in.json",
+   "stateReason": "Revisado el 2 de noviembre de 2026: Exteriores aconseja precaución y evitar determinadas zonas, especialmente la frontera con Pakistán y Jammu y Cachemira. Este circuito no incluye esas zonas ni cruces terrestres. Lee el aviso antes de decidir fechas y ruta.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=india",
+   "aliases": [
+    "India"
+   ]
+  },
+  {
+   "code": "IR",
+   "name": "Irán",
+   "region": "Asia meridional",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores desaconseja completamente viajar por el conflicto regional. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 13/04/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=iran",
+   "aliases": [
+    "Irán",
+    "Iran"
+   ]
+  },
+  {
+   "code": "MV",
+   "name": "Maldivas",
+   "region": "Asia meridional",
+   "status": "preview",
+   "path": "data/routes/mv.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Maldivas",
+    "Maldives"
+   ]
+  },
+  {
+   "code": "NP",
+   "name": "Nepal",
+   "region": "Asia meridional",
+   "status": "preview",
+   "path": "data/routes/np.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Nepal"
+   ]
+  },
+  {
+   "code": "PK",
+   "name": "Pakistán",
+   "region": "Asia meridional",
+   "status": "preview",
+   "path": "data/routes/pk.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Pakistán",
+    "Pakistan"
+   ]
+  },
+  {
+   "code": "LK",
+   "name": "Sri Lanka",
+   "region": "Asia meridional",
+   "status": "preview",
+   "path": "data/routes/lk.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Sri Lanka"
+   ]
+  },
+  {
+   "code": "AM",
+   "name": "Armenia",
+   "region": "Asia occidental",
+   "status": "preview",
+   "path": "data/routes/am.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Armenia"
+   ]
+  },
+  {
+   "code": "AZ",
+   "name": "Azerbaiyán",
+   "region": "Asia occidental",
+   "status": "preview",
+   "path": "data/routes/az.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Azerbaiyán",
+    "Azerbaijan"
+   ]
+  },
+  {
+   "code": "BH",
+   "name": "Bahrein",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores aconseja aplazar el viaje aBaréin hasta nuevo aviso por el conflicto regional. Sin itinerario recomendado mientras siga el aviso. Consultado el2 de noviembre de2026; actualizado el10 de junio de2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=bahrein",
+   "aliases": [
+    "Bahrein",
+    "Bahréin",
+    "Bahrain"
+   ]
+  },
+  {
+   "code": "CY",
+   "name": "Chipre",
+   "region": "Asia occidental",
+   "status": "preview",
+   "path": "data/routes/cy.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Chipre",
+    "Cyprus"
+   ]
+  },
+  {
+   "code": "GE",
+   "name": "Georgia",
+   "region": "Asia occidental",
+   "status": "preview",
+   "path": "data/routes/ge.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Georgia"
+   ]
+  },
+  {
+   "code": "IQ",
+   "name": "Iraq",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores desaconseja viajar por el conflicto regional. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 05/03/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=irak",
+   "aliases": [
+    "Iraq",
+    "Irak"
+   ]
+  },
+  {
+   "code": "IL",
+   "name": "Israel",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores desaconseja completamente viajar por el conflicto regional. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 01/04/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=israel",
+   "aliases": [
+    "Israel"
+   ]
+  },
+  {
+   "code": "JO",
+   "name": "Jordania",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores aconseja aplazar el viaje hasta nuevo aviso por el conflicto regional. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 31/03/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=jordania",
+   "aliases": [
+    "Jordania",
+    "Jordan"
+   ]
+  },
+  {
+   "code": "KW",
+   "name": "Kuwait",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores aconseja aplazar el viaje aKuwait hasta nuevo aviso por el conflicto regional. Sin itinerario recomendado mientras siga el aviso. Consultado el2 de noviembre de2026; actualizado el10 de junio de2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=kuwait",
+   "aliases": [
+    "Kuwait"
+   ]
+  },
+  {
+   "code": "LB",
+   "name": "Líbano",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores desaconseja viajar y recomienda a los españoles en el país abandonarlo en condiciones de seguridad. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 31/03/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=libano",
+   "aliases": [
+    "Líbano",
+    "Lebanon"
+   ]
+  },
+  {
+   "code": "OM",
+   "name": "Omán",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores aconseja aplazar el viaje hasta nuevo aviso, salvo necesidad, por el conflicto regional. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 10/06/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=oman",
+   "aliases": [
+    "Omán",
+    "Oman"
+   ]
+  },
+  {
+   "code": "QA",
+   "name": "Qatar",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores aconseja aplazar el viaje hasta nuevo aviso, salvo necesidad, por el conflicto regional. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 10/06/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=catar",
+   "aliases": [
+    "Qatar",
+    "Catar"
+   ]
+  },
+  {
+   "code": "SA",
+   "name": "Arabia Saudita",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores aconseja aplazar el viaje hasta nuevo aviso, salvo necesidad, por el conflicto regional. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 10/06/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=arabia+saudi",
+   "aliases": [
+    "Arabia Saudita",
+    "Arabia Saudí",
+    "Saudi Arabia"
+   ]
+  },
+  {
+   "code": "PS",
+   "name": "Palestina",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores desaconseja completamente viajar a Palestina, incluido Jerusalén Este, Cisjordania y Gaza, por el conflicto regional. Sin ruta turística recomendada. Accesos pueden interrumpirse sin aviso. Consultado el 3 de noviembre de 2026; aviso actualizado el 31 de marzo de 2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Palestina",
+   "aliases": [
+    "Palestina",
+    "Palestine"
+   ]
+  },
+  {
+   "code": "SY",
+   "name": "Siria",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores desaconseja viajar salvo extrema necesidad. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 23/04/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=siria",
+   "aliases": [
+    "Siria",
+    "Syria"
+   ]
+  },
+  {
+   "code": "TR",
+   "name": "Turquía",
+   "region": "Asia occidental",
+   "status": "preview",
+   "path": "data/routes/tr.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Turquía",
+    "Turkey",
+    "Türkiye"
+   ]
+  },
+  {
+   "code": "AE",
+   "name": "Emiratos Árabes Unidos",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores aconseja aplazar el viaje hasta nuevo aviso, salvo necesidad, por el conflicto regional. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 15/07/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=emiratos+arabes+unidos",
+   "aliases": [
+    "Emiratos Árabes Unidos",
+    "Emiratos",
+    "United Arab Emirates",
+    "EAU"
+   ]
+  },
+  {
+   "code": "YE",
+   "name": "Yemen",
+   "region": "Asia occidental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores desaconseja viajar bajo cualquier circunstancia, incluida Socotra. Sin itinerario recomendado mientras se mantenga este aviso. Consultado el 2 de noviembre de 2026; aviso actualizado el 05/02/2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=yemen",
+   "aliases": [
+    "Yemen"
+   ]
+  },
+  {
+   "code": "TW",
+   "name": "Taiwán",
+   "region": "Asia oriental",
+   "status": "preview",
+   "path": "data/routes/tw.json",
+   "stateReason": null,
+   "advisoryUrl": null,
+   "aliases": [
+    "Taiwán",
+    "Taiwan"
+   ]
+  },
+  {
+   "code": "RU-AS",
+   "name": "Rusia asiática",
+   "region": "Destino transcontinental",
+   "status": "not_recommended",
+   "path": null,
+   "stateReason": "Exteriores recomienda valorar no viajar a la Federación de Rusia y, a españoles que estén allí, valorar salida temporal. No se programa un itinerario turístico de Rusia asiática mientras se mantenga este contexto. No equivale a que solo la frontera ucraniana esté afectada: también conexiones y pagos tienen limitaciones. Consultado el 3 de noviembre de 2026; aviso actualizado el 8 de junio de 2026.",
+   "advisoryUrl": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Rusia",
+   "aliases": [
+    "Rusia asiática",
+    "Siberia",
+    "Asian Russia"
+   ]
+  }
+ ]
+}

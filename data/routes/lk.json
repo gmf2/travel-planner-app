@@ -1,0 +1,252 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "LK",
+ "country": "Sri Lanka",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Centro y sur: Negombo, Sigiriya, Polonnaruwa, Kandy, Ella, Mirissa y Galle. No cubre norte, costa este, Yala ni toda la isla.",
+ "verificationLimits": [
+  "Adaptación editorial de 10 a 12 días para separar llegada, regreso desde costa y salida. No es oferta de viaje ni reserva.",
+  "Tren directo Kandy-Ella retirado: no está verificado como operativo. Railways publica reaperturas parciales y prensa reciente recoge suspensión en otros tramos; no asumir reapertura futura.",
+  "El mal tiempo reciente afecta también carreteras. Esta ruta no certifica acceso actual: elegir fecha y contrastar alertas de inundación/desprendimiento, carretera y servicios antes de viajar."
+ ],
+ "routes": [
+  {
+   "id": "lk-centro-sur-12",
+   "title": "Triángulo Cultural, Ella y costa sur · 12 días",
+   "scope": "Centro y sur: Negombo, Sigiriya, Polonnaruwa, Kandy, Ella, Mirissa y Galle. No cubre norte, costa este, Yala ni toda la isla.",
+   "pace": "12 días / 11 noches: Negombo 1, Sigiriya 3, Kandy 1, Ella 2, Mirissa 3, Negombo 1. Visitas y días de carretera separados.",
+   "assumptions": "Adaptación de SoloNomads con conductor local y regreso previo a CMB; sin tren directo supuesto, safari, ballenas ni actividades acuáticas contratadas. Costa sur para fechas de clima adecuado, no recomendación idéntica todo el año. Documentación según pasaporte y fecha, no inferir nacionalidad.",
+   "sources": [
+    {
+     "id": "ref",
+     "title": "SoloNomads · circuito de 10 días, base editorial",
+     "url": "https://solonomads.com/guides/sri-lanka/itinerary-10-days"
+    },
+    {
+     "id": "road",
+     "title": "Oura Travel · etapas por carretera, fuente comercial",
+     "url": "https://ouratravel.com/sri-lanka-itinerary-10-days/"
+    },
+    {
+     "id": "tourism",
+     "title": "Sri Lanka Tourism · patrimonio cultural",
+     "url": "https://srilanka.travel/cultural_heritage"
+    },
+    {
+     "id": "rail",
+     "title": "Sri Lanka Railways · avisos oficiales",
+     "url": "https://www.railway.gov.lk/web/"
+    },
+    {
+     "id": "news",
+     "title": "Hiru · suspensión ferroviaria desde 25 octubre de 2026",
+     "url": "https://hirunews.lk/en/496220/railways-department-suspends-all-train-services-between-rambukkana-peradeniya-and-gampola-until-further-notice"
+    },
+    {
+     "id": "weather",
+     "title": "Newswire · informe meteorológico y transportes, 26 octubre de 2026",
+     "url": "https://www.newswire.lk/2026/10/26/severe-weather-leaves-one-dead-and-over-10000-affected-across-12-districts/"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Sri Lanka",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Sri+Lanka"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Negombo",
+     "overnight": "Negombo",
+     "stops": [
+      "Traslado desde CMB y descanso"
+     ],
+     "transfer": "Aeropuerto de Bandaranaike a Negombo, sin recorrido largo al Triángulo Cultural al salir del vuelo. Elegir conductor y alojamiento según llegada. No confundir CMB con un hotel en centro de Colombo.",
+     "sourceIds": [
+      "ref",
+      "maec"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Negombo a Sigiriya",
+     "overnight": "Sigiriya",
+     "stops": [
+      "Traslado al Triángulo Cultural",
+      "Tarde tranquila"
+     ],
+     "transfer": "Conductor local de día. La referencia de Oura estima 3,5-4 h / 145 km desde aeropuerto hacia Sigiriya; no misma cifra exacta desde cada hotel en Negombo. Confirmar carretera y sumar paradas, sin subida al peñón obligatoria tras el traslado.",
+     "sourceIds": [
+      "ref",
+      "road",
+      "weather"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Sigiriya y Dambulla",
+     "overnight": "Sigiriya",
+     "stops": [
+      "Sigiriya temprano si acceso y condiciones permiten",
+      "Dambulla como alternativa o segunda visita según energía"
+     ],
+     "transfer": "Misma base con traslados locales. Elegir según calor, movilidad y avisos de avispones; no añadir Pidurangala, escaleras y dos peñones como un único paseo fácil. Entradas no incluidas.",
+     "sourceIds": [
+      "ref",
+      "tourism",
+      "maec"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Polonnaruwa desde Sigiriya",
+     "overnight": "Sigiriya",
+     "stops": [
+      "Conjunto arqueológico de Polonnaruwa",
+      "Selección de ruinas con guía local"
+     ],
+     "transfer": "Excursión de ida y vuelta, misma base. Elegir transporte con calor y condiciones; bici opcional, no universal ni obligatoria. No añadir traslado a Kandy este día.",
+     "sourceIds": [
+      "ref",
+      "tourism"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Sigiriya a Kandy",
+     "overnight": "Kandy",
+     "stops": [
+      "Traslado regional",
+      "Templo del Diente si horario y afluencia permiten"
+     ],
+     "transfer": "Referencia Oura: corredor Sigiriya-Kandy unos 90 km / 2,5-3 h, orientativo. Ajustar al hotel y tráfico. Respetar ropa y culto; no prometer acceso a ceremonia ni reliquia visible.",
+     "sourceIds": [
+      "ref",
+      "road",
+      "tourism",
+      "maec"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Kandy a Ella",
+     "overnight": "Ella",
+     "stops": [
+      "Jornada de traslado al país del té",
+      "Descanso al llegar"
+     ],
+     "transfer": "Por carretera con conductor y condiciones confirmadas, Oura orienta 135 km / 4-5 h. No tren directo Kandy-Ella: línea dañada y tramos suspendidos. Nanu Oya-Ella puede ser opción solo si Railways confirma servicio y plaza para fecha, con acceso por carretera separado. Reapertura parcial no significa toda la línea operativa.",
+     "sourceIds": [
+      "ref",
+      "road",
+      "rail",
+      "news",
+      "weather"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Ella con calma",
+     "overnight": "Ella",
+     "stops": [
+      "Little Adam’s Peak solo con guía/terreno/forma física adecuados",
+      "Mirador de Nine Arches desde lugar permitido, sin caminar por las vías"
+     ],
+     "transfer": "Misma base. Elegir una caminata, no Ella Rock + Little Adam’s Peak + varias cascadas. Con lluvia o deslizamientos, sustituir por descanso o visita local segura según autoridades; no prometer ruta peatonal abierta.",
+     "sourceIds": [
+      "ref",
+      "maec",
+      "weather"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Ella a Mirissa",
+     "overnight": "Mirissa",
+     "stops": [
+      "Traslado al sur",
+      "Descanso, sin safari ni barco al llegar"
+     ],
+     "transfer": "Conductor local de día por corredor de la referencia SoloNomads. Duración y carretera exacta se eligen con operador según fecha; no reutilizar suma de dos trayectos de Oura como horario garantizado. No se añade noche Yala ni observación de leopardos.",
+     "sourceIds": [
+      "ref",
+      "road",
+      "weather",
+      "maec"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Costa sur tranquila",
+     "overnight": "Mirissa",
+     "stops": [
+      "Paseo costero y descanso",
+      "Actividad local opcional sin compra incluida"
+     ],
+     "transfer": "Misma base. Estado del mar y alertas mandan; no garantizar baño, surf ni avistamiento de ballenas. Entre abril y noviembre Exteriores pide especial precaución por oleaje.",
+     "sourceIds": [
+      "ref",
+      "maec"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "Galle desde la costa",
+     "overnight": "Mirissa",
+     "stops": [
+      "Calles y murallas de Galle Fort",
+      "Regreso a la misma base"
+     ],
+     "transfer": "Excursión de ida y vuelta con transporte y márgenes elegidos. No varios pueblos costeros, tortugueros y salida de ballenas acumulados. Evitar tramos expuestos de muralla con lluvia u oleaje.",
+     "sourceIds": [
+      "ref",
+      "tourism",
+      "maec"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "Mirissa a Negombo",
+     "overnight": "Negombo",
+     "stops": [
+      "Regreso hacia zona del aeropuerto",
+      "Descanso y margen de salida"
+     ],
+     "transfer": "Traslado por carretera de día, duración según operador y condiciones. Noche añadida cerca de CMB para no depender del largo regreso desde costa el mismo día del vuelo. No vender la reapertura de un tren como alternativa disponible.",
+     "sourceIds": [
+      "ref",
+      "maec",
+      "weather"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Salida desde CMB",
+     "overnight": null,
+     "stops": [
+      "Traslado al aeropuerto"
+     ],
+     "transfer": "Antelación según vuelo y tráfico desde hotel real. Noche previa en Negombo, sin larga etapa de montaña o costa.",
+     "sourceIds": [
+      "ref",
+      "maec"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores advierte ciclones y monzones, inundaciones y desprendimientos que pueden alterar transportes, sobre todo en montaña. Revisar condiciones actuales con autoridades y operador, no solo una estación ideal. Respetar zonas sin desminar, evitar aglomeraciones y seguir avisos de avispones en Sigiriya. Costa con corrientes y oleaje, especial precaución abril-noviembre; playa no garantiza baño seguro. Permanecer dentro del vagón si se elige un tren. Seguro médico y protección contra dengue.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Sri+Lanka"
+ },
+ "photo": {
+  "img": "assets/routes/lk.jpg",
+  "name": "Roca de Sigiriya desde sus jardines",
+  "source": "https://commons.wikimedia.org/wiki/File:Sigiriya.jpg",
+  "author": "Bernard Gagnon",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "caption": "Foto de archivo de 2006. No confirma acceso actual a la subida, ausencia de avispones ni condiciones meteorológicas."
+ }
+}

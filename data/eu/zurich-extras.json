@@ -1,0 +1,125 @@
+{
+ "schemaVersion": 1,
+ "cityId": "zurich",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "zeug",
+   "name": "Zeughauskeller",
+   "address": "Bahnhofstrasse 28A, 8001 Zürich, Switzerland",
+   "description": "Comida suiza contundente en salón histórico: carnes, salchichas y especialidades como Geschnetzeltes. Ambiente de cervecería animada, no cena silenciosa.",
+   "strength": "AFAR distingue la sala del antiguo arsenal y cocina tradicional frente a una parada turística sin identidad. Encaja en el paseo de casco/Paradeplatz; formato diferente del buffet vegetariano Hiltl.",
+   "caution": "Restaurante diario 11:30-23; cocina caliente 11:30-22, no hasta las 23. PDF propio creado el 29/08/2026: Kalbsbratwurst con ensalada de patata 20 CHF; ternera a la zuriquesa con una guarnición 36,50 CHF; agua mineral 0,5 l 6 CHF. Referencias de carta publicada, no cotización para otra fecha: confirmar carta aplicable y extras. Carne, nata, vino y otros alérgenos según plato; consultar necesidades. Nada reservado. Foto de Paradeplatz con edificio al fondo, no interior ni plato.",
+   "officialUrl": "https://www.zeughauskeller.ch/en/menu",
+   "editorialUrl": "https://www.afar.com/travel-tips/zurichs-classic-restaurants",
+   "sourceUrls": [
+    "https://www.zeughauskeller.ch/en/contact-opening-hours",
+    "https://www.zeughauskeller.ch/files/cpdf/C90720A8-D8F5-C604-A378AAFBC2E9402A.pdf"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zeughauskeller&query_place_id=ChIJX7fB6wAKkEcRhpTedk8sztg",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Identidad/dirección en Maps; horario propio contrastado, no apertura futura ni mesa garantizadas. Revisión nocturna cerrada no significa cierre permanente. PDF propio6páginas29/08/2026 recuperado y leído, precios y cocina contrastados. No demostrada vinculación del PDF con selector de carta actual.",
+   "priceLabel": "Referencia PDF 29/08/2026: salchicha+agua 26 CHF o ternera+agua 42,50 CHF; sin postre/extras.",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_-_Paradeplatz_-_Zeughauskeller_-_Bleicherweg_2010-08-09_15-49-00.JPG",
+    "author": "Roland zh",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "img": "assets/zurich/zeug.jpg",
+    "caption": "Vista de Paradeplatz con Zeughauskeller al fondo desde Bleicherweg, archivo 2010. No muestra sala ni plato."
+   },
+   "alert": "Diario 11:30-23 según web propia; confirmar mesa y coste para fecha.",
+   "compactPrice": "26 CHF salchicha+agua; 42,50 CHF ternera+agua, referencia publicada.",
+   "compactAlert": "Cocina 11:30-22; local hasta23. Confirmar carta y mesa.",
+   "photoPending": false
+  },
+  {
+   "id": "hiltl",
+   "name": "Haus Hiltl · Sihlstrasse",
+   "address": "Sihlstrasse 28, 8001 Zürich, Switzerland",
+   "description": "Cocina vegetariana internacional: buffet al peso o carta, con curries, ensaladas y platos calientes. Esta ficha es la sede de Sihlstrasse 28, no la terraza ni Sihlpost.",
+   "strength": "Lonely Planet destaca curries indios/tailandeses y verduras mediterráneas, con posibilidad de elegir buffet informal o carta sentada. Opción sin carne con identidad propia, sin inferir que el usuario sea vegetariano.",
+   "caution": "Propio actual: carta lunes-miércoles 11-22, jueves-sábado 11-23, domingo 10-22; buffet disponible hasta 30 min antes del cierre. Bistro tiene apertura matinal distinta. Carta publicada mayo de 2026 indica buffet 5,90 CHF/100g, no tarifa plana barata: peso sube total, bebidas aparte. No todo es vegano ni seguro para alergias: propio advierte trazas. Menú/platos y precio para fecha por confirmar.",
+   "officialUrl": "https://hiltl.ch/en/locations/overview/haus-hiltl/",
+   "editorialUrl": "https://www.lonelyplanet.com/switzerland/zurich/restaurants/haus-hiltl/a/poi-eat/1501068/360831",
+   "sourceUrls": [
+    "https://hiltl.ch/app/uploads/2026/05/Menukarte_Mai_EN.pdf"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Haus+Hiltl&query_place_id=ChIJtwgunwYKkEcRhBQ0vi_9kHo",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Maps confirma sede/dirección; horario y formato leídos en web propia. No reserva ni disponibilidad confirmadas.",
+   "priceLabel": "Referencia carta mayo de 2026: buffet 5,90 CHF/100g, bebidas aparte; confirmar fecha.",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Hiltl_Z%C3%BCrich.jpg",
+    "author": "Adrian Michael",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "img": "assets/zurich/hiltl.jpg",
+    "caption": "Exterior real de Haus Hiltl, archivo. No buffet de Sihlpost ni plato actual."
+   },
+   "alert": "Buffet al peso, no precio fijo. Cierra 30 min antes que el restaurante; no todo es vegano.",
+   "photoPending": false
+  }
+ ],
+ "activities": [
+  {
+   "id": "opera-tour",
+   "name": "Visita guiada de la Ópera de Zúrich",
+   "address": "Falkenstrasse 1, 8001 Zürich, Switzerland",
+   "description": "Recorrido entre escenario y espacios de trabajo según ensayos. Se elige en lugar de otra visita cultural, no incluido al pasar por la fachada.",
+   "duration": "60 min publicados, más llegada. No se permite salir antes del final.",
+   "alert": "Entrada previa y plazas limitadas. Alemán/inglés según calendario; movilidad reducida requiere consulta específica.",
+   "caution": "Propio publica 15 CHF para tour general; otros tours técnicos/maquillaje/talleres tienen condiciones y precios distintos. Fechas exactas en calendario, no cualquier sábado/domingo garantizado. Escaleras y caminatas largas, no siempre asiento; menores y acceso consultar operador. Punto de encuentro foyer taquilla/Bernhard Theater. No reserva hecha.",
+   "officialUrl": "https://www.opernhaus.ch/en/backstage/guided-tours/",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Z%C3%BCrich+Opera+House&query_place_id=ChIJ542tZFOnmkcRlnhxVTC0SlE",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Condiciones operador y localización Maps contrastadas; sin sesión ni entrada confirmadas.",
+   "priceLabel": "15 CHF publicados para visita general; confirmar oferta y fecha.",
+   "photo": {
+    "img": "assets/zurich/opera.jpg",
+    "alt": "Opernhaus Zürich - Sechseläutenplatz 2013-08-31 18-30-40.JPG",
+    "author": "Roland zh",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Opernhaus_Z%C3%BCrich_-_Sechsel%C3%A4utenplatz_2013-08-31_18-30-40.JPG",
+    "caption": "Foto de archivo de Ópera de Zúrich. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "compactDuration": "60 min + llegada",
+   "compactAlert": "No se permite salir antes. Alemán/inglés; movilidad reducida consultar.",
+   "photoPending": false
+  },
+  {
+   "id": "uetliberg",
+   "name": "Mirador de Uetliberg",
+   "description": "Alternativa de media jornada para subir en tren y caminar al mirador, con vistas según tiempo. No añadido después de todos los museos.",
+   "duration": "3-4 h con traslado y paseo, estimación editorial.",
+   "alert": "HB-Selnau cortado hasta el 12 de diciembre de 2026. Enlace S10 desde Selnau, acceso final cuesta arriba. Con nieve/hielo o mal tiempo cambiar de plan.",
+   "caution": "SZU: tramo Zürich HB-Selnau cerrado hasta el 12 de diciembre de 2026 inclusive por retraso de obras; reapertura prevista el 13 de diciembre. Durante corte: paseo señalizado HB-Selnau 12 min o tranvía 3/14 a Stauffacher+paseo 6 min hasta Selnau para enlazar S10. Confirmar conexión por fecha en ZVV y reservar más tiempo. No salida directa desde HB garantizada por horario general de línea. Acceso final cuesta arriba, nieve/hielo/mal tiempo pueden desaconsejarlo. No vistas despejadas ni torre incluida. Billetes y zonas del viaje por confirmar en ZVV para fecha. Torre de pago o sendero largo no incluidos.",
+   "officialUrl": "https://www.szu.ch/en/hb/passengers-s10/",
+   "sourceUrls": [
+    "https://www.fahrplaninfo.zvv.ch/frame_linie3.php?lang=de&sel_gk=60644&sel_linie=%7C52S10%7CS10"
+   ],
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Aviso de obras del operador prevalece sobre horario de línea. No billete ni salida elegidos.",
+   "priceLabel": "Transporte de pago según zonas/billete; total por verificar.",
+   "photo": {
+    "img": "assets/zurich/uetliberg.jpg",
+    "alt": "Uetliberg NW.jpg",
+    "author": "Tschubby",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Uetliberg_NW.jpg",
+    "caption": "Foto de archivo de Mirador Uetliberg. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "compactDuration": "3-4 h + traslado",
+   "compactAlert": "S10 desde Selnau hasta 12 dic 2026. Subida final; con hielo cambiar plan.",
+   "photoPending": false
+  }
+ ]
+}

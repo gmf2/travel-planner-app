@@ -1,0 +1,550 @@
+{
+ "schemaVersion": 1,
+ "country": "ES",
+ "id": "sansebastian",
+ "name": "San Sebastián",
+ "localName": "Donostia",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "concha",
+   "name": "Playa de La Concha y paseo",
+   "kind": "visit",
+   "zone": "La Concha",
+   "reason": "La bahía en forma de concha: paseo de barandilla blanca desde el ayuntamiento hasta Ondarreta.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 43.3152,
+    "lon": -1.9915
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Playa_de_La_Concha_(San_Sebasti%C3%A1n)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Playa y paseo libres",
+   "photo": {
+    "img": "assets/sansebastian/concha.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:La_Concha_beach_-_San_Sebastian_-_Basque_country_-_Spain_-_panoramio.jpg",
+    "author": "diego_cue",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fileTitle": "File:La Concha beach - San Sebastian - Basque country - Spain - panoramio.jpg",
+    "candFile": "concha-cand1"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "peine",
+   "name": "Peine del Viento",
+   "kind": "visit",
+   "zone": "Ondarreta",
+   "reason": "Las esculturas de Chillida golpeadas por el mar al final del paseo de La Concha.",
+   "sourceIds": [
+    "pv"
+   ],
+   "coordinates": {
+    "lat": 43.3217746,
+    "lon": -2.0056701
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Peine_del_viento",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "La policía puede cerrar el acceso con mala mar. Respetar barreras y señales; no acercarse a las olas para hacer fotos.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior libre; olas con temporal",
+   "photo": {
+    "img": "assets/sansebastian/peine.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Peine_del_viento_de_Eduardo_Chillida.jpg",
+    "author": "Phillip Maiwald (Nikopol)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fileTitle": "File:Peine del viento de Eduardo Chillida.jpg",
+    "candFile": "peine-cand0"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "igueldo",
+   "name": "Monte Igueldo",
+   "kind": "visit",
+   "zone": "Igueldo",
+   "reason": "Funicular centenario y mirador sobre la bahía, con parque de atracciones antiguo.",
+   "sourceIds": [
+    "ig"
+   ],
+   "coordinates": {
+    "lat": 43.3207,
+    "lon": -2.0093
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Monte_Igueldo",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Elegir fecha en el calendario del operador para funicular y recinto. Las atracciones no están incluidas en la visita al mirador y pueden cerrar con lluvia. El funicular no está adaptado para sillas de ruedas.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Funicular de pago; mirador incluido",
+   "photo": {
+    "img": "assets/sansebastian/igueldo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Sebasti%C3%A1n_desde_el_monte_Igueldo_-_panoramio.jpg",
+    "author": "edu1975",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "fileTitle": "File:San Sebastián desde el monte Igueldo - panoramio.jpg",
+    "candFile": "igueldo-cand2"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "urgull",
+   "name": "Monte Urgull y Castillo de la Mota",
+   "kind": "visit",
+   "zone": "Urgull / Parte Vieja",
+   "reason": "Subida desde la Parte Vieja al castillo y el Sagrado Corazón: vistas de la bahía por el otro lado.",
+   "sourceIds": [
+    "ur"
+   ],
+   "coordinates": {
+    "lat": 43.3247222,
+    "lon": -1.9888889
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Monte_Urgull",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Acceso al monte 08:00-21:00 mayo-septiembre; 08:00-19:30 octubre-abril, según turismo oficial. La foto nocturna es de archivo, no una recomendación de subir de noche.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Parque libre; subida con pendiente",
+   "photo": {
+    "img": "assets/sansebastian/urgull.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Sebastian_at_night_from_Monte_Urgull.jpg",
+    "author": "Phillip Maiwald (Nikopol)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fileTitle": "File:San Sebastian at night from Monte Urgull.jpg",
+    "candFile": "urgull-cand0"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "partevieja",
+   "name": "Parte Vieja y puerto",
+   "kind": "visit",
+   "zone": "Parte Vieja",
+   "reason": "Calles de pintxos, la plaza de la Constitución y el puerto pesquero al pie del Urgull.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 43.323333,
+    "lon": -1.985
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Parte_Vieja",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Barrio de paseo",
+   "photo": {
+    "img": "assets/sansebastian/partevieja.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Detalle_del_portal_de_la_Bas%C3%ADlica_de_Santa_Mar%C3%ADa_del_Coro-Koruko_Andre_Mariaren_basilika._San_Sebastian-Donostia,_Guipuzcoa-Gipuzkoa._(2).JPG",
+    "author": "Roberto Chamoso G",
+    "license": "CC BY-SA 3.0 es",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/deed.en",
+    "fileTitle": "File:Detalle del portal de la Basílica de Santa María del Coro-Koruko Andre Mariaren basilika. San Sebastian-Donostia, Guipuzcoa-Gipuzkoa. (2).JPG",
+    "candFile": "partevieja-cand1",
+    "caption": "Detalle de la basílica de Santa María del Coro, en la Parte Vieja. Foto representativa del barrio, no del puerto."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "consti",
+   "name": "Plaza de la Constitución",
+   "kind": "visit",
+   "zone": "Parte Vieja",
+   "reason": "La plaza porticada que fue plaza de toros: centro social de la Parte Vieja.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 43.323613,
+    "lon": -1.9848917
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Plaza_de_la_Constituci%C3%B3n_(San_Sebasti%C3%A1n)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Plaza pública",
+   "photo": {
+    "img": "assets/sansebastian/consti.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Plaza_de_la_Constituci%C3%B3n._San_Sebasti%C3%A1n.jpg",
+    "author": "José Luis Filpo Cabana",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "fileTitle": "File:Plaza de la Constitución. San Sebastián.jpg",
+    "candFile": "consti-cand0"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "miramar",
+   "name": "Palacio de Miramar y jardines",
+   "kind": "visit",
+   "zone": "Centro",
+   "reason": "Jardines de Miramar en la bahía. El centro romántico no forma parte de esta parada.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 43.3148082,
+    "lon": -1.9985238
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Palacio_de_Miramar_(San_Sebasti%C3%A1n)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 35,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Jardines libres; interior sólo en eventos",
+   "photo": {
+    "img": "assets/sansebastian/miramar.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Donostia_palacio_Miramar_2.JPG",
+    "author": "O. Morand",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fileTitle": "File:Donostia palacio Miramar 2.JPG",
+    "candFile": "miramar-cand1"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "buenpastor",
+   "name": "Catedral del Buen Pastor",
+   "kind": "visit",
+   "zone": "Centro",
+   "reason": "La catedral neogótica de 1897, con la aguja más alta de Gipuzkoa; eje del Ensanche decimonónico.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 43.3167,
+    "lon": -1.98156
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Catedral_del_Buen_Pastor_(San_Sebasti%C3%A1n)",
+   "coordinateMethod": "wikipedia-api (Q2942904, identidad verificada)",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior e interior libres cuando está abierta al culto; sin afirmar horarios",
+   "photo": {
+    "img": "assets/sansebastian/buenpastor.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Catedral_del_Buen_Pastor_(San_Sebasti%C3%A1n)._%C3%81bside.jpg",
+    "author": "José Luis Filpo Cabana",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "fileTitle": "File:Catedral del Buen Pastor (San Sebastián). Ábside.jpg",
+    "candFile": "buenpastor-cand0"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "zurriola",
+   "name": "Playa de la Zurriola y Gros",
+   "kind": "visit",
+   "zone": "Gros",
+   "reason": "La playa del surf y el ambiente joven del barrio de Gros, con el Kursaal al final del paseo.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 43.3264,
+    "lon": -1.975
+   },
+   "coordinateSource": "https://www.wikidata.org/wiki/Q2111043",
+   "coordinateMethod": "wikidata-entity (identidad verificada: playa de la Zurriola)",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Playa y paseo libres",
+   "photo": {
+    "img": "assets/sansebastian/zurriola.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Donostia_Zurriola_Ulia_menditik.JPG",
+    "author": "No machine-readable author provided. Josugoni assumed (based on copyright claims).",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "fileTitle": "File:Donostia Zurriola Ulia menditik.JPG",
+    "candFile": "zurriola-cand0"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "hondarribia",
+   "name": "Hondarribia · casco amurallado y marina",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 43.3624372,
+    "lon": -1.7914777
+   },
+   "zone": "Fuera de San Sebastián",
+   "suggestedMinutes": 300,
+   "reason": "La frontera con Francia: casco de colores, barrio marinero y vistas a Hendaya.",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "Excursión alternativa de jornada, no añadida después de Igueldo y Gros. Confirmar vuelta en el operador; no hay billete comprado.",
+   "sourceIds": [
+    "e21",
+    "airport"
+   ],
+   "photo": {
+    "img": "assets/sansebastian/hondarribia.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Calle_Mayor_Iglesia.jpg",
+    "author": "User: (WT-shared) Baztantxuri at  wts wikivoyage",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "fileTitle": "File:Calle Mayor Iglesia.jpg",
+    "candFile": "hondarribia-cand1"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "getaria",
+   "name": "Getaria · puerto y txakoli",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 43.3044559,
+    "lon": -2.2037374
+   },
+   "zone": "Fuera de San Sebastián",
+   "suggestedMinutes": 300,
+   "reason": "Villa marinera de Elcano con bodegas de txakoli alrededor.",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "Paseo de casco y puerto. Bodega solo si eliges y reservas una visita aparte; no se incluye ni se garantiza disponibilidad.",
+   "sourceIds": [
+    "uk",
+    "ot"
+   ],
+   "photo": {
+    "img": "assets/sansebastian/getaria.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Getaria_Gipuzkoa_2003_07_20.JPG",
+    "author": "Josu Goñi Etxabe",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "fileTitle": "File:Getaria Gipuzkoa 2003 07 20.JPG",
+    "candFile": "getaria-cand1"
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Bahía completa: Concha y Peine",
+     "zone": "La Concha → Miramar → Ondarreta → Peine",
+     "stopIds": [
+      "concha",
+      "miramar",
+      "peine"
+     ],
+     "editorialNote": "Paseo costero por La Concha y jardines de Miramar hasta el Peine del Viento, sin ida y vuelta innecesaria. Recortar el tramo expuesto si hay temporal.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "4-5 h a pie con comida y pausas, estimación editorial."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Bahía completa: Concha y Peine",
+     "zone": "La Concha → Miramar → Ondarreta → Peine",
+     "stopIds": [
+      "concha",
+      "miramar",
+      "peine"
+     ],
+     "editorialNote": "Paseo costero por La Concha y jardines de Miramar hasta el Peine del Viento, sin ida y vuelta innecesaria. Recortar el tramo expuesto si hay temporal.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "4-5 h, estimación editorial."
+    },
+    {
+     "title": "Parte Vieja y Urgull",
+     "zone": "Puerto → Parte Vieja → Urgull",
+     "stopIds": [
+      "partevieja",
+      "consti",
+      "urgull"
+     ],
+     "editorialNote": "Mañana de Parte Vieja y subida al Urgull para ver la bahía desde el otro monte. Pintxos al bajar. Un solo desnivel en el día.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "4-5 h con comida y subida, estimación editorial."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Bahía completa: Concha y Peine",
+     "zone": "La Concha → Miramar → Ondarreta → Peine",
+     "stopIds": [
+      "concha",
+      "miramar",
+      "peine"
+     ],
+     "editorialNote": "Paseo costero por La Concha y jardines de Miramar hasta el Peine del Viento, sin ida y vuelta innecesaria. Recortar el tramo expuesto si hay temporal.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "4-5 h, estimación editorial."
+    },
+    {
+     "title": "Parte Vieja y Urgull",
+     "zone": "Puerto → Parte Vieja → Urgull",
+     "stopIds": [
+      "partevieja",
+      "consti",
+      "urgull"
+     ],
+     "editorialNote": "Parte Vieja y subida al Urgull.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "4-5 h, estimación editorial."
+    },
+    {
+     "title": "Igueldo por la mañana; Buen Pastor y Gros por la tarde",
+     "zone": "Igueldo → Centro → Gros → Zurriola",
+     "stopIds": [
+      "igueldo",
+      "buenpastor",
+      "zurriola"
+     ],
+     "editorialNote": "Igueldo con horario elegido por la mañana. Después traslado al centro y paseo de Buen Pastor a Gros/Zurriola. Hondarribia o Getaria sustituyen una jornada, no se añaden esa misma tarde.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h con funicular, caminata y comida, estimación editorial."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "El funicular de Igueldo tiene horario estacional según el operador (monteigueldo.es): comprobar el día de subida.",
+  "Con alerta de marejada, acotar el Peine del Viento y el paseo nuevo.",
+  "Ninguna entrada, mesa o billete está reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "wp",
+   "title": "Wikipedia: San Sebastián y artículos de cada lugar",
+   "url": "https://es.wikipedia.org/wiki/San_Sebasti%C3%A1n",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ot",
+   "title": "Turismo oficial: San Sebastián Turismoa",
+   "url": "https://www.sansebastianturismoa.eus/es/",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en San Sebastián",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-en-san-sebastian/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "mm",
+   "title": "Viajeros Callejeros: San Sebastián en un día",
+   "url": "https://www.viajeroscallejeros.com/san-sebastian-en-un-dia/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ig",
+   "title": "Monte Igueldo · organiza tu visita",
+   "url": "https://www.monteigueldo.es/organiza-tu-visita",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "ur",
+   "title": "Turismo Donostia · Urgull y horarios",
+   "url": "https://sansebastianturismoa.eus/hacer/montes/monte-urgull/",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "pv",
+   "title": "Turismo Donostia · Peine del Viento y cierres por mar",
+   "url": "https://sansebastianturismoa.eus/hacer/esculturas-al-aire-libre/peine-del-viento/",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "e21",
+   "title": "Ekialdebus · E21 Donostia-Hondarribia",
+   "url": "https://ekialdebus.eus/es/linea-e21-hondarribia-donostia-verano/",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "airport",
+   "title": "Ekialdebus · retirada de parada aeropuerto desde junio 2026",
+   "url": "https://ekialdebus.eus/es/hondarribia-suprimida-parada-aeropuerto-01-junio-2026/",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "uk",
+   "title": "Lurraldebus · UK09 horario oficial",
+   "url": "https://lurraldebus.eus/lineas/view_full_lineas_pdf/UK09/1",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

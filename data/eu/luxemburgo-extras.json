@@ -1,0 +1,109 @@
+{
+ "schemaVersion": 1,
+ "cityId": "luxemburgo",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "um-dierfgen",
+   "name": "Um Dierfgen · cocina luxemburguesa en Ville-Haute",
+   "address": "6, Côte d’Eich, L-1450 Luxembourg",
+   "description": "Una comida de cocina local en el casco: Kniddelen, Wäinzoossis o Judd mat Gaardebounen en la carta publicada.",
+   "strength": "KACHEN recomienda en concreto la Feierstengszalot con patatas salteadas. Más acorde al paseo del casco que desplazarse al Bambësch solo para comer.",
+   "alert": "Carta publica Kniddelen 18,50 €, Wäinzoossis 22 € y Judd 24,50 €; confirmar precio por conflicto entre páginas propias.",
+   "compactAlert": "Domingo y lunes solo comida según horario general. Carta con discrepancias.",
+   "caution": "La carta /la-carte y la página /plats muestran precios distintos en varios platos coincidentes. No se ha demostrado cuál sustituye a cuál. Bouneschlupp 7,50 € + Judd 24,50 € + tarta 7,50 € suman 39,50 € sin bebida, cálculo solo sobre /la-carte y no presupuesto garantizado. No usar menú del día de 5-11 octubre como oferta actual. Horario general mar-sáb 11:30-14:30 y 18-22, dom-lun 11:30-15; página de menú antiguo añade viernes/sábado continuado 12-21:30, discrepancia sin resolver. Confirmar servicio y precio final. Opciones vegetarianas publicadas, no garantía vegana ni de alérgenos.",
+   "officialUrl": "https://umdierfgen.lu/la-carte/",
+   "editorialUrl": "https://kachen.lu/en/luxembourgish-cuisine/",
+   "sourceUrls": [
+    "https://umdierfgen.lu/en/",
+    "https://umdierfgen.lu/plats/",
+    "https://umdierfgen.lu/menu-du-jour/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9-Restaurant+Um+Dierfgen&query_place_id=ChIJRbJf6CxPlUcRF8N1gBYQ8L8",
+   "status": "source-conflict",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta completa, crítica local específica y dirección coincidente. Conflictos propios de precio/horario sin resolver; sin reserva.",
+   "priceLabel": "Referencia 39,50 € sin bebida para sopa+Judd+tarta, pendiente confirmar carta aplicable.",
+   "compactPrice": "Carta y precio por confirmar; páginas propias discrepan.",
+   "photo": {
+    "img": "assets/luxemburgo/um-dierfgen-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes luxemburgueses imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes luxemburgueses imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "bock-visit",
+   "name": "Casamatas del Bock",
+   "address": "Luxemburgo ciudad",
+   "description": "Red subterránea del Bock como único bloque de casamatas del día.",
+   "strength": "Visita cultural ya presente en el catálogo; sustituye o desarrolla su bloque, no una segunda entrada.",
+   "alert": "2026:11 € adulto,9 € estudiante o sénior 60+,5,50 € niño 4-12. Menores de 4: comprobar condiciones de gratuidad y entrada en producto final.",
+   "compactAlert": "Escaleras y pasos estrechos; franja por fecha y sin entrada reservada.",
+   "caution": "Horario 2026 por temporada:julio-agosto 9:45 último 19;28 marzo-30 junio/1 septiembre-8 noviembre 9:45 último 17;9 noviembre-31 diciembre y 2 enero-27 marzo 10:45 último 14:45. Cabecera genérica 9:45-17 no vale invierno. 11 € adulto; franja 45 min máximo, 15 min retraso no garantizado. Escaleras y pasajes estrechos, necesidades especiales llamar LCTO antes de comprar. No prometer acceso PMR ni bajar sin forma física.",
+   "officialUrl": "https://www.luxembourg-city.com/en/tours-activities/underground/bock-casemates",
+   "editorialUrl": "https://www.viajandoporelmundomundial.com/que-ver-en-luxemburgo/",
+   "sourceUrls": [
+    "https://www.luxembourg-city.com/en/tours-activities/underground/bock-casemates"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Precio y calendario propios revisados, sin cupo ni reserva.",
+   "priceLabel": "2026:11 € adulto,9 € estudiante o sénior 60+,5,50 € niño 4-12. Menores de 4: comprobar condiciones de gratuidad y entrada en producto final.",
+   "photo": {
+    "img": "assets/luxemburgo/bock-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: casamatas del Bock, paisaje exterior imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en casamatas del Bock, paisaje exterior imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual. Imagen del lugar, no del producto contratado ni de salas abiertas.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true,
+   "visualScope": "Exterior o entorno del lugar; no muestra la actividad, las salas ni el producto contratado.",
+   "compactPrice": "11 € adulto en2026."
+  },
+  {
+   "id": "mudam-visit",
+   "name": "Mudam Luxembourg",
+   "address": "Luxemburgo ciudad",
+   "description": "Un museo de arte contemporáneo en Kirchberg como bloque largo del día, arquitectura y exposición elegidas.",
+   "strength": "Visita cultural ya presente en el catálogo; sustituye o desarrolla su bloque, no una segunda entrada.",
+   "alert": "10 € adulto;7 € de 21-25,65+ y grupos 15+. Gratis menores de 21, estudiantes con carné, discapacidad y acompañante según lista. Miércoles 18-21 gratis; montaje 7 €.",
+   "compactAlert": "Horario por fecha, sin entrada reservada.",
+   "caution": "Propio 10 € adulto/7 € 21-25 y sénior 65+, estudiantes válidos gratis, miércoles 18-21 gratis. 24/31 diciembre 10-15; 30 junio/25 diciembre cerrado. No copiar 8 € de guía de museos antigua. Confirmar exposición y salas antes de entrar.",
+   "officialUrl": "https://www.mudam.com/visit/plan-your-visit",
+   "editorialUrl": "https://www.viajandoporelmundomundial.com/que-ver-en-luxemburgo/",
+   "sourceUrls": [
+    "https://www.mudam.com/visit/plan-your-visit"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Precio y calendario propios revisados, sin cupo ni reserva.",
+   "priceLabel": "10 € adulto;7 € de 21-25,65+ y grupos 15+. Gratis menores de 21, estudiantes con carné, discapacidad y acompañante según lista. Miércoles 18-21 gratis; montaje 7 €.",
+   "photo": {
+    "img": "assets/luxemburgo/mudam.jpg",
+    "source": "https://www.flickr.com/photos/alexprevot/52822013339",
+    "author": "Alexandre Prevot",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Exterior de Mudam con cubierta acristalada y fortificaciones. No representa la exposición actual ni disponibilidad de acceso interior. Recorte de presentación; original conservado bajo CC BY-SA 2.0.",
+    "alt": "Exterior de Mudam con cubierta acristalada y fortificaciones. No representa la exposición actual ni disponibilidad de acceso interior."
+   },
+   "photoPending": false
+  }
+ ]
+}

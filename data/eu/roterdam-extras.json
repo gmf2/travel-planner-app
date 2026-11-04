@@ -1,0 +1,101 @@
+{
+ "schemaVersion": 1,
+ "cityId": "roterdam",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "rotonde",
+   "name": "Rotonde · verduras locales y fuego",
+   "address": "Goudsesingel 230A, 3011 KE Rotterdam, Netherlands",
+   "description": "Menú de 4, 5 o 6 pases centrado en verduras, legumbres, cereales, setas y fermentaciones. Cena dedicada con cocina abierta, no almuerzo rápido junto a Markthal.",
+   "strength": "Michelin describe apionabo lacado con miso neerlandés, encurtidos y setas a la brasa; la carta propia confirma el formato y un ejemplo cambiante. Se elige por cocina vegetal de producto local, no solo distintivos.",
+   "alert": "Menú actual 4/5/6 pases 55/61/67 €, bebidas aparte.",
+   "compactAlert": "Solo cena; cierra domingo y lunes.",
+   "caution": "Horario propio mar-jue 17-23, vie-sáb 16-00. Menú publicado como ejemplo, no platos garantizados. Maridaje vino 4/5/6 copas 34/42,50/51 €; sin alcohol 24/30/36 €. Con menú y bebida completa,89/103,50/118 € o 79/91/103 € sin alcohol, cálculo editorial antes de extras. Carta incluye quesos neerlandeses/belgas: no llamar todo vegano. Alergias requieren aviso previo y la casa advierte riesgo de contaminación cruzada. Artículo Michelin 2025 tenía precios 58/65 €, ya inferiores al actual 61/67 €. Nada reservado.",
+   "officialUrl": "https://restaurantrotonde.nl/",
+   "editorialUrl": "https://guide.michelin.com/nl/nl/zuid-holland/rotterdam/restaurant/rotonde",
+   "sourceUrls": [
+    "https://guide.michelin.com/nl/nl/article/dining-out/bib-gourmand-van-de-maand-rotonde"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant+Rotonde&query_place_id=ChIJ3VAJqGwzxEcRo58lQ8cavFg",
+   "priceLabel": "55/61/67 € por 4/5/6 pases, sin bebidas; con maridaje vino 89/103,50/118 € estimados.",
+   "compactPrice": "55/61/67 € menú; maridajes y extras aparte.",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Menú y horario propio actuales, lectura específica Michelin y dirección Maps. Sin disponibilidad ni reserva.",
+   "photo": {
+    "img": "assets/roterdam/rotonde-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Verduras imaginadas. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Verduras imaginadas. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "depot-visit",
+   "name": "Depot: una visita dedicada",
+   "address": "Museumpark",
+   "description": "Edificio de almacenamiento visitable de la colección Boijmans, con recorridos y azotea según billete. No es el museo principal, cerrado por renovación.",
+   "strength": "Es la visita del catálogo, no actividad adicional que duplique el interior.",
+   "alert": "Adulto 22,50€ (+2,50€ de suplemento durante la expo Marisol, 9-10-2026 a 29-3-2027); menores de 19 gratis; estudiantes/CJP 13€; Museumkaart 2,50€.",
+   "caution": "El museo principal Boijmans está cerrado por renovación; Depot no equivale a visita completa de museo tradicional. Operador publica martes-domingo 11-17, con azotea incluida en horario ordinario. Confirmar producto final, precio y suplemento de exposición antes de comprar. Lunes sin acceso ordinario.",
+   "officialUrl": "https://www.boijmans.nl/en/tickets",
+   "sourceUrls": [
+    "https://www.boijmans.nl/en/tickets"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Condiciones propias leídas, no sesión ni entrada reservada.",
+   "priceLabel": "Adulto 22,50€ (+2,50€ de suplemento durante la expo Marisol, 9-10-2026 a 29-3-2027); menores de 19 gratis; estudiantes/CJP 13€; Museumkaart 2,50€.",
+   "photo": {
+    "img": "assets/roterdam/depot.jpg",
+    "author": "Igor Passchier",
+    "source": "https://www.pexels.com/photo/reflective-building-with-urban-skyline-in-rotterdam-39335079/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Volumen curvo y fachada de espejos de Depot Boijmans Van Beuningen. Foto de archivo de septiembre de 2026; no muestra depósitos ni acceso a terraza.",
+    "alt": "Volumen curvo y fachada de espejos de Depot Boijmans Van Beuningen. Foto de archivo de septiembre de 2026; no muestra depósitos ni acceso a terraza.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "maritimo-visit",
+   "name": "Museo Marítimo: alternativa al Depot",
+   "address": "Leuvehaven",
+   "description": "Museo dedicado al puerto, la navegación y las actividades marítimas. Elegirlo como alternativa al Depot para no acumular dos museos largos en la misma jornada.",
+   "strength": "Es la visita del catálogo, no actividad adicional que duplique el interior.",
+   "alert": "19 € adulto, 13,50 € de 4-15 (acompañados por adulto), 11,50 € estudiantes/CJP según operador; productos y descuentos comprobar al comprar.",
+   "caution": "Museo alternativo al Depot, no segundo museo largo obligatorio. La página de visita dice barcos y grúas cerrados de noviembre hasta abril; la página específica de colección precisa del 1 noviembre al 31 marzo para barcos. Conflicto de borde de abril y alcance de grúas: comprobar fecha y exposición concreta. Muelle y talleres tienen condiciones propias.",
+   "officialUrl": "https://maritiemmuseum.nl/en/plan-your-visit",
+   "sourceUrls": [
+    "https://maritiemmuseum.nl/en/plan-your-visit"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Condiciones propias leídas, no sesión ni entrada reservada.",
+   "priceLabel": "19 € adulto, 13,50 € de 4-15 (acompañados por adulto), 11,50 € estudiantes/CJP según operador; productos y descuentos comprobar al comprar.",
+   "photo": {
+    "img": "assets/roterdam/maritimo.jpg",
+    "author": "Philippe WEICKMANN",
+    "source": "https://www.pexels.com/photo/historical-ship-in-rotterdam-harbor-with-skyline-33073264/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Stadsgraanzuiger 19 y parte del puerto del Maritiem Museum, identificados por el rótulo visible y la colección del operador. Foto de archivo de julio de 2025; no muestra salas ni garantiza que este barco esté allí o abierto al visitar.",
+    "alt": "Stadsgraanzuiger 19 en el puerto del Maritiem Museum.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false
+  }
+ ]
+}

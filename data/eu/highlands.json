@@ -1,0 +1,706 @@
+{
+ "schemaVersion": 1,
+ "country": "GB",
+ "id": "highlands",
+ "name": "Highlands",
+ "localName": "Scottish Highlands",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "inverness",
+   "name": "Inverness, la capital de las Highlands",
+   "kind": "walk",
+   "zone": "Inverness",
+   "reason": "Paseo de base por el río Ness y el centro. Inverness Castle Experience es un interior opcional de relatos y exposiciones de las Highlands, con entrada y franja propias; no es solo un mirador.",
+   "sourceIds": [
+    "vpe",
+    "wp",
+    "inv-hours",
+    "inv-prices",
+    "inv-starts"
+   ],
+   "coordinates": {
+    "lat": 57.476433,
+    "lon": -4.225644
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Inverness%20Castle%2C%20Scotland",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Paseo urbano no incluye compra ni disponibilidad de Experience. Menores5y cuidadores gratis pero requieren entrada según propio. AfternoonTea distinto: páginas propias discrepan2vs3días de antelación; no incluirlo como acceso espontáneo. Cuatro plazas accesibles de parking solo con reserva. Referencia de coche: Rose Street multi-storey (Railway Terrace, Maps 24 Rose St). Abierto 24 h, se paga siempre al salir con matrícula; plantas públicas 3-10, no G/1. Altura máxima 2,03 m. Hasta 2 h £3, 4 h £3,50, 6 h £4 y 24 h £12 publicados por Council. No es parking del hotel ni reserva/plazas confirmadas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Experience: octubre-marzo, diario 10-18, última entrada 16. Abril-septiembre, 10-19, última 17. Cerrado el 25 de diciembre.",
+    "source": "https://invernesscastle.scot/visit/opening-times"
+   },
+   "price": "Castle Experience: adulto de 16 a 65 años, 20 £ online o 22 £ en taquilla; mayores de 65, 18/20 £; niños de 5 a 15, 14/16 £. El «desde 14/16 £» de la portada corresponde a la tarifa infantil. Las categorías propias se solapan a los 65 años: confirmar. Jardines, bistró y tienda sin entrada de Experience.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/highlands/inverness.jpg",
+    "source": "https://www.pexels.com/photo/body-of-water-near-bridge-and-buildings-5013608/",
+    "author": "Sinitta Leunen",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Río Ness, puente y centro de Inverness. Foto de archivo; no muestra el interior del Castle Experience.",
+    "alt": "Río Ness, puente y centro de Inverness. Foto de archivo; no muestra el interior del Castle Experience."
+   },
+   "accessRules": {
+    "scope": "Interior Inverness Castle Experience, no paseo urbano",
+    "noticeLabel": "Inverness Castle Experience",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedDates": [
+     "2026-12-25"
+    ],
+    "notices": [
+     "Interior opcional 10-18, última entrada 16 en invierno. Adulto 20 £ online o 22 £ en taquilla; el precio desde 14 £ es infantil. Jardines, bistró y tienda no requieren entrada de Experience."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "loch_ness",
+   "name": "Loch Ness y el castillo de Urquhart",
+   "kind": "landmark",
+   "zone": "Drumnadrochit",
+   "reason": "Castillo en ruinas junto al Loch Ness, con Grant Tower y vistas del lago según acceso del día. La visita de Urquhart no incluye un crucero ni un recorrido completo del lago.",
+   "sourceIds": [
+    "vpe",
+    "wp",
+    "hes",
+    "city-sep26",
+    "city-route"
+   ],
+   "coordinates": {
+    "lat": 57.324109,
+    "lon": -4.441989
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Urquhart%20Castle%2C%20Scotland",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Si online está agotado, no hay más entradas en taquilla. Parking y atraque requieren reserva online y disponibilidad. Última entrada una hora antes. No se conserva como cierre actual un aviso de agosto sin año: la primaria actual describe acceso por escaleras a Grant Tower, pero no garantiza apertura de cada zona para una fecha futura. Tienda cerrada el 4 de noviembre según aviso, no implica castillo cerrado. Sin maletas ni mochilas grandes de 30 litros o más, sin consigna. Citylink917,tabla oficial enlazada en página viva: Inverness08:30→Urquhart09:08 y regreso15:43→Inverness16:26. Es horario publicado, no disponibilidad ni billete. La llegada precede apertura invernal09:30; prever espera. Entrada online y trayectos deben encajar antes de comprar. No usar salida13:15 como mañana completa: llega13:53 y deja poco margen antes de última entrada15:30. Festivos con cambios; columna mediodía anulada26-31dic2026y2-3ene2027. No extender vigencia más allá del periodo publicado. Coche: parking de Urquhart gratuito pero limitado; debe añadirse a entrada con fecha/hora antes del checkout. No llegar contando con plaza o entrada sin reservar. Autocaravana 4,5-6 m necesita su categoría de plaza online; no afirmar admisión de vehículos mayores. Desde Rose Street referencia sin fecha/tráfico: ida unos 30 min / 27,9 km y vuelta 31 min / 28,1 km. Bajada empinada al castillo y escaleras para torre/sectores: no certificar ruta íntegra sin barreras.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abril-agosto 9:30-20:15; septiembre hasta 18; octubre hasta 17; noviembre-marzo hasta 16:30. Última entrada una hora antes. Día 24 de diciembre hasta 16; 1 de enero desde 11. Cerrado 25 y 26 de diciembre. Consultar incidencias de la fecha.",
+    "source": "https://www.historicenvironment.scot/visit/all/urquhart-castle/plan-your-visit/"
+   },
+   "price": "Urquhart: online 14 £ adulto de 16-64, 11 £ mayores de 65 y 7 £ de 7-15. En persona 16/13/8 £. Discapacidad paga tarifa correspondiente; hasta dos cuidadores gratis por transacción. Parking gratuito pero limitado, se reserva online al comprar. No todas las orillas del lago tienen estas condiciones.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/highlands/loch_ness.jpg",
+    "source": "https://www.pexels.com/photo/medieval-stone-tower-on-mountain-near-lake-in-scotland-5662222/",
+    "author": "Mathias Reding",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Torre y ruinas de Urquhart junto al Loch Ness. Foto de archivo, no acredita acceso a cada parte del castillo.",
+    "alt": "Torre y ruinas de Urquhart junto al Loch Ness. Foto de archivo, no acredita acceso a cada parte del castillo."
+   },
+   "accessRules": {
+    "scope": "Urquhart: última entrada una hora antes; parking con reserva.",
+    "closedMonthDays": [
+     "12-25",
+     "12-26"
+    ],
+    "verifiedThrough": "2026-12-31",
+    "noticeLabel": "Loch Ness y el castillo de Urquhart"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "culloden",
+   "name": "Culloden: campo de batalla y centro de visitantes",
+   "kind": "museum",
+   "zone": "Culloden",
+   "reason": "Lugar de memoria de la batalla del 16 de abril de 1746. Centro de visitantes con exposición y campo de batalla con memoriales; son accesos distintos. Recorrerlos con respeto y margen, no como parada fotográfica rápida.",
+   "sourceIds": [
+    "mse",
+    "wp",
+    "nts",
+    "cull-planning",
+    "stage-1b",
+    "bus-1b-secondary"
+   ],
+   "coordinates": {
+    "lat": 57.477154,
+    "lon": -4.092571
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Culloden%20Battlefield%20Visitor%20Centre%2C%20Scotland",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Centro y campo de batalla son accesos distintos. NTS recomienda unas2h para museo y campo,3-4h para visita larga. Stagecoach propio indica1B desde Queensgate lunes-sábado,aprox25min; su misma página conserva texto viejo de castillo en obras, por lo que el horario exacto debe contrastarse en planificador. Bustimes publica vuelta desde Battlefield hasta15:44: referencia secundaria, no servicio confirmado para tu fecha. No asumir domingo ni caminar a Clava por carretera como enlace seguro. Coche: parking del centro £5 para no socios NTS, abierto a diario 08:00-18:00; plazas limitadas en punta. No confundir coste del parking con entrada del centro. Desde Rose Street referencia Maps sin fecha/tráfico: ida 15 min / 10,9 km y vuelta 16 min / 11,2 km. Campo y centro no tienen el mismo horario.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Del 2 de noviembre de 2026 al 28 de febrero de 2027: centro y tienda, diario 9-16, última entrada 15:30. Café 9-15:30. Campo de batalla a diario, separado del centro.",
+    "source": "https://www.nts.org.uk/visit/places/culloden/planning-your-visit"
+   },
+   "price": "Página actual: adulto 12,50 £; reducida 11 £; niño 8 £; familia 33 £; familia de un adulto 26 £; Young Scot 1 £. Parking 5 £. Composición y edades de las familias por confirmar antes de recomendar billete.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/highlands/culloden.jpg",
+    "source": "https://www.geograph.org.uk/photo/5346318",
+    "author": "David Dixon",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Paisaje del campo de batalla de Culloden. Foto de archivo de 2017; no muestra el centro de visitantes. Original sin recorte; adaptación de tamaño en pantalla.",
+    "alt": "Paisaje del campo de batalla de Culloden. Foto de archivo de 2017; no muestra el centro de visitantes."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Parking de Culloden, no horario de todo el campo",
+    "noticeLabel": "Parking y centro de Culloden",
+    "verifiedFrom": "2026-11-03",
+    "notices": [
+     "Parking £5 para no socios NTS, abierto 08:00-18:00. Centro y campo tienen horarios separados."
+    ]
+   }
+  },
+  {
+   "id": "clava",
+   "name": "Clava Cairns, tumbas y círculos de piedra",
+   "kind": "landmark",
+   "zone": "Culloden",
+   "reason": "Cementerio de la Edad del Bronce con túmulos y círculos de piedra, construido hace unos 4.000 años. HES recoge su asociación entre visitantes con el círculo ficticio de Outlander, no una inspiración demostrada.",
+   "sourceIds": [
+    "mse",
+    "wp",
+    "clava-plan",
+    "clava-history",
+    "clava-outlander"
+   ],
+   "coordinates": {
+    "lat": 57.473063,
+    "lon": -4.073688
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Balnuaran%20of%20Clava%2C%20Scotland",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Puede sustituir tiempo libre tras Culloden si llevas coche y aún hay luz. Maps sin fecha/tráfico entre centro Culloden y punto de Clava:2,2 km / unos 5 min; regreso a Rose Street:13 km / unos 19 min. No incluye aparcar, visita ni trayecto a pie; no convertirlo en conexión peatonal segura. HES confirma acceso señalizado desde B9091 y restricción de 17 toneladas, con parking de coche/autocar pero sin tarifa/plaza garantizadas. Acceso monumento gratuito y abierto todo el año no implica carretera segura en hielo o noche.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abierto todo el año según HES; revisar avisos antes de ir.",
+    "source": "https://www.historicenvironment.scot/visit/all/clava-cairns/plan-your-visit/"
+   },
+   "price": "Acceso gratuito según Historic Environment Scotland.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/highlands/clava.jpg",
+    "source": "https://www.geograph.org.uk/photo/976022",
+    "author": "ronnie leask",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Clava Cairns: túmulo y piedras de su entorno. Foto de archivo de 2008. Imagen original sin recorte; adaptación de tamaño en pantalla.",
+    "alt": "Clava Cairns: túmulo y piedras de su entorno. Foto de archivo de 2008. Imagen original sin recorte; adaptación de tamaño en pantalla."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "glencoe",
+   "name": "Glen Coe, valle y paisaje de montaña",
+   "kind": "viewpoint",
+   "zone": "Glencoe",
+   "reason": "Paisaje de valle y montañas en la reserva natural de Glencoe. El centro de visitantes del NTS y los recorridos a pie son opciones distintas: elegir según tiempo, condiciones y accesos.",
+   "sourceIds": [
+    "vpe",
+    "wp",
+    "nts2"
+   ],
+   "coordinates": {
+    "lat": 56.649428,
+    "lon": -4.956169
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Glencoe%20National%20Nature%20Reserve%2C%20Scotland",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 240,
+   "durationType": "editorial-estimate",
+   "caution": "No día de ida y vuelta desde Inverness habilitado sin ruta y luz comprobadas. Requiere etapa del oeste o cambio de base. Senderos de montaña no quedan validados por el horario del centro. No detenerse en arcenes ni entrar en fincas para fotos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Instantánea del 3 de noviembre de 2026: centro, tienda, turf house y café 9:30-16. Reserva natural a diario; eso no garantiza cada sendero seguro o transitable.",
+    "source": "https://www.nts.org.uk/visit/places/glencoe"
+   },
+   "price": "NTS confirma entrada gratuita y parking 4 £ en la página actual, no solo aproximación de guía.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/highlands/glencoe.jpg",
+    "source": "https://www.pexels.com/photo/scenic-view-of-glencoe-valley-in-scotland-38333045/",
+    "author": "Stuart Robinson",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Valle de Glencoe entre montañas. No representa un itinerario concreto ni verifica condiciones para caminar.",
+    "alt": "Valle de Glencoe entre montañas. No representa un itinerario concreto ni verifica condiciones para caminar."
+   },
+   "planningStatus": "requires-separate-stage-not-selectable",
+   "photoPending": false
+  },
+  {
+   "id": "eilean_donan",
+   "name": "Eilean Donan, el castillo de los tres lochs",
+   "kind": "landmark",
+   "zone": "Dornie",
+   "reason": "La imagen icónica de Escocia: el castillo del clan MacRae en su islote donde se unen tres lochs marinos, en la carretera hacia Skye.",
+   "sourceIds": [
+    "vpe",
+    "wp",
+    "eilean"
+   ],
+   "coordinates": {
+    "lat": 57.274096,
+    "lon": -5.515916
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Eilean%20Donan%20Castle%2C%20Scotland",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Entradas solo en taquilla el mismo día, no sistema online de compra anticipada. Grandes bolsas y mochilas no entran; lockers gratuitos junto al centro. Cierres publicados de noviembre y diciembre pertenecen al bloque de 2026; enero cerrado y 14 febrero de 2027 señalados por operador. No repetir estos días todos los años.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Del 25 de octubre al 22 de diciembre de 2026: 10-16, última admisión 15. Cierres publicados: 1, 7, 8 y 15 de noviembre; 4 de diciembre; enero completo y 14 de febrero de 2027. Consultar calendario para cualquier otra fecha.",
+    "source": "https://www.eileandonancastle.com/visit/opening-hours/"
+   },
+   "price": "2026: adulto 13 £, mayores de 60 12 £; familia de dos adultos y tres niños 5-15: 38 £. Página dice niño mayor de 5: 6,50 £ y menor de 5 gratis, por lo que edad exacta de 5 requiere aclaración. No se inventa frontera.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/highlands/eilean_donan.jpg",
+    "source": "https://www.pexels.com/photo/eilean-donan-castle-at-loch-duich-in-scotland-34987593/",
+    "author": "Rino Adamo",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Castillo de Eilean Donan y puente sobre el agua. La foto exterior no confirma apertura ni entrada al recinto.",
+    "alt": "Castillo de Eilean Donan y puente sobre el agua. La foto exterior no confirma apertura ni entrada al recinto."
+   },
+   "planningStatus": "requires-separate-stage-not-selectable",
+   "accessRules": {
+    "scope": "Interior de Eilean Donan; venta solo en taquilla.",
+    "closedDates": [
+     "2026-11-01",
+     "2026-11-07",
+     "2026-11-08",
+     "2026-11-15",
+     "2026-12-04",
+     "2027-02-14"
+    ],
+    "closedRanges": [
+     {
+      "start": "2027-01-01",
+      "end": "2027-01-31",
+      "label": "castillo durante enero"
+     }
+    ],
+    "verifiedThrough": "2027-02-14",
+    "noticeLabel": "Eilean Donan"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "skye",
+   "name": "Isla de Skye: Storr, Quiraing y Portree",
+   "kind": "excursion",
+   "zone": "Skye (Trotternish)",
+   "reason": "Candidata a etapa separada en Skye, con base y transporte por elegir. Storr, Quiraing y Portree son opciones que deben repartirse según días y condiciones, no una sola parada.",
+   "sourceIds": [
+    "vpe",
+    "wp",
+    "storr-parking1126",
+    "storr-walk1126",
+    "storr-old1126",
+    "fairy-oats1126",
+    "fairy-walk1126",
+    "storr-out1128",
+    "storr-back1128"
+   ],
+   "coordinates": {
+    "lat": 57.507291,
+    "lon": -6.183322
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=The%20Storr%2C%20Scotland",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 600,
+   "durationType": "editorial-estimate",
+   "caution": "Etapa separada pendiente de base y ruta, no excursión corta desde Inverness. Storr sin reserva de parking, no pernocta ni aparcar en arcenes; confirmar cartelería: directorio municipal antiguo aún dice 5/7 £. Fairy Pools no se añade a Trotternish: está en otro sector, carretera estrecha, barro/hielo y crecidas posibles; no saltar ni se propone baño. Parking OATS máximo 8 m, sin caravanas remolcadas. Guía local indica camino no apto para silla. Bus Storr 57A/57C citado por operador, horario de ida y regreso para fecha aún no validado. Referencia desde parking Bayfield/Portree a Storr: ida 11,6 km / unos 20 min y vuelta 11,4 km / unos 19 min, Maps sin fecha/tráfico ni búsqueda de plaza. Fairy Pools: ida 37,5 km / unos 53 min y regreso 33,1 km / unos 41 min por ruta distinta, pero Maps marca tramos de uso restringido al final: acceso de vehículo sin resolver, no se valida esa ruta. No usar estos tiempos como enlace desde Inverness.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Storr: reservar al menos 2 h de subida y bajada según operador, terreno empinado y expuesto. Fairy Pools: ida y vuelta de 2,4 km al primer salto según guía local, 40-90 min según ritmo y paradas, no circuito de 8 km de Walkhighlands. Hacer senderos con luz y tiempo adecuado; parking no garantiza acceso seguro.",
+    "source": "https://thestorr.com/plan-your-visit/"
+   },
+   "price": "Storr: parking coche hasta 6 h 6 £ / hasta 12 h 8 £ según web propia actual. Fairy Pools, opción distinta al suroeste: parking coche 8 £ según OATS, moto 4 £, camper 10 £. No son una tarifa de toda Skye; Quiraing/Portree aún pendientes.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/highlands/skye.jpg",
+    "source": "https://www.pexels.com/photo/scenic-view-of-quiraing-on-the-isle-of-skye-32981972/",
+    "author": "Petra Nesti",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Quiraing, en la península de Trotternish de Skye. No muestra Storr, Portree ni un acceso verificado al sendero.",
+    "alt": "Quiraing, en la península de Trotternish de Skye. No muestra Storr, Portree ni un acceso verificado al sendero."
+   },
+   "planningStatus": "requires-separate-stage-not-selectable",
+   "photoPending": false
+  },
+  {
+   "id": "jacobite",
+   "name": "Fort William y el tren Jacobite (Harry Potter)",
+   "kind": "excursion",
+   "zone": "Glenfinnan / Fort William",
+   "reason": "Candidata a etapa desde Fort William para el tren Jacobite o una visita al viaducto de Glenfinnan. Viajar en el tren y observarlo desde un mirador son planes distintos, con accesos y horarios propios.",
+   "sourceIds": [
+    "vpe",
+    "wp",
+    "jacobite"
+   ],
+   "coordinates": {
+    "lat": 56.875834,
+    "lon": -5.429183
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Glenfinnan%20Viaduct%2C%20Scotland",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 480,
+   "durationType": "editorial-estimate",
+   "caution": "No servicio elegible como excursión actual. Candidato de etapa con base Fort William cuando se publiquen fecha y precio. Un posible asiento en venta ese día, en efectivo, no garantiza disponibilidad. Operador puede sustituir vapor por diésel en determinadas condiciones.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Operador muestra temporada 2027, fechas y tarifas pendientes. No inferir calendario por fotos de vapor ni horarios de años anteriores.",
+    "source": "https://www.westcoastrailways.co.uk/jacobite"
+   },
+   "price": "Temporada de 2027: precios y fechas aún por publicar en la página consultada. Nada reservado.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/highlands/jacobite.jpg",
+    "source": "https://www.pexels.com/photo/steam-train-crossing-glenfinnan-viaduct-in-highlands-39618579/",
+    "author": "Oliver Wagenblatt",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Tren de vapor sobre el viaducto de Glenfinnan. Foto de archivo: no confirma fechas, plazas ni tracción de un servicio futuro.",
+    "alt": "Tren de vapor sobre el viaducto de Glenfinnan. Foto de archivo: no confirma fechas, plazas ni tracción de un servicio futuro."
+   },
+   "planningStatus": "requires-separate-stage-not-selectable",
+   "accessRules": {
+    "scope": "Tren Jacobite",
+    "noticeLabel": "Tren Jacobite",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Calendario y tarifas de 2027 pendientes de publicación. No es excursión reservable confirmada ni vapor garantizado."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "cairngorms",
+   "name": "Cairngorms, una etapa de montaña por preparar",
+   "kind": "excursion",
+   "zone": "Aviemore / Cairn Gorm",
+   "reason": "Región de montaña con distintas bases y actividades. Aviemore y el entorno de Cairn Gorm requieren elegir un recorrido concreto: la foto de paisaje no implica acceso, funicular ni avistamiento de renos.",
+   "sourceIds": [
+    "vpe",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 57.116769,
+    "lon": -3.644486
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Cairn%20Gorm%2C%20Scotland",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 360,
+   "durationType": "editorial-estimate",
+   "caution": "Región extensa, sin un punto único ni un funicular implícitamente operativo. Acceso, remontes, reglas de salida a montaña y transporte pendientes antes de hacerla seleccionable.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Precios y condiciones de cada actividad o remonte pendientes de comprobar.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/highlands/cairngorms.jpg",
+    "source": "https://www.pexels.com/photo/scenic-winter-aerial-view-of-cairngorms-national-park-29733942/",
+    "author": "Dan Butler",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Paisaje nevado de las montañas de Cairngorms. No muestra renos, funicular operativo ni una ruta de acceso segura.",
+    "alt": "Paisaje nevado de las montañas de Cairngorms. No muestra renos, funicular operativo ni una ruta de acceso segura."
+   },
+   "planningStatus": "requires-separate-stage-not-selectable",
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Inverness: paseo y Castle Experience opcional",
+     "stopIds": [
+      "inverness"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Paseo de base por el río y el centro. Castle Experience es un interior opcional con entrada y franja propias: invierno 10-18, última entrada 16, cerrado el 25 de diciembre. Nada comprado ni disponible por defecto. El resto del tiempo queda libre, no es una jornada llena de visitas.",
+     "pacing": "Día urbano a pie. Si llegas en coche: referencia Rose Street 24 h, altura máxima 2,03 m y plantas públicas 3-10. Hasta 2 h £3 / 4 h £3,50 / 6 h £4 publicados; no es parking del hotel y no hay plaza reservada. Dejar tiempo libre para comida y paseo, no sumar etapas lejanas."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Inverness: paseo y Castle Experience opcional",
+     "stopIds": [
+      "inverness"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Paseo de base por el río y el centro. Castle Experience es un interior opcional con entrada y franja propias: invierno 10-18, última entrada 16, cerrado el 25 de diciembre. Nada comprado ni disponible por defecto. El resto del tiempo queda libre, no es una jornada llena de visitas.",
+     "pacing": "Día urbano a pie. Si llegas en coche: referencia Rose Street 24 h, altura máxima 2,03 m y plantas públicas 3-10. Hasta 2 h £3 / 4 h £3,50 / 6 h £4 publicados; no es parking del hotel y no hay plaza reservada. Dejar tiempo libre para comida y paseo, no sumar etapas lejanas."
+    },
+    {
+     "title": "Culloden con traslado de ida y vuelta",
+     "stopIds": [
+      "culloden"
+     ],
+     "optionalStopIds": [
+      "clava"
+     ],
+     "editorialNote": "Desde Inverness, centro y campo de batalla: unas 2 h recomendadas por NTS, más viaje. Coche desde Rose Street: ida 15 min / 10,9 km y vuelta 16 min / 11,2 km como referencia Maps sin fecha ni tráfico. Línea 1B desde Queensgate según Stagecoach: horario y regreso para tu fecha pendientes. Clava sigue opcional, no incluido por usar el bus: sin enlace peatonal o público seguro verificado.",
+     "pacing": "Unos 31 min de conducción ida/vuelta como referencia, más aparcar y acceso a pie. Parking Culloden £5 no socios NTS, abierto 08:00-18:00 y limitado en punta; entrada del centro aparte. Salida de medio día, resto libre. No equivale a disponibilidad ni a tiempo desde tu hotel. Alternativa con Clava opcional en coche: Culloden-Clava 2,2 km / unos 5 min y Clava-Rose Street 13 km / unos 19 min, estimación Maps sin fecha/tráfico, más visita editorial 45 min y parking. Sustituye tiempo libre, no añade Fort William/Skye. HES: acceso gratis/todo el año, carretera con límite 17 t; tarifa/plazas de parking y seguridad del acceso para fecha no verificadas."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Inverness: paseo y Castle Experience opcional",
+     "stopIds": [
+      "inverness"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Paseo de base por el río y el centro. Castle Experience es un interior opcional con entrada y franja propias: invierno 10-18, última entrada 16, cerrado el 25 de diciembre. Nada comprado ni disponible por defecto. El resto del tiempo queda libre, no es una jornada llena de visitas.",
+     "pacing": "Día urbano a pie. Si llegas en coche: referencia Rose Street 24 h, altura máxima 2,03 m y plantas públicas 3-10. Hasta 2 h £3 / 4 h £3,50 / 6 h £4 publicados; no es parking del hotel y no hay plaza reservada. Dejar tiempo libre para comida y paseo, no sumar etapas lejanas."
+    },
+    {
+     "title": "Culloden con traslado de ida y vuelta",
+     "stopIds": [
+      "culloden"
+     ],
+     "optionalStopIds": [
+      "clava"
+     ],
+     "editorialNote": "Desde Inverness, centro y campo de batalla: unas 2 h recomendadas por NTS, más viaje. Coche desde Rose Street: ida 15 min / 10,9 km y vuelta 16 min / 11,2 km como referencia Maps sin fecha ni tráfico. Línea 1B desde Queensgate según Stagecoach: horario y regreso para tu fecha pendientes. Clava sigue opcional, no incluido por usar el bus: sin enlace peatonal o público seguro verificado.",
+     "pacing": "Unos 31 min de conducción ida/vuelta como referencia, más aparcar y acceso a pie. Parking Culloden £5 no socios NTS, abierto 08:00-18:00 y limitado en punta; entrada del centro aparte. Salida de medio día, resto libre. No equivale a disponibilidad ni a tiempo desde tu hotel. Alternativa con Clava opcional en coche: Culloden-Clava 2,2 km / unos 5 min y Clava-Rose Street 13 km / unos 19 min, estimación Maps sin fecha/tráfico, más visita editorial 45 min y parking. Sustituye tiempo libre, no añade Fort William/Skye. HES: acceso gratis/todo el año, carretera con límite 17 t; tarifa/plazas de parking y seguridad del acceso para fecha no verificadas."
+    },
+    {
+     "title": "Urquhart: castillo junto al Loch Ness",
+     "stopIds": [
+      "loch_ness"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Tabla oficial 917: salida 08:30 de Inverness, llegada 09:08 a Urquhart. Regreso 15:43, llegada 16:26 a Inverness. Se llega antes de la apertura de las 09:30: prever espera. Encajar entrada de castillo y trayectos antes de comprar; nada reservado. No dar la vuelta completa al lago ni sumar Glen Coe o Skye. Alternativa coche desde Rose Street: ida unos 30 min / 27,9 km y vuelta 31 min / 28,1 km como referencia Maps sin fecha/tráfico.",
+     "pacing": "Unos 1 h 01 min de conducción ida/vuelta más visita y accesos. Urquhart: parking gratuito pero hay que añadir plaza a la entrada con fecha/hora antes del checkout, con capacidad limitada. Bajada empinada al castillo y escaleras para torre/sectores. Reservas, tráfico y parking del hotel pendientes. El horario de bus citado es una tabla publicada, no disponibilidad de billete."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Urquhart: si se agota online, no quedan entradas en taquilla. Parking gratuito requiere reserva y cupo.",
+  "Culloden y Glen Coe: horarios de hoy son instantáneas; Glen Coe sí confirma parking 4 £ en primaria.",
+  "Eilean Donan: compra solo presencial; cierres específicos de 2026/2027, no regla anual perpetua.",
+  "Jacobite: fechas y tarifas de 2027 pendientes, no excursión ejecutable.",
+  "Etapas lejanas fuera del selector desde Inverness. Transporte por fecha y revisión del usuario pendientes."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vpe",
+   "title": "Viajar por Escocia: Guía de las Highlands",
+   "url": "https://viajarporescocia.com/guia-de-escocia/highlands/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mse",
+   "title": "Más Edimburgo: Ruta de 3 días por las Highlands",
+   "url": "https://masedimburgo.com/ruta-coche-highlands-escocia-3-dias/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Tierras Altas de Escocia",
+   "url": "https://es.wikipedia.org/wiki/Tierras_Altas_de_Escocia",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hes",
+   "title": "Historic Environment Scotland: Urquhart Castle, plan your visit",
+   "url": "https://www.historicenvironment.scot/visit/all/urquhart-castle/plan-your-visit/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "nts",
+   "title": "National Trust for Scotland: Culloden",
+   "url": "https://www.nts.org.uk/visit/places/culloden",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "eilean",
+   "title": "Eilean Donan Castle: Opening Hours & Admission 2026",
+   "url": "https://www.eileandonancastle.com/visit/opening-hours/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "jacobite",
+   "title": "West Coast Railways: The Jacobite",
+   "url": "https://www.westcoastrailways.co.uk/jacobite",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "nts2",
+   "title": "National Trust for Scotland: Glencoe National Nature Reserve",
+   "url": "https://www.nts.org.uk/visit/places/glencoe",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "inv-hours",
+   "url": "https://invernesscastle.scot/visit/opening-times",
+   "title": "Inverness Castle Experience: horario",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "inv-prices",
+   "url": "https://invernesscastle.scot/visit/ticket-prices",
+   "title": "Inverness Castle Experience: tarifas por categoría",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "inv-starts",
+   "url": "https://invernesscastle.scot/tickets",
+   "title": "Inverness Castle Experience: precios desde",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cull-planning",
+   "url": "https://www.nts.org.uk/visit/places/culloden/planning-your-visit",
+   "title": "Culloden: periodo vigente hasta febrero2027",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "city-sep26",
+   "url": "https://www.citylink.co.uk/media/ubfac4ph/inverness-skye-sep26-web.pdf",
+   "title": "Citylink: horario oficial invierno septiembre2026",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "city-route",
+   "url": "https://www.citylink.co.uk/our-routes-and-timetables/inverness-skye/",
+   "title": "Citylink: página viva de la ruta",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "stage-1b",
+   "url": "https://www.stagecoachbus.com/promos-and-offers/north-scotland/invergordon-cruise-excursions",
+   "title": "Stagecoach:1B desde Queensgate aCulloden",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bus-1b-secondary",
+   "url": "https://bustimes.org/services/1b-queensgate-c-culloden-moor-culloden-battlefield",
+   "title": "Bustimes: horario1B, referencia secundaria",
+   "type": "transport-aggregator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "clava-plan",
+   "title": "HES: Clava, apertura, acceso y restricción de peso",
+   "url": "https://www.historicenvironment.scot/visit/all/clava-cairns/plan-your-visit/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "clava-history",
+   "title": "HES: historia y antigüedad de Clava",
+   "url": "https://www.historicenvironment.scot/visit/all/clava-cairns/history-and-stories/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "clava-outlander",
+   "title": "HES: asociación con Outlander, no origen demostrado",
+   "url": "https://www.historicenvironment.scot/visit/things-to-see-and-do/historic-scotland-sites-used-in-outlander/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "title": "Rose Street: tarifas y altura",
+   "url": "https://www.highland.gov.uk/directory-record/202/inverness-rose-street-multi-storey",
+   "checkedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "title": "Rose Street: funcionamiento",
+   "url": "https://www.highland.gov.uk/parking-permits/rose-street-multi-storey-car-park",
+   "checkedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "storr-parking1126",
+   "title": "Storr: parking propio actual",
+   "url": "https://thestorr.com/parking/",
+   "type": "official"
+  },
+  {
+   "id": "storr-walk1126",
+   "title": "Storr: visita y sendero",
+   "url": "https://thestorr.com/plan-your-visit/",
+   "type": "local-guide"
+  },
+  {
+   "id": "storr-old1126",
+   "title": "Directorio municipal Storr: tarifa anterior discrepante",
+   "url": "https://www.highland.gov.uk/directory-record/43/skye-a855-storr-roadside-",
+   "type": "official"
+  },
+  {
+   "id": "fairy-oats1126",
+   "title": "OATS: parking Fairy Pools",
+   "url": "https://www.outdooraccesstrustforscotland.org.uk/car-parking/",
+   "type": "official"
+  },
+  {
+   "id": "fairy-walk1126",
+   "title": "Guía de Skye: paseo Fairy Pools, acceso y riesgos",
+   "url": "https://www.isleofskye.com/skye-guide/top-ten-skye-walks/fairy-pools?fairy-pools-glenbrittle=",
+   "type": "local-guide"
+  },
+  {
+   "id": "storr-out1128",
+   "title": "Maps Portree Bayfield-Storr, referencia sin fecha",
+   "url": "https://www.google.com/maps/dir/?api=1&destination=Skye+IV51+9HX%2C+UK&destination_place_id=ChIJsafGmVnNjUgR655wsjZ5LX8&origin=9ER%2C+Lisigarry+Ct%2C+Portree+IV51+9ER%2C+UK&origin_place_id=ChIJ5WWxqdIzjEgRDblWZX3XnSQ&travelmode=driving",
+   "type": "map"
+  },
+  {
+   "id": "storr-back1128",
+   "title": "Maps Storr-Portree Bayfield, referencia sin fecha",
+   "url": "https://www.google.com/maps/dir/?api=1&destination=9ER%2C+Lisigarry+Ct%2C+Portree+IV51+9ER%2C+UK&destination_place_id=ChIJ5WWxqdIzjEgRDblWZX3XnSQ&origin=Skye+IV51+9HX%2C+UK&origin_place_id=ChIJsafGmVnNjUgR655wsjZ5LX8&travelmode=driving",
+   "type": "map"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

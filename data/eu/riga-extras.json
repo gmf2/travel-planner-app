@@ -1,0 +1,113 @@
+{
+ "schemaVersion": 1,
+ "cityId": "riga",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "milda",
+   "name": "Milda · cocina báltica tradicional",
+   "address": "Grēcinieku iela 26, Riga 1050",
+   "description": "Cocina letona y lituana. Guisantes grises con bacon,cepelinai y postre de pan de centeno son opciones de la carta propia, no menú fijo.",
+   "strength": "FichaMICHELINactualconsultadaBibGourmand,coincidedirección26yplatospropios.",
+   "alert": "Propio: martes-sábado 12-23, domingo 12-22, lunes cerrado.",
+   "compactAlert": "Lunes cerrado.",
+   "caution": "Confirmar carta y servicio del día, alérgenos y bebidas. Foto real de comida pendiente; ilustración IA conceptual disponible; ubicación Maps comprobada. Sin reserva.",
+   "officialUrl": "https://restoransmilda.lv/",
+   "editorialUrl": "https://guide.michelin.com/en/riga-region/riga_1991577/restaurant/milda",
+   "sourceUrls": [
+    "https://restoransmilda.lv/menu"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "priceLabel": "Ejemplo de carta propia: guisantes 11,50 € + cepelinai 15,50 € + postre de pan de centeno 11,50 € = 38,50 € sin bebida. No menú fijo.",
+   "compactPrice": "38,50 € ejemplo de comida sin bebida.",
+   "photo": {
+    "img": "assets/riga/milda-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes bálticos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes bálticos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Milda&query_place_id=ChIJowHiJC3O7kYR6rmE0c68lgA",
+   "placeId": "ChIJowHiJC3O7kYR6rmE0c68lgA",
+   "lat": 56.9466313,
+   "lng": 24.1076205,
+   "locationCheckedAt": "2026-11-03",
+   "locationEvidence": "Ficha Maps coincide en nombre y dirección. Solo ubicación, no validación de horario, apertura futura, carta o accesibilidad.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "riga_tie_necklace",
+   "name": "Amber Sisters · collar con corbata, solo grupos de 4-8",
+   "address": "Dāvanas un Gardumi, Tirgoņu iela 9, casco antiguo de Riga; estudio en sótano",
+   "description": "Transformar una corbata en un collar con una diseñadora de Amber Sisters. Se puede elegir entre telas propuestas o llevar una corbata propia. Materiales incluidos y nivel principiante; se anuncia en inglés, letón, ruso y alemán. Es un taller privado para un grupo de 4-8, no una actividad individual para incorporarse sin grupo.",
+   "duration": "Duración publicada aproximada: 1 h 30 min-2 h, más llegada. Reservar al menos 24 h antes y acordar hora; no sesión confirmada.",
+   "compactDuration": "1 h 30 min-2 h. Solo grupo propio de 4-8; reserva previa.",
+   "priceLabel": "35 €/persona con mínimo 4 participantes: mínimo de grupo 140 €, no 140 €/persona. Materiales incluidos. Confirmar total, tamaño de grupo y condiciones antes de comprar; los 0 € de otras fichas de la colección son marcadores de consulta, no talleres gratis.",
+   "compactPrice": "35 €/persona; mínimo 4 = 140 € por grupo. Materiales incluidos.",
+   "officialUrl": "https://www.ambersisters.com/products/necktie-necklace-workshop-creative-jewelry-making-class",
+   "sourceUrls": [
+    "https://www.ambersisters.com/collections/masterclasses-workshops"
+   ],
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Ficha específica y colección propias leídas: 35 €/persona, grupo 4-8, duración, idiomas y dirección. No se ha elegido fecha ni verificado un horario disponible.",
+   "alert": "Hay 20 escalones para bajar al estudio, sin acceso sin escalones confirmado. Reservar con al menos 24 h de antelación; cancelaciones a menos de 24 h no reembolsables según producto. No apto como opción individual sin grupo.",
+   "compactAlert": "Mínimo 4 personas. Sótano con 20 escalones. Cancelar a menos de 24 h: sin reembolso.",
+   "caution": "La ficha permite acordar otro horario por email; no se ha contactado ni reservado. Plazo y forma de devolución para cancelaciones anteriores a 24 h, menores, asistencia y necesidades de accesibilidad pendientes de confirmar. No asumir plazas abiertas para un viajero solo.",
+   "photo": {
+    "img": "assets/riga/riga_tie_necklace-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Artesanía con telas de corbata imaginada, no taller ni producto de Amber Sisters. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Artesanía con telas de corbata imaginada, no taller ni producto de Amber Sisters. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "riga_food_smileline",
+   "name": "Smileline · degustación del Mercado Central",
+   "address": "Ficha del producto: Prāgas iela 1, junto a entrada B de estación de autobuses; confirmar antes de acudir",
+   "description": "Paseo de degustación con guía por el Mercado Central: más de 20 productos, entre queso, carne, pescado, pan de centeno y pesto de cáñamo, según disponibilidad. No confundir con el tour de RigaTrips de otros portales. Puede apuntarse una persona a un grupo regular, pero deben reunirse al menos dos para operar.",
+   "duration": "2 horas y unos 2 km publicados. Grupo en inglés 13:30 y alemán 12:00; privado en inglés 14:15 con condiciones propias pendientes. No hay fecha ni sesión confirmada.",
+   "compactDuration": "2 h · grupo inglés 13:30 publicado · mínimo 2 para operar.",
+   "priceLabel": "37 € publicados en ficha; confirmar unidad por persona, total para fecha y si cambia en privado antes de pagar. Degustaciones y guía incluidos; extras, compras, hotel y propina no. No se promete una comida completa: cuerpo menciona degustación sentada final, FAQ aclara que no es una comida de restaurante.",
+   "compactPrice": "37 € publicados; confirmar por persona/total. Privado aparte.",
+   "officialUrl": "https://smileline.lv/en/tours/riga-central-market-food-tasting-tour/",
+   "sourceUrls": [
+    "https://smileline.lv/en/terms-and-conditions/"
+   ],
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Ficha y términos propios leídos el 03/11/2026. Ficha indica Prāgas1, términos generales Rātslaukums7; no asumir que oficina es salida de este producto. La ficha permite solo con mínimo total2, no exigir4como taller Amber Sisters.",
+   "alert": "Términos generales: reembolso100% a más de5días; menos de48h/cambio/no-show100% de cargo para tour individual. Franja2-5días y aplicación al grupo regular sin aclarar: confirmar por escrito. Vegetariano con aviso y sustituciones parciales; no apto vegano. Sin gluten posible con aviso, no garantía para celiaquía o contaminación cruzada.",
+   "compactAlert": "Una persona puede unirse, mínimo total 2. Salida y reembolso contradictorios/incompletos: confirmar. No vegano.",
+   "caution": "No hay reserva ni disponibilidad verificada. Confirmar fecha, idioma, número mínimo, punto, precio y cancelación. Alergias graves/contaminación cruzada y accesibilidad pendientes. Mercado ya es una parada del planning: sustituir esa visita por el tour si se elige, no duplicar dos bloques. No se promete acceso a todos los pabellones cerrados ni recogida hotel.",
+   "photo": {
+    "img": "assets/riga/riga_food_smileline-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Concepto exterior del Mercado Central, no puestos ni degustaciones de Smileline. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Concepto exterior del Mercado Central, no puestos ni degustaciones de Smileline. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ]
+}

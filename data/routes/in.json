@@ -1,0 +1,296 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "IN",
+ "country": "India",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Solo el norte de la India; el resto del pais requiere rutas regionales separadas (Kerala, Rajasthan profundo, Himalaya...).",
+ "verificationLimits": [
+  "12 días/11 noches editoriales, sin reservas ni total de viaje. LP aporta corredores y duraciones orientativas, no plazas ni horario elegido.",
+  "Ranthambhore requiere permiso y traslado local separados del tren. Temporada octubre-junio publicada por Rajasthan Tourism no confirma zonas, cupo o estado para fecha real. No se incluye safari, guía, vehículo ni avistamiento garantizado.",
+  "Consultar el canal actual desde la página del Departamento Forestal; no se ha podido comprobar aquí su destino de enlace de reservas. No se aporta enlace de pago alternativo ni se pide crear cuenta nueva.",
+  "Taj: viernes cerrado para visita general. Entrada y suplemento al mausoleo distintos; producto, cupo y posibles excepciones por comprobar antes de comprar. El día en Agra no se convierte en entrada conseguida.",
+  "Museo Nacional de Delhi: lunes/festivos cerrado; hora final de fin de semana discordante entre página de visita y portada, sin promesa de visita tardía. Otros interiores y culto requieren comprobación propia.",
+  "Las ventanas de reserva y reglas de cuota extranjera difieren entre documentos públicos de IRCTC. Confirmar producto vigente y documento del viajero al elegir tren; no se infiere pasaporte ni se promete compra 365 días antes.",
+  "Niebla invernal, calor, tráfico y cambios de servicio pueden alargar traslados. La noche de margen no protege billetes separados ni certifica seguridad."
+ ],
+ "routes": [
+  {
+   "id": "in-north-12",
+   "title": "Delhi, Rajastán y Agra · 12 días",
+   "scope": "REGIONAL: solo el norte (Delhi, Jaipur, Ajmer/Pushkar, Ranthambhore, Agra). No cubre sur (Kerala, Tamil Nadu), Bombay, Goa, Calcuta, Varanasi ni el Himalaya indio.",
+   "pace": "12 días/11 noches editoriales. Llegada a Sawai Madhopur separada del safari; traslado a Agra separado de la visita al Taj; noche final en Delhi antes del vuelo. No es un paquete contratado.",
+   "assumptions": "Adaptación de la guía de 7 días de Lonely Planet, no del horario de un operador. Elegir fechas para Taj sin viernes y museos abiertos. Trenes, safari, hoteles y entradas sin seleccionar; no cambiar de día silenciosamente ni prometer enlace por una noche de margen.",
+   "sources": [
+    {
+     "id": "lp",
+     "title": "Lonely Planet - Triangulo de Oro de la India (7 dias)",
+     "url": "https://www.lonelyplanet.com/articles/golden-triangle-india-itinerary"
+    },
+    {
+     "id": "taj",
+     "title": "Taj Mahal · horarios oficiales y cierre de viernes",
+     "url": "https://www.tajmahal.gov.in/visiting-hours.aspx"
+    },
+    {
+     "id": "rj-tourism",
+     "title": "Rajasthan Tourism: acceso desde Sawai Madhopur y temporada octubre-junio",
+     "url": "https://www.tourism.rajasthan.gov.in/ranthambore.html"
+    },
+    {
+     "id": "forest-government",
+     "title": "Departamento Forestal de Rajasthan: punto de entrada de permisos",
+     "url": "https://forest.rajasthan.gov.in/content/raj/forest/en/citizen-services/safari-zoo-ticket-booking.html"
+    },
+    {
+     "id": "rail-query",
+     "title": "Indian Railways: consulta oficial de horarios por tren",
+     "url": "https://www.indianrail.gov.in/enquiry/SCHEDULE/TrainSchedule.html"
+    },
+    {
+     "id": "museum",
+     "title": "Museo Nacional de Nueva Delhi: visita y cierre lunes/festivos",
+     "url": "https://nationalmuseumindia.gov.in/en/visiting"
+    },
+    {
+     "id": "maec",
+     "title": "MAEC: India, consultado 03/11/2026",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=India"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Delhi",
+     "overnight": "Delhi",
+     "stops": [
+      "Descanso y paseo según hora de llegada"
+     ],
+     "transfer": "Traslado del aeropuerto al alojamiento; no añadir visita con entrada fija este día.",
+     "sourceIds": [
+      "lp"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Delhi: Fuerte Rojo y Chandni Chowk",
+     "overnight": "Delhi",
+     "stops": [
+      "Fuerte Rojo",
+      "Chandni Chowk",
+      "Jama Masjid"
+     ],
+     "transfer": "Día urbano, no nueva llegada. Elegir transporte según hotel y tráfico; interior del Fuerte Rojo, culto y horarios de la mezquita por comprobar. No presentar todo como paseo continuo ni entrada garantizada.",
+     "sourceIds": [
+      "lp"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Delhi: Nueva Delhi",
+     "overnight": "Delhi",
+     "stops": [
+      "Museo Nacional",
+      "Agrasen ki Baoli",
+      "Jantar Mantar"
+     ],
+     "transfer": "Museo Nacional: lunes y festivos oficiales cerrado según web propia. Si no abre, reordenar las visitas de Delhi antes de elegir tren; la web y portada no coinciden en el cierre de fin de semana, así que no se fija aquí hora tardía. Elegir un museo y paseos cercanos, sin audio-guía garantizada.",
+     "sourceIds": [
+      "lp",
+      "museum"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Tren a Jaipur",
+     "overnight": "Jaipur",
+     "stops": [
+      "Tren y llegada a Jaipur",
+      "Paseo breve por el casco rosa solo si queda tiempo, sin interior con hora comprometida"
+     ],
+     "transfer": "Tren Delhi → Jaipur por elegir. La guía menciona Ajmer Shatabdi y Vande Bharat como alternativas, no servicio validado para tu fecha. Comprobar estación exacta, horario y plaza en la consulta ferroviaria; reservar la jornada para traslado y llegada. No tren la noche anterior que borre una noche prevista en Delhi.",
+     "sourceIds": [
+      "lp",
+      "rail-query"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Jaipur",
+     "overnight": "Jaipur",
+     "stops": [
+      "Elegir Fuerte Amber como visita principal",
+      "Hawa Mahal o paseo por el casco si queda tiempo; no sumar todos los palacios"
+     ],
+     "transfer": "Visita local con transporte y accesos por elegir. Amber requiere desplazamiento fuera del casco; se conserva una jornada en Jaipur para no condicionarlo a la llegada del tren. City Palace y Jantar Mantar son alternativas para adaptar el día, no entradas incluidas.",
+     "sourceIds": [
+      "lp"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Ajmer y Pushkar (excursion)",
+     "overnight": "Jaipur",
+     "stops": [
+      "Dargah de Ajmer",
+      "Ghats de Pushkar"
+     ],
+     "transfer": "Excursión opcional de ida/vuelta desde Jaipur. Lonely Planet orienta unas 2 h de tren a Ajmer, más acceso y bus a Pushkar; no duración total ni regreso garantizado. Confirmar ambos sentidos y permisos de culto. Si no encaja, conservar día en Jaipur, sin cambiar base ni la salida siguiente.",
+     "sourceIds": [
+      "lp",
+      "rail-query"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Tren a Sawai Madhopur: llegada sin safari",
+     "overnight": "Sawai Madhopur",
+     "stops": [
+      "Tren y traslado al alojamiento",
+      "Confirmar permiso, punto de encuentro y traslado del safari del día siguiente"
+     ],
+     "transfer": "Jaipur → Sawai Madhopur: guía orienta 2-3 h a bordo, no billete seleccionado. Rajasthan Tourism sitúa el parque a 14 km de la ciudad: sumar vehículo al hotel/punto de encuentro. No safari con hora fija tras tren. Dormir en Sawai Madhopur.",
+     "sourceIds": [
+      "lp",
+      "rj-tourism",
+      "rail-query"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Ranthambhore: safari solo con permiso",
+     "overnight": "Sawai Madhopur",
+     "stops": [
+      "Un safari con acceso y horario confirmados, no dos salidas impuestas",
+      "Descanso y misma base antes del largo traslado a Agra"
+     ],
+     "transfer": "Día completo en la base. Rajasthan Tourism publica temporada octubre-junio y aconseja reservar antes; eso no demuestra apertura de una zona, vehículo o plaza concreta. Elegir permiso, guía/vehículo, encuentro y traslado en el canal vigente del departamento forestal. No se promete tigre ni se copia una tarifa de intermediario. Si no hay acceso, revisar el tramo antes de reservar, no sustituir por otro parque sin avisar.",
+     "sourceIds": [
+      "lp",
+      "rj-tourism",
+      "forest-government"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Tren a Agra: jornada de traslado",
+     "overnight": "Agra",
+     "stops": [
+      "Tren y llegada a Agra",
+      "Descanso; no Taj con hora comprometida este día"
+     ],
+     "transfer": "Sawai Madhopur → Agra: Lonely Planet orienta 4-7 h en tren. No se fija la salida de las 05:00 de la guía como servicio real. Confirmar fecha, estaciones, plaza y traslado al alojamiento. No safari de amanecer más este tren ni Taj al llegar.",
+     "sourceIds": [
+      "lp",
+      "rail-query"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "Taj Mahal: día en Agra, nunca viernes",
+     "overnight": "Agra",
+     "stops": [
+      "Taj Mahal solo en día de apertura y con entrada elegida",
+      "Fuerte de Agra como alternativa o complemento si ritmo y acceso permiten"
+     ],
+     "transfer": "Taj cerrado viernes para visita general según web oficial. Los otros días publica apertura 30 min antes del amanecer y cierre 30 min antes del ocaso. Acceso sur solo salida, no entrada. Elegir producto y puerta; mausoleo principal es suplemento opcional, no incluido en cualquier entrada. Si la fecha cae viernes, ajustar noches antes de reservar, sin ocultar cambio ni prometer reapertura.",
+     "sourceIds": [
+      "lp",
+      "taj"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "Regreso a Delhi: noche antes del vuelo",
+     "overnight": "Delhi",
+     "stops": [
+      "Tren a Delhi",
+      "Traslado al alojamiento adecuado al aeropuerto de salida"
+     ],
+     "transfer": "Agra → Delhi: 2-3 h a bordo según Lonely Planet, más accesos y posibles retrasos. Tren y estación por elegir, no horario ni plaza comprobados. Noche en Delhi antes de salir; confirmar terminal de aeropuerto y hotel, sin vuelo internacional este día.",
+     "sourceIds": [
+      "lp",
+      "rail-query"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Salida desde Delhi",
+     "overnight": null,
+     "stops": [
+      "Traslado al aeropuerto según vuelo elegido"
+     ],
+     "transfer": "Noche previa en Delhi. Margen según tráfico, terminal y aerolínea; no tren interurbano ni safari este día. Ningún vuelo o traslado contratado.",
+     "sourceIds": [
+      "lp"
+     ]
+    }
+   ],
+   "previousRouteIds": [
+    "in-triangulo-10"
+   ],
+   "previousRouteNotes": [
+    {
+     "id": "in-triangulo-10",
+     "title": "Delhi, Rajastán y Agra · 10 días",
+     "days": [
+      {
+       "day": 1,
+       "title": "Llegada a Delhi"
+      },
+      {
+       "day": 2,
+       "title": "Delhi: Fuerte Rojo y Chandni Chowk"
+      },
+      {
+       "day": 3,
+       "title": "Delhi: Nueva Delhi"
+      },
+      {
+       "day": 4,
+       "title": "Tren a Jaipur"
+      },
+      {
+       "day": 5,
+       "title": "Jaipur"
+      },
+      {
+       "day": 6,
+       "title": "Ajmer y Pushkar (excursion)"
+      },
+      {
+       "day": 7,
+       "title": "Tren a Ranthambhore y safari"
+      },
+      {
+       "day": 8,
+       "title": "Tren a Agra"
+      },
+      {
+       "day": 9,
+       "title": "Taj Mahal y regreso a Delhi"
+      },
+      {
+       "day": 10,
+       "title": "Salida desde Delhi"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Consulta MAEC 03/11/2026: precaución en grandes ciudades, transportes, aglomeraciones y estafas. Evitar áreas fronterizas con Pakistán y zonas desaconsejadas como el valle de Cachemira y Manipur, fuera de este circuito. Monzón puede interrumpir carretera y tren; esta ruta no es una certificación de seguridad.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=India"
+ },
+ "photo": {
+  "img": "assets/routes/in.jpg",
+  "name": "Agra · Taj Mahal",
+  "source": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_from_agra.jpg",
+  "originalSource": "https://flickr.com/photos/39107352@N08/3955632056",
+  "author": "Ramesh NG",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ }
+}

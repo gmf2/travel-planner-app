@@ -1,0 +1,144 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "MO",
+ "country": "Macao",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Territorio de Macao: península histórica, Taipa/Cotai y Coloane desde una base. No incluye circuito por China continental ni Hong Kong.",
+ "verificationLimits": [
+  "Ruta propia del territorio, no país independiente: tres jornadas de visita de la fuente más llegada/salida editoriales, cinco días en total. Puede combinarse con Hong Kong, pero no se considera cubierto por una excursión sin este detalle.",
+  "Transporte local verificado por MGTO como corredor; líneas, frecuencias, precios y conexiones concretas se eligen por fecha y hotel.",
+  "Requisitos separados de inmigración y aduanas de Macao, Hong Kong y China continental. No inferir entrada automática ni visado por lugar de salida."
+ ],
+ "routes": [
+  {
+   "id": "mo-tres-areas-5",
+   "title": "Península, Taipa y Coloane · 5 días",
+   "scope": "Territorio de Macao: península histórica, Taipa/Cotai y Coloane desde una base. No incluye circuito por China continental ni Hong Kong.",
+   "pace": "5 días / 4 noches en la península: tres jornadas urbanas y de barrios con llegada y salida separadas. No una ruta por todo un país.",
+   "assumptions": "Adaptación editorial del circuito de tres días de China Chauffeurs, sin contratar conductor ni recomendar juego. Una misma base evita mudanzas cortas, bus/taxi/LRT según tramo. Museos y comidas opcionales sin reserva. Documentación según pasaporte.",
+   "sources": [
+    {
+     "id": "op",
+     "title": "China Chauffeurs · tres áreas en tres días, base editorial",
+     "url": "https://chinachauffeurs.com/blog/macau-three-day-private-itinerary.html"
+    },
+    {
+     "id": "planner",
+     "title": "MGTO · planificador oficial por áreas",
+     "url": "https://tripplanner.macaotourism.gov.mo/en"
+    },
+    {
+     "id": "entry",
+     "title": "MGTO · requisitos de entrada",
+     "url": "https://www.macaotourism.gov.mo/en/travelessential/before-you-travel/entry-requirements"
+    },
+    {
+     "id": "arrive",
+     "title": "MGTO · aeropuerto y conexiones con Macao",
+     "url": "https://www.macaotourism.gov.mo/en/article/before-you-travel/travelling-to-macao"
+    },
+    {
+     "id": "local",
+     "title": "MGTO · transporte local",
+     "url": "https://www.macaotourism.gov.mo/en/travelessential/before-you-travel/local-transportation"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Hong Kong y Macao",
+     "url": "https://www.exteriores.gob.es/Consulados/hongkong/es/ViajarA/Paginas/Recomendaciones-de-viaje.aspx"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada y base en la península",
+     "overnight": "Península de Macao",
+     "stops": [
+      "Llegada y alojamiento",
+      "Paseo suave en el entorno"
+     ],
+     "transfer": "Llegada por MFM o terminal/puerto fronterizo elegido previamente. MGTO publica buses/taxis desde aeropuerto; elegir servicio según hotel y hora real. No se aplica el mismo traslado si se llega desde Hong Kong o Zhuhai: hay controles y documentación propios.",
+     "sourceIds": [
+      "arrive",
+      "entry",
+      "maec"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Península histórica",
+     "overnight": "Península de Macao",
+     "stops": [
+      "A-Ma y Lilau",
+      "Senado y calles del centro histórico",
+      "Ruinas de San Pablo y Monte Fort según energía"
+     ],
+     "transfer": "Trayecto editorial sur-norte de la península, con transporte para un extremo si se prefiere. No garantizar todos los interiores: Mandarin’s House u otros museos según calendario, sin apilar por obligación. Escaleras y cuestas reales, no paseo accesible universal.",
+     "sourceIds": [
+      "op",
+      "planner"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Taipa y Cotai",
+     "overnight": "Península de Macao",
+     "stops": [
+      "Taipa Village y Taipa Houses según apertura",
+      "Rua do Cunha",
+      "Una zona de Cotai opcional, sin juego ni espectáculo incluido"
+     ],
+     "transfer": "Bus/taxi o LRT combinado con acceso local según recorrido elegido. MGTO confirma enlaces península-Taipa-Coloane; no afirmar que LRT deja ante cada monumento. Cotai tiene distancias y entradas amplias: escoger una visita, no todos los complejos. Regreso a misma base.",
+     "sourceIds": [
+      "op",
+      "local"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Coloane con calma",
+     "overnight": "Península de Macao",
+     "stops": [
+      "Coloane Village",
+      "Entorno de capilla de San Francisco Javier y paseo de ribera",
+      "Pausa gastronómica opcional"
+     ],
+     "transfer": "Ida y vuelta en bus/taxi con servicio y última vuelta elegidos. Día entero separado de salida, sin mudanza obligatoria de hotel. Hac Sa/Cheoc Van solo alternativa según acceso y tiempo, no baño garantizado ni circuito forestal añadido.",
+     "sourceIds": [
+      "op",
+      "local",
+      "maec"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Salida desde Macao",
+     "overnight": null,
+     "stops": [
+      "Traslado al aeropuerto o puerto de salida elegido"
+     ],
+     "transfer": "Noche anterior en península. Si se continúa por Hong Kong, confirmar ferry/bus, controles, equipaje y documentación antes del vuelo; no asumir conexión aeroportuaria protegida. Reservar margen según transporte real.",
+     "sourceIds": [
+      "arrive",
+      "entry",
+      "maec"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores recuerda controles de pasaportes y aduanas entre Macao, Hong Kong y China continental. Revisar requisitos de cada territorio. Temporada de tifones puede alterar ferry, buses y vuelos; seguir avisos oficiales y no forzar paseos costeros. Seguro con cobertura médica y evacuación; cuidar pertenencias en zonas turísticas. No se garantiza conexión internacional ni apertura actual de monumentos por la existencia de la ruta.",
+  "url": "https://www.exteriores.gob.es/Consulados/hongkong/es/ViajarA/Paginas/Recomendaciones-de-viaje.aspx"
+ },
+ "photo": {
+  "img": "assets/routes/mo.jpg",
+  "name": "Fachada de las ruinas de San Pablo, Macao",
+  "source": "https://commons.wikimedia.org/wiki/File:Ruin_St_Paul_Church_Macau.jpg",
+  "author": "NaidNdeso",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "caption": "Foto de archivo de 2007. No confirma acceso actual ni ausencia de multitudes."
+ }
+}

@@ -1,0 +1,840 @@
+{
+ "schemaVersion": 1,
+ "country": "FR",
+ "id": "niza",
+ "name": "Niza",
+ "localName": "Nice",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "saleya",
+   "name": "Cours Saleya",
+   "kind": "visit",
+   "zone": "Vieux Nice",
+   "reason": "Mercado y paseo de Cours Saleya, mejor al comienzo del día.",
+   "sourceIds": [
+    "market",
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 43.6956,
+    "lon": 7.275039
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Cours_Saleya",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "Mercado ordinario martes-domingo, por la mañana para alimentos; flores tienen cierre más tarde. Excepciones festivas y lunes especiales según reglamento municipal. No asumir mercado alimentario abierto cada lunes ni puestos en funcionamiento por foto de archivo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Mercado de mañana; lunes ordinarios sin mercado alimentario",
+   "photo": {
+    "img": "assets/niza/saleya.jpg",
+    "alt": "Cours Saleya",
+    "source": "https://commons.wikimedia.org/wiki/File:Nizza.jpg",
+    "author": "The original uploader was Urbanus at German Wikipedia.",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Foto de archivo de Cours Saleya. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "rossetti",
+   "name": "Place Rossetti y Catedral",
+   "kind": "visit",
+   "zone": "Vieux Nice",
+   "reason": "Place Rossetti y fachada de Sainte-Réparate; interior según culto y horario.",
+   "sourceIds": [
+    "cathedral",
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 43.69722222,
+    "lon": 7.27583333
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Nice_Cathedral",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Catedral cerrada lunes según parroquia. Martes-viernes9-12/14-18, sábado9-12/14-19:30, domingo9-13/15-18. No confundir apertura de secretaría con templo ni interrumpir culto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Catedral cerrada lunes; interior solo fuera del culto y en horario",
+   "photo": {
+    "img": "assets/niza/rossetti.jpg",
+    "alt": "Place Rossetti y Catedral",
+    "source": "https://commons.wikimedia.org/wiki/File:Cathedrale_Sainte-Reparate_Nice.jpg",
+    "author": "Myrabella",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Foto de archivo de Place Rossetti y Catedral. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "vieux",
+   "name": "Vieux Nice",
+   "kind": "visit",
+   "zone": "Vieux Nice",
+   "reason": "Calles del Vieux Nice entre pequeñas plazas y fachadas de colores, con pausas y sin recorrer cada iglesia.",
+   "sourceIds": [
+    "vc",
+    "tourism"
+   ],
+   "coordinates": {
+    "lat": 43.696727,
+    "lon": 7.275889
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Vieux-Nice",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "La foto es una vista panorámica de tejados del barrio, no de una única calle ni imagen actual.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior, sin entrada ni actividad contratada",
+   "photo": {
+    "img": "assets/niza/vieux.jpg",
+    "alt": "Vieux Nice",
+    "source": "https://commons.wikimedia.org/wiki/File:Vue_du_Vieux-Nice.jpg",
+    "author": "Baptiste Rossi",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "caption": "Foto de archivo de Vieux Nice. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lascaris",
+   "name": "Palais Lascaris",
+   "kind": "visit",
+   "zone": "Vieux Nice",
+   "reason": "Palacio barroco y colección de instrumentos, alternativa de interior del casco.",
+   "sourceIds": [
+    "lascaris"
+   ],
+   "coordinates": {
+    "lat": 43.6977,
+    "lon": 7.27725
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Palais_Lascaris",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "10-18 excepto martes; cerrado 1 de enero, domingo de Pascua,1 de mayo,25 de diciembre según municipio. Elegir como interior principal si interesa, no añadir automáticamente tras todos los museos de otro día. Foto muestra calle y fachada, no las salas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Alternativa interior, martes cerrado",
+   "photo": {
+    "img": "assets/niza/lascaris.jpg",
+    "alt": "Palais Lascaris",
+    "source": "https://commons.wikimedia.org/wiki/File:Lascaris2.JPG",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "caption": "Foto de archivo de Palais Lascaris. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "castle",
+   "name": "Colina del Castillo",
+   "kind": "visit",
+   "zone": "Entre casco y puerto",
+   "reason": "Colina del Castillo: miradores y parque, no castillo medieval conservado para visitar.",
+   "sourceIds": [
+    "castle",
+    "tourism"
+   ],
+   "coordinates": {
+    "lat": 43.696,
+    "lon": 7.2797
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Castle_of_Nice",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 80,
+   "durationType": "editorial-estimate",
+   "caution": "Parque municipal de 8:30 a 18 h del 1 de noviembre al 31 de marzo; turismo usa el 1 de octubre para comienzo de invierno, discrepancia a revisar en octubre. Acceso con pendientes/escaleras o ascensor solo si opera, disponibilidad no comprobada. Con movilidad reducida o mal tiempo, elegir paseo bajo si no hay acceso apto. No castillo conservado ni cascada en funcionamiento garantizada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Parque con pendientes; ascensor no confirmado. En invierno hasta las 18 h",
+   "photo": {
+    "img": "assets/niza/castle.jpg",
+    "alt": "Colina del Castillo",
+    "source": "https://commons.wikimedia.org/wiki/File:Dscn0062-nice-port-castle-hill_crop_1200x600.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Panorama de archivo de la colina del Castillo desde el puerto, no vista desde la cima ni acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "promenade",
+   "name": "Promenade des Anglais",
+   "kind": "visit",
+   "zone": "Ribera oeste",
+   "reason": "Tramo céntrico de la Promenade des Anglais junto a la bahía, sin exigir los 7 km completos.",
+   "sourceIds": [
+    "tourism",
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 43.6949,
+    "lon": 7.2585
+   },
+   "coordinateSource": "https://www.nice.fr/lieux/musee-massena/",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Paseo exterior. Playas de guijarros: no se incluye baño, club ni tumbona, ni se considera mar seguro por foto turística.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior, sin entrada ni actividad contratada",
+   "photo": {
+    "img": "assets/niza/promenade.jpg",
+    "alt": "Promenade des Anglais",
+    "source": "https://commons.wikimedia.org/wiki/File:Promenadedesanglais.jpg",
+    "author": "Baptiste Rossi",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "caption": "Foto de archivo de Promenade des Anglais. No confirma apertura actual."
+   },
+   "coordinateNotice": "Punto editorial aproximado del paseo frente a Villa Masséna, no coordenada exacta de entrada ni ruta accesible; evita mandar el paseo céntrico a varios km al oeste.",
+   "photoPending": false
+  },
+  {
+   "id": "massena",
+   "name": "Place Masséna",
+   "kind": "visit",
+   "zone": "Centro",
+   "reason": "Plaza central y conexión entre la ribera, casco y Paillon.",
+   "sourceIds": [
+    "vc",
+    "tourism"
+   ],
+   "coordinates": {
+    "lat": 43.69725,
+    "lon": 7.2701436
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Place_Mass%C3%A9na",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior, sin entrada ni actividad contratada",
+   "photo": {
+    "img": "assets/niza/massena.jpg",
+    "alt": "Place Masséna",
+    "source": "https://commons.wikimedia.org/wiki/File:Place-Mass%C3%A9na_01.jpg",
+    "author": "Magali M from Nice, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Foto de archivo de Place Masséna. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "paillon",
+   "name": "Promenade du Paillon",
+   "kind": "visit",
+   "zone": "Centro",
+   "reason": "Paseo verde por la Promenade du Paillon, a ritmo flexible.",
+   "sourceIds": [
+    "paillon"
+   ],
+   "coordinates": {
+    "lat": 43.697025,
+    "lon": 7.270336
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Promenade_du_Paillon",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "Municipio: invierno 1 de octubre-31 de marzo7-21, verano 7-23. Fuentes/brumas y cada instalación tienen condiciones propias, no agua en funcionamiento todo el día ni extensión histórica igual a la foto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior; fuentes y brumas no garantizadas",
+   "photo": {
+    "img": "assets/niza/paillon.jpg",
+    "alt": "Promenade du Paillon",
+    "source": "https://commons.wikimedia.org/wiki/File:Promenade_du_Paillon_Nice_IMG_1241.jpg",
+    "author": "Alexander Migl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto de archivo de Promenade du Paillon. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "garibaldi",
+   "name": "Place Garibaldi",
+   "kind": "visit",
+   "zone": "Garibaldi",
+   "reason": "Plaza porticada en el enlace hacia el barrio del puerto.",
+   "sourceIds": [
+    "vc",
+    "tourism"
+   ],
+   "coordinates": {
+    "lat": 43.700908,
+    "lon": 7.280164
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Place_Garibaldi",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior, sin entrada ni actividad contratada",
+   "photo": {
+    "img": "assets/niza/garibaldi.jpg",
+    "alt": "Place Garibaldi",
+    "source": "https://commons.wikimedia.org/wiki/File:Nice_tramway_place_Garibaldi.jpg",
+    "author": "Myrabella",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Place Garibaldi con tranvía, foto de archivo. No identifica el servicio vigente."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "port",
+   "name": "Port Lympia",
+   "kind": "visit",
+   "zone": "Puerto",
+   "reason": "Port Lympia: paseo junto a barcas y fachadas, sin crucero incluido.",
+   "sourceIds": [
+    "tourism",
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 43.69419,
+    "lon": 7.284922
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Port_Lympia",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "No embarcación ni salida a Villefranche contratadas. La foto fue retocada por autor eliminando dos elementos del borde mediante clonación, dato conservado en crédito.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior, sin entrada ni actividad contratada",
+   "photo": {
+    "img": "assets/niza/port.jpg",
+    "alt": "Port Lympia",
+    "source": "https://commons.wikimedia.org/wiki/File:Nice_port.jpg",
+    "author": "Photo: Myrabella / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Foto del puerto de 2010; autor eliminó dos elementos del borde por clonación. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "matisse",
+   "name": "Museo Matisse",
+   "kind": "visit",
+   "zone": "Cimiez",
+   "reason": "Colección Matisse en la villa de Cimiez como visita principal del día cultural.",
+   "sourceIds": [
+    "matisse"
+   ],
+   "coordinates": {
+    "lat": 43.71944444,
+    "lon": 7.27611111
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Matisse_(Nice)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Todos los días salvo martes;1 de noviembre-31 de marzo10-17,1 de abril-31 de octubre10-18. Cierre excepcional30 de noviembre de 2026;1 de enero, domingo de Pascua,1 de mayo,25 de diciembre cerrado. Taquilla 30 min antes. Obras en exposición cambian por préstamos/temporada, no colección íntegra prometida.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Martes cerrado; cierre extra el 30 de noviembre de 2026",
+   "photo": {
+    "img": "assets/niza/matisse.jpg",
+    "alt": "Museo Matisse",
+    "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Matisse_Nice.JPG",
+    "author": "Tubantia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Foto de archivo de Museo Matisse. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "monastery",
+   "name": "Monasterio de Cimiez",
+   "kind": "visit",
+   "zone": "Cimiez",
+   "reason": "Fachada del monasterio y jardín cercano para una pausa en Cimiez.",
+   "sourceIds": [
+    "garden"
+   ],
+   "coordinates": {
+    "lat": 43.7199,
+    "lon": 7.27908
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Monast%C3%A8re_de_Cimiez",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Jardín municipal 8:30-18 h del 1 de noviembre al 31 de marzo, hasta las 20 h de abril a octubre. No garantiza interior del monasterio ni museo franciscano. Foto de la fachada, no del estado actual del jardín.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Fachada y jardín; interior no confirmado",
+   "photo": {
+    "img": "assets/niza/monastery.jpg",
+    "alt": "Monasterio de Cimiez",
+    "source": "https://commons.wikimedia.org/wiki/File:Monaster-de-cimiez-2--images.jpg",
+    "author": "Ferrand06700",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto de archivo de Monasterio de Cimiez. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "arenes",
+   "name": "Arènes de Cimiez",
+   "kind": "visit",
+   "zone": "Cimiez",
+   "reason": "Arena romana y entorno de Cimiez, con acceso según zonas abiertas.",
+   "sourceIds": [
+    "archaeology",
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 43.7199917,
+    "lon": 7.2753194
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Ar%C3%A8nes_de_Cimiez",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "No equivale a entrada al museo o a todo el yacimiento termal. Museo arqueológico es alternativa al Matisse: martes cerrado, horario de invierno 10-17, excepción del 2 de noviembre de 2026 ya pasada no cierre indefinido. Si eliges museo, sustituye otra visita interior.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Entorno romano; museo de pago alternativo, martes cerrado",
+   "photo": {
+    "img": "assets/niza/arenes.jpg",
+    "alt": "Arènes de Cimiez",
+    "source": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Cimiez,_Nice,_France.jpg",
+    "author": "Édouard Hue (User:EdouardHue)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Foto de archivo de Arènes de Cimiez. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "chagall",
+   "name": "Museo Marc Chagall",
+   "kind": "visit",
+   "zone": "Cimiez bajo",
+   "reason": "Museo Marc Chagall como alternativa al Matisse, no segundo museo obligatorio tras Cimiez.",
+   "sourceIds": [
+    "chagall"
+   ],
+   "coordinates": {
+    "lat": 43.70916667,
+    "lon": 7.26953611
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Marc_Chagall",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Cierra martes, 1 de enero, 1 de mayo y 25 de diciembre. Del 1 de noviembre de 2026 al 30 de abril de 2027: 10-17 h, pausa 13-14:30. Excepción de la pausa del 2 al 7 de noviembre de 2026 inclusive, sin anular cierre de martes. En diciembre pueden cerrar salas. El 24 y 31 de diciembre cierra a las 16 h, taquilla hasta 15:30. Fecha y acceso por verificar; no colección completa garantizada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Alternativa al Matisse. Martes cerrado y posible pausa 13-14:30",
+   "photo": {
+    "img": "assets/niza/chagall.jpg",
+    "alt": "Museo Marc Chagall",
+    "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Marc_Chagall.jpg",
+    "author": "Europe22",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Foto de archivo de Museo Marc Chagall. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "villamassena",
+   "name": "Villa Masséna",
+   "kind": "visit",
+   "zone": "Ribera oeste",
+   "reason": "Villa Masséna, interior de historia y arte como pausa del día de ribera y plazas.",
+   "sourceIds": [
+    "villamassena"
+   ],
+   "coordinates": {
+    "lat": 43.695219,
+    "lon": 7.258944
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Mass%C3%A9na",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Del 1 de noviembre al 30 de abril: 11-18 h; del 2 de mayo al 31 de octubre: 10-18 h. Martes cerrado. Confirmar fiestas y acceso. No precio de pase municipal ni todas las salas garantizadas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Martes cerrado; invierno abre a las 11 h",
+   "photo": {
+    "img": "assets/niza/villamassena.jpg",
+    "alt": "Villa Masséna",
+    "source": "https://commons.wikimedia.org/wiki/File:Nice_Mus%C3%A9e_Mass%C3%A9na_02.jpg",
+    "author": "Cayambe",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Foto de archivo de Villa Masséna. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "villefranche",
+   "name": "Villefranche-sur-Mer",
+   "kind": "excursion",
+   "zone": "Fuera de Niza",
+   "reason": "Casco y ribera de Villefranche-sur-Mer con tren elegido para ida y vuelta.",
+   "sourceIds": [
+    "villefranche",
+    "vf-train"
+   ],
+   "coordinates": {
+    "lat": 43.705,
+    "lon": 7.3125
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Villefranche-sur-Mer",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "No crucero costero ni camino litoral automático: condiciones y cierres de senderos no resueltos. Paseo por casco con pendientes y ribera; baño no incluido.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; acceso interior solo si se elige y abre",
+   "photo": {
+    "img": "assets/niza/villefranche.jpg",
+    "alt": "Villefranche-sur-Mer",
+    "source": "https://commons.wikimedia.org/wiki/File:Villefranche-sur-Mer.jpg",
+    "author": "Tom Corser",
+    "license": "CC BY-SA 2.0 uk",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/uk/deed.en",
+    "caption": "Foto de archivo de Villefranche-sur-Mer. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "eze",
+   "name": "Èze village",
+   "kind": "excursion",
+   "zone": "Fuera de Niza",
+   "reason": "Èze village y jardín exótico opcional, sin confundirlo con estación costera Èze-sur-mer.",
+   "sourceIds": [
+    "eze-access",
+    "eze-garden",
+    "eze-garden-tourism"
+   ],
+   "coordinates": {
+    "lat": 43.728612,
+    "lon": 7.361667
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/%C3%88ze",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 330,
+   "durationType": "editorial-estimate",
+   "caution": "Bus 82 desde Vauban va al pueblo; tren deja en costa y requiere 83 u otro acceso comprobado. Jardín 9-16:30 noviembre-diciembre, última entrada 16,25 de diciembre de 2026cerrado según turismo; calendario y tarifa por verificar para otra fecha. Calles empinadas/escalones. No Chemin Nietzsche obligatorio: sendero exige condiciones/equipo propios.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión pueblo; jardín de pago opcional",
+   "photo": {
+    "img": "assets/niza/eze.jpg",
+    "alt": "Èze village",
+    "source": "https://commons.wikimedia.org/wiki/File:Le_village_d%27Eze.jpg",
+    "author": "Apollinaire75",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Vista exterior de archivo de Èze village. No muestra estación costera ni acceso al jardín."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Casco antiguo y Colina del Castillo",
+     "zone": "Cours Saleya → Rossetti → calles del casco → colina",
+     "stopIds": [
+      "saleya",
+      "rossetti",
+      "vieux",
+      "castle"
+     ],
+     "editorialNote": "Mercado por la mañana si funciona; lunes no prometer alimentos. Catedral por fuera si cierra o hay culto. Colina por acceso apto y tiempo adecuado: si ascensor no opera no obligar escalera. Lascaris como alternativa interior en vez de alargar todas las visitas.",
+     "optionalStopIds": [
+      "lascaris",
+      "promenade"
+     ],
+     "pacing": "Estimación editorial con pausas y acceso elegido por fecha, sin reserva."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Casco antiguo y Colina del Castillo",
+     "zone": "Cours Saleya → Rossetti → calles del casco → colina",
+     "stopIds": [
+      "saleya",
+      "rossetti",
+      "vieux",
+      "castle"
+     ],
+     "editorialNote": "Mercado por la mañana si funciona; lunes no prometer alimentos. Catedral por fuera si cierra o hay culto. Colina por acceso apto y tiempo adecuado: si ascensor no opera no obligar escalera. Lascaris como alternativa interior en vez de alargar todas las visitas.",
+     "optionalStopIds": [
+      "lascaris",
+      "promenade"
+     ],
+     "pacing": "Estimación editorial con pausas y acceso elegido por fecha, sin reserva."
+    },
+    {
+     "title": "Cimiez, Matisse y jardín",
+     "zone": "Transporte a Cimiez → museo → arena → jardín",
+     "stopIds": [
+      "matisse",
+      "arenes",
+      "monastery"
+     ],
+     "editorialNote": "Matisse como único museo largo, con calendario. Lignes dAzur y museo publican 5/16/18/33/40 a Arènes/Musée Matisse: elegir origen/regreso por fecha, no subir caminando desde casco por defecto. Chagall sustituye Matisse, con acceso a Cimiez bajo y posible pausa 13-14:30, no se suman ambos más arqueología. Si martes cierran museos, cambiar orden o hacer parques y otro plan.",
+     "optionalStopIds": [
+      "chagall"
+     ],
+     "pacing": "Estimación editorial con pausas y acceso elegido por fecha, sin reserva."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Casco antiguo y Colina del Castillo",
+     "zone": "Cours Saleya → Rossetti → calles del casco → colina",
+     "stopIds": [
+      "saleya",
+      "rossetti",
+      "vieux",
+      "castle"
+     ],
+     "editorialNote": "Mercado por la mañana si funciona; lunes no prometer alimentos. Catedral por fuera si cierra o hay culto. Colina por acceso apto y tiempo adecuado: si ascensor no opera no obligar escalera. Lascaris como alternativa interior en vez de alargar todas las visitas.",
+     "optionalStopIds": [
+      "lascaris",
+      "promenade"
+     ],
+     "pacing": "Estimación editorial con pausas y acceso elegido por fecha, sin reserva."
+    },
+    {
+     "title": "Cimiez, Matisse y jardín",
+     "zone": "Transporte a Cimiez → museo → arena → jardín",
+     "stopIds": [
+      "matisse",
+      "arenes",
+      "monastery"
+     ],
+     "editorialNote": "Matisse como único museo largo, con calendario. Lignes dAzur y museo publican 5/16/18/33/40 a Arènes/Musée Matisse: elegir origen/regreso por fecha, no subir caminando desde casco por defecto. Chagall sustituye Matisse, con acceso a Cimiez bajo y posible pausa 13-14:30, no se suman ambos más arqueología. Si martes cierran museos, cambiar orden o hacer parques y otro plan.",
+     "optionalStopIds": [
+      "chagall"
+     ],
+     "pacing": "Estimación editorial con pausas y acceso elegido por fecha, sin reserva."
+    },
+    {
+     "title": "Paseo de mar, museo y plazas",
+     "zone": "Promenade → Villa Masséna → Masséna → Paillon → Garibaldi → puerto",
+     "stopIds": [
+      "promenade",
+      "villamassena",
+      "massena",
+      "paillon",
+      "garibaldi",
+      "port"
+     ],
+     "editorialNote": "Solo tramo céntrico de Promenade, no 7 km. Villa Masséna como interior principal si abre; paseo por plazas y puerto con pausas. Si se hace largo, recortar puerto o usar transporte. No añadir Cimiez, museo extra ni excursión este día.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial con pausas y acceso elegido por fecha, sin reserva."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "MAMAC cerrado por obras desde el 7 de enero de 2024, programación fuera de sede no equivale a museo abierto. No se ofrece como parada interior.",
+  "Cimiez Matisse, arqueología y Chagall son alternativas por interés y calendario, no tres entradas programadas en una tarde.",
+  "Ascensor Colina del Castillo existe según turismo, pero estado operativo pendiente para fecha. No garantía de ruta sin escalones."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros · Niza",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-en-niza/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tourism",
+   "title": "Turismo oficial ·1/2/3días en Niza",
+   "url": "https://www.explorenicecotedazur.com/en/explore/towns-villages/coastal-area/nice/what-to-do-in-nice/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "market",
+   "title": "Ville de Nice · reglamento mercados",
+   "url": "https://www.nice.fr/ressources/reglement-general-des-marches-traditionnels-de-la-ville-de-nice/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cathedral",
+   "title": "Sainte-Réparate · apertura",
+   "url": "https://cathedrale-nice.fr/contact/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "lascaris",
+   "title": "Ville de Nice · Palais Lascaris",
+   "url": "https://www.nice.fr/lieux/palais-lascaris/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "castle",
+   "title": "Ville de Nice · Colline du Château",
+   "url": "https://www.nice.fr/lieux/parc-de-la-colline-du-chateau/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "matisse",
+   "title": "Musée Matisse · apertura y cierre excepcional",
+   "url": "https://www.musee-matisse-nice.org/fr/informations-pratiques/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "garden",
+   "title": "Ville de Nice · jardín Cimiez",
+   "url": "https://www.nice.fr/lieux/jardin-du-monastere-de-cimiez/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "archaeology",
+   "title": "Arqueología Cimiez · horarios",
+   "url": "https://www.musee-archeologie-nice.org/infos-pratiques/horaires-acces-tarifs/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "chagall",
+   "title": "Museo Chagall · condiciones actuales",
+   "url": "https://musees-nationaux-alpesmaritimes.fr/chagall/informations-pratiques",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "villamassena",
+   "title": "Ville de Nice · Masséna",
+   "url": "https://www.nice.fr/lieux/musee-massena/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "paillon",
+   "title": "Ville de Nice · Paillon",
+   "url": "https://www.nice.fr/lieux/promenade-du-paillon/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "villefranche",
+   "title": "Turismo oficial · acceso Villefranche",
+   "url": "https://www.explorenicecotedazur.com/explorer/villes-villages/littoral/villefranche-sur-mer/comment-venir/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vf-train",
+   "title": "Municipio Villefranche · estación",
+   "url": "https://www.villefranche-sur-mer.fr/ma-ville/transports-stationnement-villefranche-sur-mer/transports/trains/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "eze-access",
+   "title": "Turismo oficial · acceso Èze",
+   "url": "https://www.explorenicecotedazur.com/en/explore/towns-villages/coastal-area/eze/get-to-eze/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "eze-garden",
+   "title": "Jardin Exotique · horario propio",
+   "url": "https://jardinexotique-eze.fr/informations/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "eze-garden-tourism",
+   "title": "Turismo oficial · jardín Èze cierre25 de diciembre de 2026",
+   "url": "https://www.explorenicecotedazur.com/culture/jardin-exotique-deze/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bus82",
+   "title": "Lignes dAzur ·82porEzeVillage",
+   "url": "https://autourdemoi.lignesdazur.com/en/schedules/line/82",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mamac",
+   "title": "MAMAC · cierre por obras",
+   "url": "https://www.mamac-nice.org/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

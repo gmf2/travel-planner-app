@@ -1,0 +1,275 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "ID",
+ "country": "Indonesia",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Java y sur de Bali: Yakarta, Yogyakarta, Malang y Bali, con Bromo solo como excursión condicionada. No cubre Sumatra, Borneo, Sulawesi, Lombok, Flores, Papúa ni todo el archipiélago.",
+ "verificationLimits": [
+  "La fuente comercial propone ascenso al cráter de Bromo, incompatible con la prohibición actual del parque. Se retira; solo mirador autorizado si condiciones y guía lo permiten.",
+  "Trenes KAI y vuelo SUB-DPS son corredores, no disponibilidad elegida. Duraciones de Accor y Kompas orientativas; no se garantiza apertura volcánica.",
+  "Love Bali confirma tasa de 150.000 IDR por turista extranjero, una vez durante el viaje antes de salir de Indonesia, con excepciones. No equivale a visado ni precio total de viaje."
+ ],
+ "routes": [
+  {
+   "id": "id-java-bali-14",
+   "title": "Java y Bali · 14 días",
+   "scope": "Java y sur de Bali: Yakarta, Yogyakarta, Malang y Bali, con Bromo solo como excursión condicionada. No cubre Sumatra, Borneo, Sulawesi, Lombok, Flores, Papúa ni todo el archipiélago.",
+   "pace": "14 días / 13 noches: Yakarta 3, Yogyakarta 4, Malang 2, sur de Bali 4. Últimos días tranquilos intencionales.",
+   "assumptions": "Adaptación editorial de Mercure/Accor sin recomendar sus hoteles ni contratar tours. Llegada CGK, salida DPS; trenes de día y conductor local para carretera. Bromo no es visita garantizada ni ascenso permitido. Tasa y documentación según pasaporte y fechas.",
+   "sources": [
+    {
+     "id": "accor",
+     "title": "Mercure/Accor · Java y Bali, base editorial",
+     "url": "https://mercure.accor.com/en/mercure-local-guide/cultural-treasures/2-week-indonesia-itinerary.html"
+    },
+    {
+     "id": "bromo",
+     "title": "Parque nacional Bromo · prohibición radio 1 km del cráter",
+     "url": "https://bromotenggersemeru.id/"
+    },
+    {
+     "id": "temple",
+     "title": "Borobudur · entrada oficial a estructura",
+     "url": "https://ticket.borobudurpark.com/en/borobudur-temple/"
+    },
+    {
+     "id": "sunrise",
+     "title": "Borobudur · producto amanecer distinto",
+     "url": "https://ticket.borobudurpark.com/en/borobudur-sunrise/"
+    },
+    {
+     "id": "levy",
+     "title": "Love Bali · tasa oficial y excepciones",
+     "url": "https://lovebali.baliprov.go.id/faq"
+    },
+    {
+     "id": "kai",
+     "title": "KAI · corredor Gambir-Yogyakarta y consulta de trenes",
+     "url": "https://www.kai.id/publikasi/artikel-berita/mau-ke-jakarta-atau-balik-lagi-ke-kota-favorit-9-ka-tambahan-siap-temani-perjalanan"
+    },
+    {
+     "id": "rail",
+     "title": "Kompas · Malioboro Ekspres según Gapeka, fuente secundaria",
+     "url": "https://www.kompas.com/jawa-tengah/read/2026/01/22/130000588/jadwal-malioboro-ekspres-malang-purwokerto-januari-2026-cek-harga"
+    },
+    {
+     "id": "flight",
+     "title": "Garuda · corredor Surabaya-Denpasar",
+     "url": "https://www.garuda-indonesia.com/flights/en-id/flights-from-surabaya-to-bali-denpasar"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Indonesia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=indonesia"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Yakarta",
+     "overnight": "Yakarta",
+     "stops": [
+      "Llegada, traslado y descanso"
+     ],
+     "transfer": "Aeropuerto-alojamiento con transporte elegido; no fijar Kota Tua como visita obligatoria tras vuelo.",
+     "sourceIds": [
+      "accor",
+      "maec"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Yakarta histórico",
+     "overnight": "Yakarta",
+     "stops": [
+      "Kota Tua",
+      "Entorno histórico y comida por barrio"
+     ],
+     "transfer": "Traslados urbanos y tramos a pie. No añadir Monas y Blok M si obliga a cruzar toda la ciudad; acceso a museos según día.",
+     "sourceIds": [
+      "accor"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Yakarta urbano",
+     "overnight": "Yakarta",
+     "stops": [
+      "Monas según acceso confirmado",
+      "Pasar Baru o Sabang como opción"
+     ],
+     "transfer": "Elegir zonas y transporte con tráfico. Se conserva segundo día completo antes del tren; no se prometen varios interiores abiertos.",
+     "sourceIds": [
+      "accor"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Tren a Yogyakarta",
+     "overnight": "Yogyakarta",
+     "stops": [
+      "Traslado ferroviario",
+      "Malioboro solo si queda margen"
+     ],
+     "transfer": "Corredor KAI Gambir-Yogyakarta publicado por operador; Accor estima 6-6,5 h según tren. Seleccionar salida y estación exacta para fecha, sin asumir servicio extra de septiembre todo el año. No añadir taller con hora de entrada fija.",
+     "sourceIds": [
+      "accor",
+      "kai"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Borobudur",
+     "overnight": "Yogyakarta",
+     "stops": [
+      "Borobudur como visita principal"
+     ],
+     "transfer": "Ida y vuelta por carretera con conductor, Accor estima 1-1,5 h por trayecto sin tráfico garantizado. Estructura con entrada guiada y cupo específico; producto amanecer de las 04:00 distinto y opcional, no incluido en billete genérico. No programar ambos ni prometer plaza.",
+     "sourceIds": [
+      "accor",
+      "temple",
+      "sunrise"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Prambanan",
+     "overnight": "Yogyakarta",
+     "stops": [
+      "Conjunto de Prambanan",
+      "Ballet Ramayana opcional con calendario confirmado"
+     ],
+     "transfer": "Excursión de ida y vuelta desde Yogyakarta. Accor orienta 30-45 min de carretera por trayecto; sumar tráfico. No presentar espectáculo como diario ni entrada incluida.",
+     "sourceIds": [
+      "accor"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Yogyakarta y margen cultural",
+     "overnight": "Yogyakarta",
+     "stops": [
+      "Keraton o Taman Sari según horario",
+      "Batik o Kotagede como alternativa"
+     ],
+     "transfer": "Día urbano en la misma base; seleccionar dos actividades, no todos los palacios, talleres y compras.",
+     "sourceIds": [
+      "accor"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Yogyakarta a Malang",
+     "overnight": "Malang",
+     "stops": [
+      "Jornada de tren y alojamiento"
+     ],
+     "transfer": "Accor estima unas 6 h de tren. Kompas describe Malioboro Ekspres diurno según Gapeka, no reserva ni horario confirmado para tu fecha. Verificar en KAI antes de fijar hotel; sin excursión al volcán al llegar.",
+     "sourceIds": [
+      "accor",
+      "rail",
+      "kai"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Malang y Bromo solo como opción condicionada",
+     "overnight": "Malang",
+     "stops": [
+      "Paseo tranquilo por Malang como alternativa base",
+      "Mirador autorizado de Bromo solo si se elige y condiciones permiten"
+     ],
+     "transfer": "Excursión con guía profesional y 4x4, ida y vuelta con tiempos y ruta confirmados. No se copia ascenso al cráter de Accor: el parque prohíbe entrar en radio 1 km, máximo Pura Luhur Poten. Sin salida nocturna automática para amanecer; MAEC recomienda evitar carretera nocturna. Si no encaja visita diurna autorizada, quedarse en Malang.",
+     "sourceIds": [
+      "accor",
+      "bromo",
+      "maec"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "Malang, Surabaya y vuelo a Bali",
+     "overnight": "Sur de Bali",
+     "stops": [
+      "Traslado al aeropuerto SUB",
+      "Vuelo a Denpasar DPS",
+      "Alojamiento y descanso"
+     ],
+     "transfer": "Carretera Malang-aeropuerto de Surabaya más vuelo SUB-DPS, corredor publicado por Garuda. No usar 1 h 15 de Accor como llegada garantizada al aeropuerto: sumar tráfico, check-in y conexiones. Bali va una hora por delante de Java. Sin tour al llegar; escoger vuelo antes de fijar traslado.",
+     "sourceIds": [
+      "accor",
+      "flight"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "Bali cultural desde la misma base",
+     "overnight": "Sur de Bali",
+     "stops": [
+      "Excursión a Ubud",
+      "Terrazas de Tegallalang solo si margen y condiciones permiten"
+     ],
+     "transfer": "Ida y vuelta con conductor desde base sur. Accor propone excursión; no presentarla como paseo cercano ni sumar cascada, varios templos y snorkel. No contacto con monos ni baño obligatorio.",
+     "sourceIds": [
+      "accor",
+      "maec"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Costa tranquila",
+     "overnight": "Sur de Bali",
+     "stops": [
+      "Paseo costero y descanso",
+      "Templo de Uluwatu opcional con transporte y acceso elegidos"
+     ],
+     "transfer": "Jornada flexible sin ferry ni cambio de isla. Playa no significa mar apto para baño: corrientes, avisos y tiempo mandan.",
+     "sourceIds": [
+      "accor",
+      "maec"
+     ]
+    },
+    {
+     "day": 13,
+     "title": "Bali con margen",
+     "overnight": "Sur de Bali",
+     "stops": [
+      "Día libre de recuperación",
+      "Actividad local a elegir, sin reserva incluida"
+     ],
+     "transfer": "Misma base; día lento intencionado, no nueva lista de imprescindibles. No Nusa Penida ni snorkel impuestos por una guía comercial. Puede acortarse si no se desea descanso; no quitar márgenes de conexión previos.",
+     "sourceIds": [
+      "accor"
+     ]
+    },
+    {
+     "day": 14,
+     "title": "Salida desde Bali",
+     "overnight": null,
+     "stops": [
+      "Traslado a DPS según vuelo"
+     ],
+     "transfer": "Noche previa en el sur de Bali. Antelación según tráfico, aerolínea y terminal. Salida internacional desde DPS es supuesto de ruta, no conexión a Yakarta comprada; si vuelo sale de CGK, añadir enlace y noche según horario.",
+     "sourceIds": [
+      "accor",
+      "maec"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores advierte actividad volcánica, terremotos y posibles cierres de aeropuertos. Revisar avisos locales, seguro con evacuación y no salir a carretera de noche. Papúa está desaconsejada y queda fuera, pero Java/Bali no se declaran seguras por exclusión. Bromo mantiene prohibición radio 1 km del cráter; publicidad turística no la sustituye. Dengue, tráfico, corrientes y robos requieren precaución; no motos ni actividades acuáticas añadidas como algo inocuo.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=indonesia"
+ },
+ "photo": {
+  "img": "assets/routes/id.jpg",
+  "name": "Templo de Prambanan, Java",
+  "source": "https://commons.wikimedia.org/wiki/File:Prambanan_temple%2C_Central_Java%2C_Indonesia%2C_20220818_1311_9139.jpg",
+  "author": "Jakub Hałun",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "caption": "Foto de archivo de 2022, reducida de tamaño. No confirma acceso actual ni representa todo el archipiélago."
+ }
+}

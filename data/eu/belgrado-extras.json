@@ -1,0 +1,106 @@
+{
+ "schemaVersion": 1,
+ "cityId": "belgrado",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "iva",
+   "name": "Iva New Balkan Cuisine · mesa balcánica contemporánea",
+   "address": "Svetog Save14,Vračar,Belgrado",
+   "description": "Bistró de cocina balcánica contemporánea cerca de San Sava. La casa cita queso al horno, rollos de trigo sarraceno, rabo de buey con ñoquis y hamburguesa de lentejas; platos por confirmar en carta del día.",
+   "strength": "Gault&Millau2026 describe cocina local reinterpretada y ya da la dirección nueva. Críticas anteriores de StariGrad sirven para el concepto, no para ubicación o ambiente actuales.",
+   "alert": "Carta con precios vigente sin recuperar. No estimación de total ni coste de bebida inventados.",
+   "compactAlert": "Propio: lun-sáb9-24;domingo9-23. Dirección nueva desde4mayo2026.",
+   "caution": "Se mudó aSvetogSave14,Vračar;no enviar al antiguo local deStariGrad ni usar sus fotos como comedor actual. Fuente propia28abr2026 yMaps coinciden. Menú por plato/precios/alérgenos actuales y disponibilidad de mesa pendientes. Foto real gastronómica pendiente; ilustración IA conceptual disponible. No reserva ni precio final confirmado.",
+   "officialUrl": "https://newbalkancuisine.com/en/iva/",
+   "editorialUrl": "https://rs.gaultmillau.com/en/restaurants/iva-new-balkan-cuisine",
+   "sourceUrls": [
+    "https://newbalkancuisine.com/en/iva-new-balkan-cuisine-at-the-new-address/",
+    "https://thecitylane.com/iva-new-balkan-cuisine-stari-grad/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Iva+New+Balkan+Cuisine&query_place_id=ChIJuWbCdsZ7WkcRy_h1tuAKFWs",
+   "status": "source-conflict",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Mudanza y horario propios actuales, crítica2026/Maps coinciden. Carta con precios no encontrada en páginas consultadas;lecturaHTMLdirecta406.",
+   "priceLabel": "Precios de comida y bebida por confirmar, sin total estimado.",
+   "compactPrice": "Precio pendiente.",
+   "photo": {
+    "img": "assets/belgrado/iva-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes balcánicos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes balcánicos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "tesla-visit",
+   "name": "Museo Nikola Tesla",
+   "description": "El museo del genio de la corriente alterna: sus cenizas en la esfera dorada, patentes, cartas y la demostración con bobinas de Tesla que echa chispas, siempre con visita guiada por horas.",
+   "strength": "Parada ya existente; no duplicar visita ni entrada.",
+   "alert": "800 RSD individual en inglés; 400 RSD en serbio. Grupos de más de 10: 500/250 RSD. Solo efectivo en moneda local, no tarjetas.",
+   "caution": "Tours al inicio de cada hora, unos 45 minutos. La tabla de idiomas y aforo es del 3 de noviembre de 2026, no un horario anual fijo. Verificar el día. Sin reserva individual; recomiendan llegar 15 minutos antes. Grupos de más de 10: reservar al menos 1 día antes. Llegar no garantiza plaza.",
+   "officialUrl": "https://tesla-museum.org/en/visit/plan-your-visit/",
+   "sourceUrls": [
+    "https://tesla-museum.org/en/visit/plan-your-visit/"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "priceLabel": "800 RSD individual en inglés; 400 RSD en serbio. Grupos de más de 10: 500/250 RSD. Solo efectivo en moneda local, no tarjetas.",
+   "photo": {
+    "img": "assets/belgrado/tesla-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo Tesla, villa imaginada sin inventos inventados. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo Tesla, villa imaginada sin inventos inventados. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual. Imagen del lugar, no del producto contratado ni de salas abiertas.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "compactPrice": "800 RSD en inglés / 400 RSD en serbio, individual.",
+   "compactAlert": "Solo efectivo RSD. Visita guiada, aforo limitado; llegar no garantiza plaza.",
+   "realPhotoPending": true,
+   "visualScope": "Exterior o entorno del lugar; no muestra la actividad, las salas ni el producto contratado."
+  },
+  {
+   "id": "casa_flores-visit",
+   "name": "Casa de las Flores y Museo de Yugoslavia",
+   "description": "La memoria de la Yugoslavia de Tito: su tumba en el invernadero de la Casa de las Flores, el Museo 25 de Mayo con los regalos de estado y las antorchas del relevo de la juventud, y el relato del país que ya no existe.",
+   "strength": "Parada ya existente; no duplicar visita ni entrada.",
+   "alert": "800 RSD general; 600 RSD residentes en Serbia. Estudiantes/alumnos: 400 RSD, o 200 RSD si además son residentes. Menores de 10 años gratis y visitas individuales gratis el primer jueves del mes. Documentos para reducciones.",
+   "caution": "Martes a domingo 10-18; lunes cerrado. La web señala cierres el 1 y 7 de enero y en Pascua ortodoxa (10, 12 y 13 de abril): esas fechas corresponden a 2026, no a todos los años. Tour en inglés los sábados a las 11 según página actual. Traslado desde San Sava pendiente de operador; no se garantizan líneas 40/41.",
+   "officialUrl": "https://muzej-jugoslavije.org/en/posetite-nas/",
+   "sourceUrls": [
+    "https://muzej-jugoslavije.org/en/posetite-nas/"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "priceLabel": "800 RSD general; 600 RSD residentes en Serbia. Estudiantes/alumnos: 400 RSD, o 200 RSD si además son residentes. Menores de 10 años gratis y visitas individuales gratis el primer jueves del mes. Documentos para reducciones.",
+   "photo": {
+    "img": "assets/belgrado/casa_flores-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Casa de las Flores, concepto de jardín y edificio, no reproducción del memorial. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Casa de las Flores, concepto de jardín y edificio, no reproducción del memorial. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual. Imagen del lugar, no del producto contratado ni de salas abiertas.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "compactPrice": "800 RSD general; reducciones con documento.",
+   "compactAlert": "Lunes cerrado. Ya es una parada del planning: no duplicar visita ni entrada.",
+   "realPhotoPending": true,
+   "visualScope": "Exterior o entorno del lugar; no muestra la actividad, las salas ni el producto contratado."
+  }
+ ]
+}

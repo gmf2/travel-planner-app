@@ -1,0 +1,580 @@
+{
+ "schemaVersion": 1,
+ "country": "IT",
+ "id": "cinqueterre",
+ "name": "Cinque Terre",
+ "localName": "Cinque Terre",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "la_spezia",
+   "name": "La Spezia, la base operativa",
+   "kind": "walk",
+   "zone": "La Spezia",
+   "reason": "La puerta de las Cinque Terre: estación central desde la que sale el tren a los cinco pueblos, el paseo del puerto, el castillo de San Giorgio con su museo y el mercado de Piazza Cavour.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.10651,
+    "lon": 9.821563
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Castello%20San%20Giorgio%2C%20La%20Spezia%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ciudad libre; castillo/museos de pago (entrada reducida con la Trekking Card, según el parque).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/cinqueterre/la_spezia-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: La Spezia, concepto de paseo junto al puerto. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en La Spezia, concepto de paseo junto al puerto. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "riomaggiore",
+   "name": "Riomaggiore, el primer pueblo",
+   "kind": "walk",
+   "zone": "Riomaggiore",
+   "reason": "El pueblo más oriental: casas torre de colores bajando al puertecito, el castillo del siglo XIII y el inicio de la Via dell'Amore hacia Manarola.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "pct",
+    "amore-own",
+    "amore-faq-own"
+   ],
+   "coordinates": {
+    "lat": 44.098975,
+    "lon": 9.73867
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Riomaggiore%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Via Amore un sentido Riomaggiore→Manarola, 30 min aprox y reserva obligatoria. Card no garantiza plaza. FAQ de recorrido habla no modificable/no reembolsable salvo alerta meteorológica declarada, mientras Trenitalia Card no reembolsable; verificar condiciones del producto antes de pago. Nada comprado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Parque publica 26 oct 2026-28 mar 2027 9-18, última 17:30; FAQ del recorrido usa 25 oct-27 mar y cierre reservas 17:30. Fechas de bordes no concordantes. No horario 01:00 para turista sin categoría especial.",
+    "source": "https://www.parconazionale5terre.it/pagina.php?id=480"
+   },
+   "price": "Paseo urbano sin billete único; Via Amore incluida según parque en Trekking/Treno Card pero exige reserva de franja y cupo. No se vende entrada independiente según FAQ. La FAQ antigua habla de suplemento y contradice página parque actual sin coste adicional: comprobar producto final.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/cinqueterre/riomaggiore.jpg",
+    "source": "https://www.pexels.com/photo/colorful-coastal-village-of-riomaggiore-italy-38541332/",
+    "author": "Mihaela Claudia Puscas",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Puertecito y casas de Riomaggiore. No muestra la Via dell’Amore.",
+    "alt": "Puertecito y casas de Riomaggiore. No muestra la Via dell’Amore."
+   },
+   "accessRules": {
+    "scope": "Via dell’Amore, no paseo urbano",
+    "noticeLabel": "Via dell’Amore, no paseo urbano",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-03-28",
+    "notices": [
+     "Via dell’Amore exige reserva con cupo, entrada desde Riomaggiore y salida Manarola, sentido único para visitante ordinario. Avisos, meteorología y hora del billete prevalecen; no confirma senderos abiertos."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "manarola",
+   "name": "Manarola, casas sobre el mar",
+   "kind": "walk",
+   "zone": "Manarola",
+   "reason": "Casas de colores sobre la costa y paseo por el pueblo. Cualquier recorrido fuera del casco requiere comprobar acceso y estado del sendero; no se presupone conexión a pie con Corniglia.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.106326,
+    "lon": 9.727481
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Manarola%2C%20Riomaggiore%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/cinqueterre/manarola.jpg",
+    "source": "https://www.pexels.com/photo/colorful-cliffside-village-of-manarola-italy-37961030/",
+    "author": "Jarod Barton",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Manarola sobre el mar. Foto de archivo, no estado actual de oleaje ni senderos.",
+    "alt": "Manarola sobre el mar. Foto de archivo, no estado actual de oleaje ni senderos."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "corniglia",
+   "name": "Corniglia, el pueblo del acantilado",
+   "kind": "walk",
+   "zone": "Corniglia",
+   "reason": "Pueblo elevado sobre la costa, separado de su estación por una subida. Se puede elegir el bus local en lugar de las escaleras, sin presuponer una conexión inmediata con el tren.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "pct",
+    "atc-own",
+    "park-bus-nov",
+    "park-bus-pdf"
+   ],
+   "coordinates": {
+    "lat": 44.119961,
+    "lon": 9.708687
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Corniglia%2C%20Vernazza%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "El parque publica desde el 03/11/2026 un bus estación-pueblo: ejemplos diarios 09:40 → 09:45 y vuelta pueblo-estación 16:15 → 16:20. Son horas de tabla, no plaza ni enlace ferroviario garantizado. La Card incluye este servicio local; sin Card, confirmar billete ATC. El bus local no es un sustituto general del tren entre los cinco pueblos ni cubre La Spezia/Portovenere. Obras ferroviarias siguen vigentes según la fecha.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Pueblo libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/cinqueterre/corniglia.jpg",
+    "source": "https://www.pexels.com/photo/corniglia-cinque-terre-italy-6196707/",
+    "author": "superphoto.be",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Corniglia en el promontorio. No muestra la escalera de acceso desde la estación.",
+    "alt": "Corniglia en el promontorio. No muestra la escalera de acceso desde la estación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "vernazza",
+   "name": "Vernazza y su puerto",
+   "kind": "walk",
+   "zone": "Vernazza",
+   "reason": "Dársena junto a casas de colores, la iglesia de Santa Margherita d’Antiochia y la zona del castillo. El mirador exige verificar acceso y condiciones.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "trail-closure-own",
+    "trail-list-own"
+   ],
+   "coordinates": {
+    "lat": 44.134941,
+    "lon": 9.682776
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Vernazza%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "No se propone sendero costero como conexión garantizada. Aviso 10 sept 2026 cierra Corniglia-Vernazza-Monterosso por geología; listado actual clasifica ambos tramos EE/expertos sin rótulo Cerrado, contradicción no resuelta. Manarola-Corniglia sí marcado Cerrado. Confirmar parte diario antes de caminar, no usar la tarjeta como permiso de acceso.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Pueblo libre; torre Doria de pago (tarifa no verificada).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/cinqueterre/vernazza.jpg",
+    "source": "https://www.pexels.com/photo/vernazza-village-view-in-cinque-terre-italy-38466311/",
+    "author": "Mihaela Claudia Puscas",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Puerto y casas de Vernazza. No acredita el estado de los senderos.",
+    "alt": "Puerto y casas de Vernazza. No acredita el estado de los senderos."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "monterosso",
+   "name": "Monterosso al Mare, el de la playa",
+   "kind": "walk",
+   "zone": "Monterosso",
+   "reason": "Casco viejo y zona de Fegina junto al mar. Playa según condiciones, con convento de los capuchinos y monumento al Gigante como opciones de paseo.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "trail-closure-own",
+    "trail-list-own"
+   ],
+   "coordinates": {
+    "lat": 44.146522,
+    "lon": 9.655558
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Monterosso%20al%20Mare%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "No se propone sendero costero como conexión garantizada. Aviso 10 sept 2026 cierra Corniglia-Vernazza-Monterosso por geología; listado actual clasifica ambos tramos EE/expertos sin rótulo Cerrado, contradicción no resuelta. Manarola-Corniglia sí marcado Cerrado. Confirmar parte diario antes de caminar, no usar la tarjeta como permiso de acceso.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Pueblo libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/cinqueterre/monterosso.jpg",
+    "source": "https://www.pexels.com/photo/scenic-view-of-beach-and-village-in-monterosso-al-mare-30720432/",
+    "author": "May Vanhille",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Playa y casco de Monterosso. Foto de archivo, no garantiza condiciones de baño.",
+    "alt": "Playa y casco de Monterosso. Foto de archivo, no garantiza condiciones de baño."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "portovenere",
+   "name": "Portovenere y la isla de Palmaria",
+   "kind": "walk",
+   "zone": "Porto Venere",
+   "reason": "La sexta perla del golfo (Unesco con las Cinque Terre): la iglesia de San Pietro asomada al mar sobre las rocas, el castillo Doria y el paseo de las casas-cortina del puerto.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "atc-own"
+   ],
+   "coordinates": {
+    "lat": 44.05066,
+    "lon": 9.834459
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Porto%20Venere%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "No tren al pueblo. Bus ATC o barco sujetos a horarios/temporada; no se ha confirmado enlace ni vuelta en fecha. Día alternativo desde La Spezia, no remate tras Monterosso.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Pueblo libre; castillo Doria de pago (tarifa no verificada).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/cinqueterre/portovenere.jpg",
+    "alt": "Portovenere: frente de casas de colores junto al puerto y castillo Doria en la colina. No confirma barcos ni rutas en una fecha concreta.",
+    "caption": "Portovenere: frente de casas de colores junto al puerto y castillo Doria en la colina. No confirma barcos ni rutas en una fecha concreta.",
+    "author": "Photo Wallpapers",
+    "source": "https://www.pexels.com/photo/scenic-view-of-porto-venere-s-colorful-waterfront-33903992/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://lamialiguria.it/en/localita/portovenere-town/"
+   },
+   "transport": "Consultar ATC y avisos operativos para salida/retorno; no prometer barco invernal.",
+   "photoPending": false
+  },
+  {
+   "id": "levanto",
+   "name": "Levanto, la puerta norte",
+   "kind": "walk",
+   "zone": "Levanto",
+   "reason": "La villa de playa al otro lado de Monterosso: paseo marítimo, el casco medieval y el inicio del sendero SVA hacia Monterosso (tramo incluido en la Trekking Card con Podere Case Lovara).",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "pct"
+   ],
+   "coordinates": {
+    "lat": 44.169906,
+    "lon": 9.61204
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Levanto%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/cinqueterre/levanto-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Levanto, bahía imaginada en verano. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Levanto, bahía imaginada en verano. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "portofino",
+   "name": "Portofino y Santa Margherita Ligure",
+   "kind": "excursion",
+   "zone": "Portofino",
+   "reason": "Puerto de Portofino como jornada independiente. Castillo Brown y San Fruttuoso son opciones distintas con accesos y condiciones propios; no se incluyen automáticamente en una misma salida.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.303253,
+    "lon": 9.209558
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Portofino%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 480,
+   "durationType": "editorial-estimate",
+   "caution": "Excursión aparte con transbordos y retornos por verificar; no prometer San Fruttuoso añadido ni 2 h senderismo sin comprobación actual. Barcos estacionales.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Castillo Brown y San Fruttuoso (FAI) de pago; tarifas no verificadas en primaria.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/cinqueterre/portofino-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Portofino, puerto imaginado sin operador de barco. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Portofino, puerto imaginado sin operador de barco. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "transport": "La Spezia-Santa Margherita Ligure-Portofino y conexión local aún pendientes para fecha.",
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "genova",
+   "name": "Génova: jornada urbana aparte",
+   "kind": "excursion",
+   "zone": "Génova",
+   "reason": "Jornada aparte en Génova, con Piazza De Ferrari y una zona del casco o del puerto. Elegir un interior principal según reserva, sin dar por verificados viaje y regreso.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.40726,
+    "lon": 8.933862
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Genova%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "Si Génova es etapa propia del viaje, usar su paquete específico.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acuario y palacios de pago; tarifas no verificadas esta sesión.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/genoa/ferrari.jpg",
+    "source": "https://www.flickr.com/photos/kentwang/50572424197/",
+    "author": "Kent Wang",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Piazza De Ferrari en Génova. Foto de archivo de 2020; no muestra toda la ciudad.",
+    "alt": "Piazza De Ferrari en Génova. Foto de archivo de 2020; no muestra toda la ciudad."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Riomaggiore y Manarola",
+     "stopIds": [
+      "riomaggiore",
+      "manarola"
+     ],
+     "optionalStopIds": [
+      "la_spezia"
+     ],
+     "editorialNote": "La Spezia es base y opción de paseo aparte, no mañana de castillo+mercado obligatoria antes de dos pueblos. Via Amore solo con franja reservada y estado permitido; sin franja usar tren si opera, no sendero alternativo inventado.",
+     "pacing": "Esquema editorial en tren, no ruta de conducción entre pueblos. Revisar trenes de ida y regreso, acceso de estación a pueblo, comida y luz. Card no garantiza tren operativo ni sendero abierto; obras anunciadas en fines de semana concretos."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Riomaggiore y Manarola",
+     "stopIds": [
+      "riomaggiore",
+      "manarola"
+     ],
+     "optionalStopIds": [
+      "la_spezia"
+     ],
+     "editorialNote": "La Spezia es base y opción de paseo aparte, no mañana de castillo+mercado obligatoria antes de dos pueblos. Via Amore solo con franja reservada y estado permitido; sin franja usar tren si opera, no sendero alternativo inventado.",
+     "pacing": "Esquema editorial en tren, no ruta de conducción entre pueblos. Revisar trenes de ida y regreso, acceso de estación a pueblo, comida y luz. Card no garantiza tren operativo ni sendero abierto; obras anunciadas en fines de semana concretos."
+    },
+    {
+     "title": "Corniglia y Vernazza",
+     "stopIds": [
+      "corniglia",
+      "vernazza"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Traslados en tren si operan. No sendero costero por defecto: aviso de cierre y listado actual discrepan. No convertir 2 h teóricas en camino disponible.",
+     "pacing": "Esquema editorial en tren, no ruta de conducción entre pueblos. Revisar trenes de ida y regreso, acceso de estación a pueblo, comida y luz. Card no garantiza tren operativo ni sendero abierto; obras anunciadas en fines de semana concretos."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Riomaggiore y Manarola",
+     "stopIds": [
+      "riomaggiore",
+      "manarola"
+     ],
+     "optionalStopIds": [
+      "la_spezia"
+     ],
+     "editorialNote": "La Spezia es base y opción de paseo aparte, no mañana de castillo+mercado obligatoria antes de dos pueblos. Via Amore solo con franja reservada y estado permitido; sin franja usar tren si opera, no sendero alternativo inventado.",
+     "pacing": "Esquema editorial en tren, no ruta de conducción entre pueblos. Revisar trenes de ida y regreso, acceso de estación a pueblo, comida y luz. Card no garantiza tren operativo ni sendero abierto; obras anunciadas en fines de semana concretos."
+    },
+    {
+     "title": "Corniglia y Vernazza",
+     "stopIds": [
+      "corniglia",
+      "vernazza"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Traslados en tren si operan. No sendero costero por defecto: aviso de cierre y listado actual discrepan. No convertir 2 h teóricas en camino disponible.",
+     "pacing": "Esquema editorial en tren, no ruta de conducción entre pueblos. Revisar trenes de ida y regreso, acceso de estación a pueblo, comida y luz. Card no garantiza tren operativo ni sendero abierto; obras anunciadas en fines de semana concretos."
+    },
+    {
+     "title": "Monterosso con margen",
+     "stopIds": [
+      "monterosso"
+     ],
+     "optionalStopIds": [
+      "portovenere",
+      "levanto"
+     ],
+     "editorialNote": "Una localidad principal con playa según clima. Portovenere sustituye toda la jornada con transporte verificado desde La Spezia; Levanto otra alternativa, no tres lugares acumulados.",
+     "pacing": "Esquema editorial en tren, no ruta de conducción entre pueblos. Revisar trenes de ida y regreso, acceso de estación a pueblo, comida y luz. Card no garantiza tren operativo ni sendero abierto; obras anunciadas en fines de semana concretos."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Via dell’Amore: reserva obligatoria y sentido único desde Riomaggiore a Manarola. La Card no confirma una franja.",
+  "El aviso de cierre costero del 10 de septiembre de 2026 contradice el listado actual de dificultad. No se propone caminar entre pueblos hasta aclarar el estado.",
+  "Treno MS Card de invierno: 17,30 € por día adulto del 2 de noviembre al 31 de diciembre de 2026. No se confirma precio de 2027.",
+  "Obras de tren en los cuatro fines de semana publicados: comprobar conexiones reales antes del viaje.",
+  "Barcos, entradas a museos y conexiones de Portovenere y Portofino pendientes. Revisión del usuario pendiente; no publicado.",
+  "Cierres temporales de senderos: Variable todo el año por lluvia/desprendimientos. El estado de los senderos cambia a diario: el mapa oficial del parque (parconazionale 5 terre.it) es la fuente que manda; la Trekking Card solo cubre los tramos abiertos. Sin calendario confirmado para el modo Navidad."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "cmv",
+   "title": "Comiviajeros: qué ver en Cinque Terre",
+   "url": "https://comiviajeros.com/que-ver-en-cinque-terre/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Cinque Terre y lugares",
+   "url": "https://es.wikipedia.org/wiki/Cinque_Terre",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pct",
+   "title": "Parque Nacional Cinque Terre: Trekking Card (tarifas y servicios)",
+   "url": "https://www.parconazionale5terre.it/pagina.php?id=149",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pctr",
+   "title": "Parque Nacional Cinque Terre: Treno MS Card (tarifas dinámicas A/B/C + tarifa invierno 2026)",
+   "url": "https://www.parconazionale5terre.it/pagina.php?id=148",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "amore-own",
+   "title": "Parque: acceso Via Amore",
+   "url": "https://www.parconazionale5terre.it/pagina.php?id=480",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "railworks-own",
+   "title": "Venta parque: cierres ferroviarios",
+   "url": "https://card.parconazionale5terre.it/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "trenitalia-own",
+   "title": "Trenitalia: invierno 2026/27 y Card",
+   "url": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/cinque-terre-in-treno.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "trail-closure-own",
+   "title": "Parque: aviso 10 sept 2026",
+   "url": "https://www.parconazionale5terre.it/dettaglio.php?id=88130",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "trail-list-own",
+   "title": "Parque: red actual",
+   "url": "https://www.parconazionale5terre.it/rete-sentieristica.php",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "amore-faq-own",
+   "title": "Via Amore: preguntas frecuentes",
+   "url": "https://www.viadellamore.info/domande-frequenti",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "atc-own",
+   "title": "ATC: horarios desde 4 oct 2026",
+   "url": "https://www.atcesercizio.it/libretto-orario/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "park-bus-nov",
+   "title": "Parque: servicio bus desde 3 noviembre 2026",
+   "url": "https://www.parconazionale5terre.it/pagina.php?id=68",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "park-bus-pdf",
+   "title": "Parque: cuadro ATC de buses locales",
+   "url": "https://www.parconazionale5terre.it/pdf/ORARI-BUS.5TERRE.pdf",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

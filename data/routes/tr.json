@@ -1,0 +1,217 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "TR",
+ "country": "Turquía",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Estambul, Capadocia y base en Selçuk para Éfeso y Pamukkale. No cubre costa mediterránea, mar Negro ni este de Anatolia.",
+ "verificationLimits": [
+  "10 días / 9 noches, ritmo activo. No es cobertura de todo el país ni un paquete reservado.",
+  "Día6 completo de conexión aérea y acceso a Selçuk, sin vuelo directo Capadocia-Izmir supuesto. Elegir enlace real vía el mismo aeropuerto de Estambul y comprobar equipaje/condiciones antes de alojamientos.",
+  "Pamukkale exige jornada larga de carretera: ejemplo de operador07-19h, no una visita breve. Prescindir de ella si buscas menos traslados, sin rellenar ese día con más destinos."
+ ],
+ "routes": [
+  {
+   "id": "tr-oeste-10",
+   "title": "Estambul, Capadocia, Éfeso y Pamukkale · 10 días",
+   "scope": "Estambul, Capadocia y base en Selçuk para Éfeso y Pamukkale. No cubre costa mediterránea, mar Negro ni este de Anatolia.",
+   "pace": "10 dias/9 noches, ritmo moderado-rapido; vuelos domesticos + traslados segun la fuente.",
+   "assumptions": "Adaptación de Trip in Turkey con noches fijas: Estambul 3, Göreme 2, Selçuk 4. Entrada IST o SAW según vuelo real; conexiones domésticas de referencia Turkish vía IST, sin dar por hecho traslado gratuito entre IST y SAW. Salida ADB. Un día entero de conexión y otro de Pamukkale; globo opcional sujeto a meteorología, no incluido ni garantizado.",
+   "sources": [
+    {
+     "id": "tt",
+     "title": "tripinturkey - 10 dias: Estambul, Capadocia, Efeso y Pamukkale",
+     "url": "https://tripinturkey.com/10-day-turkey-itinerary/"
+    },
+    {
+     "id": "ist-asr",
+     "title": "Turkish · Estambul-Kayseri",
+     "url": "https://www.turkishairlines.com/en/flights-from-istanbul-to-kayseri"
+    },
+    {
+     "id": "asr-ist",
+     "title": "Turkish · Kayseri-Estambul",
+     "url": "https://www.turkishairlines.com/en/flights-from-kayseri-to-istanbul"
+    },
+    {
+     "id": "ist-adb",
+     "title": "Turkish · Estambul-Izmir",
+     "url": "https://www.turkishairlines.com/en/flights-from-istanbul-to-izmir"
+    },
+    {
+     "id": "adb",
+     "title": "Visit Ephesus · aeropuerto y cambio en Tepeköy",
+     "url": "https://visitephesus.org/travel-info/getting-here/by-air/"
+    },
+    {
+     "id": "pam",
+     "title": "Tolira · Pamukkale desde Selçuk, jornada 07-19",
+     "url": "https://toliratours.com/tour/pamukkale-day-tour-from-kusadasi-selcuk/"
+    },
+    {
+     "id": "balloon",
+     "title": "GoTürkiye · globo y condiciones",
+     "url": "https://goturkiye.com/blog/cappadocia-hot-air-balloons-things-to-know-before-you-fly"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Turquía",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=turquia"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Estambul",
+     "overnight": "Estambul",
+     "stops": [
+      "Llegada, alojamiento y descanso",
+      "Entorno del hotel si queda margen"
+     ],
+     "transfer": "Llegada IST o SAW: elegir traslado según aeropuerto y barrio reales. Son aeropuertos distintos y alejados; no se toma uno por otro ni se añade una visita larga al aterrizar.",
+     "sourceIds": [
+      "tt"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Peninsula Historica",
+     "overnight": "Estambul",
+     "stops": [
+      "Sultanahmet y Mezquita Azul por fuera o interior si permite culto",
+      "Elegir dos interiores como máximo entre Santa Sofía, Topkapi y Cisterna, no los tres obligatorios"
+     ],
+     "transfer": "Día urbano. Ajustar a colas, horarios, entradas y oración; la lista de cuatro monumentos de la fuente no obliga a verlos todos en un día. Lo no elegido queda como alternativa, no desaparece de las opciones.",
+     "sourceIds": [
+      "tt"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Bosforo, Galata y lado asiatico",
+     "overnight": "Estambul",
+     "stops": [
+      "Elegir Bósforo en ferry o recorrido por Galata/Karaköy",
+      "Kadıköy como alternativa al otro lado, no todo obligatorio"
+     ],
+     "transfer": "Día en Estambul. Si eliges ferry, seleccionar muelle, servicio y regreso según fecha, no usar un crucero turístico como transporte público confirmado.",
+     "sourceIds": [
+      "tt"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Vuelo a Capadocia",
+     "overnight": "Göreme (Capadocia)",
+     "stops": [
+      "Traslado a la base en Göreme",
+      "Paseo breve y miradores solo si llegada y luz permiten"
+     ],
+     "transfer": "Turkish publica corredor IST-KayseriASR. Seleccionar vuelo y traslado ASR-Göreme; la página de ruta no confirma plazas ni duración total puerta a puerta. SAW e IST no son intercambiables.",
+     "sourceIds": [
+      "tt",
+      "ist-asr",
+      "balloon"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Capadocia a fondo",
+     "overnight": "Göreme (Capadocia)",
+     "stops": [
+      "Globo al amanecer solo como opción si autorizado y adecuado",
+      "Elegir museo al aire libre y valle, o ciudad subterránea con tour regional; no todos tras el globo"
+     ],
+     "transfer": "Jornada regional desde Göreme con traslados elegidos. GoTürkiye indica autorización meteorológica y posibles cancelaciones de globos; quedarse en tierra es alternativa completa, no vuelo garantizado. No vuelo doméstico este día.",
+     "sourceIds": [
+      "tt",
+      "balloon"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Día de conexión aérea a Izmir y Selçuk",
+     "overnight": "Selçuk",
+     "stops": [
+      "Göreme al aeropuerto de Kayseri",
+      "Vuelos vía Estambul, después acceso a Selçuk"
+     ],
+     "transfer": "Corredores publicados Turkish: ASR-IST e IST-ADB. Elegir conexión concreta, preferiblemente mismo billete/aeropuerto y con sus condiciones de equipaje; ninguna conexión está reservada. Después, İZBAN hacia Tepeköy y cambio a Selçuk según Visit Ephesus, con enlace elegido antes de salir. Alternativa traslado contratado por cuenta del viajero. No se presupone directo Capadocia-Izmir ni visita de Éfeso al llegar.",
+     "sourceIds": [
+      "tt",
+      "asr-ist",
+      "ist-adb",
+      "adb"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Efeso",
+     "overnight": "Selçuk",
+     "stops": [
+      "Efeso (minimo ~3 h, fuente tt)",
+      "Casas en Terraza",
+      "Entorno de Selcuk"
+     ],
+     "transfer": "Acceso local desde Selçuk a Éfeso y regreso: elegir transporte y entradas antes de visitar. No confundir estación de Selçuk con puerta de ruinas. Casas en Terraza son opción sujeta a entrada/horario; no se fija precio sin fuente actual.",
+     "sourceIds": [
+      "tt"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Pamukkale y Hierapolis",
+     "overnight": "Selçuk",
+     "stops": [
+      "Hierápolis y sector abierto de travertinos",
+      "Pausa de comida; sin piscina ni baño garantizado"
+     ],
+     "transfer": "Excursión completa Selçuk-Pamukkale-Selçuk con operador elegido. Tolira publica aproximadamente 07-19 h y 2,5 h de conducción por sentido, más recogidas/pausas/tráfico. Otro operador da 7-8 h de resumen pero su detalle añade retorno tras las 16 h: se conserva la jornada completa, no el resumen corto. No se añade Éfeso ni vuelo al regreso.",
+     "sourceIds": [
+      "tt",
+      "pam"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Sirince y ritmo lento",
+     "overnight": "Selçuk",
+     "stops": [
+      "Elegir Şirince o Museo de Éfeso en Selçuk",
+      "Resto del día libre para descanso y margen"
+     ],
+     "transfer": "Día suave en la misma base tras jornada larga. Şirince requiere traslado local seleccionado; no se añade Izmir y otra excursión además.",
+     "sourceIds": [
+      "tt"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "Salida por Izmir",
+     "overnight": null,
+     "stops": [
+      "Aeropuerto de Izmir (ADB)"
+     ],
+     "transfer": "Selçuk al aeropuerto ADB con conexión İZBAN vía Tepeköy elegida por fecha, o traslado reservado por el viajero. Sumando acceso, espera y antelación de vuelo; nada contratado. No vuelo internacional después de una excursión a Pamukkale ese mismo día.",
+     "sourceIds": [
+      "tt",
+      "adb"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores desaconseja acercarse a fronteras terrestres, en especial Siria, Irak e Irán; esta ruta occidental no las recorre. Recomienda precaución en zonas turísticas y transportes, evitar manifestaciones y conducir de día. Ninguna zona está exenta de riesgo; la ruta no se presenta como libre de restricciones ni universalmente segura. Documentación según pasaporte.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=turquia"
+ },
+ "photo": {
+  "img": "assets/routes/tr.jpg",
+  "name": "Valles y globos en Capadocia",
+  "source": "https://commons.wikimedia.org/wiki/File:Cappadocia_balloons.jpg",
+  "author": "A. Levent Tuncay (Leventtuncay)",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "caption": "Foto de archivo de Capadocia con globos. No confirma autorización de vuelo, meteorología actual ni un globo incluido en la ruta."
+ }
+}

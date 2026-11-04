@@ -1,0 +1,1260 @@
+{
+ "schemaVersion": 1,
+ "country": "MT",
+ "id": "lavaleta",
+ "name": "La Valeta",
+ "localName": "Valletta",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "tritones",
+   "name": "Fuente de los Tritones",
+   "kind": "monument",
+   "zone": "Entrada",
+   "reason": "La fuente moderna de 1959 con tres tritones de bronce sosteniendo la vasija: el punto de encuentro antes de cruzar la muralla, junto a la terminal de autobuses.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 35.8956278,
+    "lon": 14.508274
+   },
+   "coordinateSource": "nominatim: Il-Funtana tat-Tritoni, Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lavaleta/tritones.jpg",
+    "source": "https://www.pexels.com/photo/triton-fountain-in-valletta-malta-at-dusk-39362568/",
+    "author": "Ludovic Delot",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fuente de los Tritones en LaValeta.",
+    "alt": "Fuente de los Tritones en LaValeta."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "puerta",
+   "name": "Puerta de la Ciudad",
+   "kind": "monument",
+   "zone": "Entrada",
+   "reason": "La quinta puerta de la historia de la ciudad, obra de Renzo Piano (2014): el corte limpio en el bastión que abre el eje hacia el nuevo Parlamento y el teatro.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 35.8959138,
+    "lon": 14.5094221
+   },
+   "coordinateSource": "nominatim: City Gate, Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lavaleta/puerta-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Puerta de la Ciudad, concepto de bastión y paso contemporáneo. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Puerta de la Ciudad, concepto de bastión y paso contemporáneo. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "teatro_real",
+   "name": "Teatro Real (Pjazza Teatru Rjal)",
+   "kind": "monument",
+   "zone": "Entrada",
+   "reason": "La ópera de 1866 bombardeada en 1942 y reconvertida por Renzo Piano en teatro al aire libre entre las columnas supervivientes: ruina y escenario a la vez.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 35.8964838,
+    "lon": 14.5103153
+   },
+   "coordinateSource": "nominatim: Pjazza Teatru Rjal (Royal Opera House), Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "El interior solo con espectáculo programado: parada exterior desde la plaza.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lavaleta/teatro_real-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Teatro Real, concepto de ruinas al aire libre, no obra programada. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Teatro Real, concepto de ruinas al aire libre, no obra programada. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "castilla",
+   "name": "Albergue de Castilla",
+   "kind": "monument",
+   "zone": "Castille",
+   "reason": "La posada de la lengua de Castilla, León y Portugal (1744), la más rica de los caballeros: fachada barroca con bustos, hoy sede del Primer Ministro maltés.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 35.8959181,
+    "lon": 14.5111812
+   },
+   "coordinateSource": "nominatim: Il-Berġa ta' Kastilja (Auberge de Castille), Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": "Sede de gobierno en uso: parada exterior (interior solo en jornadas especiales no verificadas).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lavaleta/castilla.jpg",
+    "alt": "Auberge de Castille: detalle de la portada barroca con el busto y trofeos de armas. No muestra toda la fachada ni un interior visitable.",
+    "caption": "Auberge de Castille: detalle de la portada barroca con el busto y trofeos de armas. No muestra toda la fachada ni un interior visitable.",
+    "author": "Lukas Lussi",
+    "source": "https://www.pexels.com/photo/auberge-de-castille-facade-close-up-in-valletta-37251767/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://en.wikipedia.org/wiki/Auberge_de_Castille"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "upper_barrakka",
+   "name": "Jardines Superiores de Barrakka",
+   "kind": "park",
+   "zone": "L'Arċipierku",
+   "reason": "El balcón de los caballeros sobre el Gran Puerto: la terraza de 1661 con vistas de las Tres Ciudades y el puerto que fue la base de la flota británica.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 35.8949552,
+    "lon": 14.5120091
+   },
+   "coordinateSource": "nominatim: Upper Barrakka Gardens, Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lavaleta/upper_barrakka.jpg",
+    "source": "https://www.pexels.com/photo/flowers-in-park-14237622/",
+    "author": "Pham Ngoc Anh",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "JardinesSuperioresdeBarrakka con arcos y parterres.",
+    "alt": "JardinesSuperioresdeBarrakka con arcos y parterres."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "saluting",
+   "name": "Saluting Battery",
+   "kind": "monument",
+   "zone": "L'Arċipierku",
+   "reason": "La batería de salvas del siglo XVI bajo los jardines: cañones restaurados que disparan a las 12:00 y a las 16:00 como en tiempos de la Orden, frente al Gran Puerto.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "fwa",
+    "sb"
+   ],
+   "coordinates": {
+    "lat": 35.8946023,
+    "lon": 14.5125464
+   },
+   "coordinateSource": "nominatim: Saluting Battery, Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Operador Fondazzjoni Wirt Artna, NO Heritage Malta. Lunes-sábado 9:30-17:30, último acceso 17. Excepciones 24/25/31 diciembre, 1 enero, Viernes Santo y Pascua. Disparos a las 12 y 16 según operador, llegar 15 minutos antes; sujetos a operación. Fuentes oficiales discrepan en precio.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lunes-sábado 9:30-17:30, último acceso 17. Excepciones festivas; disparos 12 y 16 sujetos a operación.",
+    "source": "https://www.wirtartna.org/salutingbattery"
+   },
+   "price": "FWA publica 6 € adulto (16+) y 3 € niño (5-15); otra página de la misma atracción dice 3/1 €. Contradicción no resuelta: confirmar precio final antes de comprar.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/lavaleta/saluting.jpg",
+    "source": "https://www.pexels.com/photo/cannon-salute-in-valletta-malta-harbour-view-34699759/",
+    "author": "Angelos Lamprakopoulos",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Salva enSalutingBattery,vista desdearriba. No garantiza disparo en la fecha elegida.",
+    "alt": "Salva enSalutingBattery,vista desdearriba. No garantiza disparo en la fecha elegida."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "EntradarecintoSalutingBattery,no jardinesUpperBarrakka",
+    "noticeLabel": "SalutingBattery",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     0
+    ],
+    "closedDates": [
+     "2026-12-24",
+     "2026-12-25",
+     "2026-12-31"
+    ],
+    "notices": [
+     "Lun-sáb9:30-17:30último17;salvas12y16sujetasoperación. Dospropiasdifieren6/3vs3/1EUR,confirmartarifafinal."
+    ]
+   }
+  },
+  {
+   "id": "santalucia_st",
+   "name": "St. Lucia's Street",
+   "kind": "walk",
+   "zone": "Centro",
+   "reason": "La calle peatonal de las lámparas victorianas y los balcones gallerija: el eje que sube de la Puerta de la Ciudad a la Concatedral, lleno de cafés y comercios.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 35.8975,
+    "lon": 14.5105
+   },
+   "coordinateSource": "editorial: St. Lucia's Street, eje peatonal con las lámparas victorianas (calle sin nodo OSM único)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lavaleta/santalucia_st-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: St Lucia, calle escalonada imaginada. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en St Lucia, calle escalonada imaginada. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "concatedral",
+   "name": "Concatedral de San Juan",
+   "kind": "monument",
+   "zone": "Centro",
+   "reason": "Iglesia de los caballeros de San Juan con capillas, pavimento funerario y pinturas de Caravaggio. La visita turística no incluye el museo, actualmente cerrado por ampliación.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "sjc"
+   ],
+   "coordinates": {
+    "lat": 35.8976958,
+    "lon": 14.5126286
+   },
+   "coordinateSource": "nominatim: Kon-Katidral ta' San Ġwann, Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 105,
+   "durationType": "editorial-estimate",
+   "caution": "Operador recomienda 1 h 45 min. Lunes-sábado 9-16:45, último acceso 16 (solo deja 45 minutos). Domingos y festivos sin visita turística. Museo cerrado por ampliación, no la iglesia. Campanario 5 € extra más admisión. Audioguía en español incluida. Vestimenta adecuada, sin tacones estrechos; fotos sin flash pero vídeo/audio prohibidos sin autorización.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lunes-sábado 9:00-16:45 (última admisión 16:00); DOMINGOS Y FESTIVOS CERRADO al turismo. Museo de la concatedral cerrado por ampliación/obras hasta nuevo aviso.",
+    "source": "https://stjohnscocathedral.com/visit/"
+   },
+   "price": "Adultos 15 €; mayores 60+ y estudiantes 12 €; <12 gratis acompañados; tour del campanario +5 € (en taquilla). Entrada válida para UNA visita dentro de los 7 días de la fecha elegida.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/lavaleta/concatedral.jpg",
+    "source": "https://www.pexels.com/photo/low-angle-view-of-a-historic-building-14237618/",
+    "author": "Pham Ngoc Anh",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada de dos torres de la Concatedral deSanJuan,no museo/interior.",
+    "alt": "Fachada de dos torres de la Concatedral deSanJuan,no museo/interior."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Visita turística iglesia,no museo actualmente cerrado",
+    "noticeLabel": "ConcatedralSanJuan",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     0
+    ],
+    "closedDates": [],
+    "notices": [
+     "Lun-sáb9-16:45último16;dom/festivossinculturaturística. Iglesia15EUR,audioespañolincluido. Museocerradoporampliación,noiglesia. Recomiendan1h45:no llegaraúltimaadmisiónparavisitacompleta.",
+     "Festivos públicos cerrados al turismo; calendario oficial de festivos completo aún sin recuperar, no se considera abierto un día por no estar marcado."
+    ]
+   }
+  },
+  {
+   "id": "arqueologia",
+   "name": "Museo Nacional de Arqueología",
+   "kind": "museum",
+   "zone": "Republic Street",
+   "reason": "Museo de prehistoria de Malta en el Albergue de Provenza. Puede servir de contexto para otros yacimientos, pero requiere su propio horario y entrada.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "hm",
+    "hm-winterimage"
+   ],
+   "coordinates": {
+    "lat": 35.8975379,
+    "lon": 14.5111952
+   },
+   "coordinateSource": "nominatim: National Museum of Archaeology, Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Precio verificado; horario diario exacto por confirmar en heritagemalta.mt.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "1nov2026-3ene2027:diario9-17,últimoacceso16:30 según tabla oficial. Cierresgenerales1ene/24/25/31dic.",
+    "source": "https://heritagemalta.mt/explore/national-museum-of-archaeology/"
+   },
+   "price": "Adultos 5 €; concesiones y estudiantes 3,50 €.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/lavaleta/arqueologia-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo Arqueológico, palacio imaginado sin piezas inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo Arqueológico, palacio imaginado sin piezas inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo Nacional de Arqueología interior",
+    "noticeLabel": "Museo Nacional de Arqueología",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-01-03",
+    "closedDates": [
+     "2026-12-24",
+     "2026-12-25",
+     "2026-12-31",
+     "2027-01-01"
+    ],
+    "notices": [
+     "Diario9-17,últimaadmisión16:30. Tablaoficial1nov2026-3ene2027;posiblesactosyavisosdeloperador."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "calles",
+   "name": "Las calles de La Valeta",
+   "kind": "walk",
+   "zone": "Centro",
+   "reason": "La cuadrícula de 1566 de Francesco Laparelli: Republic Street y Merchant Street con los balcones de colores, las esquinas con santos y las cuestas que siempre acaban en el mar.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 35.8978,
+    "lon": 14.5118
+   },
+   "coordinateSource": "editorial: Republic Street, eje monumental de La Valeta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lavaleta/calles-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: calles de La Valeta, paseo imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en calles de La Valeta, paseo imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "manoel",
+   "name": "Teatro Manoel",
+   "kind": "monument",
+   "zone": "Old Theatre Street",
+   "reason": "Uno de los teatros en activo más antiguos de Europa (1732): la sala de teca verde y oro del gran maestre Manoel de Vilhena, con visitas guiadas entre función y función.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "manoel"
+   ],
+   "coordinates": {
+    "lat": 35.8997653,
+    "lon": 14.5125745
+   },
+   "coordinateSource": "nominatim: Teatru Manoel, Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Teatro en uso: ensayos o trabajo técnico pueden cancelar/reprogramar la visita o cerrar el auditorio. No confundir la visita ordinaria de 10 € con las visitas especiales de 15/20 €. Términos online: venta final no reembolsable; revisar fecha/producto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lunes-viernes invierno (1 septiembre-19 junio) 11 y 15; verano (20 junio-31 agosto) 10:30 y 12. Sábados 10:30/11:30/12:30; domingos cerrado.",
+    "source": "https://teatrumanoel.mt/visit/"
+   },
+   "price": "10 € visita ordinaria según Visit; productos distintos: 1732 (1 h) 15 € adulto/8 € niño 5-12, Grand Tour (1 h) 20 €. Confirmar producto y fecha antes de pagar.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/lavaleta/manoel-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Teatro Manoel, fachada imaginada, no réplica real del teatro. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Teatro Manoel, fachada imaginada, no réplica real del teatro. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Visitas guiadas TeatroManoel",
+    "noticeLabel": "TeatroManoel",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     0
+    ],
+    "weekdayNotices": [
+     {
+      "weekday": 6,
+      "text": "Sábado10:30/11:30/12:30,10EUR. Sujetoensayos/producción;interiorcompletonogarantizado."
+     }
+    ],
+    "notices": [
+     "Inviernolun-vie11y15,10EUR;sujetocancelación/reprogramaciónporensayos/trabajotécnico."
+    ]
+   },
+   "booking": {
+    "text": "Venta online sujeta a disponibilidad; comprobar precio final del producto elegido. Las páginas de eventos no fijan aquí un calendario con año confirmado.",
+    "source": "https://teatrumanoel.mt/terms-conditions/"
+   },
+   "ownVerifiedSources": [
+    "https://teatrumanoel.mt/visit/",
+    "https://teatrumanoel.mt/event/1732-a-tour-of-teatru-manoel/",
+    "https://teatrumanoel.mt/event/the-grand-tour-of-teatru-manoel/",
+    "https://teatrumanoel.mt/terms-conditions/"
+   ],
+   "realPhotoPending": true
+  },
+  {
+   "id": "procatedral",
+   "name": "Procatedral de San Pablo",
+   "kind": "monument",
+   "zone": "Independence Square",
+   "reason": "La procatedral anglicana de 1844 con su aguja de 60 m sobre la plaza de la Independencia: el templo de la Malta británica, con un interior neoclásico sereno.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 35.9013,
+    "lon": 14.5145
+   },
+   "coordinateSource": "editorial: Pro-Catedral anglicana de San Pablo, Independence Square (sin nodo OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Horario turístico e interior sin primaria actual: no se presume entrada gratuita. Exterior base si no se confirma acceso.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria localizada.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/lavaleta/procatedral-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Procatedral de San Pablo, concepto exterior sin arte sacro inventado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Procatedral de San Pablo, concepto exterior sin arte sacro inventado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "biblioteca",
+   "name": "Biblioteca Nacional de Malta",
+   "kind": "monument",
+   "zone": "Republic Square",
+   "reason": "El templo del saber de la Orden (1796): la última gran obra de La Valeta, que guarda los archivos de los caballeros y las cartas patentes de 1107 sobre la plaza de la República.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 35.898226,
+    "lon": 14.513529
+   },
+   "coordinateSource": "nominatim: Il-Biblioteka Nazzjonali, Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "Biblioteca en funcionamiento: la sala noble de consulta no es visita turística libre; parada exterior + patio.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lavaleta/biblioteca-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Biblioteca Nacional, edificio imaginado sin manuscritos inventados. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Biblioteca Nacional, edificio imaginado sin manuscritos inventados. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "palacio",
+   "name": "Palacio del Gran Maestre",
+   "kind": "museum",
+   "zone": "St. George's Square",
+   "reason": "Palacio del Gran Maestre y Armería. Salón del Trono cerrado hasta nuevo aviso; Salas de Estado con restricciones por fecha. Elegir interior solo con tiempo y acceso confirmados.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "hm",
+    "palace",
+    "hm-hours",
+    "hm-winterimage"
+   ],
+   "coordinates": {
+    "lat": 35.8985644,
+    "lon": 14.5145016
+   },
+   "coordinateSource": "nominatim: Grand Master's Palace, Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Salón del Trono cerrado hasta nuevo aviso. Salas de Estado cerradas hasta 13:30 el 18 noviembre y 2 diciembre de 2026, y 27 enero, 24 febrero, 17 marzo, 14 abril, 26 mayo y 16 junio de 2027: solo Armería durante ese tramo. Aviso del 26 octubre de 2026 es histórico, no cierre actual. Puede cerrar por actos de Estado; horarios generales pendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "1nov2026-3ene2027:diario9-17,últimoacceso16:30 según tabla oficial. SalónTronocerrado;18nov/2dicSalasEstadohasta13:30cerradas,soloArmería.",
+    "source": "https://heritagemalta.mt/opening-hours/"
+   },
+   "price": "12 € adulto; jóvenes 12-17 y mayores 60+ 10 €; niños 6-11 8 €; 1-5 gratis.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/lavaleta/palacio-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Palacio del Gran Maestre, concepto exterior sin piezas inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Palacio del Gran Maestre, concepto exterior sin piezas inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Palacio del Gran Maestre interior",
+    "noticeLabel": "Palacio del Gran Maestre",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-01-03",
+    "closedDates": [
+     "2026-12-24",
+     "2026-12-25",
+     "2026-12-31",
+     "2027-01-01"
+    ],
+    "notices": [
+     "Diario9-17,últimaadmisión16:30. Tablaoficial1nov2026-3ene2027;posiblesactosyavisosdeloperador.",
+     "SalóndelTronocerradohastanuevoaviso,no elPalaciocompleto."
+    ],
+    "specialDates": [
+     {
+      "date": "2026-11-18",
+      "text": "SalasdeEstadocerradashasta13:30,soloArmeríaenesatranja;SalónTronopermanentementecerradosegúnavisoactual.9-17último16:30,noreservagarantizada."
+     },
+     {
+      "date": "2026-12-02",
+      "text": "SalasdeEstadocerradashasta13:30,soloArmeríaenesatranja;SalónTronopermanentementecerradosegúnavisoactual.9-17último16:30,noreservagarantizada."
+     }
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "casa_rocca",
+   "name": "Casa Rocca Piccola",
+   "kind": "museum",
+   "zone": "Republic Street 74",
+   "reason": "El palacio vivo de una familia noble maltesa desde 1580: 50 habitaciones con muebles de época, el refugio antiaéreo excavado en la roca y la visita guiada por la casa que aún habitan los de Piro.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "rocca",
+    "rocca-access1024",
+    "rocca-terms1024"
+   ],
+   "coordinates": {
+    "lat": 35.8998841,
+    "lon": 14.515346
+   },
+   "coordinateSource": "nominatim: Casa Rocca Piccola, 74 Triq ir-Repubblika, Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Audiotour con tu móvil en español, inglés, francés, italiano o alemán; guiada de 45 min en inglés. Billetes no reembolsables ni transferibles; cambio fecha/hora por email sujeto a disponibilidad. Casa principal con acceso alternativo por ascensor en 53 St Dominic Street, pedir ayuda en recepción y avisar antes. Refugio: unos 100 escalones y túneles estrechos/irregulares, no apto para silla o problemas de movilidad/visión. Festivos y disponibilidad por confirmar.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Audiotour desde 10, último acceso 16. Guiadas cada hora 10-16. Excepto domingos, salvo cita. Festivos por confirmar.",
+    "source": "https://casaroccapiccola.com/ticket/"
+   },
+   "price": "Fuente propia: adulto 12 €, estudiante 8 €, 0-13 gratis. Sistema online para audiotour y guiada: desde 13 € adulto (12+1 de gestión) y 9 € estudiante (8+1), con documento. No es precio final para una fecha ni plaza confirmada.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/lavaleta/casa_rocca-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Casa Rocca Piccola, patio imaginado, no reproducción real del palacio o sus objetos. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Casa Rocca Piccola, patio imaginado, no reproducción real del palacio o sus objetos. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Audiotour / visita de Casa Rocca Piccola",
+    "noticeLabel": "Casa Rocca Piccola",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     0
+    ],
+    "notices": [
+     "Audiotour desde 10, último acceso 16. Guiadas cada hora 10-16, 45 min en inglés. Excepto domingo, salvo cita; festivos por confirmar.",
+     "Adulto 12 € / estudiante 8 € en declaración propia; online desde 13/9 € con 1 € de gestión. 0-13 gratis con documento. Billetes no reembolsables.",
+     "Ascensor alternativo para planta principal, consultar antes. Refugio con unos 100 escalones y túneles, no accesible para silla."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "fuerte_telmo",
+   "name": "Fuerte de San Telmo y Museo Nacional de la Guerra",
+   "kind": "museum",
+   "zone": "Punta de la ciudad",
+   "reason": "Fuerte de San Telmo y Museo Nacional de la Guerra, con recorrido sobre historia militar de Malta. Sala de la Primera Guerra Mundial cerrada; resto sujeto a avisos y programación.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "hm",
+    "hm-winterimage"
+   ],
+   "coordinates": {
+    "lat": 35.901984,
+    "lon": 14.5188059
+   },
+   "coordinateSource": "nominatim: Forti Sant'Iermu (Fort St Elmo), Valletta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Heritage Malta recomienda 1,5 h mínimo; sección de la WWI cerrada (aviso oficial vigente).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "1nov2026-3ene2027:diario9-17,últimoacceso16:30 según tabla oficial. Sección4PrimeraGuerraMundialcerrada,no todo museo. DomingosInGuardia,accesoordinario12segúnprogramación.",
+    "source": "https://heritagemalta.mt/explore/fort-st-elmo/"
+   },
+   "price": "Adultos 10 €; mayores 60+, jóvenes 12-17 y estudiantes 7,50 €; niños 6-11 5,50 €.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/lavaleta/fuerte_telmo-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Fuerte de San Telmo, concepto de bastiones sin piezas del museo inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Fuerte de San Telmo, concepto de bastiones sin piezas del museo inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Fuerte de San Telmo y Museo Nacional de la Guerra interior",
+    "noticeLabel": "Fuerte de San Telmo y Museo Nacional de la Guerra",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-01-03",
+    "closedDates": [
+     "2026-12-24",
+     "2026-12-25",
+     "2026-12-31",
+     "2027-01-01"
+    ],
+    "notices": [
+     "Diario9-17,últimaadmisión16:30. Tablaoficial1nov2026-3ene2027;posiblesactosyavisosdeloperador.",
+     "WWIsección4cerradahastanuevoaviso;nosetomacomocierre de todo museo."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "lower_barrakka",
+   "name": "Jardines Inferiores de Barrakka",
+   "kind": "park",
+   "zone": "L'Arċipierku",
+   "reason": "Los jardines tranquilos del extremo este: el monumento neoclásico a Alexander Ball (1810) en forma de templo dórico y la vista de la bocana del puerto y la campana del asedio.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 35.8974375,
+    "lon": 14.5170835
+   },
+   "coordinateSource": "nominatim: Lower Barrakka Kiosk (junto a los jardines inferiores de Barrakka)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lavaleta/lower_barrakka.jpg",
+    "alt": "Monumento a Alexander Ball en los jardines Lower Barrakka de La Valeta: pórtico dórico y frontón. No es Upper Barrakka ni el conjunto de sus vistas.",
+    "caption": "Monumento a Alexander Ball en los jardines Lower Barrakka de La Valeta: pórtico dórico y frontón. No es Upper Barrakka ni el conjunto de sus vistas.",
+    "author": "Rafał Bubała",
+    "source": "https://www.pexels.com/photo/facade-of-a-monument-12336168/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.visitmalta-im.com/conference-centre-venue/venues/lower-barrakka-gardens/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "tres_ciudades",
+   "name": "Las Tres Ciudades (Vittoriosa, Senglea, Cospicua)",
+   "kind": "out-of-center",
+   "zone": "Gran Puerto (orilla sur)",
+   "reason": "Las ciudades fortificadas donde empezó la Malta de los caballeros: el puerto deportivo de Vittoriosa con el palacio del Inquisidor, el mirador de la Gardjola en Senglea y los astilleros históricos, todo cruzando en ferry desde La Valeta.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "ferry",
+    "ferry-home",
+    "tm"
+   ],
+   "coordinates": {
+    "lat": 35.8881119,
+    "lon": 14.5238445
+   },
+   "coordinateSource": "nominatim: Il-Birgu (Vittoriosa), Malta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 180,
+   "durationType": "editorial-estimate",
+   "caution": "Traslado por agua, no paseo continuo de centro. Portada y página de horarios del operador discrepan sobre últimas salidas invernales; Transport Malta coincide con horario diurno más corto. Comprobar ida y vuelta para fecha real, no prometer regreso nocturno. Sliema mostraba aviso de suspensión por viento al consultar el 3 noviembre de 2026; no es cierre permanente. Embarcadero de Sliema/Marsamxett distinto del Lascaris/Cospicua para Tres Ciudades.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ferry diurno: 3 € sencillo/5 € ida y vuelta según página de horario; nocturno desde 19:30: 3,50/5,20 €. Comprobar ruta, fecha y tarifa actual.",
+   "visitMode": "excursióncondicionada aoperaciónyregreso",
+   "photo": {
+    "img": "assets/lavaleta/tres_ciudades-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Tres Ciudades, litoral imaginado sin operador de barco real. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Tres Ciudades, litoral imaginado sin operador de barco real. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "transportRequired": true,
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Ferrytres_ciudades,comprobaridaregreso",
+    "noticeLabel": "FerryTresCiudades",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-11-03",
+    "notices": [
+     "3nov2026:operadoravisaferrySliema suspendidoporviento. Noextenderelavisoacomopermanente. Tablasinvernalespropiasinconsistentes:confirmarserviciosdelafechayregresoantesdecruzar."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "sliema",
+   "name": "Sliema",
+   "kind": "out-of-center",
+   "zone": "Sliema (orilla norte)",
+   "reason": "La Malta moderna frente a La Valeta: el paseo marítimo con la vista postal de la ciudad amurallada, las casas victorianas de Tower Road y los baños de roca; ferry directo desde La Valeta.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "ferry",
+    "ferry-home",
+    "tm"
+   ],
+   "coordinates": {
+    "lat": 35.9127609,
+    "lon": 14.5020708
+   },
+   "coordinateSource": "nominatim: Tas-Sliema, Malta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Traslado por agua, no paseo continuo de centro. Portada y página de horarios del operador discrepan sobre últimas salidas invernales; Transport Malta coincide con horario diurno más corto. Comprobar ida y vuelta para fecha real, no prometer regreso nocturno. Sliema mostraba aviso de suspensión por viento al consultar el 3 noviembre de 2026; no es cierre permanente. Embarcadero de Sliema/Marsamxett distinto del Lascaris/Cospicua para Tres Ciudades.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ferry diurno: 3 € sencillo/5 € ida y vuelta según página de horario; nocturno desde 19:30: 3,50/5,20 €. Comprobar ruta, fecha y tarifa actual.",
+   "visitMode": "excursióncondicionada aoperaciónyregreso",
+   "photo": {
+    "img": "assets/lavaleta/sliema-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Sliema, paseo costero imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Sliema, paseo costero imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "transportRequired": true,
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Ferrysliema,comprobaridaregreso",
+    "noticeLabel": "FerrySliema",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-11-03",
+    "notices": [
+     "3nov2026:operadoravisaferrySliema suspendidoporviento. Noextenderelavisoacomopermanente. Tablasinvernalespropiasinconsistentes:confirmarserviciosdelafechayregresoantesdecruzar."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "hipogeo",
+   "name": "Hipogeo de Ħal Saflieni",
+   "kind": "out-of-center",
+   "zone": "Paola",
+   "reason": "Conjunto prehistórico subterráneo excavado en la roca. Visita con entrada, franja y condiciones propias; no se da por disponible como parte de un paseo.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "hm",
+    "hm-winterimage"
+   ],
+   "coordinates": {
+    "lat": 35.8695495,
+    "lon": 14.5068915
+   },
+   "coordinateSource": "nominatim: L-Ipoġew ta' Ħal Saflieni, Paola",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Paola, fuera del centro; reservar franja y traslado antes de encajar el día. Solo 10 personas por turno; menores de 6 no admitidos. Sin fotografía. Última hora 50 € solo para día siguiente, por orden de llegada y puntos de venta limitados; no prometer entrada el mismo día. Horario del turno y ruta de bus exacta pendientes, no garantizar líneas 81-88.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Tablaoficial1nov2026-3ene2027:diario10-18,siemprefranjaconreserva,noentradalibrecontinua.",
+    "source": "https://heritagemalta.mt/opening-hours/"
+   },
+   "price": "Adultos 35 €; jóvenes 12-17 y mayores 60+ 20 €; niños 6-11 15 €; menores de 6 NO admitidos; entradas de última hora 50 €.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/lavaleta/hipogeo-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Hipogeo, puerta anónima imaginada, no entrada real o reproducción del interior. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Hipogeo, puerta anónima imaginada, no entrada real o reproducción del interior. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "transportRequired": true,
+   "photoPending": false,
+   "accessRules": {
+    "scope": "HipogeoenPaola,franjareservada",
+    "noticeLabel": "HipogeodeĦalSaflieni",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-01-03",
+    "closedDates": [
+     "2026-12-24",
+     "2026-12-25",
+     "2026-12-31",
+     "2027-01-01"
+    ],
+    "notices": [
+     "Horario10-18esventanageneral,no disponibilidad. Solofranjaconfirmadaytraslado;menores6noadmitidos,nofotos."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "gozo",
+   "name": "Gozo: Victoria, Ġgantija y la costa",
+   "kind": "excursion",
+   "zone": "Gozo",
+   "reason": "La isla hermana, más verde y tranquila: la ciudadela de Victoria, los templos megalíticos de Ġgantija (anteriores a las pirámides), la ventana de roca de Dwejra y las playas rojas de Ramla.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 36.0428907,
+    "lon": 14.2398479
+   },
+   "coordinateSource": "nominatim: Ir-Rabat (Victoria), Gozo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "Ferry y buses de Gozo sin primaria verificada; Ġgantija es Heritage Malta (cierre 1 ene, Viernes Santo y 24/25/31 dic; última admisión 30 min antes).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ferry de pago (tarifa no verificada en primaria; se paga habitualmente solo al volver desde Gozo). Ġgantija: entrada Heritage Malta de pago.",
+   "visitMode": "excursióncontransporteyregresoporconfirmar",
+   "photo": {
+    "img": "assets/lavaleta/gozo-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Gozo, concepto de colina de Victoria, no ruta completa de la isla. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Gozo, concepto de colina de Victoria, no ruta completa de la isla. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "mdina",
+   "name": "Mdina y los acantilados de Dingli",
+   "kind": "excursion",
+   "zone": "Mdina / Dingli",
+   "reason": "Recorrido por la ciudad amurallada de Mdina. La catedral tiene condiciones propias y Dingli es una salida distinta que requiere transporte y regreso; no se presupone acceso sin coches ni vuelta al atardecer.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 35.8858923,
+    "lon": 14.4025288
+   },
+   "coordinateSource": "nominatim: L-Imdina, Malta",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Buses sin horario primario verificado; la catedral de Mdina cobra entrada (museo conjunto, tarifa no verificada en primaria).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Catedral de Mdina + museo: entrada de pago no verificada en primaria.",
+   "visitMode": "excursióncontransporteyregresoporconfirmar",
+   "photo": {
+    "img": "assets/lavaleta/mdina-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Mdina, puerta imaginada, no acantilados de Dingli. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Mdina, puerta imaginada, no acantilados de Dingli. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "La puerta y los balcones del Gran Puerto",
+     "zone": "Tritones → Puerta → Teatro Real → Castilla → Barrakka",
+     "stopIds": [
+      "tritones",
+      "puerta",
+      "teatro_real",
+      "castilla",
+      "upper_barrakka",
+      "lower_barrakka"
+     ],
+     "editorialNote": "Paseo exterior y jardines como base. Saluting Battery opcional según día y disparo confirmado. Tres Ciudades es alternativa de media jornada con ferry y regreso comprobados, no añadido automático a todas las visitas. Los dos embarcaderos de ferry de La Valeta no son el mismo.",
+     "optionalStopIds": [
+      "saluting",
+      "tres_ciudades"
+     ]
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "La puerta y los balcones del Gran Puerto",
+     "zone": "Tritones → Puerta → Teatro Real → Castilla → Barrakka",
+     "stopIds": [
+      "tritones",
+      "puerta",
+      "teatro_real",
+      "castilla",
+      "upper_barrakka",
+      "lower_barrakka"
+     ],
+     "editorialNote": "Paseo exterior y jardines como base. Saluting Battery opcional según día y disparo confirmado. Tres Ciudades es alternativa de media jornada con ferry y regreso comprobados, no añadido automático a todas las visitas. Los dos embarcaderos de ferry de La Valeta no son el mismo.",
+     "optionalStopIds": [
+      "saluting",
+      "tres_ciudades"
+     ]
+    },
+    {
+     "title": "La ciudad de los caballeros",
+     "zone": "Concatedral → St. Lucia → calles → entorno Biblioteca y Palacio",
+     "stopIds": [
+      "concatedral",
+      "santalucia_st",
+      "calles",
+      "biblioteca",
+      "palacio"
+     ],
+     "editorialNote": "Concatedral como interior principal, unos 105 minutos. Palacio exterior base: elegir su interior o Arqueología, Manoel o Casa Rocca, no todos. Reorganizar si domingo/festivo. Sliema sustituye la tarde, con ferry operativo y regreso confirmado; no prometer fotos nocturnas más allá del último servicio.",
+     "optionalStopIds": [
+      "arqueologia",
+      "manoel",
+      "procatedral",
+      "casa_rocca",
+      "sliema"
+     ]
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "La puerta y los balcones del Gran Puerto",
+     "zone": "Tritones → Puerta → Teatro Real → Castilla → Barrakka",
+     "stopIds": [
+      "tritones",
+      "puerta",
+      "teatro_real",
+      "castilla",
+      "upper_barrakka",
+      "lower_barrakka"
+     ],
+     "editorialNote": "Paseo exterior y jardines como base. Saluting Battery opcional según día y disparo confirmado. Tres Ciudades es alternativa de media jornada con ferry y regreso comprobados, no añadido automático a todas las visitas. Los dos embarcaderos de ferry de La Valeta no son el mismo.",
+     "optionalStopIds": [
+      "saluting",
+      "tres_ciudades"
+     ]
+    },
+    {
+     "title": "La ciudad de los caballeros",
+     "zone": "Concatedral → St. Lucia → calles → entorno Biblioteca y Palacio",
+     "stopIds": [
+      "concatedral",
+      "santalucia_st",
+      "calles",
+      "biblioteca",
+      "palacio"
+     ],
+     "editorialNote": "Concatedral como interior principal, unos 105 minutos. Palacio exterior base: elegir su interior o Arqueología, Manoel o Casa Rocca, no todos. Reorganizar si domingo/festivo. Sliema sustituye la tarde, con ferry operativo y regreso confirmado; no prometer fotos nocturnas más allá del último servicio.",
+     "optionalStopIds": [
+      "arqueologia",
+      "manoel",
+      "procatedral",
+      "casa_rocca",
+      "sliema"
+     ]
+    },
+    {
+     "title": "Del Gran Asedio a la prehistoria",
+     "zone": "San Telmo → Barrakka Inferior; Paola solo con reserva",
+     "stopIds": [
+      "fuerte_telmo",
+      "lower_barrakka"
+     ],
+     "editorialNote": "San Telmo como visita principal y pausa en jardines. Hipogeo es alternativa de medio día fuera del centro solo con entrada y franja confirmadas; ajustar San Telmo a esa reserva o elegir uno. Sin entrada, mantener casco viejo, no tratar la última hora como acceso garantizado.",
+     "optionalStopIds": [
+      "hipogeo"
+     ]
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Concatedral de San Juan: lu-sá 9:00-16:45 (última 16:00); DOMINGOS Y FESTIVOS cerrada al turismo; museo anexo cerrado por obras; 15 € adultos, 12 € reducida, campanario +5 €.",
+  "Hipogeo: aforo de preservación (80/día según la guía); RESERVA ANTICIPADA casi obligatoria; 35 € anticipada / 50 € última hora; <6 años no admitidos; sin fotos ni bolsos.",
+  "Heritage Malta: todos sus museos cierran 1 ene, Viernes Santo y 24/25/31 dic; última admisión 30 min antes del cierre.",
+  "Palacio del Gran Maestre: Salón del Trono cerrado hasta nuevo aviso; Salas de Estado cerradas todo el 26 oct 2026 y mañanas de miércoles señalados de 2027 (solo Armería): comprobar avisos.",
+  "Fuerte San Telmo: 10 €; sala de la WWI cerrada hasta nuevo aviso; domingos con In Guardia la entrada normal empieza a las 12:00.",
+  "Horarios diarios exactos de Arqueología/San Telmo/Saluting Battery no extraídos de la tabla oficial (precios sí); Manoel y Casa Rocca Piccola sin primaria alcanzable esta sesión.",
+  "Ferries (Tres Ciudades, Sliema, Gozo) sin horario primario verificado.",
+  "Visitas: 6 fotos reales y 16 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Nada reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en La Valeta",
+   "url": "https://www.viajeroscallejeros.com/que-ver-en-la-valeta/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: La Valeta y lugares",
+   "url": "https://es.wikipedia.org/wiki/La_Valeta",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sjc",
+   "title": "Concatedral de San Juan: visit",
+   "url": "https://stjohnscocathedral.com/visit/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hm",
+   "title": "Heritage Malta: Hipogeo, Arqueología, San Telmo y avisos de apertura",
+   "url": "https://heritagemalta.mt/explore/hal-saflieni-hypogeum/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ferry",
+   "title": "Ferry: horario publicado",
+   "url": "https://www.vallettaferryservices.com/schedule/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ferry-home",
+   "title": "Ferry: avisos y tabla de portada",
+   "url": "https://www.vallettaferryservices.com/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tm",
+   "title": "Transport Malta: ferries y embarcaderos",
+   "url": "https://www.transport.gov.mt/sustainable-mobility/ferry-services-5779",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "manoel",
+   "title": "Teatru Manoel: visitas",
+   "url": "https://teatrumanoel.mt/visit/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rocca",
+   "title": "Casa Rocca Piccola: entradas",
+   "url": "https://casaroccapiccola.com/ticket/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fwa",
+   "title": "Fondazzjoni Wirt Artna: Saluting Battery",
+   "url": "https://www.wirtartna.org/salutingbattery",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sb",
+   "title": "Saluting Battery: tarifas divergentes",
+   "url": "https://www.salutingbattery.com/tickets-and-prices",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "palace",
+   "title": "Heritage Malta: Palacio del Gran Maestre",
+   "url": "https://heritagemalta.mt/explore/grand-masters-palace/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hm-hours",
+   "title": "Heritage Malta: horarios y avisos",
+   "url": "https://heritagemalta.mt/opening-hours/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hm-winterimage",
+   "title": "HeritageMalta tabla invierno1nov2026-3ene2027 (imagen inspeccionada)",
+   "url": "https://heritagemalta.mt/app/uploads/2026/08/Winter-1st-November-3rd-January-1.jpg",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rocca-access1024",
+   "title": "Casa Rocca: precios, idiomas y acceso",
+   "url": "https://www.casaroccapiccola.com/access-statement/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rocca-terms1024",
+   "title": "Casa Rocca: entradas sin reembolso y cambios",
+   "url": "https://casaroccapiccola.com/terms-and-conditions/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

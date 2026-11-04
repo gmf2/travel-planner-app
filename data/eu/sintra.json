@@ -1,0 +1,421 @@
+{
+ "schemaVersion": 1,
+ "country": "PT",
+ "id": "sintra",
+ "name": "Sintra",
+ "localName": "Sintra",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "pena",
+   "name": "Palacio da Pena",
+   "kind": "visit",
+   "zone": "Sierra alta",
+   "reason": "El palacio romántico de colores que corona la sierra; la visita estrella con franja horaria.",
+   "sourceIds": [
+    "pena"
+   ],
+   "coordinates": {
+    "lat": 38.7877778,
+    "lon": -9.3905556
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Pena_Palace",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Hora del billete = entrada al interior del palacio, no al parque. Llegar con unos 30 minutos adicionales desde el portón; no hay tolerancia al retraso. No se accede en coche particular desde el centro histórico.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Palacio de pago con franja",
+   "photo": {
+    "img": "assets/sintra/pena.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sintra_-_Palacio_da_Pena_(20332995770).jpg",
+    "author": "Singa Hitam",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Palacio da Pena · foto de archivo de Wikimedia Commons; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "mouros",
+   "name": "Castillo de los Moros",
+   "kind": "visit",
+   "zone": "Sierra alta",
+   "reason": "Muralla medieval serpenteante junto a la Pena; vistas de la sierra y la llanura.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 38.7925,
+    "lon": -9.3894444
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Castle_of_the_Moors",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Entrada de pago; escalones y desnivel. Combinable con la Pena a pie por la sierra.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Monumento de pago",
+   "photo": {
+    "img": "assets/sintra/mouros.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Castelo_dos_Mouros._Sintra,_Portugal.jpg",
+    "author": "Ввласенко",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Castillo de los Moros · foto de archivo de Wikimedia Commons; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "regaleira",
+   "name": "Quinta da Regaleira",
+   "kind": "visit",
+   "zone": "Centro / sierra",
+   "reason": "Palacio con el pozo iniciático y jardines simbólicos; la segunda gran visita.",
+   "sourceIds": [
+    "reg"
+   ],
+   "coordinates": {
+    "lat": 38.7963528,
+    "lon": -9.3960306
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Palacio_da_Regaleira",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 100,
+   "durationType": "editorial-estimate",
+   "caution": "Entrada con día y hora. Cierra 1 enero y 24, 25 y 31 diciembre. Accesos y espacios sujetos a normas propias, no garantizados por la foto.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Palacio y jardines de pago",
+   "photo": {
+    "img": "assets/sintra/regaleira.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Quinta_da_Regaleira_20.jpg",
+    "author": "Kent Wang",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+    "caption": "Quinta da Regaleira · foto de archivo de Wikimedia Commons; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "nacional",
+   "name": "Palacio Nacional de Sintra y centro histórico",
+   "kind": "visit",
+   "zone": "Centro histórico",
+   "reason": "El palacio de las chimeneas cónicas y las callejuelas con las coladas y Piriquita.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 38.7977778,
+    "lon": -9.3908333
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Palacio_Nacional_de_Sintra",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Interior de pago; el paseo del centro es libre. Comprobar horario del palacio.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Centro libre; palacio de pago",
+   "photo": {
+    "img": "assets/sintra/nacional.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional,_Sintra,_Portugal,_2019-05-25,_DD_89.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Palacio Nacional de Sintra y centro histórico · foto de archivo de Wikimedia Commons; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "monserrate",
+   "name": "Palacio de Monserrate",
+   "kind": "visit",
+   "zone": "Sierra oeste",
+   "reason": "Palacio romántico con jardines botánicos exóticos; más tranquilo que la Pena.",
+   "sourceIds": [
+    "mono"
+   ],
+   "coordinates": {
+    "lat": 38.794278,
+    "lon": -9.420706
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Palacio_de_Monserrate",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Obras de cubiertas con andamios anunciadas hasta el primer trimestre de 2027. La foto es de archivo, no el estado actual. Dueño indica bus 1253 o 435; comprobar trayecto y vuelta para tu fecha.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Palacio y jardines de pago",
+   "photo": {
+    "img": "assets/sintra/monserrate.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Monserrate500.jpg",
+    "author": "Alagamares",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Palacio de Monserrate · foto de archivo de Wikimedia Commons; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "vila",
+   "name": "Centro histórico de Sintra",
+   "kind": "visit",
+   "zone": "Centro histórico",
+   "reason": "Paseo por la vila, con referencia junto al Palacio Nacional. No supone hacer la subida de Vila Sassetti.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 38.7977778,
+    "lon": -9.3908333
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Palacio_Nacional_de_Sintra",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo urbano; Palacio Nacional interior opcional",
+   "photo": {
+    "img": "assets/sintra/vila.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Views_from_Pal%C3%A1cio_Nacional_de_Sintra_500.jpg",
+    "author": "Kent Wang",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+    "caption": "Centro histórico de Sintra desde el Palacio Nacional, con el castillo de los Mouros arriba. Foto Wikimedia Commons verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "cabodaroca",
+   "name": "Cabo da Roca",
+   "kind": "visit",
+   "zone": "Costa de Sintra",
+   "reason": "Cabo costero para visitar con traslado de ida y vuelta en bus 1253. No es un paseo continuo desde Sintra.",
+   "sourceIds": [
+    "carris",
+    "cm"
+   ],
+   "coordinates": {
+    "lat": 38.781,
+    "lon": -9.498
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Cabo_da_Roca",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Carris confirma línea 1253 Sintra Estação vía Cabo da Roca. Elegir ida y vuelta en el operador antes de salir. No fijamos 35/45 min ni la alternativa 1624 sin el horario concreto. Costa expuesta a viento, no acercarse al borde.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Traslado en bus necesario; costa expuesta",
+   "photo": {
+    "img": "assets/sintra/cabodaroca.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cabo_da_Roca_-_Sintra_-_060415_08.JPG",
+    "author": "Luis Miguel Bugallo Sánchez (Lmbuga Commons)(Lmbuga Galipedia)\n\nPublicada por/Publish by:  Luis Miguel Bugallo Sánchez. ",
+    "license": "CC BY-SA 2.5 es",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/es/deed.en",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.5/es/deed.en",
+    "caption": "Cabo da Roca · el fin de Europa · foto de archivo de Wikimedia Commons; recorte de presentación."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Pena, Mouros y centro histórico",
+     "zone": "Sierra alta → Vila",
+     "stopIds": [
+      "pena",
+      "mouros",
+      "vila"
+     ],
+     "editorialNote": "Pena con hora reservada y margen de acceso; Mouros según fuerzas y apertura. Bajada al centro histórico. No otro palacio interior implícito.",
+     "optionalStopIds": [
+      "nacional"
+     ],
+     "geographyChecks": [],
+     "pacing": "6-7 h con visitas, comida y cuestas, estimación editorial."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Pena, Mouros y centro histórico",
+     "zone": "Sierra alta → Vila",
+     "stopIds": [
+      "pena",
+      "mouros",
+      "vila"
+     ],
+     "editorialNote": "Pena con hora reservada y margen de acceso; Mouros según fuerzas y apertura. Bajada al centro histórico. No otro palacio interior implícito.",
+     "optionalStopIds": [
+      "nacional"
+     ],
+     "geographyChecks": [],
+     "pacing": "6-7 h, estimación editorial."
+    },
+    {
+     "title": "Regaleira y Monserrate",
+     "zone": "Centro → sierra oeste",
+     "stopIds": [
+      "regaleira",
+      "monserrate"
+     ],
+     "editorialNote": "Regaleira por la mañana y Monserrate por la tarde (bus 435 o taxi); día de jardines sin repetir sierra alta.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-7 h con traslados y comida, estimación editorial."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Pena, Mouros y centro histórico",
+     "zone": "Sierra alta → Vila",
+     "stopIds": [
+      "pena",
+      "mouros",
+      "vila"
+     ],
+     "editorialNote": "Pena con hora reservada y margen de acceso; Mouros según fuerzas y apertura. Bajada al centro histórico. No otro palacio interior implícito.",
+     "optionalStopIds": [
+      "nacional"
+     ],
+     "geographyChecks": [],
+     "pacing": "6-7 h, estimación editorial."
+    },
+    {
+     "title": "Regaleira y Monserrate",
+     "zone": "Centro → sierra oeste",
+     "stopIds": [
+      "regaleira",
+      "monserrate"
+     ],
+     "editorialNote": "Jardines y palacios del oeste.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-7 h, estimación editorial."
+    },
+    {
+     "title": "Vila por la mañana y Cabo da Roca",
+     "zone": "Centro → costa en bus 1253",
+     "stopIds": [
+      "vila",
+      "cabodaroca"
+     ],
+     "editorialNote": "Mañana en el centro histórico y traslado a Cabo da Roca con ida y vuelta elegidas en Carris. No se añade la subida de Vila Sassetti ni otro palacio interior.",
+     "optionalStopIds": [
+      "nacional"
+     ],
+     "geographyChecks": [],
+     "pacing": "5-6 h con bus a la costa, estimación editorial."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "La Pena exige llegar al interior a la hora del billete; contar la subida desde el portón.",
+  "El bus 434 hace cola larga en temporada: valorar la subida peatonal o taxi.",
+  "Ninguna entrada, mesa o billete está reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "wp",
+   "title": "Wikipedia: Sintra y artículos de cada lugar",
+   "url": "https://es.wikipedia.org/wiki/Sintra",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ot",
+   "title": "Turismo municipal: cm-sintra.pt",
+   "url": "https://www.cm-sintra.pt/",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ps",
+   "title": "Parques de Sintra: entradas oficiales Pena/Mouros/Monserrate",
+   "url": "https://www.parquesdesintra.pt/",
+   "type": "official",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: lugares que ver en Sintra",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-en-sintra/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "cm",
+   "title": "Sintra Portugal Tourism - buses a Cabo da Roca (leída 2/11/2026)",
+   "url": "https://www.sintraportugaltourism.com/transportation/bus-1624-and-1253-to-cabo-da-roca.html"
+  },
+  {
+   "id": "pena",
+   "title": "Parques de Sintra · condiciones de Pena",
+   "url": "https://www.parquesdesintra.pt/en/plan-your-visit/tickets-palace-of-pena",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "mono",
+   "title": "Parques de Sintra · Monserrate y obras",
+   "url": "https://www.parquesdesintra.pt/pt/parques-monumentos/parque-e-palacio-de-monserrate",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "reg",
+   "title": "Quinta da Regaleira · horarios y acceso",
+   "url": "https://www.regaleira.pt/pt/visitas",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "carris",
+   "title": "Carris Metropolitana · líneas vigentes",
+   "url": "https://carrismetropolitana.pt/",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

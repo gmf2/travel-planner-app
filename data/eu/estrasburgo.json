@@ -1,0 +1,812 @@
+{
+ "schemaVersion": 1,
+ "country": "FR",
+ "id": "estrasburgo",
+ "name": "Estrasburgo",
+ "localName": "Strasbourg",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "petite",
+   "name": "La Petite France",
+   "kind": "urban",
+   "zone": "Grande Île suroeste",
+   "reason": "Calles y canales de la Petite France, con tiempo para pasear y no entrar en cada casa.",
+   "sourceIds": [
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 48.58083333,
+    "lon": 7.74055556
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Petite_France,_Strasbourg",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Paseo exterior por calles y puentes",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg",
+    "author": "Photo Claude TRUONG-NGOC",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "img": "assets/estrasburgo/petite.jpg",
+    "alt": "La Petite France"
+   },
+   "caution": "Adoquines, bordes de canal y puentes: no recorrido libre de barreras garantizado ni baño o barco incluidos.",
+   "photoPending": false
+  },
+  {
+   "id": "ponts",
+   "name": "Ponts Couverts",
+   "kind": "urban",
+   "zone": "Petite France",
+   "reason": "Puentes y torres de los Ponts Couverts, continuación breve de Petite France.",
+   "sourceIds": [
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 48.579889,
+    "lon": 7.739528
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Ponts_couverts_(Strasbourg)",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Paseo exterior, no entrada a torres",
+   "photo": {
+    "img": "assets/estrasburgo/ponts.jpg",
+    "alt": "Ponts Couverts",
+    "source": "https://commons.wikimedia.org/wiki/File:Strasbourg_Ponts_couverts_au_coucher_du_soleil.jpg",
+    "author": "Aloïs Peiffer",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   "caution": null,
+   "photoPending": false
+  },
+  {
+   "id": "vauban",
+   "name": "Barrage Vauban",
+   "kind": "urban",
+   "zone": "Petite France",
+   "reason": "Barrage Vauban desde el río y terraza solo si abre, no mirador nocturno automático.",
+   "sourceIds": [
+    "vauban"
+   ],
+   "coordinates": {
+    "lat": 48.57944444,
+    "lon": 7.73805556
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Barrage_Vauban",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Invierno terraza 8:30-16 según turismo",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Strasbourg_Barrage_Vauban_apr%C3%A8s_restauration_2012-01.jpg",
+    "author": "Claude TRUONG-NGOC",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "img": "assets/estrasburgo/vauban.jpg",
+    "alt": "Barrage Vauban"
+   },
+   "caution": "Terraza: 1 marzo-30 abril/1 septiembre-31 octubre, 8-19; 1 mayo-31 agosto, 7:15-21; 1 noviembre-fin febrero, 8:30-16. Horario de terraza, no inferir galería abierta 24 h. Ascensor funcionando/acceso exacto no verificados, consultar si necesario; lluvia/hielo pueden cambiar acceso.",
+   "photoPending": false
+  },
+  {
+   "id": "kleber",
+   "name": "Place Kléber",
+   "kind": "urban",
+   "zone": "Grande Île",
+   "reason": "Place Kléber como plaza central y pausa entre Petite France y calles del casco.",
+   "sourceIds": [
+    "vc",
+    "noel"
+   ],
+   "coordinates": {
+    "lat": 48.58333333,
+    "lon": 7.74611111
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Place_Kl%C3%A9ber",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Plaza exterior; mercado de Navidad solo en fechas 2026 confirmadas",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Absolute_place_Kleber_02.jpg",
+    "author": "Jonathan M",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "img": "assets/estrasburgo/kleber.jpg",
+    "alt": "Place Kléber",
+    "caption": "Place Kléber en Navidad, foto de archivo. No prueba de montaje ni mercado abierto en la fecha de visita."
+   },
+   "caution": "FAQ municipal 2026: 27 noviembre-24 diciembre, apertura 27 noviembre 14-21; 11-21 resto de días, 24 diciembre 11-18. Todos chalets cierran 24 diciembre, no mercado el 25 ni hasta Año Nuevo. Foto navideña de archivo no demuestra montaje actual ni fechas de otro año.",
+   "photoPending": false
+  },
+  {
+   "id": "gutenberg",
+   "name": "Place Gutenberg",
+   "kind": "urban",
+   "zone": "Catedral",
+   "reason": "Place Gutenberg y fachadas en el camino a la catedral.",
+   "sourceIds": [
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 48.581642,
+    "lon": 7.74893
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Place_Gutenberg",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Paseo exterior",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Strasbourg_place_Gutenberg_novembre_2013_04.jpg",
+    "author": "Photo Claude TRUONG-NGOC",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "img": "assets/estrasburgo/gutenberg.jpg",
+    "alt": "Place Gutenberg"
+   },
+   "caution": null,
+   "photoPending": false
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral de Estrasburgo",
+   "kind": "urban",
+   "zone": "Catedral",
+   "reason": "Fachada de Notre-Dame y visita interior si abre; reloj y plataforma son opciones separadas.",
+   "sourceIds": [
+    "cat",
+    "clock",
+    "platform"
+   ],
+   "coordinates": {
+    "lat": 48.58166667,
+    "lon": 7.75083333
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Strasbourg_Cathedral",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Interior gratuito con culto/seguridad; reloj suspendido durante mercado de Navidad",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Strasbourg_Cathedral_Exterior_-_Diliff.jpg",
+    "author": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "img": "assets/estrasburgo/catedral.jpg",
+    "alt": "Catedral de Estrasburgo"
+   },
+   "caution": "Propio: lun-sáb 8:30-11:15/12:45-17:45; dom/fiestas 14-17:15. En mercado de Navidadlun-sáb 8:30-17:45 continuo, entrada Sur. Reloj: sesión 4 € sin reserva anticipada, compra el día; acceso 11:30/film 12/autómatas 12:30 salvo domingos/fiestas culto. Propio anuncia SIN espectáculo durante todo mercado de Navidad, no programarlo en ese modo. Plataforma 330 escalones/66 m sin ascensor, 10 € adulto, última subida 45 min antes; invierno 10-13/13:30-18, verano 9:30-13/13:30-20; 1 enero/1 mayo/25 diciembre cerrada y mal tiempo puede suspender. No toda catedral es accesible por haber rampa al interior.",
+   "photoPending": false
+  },
+  {
+   "id": "kammerzell",
+   "name": "Maison Kammerzell",
+   "kind": "urban",
+   "zone": "Catedral",
+   "reason": "Casa Kammerzell por fuera para observar fachada entramada y relación con catedral.",
+   "sourceIds": [
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 48.58194444,
+    "lon": 7.74972222
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Kammerzell_House",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Fachada, no comida ni visita interior reservadas",
+   "photo": {
+    "img": "assets/estrasburgo/kammerzell.jpg",
+    "alt": "Maison Kammerzell",
+    "source": "https://commons.wikimedia.org/wiki/File:Maison_Kammerzell_and_Cath%C3%A9drale_Notre_Dame_Strasbourg_France_copr_2022_by_Tim_Adams_CC_by_3.jpg",
+    "author": "Tim Adams",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+   },
+   "caution": "Es restaurante: admirar fachada no concede acceso libre al comedor. No usar precio o antigüedad de postal histórica como estado actual.",
+   "photoPending": false
+  },
+  {
+   "id": "rohan",
+   "name": "Palais Rohan",
+   "kind": "urban",
+   "zone": "Catedral/Rohan",
+   "reason": "Palais Rohan exterior y un museo elegido, no tres museos consecutivos.",
+   "sourceIds": [
+    "museums",
+    "hours",
+    "mba"
+   ],
+   "coordinates": {
+    "lat": 48.58083333,
+    "lon": 7.75222222
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Palais_Rohan,_Strasbourg",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 100,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Museos de Rohan martes cerrado; Artes Decorativas parcialmente cerrado hasta 19 noviembre 2026",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Palais_Rohan_Jan_2020_(cropped).jpg",
+    "author": "Radek Kucharski",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+    "img": "assets/estrasburgo/rohan.jpg",
+    "alt": "Palais Rohan",
+    "caption": "Palais Rohan visto desde arriba, archivo. No todos museos/aposentos abiertos actualmente."
+   },
+   "caution": "Museos Rohan: lun/mié-jue-vie 10-13/14-18, sáb-dom 10-18 según tabla municipal;25 diciembre/1 enero/1 mayo/1 y 11 noviembre y Viernes Santo cierres por sede.24/31 diciembre 2026 hasta 16 con pausa. Artes Decorativas21 septiembre-19 noviembre 2026 solo comunes permitidos con escalera Haug, 5 € reducido, no apartamentos completos. BellasArtes/Arqueológico tienen acceso/billete propios;consultar exposición. Museo Alsaciano CERRADO obras 2025-2028, no alternativa interior actual. Museo Œuvre tiene otro día de cierre.",
+   "photoPending": false
+  },
+  {
+   "id": "bateliers",
+   "name": "Quai des Bateliers",
+   "kind": "urban",
+   "zone": "Ribera Este",
+   "reason": "Paseo por Quai des Bateliers y fachadas junto al Ill tras el bloque de catedral.",
+   "sourceIds": [
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 48.5806743,
+    "lon": 7.7536869
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Quai_des_Bateliers",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Paseo exterior",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Strasbourg,_Quai_des_Bateliers.jpg",
+    "author": "stephane martin from paris, france",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
+    "img": "assets/estrasburgo/bateliers.jpg",
+    "alt": "Quai des Bateliers"
+   },
+   "caution": "No todas las casas se visitan ni embarque Batorama incluido; elegir tramo y regreso, no rodear toda ciudad.",
+   "photoPending": false
+  },
+  {
+   "id": "broglie",
+   "name": "Place Broglie",
+   "kind": "urban",
+   "zone": "Centro Norte",
+   "reason": "Place Broglie, edificios por fuera y conexión hacia Saint-Pierre-le-Jeune.",
+   "sourceIds": [
+    "vc",
+    "noel"
+   ],
+   "coordinates": {
+    "lat": 48.58514,
+    "lon": 7.750419
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Place_Broglie",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Exterior; edificios administrativos/Ópera no incluidos",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Place_broglie.JPG",
+    "author": "Tael",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+    "img": "assets/estrasburgo/broglie.jpg",
+    "alt": "Place Broglie"
+   },
+   "caution": null,
+   "photoPending": false
+  },
+  {
+   "id": "pierre",
+   "name": "Saint-Pierre-le-Jeune protestante",
+   "kind": "urban",
+   "zone": "Centro Norte",
+   "reason": "Saint-Pierre-le-Jeune protestante, distinta de la iglesia católica del mismo nombre.",
+   "sourceIds": [
+    "pierre"
+   ],
+   "coordinates": {
+    "lat": 48.585556,
+    "lon": 7.746389
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/%C3%89glise_protestante_Saint-Pierre-le-Jeune_de_Strasbourg",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Parroquia publica 10-18, culto puede limitar visita",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Strasbourg_-_%C3%A9glise_St._Pierre_le_jeune_protestant_-_1.jpg",
+    "author": "Vonvon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "img": "assets/estrasburgo/pierre.jpg",
+    "alt": "Saint-Pierre-le-Jeune protestante"
+   },
+   "caution": "Propio anuncia todos días 10-18 frente guía 12-18. Confirmar actos; claustro/cripta no todos espacios sin escalones. No confundir con Saint-Pierre-le-Jeune católica en Neustadt.",
+   "photoPending": false
+  },
+  {
+   "id": "republique",
+   "name": "Place de la République / Neustadt",
+   "kind": "urban",
+   "zone": "Neustadt",
+   "reason": "Plaza de la République para leer la Neustadt desde sus fachadas monumentales.",
+   "sourceIds": [
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 48.587264,
+    "lon": 7.753972
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Place_de_la_R%C3%A9publique_(Strasbourg)",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Paseo exterior; no interiores oficiales ni bibliotecas automáticos",
+   "photo": {
+    "img": "assets/estrasburgo/republique.jpg",
+    "alt": "Place de la République / Neustadt",
+    "source": "https://commons.wikimedia.org/wiki/File:Espace_vert_de_la_Place_de_la_R%C3%A9publique,_Strasbourg.jpg",
+    "author": "Javier Kohen from Kraków, Poland",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   "caution": null,
+   "photoPending": false
+  },
+  {
+   "id": "paul",
+   "name": "Église Saint-Paul",
+   "kind": "urban",
+   "zone": "Neustadt",
+   "reason": "Saint-Paul por fuera sobre la confluencia de brazos del Ill, paso hacia zona europea.",
+   "sourceIds": [
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 48.5860964,
+    "lon": 7.759709
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Paul_de_Strasbourg",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Exterior; horario interior no verificado",
+   "photo": {
+    "img": "assets/estrasburgo/paul.jpg",
+    "alt": "Église Saint-Paul",
+    "source": "https://commons.wikimedia.org/wiki/File:%C3%89glise_r%C3%A9form%C3%A9e_Saint-Paul_@_Strasbourg_(44894771264).jpg",
+    "author": "Guilhem Vellut from Annecy, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   },
+   "caution": "No se promete visita interior ni concierto; iglesia no estación ni entrada a Parlamento.",
+   "photoPending": false
+  },
+  {
+   "id": "orangerie",
+   "name": "Parc de lOrangerie",
+   "kind": "urban",
+   "zone": "Zona Europea",
+   "reason": "Paseo por parque de lOrangerie y pabellón Joséphine por fuera, pausa cerca del barrio europeo.",
+   "sourceIds": [
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 48.5918806,
+    "lon": 7.7760029
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Parc_de_l%27Orangerie",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Paseo de parque; no zoológico, barca o interior incluidos",
+   "photo": {
+    "img": "assets/estrasburgo/orangerie.jpg",
+    "alt": "Parc de lOrangerie",
+    "source": "https://commons.wikimedia.org/wiki/File:Absolute_Pavillon_Jos%C3%A9phine_01.jpg",
+    "author": "Jonathan M",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Pavillon Joséphine y jardín en lOrangerie, archivo. Interior del pabellón no incluido."
+   },
+   "caution": "Accesos pueden cambiar por tiempo/obras. No se incluye zoológico en funcionamiento, alquiler de barca ni restaurante. Usar transporte desde Grande Île si evita larga travesía a pie.",
+   "photoPending": false
+  },
+  {
+   "id": "parlamento",
+   "name": "Parlamento Europeo",
+   "kind": "urban",
+   "zone": "Zona Europea",
+   "reason": "Parlamento Europeo: exterior siempre como base, visita de 60 min solo con calendario y documento.",
+   "sourceIds": [
+    "ep"
+   ],
+   "coordinates": {
+    "lat": 48.597401,
+    "lon": 7.768825
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Seat_of_the_European_Parliament_in_Strasbourg",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Interior gratuito fuera de plenaria con DNI/pasaporte físico; domingos y 24 dic 2026-3 ene 2027 cerrado",
+   "photo": {
+    "img": "assets/estrasburgo/parlamento.jpg",
+    "alt": "Parlamento Europeo",
+    "source": "https://commons.wikimedia.org/wiki/File:European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
+    "author": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Hemiciclo del Parlamento en foto de archivo. No sesión, entrada ni visita confirmadas."
+   },
+   "caution": "Fuera de plenaria:lun-vie 9-18, sáb 9:30-12/13-18, última entrada 17;gratis 60 min, 24 idiomas, individuales sin reserva obligatoria, grupos 20+ recomendado. Documento identidad FÍSICO, controles de seguridad. Domingos/fechas publicadas cerrado,24 diciembre 2026-3 enero 2027 cerrado completo. Durante plenario aplican otras reglas, verificar agenda; no acceder hemiciclo como visitante fuera plenaria durante sesión. Fotografía de archivo del hemiciclo no garantiza participación/visibilidad. Asistencia especial avisar antes.",
+   "photoPending": false
+  },
+  {
+   "id": "oeuvre",
+   "name": "Musée de lŒuvre Notre-Dame",
+   "kind": "urban",
+   "zone": "Catedral",
+   "reason": "Musée de lŒuvre Notre-Dame como museo alternativo de arte medieval junto a la catedral.",
+   "sourceIds": [
+    "oeuvre",
+    "hours"
+   ],
+   "coordinates": {
+    "lat": 48.58083333,
+    "lon": 7.75138889
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l%27%C5%92uvre_Notre-Dame",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 100,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Lunes cerrado, no mismo cierre martes que Rohan",
+   "photo": {
+    "img": "assets/estrasburgo/oeuvre.jpg",
+    "alt": "Musée de lŒuvre Notre-Dame",
+    "source": "https://commons.wikimedia.org/wiki/File:Oeuvre_Notre_Dame.jpg",
+    "author": "JMRW (talk · contribs)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "caption": "Edificio del Musée de lŒuvre Notre-Dame, archivo. No es patio libre ni espacio interior confirmado."
+   },
+   "caution": "Tabla municipal martes-viernes 10-13/14-18, sáb-dom 10-18; lunes cerrado;24/31 diciembre 2026 hasta 16 con pausa,25 diciembre/1 enero/11 noviembre cerrado. 9 € adulto/5 € reducido de referencia, exposiciones pueden cambiar;billetes plataforma/reloj dan condiciones de reducción distintas, no gratuidad general. Sustituye museo Rohan, no obliga ambos.",
+   "photoPending": false
+  },
+  {
+   "id": "obernai",
+   "name": "Obernai",
+   "kind": "excursion",
+   "zone": "Fuera Estrasburgo",
+   "reason": "Obernai: plaza del mercado y calles del casco como excursión propia, sin ruta completa de vinos.",
+   "sourceIds": [
+    "obernai-train",
+    "obernai-city"
+   ],
+   "coordinates": {
+    "lat": 48.46,
+    "lon": 7.48
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Obernai",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 360,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "TER A07 y estación a 5 min del centro según municipio",
+   "photo": {
+    "img": "assets/estrasburgo/obernai.jpg",
+    "alt": "Obernai",
+    "source": "https://commons.wikimedia.org/wiki/File:Obernai_place_marche.JPG",
+    "author": "OTCOM",
+    "license": "Public domain",
+    "licenseUrl": ""
+   },
+   "caution": "Operador publica 31 ida-vuelta diarios y hasta 2 trenes/hora en punta, municipio aproxima 30 min viaje; no garantizar frecuencia anual ni último tren. Elegir ida/vuelta por fecha. Mont Sainte-Odile, viñedos yotros pueblos no están incluidos ni accesibles automáticamente desde estación.",
+   "photoPending": false
+  },
+  {
+   "id": "colmar",
+   "name": "Colmar",
+   "kind": "excursion",
+   "zone": "Fuera Estrasburgo",
+   "reason": "Colmar: paseo corto por casco y Petite Venise como jornada aparte, sin añadir todos los pueblos de Alsacia.",
+   "sourceIds": [
+    "colmar-train",
+    "colmar-city"
+   ],
+   "coordinates": {
+    "lat": 48.0817,
+    "lon": 7.3556
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Colmar",
+   "coordinateMethod": "Wikipedia, identidad por título, punto aproximado no entrada verificada",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "reviewedAt": "2026-11-03",
+   "visitMode": "Tren directo Strasbourg-Colmar, no transfer a pueblos incluido",
+   "photo": {
+    "img": "assets/estrasburgo/colmar.jpg",
+    "alt": "Colmar",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_%C3%89glise_Saint-Martin_(43833049001).jpg",
+    "author": "--sinava-- from Berlin",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Canal con Saint-Martin al fondo en Colmar, archivo. No es Petite Venise ni salida de barca confirmada."
+   },
+   "caution": "SNCF muestra ejemplos TER directos 30-40 min y 26 min más rápido TGV en tabla 21 octubre 2026: ejemplos de otro día, no frecuencia/tarifa garantizada. Elegir tren y regreso, traslado estación-casco por ruta apta. Plano oficial ofrece circuito completo 6,1 km, no obligatorio entero ni 3 h visitando todos los museos. No buses de Navidad, Riquewihr/Eguisheim/Route des Vins automáticos.",
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Canales, plazas y catedral",
+     "zone": "Petite France → PontsCouverts → Vauban → Kléber → Gutenberg → Catedral/Kammerzell",
+     "stopIds": [
+      "petite",
+      "ponts",
+      "vauban",
+      "kleber",
+      "gutenberg",
+      "catedral",
+      "kammerzell"
+     ],
+     "editorialNote": "Paseo de casco con interior de catedral si abre. Plataforma 330 escalones y reloj son opciones dentro del bloque, no ambas obligatorias ni hora 12:30 garantizada. Vauban terraza cierra 16 h invierno, priorizar antes; no esperar al anochecer. Pausas y recorte Kléber si hace falta.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial, con pausas y accesos por fecha. Nada reservado."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Canales, plazas y catedral",
+     "zone": "Petite France → PontsCouverts → Vauban → Kléber → Gutenberg → Catedral/Kammerzell",
+     "stopIds": [
+      "petite",
+      "ponts",
+      "vauban",
+      "kleber",
+      "gutenberg",
+      "catedral",
+      "kammerzell"
+     ],
+     "editorialNote": "Paseo de casco con interior de catedral si abre. Plataforma 330 escalones y reloj son opciones dentro del bloque, no ambas obligatorias ni hora 12:30 garantizada. Vauban terraza cierra 16 h invierno, priorizar antes; no esperar al anochecer. Pausas y recorte Kléber si hace falta.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial, con pausas y accesos por fecha. Nada reservado."
+    },
+    {
+     "title": "Un museo y calles del norte",
+     "zone": "Rohan → Quai Bateliers → Broglie → Saint-Pierre → République",
+     "stopIds": [
+      "rohan",
+      "bateliers",
+      "broglie",
+      "pierre",
+      "republique"
+     ],
+     "editorialNote": "Elegir un museo Rohan o Œuvre Notre-Dame, no todos los museos. Artes Decorativas parcial hasta 19 noviembre 2026, Museo Alsaciano cerrado hasta 2028. Saint-Pierreprotestante tiene horario propio, no guía 12-18. Iglesia Saint-Paul como opción exterior al continuar hacia este.",
+     "optionalStopIds": [
+      "oeuvre",
+      "paul"
+     ],
+     "pacing": "Estimación editorial, con pausas y accesos por fecha. Nada reservado."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Canales, plazas y catedral",
+     "zone": "Petite France → PontsCouverts → Vauban → Kléber → Gutenberg → Catedral/Kammerzell",
+     "stopIds": [
+      "petite",
+      "ponts",
+      "vauban",
+      "kleber",
+      "gutenberg",
+      "catedral",
+      "kammerzell"
+     ],
+     "editorialNote": "Paseo de casco con interior de catedral si abre. Plataforma 330 escalones y reloj son opciones dentro del bloque, no ambas obligatorias ni hora 12:30 garantizada. Vauban terraza cierra 16 h invierno, priorizar antes; no esperar al anochecer. Pausas y recorte Kléber si hace falta.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial, con pausas y accesos por fecha. Nada reservado."
+    },
+    {
+     "title": "Un museo y calles del norte",
+     "zone": "Rohan → Quai Bateliers → Broglie → Saint-Pierre → République",
+     "stopIds": [
+      "rohan",
+      "bateliers",
+      "broglie",
+      "pierre",
+      "republique"
+     ],
+     "editorialNote": "Elegir un museo Rohan o Œuvre Notre-Dame, no todos los museos. Artes Decorativas parcial hasta 19 noviembre 2026, Museo Alsaciano cerrado hasta 2028. Saint-Pierreprotestante tiene horario propio, no guía 12-18. Iglesia Saint-Paul como opción exterior al continuar hacia este.",
+     "optionalStopIds": [
+      "oeuvre",
+      "paul"
+     ],
+     "pacing": "Estimación editorial, con pausas y accesos por fecha. Nada reservado."
+    },
+    {
+     "title": "Parque y barrio europeo",
+     "zone": "Transporte a Orangerie → Parlamento exterior/visita",
+     "stopIds": [
+      "orangerie",
+      "parlamento"
+     ],
+     "editorialNote": "Tram/conexión elegida, no paseo largo automático desde casco. Interior Parlamento sujeto a plenaria/documento FÍSICO/seguridad, no mera reserva genérica. Domingo o 24 diciembre-3 enero: solo exteriores/parque y consultar cierres. Se sustituye por Obernai o Colmar si se elige excursión, no ambas.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial, con pausas y accesos por fecha. Nada reservado."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Museo Alsaciano CERRADO obras hasta 2028; guía 2027superada. Artes Decorativas parcial 21 septiembre-19 noviembre 2026, no apartamentos completos.",
+  "Calendario Navidad municipal FAQ 2026 prima a restos 2025 de otras páginas: 27 noviembre-24 diciembre 2026, no 25 diciembre ni Año Nuevo.",
+  "Parlamento fuera plenaria y durante sesión no son misma oferta; se comprueba calendario+ID físico, no reserva obligatoria para individuales fuera plenaria.",
+  "Distancias mostradas son línea recta, no caminos ni paquetes de transporte."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "ViajerosCallejeros · Estrasburgo",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-visitar-en-estrasburgo/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cat",
+   "title": "Catedral · horarios",
+   "url": "https://www.cathedrale-strasbourg.fr/horaires_acces",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "clock",
+   "title": "Catedral · reloj y suspensiónNavidad",
+   "url": "https://www.cathedrale-strasbourg.fr/horloge-astronomique",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "platform",
+   "title": "Turismo · plataforma",
+   "url": "https://www.visitstrasbourg.fr/en/fiche-sit/F223007614_climbing-up-to-the-cathedral-s-platform-strasbourg/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vauban",
+   "title": "Turismo · Vauban",
+   "url": "https://www.visitstrasbourg.fr/fiche-sit/F223005692_terrasse-panoramique-du-barrage-vauban-strasbourg/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "museums",
+   "title": "Museos · cierres actuales",
+   "url": "https://www.musees.strasbourg.eu/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hours",
+   "title": "Museos · tabla actual y excepciones",
+   "url": "https://www.musees.strasbourg.eu/tous-les-horaires",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "oeuvre",
+   "title": "Museo Œuvre · tarifa",
+   "url": "https://www.musees.strasbourg.eu/lieu/-/entity/sig/947_CUL_98/musee-de-l-uvre-notre-dame",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mba",
+   "title": "Turismo · BellasArtes",
+   "url": "https://www.visitstrasbourg.fr/fiche-sit/F223013435_musee-des-beaux-arts-de-strasbourg-strasbourg/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pierre",
+   "title": "Saint-Pierre · parroquia",
+   "url": "https://www.saintpierrelejeune.org/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ep",
+   "title": "Parlamento · fuera de plenaria",
+   "url": "https://visiting.europarl.europa.eu/en/visitor-offer/strasbourg/hemicycle-outside-plenary-session",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "obernai-train",
+   "title": "TER · corredorObernai",
+   "url": "https://www.ter.sncf.com/grand-est/trajet-strasbourg-obernai",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "obernai-city",
+   "title": "Obernai · estacióncentro",
+   "url": "https://www.obernai.fr/Fr/Deplacer/Train/Ter-Alsace.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "colmar-train",
+   "title": "SNCFConnect · Colmar",
+   "url": "https://www.sncf-connect.com/train/trajet/strasbourg/colmar",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "colmar-city",
+   "title": "Colmar · planooficial",
+   "url": "https://reservation.tourisme-colmar.com/medias/documents/documentation/documentation-PLANCOLMAR-FR.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "noel",
+   "title": "Municipio · FAQ2026Navidad",
+   "url": "https://noel.strasbourg.eu/foire-aux-questions",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

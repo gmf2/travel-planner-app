@@ -1,0 +1,616 @@
+{
+ "schemaVersion": 1,
+ "country": "ES",
+ "id": "madrid",
+ "name": "Madrid",
+ "localName": "Madrid",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "prado",
+   "name": "Museo del Prado",
+   "kind": "visit",
+   "zone": "Paseo del Prado",
+   "reason": "La gran colección de pintura española; única visita larga de museo del día.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 40.4139,
+    "lon": -3.6922
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Museo_del_Prado",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 180,
+   "durationType": "editorial-estimate",
+   "caution": "Entrada de pago con posibles colas; hay franja gratuita al final del día (condiciones en la web del museo). Cierra 1/1, 1/5 y 25/12. Ninguna entrada comprada.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Museo principal de pago; entrada por comprar",
+   "photo": {
+    "img": "assets/madrid/prado.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Museo_del_Prado_2016_(25185969599).jpg",
+    "author": "Emilio J. Rodríguez Posada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Museo del Prado. Foto Wikimedia Commons verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "retiro",
+   "name": "Parque del Retiro",
+   "kind": "visit",
+   "zone": "Retiro",
+   "reason": "Estanque, Palacio de Cristal y jardines para completar la mañana de museo sin más interiores.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 40.415258,
+    "lon": -3.6834657
+   },
+   "coordinateSource": "Google Maps geocoding: El Retiro Park, Retiro, 28009 Madrid, Spain",
+   "coordinateMethod": "google-maps-geocoding",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Parque urbano gratuito",
+   "photo": {
+    "img": "assets/madrid/retiro.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Estanque_del_retiro_monumento_a_alfonso_xii_parque_del_buen_retiro.jpg",
+    "author": "Jvhertum",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Parque del Retiro: estanque y monumento a Alfonso XII. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sol",
+   "name": "Puerta del Sol",
+   "kind": "visit",
+   "zone": "Sol / Centro",
+   "reason": "Kilómetro cero y plaza neurálgica; arranque del centro a pie.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 40.4169444,
+    "lon": -3.7036111
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Puerta_del_Sol",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Plaza pública",
+   "photo": {
+    "img": "assets/madrid/sol.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2026-09-03_-_Puerta_del_Sol_in_Madrid_Spain.jpg",
+    "author": "Matt Joseph",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Puerta del Sol. Foto Wikimedia Commons verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "plazamayor",
+   "name": "Plaza Mayor",
+   "kind": "visit",
+   "zone": "Austrias",
+   "reason": "Plaza porticada del XVII camino de los Austrias.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 40.4154556,
+    "lon": -3.7073806
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Plaza_Mayor_de_Madrid",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Plaza pública",
+   "photo": {
+    "img": "assets/madrid/plazamayor.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Madrid_06.jpg",
+    "author": "Sebastian Dubiel",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "caption": "Plaza Mayor. Foto Wikimedia Commons verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "palacioreal",
+   "name": "Palacio Real y Plaza de Oriente",
+   "kind": "visit",
+   "zone": "Palacio / Ópera",
+   "reason": "Exterior del Palacio Real y la plaza; el interior ocupa 1,5-2 h si se entra.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 40.4180556,
+    "lon": -3.7141667
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Royal_Palace_of_Madrid",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Interior de pago por franjas; posibles cierres por actos oficiales. La visita interior desplaza otras paradas.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior libre; interior de pago por franjas",
+   "photo": {
+    "img": "assets/madrid/palacioreal.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Palacio_Real_de_Madrid_Julio_2016_(cropped).jpg",
+    "author": "Tim Adams",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Palacio Real y Plaza de Oriente. Foto Wikimedia Commons verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "almudena",
+   "name": "Catedral de la Almudena",
+   "kind": "visit",
+   "zone": "Palacio / Ópera",
+   "reason": "Catedral junto al Palacio; entrada al templo gratuita, visita breve.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 40.415586,
+    "lon": -3.714558
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Almudena_Cathedral",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Templo gratuito; museo de pago",
+   "photo": {
+    "img": "assets/madrid/almudena.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Almudena_2022_-_overview.jpg",
+    "author": "Fernando",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Catedral de la Almudena. Foto Wikimedia Commons verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "debod",
+   "name": "Templo de Debod",
+   "kind": "visit",
+   "zone": "Argüelles / Príncipe Pío",
+   "reason": "Templo egipcio reconstruido con uno de los atardeceres clásicos de la ciudad.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 40.4240528,
+    "lon": -3.7177778
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Temple_of_Debod",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Parque gratuito",
+   "photo": {
+    "img": "assets/madrid/debod.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2026-09-03_-_Temple_of_Debod_in_Madrid_Spain_01.jpg",
+    "author": "Matt Joseph",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Templo de Debod. Foto Wikimedia Commons verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "granvia",
+   "name": "Gran Vía",
+   "kind": "visit",
+   "zone": "Gran Vía",
+   "reason": "Eje comercial y teatros de Callao a Alcalá; fachadas y ambiente.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 40.42,
+    "lon": -3.70361
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Gran_V%C3%ADa",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo urbano",
+   "photo": {
+    "img": "assets/madrid/granvia.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:MADRID_100206_UDCI_019.jpg",
+    "author": "Alfredo Urdaci / PromoMadrid",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Gran Vía. Foto Wikimedia Commons verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "letras",
+   "name": "Barrio de las Letras y CaixaForum",
+   "kind": "visit",
+   "zone": "Huertas",
+   "reason": "Calles del Siglo de Oro entre Sol y el Prado; el jardín vertical de CaixaForum cierra el paseo.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 40.410905,
+    "lon": -3.692897
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/CaixaForum_Madrid",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Barrio de paseo; CaixaForum de pago opcional",
+   "photo": {
+    "img": "assets/madrid/letras.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Caixaforum_Madrid_2024.jpg",
+    "author": "Fernando",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "CaixaForum Madrid y su jardín vertical (la foto muestra el centro cultural, no una vista general del barrio de las Letras). Foto Wikimedia Commons verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "xmas-market",
+   "name": "Mercado navideño: Mercado de la Plaza Mayor",
+   "kind": "event",
+   "zone": "Plaza Mayor",
+   "reason": "El mercado navideño clásico de Madrid bajo los soportales; encaja al final del día de centro.",
+   "sourceIds": [
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 40.4154556,
+    "lon": -3.7073806
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Plaza_Mayor_de_Madrid",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Sólo en temporada: fechas 2026 pendientes de confirmación oficial; suele abrir a finales de noviembre. Aglomeraciones en fin de semana.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Mercado al aire libre",
+   "photo": {
+    "img": "assets/madrid/xmas-market.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Madrid_-_Mercado_navide%C3%B1o_Plaza_Mayor_-_121223_175909.jpg",
+    "author": "Barcex",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Mercado navideño de la Plaza Mayor. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "reinasofia",
+   "name": "Museo Reina Sofía",
+   "kind": "visit",
+   "zone": "Atocha",
+   "reason": "Guernica y colección de arte moderno; abre el tercer día de la guía leída.",
+   "sourceIds": [
+    "rs",
+    "vc3d"
+   ],
+   "coordinates": {
+    "lat": 40.40857143,
+    "lon": -3.6939961
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Cierra los martes y determinados festivos, incluidos 24, 25 y 31 de diciembre; confirmar calendario oficial. Elegir franja de entrada. Si cae en martes, intercambia el día de museo con otro paseo.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Visita de museo opcional de pago; entrada por elegir",
+   "photo": {
+    "img": "assets/madrid/reinasofia.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Edificio_Sabatini._Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa.jpg",
+    "author": "Museoreinasofia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Museo Reina Sofía, edificio Sabatini. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "rastro",
+   "name": "El Rastro y calles de Lavapiés",
+   "kind": "visit",
+   "zone": "Lavapiés",
+   "reason": "Paseo de barrio. El mercadillo solo se celebra domingos y festivos.",
+   "sourceIds": [
+    "ra",
+    "vc3d"
+   ],
+   "coordinates": {
+    "lat": 40.40694444,
+    "lon": -3.70805556
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/El_Rastro_de_Madrid",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Turismo Madrid publica mercadillo domingos y festivos de 09:00 a 15:00. El resto de días es paseo de barrio sin puestos.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Barrio de paseo; mercado solo domingo o festivo",
+   "photo": {
+    "img": "assets/madrid/rastro.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rastro_de_Madrid_(Espa%C3%B1a)_1.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "El Rastro y Lavapiés. Foto Wikimedia Commons verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "latina",
+   "name": "Barrio de La Latina",
+   "kind": "visit",
+   "zone": "La Latina",
+   "reason": "Paseo por La Latina, con punto de referencia en la plaza de la Cebada y calles hacia Cava Baja.",
+   "sourceIds": [
+    "wp",
+    "vc3d"
+   ],
+   "coordinates": {
+    "lat": 40.4107933,
+    "lon": -3.7096895
+   },
+   "coordinateSource": "Google Maps geocoding: Pl. de la Cebada, Centro, 28005 Madrid, Spain",
+   "coordinateMethod": "google-maps-geocoding",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Barrio de paseo; comidas por cuenta propia",
+   "photo": {
+    "img": "assets/madrid/latina.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_San_Francisco_el_Grande_(Madrid)_03.jpg",
+    "author": "J.L. De Diego",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "licenseURL": "",
+    "caption": "Basílica de San Francisco el Grande, en el entorno de La Latina. Foto representativa del barrio, no de la plaza de la Cebada."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Centro histórico y Austrias",
+     "zone": "Sol → Plaza Mayor → Palacio → Debod",
+     "stopIds": [
+      "sol",
+      "plazamayor",
+      "almudena",
+      "palacioreal",
+      "debod"
+     ],
+     "editorialNote": "Día de exteriores por el centro sin museo largo. Si se entra al Palacio (1,5-2 h), se recorta el paseo posterior. Atardecer en Debod si acompaña.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h a pie con comida y pausas, estimación editorial."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Centro histórico y Austrias",
+     "zone": "Sol → Plaza Mayor → Palacio → Debod",
+     "stopIds": [
+      "sol",
+      "plazamayor",
+      "almudena",
+      "palacioreal",
+      "debod"
+     ],
+     "editorialNote": "Día de exteriores por el centro sin museo largo.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h a pie con comida y pausas, estimación editorial."
+    },
+    {
+     "title": "Prado y Retiro",
+     "zone": "Prado → Retiro → CaixaForum / Letras",
+     "stopIds": [
+      "prado",
+      "retiro",
+      "letras"
+     ],
+     "editorialNote": "Prado como único museo largo, paseo por Retiro y regreso hacia CaixaForum. Letras es ampliación de barrio opcional, sin otra entrada de museo.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-7 h con museo, comida y paseo, estimación editorial."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Centro histórico y Austrias",
+     "zone": "Sol → Plaza Mayor → Palacio → Debod",
+     "stopIds": [
+      "sol",
+      "plazamayor",
+      "almudena",
+      "palacioreal",
+      "debod"
+     ],
+     "editorialNote": "Día de exteriores por el centro.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h a pie, estimación editorial."
+    },
+    {
+     "title": "Prado y Retiro",
+     "zone": "Prado → Retiro → CaixaForum / Letras",
+     "stopIds": [
+      "prado",
+      "retiro",
+      "letras"
+     ],
+     "editorialNote": "Prado como único museo largo, paseo por Retiro y regreso hacia CaixaForum. Letras es ampliación de barrio opcional, sin otra entrada de museo.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-7 h, estimación editorial."
+    },
+    {
+     "title": "La Latina, Rastro y Reina Sofía",
+     "zone": "La Latina → Rastro/Lavapiés → Atocha",
+     "stopIds": [
+      "latina",
+      "rastro",
+      "reinasofia"
+     ],
+     "editorialNote": "En domingo o festivo, Rastro por la mañana y Reina Sofía antes de su cierre dominical si da tiempo. Si no, prioriza el museo y reduce el paseo. En martes, intercambia el museo con otro día. El mercado no se celebra a diario.",
+     "optionalStopIds": [
+      "letras"
+     ],
+     "geographyChecks": [],
+     "pacing": "Jornada flexible con museo y paseo. Elige entradas y hora de cierre antes de fijar el orden."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Las franjas gratuitas de museos conllevan cola; no equivalen a entrada garantizada.",
+  "El interior del Palacio Real puede cerrar por actos oficiales con poco aviso.",
+  "Ninguna entrada, mesa o billete está reservado: todo es propuesta editorial."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "wp",
+   "title": "Wikipedia: Madrid y artículos de cada lugar",
+   "url": "https://es.wikipedia.org/wiki/Madrid",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ot",
+   "title": "Turismo oficial: esmadrid.com",
+   "url": "https://www.esmadrid.com/",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en Madrid",
+   "url": "https://www.viajeroscallejeros.com/guia-de-madrid/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "mm",
+   "title": "Viajeros Callejeros: Madrid en tres días",
+   "url": "https://www.viajeroscallejeros.com/madrid-en-3-dias/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "vc3d",
+   "title": "Viajeros Callejeros - Madrid en 3 días (guía leída 2/11/2026)",
+   "url": "https://www.viajeroscallejeros.com/madrid-en-3-dias/"
+  },
+  {
+   "id": "rs",
+   "title": "Museo Reina Sofía · horarios y tarifas oficiales",
+   "url": "https://www.museoreinasofia.es/visita/horarios-tarifas",
+   "retrievedAt": "2026-11-02",
+   "type": "official-owner"
+  },
+  {
+   "id": "ra",
+   "title": "Turismo Madrid · El Rastro",
+   "url": "https://www.esmadrid.com/que-hacer-en-el-rastro",
+   "retrievedAt": "2026-11-02",
+   "type": "official-owner"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

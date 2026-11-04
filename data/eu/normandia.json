@@ -1,0 +1,748 @@
+{
+ "schemaVersion": 1,
+ "country": "FR",
+ "id": "normandia",
+ "name": "Normandía",
+ "localName": "Normandie",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "caen",
+   "name": "Caen, la ciudad de Guillermo el Conquistador",
+   "kind": "walk",
+   "zone": "Caen",
+   "reason": "Caen como jornada propia: elegir el conjunto de la Abbaye-aux-Hommes y un paseo urbano, o dedicar la visita principal al Mémorial. El Mémorial aconseja unas cuatro horas; no caben además ambas abadías y el castillo en los 150 minutos estimados de paseo.",
+   "sourceIds": [
+    "pa",
+    "wp",
+    "memorial",
+    "memorial-hours-own",
+    "caen-abbey-visit-own",
+    "caen-parking"
+   ],
+   "coordinates": {
+    "lat": 49.186379,
+    "lon": -0.362973
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Ch%C3%A2teau%20de%20Caen%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "El museo indica visita media de cuatro horas y taquilla cierra 1 h 15 antes del museo. No añadirlo a jornada completa de playas. Calendario con días específicos de cierre, no una regla semanal anual; consulta fecha. No se presume gratuidad de acompañante de discapacidad: tarifa reducida publicada 18,50 € salvo condición específica. La iglesia Saint-Étienne y la tumba de Guillermo se visitan gratis fuera del culto, separadas del circuito monástico de pago. Visita libre del monasterio: 6 € general, o 4 € sin exposición temporal; 18-26 años 3 € o 2 €, según el producto vigente. Consulta horarios y producto antes de ir. Referencia para coche: Parking Château, 60 avenue de la Libération, 24 h / 7 días, altura máxima 1,90 m según ayuntamiento. No es tu hotel ni garantiza plazas; precio final de parking no comprobado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Consultar calendario diario del Mémorial para la fecha. La extracción de colores del calendario no demuestra por sí sola qué días están cerrados; no se codifican 4,18,25 noviembre como cierres anuales.",
+    "source": "https://www.memorial-caen.fr/votre-visite/horaires/"
+   },
+   "price": "Mémorial 2026: 20,80 € de 19-64; 18,50 € de 10-18 y mayores de 65; estudiantes post-bachillerato 6 € con justificante. Pase familia 53 €: dos adultos y al menos un hijo 10-18, o un adulto y al menos dos hijos 10-18; sin límite de hijos. Audioguía +4,50 €. Tarifas hasta 31 diciembre de 2026.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/normandia/caen.jpg",
+    "source": "https://www.pexels.com/photo/stunning-view-of-saint-etienne-abbey-in-caen-34707770/",
+    "author": "Sergei Gussev",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Iglesia Saint-Étienne de la Abbaye-aux-Hommes y galería del claustro en Caen. No muestra el Mémorial, el castillo ni la Abbaye-aux-Dames.",
+    "alt": "Iglesia Saint-Étienne y galería de la Abbaye-aux-Hommes en Caen."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "bayeux",
+   "name": "Bayeux: casco histórico y catedral",
+   "kind": "walk",
+   "zone": "Bayeux",
+   "reason": "Paseo por el casco histórico y el entorno de la catedral. El Museo del Tapiz está cerrado por obras; la ciudad no equivale a poder visitar el Tapiz.",
+   "sourceIds": [
+    "pa",
+    "wp",
+    "bayeuxmuseum",
+    "bayeux-fr-own",
+    "bayeux-info-own",
+    "bay-parking"
+   ],
+   "coordinates": {
+    "lat": 49.275587,
+    "lon": -0.703681
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Cath%C3%A9drale%20Notre-Dame%20de%20Bayeux%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Museo del Tapiz cerrado desde septiembre de 2025. Reapertura prevista en otoño/octubre de 2027, no fecha exacta garantizada; algunas páginas propias dicen finales de 2027. No toda Bayeux está cerrada. La retirada de la obra no se fecha por la publicación de un vídeo de octubre. Coche: referencia parking d’Ornano, no plaza libre garantizada. Municipio: pago 01/03-15/11, 08:00-20:00, 0,70 €/15 min; gratuito 16/11-28/02. Tarifa revisada 03/11/2026. Zonas azules requieren disco y máximo 4 h; las ventajas de residente no son para todo visitante.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Tapiz no visitable por obras. Paseo urbano y catedral tienen condiciones propias; no se garantiza acceso gratuito a interiores por horario de museo.",
+    "source": "https://www.bayeuxmuseum.com/infos-pratiques/"
+   },
+   "price": "Museo del Tapiz cerrado. Otros museos con billetes y horarios propios, no incluidos automáticamente.",
+   "visitMode": "Paseo exterior; Museo del Tapiz cerrado",
+   "photo": {
+    "img": "assets/normandia/bayeux.jpg",
+    "source": "https://www.pexels.com/photo/aerial-view-of-bayeux-cathedral-in-normandie-36369787/",
+    "author": "Marie-Claude Vergne",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Catedral de Bayeux y casco urbano desde el aire. No muestra el Tapiz, cuyo museo está cerrado por obras.",
+    "alt": "Catedral de Bayeux y casco urbano desde el aire. No muestra el Tapiz, cuyo museo está cerrado por obras."
+   },
+   "accessRules": {
+    "scope": "Tapiz de Bayeux, no catedral ni ciudad",
+    "noticeLabel": "Tapiz de Bayeux, no catedral ni ciudad",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-09-30",
+    "notices": [
+     "Tapiz cerrado desde septiembre de 2025 por obras. Reapertura prevista en otoño de 2027 sin día garantizado; no planificar verlo durante el cierre."
+    ],
+    "standingNotice": "Museo del Tapiz cerrado por obras desde septiembre de 2025. Reapertura prevista en otoño de 2027, sin día confirmado. El casco histórico y la catedral son visitas distintas.",
+    "closedRanges": [
+     {
+      "start": "2026-11-03",
+      "end": "2027-09-30",
+      "label": "Museo del Tapiz por obras, no casco histórico ni catedral"
+     }
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "omaha",
+   "name": "Omaha Beach y el Cementerio Americano",
+   "kind": "museum",
+   "zone": "Colleville-sur-Mer",
+   "reason": "El sector americano del Día D: la playa de Omaha y, sobre ella, el Cementerio Americano de Colleville-sur-Mer (9.389 tumbas) con su centro de visitantes; cerca, la Pointe du Hoc.",
+   "sourceIds": [
+    "pa",
+    "wp",
+    "abmc",
+    "abmc-visit-own",
+    "abmc-register-own",
+    "abmc-access"
+   ],
+   "coordinates": {
+    "lat": 49.358627,
+    "lon": -0.854686
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Normandy%20American%20Cemetery%2C%20Colleville-sur-Mer%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 180,
+   "durationType": "editorial-estimate",
+   "caution": "No hay paso directo del cementerio a la playa: ABMC lo cerró en 2016, usar acceso público cercano autorizado. Reserva no necesaria actualmente, pero ABMC prevé sistema gratuito a finales de 2026 para visitas desde verano 2027; comprobar antes de viajar. Transporte local intermitente, organizar ida y vuelta. ABMC avisa tramo A13 cerrado 16 noviembre 2026-agosto 2027: revisar ruta real desde París, sin afirmar cierre de toda la autopista. El camino cementerio-playa sigue cerrado según ABMC: traslado aparte hacia Saint-Laurent-sur-Mer. Maps al monumento Les Braves es referencia del sector, no permiso para llevar coche a la arena ni plaza verificada. Aparcar legalmente y caminar; comprobar marea/clima. No bajar desde el cementerio.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "ABMC publica diario 9-17, última entrada 16:30; cerrado 1 enero y 25 diciembre. No es acceso libre las 24 horas.",
+    "source": "https://www.abmc.gov/plan/plan-your-visit-to-normandy-american-cemetery/"
+   },
+   "price": "Cementerio americano: entrada gratuita. Museos del sector con entradas propias pendientes; no se presume acceso libre a todos los búnkeres.",
+   "visitMode": "exterior+interior",
+   "photo": {
+    "img": "assets/normandia/omaha.jpg",
+    "source": "https://www.pexels.com/photo/normandy-american-cemetery-overlooking-omaha-beach-29007333/",
+    "author": "Hub JACQU",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Sepulturas del Cementerio Americano de Normandía. No muestra la playa ni implica acceso directo desde el recinto.",
+    "alt": "Sepulturas del Cementerio Americano de Normandía. No muestra la playa ni implica acceso directo desde el recinto."
+   },
+   "accessRules": {
+    "scope": "Cementerio americano, no acceso a la playa. Última entrada 16:30.",
+    "closedMonthDays": [
+     "01-01",
+     "12-25"
+    ],
+    "verifiedThrough": "2026-12-31",
+    "noticeLabel": "Cementerio americano, no playa"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "mont_saint_michel",
+   "name": "Mont Saint-Michel: pueblo y abadía",
+   "kind": "landmark",
+   "zone": "Le Mont-Saint-Michel",
+   "reason": "Pueblo y murallas sobre el monte, con abadía de entrada separada en lo alto. Acceso a la bahía sujeto a mareas y guía; la foto no acredita condiciones actuales.",
+   "sourceIds": [
+    "pa",
+    "wp",
+    "msm",
+    "msm-access",
+    "msm-services"
+   ],
+   "coordinates": {
+    "lat": 48.636023,
+    "lon": -1.511481
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Abbaye%20du%20Mont-Saint-Michel%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Abadía en lo alto, muchas escaleras; operador estima 45-60 min desde aparcamientos hasta entrada según afluencia. No ir a la bahía sin guía y comprobación de mareas. Última entrada 1 h antes; retirada de tablet y última franja de grupo 1 h 30 antes. Sin maletas grandes ni consigna. Transporte desde Caen y retorno deben verificarse, no conexión directa asegurada. Grupos independientes autoguiados de 10+ con reserva; otras modalidades de grupo requieren reserva sin ese mínimo. Le Passeur une aparcamientos/CIT con el monte y es gratuito; no confundir con el bus de pago desde la estación de Pontorson. Noviembre-febrero fuera de vacaciones:8:30-22;vacacionesNavidad7:30-23 según gestor. No resuelve Caen-Pontorson ni regreso. El PDFPontorson30mar-11oct2026 está vencido para noviembre y no se usa como horario vigente. Parking visitante en continente, de pago variable por duración/temporada, total no comprobado. Navette Le Passeur gratuita desde parkings, no desde Caen. Bajarse y subir al pueblo/abadía requiere margen y escaleras. Mareas de gran coeficiente pueden interrumpir acceso alrededor de una hora; comprobar calendario para fecha y no cruzar la bahía sin guía.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abadía: 1 may-31 ago 9:00-19:00; 1 sep-30 abr 9:30-18:00. Cerrada 1 ene, 1 may y 25 dic. Última entrada 1 h antes del cierre. Pueblo: acceso libre todo el año, sin billete.",
+    "source": "https://www.abbaye-mont-saint-michel.fr/en/visit/practical-information"
+   },
+   "price": "Abadía: 16 € del 1 de abril al 30 de septiembre de 2026; 13 € del 1 de octubre de 2026 al 31 de marzo de 2027. Pueblo sin entrada ni reserva. Tablet 6 € extra, español disponible, requiere dejar ID hasta devolución. Parking público de coche ligero, del 2 de noviembre al 31 de diciembre de 2026: 10 € hasta 3 h, 12 € hasta 6 h, 14 € hasta 24 h; descuento de 2 € al reservar por web según tabla. Parking, abadía y bus desde Pontorson son pagos distintos. Le Passeur desde parking/CIT al monte es gratuito.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/normandia/mont_saint_michel.jpg",
+    "source": "https://www.pexels.com/photo/majestic-view-of-mont-saint-michel-in-normandy-32452161/",
+    "author": "Bingqian Li",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Conjunto del Mont Saint-Michel desde el exterior. No indica estado actual de mareas ni acceso a la bahía.",
+    "alt": "Conjunto del Mont Saint-Michel desde el exterior. No indica estado actual de mareas ni acceso a la bahía."
+   },
+   "accessRules": {
+    "scope": "Abadía; el pueblo tiene acceso distinto.",
+    "closedMonthDays": [
+     "01-01",
+     "05-01",
+     "12-25"
+    ],
+    "verifiedThrough": "2027-03-31",
+    "noticeLabel": "Abadía, no pueblo"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "honfleur",
+   "name": "Honfleur y su Vieux Bassin",
+   "kind": "walk",
+   "zone": "Honfleur",
+   "reason": "El puerto viejo de casas altas y estrechas que inspiró a los impresionistas, la iglesia de Sainte-Catherine construida en madera por carpinteros de barcos y las callejuelas con galerías de arte.",
+   "sourceIds": [
+    "pa",
+    "wp",
+    "hon-parking"
+   ],
+   "coordinates": {
+    "lat": 49.420177,
+    "lon": 0.233152
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Vieux%20Bassin%2C%20Honfleur%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": " Referencia coche Parking de l’Est / Quai de la Jetée de l’Est, fuera del núcleo; Turismo publica forfait 24 h de 8 €. Revisado 03/11/2026, sin confirmar plazas ni régimen de evento. No confundir con Bassin du Centre de tarifa distinta.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre; museos (Eugène Boudin, maisons Satie) de pago sin primaria esta sesión.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/normandia/honfleur.jpg",
+    "source": "https://www.pexels.com/photo/scenic-view-of-honfleur-harbor-in-normandy-france-40341751/",
+    "author": "Oleksandra Zelena",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Vieux Bassin de Honfleur y fachadas del puerto. Foto de archivo.",
+    "alt": "Vieux Bassin de Honfleur y fachadas del puerto. Foto de archivo."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "deauville",
+   "name": "Deauville y Trouville, la Côte Fleurie",
+   "kind": "walk",
+   "zone": "Deauville / Trouville-sur-Mer",
+   "reason": "El dúo elegante del estuario: Les Planches de Deauville (paseo entablado de 1923 con nombres de actores del festival de cine) y el mercado de pescado y las villas de Trouville.",
+   "sourceIds": [
+    "pa",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 49.359388,
+    "lon": 0.072815
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Les%20Planches%2C%20Deauville%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/normandia/deauville.jpg",
+    "alt": "Deauville: las cabinas Art Déco junto a Les Planches, con nombres de actores en las barreras. Foto de archivo, no confirma servicios de playa en una fecha concreta.",
+    "caption": "Deauville: las cabinas Art Déco junto a Les Planches, con nombres de actores en las barreras. Foto de archivo, no confirma servicios de playa en una fecha concreta.",
+    "author": "Adrien Olichon",
+    "source": "https://www.pexels.com/photo/historic-beach-cabins-in-deauville-france-28852717/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.indeauville.fr/en/sejour/the-promenade-des-planches/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "utah",
+   "name": "Utah Beach y Sainte-Mère-Église",
+   "kind": "museum",
+   "zone": "Sainte-Marie-du-Mont / Sainte-Mère-Église",
+   "reason": "El sector occidental del desembarco: el Museo de Utah Beach sobre la propia playa y Sainte-Mère-Église, el pueblo del paracaidista colgado del campanario, con el Airborne Museum.",
+   "sourceIds": [
+    "pa",
+    "wp",
+    "utah-practical",
+    "utah-visits",
+    "airborne-hours",
+    "airborne-ticket",
+    "airborne-home"
+   ],
+   "coordinates": {
+    "lat": 49.415359,
+    "lon": -1.174627
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Mus%C3%A9e%20du%20D%C3%A9barquement%20Utah%20Beach%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Alternativa a Omaha, no añadido. Utah 1 h 30-2 h + Airborne unas 2 h: ambos requieren jornada propia con playa/comida. Maps sin fecha/tráfico: Bayeux-Ornano → Utah 44 min / 60,6 km; Utah → Airborne 16 min / 14,8 km; regreso Bayeux 39 min / 58,8 km, parking aparte. Utah tiene ascensores, algunos exteriores no accesibles. Guiadas FR/EN: consultar turnos del mes por teléfono, pago el día. Airborne: ticket pone 9 h por defecto pero vale todo el día elegido dentro del horario real; incluye Histopad. Cancelación y acceso detallado pendientes. Tren a Carentan deja a 17 km de Utah, no resuelve último tramo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Utah: oct-abr 10-18, may-sep 9:30-19. Anuncia cierre 16 noviembre-14 diciembre sin año, confirmar. Airborne: may-ago 9-19, abr/sep 9:30-18:30, oct-mar 10-18; cerrado diciembre/enero salvo vacaciones Navidad, fechas 2026/27 pendientes. Ambos cierran taquilla 1 h antes. Playa/pueblo son accesos distintos.",
+    "source": "https://utah-beach.com/infos-pratiques/"
+   },
+   "price": "Utah: adulto 10 €, estudiante 7,50 €, 6-15 años 6,50 €, menor de 6 gratis. Guiada 45 min +2,50 € / 1 h 30 +5 €, si se confirma turno. Airborne aparte: 17+ 11,50 €, 6-16 años 7,50 €, menor de 6 gratis. Ambos museos: 21,50 € adulto sin guiadas. Familia Airborne 33 € (2+2) en taquilla, pero portada 10,50 €/adulto +6 €/niño: confirmar cesta.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/normandia/utah-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Utah Beach, paisaje conceptual de costa con memorial imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Utah Beach, paisaje conceptual de costa con memorial imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual. El memorial no reproduce una pieza real; no muestra interiores de museos.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "accessRules": {
+    "scope": "Museo Utah, no playa ni Sainte-Mère-Église",
+    "noticeLabel": "Museo Utah: cierre anunciado sin año",
+    "notices": [
+     "La web anuncia cierre del museo del 16 noviembre al 14 diciembre sin año explícito. Confirmar para la fecha; playa y otros museos son visitas distintas."
+    ],
+    "standingAdvisory": "Museo Utah: cierre anunciado 16 noviembre-14 diciembre sin año explícito. Confirmar periodo; no planificar interior sin comprobar. Playa y Sainte-Mère-Église no quedan cerrados por ese aviso."
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "etretat",
+   "name": "Étretat, los acantilados de la Costa de Alabastro",
+   "kind": "excursion",
+   "zone": "Étretat",
+   "reason": "Acantilados de creta con arcos y aguja junto al mar. Elegir un mirador o paseo permitido según los avisos de la fecha; la foto no garantiza acceso a la cima ni a la playa bajo los arcos.",
+   "sourceIds": [
+    "pa",
+    "wp",
+    "etretat"
+   ],
+   "coordinates": {
+    "lat": 49.707322,
+    "lon": 0.193597
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Falaise%20d%27Aval%2C%20%C3%89tretat%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "No pasar barreras, ni bajar a playas cerradas, ni buscar túneles a marea baja. La página municipal resumida no acredita por sí sola regla exacta de cinco metros ni multas; se retiran importes contradictorios de prensa. Mantener distancia prudente del borde y seguir señalización. Excursión separada, no añadido a Honfleur sin ruta y margen comprobados.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Aviso municipal del decreto 180/2025 prohíbe Chambre des Demoiselles, Descente au Chaudron y túneles que cruzan puntas de acantilados. Acceso a playas del litoral municipal prohibido salvo zona frente al dique-paseo. Seguir cierres y balizamiento actual; no se certifica cada tramo de GR21 abierto.",
+    "source": "https://etretat.fr/arrete-municipal-de-promenade/"
+   },
+   "price": "Condiciones de parking e interiores pendientes. No se indica tarifa de 3 €/h sin fuente municipal vigente.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/normandia/etretat.jpg",
+    "source": "https://www.pexels.com/photo/the-cliffs-of-etretat-france-27536607/",
+    "author": "AXP Photography",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Arco y aguja de los acantilados de Étretat. La vista no valida acceso al borde ni un sendero abierto.",
+    "alt": "Arco y aguja de los acantilados de Étretat. La vista no valida acceso al borde ni un sendero abierto."
+   },
+   "accessRules": {
+    "scope": "Accesos costeros de Étretat",
+    "noticeLabel": "Accesos costeros de Étretat",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Decreto municipal prohíbe túneles, Chambre des Demoiselles, Descente au Chaudron y playas excepto frente al dique-paseo. Respetar cierres del lugar; no se certifica todo GR21 abierto."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "rouen",
+   "name": "Rouen, la capital histórica",
+   "kind": "excursion",
+   "zone": "Rouen",
+   "reason": "La ciudad de Juana de Arco: la catedral que Monet pintó una treintena de veces, el Gros-Horloge, la Place du Vieux-Marché y las calles de casas de entramado de madera.",
+   "sourceIds": [
+    "pa",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 49.440288,
+    "lon": 1.094821
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Cath%C3%A9drale%20Notre-Dame%20de%20Rouen%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 360,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Catedral y casco: libres; Gros-Horloge, museos y Historial Jeanne d'Arc de pago sin primaria esta sesión.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/normandia/rouen.jpg",
+    "source": "https://www.pexels.com/photo/man-with-a-backpack-walking-in-front-of-the-notre-dame-cathedral-18665883/",
+    "author": "Jesús Esteban San José",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada de la catedral de Rouen. Foto de archivo, no apertura actual ni entrada confirmada.",
+    "alt": "Fachada de la catedral de Rouen. Foto de archivo, no apertura actual ni entrada confirmada."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "giverny",
+   "name": "Giverny, la casa y jardines de Monet",
+   "kind": "excursion",
+   "zone": "Giverny",
+   "reason": "El refugio de Monet desde 1883: la casa rosa y los jardines que pintó, con el estanque de los nenúfares y el puente japonés. 2026 es el centenario de su muerte (8 dic 1926).",
+   "sourceIds": [
+    "pa",
+    "giverny"
+   ],
+   "coordinates": {
+    "lat": 49.074345,
+    "lon": 1.533983
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Maison%20et%20Jardins%20de%20Claude%20Monet%2C%20Giverny%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Temporada 2026 terminó el 1 noviembre. Reapertura 2027 no confirmada en esta auditoría. No extender fechas de una temporada como cierre anual. Reserva online recomendada, no obligatoria para todo visitante individual; hay venta en taquilla con posible espera. E-billetes desde 1 mayo de 2026 firmes y no reembolsables según página. Salida definitiva. Casa no accesible en silla, jardines sí según operador. Verificar trenes y navette antes de comprar; navette Vernon-Giverny 5 € ida/10 € vuelta según página, operación para fecha pendiente.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Temporada publicada: 1 abril-1 noviembre de 2026, diario 10-18, última 17:30. Fuera de esa ventana no se confirma apertura ordinaria. Calendario de reapertura 2027 pendiente, no se infiere 1 abril de cada año.",
+    "source": "https://claudemonetgiverny.fr/informations-pratiques/"
+   },
+   "price": "2026: 13 € adulto, 7 € de 7-17 y estudiantes con condiciones, menores de 7 gratis. Discapacidad 6 € en casos publicados, acompañante paga; algunas tarjetas tienen gratuidad específica. No se promete tarifa online de 13,50 € porque la página práctica no la confirma.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/paris/giverny.jpg",
+    "source": "https://unsplash.com/photos/a-pathway-through-a-garden-with-lots-of-flowers-AECW5JhQPVY",
+    "author": "Unsplash",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "licenseURL": "https://unsplash.com/license",
+    "caption": "Jardines de Monet en Giverny. Foto de archivo; no confirma apertura ni floración para la fecha.",
+    "alt": "Jardines de Monet en Giverny. Foto de archivo; no confirma apertura ni floración para la fecha."
+   },
+   "closedMonthDays": [],
+   "closedDates": [],
+   "accessRules": {
+    "scope": "Casa y jardines de Monet en Giverny",
+    "noticeLabel": "Casa y jardines de Monet en Giverny",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-03-31",
+    "notices": [
+     "Temporada publicada de 2026 terminó el 1 noviembre. Apertura de 2027 no confirmada: no inferir una reapertura anual automática."
+    ],
+    "standingNotice": "Temporada ordinaria de la casa y jardines de Monet terminada el 01/11/2026. No se confirma reapertura de 2027 ni se infiere una fecha anual automática.",
+    "noticeRanges": [
+     {
+      "start": "2026-11-03",
+      "end": "2027-03-31",
+      "text": "Fuera de la temporada publicada de 2026. Reapertura de 2027 no confirmada, no planificar el interior sin calendario vigente."
+     }
+    ]
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Bayeux y sector americano",
+     "stopIds": [
+      "bayeux",
+      "omaha"
+     ],
+     "optionalStopIds": [
+      "utah",
+      "caen"
+     ],
+     "editorialNote": "Coche desde zona Parking Château de Caen: Bayeux por la mañana sin Tapiz, cementerio a primera hora de tarde, playa después si hay luz. Maps sin fecha/tráfico: Caen-Bayeux aprox. 26 min / 29,7 km; Bayeux-cementerio 25 min / 25,8 km; sector Les Braves 11 min / 5,1 km; vuelta Caen 42 min / 50,6 km. Cementerio y playa no tienen paso directo.",
+     "pacing": "Referencia de conducción aprox. 1 h 44 min más parking, comida, acceso y visitas. Llegar al cementerio antes de última entrada 16:30 según página actual, no apurar al folleto antiguo que difiere. Utah y Mémorial sustituyen, no se añaden. Punto de playa no garantiza parking ni acceso para coche."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Bayeux y sector americano",
+     "stopIds": [
+      "bayeux",
+      "omaha"
+     ],
+     "optionalStopIds": [
+      "utah",
+      "caen"
+     ],
+     "editorialNote": "Coche desde zona Parking Château de Caen: Bayeux por la mañana sin Tapiz, cementerio a primera hora de tarde, playa después si hay luz. Maps sin fecha/tráfico: Caen-Bayeux aprox. 26 min / 29,7 km; Bayeux-cementerio 25 min / 25,8 km; sector Les Braves 11 min / 5,1 km; vuelta Caen 42 min / 50,6 km. Cementerio y playa no tienen paso directo.",
+     "pacing": "Referencia de conducción aprox. 1 h 44 min más parking, comida, acceso y visitas. Llegar al cementerio antes de última entrada 16:30 según página actual, no apurar al folleto antiguo que difiere. Utah y Mémorial sustituyen, no se añaden. Punto de playa no garantiza parking ni acceso para coche."
+    },
+    {
+     "title": "Mont Saint-Michel, jornada aparte",
+     "stopIds": [
+      "mont_saint_michel"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Mont Saint-Michel desde Caen en coche: referencia Maps sin fecha/tráfico aprox. 1 h 22 min / 124 km de ida y 1 h 28 min / 126 km de vuelta entre zonas de parking. Parking del monte es continental, no entrada de la abadía. Le Passeur solo parking-monte; no incluye Caen ni Pontorson.",
+     "pacing": "Conducción orientativa aprox. 2 h 50 min ida/vuelta, más aparcar, caminar/navette y comida. CMN indica 45-60 min desde parkings a entrada de abadía según afluencia; añadir visita y regreso, no duplicar ese margen como si fuera solo trayecto de navette. Abadía de pago, pueblo libre, total de parking pendiente. Sin conexiones de transporte público para fecha confirmadas."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Bayeux y sector americano",
+     "stopIds": [
+      "bayeux",
+      "omaha"
+     ],
+     "optionalStopIds": [
+      "utah",
+      "caen"
+     ],
+     "editorialNote": "Coche desde zona Parking Château de Caen: Bayeux por la mañana sin Tapiz, cementerio a primera hora de tarde, playa después si hay luz. Maps sin fecha/tráfico: Caen-Bayeux aprox. 26 min / 29,7 km; Bayeux-cementerio 25 min / 25,8 km; sector Les Braves 11 min / 5,1 km; vuelta Caen 42 min / 50,6 km. Cementerio y playa no tienen paso directo.",
+     "pacing": "Referencia de conducción aprox. 1 h 44 min más parking, comida, acceso y visitas. Llegar al cementerio antes de última entrada 16:30 según página actual, no apurar al folleto antiguo que difiere. Utah y Mémorial sustituyen, no se añaden. Punto de playa no garantiza parking ni acceso para coche."
+    },
+    {
+     "title": "Mont Saint-Michel, jornada aparte",
+     "stopIds": [
+      "mont_saint_michel"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Mont Saint-Michel desde Caen en coche: referencia Maps sin fecha/tráfico aprox. 1 h 22 min / 124 km de ida y 1 h 28 min / 126 km de vuelta entre zonas de parking. Parking del monte es continental, no entrada de la abadía. Le Passeur solo parking-monte; no incluye Caen ni Pontorson.",
+     "pacing": "Conducción orientativa aprox. 2 h 50 min ida/vuelta, más aparcar, caminar/navette y comida. CMN indica 45-60 min desde parkings a entrada de abadía según afluencia; añadir visita y regreso, no duplicar ese margen como si fuera solo trayecto de navette. Abadía de pago, pueblo libre, total de parking pendiente. Sin conexiones de transporte público para fecha confirmadas."
+    },
+    {
+     "title": "Honfleur sin ruta costera apilada",
+     "stopIds": [
+      "honfleur"
+     ],
+     "optionalStopIds": [
+      "deauville"
+     ],
+     "editorialNote": "Honfleur como jornada tranquila. Referencia Maps Caen Parking Château → Parking de l’Est aprox. 52 min / 65,9 km; vuelta 53 min / 75,7 km, rutas no simétricas. Estimación sin fecha ni tráfico, no recorrido desde tu hotel. Deauville sustituye, no añadido automático; Étretat, Rouen y Giverny tienen jornada propia.",
+     "pacing": "Conducción de referencia aprox. 1 h 45 min ida/vuelta, más parking, paseo y comida. No prometer un enlace costero de 20 min ni plazas libres. Transporte público y peajes/coste total de carretera para fecha pendientes."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Tapiz cerrado hasta reapertura prevista en otoño/octubre de 2027, no cerrada toda Bayeux.",
+  "Cementerio ABMC 9-17, última entrada 16:30 y festivos de cierre. Reserva futura desde verano 2027 anunciada pero todavía no implementada como requisito actual.",
+  "Giverny temporada hasta 1 noviembre de 2026. No codificar meses de cierre de un año como regla perpetua.",
+  "Étretat prohíbe túneles y playas salvo zona frente al dique. No multas ni apertura GR21 certificadas sin texto exacto.",
+  "Abadía: parking pagado y lanzadera gratuita; última retirada tablet 1 h 30 antes.",
+  "Visitas: 9 fotos reales y 1 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "pa",
+   "title": "Pedro Arroyo: Qué ver en Normandía: 13 lugares imprescindibles + ruta",
+   "url": "https://pedro-arroyo.com/que-ver-en-normandia.php",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Normandía",
+   "url": "https://es.wikipedia.org/wiki/Normand%C3%ADa",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "memorial",
+   "title": "Mémorial de Caen: horarios y tarifas 2026",
+   "url": "https://www.memorial-caen.fr/votre-visite/tarifs-et-billetterie/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bayeuxmuseum",
+   "title": "Bayeux Museum: cierre del Museo del Tapiz hasta otoño 2027",
+   "url": "https://www.bayeuxmuseum.com/en/la-tapisserie-de-bayeux/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "abmc",
+   "title": "ABMC: Normandy American Cemetery",
+   "url": "https://www.abmc.gov/Normandy",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "msm",
+   "title": "Abbaye du Mont-Saint-Michel: información práctica",
+   "url": "https://www.abbaye-mont-saint-michel.fr/en/visit/practical-information",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "etretat",
+   "title": "Mairie d'Étretat: arrêté municipal nº 180/2025",
+   "url": "https://etretat.fr/arrete-municipal-de-promenade/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "giverny",
+   "title": "Maison et jardins de Claude Monet: informations pratiques",
+   "url": "https://claudemonetgiverny.fr/informations-pratiques/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "abmc-visit-own",
+   "title": "ABMC: preparar visita a Normandía",
+   "url": "https://www.abmc.gov/plan/plan-your-visit-to-normandy-american-cemetery/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "abmc-register-own",
+   "title": "ABMC: reserva prevista para verano 2027",
+   "url": "https://www.abmc.gov/normandy-registration/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bayeux-fr-own",
+   "title": "Bayeux: museo del Tapiz cerrado por obras",
+   "url": "https://www.bayeuxmuseum.com/la-tapisserie-de-bayeux/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bayeux-info-own",
+   "title": "Bayeux: información de visita y cierre del Tapiz",
+   "url": "https://www.bayeuxmuseum.com/infos-pratiques/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "memorial-hours-own",
+   "title": "Mémorial: calendario y taquilla",
+   "url": "https://www.memorial-caen.fr/votre-visite/horaires/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "msm-access",
+   "url": "https://www.montsaintmichel.gouv.fr/acceder-au-mont-saint-michel/horaires-et-tarifs",
+   "title": "Mont Saint-Michel: tarifas parking2026 y Passeur",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "msm-services",
+   "url": "https://montsaintmichel.gouv.fr/acceder-au-mont-saint-michel/services-aux-visiteurs",
+   "title": "Mont Saint-Michel: lanzadera y centro de visitantes",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "caen-abbey-visit-own",
+   "title": "Caen: visita individual y productos de Abbaye-aux-Hommes",
+   "url": "https://caen.fr/visite-individuels",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bay-parking",
+   "title": "Ayuntamiento Bayeux: estacionamiento",
+   "url": "https://www.bayeux.fr/fr/stationnement-bayeux",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "caen-parking",
+   "title": "Ayuntamiento Caen: Parking Château",
+   "url": "https://caen.fr/annuaire-equipement/parking-souterrain-chateau",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "abmc-access",
+   "title": "ABMC: acceso separado a la playa",
+   "url": "https://www.abmc.gov/news-events/news/access-normandy-american-cemetery-beach-closed-public/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hon-parking",
+   "title": "Turismo Honfleur: parkings",
+   "url": "https://www.ot-honfleur.fr/preparez-votre-sejour/pratique/parkings-a-honfleur/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "utah-practical",
+   "title": "Utah: horarios, duración y acceso",
+   "url": "https://utah-beach.com/infos-pratiques/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "utah-visits",
+   "title": "Utah: precios y visitas guiadas",
+   "url": "https://utah-beach.com/preparer-sa-visite/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "airborne-hours",
+   "title": "Airborne: horarios y tarifas",
+   "url": "https://airborne-museum.org/horaires-et-tarifs/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "airborne-ticket",
+   "title": "Airborne: venta oficial, edad y validez del día",
+   "url": "https://boutique.airborne-museum.org/billetterie/entree-individuelle-10/register",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "airborne-home",
+   "title": "Airborne: portada con tarifa familiar distinta",
+   "url": "https://airborne-museum.org/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

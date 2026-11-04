@@ -1,0 +1,505 @@
+{
+ "schemaVersion": 1,
+ "country": "ES",
+ "id": "sevilla",
+ "name": "Sevilla",
+ "localName": "Sevilla",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "catedral",
+   "name": "Catedral y Giralda",
+   "kind": "visit",
+   "zone": "Centro / Santa Cruz",
+   "reason": "Catedral gótica y subida a la Giralda por rampas; la visita larga de pago del día.",
+   "sourceIds": [
+    "cat",
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 37.3857422,
+    "lon": -5.9930956
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Catedral_de_Sevilla",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Entrada de pago a Catedral y Giralda. La web oficial indica visita cultural de lunes a sábado y domingos por la tarde; culto puede cambiar el horario. Elige franja antes de ordenar el día. Nada comprado.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Visita principal de pago; entrada por comprar",
+   "photo": {
+    "img": "assets/sevilla/catedral.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Catedral_de_Sevilla_fachada_este_2.jpg",
+    "author": "Oftalmologo",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Catedral y Giralda · foto real del lugar; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "alcazar",
+   "name": "Real Alcázar",
+   "kind": "visit",
+   "zone": "Centro / Santa Cruz",
+   "reason": "Palacio mudéjar con jardines; franja horaria y media mañana.",
+   "sourceIds": [
+    "alc",
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 37.3844262,
+    "lon": -5.9911866
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Real_Alc%C3%A1zar_de_Sevilla",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Entrada con fecha y hora. Web oficial: octubre-marzo 09:30-17:00, abril-septiembre 09:30-19:00; desalojo después. Comprobar agenda del día. Nada comprado.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Palacio de pago con franja",
+   "photo": {
+    "img": "assets/sevilla/alcazar.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fachada_del_Palacio_del_rey_don_Pedro.jpg",
+    "author": "Alberto.Bravo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Real Alcázar · foto real del lugar; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "santacruz",
+   "name": "Barrio de Santa Cruz",
+   "kind": "visit",
+   "zone": "Santa Cruz",
+   "reason": "Calles y plazas de la antigua judería entre la Catedral y los Jardines de Murillo.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 37.385,
+    "lon": -5.9902778
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Santa_Cruz_(Sevilla)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Barrio de paseo",
+   "photo": {
+    "img": "assets/sevilla/santacruz.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Callejon_del_agua_2023An002.jpg",
+    "author": "Anual",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Barrio de Santa Cruz · foto real del lugar; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "plazaespana",
+   "name": "Plaza de España y Parque de María Luisa",
+   "kind": "visit",
+   "zone": "Prado de San Sebastián",
+   "reason": "El gran conjunto de 1929 dentro del parque; paseo sin entrada.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 37.3770804,
+    "lon": -5.9869007
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Plaza_de_Espa%C3%B1a_(Sevilla)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Plaza y parque gratuitos",
+   "photo": {
+    "img": "assets/sevilla/plazaespana.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg",
+    "author": "Carlos Delgado",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Plaza de España y Parque de María Luisa · foto real del lugar; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "pilatos",
+   "name": "Casa de Pilatos",
+   "kind": "visit",
+   "zone": "Encarnación / este del centro",
+   "reason": "Palacio andaluz del XVI mezcla de mudéjar y renacimiento; la gran casa-palacio de la ciudad.",
+   "sourceIds": [
+    "pil",
+    "mm"
+   ],
+   "coordinates": {
+    "lat": 37.3902692,
+    "lon": -5.9869888
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Casa_de_Pilatos_(Sevilla)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Fundación Medinaceli publica apertura diaria 09:00-18:00. Visitas interiores de pago, comprobar modalidad yfranja. Nada comprado.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Palacio de pago",
+   "photo": {
+    "img": "assets/sevilla/pilatos.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Casa_Pilatos_5384865645_1642bfa658_o.jpg",
+    "author": "chelmsfordblue",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Casa de Pilatos · foto real del lugar; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "macarena",
+   "name": "Basílica y arco de la Macarena",
+   "kind": "visit",
+   "zone": "Macarena",
+   "reason": "La basílica de la Esperanza Macarena y el tramo de muralla del arco.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 37.4025,
+    "lon": -5.9894444
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_la_Macarena",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "Basílica de acceso libre con horarios de culto; museo de pago aparte.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Basílica libre; museo de pago",
+   "photo": {
+    "img": "assets/sevilla/macarena.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Exterior_of_Bas%C3%ADlica_de_la_Macarena,_Sevilla_20180719.jpg",
+    "author": "Suicasmo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Basílica y arco de la Macarena · foto real del lugar; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "setas",
+   "name": "Setas de Sevilla (Metropol Parasol)",
+   "kind": "visit",
+   "zone": "Encarnación",
+   "reason": "Mirador sobre la estructura de madera; contraste contemporáneo.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 37.3932528,
+    "lon": -5.9918806
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Metropol_Parasol",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "Mirador de pago por franjas; la plaza inferior es libre.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Plaza libre; mirador de pago",
+   "photo": {
+    "img": "assets/sevilla/setas.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Metropolparasolnov2011001.jpg",
+    "author": "Anual",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Setas de Sevilla (Metropol Parasol) · foto real del lugar; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "triana",
+   "name": "Triana y puente de Isabel II",
+   "kind": "visit",
+   "zone": "Triana",
+   "reason": "Barrio de alfareros al otro lado del río; paseo por Betis y mercado junto al puente.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 37.3835806,
+    "lon": -6.0052
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Triana_(Sevilla)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Barrio de paseo",
+   "photo": {
+    "img": "assets/sevilla/triana.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Puente_de_triana_2010.jpg",
+    "author": "Anual",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+    "caption": "Triana y puente de Isabel II · foto real del lugar; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "torreoro",
+   "name": "Torre del Oro y paseo del río",
+   "kind": "visit",
+   "zone": "El Arenal",
+   "reason": "Torre almohade junto al Guadalquivir; enlace peatonal entre centro y Triana.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 37.3824551,
+    "lon": -5.9962961
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Torre_del_Oro",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior libre; museo de pago opcional",
+   "photo": {
+    "img": "assets/sevilla/torreoro.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Torre_del_Oro,_Guadalquivir,_Sevilla.jpg",
+    "author": "Martinvl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Torre del Oro y paseo del río · foto real del lugar; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "cordoba",
+   "name": "Córdoba · Mezquita-Catedral y judería",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 37.89,
+    "lon": -4.78
+   },
+   "zone": "Fuera de Sevilla",
+   "suggestedMinutes": 420,
+   "reason": "La Mezquita-Catedral y la judería a 45 min en tren: la gran escapada desde Sevilla.",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "La Mezquita tiene horarios de culto que condicionan la visita; comprobar franja. Calor extremo en verano. Sin billete comprado.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "photo": {
+    "img": "assets/sevilla/cordoba.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Columnas_mezquita_cordoba.JPG",
+    "author": "Sfl0res",
+    "license": "CC BY-SA 3.0 es",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/deed.en",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/es/deed.en",
+    "caption": "Mezquita-Catedral de Córdoba, bosque de columnas interior. Foto real Wikimedia Commons (sustituye exterior de la torre); verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Catedral, Santa Cruz y río",
+     "zone": "Catedral → Santa Cruz → Torre del Oro → Triana",
+     "stopIds": [
+      "catedral",
+      "santacruz",
+      "torreoro",
+      "triana"
+     ],
+     "editorialNote": "Un solo interior de pago (Catedral/Giralda). El Alcázar se deja para el día 2 si lo hay; juntar ambos satura. En domingo visita Catedral por la tarde: invierte el paseo respecto a la franja de entrada.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h con comida y pausas, estimación editorial; calor fuerte en verano."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Catedral, Santa Cruz y río",
+     "zone": "Catedral → Santa Cruz → Torre del Oro → Triana",
+     "stopIds": [
+      "catedral",
+      "santacruz",
+      "torreoro",
+      "triana"
+     ],
+     "editorialNote": "Un solo interior de pago. Tarde de barrio y río sin más entradas. En domingo visita Catedral por la tarde: invierte el paseo respecto a la franja de entrada.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h, estimación editorial."
+    },
+    {
+     "title": "Alcázar y Plaza de España",
+     "zone": "Alcázar → Jardines → Plaza de España",
+     "stopIds": [
+      "alcazar",
+      "plazaespana"
+     ],
+     "editorialNote": "El Alcázar con su franja ocupa la mañana; la tarde es parque y plaza al aire libre. Sin segundo monumento de pago.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h con comida y pausas, estimación editorial."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Catedral, Santa Cruz y río",
+     "zone": "Catedral → Santa Cruz → Torre del Oro → Triana",
+     "stopIds": [
+      "catedral",
+      "santacruz",
+      "torreoro",
+      "triana"
+     ],
+     "editorialNote": "Un solo interior de pago. En domingo visita Catedral por la tarde: invierte el paseo respecto a la franja de entrada.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h, estimación editorial."
+    },
+    {
+     "title": "Alcázar y Plaza de España",
+     "zone": "Alcázar → Jardines → Plaza de España",
+     "stopIds": [
+      "alcazar",
+      "plazaespana"
+     ],
+     "editorialNote": "Alcázar por la mañana con franja; parque por la tarde.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h, estimación editorial."
+    },
+    {
+     "title": "Palacios y Macarena",
+     "zone": "Casa de Pilatos → Macarena",
+     "stopIds": [
+      "pilatos",
+      "macarena"
+     ],
+     "editorialNote": "Casa de Pilatos como interior principal y paseo hasta Macarena, con comida ypausas. Las Setas quedan como opcional aparte, no visita incluida.",
+     "optionalStopIds": [
+      "setas"
+     ],
+     "geographyChecks": [],
+     "pacing": "Media jornada flexible: unos 115 min de visitas sugeridas, más paseo, comida y pausas. No se vende como un día lleno de entradas."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Alcázar y Catedral agotan entradas en temporada: elegir y reservar antes de fijar el orden de los días.",
+  "En verano la jornada se parte en dos por el calor; los planes asumen primavera/otoño.",
+  "Ninguna entrada, mesa o billete está reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "wp",
+   "title": "Wikipedia: Sevilla y artículos de cada lugar",
+   "url": "https://es.wikipedia.org/wiki/Sevilla",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ot",
+   "title": "Turismo oficial: Visit Sevilla",
+   "url": "https://www.visitasevilla.es/",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en Sevilla",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-en-sevilla/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "mm",
+   "title": "Viajeros Callejeros: Sevilla en tres días",
+   "url": "https://www.viajeroscallejeros.com/sevilla-en-3-dias/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "cat",
+   "title": "Catedral de Sevilla · horarios culturales oficiales",
+   "url": "https://www.catedraldesevilla.es/visita-cultural/horarios-y-tarifas/",
+   "retrievedAt": "2026-11-02",
+   "type": "official-owner"
+  },
+  {
+   "id": "alc",
+   "title": "Real Alcázar · prepara la visita",
+   "url": "https://alcazarsevilla.org/prepara-la-visita/",
+   "retrievedAt": "2026-11-02",
+   "type": "official-owner"
+  },
+  {
+   "id": "pil",
+   "title": "Fundación Medinaceli · Casa de Pilatos",
+   "url": "https://fundacionmedinaceli.org/monumentos/casa-de-pilatos/",
+   "retrievedAt": "2026-11-02",
+   "type": "official-owner"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

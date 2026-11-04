@@ -1,0 +1,69 @@
+{
+ "schemaVersion": 1,
+ "cityId": "sintra",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "incomum",
+   "name": "Incomum · cocina portuguesa actual",
+   "address": "R. Dr. Alfredo da Costa 22, 2710-523 Sintra, Portugal",
+   "description": "Cocina portuguesa con risottos, bacalao confitado y raviolis de setas de Sintra. Junto a la estación, útil para comer antes o después del traslado a los palacios.",
+   "strength": "Time Out2016 describe una cocina más refinada que el patrón rústico del centro: risottos, confitados y vieiras. Es evidencia histórica de estilo, no crítica actual ni estrella Michelin. Carta propia confirma platos actuales.",
+   "alert": "Cerrado miércoles según web propia. Cocina y mesa deben confirmarse; horario publicado no garantiza cocina continua.",
+   "caution": "Web propia: chili vegano con tofu/ravioli de setas16 €, lubina/linguini con marisco/bacalao19,50 €, couvert3 €/persona, entrantes7-9 €. Estimación25-35 € por persona con couvert, principal y entrante compartido, SIN bebida/postre, no menú cerrado. PDF degustación52,50 € encontrado sin fecha no usado como precio actual. Web horario12-24 excepto miércoles cerrado, no horas específicas cocina. TimeOut2016 publica otro horario obsoleto, no aplicado. Alérgenos a consultar; plato llamado vegano no prueba aptitud para alergias. Nada reservado.",
+   "officialUrl": "https://incomumbyluissantos.pt/",
+   "editorialUrl": "https://www.timeout.pt/lisboa/pt/restaurantes/incomum-by-luis-santos",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Incomum&query_place_id=ChIJ-wdoDJXaHg0R75cXMip6ubA",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta y horario propios más dirección Maps. Crítica histórica identificada, sin disponibilidad comprobada.",
+   "priceLabel": "25-35 € sin bebida ni postre, estimación con platos de carta.",
+   "photo": {
+    "img": "assets/sintra/incomum-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes y paisaje de Sintra imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes y paisaje de Sintra imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "compactPrice": "25-35 € sin bebida ni postre, estimación.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "pena-essential",
+   "name": "Pena · visita esencial",
+   "address": "Parque y Palacio Nacional da Pena, Sintra",
+   "description": "Ala del Palacio Nuevo, terrazas y parque con Chalet de la Condesa. Es la visita de Pena del plan, no un segundo palacio para acumular el mismo día.",
+   "duration": "2,5-3 h orientativas, más llegada desde Sintra; separar 30 min desde entrada del parque al palacio.",
+   "compactDuration": "2,5-3 h + llegada",
+   "alert": "20 € publicado. Hora del PALACIO: llegar tarde impide entrar sin reembolso; dejar 30 min desde el parque. No incluye Apartamentos Privados.",
+   "caution": "Producto Essential ofrece Palacio Nuevo, terrazas, parque y Chalet. Full Tour45 € añade Apartamentos Privados; guiada/teatral otros productos. Precio final y disponibilidad según fecha sin checkout. Parque9-19 últimaentrada18;palacio9:30-18:30 última18, confirmar por día/avisos. Bus434 desde estación, sin acceso en coche privado por carreteras del monumento. Transfer interior requiere billete comprado aparte por adelantado, no elimina margen30min. Acceso único. FAQ oficial: compraweb permite cambiar fecha/hora hasta18 del día anterior, con factura/email, dentro365días desde fechaoriginal; taquilla física sin cambio. No prometer cancelación ordinaria gratis: reembolso por cierre extraordinario/evento cancelado según condiciones. Mucho desnivel y tiempos de transporte adicionales. Nada comprado.",
+   "officialUrl": "https://bilheteira.parquesdesintra.pt/info/parque-e-palacio-da-pena-visita-essencial/1198/en",
+   "sourceUrls": [
+    "https://bilheteira.parquesdesintra.pt/local/parque-e-palacio-nacional-da-pena/1160/en",
+    "https://www.parquesdesintra.pt/en/plan-your-visit/faqs/"
+   ],
+   "priceLabel": "20 € precio publicado; total por fecha pendiente, sin compra.",
+   "photo": {
+    "img": "assets/sintra/pena.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sintra_-_Palacio_da_Pena_(20332995770).jpg",
+    "author": "Singa Hitam",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Palacio da Pena · foto de archivo. No representa acceso a todos los apartamentos ni un billete confirmado."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Ficha Essential y FAQ actuales leídas. No usar precio20 para Full Tour o guiada.",
+   "photoPending": false
+  }
+ ]
+}

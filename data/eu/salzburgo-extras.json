@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "cityId": "salzburgo",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "zwettlers",
+   "name": "Zwettler's · cocina de Wirtshaus",
+   "address": "Kaigasse 3, 5020 Salzburg, Austria",
+   "description": "Schnitzel, knödel y guisos austríacos en Kaigasse. Una comida de taberna en el casco antiguo, con opciones pequeñas y grandes en varios platos.",
+   "strength": "MilkStreet2025 documenta técnica del schnitzel con el chef, no premio ni estrella; Krone2023 destaca knödel hechos en casa y cocina clásica. Carta propia actual confirma ambos estilos.",
+   "alert": "Cocina 11:30-22, hasta 22:30 en Festspiele. Nockerl: 25 min de espera; reserva aconsejada.",
+   "caution": "Carta web actual: schnitzelternera27,60 €/cerdo19,80/pavo20,60;kasnockn13,90pequeño/17,50grande;gulasch18,90;strudel7,50;Nockerl22,90espera25min. Principal+strudel26,40-35,10 € sinbebida para gulasch/schnitzel, cálculoeditorial, no menú. No mezclarPDF2023másbarato con cartaviva. Weblocaldiario11-24,cocinacontinua11:30-22/Festspiele22:30; gruposfiestahasta02nohoranormalcocina. Alérgenosletrasmarcados, verduras/knödel no siemprevegano. Nada reservado.",
+   "officialUrl": "https://www.zwettlers.com/menu/",
+   "editorialUrl": "https://www.177milkstreet.com/2025/04/the-secrets-of-wienerschnitzel",
+   "sourceUrls": [
+    "https://www.krone.at/3005014",
+    "https://www.zwettlers.com/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zwettler%27s+Wirtshaus&query_place_id=ChIJOW9CBoqQdkcRz2JCesYl798",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta/horacocinapropias,dosreportajesgastronómicosydirección Maps, sinmesa.",
+   "priceLabel": "26,40-35,10 € principal+strudel sin bebida, cálculo editorial.",
+   "compactPrice": "26,40-35,10 € principal+strudel, sin bebida.",
+   "photo": {
+    "img": "assets/salzburgo/zwettlers-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes austríacos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes austríacos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "fortress-all-inclusive",
+   "name": "Hohensalzburg · entrada completa",
+   "address": "Mönchsberg34, Salzburg",
+   "description": "All-inclusive con subida y bajada en funicular, panorama y museos. Es la fortaleza del plan, no otra visita que sumar al mismo bloque.",
+   "duration": "2-3h orientativas con subida, no espera garantizada.",
+   "compactDuration": "2-3 h orientativas",
+   "alert": "19,20 € adulto con funicular.9-13nov2026 SIN funicular ni interiores;11ene-14mar2027 sin funicular pero interiores abiertos por camino.",
+   "caution": "Elegido All-inclusive19,20adulto/7,30niño6-14 incluye funicularida/vuelta,recinto,panorama,museos,cámarasprincipescas yMagicTheatre. Basic15,50otroproducto: extracción enumeraiconosincluidos/excluidos sin distinción, no afirmar queenBasicentra todo. CaminoaPieAllInclusive14,50noesfuniculargratis. Tarifas2026confirmadasenoperadorFestungsBahn,selecciónporfecha/checkoutpendiente. Ene-abr/oct-dic9:30-17;may-seprecinto8:30-20/interiores9-19.24dicinteriores14;Advientofindes18.9-13nov2026soloexterioresporcamino;11ene-14mar2027camino+interiores abiertos, no ventasonline enmantenimiento. Compraúltimahorahasta1hantescierreinterioressegúnFestungsBahn, no arrancaralúltimominuto. Política devolución/cambio no verificada, revisar antescomprar. Caminoempinado/recintoescaleras, movilidadconsultar. Sinbillete.",
+   "officialUrl": "https://www.festung-hohensalzburg.at/en/your-visit/tickets",
+   "sourceUrls": [
+    "https://www.festung-hohensalzburg.at/en/your-visit/opening-hours",
+    "https://www.5schaetze.at/en/festungsbahn/prices.html"
+   ],
+   "priceLabel": "19,20 € adulto All-inclusive con funicular, no Basic; porfecha verificar.",
+   "photo": {
+    "img": "assets/salzburgo/hohensalzburg.jpg",
+    "alt": "Festung Hohensalzburg von Nordost.jpg",
+    "author": "Andreas Stiasny",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Festung_Hohensalzburg_von_Nordost.jpg",
+    "caption": "Fortaleza de Hohensalzburg · foto de archivo exterior. No confirma apertura de funicular/interiores por fecha."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Tarifas2026/horarios/mantenimientosoperadorreconfirmados,sin compra.",
+   "compactAlert": "19,20 € con funicular. 9-13 nov 2026: funicular e interiores cerrados. 11 ene-14 mar 2027: sin funicular, interiores por camino.",
+   "photoPending": false
+  }
+ ]
+}

@@ -1,0 +1,813 @@
+{
+ "schemaVersion": 1,
+ "country": "SK",
+ "id": "bratislava",
+ "name": "Bratislava",
+ "localName": "Bratislava",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "miguel",
+   "name": "Puerta y Torre de San Miguel",
+   "kind": "monument",
+   "zone": "Casco viejo",
+   "reason": "Puerta del casco y torre con exposición sobre la historia y restauración del propio edificio. La visita actual no es el antiguo Museo de Armas.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "mmb"
+   ],
+   "coordinates": {
+    "lat": 48.1451655,
+    "lon": 17.1067375
+   },
+   "coordinateSource": "Michalská brána, Michalská, Bratislava (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Exposición actual Michael’s Tower: Reconstructed. El operador dice expresamente que el edificio sustituye a las armas como pieza principal, no una colección de armas solo reducida. Última entrada 17:30; cierres por fecha en aviso.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lunes y miércoles-domingo 10-18; MARTES CERRADA; última entrada 30 min antes. Cerrada 1 ene, Viernes Santo, Pascua (do+lu), Todos los Santos, 24-25 y 31 dic.",
+    "source": "https://muzeumbratislava.sk/en/michaels-tower"
+   },
+   "price": "6€ general; 4€ reducida (6-15, estudiantes, seniors); familia (2 adultos) 14€; familia (1 adulto) 8€.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/bratislava/miguel.jpg",
+    "source": "https://www.pexels.com/photo/st-michael-s-gate-in-bratislava-old-town-37635146/",
+    "author": "Renata Rafa",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Puerta y torre de San Miguel desde la calle. El paso exterior no incluye entrada al museo de la torre.",
+    "alt": "Puerta y torre de San Miguel desde la calle. El paso exterior no incluye entrada al museo de la torre."
+   },
+   "accessRules": {
+    "scope": "Interior de Torre de San Miguel, no paso de la puerta",
+    "noticeLabel": "Interior de Torre de San Miguel, no paso de la puerta",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     2
+    ],
+    "closedMonthDays": [
+     "01-01",
+     "11-01",
+     "12-24",
+     "12-25",
+     "12-31"
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "plazamayor",
+   "name": "Plaza Mayor (Hlavné námestie)",
+   "kind": "walk",
+   "zone": "Casco viejo",
+   "reason": "El corazón peatonal: la fuente Maximiliano (1572), el Palacio del Primado (donde se firmó la Paz de Pressburg de 1805) y las terrazas que llenan la plaza de mayo a septiembre.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.1434654,
+    "lon": 17.1082418
+   },
+   "coordinateSource": "Hlavné námestie, Bratislava (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bratislava/plazamayor.jpg",
+    "source": "https://www.pexels.com/photo/main-square-in-bratislava-slovakia-16438456/",
+    "author": "Lukas Kosc",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Vista amplia de Hlavné námestie con sus fachadas. No representa un mercado o evento que opere todos los días.",
+    "alt": "Vista amplia de Hlavné námestie con sus fachadas. No representa un mercado o evento que opere todos los días."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ayuntamiento",
+   "name": "Antiguo Ayuntamiento y Museo de la Ciudad",
+   "kind": "museum",
+   "zone": "Casco viejo",
+   "reason": "El conjunto del ayuntamiento viejo (s. XIV-XX) con su patio renacentista y el Museo de la Ciudad de Bratislava; lo mejor es subir a la torre barroca para ver la plaza y los tejados del Staré Mesto desde arriba.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "mmb"
+   ],
+   "coordinates": {
+    "lat": 48.1437553,
+    "lon": 17.1087918
+   },
+   "coordinateSource": "Stará radnica, Primaciálne námestie, Bratislava (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Entrada 8 € museo+Apponyi; torre sola 4 €. Última 17:30. Faust’s Hall no incluida; estudio educativo solo grupos reservados.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes a domingo 10-18; LUNES CERRADO; también 1 ene, Viernes Santo, 24-26 y 31 dic.",
+    "source": "https://muzeumbratislava.sk/en/old-town-hall"
+   },
+   "price": "8€ general; 4€ reducida (6-15, estudiantes, seniors); <6 gratis; gratis con Bratislava Card.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/bratislava/ayuntamiento-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Antiguo Ayuntamiento, concepto de edificio y torre. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Antiguo Ayuntamiento, concepto de edificio y torre. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "accessRules": {
+    "scope": "Museo del Antiguo Ayuntamiento",
+    "noticeLabel": "Museo del Antiguo Ayuntamiento",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "closedMonthDays": [
+     "01-01",
+     "12-24",
+     "12-25",
+     "12-26",
+     "12-31"
+    ]
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "estatuas",
+   "name": "Las estatuas del casco viejo",
+   "kind": "walk",
+   "zone": "Casco viejo",
+   "reason": "El juego urbano de Bratislava: Čumil, el obrero asomando desde la alcantarilla (Panská/Rybná), el Soldado de Napoleón apoyado en un banco de la Plaza Mayor y el Schöner Náci saludando con sombrero.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.142842,
+    "lon": 17.1088599
+   },
+   "coordinateSource": "Čumil, Panská, Bratislava (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bratislava/estatuas.jpg",
+    "source": "https://www.pexels.com/photo/cumil-statue-in-bratislava-23235185/",
+    "author": "Ozan Tabakoğlu",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Escultura Čumil a nivel del suelo. Una de las estatuas del casco, no un conjunto escultórico completo.",
+    "alt": "Escultura Čumil a nivel del suelo. Una de las estatuas del casco, no un conjunto escultórico completo."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral de San Martín",
+   "kind": "monument",
+   "zone": "Casco viejo",
+   "reason": "Catedral gótica de coronación de los monarcas húngaros entre 1563 y 1830; su torre lleva una réplica dorada de la corona. Exterior junto al inicio del puente Most SNP.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.1419772,
+    "lon": 17.1048845
+   },
+   "coordinateSource": "Katedrála svätého Martina, Rudnayovo námestie, Bratislava (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Templo activo. El horario de misas no es un horario turístico: el plan garantiza únicamente la parada exterior, no entrada ni precio interior.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo (parroquia dom.fara.sk): la web oficial publica horario de misas, no de visita turística; visitar en horario diurno fuera de misa.",
+    "source": "https://dom.fara.sk/en/"
+   },
+   "price": "Interior: precio y horario turístico no verificados. Exterior sin entrada de visita.",
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/bratislava/catedral.jpg",
+    "alt": "Catedral de San Martín de Bratislava: torre y tejado rojo desde el exterior. La foto no confirma acceso a la nave.",
+    "caption": "Catedral de San Martín de Bratislava: torre y tejado rojo desde el exterior. La foto no confirma acceso a la nave.",
+    "author": "Helena Jankovičová Kováčová",
+    "source": "https://www.pexels.com/photo/historic-st-martin-s-cathedral-in-bratislava-30838555/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.visitbratislava.com/places/st-martins-cathedral/"
+   },
+   "accessRules": {
+    "scope": "Interior turístico catedral de San Martín",
+    "noticeLabel": "Interior turístico catedral de San Martín",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "No se ha verificado horario turístico ni precio propios. Parada exterior fiable; culto y otras actividades pueden limitar interior."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ufo",
+   "name": "Mirador UFO del Most SNP",
+   "kind": "viewpoint",
+   "zone": "Danubio",
+   "reason": "Mirador sobre el Danubio en la estructura del Most SNP. Subida de pago opcional, independiente de una comida en el restaurante.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "ufo"
+   ],
+   "coordinates": {
+    "lat": 48.1408288,
+    "lon": 17.104478
+   },
+   "coordinateSource": "Most SNP, Vydrica, Bratislava (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Tarifa especial de Navidad y Año Nuevo: 25 diciembre-4 enero, 15 € adulto. No entrada online ni aforo reservado. Bar/mirador 10-23; restaurante 12-23, comida aparte.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "A diario 10:00-23:00 (bar y mirador; restaurante desde las 12). Entradas solo en recepción, sin reserva.",
+    "source": "https://www.u-f-o.sk/entry-fee"
+   },
+   "price": "Tarifa normal: 11,50 € lun-vie de 10 a 13; 12,50 € resto. Del 25 diciembre al 4 enero: 15 € adulto. Day & Night: +3,50 €, dos entradas en 48 h. Solo recepción, sin reserva.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/bratislava/ufo.jpg",
+    "source": "https://www.pexels.com/photo/ufo-bridge-in-bratislava-21625693/",
+    "author": "Vish Pix",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Most SNP y estructura del mirador UFO desde fuera. No muestra una vista tomada desde la plataforma ni incluye una subida.",
+    "alt": "Most SNP y estructura del mirador UFO desde fuera. No muestra una vista tomada desde la plataforma ni incluye una subida."
+   },
+   "accessRules": {
+    "scope": "Mirador UFO, no restaurante",
+    "noticeLabel": "Mirador UFO, no restaurante",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "noticeRanges": [
+     {
+      "start": "2026-12-25",
+      "end": "2026-12-31",
+      "text": "25 diciembre-4 enero: tarifa especial 15 € adulto, no 11,50/12,50 €. Venta solo recepción, sin opción de reserva."
+     }
+    ],
+    "notices": [
+     "Mirador/bar 10-23; restaurante 12-23, producto distinto. Tarifa normal 11,50 € lun-vie 10-13 o 12,50 € resto; suplemento Day & Night 3,50 €."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "castillo",
+   "name": "Castillo de Bratislava",
+   "kind": "monument",
+   "zone": "Colina del castillo",
+   "reason": "Recinto del castillo con vistas al Danubio y museo de pago como opción interior. El jardín barroco tiene horario propio.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "snm",
+    "snm-price",
+    "snm-shop"
+   ],
+   "coordinates": {
+    "lat": 48.1425867,
+    "lon": 17.1004695
+   },
+   "coordinateSource": "Bratislavský hrad, Zámocká, Bratislava (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Museo cerrado martes y 12-13 noviembre 2026 por aviso extraordinario de la tienda oficial. No extrapolar ese aviso al cierre total del exterior. Jardín barroco noviembre-febrero 9-16 aunque recinto 8-22. General 14 € incluye tesoro y murallas del norte, no Maria Antonieta. Confirmar salas y acceso por fecha.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Museo 10-18 salvo martes; última entrada 17. Cierre extraordinario del museo 12-13 noviembre 2026. Recinto exterior 8-22; jardín barroco noviembre-febrero 9-16. No confundir horarios.",
+    "source": "https://www.snm.sk/en/visit/opening-hours"
+   },
+   "price": "Museo de Historia 14 € adulto,7 € estudiantes/niños acreditados,8 € sénior 62-69;70+,menores 6 y otras categorías gratis. Familia 18/33 € según composición. Maria Antonieta no incluida en general: producto aparte.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/bratislava/castillo.jpg",
+    "source": "https://www.pexels.com/photo/historic-bratislava-castle-under-clear-blue-sky-37710938/",
+    "author": "Renata Rafa",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Escalinata y exterior del castillo de Bratislava. No muestra el museo ni garantiza acceso al recinto en la fecha.",
+    "alt": "Escalinata y exterior del castillo de Bratislava. No muestra el museo ni garantiza acceso al recinto en la fecha."
+   },
+   "accessRules": {
+    "scope": "Museo del castillo, no todo el recinto",
+    "noticeLabel": "Museo del castillo, no todo el recinto",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     2
+    ],
+    "closedDates": [
+     "2026-11-12",
+     "2026-11-13"
+    ],
+    "notices": [
+     "Recinto exterior publicado 8-22; jardín barroco noviembre-febrero 9-16. Museo 10-18, última entrada 17, salvo cierres extraordinarios."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "grassalkovich",
+   "name": "Palacio Grassalkovich y jardín",
+   "kind": "monument",
+   "zone": "Hodžovo námestie",
+   "reason": "El palacio presidencial (1760), residencia del presidente eslovaco, con su jardín barroco francés abierto al público y la fuente de la Juventud en la plaza; cambio de guardia a las 12 en punto.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.1492103,
+    "lon": 17.1077799
+   },
+   "coordinateSource": "Grasalkovičov palác, Hodžovo námestie, Bratislava (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Interior no visitable (residencia oficial): parada exterior con jardín trasero libre.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bratislava/grassalkovich.jpg",
+    "source": "https://www.pexels.com/photo/grassalkovich-palace-in-bratislava-on-a-sunny-day-37082254/",
+    "author": "Kendra Valócsik",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada de Grassalkovich y plaza delantera. No muestra el jardín trasero ni una visita interior.",
+    "alt": "Fachada de Grassalkovich y plaza delantera. No muestra el jardín trasero ni una visita interior."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "slavin",
+   "name": "Memorial soviético Slavín",
+   "kind": "monument",
+   "zone": "Colina de Slavín",
+   "reason": "El memorial y cementerio militar soviético (1945-1960) en lo alto de la ciudad: 6.845 soldados del Ejército Rojo y una explanada con el obelisco de 39 m y una de las mejores vistas de Bratislava.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.1539021,
+    "lon": 17.0995869
+   },
+   "coordinateSource": "Slavín, Pažického, Bratislava (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Subida con pendiente. No se ha revalidado el bus 147: no se ofrece como conexión confirmada ni se considera paseo contiguo a Eurovea.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bratislava/slavin.jpg",
+    "alt": "Memorial Slavín de Bratislava: obelisco y estatua del soldado, con las tumbas del cementerio militar en primer plano. Foto de archivo.",
+    "caption": "Memorial Slavín de Bratislava: obelisco y estatua del soldado, con las tumbas del cementerio militar en primer plano. Foto de archivo.",
+    "author": "Dominika Gregušová",
+    "source": "https://www.pexels.com/photo/photo-of-slavin-war-memorial-in-bratislava-slovokia-under-a-gloomy-sky-9399023/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.visitbratislava.com/places/slavin/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "iglesiaazul",
+   "name": "Iglesia Azul (Santa Isabel)",
+   "kind": "monument",
+   "zone": "Bezručova",
+   "reason": "El templo art nouveau (1907-1913) de Ödön Lechner pintado de azul cielo por dentro y por fuera: torre de 36 m, mosaicos de la fachada y un interior igual de azul si coincide abierto.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.1433603,
+    "lon": 17.1167414
+   },
+   "coordinateSource": "Kostol svätej Alžbety, Bezručova, Bratislava (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Sin horario turístico verificado: la visita segura es exterior; el interior depende de misas y aperturas puntuales.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Parada exterior. No se ha acreditado horario de visita turística interior; la misa no garantiza acceso turístico.",
+    "source": "https://www.visitbratislava.com/places/blue-church/"
+   },
+   "price": "Interior y precio sin verificar; el plan no garantiza entrar.",
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/bratislava/iglesiaazul.jpg",
+    "source": "https://www.flickr.com/photos/jlascar/10267484804/",
+    "author": "Jorge Láscar",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Exterior de la Iglesia Azul, con torre y fachada visibles. No implica disponibilidad de entrada al interior.",
+    "alt": "Torre y fachada azul de la iglesia de Santa Isabel en Bratislava."
+   },
+   "accessRules": {
+    "scope": "Interior de Iglesia Azul",
+    "noticeLabel": "Interior de Iglesia Azul",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Parada exterior. Apertura turística y precio no verificados; misa no equivale a horario de visita."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "teatro",
+   "name": "Teatro histórico y paseo hacia Eurovea",
+   "kind": "monument",
+   "zone": "Hviezdoslavovo námestie",
+   "reason": "Exterior del edificio histórico en Hviezdoslavovo námestie y paseo posterior por el Danubio hacia Eurovea. La sede nueva junto a Eurovea es otro edificio; ninguna función incluida.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.1423522,
+    "lon": 17.109987
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Slovak+National+Theatre+%28Historical+Building%29&query_place_id=ChIJf7f59EKJbEcRGIgpKu4B-FA",
+   "coordinateMethod": "google-maps-place",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Edificio histórico en Gorkého 2/Hviezdoslavovo námestie, no la sede nueva de Pribinova. La parada es exterior: funciones, sede y entradas se verifican en cartelera antes de ir; no se garantiza visita interior.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bratislava/teatro.jpg",
+    "source": "https://www.pexels.com/photo/national-theater-in-bratislava-20411444/",
+    "author": "Helena Jankovičová Kováčová",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Edificio histórico del Teatro Nacional en Hviezdoslavovo námestie. No muestra la sede nueva junto a Eurovea ni incluye función.",
+    "alt": "Edificio histórico del Teatro Nacional en Hviezdoslavovo námestie. No muestra la sede nueva junto a Eurovea ni incluye función."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "devin",
+   "name": "Castillo de Devín",
+   "kind": "excursion",
+   "zone": "Devín (Bratislava IV)",
+   "reason": "Ruinas de Devín sobre la confluencia del Danubio y el Morava. Media jornada amplia con subida y condiciones de acceso según clima.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "devin"
+   ],
+   "coordinates": {
+    "lat": 48.1738903,
+    "lon": 16.9781172
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=M%C3%BAzeum+mesta+Bratislavy+%E2%80%93+Hrad+Dev%C3%ADn&query_place_id=ChIJpZC_oKX0bEcRsjOAG3eWS4A",
+   "coordinateMethod": "maps-place",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Lunes cerrado. En noviembre-febrero, 10-16 y última entrada 15:15. La página propia SK publica exposición abierta y permanente cerrada; EN, ambas cerradas. Interiores de invierno en conflicto: no garantizar exposición ni declarar todo cerrado. Desnivel y clima pueden restringir zonas. No acumular Viena.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Noviembre-febrero: martes-domingo 10-16, última entrada 15:15. Páginas propias SK/EN discrepan sobre interiores: confirmar áreas, no garantizar exposición.",
+    "source": "https://hraddevin.mmb.sk/navstivte-nas/prakticke-informacie/otvaracie-hodiny/"
+   },
+   "price": "MMB publica 8 € normal / 6 € invierno y 4 € / 3 € reducida. Confirmar calendario y áreas incluidas; no presentar 8 € como tarifa de todo el año.",
+   "visitMode": "Excursión con transporte propio",
+   "photo": {
+    "img": "assets/bratislava/devin.jpg",
+    "source": "https://www.pexels.com/photo/devin-castle-in-bratislava-region-slovakia-38701265/",
+    "author": "Lajos Kristóf Kántor",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Ruinas del castillo de Devín y acceso en pendiente. No representa todas las áreas o exposiciones abiertas en invierno.",
+    "alt": "Ruinas del castillo de Devín y acceso en pendiente. No representa todas las áreas o exposiciones abiertas en invierno."
+   },
+   "accessRules": {
+    "scope": "Castillo de Devín, áreas interiores por confirmar",
+    "noticeLabel": "Castillo de Devín, áreas interiores por confirmar",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "notices": [
+     "Invierno: cierre16, última15:15. Páginas propias SK/EN discrepan en interiores: no garantizar exposición ni declarar todo interior cerrado. Clima puede restringir zonas."
+    ]
+   },
+   "transport": "Ejemplo sábado 14/11/2026: Most SNP (terminal del casco, orilla norte) → Devín, salida de itinerario 09:03 y llegada 09:37, unos 34 min, bus 29 y marcha desde Štrbská. Regreso de itinerario 15:37-16:12, unos 35 min, bus 29 y marcha. No es horario fijo ni billete; recalcular por fecha y salir con margen para apertura 10 y acceso en pendiente.",
+   "transitExamples": [
+    {
+     "date": "2026-11-14",
+     "weekday": "sábado",
+     "timezone": "Europe/Bratislava",
+     "direction": "go",
+     "departure": "2026-11-14T09:03:01+01:00",
+     "arrival": "2026-11-14T09:37:09+01:00",
+     "durationSeconds": 2048,
+     "distanceMeters": 11761,
+     "source": "https://www.google.com/maps/dir/?api=1&destination=Mur%C3%A1nska+10%2C+841+10+Bratislava-Dev%C3%ADn%2C+Slovakia&destination_place_id=ChIJpZC_oKX0bEcRsjOAG3eWS4A&origin=Bratislava+Most+SNP%2C+811+02+Bratislava-Star%C3%A9+Mesto%2C+Slovakia&origin_place_id=ChIJqTREwmeJbEcRP8r3rMYFf6U&travelmode=transit",
+     "status": "illustrative-date-specific-not-reserved"
+    },
+    {
+     "date": "2026-11-14",
+     "weekday": "sábado",
+     "timezone": "Europe/Bratislava",
+     "direction": "back",
+     "departure": "2026-11-14T15:37:41+01:00",
+     "arrival": "2026-11-14T16:12:46+01:00",
+     "durationSeconds": 2105,
+     "distanceMeters": 11955,
+     "source": "https://www.google.com/maps/dir/?api=1&destination=Bratislava+Most+SNP%2C+811+02+Bratislava-Star%C3%A9+Mesto%2C+Slovakia&destination_place_id=ChIJqTREwmeJbEcRP8r3rMYFf6U&origin=Mur%C3%A1nska+10%2C+841+10+Bratislava-Dev%C3%ADn%2C+Slovakia&origin_place_id=ChIJpZC_oKX0bEcRsjOAG3eWS4A&travelmode=transit",
+     "status": "illustrative-date-specific-not-reserved"
+    }
+   ],
+   "photoPending": false
+  },
+  {
+   "id": "viena",
+   "name": "Viena: excursión urbana desde Bratislava",
+   "kind": "excursion",
+   "zone": "Viena (Austria)",
+   "reason": "Una jornada de Stephansplatz, centro y café, con el Ring o un único interior de pago como alternativa. No intenta cubrir toda Viena.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.2080838,
+    "lon": 16.3715166
+   },
+   "coordinateSource": "Stephansplatz, Innere Stadt, Wien (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "Día completo que sustituye el día 3 de Bratislava. Elegir centro y Ring/café o un interior con billete. Ruta ferroviaria existente no equivale a reserva ni a tiempo puerta a puerta.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión con transporte propio",
+   "photo": {
+    "img": "assets/vienna/hofburg.jpg",
+    "source": "https://www.flickr.com/photos/somkuti/54519402718/",
+    "author": "Sandor Somkuti",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Michaelerplatz y fachada de Hofburg en Viena, foto de archivo. Representa una parte del paseo urbano, no todo Viena ni acceso al Museo Sisi."
+   },
+   "transport": "Ejemplo sábado 14/11/2026: Bratislava hlavná stanica → Stephansplatz 08:50-10:05, unos 76 min con REX 8 y U3 en Simmering. Regreso Stephansplatz 18:56 → Bratislava 20:10, unos 74 min, U3 + REX 8. No tren directo a Stephansplatz ni salida inmediata a las 08/18; desplazamiento desde el alojamiento y billetes aparte. Recalcular por fecha.",
+   "transitExamples": [
+    {
+     "date": "2026-11-14",
+     "weekday": "sábado",
+     "timezone": "Europe/Bratislava",
+     "direction": "go",
+     "departure": "2026-11-14T08:50:00+01:00",
+     "arrival": "2026-11-14T10:05:45+01:00",
+     "durationSeconds": 4545,
+     "distanceMeters": 69113,
+     "source": "https://www.google.com/maps/dir/?api=1&destination=Stephansplatz%2C+1010+Wien%2C+Austria&destination_place_id=ChIJgcJpPp8HbUcR3h-qVsFjBQI&origin=Bratislava+Main+Station%2C+N%C3%A1mestie+Franza+Liszta%2C+811+04+Bratislava-Star%C3%A9+Mesto%2C+Slovakia&origin_place_id=ChIJyzWcS1SJbEcRukJHAenx9q0&travelmode=transit",
+     "status": "illustrative-date-specific-not-reserved"
+    },
+    {
+     "date": "2026-11-14",
+     "weekday": "sábado",
+     "timezone": "Europe/Bratislava",
+     "direction": "back",
+     "departure": "2026-11-14T18:56:23+01:00",
+     "arrival": "2026-11-14T20:10:00+01:00",
+     "durationSeconds": 4417,
+     "distanceMeters": 69172,
+     "source": "https://www.google.com/maps/dir/?api=1&destination=Bratislava+Main+Station%2C+N%C3%A1mestie+Franza+Liszta%2C+811+04+Bratislava-Star%C3%A9+Mesto%2C+Slovakia&destination_place_id=ChIJyzWcS1SJbEcRukJHAenx9q0&origin=Stephansplatz%2C+1010+Wien%2C+Austria&origin_place_id=ChIJgcJpPp8HbUcR3h-qVsFjBQI&travelmode=transit",
+     "status": "illustrative-date-specific-not-reserved"
+    }
+   ],
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "El casco viejo peatonal",
+     "zone": "Puerta de San Miguel → Plaza Mayor → Antiguo Ayuntamiento → Estatuas → Catedral de San Martín",
+     "stopIds": [
+      "miguel",
+      "plazamayor",
+      "ayuntamiento",
+      "estatuas",
+      "catedral"
+     ],
+     "editorialNote": "Casco peatonal. El interior de la torre de Miguel cierra martes y el museo del Ayuntamiento, lunes. Mantener paseo exterior y leer avisos por fecha; no borrar ni sustituir silenciosamente paradas guardadas."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "El casco viejo peatonal",
+     "zone": "Puerta de San Miguel → Plaza Mayor → Antiguo Ayuntamiento → Estatuas → Catedral de San Martín",
+     "stopIds": [
+      "miguel",
+      "plazamayor",
+      "ayuntamiento",
+      "estatuas",
+      "catedral"
+     ],
+     "editorialNote": "Casco peatonal. El interior de la torre de Miguel cierra martes y el museo del Ayuntamiento, lunes. Mantener paseo exterior y leer avisos por fecha; no borrar ni sustituir silenciosamente paradas guardadas."
+    },
+    {
+     "title": "Castillo, mirador UFO y el palacio presidencial",
+     "zone": "Palacio presidencial exterior → castillo → mirador UFO",
+     "stopIds": [
+      "grassalkovich",
+      "castillo",
+      "ufo"
+     ],
+     "editorialNote": "Palacio por fuera y jardín si abre. Castillo con jardín y museo diferenciados: museo cerrado martes y 12-13 noviembre 2026. Jardín barroco en invierno cierra 16. UFO es subida opcional de pago, no comida incluida."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "El casco viejo peatonal",
+     "zone": "Puerta de San Miguel → Plaza Mayor → Antiguo Ayuntamiento → Estatuas → Catedral de San Martín",
+     "stopIds": [
+      "miguel",
+      "plazamayor",
+      "ayuntamiento",
+      "estatuas",
+      "catedral"
+     ],
+     "editorialNote": "Casco peatonal. El interior de la torre de Miguel cierra martes y el museo del Ayuntamiento, lunes. Mantener paseo exterior y leer avisos por fecha; no borrar ni sustituir silenciosamente paradas guardadas."
+    },
+    {
+     "title": "Castillo, mirador UFO y el palacio presidencial",
+     "zone": "Palacio presidencial exterior → castillo → mirador UFO",
+     "stopIds": [
+      "grassalkovich",
+      "castillo",
+      "ufo"
+     ],
+     "editorialNote": "Palacio por fuera y jardín si abre. Castillo con jardín y museo diferenciados: museo cerrado martes y 12-13 noviembre 2026. Jardín barroco en invierno cierra 16. UFO es subida opcional de pago, no comida incluida."
+    },
+    {
+     "title": "Iglesia Azul, teatro histórico y Danubio",
+     "zone": "Iglesia Azul → teatro histórico → paseo hacia Eurovea",
+     "stopIds": [
+      "iglesiaazul",
+      "teatro"
+     ],
+     "editorialNote": "Iglesia Azul por fuera, teatro histórico en Hviezdoslavovo námestie y paseo hacia Eurovea. La sede nueva del Teatro Nacional es otro edificio. Slavín es alternativa con traslado y subida aparte, no una tercera panorámica obligatoria.",
+     "optionalStopIds": [
+      "slavin"
+     ]
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Visitas ilustradas; algunas con IA señalada. Revisión del usuario pendiente; no publicado.",
+  "Museo del castillo: martes y12-13noviembre2026 cerrado. Recinto y jardín no heredan todos los cierres del museo.",
+  "Torre de San Miguel es exposición del edificio, no museo de armas antiguo.",
+  "Devín: horario de invierno e interiores con discrepancia de idiomas; consultar áreas concretas y clima.",
+  "Catedral e Iglesia Azul: se ofrece exterior; precio y hora turística interior sin verificar.",
+  "Nada reservado. Transporte de ida/vuelta por fecha pendiente."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en Bratislava",
+   "url": "https://www.viajeroscallejeros.com/que-ver-en-bratislava/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Bratislava y lugares",
+   "url": "https://es.wikipedia.org/wiki/Bratislava",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "snm",
+   "title": "Slovak National Museum: opening hours (castillo)",
+   "url": "https://www.snm.sk/en/visit/opening-hours",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ufo",
+   "title": "UFO watch.taste.groove: entry fee y horario",
+   "url": "https://www.u-f-o.sk/entry-fee",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mmb",
+   "title": "Muzeum Bratislava: Old Town Hall y Michael's Tower",
+   "url": "https://muzeumbratislava.sk/en/old-town-hall",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "devin",
+   "title": "Hrad Devín: otváracie hodiny a vstupné",
+   "url": "https://hraddevin.mmb.sk/navstivte-nas/prakticke-informacie/otvaracie-hodiny/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "oebb",
+   "url": "https://www.oebb.at/en/regionale-angebote/ueberregionale-angebote/bratislava-ticket",
+   "title": "ÖBBBratislavaTicket",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "devin-district",
+   "url": "https://www.devin.sk/18319/doprava",
+   "title": "DistritoDevíntransporte",
+   "type": "official-local",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "devin-winter",
+   "url": "https://mmb.sk/en/exhibitions/attention-border-devin-as-a-part-of-the-iron-curtain-in-1948-1989",
+   "title": "MMBexposiciónfrontera tarifainvierno",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "snm-price",
+   "title": "SNM · tarifas Museo de Historia",
+   "url": "https://www.snm.sk/en/museums/museum-of-history/museum-of-history/visit/admission-fees",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "snm-shop",
+   "title": "Tienda oficial · cierres extraordinarios",
+   "url": "https://snm-online.sk/en/bratislavsky-hrad/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

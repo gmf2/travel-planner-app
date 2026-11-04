@@ -1,0 +1,1240 @@
+{
+ "schemaVersion": 1,
+ "country": "BE",
+ "id": "amberes",
+ "name": "Amberes",
+ "localName": "Antwerpen",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "estacion",
+   "name": "Estación Central de Amberes",
+   "kind": "walk",
+   "zone": "Statiekwartier",
+   "reason": "Estación monumental con gran cúpula, hall histórico y andenes modernos en varios niveles. Parada breve respetando circulación de viajeros.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.2162206,
+    "lon": 4.4210686
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amberes/estacion.jpg",
+    "author": "Lajos Kristóf Kántor",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/antwerp-central-station-architectural-marvel-39988430/",
+    "caption": "Nave de vías de Antwerpen-Centraal y arquitectura monumental. Foto tomada2022, publicada2026, no horarios ni accesos garantizados.",
+    "alt": "Nave de vías de Antwerpen-Centraal y arquitectura monumental. Foto tomada2022, publicada2026, no horarios ni accesos garantizados.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "diamantes",
+   "name": "Barrio de los diamantes",
+   "kind": "walk",
+   "zone": "Diamantkwartier",
+   "reason": "Barrio del comercio del diamante junto a la estación, con bolsas, talleres y escaparates en torno a Pelikaanstraat. Paseo exterior, no visita a las bolsas privadas.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.2141468,
+    "lon": 4.4207112
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Barrio de negocios activo: la visita es exterior (escaparates y ambiente); las bolsas de diamantes no son visitables.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amberes/diamantes.jpg",
+    "source": "https://www.flickr.com/photos/4nitsirk/3258788780/",
+    "author": "Kristina D.C. Hoeppner",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Calle Hoveniersstraat del barrio de diamantes, con rótulos comerciales. Foto de archivo, no visita a talleres ni comercios actuales. Recorte de presentación; original conservado bajo CC BY-SA 2.0.",
+    "alt": "Calle Hoveniersstraat del barrio de diamantes, con rótulos comerciales. Foto de archivo, no visita a talleres ni comercios actuales."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "rubenshuis",
+   "name": "Rubenshuis: Rubens Experience y jardín",
+   "kind": "museum",
+   "zone": "Meir",
+   "reason": "Rubens Experience y jardín en el conjunto de Rubens. La casa histórica permanece cerrada por restauración; el billete de Experience no permite visitarla.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "rubens"
+   ],
+   "coordinates": {
+    "lat": 51.2170082,
+    "lon": 4.4096355
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Residencia histórica cerrada: reabrirá 2030 COMO PRONTO, no garantía de fecha. Abiertos Experience/jardín, miércoles cerrado; Experience franja fija, llegar 15 min antes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Rubens Experience y jardín: lunes a viernes 10-17, sábado y domingo 10-18; MIÉRCOLES CERRADO; también 1 enero, 1 mayo y 25 diciembre. Biblioteca: lu-vi 9:30-17.",
+    "source": "https://rubenshuis.be/en/visit"
+   },
+   "price": "Rubens Experience + jardín: 12€ (8€ reducida); <18 gratis; solo jardín 8€/6€; combinado con Museum Mayer van den Bergh 14€. Museo sin efectivo (solo tarjeta).",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/amberes/rubenshuis.jpg",
+    "source": "https://www.flickr.com/photos/vitamindave/6232262830/",
+    "author": "David Huang",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Fachada histórica de Rubenshuis en Wapper. No muestra Rubens Experience ni jardín y no demuestra reapertura de la casa histórica, que sigue con obras. Recorte de presentación; original conservado bajo CC BY-SA 2.0.",
+    "alt": "Fachada histórica de Rubenshuis en Wapper. No muestra Rubens Experience ni jardín y no demuestra reapertura de la casa histórica, que sigue con obras."
+   },
+   "accessRules": {
+    "scope": "Rubens Experience y jardín, no casa histórica",
+    "noticeLabel": "Rubens Experience y jardín, no casa histórica",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     3
+    ],
+    "closedMonthDays": [
+     "01-01",
+     "05-01",
+     "12-25"
+    ],
+    "notices": [
+     "La casa histórica sigue cerrada por obras; Experience y jardín no equivalen a visitarla."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "meir",
+   "name": "Calle Meir",
+   "kind": "walk",
+   "zone": "Meir",
+   "reason": "La gran arteria comercial de Amberes entre la estación y el centro histórico: fachadas dieciochescas, el Stadsfeestzaal (antiguo palacio de fiestas reconvertido en galería) y la torre de los granjeros (Boerentoren).",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.2181707,
+    "lon": 4.4070371
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amberes/meir.jpg",
+    "author": "Radjied de la Combe",
+    "source": "https://www.pexels.com/photo/view-of-meir-street-in-antwerp-belgium-11835662/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Vista de calle en Meir con edificio histórico y peatones. Foto de archivo, no horarios ni apertura de tiendas.",
+    "alt": "Vista de calle en Meir con edificio histórico y peatones. Foto de archivo, no horarios ni apertura de tiendas.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "groenplaats",
+   "name": "Groenplaats",
+   "kind": "walk",
+   "zone": "Centro histórico",
+   "reason": "Plaza junto a la catedral con estatua de Rubens y terrazas; pausa exterior entre calles del centro.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.2186144,
+    "lon": 4.4016388
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amberes/groenplaats.jpg",
+    "source": "https://www.pexels.com/photo/statue-of-peter-paul-ruben-beside-tower-of-cathedra-in-belgium-12869719/",
+    "author": "Philippe WEICKMANN",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Groenplaats: estatua de Rubens y torre de la catedral; la foto no muestra toda la plaza."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral de Nuestra Señora",
+   "kind": "monument",
+   "zone": "Centro histórico",
+   "reason": "Catedral gótica con obras de Rubens y un interior que se visita con horario turístico propio. La torre y jardines no están incluidos en la entrada ordinaria.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "cat"
+   ],
+   "coordinates": {
+    "lat": 51.2202905,
+    "lon": 4.4013555
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "La guía daba domingo 13-16: la web oficial dice 13-17. Vigilar las excepciones puntuales por culto/eventos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Entre semana 10-17, sábado 10-15, domingo 13-17. Abierta todo el año salvo 1 enero. Excepciones puntuales: 3-11-2026 12-17, 7-11 12-15, 8-11 13-16, 20-12 cerrada al turismo, 24-12 10-16, 25-12 14-17.",
+    "source": "https://www.dekathedraal.be/en/visit/"
+   },
+   "price": "12€ adulto; 10€ grupos 20+, estudiantes y 60+; <18 y residentes de la provincia gratis.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/amberes/catedral.jpg",
+    "author": "Ludovic Delot",
+    "source": "https://www.pexels.com/photo/cathedral-of-our-lady-in-antwerp-against-blue-sky-38797640/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Torre gótica de la Catedral de Nuestra Señora desde la calle. Foto de archivo de 2026, no muestra interior ni acceso confirmado.",
+    "alt": "Torre gótica de la Catedral de Nuestra Señora desde la calle. Foto de archivo de 2026, no muestra interior ni acceso confirmado.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Visita turística de la catedral",
+    "noticeLabel": "Visita turística de la catedral",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedDates": [
+     "2026-12-20"
+    ],
+    "specialDates": [
+     {
+      "date": "2026-11-03",
+      "text": "Catedral: turismo 12-17 por horario excepcional."
+     },
+     {
+      "date": "2026-11-07",
+      "text": "Catedral: turismo 12-15."
+     },
+     {
+      "date": "2026-11-08",
+      "text": "Catedral: turismo 13-16."
+     },
+     {
+      "date": "2026-12-24",
+      "text": "Catedral: turismo 10-16."
+     },
+     {
+      "date": "2026-12-25",
+      "text": "Catedral: turismo 14-17."
+     }
+    ],
+    "notices": [
+     "Turismo: entre semana 10-17, sábado 10-15 y domingo 13-17; celebraciones y excepciones por fecha prevalecen."
+    ]
+   }
+  },
+  {
+   "id": "vlaeykensgang",
+   "name": "Callejón Vlaeykensgang",
+   "kind": "walk",
+   "zone": "Centro histórico",
+   "reason": "Pasadizo con patios y casas del casco antiguo entre calles del centro. Mantener libre el paso y respetar los espacios privados.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.2201121,
+    "lon": 4.398819
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amberes/vlaeykensgang.jpg",
+    "author": "Emily",
+    "source": "https://www.pexels.com/photo/vlaeykensgang-alley-in-antwerp-27068045/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Vlaeykensgang: patio y paso empedrado. Foto de archivo, no acceso abierto garantizado ni recorrido de todos los callejones.",
+    "alt": "Vlaeykensgang: patio y paso empedrado. Foto de archivo, no acceso abierto garantizado ni recorrido de todos los callejones.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "grotemarkt",
+   "name": "Grote Markt y fuente de Brabo",
+   "kind": "walk",
+   "zone": "Centro histórico",
+   "reason": "El corazón de la ciudad: las casas gremiales del XVI-XVII con sus dorados, la fuente de Brabo arrojando la mano del gigante Antigoon al Escalda y el ayuntamiento renacentista presidiendo la plaza.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.2211713,
+    "lon": 4.4003514
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amberes/grotemarkt.jpg",
+    "author": "Dick Scholten",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/night-view-of-antwerp-market-square-belgium-35400480/",
+    "caption": "Casas gremiales y fuente de Brabo en Grote Markt de noche. Foto de archivo publicada2025.",
+    "alt": "Casas gremiales y fuente de Brabo en Grote Markt de noche. Foto de archivo publicada2025.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ayuntamiento",
+   "name": "Ayuntamiento de Amberes",
+   "kind": "monument",
+   "zone": "Grote Markt",
+   "reason": "Fachada renacentista del ayuntamiento en Grote Markt. El plan contempla el exterior; entrar exige comprobar una visita guiada aparte.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.2213112,
+    "lon": 4.3991737
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "El interior solo se visita con visitas guiadas puntuales (el horario lu-vi 8:30-17:30 de la guía es el administrativo): parada exterior.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amberes/ayuntamiento.jpg",
+    "author": "Milena Tesla",
+    "source": "https://www.pexels.com/photo/facade-of-antwerp-city-hall-11128577/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Ayuntamiento de Amberes: fachada central. Foto de archivo, no interior ni acceso guiado confirmado.",
+    "alt": "Ayuntamiento de Amberes: fachada central. Foto de archivo, no interior ni acceso guiado confirmado.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "plantin",
+   "name": "Museo Plantin-Moretus",
+   "kind": "museum",
+   "zone": "Vrijdagmarkt",
+   "reason": "Casa, imprenta y museo dedicados a Plantin y los Moretus. Una visita interior principal para entender la producción y circulación del libro, distinta del paseo de plazas.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "plantin",
+    "plantin-closure-own",
+    "plantin-closure-own"
+   ],
+   "coordinates": {
+    "lat": 51.2184964,
+    "lon": 4.39816
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Museo cerrado por renovación hasta el 4 diciembre de 2026 inclusive, reapertura anunciada 5 diciembre, no apertura garantizada por existir billetes. La sala de lectura de investigación permanece con su propio régimen y no equivale a visita turística del museo o patio. Después comprobar horario, producto y cupo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Cierre extraordinario del 3 agosto al 4 diciembre de 2026. Reapertura anunciada 5 diciembre. Horario ordinario martes-domingo 10-17, lunes cerrado salvo Pascua/Pentecostés; festivos y última taquilla por confirmar para fecha.",
+    "source": "https://museumplantinmoretus.be/en/plan-your-visit"
+   },
+   "price": "12€ (26+); 8€ (18-25); <18 gratis; Museum Pass y Antwerp City Pass gratis. Pago solo con tarjeta.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/amberes/plantin.jpg",
+    "source": "https://www.flickr.com/photos/xiquinho/53299374719/",
+    "author": "xiquinhosilva",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Entrada exterior del Museo Plantin-Moretus en Vrijdagmarkt. No muestra salas, prensas ni disponibilidad de acceso interior. Recorte de presentación; original conservado bajo CC BY 2.0.",
+    "alt": "Entrada exterior del Museo Plantin-Moretus en Vrijdagmarkt. No muestra salas, prensas ni disponibilidad de acceso interior."
+   },
+   "photoPending": false,
+   "closedDates": [
+    "2026-08-03",
+    "2026-08-04",
+    "2026-08-05",
+    "2026-08-06",
+    "2026-08-07",
+    "2026-08-08",
+    "2026-08-09",
+    "2026-08-10",
+    "2026-08-11",
+    "2026-08-12",
+    "2026-08-13",
+    "2026-08-14",
+    "2026-08-15",
+    "2026-08-16",
+    "2026-08-17",
+    "2026-08-18",
+    "2026-08-19",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-22",
+    "2026-08-23",
+    "2026-08-24",
+    "2026-08-25",
+    "2026-08-26",
+    "2026-08-27",
+    "2026-08-28",
+    "2026-08-29",
+    "2026-08-30",
+    "2026-08-31",
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-17",
+    "2026-10-18",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29",
+    "2026-11-30",
+    "2026-12-01",
+    "2026-12-02",
+    "2026-12-03",
+    "2026-12-04"
+   ],
+   "accessRules": {
+    "scope": "Museo Plantin-Moretus",
+    "noticeLabel": "Museo Plantin-Moretus",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedMonthDays": [
+     "01-01",
+     "05-01",
+     "11-01",
+     "12-25"
+    ],
+    "weekdayNotices": [
+     {
+      "weekday": 1,
+      "text": "Cierra lunes salvo lunes de Pascua y Pentecostés. Confirmar si la fecha es excepción."
+     }
+    ],
+    "specialDates": [
+     {
+      "date": "2026-12-24",
+      "text": "Plantin-Moretus cierra a las 15."
+     },
+     {
+      "date": "2026-12-31",
+      "text": "Plantin-Moretus cierra a las 15."
+     }
+    ],
+    "closedRanges": [
+     {
+      "start": "2026-08-03",
+      "end": "2026-12-04",
+      "label": "Museo Plantin-Moretus por renovación; no lectura de investigación"
+     }
+    ],
+    "standingNotice": "Museo Plantin-Moretus cerrado por renovación del 03/08/2026 al 04/12/2026. Reapertura anunciada para el 05/12/2026; comprobar avisos antes de planificar el interior."
+   }
+  },
+  {
+   "id": "sancarlos",
+   "name": "Iglesia de San Carlos Borromeo",
+   "kind": "monument",
+   "zone": "Hendrik Conscienceplein",
+   "reason": "Iglesia barroca jesuita de fachada monumental en Conscienceplein, vinculada a Rubens; las 39 pinturas del techo se perdieron en incendio 1718, no se prometen como colección visible.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "scb"
+   ],
+   "coordinates": {
+    "lat": 51.2209611,
+    "lon": 4.4047836
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lunes a sábado 10-12:30 y 14-17 (parroquia).",
+    "source": "https://www.carolusborromeus.com/"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/amberes/sancarlos.jpg",
+    "source": "https://www.flickr.com/photos/129231073@N06/26030993713/",
+    "author": "Fred Romero",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Fachada de San Carlos Borromeo en Conscienceplein. No muestra pinturas ni acredita interior abierto. Recorte de presentación; original conservado bajo CC BY 2.0.",
+    "alt": "Fachada de San Carlos Borromeo en Conscienceplein. No muestra pinturas ni acredita interior abierto."
+   },
+   "accessRules": {
+    "scope": "Visita turística de San Carlos Borromeo",
+    "noticeLabel": "San Carlos Borromeo",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Visita publicada lunes-sábado10-12:30 y14-17; domingo con celebraciones, no visita turística ordinaria garantizada."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "biblioteca",
+   "name": "Biblioteca Hendrik Conscience y Nottebohmzaal",
+   "kind": "monument",
+   "zone": "Hendrik Conscienceplein",
+   "reason": "Biblioteca patrimonial en Conscienceplein, con la sala histórica Nottebohm. La sala no tiene visita individual diaria: verano o actividad especial con calendario propio.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "consc"
+   ],
+   "coordinates": {
+    "lat": 51.2209301,
+    "lon": 4.4038087
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Nottebohmzaal sin apertura individual habitual fuera de campaña. Página 2027 contradice junio en título vs principiosjulio en detalle, fechas exactas pendientes, reservas no abiertas. No tratar junio-sept como calendario confirmado ni cierre absoluto de toda biblioteca: eventos/visitas especiales pueden existir.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Campaña verano 2027 anunciada, fecha exacta pendiente: título dice comienzosjunio, detalle comienzosjulio-mediadossept; mar-dom 12-17 última 16:30. Fuera campaña solo posible evento/tour especial, no visitaindividual garantizada.",
+    "source": "https://consciencebibliotheek.be/nl/zomeropening"
+   },
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amberes/biblioteca.jpg",
+    "source": "https://www.flickr.com/photos/129231073@N06/26028964744/",
+    "author": "Fred Romero",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Entrada exterior de la biblioteca patrimonial con estatua de Hendrik Conscience. No muestra Nottebohmzaal ni permite inferir acceso a la sala. Recorte de presentación; original conservado bajo CC BY 2.0.",
+    "alt": "Entrada exterior de la biblioteca patrimonial con estatua de Hendrik Conscience. No muestra Nottebohmzaal ni permite inferir acceso a la sala."
+   },
+   "accessRules": {
+    "scope": "Nottebohmzaal, no fachada de la biblioteca",
+    "noticeLabel": "Nottebohmzaal, no fachada de la biblioteca",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "No hay visita individual diaria. Verano de 2027 anunciado, pero la página discrepa entre comienzos de junio y comienzos de julio. Fechas exactas pendientes; fuera de campaña solo evento o tour confirmado."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "steen",
+   "name": "Castillo Het Steen",
+   "kind": "monument",
+   "zone": "Steenplein",
+   "reason": "El edificio más antiguo de Amberes (fortaleza del XIII sobre el Escalda), reconvertido en centro de visitantes con la exposición 'The Antwerp Story' y vistas al río; a su lado, el gigante Lange Wapper.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "steen"
+   ],
+   "coordinates": {
+    "lat": 51.2227668,
+    "lon": 4.3974184
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "TheAntwerpStory es exposición de pago separada del centro de visitantes gratis; no tratar todo castillo como museo gratuito.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "A diario 10-18; cerrado 1 enero y 25 diciembre.",
+    "source": "https://experienceantwerp.be/nl/locatie/het-steen/"
+   },
+   "price": "Centro visitantes gratis; TheAntwerpStory7 € adulto publicado en ExperienceAntwerp, no compra.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/amberes/steen.jpg",
+    "author": "Ludovic Delot",
+    "source": "https://www.pexels.com/photo/medieval-castle-tower-in-antwerp-belgium-38797613/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Het Steen: torres almenadas del exterior. Foto de archivo, no recorrido de Antwerp Story ni centro de visitantes.",
+    "alt": "Het Steen: torres almenadas del exterior. Foto de archivo, no recorrido de Antwerp Story ni centro de visitantes.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Het Steen, exposición con producto aparte",
+    "noticeLabel": "Het Steen",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedMonthDays": [
+     "01-01",
+     "12-25"
+    ]
+   }
+  },
+  {
+   "id": "mas",
+   "name": "Museo MAS y panorama",
+   "kind": "museum",
+   "zone": "Eilandje",
+   "reason": "El Museum aan de Stroom (2011): 60 m de cajas de piedra roja y vidrio ondulado con la historia de Amberes y su puerto, y el bulevar en espiral gratuito que sube hasta el panorama de la azotea.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "mas"
+   ],
+   "coordinates": {
+    "lat": 51.2289354,
+    "lon": 4.4047321
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Reservar franja incluso entrada gratuita; cambiar ticket por pulsera. Salas visita media 90 min/2 h completas según operador. Panorama puede cerrar por clima; lunes cerrado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Salas martes-domingo 10-17, último acceso 16. Bulevar y panorama martes-domingo 9:30-22, panorama sujeto al tiempo. Lunes cerrado salvo lunes de Pascua y Pentecostés. Confirmar fiestas y avisos diarios.",
+    "source": "https://mas.be/en/page/how-when-get-here"
+   },
+   "price": "12 € estándar mayores25,8 €18-25/reducción; <18 gratis. Bulevar/panorama y depósito visible distintos de salas.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/amberes/mas.jpg",
+    "author": "Elia",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/modern-architecture-mas-museum-antwerp-exterior-34396580/",
+    "caption": "MAS exterior desde la dársena. Foto de archivo, no representa exposición ni panorámica desde la azotea.",
+    "alt": "MAS exterior desde la dársena. Foto de archivo, no representa exposición ni panorámica desde la azotea.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Salas, bulevar y panorama del MAS",
+    "noticeLabel": "MAS",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "weekdayNotices": [
+     {
+      "weekday": 1,
+      "text": "MAS cierra lunes salvo lunes de Pascua/Pentecostés. Comprobar excepción por fecha."
+     }
+    ],
+    "notices": [
+     "Salas hasta17, último acceso16. Bulevar/panorama hasta22 según página actual, sujeto a meteorología. No extrapolar horario estival a invierno."
+    ]
+   }
+  },
+  {
+   "id": "eilandje",
+   "name": "Barrio de Eilandje",
+   "kind": "walk",
+   "zone": "Eilandje",
+   "reason": "El antiguo barrio portuario de los muelles Bonaparte y Guillermo: almacenes reconvertidos, grúas históricas, el MAS como faro del barrio y la arquitectura del Red Star Line Museum junto al agua.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.2286284,
+    "lon": 4.4037038
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Bonapartedok&query_place_id=ChIJERARP1r2w0cRVrVGls6G3zg",
+   "coordinateMethod": "maps-bonapartedok-editorial-anchor",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Coordenada anclada en Bonapartedok junto al MAS, no centroide lejano de todo Eilandje; ampliarlo a RedStarLine/ZahaHadid exige más recorrido.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amberes/eilandje.jpg",
+    "source": "https://www.flickr.com/photos/129231073@N06/26541127182/",
+    "author": "Fred Romero",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Vista de la dársena Willemdok y barrio de Eilandje desde altura. No imagen de una ruta peatonal exacta. Recorte de presentación; original conservado bajo CC BY 2.0.",
+    "alt": "Vista de la dársena Willemdok y barrio de Eilandje desde altura. No imagen de una ruta peatonal exacta."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sanpablo",
+   "name": "Iglesia de San Pablo",
+   "kind": "monument",
+   "zone": "Sint-Paulusstraat",
+   "reason": "Iglesia con pintura flamenca y calvario en el jardín. Las obras en curso y el calendario de invierno obligan a comprobar acceso a cada espacio.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "sp"
+   ],
+   "coordinates": {
+    "lat": 51.2239427,
+    "lon": 4.4013776
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Restauración activa, consultar calendario; invierno 1 nov 2026-28 feb 2027 vi-sá-do y vacaciones escolares flamencas 14-17.5 € entrada estándar, no gratis general; sin turismo durante oficios.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Del 2 may al 31 oct 2026: a diario 14-17. Del 1 nov 2026 al 28 feb 2027: solo viernes-domingo y vacaciones escolares flamencas 14-17; 1 enero cerrada.",
+    "source": "https://www.sintpaulusantwerpen.be/plan-uw-bezoek/praktische-info/praktische-info/"
+   },
+   "price": "5 € estándar; 3 € estudiantes y grupos desde15; exenciones específicas. No gratis general.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/amberes/sanpablo.jpg",
+    "source": "https://www.flickr.com/photos/sergeigussev/54225019225/",
+    "author": "Sergei Gussev",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Fachada oeste y torre de San Pablo. No muestra el interior ni el calvario del jardín. Recorte de presentación; original conservado bajo CC BY 2.0.",
+    "alt": "Fachada oeste y torre de San Pablo. No muestra el interior ni el calvario del jardín."
+   },
+   "accessRules": {
+    "scope": "Interior de San Pablo",
+    "noticeLabel": "Interior de San Pablo",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Del 1 noviembre de 2026 al 28 febrero de 2027: viernes-domingo y vacaciones escolares flamencas 14-17. Comprobar calendario escolar y obras; no tratar todos los lunes-jueves como cierre sin excepciones."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "santiago",
+   "name": "Iglesia de Santiago (Sint-Jacobus)",
+   "kind": "monument",
+   "zone": "Universiteitsbuurt",
+   "reason": "Iglesia de Santiago con capillas y vínculo con la familia Rubens. Las celebraciones y obras pueden limitar lo visitable: no se garantiza cada capilla.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "sj"
+   ],
+   "coordinates": {
+    "lat": 51.2200962,
+    "lon": 4.4104931
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "A diario 14-17, gratuita; comprobar la web por eventos litúrgicos. Grupos de 10+: 3€/persona.",
+    "source": "https://www.sintjacobantwerpen.be/bezoek-de-kerk/"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/amberes/santiago.jpg",
+    "source": "https://www.flickr.com/photos/197140517@N02/52949515150/",
+    "author": "Art-Facts.com",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Torre y entrada exterior de Santiago. No acredita visita interior, obras terminadas ni acceso a la tumba de Rubens. Recorte de presentación; original conservado bajo CC BY-SA 2.0.",
+    "alt": "Torre y entrada exterior de Santiago. No acredita visita interior, obras terminadas ni acceso a la tumba de Rubens."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "beaterio",
+   "name": "Beaterio de Amberes (Begijnhof)",
+   "kind": "walk",
+   "zone": "Universiteitsbuurt",
+   "reason": "Recinto histórico residencial con jardín y casas del antiguo beaterio. Visitar en silencio y respetar puertas y zonas privadas; no es un museo de acceso libre a viviendas.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.2223126,
+    "lon": 4.4137271
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Patio residencial de acceso libre en horario diurno (sin web oficial): máximo respeto, silencio y nada de fotos a los vecinos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amberes/beaterio.jpg",
+    "alt": "Patio del Begijnhof de Amberes, fotografía publicada en marzo de 2020. No acredita acceso actual ni permite entrar en viviendas privadas.",
+    "caption": "Patio del Begijnhof de Amberes, fotografía publicada en marzo de 2020. No acredita acceso actual ni permite entrar en viviendas privadas.",
+    "source": "https://unsplash.com/photos/person-in-black-jacket-walking-on-sidewalk-during-daytime-FcXwqFbBi8c",
+    "author": "Unsplash (nombre del fotógrafo no recuperado en la página leída)",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "gante",
+   "name": "Gante · canales y centro medieval",
+   "kind": "excursion",
+   "zone": "Gante (Flandes Oriental)",
+   "reason": "La gran rival histórica de Amberes: el castillo de Gravensteen, las tres torres (San Bavón, campanario y San Nicolás), el Korenlei junto al canal y el Políptico del Cordero Místico de los Van Eyck en la catedral de San Bavón.",
+   "sourceIds": [
+    "wp",
+    "nmbs"
+   ],
+   "coordinates": {
+    "lat": 51.0546564,
+    "lon": 3.721915
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión de jornada propia. Elegir interiores y comprobar horarios, no todos por defecto.",
+   "photo": {
+    "img": "assets/amberes/gante.jpg",
+    "source": "https://www.pexels.com/photo/charming-medieval-architecture-along-ghent-canal-39988354/",
+    "author": "Lajos Kristóf Kántor",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Gante: fachadas de Graslei junto al río; excursión fuera de Amberes."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "brujas",
+   "name": "Brujas, la Venecia del Norte",
+   "kind": "excursion",
+   "zone": "Brujas (Flandes Occidental)",
+   "reason": "Centro histórico de canales, Markt/Belfort y Minnewater. Elegir un interior si se quiere entrar, no todos en un día.",
+   "sourceIds": [
+    "wp",
+    "hoost"
+   ],
+   "coordinates": {
+    "lat": 51.2087089,
+    "lon": 3.2243951
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 480,
+   "durationType": "editorial-estimate",
+   "caution": "Duración del tren sin verificación en primaria NMBS (la página Antwerpen-Brugge de belgiantrain.be no existe): caution de fuente secundaria, verificar antes de viajar.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión de jornada propia. Elegir interiores y comprobar horarios, no todos por defecto.",
+   "photo": {
+    "img": "assets/amberes/brujas.jpg",
+    "source": "https://www.pexels.com/photo/scenic-view-of-bruges-canal-with-historic-architecture-34378455/",
+    "author": "Ryan Thomas",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Brujas: canal, puente y campanario del casco histórico; excursión fuera de Amberes."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Plazas y catedral del centro histórico",
+     "stopIds": [
+      "grotemarkt",
+      "ayuntamiento",
+      "catedral",
+      "groenplaats",
+      "vlaeykensgang",
+      "sancarlos",
+      "biblioteca"
+     ],
+     "editorialNote": "Catedral como interior principal, comprobando hora turística de la fecha. San Carlos es opcional interior según pausa 12:30-14; biblioteca solo exterior salvo campaña o reserva de Nottebohm. Pausas y comida fuera de los tiempos de visita.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial, no horario reservado. Elegir un interior principal y confirmar acceso de cada parada sin reemplazar lo guardado automáticamente."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Plazas y catedral del centro histórico",
+     "stopIds": [
+      "grotemarkt",
+      "ayuntamiento",
+      "catedral",
+      "groenplaats",
+      "vlaeykensgang",
+      "sancarlos",
+      "biblioteca"
+     ],
+     "editorialNote": "Catedral como interior principal, comprobando hora turística de la fecha. San Carlos es opcional interior según pausa 12:30-14; biblioteca solo exterior salvo campaña o reserva de Nottebohm. Pausas y comida fuera de los tiempos de visita.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial, no horario reservado. Elegir un interior principal y confirmar acceso de cada parada sin reemplazar lo guardado automáticamente."
+    },
+    {
+     "title": "Escalda, Eilandje y una visita principal",
+     "stopIds": [
+      "steen",
+      "sanpablo",
+      "mas",
+      "eilandje"
+     ],
+     "editorialNote": "Paseo de ribera y MAS como único museo largo si se eligen salas. The Antwerp Story es alternativa con producto propio; San Pablo puede quedar exterior si la hora no encaja. En invierno su interior abre por calendario restringido, no se fuerza entre museos.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial, no horario reservado. Elegir un interior principal y confirmar acceso de cada parada sin reemplazar lo guardado automáticamente."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Plazas y catedral del centro histórico",
+     "stopIds": [
+      "grotemarkt",
+      "ayuntamiento",
+      "catedral",
+      "groenplaats",
+      "vlaeykensgang",
+      "sancarlos",
+      "biblioteca"
+     ],
+     "editorialNote": "Catedral como interior principal, comprobando hora turística de la fecha. San Carlos es opcional interior según pausa 12:30-14; biblioteca solo exterior salvo campaña o reserva de Nottebohm. Pausas y comida fuera de los tiempos de visita.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial, no horario reservado. Elegir un interior principal y confirmar acceso de cada parada sin reemplazar lo guardado automáticamente."
+    },
+    {
+     "title": "Escalda, Eilandje y una visita principal",
+     "stopIds": [
+      "steen",
+      "sanpablo",
+      "mas",
+      "eilandje"
+     ],
+     "editorialNote": "Paseo de ribera y MAS como único museo largo si se eligen salas. The Antwerp Story es alternativa con producto propio; San Pablo puede quedar exterior si la hora no encaja. En invierno su interior abre por calendario restringido, no se fuerza entre museos.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial, no horario reservado. Elegir un interior principal y confirmar acceso de cada parada sin reemplazar lo guardado automáticamente."
+    },
+    {
+     "title": "Estación, Meir y Rubens Experience",
+     "stopIds": [
+      "estacion",
+      "diamantes",
+      "meir",
+      "rubenshuis",
+      "santiago",
+      "beaterio"
+     ],
+     "editorialNote": "Rubens Experience como foco con hora fija y llegada 15 min antes. Santiago puede quedar exterior, interior 14-17 condicionado por celebraciones. Plantin-Moretus pasa a alternativa de jornada, no segundo museo por defecto, y está cerrado hasta 4 diciembre 2026 inclusive.",
+     "optionalStopIds": [
+      "plantin"
+     ],
+     "pacing": "Estimación editorial, no horario reservado. Elegir un interior principal y confirmar acceso de cada parada sin reemplazar lo guardado automáticamente."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Plantin-Moretus cerrado3agosto-4diciembre2026 inclusive. Reapertura anunciada5diciembre, comprobar estado antes de programar interior.",
+  "Rubens Experience y jardín no son la casa histórica, que sigue cerrada por restauración. Miércoles cerrado.",
+  "Plantin-Moretus cierra lunes con excepciones festivas. Catedral con horarios de turismo distintos sábado/domingo y días especiales.",
+  "Nottebohmzaal no es visita individual diaria. Campaña 2027 con fechas exactas aún contradictorias.",
+  "San Pablo tiene apertura de invierno restringida y obras. Confirmar fecha y espacios.",
+  "Elegir un museo principal por día. Las excursiones sustituyen un día; transportes futuros y billetes requieren comprobación.",
+  "20/20 fotos representativas verificadas en borrador, todas de archivo. Las fotos de Rubenshuis, biblioteca e iglesias muestran exteriores, no interiores accesibles.",
+  "Nada reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: 18 lugares que visitar en Amberes",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-visitar-amberes/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Amberes y lugares",
+   "url": "https://es.wikipedia.org/wiki/Amberes",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cat",
+   "title": "De Kathedraal (OLV Amberes): visit",
+   "url": "https://www.dekathedraal.be/en/visit/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "plantin",
+   "title": "Museum Plantin-Moretus: plan your visit",
+   "url": "https://museumplantinmoretus.be/en/plan-your-visit",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rubens",
+   "title": "Rubenshuis: visit y artists-residence (cierre hasta 2030)",
+   "url": "https://rubenshuis.be/en/visit",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mas",
+   "title": "Museum MAS: how & when to get here",
+   "url": "https://mas.be/en/page/how-when-get-here",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "steen",
+   "title": "Het Steen (Experience Antwerp): plan je bezoek",
+   "url": "https://experienceantwerp.be/nl/locatie/het-steen/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "scb",
+   "title": "Sint-Carolus Borromeuskerk: bezoekuren",
+   "url": "https://www.carolusborromeus.com/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sp",
+   "title": "Sint-Pauluskerk Antwerpen: praktische info",
+   "url": "https://www.sintpaulusantwerpen.be/plan-uw-bezoek/praktische-info/praktische-info/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sj",
+   "title": "Sint-Jacobuskerk Antwerpen: bezoek de kerk",
+   "url": "https://www.sintjacobantwerpen.be/bezoek-de-kerk/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "consc",
+   "title": "Erfgoedbibliotheek Hendrik Conscience: zomeropening Nottebohmzaal",
+   "url": "https://consciencebibliotheek.be/nl/zomeropening",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "nmbs",
+   "title": "NMBS/SNCB: trenes Antwerpen-Gent",
+   "url": "https://www.belgiantrain.be/nl/travel-info/origin-destination/antwerp-ghent",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hoost",
+   "title": "Hoost: day trips from Antwerp (secundaria)",
+   "url": "https://hoost.be/en/guides/day-trips-from-antwerp/",
+   "type": "secondary",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mas-tickets",
+   "url": "https://mas.be/en/page/tickets",
+   "title": "MAS tickets actuales",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "steen-ticket",
+   "url": "https://experienceantwerp.be/en/offers/activities/history/het-steen/the-antwerp-story-individuals/",
+   "title": "AntwerpStory individual",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "plantin-closure-own",
+   "title": "Plantin-Moretus: cierre por renovación y reapertura anunciada",
+   "url": "https://museumplantinmoretus.be/en/news/3-august-onwards-museum-closed-renovation-work",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "plantin-closure-own",
+   "title": "Plantin-Moretus: cierre 3 agosto-4 diciembre 2026",
+   "url": "https://museumplantinmoretus.be/en/news/3-august-onwards-museum-closed-renovation-work",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

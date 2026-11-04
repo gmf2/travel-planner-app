@@ -1,0 +1,172 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "MN",
+ "country": "Mongolia",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Solo el desierto de Gobi; el norte y el oeste quedan fuera.",
+ "verificationLimits": [
+  "9 días/8 noches editoriales. No hay campamentos, conductor, combustible, comidas, entradas ni actividades incluidos en un presupuesto final.",
+  "Go Mongolia recomienda SUV/4x4 para Gobi y advierte de combustible escaso y conducción invernal difícil (noviembre-marzo). Elegir conductor/vehículo, combustible, agua y comunicaciones para las pistas; no es un circuito de autobús público.",
+  "El circuito aéreo de otro operador se anuncia entre 15 junio y 15 septiembre. No demuestra apertura de todos los ger camps ni vuelos de esta ruta terrestre: confirmar temporada y servicios propios para la fecha.",
+  "Los días de carretera de 4-8 h no incluyen cualquier caminata o visita adicional. Conservar descanso en dunas y noche final en Ulán Bator antes de salir.",
+  "Clima, pistas y señal pueden variar. Ni una foto de hielo en Yolyn Am ni una fecha estival garantizan hielo, acceso o rescate; elegir seguro adecuado y guía local para actividad."
+ ],
+ "routes": [
+  {
+   "id": "mn-gobi-9",
+   "title": "Gobi con llegada y regreso · 9 días",
+   "scope": "Solo el sur (Gobi). No cubre el lago Khovsgol (norte) ni el oeste.",
+   "pace": "9 días; transporte interurbano separado de las visitas. Duraciones de la fuente orientativas, no horarios contratados.",
+   "assumptions": "Adaptación editorial del circuito terrestre de 7 días de Nomada: añade llegada y salida separadas, total 9 días/8 noches. Los kilómetros y tiempos son estimaciones del operador, no ruta medida, servicio contratado ni alojamiento confirmado.",
+   "sources": [
+    {
+     "id": "mng",
+     "title": "Nomada - Mongolia 7/10/14 dias (operador local)",
+     "url": "https://www.nomada.mn/journal/mongolia-itinerary-7-10-14-days"
+    },
+    {
+     "id": "official-roads",
+     "title": "Go Mongolia: conducción fuera de Ulán Bator y combustible",
+     "url": "https://www.gomongolia.gov.mn/know-before-you-go/"
+    },
+    {
+     "id": "official-gobi",
+     "title": "Go Mongolia: Gobi y extremos climáticos",
+     "url": "https://www.gomongolia.gov.mn/explore-experience/"
+    },
+    {
+     "id": "gobi-operator",
+     "title": "Visit Mongolia: otro operador, circuito aéreo distinto, no mismo paquete",
+     "url": "https://www.visitmongolia.com/short_gobi_desert_tour.html"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Ulán Bator",
+     "overnight": "Ulán Bator",
+     "stops": [
+      "Llegada y descanso antes del circuito"
+     ],
+     "transfer": "Aeropuerto → alojamiento. No salir de inmediato a 7-8 h de pista.",
+     "sourceIds": [
+      "mng"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Ulan Bator a Tsagaan Suvraga",
+     "overnight": "campamento ger (Tsagaan Suvraga)",
+     "stops": [
+      "Estepa central",
+      "Acantilados de Tsagaan Suvraga al atardecer"
+     ],
+     "transfer": "Ulán Bator → Tsagaan Suvraga: unos 420 km/7-8 h según Nomada, no tiempo medido para la fecha. Vehículo 4x4/conductor por elegir; combustible y agua planificados antes de salir, sin depender de repostaje continuo. Jornada de carretera, llegada antes de oscuridad si condiciones lo permiten.",
+     "sourceIds": [
+      "mng",
+      "official-roads"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Yolyn Am (valle del buitre)",
+     "overnight": "campamento ger (Gobi)",
+     "stops": [
+      "Parque Gobi Gurvansaikhan",
+      "Desfila dero Yolyn Am"
+     ],
+     "transfer": "4 x 4 ~250 km, 5-6 h orientativo (fuente mng).",
+     "sourceIds": [
+      "mng"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Dunas de Khongoryn Els",
+     "overnight": "campamento ger (Khongoryn Els)",
+     "stops": [
+      "Dunas de Khongoryn Els",
+      "Paseo en camello"
+     ],
+     "transfer": "Yolyn Am → Khongoryn Els: unos 180 km/4-5 h orientativos de Nomada por carretera/pista. Caminata en dunas separada y opcional según calor/forma física; no prometer llegar a cima en 45 min para cualquier persona.",
+     "sourceIds": [
+      "mng",
+      "official-gobi"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Dia de descanso en las dunas",
+     "overnight": "campamento ger (Khongoryn Els)",
+     "stops": [
+      "Familia nomada",
+      "Oasis entre dunas"
+     ],
+     "transfer": "La fuente insiste en proteger este día de parada (mng).",
+     "sourceIds": [
+      "mng"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Bayanzag (acantilados llameantes)",
+     "overnight": "campamento ger (Bayanzag)",
+     "stops": [
+      "Bayanzag"
+     ],
+     "transfer": "4 x 4 ~200 km, ~5 h orientativo (fuente mng).",
+     "sourceIds": [
+      "mng"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Baga Gazryn Chuluu",
+     "overnight": "campamento ger (Baga Gazryn Chuluu)",
+     "stops": [
+      "Formacion granitica y cuevas de meditacion"
+     ],
+     "transfer": "4 x 4 ~300 km, 6-7 h orientativo (fuente mng).",
+     "sourceIds": [
+      "mng"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Regreso a Ulán Bator",
+     "overnight": "Ulán Bator",
+     "stops": [
+      "Ulan Bator (cena de despedida)"
+     ],
+     "transfer": "4 x 4 ~250 km, 5-6 h orientativo (fuente mng). Noche en la capital antes de la salida internacional.",
+     "sourceIds": [
+      "mng"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Salida desde Ulán Bator",
+     "overnight": null,
+     "stops": [
+      "Salida según vuelo"
+     ],
+     "transfer": "Alojamiento → aeropuerto. Día independiente del regreso por carretera.",
+     "sourceIds": [
+      "mng"
+     ]
+    }
+   ]
+  }
+ ],
+ "photo": {
+  "img": "assets/routes/mn.jpg",
+  "name": "Mongolia · dunas del Gobi",
+  "source": "https://commons.wikimedia.org/wiki/File:Gobi_Desert_dunes.jpg",
+  "originalSource": "https://www.flickr.com/photos/prof_richard/30663911168/",
+  "author": "Richard Mortel",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ }
+}

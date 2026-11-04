@@ -1,0 +1,104 @@
+{
+ "schemaVersion": 1,
+ "cityId": "estrasburgo",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "yvonne",
+   "name": "Chez Yvonne - S'Burjerstuewel",
+   "address": "10 Rue du Sanglier, 67000 Strasbourg, France",
+   "description": "Winstub cerca de la catedral para choucroute, jambonneau o cocina de tradición alsaciana. Sala animada y mesas próximas, no cena silenciosa garantizada.",
+   "strength": "Michelin describe cocina alsaciana y mejillas de cerdo confitadas, con ambiente codo con codo. Carta propia mantiene choucroute, quenelles de hígado y pescado, encaja para comida regional sentada sin asumir gusto por vísceras.",
+   "alert": "Confirmar día: contacto propio dice todos los días; otra página propia martes-sábado, domingo/lunes cerrado. Carta: principales aprox. 21-34 €, bebida/entrante/postre aparte.",
+   "caution": "Se conserva conflicto de apertura propio: /contact todos los días 11:45-14:15/18-22:30; /fr/Winstub-Alsacien-Strasbourg martes-sábado mismo servicio, domingo/lunes cerrado, turismo regional confirma estos cierres salvo domingo de mercado de Navidad. No reservar o ir domingo/lunes sin confirmación. Menú propio publica principales 20,50-34 €, impuestos/servicio incluidos; total comida con otros cursos/bebida mayor, no menú completo a 21 €. Cerdo, pescado, lácteos y vísceras presentes: consultar alergias/alternativas, no asumir vegetariano. Foto propia copyright no reutilizada; licencia libre compatible pendiente.",
+   "officialUrl": "https://www.restaurant-chez-yvonne.net/les-plats",
+   "editorialUrl": "https://guide.michelin.com/fr/fr/grand-est/strasbourg/restaurant/chez-yvonne-s-burjerstuewel",
+   "sourceUrls": [
+    "https://www.restaurant-chez-yvonne.net/contact",
+    "https://restaurant-chez-yvonne.net/fr/Winstub-Alsacien-Strasbourg"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chez+Yvonne&query_place_id=ChIJURcaSVLIlkcRhgnlv-H_OBM",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta e identidad verificadas, días de apertura discordantes y sin mesa confirmada.",
+   "priceLabel": "Principales 20,50-34 € según carta propia; otros cursos/bebida aparte, no total por persona.",
+   "photo": {
+    "img": "assets/estrasburgo/yvonne-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes alsacianos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes alsacianos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "batorama",
+   "name": "Batorama: circuito rojo",
+   "address": "Pl. du Marché aux Poissons, 67000 Strasbourg, France",
+   "description": "Paseo por el Ill entre Grande Île, Neustadt y edificios europeos, con audioguía. No comida a bordo ni entrada al Parlamento incluidas.",
+   "duration": "1 h 10 publicada, 8 km de navegación; duración real puede cambiar por esclusas/agua. Sustituye bloque de paseo, no se suma a todos los museos.",
+   "alert": "16,20 € tarifa plena publicada. Elegir salida/quai exactos, llegar 15 min antes. Billete fechado no cambiable/reembolsable salvo excepciones del operador.",
+   "caution": "Operador indica embarque Cathédrale O Quai au Sable: billete manda, no siempre este punto Maps. Audioguías 12 idiomas, incluido español según lista, comprobar disponibilidad. Condiciones versión 13.12/2024 enlazadas: fecha/hora fijas, no cambio/reembolso salvo cancelación/incidencia cubierta;tipo barco no contractual y clima/agua pueden alterar ruta. No prometer barco abierto, cerrado, sin cola o circuito completo si operación cambia. Acceso silla requiere reservar salida accesible marcada en billetterie, Gustave Doré 3 sillas/quai B, adoquines/rampa dificultan llegada. No todos barcos son accesibles. Sin billete comprado, revalidar condiciones finales al seleccionar fecha.",
+   "officialUrl": "https://www.batorama.com/fr/circuits/circuit-rouge",
+   "sourceUrls": [
+    "https://www.batorama.com/fr/informations/accessibilite",
+    "https://shop.batorama.com/externalData/protee/cgv_batorama_fr.pdf"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Embarcad%C3%A8re+Batorama+Cath%C3%A9drale&query_place_id=ChIJFZsbZ1PIlkcR8fF0WC9T5RM",
+   "priceLabel": "16,20 € adulto publicado; confirmar fecha/circuito final y condiciones antes de comprar.",
+   "photo": {
+    "img": "assets/estrasburgo/batorama-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Paseo fluvial imaginado, no barco, ruta ni producto real de Batorama. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Paseo fluvial imaginado, no barco, ruta ni producto real de Batorama. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Circuito y accesibilidad en operador; sin salida reservada.",
+   "compactDuration": "1 h 10",
+   "compactAlert": "16,20 €. Quai del billete, llegar 15 min antes. Sin cambios/reembolso salvo excepciones.",
+   "realPhotoPending": true
+  },
+  {
+   "id": "plataforma",
+   "name": "Plataforma de la catedral",
+   "address": "Place du Château, Strasbourg",
+   "description": "Subida a la plataforma y casa del guardián para mirar los tejados. Es producto separado del interior gratuito y del reloj.",
+   "duration": "45-75 min de estimación editorial con 330 escalones; sustituye parte del bloque catedral.",
+   "alert": "330 escalones, 66 m, sin ascensor. 10 € adulto publicado; 25 diciembre/1 enero/1 mayo cerrado y mal tiempo puede suspender.",
+   "caution": "Turismo oficial: octubre-marzo 10-13/13:30-18, abril-septiembre 9:30-13/13:30-20. Última subida 45 min antes del cierre vespertino. Sin reserva previa según ficha; cola/capacidad variable, nada comprado. Menores de 6 gratis, reducciones sujetas elegibilidad, no adulto gratis por ser catedral. La rampa de acceso al templo no alcanza plataforma. Si forma física/escaleras no encajan, elegir exterior o mirador distinto. Foto de fachada, no panorama desde la plataforma ni prueba del tiempo actual.",
+   "officialUrl": "https://www.visitstrasbourg.fr/en/fiche-sit/F223007614_climbing-up-to-the-cathedral-s-platform-strasbourg/",
+   "sourceUrls": [
+    "https://www.cathedrale-strasbourg.fr/horaires_acces"
+   ],
+   "priceLabel": "10 € adulto publicado, reducciones con condiciones. Sin compra/reserva.",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Strasbourg_Cathedral_Exterior_-_Diliff.jpg",
+    "author": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "img": "assets/estrasburgo/catedral.jpg",
+    "alt": "Catedral de Estrasburgo"
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Condiciones/dificultad en turismo oficial, no acceso por fecha confirmado.",
+   "compactDuration": "45-75 min orientativos",
+   "compactAlert": "10 €, 330 escalones, SIN ascensor. Puede cerrar por mal tiempo.",
+   "photoPending": false
+  }
+ ]
+}

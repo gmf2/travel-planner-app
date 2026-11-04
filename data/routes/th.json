@@ -1,0 +1,261 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "TH",
+ "country": "Tailandia",
+ "reviewedAt": "2026-11-02",
+ "status": "preview",
+ "coverageScope": "Bangkok/Ayutthaya, Chiang Mai y una isla del golfo, Koh Phangan. No cubre Koh Tao, Andamán, Isan ni fronteras terrestres.",
+ "verificationLimits": [
+  "13 días /12 noches editoriales, con noches de enlace separadas: no equivale a un paquete con conexiones protegidas.",
+  "Comprobar horarios de vuelos/ferries, monzón y puertos para fechas reales. No hay plazas futuras comprobadas.",
+  "MAEC revisado: evitar frontera con Camboya y zonas desaconsejadas del extremo sur, fuera de esta ruta. Documentación según pasaporte, no se infiere nacionalidad del usuario."
+ ],
+ "routes": [
+  {
+   "id": "th-13",
+   "title": "Bangkok, Chiang Mai y Koh Phangan · 13 días",
+   "scope": "Bangkok/Ayutthaya, Chiang Mai y una isla del golfo, Koh Phangan. No cubre Koh Tao, Andamán, Isan ni fronteras terrestres.",
+   "pace": "13 días / 12 noches. Bangkok 3, Chiang Mai 3, Bangkok 1, Surat Thani 1, Koh Phangan 2, Surat Thani 1, Bangkok 1. Traslados separados de visitas largas.",
+   "assumptions": "Adaptación editorial de Rough Guides: se reduce a una isla y se sustituyen saltos aéreos no contrastados por regreso vía Bangkok. No se usa su numeración duplicada de día 7 ni su salida isla-vuelo internacional el mismo día. Se añaden noches en Surat Thani y Bangkok para separar vuelos/ferries. Seleccionar vuelos, puertos y plazas según fecha antes de reservar alojamiento; no conexión garantizada.",
+   "sources": [
+    {
+     "id": "rg",
+     "title": "Rough Guides - 10 dias en Tailandia",
+     "url": "https://www.roughguides.com/thailand/itineraries/10-days-in-thailand-itinerary/"
+    },
+    {
+     "id": "tat",
+     "title": "TAT - consejos para 2 semanas (Cision)",
+     "url": "https://news.cision.com/tourism-authority-of-thailand/r/expert-tips-for-2-weeks-guide-in-thailand,c3914193"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Tailandia",
+     "url": "https://www.exteriores.gob.es/Embajadas/bangkok/es/ViajarA/Paginas/Recomendaciones-de-viaje.aspx"
+    },
+    {
+     "id": "cnx",
+     "title": "Thai Airways · Chiang Mai-Bangkok",
+     "url": "https://www.thaiairways.com/flights/en-th/flights-from-chiang-mai-to-bangkok"
+    },
+    {
+     "id": "urt",
+     "title": "Nok Air · Bangkok-Surat Thani",
+     "url": "https://nokair.com/flights/en/flights-from-bangkok-to-surat-thani"
+    },
+    {
+     "id": "urt-return",
+     "title": "Nok Air · Surat Thani-Bangkok",
+     "url": "https://nokair.com/flights/th/flights-from-surat-thani-to-bangkok"
+    },
+    {
+     "id": "ferry",
+     "title": "Lomprayah · red y conexiones",
+     "url": "https://lomprayah.com/"
+    },
+    {
+     "id": "time",
+     "title": "Lomprayah · horarios 2026",
+     "url": "https://lomprayah.com/schedule"
+    },
+    {
+     "id": "tat-cm",
+     "title": "TAT · Chiang Mai",
+     "url": "https://www.tourismthailand.org/Destinations/Provinces/Chiang-Mai/101"
+    },
+    {
+     "id": "cnx-out",
+     "title": "Thai Airways · Bangkok-Chiang Mai",
+     "url": "https://www.thaiairways.com/flights/en-th/flights-from-bangkok-to-chiang-mai"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Bangkok",
+     "overnight": "Bangkok",
+     "stops": [
+      "Llegada y descanso",
+      "Paseo breve por el entorno del alojamiento si queda margen"
+     ],
+     "transfer": "Aeropuerto a la base con transporte elegido según terminal y hora. No actividad obligatoria de llegada.",
+     "sourceIds": [
+      "rg"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Bangkok histórico",
+     "overnight": "Bangkok",
+     "stops": [
+      "Gran Palacio si eliges entrada",
+      "Wat Pho o paseo por el río, no todos los templos obligatorios"
+     ],
+     "transfer": "Desplazamientos urbanos según base. Elegir como máximo dos visitas largas y comprobar sus accesos para tu fecha. No se programa moto ni conductor contratado.",
+     "sourceIds": [
+      "rg"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Ayutthaya, excursión de día",
+     "overnight": "Bangkok",
+     "stops": [
+      "Sector histórico y Wat Mahathat según visita elegida"
+     ],
+     "transfer": "Excursión con regreso a Bangkok según guía. Elegir transporte/operador y vuelta antes de salir; no se fija estación ni duración de tren no contrastada.",
+     "sourceIds": [
+      "rg"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Bangkok a Chiang Mai",
+     "overnight": "Chiang Mai",
+     "stops": [
+      "Llegada a la base norte",
+      "Paseo corto por el casco si queda margen"
+     ],
+     "transfer": "Elegir vuelo Bangkok-Chiang Mai. Thai Airways comercializa el corredor; confirmar dirección, aeropuerto y horario concreto. No se promete tren nocturno con cama ni se combina traslado largo y excursión.",
+     "sourceIds": [
+      "rg",
+      "cnx-out"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Chiang Mai histórico",
+     "overnight": "Chiang Mai",
+     "stops": [
+      "Casco antiguo",
+      "Wat Chedi Luang y Wat Phra Singh si permiten visita"
+     ],
+     "transfer": "Día en la misma base, desplazamientos urbanos. Acceso al culto y horarios propios, no entradas incluidas.",
+     "sourceIds": [
+      "rg",
+      "tat-cm"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Doi Suthep y Chiang Mai",
+     "overnight": "Chiang Mai",
+     "stops": [
+      "Doi Suthep si el tiempo y acceso permiten",
+      "Tarde libre en Chiang Mai"
+     ],
+     "transfer": "Excursión local con transporte de ida/vuelta elegido. No conducir moto por defecto, no excursión a aldeas para observar familias sin consentimiento. Sustituye Pa Pong Piang para no prometer pista/temporada de arroz no contrastada.",
+     "sourceIds": [
+      "tat-cm",
+      "rg"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Regreso a Bangkok",
+     "overnight": "Bangkok",
+     "stops": [
+      "Vuelo desde Chiang Mai",
+      "Descanso de conexión terrestre/aérea"
+     ],
+     "transfer": "Corredor CNX-BKK comercializado por Thai Airways. Pasar noche en Bangkok separa del siguiente vuelo; BKK y DMK son aeropuertos distintos, prever traslado si cambias.",
+     "sourceIds": [
+      "cnx"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Bangkok a Surat Thani",
+     "overnight": "Surat Thani",
+     "stops": [
+      "Traslado a la base continental"
+     ],
+     "transfer": "Nok Air comercializa Bangkok(DMK)-Surat Thani(URT). Elegir vuelo y transporte terrestre al alojamiento. No ferry obligado al llegar, noche continental.",
+     "sourceIds": [
+      "urt"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Surat Thani a Koh Phangan",
+     "overnight": "Koh Phangan",
+     "stops": [
+      "Llegada a Koh Phangan",
+      "Descanso en la base insular"
+     ],
+     "transfer": "Lomprayah publica red continental/Phangan y horarios 2026. Elegir billete combinado bus/van+barco y muelle exacto antes de cerrar alojamiento; no se fija un puerto ni hora sin selección real. Sin duración garantizada y sujeto al mar.",
+     "sourceIds": [
+      "ferry",
+      "time"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "Koh Phangan",
+     "overnight": "Koh Phangan",
+     "stops": [
+      "Costa y descanso según mar",
+      "Paseo local sin salida a Koh Tao obligatoria"
+     ],
+     "transfer": "Día en la misma base. No alquiler de moto por defecto, fiesta ni actividad acuática contratada. Elegir playa segura según banderas, mar y acceso.",
+     "sourceIds": [
+      "rg",
+      "maec"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "Vuelta al continente",
+     "overnight": "Surat Thani",
+     "stops": [
+      "Barco y traslado terrestre a Surat Thani"
+     ],
+     "transfer": "Seleccionar Phangan→continente con Lomprayah y traslado al alojamiento. Confirmar muelle, servicio y mar. Noche en Surat Thani evita depender de barco+vuelo el mismo día.",
+     "sourceIds": [
+      "ferry",
+      "time"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Surat Thani a Bangkok",
+     "overnight": "Bangkok",
+     "stops": [
+      "Vuelo al área de Bangkok",
+      "Noche de margen antes de salida internacional"
+     ],
+     "transfer": "Nok Air comercializa URT-DMK; seleccionar vuelo de tu fecha. Traslado al aeropuerto/alojamiento de salida: DMK no es BKK. No enlace internacional inmediato.",
+     "sourceIds": [
+      "urt-return"
+     ]
+    },
+    {
+     "day": 13,
+     "title": "Salida desde Bangkok",
+     "overnight": null,
+     "stops": [
+      "Salida internacional o continuación"
+     ],
+     "transfer": "Salida desde el aeropuerto de tu billete. Margen según terminal y check-in; no vuelo, alojamiento ni transporte comprado.",
+     "sourceIds": [
+      "rg"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "MAEC recomienda evitar zonas fronterizas con Camboya y advierte de seguridad vial, mar y monzón. Requisitos de entrada según nacionalidad; revisar enlace oficial antes de viajar. La ruta no atraviesa fronteras terrestres.",
+  "url": "https://www.exteriores.gob.es/Embajadas/bangkok/es/ViajarA/Paginas/Recomendaciones-de-viaje.aspx"
+ },
+ "photo": {
+  "img": "assets/routes/th.jpg",
+  "name": "Wat Arun junto al río Chao Phraya",
+  "source": "https://commons.wikimedia.org/wiki/File:Bangkok_along_the_Chao_Phraya_and_Wat_Arun_(15068304635).jpg",
+  "originalSource": "https://www.flickr.com/photos/26781577@N07/15068304635",
+  "author": "Clay Gilliland",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "caption": "Foto de archivo de Wat Arun, Bangkok. Representa una etapa, no todo Tailandia ni condiciones actuales."
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "TW",
+ "country": "Taiwán",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Norte y centro: Taipéi, Jiufen, Taichung y Sun Moon Lake. No cubre el este, Taroko, Alishan ni el sur de la isla.",
+ "verificationLimits": [
+  "Adaptación editorial de una semana a 8 días / 7 noches para añadir llegada y regreso previo al vuelo. No es reserva ni propuesta con fechas concretas.",
+  "Taroko no se incluye: el parque mantiene Shakadang cerrado, entre otros daños y aperturas parciales. No se presenta el itinerario previo de toda la garganta como operativo.",
+  "Horarios y tarifas para fechas del viaje pendientes de seleccionar; no se copian precios de blogs."
+ ],
+ "routes": [
+  {
+   "id": "tw-norte-centro-8",
+   "title": "Taipéi, Jiufen y Sun Moon Lake · 8 días",
+   "scope": "Norte y centro: Taipéi, Jiufen, Taichung y Sun Moon Lake. No cubre el este, Taroko, Alishan ni el sur de la isla.",
+   "pace": "8 días / 7 noches: Taipéi 3, Taichung 1, Shuishe 2 y Taipéi 1. Transporte público por corredores verificados, con tiempo para conexiones.",
+   "assumptions": "Adaptación de Taiwanderers: se omite Kaohsiung y se añade noche final en Taipéi. Sin coche, hoteles ni billetes contratados. Las excursiones y actividades son opciones, no compras. Requisitos de entrada según pasaporte, no inferir nacionalidad.",
+   "sources": [
+    {
+     "id": "ref",
+     "title": "Taiwanderers · ruta de una semana, base editorial",
+     "url": "https://taiwanderers.com/taiwan-7-day-itinerary-taipei-taichung-sun-moon-lake-kaohsiung/"
+    },
+    {
+     "id": "lake",
+     "title": "Sun Moon Lake · oficina oficial, tramos de ribera y avisos",
+     "url": "https://www.sunmoonlake.gov.tw/EN"
+    },
+    {
+     "id": "bus",
+     "title": "Nantou Bus · corredor 6670 y avisos actuales",
+     "url": "http://www.ntbus.com.tw/tour-sml.html"
+    },
+    {
+     "id": "airport",
+     "title": "Aeropuerto de Taoyuan · Airport MRT",
+     "url": "https://www.taoyuan-airport.com/airport_mrt?lang=en"
+    },
+    {
+     "id": "jiufen",
+     "title": "New Taipei · corredor turístico 965",
+     "url": "https://newtaipei.travel/en/news/detail/2677"
+    },
+    {
+     "id": "taroko",
+     "title": "Parque nacional Taroko · senderos y cierres",
+     "url": "https://www.taroko.gov.tw/en/sglarticle/day-hikes-in-taroko"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Taiwán",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Taiw%C3%A1n"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Taipéi",
+     "overnight": "Taipéi",
+     "stops": [
+      "Llegada y paseo suave por el alojamiento",
+      "Ximending solo si queda margen"
+     ],
+     "transfer": "Desde Taoyuan, Airport MRT hacia Taipei Main; distinguir expreso y tren de cercanías y consultar servicio según terminal. Sumar espera, equipaje y acceso al hotel. No se aplica a Songshan.",
+     "sourceIds": [
+      "airport",
+      "ref"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Taipéi clásico",
+     "overnight": "Taipéi",
+     "stops": [
+      "Entorno del monumento Chiang Kai-shek",
+      "Longshan como visita principal",
+      "Mercado nocturno a elegir por barrio"
+     ],
+     "transfer": "MRT y tramos urbanos a pie. Selección editorial de la base Taipéi de la fuente; interiores y mercado según calendario propio, sin cruzar toda la ciudad para varias cenas.",
+     "sourceIds": [
+      "ref"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Jiufen desde la misma base",
+     "overnight": "Taipéi",
+     "stops": [
+      "Calle antigua de Jiufen",
+      "Casa de té como opción, sin reserva incluida"
+     ],
+     "transfer": "Ida y vuelta en 965, con paradas de conexión en Ximen/Beimen/Banqiao y Ruifang según New Taipei. Confirmar parada y último regreso para fecha; no prometer 60 min con tráfico. Sin añadir Shifen y varias caminatas al mismo día.",
+     "sourceIds": [
+      "jiufen",
+      "ref"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Taipéi a Taichung",
+     "overnight": "Taichung",
+     "stops": [
+      "Traslado y alojamiento",
+      "Paseo urbano y Miyahara",
+      "Feng Chia como opción de tarde-noche"
+     ],
+     "transfer": "THSR Taipei-Taichung: la referencia estima unos 45 min según tren. HSR Taichung está fuera del centro, no confundir con TRA Taichung; sumar transporte local y equipaje. Elegir servicio antes de fijar visitas.",
+     "sourceIds": [
+      "ref"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Taichung a Sun Moon Lake",
+     "overnight": "Shuishe, Sun Moon Lake",
+     "stops": [
+      "Llegada a Shuishe",
+      "Paseo corto de ribera junto a Shuishe"
+     ],
+     "transfer": "Corredor Nantou Bus 6670 desde Taichung/HSR Taichung hasta Sun Moon Lake. Hay variantes directas y por Puli; elegir salida concreta, no intercambiar duraciones. Operador avisa retrasos y posibles llenos. Desde 5 noviembre de 2026, salida urbana Gancheng cambia al Taichung Transfer Center; HSR sigue siendo parada distinta. Sin traslado nocturno añadido.",
+     "sourceIds": [
+      "bus",
+      "lake",
+      "ref"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Riberas de Sun Moon Lake",
+     "overnight": "Shuishe, Sun Moon Lake",
+     "stops": [
+      "Tramo Shuishe-Xiangshan a pie o bici opcional",
+      "Wenwu como alternativa de tarde con transporte local"
+     ],
+     "transfer": "Día en la misma base. Tramos de ribera publicados por oficina oficial, no promesa de vuelta completa al lago. No programar ascenso a Shuishe Mountain, cuyo sendero figura cerrado por daños. Barco o bici solo si se elige y condiciones permiten; no incluidos ni acceso universal garantizado.",
+     "sourceIds": [
+      "lake",
+      "ref"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Sun Moon Lake a Taipéi",
+     "overnight": "Taipéi",
+     "stops": [
+      "Regreso por Taichung",
+      "Tarde libre en Taipéi si queda margen"
+     ],
+     "transfer": "Bus 6670 hacia HSR Taichung + THSR a Taipéi; elegir ambas salidas y margen de conexión. Operador no garantiza llegada puntual al tren. Se añade esta noche en Taipéi para no unir lago, bus, tren y vuelo internacional en la misma jornada.",
+     "sourceIds": [
+      "bus",
+      "ref"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Salida desde Taipéi",
+     "overnight": null,
+     "stops": [
+      "Traslado al aeropuerto según vuelo"
+     ],
+     "transfer": "Airport MRT o transporte apropiado al horario y aeropuerto real. Calcular antelación de aerolínea, trayecto al MRT y espera; no tomar los 35/39 min de tren como tiempo total hotel-embarque. Noche anterior en Taipéi.",
+     "sourceIds": [
+      "airport"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores pide considerar la situación regional de seguridad. Terremotos y tifones pueden cortar transportes; durante alertas evitar costa y montaña y seguir instrucciones locales. Revalidar cada tramo antes de viajar y contar con seguro. No se promete acceso a senderos cerrados ni el lago sin restricciones por mal tiempo.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Taiw%C3%A1n"
+ },
+ "photo": {
+  "img": "assets/routes/tw.jpg",
+  "name": "Sun Moon Lake",
+  "source": "https://commons.wikimedia.org/wiki/File:Sun_Moon_Lake.jpg",
+  "author": "Justin Hwang",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "caption": "Foto de archivo de 2006 del lago. No confirma servicios actuales ni condiciones meteorológicas; no representa toda la isla."
+ }
+}

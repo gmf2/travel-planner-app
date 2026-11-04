@@ -1,0 +1,702 @@
+{
+ "schemaVersion": 1,
+ "country": "IS",
+ "id": "reykjavik",
+ "name": "Reikiavik",
+ "localName": "Reykjavík",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "hallgrimskirkja",
+   "name": "Iglesia Hallgrímskirkja",
+   "kind": "visit",
+   "zone": "Centro",
+   "reason": "El icono de la ciudad: torre de 74,5 m con el mejor mirador de Reikiavik sobre los tejados de colores.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "hk"
+   ],
+   "coordinates": {
+    "lat": 64.14194,
+    "lon": -21.92694
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Hallgr%C3%ADmskirkja",
+   "coordinateMethod": "wikipedia-api/osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "En invierno abre 10:00-17:00 y la torre cierra su última entrada a las 16:45 (hallgrimskirkja.is); puede cerrar por servicios religiosos o conciertos.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior y acceso interior según operador",
+   "photo": {
+    "img": "assets/reykjavik/hallgrimskirkja.jpg",
+    "alt": "Hallgrímskirkja.jpeg",
+    "author": "Andreas Tille",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hallgr%C3%ADmskirkja.jpeg",
+    "caption": "Foto de archivo de Iglesia Hallgrímskirkja. Recorte de presentación; no confirma condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "laugavegur",
+   "name": "Laugavegur y Skólavörðustígur",
+   "kind": "walk",
+   "zone": "Centro",
+   "reason": "La arteria comercial y de ambiente, con el tramo arcoíris de Skólavörðustígur subiendo hacia la iglesia.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 64.14531,
+    "lon": -21.9272
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Laugavegur",
+   "coordinateMethod": "wikipedia-api/osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Calle peatonal en el tramo central en temporada; grafiti y tiendas abren con horario comercial islandés.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior, sujeto a condiciones",
+   "photo": {
+    "img": "assets/reykjavik/laugavegur.jpg",
+    "alt": "Rainbow on Skólavörðustígur.jpg",
+    "author": "APK",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rainbow_on_Sk%C3%B3lav%C3%B6r%C3%B0ust%C3%ADgur.jpg",
+    "caption": "Foto de archivo de Laugavegur y Skólavörðustígur. Recorte de presentación; no confirma condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "austurvollur",
+   "name": "Plaza Austurvöllur",
+   "kind": "walk",
+   "zone": "Centro",
+   "reason": "La plaza del Parlamento (Alþingi), corazón cívico de la ciudad con cafés y estatua de Jón Sigurðsson.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 64.1472,
+    "lon": -21.9398
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Austurv%C3%B6llur",
+   "coordinateMethod": "wikipedia-api/osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Plaza pública abierta; los cafés del entorno abren con horario propio.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior, sujeto a condiciones",
+   "photo": {
+    "img": "assets/reykjavik/austurvollur.jpg",
+    "alt": "Austurvöllur 2023.jpg",
+    "author": "APK",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Austurv%C3%B6llur_2023.jpg",
+    "caption": "Foto de archivo de Plaza Austurvöllur. Recorte de presentación; no confirma condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "tjornin",
+   "name": "Lago Tjörnin",
+   "kind": "walk",
+   "zone": "Centro",
+   "reason": "El lago urbano de los cisnes y patos junto a la Fríkirkja; reflejos y casas de colores.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 64.14453,
+    "lon": -21.94263
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Tj%C3%B6rnin",
+   "coordinateMethod": "wikipedia-api/osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Paseo por las orillas. No caminar sobre hielo: el aspecto de la superficie no confirma su seguridad.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior, sujeto a condiciones",
+   "photo": {
+    "img": "assets/reykjavik/tjornin.jpg",
+    "alt": "Tjörnin, Reykjavik.jpg",
+    "author": "Helgi Hall from Reykjavík, Iceland",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tj%C3%B6rnin,_Reykjavik.jpg",
+    "caption": "Foto de archivo de Lago Tjörnin. Recorte de presentación; no confirma condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ayuntamiento",
+   "name": "Ayuntamiento de Reikiavik",
+   "kind": "visit",
+   "zone": "Centro",
+   "reason": "Edificio moderno sobre el lago con un gran mapa en relieve de Islandia en su vestíbulo.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 64.14607,
+    "lon": -21.94251
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=R%C3%A1%C3%B0h%C3%BAs%20Reykjav%C3%ADkur",
+   "coordinateMethod": "wikipedia-api/osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "No se promete acceso al vestíbulo sin confirmar horario municipal.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Entorno exterior del ayuntamiento",
+   "photo": {
+    "img": "assets/reykjavik/ayuntamiento.jpg",
+    "alt": "The pond.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:The_pond.jpg",
+    "caption": "Foto de archivo del entorno de Tjörnin frente al ayuntamiento; no del interior ni de su acceso."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "landakot",
+   "name": "Catedral de Landakot",
+   "kind": "visit",
+   "zone": "Vesturbær",
+   "reason": "La catedral católica neogótica, templo principal de la pequeña comunidad católica islandesa.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 64.1474,
+    "lon": -21.94855
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Landakotskirkja",
+   "coordinateMethod": "wikipedia-api/osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "Exterior. Interior solo si permite el culto y el horario de la comunidad.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior y acceso interior según operador",
+   "photo": {
+    "img": "assets/reykjavik/landakot.jpg",
+    "alt": "Landakotskirkja - Turm.JPG",
+    "author": "F.Higer",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Landakotskirkja_-_Turm.JPG",
+    "caption": "Foto de archivo de Catedral de Landakot. Recorte de presentación; no confirma condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "harpa",
+   "name": "Sala de conciertos Harpa",
+   "kind": "visit",
+   "zone": "Puerto",
+   "reason": "La fachada de cristal de Olafur Eliasson a orillas del puerto; sede de la Orquesta Sinfónica de Islandia.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 64.15028,
+    "lon": -21.9325
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Harpa_(concert_hall)",
+   "coordinateMethod": "wikipedia-api/osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Vestíbulo abierto al público; conciertos y visitas guiadas de pago según harpa.is.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior y acceso interior según operador",
+   "photo": {
+    "img": "assets/reykjavik/harpa.jpg",
+    "alt": "Harpa From Arnarhóll (33650129491).jpg",
+    "author": "Gary J. Wood from Toronto, ON, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Harpa_From_Arnarh%C3%B3ll_(33650129491).jpg",
+    "caption": "Foto de archivo de Sala de conciertos Harpa. Recorte de presentación; no confirma condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sunvoyager",
+   "name": "Sun Voyager (Sólfar)",
+   "kind": "walk",
+   "zone": "Paseo marítimo",
+   "reason": "La escultura-barco de Jón Gunnar Árnason frente al mar y el monte Esja: la foto clásica al atardecer.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 64.1476,
+    "lon": -21.92231
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/The_Sun_Voyager",
+   "coordinateMethod": "wikipedia-api/osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Escultura exterior junto al mar. Viento, hielo o indicaciones de seguridad pueden impedir acercarse.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior, sujeto a condiciones",
+   "photo": {
+    "img": "assets/reykjavik/sunvoyager.jpg",
+    "alt": "1990 zum 200-jährigen Jubiläum von Reykjavik wurde die Skulptur Solfar (Sonnenfahrt) enthüllt. 03.jpg",
+    "author": "Holger Uwe Schmitt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1990_zum_200-j%C3%A4hrigen_Jubil%C3%A4um_von_Reykjavik_wurde_die_Skulptur_Solfar_(Sonnenfahrt)_enth%C3%BCllt._03.jpg",
+    "caption": "Foto de archivo de Sun Voyager (Sólfar). Recorte de presentación; no confirma condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "hofdi",
+   "name": "Casa Höfði",
+   "kind": "visit",
+   "zone": "Paseo marítimo",
+   "reason": "La casa donde Reagan y Gorbachov celebraron la cumbre de 1986 que cerró la Guerra Fría.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 64.14653,
+    "lon": -21.90637
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/H%C3%B6f%C3%B0i",
+   "coordinateMethod": "wikipedia-api/osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "Solo exterior: el edificio no está abierto al público.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Solo exterior, no entrada al edificio",
+   "photo": {
+    "img": "assets/reykjavik/hofdi.jpg",
+    "alt": "Hofdi House Reykjavik.jpg",
+    "author": "Laurentgauthier",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hofdi_House_Reykjavik.jpg",
+    "caption": "Foto de archivo de Casa Höfði. Recorte de presentación; no confirma condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "puertoviejo",
+   "name": "Puerto Viejo y Grandi",
+   "kind": "walk",
+   "zone": "Puerto",
+   "reason": "El puerto pesquero reconvertido en zona de restaurantes y punto de salida de los avistamientos de ballenas (Elding, Ægisgarður 5c).",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "el"
+   ],
+   "coordinates": {
+    "lat": 64.15701,
+    "lon": -21.94505
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Reykjav%C3%ADk%20harbour",
+   "coordinateMethod": "wikipedia-api/osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Los avistamientos de ballenas de Elding salen del muelle Ægisgarður 5c según elding.is (horarios vigentes hasta el 31 de marzo de 2027); en invierno el mar puede cancelar salidas.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior, sujeto a condiciones",
+   "photo": {
+    "img": "assets/reykjavik/puertoviejo.jpg",
+    "alt": "Old Harbour of Reykjavik (5897420133).jpg",
+    "author": "Helgi Halldórsson from Reykjavík, Iceland",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_Harbour_of_Reykjavik_(5897420133).jpg",
+    "caption": "Foto de archivo de Puerto Viejo y Grandi. Recorte de presentación; no confirma condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "museonacional",
+   "name": "Museo Nacional de Islandia",
+   "kind": "visit",
+   "zone": "Universidad",
+   "reason": "La historia completa del país, del asentamiento vikingo a la actualidad, con el barco del juramento islandés.",
+   "sourceIds": [
+    "museum-now"
+   ],
+   "coordinates": {
+    "lat": 64.14194,
+    "lon": -21.94806
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/National_Museum_of_Iceland",
+   "coordinateMethod": "wikipedia-api/osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Página actual muestra 10-17 y café temporalmente cerrado. No se usa un horario de agregador ni se garantiza apertura todos los lunes. Confirmar fecha antes de ordenar el día.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Museo de pago, comprobar calendario elegido",
+   "photo": {
+    "img": "assets/reykjavik/museonacional.jpg",
+    "alt": "Building of the National Museum in Reykjavík.jpg",
+    "author": "Szilas",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Building_of_the_National_Museum_in_Reykjav%C3%ADk.jpg",
+    "caption": "Foto de archivo de Museo Nacional de Islandia. Recorte de presentación; no confirma condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "perlan",
+   "name": "Perlan",
+   "kind": "visit",
+   "zone": "Öskjuhlíð",
+   "reason": "La cúpula de cristal sobre los depósitos de agua caliente: mirador panorámico y exposición de glaciares y auroras.",
+   "sourceIds": [
+    "per-visit"
+   ],
+   "coordinates": {
+    "lat": 64.12917,
+    "lon": -21.91917
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Perlan",
+   "coordinateMethod": "wikipedia-api/osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Operador publica exposiciones 09-21. El mirador no se vende por separado: va con entrada de exposición. Elegir entrada/fecha y acceso a la colina; no bus comprado ni caminata verificada.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exposiciones de pago; mirador incluido, no billete separado",
+   "photo": {
+    "img": "assets/reykjavik/perlan.jpg",
+    "alt": "Perlan Dome from Hallgrímskirkja 2019.jpg",
+    "author": "Steven Lek",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Perlan_Dome_from_Hallgr%C3%ADmskirkja_2019.jpg",
+    "caption": "Foto de archivo de Perlan. Recorte de presentación; no confirma condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "skylagoon",
+   "name": "Sky Lagoon",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 64.11649,
+    "lon": -21.94887
+   },
+   "zone": "Kópavogur (Kársnes)",
+   "suggestedMinutes": 180,
+   "reason": "El spa geotermal junto al océano con su piscina infinita: la alternativa cercana y más nueva a la Laguna Azul.",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "Elegir fecha, paquete y traslado antes de salir. Se usa como jornada propia tranquila, no se suma al día de museos.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "sk"
+   ],
+   "photo": {
+    "img": "assets/reykjavik/skylagoon.jpg",
+    "alt": "Sky Lagoon Exterior.jpg",
+    "author": "Laurenmcl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sky_Lagoon_Exterior.jpg",
+    "caption": "Foto de archivo de la entrada con rótulo de Sky Lagoon, no de la piscina interior."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lagunaazul",
+   "name": "Laguna Azul (Blue Lagoon)",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 63.88,
+    "lon": -22.44806
+   },
+   "zone": "Península de Reykjanes",
+   "suggestedMinutes": 300,
+   "reason": "La laguna geotermal lechosa más famosa del mundo, entre campos de lava de Reykjanes.",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "Zona sísmica y volcánica, apertura/acceso pueden cambiar. Consultar el estado oficial del recinto, meteorología, carreteras y autoridades el mismo día. La página comercial revisada ofrece reserva, pero no prueba acceso seguro para una fecha futura. Nada reservado.",
+   "sourceIds": [
+    "blue-risk",
+    "blue-visit"
+   ],
+   "photo": {
+    "img": "assets/reykjavik/lagunaazul.jpg",
+    "alt": "Blue-Lagoon-Iceland-January2012.jpg",
+    "author": "Acediscovery",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue-Lagoon-Iceland-January2012.jpg",
+    "caption": "Foto de archivo de la laguna en 2012; no refleja el estado actual de accesos y obras."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "circulodorado",
+   "name": "Círculo Dorado · circuito en transporte",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 64.25806,
+    "lon": -21.125
+   },
+   "zone": "Suðurland",
+   "suggestedMinutes": 480,
+   "reason": "Circuito de jornada completa desde Reikiavik, no una única atracción cercana. El pin solo representa Þingvellir, primer sector del circuito.",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "En invierno las paradas deben adaptarse a horas de luz y carreteras de esa fecha; parte del transporte será con oscuridad. No añadir museos/spa al regreso. Operador debe confirmar recorrido/acceso si hay alertas de hielo, viento o cierre. Sin disponibilidad ni reserva comprobada.",
+   "sourceIds": [
+    "gold-op"
+   ],
+   "photo": {
+    "img": "assets/reykjavik/circulodorado.jpg",
+    "alt": "Strokkur erupting 2005-05-31 (3).jpg",
+    "author": "Hansueli Krapf",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Strokkur_erupting_2005-05-31_(3).jpg",
+    "caption": "Foto de archivo de Strokkur en Geysir, una de las etapas del circuito; el pin del mapa representa Þingvellir."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Centro histórico, iglesia y lago",
+     "zone": "Hallgrímskirkja → Laugavegur → Austurvöllur → Tjörnin",
+     "stopIds": [
+      "hallgrimskirkja",
+      "laugavegur",
+      "austurvollur",
+      "tjornin",
+      "ayuntamiento",
+      "landakot"
+     ],
+     "editorialNote": "Hallgrímskirkja en su horario publicado, bajada por las calles del centro y orillas de Tjörnin. Ayuntamiento y Landakot se proponen por fuera; interiores solo con acceso confirmado. No afirmar ruta peatonal verificada ni caminar sobre hielo.",
+     "pacing": "Tiempo de visitas orientativo, no incluye una ruta a pie comprobada ni reservas. Ajustar a apertura, luz, viento y hielo."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Centro histórico, iglesia y lago",
+     "zone": "Hallgrímskirkja → Laugavegur → Austurvöllur → Tjörnin",
+     "stopIds": [
+      "hallgrimskirkja",
+      "laugavegur",
+      "austurvollur",
+      "tjornin",
+      "ayuntamiento",
+      "landakot"
+     ],
+     "editorialNote": "Hallgrímskirkja en su horario publicado, bajada por las calles del centro y orillas de Tjörnin. Ayuntamiento y Landakot se proponen por fuera; interiores solo con acceso confirmado. No afirmar ruta peatonal verificada ni caminar sobre hielo.",
+     "pacing": "Tiempo de visitas orientativo, no incluye una ruta a pie comprobada ni reservas. Ajustar a apertura, luz, viento y hielo."
+    },
+    {
+     "title": "Del Puerto Viejo a Höfði por la costa",
+     "zone": "Puerto Viejo → Harpa → Sólfar → Höfði",
+     "stopIds": [
+      "puertoviejo",
+      "harpa",
+      "sunvoyager",
+      "hofdi"
+     ],
+     "editorialNote": "Avance de oeste a este, sin volver desde Höfði al Puerto Viejo. Exteriores con luz y buen tiempo. Ballenas no incluidas: contratar salida aparte sustituye este bloque y depende del mar.",
+     "pacing": "Tiempo de visitas orientativo, no incluye una ruta a pie comprobada ni reservas. Ajustar a apertura, luz, viento y hielo."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Centro histórico, iglesia y lago",
+     "zone": "Hallgrímskirkja → Laugavegur → Austurvöllur → Tjörnin",
+     "stopIds": [
+      "hallgrimskirkja",
+      "laugavegur",
+      "austurvollur",
+      "tjornin",
+      "ayuntamiento",
+      "landakot"
+     ],
+     "editorialNote": "Hallgrímskirkja en su horario publicado, bajada por las calles del centro y orillas de Tjörnin. Ayuntamiento y Landakot se proponen por fuera; interiores solo con acceso confirmado. No afirmar ruta peatonal verificada ni caminar sobre hielo.",
+     "pacing": "Tiempo de visitas orientativo, no incluye una ruta a pie comprobada ni reservas. Ajustar a apertura, luz, viento y hielo."
+    },
+    {
+     "title": "Del Puerto Viejo a Höfði por la costa",
+     "zone": "Puerto Viejo → Harpa → Sólfar → Höfði",
+     "stopIds": [
+      "puertoviejo",
+      "harpa",
+      "sunvoyager",
+      "hofdi"
+     ],
+     "editorialNote": "Avance de oeste a este, sin volver desde Höfði al Puerto Viejo. Exteriores con luz y buen tiempo. Ballenas no incluidas: contratar salida aparte sustituye este bloque y depende del mar.",
+     "pacing": "Tiempo de visitas orientativo, no incluye una ruta a pie comprobada ni reservas. Ajustar a apertura, luz, viento y hielo."
+    },
+    {
+     "title": "Perlan con luz y Museo Nacional",
+     "zone": "Universidad → Öskjuhlíð",
+     "stopIds": [
+      "perlan",
+      "museonacional"
+     ],
+     "editorialNote": "Perlan primero para buscar vistas con luz; Museo Nacional después si su calendario abre y queda tiempo. Si se busca visita completa de ambas colecciones, reservar más tiempo y no añadir spa.",
+     "pacing": "Tiempo de visitas orientativo, no incluye una ruta a pie comprobada ni reservas. Ajustar a apertura, luz, viento y hielo."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "No hay entradas, mesa, tour ni transporte reservado.",
+  "Riesgo de viento/hielo y condiciones sísmicas: comprobar alertas y accesos el día de la visita.",
+  "Las fotos son de archivo, no estado actual de nieve, obras o accesos."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: Lugares que ver en Reikiavik",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-reikiavik/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia (es/en): Reikiavik y artículos de cada lugar",
+   "url": "https://es.wikipedia.org/wiki/Reikiavik",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ot",
+   "title": "Turismo oficial: Visit Reykjavík",
+   "url": "https://visitreykjavik.is/",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "hk",
+   "title": "Hallgrímskirkja: horarios oficiales",
+   "url": "https://hallgrimskirkja.is/en-gb/opnunartimar",
+   "type": "operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "el",
+   "title": "Elding Whale Watching: salidas desde Ægisgarður 5c",
+   "url": "https://elding.is/",
+   "type": "operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "pl",
+   "title": "Perlan: visita oficial",
+   "url": "https://perlan.is/",
+   "type": "operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "bl",
+   "title": "Blue Lagoon: estado oficial de apertura",
+   "url": "https://www.bluelagoon.com/",
+   "type": "operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "sk",
+   "title": "Sky Lagoon: horarios oficiales",
+   "url": "https://www.skylagoon.com/",
+   "type": "operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "per-visit",
+   "title": "Perlan · acceso, horario y mirador",
+   "url": "https://perlan.is/visit",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "museum-now",
+   "title": "Museo Nacional de Islandia · información actual",
+   "url": "https://www.thjodminjasafn.is/en",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "blue-risk",
+   "title": "Blue Lagoon · acceso y seguridad sísmica",
+   "url": "https://www.bluelagoon.com/seismic-activity",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "blue-visit",
+   "title": "Blue Lagoon · reserva de visita",
+   "url": "https://www.bluelagoon.com/plan-your-visit",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "gold-op",
+   "title": "Arctic Adventures · Golden Circle recorrido",
+   "url": "https://adventures.is/iceland/day-tours/golden-circle-tours/golden-circle-tour/",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

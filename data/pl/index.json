@@ -1,1413 +1,2604 @@
 {
-  "schemaVersion": 1,
-  "id": "PL",
-  "name": "Polonia",
-  "reviewedAt": "2026-10-28",
-  "scope": "Piloto editorial iniciado con cinco ciudades de Polonia; ampliado después a escapadas europeas elegidas por el usuario, con la misma revisión ciudad por ciudad.",
-  "selection": {
-    "basis": "Huéspedes hoteleros y similares, sin apartamentos, en seis ciudades comparadas (GUS 2025). Complementado con variedad patrimonial. No ranking nacional exhaustivo de visitantes.",
-    "sourceUrl": "https://wroclaw.travel/wp-content/uploads/2026/03/Prezentacja-Ruch-Turystyczny-we-Wroclawiu-2025-Rada-Turystyki.pdf",
-    "page": 17,
-    "counts": {
-      "warsaw": 5504719,
-      "krakow": 3251284,
-      "gdansk": 1678084,
-      "wroclaw": 1593932,
-      "poznan": 925063
-    },
-    "nationalTourismUrl": "https://www.poland.travel/en/cities/"
+ "schemaVersion": 1,
+ "id": "PL",
+ "name": "Polonia",
+ "reviewedAt": "2026-11-04",
+ "scope": "Piloto editorial iniciado con cinco ciudades de Polonia; ampliado después a escapadas europeas elegidas por el usuario, con la misma revisión ciudad por ciudad.",
+ "selection": {
+  "basis": "Huéspedes hoteleros y similares, sin apartamentos, en seis ciudades comparadas (GUS 2025). Complementado con variedad patrimonial. No ranking nacional exhaustivo de visitantes.",
+  "sourceUrl": "https://wroclaw.travel/wp-content/uploads/2026/03/Prezentacja-Ruch-Turystyczny-we-Wroclawiu-2025-Rada-Turystyki.pdf",
+  "page": 17,
+  "counts": {
+   "warsaw": 5504719,
+   "krakow": 3251284,
+   "gdansk": 1678084,
+   "wroclaw": 1593932,
+   "poznan": 925063
   },
-  "cities": [
-    {
-      "id": "pl-warsaw",
-      "name": "Varsovia",
-      "localName": "Warszawa",
-      "path": "data/pl/warsaw.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "latitude": 52.2478,
-      "longitude": 21.0142,
-      "country": "Polonia",
-      "curated": true,
-      "aliases": [
-        "Varsovia",
-        "Warszawa"
-      ],
-      "catalogId": "warsaw",
-      "countryCode": "PL",
-      "countryAliases": [
-        "polonia",
-        "poland",
-        "polska"
-      ],
-      "extrasPath": "data/pl/warsaw-extras.json"
-    },
-    {
-      "id": "pl-krakow",
-      "name": "Cracovia",
-      "localName": "Kraków",
-      "path": "data/pl/krakow.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "latitude": 50.06166,
-      "longitude": 19.93722,
-      "country": "Polonia",
-      "curated": true,
-      "aliases": [
-        "Cracovia",
-        "Kraków"
-      ],
-      "catalogId": "krakow",
-      "countryCode": "PL",
-      "countryAliases": [
-        "polonia",
-        "poland",
-        "polska"
-      ],
-      "extrasPath": "data/pl/krakow-extras.json"
-    },
-    {
-      "id": "pl-gdansk",
-      "name": "Gdańsk",
-      "localName": "Gdańsk",
-      "path": "data/pl/gdansk.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "latitude": 54.34855,
-      "longitude": 18.65323,
-      "country": "Polonia",
-      "curated": true,
-      "aliases": [
-        "Gdańsk",
-        "Gdansk"
-      ],
-      "catalogId": "gdansk",
-      "countryCode": "PL",
-      "countryAliases": [
-        "polonia",
-        "poland",
-        "polska"
-      ],
-      "extrasPath": "data/pl/gdansk-extras.json"
-    },
-    {
-      "id": "pl-wroclaw",
-      "name": "Wrocław",
-      "localName": "Wrocław",
-      "path": "data/pl/wroclaw.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "latitude": 51.11,
-      "longitude": 17.03194,
-      "country": "Polonia",
-      "curated": true,
-      "aliases": [
-        "Wrocław",
-        "Wroclaw",
-        "Breslavia"
-      ],
-      "catalogId": "wroclaw",
-      "countryCode": "PL",
-      "countryAliases": [
-        "polonia",
-        "poland",
-        "polska"
-      ],
-      "extrasPath": "data/pl/wroclaw-extras.json"
-    },
-    {
-      "id": "pl-poznan",
-      "name": "Poznań",
-      "localName": "Poznań",
-      "path": "data/pl/poznan.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "latitude": 52.4083,
-      "longitude": 16.9336,
-      "country": "Polonia",
-      "curated": true,
-      "aliases": [
-        "Poznań",
-        "Poznań"
-      ],
-      "catalogId": "poznan",
-      "countryCode": "PL",
-      "countryAliases": [
-        "polonia",
-        "poland",
-        "polska"
-      ],
-      "extrasPath": "data/pl/poznan-extras.json"
-    },
-    {
-      "id": "fr-paris",
-      "name": "París",
-      "localName": "Paris",
-      "latitude": 48.8566,
-      "longitude": 2.3522,
-      "country": "Francia",
-      "countryCode": "FR",
-      "countryAliases": [
-        "francia",
-        "france"
-      ],
-      "aliases": [
-        "París",
-        "Paris",
-        "Parigi"
-      ],
-      "path": "data/eu/paris.json",
-      "extrasPath": "data/eu/paris-extras.json",
-      "catalogId": "paris",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "gb-london",
-      "name": "Londres",
-      "localName": "London",
-      "latitude": 51.5074,
-      "longitude": -0.1278,
-      "country": "Reino Unido",
-      "countryCode": "GB",
-      "countryAliases": [
-        "reino unido",
-        "united kingdom",
-        "inglaterra",
-        "england",
-        "uk",
-        "gran bretaña"
-      ],
-      "aliases": [
-        "Londres",
-        "London",
-        "Londra"
-      ],
-      "path": "data/eu/london.json",
-      "extrasPath": "data/eu/london-extras.json",
-      "catalogId": "london",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "it-rome",
-      "name": "Roma",
-      "localName": "Roma",
-      "latitude": 41.9028,
-      "longitude": 12.4964,
-      "country": "Italia",
-      "countryCode": "IT",
-      "countryAliases": [
-        "italia",
-        "italy"
-      ],
-      "aliases": [
-        "Roma",
-        "Rome"
-      ],
-      "path": "data/eu/rome.json",
-      "extrasPath": "data/eu/rome-extras.json",
-      "catalogId": "rome",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "nl-amsterdam",
-      "name": "Ámsterdam",
-      "localName": "Amsterdam",
-      "latitude": 52.37,
-      "longitude": 4.89,
-      "country": "Países Bajos",
-      "countryCode": "NL",
-      "countryAliases": [
-        "países bajos",
-        "paises bajos",
-        "netherlands",
-        "holanda"
-      ],
-      "aliases": [
-        "Ámsterdam",
-        "Amsterdam"
-      ],
-      "path": "data/eu/amsterdam.json",
-      "extrasPath": "data/eu/amsterdam-extras.json",
-      "catalogId": "amsterdam",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "es-barcelona",
-      "name": "Barcelona",
-      "localName": "Barcelona",
-      "latitude": 41.39,
-      "longitude": 2.17,
-      "country": "España",
-      "countryCode": "ES",
-      "countryAliases": [
-        "españa",
-        "espana",
-        "spain"
-      ],
-      "aliases": [
-        "Barcelona"
-      ],
-      "path": "data/eu/barcelona.json",
-      "extrasPath": "data/eu/barcelona-extras.json",
-      "catalogId": "barcelona",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "pt-lisbon",
-      "catalogId": "lisbon",
-      "name": "Lisboa",
-      "country": "Portugal",
-      "countryCode": "PT",
-      "aliases": [
-        "lisboa",
-        "lisbon"
-      ],
-      "countryAliases": [
-        "portugal"
-      ],
-      "path": "data/eu/lisbon.json",
-      "extrasPath": "data/eu/lisbon-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true,
-      "localName": "Lisboa",
-      "latitude": 38.7223,
-      "longitude": -9.1393
-    },
-    {
-      "id": "pt-porto",
-      "catalogId": "porto",
-      "name": "Oporto",
-      "localName": "Porto",
-      "latitude": 41.1579,
-      "longitude": -8.6291,
-      "country": "Portugal",
-      "countryCode": "PT",
-      "aliases": [
-        "Oporto",
-        "Porto"
-      ],
-      "countryAliases": [
-        "Portugal"
-      ],
-      "path": "data/eu/porto.json",
-      "extrasPath": "data/eu/porto-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "de-berlin",
-      "catalogId": "berlin",
-      "name": "Berlín",
-      "localName": "Berlin",
-      "latitude": 52.52,
-      "longitude": 13.405,
-      "country": "Alemania",
-      "countryCode": "DE",
-      "aliases": [
-        "Berlín",
-        "Berlin"
-      ],
-      "countryAliases": [
-        "Alemania",
-        "Germany",
-        "Deutschland"
-      ],
-      "path": "data/eu/berlin.json",
-      "extrasPath": "data/eu/berlin-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "cz-prague",
-      "catalogId": "prague",
-      "name": "Praga",
-      "localName": "Praha",
-      "latitude": 50.087,
-      "longitude": 14.421,
-      "country": "Chequia",
-      "countryCode": "CZ",
-      "aliases": [
-        "Praga",
-        "Prague",
-        "Praha"
-      ],
-      "countryAliases": [
-        "Chequia",
-        "Czechia",
-        "Czech Republic",
-        "República Checa"
-      ],
-      "path": "data/eu/prague.json",
-      "extrasPath": "data/eu/prague-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "at-vienna",
-      "catalogId": "vienna",
-      "name": "Viena",
-      "localName": "Wien",
-      "latitude": 48.208,
-      "longitude": 16.373,
-      "country": "Austria",
-      "countryCode": "AT",
-      "aliases": [
-        "Viena",
-        "Vienna",
-        "Wien"
-      ],
-      "countryAliases": [
-        "Austria",
-        "Österreich"
-      ],
-      "path": "data/eu/vienna.json",
-      "extrasPath": "data/eu/vienna-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "hu-budapest",
-      "catalogId": "budapest",
-      "name": "Budapest",
-      "localName": "Budapest",
-      "latitude": 47.498,
-      "longitude": 19.04,
-      "country": "Hungría",
-      "countryCode": "HU",
-      "aliases": [
-        "Budapest"
-      ],
-      "countryAliases": [
-        "Hungría",
-        "Hungary",
-        "Magyarország"
-      ],
-      "path": "data/eu/budapest.json",
-      "extrasPath": "data/eu/budapest-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "de-munich",
-      "catalogId": "munich",
-      "name": "Múnich",
-      "localName": "München",
-      "latitude": 48.137,
-      "longitude": 11.575,
-      "country": "Alemania",
-      "countryCode": "DE",
-      "aliases": [
-        "Munich",
-        "München",
-        "Múnich"
-      ],
-      "countryAliases": [
-        "Alemania",
-        "Germany",
-        "Deutschland"
-      ],
-      "path": "data/eu/munich.json",
-      "extrasPath": "data/eu/munich-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "gr-athens",
-      "catalogId": "athens",
-      "name": "Atenas",
-      "localName": "Αθήνα",
-      "latitude": 37.975,
-      "longitude": 23.73,
-      "country": "Grecia",
-      "countryCode": "GR",
-      "aliases": [
-        "Athens",
-        "Atenas",
-        "Athina",
-        "Αθήνα"
-      ],
-      "countryAliases": [
-        "Grecia",
-        "Greece",
-        "Ελλάδα"
-      ],
-      "path": "data/eu/athens.json",
-      "extrasPath": "data/eu/athens-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "it-naples",
-      "catalogId": "naples",
-      "name": "Nápoles",
-      "localName": "Napoli",
-      "latitude": 40.85,
-      "longitude": 14.26,
-      "country": "Italia",
-      "countryCode": "IT",
-      "aliases": [
-        "Nápoles",
-        "Napoles",
-        "Naples",
-        "Napoli"
-      ],
-      "countryAliases": [
-        "Italia",
-        "Italy"
-      ],
-      "path": "data/eu/naples.json",
-      "extrasPath": "data/eu/naples-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "it-venice",
-      "catalogId": "venice",
-      "name": "Venecia",
-      "localName": "Venezia",
-      "latitude": 45.437,
-      "longitude": 12.335,
-      "country": "Italia",
-      "countryCode": "IT",
-      "aliases": [
-        "Venecia",
-        "Venezia",
-        "Venice"
-      ],
-      "countryAliases": [
-        "Italia",
-        "Italy"
-      ],
-      "path": "data/eu/venice.json",
-      "extrasPath": "data/eu/venice-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "it-florence",
-      "catalogId": "florence",
-      "name": "Florencia",
-      "localName": "Firenze",
-      "latitude": 43.773,
-      "longitude": 11.255,
-      "country": "Italia",
-      "countryCode": "IT",
-      "aliases": [
-        "Florencia",
-        "Firenze",
-        "Florence"
-      ],
-      "countryAliases": [
-        "Italia",
-        "Italy"
-      ],
-      "path": "data/eu/florence.json",
-      "extrasPath": "data/eu/florence-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "dk-copenhagen",
-      "catalogId": "copenhagen",
-      "name": "Copenhague",
-      "localName": "København",
-      "latitude": 55.6761,
-      "longitude": 12.5683,
-      "country": "Dinamarca",
-      "countryCode": "DK",
-      "aliases": [
-        "Copenhague",
-        "Copenhagen",
-        "København"
-      ],
-      "countryAliases": [
-        "Dinamarca",
-        "Denmark"
-      ],
-      "path": "data/eu/copenhagen.json",
-      "extrasPath": "data/eu/copenhagen-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "se-stockholm",
-      "catalogId": "stockholm",
-      "name": "Estocolmo",
-      "localName": "Stockholm",
-      "latitude": 59.3293,
-      "longitude": 18.0686,
-      "country": "Suecia",
-      "countryCode": "SE",
-      "aliases": [
-        "Estocolmo",
-        "Stockholm"
-      ],
-      "countryAliases": [
-        "Suecia",
-        "Sweden"
-      ],
-      "path": "data/eu/stockholm.json",
-      "extrasPath": "data/eu/stockholm-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "ie-dublin",
-      "catalogId": "dublin",
-      "name": "Dublín",
-      "localName": "Dublin",
-      "latitude": 53.3498,
-      "longitude": -6.2603,
-      "country": "Irlanda",
-      "countryCode": "IE",
-      "aliases": [
-        "Dublín",
-        "Dublin"
-      ],
-      "countryAliases": [
-        "Irlanda",
-        "Ireland"
-      ],
-      "path": "data/eu/dublin.json",
-      "extrasPath": "data/eu/dublin-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "ee-tallinn",
-      "catalogId": "tallinn",
-      "name": "Tallín",
-      "localName": "Tallinn",
-      "latitude": 59.437,
-      "longitude": 24.7536,
-      "country": "Estonia",
-      "countryCode": "EE",
-      "aliases": [
-        "Tallín",
-        "Tallin",
-        "Tallinn"
-      ],
-      "countryAliases": [
-        "Estonia"
-      ],
-      "path": "data/eu/tallinn.json",
-      "extrasPath": "data/eu/tallinn-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "it-milan",
-      "name": "Milán",
-      "localName": "Milano",
-      "country": "Italia",
-      "countryCode": "IT",
-      "catalogId": "milan",
-      "latitude": 45.4640976,
-      "longitude": 9.1919265,
-      "aliases": [
-        "Milán",
-        "Milan",
-        "Milano"
-      ],
-      "countryAliases": [
-        "Italia",
-        "Italy"
-      ],
-      "path": "data/eu/milan.json",
-      "extrasPath": "data/eu/milan-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "it-turin",
-      "catalogId": "turin",
-      "name": "Turín",
-      "localName": "Torino",
-      "latitude": 45.0703,
-      "longitude": 7.6869,
-      "country": "Italia",
-      "countryCode": "IT",
-      "aliases": [
-        "Turín",
-        "Turin",
-        "Torino"
-      ],
-      "countryAliases": [
-        "Italia",
-        "Italy"
-      ],
-      "path": "data/eu/turin.json",
-      "extrasPath": "data/eu/turin-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "it-verona",
-      "catalogId": "verona",
-      "name": "Verona",
-      "localName": "Verona",
-      "latitude": 45.4384,
-      "longitude": 10.9916,
-      "country": "Italia",
-      "countryCode": "IT",
-      "aliases": [
-        "Verona"
-      ],
-      "countryAliases": [
-        "Italia",
-        "Italy"
-      ],
-      "path": "data/eu/verona.json",
-      "extrasPath": "data/eu/verona-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "it-bologna",
-      "catalogId": "bologna",
-      "name": "Bolonia",
-      "localName": "Bologna",
-      "latitude": 44.4949,
-      "longitude": 11.3426,
-      "country": "Italia",
-      "countryCode": "IT",
-      "aliases": [
-        "Bologna",
-        "Bolonia"
-      ],
-      "countryAliases": [
-        "Italia",
-        "Italy"
-      ],
-      "path": "data/eu/bologna.json",
-      "extrasPath": "data/eu/bologna-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "it-genoa",
-      "catalogId": "genoa",
-      "name": "Génova",
-      "localName": "Genova",
-      "latitude": 44.4056,
-      "longitude": 8.9463,
-      "country": "Italia",
-      "countryCode": "IT",
-      "aliases": [
-        "Genoa",
-        "Genova",
-        "Génova",
-        "Genova Italia"
-      ],
-      "countryAliases": [
-        "Italia",
-        "Italy"
-      ],
-      "path": "data/eu/genoa.json",
-      "extrasPath": "data/eu/genoa-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "it-palermo",
-      "catalogId": "palermo",
-      "name": "Palermo",
-      "localName": "Palermo",
-      "latitude": 38.1157,
-      "longitude": 13.3615,
-      "country": "Italia",
-      "countryCode": "IT",
-      "aliases": [
-        "Palermo",
-        "Palermo Sicilia"
-      ],
-      "countryAliases": [
-        "Italia",
-        "Italy"
-      ],
-      "path": "data/eu/palermo.json",
-      "extrasPath": "data/eu/palermo-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "be-ghent",
-      "catalogId": "ghent",
-      "name": "Gante",
-      "localName": "Gent",
-      "latitude": 51.0543,
-      "longitude": 3.7174,
-      "country": "Bélgica",
-      "countryCode": "BE",
-      "aliases": [
-        "Gante",
-        "Gent",
-        "Ghent",
-        "Gand"
-      ],
-      "countryAliases": [
-        "Bélgica",
-        "Belgica",
-        "Belgium",
-        "Belgique"
-      ],
-      "path": "data/eu/ghent.json",
-      "extrasPath": "data/eu/ghent-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "be-brussels",
-      "catalogId": "brussels",
-      "name": "Bruselas",
-      "localName": "Bruxelles / Brussel",
-      "latitude": 50.8503,
-      "longitude": 4.3517,
-      "country": "Bélgica",
-      "countryCode": "BE",
-      "aliases": [
-        "Bruselas",
-        "Brussels",
-        "Bruxelles",
-        "Brussel"
-      ],
-      "countryAliases": [
-        "Bélgica",
-        "Belgica",
-        "Belgium",
-        "Belgique"
-      ],
-      "path": "data/eu/brussels.json",
-      "extrasPath": "data/eu/brussels-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "be-bruges",
-      "catalogId": "bruges",
-      "name": "Brujas",
-      "localName": "Brugge",
-      "latitude": 51.2093,
-      "longitude": 3.2247,
-      "country": "Bélgica",
-      "countryCode": "BE",
-      "aliases": [
-        "Brujas",
-        "Bruges",
-        "Brugge"
-      ],
-      "countryAliases": [
-        "Bélgica",
-        "Belgica",
-        "Belgium",
-        "Belgique"
-      ],
-      "path": "data/eu/bruges.json",
-      "extrasPath": "data/eu/bruges-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "nl-delft",
-      "catalogId": "delft",
-      "name": "Delft",
-      "localName": "Delft",
-      "latitude": 52.0116,
-      "longitude": 4.3571,
-      "country": "Países Bajos",
-      "countryCode": "NL",
-      "aliases": [
-        "Delft"
-      ],
-      "countryAliases": [
-        "Países Bajos",
-        "Paises Bajos",
-        "Holanda",
-        "Netherlands"
-      ],
-      "path": "data/eu/delft.json",
-      "extrasPath": "data/eu/delft-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "nl-hague",
-      "catalogId": "hague",
-      "name": "La Haya",
-      "localName": "Den Haag",
-      "latitude": 52.0808,
-      "longitude": 4.3106,
-      "country": "Países Bajos",
-      "countryCode": "NL",
-      "aliases": [
-        "La Haya",
-        "The Hague",
-        "Den Haag",
-        "s-Gravenhage"
-      ],
-      "countryAliases": [
-        "Países Bajos",
-        "Paises Bajos",
-        "Holanda",
-        "Netherlands"
-      ],
-      "path": "data/eu/hague.json",
-      "extrasPath": "data/eu/hague-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "hr-dubrovnik",
-      "catalogId": "dubrovnik",
-      "name": "Dubrovnik",
-      "localName": "Dubrovnik",
-      "latitude": 42.6403,
-      "longitude": 18.1082,
-      "country": "Croacia",
-      "countryCode": "HR",
-      "aliases": [
-        "Dubrovnik",
-        "Ragusa"
-      ],
-      "countryAliases": [
-        "Croacia",
-        "Croatia",
-        "Hrvatska"
-      ],
-      "path": "data/eu/dubrovnik.json",
-      "extrasPath": "data/eu/dubrovnik-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "hr-split",
-      "catalogId": "split",
-      "name": "Split",
-      "localName": "Split",
-      "latitude": 43.5081,
-      "longitude": 16.4402,
-      "country": "Croacia",
-      "countryCode": "HR",
-      "aliases": [
-        "Split",
-        "Spalato"
-      ],
-      "countryAliases": [
-        "Croacia",
-        "Croatia",
-        "Hrvatska"
-      ],
-      "path": "data/eu/split.json",
-      "extrasPath": "data/eu/split-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "hr-zagreb",
-      "catalogId": "zagreb",
-      "name": "Zagreb",
-      "localName": "Zagreb",
-      "latitude": 45.815,
-      "longitude": 15.9819,
-      "country": "Croacia",
-      "countryCode": "HR",
-      "aliases": [
-        "Zagreb",
-        "Zagrab"
-      ],
-      "countryAliases": [
-        "Croacia",
-        "Croatia",
-        "Hrvatska"
-      ],
-      "path": "data/eu/zagreb.json",
-      "extrasPath": "data/eu/zagreb-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "hr-zadar",
-      "catalogId": "zadar",
-      "name": "Zadar",
-      "localName": "Zadar",
-      "latitude": 44.1194,
-      "longitude": 15.2314,
-      "country": "Croacia",
-      "countryCode": "HR",
-      "aliases": [
-        "Zadar",
-        "Zara"
-      ],
-      "countryAliases": [
-        "Croacia",
-        "Croatia",
-        "Hrvatska"
-      ],
-      "path": "data/eu/zadar.json",
-      "extrasPath": "data/eu/zadar-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "hr-plitvice",
-      "catalogId": "plitvice",
-      "name": "Lagos de Plitvice",
-      "localName": "Plitvička jezera",
-      "latitude": 44.905,
-      "longitude": 15.611,
-      "country": "Croacia",
-      "countryCode": "HR",
-      "aliases": [
-        "Plitvice",
-        "Lagos de Plitvice",
-        "Plitvicka jezera",
-        "Plitvička jezera"
-      ],
-      "countryAliases": [
-        "Croacia",
-        "Croatia",
-        "Hrvatska"
-      ],
-      "path": "data/eu/plitvice.json",
-      "extrasPath": "data/eu/plitvice-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "gr-thessaloniki",
-      "catalogId": "thessaloniki",
-      "name": "Tesalónica",
-      "localName": "Θεσσαλονίκη",
-      "latitude": 40.6401,
-      "longitude": 22.9444,
-      "country": "Grecia",
-      "countryCode": "GR",
-      "aliases": [
-        "Tesalónica",
-        "Tesalonica",
-        "Thessaloniki",
-        "Salónica",
-        "Salonika",
-        "Θεσσαλονίκη"
-      ],
-      "countryAliases": [
-        "Grecia",
-        "Greece",
-        "Hellas"
-      ],
-      "path": "data/eu/thessaloniki.json",
-      "extrasPath": "data/eu/thessaloniki-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "gr-chania",
-      "catalogId": "chania",
-      "name": "Chania",
-      "localName": "Χανιά",
-      "latitude": 35.5138,
-      "longitude": 24.018,
-      "country": "Grecia",
-      "countryCode": "GR",
-      "aliases": [
-        "Chania",
-        "La Canea",
-        "La Canée",
-        "Hania",
-        "Χανιά"
-      ],
-      "countryAliases": [
-        "Grecia",
-        "Greece",
-        "Creta",
-        "Crete"
-      ],
-      "path": "data/eu/chania.json",
-      "extrasPath": "data/eu/chania-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "gr-santorini",
-      "catalogId": "santorini",
-      "name": "Santorini",
-      "localName": "Σαντορίνη",
-      "latitude": 36.3932,
-      "longitude": 25.4615,
-      "country": "Grecia",
-      "countryCode": "GR",
-      "aliases": [
-        "Santorini",
-        "Santorín",
-        "Thira",
-        "Thíra",
-        "Σαντορίνη"
-      ],
-      "countryAliases": [
-        "Grecia",
-        "Greece",
-        "Cícladas",
-        "Cyclades"
-      ],
-      "path": "data/eu/santorini.json",
-      "extrasPath": "data/eu/santorini-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "gr-mykonos",
-      "catalogId": "mykonos",
-      "name": "Mykonos",
-      "localName": "Μύκονος",
-      "latitude": 37.4467,
-      "longitude": 25.3289,
-      "country": "Grecia",
-      "countryCode": "GR",
-      "aliases": [
-        "Mykonos",
-        "Miconos",
-        "Míkonos",
-        "Μύκονος"
-      ],
-      "countryAliases": [
-        "Grecia",
-        "Greece",
-        "Cícladas",
-        "Cyclades"
-      ],
-      "path": "data/eu/mykonos.json",
-      "extrasPath": "data/eu/mykonos-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "gr-rhodes",
-      "catalogId": "rhodes",
-      "name": "Rodas",
-      "localName": "Ρόδος",
-      "latitude": 36.4349,
-      "longitude": 28.2176,
-      "country": "Grecia",
-      "countryCode": "GR",
-      "aliases": [
-        "Rodas",
-        "Rhodes",
-        "Ródos",
-        "Ρόδος"
-      ],
-      "countryAliases": [
-        "Grecia",
-        "Greece",
-        "Dodecaneso",
-        "Dodecanese"
-      ],
-      "path": "data/eu/rhodes.json",
-      "extrasPath": "data/eu/rhodes-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "gr-corfu",
-      "catalogId": "corfu",
-      "name": "Corfú",
-      "localName": "Κέρκυρα",
-      "latitude": 39.6243,
-      "longitude": 19.9217,
-      "country": "Grecia",
-      "countryCode": "GR",
-      "aliases": [
-        "Corfú",
-        "Corfu",
-        "Kerkyra",
-        "Kérkira",
-        "Κέρκυρα"
-      ],
-      "countryAliases": [
-        "Grecia",
-        "Greece",
-        "Jónicas",
-        "Ionian"
-      ],
-      "path": "data/eu/corfu.json",
-      "extrasPath": "data/eu/corfu-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "gr-zakynthos",
-      "catalogId": "zakynthos",
-      "name": "Zakynthos",
-      "localName": "Ζάκυνθος",
-      "latitude": 37.787,
-      "longitude": 20.8999,
-      "country": "Grecia",
-      "countryCode": "GR",
-      "aliases": [
-        "Zakynthos",
-        "Zante",
-        "Zacinto",
-        "Ζάκυνθος"
-      ],
-      "countryAliases": [
-        "Grecia",
-        "Greece",
-        "Jónicas",
-        "Ionian"
-      ],
-      "path": "data/eu/zakynthos.json",
-      "extrasPath": "data/eu/zakynthos-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "gr-naxos",
-      "catalogId": "naxos",
-      "name": "Naxos",
-      "localName": "Νάξος",
-      "latitude": 37.1036,
-      "longitude": 25.3779,
-      "country": "Grecia",
-      "countryCode": "GR",
-      "aliases": [
-        "Naxos",
-        "Naxo",
-        "Νάξος"
-      ],
-      "countryAliases": [
-        "Grecia",
-        "Greece",
-        "Cícladas",
-        "Cyclades"
-      ],
-      "path": "data/eu/naxos.json",
-      "extrasPath": "data/eu/naxos-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    },
-    {
-      "id": "gr-milos",
-      "catalogId": "milos",
-      "name": "Milos",
-      "localName": "Μήλος",
-      "latitude": 36.747,
-      "longitude": 24.427,
-      "country": "Grecia",
-      "countryCode": "GR",
-      "aliases": [
-        "Milos",
-        "Milo",
-        "Μήλος"
-      ],
-      "countryAliases": [
-        "Grecia",
-        "Greece",
-        "Cícladas",
-        "Cyclades"
-      ],
-      "path": "data/eu/milos.json",
-      "extrasPath": "data/eu/milos-extras.json",
-      "days": [
-        1,
-        2,
-        3
-      ],
-      "curated": true
-    }
-  ]
+  "nationalTourismUrl": "https://www.poland.travel/en/cities/"
+ },
+ "cities": [
+  {
+   "id": "pl-warsaw",
+   "name": "Varsovia",
+   "localName": "Warszawa",
+   "path": "data/pl/warsaw.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "latitude": 52.2478,
+   "longitude": 21.0142,
+   "country": "Polonia",
+   "curated": true,
+   "aliases": [
+    "Varsovia",
+    "Warszawa"
+   ],
+   "catalogId": "warsaw",
+   "countryCode": "PL",
+   "countryAliases": [
+    "polonia",
+    "poland",
+    "polska"
+   ],
+   "extrasPath": "data/pl/warsaw-extras.json"
+  },
+  {
+   "id": "pl-krakow",
+   "name": "Cracovia",
+   "localName": "Kraków",
+   "path": "data/pl/krakow.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "latitude": 50.06166,
+   "longitude": 19.93722,
+   "country": "Polonia",
+   "curated": true,
+   "aliases": [
+    "Cracovia",
+    "Kraków"
+   ],
+   "catalogId": "krakow",
+   "countryCode": "PL",
+   "countryAliases": [
+    "polonia",
+    "poland",
+    "polska"
+   ],
+   "extrasPath": "data/pl/krakow-extras.json"
+  },
+  {
+   "id": "pl-gdansk",
+   "name": "Gdańsk",
+   "localName": "Gdańsk",
+   "path": "data/pl/gdansk.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "latitude": 54.34855,
+   "longitude": 18.65323,
+   "country": "Polonia",
+   "curated": true,
+   "aliases": [
+    "Gdańsk",
+    "Gdansk"
+   ],
+   "catalogId": "gdansk",
+   "countryCode": "PL",
+   "countryAliases": [
+    "polonia",
+    "poland",
+    "polska"
+   ],
+   "extrasPath": "data/pl/gdansk-extras.json"
+  },
+  {
+   "id": "pl-wroclaw",
+   "name": "Wrocław",
+   "localName": "Wrocław",
+   "path": "data/pl/wroclaw.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "latitude": 51.11,
+   "longitude": 17.03194,
+   "country": "Polonia",
+   "curated": true,
+   "aliases": [
+    "Wrocław",
+    "Wroclaw",
+    "Breslavia"
+   ],
+   "catalogId": "wroclaw",
+   "countryCode": "PL",
+   "countryAliases": [
+    "polonia",
+    "poland",
+    "polska"
+   ],
+   "extrasPath": "data/pl/wroclaw-extras.json"
+  },
+  {
+   "id": "pl-poznan",
+   "name": "Poznań",
+   "localName": "Poznań",
+   "path": "data/pl/poznan.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "latitude": 52.4083,
+   "longitude": 16.9336,
+   "country": "Polonia",
+   "curated": true,
+   "aliases": [
+    "Poznań",
+    "Poznań"
+   ],
+   "catalogId": "poznan",
+   "countryCode": "PL",
+   "countryAliases": [
+    "polonia",
+    "poland",
+    "polska"
+   ],
+   "extrasPath": "data/pl/poznan-extras.json"
+  },
+  {
+   "id": "fr-paris",
+   "name": "París",
+   "localName": "Paris",
+   "latitude": 48.8566,
+   "longitude": 2.3522,
+   "country": "Francia",
+   "countryCode": "FR",
+   "countryAliases": [
+    "francia",
+    "france"
+   ],
+   "aliases": [
+    "París",
+    "Paris",
+    "Parigi"
+   ],
+   "path": "data/eu/paris.json",
+   "extrasPath": "data/eu/paris-extras.json",
+   "catalogId": "paris",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gb-london",
+   "name": "Londres",
+   "localName": "London",
+   "latitude": 51.5074,
+   "longitude": -0.1278,
+   "country": "Reino Unido",
+   "countryCode": "GB",
+   "countryAliases": [
+    "reino unido",
+    "united kingdom",
+    "inglaterra",
+    "england",
+    "uk",
+    "gran bretaña"
+   ],
+   "aliases": [
+    "Londres",
+    "London",
+    "Londra"
+   ],
+   "path": "data/eu/london.json",
+   "extrasPath": "data/eu/london-extras.json",
+   "catalogId": "london",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-rome",
+   "name": "Roma",
+   "localName": "Roma",
+   "latitude": 41.9028,
+   "longitude": 12.4964,
+   "country": "Italia",
+   "countryCode": "IT",
+   "countryAliases": [
+    "italia",
+    "italy"
+   ],
+   "aliases": [
+    "Roma",
+    "Rome"
+   ],
+   "path": "data/eu/rome.json",
+   "extrasPath": "data/eu/rome-extras.json",
+   "catalogId": "rome",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "nl-amsterdam",
+   "name": "Ámsterdam",
+   "localName": "Amsterdam",
+   "latitude": 52.37,
+   "longitude": 4.89,
+   "country": "Países Bajos",
+   "countryCode": "NL",
+   "countryAliases": [
+    "países bajos",
+    "paises bajos",
+    "netherlands",
+    "holanda"
+   ],
+   "aliases": [
+    "Ámsterdam",
+    "Amsterdam"
+   ],
+   "path": "data/eu/amsterdam.json",
+   "extrasPath": "data/eu/amsterdam-extras.json",
+   "catalogId": "amsterdam",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "es-barcelona",
+   "name": "Barcelona",
+   "localName": "Barcelona",
+   "latitude": 41.39,
+   "longitude": 2.17,
+   "country": "España",
+   "countryCode": "ES",
+   "countryAliases": [
+    "españa",
+    "espana",
+    "spain"
+   ],
+   "aliases": [
+    "Barcelona"
+   ],
+   "path": "data/eu/barcelona.json",
+   "extrasPath": "data/eu/barcelona-extras.json",
+   "catalogId": "barcelona",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "pt-lisbon",
+   "catalogId": "lisbon",
+   "name": "Lisboa",
+   "country": "Portugal",
+   "countryCode": "PT",
+   "aliases": [
+    "lisboa",
+    "lisbon"
+   ],
+   "countryAliases": [
+    "portugal"
+   ],
+   "path": "data/eu/lisbon.json",
+   "extrasPath": "data/eu/lisbon-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true,
+   "localName": "Lisboa",
+   "latitude": 38.7223,
+   "longitude": -9.1393
+  },
+  {
+   "id": "pt-porto",
+   "catalogId": "porto",
+   "name": "Oporto",
+   "localName": "Porto",
+   "latitude": 41.1579,
+   "longitude": -8.6291,
+   "country": "Portugal",
+   "countryCode": "PT",
+   "aliases": [
+    "Oporto",
+    "Porto"
+   ],
+   "countryAliases": [
+    "Portugal"
+   ],
+   "path": "data/eu/porto.json",
+   "extrasPath": "data/eu/porto-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "de-berlin",
+   "catalogId": "berlin",
+   "name": "Berlín",
+   "localName": "Berlin",
+   "latitude": 52.52,
+   "longitude": 13.405,
+   "country": "Alemania",
+   "countryCode": "DE",
+   "aliases": [
+    "Berlín",
+    "Berlin"
+   ],
+   "countryAliases": [
+    "Alemania",
+    "Germany",
+    "Deutschland"
+   ],
+   "path": "data/eu/berlin.json",
+   "extrasPath": "data/eu/berlin-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "cz-prague",
+   "catalogId": "prague",
+   "name": "Praga",
+   "localName": "Praha",
+   "latitude": 50.087,
+   "longitude": 14.421,
+   "country": "Chequia",
+   "countryCode": "CZ",
+   "aliases": [
+    "Praga",
+    "Prague",
+    "Praha"
+   ],
+   "countryAliases": [
+    "Chequia",
+    "Czechia",
+    "Czech Republic",
+    "República Checa"
+   ],
+   "path": "data/eu/prague.json",
+   "extrasPath": "data/eu/prague-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "at-vienna",
+   "catalogId": "vienna",
+   "name": "Viena",
+   "localName": "Wien",
+   "latitude": 48.208,
+   "longitude": 16.373,
+   "country": "Austria",
+   "countryCode": "AT",
+   "aliases": [
+    "Viena",
+    "Vienna",
+    "Wien"
+   ],
+   "countryAliases": [
+    "Austria",
+    "Österreich"
+   ],
+   "path": "data/eu/vienna.json",
+   "extrasPath": "data/eu/vienna-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "hu-budapest",
+   "catalogId": "budapest",
+   "name": "Budapest",
+   "localName": "Budapest",
+   "latitude": 47.498,
+   "longitude": 19.04,
+   "country": "Hungría",
+   "countryCode": "HU",
+   "aliases": [
+    "Budapest"
+   ],
+   "countryAliases": [
+    "Hungría",
+    "Hungary",
+    "Magyarország"
+   ],
+   "path": "data/eu/budapest.json",
+   "extrasPath": "data/eu/budapest-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "de-munich",
+   "catalogId": "munich",
+   "name": "Múnich",
+   "localName": "München",
+   "latitude": 48.137,
+   "longitude": 11.575,
+   "country": "Alemania",
+   "countryCode": "DE",
+   "aliases": [
+    "Munich",
+    "München",
+    "Múnich"
+   ],
+   "countryAliases": [
+    "Alemania",
+    "Germany",
+    "Deutschland"
+   ],
+   "path": "data/eu/munich.json",
+   "extrasPath": "data/eu/munich-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gr-athens",
+   "catalogId": "athens",
+   "name": "Atenas",
+   "localName": "Αθήνα",
+   "latitude": 37.975,
+   "longitude": 23.73,
+   "country": "Grecia",
+   "countryCode": "GR",
+   "aliases": [
+    "Athens",
+    "Atenas",
+    "Athina",
+    "Αθήνα"
+   ],
+   "countryAliases": [
+    "Grecia",
+    "Greece",
+    "Ελλάδα"
+   ],
+   "path": "data/eu/athens.json",
+   "extrasPath": "data/eu/athens-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-naples",
+   "catalogId": "naples",
+   "name": "Nápoles",
+   "localName": "Napoli",
+   "latitude": 40.85,
+   "longitude": 14.26,
+   "country": "Italia",
+   "countryCode": "IT",
+   "aliases": [
+    "Nápoles",
+    "Napoles",
+    "Naples",
+    "Napoli"
+   ],
+   "countryAliases": [
+    "Italia",
+    "Italy"
+   ],
+   "path": "data/eu/naples.json",
+   "extrasPath": "data/eu/naples-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-venice",
+   "catalogId": "venice",
+   "name": "Venecia",
+   "localName": "Venezia",
+   "latitude": 45.437,
+   "longitude": 12.335,
+   "country": "Italia",
+   "countryCode": "IT",
+   "aliases": [
+    "Venecia",
+    "Venezia",
+    "Venice"
+   ],
+   "countryAliases": [
+    "Italia",
+    "Italy"
+   ],
+   "path": "data/eu/venice.json",
+   "extrasPath": "data/eu/venice-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-florence",
+   "catalogId": "florence",
+   "name": "Florencia",
+   "localName": "Firenze",
+   "latitude": 43.773,
+   "longitude": 11.255,
+   "country": "Italia",
+   "countryCode": "IT",
+   "aliases": [
+    "Florencia",
+    "Firenze",
+    "Florence"
+   ],
+   "countryAliases": [
+    "Italia",
+    "Italy"
+   ],
+   "path": "data/eu/florence.json",
+   "extrasPath": "data/eu/florence-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "dk-copenhagen",
+   "catalogId": "copenhagen",
+   "name": "Copenhague",
+   "localName": "København",
+   "latitude": 55.6761,
+   "longitude": 12.5683,
+   "country": "Dinamarca",
+   "countryCode": "DK",
+   "aliases": [
+    "Copenhague",
+    "Copenhagen",
+    "København"
+   ],
+   "countryAliases": [
+    "Dinamarca",
+    "Denmark"
+   ],
+   "path": "data/eu/copenhagen.json",
+   "extrasPath": "data/eu/copenhagen-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "se-stockholm",
+   "catalogId": "stockholm",
+   "name": "Estocolmo",
+   "localName": "Stockholm",
+   "latitude": 59.3293,
+   "longitude": 18.0686,
+   "country": "Suecia",
+   "countryCode": "SE",
+   "aliases": [
+    "Estocolmo",
+    "Stockholm"
+   ],
+   "countryAliases": [
+    "Suecia",
+    "Sweden"
+   ],
+   "path": "data/eu/stockholm.json",
+   "extrasPath": "data/eu/stockholm-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "ie-dublin",
+   "catalogId": "dublin",
+   "name": "Dublín",
+   "localName": "Dublin",
+   "latitude": 53.3498,
+   "longitude": -6.2603,
+   "country": "Irlanda",
+   "countryCode": "IE",
+   "aliases": [
+    "Dublín",
+    "Dublin"
+   ],
+   "countryAliases": [
+    "Irlanda",
+    "Ireland"
+   ],
+   "path": "data/eu/dublin.json",
+   "extrasPath": "data/eu/dublin-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "ee-tallinn",
+   "catalogId": "tallinn",
+   "name": "Tallín",
+   "localName": "Tallinn",
+   "latitude": 59.437,
+   "longitude": 24.7536,
+   "country": "Estonia",
+   "countryCode": "EE",
+   "aliases": [
+    "Tallín",
+    "Tallin",
+    "Tallinn"
+   ],
+   "countryAliases": [
+    "Estonia"
+   ],
+   "path": "data/eu/tallinn.json",
+   "extrasPath": "data/eu/tallinn-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-milan",
+   "name": "Milán",
+   "localName": "Milano",
+   "country": "Italia",
+   "countryCode": "IT",
+   "catalogId": "milan",
+   "latitude": 45.4640976,
+   "longitude": 9.1919265,
+   "aliases": [
+    "Milán",
+    "Milan",
+    "Milano"
+   ],
+   "countryAliases": [
+    "Italia",
+    "Italy"
+   ],
+   "path": "data/eu/milan.json",
+   "extrasPath": "data/eu/milan-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-turin",
+   "catalogId": "turin",
+   "name": "Turín",
+   "localName": "Torino",
+   "latitude": 45.0703,
+   "longitude": 7.6869,
+   "country": "Italia",
+   "countryCode": "IT",
+   "aliases": [
+    "Turín",
+    "Turin",
+    "Torino"
+   ],
+   "countryAliases": [
+    "Italia",
+    "Italy"
+   ],
+   "path": "data/eu/turin.json",
+   "extrasPath": "data/eu/turin-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-verona",
+   "catalogId": "verona",
+   "name": "Verona",
+   "localName": "Verona",
+   "latitude": 45.4384,
+   "longitude": 10.9916,
+   "country": "Italia",
+   "countryCode": "IT",
+   "aliases": [
+    "Verona"
+   ],
+   "countryAliases": [
+    "Italia",
+    "Italy"
+   ],
+   "path": "data/eu/verona.json",
+   "extrasPath": "data/eu/verona-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-bologna",
+   "catalogId": "bologna",
+   "name": "Bolonia",
+   "localName": "Bologna",
+   "latitude": 44.4949,
+   "longitude": 11.3426,
+   "country": "Italia",
+   "countryCode": "IT",
+   "aliases": [
+    "Bologna",
+    "Bolonia"
+   ],
+   "countryAliases": [
+    "Italia",
+    "Italy"
+   ],
+   "path": "data/eu/bologna.json",
+   "extrasPath": "data/eu/bologna-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-genoa",
+   "catalogId": "genoa",
+   "name": "Génova",
+   "localName": "Genova",
+   "latitude": 44.4056,
+   "longitude": 8.9463,
+   "country": "Italia",
+   "countryCode": "IT",
+   "aliases": [
+    "Genoa",
+    "Genova",
+    "Génova",
+    "Genova Italia"
+   ],
+   "countryAliases": [
+    "Italia",
+    "Italy"
+   ],
+   "path": "data/eu/genoa.json",
+   "extrasPath": "data/eu/genoa-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-palermo",
+   "catalogId": "palermo",
+   "name": "Palermo",
+   "localName": "Palermo",
+   "latitude": 38.1157,
+   "longitude": 13.3615,
+   "country": "Italia",
+   "countryCode": "IT",
+   "aliases": [
+    "Palermo",
+    "Palermo Sicilia"
+   ],
+   "countryAliases": [
+    "Italia",
+    "Italy"
+   ],
+   "path": "data/eu/palermo.json",
+   "extrasPath": "data/eu/palermo-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "be-ghent",
+   "catalogId": "ghent",
+   "name": "Gante",
+   "localName": "Gent",
+   "latitude": 51.0543,
+   "longitude": 3.7174,
+   "country": "Bélgica",
+   "countryCode": "BE",
+   "aliases": [
+    "Gante",
+    "Gent",
+    "Ghent",
+    "Gand"
+   ],
+   "countryAliases": [
+    "Bélgica",
+    "Belgica",
+    "Belgium",
+    "Belgique"
+   ],
+   "path": "data/eu/ghent.json",
+   "extrasPath": "data/eu/ghent-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "be-brussels",
+   "catalogId": "brussels",
+   "name": "Bruselas",
+   "localName": "Bruxelles / Brussel",
+   "latitude": 50.8503,
+   "longitude": 4.3517,
+   "country": "Bélgica",
+   "countryCode": "BE",
+   "aliases": [
+    "Bruselas",
+    "Brussels",
+    "Bruxelles",
+    "Brussel"
+   ],
+   "countryAliases": [
+    "Bélgica",
+    "Belgica",
+    "Belgium",
+    "Belgique"
+   ],
+   "path": "data/eu/brussels.json",
+   "extrasPath": "data/eu/brussels-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "be-bruges",
+   "catalogId": "bruges",
+   "name": "Brujas",
+   "localName": "Brugge",
+   "latitude": 51.2093,
+   "longitude": 3.2247,
+   "country": "Bélgica",
+   "countryCode": "BE",
+   "aliases": [
+    "Brujas",
+    "Bruges",
+    "Brugge"
+   ],
+   "countryAliases": [
+    "Bélgica",
+    "Belgica",
+    "Belgium",
+    "Belgique"
+   ],
+   "path": "data/eu/bruges.json",
+   "extrasPath": "data/eu/bruges-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "nl-delft",
+   "catalogId": "delft",
+   "name": "Delft",
+   "localName": "Delft",
+   "latitude": 52.0116,
+   "longitude": 4.3571,
+   "country": "Países Bajos",
+   "countryCode": "NL",
+   "aliases": [
+    "Delft"
+   ],
+   "countryAliases": [
+    "Países Bajos",
+    "Paises Bajos",
+    "Holanda",
+    "Netherlands"
+   ],
+   "path": "data/eu/delft.json",
+   "extrasPath": "data/eu/delft-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "nl-hague",
+   "catalogId": "hague",
+   "name": "La Haya",
+   "localName": "Den Haag",
+   "latitude": 52.0808,
+   "longitude": 4.3106,
+   "country": "Países Bajos",
+   "countryCode": "NL",
+   "aliases": [
+    "La Haya",
+    "The Hague",
+    "Den Haag",
+    "s-Gravenhage"
+   ],
+   "countryAliases": [
+    "Países Bajos",
+    "Paises Bajos",
+    "Holanda",
+    "Netherlands"
+   ],
+   "path": "data/eu/hague.json",
+   "extrasPath": "data/eu/hague-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "hr-dubrovnik",
+   "catalogId": "dubrovnik",
+   "name": "Dubrovnik",
+   "localName": "Dubrovnik",
+   "latitude": 42.6403,
+   "longitude": 18.1082,
+   "country": "Croacia",
+   "countryCode": "HR",
+   "aliases": [
+    "Dubrovnik",
+    "Ragusa"
+   ],
+   "countryAliases": [
+    "Croacia",
+    "Croatia",
+    "Hrvatska"
+   ],
+   "path": "data/eu/dubrovnik.json",
+   "extrasPath": "data/eu/dubrovnik-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "hr-split",
+   "catalogId": "split",
+   "name": "Split",
+   "localName": "Split",
+   "latitude": 43.5081,
+   "longitude": 16.4402,
+   "country": "Croacia",
+   "countryCode": "HR",
+   "aliases": [
+    "Split",
+    "Spalato"
+   ],
+   "countryAliases": [
+    "Croacia",
+    "Croatia",
+    "Hrvatska"
+   ],
+   "path": "data/eu/split.json",
+   "extrasPath": "data/eu/split-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "hr-zagreb",
+   "catalogId": "zagreb",
+   "name": "Zagreb",
+   "localName": "Zagreb",
+   "latitude": 45.815,
+   "longitude": 15.9819,
+   "country": "Croacia",
+   "countryCode": "HR",
+   "aliases": [
+    "Zagreb",
+    "Zagrab"
+   ],
+   "countryAliases": [
+    "Croacia",
+    "Croatia",
+    "Hrvatska"
+   ],
+   "path": "data/eu/zagreb.json",
+   "extrasPath": "data/eu/zagreb-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "hr-zadar",
+   "catalogId": "zadar",
+   "name": "Zadar",
+   "localName": "Zadar",
+   "latitude": 44.1194,
+   "longitude": 15.2314,
+   "country": "Croacia",
+   "countryCode": "HR",
+   "aliases": [
+    "Zadar",
+    "Zara"
+   ],
+   "countryAliases": [
+    "Croacia",
+    "Croatia",
+    "Hrvatska"
+   ],
+   "path": "data/eu/zadar.json",
+   "extrasPath": "data/eu/zadar-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "hr-plitvice",
+   "catalogId": "plitvice",
+   "name": "Lagos de Plitvice",
+   "localName": "Plitvička jezera",
+   "latitude": 44.905,
+   "longitude": 15.611,
+   "country": "Croacia",
+   "countryCode": "HR",
+   "aliases": [
+    "Plitvice",
+    "Lagos de Plitvice",
+    "Plitvicka jezera",
+    "Plitvička jezera"
+   ],
+   "countryAliases": [
+    "Croacia",
+    "Croatia",
+    "Hrvatska"
+   ],
+   "path": "data/eu/plitvice.json",
+   "extrasPath": "data/eu/plitvice-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gr-thessaloniki",
+   "catalogId": "thessaloniki",
+   "name": "Tesalónica",
+   "localName": "Θεσσαλονίκη",
+   "latitude": 40.6401,
+   "longitude": 22.9444,
+   "country": "Grecia",
+   "countryCode": "GR",
+   "aliases": [
+    "Tesalónica",
+    "Tesalonica",
+    "Thessaloniki",
+    "Salónica",
+    "Salonika",
+    "Θεσσαλονίκη"
+   ],
+   "countryAliases": [
+    "Grecia",
+    "Greece",
+    "Hellas"
+   ],
+   "path": "data/eu/thessaloniki.json",
+   "extrasPath": "data/eu/thessaloniki-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gr-chania",
+   "catalogId": "chania",
+   "name": "Chania",
+   "localName": "Χανιά",
+   "latitude": 35.5138,
+   "longitude": 24.018,
+   "country": "Grecia",
+   "countryCode": "GR",
+   "aliases": [
+    "Chania",
+    "La Canea",
+    "La Canée",
+    "Hania",
+    "Χανιά"
+   ],
+   "countryAliases": [
+    "Grecia",
+    "Greece",
+    "Creta",
+    "Crete"
+   ],
+   "path": "data/eu/chania.json",
+   "extrasPath": "data/eu/chania-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gr-santorini",
+   "catalogId": "santorini",
+   "name": "Santorini",
+   "localName": "Σαντορίνη",
+   "latitude": 36.3932,
+   "longitude": 25.4615,
+   "country": "Grecia",
+   "countryCode": "GR",
+   "aliases": [
+    "Santorini",
+    "Santorín",
+    "Thira",
+    "Thíra",
+    "Σαντορίνη"
+   ],
+   "countryAliases": [
+    "Grecia",
+    "Greece",
+    "Cícladas",
+    "Cyclades"
+   ],
+   "path": "data/eu/santorini.json",
+   "extrasPath": "data/eu/santorini-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gr-mykonos",
+   "catalogId": "mykonos",
+   "name": "Mykonos",
+   "localName": "Μύκονος",
+   "latitude": 37.4467,
+   "longitude": 25.3289,
+   "country": "Grecia",
+   "countryCode": "GR",
+   "aliases": [
+    "Mykonos",
+    "Miconos",
+    "Míkonos",
+    "Μύκονος"
+   ],
+   "countryAliases": [
+    "Grecia",
+    "Greece",
+    "Cícladas",
+    "Cyclades"
+   ],
+   "path": "data/eu/mykonos.json",
+   "extrasPath": "data/eu/mykonos-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gr-rhodes",
+   "catalogId": "rhodes",
+   "name": "Rodas",
+   "localName": "Ρόδος",
+   "latitude": 36.4349,
+   "longitude": 28.2176,
+   "country": "Grecia",
+   "countryCode": "GR",
+   "aliases": [
+    "Rodas",
+    "Rhodes",
+    "Ródos",
+    "Ρόδος"
+   ],
+   "countryAliases": [
+    "Grecia",
+    "Greece",
+    "Dodecaneso",
+    "Dodecanese"
+   ],
+   "path": "data/eu/rhodes.json",
+   "extrasPath": "data/eu/rhodes-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gr-corfu",
+   "catalogId": "corfu",
+   "name": "Corfú",
+   "localName": "Κέρκυρα",
+   "latitude": 39.6243,
+   "longitude": 19.9217,
+   "country": "Grecia",
+   "countryCode": "GR",
+   "aliases": [
+    "Corfú",
+    "Corfu",
+    "Kerkyra",
+    "Kérkira",
+    "Κέρκυρα"
+   ],
+   "countryAliases": [
+    "Grecia",
+    "Greece",
+    "Jónicas",
+    "Ionian"
+   ],
+   "path": "data/eu/corfu.json",
+   "extrasPath": "data/eu/corfu-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gr-zakynthos",
+   "catalogId": "zakynthos",
+   "name": "Zakynthos",
+   "localName": "Ζάκυνθος",
+   "latitude": 37.787,
+   "longitude": 20.8999,
+   "country": "Grecia",
+   "countryCode": "GR",
+   "aliases": [
+    "Zakynthos",
+    "Zante",
+    "Zacinto",
+    "Ζάκυνθος"
+   ],
+   "countryAliases": [
+    "Grecia",
+    "Greece",
+    "Jónicas",
+    "Ionian"
+   ],
+   "path": "data/eu/zakynthos.json",
+   "extrasPath": "data/eu/zakynthos-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gr-naxos",
+   "catalogId": "naxos",
+   "name": "Naxos",
+   "localName": "Νάξος",
+   "latitude": 37.1036,
+   "longitude": 25.3779,
+   "country": "Grecia",
+   "countryCode": "GR",
+   "aliases": [
+    "Naxos",
+    "Naxo",
+    "Νάξος"
+   ],
+   "countryAliases": [
+    "Grecia",
+    "Greece",
+    "Cícladas",
+    "Cyclades"
+   ],
+   "path": "data/eu/naxos.json",
+   "extrasPath": "data/eu/naxos-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gr-milos",
+   "catalogId": "milos",
+   "name": "Milos",
+   "localName": "Μήλος",
+   "latitude": 36.747,
+   "longitude": 24.427,
+   "country": "Grecia",
+   "countryCode": "GR",
+   "aliases": [
+    "Milos",
+    "Milo",
+    "Μήλος"
+   ],
+   "countryAliases": [
+    "Grecia",
+    "Greece",
+    "Cícladas",
+    "Cyclades"
+   ],
+   "path": "data/eu/milos.json",
+   "extrasPath": "data/eu/milos-extras.json",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "es-sevilla",
+   "name": "Sevilla",
+   "localName": "Sevilla",
+   "latitude": 37.4374,
+   "longitude": -5.8711,
+   "country": "España",
+   "countryCode": "ES",
+   "countryAliases": [
+    "espana",
+    "españa",
+    "spain"
+   ],
+   "aliases": [
+    "Sevilla",
+    "Seville"
+   ],
+   "path": "data/eu/sevilla.json",
+   "extrasPath": "data/eu/sevilla-extras.json",
+   "catalogId": "sevilla",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "es-madrid",
+   "name": "Madrid",
+   "localName": "Madrid",
+   "latitude": 40.4148,
+   "longitude": -3.7038,
+   "country": "España",
+   "countryCode": "ES",
+   "countryAliases": [
+    "espana",
+    "españa",
+    "spain"
+   ],
+   "aliases": [
+    "Madrid"
+   ],
+   "path": "data/eu/madrid.json",
+   "extrasPath": "data/eu/madrid-extras.json",
+   "catalogId": "madrid",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "es-bilbao",
+   "name": "Bilbao",
+   "localName": "Bilbao",
+   "latitude": 43.2962,
+   "longitude": -2.8943,
+   "country": "España",
+   "countryCode": "ES",
+   "countryAliases": [
+    "espana",
+    "españa",
+    "spain"
+   ],
+   "aliases": [
+    "Bilbao",
+    "Bilbo"
+   ],
+   "path": "data/eu/bilbao.json",
+   "extrasPath": "data/eu/bilbao-extras.json",
+   "catalogId": "bilbao",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "es-valencia",
+   "name": "Valencia",
+   "localName": "València",
+   "latitude": 39.4534,
+   "longitude": -0.3593,
+   "country": "España",
+   "countryCode": "ES",
+   "countryAliases": [
+    "espana",
+    "españa",
+    "spain"
+   ],
+   "aliases": [
+    "Valencia",
+    "València"
+   ],
+   "path": "data/eu/valencia.json",
+   "extrasPath": "data/eu/valencia-extras.json",
+   "catalogId": "valencia",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "es-granada",
+   "name": "Granada",
+   "localName": "Granada",
+   "latitude": 37.1673,
+   "longitude": -3.5664,
+   "country": "España",
+   "countryCode": "ES",
+   "countryAliases": [
+    "espana",
+    "españa",
+    "spain"
+   ],
+   "aliases": [
+    "Granada"
+   ],
+   "path": "data/eu/granada.json",
+   "extrasPath": "data/eu/granada-extras.json",
+   "catalogId": "granada",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "pt-sintra",
+   "name": "Sintra",
+   "localName": "Sintra",
+   "latitude": 38.7925,
+   "longitude": -9.4109,
+   "country": "Portugal",
+   "countryCode": "PT",
+   "countryAliases": [
+    "portugal"
+   ],
+   "aliases": [
+    "Sintra"
+   ],
+   "path": "data/eu/sintra.json",
+   "extrasPath": "data/eu/sintra-extras.json",
+   "catalogId": "sintra",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "es-sansebastian",
+   "name": "San Sebastián",
+   "localName": "Donostia",
+   "latitude": 43.3231,
+   "longitude": -1.9923,
+   "country": "España",
+   "countryCode": "ES",
+   "countryAliases": [
+    "espana",
+    "españa",
+    "spain"
+   ],
+   "aliases": [
+    "San Sebastián",
+    "Donostia",
+    "San Sebastian"
+   ],
+   "path": "data/eu/sansebastian.json",
+   "extrasPath": "data/eu/sansebastian-extras.json",
+   "catalogId": "sansebastian",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gb-edinburgh",
+   "name": "Edimburgo",
+   "localName": "Edinburgh",
+   "latitude": 55.9842,
+   "longitude": -3.2847,
+   "country": "Reino Unido",
+   "countryCode": "GB",
+   "countryAliases": [
+    "reino unido",
+    "united kingdom",
+    "uk",
+    "gran bretaña",
+    "escocia",
+    "scotland"
+   ],
+   "aliases": [
+    "Edimburgo",
+    "Edinburgh"
+   ],
+   "path": "data/eu/edinburgh.json",
+   "extrasPath": "data/eu/edinburgh-extras.json",
+   "catalogId": "edinburgh",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "pt-coimbra",
+   "name": "Coímbra",
+   "localName": "Coimbra",
+   "latitude": 40.1941,
+   "longitude": -8.4361,
+   "country": "Portugal",
+   "countryCode": "PT",
+   "countryAliases": [
+    "portugal"
+   ],
+   "aliases": [
+    "Coímbra",
+    "Coimbra"
+   ],
+   "path": "data/eu/coimbra.json",
+   "extrasPath": "data/eu/coimbra-extras.json",
+   "catalogId": "coimbra",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "is-reykjavik",
+   "name": "Reikiavik",
+   "localName": "Reykjavík",
+   "latitude": 64.1333,
+   "longitude": -21.9149,
+   "country": "Islandia",
+   "countryCode": "IS",
+   "countryAliases": [
+    "islandia",
+    "iceland"
+   ],
+   "aliases": [
+    "Reikiavik",
+    "Reykjavík",
+    "Reykjavik"
+   ],
+   "path": "data/eu/reykjavik.json",
+   "extrasPath": "data/eu/reykjavik-extras.json",
+   "catalogId": "reykjavik",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "no-oslo",
+   "name": "Oslo",
+   "localName": "Oslo",
+   "latitude": 59.8884,
+   "longitude": 10.6285,
+   "country": "Noruega",
+   "countryCode": "NO",
+   "countryAliases": [
+    "noruega",
+    "norway"
+   ],
+   "aliases": [
+    "Oslo"
+   ],
+   "path": "data/eu/oslo.json",
+   "extrasPath": "data/eu/oslo-extras.json",
+   "catalogId": "oslo",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "fi-helsinki",
+   "name": "Helsinki",
+   "localName": "Helsinki",
+   "latitude": 60.1445,
+   "longitude": 24.9991,
+   "country": "Finlandia",
+   "countryCode": "FI",
+   "countryAliases": [
+    "finlandia",
+    "finland"
+   ],
+   "aliases": [
+    "Helsinki",
+    "Helsingfors"
+   ],
+   "path": "data/eu/helsinki.json",
+   "extrasPath": "data/eu/helsinki-extras.json",
+   "catalogId": "helsinki",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "at-salzburgo",
+   "name": "Salzburgo",
+   "localName": "Salzburg",
+   "latitude": 47.7729,
+   "longitude": 13.0781,
+   "country": "Austria",
+   "countryCode": "AT",
+   "countryAliases": [
+    "austria"
+   ],
+   "aliases": [
+    "Salzburgo",
+    "Salzburg"
+   ],
+   "path": "data/eu/salzburgo.json",
+   "extrasPath": "data/eu/salzburgo-extras.json",
+   "catalogId": "salzburgo",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "ch-ginebra",
+   "name": "Ginebra",
+   "localName": "Genève",
+   "latitude": 46.2261,
+   "longitude": 6.1809,
+   "country": "Suiza",
+   "countryCode": "CH",
+   "countryAliases": [
+    "suiza",
+    "switzerland"
+   ],
+   "aliases": [
+    "Ginebra",
+    "Genève",
+    "Geneva"
+   ],
+   "path": "data/eu/ginebra.json",
+   "extrasPath": "data/eu/ginebra-extras.json",
+   "catalogId": "ginebra",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "fr-niza",
+   "name": "Niza",
+   "localName": "Nice",
+   "latitude": 43.7038,
+   "longitude": 7.2812,
+   "country": "Francia",
+   "countryCode": "FR",
+   "countryAliases": [
+    "francia",
+    "france"
+   ],
+   "aliases": [
+    "Niza",
+    "Nice"
+   ],
+   "path": "data/eu/niza.json",
+   "extrasPath": "data/eu/niza-extras.json",
+   "catalogId": "niza",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "ch-zurich",
+   "name": "Zúrich",
+   "localName": "Zürich",
+   "latitude": 47.3661,
+   "longitude": 8.5325,
+   "country": "Suiza",
+   "countryCode": "CH",
+   "countryAliases": [
+    "suiza",
+    "switzerland"
+   ],
+   "aliases": [
+    "Zúrich",
+    "Zürich",
+    "Zurich"
+   ],
+   "path": "data/eu/zurich.json",
+   "extrasPath": "data/eu/zurich-extras.json",
+   "catalogId": "zurich",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "fr-marsella",
+   "name": "Marsella",
+   "localName": "Marseille",
+   "latitude": 43.3073,
+   "longitude": 5.3705,
+   "country": "Francia",
+   "countryCode": "FR",
+   "countryAliases": [
+    "francia",
+    "france"
+   ],
+   "aliases": [
+    "Marsella",
+    "Marseille"
+   ],
+   "path": "data/eu/marsella.json",
+   "extrasPath": "data/eu/marsella-extras.json",
+   "catalogId": "marsella",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "fr-lyon",
+   "name": "Lyon",
+   "localName": "Lyon",
+   "latitude": 45.7575,
+   "longitude": 4.8526,
+   "country": "Francia",
+   "countryCode": "FR",
+   "countryAliases": [
+    "francia",
+    "france"
+   ],
+   "aliases": [
+    "Lyon"
+   ],
+   "path": "data/eu/lyon.json",
+   "extrasPath": "data/eu/lyon-extras.json",
+   "catalogId": "lyon",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "fr-estrasburgo",
+   "name": "Estrasburgo",
+   "localName": "Strasbourg",
+   "latitude": 48.5492,
+   "longitude": 7.7146,
+   "country": "Francia",
+   "countryCode": "FR",
+   "countryAliases": [
+    "francia",
+    "france"
+   ],
+   "aliases": [
+    "Estrasburgo",
+    "Strasbourg"
+   ],
+   "path": "data/eu/estrasburgo.json",
+   "extrasPath": "data/eu/estrasburgo-extras.json",
+   "catalogId": "estrasburgo",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "fr-burdeos",
+   "name": "Burdeos",
+   "localName": "Bordeaux",
+   "latitude": 44.833,
+   "longitude": -0.5812,
+   "country": "Francia",
+   "countryCode": "FR",
+   "countryAliases": [
+    "francia",
+    "france"
+   ],
+   "aliases": [
+    "Burdeos",
+    "Bordeaux"
+   ],
+   "path": "data/eu/burdeos.json",
+   "extrasPath": "data/eu/burdeos-extras.json",
+   "catalogId": "burdeos",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "nl-roterdam",
+   "name": "Róterdam",
+   "localName": "Rotterdam",
+   "latitude": 51.9205,
+   "longitude": 4.4813,
+   "country": "Países Bajos",
+   "countryCode": "NL",
+   "countryAliases": [
+    "paises bajos",
+    "países bajos",
+    "netherlands",
+    "holanda",
+    "holland"
+   ],
+   "aliases": [
+    "Róterdam",
+    "Rotterdam"
+   ],
+   "path": "data/eu/roterdam.json",
+   "extrasPath": "data/eu/roterdam-extras.json",
+   "catalogId": "roterdam",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "be-amberes",
+   "name": "Amberes",
+   "localName": "Antwerpen",
+   "latitude": 51.2119,
+   "longitude": 4.3122,
+   "country": "Bélgica",
+   "countryCode": "BE",
+   "countryAliases": [
+    "belgica",
+    "bélgica",
+    "belgium"
+   ],
+   "aliases": [
+    "Amberes",
+    "Antwerpen",
+    "Antwerp"
+   ],
+   "path": "data/eu/amberes.json",
+   "extrasPath": "data/eu/amberes-extras.json",
+   "catalogId": "amberes",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "lu-luxemburgo",
+   "name": "Luxemburgo",
+   "localName": "Luxembourg",
+   "latitude": 49.643,
+   "longitude": 6.1547,
+   "country": "Luxemburgo",
+   "countryCode": "LU",
+   "countryAliases": [
+    "luxemburgo",
+    "luxembourg"
+   ],
+   "aliases": [
+    "Luxemburgo",
+    "Luxembourg"
+   ],
+   "path": "data/eu/luxemburgo.json",
+   "extrasPath": "data/eu/luxemburgo-extras.json",
+   "catalogId": "luxemburgo",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "si-liubliana",
+   "name": "Liubliana",
+   "localName": "Ljubljana",
+   "latitude": 46.0554,
+   "longitude": 14.459,
+   "country": "Eslovenia",
+   "countryCode": "SI",
+   "countryAliases": [
+    "eslovenia",
+    "slovenia"
+   ],
+   "aliases": [
+    "Liubliana",
+    "Ljubljana"
+   ],
+   "path": "data/eu/liubliana.json",
+   "extrasPath": "data/eu/liubliana-extras.json",
+   "catalogId": "liubliana",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "sk-bratislava",
+   "name": "Bratislava",
+   "localName": "Bratislava",
+   "latitude": 48.1516,
+   "longitude": 17.0405,
+   "country": "Eslovaquia",
+   "countryCode": "SK",
+   "countryAliases": [
+    "eslovaquia",
+    "slovakia"
+   ],
+   "aliases": [
+    "Bratislava"
+   ],
+   "path": "data/eu/bratislava.json",
+   "extrasPath": "data/eu/bratislava-extras.json",
+   "catalogId": "bratislava",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "ro-bucarest",
+   "name": "Bucarest",
+   "localName": "București",
+   "latitude": 44.5272,
+   "longitude": 26.0419,
+   "country": "Rumanía",
+   "countryCode": "RO",
+   "countryAliases": [
+    "rumania",
+    "rumanía",
+    "romania"
+   ],
+   "aliases": [
+    "Bucarest",
+    "București",
+    "Bucharest"
+   ],
+   "path": "data/eu/bucarest.json",
+   "extrasPath": "data/eu/bucarest-extras.json",
+   "catalogId": "bucarest",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "bg-sofia",
+   "name": "Sofía",
+   "localName": "Sofia",
+   "latitude": 42.6335,
+   "longitude": 23.3994,
+   "country": "Bulgaria",
+   "countryCode": "BG",
+   "countryAliases": [
+    "bulgaria"
+   ],
+   "aliases": [
+    "Sofía",
+    "Sofia"
+   ],
+   "path": "data/eu/sofia.json",
+   "extrasPath": "data/eu/sofia-extras.json",
+   "catalogId": "sofia",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "rs-belgrado",
+   "name": "Belgrado",
+   "localName": "Beograd",
+   "latitude": 44.8113,
+   "longitude": 20.4526,
+   "country": "Serbia",
+   "countryCode": "RS",
+   "countryAliases": [
+    "serbia"
+   ],
+   "aliases": [
+    "Belgrado",
+    "Beograd",
+    "Belgrade"
+   ],
+   "path": "data/eu/belgrado.json",
+   "extrasPath": "data/eu/belgrado-extras.json",
+   "catalogId": "belgrado",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "ba-sarajevo",
+   "name": "Sarajevo",
+   "localName": "Sarajevo",
+   "latitude": 43.8276,
+   "longitude": 18.38,
+   "country": "Bosnia y Herzegovina",
+   "countryCode": "BA",
+   "countryAliases": [
+    "bosnia",
+    "bosnia y herzegovina",
+    "bosnia herzegovina"
+   ],
+   "aliases": [
+    "Sarajevo"
+   ],
+   "path": "data/eu/sarajevo.json",
+   "extrasPath": "data/eu/sarajevo-extras.json",
+   "catalogId": "sarajevo",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "me-kotor",
+   "name": "Kotor",
+   "localName": "Kotor",
+   "latitude": 42.4273,
+   "longitude": 18.7705,
+   "country": "Montenegro",
+   "countryCode": "ME",
+   "countryAliases": [
+    "montenegro"
+   ],
+   "aliases": [
+    "Kotor"
+   ],
+   "path": "data/eu/kotor.json",
+   "extrasPath": "data/eu/kotor-extras.json",
+   "catalogId": "kotor",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "mt-lavaleta",
+   "name": "La Valeta",
+   "localName": "Valletta",
+   "latitude": 35.9027,
+   "longitude": 14.4951,
+   "country": "Malta",
+   "countryCode": "MT",
+   "countryAliases": [
+    "malta"
+   ],
+   "aliases": [
+    "La Valeta",
+    "Valletta",
+    "La Valetta"
+   ],
+   "path": "data/eu/lavaleta.json",
+   "extrasPath": "data/eu/lavaleta-extras.json",
+   "catalogId": "lavaleta",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "lv-riga",
+   "name": "Riga",
+   "localName": "Riga",
+   "latitude": 56.9604,
+   "longitude": 24.1263,
+   "country": "Letonia",
+   "countryCode": "LV",
+   "countryAliases": [
+    "letonia",
+    "latvia"
+   ],
+   "aliases": [
+    "Riga"
+   ],
+   "path": "data/eu/riga.json",
+   "extrasPath": "data/eu/riga-extras.json",
+   "catalogId": "riga",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "lt-vilna",
+   "name": "Vilna",
+   "localName": "Vilnius",
+   "latitude": 54.6898,
+   "longitude": 25.2156,
+   "country": "Lituania",
+   "countryCode": "LT",
+   "countryAliases": [
+    "lituania",
+    "lithuania"
+   ],
+   "aliases": [
+    "Vilna",
+    "Vilnius"
+   ],
+   "path": "data/eu/vilna.json",
+   "extrasPath": "data/eu/vilna-extras.json",
+   "catalogId": "vilna",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "fr-alsacia",
+   "name": "Alsacia",
+   "localName": "Alsace",
+   "latitude": 48.212,
+   "longitude": 7.3805,
+   "country": "Francia",
+   "countryCode": "FR",
+   "countryAliases": [
+    "francia",
+    "france"
+   ],
+   "aliases": [
+    "Alsacia",
+    "Alsace"
+   ],
+   "path": "data/eu/alsacia.json",
+   "extrasPath": "data/eu/alsacia-extras.json",
+   "catalogId": "alsacia",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "de-selvanegra",
+   "name": "Selva Negra",
+   "localName": "Schwarzwald",
+   "latitude": 48.1528,
+   "longitude": 8.0813,
+   "country": "Alemania",
+   "countryCode": "DE",
+   "countryAliases": [
+    "alemania",
+    "germany"
+   ],
+   "aliases": [
+    "Selva Negra",
+    "Schwarzwald",
+    "Black Forest"
+   ],
+   "path": "data/eu/selvanegra.json",
+   "extrasPath": "data/eu/selvanegra-extras.json",
+   "catalogId": "selvanegra",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-toscana",
+   "name": "Toscana",
+   "localName": "Toscana",
+   "latitude": 43.4717,
+   "longitude": 11.0926,
+   "country": "Italia",
+   "countryCode": "IT",
+   "countryAliases": [
+    "italia",
+    "italy"
+   ],
+   "aliases": [
+    "Toscana",
+    "Tuscany"
+   ],
+   "path": "data/eu/toscana.json",
+   "extrasPath": "data/eu/toscana-extras.json",
+   "catalogId": "toscana",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "fr-provenza",
+   "name": "Provenza",
+   "localName": "Provence",
+   "latitude": 43.796,
+   "longitude": 5.1541,
+   "country": "Francia",
+   "countryCode": "FR",
+   "countryAliases": [
+    "francia",
+    "france"
+   ],
+   "aliases": [
+    "Provenza",
+    "Provence"
+   ],
+   "path": "data/eu/provenza.json",
+   "extrasPath": "data/eu/provenza-extras.json",
+   "catalogId": "provenza",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-cinqueterre",
+   "name": "Cinque Terre",
+   "localName": "Cinque Terre",
+   "latitude": 44.1644,
+   "longitude": 9.5925,
+   "country": "Italia",
+   "countryCode": "IT",
+   "countryAliases": [
+    "italia",
+    "italy"
+   ],
+   "aliases": [
+    "Cinque Terre"
+   ],
+   "path": "data/eu/cinqueterre.json",
+   "extrasPath": "data/eu/cinqueterre-extras.json",
+   "catalogId": "cinqueterre",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-amalfitana",
+   "name": "Costa Amalfitana",
+   "localName": "Costiera Amalfitana",
+   "latitude": 40.6352,
+   "longitude": 14.498,
+   "country": "Italia",
+   "countryCode": "IT",
+   "countryAliases": [
+    "italia",
+    "italy"
+   ],
+   "aliases": [
+    "Costa Amalfitana",
+    "Costiera Amalfitana",
+    "Amalfi"
+   ],
+   "path": "data/eu/amalfitana.json",
+   "extrasPath": "data/eu/amalfitana-extras.json",
+   "catalogId": "amalfitana",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-dolomitas",
+   "name": "Dolomitas",
+   "localName": "Dolomiti",
+   "latitude": 46.5929,
+   "longitude": 11.8046,
+   "country": "Italia",
+   "countryCode": "IT",
+   "countryAliases": [
+    "italia",
+    "italy"
+   ],
+   "aliases": [
+    "Dolomitas",
+    "Dolomiti",
+    "Dolomites"
+   ],
+   "path": "data/eu/dolomitas.json",
+   "extrasPath": "data/eu/dolomitas-extras.json",
+   "catalogId": "dolomitas",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "it-como",
+   "name": "Lago de Como",
+   "localName": "Lago di Como",
+   "latitude": 45.8979,
+   "longitude": 9.1694,
+   "country": "Italia",
+   "countryCode": "IT",
+   "countryAliases": [
+    "italia",
+    "italy"
+   ],
+   "aliases": [
+    "Lago de Como",
+    "Lago di Como",
+    "Lake Como",
+    "Como"
+   ],
+   "path": "data/eu/como.json",
+   "extrasPath": "data/eu/como-extras.json",
+   "catalogId": "como",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "fr-normandia",
+   "name": "Normandía",
+   "localName": "Normandie",
+   "latitude": 49.2873,
+   "longitude": -0.1479,
+   "country": "Francia",
+   "countryCode": "FR",
+   "countryAliases": [
+    "francia",
+    "france"
+   ],
+   "aliases": [
+    "Normandía",
+    "Normandie",
+    "Normandy"
+   ],
+   "path": "data/eu/normandia.json",
+   "extrasPath": "data/eu/normandia-extras.json",
+   "catalogId": "normandia",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "fr-loira",
+   "name": "Valle del Loira",
+   "localName": "Val de Loire",
+   "latitude": 47.4518,
+   "longitude": 1.0827,
+   "country": "Francia",
+   "countryCode": "FR",
+   "countryAliases": [
+    "francia",
+    "france"
+   ],
+   "aliases": [
+    "Valle del Loira",
+    "Val de Loire",
+    "Loira",
+    "Loire"
+   ],
+   "path": "data/eu/loira.json",
+   "extrasPath": "data/eu/loira-extras.json",
+   "catalogId": "loira",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "ro-transilvania",
+   "name": "Transilvania",
+   "localName": "Transilvania",
+   "latitude": 45.7819,
+   "longitude": 25.0099,
+   "country": "Rumanía",
+   "countryCode": "RO",
+   "countryAliases": [
+    "rumania",
+    "rumanía",
+    "romania"
+   ],
+   "aliases": [
+    "Transilvania",
+    "Transylvania"
+   ],
+   "path": "data/eu/transilvania.json",
+   "extrasPath": "data/eu/transilvania-extras.json",
+   "catalogId": "transilvania",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  },
+  {
+   "id": "gb-highlands",
+   "name": "Highlands",
+   "localName": "Scottish Highlands",
+   "latitude": 57.2416,
+   "longitude": -4.7292,
+   "country": "Reino Unido",
+   "countryCode": "GB",
+   "countryAliases": [
+    "reino unido",
+    "united kingdom",
+    "uk",
+    "gran bretaña",
+    "escocia",
+    "scotland"
+   ],
+   "aliases": [
+    "Highlands",
+    "Scottish Highlands",
+    "Tierras Altas de Escocia"
+   ],
+   "path": "data/eu/highlands.json",
+   "extrasPath": "data/eu/highlands-extras.json",
+   "catalogId": "highlands",
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "curated": true
+  }
+ ]
 }

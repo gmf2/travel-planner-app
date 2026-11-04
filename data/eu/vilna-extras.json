@@ -1,0 +1,121 @@
+{
+ "schemaVersion": 1,
+ "cityId": "vilna",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "dziaugsmas",
+   "name": "Džiaugsmas · cocina de producto local",
+   "address": "Vilniaus g. 28, Vilna 01144",
+   "description": "Carta y degustación de cocina moderna con producto local. El sistema propio anuncia una degustación corta de cinco pases martes-jueves, sin precio recuperado.",
+   "strength": "Ficha MICHELIN actual: una estrella; dirección y concepto coinciden con el sistema de reservas propio.",
+   "alert": "Sistema propio muestra lunes cerrado; directorio externo dice lunes abierto. Horarios completos y precio pendientes de confirmación.",
+   "compactAlert": "Lunes contradictorio, confirmar.",
+   "caution": "No se ha reservado. Precio, horarios completos y foto real de comida pendiente; ilustración IA conceptual disponibles; ubicación Maps comprobada. Terraza con mal tiempo no garantiza mesa interior. Gastronomy Week 2026 anuncia degustación de 60 € durante el evento: no es carta habitual ni precio de los cinco pases de Tablein. Precio y hora del producto pendientes para la fecha.",
+   "officialUrl": "https://www.dziaugsmas.com/",
+   "editorialUrl": "https://guide.michelin.com/en/vilnius-region/vilnius_1985479/restaurant/dziaugsmas",
+   "sourceUrls": [
+    "https://dziaugsmas.tablein.com/en",
+    "https://gastrosavaite.greet.lt/en/restaurants/dziaugsmas"
+   ],
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "priceLabel": "Precio no recuperado en fuente propia. No se inventa un menú ni un importe.",
+   "compactPrice": "Precio por confirmar",
+   "photo": {
+    "img": "assets/vilna/dziaugsmas-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes lituanos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes lituanos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=D%C5%BEiaugsmas&query_place_id=ChIJX5ha2xOU3UYRheGrhxlkZho",
+   "placeId": "ChIJX5ha2xOU3UYRheGrhxlkZho",
+   "lat": 54.6829234,
+   "lng": 25.2804961,
+   "locationCheckedAt": "2026-11-03",
+   "locationEvidence": "Ficha Maps coincide en nombre y dirección. Solo ubicación, no validación de horario, apertura futura, carta o accesibilidad.",
+   "realPhotoPending": true
+  },
+  {
+   "id": "snekutis",
+   "name": "Šnekutis · cocina lituana de taberna",
+   "address": "Šv. Mikalojaus g. 15, Vilna 01133",
+   "description": "Taberna informal para cepelinai, tortitas de patata de Žemaitija, sopa fría de remolacha y cerveza local. Raciones contundentes y ambiente animado; mejor si apetece cocina casera y bar, no una cena silenciosa.",
+   "strength": "Visit Baltics destaca comida lituana abundante y precios contenidos en el casco antiguo; coincide con la selección de platos de la web propia.",
+   "alert": "Web propia lunes-domingo 11-23. Precio propio no publicado en texto recuperado; confirmar carta del día. Por la noche aconsejan reservar.",
+   "compactAlert": "11-23 según propio. Precio actual por confirmar; ambiente de bar.",
+   "caution": "No usar la dirección antigua Polocko 7A ni su horario de directorios para esta selección. Web propia ofrece almuerzo laborable con menú del día en Facebook, no precio fijo recuperado. Foto propia descargada es retrato, no carta; no aporta precios. Sin reserva. Foto licenciada de comida pendiente; ubicación Maps coincide con fuente propia. Confirmar alérgenos y accesibilidad.",
+   "officialUrl": "https://snekutis.com/",
+   "editorialUrl": "https://visitbaltics.net/snekutis-bar-restaurant-in-vilnius-lithuania-2/",
+   "sourceUrls": [
+    "https://snekutis.com/food",
+    "https://snekutis.com/contact"
+   ],
+   "status": "partial-source-verified",
+   "priceLabel": "Propio sin precios recuperados. Visit Baltics orienta sopas 6-7 € y principales 10-15 €: referencia editorial, no tarifa propia actual ni comida completa garantizada.",
+   "compactPrice": "Principal 10-15 € orientativos editoriales; propio pendiente.",
+   "photo": {
+    "img": "assets/vilna/dziaugsmas-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes lituanos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes lituanos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local. Concepto regional compartido entre fichas, no producto específico de este local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "statusCheckedAt": "2026-11-03",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%C5%A0nekutis&query_place_id=ChIJsxk72xSU3UYR6bIs9rEGdHU",
+   "placeId": "ChIJsxk72xSU3UYR6bIs9rEGdHU",
+   "lat": 54.6778717,
+   "lng": 25.2824831,
+   "locationCheckedAt": "2026-11-03",
+   "locationEvidence": "Ficha Maps coincide en nombre y dirección con fuente propia. Solo ubicación, no validación de horario, apertura futura, carta o accesibilidad.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "vilna_flavors",
+   "name": "Vilnius with Locals · degustación lituana",
+   "address": "Puerta de la Aurora, Aušros Vartų 14, Vilna: confirmar punto exacto con operador",
+   "description": "Paseo con pequeños bocados de queso, pan de centeno, pescado, embutidos y dulce, con dos variedades de hidromiel u opción sin alcohol. Son degustaciones de uno o dos bocados, no una comida completa. Inglés, grupo máximo 10, solo adultos de 20 años o más.",
+   "duration": "2,5 horas publicadas, normalmente sábado por la tarde. Comprobar calendario para fecha; no hay sesión confirmada.",
+   "compactDuration": "2,5 h · inglés · sábados según calendario · 20+",
+   "priceLabel": "55 €/persona con pago anticipado. La ficha dice 10 € más al pagar en el punto de encuentro si quedan plazas. Degustaciones indicadas incluidas; privado con disponibilidad y precio aparte.",
+   "compactPrice": "55 €/persona anticipado; +10 € en punto de encuentro.",
+   "officialUrl": "https://www.vilniuswithlocals.com/tours/lithuanian-flavors-experience",
+   "sourceUrls": [
+    "https://www.vilniuswithlocals.com/faq"
+   ],
+   "status": "partial-source-verified",
+   "statusEvidence": "Ficha y FAQ propias leídas el 03/11/2026. La ficha sitúa salida en Puerta de la Aurora pero alterna lados Bazilijonu/Dauksos; FAQ general la sitúa en Literatų 5. Usar confirmación del operador, no acudir directamente con esta ficha.",
+   "alert": "Reembolso completo con al menos 72 h. Texto propio promete 50% entre 48-72 h solo para privado, no aclara regular. Menos de 48 h/no-show sin reembolso. Punto de salida contradictorio entre ficha y FAQ. No apto veganos; vegetarianos y restricciones con aviso previo, sin garantía para alergias.",
+   "compactAlert": "20+ · no vegano · no sustituye cena. Salida contradictoria: confirmar. Reembolso total ≥72 h.",
+   "caution": "Sin reserva ni plazas verificadas. Avisar alergias antes: bocados con lácteos, huevo y gluten y bebidas con polvo de bellota. Adaptación vegetariana previa; no asumir seguridad de contaminación cruzada. Confirmar escalones, recorrido y política del tour regular entre 48-72 h. No extrapolar descuentos infantiles o salidas de otros tours.",
+   "photo": {
+    "img": "assets/vilna/vilna_flavors-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Calle de Vilna imaginada, no restaurantes ni degustaciones de Vilnius with Locals. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Calle de Vilna imaginada, no restaurantes ni degustaciones de Vilnius with Locals. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "statusCheckedAt": "2026-11-03",
+   "realPhotoPending": true
+  }
+ ]
+}

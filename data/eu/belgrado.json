@@ -1,0 +1,850 @@
+{
+ "schemaVersion": 1,
+ "country": "RS",
+ "id": "belgrado",
+ "name": "Belgrado",
+ "localName": "Beograd",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "republica",
+   "name": "Plaza de la República",
+   "kind": "walk",
+   "zone": "Stari Grad",
+   "reason": "El punto de encuentro de Belgrado: la estatua del príncipe Miguel a caballo (1882), la fachada del Museo Nacional y el Teatro Nacional; desde aquí nace la calle Knez Mihailova.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.8162216,
+    "lon": 20.4602953
+   },
+   "coordinateSource": "Трг републике, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "El Museo Nacional de Serbia (en la plaza) no está en la lista de la guía: ampliación opcional.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/belgrado/republica.jpg",
+    "source": "https://www.pexels.com/photo/equestrian-statue-of-prince-mihailo-in-belgrade-33968900/",
+    "author": "Celil DOĞAN",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Monumento ecuestre y Museo Nacional en la Plaza de la República. No incluye visita interior al museo.",
+    "alt": "Monumento ecuestre y Museo Nacional en la Plaza de la República. No incluye visita interior al museo."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "mihailova",
+   "name": "Calle Knez Mihailova",
+   "kind": "walk",
+   "zone": "Stari Grad",
+   "reason": "Calle peatonal del centro entre fachadas, comercios y cafés, hacia Kalemegdan. Consumos y horarios de tiendas son independientes del paseo.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.8186849,
+    "lon": 20.4554569
+   },
+   "coordinateSource": "Кнеза Михаила, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/belgrado/mihailova.jpg",
+    "alt": "Calle Knez Mihailova: edificio de la Academia Serbia de Ciencias y Artes, con su rótulo en cirílico. Detalle de una fachada, no una vista de toda la calle.",
+    "caption": "Calle Knez Mihailova: edificio de la Academia Serbia de Ciencias y Artes, con su rótulo en cirílico. Detalle de una fachada, no una vista de toda la calle.",
+    "author": "Zehra Aynacı",
+    "source": "https://www.pexels.com/photo/historic-neo-renaissance-architecture-in-belgrade-29263051/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.sanu.ac.rs/files/byec/venue.html"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "princesa_ljubica",
+   "name": "Konak de la Princesa Ljubica",
+   "kind": "monument",
+   "zone": "Stari Grad",
+   "reason": "La residencia balcánica de 1831 de la esposa del príncipe Miloš: sede del Museo de la Ciudad de Belgrado, con interiores otomanos y europeos del siglo XIX a un paso de la catedral.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "konak-own"
+   ],
+   "coordinates": {
+    "lat": 44.817105,
+    "lon": 20.4522352
+   },
+   "coordinateSource": "Конак кнегиње Љубице, Кнеза Симе Марковића 8, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Interior del Museo de la Ciudad verificado. El domingo depende de la función; comprobar programación y posibles excepciones.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes, miércoles, jueves y sábado 10-17; viernes 10-18; domingo 10-14, o 10-13 si hay función de Café con la Princesa. Lunes cerrado.",
+    "source": "http://www.mgb.org.rs/visit/details/8"
+   },
+   "price": "300 RSD general; 150 RSD reducida (alumnos, estudiantes, desempleados y pensionistas). Gratis el último sábado de mes y menores de 7 años.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/belgrado/princesa_ljubica-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Konak de la Princesa Ljubica, mansión imaginada. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Konak de la Princesa Ljubica, mansión imaginada. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Interior del Konak de la Princesa Ljubica",
+    "noticeLabel": "Interior del Konak de la Princesa Ljubica",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "weekdayNotices": [
+     {
+      "weekday": 0,
+      "text": "Domingo10-14 o10-13 si hay función Café con la Princesa; comprobar programación."
+     }
+    ],
+    "notices": [
+     "Martes/miércoles/jueves/sábado10-17; viernes10-18. Último sábado del mes gratis; no implica función incluida."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "kalemegdan",
+   "name": "Fortaleza de Kalemegdan",
+   "kind": "park",
+   "zone": "Kalemegdan",
+   "reason": "El corazón histórico de la ciudad sobre la confluencia del Sava y el Danubio: el parque más paseado de Belgrado con la Puerta de Estambul, la torre del reloj, el monumento del Vencedor y la vista de la desembocadura.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "tvrdjava"
+   ],
+   "coordinates": {
+    "lat": 44.8233906,
+    "lon": 20.450875
+   },
+   "coordinateSource": "Калемегдан, Стари град, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "No trasladar un horario a toda la fortaleza. Nebojša abre de miércoles a domingo10-17 en ventana octubre-marzo; Sahatgalería/tienda ma-do10-17. Para pozo,búnker,casamatas y polvorín la página solo detalla abril-octubre: noviembre por confirmar. Paseo y vistas no incluyen acceso de pago.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Paseo exterior como base. Nebojša miércoles-domingo10-17 octubre-marzo. Sahatgalería/tienda ma-do10-17 octubre-marzo. Pozo,búnker,casamatas y polvorín solo detallan hasta31oct; noviembre pendiente.",
+    "source": "https://www.beogradskatvrdjava.co.rs/%d0%b8%d0%bd%d1%84%d0%be/?lang=en"
+   },
+   "price": "Parque exterior sin entrada de atracción. Nebojša270RSDgeneral/150reducida. Galería/tiendaSahatgratis. Otros importes120-400RSD aparecen junto a ventanas hasta31oct, no tarifa/servicio de invierno garantizados.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/belgrado/kalemegdan.jpg",
+    "source": "https://www.pexels.com/photo/kalemegdan-fortress-with-clock-tower-in-belgrade-39497088/",
+    "author": "Boris Hamer",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Murallas y torre del reloj de Kalemegdan. Exterior; no acredita acceso a pozo, búnker o museos.",
+    "alt": "Murallas y torre del reloj de Kalemegdan. Exterior; no acredita acceso a pozo, búnker o museos."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Atracciones interiores concretas de la fortaleza, no parque",
+    "noticeLabel": "Atracciones interiores concretas de la fortaleza, no parque",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Nebojsa: miércoles-domingo10-17 octubre-marzo,270RSD/150reducida. Sahatgalería/tienda: martes-domingo10-17 octubre-marzo,gratis. Pozo,búnker,casamatas,polvorín solo publican ventana de octubre; noviembre sin confirmar, no cierre inventado de todo el recinto."
+    ]
+   }
+  },
+  {
+   "id": "mercados",
+   "name": "Mercado Zeleni Venac",
+   "kind": "market",
+   "zone": "Savski Venac",
+   "reason": "Mercado de barrio Zeleni Venac como parada de mañana. Kalenić es otro mercado en Vračar, no parte de esta misma coordenada o visita.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.8128631,
+    "lon": 20.4575273
+   },
+   "coordinateSource": "Зелени венац (mercado), Београд (Nominatim); Kalenić en Vračar mencionado",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "Horario de puestos y actividad por fecha sin verificar en operador. No prometer todos los puestos abiertos ni acumular Kalenić a3km como si fuera el mismo mercado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Horarios no verificados en primaria; mercados de barrio con actividad de mañana (la guía recomienda desayunar en Zeleni Venac).",
+    "source": "caution-sin-primaria"
+   },
+   "price": "Entrada libre.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/belgrado/mercados-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Zeleni Venac, mercado imaginado sin puestos o precios reales. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Zeleni Venac, mercado imaginado sin puestos o precios reales. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "terazije",
+   "name": "Plaza Terazije y el Hotel Moskva",
+   "kind": "walk",
+   "zone": "Terazije",
+   "reason": "El otro centro de la ciudad: la fuente de Terazije, el Palace Albanija (primer rascacielos de los Balcanes, 1940) y el Hotel Moskva (1908), joya secesionista donde comer su famosa tarta Moskva šnit.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.812876,
+    "lon": 20.4604199
+   },
+   "coordinateSource": "Хотел Москва, Теразије, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Hotel en funcionamiento: la visita es exterior + café/pastelería (consumición).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/belgrado/terazije.jpg",
+    "source": "https://www.pexels.com/photo/hotel-building-on-busy-city-street-32990474/",
+    "author": "Mustafa S.",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Hotel Moskva y entorno de Terazije desde la calle. Hotel en uso; no incluye consumición ni visita interior.",
+    "alt": "Hotel Moskva y entorno de Terazije desde la calle. Hotel en uso; no incluye consumición ni visita interior."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "bombardeados",
+   "name": "Los edificios bombardeados",
+   "kind": "monument",
+   "zone": "Savski Venac",
+   "reason": "Las ruinas deliberadamente conservadas del Ministerio de Defensa y el Estado Mayor yugoslavos, bombardeados por la OTAN en 1999: la herida abierta del centro que explica la Serbia reciente.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.8056,
+    "lon": 20.4602
+   },
+   "coordinateSource": "Punto editorial: edificio bombardeado del Ministerio de Defensa/Generalštab, Kneza Miloša esq. Nemanjina (sin nodo Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Ruinas vallas, no museo: parada exterior de memoria; máximo respeto. Coordenada editorial (sin nodo OSM) en Kneza Miloša esq. Nemanjina.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/belgrado/bombardeados-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: edificios dañados, concepto imaginado, no estado actual de los edificios. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en edificios dañados, concepto imaginado, no estado actual de los edificios. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "palacios",
+   "name": "Palacio Viejo y Palacio Nuevo",
+   "kind": "monument",
+   "zone": "Andrićev venac",
+   "reason": "El Stari dvor (1884, hoy ayuntamiento) y el Novi dvor (1922, hoy Presidencia) frente a frente: los dos palacios de las dinastías Obrenović y Karađorđević que resumen la historia del estado serbio.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.8108521,
+    "lon": 20.4626015
+   },
+   "coordinateSource": "Стари двор (Palacio Viejo), Београд (Nominatim); Novi dvor enfrente",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Edificios institucionales en uso: parada exterior (el Stari dvor abre en visitas guiadas puntuales no verificadas).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/belgrado/palacios-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: palacios de Belgrado, concepto urbano sin plano exacto. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en palacios de Belgrado, concepto urbano sin plano exacto. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "asamblea",
+   "name": "Asamblea Nacional de Serbia",
+   "kind": "monument",
+   "zone": "Pl. Nikola Pašić",
+   "reason": "El parlamento neobarroco (1936) con los caballos de Toma Rosandić en la entrada, escenario de las protestas de octubre de 2000 que acabaron con Milošević.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.8117274,
+    "lon": 20.4659316
+   },
+   "coordinateSource": "Дом Народне скупштине, Трг Николе Пашића, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "El interior solo con visitas concertadas por grupos (no verificado): parada exterior.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/belgrado/asamblea.jpg",
+    "source": "https://www.pexels.com/photo/serbian-national-assembly-in-belgrade-39494877/",
+    "author": "Evrim Kantar",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada y cúpula de la Asamblea Nacional de Serbia. Parada exterior, no visita parlamentaria concertada.",
+    "alt": "Fachada y cúpula de la Asamblea Nacional de Serbia. Parada exterior, no visita parlamentaria concertada."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sanmarcos",
+   "name": "Iglesia de San Marcos",
+   "kind": "monument",
+   "zone": "Tašmajdan",
+   "reason": "Iglesia de San Marcos junto al parque Tašmajdan. Parada exterior; el interior de culto y sus contenidos no se incluyen sin confirmar acceso.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.8104492,
+    "lon": 20.468929
+   },
+   "coordinateSource": "Црква Светог Марка, Ташмајдан, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Horario turístico e interior sin verificar en fuente primaria. Parada exterior base, fuera de culto. No se presume entrada gratuita.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/belgrado/sanmarcos.jpg",
+    "alt": "Iglesia de San Marcos de Belgrado: fachada y cúpulas serbobizantinas desde Tašmajdan. Vista exterior, no muestra el interior.",
+    "caption": "Iglesia de San Marcos de Belgrado: fachada y cúpulas serbobizantinas desde Tašmajdan. Vista exterior, no muestra el interior.",
+    "author": "Sukran",
+    "source": "https://www.pexels.com/photo/st-mark-s-church-in-belgrade-on-a-sunny-day-38148450/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://religiana.com/st-marks-church-belgrade"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso turístico interior de Iglesia de San Marcos",
+    "noticeLabel": "Acceso turístico interior de Iglesia de San Marcos",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Templo activo: horario turístico y posible entrada sin confirmar. La parada base es exterior; culto no equivale a acceso turístico."
+    ]
+   }
+  },
+  {
+   "id": "tesla",
+   "name": "Museo Nikola Tesla",
+   "kind": "museum",
+   "zone": "Vračar",
+   "reason": "Museo dedicado a Nikola Tesla: objetos personales, documentos y demostraciones de sus aparatos en visita guiada. Idioma y aforo dependen del día.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "tesla"
+   ],
+   "coordinates": {
+    "lat": 44.805105,
+    "lon": 20.4706999
+   },
+   "coordinateSource": "Музеј Николе Тесле, Крунска 51, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Tours al inicio de cada hora, unos 45 minutos. La tabla de idiomas y aforo es del 3 de noviembre de 2026, no un horario anual fijo. Verificar el día. Sin reserva individual; recomiendan llegar 15 minutos antes. Grupos de más de 10: reservar al menos 1 día antes. Llegar no garantiza plaza.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lunes10-18;martes-domingo10-20. Tours al comienzo de cada hora~45min;idioma/aforo se publican por día, no horario anual de inglés.",
+    "source": "https://tesla-museum.org/en/visit/plan-your-visit/"
+   },
+   "price": "800 RSD individual en inglés; 400 RSD en serbio. Grupos de más de 10: 500/250 RSD. Solo efectivo en moneda local, no tarjetas.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/belgrado/tesla-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo Tesla, villa imaginada sin inventos inventados. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo Tesla, villa imaginada sin inventos inventados. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Tour guiado del Museo Nikola Tesla",
+    "noticeLabel": "Tour guiado del Museo Nikola Tesla",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "specialDates": [
+     {
+      "date": "2026-11-03",
+      "text": "Tabla propia3noviembre:10,11y15 llenos;16y17 reservados para grupo grande. Inglés12,13,14,18,19 listado, no aforo garantizado. Verificar antes de llegar."
+     }
+    ],
+    "weekdayNotices": [
+     {
+      "weekday": 1,
+      "text": "Lunes abre10-18, no20. Tours por horas; idioma y aforo del día se consultan, no patrón fijo."
+     }
+    ],
+    "notices": [
+     "Mar-dom10-20, tours al comienzo de cada hora~45min. Inglés800RSD/serbio400, solo efectivo en RSD. Individual sin reserva, llegar15min antes no garantiza plaza. Grupo de más10 requiere contacto al menos1día antes."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "skadarlija",
+   "name": "Skadarlija, el barrio bohemio",
+   "kind": "walk",
+   "zone": "Skadarlija",
+   "reason": "El Montmartre belgradense: la calle empedrada de finales del XIX con las kafanas históricas (Tri šešira, Dva jelena), música tamburica en vivo y las cenas más con ambiente de la ciudad.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.8180993,
+    "lon": 20.4647579
+   },
+   "coordinateSource": "Скадарска, Скадарлија, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Barrio de restaurantes: mejor al final de la tarde/noche; los precios de las kafanas turísticas son más altos que en el resto de la ciudad.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/belgrado/skadarlija-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Skadarlija, calle imaginada. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Skadarlija, calle imaginada. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "sansava",
+   "name": "Templo de San Sava",
+   "kind": "monument",
+   "zone": "Vračar",
+   "reason": "Templo ortodoxo de San Sava en Vračar, con cúpula y plaza exterior. Visita individual del templo fuera del culto; cripta y programas guiados son accesos distintos.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "sava-hours1196",
+    "sava-entry1196"
+   ],
+   "coordinates": {
+    "lat": 44.7980453,
+    "lon": 20.4691884
+   },
+   "coordinateSource": "Храм Светог Саве, Врачар, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "La web propia publica08-20para el templo y07-19para la iglesia pequeña. Comunicado18/02/2023 aclara entrada gratuita al templo, no guía gratuita para grupos. Culto y eventos prevalecen; cripta, ruta accesible y programas especiales no quedan garantizados por esta entrada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo principal08-20; iglesia pequeña07-19 según web del templo. Culto y eventos pueden limitar la visita turística.",
+    "source": "https://hramsvetogsave.rs/dozivite-hram/"
+   },
+   "price": "Entrada al templo sin cobro según comunicado propio18/02/2023 aún publicado. Guía para grupos es un servicio distinto; cripta y programas especiales por confirmar.",
+   "visitMode": "Templo principal según acceso; cripta aparte",
+   "photo": {
+    "img": "assets/belgrado/sansava.jpg",
+    "source": "https://www.pexels.com/photo/saint-sava-temple-with-musician-in-spring-37769020/",
+    "author": "Sukran",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada y cúpula del templo de San Sava. Exterior; no implica acceso interior ni actuación musical programada.",
+    "alt": "Fachada y cúpula del templo de San Sava. Exterior; no implica acceso interior ni actuación musical programada."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso turístico interior de Templo de San Sava",
+    "noticeLabel": "Acceso turístico interior de Templo de San Sava",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Templo08-20; iglesia pequeña07-19. Entrada al templo sin cobro según comunicado propio; guía y cripta no incluidas automáticamente. Respetar culto y eventos."
+    ]
+   }
+  },
+  {
+   "id": "casa_flores",
+   "name": "Casa de las Flores y Museo de Yugoslavia",
+   "kind": "museum",
+   "zone": "Dedinje",
+   "reason": "La memoria de la Yugoslavia de Tito: su tumba en el invernadero de la Casa de las Flores, el Museo 25 de Mayo con los regalos de estado y las antorchas del relevo de la juventud, y el relato del país que ya no existe.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "mij"
+   ],
+   "coordinates": {
+    "lat": 44.7867558,
+    "lon": 20.4516267
+   },
+   "coordinateSource": "Кућа цвећа (Museo de Yugoslavia), Михаила Мике Јанковића 6, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Martes a domingo 10-18; lunes cerrado. La web señala cierres el 1 y 7 de enero y en Pascua ortodoxa (10, 12 y 13 de abril): esas fechas corresponden a 2026, no a todos los años. Tour en inglés los sábados a las 11 según página actual. Traslado desde San Sava pendiente de operador; no se garantizan líneas 40/41.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes-domingo 10:00-18:00; LUNES CERRADO; también 1 ene, 7 ene y la Pascua ortodoxa (10, 12 y 13 abr). Visita guiada en inglés los sábados a las 11:00.",
+    "source": "https://muzej-jugoslavije.org/en/posetite-nas/"
+   },
+   "price": "800RSDgeneral,600residentesSerbia;400estudiantes/alumnos,200si además residentes. Menores10gratis y primer jueves del mes visitas individualesgratis. Documentos para reducciones.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/belgrado/casa_flores-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Casa de las Flores, concepto de jardín y edificio, no reproducción del memorial. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Casa de las Flores, concepto de jardín y edificio, no reproducción del memorial. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "closedMonthDays": [],
+   "closedDates": [
+    "2026-04-10",
+    "2026-04-12",
+    "2026-04-13"
+   ],
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo de Yugoslavia y Casa de las Flores",
+    "noticeLabel": "Museo de Yugoslavia y Casa de las Flores",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "notices": [
+     "Martes-domingo10-18. Inglés sábados11 según operador. Primer jueves del mes gratis para visita individual; entrada800RSDgeneral,400estudiantes. Las fechas de Pascua publicadas10/12/13abril no se hacen anuales."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "zemun",
+   "name": "Zemun y la torre Gardoš",
+   "kind": "excursion",
+   "zone": "Zemun (Belgrado)",
+   "reason": "El barrio que fue frontera del Imperio austrohúngaro: casas imperiales, el paseo del Danubio con restaurantes de pescado y la subida a la torre Gardoš (1896) con la mejor panorámica de Zemun y Belgrado.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.8483228,
+    "lon": 20.4097307
+   },
+   "coordinateSource": "Кула Гардош (torre Gardoš), Земун, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Transporte y horario de Gardoš sin fuente primaria actual. Paseo exterior opcional respetando accesos públicos. Torre, subida interior y precio por confirmar. La panorámica depende de acceso, terreno y tiempo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Barrio y colina gratuitos; torre Gardoš con entrada pequeña cuando abre (no verificada en primaria).",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/belgrado/zemun.jpg",
+    "alt": "Zemun: tejados del casco antiguo y el Danubio vistos desde la colina de Gardoš. La torre no aparece en esta panorámica.",
+    "caption": "Zemun: tejados del casco antiguo y el Danubio vistos desde la colina de Gardoš. La torre no aparece en esta panorámica.",
+    "author": "Boris Hamer",
+    "source": "https://www.pexels.com/photo/scenic-view-of-zemun-and-danube-river-32237269/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.tob.rs/en/zemun-kat"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ada",
+   "name": "Ada Ciganlija, la playa de Belgrado",
+   "kind": "excursion",
+   "zone": "Ada Ciganlija (río Sava)",
+   "reason": "La isla fluvial convertida en península: 7 km de playas de guijarros en el Sava, el 'mar de Belgrado' con bares flotantes (splavovi), deportes acuáticos y el parque arbolado del lago Sava.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.7844366,
+    "lon": 20.3810367
+   },
+   "coordinateSource": "Ада Циганлија, Чукарица, Београд (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Muy estacional: es plan de VERANO (playa y baño); fuera de temporada es solo un paseo de parque. Instalaciones de pago puntuales (deportes, tumbonas) no verificadas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre; deportes acuáticos y servicios de pago.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/belgrado/ada-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Ada Ciganlija, lago imaginado en verano, no seguridad actual del baño. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Ada Ciganlija, lago imaginado en verano, no seguridad actual del baño. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "La Knez Mihailova y la fortaleza",
+     "zone": "Zeleni Venac → Terazije → República → Knez Mihailova → Konak Ljubica → Kalemegdan",
+     "stopIds": [
+      "mercados",
+      "terazije",
+      "republica",
+      "mihailova",
+      "princesa_ljubica",
+      "kalemegdan"
+     ],
+     "editorialNote": "Mercado por la mañana, no al final del día tras la fortaleza. Terazije exterior con consumición opcional no incluida. Konak como museo si encaja el horario, lunes cerrado. Paseo exterior por la fortaleza antes de anochecer según luz; las atracciones interiores tienen su propio calendario."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "La Knez Mihailova y la fortaleza",
+     "zone": "Zeleni Venac → Terazije → República → Knez Mihailova → Konak Ljubica → Kalemegdan",
+     "stopIds": [
+      "mercados",
+      "terazije",
+      "republica",
+      "mihailova",
+      "princesa_ljubica",
+      "kalemegdan"
+     ],
+     "editorialNote": "Mercado por la mañana, no al final del día tras la fortaleza. Terazije exterior con consumición opcional no incluida. Konak como museo si encaja el horario, lunes cerrado. Paseo exterior por la fortaleza antes de anochecer según luz; las atracciones interiores tienen su propio calendario."
+    },
+    {
+     "title": "Poder y memoria: del 99 a Tesla",
+     "zone": "Edificios bombardeados → Palacios Viejo y Nuevo → Asamblea → San Marcos → Museo Nikola Tesla → Skadarlija",
+     "stopIds": [
+      "bombardeados",
+      "palacios",
+      "asamblea",
+      "sanmarcos",
+      "tesla",
+      "skadarlija"
+     ],
+     "editorialNote": "Paradas institucionales exteriores y Tesla como entrada principal. Comprobar idioma y aforo del día: la tabla del 3 de noviembre no es un horario anual. Solo efectivo en RSD, sin reserva individual. San Marcos interior solo si el acceso está confirmado. Skadarlija como paseo o comida opcional, sin concierto incluido."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "La Knez Mihailova y la fortaleza",
+     "zone": "Zeleni Venac → Terazije → República → Knez Mihailova → Konak Ljubica → Kalemegdan",
+     "stopIds": [
+      "mercados",
+      "terazije",
+      "republica",
+      "mihailova",
+      "princesa_ljubica",
+      "kalemegdan"
+     ],
+     "editorialNote": "Mercado por la mañana, no al final del día tras la fortaleza. Terazije exterior con consumición opcional no incluida. Konak como museo si encaja el horario, lunes cerrado. Paseo exterior por la fortaleza antes de anochecer según luz; las atracciones interiores tienen su propio calendario."
+    },
+    {
+     "title": "Poder y memoria: del 99 a Tesla",
+     "zone": "Edificios bombardeados → Palacios Viejo y Nuevo → Asamblea → San Marcos → Museo Nikola Tesla → Skadarlija",
+     "stopIds": [
+      "bombardeados",
+      "palacios",
+      "asamblea",
+      "sanmarcos",
+      "tesla",
+      "skadarlija"
+     ],
+     "editorialNote": "Paradas institucionales exteriores y Tesla como entrada principal. Comprobar idioma y aforo del día: la tabla del 3 de noviembre no es un horario anual. Solo efectivo en RSD, sin reserva individual. San Marcos interior solo si el acceso está confirmado. Skadarlija como paseo o comida opcional, sin concierto incluido."
+    },
+    {
+     "title": "San Sava y la Yugoslavia de Tito",
+     "zone": "Templo de San Sava → Casa de las Flores y Museo de Yugoslavia",
+     "stopIds": [
+      "sansava",
+      "casa_flores"
+     ],
+     "editorialNote": "San Sava exterior como base, interior solo con acceso confirmado. Museo de Yugoslavia como entrada principal, con traslado y unas 2 horas estimadas; lunes cerrado. No añadir automáticamente Zemun o Ada al terminar: elegir una alternativa o sustituir otro día con margen real."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Nada reservado; transporte por fecha pendiente. Ampliación aún no publicada.",
+  "Museo Nikola Tesla: NO hay visita libre; entrada con visita guiada por horas (inglés ~12/13/14/18/19; 800 RSD), llegar 15 min antes.",
+  "Museo de Yugoslavia: LUNES cerrado; también 1 ene, 7 ene y Pascua ortodoxa; 800 RSD.",
+  "Fortaleza: el parque es libre y permanente, pero las atracciones interiores son de pago (120-400 RSD) y estacionales (verano 11-19; octubre 10-17).",
+  "Templos (San Sava, San Marcos) sin horario turístico primario: visita diurna fuera de culto.",
+  "Konak de la Princesa Ljubica y mercados sin primaria verificada: interior del konak y horarios de mercado por confirmar (mercados de mañana).",
+  "Transporte de excursiones (Zemun, Ada): líneas de bus sin primaria verificada; duraciones de guía/secundaria.",
+  "Torre Gardoš: apertura interior intermitente (exposiciones): panorámica garantizada desde la colina, no desde la torre.",
+  "Visitas: 8 fotos reales y 8 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Nada reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en Belgrado",
+   "url": "https://www.viajeroscallejeros.com/que-ver-en-belgrado/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Belgrado y lugares",
+   "url": "https://es.wikipedia.org/wiki/Belgrado",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tesla",
+   "title": "Museo Nikola Tesla: plan your visit",
+   "url": "https://tesla-museum.org/en/visit/plan-your-visit/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mij",
+   "title": "Museo de Yugoslavia: visit us",
+   "url": "https://muzej-jugoslavije.org/en/posetite-nas/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tvrdjava",
+   "title": "Fortaleza de Belgrado: working hours & prices",
+   "url": "https://www.beogradskatvrdjava.co.rs/%d0%b8%d0%bd%d1%84%d0%be/?lang=en",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "konak-own",
+   "title": "Museo de la Ciudad: Konak de la Princesa Ljubica",
+   "url": "http://www.mgb.org.rs/visit/details/8",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sava-hours1196",
+   "url": "https://hramsvetogsave.rs/dozivite-hram/",
+   "title": "San Sava: horarios de templo e iglesia pequeña"
+  },
+  {
+   "id": "sava-entry1196",
+   "url": "https://hramsvetogsave.rs/vesti/saopstenje-uprave-hrama-povodom-razlicitih-netacnih-informacija-vezanim-za-ulazak-u-hram-svetog-save-na-vracaru/",
+   "title": "San Sava: comunicado de entrada sin cobro18/02/2023"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

@@ -1,0 +1,71 @@
+{
+ "schemaVersion": 1,
+ "cityId": "oslo",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "lorry",
+   "name": "Lorry · clásicos noruegos",
+   "address": "Parkveien 12, 0350 Oslo, Norway",
+   "description": "Restaurante de ambiente bohemio, sopa de pescado, reno y trucha cerca del Palacio Real. Elegirlo por clásicos y sala, no como cocina experimental.",
+   "strength": "Nettavisen2023/actualización2024 destacó sopa, trucha yservicio, con reparos en pan/tostada ypuré; no crítica perfecta ni precio actual. TurismoVisitOslo confirma sala histórica, carta propia platos.",
+   "alert": "Horario del bar hasta madrugada NO significa cocina abierta. Confirmar servicio de comida y platos de temporada.",
+   "caution": "Carta propia actual: sopa252NOK/grande+60, reno372,trucha420,fish&chips298,hamburguesa279patatas+55,postres138-194 segúnplato. Principalreno/trucha+postre510-614NOK sinbebida, cálculoeditorial, no preciomenú. Lutefisk825dosservicios especial aparte, no tarifa de todo clásico. Webvariasseccionesmenú, algunas sinprecio; no aplicar pasta125infantil a raciónadulta256. Horario local lun11-01/mar-sáb11-03:30/dom12-01, cocinacierre no verificado. Restaurantevariasplantas, ubicaciónaccesibleconsultar alreservar. Alérgenosdetallados en carta, no suponerBeyondBurgervegano por nombre cuando marca leche/huevo. Nada reservado.",
+   "officialUrl": "https://lorry.no/meny",
+   "editorialUrl": "https://www.nettavisen.no/lorry/anmeldelse-lorry/restaurantanmeldelse/anmeldelse-middag-pa-lorry/r/5-95-1309016",
+   "sourceUrls": [
+    "https://lorry.no/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lorry+Restaurant&query_place_id=ChIJG6_3wHhuQUYRQNMA9X1UR5I",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta propia actual/historiaydirección Maps; crítica2023/2024identificada, sinmesa.",
+   "priceLabel": "510-614 NOK principal reno/trucha+postre sin bebida, cálculo editorial.",
+   "compactPrice": "510-614 NOK principal+postre, sin bebida.",
+   "photo": {
+    "img": "assets/oslo/lorry-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes y paisaje nórdico imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes y paisaje nórdico imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "munch-exhibitions",
+   "name": "MUNCH · exposiciones",
+   "address": "Edvard Munchs plass1, Bjørvika, Oslo",
+   "description": "Entrada a las exposiciones del museo, distinta del restaurante, bar o eventos. Usarla como bloque MUNCH del plan, no añadir otra visita duplicada.",
+   "duration": "2-3h estimación editorial, no todaslasplantasobligatorias.",
+   "compactDuration": "2-3 h orientativas",
+   "alert": "Desde200 NOK adulto según fecha. Franja recomendada, no reembolso ordinario; reentrada no garantizada al salir de salas.",
+   "caution": "Página Tickets: adultoDESDE200NOK,menor25=100,0-17gratis. No convertir desde200 a preciofijoanual ni220porrecuerdo. Entradaexposicionesnoeventos. Sun-Tue10-18/Wed-Sat10-21regular,festivosexcepcionesporcomprobar. No reembolsable FAQ; retrasoatendidoprimeraoportunidad no acceso inmediato garantizado. Permanenciadentro sinlímite de franja pero al salirexposiciones no reentradaaseguradaporaforo. Consigna equipajecabina55x40x23,sinmayor;mochilas ybolsos>40x35x10 noensalas, líquidos/puntas/comida noensalas(exceptobebé/medicina). Recorridosilla/ascensorespropios, cochecitos noensalas;FAQcontradicción strollers vs carriers,no prometerpréstamoconcreto. No garantía ver obra específica sinconsulta exposición porfecha. Nada comprado.",
+   "officialUrl": "https://www.munch.no/en/buy-tickets/",
+   "sourceUrls": [
+    "https://www.munch.no/en/plan-your-visit/"
+   ],
+   "priceLabel": "Desde200 NOK adulto; tarifa final por fecha pendiente.",
+   "photo": {
+    "img": "assets/oslo/munch.jpg",
+    "alt": "MUNCH Museum front (2020) 4.jpg",
+    "author": "Premeditated",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MUNCH_Museum_front_(2020)_4.jpg",
+    "caption": "MUNCH en foto de archivo exterior. No obra en sala ni exposición confirmada."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Tickets/FAQyplanvisitapropios, sinselecciónfecha/checkout.",
+   "photoPending": false
+  }
+ ]
+}

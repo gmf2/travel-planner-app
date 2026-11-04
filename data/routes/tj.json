@@ -1,0 +1,179 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "TJ",
+ "country": "Tayikistán",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Solo corredor norte/centro: Dusambé, Istaravshan, Khujand, Penjikent e Iskanderkul/Saritag. No Pamir, GBAO, Wakhan ni frontera afgana.",
+ "verificationLimits": [
+  "El circuito del Pamir del paquete preliminar se retira: Exteriores lo desaconseja vivamente por obras, voladuras, cortes y carretera muy deteriorada. No basta advertirlo y mantenerlo como ruta recomendada.",
+  "Norte/centro no significa seguro: Exteriores clasifica el resto como riesgo medio y recomienda evitar zonas fronterizas. Estado concreto de pasos, túneles, nieve y alojamiento de Saritag pendiente para las fechas del viaje.",
+  "Propuesta de primavera/verano/otoño solo con condiciones confirmadas; no recomendar el corredor de montaña en invierno basándose en publicidad genérica."
+ ],
+ "routes": [
+  {
+   "id": "tj-regional",
+   "title": "Dusambé, Khujand, Penjikent e Iskanderkul · 8 días",
+   "scope": "Solo corredor norte/centro: Dusambé, Istaravshan, Khujand, Penjikent e Iskanderkul/Saritag. No Pamir, GBAO, Wakhan ni frontera afgana.",
+   "pace": "8 días / 7 noches: Dusambé 1, Khujand 2, Penjikent 1, Saritag 1, Dusambé 2. Varios días de carretera, no ritmo suave.",
+   "assumptions": "Adaptación editorial del circuito comercial de 7 días de Asia Odyssey: se añade día final en Dusambé y se reducen visitas de jornadas de transporte. Conductor local experimentado y ruta de montaña verificados para fecha. No es viaje contratado ni declaración de seguridad. Sin cruce internacional ni trekking de altura.",
+   "sources": [
+    {
+     "id": "op",
+     "title": "Asia Odyssey Travel · norte y centro, base editorial",
+     "url": "https://www.asiaodysseytravel.com/central-asia-tours/best-tajikistan-tour.html"
+    },
+    {
+     "id": "local",
+     "title": "Tour.tj · recorrido norte y patrimonio",
+     "url": "https://tour.tj/en/catalog/tour_of_northern_tajikistan/"
+    },
+    {
+     "id": "official",
+     "title": "Travel to Tajikistan · región Sughd",
+     "url": "https://traveltajikistan.tj/en/category/regions/sughd-region/"
+    },
+    {
+     "id": "mug",
+     "title": "Travel to Tajikistan · Istaravshan y Mugteppa",
+     "url": "https://traveltajikistan.tj/en/the-mugteppa/"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Tayikistán",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Tayikist%C3%A1n"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Dusambé",
+     "overnight": "Dusambé",
+     "stops": [
+      "Recepción y descanso",
+      "Rudaki Park solo si queda margen"
+     ],
+     "transfer": "Aeropuerto-alojamiento con transporte organizado. No sumar todos los museos a llegada.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Dusambé a Khujand con Istaravshan",
+     "overnight": "Khujand",
+     "stops": [
+      "Istaravshan: elegir bazar o conjunto Hazrati Shah",
+      "Llegada a Khujand"
+     ],
+     "transfer": "Jornada larga en vehículo con conductor, fuera del Pamir. El operador estima 228 km / 4-4,5 h solo Dusambé-Istaravshan; falta continuación a Khujand y visitas. No confundir con duración total ni afirmar apertura de túneles/pasos para fecha. Salida diurna y revisar condiciones; dividir si no encaja.",
+     "sourceIds": [
+      "op",
+      "mug",
+      "maec"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Khujand",
+     "overnight": "Khujand",
+     "stops": [
+      "Bazar Panjshanbe",
+      "Entorno Sheikh Muslihiddin",
+      "Fortaleza y museo solo según horario"
+     ],
+     "transfer": "Jornada en la misma base, desplazamientos urbanos. No añadir cruces a Kirguistán ni visitas fuera de carretera cerca de fronteras. La mención turística no certifica apertura actual de cada interior.",
+     "sourceIds": [
+      "op",
+      "official",
+      "maec"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Khujand a Penjikent",
+     "overnight": "Penjikent",
+     "stops": [
+      "Traslado regional",
+      "Rudaki Museum o ruinas de Penjikent, no ambos obligatorios"
+     ],
+     "transfer": "Operador estima 257 km / 4-5 h por carretera, más descansos. Conductor local y ruta exacta confirmados antes; no desvíos fronterizos ni minas fuera de trazado. Reducir visitas si carretera consume jornada.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Penjikent a Iskanderkul y Saritag",
+     "overnight": "Saritag",
+     "stops": [
+      "Ribera de Iskanderkul si acceso permitido",
+      "Llegada a Saritag"
+     ],
+     "transfer": "Operador estima 151 km / 3-4 h hasta Iskanderkul y continuación posterior a Saritag. Son referencias de conducción, no total. Lago por encima de 2.000 m; noche y carretera solo con servicios abiertos y condiciones adecuadas. No baño, cascada expuesta ni trekking de altura programados.",
+     "sourceIds": [
+      "op",
+      "official",
+      "maec"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Saritag a Dusambé",
+     "overnight": "Dusambé",
+     "stops": [
+      "Traslado de regreso",
+      "Descanso o paseo corto en la capital"
+     ],
+     "transfer": "Referencia del operador 146 km / 3,5-4 h. Confirmar condiciones del corredor de montaña y túneles; no carretera nocturna. No enlazar con vuelo internacional al llegar de Saritag.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Dusambé urbano y margen",
+     "overnight": "Dusambé",
+     "stops": [
+      "Museo Nacional de Antigüedades como visita principal",
+      "Rudaki Park y avenida",
+      "Bazar si queda margen"
+     ],
+     "transfer": "Día completo en la capital, añadido editorialmente para separar regreso de montaña y salida. Horarios de museos por verificar para fecha; no promesa de todos abiertos.",
+     "sourceIds": [
+      "op"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Salida desde Dusambé",
+     "overnight": null,
+     "stops": [
+      "Traslado al aeropuerto"
+     ],
+     "transfer": "Noche previa en Dusambé. Salida aérea con requisitos según pasaporte; no itinerario transfronterizo hacia Osh ni cruce terrestre supuesto.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores aconseja precaución y evitar determinadas zonas, especialmente fronteras y Pamir. El Pamir está vivamente desaconsejado por obras, cortes diarios, voladuras y accidentes; excluido de esta ruta. El resto mantiene riesgo medio. No aproximarse a fronteras ni abandonar trazados por minas; no cruce a Osh, Uzbekistán o Afganistán supuesto. Conductor local, carretera de día, consulta previa de condiciones y seguro con evacuación; asistencia sanitaria y consular limitadas.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Tayikist%C3%A1n"
+ },
+ "photo": {
+  "img": "assets/routes/tj.jpg",
+  "name": "Monumento a Rudaki, parque Rudaki de Dusambé",
+  "source": "https://commons.wikimedia.org/wiki/File:Rudaki_Park%2C_Dushanbe%2C_Tajikistan_(Cropped-wide).jpg",
+  "author": "Rjruiziii",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "caption": "Foto de archivo de 2011, recorte panorámico publicado por la fuente. No representa toda la ruta ni confirma condiciones de carretera."
+ }
+}

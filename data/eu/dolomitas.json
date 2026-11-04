@@ -1,0 +1,724 @@
+{
+ "schemaVersion": 1,
+ "country": "IT",
+ "id": "dolomitas",
+ "name": "Dolomitas",
+ "localName": "Dolomiti",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "ortisei",
+   "name": "Ortisei, la capital de Val Gardena",
+   "kind": "walk",
+   "zone": "Ortisei (Urtijëi)",
+   "reason": "La base de la región: el pueblo de los talladores de madera con su paseo peatonal, la iglesia de San Ulrico y las dos grandes subidas (Seceda y Alpe di Siusi) saliendo del propio pueblo.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.578353,
+    "lon": 11.641399
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Ortisei%2C%20Val%20Gardena%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Elegir un remonte o paseo según operación, luz y condiciones. No se presupone que funcionen todos en la misma temporada. Parking de referencia Seceda (no hotel): operador publica más de 250 plazas cubiertas/exteriores. Turismo: 05:00-19:00 a 2,50 €/30 min, 19:00-05:00 a 0,80 €/h, máximo diario 30 €, sujeto a temporada. Altura y plaza libre no verificadas. La Curta conecta Piazza S. Antonio con estación: unos 5 min según operador; túnel 24 h pero escaleras mecánicas no operan de noche. No equivale a telecabina abierta.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Paseo urbano sin entrada general. Remontes con billetes propios; no todos cuestan lo mismo que Seceda.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/dolomitas/ortisei.jpg",
+    "alt": "Plaza y edificios del centro de Ortisei/Sankt Ulrich. No foto de una iglesia aislada confundida con todo el pueblo.",
+    "caption": "Plaza y edificios del centro de Ortisei/Sankt Ulrich. No foto de una iglesia aislada confundida con todo el pueblo.",
+    "source": "https://www.pexels.com/photo/town-square-in-ortisei-south-tyrol-italy-20177019/",
+    "author": "Joerg Hartmann",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "seceda",
+   "name": "Seceda, el mirador más famoso de las Dolomitas",
+   "kind": "viewpoint",
+   "zone": "Seceda (2.500 m)",
+   "reason": "La cresta dentada de las Odle vista de frente: el filo de hierba que cae a pico, la foto por excelencia de las Dolomitas, a un funicular de Ortisei.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "seceda-own"
+   ],
+   "coordinates": {
+    "lat": 46.577043,
+    "lon": 11.673924
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Seceda%2C%20Ortisei%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 180,
+   "durationType": "editorial-estimate",
+   "caution": "Son dos remontes, no un funicular directo. No dejar la cresta para la última luz si la última bajada es a las 17. Alta montaña: comprobar clima, nieve y senderos. Remonte abierto no significa sendero seguro.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Operador publica 22 mayo-2 noviembre 2026, 8:30-17. Temporada de verano acabada; apertura de invierno y fecha del viaje por comprobar, no se presume servicio por existir una pista.",
+    "source": "https://www.seceda.it/it/estate"
+   },
+   "price": "Verano de 2026: Ortisei-Furnes-Seceda, ida y vuelta 74 € adulto o 37 € de 8 a 15,99 años; ida 49 € o 25 €. Menores de 8 gratis con compra simultánea de billete adulto. No acepta Dolomiti Super Summer. No aplicar estas tarifas al invierno.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/dolomitas/seceda.jpg",
+    "alt": "Cresta y cumbres de Seceda con pradera en primer plano. Foto de paisaje, no acredita teleférico ni sendero abierto.",
+    "caption": "Cresta y cumbres de Seceda con pradera en primer plano. Foto de paisaje, no acredita teleférico ni sendero abierto.",
+    "source": "https://www.pexels.com/photo/majestic-seceda-mountain-peaks-in-dolomites-29090839/",
+    "author": "Dajana Reçi",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "accessRules": {
+    "scope": "Teleférico de Seceda",
+    "noticeLabel": "Teleférico de Seceda",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Temporada turística de verano terminada el 2 noviembre de 2026. Calendario de invierno sin verificar: no planificar subida garantizada."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "alpe_siusi",
+   "name": "Alpe di Siusi, la pradera más grande de Europa",
+   "kind": "walk",
+   "zone": "Alpe di Siusi (Seiser Alm)",
+   "reason": "La mayor pradera de altura de Europa: 57 km² de prados con cabañas frente al Sciliar y el Sassolungo, con senderos llanos aptos para todos entre refugios.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "siusi-own",
+    "siusi-parking-own"
+   ],
+   "coordinates": {
+    "lat": 46.531056,
+    "lon": 11.624709
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Alpe%20di%20Siusi%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 180,
+   "durationType": "editorial-estimate",
+   "caution": "P1 y P2 permiten reserva online. Páginas propias discrepan entre tres y seis días de antelación: consultar sistema final. En P2, matrícula no modificable y sin reembolso según ficha. La llegada al parking hasta 9:30 no elimina la restricción de carretera desde las 9 cuando esté vigente.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Durante la operación del teleférico, acceso habitual en coche antes de las 9 o después de las 17, con bajada permitida. Turismo publica excepción del 3 de noviembre al 3 de diciembre: teleférico cerrado y carretera a Compatsch abierta todo el día. Comprobar estado y nieve; no permite circular fuera de carretera.",
+    "source": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm.html"
+   },
+   "price": "Remonte: tarifa pendiente. Parking P2 Compatsch: operador publica 30 € por coche en temporada y 15 € en temporada intermedia, según fecha. No deducir parking gratis por llegar temprano.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/dolomitas/alpe_siusi.jpg",
+    "alt": "Praderas de Alpe di Siusi y macizo del Sassolungo al fondo. Foto de verano, no estado actual de nieve o acceso.",
+    "caption": "Praderas de Alpe di Siusi y macizo del Sassolungo al fondo. Foto de verano, no estado actual de nieve o acceso.",
+    "source": "https://www.pexels.com/photo/a-view-of-the-alpe-di-siusi-in-italy-13036999/",
+    "author": "Robert Hrovat",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "accessRules": {
+    "scope": "Teleférico y acceso a Alpe di Siusi",
+    "noticeLabel": "Teleférico y acceso a Alpe di Siusi",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "noticeRanges": [
+     {
+      "start": "2026-11-03",
+      "end": "2026-12-03",
+      "text": "Temporada intermedia: teleférico cerrado y carretera a Compatsch con acceso diurno. Confirmar reservas de parking, estado y nieve; no libertad para circular fuera de carretera."
+     }
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "val_difunes",
+   "name": "Val di Funes y sus dos iglesias postales",
+   "kind": "viewpoint",
+   "zone": "Villnöß / Funes",
+   "reason": "El valle de la foto de las Dolomitas: la iglesia de San Giovanni in Ranui sola en el prado y la de Santa Maddalena con las Odle detrás, los dos encuadres más reproducidos del Tirol del Sur.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "ranui-own",
+    "ranui-tourism",
+    "ranui-conflict",
+    "ranui-travel",
+    "maddalena-access"
+   ],
+   "coordinates": {
+    "lat": 46.6451,
+    "lon": 11.696841
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Funes%2C%20Bolzano%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Son dos iglesias distintas: Santa Maddalena y San Giovanni en Ranui. Para Santa Maddalena no conducir hasta iglesia/mirador: vía restringida, dejar coche en parking autorizado. Alto-Adige.com orienta unos 30 min a pie de Putzen a la iglesia, no al encuadre panorámico completo ni al circuito de montaña; estado para fecha y paseo a Ranui pendientes. No cruzar prados/fincas ni asumir acceso interior. Ranui: no contar con acceso al recinto cercano hasta resolver fuentes contradictorias; conformarse con vistas desde zonas públicas señalizadas sin invadir ni parar en calzada. Referencia coche Seceda-Putzen 46 min / 33,8 km y regreso 47 min / 33 km sin fecha/tráfico. Tarifa/plaza de turismo sin confirmar; reserva obligatoria publicada para Putzen es de autocares, no de turismos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ranui: interior cerrado y terreno privado según turismo oficial. Acceso cercano y tarifa actual sin resolver: turismo aún indica pago, una fotógrafa local anuncia cierre al público en 2026 y Northabroad actualizado en septiembre refiere 4 €. No se promete entrada ni se fija precio de 4/5 €; confirmar con Ranuihof. Aparcamientos de pago, importe actual pendiente.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/dolomitas/val_difunes.jpg",
+    "alt": "Val di Funes con Santa Maddalena, praderas y cumbres al fondo. Fotografía de paisaje, no permiso de entrada a campos ni estado de senderos.",
+    "caption": "Val di Funes con Santa Maddalena, praderas y cumbres al fondo. Fotografía de paisaje, no permiso de entrada a campos ni estado de senderos.",
+    "source": "https://www.pexels.com/photo/scenic-view-of-santa-maddalena-val-di-funes-in-the-dolomites-in-italy-20446158/",
+    "author": "Hikerwise",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "passo_gardena",
+   "name": "Passo Gardena, la panorámica entre dos valles",
+   "kind": "viewpoint",
+   "zone": "Passo Gardena (2.136 m)",
+   "reason": "El puerto que une Val Gardena y Val Badia entre el Sella y el Cir: curvas de postal, el punto de las motos y las bicis, y en invierno pistas de la Sellaronda.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "gardena-ztl-2026"
+   ],
+   "coordinates": {
+    "lat": 46.549819,
+    "lon": 11.808389
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Passo%20Gardena%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Puerto sujeto a nieve, obras y cierres puntuales: comprobar viabilidad para fecha, no garantiza conexión con Carezza ni conducción nocturna para fotos. No confundir proyecto ZTL con prohibición vigente: comunicado provincial de 12/08/2026 precisa fase digital de simulación desde septiembre y ninguna limitación por ese proyecto en 2026. No exigir reserva de 150 plazas ni permiso basándose en noticias previas. Las reglas de 2027 no están fijadas por este comunicado. Esto no equivale a carretera abierta hoy ni elimina cierres por eventos o meteorología.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Sin tarifa general de carretera confirmada. La prueba ZTL de 2026 es digital según Provincia, no una reserva obligatoria de paso. Aparcamiento y servicios tienen condiciones propias, pendientes.",
+   "visitMode": "exterior",
+   "photo": {
+    "source": "https://pxhere.com/en/photo/1388499",
+    "author": "Autor no identificado por PxHere",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "caption": "Paisaje desde Passo Gardena hacia el valle, según identificación de PxHere; foto de archivo. No representa estado de carretera ni un sendero habilitado.",
+    "img": "assets/dolomitas/passo_gardena.jpg",
+    "alt": "Paisaje desde Passo Gardena hacia el valle, según identificación de PxHere; foto de archivo. No representa estado de carretera ni un sendero habilitado."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lago_carezza",
+   "name": "Lago di Carezza, el lago arcoíris",
+   "kind": "viewpoint",
+   "zone": "Karersee",
+   "reason": "Lago al pie del Latemar, para una parada de paisaje. Elegir el recorrido según accesos y estado del terreno, sin prometer una vuelta de veinte minutos.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "carezza-town1095",
+    "carezza-tourism1095"
+   ],
+   "coordinates": {
+    "lat": 46.409311,
+    "lon": 11.575868
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Lago%20di%20Carezza%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "P1 Carezza sin reserva según municipio/turismo, sin garantía de plaza. Conservar ticket de entrada, pagar al volver y salir en 15 min; acepta tarjeta, monedas y billetes. No confundir con camper u otros parkings. Desde parking Seceda: 1 h 06 min / 53,9 km ida y 1 h 05 min / 53,8 km vuelta sin fecha/tráfico. No garantiza carretera transitable con nieve.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Lago sin entrada general. Parking P1 coche/moto: hasta 1 h 5 €, 1-2 h 8 €, 2-6 h 13 €, 6-12 h 18 €, 12-24 h 30 €. Municipio y turismo coinciden; comprobado 03/11/2026, no tarifa confirmada para 2027.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/dolomitas/lago_carezza.jpg",
+    "alt": "Lago de Carezza con bosque y macizo del Latemar al fondo. No estado actual del nivel del agua ni camino.",
+    "caption": "Lago de Carezza con bosque y macizo del Latemar al fondo. No estado actual del nivel del agua ni camino.",
+    "source": "https://www.pexels.com/photo/view-on-the-lake-carezza-with-the-latemar-range-in-the-background-in-dolomites-south-tyrol-italy-17950040/",
+    "author": "Alis Martini",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "braies",
+   "name": "Lago di Braies, el lago más famoso",
+   "kind": "viewpoint",
+   "zone": "Pragser Wildsee",
+   "reason": "El lago esmeralda bajo la Croda del Becco: la vuelta circular de 1 h, las barcas de madera del embarcadero histórico y el punto de partida del Alta Via 1.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "braies-own"
+   ],
+   "coordinates": {
+    "lat": 46.694721,
+    "lon": 12.085843
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Lago%20di%20Braies%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Llegar antes de las 9 en verano no garantiza aparcamiento. Parking disponible no demuestra sendero seguro ni permite caminar sobre el lago helado. Comprobar regulación anual, clima y estado local.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Control de tráfico del 1 de julio al 15 de septiembre de 2026 de 9-16, con reserva, permiso o transporte público. Desde el 16 de septiembre de 2026, turismo indica sin restricción ordinaria del valle ni reserva online. Bus 442 desde Dobbiaco y Villabassa con tarifa local; no lanzadera desde Monguelfo garantizada todo el año.",
+    "source": "https://www.prags.bz/en"
+   },
+   "price": "Parking y transporte tienen tarifas propias. Producto de verano de 2026 anunciado por 44 €: permiso, parking y vale de 22 €. No es entrada al lago. Precio y reglas no se extienden a 2027.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/dolomitas/braies.jpg",
+    "alt": "Vista aérea del lago de Braies y embarcadero. No describe un mirador accesible a pie ni disponibilidad de barcas.",
+    "caption": "Vista aérea del lago de Braies y embarcadero. No describe un mirador accesible a pie ni disponibilidad de barcas.",
+    "source": "https://www.pexels.com/photo/lake-braies-in-italian-dolomites-18261754/",
+    "author": "urtimud.89",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "trecime",
+   "name": "Tre Cime di Lavaredo",
+   "kind": "monument",
+   "zone": "Misurina / Auronzo",
+   "reason": "Macizo de las Tre Cime y entorno del Refugio Auronzo. La caminata, acceso por carretera y aparcamiento son decisiones separadas; no se presume una vuelta de diez kilómetros o cuatro horas para cualquier ruta o condición.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "trecime-own"
+   ],
+   "coordinates": {
+    "lat": 46.61775,
+    "lon": 12.295393
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Tre%20Cime%20di%20Lavaredo%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Franja de 12 horas desde la hora reservada. Salir extingue el billete, sin reentrada. Matrícula añadida o cambiada una sola vez hasta 23:59 del día anterior. No entrar antes de la franja; llegar tarde no extiende su validez. Ruta a pie de alta montaña, no alternativa automática si cierra la carretera. Verificar condiciones de cancelación antes de pagar.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Carretera estacional, habitualmente de finales de mayo a finales de octubre según clima. Apertura para noviembre e invierno no verificada.",
+    "source": "https://auronzo.info/en/parking-tre-cime-di-lavaredo/"
+   },
+   "price": "Carretera y parking en 2026: coche 40 €, moto 26 €, camper 60 €. Reserva online obligatoria con matrícula registrada. No usar precio histórico de 30 €.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/dolomitas/trecime.jpg",
+    "alt": "Cumbres de Tre Cime di Lavaredo con nubes y ladera. No estado actual de carretera, nieve o sendero.",
+    "caption": "Cumbres de Tre Cime di Lavaredo con nubes y ladera. No estado actual de carretera, nieve o sendero.",
+    "source": "https://www.pexels.com/photo/tre-cime-di-lavaredo-20579295/",
+    "author": "Nicola Toscan",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "accessRules": {
+    "scope": "Carretera de acceso a Tre Cime",
+    "noticeLabel": "Carretera de acceso a Tre Cime",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Carretera estacional. Apertura para la fecha de invierno no verificada; no prometer acceso en coche ni ruta segura."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "cortina",
+   "name": "Cortina d'Ampezzo, la perla de las Dolomitas",
+   "kind": "walk",
+   "zone": "Cortina",
+   "reason": "La capital elegante de las Dolomitas (sede olímpica de invierno): el Corso Italia, los campanarios y las pistas que rodean el valle de Ampezzo.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.568512,
+    "lon": 12.132319
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Cortina%20d%27Ampezzo%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ciudad libre; remontes de pago (tarifas no verificadas).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/dolomitas/cortina.jpg",
+    "alt": "Basílica y campanario del centro de Cortina d’Ampezzo con edificios de la plaza. No acredita interiores abiertos ni estado de rutas de montaña.",
+    "caption": "Basílica y campanario del centro de Cortina d’Ampezzo con edificios de la plaza. No acredita interiores abiertos ni estado de rutas de montaña.",
+    "source": "https://www.pexels.com/photo/church-with-tower-in-town-17815286/",
+    "author": "fatma kaya",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "bolzano",
+   "name": "Bolzano y Ötzi, el hombre de hielo",
+   "kind": "excursion",
+   "zone": "Bolzano",
+   "reason": "La capital del Tirol del Sur a menos de una hora: el Museo Arqueológico con Ötzi (la momia de 5.300 años con sus tatuajes y equipo completo), las arcadas medievales y los pórticos de la ciudad.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "ice"
+   ],
+   "coordinates": {
+    "lat": 46.65593,
+    "lon": 11.230183
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Bolzano%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Reserva recomendada, no obligatoria en la página. La gratuidad Museumcard se anunciaba solo hasta el 31 de diciembre de 2025: no aplicarla a 2026. Museumobilcard no aceptada desde el 1 de enero de 2025.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes a domingo 10-18, última entrada 17:30. Lunes cerrado salvo festivo. Días 24 y 31 de diciembre cierra a las 15, última entrada 14:30. Cerrado 1 de enero, 1 de mayo y 25 de diciembre.",
+    "source": "https://www.iceman.it/en/the-museum/opening-times-and-fees"
+   },
+   "price": "Museo Ötzi: 13 € general o 10 € reducida con condiciones. Familia: 26 € para dos adultos y menores de 16; mini familia: 13 € para un adulto y menores de 16. Audioguía 4 €. Visita guiada: 4 € por persona solo desde 15 participantes; grupos de menos de 15 pagan 60 €, más entradas.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/dolomitas/bolzano.jpg",
+    "alt": "Calle y arco del casco histórico de Bolzano. No muestra el Museo de Arqueología ni acredita su acceso.",
+    "caption": "Calle y arco del casco histórico de Bolzano. No muestra el Museo de Arqueología ni acredita su acceso.",
+    "source": "https://www.pexels.com/photo/charming-street-scene-in-bolzano-italy-38985949/",
+    "author": "Daniel",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "accessRules": {
+    "scope": "Museo de Arqueología de Tirol del Sur, no Bolzano",
+    "noticeLabel": "Museo de Arqueología de Tirol del Sur, no Bolzano",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedMonthDays": [
+     "01-01",
+     "05-01",
+     "12-25"
+    ],
+    "weekdayNotices": [
+     {
+      "weekday": 1,
+      "text": "Museo normalmente cerrado lunes, salvo festivo. Comprobar si la fecha es excepción antes de ir."
+     }
+    ],
+    "specialDates": [
+     {
+      "date": "2026-12-24",
+      "text": "Museo cierra a las 15, última entrada 14:30."
+     },
+     {
+      "date": "2026-12-31",
+      "text": "Museo cierra a las 15, última entrada 14:30."
+     }
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "dolomitas_orientales",
+   "name": "Las Dolomitas orientales: Braies, Misurina y Tre Cime",
+   "kind": "excursion",
+   "zone": "Val Pusteria / Auronzo",
+   "reason": "Etapaoriental para planificar separada con cambio de base; no promete Braies, Misurina, Tre Cimey Cortinaenunúnicodía desde Ortisei.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.694721,
+    "lon": 12.085843
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Lago%20di%20Braies%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 600,
+   "durationType": "editorial-estimate",
+   "caution": "Carreteras, remontes y senderos con cierres estacionales. Reglas de Braies y Tre Cime de 2026 no se extienden automáticamente a 2027. No es sustituto de baja montaña para el invierno.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Tre Cime en 2026: parking de coche 40 € con reserva online. Braies: parking y bus según fecha. No usar 30 € históricos ni exigir reserva anual general.",
+   "visitMode": "Alternativa de etapa; elegir zona y comprobar acceso y traslados",
+   "photo": {
+    "img": "assets/dolomitas/dolomitas_orientales-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Dolomitas orientales, concepto de Tre Cime, no combinación de lagos ni mapa de ruta. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Dolomitas orientales, concepto de Tre Cime, no combinación de lagos ni mapa de ruta. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "visit": "Elegir una zona principal, valorar cambio de base y condiciones de montaña.",
+   "transport": "Traslados desde Ortisei por verificar en carretera yfecha; no 2 hgarantizadas.",
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Ortisei y montaña si opera",
+     "stopIds": [
+      "ortisei"
+     ],
+     "optionalStopIds": [
+      "seceda"
+     ],
+     "editorialNote": "Ortisei y tiempo libre. Seceda es la visita principal opcional en temporada y con tiempo/servicio verificados; no salida tardía para última luz. Si cierra no sustituir por subida a pie improvisada.",
+     "pacing": "Día de base a pie. Referencia parking Seceda: diurno 2,50 €/30 min, máximo diario 30 € sujeto a temporada. No hay plaza ni altura comprobada. La Curta no garantiza telecabina. Taller de madera 3 h si se confirma sesión: sustituye parte del día, no añadido a montaña completa."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Ortisei y montaña si opera",
+     "stopIds": [
+      "ortisei"
+     ],
+     "optionalStopIds": [
+      "seceda"
+     ],
+     "editorialNote": "Ortisei y tiempo libre. Seceda es la visita principal opcional en temporada y con tiempo/servicio verificados; no salida tardía para última luz. Si cierra no sustituir por subida a pie improvisada.",
+     "pacing": "Día de base a pie. Referencia parking Seceda: diurno 2,50 €/30 min, máximo diario 30 € sujeto a temporada. No hay plaza ni altura comprobada. La Curta no garantiza telecabina. Taller de madera 3 h si se confirma sesión: sustituye parte del día, no añadido a montaña completa."
+    },
+    {
+     "title": "Alpe di Siusi o Val di Funes",
+     "stopIds": [
+      "val_difunes"
+     ],
+     "optionalStopIds": [
+      "alpe_siusi"
+     ],
+     "editorialNote": "Elegir una zona principal según temporada y acceso. Alpe di Siusi puede sustituir el valle; no ambas con trayectos sin verificar y fotografía nocturna. Coche desde parking Seceda a Putzen: referencia Maps sin fecha/tráfico 46 min / 33,8 km y regreso 47 min / 33 km.",
+     "pacing": "Unos 1 h 33 min de conducción ida/vuelta, más aparcar y paseo. Putzen no es permiso para subir en coche a iglesias/miradores o cruzar prados. Alto-Adige.com orienta unos 30 min a pie Putzen-Santa Maddalena, sin garantizar hielo ni circuito completo. Ranui: interior cerrado, acceso cercano/pago contradictorio en fuentes 2026, confirmar con propietario. Tarifa de turismo pendiente; reserva obligatoria publicada para Putzen es de autocares. No incluye Zannes ni caminata completa de montaña."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Ortisei y montaña si opera",
+     "stopIds": [
+      "ortisei"
+     ],
+     "optionalStopIds": [
+      "seceda"
+     ],
+     "editorialNote": "Ortisei y tiempo libre. Seceda es la visita principal opcional en temporada y con tiempo/servicio verificados; no salida tardía para última luz. Si cierra no sustituir por subida a pie improvisada.",
+     "pacing": "Día de base a pie. Referencia parking Seceda: diurno 2,50 €/30 min, máximo diario 30 € sujeto a temporada. No hay plaza ni altura comprobada. La Curta no garantiza telecabina. Taller de madera 3 h si se confirma sesión: sustituye parte del día, no añadido a montaña completa."
+    },
+    {
+     "title": "Alpe di Siusi o Val di Funes",
+     "stopIds": [
+      "val_difunes"
+     ],
+     "optionalStopIds": [
+      "alpe_siusi"
+     ],
+     "editorialNote": "Elegir una zona principal según temporada y acceso. Alpe di Siusi puede sustituir el valle; no ambas con trayectos sin verificar y fotografía nocturna. Coche desde parking Seceda a Putzen: referencia Maps sin fecha/tráfico 46 min / 33,8 km y regreso 47 min / 33 km.",
+     "pacing": "Unos 1 h 33 min de conducción ida/vuelta, más aparcar y paseo. Putzen no es permiso para subir en coche a iglesias/miradores o cruzar prados. Alto-Adige.com orienta unos 30 min a pie Putzen-Santa Maddalena, sin garantizar hielo ni circuito completo. Ranui: interior cerrado, acceso cercano/pago contradictorio en fuentes 2026, confirmar con propietario. Tarifa de turismo pendiente; reserva obligatoria publicada para Putzen es de autocares. No incluye Zannes ni caminata completa de montaña."
+    },
+    {
+     "title": "Carezza o un día de valle",
+     "stopIds": [
+      "lago_carezza"
+     ],
+     "optionalStopIds": [
+      "passo_gardena",
+      "bolzano"
+     ],
+     "editorialNote": "Lago y entorno solo con acceso seguro y luz. Passo Gardena es otra ruta de puerto alternativa, no tramo de paso garantizado. En nieve/cierre, elegir jornada urbana en Bolzano si conexión y museo encajan. Desde parking Seceda a P1: referencia Maps sin fecha/tráfico 1 h 06 min / 53,9 km ida y 1 h 05 min / 53,8 km vuelta.",
+     "pacing": "Unos 2 h 11 min de conducción ida/vuelta, más parking y paseo. P1 sin reserva: hasta 1 h 5 €, 1-2 h 8 €, 2-6 h 13 € coche/moto; 15 min para salir tras pagar. No garantiza plaza, tráfico, carretera abierta o seguridad con hielo/nieve. No sumar puerto o Bolzano como obligación. No es ruta desde tu hotel."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Seceda verano 2026: 74 € ida y vuelta adulto, último día 2 de noviembre, 8:30-17. No acepta Dolomiti Super Summer.",
+  "Alpe di Siusi, del 3 de noviembre al 3 de diciembre: teleférico cerrado y carretera a Compatsch abierta todo el día según turismo. Parking con condiciones propias; páginas discrepan sobre plazo de reserva de tres o seis días.",
+  "Braies: control del 1 de julio al 15 de septiembre de 2026. Desde el 16 de septiembre, turismo indica sin reserva ordinaria para acceder al valle. No se garantiza lanzadera desde Monguelfo todo el año.",
+  "Tre Cime: 40 € por coche en 2026, reserva online y matrícula. Carretera estacional, no usar la tarifa histórica de 30 €.",
+  "Museo Ötzi: visita guiada para grupos de menos de 15 cuesta 60 € más entradas. No son 4 € por persona en cualquier caso.",
+  "Visitas: 10 fotos reales y 1 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Cierre estival de carreteras de montaña: Noviembre-mayo aprox. (según nieve, sin fechas oficiales fijas). La carretera de peaje a Tre Cime y los puertos altos cierran con nieve; en invierno la actividad se desplaza a esquí. Sin calendario confirmado para el modo Navidad."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "epv",
+   "title": "Es Parte del Viaje: qué ver en Dolomitas (20 lugares)",
+   "url": "https://espartedelviaje.com/que-ver-en-dolomitas/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Dolomitas y lugares",
+   "url": "https://es.wikipedia.org/wiki/Dolomitas",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ice",
+   "title": "Museo Arqueológico del Tirol del Sur (Ötzi): horarios y tarifas",
+   "url": "https://www.iceman.it/en/the-museum/opening-times-and-fees",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "seceda-own",
+   "title": "Seceda: temporada y tarifas verano 2026",
+   "url": "https://www.seceda.it/it/estate",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "siusi-own",
+   "title": "Siusi: acceso y temporada intermedia",
+   "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "siusi-parking-own",
+   "title": "Compatsch: parking y condiciones",
+   "url": "https://www.seiseralm.it/en/info-service/current-information/information-a-z/9AA771C79C64046677206620236F645F-parking-p2-compatsch.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "braies-own",
+   "title": "Valle Braies: reglas 2026",
+   "url": "https://www.prags.bz/en",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "trecime-own",
+   "title": "Auronzo: carretera y parking 2026",
+   "url": "https://auronzo.info/en/parking-tre-cime-di-lavaredo/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "car-ref-8",
+   "title": "Dolomitas: acceso y parking publicado",
+   "url": "https://www.seceda.it/en/info",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "car-ref-9",
+   "title": "Dolomitas: acceso y parking publicado",
+   "url": "https://www.val-gardena.com/en/addresses/detail/base/poi/ortisei-val-gardena/parking-garage-seceda/4E61AB3556B44454B83666FCD7C00D22/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "car-ref-10",
+   "title": "Dolomitas: acceso y parking publicado",
+   "url": "https://www.gemeinde.welschnofen.bz.it/de/Dienste/Mobilitaet_und_Verkehr/Gebuehrenpflichtige_Parkplaetze_-_paid_parking_spaces",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "car-ref-11",
+   "title": "Dolomitas: acceso y parking publicado",
+   "url": "https://eggental.com/en/dolomites_nature/lake-carezza/how-to-get-there/by-car",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "car-ref-12",
+   "title": "Dolomitas: acceso y parking publicado",
+   "url": "https://www.odlesdolomites.com/it/events/BBF4CDE820A14B16A5EA28AB3FCF697F",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ranui-own",
+   "title": "Ranuihof: propiedad e iglesia",
+   "url": "https://www.ranuihof.com/it/residenzaranuihof/chiesettadiranui/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ranui-tourism",
+   "title": "Turismo Alto Adige: Ranui exterior y pago",
+   "url": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoib2c5c9f73a3b51bb8177171a4abc6c3b.the-church-of-st--john-of-nepomuk-in-ranui.s--maddalena-st--magdalena---funes-villnoess",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ranui-conflict",
+   "title": "Fotógrafa local: cierre de acceso público en 2026, no confirmado por propietario",
+   "url": "https://photographerinthedolomites.com/val-di-funes-access-in-2026-a-quick-update-and-guide/",
+   "type": "local-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ranui-travel",
+   "title": "Northabroad: acceso y precios 2026, contradictorios",
+   "url": "https://northabroad.com/san-giovanni-dolomites/",
+   "type": "travel-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "maddalena-access",
+   "title": "Alto-Adige.com: carretera restringida y paseo desde Putzen",
+   "url": "https://www.alto-adige.com/vacanze-culturali-alto-adige/chiese-abbazie-e-monasteri/chiesa-di-s-maddalena-val-di-funes",
+   "type": "travel-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "gardena-ztl-2026",
+   "title": "Provincia Bolzano 12/08/2026: Gardena, simulación digital sin limitación ZTL en 2026",
+   "url": "https://news.provincia.bz.it/it/news/passo-gardena-moderazione-traffico-fase-test-digitale-da-settembre",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "carezza-town1095",
+   "title": "Municipio Nova Levante: aparcamientos, pago y tarifas",
+   "url": "https://www.gemeinde.welschnofen.bz.it/de/Dienste/Mobilitaet_und_Verkehr/Gebuehrenpflichtige_Parkplaetze_-_paid_parking_spaces",
+   "type": "official"
+  },
+  {
+   "id": "carezza-tourism1095",
+   "title": "Val d’Ega: acceso al lago en coche y parking P1",
+   "url": "https://eggental.com/en/dolomites_nature/lake-carezza/how-to-get-there/by-car",
+   "type": "official"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

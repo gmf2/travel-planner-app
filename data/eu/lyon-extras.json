@@ -1,0 +1,103 @@
+{
+ "schemaVersion": 1,
+ "cityId": "lyon",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "abel",
+   "name": "Café Comptoir Abel",
+   "address": "25 Rue Guynemer, 69002 Lyon, France",
+   "description": "Bouchon de Ainay para quenelle de brochet gratinada o poulet aux morilles. Cocina clásica y ambiente de comedor antiguo, no menú ligero por defecto.",
+   "strength": "Gault&Millau 2026 destaca clásicos de tradición; la carta propia octubre 2026 permite elegir sin depender de precios antiguos. Conviene para una comida sentada hacia el sur de Presquîle, no por estar junto a todas las paradas.",
+   "alert": "Carta propia: menús 44/52/64 € sin bebida. Cena empieza 19:00 o 19:30 según sus dos webs: confirmar mesa y hora.",
+   "caution": "Carta octubre 2026: quenelle 29 € con preparación 25 min, pollo 39 €, menús 44/52/64 €; impuestos/servicio incluidos, bebida adicional. Tourism/Gault conservan rangos inferiores: no usarlos como carta actual. Web Maison Abel dice cena 19 h, web Café Comptoir Abel 19:30; ambas almuerzo 12-14 entre semana/14:30 fin de semana y cierre 22 h (dom-jue)/22:30 (vie-sáb). Se conserva discrepancia, no se promete entrada 19 h. Carta con pescado, lácteos, cerdo/vísceras: consultar alergias; no asumir vegetariano. Sin reserva.",
+   "officialUrl": "https://www.maisonabel.fr/maison-abel/le-cafe-comptoir-chez-abel/",
+   "editorialUrl": "https://fr.gaultmillau.com/en/restaurants/cafe-comptoir-abel",
+   "sourceUrls": [
+    "http://cafecomptoirabel.com/",
+    "https://www.maisonabel.fr/wp-content/uploads/2026/10/Carte_Cafe_Comptoir_Abel.pdf"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Comptoir+Abel&query_place_id=ChIJsS69j7Lr9EcRW_q0vPWSzBs",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Localización Maps y carta propia actual; hora de inicio cena discordante, no servicio reservado ni futuro garantizado.",
+   "priceLabel": "Menús 44/52/64 € sin bebida; carta octubre 2026, confirmar selección final.",
+   "photo": {
+    "img": "assets/lyon/abel-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes y fuente vacía imaginados de cocina de Lyon. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes y fuente vacía imaginados de cocina de Lyon. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "compactPrice": "Menús44/52/64 €, sin bebida.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "canuts",
+   "name": "Maison des Canuts: telar en demostración",
+   "address": "10 Rue d'Ivry, 69004 Lyon, France",
+   "description": "Visita comentada de taller y demostración de tejido a mano. Incluye colección permanente: distinta de un paseo genérico por Croix-Rousse.",
+   "duration": "50 min según operador; sustituye parte del paseo de Croix-Rousse.",
+   "alert": "Retirar entradas 15 min antes: llegada tarde sin plaza ni reembolso garantizados. Traboules con 400 escalones NO incluidos en esta opción.",
+   "caution": "Propio: martes-sábado 11/15:30 según calendario,10 € adulto/7 € estudiante y gratis hasta 11 años. Confirmar edad/categoría en billetterie. Museo martes-viernes 10-13/14-18, sábado 10-18; fiestas cerrado salvo aperturas anunciadas. La combinación traboules cuesta 18 € y añade 1 h 30 con unas 400 escaleras bajando; no se incluye ni se llama accesible. Museo propio declara acceso PMR pero turismo dice con ayuda: confirmar necesidades. Taller Mattelon es otro producto 2 h 30 y segundo piso sin ascensor, NOincluido. Sin sesión reservada.",
+   "officialUrl": "https://maisondescanuts.fr/",
+   "sourceUrls": [
+    "https://maisondescanuts.fr/infos-utiles/",
+    "https://maisondescanuts.mapado.com/event/765860-visite-commentee-dun-atelier-de-tissage-a-la-maison-des-canuts"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Maison+des+Canuts&query_place_id=ChIJLd-gN-Lq9EcRIm8ChC-b8D0",
+   "priceLabel": "10 € adulto publicado, sesión según calendario; combinación traboules 18 € es otra opción.",
+   "photo": {
+    "img": "assets/lyon/canuts.jpg",
+    "author": "\n\n\n\n\n\nThis picture belongs to Xavier Caré.\nPlease credit : Xavier Caré / Wikimedia Commons / CC-BY-SA.\nIf you would like special permission to use, license, or purchase the image please contact me to negotiate terms.\nI'd appreciate if you could let me know about it or mail me ( xavier.carepm.me) if you want to use this picture out of the Wikimedia project scope.\n\n\n\n",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:La_Maison_des_Canuts_Panneau.JPG",
+    "caption": "Rótulo de Maison des Canuts, foto de archivo. No muestra telar ni sesión confirmada."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Propio tarifas/duración y política de retirada, no disponibilidad por fecha.",
+   "compactDuration": "50 min",
+   "compactAlert": "10 €. Retirar billete 15 min antes; no incluye traboules de 400 escalones.",
+   "photoPending": false
+  },
+  {
+   "id": "opera-tour",
+   "name": "Ópera de Lyon: visita guiada",
+   "address": "Opéra de Lyon, 1 Pl. de la Comédie, 69001 Lyon, France",
+   "description": "Recorrido por el edificio de Jean Nouvel con guía, no entrada a ópera o ballet. Complemento reservado que sustituye parte del día de plazas.",
+   "duration": "1 h 30 según operador. No sumar a todos los museos del día.",
+   "alert": "En francés, 14 € por persona. Muchos niveles a pie; movilidad/audición avisar 7 días antes. Menores de 5 no acceden.",
+   "caution": "Individuales en calendario miércoles/sábado 13 h, jueves 17:30; confirmar sesión y capacidad, nada reservado. Recomendada desde 12 años, mínima 5 por seguridad. Página general 17 pisos y ficha 2026/27 dice 18: no prometer visita de cada nivel. Quien no pueda recorrerlos a pie debe contactar equipo 7 días antes, no inferir accesibilidad total ni ascensor garantizado. Visitas familia y grupos tienen precios/idiomas distintos, no confundir 160 € grupo con 14 € individual. La imagen muestra exterior, no interior ni zonas visitables aseguradas.",
+   "officialUrl": "https://www.opera-lyon.com/informations-pratiques/visiter-l-opera",
+   "sourceUrls": [
+    "https://www.opera-lyon.com/en/programme/saison-2026-2027/visites/visites-decouverte-commentees-3"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Op%C3%A9ra+National+de+Lyon&query_place_id=ChIJy2-cQ_nq9EcRMc_1Ef1ibUg",
+   "priceLabel": "14 € individual publicado; familia/grupo son productos diferentes.",
+   "photo": {
+    "img": "assets/lyon/opera.jpg",
+    "alt": "Lyon opera.jpg",
+    "author": "SashiRolls",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lyon_opera.jpg",
+    "caption": "Exterior nocturno de la Ópera, no billete ni visita interior incluidos."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Temporada 2026/27 y página propia de visitas contrastadas; sin sesión reservada.",
+   "compactDuration": "1 h 30",
+   "compactAlert": "14 €, francés; mínimo 5 años. Movilidad/audición: avisar 7 días antes.",
+   "photoPending": false
+  }
+ ]
+}

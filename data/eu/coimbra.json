@@ -1,0 +1,508 @@
+{
+ "schemaVersion": 1,
+ "country": "PT",
+ "id": "coimbra",
+ "name": "Coímbra",
+ "localName": "Coimbra",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "universidad",
+   "name": "Universidad de Coímbra · Paço das Escolas y Biblioteca Joanina",
+   "kind": "visit",
+   "zone": "Alta universitaria",
+   "reason": "La universidad Patrimonio Mundial con la biblioteca barroca Joanina; la visita clave con franja.",
+   "sourceIds": [
+    "ucinfo"
+   ],
+   "coordinates": {
+    "lat": 40.2074,
+    "lon": -8.4265
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Universidad_de_Co%C3%ADmbra",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Elegir programa y hora exacta para Biblioteca Joanina. Llegar 5 minutos antes; perder la franja pierde ese acceso. Torre cerrada al público. Actos oficiales pueden cambiar acceso. Nada comprado.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior y programa de pago según espacios elegidos; no incluye torre",
+   "photo": {
+    "img": "assets/coimbra/universidad.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Universidad_de_Co%C3%ADmbra,_Portugal,_2012-05-10,_DD_12.JPG",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Foto de archivo de Universidad de Coímbra · Paço das Escolas y Biblioteca Joanina. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sevelha",
+   "name": "Sé Velha",
+   "kind": "visit",
+   "zone": "Alta / casco antiguo",
+   "reason": "La catedral románica-fortaleza en la subida de la alta.",
+   "sourceIds": [
+    "se-now"
+   ],
+   "coordinates": {
+    "lat": 40.208561,
+    "lon": -8.426922
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Catedral_vieja_de_Co%C3%ADmbra",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Horario estacional y distinto los domingos/festivos según Unidad Pastoral. Confirmar para tu fecha antes de fijar el día.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Visita interior de pago, sujeta a culto",
+   "photo": {
+    "img": "assets/coimbra/sevelha.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Coimbra_BW_2018-10-06_14-33-51_stitch.jpg",
+    "author": "Berthold Werner",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Foto de archivo de Sé Velha. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "baixa",
+   "name": "Baixa y rua Ferreira Borges",
+   "kind": "visit",
+   "zone": "Baixa",
+   "reason": "El centro comercial peatonal entre la Praça 8 de Maio y el río; cafés y tiendas históricas.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 40.2111111,
+    "lon": -8.4288889
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Co%C3%ADmbra",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Barrio de paseo",
+   "photo": {
+    "img": "assets/coimbra/baixa.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Coimbra,_Rua_Ferreira_Borges_(3).jpg",
+    "author": "Palickap",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto de archivo de Baixa y rua Ferreira Borges. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "santacruz",
+   "name": "Monasterio de Santa Cruz y Praça 8 de Maio",
+   "kind": "visit",
+   "zone": "Baixa",
+   "reason": "Monasterio con las tumbas de los primeros reyes de Portugal, frente al café Santa Cruz.",
+   "sourceIds": [
+    "cruz-now"
+   ],
+   "coordinates": {
+    "lat": 40.210945,
+    "lon": -8.428761
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Monasterio_de_Santa_Cruz_(Co%C3%ADmbra)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Visitas 09:30-16:30 lunes-sábado; domingos/festivos religiosos 13:00-17:00 según Unidad Pastoral. Cierres 1 enero, Pascua, Navidad y otras celebraciones. No confundir horario de visita con culto.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Visita turística de pago; culto con acceso distinto",
+   "photo": {
+    "img": "assets/coimbra/santacruz.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Coimbra_igr_sta_cruz_1.JPG",
+    "author": "Carlos Luis M C da Cruz",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "licenseURL": "",
+    "caption": "Foto de archivo de Monasterio de Santa Cruz y Praça 8 de Maio. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lagrimas",
+   "name": "Quinta das Lágrimas",
+   "kind": "visit",
+   "zone": "Santa Clara",
+   "reason": "Los jardines de la historia de Inês de Castro, al otro lado del Mondego.",
+   "sourceIds": [
+    "lag"
+   ],
+   "coordinates": {
+    "lat": 40.1980556,
+    "lon": -8.4333333
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Quinta_das_L%C3%A1grimas",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "La Fundación exige marcação prévia obligatoria para el billete simple desde mayo 2026. No hay reserva. El jardín japonés/palacio requieren visita guiada específica. No presentarlo como paseo espontáneo.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Solo alternativa con reserva previa confirmada",
+   "photo": {
+    "img": "assets/coimbra/lagrimas.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Quinta_das_Lagrimas.jpg",
+    "author": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Foto de archivo del edificio de Quinta das Lágrimas, no de los jardines que requieren cita. No incluye acceso al palacio."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "pequenitos",
+   "name": "Portugal dos Pequenitos",
+   "kind": "visit",
+   "zone": "Santa Clara",
+   "reason": "Parque de Portugal en miniatura; clásico familiar junto al río.",
+   "sourceIds": [
+    "peq"
+   ],
+   "coordinates": {
+    "lat": 40.2030556,
+    "lon": -8.4341667
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Portugal_dos_Pequenitos",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "10:00-17:00 desde 16 octubre hasta febrero; marzo-15 octubre hasta 19:00. Última entrada 30 min antes; cerrado 25 diciembre. No se añade automáticamente a los jardines.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Parque de pago, alternativa familiar",
+   "photo": {
+    "img": "assets/coimbra/pequenitos.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Portugalpequenitos.jpg",
+    "author": "No machine-readable author provided. Lampiao3 assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Foto de archivo de Portugal dos Pequenitos. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "clara",
+   "name": "Monasterio de Santa Clara-a-Velha",
+   "kind": "visit",
+   "zone": "Santa Clara",
+   "reason": "El monasterio gótico rescatado de las inundaciones del Mondego.",
+   "sourceIds": [
+    "clara-now"
+   ],
+   "coordinates": {
+    "lat": 40.20276,
+    "lon": -8.43349
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Monasterio_de_Santa_Clara-a-Velha",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "La billeteira oficial indica cierre temporal por obras. Se conserva la ficha y su foto de archivo, pero no se promete acceso ni se propone entrada.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Cerrado temporalmente por obras; no programado",
+   "photo": {
+    "img": "assets/coimbra/clara.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Most_sta_clara_a_velha_3.JPG",
+    "author": "Carlos Luis M C da Cruz",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "licenseURL": "",
+    "caption": "Foto de archivo de Monasterio de Santa Clara-a-Velha. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "conimbriga",
+   "name": "Conímbriga · ciudad romana",
+   "kind": "visit",
+   "zone": "Condeixa-a-Nova (16 km)",
+   "reason": "Mayor yacimiento romano de Portugal, con mosaicos in situ; tercer día como excursión de media jornada, explícita y funcional.",
+   "sourceIds": [
+    "sit-new",
+    "con-now"
+   ],
+   "coordinates": {
+    "lat": 40.099,
+    "lon": -8.49
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Con%C3%ADmbriga",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 180,
+   "durationType": "editorial-estimate",
+   "caution": "Elegir ida y vuelta en la línea 209 antes de salir. PDF oficial válido desde 9 noviembre 2026: laborables Portagem 09:30 → Conímbriga 10:07, vuelta 13:25 → Portagem 14:01, tiempos indicativos. Fin de semana cambia: consultar pp50-53. Museo 10-18, último acceso 17:15, con cierres festivos. Nada reservado.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión propia en bus; no tramo a pie desde Coímbra",
+   "photo": {
+    "img": "assets/coimbra/conimbriga.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:P1080406_Ruinas_Conimbriga_(Condeixa-a-Nova).jpg",
+    "author": "Elisardojm",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Foto de archivo de una zona excavada de Conímbriga. No representa todos los mosaicos ni confirma acceso en tu fecha."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "botanico",
+   "name": "Jardín Botánico de la Universidad de Coímbra",
+   "coordinates": {
+    "lat": 40.2056083,
+    "lon": -8.4227389
+   },
+   "zone": "Alta universitaria",
+   "reason": "Paseo por el jardín de la Universidad, alternativa abierta sin cita para visitas individuales.",
+   "kind": "garden",
+   "sourceIds": [
+    "bot"
+   ],
+   "suggestedMinutes": 75,
+   "visitMode": "Jardín exterior gratuito individual; algunas zonas en obras",
+   "caution": "Verano 09-20; octubre-marzo 09-17:30. Cierra 25 diciembre, 1 enero y días de cortejos universitarios. Áreas con obras y accesibilidad parcial. No incluye visita guiada ni estufa.",
+   "photo": {
+    "img": "assets/coimbra/botanico.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Jardim_Bot%C3%A2nico_(3540454067).jpg",
+    "originalSource": "https://www.flickr.com/photos/mava/3540454067/",
+    "author": "Marco Varisco",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Foto de archivo del Jardín Botánico, escaleras y palmeras. No confirma la apertura de todas sus zonas."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Alta universitaria y Baixa",
+     "zone": "Universidad → Sé Velha → Baixa",
+     "stopIds": [
+      "universidad",
+      "sevelha",
+      "santacruz",
+      "baixa"
+     ],
+     "editorialNote": "Recomendación para esta ciudad: 1 día de centro; añadir Conímbriga como segundo día. Un tercero solo a ritmo tranquilo con Botánico y Portugal dos Pequenitos si te interesa el parque. Entrada a Joanina en su franja; bajar por Sé Velha y llegar a Santa Cruz antes de su cierre turístico. Baixa después. Si Joanina queda tarde, invertir bloques según sus horarios.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h con visita, comida y cuestas, estimación editorial."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Alta universitaria y Baixa",
+     "zone": "Universidad → Sé Velha → Baixa",
+     "stopIds": [
+      "universidad",
+      "sevelha",
+      "santacruz",
+      "baixa"
+     ],
+     "editorialNote": "Recomendación para esta ciudad: 1 día de centro; añadir Conímbriga como segundo día. Un tercero solo a ritmo tranquilo con Botánico y Portugal dos Pequenitos si te interesa el parque. Entrada a Joanina en su franja; bajar por Sé Velha y llegar a Santa Cruz antes de su cierre turístico. Baixa después. Si Joanina queda tarde, invertir bloques según sus horarios.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h con visita, comida y cuestas, estimación editorial."
+    },
+    {
+     "title": "Conímbriga · excursión propia",
+     "zone": "Condeixa-a-Nova (bus desde Coímbra)",
+     "stopIds": [
+      "conimbriga"
+     ],
+     "editorialNote": "Excursión propia, no ruta urbana caminando. Seleccionar ida/vuelta de 209 y apertura antes de salir; posible mañana laborable con horario oficial desde 9 noviembre: Portagem 09:30, llegada 10:07, vuelta 13:25. Fin de semana exige su propia tabla, no se reutiliza el horario laborable.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "Media jornada laborable orientativa; el fin de semana puede exigir más tiempo según servicios. Bus no reservado."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Alta universitaria y Baixa",
+     "zone": "Universidad → Sé Velha → Baixa",
+     "stopIds": [
+      "universidad",
+      "sevelha",
+      "santacruz",
+      "baixa"
+     ],
+     "editorialNote": "Recomendación para esta ciudad: 1 día de centro; añadir Conímbriga como segundo día. Un tercero solo a ritmo tranquilo con Botánico y Portugal dos Pequenitos si te interesa el parque. Entrada a Joanina en su franja; bajar por Sé Velha y llegar a Santa Cruz antes de su cierre turístico. Baixa después. Si Joanina queda tarde, invertir bloques según sus horarios.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h con visita, comida y cuestas, estimación editorial."
+    },
+    {
+     "title": "Tercer día opcional · Botánico y Portugal dos Pequenitos",
+     "zone": "Jardín de la Universidad; alternativa Santa Clara",
+     "stopIds": [
+      "botanico",
+      "pequenitos"
+     ],
+     "editorialNote": "Recomendación: 1 día de centro y un segundo para Conímbriga. Elegir 3 días solo con interés en este día adicional tranquilo: Jardín Botánico por la mañana y Portugal dos Pequenitos por la tarde, parque de pago centrado en arquitectura en miniatura y especialmente familias. No es otro día de imprescindibles. Lágrimas sustituye al parque únicamente con cita confirmada. Santa Clara-a-Velha cerrada por obras.",
+     "optionalStopIds": [
+      "lagrimas"
+     ],
+     "pacing": "Día adicional tranquilo: 75 min de jardín + unas 2 h de parque, estimaciones editoriales, más comida y traslado entre orillas; no trayecto peatonal verificado.",
+     "geographyChecks": []
+    },
+    {
+     "title": "Conímbriga · excursión propia",
+     "zone": "Condeixa-a-Nova (bus desde Coímbra)",
+     "stopIds": [
+      "conimbriga"
+     ],
+     "editorialNote": "Excursión propia, no ruta urbana caminando. Seleccionar ida/vuelta de 209 y apertura antes de salir; posible mañana laborable con horario oficial desde 9 noviembre: Portagem 09:30, llegada 10:07, vuelta 13:25. Fin de semana exige su propia tabla, no se reutiliza el horario laborable.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "Media jornada laborable orientativa; el fin de semana puede exigir más tiempo según servicios. Bus no reservado."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Nada reservado. Horarios y cierres universitarios/festivos requieren comprobar fecha.",
+  "Coímbra tiene cuestas y accesibilidad parcial; puntos aproximados, no rutas caminables verificadas."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "wp",
+   "title": "Wikipedia: Coímbra y artículos de cada lugar",
+   "url": "https://es.wikipedia.org/wiki/Co%C3%ADmbra",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ot",
+   "title": "Turismo municipal: cm-coimbra.pt",
+   "url": "https://www.cm-coimbra.pt/",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: lugares que ver en Coímbra",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-en-coimbra/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "uc",
+   "title": "Universidad de Coímbra: visitas y entradas",
+   "url": "https://www.uc.pt/turismo/",
+   "type": "official",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "oficial",
+   "title": "Conímbriga - Museo Monográfico (sitio oficial)",
+   "url": "https://www.conimbriga.gov.pt/"
+  },
+  {
+   "id": "bot",
+   "title": "UC · Jardín Botánico acceso individual",
+   "url": "https://www.uc.pt/jardimbotanico/visite-nos/",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "ucinfo",
+   "title": "UCTour · Normas y calendario",
+   "url": "https://visit.uc.pt/pt/info",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "lag",
+   "title": "Fundación Inês de Castro · Reserva obligatoria",
+   "url": "https://fundacaoinesdecastro.com/visite-os-jardins-da-quinta-das-lagrimas-e-apoie-a-conservacao-do-nosso-patrimonio-vegetal-e-imaterial/",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "clara-now",
+   "title": "Património Cultural · Cierre Santa Clara-a-Velha",
+   "url": "https://bilheteira.patrimoniocultural.gov.pt/pt/monument/34",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "peq",
+   "title": "Portugal dos Pequenitos · Horario",
+   "url": "https://portugaldospequenitos.pt/horario/",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "sit-new",
+   "title": "SIT · Horario válido desde 9 noviembre 2026, línea 209 pp48-53",
+   "url": "https://info.itbusway.eu/SIT-Metropolitano-PDF/20261109/Horarios_SIT_Coimbra_2026_11_09.pdf",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "con-now",
+   "title": "MMP · Conímbriga",
+   "url": "https://www.museusemonumentos.pt/pt/museus-e-monumentos/museu-nacional-de-conimbriga",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "se-now",
+   "title": "Unidad Pastoral · Sé Velha",
+   "url": "https://www.upaeminium.pt/patrimonio-se-velha/",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "cruz-now",
+   "title": "Unidad Pastoral · Santa Cruz",
+   "url": "https://www.upaeminium.pt/patrimonio-santa-cruz/",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

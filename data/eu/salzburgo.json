@@ -1,0 +1,856 @@
+{
+ "schemaVersion": 1,
+ "country": "AT",
+ "id": "salzburgo",
+ "name": "Salzburgo",
+ "localName": "Salzburg",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "kapitelplatz",
+   "name": "Kapitelplatz",
+   "kind": "walk",
+   "zone": "Casco antiguo",
+   "reason": "Gran plaza a los pies de la fortaleza, con la esfera dorada Sphaera (con figura encima) y un tablero de ajedrez gigante.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.79722,
+    "lon": 13.04694
+   },
+   "coordinateSource": "https://de.wikipedia.org/wiki/Kapitelplatz_und_Kapitelgasse",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/salzburgo/kapitelplatz.jpg",
+    "alt": "Kapitelplatz, Salzburg 09.jpg",
+    "author": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kapitelplatz,_Salzburg_09.jpg",
+    "caption": "Foto de archivo de Kapitelplatz. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral de Salzburgo",
+   "kind": "monument",
+   "zone": "Casco antiguo",
+   "reason": "Catedral barroca del siglo XVII con su gran cúpula; en sus pila bautismal fue bautizado Mozart.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.79778,
+    "lon": 13.04694
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Catedral_de_Salzburgo",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Exterior como base; interior según culto, calendario y contribución/entrada vigentes. No se fija horario sin poder leerlo del operador.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; interior solo si acceso de visitantes confirmado",
+   "photo": {
+    "img": "assets/salzburgo/catedral.jpg",
+    "alt": "Salzburg Dom Fassade 01.jpg",
+    "author": "Uoaei1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburg_Dom_Fassade_01.jpg",
+    "caption": "Foto de archivo de Catedral de Salzburgo. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "residenzplatz",
+   "name": "Residenzplatz",
+   "kind": "walk",
+   "zone": "Casco antiguo",
+   "reason": "Plaza de la antigua residencia de los príncipes-arzobispos, con la fuente Residenzbrunnen. El carillón de la Neue Residenz tiene calendario propio; no se promete audición.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.79843,
+    "lon": 13.04637
+   },
+   "coordinateSource": "https://de.wikipedia.org/wiki/Residenzplatz_(Salzburg)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/salzburgo/residenzplatz.jpg",
+    "alt": "Salzburg Residenzbrunnen und Glockenspiel-1906-2.jpg",
+    "author": "Isiwal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburg_Residenzbrunnen_und_Glockenspiel-1906-2.jpg",
+    "caption": "Foto de archivo de Residenzplatz. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "mozartplatz",
+   "name": "Mozartplatz",
+   "kind": "walk",
+   "zone": "Casco antiguo",
+   "reason": "Plaza presidida por la estatua de Mozart de 1842, con el Mönchsberg de telón de fondo.",
+   "sourceIds": [
+    "sm-now",
+    "sm-build"
+   ],
+   "coordinates": {
+    "lat": 47.7989,
+    "lon": 13.04762
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Mozartplatz",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "La Neue Residenz está en obras desde 2023; proyecto prevé apertura en 2027, no fecha de día confirmada. La frase de visitas guiadas desde primavera de 2027 de la portada corresponde al carillón, no prueba reapertura del museo. Plaza exterior como base.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Plaza exterior; no museo Neue Residenz incluido",
+   "photo": {
+    "img": "assets/salzburgo/mozartplatz.jpg",
+    "alt": "Salzburg 2014 11.jpg",
+    "author": "Perituss",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburg_2014_11.jpg",
+    "caption": "Foto de archivo de Mozartplatz. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "altermarkt",
+   "name": "Alter Markt",
+   "kind": "walk",
+   "zone": "Casco antiguo",
+   "reason": "La antigua plaza del mercado, con la fuente de San Florián y casas gremiales; el Café Tomaselli (1700) está aquí.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.79962,
+    "lon": 13.04497
+   },
+   "coordinateSource": "https://de.wikipedia.org/wiki/Alter_Markt_(Salzburg)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/salzburgo/altermarkt.jpg",
+    "alt": "Salzburg Florianibrunnen Alter Markt-8101-2.jpg",
+    "author": "Isiwal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburg_Florianibrunnen_Alter_Markt-8101-2.jpg",
+    "caption": "Foto de archivo de Alter Markt. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "getreidegasse",
+   "name": "Getreidegasse",
+   "kind": "walk",
+   "zone": "Casco antiguo",
+   "reason": "La calle comercial más famosa de Salzburgo, con letreros de hierro forjado y pasajes entre patios interiores.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.8,
+    "lon": 13.04389
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Getreidegasse",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/salzburgo/getreidegasse.jpg",
+    "alt": "Getreidegasse 15, Salzburg.jpg",
+    "author": "Snotty (talk)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Getreidegasse_15,_Salzburg.jpg",
+    "caption": "Foto de archivo de Getreidegasse. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "mozartcasa",
+   "name": "Casa Natal de Mozart",
+   "kind": "museum",
+   "zone": "Getreidegasse",
+   "reason": "La casa amarilla de Getreidegasse 9 donde nació Mozart en 1756; museo de la Fundación Mozarteum.",
+   "sourceIds": [
+    "moz"
+   ],
+   "coordinates": {
+    "lat": 47.8,
+    "lon": 13.04333
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Mozart%27s_birthplace",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Diario9-17:30 con última entrada30min antes según Mozarteum.21 de noviembre de 2026cierra a las 16 h;24 de diciembre13h;1 de enero de 2027abre a las 12 h. Casa no accesible sin barreras según operador. Fechas puntuales no se convierten en cierre anual.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Museo de pago, interior principal del día 2",
+   "photo": {
+    "img": "assets/salzburgo/mozartcasa.jpg",
+    "alt": "Salzburg, Getreidegasse 9, Mozarts Geburtshaus 2.jpg",
+    "author": "Andreas Stiasny",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburg,_Getreidegasse_9,_Mozarts_Geburtshaus_2.jpg",
+    "caption": "Foto de archivo de Casa Natal de Mozart. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "kollegienkirche",
+   "name": "Kollegienkirche",
+   "kind": "monument",
+   "zone": "Casco antiguo",
+   "reason": "Iglesia universitaria de Fischer von Erlach (1707), todo en blanco inmaculado; hoy espacio de exposiciones de la Universidad.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.7991,
+    "lon": 13.0431
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Kollegienkirche,_Salzburg",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/salzburgo/kollegienkirche.jpg",
+    "alt": "Kollegienkirche Salzburg Innenbalkon.jpg",
+    "author": "Zintosch7",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kollegienkirche_Salzburg_Innenbalkon.jpg",
+    "caption": "Foto de archivo de Kollegienkirche. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sanpedro",
+   "name": "Cementerio de San Pedro",
+   "kind": "walk",
+   "zone": "Casco antiguo",
+   "reason": "Cementerio barroco con cruces de hierro forjado a los pies del Mönchsberg, con catacumbas excavadas en la roca; uno de los rincones más sugerentes de la ciudad.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.79694,
+    "lon": 13.04583
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Saint_Peter%27s_Abbey,_Salzburg",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Cementerio como paseo respetuoso, según apertura; no catacumbas ni acceso interior garantizado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/salzburgo/sanpedro.jpg",
+    "alt": "Friedhof Stift St. Peter.JPG",
+    "author": "Laemwi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Friedhof_Stift_St._Peter.JPG",
+    "caption": "Foto de archivo de Cementerio de San Pedro. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "hohensalzburg",
+   "name": "Fortaleza de Hohensalzburg",
+   "kind": "monument",
+   "zone": "Colina Festungsberg",
+   "reason": "Una de las mayores fortalezas medievales conservadas de Europa (1077), con vistas completas de la ciudad; se sube a pie o con el funicular FestungsBahn.",
+   "sourceIds": [
+    "fest"
+   ],
+   "coordinates": {
+    "lat": 47.795,
+    "lon": 13.0473
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Fortaleza_de_Hohensalzburg",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "9-13 de noviembre de 2026: FestungsBahn en mantenimiento y museos/interiores cerrados; sendero y exteriores abiertos.11 de enero-14 de marzo de 2027: funicular en mantenimiento, interiores abiertos por camino a pie según operador. No confundir los dos periodos ni asumir subida apta para todos.24 de diciembre interiores hasta las 14 h; revisar calendario y accesibilidad.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Fortaleza e interiores según fecha; subida elegida aparte",
+   "photo": {
+    "img": "assets/salzburgo/hohensalzburg.jpg",
+    "alt": "Festung Hohensalzburg von Nordost.jpg",
+    "author": "Andreas Stiasny",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Festung_Hohensalzburg_von_Nordost.jpg",
+    "caption": "Foto de archivo de Fortaleza de Hohensalzburg. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "mirabell",
+   "name": "Palacio y Jardines de Mirabell",
+   "kind": "walk",
+   "zone": "Orilla derecha",
+   "reason": "Palacio de 1606 con jardines de parterres, la escalera de mármol y la vista alineada con la fortaleza; escenario de 'Sonrisas y lágrimas'.",
+   "sourceIds": [
+    "mir-now"
+   ],
+   "coordinates": {
+    "lat": 47.8055,
+    "lon": 13.042
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Palacio_de_Mirabell",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Jardín de la Orangerie cerrado por rediseño hasta diciembre de 2026 según turismo municipal. Palacio tiene salas y horarios propios, domingos/festivos sin visita; actos pueden limitar salas. Exterior como base, no todos los jardines/salas garantizados.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Jardines exteriores según sectores abiertos, no concierto incluido",
+   "photo": {
+    "img": "assets/salzburgo/mirabell.jpg",
+    "alt": "Salzburg 085 Schloss Mirabell.JPG",
+    "author": "Gudrun Meyer",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburg_085_Schloss_Mirabell.JPG",
+    "caption": "Foto de archivo de Palacio y Jardines de Mirabell. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "monchsberg",
+   "name": "Mönchsberg",
+   "kind": "walk",
+   "zone": "Mönchsberg",
+   "reason": "Colina sobre el casco antiguo con senderos y los mejores miradores sobre las cúpulas y la fortaleza; ascensor desde Gstättengasse.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.79611,
+    "lon": 13.03972
+   },
+   "coordinateSource": "https://de.wikipedia.org/wiki/M%C3%B6nchsberg",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Mirador exterior con pendientes/escalones o acceso elegido. Con nieve/hielo, poca luz o falta de fuerzas, elegir paseo bajo en vez de subir. No se apilan las dos colinas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Alternativa de mirador, no subida obligatoria",
+   "photo": {
+    "img": "assets/salzburgo/monchsberg.jpg",
+    "alt": "Salzburg Altstadt Panorama 20170409 02.jpg",
+    "author": "Uoaei1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburg_Altstadt_Panorama_20170409_02.jpg",
+    "caption": "Vista panorámica de archivo de Salzburgo asociada a Mönchsberg. No muestra todo un sendero ni condiciones actuales."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "kapuzinerberg",
+   "name": "Kapuzinerberg",
+   "kind": "walk",
+   "zone": "Kapuzinerberg",
+   "reason": "Colina al este del río con el monasterio capuchino y vistas del casco antiguo con los Alpes al fondo; subida por escaleras desde Linzer Gasse.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.80472,
+    "lon": 13.0575
+   },
+   "coordinateSource": "https://de.wikipedia.org/wiki/Kapuzinerberg",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Mirador exterior con pendientes/escalones o acceso elegido. Con nieve/hielo, poca luz o falta de fuerzas, elegir paseo bajo en vez de subir. No se apilan las dos colinas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Alternativa de mirador, no subida obligatoria",
+   "photo": {
+    "img": "assets/salzburgo/kapuzinerberg.jpg",
+    "alt": "Salzburg (48489551981).jpg",
+    "author": "Jorge Franganillo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburg_(48489551981).jpg",
+    "caption": "Vista panorámica de archivo de Salzburgo asociada a Kapuzinerberg. No muestra todo un sendero ni condiciones actuales."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "hellbrunn",
+   "name": "Palacio de Hellbrunn y juegos de agua",
+   "kind": "monument",
+   "zone": "Sur de la ciudad",
+   "reason": "Palacio, parque y juegos de agua al sur de Salzburgo. Interior y juegos solo como alternativa con temporada publicada, no acceso anual garantizado.",
+   "sourceIds": [
+    "hell"
+   ],
+   "coordinates": {
+    "lat": 47.76222,
+    "lon": 13.06083
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Hellbrunn_Palace",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Temporada palacio/juegos de agua de 2026 terminó el 1 de noviembre. No se presupone28 de marzo de 2027 por repetir calendario de 2026. Parque exterior tiene condiciones propias; no promete palacio ni agua en invierno. Bus 25 solo según servicio del día.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Palacio y juegos de agua solo en temporada publicada",
+   "photo": {
+    "img": "assets/salzburgo/hellbrunn.jpg",
+    "alt": "Hellbrunn Palace, Salzburg, Austria, 20260502 0902 0612.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hellbrunn_Palace,_Salzburg,_Austria,_20260502_0902_0612.jpg",
+    "caption": "Foto de archivo de Palacio de Hellbrunn y juegos de agua. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "hangar7",
+   "name": "Hangar-7",
+   "kind": "monument",
+   "zone": "Aeropuerto",
+   "reason": "Espectacular hangar de cristal y acero con la colección de aviones históricos y coches de Fórmula 1 de Red Bull, con restaurantes y exposiciones.",
+   "sourceIds": [
+    "h7"
+   ],
+   "coordinates": {
+    "lat": 47.79361,
+    "lon": 13.00722
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Hangar-7",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Exposición: lunes9-20, martes-sábado9-22, domingo/festivos9-17 según operador.4 de noviembre de 2026exposición y tienda cierran a las 17:30. Restauración tiene otros horarios y terraza exterior cerrada hasta primavera de 2027. No se afirma entrada gratuita sin verificación.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exposición según calendario, no comida ni acceso a todo el recinto incluido",
+   "photo": {
+    "img": "assets/salzburgo/hangar7.jpg",
+    "alt": "Red Bull Hangar 7, Salzburg ( Ank Kumar) 17.jpg",
+    "author": "Ank kumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_Bull_Hangar_7,_Salzburg_(_Ank_Kumar)_17.jpg",
+    "caption": "Foto de archivo de Hangar-7. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "hallstatt",
+   "name": "Hallstatt",
+   "kind": "excursion",
+   "zone": "Salzkammergut",
+   "reason": "Paseo por el casco de Hallstatt y ribera del lago, con transporte de regreso comprobado antes de salir.",
+   "sourceIds": [
+    "oebb",
+    "oebb101",
+    "oebb170",
+    "oebbplan",
+    "boat",
+    "boat-pdf"
+   ],
+   "coordinates": {
+    "lat": 47.55583,
+    "lon": 13.64667
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Hallstatt",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "Ferry anual según operador, pero meteorología/retrasos pueden cambiar servicio; efectivo, no tarjeta. TablasÖBB 2025/2026 vigentes hasta el 12 de diciembre de 2026 salvo cambios: no usar después como horarios2027. No excursión con enlace o último ferry sin seleccionar. No se incluye mina, Skywalk ni Dachstein en el mismo día.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión propia con transporte y acceso elegidos por fecha",
+   "photo": {
+    "img": "assets/salzburgo/hallstatt.jpg",
+    "alt": "View of Hallstatt waterfront and churches from Hallstätter See.jpg",
+    "author": "David Kernan",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_Hallstatt_waterfront_and_churches_from_Hallst%C3%A4tter_See.jpg",
+    "caption": "Foto de archivo de la ribera de Hallstatt. No confirma transportes ni condiciones actuales."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "minasdesal",
+   "name": "Minas de sal de Berchtesgaden",
+   "kind": "excursion",
+   "zone": "Berchtesgaden (Alemania)",
+   "reason": "Visita guiada de la mina con entrada elegida por el viajero. No se añade Nido del Águila ni otra excursión montaña ese día.",
+   "sourceIds": [
+    "salz",
+    "bus840"
+   ],
+   "coordinates": {
+    "lat": 47.63833,
+    "lon": 13.01756
+   },
+   "coordinateSource": "https://de.wikipedia.org/wiki/Salzbergwerk_Berchtesgaden",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Mina solo con visita guiada 1 h; operador pide 1,5-2 h total con ropa/entrada.9 de noviembre-29 de marzo, horario 11-15,30 de marzo-8 de noviembre, 9-17 según calendario consultado. Cierra el 1 de enero, Viernes Santo, Lunes de Pentecostés, 1 de noviembre, 24-25 y 31 de diciembre. Confirmar fecha/hueco antes de transporte. Foto solo edificio de entrada, no interior.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión propia con transporte y acceso elegidos por fecha",
+   "photo": {
+    "img": "assets/salzburgo/minasdesal.jpg",
+    "alt": "Salzbergwerk-Berchtesgaden.jpg",
+    "author": "Nize   |  Nicolai Schäfer",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzbergwerk-Berchtesgaden.jpg",
+    "caption": "Foto de archivo de la entrada de la mina, no del recorrido interior."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Casco barroco y fortaleza",
+     "zone": "Centro histórico → Festungsberg",
+     "stopIds": [
+      "kapitelplatz",
+      "catedral",
+      "residenzplatz",
+      "mozartplatz",
+      "sanpedro",
+      "hohensalzburg"
+     ],
+     "editorialNote": "Plazas y catedral por fuera, cementerio y fortaleza como única visita larga si interiores abren.9-13 de noviembre de 2026, interiores cerrados: conservar paseo exterior solo si subida adecuada, o intercambiar día. Neue Residenz no forma parte del interior de la jornada.",
+     "optionalStopIds": [
+      "altermarkt"
+     ],
+     "pacing": "Estimación editorial con pausas. Transporte y accesos según fecha."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Casco barroco y fortaleza",
+     "zone": "Centro histórico → Festungsberg",
+     "stopIds": [
+      "kapitelplatz",
+      "catedral",
+      "residenzplatz",
+      "mozartplatz",
+      "sanpedro",
+      "hohensalzburg"
+     ],
+     "editorialNote": "Plazas y catedral por fuera, cementerio y fortaleza como única visita larga si interiores abren.9-13 de noviembre de 2026, interiores cerrados: conservar paseo exterior solo si subida adecuada, o intercambiar día. Neue Residenz no forma parte del interior de la jornada.",
+     "optionalStopIds": [
+      "altermarkt"
+     ],
+     "pacing": "Estimación editorial con pausas. Transporte y accesos según fecha."
+    },
+    {
+     "title": "Mozart y Mirabell, sin dos colinas",
+     "zone": "Getreidegasse → Kollegienkirche → Mirabell",
+     "stopIds": [
+      "getreidegasse",
+      "mozartcasa",
+      "kollegienkirche",
+      "altermarkt",
+      "mirabell"
+     ],
+     "editorialNote": "Casa Natal como interior principal. Mirabell en sectores abiertos; Kapuzinerberg solo como extensión con luz y fuerzas. Mönchsberg es alternativa de mirador, no segunda subida obligatoria tras cruzar el río.",
+     "optionalStopIds": [
+      "kapuzinerberg",
+      "monchsberg"
+     ],
+     "pacing": "Estimación editorial con pausas. Transporte y accesos según fecha."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Casco barroco y fortaleza",
+     "zone": "Centro histórico → Festungsberg",
+     "stopIds": [
+      "kapitelplatz",
+      "catedral",
+      "residenzplatz",
+      "mozartplatz",
+      "sanpedro",
+      "hohensalzburg"
+     ],
+     "editorialNote": "Plazas y catedral por fuera, cementerio y fortaleza como única visita larga si interiores abren.9-13 de noviembre de 2026, interiores cerrados: conservar paseo exterior solo si subida adecuada, o intercambiar día. Neue Residenz no forma parte del interior de la jornada.",
+     "optionalStopIds": [
+      "altermarkt"
+     ],
+     "pacing": "Estimación editorial con pausas. Transporte y accesos según fecha."
+    },
+    {
+     "title": "Mozart y Mirabell, sin dos colinas",
+     "zone": "Getreidegasse → Kollegienkirche → Mirabell",
+     "stopIds": [
+      "getreidegasse",
+      "mozartcasa",
+      "kollegienkirche",
+      "altermarkt",
+      "mirabell"
+     ],
+     "editorialNote": "Casa Natal como interior principal. Mirabell en sectores abiertos; Kapuzinerberg solo como extensión con luz y fuerzas. Mönchsberg es alternativa de mirador, no segunda subida obligatoria tras cruzar el río.",
+     "optionalStopIds": [
+      "kapuzinerberg",
+      "monchsberg"
+     ],
+     "pacing": "Estimación editorial con pausas. Transporte y accesos según fecha."
+    },
+    {
+     "title": "Día opcional tranquilo: Hangar-7 y Mönchsberg",
+     "zone": "Hangar-7 → centro según transporte",
+     "stopIds": [
+      "hangar7",
+      "monchsberg"
+     ],
+     "editorialNote": "El núcleo urbano se recomienda en dos días. Si eliges tres, usa la mañana para Hangar-7 y vuelve en transporte al centro para paseo/mirador de Mönchsberg con luz y terreno seguros; no es traslado a pie desde aeropuerto. Hellbrunn puede sustituir este día solo con temporada publicada para tu fecha. Si no quieres una jornada lenta o hay hielo, elige dos días en vez de forzar subida.",
+     "optionalStopIds": [
+      "hellbrunn"
+     ],
+     "pacing": "Estimación editorial con pausas. Transporte y accesos según fecha."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Kehlsteinhaus excluido: web propia informa incendio del 23 de octubre de 2026 y cierre de casa/bus/ascensor hasta nuevo aviso. No se usa una fecha previa de reapertura.",
+  "Neue Residenz cierre por obras, proyecto2027sin fecha exacta; primavera de 2027deportada era carillón."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: Lugares que visitar en Salzburgo",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-visitar-salzburgo/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Salzburgo y lugares",
+   "url": "https://es.wikipedia.org/wiki/Salzburgo",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fest",
+   "title": "Fortaleza Hohensalzburg: horarios",
+   "url": "https://www.festung-hohensalzburg.at/en/your-visit/opening-hours",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hell",
+   "title": "Palacio Hellbrunn: horarios, precios y llegada",
+   "url": "https://www.hellbrunn.at/en/info/opening-hours-prices-arrival",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "moz",
+   "title": "Mozarteum: Casa Natal de Mozart",
+   "url": "https://www.mozarteum.at/en/museums/mozarts-birthplace/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "h7",
+   "title": "Hangar-7: horarios",
+   "url": "https://www.hangar-7.com/en/service-info/opening-hours",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sm",
+   "title": "Salzburg Museum: cierre por reformas",
+   "url": "https://www.salzburgmuseum.at/en/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "kehl",
+   "title": "Kehlsteinhaus: cierre por incendio",
+   "url": "https://www.kehlsteinhaus.de/en/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "salz",
+   "title": "Salzbergwerk Berchtesgaden: planifica tu visita",
+   "url": "https://www.salzbergwerk.de/en/plan-a-visit",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rail",
+   "title": "EveryRail: tren Salzburgo-Hallstatt (agregador)",
+   "url": "https://www.everyrail.com/trains/salzburg-to-hallstatt/",
+   "type": "aggregator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sm-now",
+   "title": "Salzburg Museum · Neue Residenz en obras",
+   "url": "https://www.salzburgmuseum.at/en/location/neue-residenz/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sm-build",
+   "title": "Salzburg Museum · apertura prevista2027",
+   "url": "https://www.salzburgmuseum.at/en/construction-projects/belvederesalzburg/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bus840",
+   "title": "DBRegioBus · Watzmannexpress840",
+   "url": "https://www.dbregiobus-bayern.de/angebot/freizeitbusse/rvo-rva/watzmann-express",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "boat",
+   "title": "Hallstatt Schifffahrt · ferry anual y condiciones",
+   "url": "https://hallstattschifffahrt.at/en/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "boat-pdf",
+   "title": "Hallstatt Schifffahrt · tabla2026",
+   "url": "https://hallstattschifffahrt.at/uploads/downloads/Fahrplan-Bahnhof-nach-Hallstatt-2026.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "oebb",
+   "title": "ÖBB · tablas2025/2026",
+   "url": "https://www.oebb.at/de/fahrplan/fahrplanbilder",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "oebb101",
+   "title": "ÖBB 101 · Linz-Attnang-Salzburg",
+   "url": "https://www.oebb.at/de/dam/jcr:b778a225-7047-4368-a4a3-d5548d492751/101.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "oebb170",
+   "title": "ÖBB170 · Attnang-Hallstatt",
+   "url": "https://www.oebb.at/de/dam/jcr:1d1c904f-9daf-475f-b7fc-af65df29c3c5/170.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "oebbplan",
+   "title": "ÖBB · horarios y obras actuales",
+   "url": "https://www.oebb.at/en/fahrplan",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mir-now",
+   "title": "Turismo Salzburgo · Mirabell",
+   "url": "https://www.salzburg.info/en/sights/top10/mirabell-palace-gardens",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

@@ -1,0 +1,1052 @@
+{
+ "schemaVersion": 1,
+ "country": "FR",
+ "id": "lyon",
+ "name": "Lyon",
+ "localName": "Lyon",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "fourviere",
+   "name": "Basílica Notre-Dame de Fourvière",
+   "kind": "monument",
+   "zone": "Colina de Fourvière",
+   "reason": "La basílica blanca que corona Lyon desde 1872, con mosaicos dorados y una explanada con la mejor panorámica de la ciudad, los dos ríos y, en días claros, los Alpes. Se sube con el funicular F2 desde Vieux Lyon.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "fv",
+    "rosaire"
+   ],
+   "coordinates": {
+    "lat": 45.762391,
+    "lon": 4.822415
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame_de_Fourvière",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Cierre total del jardín del 19-30 de octubre de 2026 ya pasado, pero el sector Rosaire está cerrado desde el 31 de agosto por obras hasta verano de 2027 según municipio. El sector Jaricot permite desvío señalizado por nuevo portal de montée Decourtray; no asumir bajada habitual libre ni ruta sin escaleras. Confirmar acceso local o volver en F2. Avisos F1 mantenimiento hasta 1 de noviembre y huelga F2 hasta 2 de noviembre 01:30 ya terminados: no son prueba de servicio normal futuro. Consultar TCL por fecha.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Basílica 7:00-20:00 (domingos hasta 21:00); jardines 6:30-22:30; explanada 6:30-23:00; capilla de la Virgen 7-19; cripta 8:30-18:30; pabellón de acogida 10-18.",
+    "source": "https://www.fourviere.org/en/times/"
+   },
+   "price": null,
+   "visitMode": "Colina con F2 por fecha; sector Rosaire en obras, desvío Jaricot a confirmar",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Church_of_Notre_Dame_de_Fourviere_-_Lyon,_France_-_panoramio.jpg",
+    "author": "Sergey Ashmarin",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "img": "assets/lyon/fourviere.jpg",
+    "alt": "Fachada de Notre-Dame de Fourvière",
+    "caption": "Fachada de Fourvière en foto de archivo. No muestra andamios ni acceso actuales."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "teatroromano",
+   "name": "Teatro y Odeón galo-romanos",
+   "kind": "monument",
+   "zone": "Colina de Fourvière",
+   "reason": "El teatro romano más antiguo de Francia (15 a.C.), con aforo para 10.000 espectadores, y el Odeón contiguo; sede cada verano del festival Les Nuits de Fourvière.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "lug"
+   ],
+   "coordinates": {
+    "lat": 45.759722,
+    "lon": 4.819722
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Théâtre_antique_de_Lyon",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Acceso libre: 2-5 a 30-9 de 7:00 a 21:00; 1-10 a 30-4 de 7:00 a 19:00. Cierres: 1 enero, 1 mayo, 25 diciembre.",
+    "source": "https://lugdunum.grandlyon.com/fr/venir-a-lugdunum/horaires-reservations-tarifs"
+   },
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lyon/teatroromano.jpg",
+    "alt": "Lyon 5 - Théâtre antique de Fourvière 01.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lyon_5_-_Th%C3%A9%C3%A2tre_antique_de_Fourvi%C3%A8re_01.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lugdunum",
+   "name": "Museo Lugdunum (galo-romano)",
+   "kind": "museum",
+   "zone": "Colina de Fourvière",
+   "reason": "Museo de hormigón semienterrado junto a los teatros, diseñado por Bernard Zehrfuss: mosaicos, el sarcófago del triunfo de Baco y la tabla claudiana con el discurso del emperador Claudio, natural de Lyon.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "lug"
+   ],
+   "coordinates": {
+    "lat": 45.760301,
+    "lon": 4.8207294
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Museo: martes a viernes 11-18, sábado y domingo 10-18; lunes cerrado. Cierres anuales: 1 enero, 1 mayo, 25 diciembre.",
+    "source": "https://lugdunum.grandlyon.com/fr/venir-a-lugdunum/horaires-reservations-tarifs"
+   },
+   "price": "7€ (4,50€ reducida) con exposición temporal; 4€ (2,50€) sin exposición; primer domingo de mes gratis.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/lyon/lugdunum.jpg",
+    "alt": "Mask in Musée gallo-romain de Fourvière 02.jpg",
+    "author": "John Samuel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mask_in_Mus%C3%A9e_gallo-romain_de_Fourvi%C3%A8re_02.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "vieuxlyon",
+   "name": "Vieux Lyon y sus traboules",
+   "kind": "walk",
+   "zone": "Vieux Lyon",
+   "reason": "El barrio renacentista al pie de Fourvière (Saint-Georges, Saint-Jean, Saint-Paul): fachadas ocres y rosas, la torre rosa de la rue du Bœuf y las traboules, pasadizos entre patios que usaban los canuts para transportar la seda.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 45.762342,
+    "lon": 4.826565
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Vieux_Lyon",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Patios y traboules pueden ser privados y cerrar: respetar puertas, residentes y señales. La foto Tour Rose no concede entrada ni describe toda ruta.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lyon/vieuxlyon.jpg",
+    "alt": "Lyon - Traboule de la Rue du Boeuf (16163505286).jpg",
+    "author": "Fred Romero from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lyon_-_Traboule_de_la_Rue_du_Boeuf_(16163505286).jpg",
+    "caption": "Tour Rose del Vieux Lyon. Imagen de archivo no concede entrada a patios o traboules privados: respetar horarios y residentes."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral de Saint-Jean",
+   "kind": "monument",
+   "zone": "Vieux Lyon",
+   "reason": "Catedral gótica (1180-1480) donde se casó Enrique IV con María de Médici; su reloj astronómico del siglo XIV, ya restaurado, pone en marcha sus autómatas a las 12, 14, 15 y 16 h.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "cat",
+    "clock"
+   ],
+   "coordinates": {
+    "lat": 45.76055556,
+    "lon": 4.8275
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Lyon_Cathedral",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Lunes solo 14-18, no ver autómatas a las 12 h ese día dentro si edificio cerrado. Mecanismo restaurado, horarios 12/14/15/16 publicados; culto prevalece. Tour de 30-45 min, 5 € por calendario separado, no incluido con paseo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lunes 14-18; martes a viernes 8:30-18 (miércoles hasta 19:30); sábado 8:30-18; domingo 8-18. Autómatas del reloj astronómico a las 12/14/15/16 h a diario.",
+    "source": "https://www.cathedrale-lyon.fr/"
+   },
+   "price": "Entrada libre; visitas guiadas 5€ (mié 14:15/15:15, sá 15:00, do 15:00).",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/lyon/catedral.jpg",
+    "alt": "Lyon 5e - Montée Saint-Barthélemy - Vue sur la cathédrale Saint-Jean.jpg",
+    "author": "Romainbehar",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Lyon_5e_-_Mont%C3%A9e_Saint-Barth%C3%A9lemy_-_Vue_sur_la_cath%C3%A9drale_Saint-Jean.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "murales",
+   "name": "Mur des Canuts",
+   "kind": "walk",
+   "zone": "Croix-Rousse",
+   "reason": "Detalle a gran escala del barrio pintado en trompe-lœil, en boulevard des Canuts. No ruta a todas las frescas de Lyon.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "murphoto"
+   ],
+   "coordinates": {
+    "lat": 45.7779289,
+    "lon": 4.8279691
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "source": "https://www.atlasobscura.com/places/le-mur-des-canuts",
+    "author": "Greger Ravik",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "img": "assets/lyon/murales.jpg",
+    "alt": "Detalle en color del Mur des Canuts",
+    "caption": "Detalle del Mur des Canuts · Greger Ravik / CC BY 2.0, foto publicada por Atlas Obscura. No obra en directo ni panorama entero."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "bellecour",
+   "name": "Plaza Bellecour",
+   "kind": "walk",
+   "zone": "Presqu'île",
+   "reason": "Una de las plazas peatonales más grandes de Europa (62.000 m²), con la estatua ecuestre de Luis XIV, la oficina de turismo y vistas a Fourvière; es el kilómetro cero de Lyon.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 45.757838,
+    "lon": 4.832179
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Place_Bellecour",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lyon/bellecour.jpg",
+    "alt": "Estatua de Luis XIV en Bellecour con Fourvière al fondo",
+    "author": "Romainbehar",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Lyon_2e_-_Place_Bellecour_-_Statue_%C3%A9questre_de_Louis_XIV,_apr%C3%A8s_restauration_11.jpg",
+    "caption": "Estatua de Luis XIV, foto de Romainbehar. Fourvière al fondo, no traslado incluido."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "terreaux",
+   "name": "Place des Terreaux",
+   "kind": "walk",
+   "zone": "Presqu'île",
+   "reason": "La plaza del ayuntamiento (Hôtel de Ville) con la fuente Bartholdi, el carro de la República tirado por cuatro caballos, iluminada de noche; la separan del Musée des Beaux-Arts solo unos pasos.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 45.76748,
+    "lon": 4.833487
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Place_des_Terreaux",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lyon/terreaux.jpg",
+    "alt": "Fontaine Bartholdi Place des Terreaux (cropped).jpg",
+    "author": "Qmin",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fontaine_Bartholdi_Place_des_Terreaux_(cropped).jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "bellasartes",
+   "name": "Museo de Bellas Artes",
+   "kind": "museum",
+   "zone": "Presqu'île",
+   "reason": "En el antiguo Palacio Saint-Pierre, un museo enciclopédico segundo solo al Louvre en fondos: antiguo Egipto, Delacroix, Monet, Picasso y un claustro-jardín con esculturas de Rodin y Bourdelle.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "mba"
+   ],
+   "coordinates": {
+    "lat": 45.766846,
+    "lon": 4.83363
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Musée_des_Beaux-Arts_de_Lyon",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Cierra los martes (no los lunes, como es habitual) y también los festivos; entre 12:30 y 14:00 cierran algunas salas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Miércoles a lunes 10-18 (viernes 10:30-18); MARTES CERRADO y festivos (1 ene, lunes Pascua, 1 y 8 may, Ascensión, lunes Pentecostés, 14 jul, 15 ago, 1 y 11 nov, 25 dic). Cierres parciales de salas 12:30-14.",
+    "source": "https://www.mba-lyon.fr/"
+   },
+   "price": null,
+   "visitMode": "Martes y festivos cerrado; taquilla hasta 17:30, salas hasta 17:50",
+   "photo": {
+    "img": "assets/lyon/bellasartes.jpg",
+    "alt": "20210918 Palais Saint-Pierre, Lyon (Patrimoine architectural 00117981 -base Mérimée).jpg",
+    "author": "Limfjord69",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20210918_Palais_Saint-Pierre,_Lyon_(Patrimoine_architectural_00117981_-base_M%C3%A9rim%C3%A9e).jpg",
+    "caption": "Fachada nocturna del Palais Saint-Pierre, no colección ni apertura nocturna confirmada."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "opera",
+   "name": "Ópera de Lyon",
+   "kind": "monument",
+   "zone": "Presqu'île",
+   "reason": "El teatro de 1831 que Jean Nouvel coronó en 1993 con una gran bóveda acristalada en forma de tonel, duplicando su altura; la sala representa ópera, danza y conciertos durante toda la temporada.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 45.7678161,
+    "lon": 4.8365964
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "El interior solo se visita con espectáculo o visita guiada puntual (programación en opera-lyon.com, no verificada); el conjunto se aprecia desde la place de la Comédie.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lyon/opera.jpg",
+    "alt": "Lyon opera.jpg",
+    "author": "SashiRolls",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lyon_opera.jpg",
+    "caption": "Exterior nocturno de la Ópera, no billete ni visita interior incluidos."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "riberas",
+   "name": "Riberas del Ródano y el Saona",
+   "kind": "walk",
+   "zone": "Presqu'île / Rive gauche",
+   "reason": "Kilómetros de muelles ajardinados a ambos lados de los dos ríos: las berges du Rhône entre el parque de la Tête d'Or y el puente de la Guillotière, y el Saona con sus barcazas-restaurante hasta la Confluence.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 45.754289,
+    "lon": 4.837976
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Berges_du_Rhône",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lyon/riberas.jpg",
+    "alt": "Lyon 3e - Berges du Rhône fermées d'accès pendant la pandémie Covid-19 (3).jpg",
+    "author": "Sebleouf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lyon_3e_-_Berges_du_Rh%C3%B4ne_ferm%C3%A9es_d%27acc%C3%A8s_pendant_la_pand%C3%A9mie_Covid-19_(3).jpg",
+    "caption": "Ribera del Ródano, foto tomada durante restricciones Covid. No muestra estado de acceso actual; comprobar obras y crecidas."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "tetedor",
+   "name": "Parque de la Tête d'Or",
+   "kind": "walk",
+   "zone": "6.º distrito",
+   "reason": "El gran parque urbano de Lyon (120 ha): lago navegable de 16 ha, jardín botánico con invernaderos históricos, rosaleda internacional y un zoo gratuito con jirafas y leones.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "lyonfr",
+    "tete-detail"
+   ],
+   "coordinates": {
+    "lat": 45.7785792,
+    "lon": 4.8520963
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Ficha municipal antigua dice serres 9-16:30 diario, pero página de conjunto y botánico distinguen temporada: invierno cierre 16:30, verano 17:30/17 domingos. Para entrar en serres confirmar día; paseo de parque no implica todas las colecciones abiertas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Parque: 15 abril-14 octubre 6:30-22:30; 15 octubre-14 abril 6:30-20:30. Sin acceso desde 15 min antes del cierre; viento superior a 70 km/h cierra parque. Jardín botánico y serres tienen otro horario: invierno jardín 9:30-17, serres hasta 16:30, no parque entero hasta 16:30.",
+    "source": "https://www.lyon.fr/sortir-et-decouvrir/profiter-de-la-nature-en-ville/le-parc-de-la-tete-dor"
+   },
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lyon/tetedor.jpg",
+    "alt": "Lac du Parc de la tête d'or, Lyon.jpg",
+    "author": "Matt Neale from Leicester, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lac_du_Parc_de_la_t%C3%AAte_d%27or,_Lyon.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "croixrousse",
+   "name": "Barrio de la Croix-Rousse",
+   "kind": "walk",
+   "zone": "Croix-Rousse",
+   "reason": "La colina de los canuts, tejedores de seda del siglo XIX: edificios con techos altos para los telares, la monumental escalera de la Cour des Voraces, el Passage Thiaffait y el mercado del boulevard.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 45.779444,
+    "lon": 4.8275
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/La_Croix-Rousse",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Cuestas y escaleras; Cour des Voraces no acceso privado garantizado ni recorrido sin barreras. Foto es detalle de escalera de archivo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/lyon/croixrousse.jpg",
+    "alt": "Cour des Voraces - plan serré.JPG",
+    "author": "Ig0r",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cour_des_Voraces_-_plan_serr%C3%A9.JPG",
+    "caption": "Escalera Cour des Voraces, archivo. Acceso privado sujeto a permisos y horarios, no paseo sin escalones."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "institutlumiere",
+   "name": "Institut Lumière",
+   "kind": "museum",
+   "zone": "Monplaisir",
+   "reason": "El museo del cine en la Villa Lumière, casa de los hermanos que rodaron aquí 'La salida de la fábrica' (1895): cámaras originales, el cinematógrafo y el Hangar du Premier Film convertido en sala de proyección.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "il",
+    "il-detail"
+   ],
+   "coordinates": {
+    "lat": 45.7452111,
+    "lon": 4.8704083
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Institut_Lumière",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes a domingo 10-18:30; lunes cerrado. Cierres: 25 diciembre, 1 enero, 1 mayo.",
+    "source": "https://www.institut-lumiere.org/musee-lumiere-fr"
+   },
+   "price": "9,50€.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/lyon/institutlumiere.jpg",
+    "alt": "La maison des frères Lumière, à Lyon.jpeg",
+    "author": "User:Pierrecol",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:La_maison_des_fr%C3%A8res_Lumi%C3%A8re,_%C3%A0_Lyon.jpeg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "miniaturascine",
+   "name": "Museo de Miniaturas y Cine",
+   "kind": "museum",
+   "zone": "Vieux Lyon",
+   "reason": "Colección única del artista Dan Ohlmann en un palacete del Vieux Lyon: más de cien escenarios en miniatura hiperrealistas y piezas originales de rodajes, de 'Alien' a 'Stargate'.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "lyonfr",
+    "mini-own"
+   ],
+   "coordinates": {
+    "lat": 45.76187,
+    "lon": 4.82734
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Musée_Miniature_et_Cinéma",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Propio: visita de 1 h 30, llegar al menos 1 h 30 antes del cierre; entrada posterior no garantizada. Martes 13:30 fuera de vacaciones francesas; vacaciones todos los días 10-19. Ascensor entre planta baja y pisos, sótano no accesible. No confundir un ascensor con acceso a todo el recorrido.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Entre semana 10-18:30 (martes 13:30-18:30); sábado, domingo y vacaciones escolares todos los días 10-19.",
+    "source": "https://www.museeminiatureetcinema.fr/billets-or/"
+   },
+   "price": "22,90€ adulto.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/lyon/miniaturascine.jpg",
+    "alt": "Stargate, Musée Miniature et Cinéma (Lyon)-01.jpg",
+    "author": "Eagertourist",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Stargate,_Mus%C3%A9e_Miniature_et_Cin%C3%A9ma_(Lyon)-01.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "gadagne",
+   "name": "Museo Gadagne (Historia de Lyon y Marionetas)",
+   "kind": "museum",
+   "zone": "Vieux Lyon",
+   "reason": "Dos museos en el mayor conjunto renacentista del Vieux Lyon: la historia de la ciudad en el Hôtel Gadagne y el Museo Internacional de la Marioneta, con el guignol original; patio con pozo y galerías.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "gad",
+    "gad-detail"
+   ],
+   "coordinates": {
+    "lat": 45.76416667,
+    "lon": 4.8275
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Musée_Gadagne",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Miércoles a domingo 10:30-18 (último acceso 17:30); lunes y martes cerrado. Cierres: 1 enero, domingo de Pascua, 1 mayo, 14 julio, 25 diciembre.",
+    "source": "https://www.gadagne-lyon.fr/gadagne/informations-pratiques"
+   },
+   "price": {
+    "text": "Billete dos museos: 8 € normal/9 € con exposición temporal, referencia propia. Confirmar tarifa por fecha y elegibilidad.",
+    "source": "https://www.gadagne-lyon.fr/gadagne/informations-pratiques"
+   },
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/lyon/gadagne.jpg",
+    "alt": "Cour-gadagne Photo Service-communication-Gadagne 2021 (5).jpg",
+    "author": "Mathilde HOSPITAL (Gadagne)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cour-gadagne_Photo_Service-communication-Gadagne_2021_(5).jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "confluences",
+   "name": "Museo de las Confluencias",
+   "kind": "museum",
+   "zone": "La Confluence",
+   "reason": "Espectacular 'nube de cristal' de Coop Himmelb(l)au en la punta donde se unen el Ródano y el Saona: ciencias naturales, antropología y grandes exposiciones temporales.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "mconf"
+   ],
+   "coordinates": {
+    "lat": 45.732906,
+    "lon": 4.818304
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Musée_des_Confluences",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Los lunes solo abre en vacaciones escolares de la zona A (excepto verano) y los lunes de Pascua y Pentecostés: comprobar el calendario antes de ir un lunes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes a domingo 10:30-18:30; nocturno el primer jueves de mes hasta las 22:00. Lunes cerrado EXCEPTO en vacaciones escolares de la zona A (salvo verano) y los lunes de Pascua y Pentecostés. Cierres: 1 enero, 1 mayo, 25 diciembre. El 24 y 31 de diciembre 10:30-17:30; taquilla 45 min antes y salas 15 min antes del cierre.",
+    "source": "https://museedesconfluences.fr/fr/preparer-ma-visite/horaires-et-acces"
+   },
+   "price": null,
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/lyon/confluences.jpg",
+    "alt": "Lyon - Musée des Confluences (49525806051).jpg",
+    "author": "Fred Romero from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lyon_-_Mus%C3%A9e_des_Confluences_(49525806051).jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "halles",
+   "name": "Halles de Lyon Paul Bocuse",
+   "kind": "walk",
+   "zone": "Part-Dieu",
+   "reason": "El mercado cubierto gastronómico por excelencia desde 1971, rebautizado con el nombre del chef: más de 50 comerciantes (quesos, embutidos, ostras, chocolates) y restaurantes donde comer entre puestos.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "halles"
+   ],
+   "coordinates": {
+    "lat": 45.763242,
+    "lon": 4.850486
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Halles_de_Lyon-Paul_Bocuse",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "No existe un horario único del mercado: cada comerciante tiene el suyo (algunos cierran lunes por la tarde o domingo); consultar la ficha del puesto concreto en la web oficial.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Cada comerciante publica sus propios horarios; no se promete un horario uniforme para comer ni un cierre de todos los puestos el lunes.",
+    "source": "https://www.halles-de-lyon-paulbocuse.com/"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/lyon/halles.jpg",
+    "alt": "Halles de Lyon-Paul Bocuse 001.jpg",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Halles_de_Lyon-Paul_Bocuse_001.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "vienne",
+   "name": "Vienne y su teatro romano",
+   "kind": "excursion",
+   "zone": "Vienne (Isère)",
+   "reason": "Ciudad romana a 30 km al sur: el teatro antiguo con graderío intacto sobre el Ródano, el templo de Augusto y Livia y el museo de Saint-Romain-en-Gal; en julio acoge el festival Jazz à Vienne.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "vienne",
+    "vienne-detail",
+    "ter-vienne"
+   ],
+   "coordinates": {
+    "lat": 45.5248,
+    "lon": 4.87888
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Théâtre_antique_de_Vienne",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "En invierno (2-11 a 31-3) el teatro solo abre por la tarde (13-17:30) y cierra los lunes; también cierra el 11 de noviembre. El tren especial del festival de junio citado por algunas guías no es un servicio anual fijo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Teatro romano: 1-4 a 31-8 a diario 9:30-12:45 y 13:30-18; 1-9 a 31-10 martes a domingo mismo horario; 2-11 a 31-3 martes a domingo 13-17:30 (lunes cerrado). Cierres: 1 enero, 11 noviembre, 25 diciembre.",
+    "source": "https://www.vienne-condrieu.com/patrimoine-culturel/theatre-antique-vienne/"
+   },
+   "price": null,
+   "visitMode": "Ciudad romana a 30 km al sur: el teatro antiguo con graderío intacto sobre el Ródano, el templo de Augusto y Livia y el museo de Saint-Romain-en-Gal; en julio acoge el festival Jazz à Vienne.",
+   "photo": {
+    "img": "assets/lyon/vienne.jpg",
+    "alt": "Théâtre Antique de Vienne 18.jpg",
+    "author": "Jsamwrites",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_Antique_de_Vienne_18.jpg"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "perouges",
+   "name": "Pérouges, villa medieval",
+   "kind": "excursion",
+   "zone": "Pérouges (Ain)",
+   "reason": "Una de las villas medievales mejor conservadas de Francia, a 35 km: calles empedradas, casas de los siglos XV-XVI alrededor de la plaza del Tilleul y la galette au sucre como especialidad.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "ter-perouges",
+    "perouges-tourism"
+   ],
+   "coordinates": {
+    "lat": 45.903,
+    "lon": 5.18
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Pérouges",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Cité en colina con adoquines y pendiente; no navette desde estación. Locales y monumentos con calendario propio. Trenes y regreso por fecha, no billete comprado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Una de las villas medievales mejor conservadas de Francia, a 35 km: calles empedradas, casas de los siglos XV-XVI alrededor de la plaza del Tilleul y la galette au sucre como especialidad.",
+   "photo": {
+    "img": "assets/lyon/perouges.jpg",
+    "alt": "Vue drone de la cité médiévale de Pérouges (avril 2021) au premier plan Porte-d'en-Bas.JPG",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Vue_drone_de_la_cit%C3%A9_m%C3%A9di%C3%A9vale_de_P%C3%A9rouges_(avril_2021)_au_premier_plan_Porte-d%27en-Bas.JPG"
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Fourvière y el casco antiguo",
+     "zone": "F2 → Fourvière → teatro romano → Vieux Lyon → Saint-Jean",
+     "stopIds": [
+      "fourviere",
+      "teatroromano",
+      "vieuxlyon",
+      "catedral"
+     ],
+     "editorialNote": "F2 para subida por fecha; no bajada habitual por Rosaire: sector en obras desde el 31 de agosto, desvío Jaricot señalizado si abre o volver en F2. Elegir un solo museo largo como sustitución de parte del paseo, Lugdunum arriba o Miniaturas/Gadagne abajo. Lugdunum lunes cerrado; Gadagne lunes/martes; catedral lunes desde las 14 h.",
+     "optionalStopIds": [
+      "lugdunum",
+      "miniaturascine",
+      "gadagne"
+     ],
+     "pacing": "Estimación editorial con pausas y traslado por fecha, sin reservas."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Fourvière y el casco antiguo",
+     "zone": "F2 → Fourvière → teatro romano → Vieux Lyon → Saint-Jean",
+     "stopIds": [
+      "fourviere",
+      "teatroromano",
+      "vieuxlyon",
+      "catedral"
+     ],
+     "editorialNote": "F2 para subida por fecha; no bajada habitual por Rosaire: sector en obras desde el 31 de agosto, desvío Jaricot señalizado si abre o volver en F2. Elegir un solo museo largo como sustitución de parte del paseo, Lugdunum arriba o Miniaturas/Gadagne abajo. Lugdunum lunes cerrado; Gadagne lunes/martes; catedral lunes desde las 14 h.",
+     "optionalStopIds": [
+      "lugdunum",
+      "miniaturascine",
+      "gadagne"
+     ],
+     "pacing": "Estimación editorial con pausas y traslado por fecha, sin reservas."
+    },
+    {
+     "title": "Plazas y Bellas Artes",
+     "zone": "Bellecour → Terreaux → Bellas Artes → Ópera exterior → ribera céntrica",
+     "stopIds": [
+      "bellecour",
+      "terreaux",
+      "bellasartes",
+      "opera",
+      "riberas"
+     ],
+     "editorialNote": "Bellas Artes único museo largo, martes/festivos cerrado. Ribera: tramo céntrico del Ródano con conexión urbana si hace falta, no todos los kilómetros hasta Confluence ni toda orilla del Saona. Confluences es alternativa de medio día con traslado, no segundo museo obligado.",
+     "optionalStopIds": [
+      "confluences"
+     ],
+     "pacing": "Estimación editorial con pausas y traslado por fecha, sin reservas."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Fourvière y el casco antiguo",
+     "zone": "F2 → Fourvière → teatro romano → Vieux Lyon → Saint-Jean",
+     "stopIds": [
+      "fourviere",
+      "teatroromano",
+      "vieuxlyon",
+      "catedral"
+     ],
+     "editorialNote": "F2 para subida por fecha; no bajada habitual por Rosaire: sector en obras desde el 31 de agosto, desvío Jaricot señalizado si abre o volver en F2. Elegir un solo museo largo como sustitución de parte del paseo, Lugdunum arriba o Miniaturas/Gadagne abajo. Lugdunum lunes cerrado; Gadagne lunes/martes; catedral lunes desde las 14 h.",
+     "optionalStopIds": [
+      "lugdunum",
+      "miniaturascine",
+      "gadagne"
+     ],
+     "pacing": "Estimación editorial con pausas y traslado por fecha, sin reservas."
+    },
+    {
+     "title": "Plazas y Bellas Artes",
+     "zone": "Bellecour → Terreaux → Bellas Artes → Ópera exterior → ribera céntrica",
+     "stopIds": [
+      "bellecour",
+      "terreaux",
+      "bellasartes",
+      "opera",
+      "riberas"
+     ],
+     "editorialNote": "Bellas Artes único museo largo, martes/festivos cerrado. Ribera: tramo céntrico del Ródano con conexión urbana si hace falta, no todos los kilómetros hasta Confluence ni toda orilla del Saona. Confluences es alternativa de medio día con traslado, no segundo museo obligado.",
+     "optionalStopIds": [
+      "confluences"
+     ],
+     "pacing": "Estimación editorial con pausas y traslado por fecha, sin reservas."
+    },
+    {
+     "title": "Croix-Rousse y pausa en el parque",
+     "zone": "Croix-Rousse → Mur des Canuts → transporte → Halles o Tête dOr",
+     "stopIds": [
+      "croixrousse",
+      "murales",
+      "halles",
+      "tetedor"
+     ],
+     "editorialNote": "Ruta con cuestas. Halles depende del puesto, no almuerzo servido garantizado. Transporte entre sectores; reducir parque si se alarga mañana. Institut Lumière es alternativa propia de tarde con traslado y sustituye parque, no cierre automático tras visitar todos los sectores; lunes cerrado. Vienne o Pérouges sustituyen este día urbano.",
+     "optionalStopIds": [
+      "institutlumiere"
+     ],
+     "pacing": "Estimación editorial con pausas y traslado por fecha, sin reservas."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Cierre total del jardín del 19-30 de octubre de 2026 ya pasado, pero el sector Rosaire está cerrado desde el 31 de agosto por obras hasta verano de 2027 según municipio. El sector Jaricot permite desvío señalizado por nuevo portal de montée Decourtray; no asumir bajada habitual libre ni ruta sin escaleras. Confirmar acceso local o volver en F2. Avisos F1 mantenimiento hasta 1 de noviembre y huelga F2 hasta 2 de noviembre 01:30 ya terminados: no son prueba de servicio normal futuro. Consultar TCL por fecha.",
+  "Traboules y patios pueden ser privados o cerrar: no entrar en portales cerrados ni tratar visitas de barrio como permiso de acceso."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: 14 lugares que ver en Lyon",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-en-lyon/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Lyon y lugares",
+   "url": "https://es.wikipedia.org/wiki/Lyon",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fv",
+   "title": "Basílica de Fourvière: horarios",
+   "url": "https://www.fourviere.org/en/times/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "lug",
+   "title": "Lugdunum, museo y teatros romanos (Grand Lyon): horarios y tarifas",
+   "url": "https://lugdunum.grandlyon.com/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cat",
+   "title": "Catedral de Lyon: horarios y reloj astronómico",
+   "url": "https://www.cathedrale-lyon.fr/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mba",
+   "title": "Musée des Beaux-Arts de Lyon: horarios",
+   "url": "https://www.mba-lyon.fr/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mconf",
+   "title": "Musée des Confluences: horarios",
+   "url": "https://www.museedesconfluences.fr/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "il",
+   "title": "Institut Lumière: visita",
+   "url": "https://www.institut-lumiere.org/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "gad",
+   "title": "Musées Gadagne: horarios",
+   "url": "https://www.gadagne-lyon.fr/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "lyonfr",
+   "title": "Ville de Lyon: parque de la Tête d'Or, Miniaturas y Cine, avisos Jardin du Rosaire",
+   "url": "https://www.lyon.fr/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "halles",
+   "title": "Halles de Lyon Paul Bocuse: comerciantes y horarios",
+   "url": "https://www.halles-de-lyon-paulbocuse.com/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tcl",
+   "title": "TCL: avisos de mantenimiento funicular F1/F2",
+   "url": "https://www.tcl.fr/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vienne",
+   "title": "Vienne Condrieu Tourisme: teatro romano",
+   "url": "https://www.vienne-condrieu.com/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rosaire",
+   "title": "rosaire",
+   "url": "https://www.lyon.fr/actualite/nature-en-ville/jardin-du-rosaire-le-secteur-jaricot-rouvert-au-public",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ter-vienne",
+   "title": "ter-vienne",
+   "url": "https://www.ter.sncf.com/auvergne-rhone-alpes/trajet-lyon-jean-mace-vienne",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ter-perouges",
+   "title": "ter-perouges",
+   "url": "https://www.ter.sncf.com/auvergne-rhone-alpes/trajet-lyon-meximieux-perouges",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "perouges-tourism",
+   "title": "perouges-tourism",
+   "url": "https://www.ain-tourisme.com/visiter-patrimoine/villes-villages-remarquables/perouges-cite-medievale/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mini-own",
+   "title": "mini-own",
+   "url": "https://www.museeminiatureetcinema.fr/billets-or/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "confluences-detail",
+   "title": "confluences-detail",
+   "url": "https://museedesconfluences.fr/fr/preparer-ma-visite/horaires-et-acces",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "gad-detail",
+   "title": "gad-detail",
+   "url": "https://www.gadagne-lyon.fr/gadagne/informations-pratiques",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "il-detail",
+   "title": "il-detail",
+   "url": "https://www.institut-lumiere.org/musee-lumiere-fr",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "clock",
+   "title": "clock",
+   "url": "https://cathedrale-lyon.fr/visite/visite-de-lhorloge-astronomique/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "lugdunum-detail",
+   "title": "lugdunum-detail",
+   "url": "https://lugdunum.grandlyon.com/fr/venir-a-lugdunum/horaires-reservations-tarifs",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vienne-detail",
+   "title": "vienne-detail",
+   "url": "https://www.vienne-condrieu.com/patrimoine-culturel/theatre-antique-vienne/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tete-detail",
+   "title": "tete-detail",
+   "url": "https://www.lyon.fr/sortir-et-decouvrir/profiter-de-la-nature-en-ville/le-parc-de-la-tete-dor",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "murphoto",
+   "title": "murphoto",
+   "url": "https://www.atlasobscura.com/places/le-mur-des-canuts",
+   "type": "photo-credit",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

@@ -1,0 +1,71 @@
+{
+ "schemaVersion": 1,
+ "cityId": "granada",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "fm",
+   "name": "Bar FM · pescado de Motril",
+   "address": "Av. de Juan Pablo II, 54, Beiro, 18013 Granada, Spain",
+   "description": "Bar de barrio para quisquilla, pulpo seco y pescado de la lonja de Motril. Fuera del paseo del casco, elegirlo como comida propia con traslado.",
+   "strength": "Michelin destaca producto de Motril, quisquilla, cañaíllas, pijotas y gallo Pedro. Carta propia actual confirma variedad y precios por unidad/media ración/ración, no solo reputación.",
+   "alert": "Sin menú cerrado. Quisquilla y varios mariscos a precio del día: pedir peso y total antes elegir. Reserva aconsejada.",
+   "caution": "Carta propia: ensaladilla 9,80 €, anchoa 3,30 €/ud, croquetas 3-3,40 €/ud, pulpo seco 23 € media/36 € entera, boquerones 13/19 €, rape 19/30 €, pan 1,50 €/ud, IVA10% incluido. Un plato por persona con entrada compartida y pan puede rondar 25-45 € sin bebida eligiendo platos tarifados, estimación editorial; marisco por peso puede elevarlo mucho. Quisquilla, cigala, gamba roja y gallo Pedro sin precio publicado: pedir peso y total. Michelin publica mar-sáb13:30-16:30/20:30-23, lun/dom cerrado; web propia aconseja reserva pero hora exacta no extraída, confirmar servicio. No tapa gratis ni menú barato asumidos. Pescado, moluscos, crustáceos y otros alérgenos a consultar. Nada reservado.",
+   "officialUrl": "https://barfm.es/carta-web/",
+   "editorialUrl": "https://guide.michelin.com/en/andalucia/granada/restaurant/fm492058",
+   "sourceUrls": [
+    "https://barfm.es/carta-bar-fm-granada/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar+FM&query_place_id=ChIJERSPnuP8cQ0REZ5NKr5u45k",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta propia actual y dirección Maps; hora Michelin por confirmar con restaurante, sin mesa.",
+   "priceLabel": "25-45 € sin bebida con platos de precio fijo, estimación; marisco del día fuera de ese rango.",
+   "photo": {
+    "img": "assets/granada/fm-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes andaluces costeros imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes andaluces costeros imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "compactPrice": "25-45 € sin bebida, estimación; marisco del día aparte.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "alhambra-general",
+   "name": "Alhambra General · palacios y jardines",
+   "address": "Conjunto Monumental de la Alhambra y Generalife, Granada",
+   "description": "Alcazaba, Partal, Generalife y Palacios Nazaríes con hora propia. Es el bloque principal de Alhambra del plan, no otra visita que duplicar.",
+   "duration": "3-4 h con pausas, estimación editorial; comprobar hora Nazaríes y distancia desde acceso.",
+   "compactDuration": "3-4 h orientativas",
+   "alert": "22,27 € publicado, comisión web final por verificar. DNI/pasaporte ORIGINAL y hora propia de Nazaríes; sin cambios ni reembolso ordinario.",
+   "caution": "Patronato publica 22,27 € y advierte comisión de servicio adicional en compra web; orden de 2025 fija base21 € antes de impuestos. No tratar 22,27 como total final del checkout ni sumar recargos por nuestra cuenta. Producto General exige documento de identidad ORIGINAL, fecha fija y hora específica para Palacios Nazaríes, resto 8:30-cierre. 15 octubre-31 marzo 8:30-18/1 abril-14 octubre 8:30-20. Sin cambios o devoluciones ordinarias. Nocturna, jardines solamente y Dobla de Oro son productos distintos. Tickets de menores y condiciones de edad deben comprobarse antes comprar. Accesos, desniveles y seguridad cuentan; no acceso a todas torres o ruta libre de barreras garantizados. Nada comprado ni disponibilidad por fecha revisada.",
+   "officialUrl": "https://tickets.alhambra-patronato.es/en/producto/alhambra-general/",
+   "sourceUrls": [
+    "https://www.alhambra-patronato.es/visitar/horarios-y-tarifas"
+   ],
+   "priceLabel": "22,27 € tarifa publicada; comisión/total final por verificar, sin compra.",
+   "photo": {
+    "img": "assets/granada/alhambra.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+    "author": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Alhambra en foto de archivo. No prueba de acceso a Palacios Nazaríes ni billete confirmado."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Producto e inclusiones, original ID y tarifas oficiales leídos; sin checkout ni billete.",
+   "photoPending": false
+  }
+ ]
+}

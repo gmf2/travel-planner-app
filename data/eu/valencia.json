@@ -1,0 +1,477 @@
+{
+ "schemaVersion": 1,
+ "country": "ES",
+ "id": "valencia",
+ "name": "Valencia",
+ "localName": "València",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "ciencias",
+   "name": "Ciudad de las Artes y las Ciencias",
+   "kind": "visit",
+   "zone": "Eje del Turia sur",
+   "reason": "El conjunto de Calatrava: exteriores libres y Oceanogràfic/Hemisfèric de pago.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 39.4541667,
+    "lon": -0.35
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/City_of_Arts_and_Sciences",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Exteriores gratuitos; cada edificio cobra su entrada. El Oceanogràfic ocupa medio día si se entra: elegir uno, no todos.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exteriores libres; interiores de pago",
+   "photo": {
+    "img": "assets/valencia/ciencias.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hemisf%C3%A8ric_de_noche.jpg",
+    "author": "Higinoa",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Ciudad de las Artes y las Ciencias: el Hemisfèric iluminado de noche. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "turia",
+   "name": "Jardín del Turia",
+   "kind": "visit",
+   "zone": "Antiguo cauce",
+   "reason": "El parque del antiguo cauce que cruza la ciudad; une el centro con las Ciencias a pie o en bici.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 39.4801,
+    "lon": -0.386109
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Jard%C3%ADn_del_Turia",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Parque urbano gratuito",
+   "photo": {
+    "img": "assets/valencia/turia.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Jard%C3%AD_del_T%C3%BAria_de_Val%C3%A8ncia,_riuet.JPG",
+    "author": "Joanbanjo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Jardí del Túria: el antiguo cauce convertido en parque. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lonja",
+   "name": "La Lonja de la Seda",
+   "kind": "visit",
+   "zone": "Centro / Mercado",
+   "reason": "Lonja gótica Patrimonio Mundial; visita breve y barata en pleno centro.",
+   "sourceIds": [
+    "silk"
+   ],
+   "coordinates": {
+    "lat": 39.4744444,
+    "lon": -0.3783333
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Lonja_de_la_Seda",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "Turismo oficial: lunes-sábado 10:00-19:00; domingos/festivos 10:00-14:00. Confirmar agenda del día.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": "L-S 10:00-19:00; domingos y festivos 10:00-14:00 (visitvalencia.com, leído 2/11/2026; NO cierra lunes). Comprobar antes de ir.",
+   "price": null,
+   "visitMode": "Monumento de pago simbólico",
+   "photo": {
+    "img": "assets/valencia/lonja.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Valencia,_loggia_della_seta,_interno,_sala_delle_contrattazioni,_01,0.jpg",
+    "author": "Francesco Bini",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Lonja de la Seda: Sala de Contratación con sus columnas helicoidales. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "mercado",
+   "name": "Mercado Central",
+   "kind": "visit",
+   "zone": "Centro / Mercado",
+   "reason": "Mercado modernista en activo: mañana de puestos y almuerzo valenciano.",
+   "sourceIds": [
+    "market"
+   ],
+   "coordinates": {
+    "lat": 39.473503,
+    "lon": -0.378942
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Mercado_Central_de_Valencia",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Turismo oficial: lunes-sábado 07:30-15:00; domingos y festivos cerrado. Si coincide con cierre, paseo exterior y ajustar el día, no mercado abierto.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Mercado gratuito; mañanas",
+   "photo": {
+    "img": "assets/valencia/mercado.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mercat_fa%C3%A7ana5.jpg",
+    "author": "Felivet",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "licenseURL": "",
+    "caption": "Mercado Central: fachada modernista. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral y el Miguelete",
+   "kind": "visit",
+   "zone": "Centro / Catedral",
+   "reason": "Catedral con el Santo Cáliz y la subida a la torre del Miguelete.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 39.4756111,
+    "lon": -0.3751389
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Catedral_de_Santa_Mar%C3%ADa_(Valencia)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Entrada de pago con audioguía; el Miguelete se paga aparte y son 207 escalones. Comprobar horarios de culto.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Interior de pago",
+   "photo": {
+    "img": "assets/valencia/catedral.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Valencia_cathedral_2022_-_north_fa%C3%A7ade_dawn.jpg",
+    "author": "Fernando Pascullo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Catedral de Valencia desde la Plaza de la Virgen (fachada norte). Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "serranos",
+   "name": "Torres de Serranos y Carmen",
+   "kind": "visit",
+   "zone": "Carmen",
+   "reason": "Puerta medieval de la muralla y el barrio del Carmen detrás.",
+   "sourceIds": [
+    "towers"
+   ],
+   "coordinates": {
+    "lat": 39.4793,
+    "lon": -0.375933
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Torres_de_Serranos",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Lunes-sábado 10:00-19:00; domingos/festivos 10:00-14:00, último acceso 30 min antes. Cierres 1 y 6 enero, 1 mayo y 25 diciembre; viento, lluvia o niebla pueden limitar subida.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": "L-S 10:00-19:00; domingos y festivos 10:00-14:00; cerrado 1 y 6 ene, 1 may, 25 dic (visitvalencia.com, leído 2/11/2026). Comprobar antes de ir.",
+   "price": null,
+   "visitMode": "Exterior libre; torre de pago",
+   "photo": {
+    "img": "assets/valencia/serranos.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Puerta_de_los_Serranos,_Valencia,_Espa%C3%B1a,_2014-06-30,_DD_86.JPG",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Torres de Serranos, puerta norte de la muralla medieval. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "malvarrosa",
+   "name": "Playa de la Malvarrosa",
+   "kind": "visit",
+   "zone": "Marítimo",
+   "reason": "Playa urbana y paseo marítimo. El Cabanyal es la siguiente parada, no parte de esta visita.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 39.4791667,
+    "lon": -0.3230556
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Playa_de_la_Malvarrosa",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Playa pública; exposición al sol y al viento",
+   "photo": {
+    "img": "assets/valencia/malvarrosa.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Playa_de_la_Malvarrosa_(Valencia)_01.jpg",
+    "author": "Manuel Martín Vicente from Spain",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Playa de la Malvarrosa al atardecer. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "cabanyal",
+   "name": "El Cabanyal",
+   "kind": "stroll",
+   "zone": "Marítimo",
+   "reason": "El barrio marinero de casas modernistas y calles de traza de pueblo; la tarde del día de playa.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 39.4689,
+    "lon": -0.332778
+   },
+   "coordinateSource": "https://www.wikidata.org/wiki/Q5015234",
+   "coordinateMethod": "wikidata-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Zona de paseo; sin horarios.",
+   "reviewedAt": "2026-11-02",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/valencia/cabanyal.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:696_Carrer_del_Pare_Llu%C3%ADs_Navarro_248-250,_el_Cabanyal_(Val%C3%A8ncia).jpg",
+    "author": "Enric",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Casas modernistas del Cabanyal. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "albufera",
+   "name": "La Albufera · arrozales y atardecer",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 39.295737,
+    "lon": -0.3334529
+   },
+   "zone": "Fuera de Valencia",
+   "suggestedMinutes": 300,
+   "reason": "El parque natural de la paella: paseo en barca al atardecer entre arrozales.",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "El paseo en barca exige operador, condiciones del agua y precio por confirmar. La foto representa El Palmar, no un embarque reservado.",
+   "sourceIds": [
+    "lagoon"
+   ],
+   "photo": {
+    "img": "assets/valencia/albufera.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:El_Palmar_Barraca_2.jpg",
+    "author": "https://www.flickr.com/photos/martinwcox/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Barraca tradicional en El Palmar, junto a la Albufera. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Centro histórico completo",
+     "zone": "Mercado → Lonja → Catedral → Serranos → Carmen",
+     "stopIds": [
+      "mercado",
+      "lonja",
+      "catedral",
+      "serranos"
+     ],
+     "editorialNote": "Mañana de mercado y Lonja, Catedral al mediodía y Carmen por la tarde. Todo a pie y un solo interior de pago (Catedral).",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h con comida y pausas, estimación editorial."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Centro histórico completo",
+     "zone": "Mercado → Lonja → Catedral → Serranos → Carmen",
+     "stopIds": [
+      "mercado",
+      "lonja",
+      "catedral",
+      "serranos"
+     ],
+     "editorialNote": "Centro a pie con un solo interior de pago.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h, estimación editorial."
+    },
+    {
+     "title": "Turia y Ciudad de las Artes",
+     "zone": "Jardín del Turia → Ciencias",
+     "stopIds": [
+      "turia",
+      "ciencias"
+     ],
+     "editorialNote": "Bajar por el Turia hasta las Ciencias y recorrer los exteriores; el Oceanogràfic u otro interior solo si se decide pagar medio día.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "Paseo largo por Turia y exteriores. Si eliges un interior, reserva su franja y recorta parque; no todos los edificios en una tarde."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Centro histórico completo",
+     "zone": "Mercado → Lonja → Catedral → Serranos → Carmen",
+     "stopIds": [
+      "mercado",
+      "lonja",
+      "catedral",
+      "serranos"
+     ],
+     "editorialNote": "Centro a pie.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h, estimación editorial."
+    },
+    {
+     "title": "Turia y Ciudad de las Artes",
+     "zone": "Jardín del Turia → Ciencias",
+     "stopIds": [
+      "turia",
+      "ciencias"
+     ],
+     "editorialNote": "Exteriores de las Ciencias; interior solo si se elige pagar.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "Paseo largo por Turia y exteriores. Si eliges un interior, reserva su franja y recorta parque; no todos los edificios en una tarde."
+    },
+    {
+     "title": "Malvarrosa y Cabanyal",
+     "zone": "Marítimo",
+     "stopIds": [
+      "malvarrosa",
+      "cabanyal"
+     ],
+     "editorialNote": "Tercer día de mar: mañana de playa de la Malvarrosa y paseo marítimo; tarde entre las casas modernistas del Cabanyal. Arroz frente al mar entre medias. Sin obligaciones.",
+     "optionalStopIds": [
+      "turia"
+     ],
+     "geographyChecks": [],
+     "pacing": "4-5 h flexibles, estimación editorial."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "El Mercado Central es mercado de mañanas: comprobar horario antes de ir.",
+  "Las Ciencias son varios recintos de pago independientes: entrar en uno o ninguno, no en todos.",
+  "Ninguna entrada, mesa o billete está reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "wp",
+   "title": "Wikipedia: Valencia y artículos de cada lugar",
+   "url": "https://es.wikipedia.org/wiki/Valencia",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ot",
+   "title": "Turismo oficial: Visit Valencia",
+   "url": "https://www.visitvalencia.com/",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en Valencia",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-visitar-valencia/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "mm",
+   "title": "Viajeros Callejeros: Valencia en un día",
+   "url": "https://www.viajeroscallejeros.com/valencia-en-un-dia/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "vv",
+   "title": "Visit Valencia (oficial) - fichas de monumentos (leídas 2/11/2026)",
+   "url": "https://www.visitvalencia.com/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia"
+  },
+  {
+   "id": "market",
+   "title": "Visit València · Mercado Central",
+   "url": "https://www.visitvalencia.com/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/mercado-central",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "silk",
+   "title": "Visit València · Lonja de la Seda",
+   "url": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/lonja-silk-exchange",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "towers",
+   "title": "Visit València · Torres de Serranos",
+   "url": "https://www.visitvalencia.com/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/torres-serranos",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "lagoon",
+   "title": "Visit València · Albufera y transporte",
+   "url": "https://www.visitvalencia.com/que-ver-valencia/albufera",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

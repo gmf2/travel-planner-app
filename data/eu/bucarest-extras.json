@@ -1,0 +1,97 @@
+{
+ "schemaVersion": 1,
+ "cityId": "bucarest",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "soro-lume",
+   "name": "Soro Lume · nueva cocina rumana con fuego",
+   "address": "Strada Fluierului33, București",
+   "description": "Mesa de cocina rumana contemporánea: balmoș, pescado de temporada o cerdo al horno de leña. Fuera del casco; ir a propósito, no como pausa improvisada entre monumentos.",
+   "strength": "Restocracy describe nueva cocina rumana creativa en casa pequeña y De Corina explica el trabajo de Mihai Toader con técnicas regionales. No confundir la reseña antigua de Blid que sigue debajo de la crítica con el restaurante actual.",
+   "alert": "Carta propia visible: balmoș52 lei, pescado80, cerdo82, postres39 y pan10.",
+   "compactAlert": "Propio: mié-vie18-23; sáb12-15 y18-23. No servicio dom-lun-mar publicado.",
+   "caution": "La carta visible nombra primavera y verduras de primavera; no está fechado que esos platos sigan disponibles en noviembre. Cerdo82+postre39+pan10=131lei sin bebida, cálculo orientativo sobre esa carta, no precio de menú cerrado. Bebida y suplementos no cerrados. Carta lista alérgenos generales; confirmar por plato. Fuera del centro, reservar solo tras confirmar carta, horario y mesa para la fecha.",
+   "officialUrl": "https://sorolume.ro/meniu/",
+   "editorialUrl": "https://www.restocracy.ro/soro-lume-restaurant/",
+   "sourceUrls": [
+    "https://sorolume.ro/",
+    "https://sorolume.ro/meniu/",
+    "https://www.de-corina.ro/2024/03/05/gusturi-romanesti-in-locante-casual-cum-e-mancarea-la-mahala-bacania-veche-bucataria-dumicat-soro-lume/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Soro+Lume&query_place_id=ChIJ0euC-lf_sUARxX6x3wSSAgw",
+   "status": "source-conflict",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Dirección Maps y propia coinciden. Horario propio claro; carta conserva descripciones de primavera sin fecha, disponibilidad noviembre pendiente.",
+   "priceLabel": "Ejemplo131lei cerdo+postre+pan, sin bebida; carta estacional pendiente de confirmar.",
+   "compactPrice": "Platos52-85lei en carta visible; temporada pendiente.",
+   "photo": {
+    "img": "assets/bucarest/soro-lume-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes rumanos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes rumanos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "parlamento-visit",
+   "name": "Palacio del Parlamento (Casa del Pueblo)",
+   "description": "Palacio del Parlamento, con visita guiada y reserva previa. El exterior monumental se ve sin comprar el tour; el programa interior depende de la visita contratada.",
+   "strength": "Parada ya incluida, no otra entrada o recorrido obligatorio.",
+   "alert": "Tour estándar:85 lei adulto;55 lei estudiantes19-26 acreditados;40 lei niños7-18;0-6 acompañados gratis. Tour privado hasta35personas3000 lei, producto distinto.",
+   "caution": "Reserva de1-9personas por teléfono24h antes;10+ por email al menos3días antes. Venta presencial no garantiza plaza sin reserva. Revalidar documentación original y normas del control en página de reglas antes de cerrar una visita. No entrada reservada.",
+   "officialUrl": "https://cic.cdep.ro/en/vizitare",
+   "sourceUrls": [
+    "https://cic.cdep.ro/en/vizitare"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "priceLabel": "Tour estándar:85 lei adulto;55 lei estudiantes19-26 acreditados;40 lei niños7-18;0-6 acompañados gratis. Tour privado hasta35personas3000 lei, producto distinto.",
+   "photo": {
+    "img": "assets/bucarest/parlamento.jpg",
+    "source": "https://www.pexels.com/photo/palace-of-the-parliament-in-bucharest-romania-32940532/",
+    "author": "Daciana Cristina Visan",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Exterior del Palacio del Parlamento. No muestra salas de la visita guiada ni acredita entrada reservada.",
+    "alt": "Exterior del Palacio del Parlamento. No muestra salas de la visita guiada ni acredita entrada reservada."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ateneo-visit",
+   "name": "Ateneo Rumano (Ateneul Român)",
+   "description": "La sala de conciertos más bella de Rumanía (1888): cúpula de 41 m, fresco circular de 70 m con la historia del país y sede de la Filarmónica Enescu; visitable fuera de horas de concierto.",
+   "strength": "Parada ya incluida, no otra entrada o recorrido obligatorio.",
+   "alert": "Visita turística15 lei según página de información propia. Conciertos son otro producto.",
+   "caution": "Visita15 lei, fuera de ensayos/conciertos; entrada de artistas en Benjamin Franklin con efectivo o taquilla de Constantin Esarcu. Noviembre: PDF enlazado como2026 contiene filas2025; no tratarlo como calendario2026 seguro. Diciembre: programa por día sujeto a cambios. No confundir horario de taquilla con visita.",
+   "officialUrl": "https://www.filarmonicaenescu.ro/ro/info-program-bilete",
+   "sourceUrls": [
+    "https://www.filarmonicaenescu.ro/ro/info-program-bilete"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "priceLabel": "Visita turística15 lei según página de información propia. Conciertos son otro producto.",
+   "photo": {
+    "img": "assets/bucarest/ateneo.jpg",
+    "source": "https://www.pexels.com/photo/cars-in-front-of-majestic-building-12623889/",
+    "author": "Cosmin ChiWu",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada y cúpula del Ateneo Rumano desde la calle. No representa una visita interior o concierto confirmado.",
+    "alt": "Fachada y cúpula del Ateneo Rumano desde la calle. No representa una visita interior o concierto confirmado."
+   },
+   "photoPending": false
+  }
+ ]
+}

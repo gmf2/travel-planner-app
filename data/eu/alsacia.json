@@ -1,0 +1,856 @@
+{
+ "schemaVersion": 1,
+ "country": "FR",
+ "id": "alsacia",
+ "name": "Alsacia",
+ "localName": "Alsace",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "colmar",
+   "name": "Colmar, la capital de la Ruta del Vino",
+   "kind": "walk",
+   "zone": "Colmar",
+   "reason": "Colmar reúne canales y casas de colores en la Petite Venise, la colegiata de San Martín y el barrio de los curtidores. El museo Unterlinden es un interior con entrada y horario propios.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "unterlinden-own",
+    "colmar-parking"
+   ],
+   "coordinates": {
+    "lat": 48.077416,
+    "lon": 7.357637
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Place%20de%20la%20Cath%C3%A9drale%2C%20Colmar%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "El museo es una opción de interior del día de Colmar, no toda la ciudad. Si es martes o festivo de cierre, mantener paseo y cambiar el interior. Coche: Rapp (entrada Boulevard du Champ de Mars), abierto 24 h según ayuntamiento. Primera hora gratuita; el tramo 1 h-1 h 15 min figura a 3,60 € de día en ayuntamiento, pero Turismo muestra 3,30 €: confirmar tarifa y no extrapolar. No confirma plazas libres ni condiciones especiales de Navidad.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Unterlinden: miércoles-lunes 9-18, última entrada 17:30; martes cerrado. Cierra 1 enero, 1 mayo, 1 noviembre y 25 diciembre; 24 y 31 diciembre hasta 16. El casco urbano no tiene el horario del museo.",
+    "source": "https://www.musee-unterlinden.com/visites-et-activites/infos-2/informations-pratiques/"
+   },
+   "price": "Paseo urbano sin entrada única; Unterlinden 14 € general, 12 € reducida, 9 € jóvenes 12-17 y estudiantes menores de 30; audioguía +3 €, disponible en español; menores de 12 gratis. Museos y otros interiores no incluidos.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/alsacia/colmar.jpg",
+    "alt": "Calle del casco antiguo de Colmar entre fachadas de entramado de madera. No representa un mercado de Navidad.",
+    "caption": "Calle del casco antiguo de Colmar entre fachadas de entramado de madera. No representa un mercado de Navidad.",
+    "source": "https://www.pexels.com/photo/charming-alsatian-architecture-in-colmar-france-31754387/",
+    "author": "Autor no expuesto",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "accessRules": {
+    "scope": "Museo Unterlinden, no casco de Colmar",
+    "noticeLabel": "Museo Unterlinden, no casco de Colmar",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     2
+    ],
+    "closedMonthDays": [
+     "01-01",
+     "05-01",
+     "11-01",
+     "12-25"
+    ],
+    "specialDates": [
+     {
+      "date": "2026-12-24",
+      "text": "Unterlinden cierra a las 16."
+     },
+     {
+      "date": "2026-12-31",
+      "text": "Unterlinden cierra a las 16."
+     }
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "eguisheim",
+   "name": "Eguisheim, el pueblo circular",
+   "kind": "walk",
+   "zone": "Eguisheim",
+   "reason": "Calles concéntricas y casas de entramado de madera alrededor del centro de Eguisheim. Paseo exterior, sin presuponer acceso a todos los edificios.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "eguisheim-bus-own",
+    "eguisheim-bus-pdf",
+    "fluo-830-own",
+    "eg-parking"
+   ],
+   "coordinates": {
+    "lat": 48.044797,
+    "lon": 7.307962
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Eguisheim%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Bus regular 830 Colmar-Eguisheim-Rouffach, no antigua referencia 440. La ficha Fluo publicada desde 01/09/2026 incluye, por ejemplo, Colmar Gare SNCF 12:30 → Eguisheim 1ère Armée CAT 12:42 y regreso desde esa parada 17:17 → Colmar 17:30 en sus columnas de lunes a sábado. No se confirma operación para una fecha: Fluo muestra una alerta fechada 03/11/2026 cuyo texto cita obras del 20-24 de octubre y concentra Eguisheim en 1ère Armée CAT. La contradicción temporal sigue sin resolver. Consultar aviso y parada efectiva antes de salir; no promete servicio dominical/festivo, cupo ni enlace a Kaysersberg. Coche: ayuntamiento indica parkings Mairie y Marronniers para visitantes, 5 € por jornada 09:00-19:00. Tarifa leída 03/11/2026, no disponibilidad. No usar aparcamiento reservado de residentes ni confundir tarifa de autocar con turismo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/alsacia/eguisheim.jpg",
+    "alt": "Fachadas de entramado de madera y nidos de cigüeña en Eguisheim. Foto de archivo, no acredita acceso a interiores.",
+    "caption": "Fachadas de entramado de madera y nidos de cigüeña en Eguisheim. Foto de archivo, no acredita acceso a interiores.",
+    "source": "https://www.pexels.com/photo/charming-half-timbered-buildings-in-eguisheim-32397302/",
+    "author": "Sonja VN",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "turckheim",
+   "name": "Turckheim",
+   "kind": "walk",
+   "zone": "Turckheim",
+   "reason": "El pueblo amurallado conocido por su veilleur de nuit: de mayo a octubre un pregonero con farol recorre las calles a las 22:00 cantando en alsaciano (tradición viva, sin primaria de calendario).",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "turckheim-own",
+    "turckheim-tourism-own"
+   ],
+   "coordinates": {
+    "lat": 48.087822,
+    "lon": 7.278011
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Turckheim%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Ronda nocturna habitual a las 22 desde Corps de Garde según turismo. Municipio publica temporada 2026 del 1 mayo al 1 noviembre; la página turística genérica termina el 31 octubre. Fechas específicas y ediciones futuras se comprueban aparte. No esperar una ronda todas las noches de invierno ni añadirla tras una ruta agotadora.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/alsacia/turckheim-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Turckheim. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Turckheim. No es una foto real ni reconstrucción exacta de edificios, obras, caminos o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "kaysersberg",
+   "name": "Kaysersberg-Vignoble",
+   "kind": "walk",
+   "zone": "Kaysersberg",
+   "reason": "El pueblo natal de Albert Schweitzer: el puente fortificado sobre el Weiss, la iglesia de la Santa Cruz con su retablo de Bongart y las ruinas del castillo imperial con vista sobre los viñedos.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "kb-parking"
+   ],
+   "coordinates": {
+    "lat": 48.154958,
+    "lon": 7.247853
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Kaysersberg-Vignoble%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": " Coche: elegir parkings de ceinture (zona amarilla), no casco violeta limitado a 2 h. Municipio publica pago diario 09:00-12:00 y 14:00-19:00; acumulado 1 h=1 €, 2 h=2 €, 3 h=4 €, 4 h=6 €. Consultar mercado/Navidad y plazas reales. No interpretar Erlenbad bus/camper como aparcamiento libre de coche.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/alsacia/kaysersberg.jpg",
+    "alt": "Calle con fachadas de entramado de madera en Kaysersberg. No acredita acceso a interiores ni visita de los castillos de las colinas.",
+    "caption": "Calle con fachadas de entramado de madera en Kaysersberg. No acredita acceso a interiores ni visita de los castillos de las colinas.",
+    "source": "https://www.pexels.com/photo/half-timbered-houses-in-kaysersberg-alsace-france-18354315/",
+    "author": "Jean-Paul Wettstein",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "riquewihr",
+   "name": "Riquewihr, pueblo de la Ruta del Vino",
+   "kind": "walk",
+   "zone": "Riquewihr",
+   "reason": "El pueblo que inspiró la Bella y la Bestia: una calle principal medieval intacta entre murallas, el Dolder (puerta-campanario), el museo de la torre de los ladrones y casas de viticultores del XVI.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "rq-parking",
+    "rq-tariffs",
+    "riquewihr-circulation1036",
+    "riquewihr-tarifs1036"
+   ],
+   "coordinates": {
+    "lat": 48.166077,
+    "lon": 7.298014
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Riquewihr%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Muy turístico en temporada alta y en mercadillos de Adviento: ir temprano. Coche: aparcar fuera de las murallas. Página municipal y tablas 2026 no identifican igual todos los conceptos de parking; no se fija aquí tarifa del Vignoble/vignerons ni se garantiza que sean el mismo aparcamiento. Seguir señalización y parquímetro del lugar. Navidad puede cambiar circulación y acceso. Parking: página municipal de circulación atribuye al Vignoble 9-19, 1 h 4 €, 2 h 5 €, 3 h 6 €, 4 h 7 €, 7 h 9 € y 7 h 25 40 €. Pero el acuerdo municipal de tarifas 2026 (pág.6) incluye otra serie sin nombre de parking legible: 8-22, primera hora 1,50 €/20 min y después 0,70 €/20 min, noche 0,40 €/30 min. No asignar esa serie a un parking por inferencia. Precio e identidad exactos siguen sin resolver: confirmar cartel/barrera antes de aparcar, no prometer noche gratis. La reforma de agosto afecta reserva de grupos, no permiso individual ni tarifa general.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre; museos del pueblo de pago (tarifas no verificadas).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/alsacia/riquewihr.jpg",
+    "alt": "Callejón del casco antiguo de Riquewihr. No representa un recorrido completo ni apertura de comercios.",
+    "caption": "Callejón del casco antiguo de Riquewihr. No representa un recorrido completo ni apertura de comercios.",
+    "source": "https://www.pexels.com/photo/charming-alleyway-in-riquewihr-france-32122316/",
+    "author": "marie françoise bastien",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "hunawihr",
+   "name": "Hunawihr y la iglesia fortificada",
+   "kind": "walk",
+   "zone": "Hunawihr",
+   "reason": "La postal de la Ruta del Vino: la iglesia-cementerio fortificada de San Jacinto sobre una colina rodeada de viñedos, entre Riquewihr y Ribeauvillé.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.181418,
+    "lon": 7.313579
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Hunawihr%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/alsacia/hunawihr.jpg",
+    "source": "https://www.pexels.com/photo/beige-and-brown-church-surrounded-by-grass-and-flowers-1270423/",
+    "author": "Matheus Guimarães",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Iglesia Saint-Jacques-le-Majeur y recinto del cementerio de Hunawihr, entre viñedos. Identidad contrastada con Turismo de Alsacia; la etiqueta de ubicación de Pexels indica Ribeauvillé. No acredita acceso interior ni a viñedos privados.",
+    "alt": "Iglesia y cementerio fortificado de Hunawihr entre viñedos."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ribeauville",
+   "name": "Ribeauvillé y sus tres castillos",
+   "kind": "walk",
+   "zone": "Ribeauvillé",
+   "reason": "La villa de los juglares con la Grand'Rue, la torre des Bouchers y tres castillos en ruinas en la ladera (Saint-Ulrich, Girsberg, Haut-Ribeaupierre), alcanzables por sendero señalizado.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.19246,
+    "lon": 7.324887
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Ribeauvill%C3%A9%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Subida a los castillos por sendero empinado (45-60 min ida, editorial); calzado adecuado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/alsacia/ribeauville.jpg",
+    "alt": "Calle con fachadas de entramado de madera en Ribeauvillé. No acredita acceso a interiores ni visita de los castillos de las colinas.",
+    "caption": "Calle con fachadas de entramado de madera en Ribeauvillé. No acredita acceso a interiores ni visita de los castillos de las colinas.",
+    "source": "https://www.pexels.com/photo/charming-alsace-village-street-with-half-timbered-houses-38358137/",
+    "author": "Aline Miquelino Pierrat",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "haut_koenigsbourg",
+   "name": "Castillo de Haut-Koenigsbourg",
+   "kind": "monument",
+   "zone": "Orschwiller",
+   "reason": "Castillo reconstruido por Guillermo II, con recorrido interior y vistas desde su posición elevada. Entrada, horario y transporte requieren comprobación para la fecha.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "hkp",
+    "hkh",
+    "hk-access",
+    "hk-faq"
+   ],
+   "coordinates": {
+    "lat": 48.249382,
+    "lon": 7.343941
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Ch%C3%A2teau%20du%20Haut-Koenigsbourg%2C%20Orschwiller%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Pago: efectivo SOLO euros, tarjetas (no American Express), cheques vacances/cultura. 300 escalones en el circuito; desde el parking 300 m de camino de tierra en subida. Navette línea 500 desde la estación de Sélestat (3 €/trayecto, mar-dic, da derecho a entrada reducida). Navette 500: solo según calendario anual, no todos los días marzo-diciembre. No se ha confirmado el servicio en tu fecha. Páginas oficiales discrepan en horario de invierno: tabla francesa actual muestra 13-17 en fechas noviembre/diciembre 2026, página inglesa antigua indica 13:15-16:15; comprobar fecha concreta, no prometer una llegada tardía. Parking gratuito según operador, plazas limitadas sin disponibilidad confirmada. Desde parking hay camino de tierra en ligera subida (300 m) y circuito interior con 300 escalones / 21 niveles, no accesible en silla de ruedas. Operador estima 2 h de presencia desde llegar al parking a salir, no solo visita interior 1 h. Comprobar nieve/hielo/acceso vial para fecha.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Ver calendario diario francés para la fecha elegida. Lunes desde 10:30, última entrada 1 h antes del cierre. Horarios estacionales y cierres de mediodía varían entre páginas oficiales. Cerrado 1 enero y 25-26 diciembre; antigua página inglesa añade 16 octubre sin concordancia francesa.",
+    "source": "https://www.haut-koenigsbourg.fr/infos-pratiques/"
+   },
+   "price": "12 € adulto / 8 € joven 6-17 / 6 € reducida / 30 € familia (2 adultos + 2 niños) / <6 gratis. Gratis el 1.er domingo de nov-mar. Grupos a partir de 20 personas: 8 €.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/alsacia/haut_koenigsbourg.jpg",
+    "alt": "Torres y murallas de Haut-Koenigsbourg sobre la llanura alsaciana. Foto de archivo de vincent desjardins, no acredita apertura ni acceso a cada torre.",
+    "caption": "Torres y murallas de Haut-Koenigsbourg sobre la llanura alsaciana. Foto de archivo de vincent desjardins, no acredita apertura ni acceso a cada torre.",
+    "source": "https://pxhere.com/en/photo/332389",
+    "author": "vincent desjardins",
+    "license": "Public Domain; attribution requested",
+    "licenseUrl": "https://pxhere.com/en/photo/332389"
+   },
+   "accessRules": {
+    "scope": "Castillo Haut-Koenigsbourg",
+    "noticeLabel": "Castillo Haut-Koenigsbourg",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Calendario diario con horarios variables. Consultar fecha y última entrada una hora antes; no se garantiza apertura por no figurar cierre."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "dambach",
+   "name": "Dambach-la-Ville",
+   "kind": "walk",
+   "zone": "Dambach-la-Ville",
+   "reason": "La aldea vitícola menos famosa y más tranquila: murallas medievales completas, la capilla de San Sebastián y tres puertas fortificadas, sin las multitudes de Riquewihr.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.323664,
+    "lon": 7.424953
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Dambach-la-Ville%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/alsacia/dambach-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Dambach-la-Ville. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Dambach-la-Ville. No es una foto real ni reconstrucción exacta de edificios, obras, caminos o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "selestat",
+   "name": "Sélestat y la Biblioteca Humanista",
+   "kind": "walk",
+   "zone": "Sélestat",
+   "reason": "La ciudad del humanismo renacentista: la Biblioteca Humanista (Patrimonio Unesco, con la colección de Beatus Rhenanus), las iglesias de Santa Fe y San Jorge, y un casco comercial animado.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.25944,
+    "lon": 7.454217
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=S%C3%A9lestat%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ciudad libre; Biblioteca Humanista de pago (tarifa no verificada en primaria esta sesión).",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/alsacia/selestat-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Sélestat, paisaje urbano. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Sélestat, paisaje urbano. No es una foto real ni reconstrucción exacta de edificios, obras, caminos o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "obernai",
+   "name": "Obernai",
+   "kind": "walk",
+   "zone": "Obernai",
+   "reason": "Plaza del mercado, Kapellturm, fuente de Santa Odilia y casco histórico. El Mémorial National está fuera de este paseo central y exige desplazamiento propio.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.462336,
+    "lon": 7.481712
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Obernai%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/estrasburgo/obernai.jpg",
+    "alt": "Plaza del mercado de Obernai con el Kapellturm y el ayuntamiento. No muestra Mont Sainte-Odile ni confirma acceso interior.",
+    "source": "https://commons.wikimedia.org/wiki/File:Obernai_place_marche.JPG",
+    "author": "OTCOM",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "caption": "Plaza del mercado de Obernai con el Kapellturm y el ayuntamiento. No muestra Mont Sainte-Odile ni confirma acceso interior."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "mont_sainte_odile",
+   "name": "Mont Sainte-Odile",
+   "kind": "monument",
+   "zone": "Ottrott",
+   "reason": "El monte sagrado de Alsacia: el monasterio de la patrona a 760 m con la capilla de las Lágrimas, el camino de murallas paeas paganas (Mur Païen) y la vista sobre la llanura del Rin.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "mso-home-own",
+    "mso-visit-own"
+   ],
+   "coordinates": {
+    "lat": 48.437458,
+    "lon": 7.404491
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Mont%20Sainte-Odile%2C%20Ottrott%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "La portada del santuario avisa de contenidos y enlaces ajenos por problemas técnicos. Se retira como fuente práctica la guía SEO 2026 de transporte y parking. Comprobar apertura y estado de acceso antes del desplazamiento; rutas con nieve no se recomiendan por defecto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lugar de culto activo; horario turístico exacto pendiente. No equivale a los horarios de misa.",
+    "source": "https://www.mont-sainte-odile.com/fr-2/"
+   },
+   "price": "Tarifa individual y aparcamiento pendientes de confirmación fiable; no se presume gratuidad. Audioguía individual 6 € según página de visita del santuario, sin español anunciado.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/alsacia/mont_sainte_odile-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Mont Sainte-Odile, concepto de abadía en el bosque. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Mont Sainte-Odile, concepto de abadía en el bosque. No es una foto real ni reconstrucción exacta de edificios, obras, caminos o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "estrasburgo",
+   "name": "Estrasburgo, la capital alsaciana",
+   "kind": "excursion",
+   "zone": "Estrasburgo",
+   "reason": "La capital europea a media jornada de Colmar: la catedral de arenisca rosa, la Petite France, el barrio alemán y los museos. Si se añade como etapa independiente, usar el destino con su planificación propia.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.584614,
+    "lon": 7.750713
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Strasbourg%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 480,
+   "durationType": "editorial-estimate",
+   "caution": "Si Estrasburgo es una etapa propia del viaje, usar su paquete específico; esta excursión es solo la alternativa de un día.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Museos y catedral-plataforma de pago no verificados en primaria esta sesión.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg",
+    "author": "Photo Claude TRUONG-NGOC",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "img": "assets/estrasburgo/petite.jpg",
+    "alt": "La Petite France, casco histórico de Estrasburgo. Foto de archivo existente, no prueba de mercado navideño ni acceso actual.",
+    "caption": "La Petite France, casco histórico de Estrasburgo. Foto de archivo existente, no prueba de mercado navideño ni acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "mulhouse",
+   "name": "Mulhouse o Écomusée de Ungersheim",
+   "kind": "excursion",
+   "zone": "Mulhouse / Ungersheim",
+   "reason": "Elegir una visita principal: museo del automóvil, museo ferroviario en Mulhouse o Écomusée en Ungersheim. No son tres interiores ni una sola localización para acumular en un día.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "eco",
+    "ecomusee-christmas-own"
+   ],
+   "coordinates": {
+    "lat": 47.746723,
+    "lon": 7.338994
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Mulhouse%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 480,
+   "durationType": "editorial-estimate",
+   "caution": "No se han verificado conexiones locales a Ungersheim. No promete una lanzadera. Navidad Écomusée anunciada 4 diciembre 2026-3 enero 2027, 10-18, viernes-domingo y días de vacaciones escolares salvo 24, 25 y 31 diciembre. Revisar calendario para el día concreto; no todos los días de la ventana abren.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Écomusée Navidad 2026/27: 4 diciembre-3 enero, 10-18, viernes-domingo y vacaciones escolares salvo 24,25,31 diciembre. Fuera de esta edición, consultar calendario anual; el horario no corresponde a todos los museos de Mulhouse.",
+    "source": "https://www.ecomusee.alsace/lecomusee-dalsace-fete-noel/"
+   },
+   "price": "Écomusée d'Alsace: 16,50 € adulto / 14 € reducida / 11 € niño 4-17 / gratis ≤3 / 50 € pase familia (2 adultos + 2 niños). Cité de l'Automobile y Cité du Train: tarifas no verificadas.",
+   "visitMode": "Excursión de jornada propia; elegir museo y comprobar transporte",
+   "photo": {
+    "img": "assets/alsacia/mulhouse-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Écomusée de Ungersheim, concepto de aldea tradicional. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Écomusée de Ungersheim, concepto de aldea tradicional. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "visit": "Elegir un museo principal. Écomusée está en Ungersheim, fuera de Mulhouse; necesita traslado propio.",
+   "transport": "Traslado Colmar-Mulhouse o Colmar-Ungersheim por verificar en la fecha; no confundir estación de Mulhouse con entrada del Écomusée.",
+   "accessRules": {
+    "scope": "Écomusée de Alsacia, no toda Mulhouse",
+    "noticeLabel": "Écomusée de Alsacia, no toda Mulhouse",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-01-03",
+    "closedDates": [
+     "2026-12-24",
+     "2026-12-25",
+     "2026-12-31"
+    ],
+    "notices": [
+     "Edición de Navidad: 4 diciembre de 2026-3 enero de 2027, viernes-domingo y vacaciones escolares; comprobar que la fecha entra en los días de apertura. No es apertura diaria."
+    ]
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Colmar sin prisas",
+     "stopIds": [
+      "colmar"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Canales y casco histórico por la mañana; Unterlinden como único gran interior opcional si está abierto. Martes elegir paseo o trasladar el museo a otro día.",
+     "pacing": "Propuesta editorial sin tiempos de conducción o conexiones confirmados. Incluir desplazamientos, aparcamiento, comida y luz disponible; no convertir kilómetros aéreos en tiempo a pie."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Colmar sin prisas",
+     "stopIds": [
+      "colmar"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Canales y casco histórico por la mañana; Unterlinden como único gran interior opcional si está abierto. Martes elegir paseo o trasladar el museo a otro día.",
+     "pacing": "Propuesta editorial sin tiempos de conducción o conexiones confirmados. Incluir desplazamientos, aparcamiento, comida y luz disponible; no convertir kilómetros aéreos en tiempo a pie."
+    },
+    {
+     "title": "Dos pueblos desde Colmar",
+     "stopIds": [
+      "eguisheim",
+      "kaysersberg"
+     ],
+     "optionalStopIds": [
+      "turckheim"
+     ],
+     "editorialNote": "Con coche: Colmar → Eguisheim → Kaysersberg → Colmar, no paseo entre pueblos. Maps sin fecha ni tráfico entre zonas de parking: aprox. 12 min / 6,2 km; 19 min / 13,2 km; 17 min / 10,6 km. No son accesos desde tu hotel ni incluyen aparcar/caminar. Sin coche, mantener una salida desde Colmar si no encajan conexiones y vueltas.",
+     "pacing": "Conducción de referencia aprox. 48 min más acceso, búsqueda de parking, comida y visitas. Eguisheim por la mañana y Kaysersberg por la tarde, sin tercer pueblo por defecto. Obras y aparcamientos navideños pueden cambiar el acceso; comprobar para fecha. No se ha probado enlace directo entre pueblos en bus. En Kaysersberg, demostración de vidrio opcional durante el paseo: visita gratuita sin cita publicada, martes-sábado 10-12 / 14-17, excepto enero. Unos 20-40 min editoriales si trabajan; no clase participativa ni sesión garantizada. Confirmar producción y horario para fecha."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Colmar sin prisas",
+     "stopIds": [
+      "colmar"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Canales y casco histórico por la mañana; Unterlinden como único gran interior opcional si está abierto. Martes elegir paseo o trasladar el museo a otro día.",
+     "pacing": "Propuesta editorial sin tiempos de conducción o conexiones confirmados. Incluir desplazamientos, aparcamiento, comida y luz disponible; no convertir kilómetros aéreos en tiempo a pie."
+    },
+    {
+     "title": "Dos pueblos desde Colmar",
+     "stopIds": [
+      "eguisheim",
+      "kaysersberg"
+     ],
+     "optionalStopIds": [
+      "turckheim"
+     ],
+     "editorialNote": "Con coche: Colmar → Eguisheim → Kaysersberg → Colmar, no paseo entre pueblos. Maps sin fecha ni tráfico entre zonas de parking: aprox. 12 min / 6,2 km; 19 min / 13,2 km; 17 min / 10,6 km. No son accesos desde tu hotel ni incluyen aparcar/caminar. Sin coche, mantener una salida desde Colmar si no encajan conexiones y vueltas.",
+     "pacing": "Conducción de referencia aprox. 48 min más acceso, búsqueda de parking, comida y visitas. Eguisheim por la mañana y Kaysersberg por la tarde, sin tercer pueblo por defecto. Obras y aparcamientos navideños pueden cambiar el acceso; comprobar para fecha. No se ha probado enlace directo entre pueblos en bus. En Kaysersberg, demostración de vidrio opcional durante el paseo: visita gratuita sin cita publicada, martes-sábado 10-12 / 14-17, excepto enero. Unos 20-40 min editoriales si trabajan; no clase participativa ni sesión garantizada. Confirmar producción y horario para fecha."
+    },
+    {
+     "title": "Riquewihr y castillo, o ruta de pueblos",
+     "stopIds": [
+      "riquewihr",
+      "haut_koenigsbourg"
+     ],
+     "optionalStopIds": [
+      "hunawihr",
+      "ribeauville"
+     ],
+     "editorialNote": "Coche: Colmar → Riquewihr → Haut-Koenigsbourg → Colmar. Referencia Maps sin fecha/tráfico a puntos exteriores de aparcamiento: aprox. 26 min / 15,9 km; 26 min / 17 km; 36 min / 28,3 km. No usar esas rutas como permiso de acceso. Hunawihr y Ribeauvillé sustituyen el castillo, no se añaden.",
+     "pacing": "Referencia de conducción aprox. 1 h 28 min más estacionar, accesos y comida. Reservar unas 2 h en el recinto del castillo incluyendo camino desde parking; su acceso tiene pendiente y muchas escaleras. En invierno ajustar Riquewihr y comida al horario/última entrada del castillo; si no encaja, elegir una visita principal. Sin bus directo Riquewihr-castillo verificado. Parking: página municipal de circulación atribuye al Vignoble 9-19, 1 h 4 €, 2 h 5 €, 3 h 6 €, 4 h 7 €, 7 h 9 € y 7 h 25 40 €. Pero el acuerdo municipal de tarifas 2026 (pág.6) incluye otra serie sin nombre de parking legible: 8-22, primera hora 1,50 €/20 min y después 0,70 €/20 min, noche 0,40 €/30 min. No asignar esa serie a un parking por inferencia. Precio e identidad exactos siguen sin resolver: confirmar cartel/barrera antes de aparcar, no prometer noche gratis. La reforma de agosto afecta reserva de grupos, no permiso individual ni tarifa general."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "La ruta reduce pueblos por día para dejar tiempo a desplazamientos, parking y comidas. No es una ruta a pie entre localidades.",
+  "Haut-Koenigsbourg: 12 € adulto, 300 escalones; horarios franceses actuales e ingleses antiguos no concuerdan. Consultar calendario diario y última entrada una hora antes.",
+  "Kut’zig no ofrece servicio invernal 2026 según calendario publicado por turismo de Colmar; rutas y frecuencia no equivalen a plaza garantizada.",
+  "Mont Sainte-Odile: aviso propio de contenidos ajenos en su web, se retira guía SEO como fuente de datos operativos.",
+  "Aperturas y precios pendientes para Biblioteca Humanista, museos de Riquewihr y museos de Mulhouse no verificados.",
+  "Visitas: 9 fotos reales y 5 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Mercadillos de Navidad de Alsacia: Desde finales de noviembre hasta Navidad (fechas anuales por municipio, sin primaria extraída). Colmar, Kaysersberg, Riquewihr y Eguisheim se transforman; máxima afluencia del año, reservar alojamiento con antelación. Sin calendario confirmado para el modo Navidad."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "cmv",
+   "title": "Comiviajeros: qué ver en Alsacia (33 imprescindibles)",
+   "url": "https://comiviajeros.com/que-ver-en-alsacia/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Alsacia y lugares",
+   "url": "https://es.wikipedia.org/wiki/Alsacia",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hkp",
+   "title": "Castillo de Haut-Koenigsbourg: infos pratiques (tarifas, pago, acceso, navette 500)",
+   "url": "https://www.haut-koenigsbourg.fr/infos-pratiques/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hkh",
+   "title": "Castillo de Haut-Koenigsbourg: opening hours (estacional, cierres)",
+   "url": "https://www.haut-koenigsbourg.fr/en/practical-information/opening-hours",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "eco",
+   "title": "Écomusée d'Alsace: billetterie/tarifas",
+   "url": "https://www.ecomusee.alsace/tarifs/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "unterlinden-own",
+   "title": "Musée Unterlinden: billets, tarifs et horaires",
+   "url": "https://www.musee-unterlinden.com/visites-et-activites/infos-2/informations-pratiques/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "turckheim-own",
+   "title": "Ville de Turckheim: ronda 2026",
+   "url": "https://www.turckheim.fr/la-ronde-de-lauthentique-veilleur-de-nuit/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "turckheim-tourism-own",
+   "title": "Turckheim: hora habitual de la ronda",
+   "url": "https://www.turckheim.com/fr/presentation/le-veilleur-de-nuit",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "kutzig-own",
+   "title": "Turismo de Colmar: Kut’zig 2026",
+   "url": "https://tourisme-colmar.com/fr/pratique/se-deplacer/kut-zig-le-bus-touristique-cabriolet",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "kutzig-operator-own",
+   "title": "Kut’zig: reserva obligatoria",
+   "url": "https://kutzig.fr/en/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ecomusee-christmas-own",
+   "title": "Écomusée: Navidad 2026/27",
+   "url": "https://www.ecomusee.alsace/lecomusee-dalsace-fete-noel/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mso-home-own",
+   "title": "Mont Sainte-Odile: aviso de fiabilidad en su portada",
+   "url": "https://www.mont-sainte-odile.com/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mso-visit-own",
+   "title": "Mont Sainte-Odile: visita y audioguía",
+   "url": "https://www.mont-sainte-odile.com/fr-2/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "eguisheim-bus-own",
+   "title": "Turismo Eguisheim: líneas830/840",
+   "url": "https://www.tourisme-eguisheim-rouffach.com/Fr/Infos-pratiques/Deplacer.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "eguisheim-bus-pdf",
+   "title": "Fluo830: ficha desde01/09/2026",
+   "url": "https://www.tourisme-eguisheim-rouffach.com/view_document.php?id=138",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fluo-830-own",
+   "title": "Fluo830: horarios y perturbación con fechas contradictorias",
+   "url": "https://services.fluo.grandest.fr/fr/schedules/line/30647?direction=RETURN",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "colmar-parking",
+   "title": "Ayuntamiento Colmar: aparcamientos",
+   "url": "https://www.colmar.fr/stationnement",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "eg-parking",
+   "title": "Ayuntamiento Eguisheim: aparcamientos visitantes",
+   "url": "https://www.ville-eguisheim.fr/cadre-de-vie/232-stationnement",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "kb-parking",
+   "title": "Ayuntamiento Kaysersberg: aparcamientos visitantes",
+   "url": "https://www.kaysersberg-vignoble.fr/pratique/stationnement/visiteurs/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rq-parking",
+   "title": "Ayuntamiento Riquewihr: circulación y parking",
+   "url": "https://riquewihr.fr/fr/rb/724791/circulation-et-stationnement-1",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rq-tariffs",
+   "title": "Ayuntamiento Riquewihr: acuerdos de tarifas2026",
+   "url": "https://www.riquewihr.fr/fr/rb/1866841/tarifs-21",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hk-access",
+   "title": "Haut-Koenigsbourg: accesibilidad y parking",
+   "url": "https://www.haut-koenigsbourg.fr/infos-pratiques/laccessibilite-du-chateau/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hk-faq",
+   "title": "Haut-Koenigsbourg: duración total y parking",
+   "url": "https://www.haut-koenigsbourg.fr/faq/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "riquewihr-circulation1036",
+   "title": "Municipio: circulación y parking",
+   "url": "https://riquewihr.fr/fr/rb/724791/circulation-et-stationnement-1",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "riquewihr-tarifs1036",
+   "title": "Municipio: tarifas 2026 y reformas, documentos originales",
+   "url": "https://www.riquewihr.fr/fr/rb/1866841/tarifs-21",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

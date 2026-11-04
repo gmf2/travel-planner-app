@@ -1,0 +1,743 @@
+{
+ "schemaVersion": 1,
+ "country": "DE",
+ "id": "selvanegra",
+ "name": "Selva Negra",
+ "localName": "Schwarzwald",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "friburgo",
+   "name": "Friburgo de Brisgovia: casco y catedral",
+   "kind": "walk",
+   "zone": "Friburgo",
+   "reason": "Paseo por el casco viejo, la catedral y Münsterplatz. Mercado según horario; Schlossberg o torre son opciones según acceso y energía, no visitas obligatorias.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.995596,
+    "lon": 7.852733
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=M%C3%BCnsterplatz%2C%20Freiburg%20im%20Breisgau%2C%20Germany",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": " Referencia coche: Schlossberggarage, Schlossbergring 14, 24 h, altura 2 m, 516 plazas totales, no disponibilidad. Diurno 06-20 por hora empezada: lunes 2,50 €, martes-viernes/domingo 2,70 €, sábado 3 €; máximo 24 h 34 €. Municipal actualizado 01/09/2026. No es parking del hotel ni permiso para entrar al casco. Pago con tarjeta/móvil recomendado: operador también menciona una máquina de efectivo de emergencia, pero otro aviso dice solo sin efectivo desde 2023.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ciudad libre; museos y torre de la catedral no verificados en primaria.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/selvanegra/friburgo.jpg",
+    "source": "https://www.pexels.com/photo/freiburg-cathedral-building-18649028/",
+    "author": "Horst Dreisbach",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Catedral y tejados de Friburgo desde un mirador. No indica acceso actual a la torre.",
+    "alt": "Catedral y tejados de Friburgo desde un mirador. No indica acceso actual a la torre."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "triberg",
+   "name": "Cascadas de Triberg",
+   "kind": "monument",
+   "zone": "Triberg",
+   "reason": "Cascadas de la Gutach con senderos y desniveles. Elegir recorrido según apertura y estado del suelo. La iluminación anunciada no garantiza acceso nocturno seguro, especialmente con hielo.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "tri"
+   ],
+   "coordinates": {
+    "lat": 48.129802,
+    "lon": 8.232271
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Triberg%20im%20Schwarzwald%2C%20Germany",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Precios de verano desde 02-04-2026 hasta ~noviembre (inicio del invierno) y de invierno ~noviembre-abril 2027; en invierno puede haber hielo en caminos y puentes. Apertura invernal publicada desde 02/11/2026 hasta aproximadamente abril 2027: solo entrada principal a primera plataforma, caminos superiores cerrados. Desde principal 10-15 min a primera plataforma en asfalto ligeramente ascendente según municipio. Entrada de clínica Asklepios sin parking, solo subida/bajada de pasajeros. Hielo y cierres temporales por tormenta/nieve posibles; iluminación no es garantía de ruta nocturna segura.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abiertas a diario todo el año; iluminación nocturna hasta ~22:00. En invierno solo el tramo bajo desde la entrada principal hasta la primera plataforma (despejado y con gravilla); cierre temporal posible por tormenta, nieve o hielo.",
+    "source": "https://www.triberg.de/tourismus-freizeit/tourismus-freizeit/natur-erlebnis/deutschlands-hoechste-wasserfaelle"
+   },
+   "price": "Tarifa Inclusiva Triberg (cascada + museo Selva Negra + Triberg-Fantasy + Triberg-Land): verano 9 € adulto (8,50 con tarjeta de huésped) / 8,50 reducida / 20 € familia; invierno 7 € / 6,50 € / 16 €; grupos desde 20 personas 8 € verano / 6,50 invierno; <6 gratis.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/selvanegra/triberg.jpg",
+    "source": "https://www.pexels.com/photo/scenic-triberg-waterfall-in-black-forest-germany-38963294/",
+    "author": "Smitha Nittur",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Tramo de las cascadas de Triberg entre bosque y pasarela. No representa el acceso invernal habilitado.",
+    "alt": "Tramo de las cascadas de Triberg entre bosque y pasarela. No representa el acceso invernal habilitado."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Tramo invernal de cascadas, no cierre de Triberg ciudad",
+    "noticeLabel": "Triberg: solo primera plataforma en invierno",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-03-31",
+    "notices": [
+     "Desde 02/11/2026 hasta aproximadamente abril 2027 solo primera plataforma desde entrada principal; caminos superiores cerrados. Revisar estado por hielo/tormenta."
+    ]
+   }
+  },
+  {
+   "id": "titisee",
+   "name": "Lago Titisee",
+   "kind": "viewpoint",
+   "zone": "Titisee-Neustadt",
+   "reason": "Lago junto a Titisee-Neustadt, con paseo por la orilla y zona de Seestraße. Elegir un tramo según clima y acceso; no se presupone una vuelta completa ni barcos en servicio.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.893208,
+    "lon": 8.146236
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Titisee%2C%20Titisee-Neustadt%2C%20Germany",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": " Referencia P1 Neustädter Straße 16, sin reserva según turismo. Coches 08-22: hasta 30 min gratis, 1 h 2 €, 2 h 4 €, 3 h 6 €, 4 h 8 €, más de 4 h 9 €; noche 22-08 tarifa separada 10 €. No transferir tarifa de autocaravana 24 h 19 € al turismo. Desde Schlossberggarage referencia Maps sin fecha/tráfico: ida 32 min / 30 km, vuelta 35 min / 31,1 km.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre; barcos y pedales de pago (tarifa no verificada).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/selvanegra/titisee.jpg",
+    "source": "https://www.pexels.com/photo/scenic-forest-view-at-lake-titisee-germany-39608058/",
+    "author": "Memory Lane",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Orilla arbolada del lago Titisee. No muestra un recorrido completo ni garantiza barcos operativos.",
+    "alt": "Orilla arbolada del lago Titisee. No muestra un recorrido completo ni garantiza barcos operativos."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "schluchsee",
+   "name": "Lago Schluchsee",
+   "kind": "viewpoint",
+   "zone": "Schluchsee",
+   "reason": "Lago con tramos de orilla, pequeñas playas y presa. La vuelta completa publicada por turismo regional suma 17,7 km; una parada corta no incluye ese circuito.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "schluch-route"
+   ],
+   "coordinates": {
+    "lat": 47.818593,
+    "lon": 8.177035
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Schluchsee%2C%20Germany",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Los 90 minutos son una estimación editorial para un tramo de orilla, no para rodear el lago. Turismo regional estima 4 h 45 para su circuito de 17,7 km. Confirmar terreno, clima y transporte de regreso; no se garantiza barco ni conexión ferroviaria sin consultar la fecha.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre; barco turístico de pago (tarifa no verificada).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/selvanegra/schluchsee-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Schluchsee, paisaje lacustre imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Schluchsee, paisaje lacustre imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "feldberg",
+   "name": "Feldberg: zona de acceso y teleférico",
+   "kind": "viewpoint",
+   "zone": "Feldberg",
+   "reason": "Entorno de montaña de Feldberg, con remonte y torre de acceso separado. No se presume operación turística por haber temporada de esquí.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "feldberg-hours-own",
+    "feldberg-price-own"
+   ],
+   "coordinates": {
+    "lat": 47.873991,
+    "lon": 8.004674
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Feldberg%20Gipfel%2C%20Baden-W%C3%BCrttemberg%2C%20Germany",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Punto aproximado en acceso/estación, no cima del Feldberg ni prueba de sendero abierto. No se promete que el teleférico deje en la cima principal. Viento y averías pueden parar el servicio; no iniciar caminata de alta montaña como sustituto automático de cierre.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Verano 2026 terminó 1 noviembre. Teleférico y torre cerrados 2-27 noviembre 2026 por revisión. Torre cerrada en invierno; esquí 2026/27 previsto desde 27 noviembre según nieve. No inferir apertura de senderos ni de transporte por apertura de pistas.",
+    "source": "https://www.feldberg-erlebnis.de/info-service/oeffnungszeiten"
+   },
+   "price": "Teleférico verano 2026 ida y vuelta + torre: 19 € adulto / 10 € niño (cohortes 2009-2020), nacidos 2021 o después gratis. Tarifas de esquí e invierno distintas, no incluidas.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/selvanegra/feldberg-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Feldberg, paisaje de cumbre imaginado, no prueba de operación del teleférico. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Feldberg, paisaje de cumbre imaginado, no prueba de operación del teleférico. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "accessRules": {
+    "scope": "Teleférico y torre de Feldberg",
+    "noticeLabel": "Teleférico y torre de Feldberg",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-03-29",
+    "closedRanges": [
+     {
+      "start": "2026-11-02",
+      "end": "2026-11-27",
+      "label": "teleférico y torre por revisión"
+     }
+    ],
+    "notices": [
+     "Torre cerrada en invierno. Inicio de esquí previsto 27 noviembre sujeto a nieve: no demuestra teleférico turístico abierto, senderos seguros ni torre disponible. La fuente solapa revisión hasta 27 e inicio previsto el 27: confirmar ese día."
+    ],
+    "standingNotice": "Teleférico y torre cerrados por revisión del 02/11/2026 al 27/11/2026. La torre cierra en invierno. El esquí previsto desde el 27 depende de la nieve y no acredita apertura turística del teleférico."
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "gutach",
+   "name": "Museo al aire libre Vogtsbauernhof",
+   "kind": "museum",
+   "zone": "Gutach",
+   "reason": "El primer museo al aire libre de Alemania (1964): granjas de la Selva Negra trasladadas pieza a pieza, con la granja Vogtsbauernhof de 1612 y demostraciones de oficios; parada de tren propia en la Schwarzwaldbahn.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "vog",
+    "vogts-2026-own",
+    "vogts-fr-own"
+   ],
+   "coordinates": {
+    "lat": 48.271996,
+    "lon": 8.197178
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Vogtsbauernhof%2C%20Gutach%2C%20Germany",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 180,
+   "durationType": "editorial-estimate",
+   "caution": "Temporada ordinaria 2026 acabó el 1 noviembre. Evento Weihnachtsdorf 11-13 diciembre 2026 anunciado: viernes 16-21, sábado 14-21, domingo 11-19; no equivale a museo completo abierto todo el invierno. Tarifa de evento no verificada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Temporada 2026: 22 marzo-1 noviembre, 9-18, última entrada 17. Temporada 2027: 21 marzo-7 noviembre, 9-18. Fuera de temporada ordinaria, solo eventos con calendario propio, no museo abierto todos los días.",
+    "source": "https://www.vogtsbauernhof.de/fr/evenements"
+   },
+   "price": "Entrada de pago; la tabla de precios no se extrajo de la web oficial esta sesión (solo temporada y horario).",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/selvanegra/gutach-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Vogtsbauernhof, casa tradicional imaginada, sin piezas del museo. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Vogtsbauernhof, casa tradicional imaginada, sin piezas del museo. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "accessRules": {
+    "scope": "Museo Vogtsbauernhof",
+    "noticeLabel": "Museo Vogtsbauernhof",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-03-20",
+    "noticeRanges": [
+     {
+      "start": "2026-11-03",
+      "end": "2027-03-20",
+      "text": "Fuera de temporada ordinaria del museo. Solo eventos con calendario propio, no visita diaria confirmada."
+     }
+    ],
+    "standingNotice": "Temporada ordinaria del museo terminada el 01/11/2026. El Weihnachtsdorf del 11 al 13 de diciembre de 2026 tiene horario propio; no equivale a visita diaria al museo completo en invierno."
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "schiltach",
+   "name": "Schiltach",
+   "kind": "walk",
+   "zone": "Schiltach",
+   "reason": "Paseo por las casas de entramado de madera y la ribera de Schiltach. Elegir un tramo del pueblo; los museos requieren horario y entrada por comprobar.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.290177,
+    "lon": 8.343635
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Schiltach%2C%20Germany",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/selvanegra/schiltach.jpg",
+    "source": "https://www.pexels.com/photo/charming-summer-day-in-schiltach-black-forest-38210684/",
+    "author": "Jean Maurer",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Casas de entramado de madera junto al río en Schiltach.",
+    "alt": "Casas de entramado de madera junto al río en Schiltach."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "gengenbach",
+   "name": "Gengenbach",
+   "kind": "walk",
+   "zone": "Gengenbach",
+   "reason": "Paseo por el casco de Gengenbach y sus edificios históricos. La decoración de Adviento del ayuntamiento depende del calendario; no se presenta como un evento activo todo el año.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.403543,
+    "lon": 8.015306
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Gengenbach%2C%20Germany",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Calendario de Adviento del ayuntamiento: tradición anual de Adviento (fechas movibles según el año, sin primaria).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/selvanegra/gengenbach-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Gengenbach, calle medieval imaginada. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Gengenbach, calle medieval imaginada. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "sasbachwalden",
+   "name": "Sasbachwalden",
+   "kind": "walk",
+   "zone": "Sasbachwalden",
+   "reason": "El pueblo de las flores y del schnapps en la ladera oeste: huertas, destilerías y el mirador sobre el valle del Rin hacia los Vosgos.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.61861,
+    "lon": 8.128022
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Sasbachwalden%2C%20Germany",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/selvanegra/sasbachwalden.jpg",
+    "source": "https://www.sasbachwalden.de/PartnerNet/Fotos/Schwarzwaelder-Blumen-Weindorf",
+    "author": "Tourist-Info Sasbachwalden",
+    "license": "Permiso de uso web con crédito Tourist-Info Sasbachwalden",
+    "licenseUrl": "https://www.sasbachwalden.de/PartnerNet/Fotos",
+    "caption": "Vista de Sasbachwalden entre viñedos. © Tourist-Info Sasbachwalden. No muestra un recorrido a pie ni acceso a bodegas.",
+    "alt": "Vista de Sasbachwalden entre viñedos. © Tourist-Info Sasbachwalden. No muestra un recorrido a pie ni acceso a bodegas."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "allerheiligen",
+   "name": "Cascadas y ruinas de Allerheiligen",
+   "kind": "monument",
+   "zone": "Oppenau",
+   "reason": "Las cascadas que caen 83 m por siete saltos de granito junto a las ruinas del monasterio de All Saints, con la escalera monumental de 224 peldaños.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "allerheiligen-safety-own"
+   ],
+   "coordinates": {
+    "lat": 48.531105,
+    "lon": 8.188815
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Allerheiligen-Wasserf%C3%A4lle%2C%20Germany",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Sendero de escaleras junto a cascadas. Parque nacional lo cierra con escarcha, nieve o hielo. No sustituye automáticamente a un museo cerrado de invierno; ruta norte separada, no añadido al día Kinzig/Triberg.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Precio de aparcamiento y acceso por verificar; no se presume gratuidad de todos los servicios.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/selvanegra/allerheiligen-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Allerheiligen, ruinas imaginadas, no itinerario a las cascadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Allerheiligen, ruinas imaginadas, no itinerario a las cascadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "todtnau",
+   "name": "Cascada de Todtnau",
+   "kind": "monument",
+   "zone": "Todtnau",
+   "reason": "La tercera gran cascada de la región: 97 m de caída al pie del Feldberg, con sendero señalizado desde el aparcamiento de Aftersteg.",
+   "sourceIds": [
+    "cmv",
+    "wp",
+    "todtnau-price-own",
+    "todtnau-tourism-own"
+   ],
+   "coordinates": {
+    "lat": 47.844126,
+    "lon": 7.939027
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Todtnauer%20Wasserfall%2C%20Todtnau%2C%20Germany",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "No es visita gratis. Solo acceso desde portal de Aftersteg indicado por turismo como accesible con ligera pendiente; los demás accesos no lo son. Clima y cierres se comprueban antes de ir. Hasenhorn y Blackforestline son atracciones distintas, no van incluidas por citar la cascada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Cascada sola: 2,50 € adulto / 1,50 € niño según operador. Puente+cascada: 12 € desde 15 años / 9 € de 6-14. No confundir entrada al puente con entrada sola a cascada.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/selvanegra/todtnau-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Todtnau, cascada imaginada, no acceso o sendero real. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Todtnau, cascada imaginada, no acceso o sendero real. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "baden_baden",
+   "name": "Baden-Baden, la ciudad balneario",
+   "kind": "excursion",
+   "zone": "Baden-Baden",
+   "reason": "Jornada independiente en Baden-Baden. Elegir paseo por el centro o un balneario con entrada y reglas propias; no se confirma aquí acceso a termas ni al casino.",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 48.757452,
+    "lon": 8.243738
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Baden-Baden%2C%20Germany",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Balnearios con normas propias (Friedrichsbad es textil-frei); tarifas no verificadas en primaria esta sesión.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Friedrichsbad y Caracalla de pago; tarifas no verificadas en primaria.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/selvanegra/baden_baden-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Baden-Baden, jardín y columnata imaginados, no interior del balneario. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Baden-Baden, jardín y columnata imaginados, no interior del balneario. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "basilea",
+   "name": "Basilea, la ciudad del Rin",
+   "kind": "excursion",
+   "zone": "Basilea (Suiza)",
+   "reason": "La tercera ciudad suiza a las puertas de la Selva Negra: la catedral roja sobre el Rin, el ayuntamiento pintado de la Marktplatz, el casco medieval y museos de primer nivel (Kunstmuseum, Tinguely).",
+   "sourceIds": [
+    "cmv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.558108,
+    "lon": 7.587826
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Basel%2C%20Switzerland",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 480,
+   "durationType": "editorial-estimate",
+   "caution": "Excursión a Suiza. Moneda CHF; documentación y conexiones según situación personal/fecha, sin prometer una tarifa o servicio concreto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Museos de Basilea de pago; tarifas no verificadas en primaria.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/selvanegra/basilea-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Basilea, concepto del Rin y su catedral. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Basilea, concepto del Rin y su catedral. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "transport": "Consultar conexión Friburgo-Basilea en DB/SBB para la fecha y estación exactas; sin horarios verificados en este borrador.",
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Friburgo, casco y margen libre",
+     "stopIds": [
+      "friburgo"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Casco histórico y mercado si está abierto. Torre, museo o Schlossberg como elección, no todos obligatorios. Horario de torre aún por confirmar.",
+     "pacing": "Jornada urbana. Referencia Schlossberggarage 24 h, altura 2 m, diurno 2,50-3 €/hora empezada según día y máximo 24 h 34 €. No es permiso para conducir por casco. Augustinermuseum 90-120 min editoriales sustituye torre/Schlossberg, no sumar todo. Dejar tiempo para comida y paseo."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Friburgo, casco y margen libre",
+     "stopIds": [
+      "friburgo"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Casco histórico y mercado si está abierto. Torre, museo o Schlossberg como elección, no todos obligatorios. Horario de torre aún por confirmar.",
+     "pacing": "Jornada urbana. Referencia Schlossberggarage 24 h, altura 2 m, diurno 2,50-3 €/hora empezada según día y máximo 24 h 34 €. No es permiso para conducir por casco. Augustinermuseum 90-120 min editoriales sustituye torre/Schlossberg, no sumar todo. Dejar tiempo para comida y paseo."
+    },
+    {
+     "title": "Titisee o jornada de montaña",
+     "stopIds": [
+      "titisee"
+     ],
+     "optionalStopIds": [
+      "schluchsee",
+      "feldberg",
+      "todtnau"
+     ],
+     "editorialNote": "Titisee como zona principal con tiempo libre. Schluchsee puede sustituir Titisee; Feldberg es una jornada de montaña alternativa y Todtnau otra opción con desplazamiento y pago. No sumar lagos, cima y cascada por defecto. Referencia coche Schlossberggarage-P1 Titisee: ida 32 min / 30 km y vuelta 35 min / 31,1 km sin fecha/tráfico.",
+     "pacing": "Unos 1 h 07 min de conducción ida/vuelta de referencia, más aparcar y acceso al lago. P1 sin reserva, coches 08-22 hasta 1 h 2 € / 2 h 4 € / 4 h 8 € / más de 4 h 9 €; noche distinta. No garantiza plaza, estado de carretera, tráfico o ruta desde tu hotel. Transporte público para fecha pendiente."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Friburgo, casco y margen libre",
+     "stopIds": [
+      "friburgo"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Casco histórico y mercado si está abierto. Torre, museo o Schlossberg como elección, no todos obligatorios. Horario de torre aún por confirmar.",
+     "pacing": "Jornada urbana. Referencia Schlossberggarage 24 h, altura 2 m, diurno 2,50-3 €/hora empezada según día y máximo 24 h 34 €. No es permiso para conducir por casco. Augustinermuseum 90-120 min editoriales sustituye torre/Schlossberg, no sumar todo. Dejar tiempo para comida y paseo."
+    },
+    {
+     "title": "Titisee o jornada de montaña",
+     "stopIds": [
+      "titisee"
+     ],
+     "optionalStopIds": [
+      "schluchsee",
+      "feldberg",
+      "todtnau"
+     ],
+     "editorialNote": "Titisee como zona principal con tiempo libre. Schluchsee puede sustituir Titisee; Feldberg es una jornada de montaña alternativa y Todtnau otra opción con desplazamiento y pago. No sumar lagos, cima y cascada por defecto. Referencia coche Schlossberggarage-P1 Titisee: ida 32 min / 30 km y vuelta 35 min / 31,1 km sin fecha/tráfico.",
+     "pacing": "Unos 1 h 07 min de conducción ida/vuelta de referencia, más aparcar y acceso al lago. P1 sin reserva, coches 08-22 hasta 1 h 2 € / 2 h 4 € / 4 h 8 € / más de 4 h 9 €; noche distinta. No garantiza plaza, estado de carretera, tráfico o ruta desde tu hotel. Transporte público para fecha pendiente."
+    },
+    {
+     "title": "Triberg o valle del Kinzig",
+     "stopIds": [
+      "triberg"
+     ],
+     "optionalStopIds": [
+      "gutach",
+      "schiltach",
+      "gengenbach"
+     ],
+     "editorialNote": "Triberg como zona principal. Si se elige museo de Gutach y Schiltach, sustituir Triberg por esa jornada de valle, con museo solo en temporada. Gengenbach otra alternativa. No montar cuatro núcleos por obligación ni prometer regreso nocturno por iluminación de cascada.",
+     "pacing": "Invierno desde 02/11/2026 hasta aproximadamente abril 2027: solo entrada principal a primera plataforma; caminos superiores cerrados. Ese tramo son 10-15 min desde entrada según municipio, no excursión completa de 2 h por puentes. Permitir margen según hielo y cierre. Referencia de conducción/regreso y parking concreto todavía pendientes; no convertirlo en salida nocturna por la iluminación."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Todtnau no gratis: cascada sola 2,50/1,50 €; puente+cascada 12/9 € según operador.",
+  "Feldbergbahn/torre en revisión 2-27 noviembre 2026; torre cerrada invierno, esquí condicionado a nieve.",
+  "Allerheiligen: sendero cerrado con escarcha, nieve o hielo. No sustituto automático de museo.",
+  "Vogtsbauernhof: ordinario 22 marzo-1 noviembre 2026; evento 11-13 diciembre separado, tarifa por confirmar; temporada 2027 21 marzo-7 noviembre.",
+  "Trenes y buses no verificados para una fecha concreta. Barcos y balnearios requieren tarifa/horario propios.",
+  "Visitas: 5 fotos reales y 8 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Calendario de Adviento de Gengenbach: Adviento (fechas anuales variables, sin primaria extraída). El ayuntamiento ilumina 24 ventanas; afluencia alta en el pueblo por las tardes. Sin calendario confirmado para el modo Navidad."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "cmv",
+   "title": "Comiviajeros: qué ver en la Selva Negra (21 puntos)",
+   "url": "https://comiviajeros.com/que-ver-en-la-selva-negra/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Selva Negra y lugares",
+   "url": "https://es.wikipedia.org/wiki/Selva_Negra",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tri",
+   "title": "Ciudad de Triberg: cascadas (horarios, precios 2026, invierno)",
+   "url": "https://www.triberg.de/stadt-triberg/leben-wohnen/natur-erlebnis/deutschlands-hoechste-wasserfaelle",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vog",
+   "title": "Vogtsbauernhof: temporada y horario oficial",
+   "url": "https://www.vogtsbauernhof.de/besuch/oeffnungszeiten-preise",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "todtnau-price-own",
+   "title": "Blackforestline: entradas puente y cascada",
+   "url": "https://blackforestline.de/ueber-die-bruecke/eintrittspreise-und-tickets/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "todtnau-tourism-own",
+   "title": "Hochschwarzwald: accesos a la cascada",
+   "url": "https://www.hochschwarzwald.de/attraktionen/todtnauer-wasserfall-1d799b63a3",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "feldberg-hours-own",
+   "title": "Feldberg: temporada y revisión 2026",
+   "url": "https://www.feldberg-erlebnis.de/info-service/oeffnungszeiten",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "feldberg-price-own",
+   "title": "Feldberg: tarifas verano 2026",
+   "url": "https://www.feldberg-erlebnis.de/sommer/tickets-preise",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "allerheiligen-safety-own",
+   "title": "Parque nacional: cierre de senderos por hielo y nieve",
+   "url": "https://www.nationalpark-schwarzwald.de/nationalpark/regeln-tipps",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vogts-2026-own",
+   "title": "Vogtsbauernhof: temporada 2026 y Navidad",
+   "url": "https://www.vogtsbauernhof.de/kalender/saison-2026",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vogts-fr-own",
+   "title": "Vogtsbauernhof: horario temporada 2026",
+   "url": "https://www.vogtsbauernhof.de/fr/evenements",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "schluch-route",
+   "title": "Hochschwarzwald: circuito Schluchsee, distancia y duración",
+   "url": "https://www.hochschwarzwald.de/en/tours/schluchsee-circular-walk-0d8053cf31",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "access-12",
+   "title": "Friburgo: parking municipal",
+   "url": "https://www.freiburg.de/pb/231447.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "access-13",
+   "title": "Schlossberggarage: operador",
+   "url": "https://www.parken-in-freiburg.de/parkhaeuser/schlossberggarage",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "access-14",
+   "title": "Titisee: P1",
+   "url": "https://www.hochschwarzwald.de/en/poi/detail/large-car-park-p1-6c9c8a0796",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "access-15",
+   "title": "Triberg: apertura invierno",
+   "url": "https://www.triberg.de/tourismus-freizeit/tourismus-freizeit/natur-erlebnis/deutschlands-hoechste-wasserfaelle",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

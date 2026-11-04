@@ -1,0 +1,511 @@
+{
+ "schemaVersion": 1,
+ "country": "ES",
+ "id": "granada",
+ "name": "Granada",
+ "localName": "Granada",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "alhambra",
+   "name": "Alhambra y Generalife",
+   "kind": "visit",
+   "zone": "Cerro de la Alhambra",
+   "reason": "Conjunto nazarí que justifica el viaje; palacios con franja horaria estricta.",
+   "sourceIds": [
+    "alh",
+    "alhtime"
+   ],
+   "coordinates": {
+    "lat": 37.17634,
+    "lon": -3.58821
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Alhambra",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 240,
+   "durationType": "editorial-estimate",
+   "caution": "Palacios Nazaríes con hora exacta y entrada nominativa; llevar documento original de identidad. Visita general aproximada de 3 horas según Patronato, más accesos y pausas. Cierra 25/12 y 1/1. No hay entrada comprada.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Monumento de pago con franja estricta",
+   "photo": {
+    "img": "assets/granada/alhambra.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+    "author": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "La Alhambra desde el Albaicín, con Sierra Nevada detrás. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "albaicin",
+   "name": "Albaicín",
+   "kind": "visit",
+   "zone": "Albaicín",
+   "reason": "Barrio de callejas y cármenes Patrimonio Mundial; paseo sin ruta fija entre placetas.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 37.1817,
+    "lon": -3.5983
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Albaic%C3%ADn",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Barrio de paseo; cuestas y escaleras",
+   "photo": {
+    "img": "assets/granada/albaicin.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Albaicin-granada.JPG",
+    "author": "Miguel303xm",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.5",
+    "caption": "Calles del Albaicín. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sannicolas",
+   "name": "Mirador de San Nicolás",
+   "kind": "visit",
+   "zone": "Albaicín",
+   "reason": "El atardecer con la Alhambra enfrente y Sierra Nevada detrás.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 37.18112,
+    "lon": -3.59266
+   },
+   "coordinateSource": "https://www.wikidata.org/wiki/Q65016208",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Mirador público; concurrido al atardecer",
+   "photo": {
+    "img": "assets/granada/sannicolas.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Alhambra_Granada_Mirador_san_Nicolas.jpg",
+    "author": "Jebulon",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "licenseURL": "",
+    "caption": "Vista de la Alhambra desde el Mirador de San Nicolás. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral y Capilla Real",
+   "kind": "visit",
+   "zone": "Centro",
+   "reason": "Catedral renacentista y la capilla de los Reyes Católicos; visita breve en el centro.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 37.17599,
+    "lon": -3.59904
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Catedral_de_Granada",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Capilla Real y Catedral son entradas separadas de pago; horarios de culto condicionan. Nada comprado.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Interior de pago",
+   "photo": {
+    "img": "assets/granada/catedral.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Granada_cathedral_from_mirador_San_Cristobal_Spain.jpg",
+    "author": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Catedral de Granada desde el mirador de San Cristóbal. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "carrera",
+   "name": "Carrera del Darro y Paseo de los Tristes",
+   "kind": "visit",
+   "zone": "Eje del Darro",
+   "reason": "El paseo más bonito de la ciudad junto al río, a los pies de la Alhambra.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 37.1782841,
+    "lon": -3.5928794
+   },
+   "coordinateSource": "https://www.wikidata.org/wiki/Q119001847",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo público",
+   "photo": {
+    "img": "assets/granada/carrera.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Carrera_del_Darro_Granada_Spain.jpg",
+    "author": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Carrera del Darro junto al río. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sacromonte",
+   "name": "Sacromonte",
+   "kind": "visit",
+   "zone": "Sacromonte",
+   "reason": "Barrio de cuevas con vistas; subida desde el Darro.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 37.1815733,
+    "lon": -3.5836122
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Camino+del+Sacromonte&query_place_id=EjRDYW0uIGRlbCBTYWNyb21vbnRlLCBBbGJhaWPDrW4sIDE4MDEwIEdyYW5hZGEsIFNwYWluIi4qLAoUChIJ0UMvIjXjcQ0R1MIrnDzm_MgSFAoSCZ3AT_Mx43ENEblPKzY4_Kto",
+   "coordinateMethod": "maps-current-place",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Barrio de paseo; pendiente fuerte",
+   "photo": {
+    "img": "assets/granada/sacromonte.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sacromonte_Nasrid_wall_Granada_Spain.jpg",
+    "author": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Panorámica de la ladera del Sacromonte; foto representativa del barrio, no del punto exacto del paseo."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "realejo",
+   "name": "Realejo",
+   "kind": "visit",
+   "zone": "Realejo",
+   "reason": "Antigua judería con murales y bares de tapas; bajada natural desde la Alhambra.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 37.1733333,
+    "lon": -3.5938889
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Realejo-San_Mat%C3%ADas",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Barrio de paseo",
+   "photo": {
+    "img": "assets/granada/realejo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Granada_-_Iglesia_de_Santo_Domingo.jpg",
+    "author": "0000ff",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Iglesia de Santo Domingo en el Realejo. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "cartuja",
+   "name": "Monasterio de la Cartuja",
+   "kind": "visit",
+   "zone": "Norte de Granada; acceso a pie o transporte",
+   "reason": "Interior barroco de la Cartuja, separado del casco. Elegir hora de visita antes de cerrar el día.",
+   "sourceIds": [
+    "cart",
+    "mm"
+   ],
+   "coordinates": {
+    "lat": 37.191923,
+    "lon": -3.599528
+   },
+   "coordinateSource": "https://www.wikidata.org/wiki/Q2961287",
+   "coordinateMethod": "wikidata-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Interior de pago fuera del casco; comprobar franja y acceso del día. Llegar a pie o con transporte elegido según fecha; no asumimos antiguas líneas universitarias de una guía.",
+   "reviewedAt": "2026-11-02",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/granada/cartuja.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_de_la_iglesia_del_Monasterio_de_la_Cartuja_de_Granada.jpg",
+    "author": "José Luis Filpo Cabana",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+    "caption": "Interior de la iglesia de la Cartuja de Granada. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sanjeronimo",
+   "name": "Real Monasterio de San Jerónimo",
+   "kind": "visit",
+   "zone": "Centro norte",
+   "reason": "Primer monasterio cristiano de la ciudad: iglesia renacentista con el retablo mayor y el sepulcro del Gran Capitán.",
+   "sourceIds": [
+    "jer"
+   ],
+   "coordinates": {
+    "lat": 37.179113,
+    "lon": -3.604379
+   },
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1955435",
+   "coordinateMethod": "wikidata-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Turismo municipal publica 10:00-14:30 y 15:00-18:30; confirmar agenda y entrada del día.",
+   "reviewedAt": "2026-11-02",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/granada/sanjeronimo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Monasterio_de_San_Jer%C3%B3nimo_(Granada)._Crucero.jpg",
+    "author": "José Luis Filpo Cabana",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+    "caption": "Crucero del Monasterio de San Jerónimo. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sierranevada",
+   "name": "Sierra Nevada · estación y miradores",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 37.0533333,
+    "lon": -3.3113889
+   },
+   "zone": "Fuera de Granada",
+   "suggestedMinutes": 360,
+   "reason": "Alta montaña a 45 min: nieve en invierno, senderos y vistas en verano.",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "No incluye esquí, forfait, remontes ni actividad de montaña. Consultar meteorología y carretera; la foto panorámica de Sierra Nevada desde Cubillas no muestra Pradollano ni su estado actual.",
+   "sourceIds": [
+    "bus",
+    "ot"
+   ],
+   "photo": {
+    "img": "assets/granada/sierranevada.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sierra_Nevada_desde_el_embalse_del_Cubillas,_en_Atarfe_(Granada).jpg",
+    "author": "Lopezsuarez",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Sierra Nevada desde el embalse del Cubillos. Foto real Wikimedia Commons; verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Alhambra y Realejo",
+     "zone": "Alhambra → Realejo",
+     "stopIds": [
+      "alhambra",
+      "realejo"
+     ],
+     "editorialNote": "La franja de Palacios Nazaríes manda. Dedica el bloque principal a Alhambra y Generalife; Realejo queda como paseo al salir si quedan fuerzas.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "6-8 h con la visita completa, comida y pausas, estimación editorial."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Alhambra y Realejo",
+     "zone": "Alhambra → Realejo",
+     "stopIds": [
+      "alhambra",
+      "realejo"
+     ],
+     "editorialNote": "La franja de Palacios Nazaríes manda. Dedica el bloque principal a Alhambra y Generalife; Realejo queda como paseo al salir si quedan fuerzas.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "6-8 h, estimación editorial."
+    },
+    {
+     "title": "Albaicín, San Nicolás y centro",
+     "zone": "Catedral → Albaicín → San Nicolás",
+     "stopIds": [
+      "catedral",
+      "albaicin",
+      "sannicolas"
+     ],
+     "editorialNote": "Catedral o Capilla Real por la mañana según acceso elegido; después Albaicín y mirador con luz de tarde. Son entradas separadas, no ambas implícitas.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h con comida y pausas, estimación editorial."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Alhambra y Realejo",
+     "zone": "Alhambra → Realejo",
+     "stopIds": [
+      "alhambra",
+      "realejo"
+     ],
+     "editorialNote": "La franja de Palacios Nazaríes manda. Dedica el bloque principal a Alhambra y Generalife; Realejo queda como paseo al salir si quedan fuerzas.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "6-8 h, estimación editorial."
+    },
+    {
+     "title": "Albaicín, San Nicolás y centro",
+     "zone": "Catedral → Albaicín → San Nicolás",
+     "stopIds": [
+      "catedral",
+      "albaicin",
+      "sannicolas"
+     ],
+     "editorialNote": "Catedral o Capilla Real por la mañana según acceso elegido; después Albaicín y mirador con luz de tarde. Son entradas separadas, no ambas implícitas.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h, estimación editorial."
+    },
+    {
+     "title": "Cartuja, San Jerónimo y Carrera del Darro",
+     "zone": "Norte → centro → Darro",
+     "stopIds": [
+      "cartuja",
+      "sanjeronimo",
+      "carrera"
+     ],
+     "editorialNote": "Cartuja y San Jerónimo como interiores del día, con sus horarios. Después paseo por Carrera del Darro. Sacromonte es alternativa, no otra visita apilada.",
+     "optionalStopIds": [
+      "sacromonte"
+     ],
+     "geographyChecks": [],
+     "pacing": "5-6 h con comida y pausas, estimación editorial."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Sin entrada de la Alhambra comprada con antelación, el plan de Granada pierde su eje: reservar cuanto antes.",
+  "Las cuestas del Albaicín y Sacromonte exigen calzado adecuado; no son rutas accesibles verificadas.",
+  "Ninguna entrada, mesa o billete está reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "wp",
+   "title": "Wikipedia: Granada y artículos de cada lugar",
+   "url": "https://es.wikipedia.org/wiki/Granada",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ot",
+   "title": "Turismo oficial: turismo.granada.org",
+   "url": "https://turismo.granada.org/",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en Granada",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-en-granada/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "mm",
+   "title": "Viajeros Callejeros: Granada en tres días",
+   "url": "https://www.viajeroscallejeros.com/granada-en-3-dias/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "alh",
+   "title": "Alhambra · condiciones de visita oficiales",
+   "url": "https://www.alhambra-patronato.es/visitar/preguntas-frecuentes",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "alhtime",
+   "title": "Alhambra · horarios y cierres",
+   "url": "https://www.alhambra-patronato.es/visitar/horarios-y-tarifas",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "jer",
+   "title": "Turismo Granada · San Jerónimo",
+   "url": "https://turismo.granada.org/es/monasterio-san-jeronimo",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "cart",
+   "title": "Turismo Granada · Cartuja",
+   "url": "https://turismo.granada.org/es/monumento/edificio-religioso/monasterio-cartuja",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "bus",
+   "title": "Tocina · Granada-Sierra Nevada",
+   "url": "https://autotransportetocina.es/sierra-nevada/",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

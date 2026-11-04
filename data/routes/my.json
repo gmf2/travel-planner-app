@@ -1,0 +1,243 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "MY",
+ "country": "Malasia",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Solo Malasia peninsular; Borneo como ruta futura separada (Sabah: Kinabalu, orangutanes).",
+ "verificationLimits": [
+  "Horarios y entradas de cada visita pendientes para las fechas del viaje.",
+  "Kimkim es una propuesta comercial, no una reserva ni una garantía de acceso; no se incluyen precios.",
+  "Penang Hill: cierre anunciado del funicular 04/01-10/01/2027; Jeep Track del Jardín Botánico cerrado a senderismo/bici lunes-sábado 02/03-31/12/2026. Alcances distintos, no cierre de toda la colina ni ruta alternativa garantizada.",
+  "La granja de durianes de Kimkim no está identificada. Tropical Fruit Farm es otra alternativa concreta en Teluk Bahang, no prueba de degustación de durian ni reserva.",
+  "SkyBridge depende de SkyCab: el operador cierra también puente, SkyGlide y SkyBistro cuando cierra SkyCab. Calendario por fecha, sin promesa de apertura ni ticket seleccionado."
+ ],
+ "routes": [
+  {
+   "id": "my-10",
+   "title": "Kuala Lumpur, Ipoh, Penang y Langkawi · 10 días",
+   "scope": "Malasia peninsular noroccidental. No incluye Borneo, costa este ni Cameron Highlands: la fuente duerme en Ipoh, no en las montañas.",
+   "pace": "10 dias, ritmo medio; un vuelo interno a Langkawi.",
+   "assumptions": "Ruta de Kimkim publicada en 2023, adaptada sin hoteles ni excursiones contratadas. Bases fijas: Kuala Lumpur 2n, Ipoh 1n, George Town 3n, Langkawi 3n. Entrada por KUL y salida por LGK; cualquier conexión posterior se comprueba aparte. Visitas de Penang y Langkawi adaptadas editorialmente: alternativas y traslados locales explícitos, no reproducción del paquete contratado.",
+   "sources": [
+    {
+     "id": "mys",
+     "title": "kimkim - Malasia peninsular 10 dias",
+     "url": "https://www.kimkim.com/c/best-of-peninsular-malaysia-10-days"
+    },
+    {
+     "id": "airasia",
+     "title": "Air Asia · ruta Penang PEN-Langkawi LGK",
+     "url": "https://www.airasia.com/flights/from-penang-pen-to-langkawi-lgk/"
+    },
+    {
+     "id": "kl-ipoh",
+     "title": "Google Maps · carretera Kuala Lumpur-Ipoh",
+     "url": "https://www.google.com/maps/dir/?api=1&destination=Ipoh%2C+Perak%2C+Malaysia&destination_place_id=ChIJ4zNA83nsyjERWehSaUaf3I8&origin=Kuala+Lumpur+City+Centre%2C+Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&origin_place_id=ChIJ14gJ49NJzDERmsAj2n9LSkY&travelmode=driving"
+    },
+    {
+     "id": "ipoh-penang",
+     "title": "Google Maps · carretera Ipoh-George Town",
+     "url": "https://www.google.com/maps/dir/?api=1&destination=George+Town%2C+Penang%2C+Malaysia&destination_place_id=ChIJ1XsrrZfDSjARNLmpeFnkmiM&origin=Ipoh%2C+Perak%2C+Malaysia&origin_place_id=ChIJ4zNA83nsyjERWehSaUaf3I8&travelmode=driving"
+    },
+    {
+     "id": "hill-notices",
+     "title": "Penang Hill Corporation: avisos de mantenimiento y acceso",
+     "url": "https://corporate.penanghill.gov.my/index.php/en/press-release"
+    },
+    {
+     "id": "hill-jeep",
+     "title": "Penang Hill: cierre de pista Jeep a senderismo/bici, lunes-sábado 02/03-31/12/2026",
+     "url": "https://corporate.penanghill.gov.my/images/images/Press_Release/2026/ENG_-_PENUTUPAN_SEMENTARA_JALAN_JIP_DI_TAMAN_BOTANI_PULAU_PINANG_UNTUK_AKTIVITI_BERBASIKAL_DAN_MENDAKI_BERKUAT_KUASA_2_MAC_2026_-_31_DISEMBER_2026.pdf"
+    },
+    {
+     "id": "hill-tickets",
+     "title": "Penang Hill: horarios y billete de funicular",
+     "url": "https://penanghill.gov.my/index.php/en/tickets"
+    },
+    {
+     "id": "hill-faq",
+     "title": "Penang Hill: billete no incluye atracciones privadas",
+     "url": "https://www.penanghill.gov.my/index.php/en/faq"
+    },
+    {
+     "id": "sky-calendar",
+     "title": "Panorama Langkawi: calendario de SkyCab y cierre asociado de SkyBridge",
+     "url": "https://panoramalangkawi.com/operation-calendar/"
+    },
+    {
+     "id": "penang-tourism",
+     "title": "Turismo de Penang: áreas y transporte fuera de George Town",
+     "url": "https://www.mypenang.gov.my/uploads/downloads/PenangTradeBooklet_English.pdf"
+    },
+    {
+     "id": "fruit-visitor",
+     "title": "Tropical Fruit Farm: alternativa identificada en Teluk Bahang, no granja de durianes elegida",
+     "url": "https://tropicalfruitfarm.com.my/visitor-information/"
+    },
+    {
+     "id": "fruit-tour",
+     "title": "Tropical Fruit Farm: visitas guiadas y condiciones, sin reserva obtenida",
+     "url": "https://tropicalfruitfarm.com.my/guided-farm-tours/"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Kuala Lumpur",
+     "overnight": "Kuala Lumpur",
+     "stops": [
+      "Llegada y descanso",
+      "Merdeka Square o paseo por Chinatown si queda tiempo"
+     ],
+     "transfer": "Llegada a KUL y traslado al alojamiento de Kuala Lumpur, por elegir. Merdeka Square/Chinatown solo si llegada y descanso dejan margen; no son visita garantizada tras aterrizar.",
+     "sourceIds": [
+      "mys"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Cuevas Batu y alrededores",
+     "overnight": "Kuala Lumpur",
+     "stops": [
+      "Batu Caves (escaleras y templo)",
+      "Resto del día en Kuala Lumpur; Sekinchan solo como excursión alternativa"
+     ],
+     "transfer": "Batu Caves está fuera del centro: elegir transporte de ida y vuelta. Sekinchan queda como excursión alternativa, no añadido automático al circuito urbano. La base sigue en Kuala Lumpur.",
+     "sourceIds": [
+      "mys"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "A Ipoh y su casco histórico",
+     "overnight": "Ipoh",
+     "stops": [
+      "Heritage Walk de Ipoh",
+      "Estación y edificios del casco histórico",
+      "Café blanco local"
+     ],
+     "transfer": "Coche Kuala Lumpur-Ipoh: unos 208 km y 2h 21 min de ruta base calculada en Google Maps 2/11/2026, sin pausas ni tráfico específico. Planifica media jornada con salida y llegada.",
+     "sourceIds": [
+      "mys",
+      "kl-ipoh"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Penang y George Town",
+     "overnight": "George Town (Penang)",
+     "stops": [
+      "George Town (UNESCO)",
+      "Mansion Peranakan"
+     ],
+     "transfer": "Coche Ipoh-George Town: unos 156 km y 2h de ruta base en Google Maps 2/11/2026, sin pausas ni tráfico específico; más check-in. No sumar Cameron Highlands.",
+     "sourceIds": [
+      "mys",
+      "ipoh-penang"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Penang a fondo",
+     "overnight": "George Town (Penang)",
+     "stops": [
+      "Templo Kek Lok Si como visita principal",
+      "Colina de Penang si el acceso elegido está operativo",
+      "Granja de durianes solo como alternativa con finca y visita confirmadas"
+     ],
+     "transfer": "Kek Lok Si y Penang Hill requieren transporte desde George Town y tiempo de acceso/colas, no paseo entre paradas del centro. PHC anuncia cierre del funicular del 04/01 al 10/01/2027. El Jeep Track del Jardín Botánico está cerrado a senderismo y bici de lunes a sábado del 02/03 al 31/12/2026; no se presenta esa pista como alternativa peatonal garantizada. Confirmar avisos según fecha. El billete de funicular no incluye atracciones privadas de la colina. La granja de durianes de Kimkim no se identifica ni tiene acceso/tour elegido: alternativa, no tercera visita garantizada.",
+     "sourceIds": [
+      "mys",
+      "hill-notices",
+      "hill-jeep",
+      "hill-tickets",
+      "hill-faq",
+      "penang-tourism"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Penang libre",
+     "overnight": "George Town (Penang)",
+     "stops": [
+      "Arte urbano de George Town",
+      "Playa Batu Ferringhi o visita de finca, como alternativas"
+     ],
+     "transfer": "George Town a pie; Batu Ferringhi requiere transporte, no es la misma zona. Si prefieres finca, Tropical Fruit Farm en Teluk Bahang es una opción identificada distinta de la granja anónima de durianes: publica 09:00-17:00, última admisión 16:30, y recomienda reservar fin de semana por cupo. No se garantiza degustación de durian ni se suma todo a playa/centro. Elegir visita y traslado de vuelta antes de cerrar el día.",
+     "sourceIds": [
+      "mys",
+      "penang-tourism",
+      "fruit-visitor",
+      "fruit-tour"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Vuelo a Langkawi",
+     "overnight": "Langkawi",
+     "stops": [
+      "Playas de Langkawi"
+     ],
+     "transfer": "Vuelo Penang PEN-Langkawi LGK: Air Asia publica unos 35 min de vuelo directo. Cuenta acceso a aeropuerto, antelación, equipaje y traslado al hotel; confirmar servicio en fecha real.",
+     "sourceIds": [
+      "mys",
+      "airasia"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Langkawi",
+     "overnight": "Langkawi",
+     "stops": [
+      "Teleférico SkyCab y SkyBridge si operativos",
+      "Taller de batik y kampung como opciones con visita acordada"
+     ],
+     "transfer": "Traslados por Langkawi por elegir. El calendario de Panorama Langkawi cambia según día: cuando SkyCab cierra, también cierran SkyBridge, SkyGlide y SkyBistro. Revisar apertura antes de fijar la jornada, no asumir acceso al puente por otra vía. Taller de batik y kampung son actividades del tour comercial, sin anfitrión, horario ni plaza contratados; elegir una si el tiempo de acceso/colas no permite más.",
+     "sourceIds": [
+      "mys",
+      "sky-calendar"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Manglares",
+     "overnight": "Langkawi",
+     "stops": [
+      "Manglares del geoparque (kayak o barco)"
+     ],
+     "transfer": "Excursión de manglares en kayak o barco con operador y punto de salida por elegir; requiere traslado local, meteorología y condiciones confirmadas. No hay excursión reservada. Tarde libre solo si regreso y ritmo permiten.",
+     "sourceIds": [
+      "mys"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "Salida",
+     "overnight": null,
+     "stops": [
+      "Salida desde Langkawi"
+     ],
+     "transfer": "Traslado del alojamiento al aeropuerto de Langkawi LGK ysalida. Esta ruta no regresa a Kuala Lumpur; conexión internacional pendiente según viaje.",
+     "sourceIds": [
+      "mys"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores, consultado 2/11/2026, aconseja viajar con precaución y evitar determinadas zonas. El aviso especial del este de Sabah no forma parte de esta ruta peninsular. Lee el aviso completo y las condiciones meteorológicas antes de cerrar el viaje.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=malasia"
+ },
+ "photo": {
+  "img": "assets/routes/my.jpg",
+  "name": "Kuala Lumpur · Torres Petronas",
+  "source": "https://commons.wikimedia.org/wiki/File:The_Twins_SE_Asia_2019_(49171985716).jpg",
+  "originalSource": "https://www.flickr.com/photos/jameskerwin/49171985716/",
+  "author": "James Kerwin from Tbilisi",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ }
+}

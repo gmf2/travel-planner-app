@@ -1,0 +1,156 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "LA",
+ "country": "Laos",
+ "reviewedAt": "2026-11-02",
+ "status": "preview",
+ "coverageScope": "Centro-norte; el sur fuera.",
+ "verificationLimits": [
+  "Trenes y plazas se comprueban en LCRTicket para fecha real; fuentes públicas muestran horarios distintos. No se fija un servicio del día.",
+  "Actividades outdoor dependen de aguas, estado y operador; sin reservas ni accesos garantizados."
+ ],
+ "routes": [
+  {
+   "id": "la-7",
+   "title": "Luang Prabang, Vang Vieng y Vientián · 7 días",
+   "scope": "Eje ferroviario centro-norte. No cubre el sur (Pakse, meseta Bolaven, 4000 islas).",
+   "pace": "7 dias/6 noches: 3-2-1 por base; dias 4 y 6 son de traslado ferroviario (fuente lao).",
+   "assumptions": "Billetes de tren solo por la app oficial LCR. El FCDO britanico desaconseja la provincia de Xaisomboun: la ruta la evita; comprobar MAEC al construir.",
+   "sources": [
+    {
+     "id": "lao",
+     "title": "Asia Vela - Laos en 7 dias (verificada 16/10/2026)",
+     "url": "https://asiavela.com/en/laos/laos-7-days/"
+    },
+    {
+     "id": "tl",
+     "title": "Turismo de Laos · enlace ferroviario",
+     "url": "https://www.tourismlaos.org/2024/05/03/unlocking-laos-adventures-await-in-vang-vieng-luang-prabang/"
+    },
+    {
+     "id": "lp",
+     "title": "Turismo de Luang Prabang · accesos",
+     "url": "https://tourismluangprabang.org/travel-guide/access/"
+    },
+    {
+     "id": "lcr",
+     "title": "Turismo de Luang Prabang · LCRTicket",
+     "url": "https://tourismluangprabang.org/travel-guide/tourist-information-center/"
+    },
+    {
+     "id": "nr",
+     "title": "Naga Rail · tabla orientativa(agencia privada)",
+     "url": "https://nagarail.com/en/routes"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Luang Prabang",
+     "overnight": "Luang Prabang",
+     "stops": [
+      "Paseo por el casco antiguo"
+     ],
+     "transfer": "Aeropuerto LPQ al alojamiento en Luang Prabang. El organismo turístico sitúa el aeropuerto a 4 km; precio deltraslado a confirmar, no tarifa garantizada.",
+     "sourceIds": [
+      "lao"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Luang Prabang",
+     "overnight": "Luang Prabang",
+     "stops": [
+      "Palacio Real / Museo Nacional",
+      "Wat Xieng Thong",
+      "Colina Phousi"
+     ],
+     "transfer": "Día urbano. Comprobar horarios directamente: las cifras de Asia Vela no son una reserva ni confirman apertura hoy.",
+     "sourceIds": [
+      "lao"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Cataratas de Kuang Si",
+     "overnight": "Luang Prabang",
+     "stops": [
+      "Cataratas de Kuang Si",
+      "Santuario de osos",
+      "Cuevas de Pak Ou (tour)"
+     ],
+     "transfer": "Excursión desde Luang Prabang a Kuang Si; si se combina con Pak Ou, usar programa concreto de operador yconfirmar agua/accesos.",
+     "sourceIds": [
+      "lao"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Tren a Vang Vieng",
+     "overnight": "Vang Vieng",
+     "stops": [
+      "Paseo junto al Nam Song",
+      "Karst de Vang Vieng"
+     ],
+     "transfer": "Tren Luang Prabang-Vang Vieng. Turismo de Laos describe aproximadamente 1h 30 de viaje; elegir servicio real en LCRTicket. Añadir accesos aambas estaciones: la de Luang Prabang está a unos 15 km/30 min del centro según turismo oficial.",
+     "sourceIds": [
+      "lao"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Vang Vieng",
+     "overnight": "Vang Vieng",
+     "stops": [
+      "Paseo junto al Nam Song ymiradores accesibles",
+      "Kayak/cuevas solo comoactividad opcional con operador ycondiciones seguras"
+     ],
+     "transfer": "Día local. No entrar encuevas nirío si el operador cancela por crecida. Alternativa en el propio Vang Vieng, no otroprogramaacuático improvisado.",
+     "sourceIds": [
+      "lao"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Tren a Vientiane",
+     "overnight": "Vientiane",
+     "stops": [
+      "Llegada y check-in en Vientián",
+      "Wat Si Saket si el horario permite"
+     ],
+     "transfer": "Tren Vang Vieng-Vientián; horario y duración exactos se eligen en LCRTicket. Tabla de Naga Rail(agencia privada, junio 2026) muestra servicios rápidos de alrededor 1h, no boleto confirmado. Añadir losdos accesos a estaciones; Vientián LCR está fuera del centro en Xaythany.",
+     "sourceIds": [
+      "lao"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "COPE y salida",
+     "overnight": null,
+     "stops": [
+      "Centro de visitantes COPE (entrada libre, abre 8:30)",
+      "Aeropuerto de Wattay (VTE)"
+     ],
+     "transfer": "Salida por Wattay VTE, sin otro tren este día. COPE solo si el horario de vuelo deja margen para visita, equipaje y traslado. Noche anterior en Vientián.",
+     "sourceIds": [
+      "lao"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores consultado 2/11/2026 no establece restricción general delpaís, pero señala accidentes graves endeportes de aventura en Vang Vieng. Actividades deagua/cuevas son opcionales, con operador, chaleco, equipo y seguro adecuados. No salir desenderos por riesgo de munición sin explotar.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=laos"
+ },
+ "photo": {
+  "img": "assets/routes/la.jpg",
+  "name": "Luang Prabang · templo urbano",
+  "source": "https://commons.wikimedia.org/wiki/File:BUDDIST_TEMPLE_LUANG_PRABANG_LAOS_FEB_2012_(7015722347).jpg",
+  "originalSource": "https://www.flickr.com/photos/calflier001/7015722347/",
+  "author": "calflier001",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ }
+}

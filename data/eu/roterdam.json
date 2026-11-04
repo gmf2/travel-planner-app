@@ -1,0 +1,813 @@
+{
+ "schemaVersion": 1,
+ "country": "NL",
+ "id": "roterdam",
+ "name": "Róterdam",
+ "localName": "Rotterdam",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "estacion",
+   "name": "Estación Central de Róterdam",
+   "kind": "walk",
+   "zone": "Centrum",
+   "reason": "Cubierta angular y vestíbulo de la estación central. Una entrada a la arquitectura contemporánea de la ciudad respetando el paso de viajeros.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.9250574,
+    "lon": 4.4692289
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/roterdam/estacion.jpg",
+    "author": "Lajos Kristóf Kántor",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/modern-rotterdam-train-station-interior-view-39994120/",
+    "caption": "Andenes cubiertos de Rotterdam Centraal. Foto de archivo publicada2026, no fachada principal ni estado de servicios en tiempo real.",
+    "alt": "Andenes cubiertos de Rotterdam Centraal. Foto de archivo publicada2026, no fachada principal ni estado de servicios en tiempo real.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ayuntamiento",
+   "name": "Ayuntamiento (Stadhuis)",
+   "kind": "monument",
+   "zone": "Stadsdriehoek",
+   "reason": "Ayuntamiento histórico en uso frente a Coolsingel. Parada exterior: no se incluye una visita turística interior sin comprobarla.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.9227339,
+    "lon": 4.479259
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "Ayuntamiento en uso: parada exterior (el interior no tiene visita turística regular verificada).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/roterdam/ayuntamiento.jpg",
+    "author": "Clivio",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/illuminated-city-hall-in-rotterdam-at-night-32854290/",
+    "alt": "Fachada del ayuntamiento de Róterdam iluminada de noche.",
+    "caption": "Ayuntamiento de Róterdam: fachada principal iluminada. Foto de archivo publicada2025, no interior visitable confirmado."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "laurenskerk",
+   "name": "Catedral de San Lorenzo (Laurenskerk)",
+   "kind": "monument",
+   "zone": "Laurenskwartier",
+   "reason": "Iglesia histórica restaurada tras los daños de la guerra, junto a la estatua de Erasmo. La plaza y el interior tienen acceso distinto.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "laur"
+   ],
+   "coordinates": {
+    "lat": 51.9215507,
+    "lon": 4.4854524
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "La subida a la torre que cita la guía (abr-sep, solo sábados) no quedó confirmada en la web oficial; el precio de entrada tampoco figura de forma clara.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes a sábado 11:00-17:00; domingo solo culto. Puede cerrar por eventos privados (el 5-11-2026, jueves, aparecía cerrado en el widget de la web).",
+    "source": "https://laurenskerkrotterdam.nl/en/visit/"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/roterdam/laurenskerk.jpg",
+    "author": "Nathan Neve",
+    "source": "https://www.pexels.com/photo/grote-of-sint-laurenskerk-in-rotterdam-netherlands-18358107/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Torre y parte de la nave de Laurenskerk. Foto de archivo de 2023; no muestra interior ni subida a la torre.",
+    "alt": "Torre y parte de la nave de Laurenskerk. Foto de archivo de 2023; no muestra interior ni subida a la torre.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Interior turístico de Laurenskerk, no plaza",
+    "noticeLabel": "Laurenskerk",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Visita ordinaria martes-sábado 11-17; domingo solo culto. Cierres privados en calendario. Un jueves del widget figura cerrado, sin fecha suficientemente clara para fijarlo como regla. Torre y precio sin verificación completa."
+    ]
+   }
+  },
+  {
+   "id": "markthal",
+   "name": "Markthal",
+   "kind": "walk",
+   "zone": "Laurenskwartier",
+   "reason": "Mercado cubierto bajo un gran arco residencial, con puestos de comida y una bóveda decorada. Los negocios y restaurantes pueden tener horarios propios.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "markthal"
+   ],
+   "coordinates": {
+    "lat": 51.919771,
+    "lon": 4.4862592
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "La guía daba lu-sá 10-20: el viernes abre hasta las 21:00 según la web oficial.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lunes a jueves 10-20, viernes 10-21, sábado 10-20, domingo 12-18. Horarios especiales en festivos; los restaurantes con entrada propia tienen su propio horario.",
+    "source": "https://markthal.nl/bezoek-markthal/"
+   },
+   "price": null,
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/roterdam/markthal.jpg",
+    "author": "Anh Nguyen",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/modern-architecture-of-markthal-in-rotterdam-40305436/",
+    "caption": "Exterior del Markthal: arco acristalado y fachada desde la plaza. Foto de archivo de 2026, no vista de los puestos interiores.",
+    "alt": "Exterior del Markthal: arco acristalado y fachada desde la plaza. Foto de archivo de 2026, no vista de los puestos interiores.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "casascubo",
+   "name": "Casas Cubo (Kubuswoningen)",
+   "kind": "monument",
+   "zone": "Blaak",
+   "reason": "Conjunto de viviendas inclinadas de Piet Blom sobre el paso de Blaak. El recorrido exterior no equivale a entrar en una vivienda; la Kijk-Kubus se compra aparte.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "kubus"
+   ],
+   "coordinates": {
+    "lat": 51.9203941,
+    "lon": 4.4901272
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Las casas están habitadas: silencio y respeto en el pasaje. La guía daba 11-17: la web oficial de la Kijk-Kubus indica 10-18.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Kijk-Kubus (casa museo): a diario 10:00-18:00.",
+    "source": "https://www.kubuswoning.nl/en/visit.html"
+   },
+   "price": "Kijk-Kubus: 3,50€; 65+ y estudiantes 2,50€; niños 4-12 1,50€; menores de 4 gratis.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/roterdam/casascubo.jpg",
+    "alt": "Casas Cubo: vista del exterior desde abajo. Archivo de 2025, no interior del museo Kijk-Kubus.",
+    "author": "Petar Avramoski",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "source": "https://unsplash.com/photos/yellow-cubic-houses-showcase-bold-architecture-y0c9UbSJ9K0",
+    "caption": "Casas Cubo: vista del exterior desde abajo. Archivo de 2025, no interior del museo Kijk-Kubus."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "oudehaven",
+   "name": "Puerto Antiguo (Oude Haven) y Witte Huis",
+   "kind": "walk",
+   "zone": "Oudehaven",
+   "reason": "Puerto histórico con embarcaciones, terrazas y el Witte Huis. Un paseo exterior, no visita garantizada a barcos privados.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.9208487,
+    "lon": 4.4926429
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/roterdam/oudehaven.jpg",
+    "alt": "Oude Haven y Witte Huis con barcos históricos. Foto de archivo publicada en 2019.",
+    "author": "Autor no expuesto en página consultada",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "source": "https://unsplash.com/photos/assorted-color-sailboats-UjePZClJPN0",
+    "caption": "Oude Haven y Witte Huis con barcos históricos. Foto de archivo publicada en 2019."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "maritimo",
+   "name": "Museo Marítimo",
+   "kind": "museum",
+   "zone": "Leuvehaven",
+   "reason": "Museo dedicado al puerto, la navegación y las actividades marítimas. Elegirlo como alternativa al Depot para no acumular dos museos largos en la misma jornada.",
+   "sourceIds": [
+    "maritime-own",
+    "maritimo-collection-own"
+   ],
+   "coordinates": {
+    "lat": 51.9176272,
+    "lon": 4.4818867
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Museo alternativo al Depot, no segundo museo largo obligatorio. La página de visita dice barcos y grúas cerrados de noviembre hasta abril; la página específica de colección precisa del 1 noviembre al 31 marzo para barcos. Conflicto de borde de abril y alcance de grúas: comprobar fecha y exposición concreta. Muelle y talleres tienen condiciones propias.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Operador: martes-sábado 10-17 y domingo 11-17; lunes cerrado salvo vacaciones escolares. Cierra 1 enero, Día del Rey y 25 diciembre. Barcos y grúas con horario de invierno propio, distinto del museo.",
+    "source": "https://maritiemmuseum.nl/en/plan-your-visit"
+   },
+   "price": "19 € adulto, 13,50 € de 4-15 (acompañados por adulto), 11,50 € estudiantes/CJP según operador; productos y descuentos comprobar al comprar.",
+   "visitMode": "Museo interior; buques/grúas históricos cerrados noviembre-abril",
+   "photo": {
+    "img": "assets/roterdam/maritimo.jpg",
+    "author": "Philippe WEICKMANN",
+    "source": "https://www.pexels.com/photo/historical-ship-in-rotterdam-harbor-with-skyline-33073264/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Stadsgraanzuiger 19 y parte del puerto del Maritiem Museum, identificados por el rótulo visible y la colección del operador. Foto de archivo de julio de 2025; no muestra salas ni garantiza que este barco esté allí o abierto al visitar.",
+    "alt": "Stadsgraanzuiger 19 en el puerto del Maritiem Museum.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo Marítimo y colección exterior, no todo el puerto",
+    "noticeLabel": "Museo Marítimo",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-03-31",
+    "closedDates": [
+     "2026-12-25",
+     "2027-01-01"
+    ],
+    "weekdayNotices": [
+     {
+      "weekday": 1,
+      "text": "Museo cerrado lunes salvo vacaciones escolares; comprobar si la fecha es excepción."
+     }
+    ],
+    "noticeRanges": [
+     {
+      "start": "2026-11-03",
+      "end": "2027-03-31",
+      "text": "Colección de barcos cerrada en invierno; no todo el muelle ni talleres. Confirmar grúas y acceso a espacios concretos."
+     }
+    ]
+   }
+  },
+  {
+   "id": "depot",
+   "name": "Depot Boijmans Van Beuningen",
+   "kind": "museum",
+   "zone": "Museumpark",
+   "reason": "Edificio de almacenamiento visitable de la colección Boijmans, con recorridos y azotea según billete. No es el museo principal, cerrado por renovación.",
+   "sourceIds": [
+    "boij",
+    "depot-ticket"
+   ],
+   "coordinates": {
+    "lat": 51.9139529,
+    "lon": 4.471132
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "El museo principal Boijmans está cerrado por renovación; Depot no equivale a visita completa de museo tradicional. Operador publica martes-domingo 11-17, con azotea incluida en horario ordinario. Confirmar producto final, precio y suplemento de exposición antes de comprar. Lunes sin acceso ordinario.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes a domingo 11:00-17:00; lunes cerrado. Azotea incluida en la entrada (también ju-sá desde 17:15 con ticket de azotea).",
+    "source": "https://www.boijmans.nl/en/tickets"
+   },
+   "price": "Adulto 22,50€ (+2,50€ de suplemento durante la expo Marisol, 9-10-2026 a 29-3-2027); menores de 19 gratis; estudiantes/CJP 13€; Museumkaart 2,50€.",
+   "visitMode": "Depot abierto según calendario, NO museo Boijmans principal",
+   "photo": {
+    "img": "assets/roterdam/depot.jpg",
+    "author": "Igor Passchier",
+    "source": "https://www.pexels.com/photo/reflective-building-with-urban-skyline-in-rotterdam-39335079/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Volumen curvo y fachada de espejos de Depot Boijmans Van Beuningen. Foto de archivo de septiembre de 2026; no muestra depósitos ni acceso a terraza.",
+    "alt": "Volumen curvo y fachada de espejos de Depot Boijmans Van Beuningen. Foto de archivo de septiembre de 2026; no muestra depósitos ni acceso a terraza.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Depot, no edificio del museo principal Boijmans",
+    "noticeLabel": "Depot",
+    "closedWeekdays": [
+     1
+    ],
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31"
+   }
+  },
+  {
+   "id": "euromast",
+   "name": "Euromast",
+   "kind": "viewpoint",
+   "zone": "Het Park / Parkhaven",
+   "reason": "Mirador sobre la ciudad y el puerto. Elegir franja y producto si las condiciones acompañan; Euroscoop es una modalidad distinta.",
+   "sourceIds": [
+    "euromast",
+    "euromast-reopen"
+   ],
+   "coordinates": {
+    "lat": 51.9054047,
+    "lon": 4.4666044
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Aviso de cierre enero-primavera 2026 es histórico; noticia de 19 junio 2026 informa reapertura. Tarifas actuales dependen de fecha y hora; Euroscoop y restaurante no están incluidos automáticamente. Verificar franja, condiciones meteorológicas y producto. Cambio gratuito una vez antes de fecha original según billetes, no reembolso garantizado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "A diario 9:30-22:00.",
+    "source": "https://euromast.nl/en/"
+   },
+   "price": "Adultos y +12 desde 13,50€ online; mayores desde 12€; niños 4-11 desde 10€; 0-3 gratis.",
+   "visitMode": "Mirador opcional porfecha; no aviso histórico como cierreactual",
+   "photo": {
+    "img": "assets/roterdam/euromast.jpg",
+    "author": "Robin Heidrich",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/impressive-view-of-euromast-tower-in-rotterdam-39619439/",
+    "caption": "Euromast: torre y plataformas vistas desde abajo. Foto de archivo de septiembre2026, no vista desde el mirador.",
+    "alt": "Euromast: torre y plataformas vistas desde abajo. Foto de archivo de septiembre2026, no vista desde el mirador.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "delfshaven",
+   "name": "Delfshaven",
+   "kind": "walk",
+   "zone": "Delfshaven",
+   "reason": "Puerto histórico con casas, molino y entorno de la iglesia de los Peregrinos. Paseo de barrio, con interiores y negocios que se comprueban aparte.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.9072672,
+    "lon": 4.4483492
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/roterdam/delfshaven.jpg",
+    "author": "Igor Passchier",
+    "source": "https://www.pexels.com/photo/a-bridge-over-a-canal-with-a-windmill-in-the-background-27850320/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Delfshaven: puente sobre el canal y molino De Distilleerketel. Foto de archivo de 2024; no muestra todos los muelles históricos ni interior del molino.",
+    "alt": "Delfshaven: puente sobre el canal y molino De Distilleerketel. Foto de archivo de 2024; no muestra todos los muelles históricos ni interior del molino.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "puentes",
+   "name": "Puentes sobre el Mosa: Erasmusbrug, Willemsbrug y De Hef",
+   "kind": "walk",
+   "zone": "Río Mosa / Noordereiland",
+   "reason": "Erasmusbrug y vistas del Mosa, con Willemsbrug y De Hef en el entorno. No se presupone que unir todos los puentes sea un paseo corto.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 51.9096125,
+    "lon": 4.4854612
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/roterdam/erasmus.jpg",
+    "alt": "Detalle nocturno del pilono y tirantes del Erasmusbrug. Archivo de 2021, no panorámica completa ni imagen del Willemsbrug.",
+    "author": "Sten Rademaker",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "source": "https://unsplash.com/photos/blue-and-white-bridge-under-blue-sky-r19jMDVcuoA",
+    "caption": "Detalle nocturno del pilono y tirantes del Erasmusbrug. Archivo de 2021, no panorámica completa ni imagen del Willemsbrug."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "fenix",
+   "name": "Kop van Zuid y Fenix Food Factory",
+   "kind": "walk",
+   "zone": "Kop van Zuid / Katendrecht",
+   "reason": "Kop van Zuid y Katendrecht, con arquitectura de ribera y Fenix Food Factory en la nave Fenix I. El nuevo museo Fenix está en otra nave y no sustituye esta parada.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "rinfo",
+    "ffenix"
+   ],
+   "coordinates": {
+    "lat": 51.9020609,
+    "lon": 4.4868408
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Fenix Food Factory está en Fenix I, no es el museo Fenix de Fenix II. La página propia de Kaapse Fenix contiene horarios discordantes, por lo que se confirma el puesto y la fecha antes de contar con almuerzo. Ilustración IA conceptual del entorno; foto real del local pendiente.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Kaapse Fenix publica dos bloques incompatibles: uno mar-vie 15-22, sábado 13-23, domingo 13-20; otro mar-jue 12-22, vie-sáb 12-23, domingo 12-20. No garantizar comida a mediodía sin confirmar negocio y fecha.",
+    "source": "https://kaapsebrouwers.nl/pages/kaapse-fenix"
+   },
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/roterdam/fenix-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Kop van Zuid, puerto imaginado, no locales ni puestos de Fenix. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Kop van Zuid, puerto imaginado, no locales ni puestos de Fenix. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "kinderdijk",
+   "name": "Kinderdijk, los molinos del UNESCO",
+   "kind": "excursion",
+   "zone": "Kinderdijk (Molenlanden)",
+   "reason": "Molinos, canales y paisaje en una jornada dedicada. Recinto, barcos y traslado desde Róterdam son productos distintos.",
+   "sourceIds": [
+    "kinder",
+    "shuttle-own",
+    "kinder-hours"
+   ],
+   "coordinates": {
+    "lat": 51.8886955,
+    "lon": 4.6356972
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "WaterShuttle turístico con billete distinto del transporte público. Del 26 octubre de 2026 al 28 febrero de 2027 solo viernes-domingo según operador, sujeto a horario y reserva de vuelta. Waterbus 20 no directo: conexión por Ridderkerk/Driehoeksveer o por Alblasserdam con bicicleta; comprobar enlaces. Kinderdijk publica 2 noviembre-fin diciembre de 2026 10:30-16, cerrado 25 diciembre. Enero-febrero 2027 sin calendario completo confirmado. Billete del recinto no incluye barco desde Róterdam salvo producto combinado explícito.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "2026: 6 marzo - 1 noviembre 9:00-17:30; 2 noviembre - fin de diciembre 10:30-16:00; 25 diciembre cerrado. Enero-comienzos de marzo no listados en la tabla 2026.",
+    "source": "https://kinderdijk.nl/en/opening-hours/"
+   },
+   "price": null,
+   "visitMode": "Jornada propia; WaterShuttleinvierno solo vie-dom",
+   "photo": {
+    "img": "assets/roterdam/kinderdijk.jpg",
+    "alt": "Conjunto de molinos de Kinderdijk desde los campos. Archivo de 2023, no muestra interior ni asegura acceso a cada molino.",
+    "author": "aref akminasi",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "source": "https://unsplash.com/photos/a-row-of-windmills-in-a-grassy-field-dhwqLf7Ba3w",
+    "caption": "Conjunto de molinos de Kinderdijk desde los campos. Archivo de 2023, no muestra interior ni asegura acceso a cada molino."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Recinto museístico de Kinderdijk, no toda la zona de molinos",
+    "noticeLabel": "Kinderdijk",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-02-28",
+    "closedDates": [
+     "2026-12-25"
+    ],
+    "notices": [
+     "Calendario del recinto para enero-febrero de 2027 no confirmado. WaterShuttle de invierno solo viernes-domingo; comprobar ida y vuelta y billete de cada servicio."
+    ]
+   }
+  },
+  {
+   "id": "delft",
+   "name": "Delft, la ciudad de Vermeer",
+   "kind": "excursion",
+   "zone": "Delft",
+   "reason": "Casco histórico y canales de Delft como excursión propia. Elegir un interior si se quiere entrar, en vez de prometer todas las iglesias, torres y museos.",
+   "sourceIds": [
+    "ns-delft"
+   ],
+   "coordinates": {
+    "lat": 52.0117085,
+    "lon": 4.3591943
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Excursión de jornada propia. NS publica corredor Delft-Róterdam, pero la extracción no resuelve duración ni frecuencia por fecha: no prometer 15 min ni precio de agregador. Confirmar ida/vuelta; iglesias, torre y museos llevan entradas y horarios propios.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión de jornada propia; transporte y acceso a interiores por comprobar",
+   "photo": {
+    "img": "assets/roterdam/delft.jpg",
+    "author": "Elaine Krige",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "source": "https://www.pexels.com/photo/charming-canal-street-in-delft-netherlands-39104336/",
+    "caption": "Canal y casas históricas de Delft. Foto de archivo2026, no muestra plaza Markt ni interiores de iglesias.",
+    "alt": "Canal y casas históricas de Delft. Foto de archivo2026, no muestra plaza Markt ni interiores de iglesias.",
+    "visualStatus": "individual-inspected; actual-app-preview-pending"
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "El centro reconstruido: de la estación al viejo puerto",
+     "zone": "Estación Central → Stadhuis → Laurenskerk → Markthal → Casas Cubo → Oude Haven",
+     "stopIds": [
+      "estacion",
+      "ayuntamiento",
+      "laurenskerk",
+      "markthal",
+      "casascubo",
+      "oudehaven"
+     ],
+     "editorialNote": "Todo a pie por el centro: la estación, el Stadhuis superviviente del bombardeo y la Laurenskerk (ma-sá 11-17; puede cerrar por eventos). Comer en la Markthal (vi hasta las 21) y cerrar entre las Casas Cubo (Kijk-Kubus 10-18) y las terrazas del Oude Haven."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "El centro reconstruido: de la estación al viejo puerto",
+     "zone": "Estación Central → Stadhuis → Laurenskerk → Markthal → Casas Cubo → Oude Haven",
+     "stopIds": [
+      "estacion",
+      "ayuntamiento",
+      "laurenskerk",
+      "markthal",
+      "casascubo",
+      "oudehaven"
+     ],
+     "editorialNote": "Todo a pie por el centro: la estación, el Stadhuis superviviente del bombardeo y la Laurenskerk (ma-sá 11-17; puede cerrar por eventos). Comer en la Markthal (vi hasta las 21) y cerrar entre las Casas Cubo (Kijk-Kubus 10-18) y las terrazas del Oude Haven."
+    },
+    {
+     "title": "Un museo elegido, parque y oeste",
+     "zone": "Depot → Het Park y Euromast opcional → traslado a Delfshaven",
+     "stopIds": [
+      "depot",
+      "delfshaven"
+     ],
+     "editorialNote": "Elegir Depot o Marítimo, no ambos seguidos. Euromast es una opción separada según franja, recortando otro paseo. Planificar traslado a Delfshaven. Los lunes los museos suelen cerrar: reorganizar con la fecha. Barcos del Marítimo cerrados de noviembre a marzo; muelle y talleres mantienen acceso según condiciones.",
+     "optionalStopIds": [
+      "maritimo",
+      "euromast"
+     ]
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "El centro reconstruido: de la estación al viejo puerto",
+     "zone": "Estación Central → Stadhuis → Laurenskerk → Markthal → Casas Cubo → Oude Haven",
+     "stopIds": [
+      "estacion",
+      "ayuntamiento",
+      "laurenskerk",
+      "markthal",
+      "casascubo",
+      "oudehaven"
+     ],
+     "editorialNote": "Todo a pie por el centro: la estación, el Stadhuis superviviente del bombardeo y la Laurenskerk (ma-sá 11-17; puede cerrar por eventos). Comer en la Markthal (vi hasta las 21) y cerrar entre las Casas Cubo (Kijk-Kubus 10-18) y las terrazas del Oude Haven."
+    },
+    {
+     "title": "Un museo elegido, parque y oeste",
+     "zone": "Depot → Het Park y Euromast opcional → traslado a Delfshaven",
+     "stopIds": [
+      "depot",
+      "delfshaven"
+     ],
+     "editorialNote": "Elegir Depot o Marítimo, no ambos seguidos. Euromast es una opción separada según franja, recortando otro paseo. Planificar traslado a Delfshaven. Los lunes los museos suelen cerrar: reorganizar con la fecha. Barcos del Marítimo cerrados de noviembre a marzo; muelle y talleres mantienen acceso según condiciones.",
+     "optionalStopIds": [
+      "maritimo",
+      "euromast"
+     ]
+    },
+    {
+     "title": "Los puentes y la orilla sur",
+     "zone": "Erasmusbrug → Willemsbrug/Noordereiland/De Hef → Kop van Zuid → Katendrecht (Fenix Food Factory)",
+     "stopIds": [
+      "puentes",
+      "fenix"
+     ],
+     "editorialNote": "Escoger un tramo de ribera y puente, no todos los puentes y Katendrecht como recorrido obligatorio. Fenix Food Factory en Fenix I es distinto del nuevo museo Fenix en Fenix II; no hay entrada al museo incluida. Kinderdijk sustituye esta jornada; en invierno WaterShuttle solo viernes a domingo y con billete separado."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Visitas: 13 fotos reales y 1 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Elegir un museo principal. Los barcos del Marítimo cierran del 1 de noviembre al 31 de marzo según la colección propia; muelle y talleres siguen accesibles según condiciones.",
+  "WaterShuttle del 26 de octubre de 2026 al 28 de febrero de 2027 solo viernes a domingo; billete turístico separado. Waterbus 20 no directo a Kinderdijk.",
+  "Tarifa de Laurenskerk y subida a torre por confirmar; el culto y eventos pueden limitar acceso.",
+  "Kinderdijk enero-febrero de 2027 y duración del tren a Delft pendientes de comprobación completa."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: 10 lugares que ver en Róterdam",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-en-roterdam/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Róterdam y lugares",
+   "url": "https://es.wikipedia.org/wiki/R%C3%B3terdam",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "boij",
+   "title": "Museum Boijmans Van Beuningen: renovación, tickets y precios del Depot",
+   "url": "https://www.boijmans.nl/en/museum/renovation",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "laur",
+   "title": "Laurenskerk Rotterdam: visit",
+   "url": "https://laurenskerkrotterdam.nl/en/visit/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "markthal",
+   "title": "Markthal: bezoek / opening hours",
+   "url": "https://markthal.nl/bezoek-markthal/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "kubus",
+   "title": "Kijk-Kubus Museum-house: visit",
+   "url": "https://www.kubuswoning.nl/en/visit.html",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rinfo",
+   "title": "Rotterdam.info (turismo oficial): Maritiem Museum y Fenix Food Factory",
+   "url": "https://www.rotterdam.info/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "euromast",
+   "title": "Euromast: tickets y horarios",
+   "url": "https://euromast.nl/en/tickets/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ffenix",
+   "title": "Kaapse Brouwers: Kaapse Fenix (Fenix Food Factory)",
+   "url": "https://kaapsebrouwers.nl/pages/kaapse-fenix",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "kinder",
+   "title": "Kinderdijk UNESCO: tickets y horarios",
+   "url": "https://kinderdijk.nl/en/ticket-information/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "waterbus",
+   "title": "Waterbus: línea 20 y WaterShuttle (ex línea 21) a Kinderdijk",
+   "url": "https://www.waterbus.nl/reisinformatie/lijn-halte-informatie/rotterdam-erasmusbrug/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "maritime-own",
+   "title": "Maritiem · horarios/tarifas/invierno",
+   "url": "https://maritiemmuseum.nl/en/plan-your-visit",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "shuttle-own",
+   "title": "Kinderdijk · WaterShuttle",
+   "url": "https://kinderdijk.nl/en/watershuttle/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "kinder-hours",
+   "title": "Kinderdijk · calendario 2026",
+   "url": "https://kinderdijk.nl/en/opening-hours/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "depot-ticket",
+   "title": "Boijmans · Depotbilletes",
+   "url": "https://www.boijmans.nl/en/tickets",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "euromast-reopen",
+   "title": "RotterdamStyle · reapertura 19 jun 2026",
+   "url": "https://rotterdamstyle.com/attractions/euromast-reopens-earlier-than-planned",
+   "type": "editorial-news",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ns-delft",
+   "title": "NS · corredorDelft-Rotterdam",
+   "url": "https://www.ns.nl/trajecten/delft-naar-rotterdam",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "maritimo-collection-own",
+   "title": "Maritiem Museum: colección de barcos y grúas",
+   "url": "https://maritiemmuseum.nl/collectie/schepen-en-kranen",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

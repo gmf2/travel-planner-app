@@ -1,0 +1,246 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "CN",
+ "country": "China",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Eje este y centro unicamente; el oeste y el sur profundo quedan fuera.",
+ "verificationLimits": [
+  "14 días/13 noches editoriales. Vuelos, trenes, hoteles y entradas sin contratar ni presupuesto total.",
+  "Fuente de operador: se sigue desarrollo diario, no su tabla resumen discordante. Traslados y equipaje cuentan además del tiempo a bordo.",
+  "Palacio/Ciudad Prohibida: compra anticipada con documento y lunes cerrado salvo festivos según Pekín. La guía de reserva con pasaporte no concede entrada ni plaza. Comprobar reglas actuales del producto para la fecha.",
+  "12306 es fuente oficial para consulta ferroviaria; el directo Zhangjiajie-Guilin de unas 7 h se contrasta en guía secundaria, no se ha validado salida/plaza en un día elegido. Confirmar West/xi y Guilin/Guilin North, no trasladar horarios de agregador como fijos.",
+  "La oficina de Pekín distingue reserva online del Palacio y del Palacio de Verano: en su respuesta 20/06/2025, el segundo requiere teléfono continental online y ofrece asistencia presencial con pasaporte. No prometer el mismo acceso en todos los recintos ni crear cuentas o números nuevos.",
+  "Acceso a Zhangjiajie/Tianmen, crucero Li y vuelos internos pendientes para fecha. Sin tren/vuelo concreto, las conexiones siguen siendo propuestas, no itinerario cerrado."
+ ],
+ "routes": [
+  {
+   "id": "cn-14",
+   "title": "China: historia y paísajes · 14 días",
+   "scope": "Este y centro: Pekin, Xi'an, Zhangjiajie, Guilin, Shanghai. No cubre Xinjiang, Tibet, Yunnan ni el noreste.",
+   "pace": "14 días; transporte interurbano separado de las visitas. Duraciones de la fuente orientativas, no horarios contratados.",
+   "assumptions": "Combinacion de trenes de alta velocidad y vuelos internos. Visado y condiciones de entrada pendientes de verificar en fuente oficial.",
+   "sources": [
+    {
+     "id": "chn",
+     "title": "China Highlights - itinerarios de 2 semanas (2026)",
+     "url": "https://www.chinahighlights.com/travelguide/2-weeks-china-itinerary.htm"
+    },
+    {
+     "id": "rail-official",
+     "title": "China Railway 12306: consulta oficial, no fecha seleccionada",
+     "url": "https://www.12306.cn/en/"
+    },
+    {
+     "id": "rail-corridor",
+     "title": "TravelChinaGuide: Zhangjiajie West-Guilin/Guilin North, referencia secundaria",
+     "url": "https://www.travelchinaguide.com/cityguides/zhangjiajie-to-guilin.htm"
+    },
+    {
+     "id": "palace-city",
+     "title": "Gobierno de Pekín: Palacio, cierre lunes y compra anticipada",
+     "url": "https://english.beijing.gov.cn/travellinginbeijing/museums/202603/t20260320_4562527.html"
+    },
+    {
+     "id": "palace-passport",
+     "title": "Gobierno de Pekín: reserva para extranjeros con pasaporte",
+     "url": "https://english.beijing.gov.cn/12345hotline/faqs/all/202506/t20250620_4117980.html"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Pekín",
+     "overnight": "Pekin",
+     "stops": [
+      "Paseo por el hutong del barrio del hotel"
+     ],
+     "transfer": "Traslados locales según alojamiento y visitas elegidas. Sin horario ni reserva.",
+     "sourceIds": [
+      "chn"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Pekín imperial",
+     "overnight": "Pekin",
+     "stops": [
+      "Templo del Cielo",
+      "Ciudad Prohibida"
+     ],
+     "transfer": "Día urbano en Pekín. Palacio/Ciudad Prohibida requiere compra anticipada: la ciudad indica que no vende entradas del mismo día y cierra lunes salvo festivos legales. Reservar con el documento válido y llevar el original; si no hay plaza o cae lunes, reordenar días de Pekín, sin sustituir ni afirmar entrada conseguida.",
+     "sourceIds": [
+      "chn",
+      "palace-city",
+      "palace-passport"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Gran Muralla",
+     "overnight": "Pekin",
+     "stops": [
+      "Gran Muralla (tramo a elegir, 1-2 h del centro, fuente chn)"
+     ],
+     "transfer": "Traslado al tramo elegido, duración orientativa 1-2 h (fuente chn).",
+     "sourceIds": [
+      "chn"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Palacio de Verano y tren a Xi'an",
+     "overnight": "Xi'an",
+     "stops": [
+      "Palacio de Verano",
+      "Gran Bazar Tang nocturno"
+     ],
+     "transfer": "Palacio de Verano solo si entrada, equipaje y margen permiten llegar a estación. Tren Pekín → Xi’an de tarde por elegir en 12306: confirmar estación de salida/llegada, documento y acceso. La visita no justifica una conexión ajustada; si no cabe, omitir interior con aviso al revisar ruta.",
+     "sourceIds": [
+      "chn",
+      "rail-official",
+      "palace-passport"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Guerreros de terracota",
+     "overnight": "Xi'an",
+     "stops": [
+      "Ejercito de Terracota",
+      "Muralla antigua de Xi'an"
+     ],
+     "transfer": "Traslados locales según alojamiento y visitas elegidas. Sin horario ni reserva.",
+     "sourceIds": [
+      "chn"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Vuelo a Zhangjiajie",
+     "overnight": "Zhangjiajie",
+     "stops": [
+      "Llegada y paseo"
+     ],
+     "transfer": "Vuelo Xi'an → Zhangjiajie según ruta editorial. No se ha verificado un vuelo para una fecha concreta; reservar la jornada al traslado si la conexión lo requiere.",
+     "sourceIds": [
+      "chn"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Parque Nacional Zhangjiajie",
+     "overnight": "Zhangjiajie",
+     "stops": [
+      "Parque Nacional Zhangjiajie (dia completo)"
+     ],
+     "transfer": "Traslados locales según alojamiento y visitas elegidas. Sin horario ni reserva.",
+     "sourceIds": [
+      "chn"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Monte Tianmen",
+     "overnight": "Zhangjiajie",
+     "stops": [
+      "Monte Tianmen (medio dia, fuente chn)",
+      "Zhangjiajie ciudad"
+     ],
+     "transfer": "Traslados locales según alojamiento y visitas elegidas. Sin horario ni reserva.",
+     "sourceIds": [
+      "chn"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Tren a Guilin",
+     "overnight": "Guilin",
+     "stops": [
+      "Dia de traslado"
+     ],
+     "transfer": "Hotel de Wulingyuan/Zhangjiajie → Zhangjiajie West (Zhangjiajiexi) por transporte local, después tren hacia Guilin/Guilin North. TravelChinaGuide describe directo de unas 7 h; 12306 se usa para comprobar fecha y estación reales, no hay billete ni salida elegidos. Guilin North y Guilin no son el mismo punto: sumar último tramo a hotel y no añadir visita con hora fija.",
+     "sourceIds": [
+      "chn",
+      "rail-official",
+      "rail-corridor"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "Guilin",
+     "overnight": "Guilin",
+     "stops": [
+      "Colina de la Trompa de Elefante",
+      "Cueva de la Flauta de Carrizo",
+      "Villa antigua de Daxu"
+     ],
+     "transfer": "Traslados locales según alojamiento y visitas elegidas. Sin horario ni reserva.",
+     "sourceIds": [
+      "chn"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "Yangshuo y rio Li",
+     "overnight": "Yangshuo",
+     "stops": [
+      "Rio Li",
+      "Campo de Yangshuo"
+     ],
+     "transfer": "Crucero por el río Li de Guilin a Yangshuo, como opción del itinerario. Sujeto a operación, billete y condiciones del río; no reservado.",
+     "sourceIds": [
+      "chn"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Yangshuo → Shanghái",
+     "overnight": "Shanghái",
+     "stops": [
+      "Mañana corta en Yangshuo según vuelo"
+     ],
+     "transfer": "Traslado al aeropuerto de Guilin y vuelo a Shanghái por la tarde, como en el texto detallado de la fuente. Añadir accesos y facturación.",
+     "sourceIds": [
+      "chn"
+     ]
+    },
+    {
+     "day": 13,
+     "title": "Shanghái",
+     "overnight": "Shanghái",
+     "stops": [
+      "Paseo por el Bund",
+      "Elegir Concesión Francesa o zona de Pudong"
+     ],
+     "transfer": "Desplazamientos urbanos; no es una ruta continua a pie entre ambos lados del río.",
+     "sourceIds": [
+      "chn"
+     ]
+    },
+    {
+     "day": 14,
+     "title": "Salida desde Shanghái",
+     "overnight": null,
+     "stops": [
+      "Tiempo libre según salida"
+     ],
+     "transfer": "Alojamiento → aeropuerto según el vuelo elegido.",
+     "sourceIds": [
+      "chn"
+     ]
+    }
+   ]
+  }
+ ],
+ "photo": {
+  "img": "assets/routes/cn.jpg",
+  "name": "China · Gran Muralla en Mutianyu",
+  "source": "https://commons.wikimedia.org/wiki/File:Mutianyu_Great_Wall_(6222519140).jpg",
+  "originalSource": "https://www.flickr.com/photos/azwegers/6222519140/",
+  "author": "Arian Zwegers",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ }
+}

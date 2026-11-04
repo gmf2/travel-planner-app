@@ -1,0 +1,829 @@
+{
+ "schemaVersion": 1,
+ "country": "FR",
+ "id": "marsella",
+ "name": "Marsella",
+ "localName": "Marseille",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "vieuxport",
+   "name": "Vieux-Port",
+   "kind": "visit",
+   "zone": "Vieux-Port",
+   "reason": "Paseo alrededor del Vieux-Port y vistas a las dos orillas, sin barco incluido.",
+   "sourceIds": [
+    "vc",
+    "urban"
+   ],
+   "coordinates": {
+    "lat": 43.29472222,
+    "lon": 5.37083333
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Old_Port_of_Marseille",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior; travesías con billete y condiciones aparte",
+   "photo": {
+    "img": "assets/marsella/vieuxport.jpg",
+    "alt": "Vieux-Port",
+    "source": "https://commons.wikimedia.org/wiki/File:Marseille_Old_Port.jpg",
+    "author": "Ingo Mehling",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Panorámica de archivo del Vieux-Port, no imagen en directo ni salida de barco confirmada."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "panier",
+   "name": "Le Panier",
+   "kind": "visit",
+   "zone": "Panier",
+   "reason": "Calles del Panier entre plazas, talleres y fachadas, con pendientes y tiempo para perderse sin recorrer cada calle.",
+   "sourceIds": [
+    "vc",
+    "urban"
+   ],
+   "coordinates": {
+    "lat": 43.299946,
+    "lon": 5.3689408
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Le_Panier",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Barrio con cuestas y escaleras; no ruta sin barreras garantizada",
+   "photo": {
+    "img": "assets/marsella/panier.jpg",
+    "alt": "Le Panier",
+    "source": "https://commons.wikimedia.org/wiki/File:Rue_Panier_Marseille.jpg",
+    "author": "phgaillard2001",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Foto de archivo de Le Panier. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "charite",
+   "name": "Vieille Charité",
+   "kind": "visit",
+   "zone": "Panier",
+   "reason": "Patio y arquitectura de la Vieille Charité, con museos como alternativa interior al Mucem.",
+   "sourceIds": [
+    "charite"
+   ],
+   "coordinates": {
+    "lat": 43.30027778,
+    "lon": 5.36777778
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Vieille_Charit%C3%A9",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Turismo oficial publica cierre de lunes salvo Pascua/Pentecostés y apertura excepcional 8 de noviembre de 2026 de 12-18. Colecciones permanentes gratuitas, temporales con precio propio. No sumar todos los museos del complejo y Mucem en la misma mañana. Confirmar espacios y fiestas antes de entrar.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Generalmente lunes cerrado; el 8 de noviembre de 2026 abre a las 12 h",
+   "photo": {
+    "img": "assets/marsella/charite.jpg",
+    "alt": "Vieille Charité",
+    "source": "https://commons.wikimedia.org/wiki/File:L%27hospice_de_La_Vieille_Charit%C3%A9_qui_abrite_le_Mus%C3%A9e_de_la_Vieille_Charit%C3%A9.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Foto de archivo de Vieille Charité. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "major",
+   "name": "Catedral de La Major",
+   "kind": "visit",
+   "zone": "Frente marítimo norte",
+   "reason": "Fachada y posible interior de la catedral de La Major, fuera de celebraciones.",
+   "sourceIds": [
+    "major"
+   ],
+   "coordinates": {
+    "lat": 43.29972222,
+    "lon": 5.365
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Marseille_Cathedral",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "Diócesis: 1 de noviembre-31 de marzo, 10-17:30, 1 de abril-31 de octubre, 10-19. Domingo hasta las 19 h por misa, no significa visita turística hasta las 19 h. Celebraciones extraordinarias prevalecen sobre horario general.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Invierno 10-17:30; visitas suspendidas durante misa",
+   "photo": {
+    "img": "assets/marsella/major.jpg",
+    "alt": "Catedral de La Major",
+    "source": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Sainte-Marie-Majeure_de_Marseille_le_11_f%C3%A9vrier_2023-1_(cropped).jpg",
+    "author": "Bertrand SOUBEYRAND",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto de archivo de Catedral de La Major. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "mucem",
+   "name": "Mucem",
+   "kind": "visit",
+   "zone": "J4",
+   "reason": "Mucem como único museo largo del día, con arquitectura sobre el mar y exposiciones elegidas.",
+   "sourceIds": [
+    "mucem",
+    "mucem-exhibition"
+   ],
+   "coordinates": {
+    "lat": 43.295278,
+    "lon": 5.361944
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Museum_of_European_and_Mediterranean_Civilisations",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Dossier oficial de exposición 2026: 2 de noviembre de 2026-12 de abril de 2027, 10-18; FAQ conserva calendario cuyo día/fecha corresponde a otro año. Usar calendario actual, confirmar fecha. Taquilla/entrada con anticipación al cierre. Exteriores gratuitos no equivalen a todas las exposiciones de pago ni abren siempre por ser exteriores.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Martes cerrado, también 1 de mayo y 25 de diciembre",
+   "photo": {
+    "img": "assets/marsella/mucem.jpg",
+    "alt": "Mucem",
+    "source": "https://commons.wikimedia.org/wiki/File:%22Beeindruckende_Architektur%22._5.jpg",
+    "author": "Holger Uwe Schmitt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto de archivo de Mucem. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "saintjean",
+   "name": "Fort Saint-Jean",
+   "kind": "visit",
+   "zone": "J4 / Puerto norte",
+   "reason": "Fort Saint-Jean y vistas desde espacios exteriores del Mucem, sin apilar otro museo.",
+   "sourceIds": [
+    "mucem",
+    "fort"
+   ],
+   "coordinates": {
+    "lat": 43.29472,
+    "lon": 5.3625
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Fort_Saint-Jean_(Marseille)",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Operador informa ascensor cour de la Commande-place dArmes actualmente indisponible. Pasarela J4-fort cierra 30 min antes del sitio; otras zonas pueden cerrar por tiempo. No garantía de acceso sin escalones ni pasarela abierta 24 h.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Martes cerrado; ascensor interior de acceso al fort indisponible",
+   "photo": {
+    "img": "assets/marsella/saintjean.jpg",
+    "alt": "Fort Saint-Jean",
+    "source": "https://commons.wikimedia.org/wiki/File:Fort-Jean_%C3%A0_Marseille_3.jpg",
+    "author": "Robert Valette",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Foto de archivo de Fort Saint-Jean. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "garde",
+   "name": "Notre-Dame de la Garde",
+   "kind": "visit",
+   "zone": "Colina de la Garde",
+   "reason": "Notre-Dame de la Garde: miradores y posible interior, con traslado elegido para la subida.",
+   "sourceIds": [
+    "garde",
+    "tourism",
+    "garde-works"
+   ],
+   "coordinates": {
+    "lat": 43.2841,
+    "lon": 5.371
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Notre-Dame_de_la_Garde",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Bus 60 desde Mucem/Hôtel de Ville/Vieux-Port según santuario, elegir conexiones por fecha. Llegar al pie no elimina todos los escalones; a pie es subida exigente, no paseo llano. El sitio anuncia nueva fase de obras, no cierre total: confirmar sectores. No incluir terrazas secretas, museo o tour privado por ser basílica gratuita.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Santuario 7-18; interior limitado durante culto",
+   "photo": {
+    "img": "assets/marsella/garde.jpg",
+    "alt": "Notre-Dame de la Garde",
+    "source": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_la_Garde_aerial_view_2020.jpeg",
+    "author": "Earth777",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto de archivo de Notre-Dame de la Garde. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "saintvictor",
+   "name": "Abadía Saint-Victor",
+   "kind": "visit",
+   "zone": "Puerto sur",
+   "reason": "Fachada de aspecto fortificado de Saint-Victor y visita de basílica si abre.",
+   "sourceIds": [
+    "victor"
+   ],
+   "coordinates": {
+    "lat": 43.2904749,
+    "lon": 5.3655446
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Abbaye_Saint-Victor_de_Marseille",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "La diócesis confirma iglesia diaria 9-19; precio/horario actuales de cripta no verificados. No trasladar tarifa de 2019 de artículo local ni confundir culto con visita guiada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Basílica 9-19 según diócesis; cripta no incluida",
+   "photo": {
+    "img": "assets/marsella/saintvictor.jpg",
+    "alt": "Abadía Saint-Victor",
+    "source": "https://commons.wikimedia.org/wiki/File:Marseille-Saint-Victor-bjs180810-01.jpg",
+    "author": "Bjs",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto de archivo de Abadía Saint-Victor. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "pharo",
+   "name": "Jardín del Pharo",
+   "kind": "visit",
+   "zone": "Pharo",
+   "reason": "Jardín del Pharo para mirar al puerto; palacio por fuera, sin entrar en congresos.",
+   "sourceIds": [
+    "parks",
+    "urban"
+   ],
+   "coordinates": {
+    "lat": 43.29417,
+    "lon": 5.3583
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Palais_du_Pharo",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 50,
+   "durationType": "editorial-estimate",
+   "caution": "Municipio publica jardín Émile Duclaux 7-21 todo el año, con cierres excepcionales meteorológicos. No confundir apertura de jardín con evento o acceso interior.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Jardín municipal 7-21; interior del palacio no incluido",
+   "photo": {
+    "img": "assets/marsella/pharo.jpg",
+    "alt": "Jardín del Pharo",
+    "source": "https://commons.wikimedia.org/wiki/File:Le_palais_du_Pharo.jpg",
+    "author": "Remontees",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Palais du Pharo visto desde el jardín, foto de archivo. No acceso interior confirmado."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "auffes",
+   "name": "Vallon des Auffes",
+   "kind": "visit",
+   "zone": "Costa sur",
+   "reason": "Vallon des Auffes y pequeño puerto, pausa sin restaurante ni baño reservados.",
+   "sourceIds": [
+    "vc",
+    "tourism"
+   ],
+   "coordinates": {
+    "lat": 43.285,
+    "lon": 5.3514
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Vallon_des_Auffes",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 50,
+   "durationType": "editorial-estimate",
+   "caution": "Paseo costero con desniveles. Elegir conexión urbana y regreso; no salto al agua ni todos los kilómetros de Corniche por defecto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; acceso por calles y escaleras según itinerario",
+   "photo": {
+    "img": "assets/marsella/auffes.jpg",
+    "alt": "Vallon des Auffes",
+    "source": "https://commons.wikimedia.org/wiki/File:MarseillesRade.jpg",
+    "author": "Florent Chabaud",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Foto de archivo de Vallon des Auffes. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "corniche",
+   "name": "Corniche Kennedy",
+   "kind": "visit",
+   "zone": "Costa sur",
+   "reason": "Un tramo de la Corniche Kennedy como alternativa de ribera, no toda la carretera costera a pie.",
+   "sourceIds": [
+    "vc",
+    "tourism"
+   ],
+   "coordinates": {
+    "lat": 43.277306,
+    "lon": 5.356611
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Corniche_du_Pr%C3%A9sident-John-Fitzgerald-Kennedy",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 50,
+   "durationType": "editorial-estimate",
+   "caution": "Foto y coordenada representan el tramo de Fausse Monnaie, no entrada única ni playa vigilada. Transporte y acceso elegidos por fecha; no baño ni continuidad de sendero garantizada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior alternativo al tramo largo de ciudad",
+   "photo": {
+    "img": "assets/marsella/corniche.jpg",
+    "alt": "Corniche Kennedy",
+    "source": "https://commons.wikimedia.org/wiki/File:Corniche_Kennedy_Fausse_Monnaie.JPG",
+    "author": "TouN",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Tramo de Corniche junto a Fausse Monnaie, foto de archivo. No representa paseo entero ni playa vigilada."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "longchamp",
+   "name": "Palais Longchamp",
+   "kind": "visit",
+   "zone": "Longchamp",
+   "reason": "Palais Longchamp por fuera y parque, con Beaux-Arts como único interior opcional del día.",
+   "sourceIds": [
+    "parks4",
+    "mba"
+   ],
+   "coordinates": {
+    "lat": 43.3043,
+    "lon": 5.3945
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Palais_Longchamp",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Parque 7-19 septiembre-mayo,7-21 junio-agosto según municipio. Beaux-Arts martes-domingo 9-18; cierra 1 de enero/1 de mayo/1 y 11 de noviembre/25 de diciembre, salvo excepciones oficiales de lunes de Pascua/Pentecostés. Cierre del parque por viento puede impedir acceso al museo. No zoológico en funcionamiento ni fuentes siempre activas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Parque puede cerrar por viento; museo lunes y fiestas cerrado",
+   "photo": {
+    "img": "assets/marsella/longchamp.jpg",
+    "alt": "Palais Longchamp",
+    "source": "https://commons.wikimedia.org/wiki/File:Honeymoon-433_(14586751896).jpg",
+    "author": "Ajay Suresh from New York, NY, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Foto de archivo de Palais Longchamp. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "julien",
+   "name": "Cours Julien",
+   "kind": "visit",
+   "zone": "Cours Julien",
+   "reason": "Cours Julien: plaza, calles y arte urbano con tiempo de café o paseo, sin prometer una obra que puede cambiar.",
+   "sourceIds": [
+    "vc",
+    "urban"
+   ],
+   "coordinates": {
+    "lat": 43.29352778,
+    "lon": 5.38330556
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Cours_Julien",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior; murales y locales cambian",
+   "photo": {
+    "img": "assets/marsella/julien.jpg",
+    "alt": "Cours Julien",
+    "source": "https://commons.wikimedia.org/wiki/File:Marseille_-_Cours_Julien_(16272528157).jpg",
+    "author": "Fred Romero from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Foto de archivo de Cours Julien. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "canebiere",
+   "name": "La Canebière",
+   "kind": "visit",
+   "zone": "Centro",
+   "reason": "Tramo céntrico de La Canebière entre fachadas y regreso hacia el puerto.",
+   "sourceIds": [
+    "vc",
+    "urban"
+   ],
+   "coordinates": {
+    "lat": 43.2975,
+    "lon": 5.38055556
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Canebi%C3%A8re",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo exterior, no acceso a todos los edificios",
+   "photo": {
+    "img": "assets/marsella/canebiere.jpg",
+    "alt": "La Canebière",
+    "source": "https://commons.wikimedia.org/wiki/File:Marseille_(France),_Canebi%C3%A8re_and_Fort_Saint-Nicolas.JPG",
+    "author": "Philippe Alès",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Foto de archivo de La Canebière. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "if",
+   "name": "Château dIf",
+   "kind": "excursion",
+   "zone": "Isla de If",
+   "reason": "Château dIf como excursión de isla con barco ida y vuelta elegidos, solo si mar y monumento lo permiten.",
+   "sourceIds": [
+    "if",
+    "boat"
+   ],
+   "coordinates": {
+    "lat": 43.27986111,
+    "lon": 5.32513889
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_d%27If",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Monumento:28 de septiembre-31 de marzo, 10-17, lunes cerrado;1 de abril-27 de septiembre,10-18; 1 de enero/1 de mayo/25 de diciembre cerrado. Su PDF 2026 aún indica 10:15 y cambio 1 de octubre: discrepancia, usar página de información actual y confirmar salida/entrada con operador. Numerosas escaleras, suelo irregular, no accesible para movilidad reducida, sin baño, sin consigna para equipaje grande. Foto es vista desde tierra, no visita confirmada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Invierno lunes cerrado; barco y entrada separados, depende del mar",
+   "photo": {
+    "img": "assets/marsella/if.jpg",
+    "alt": "Château dIf",
+    "source": "https://commons.wikimedia.org/wiki/File:Chateau_d%27If_view.jpg",
+    "author": "Marian78ro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto de archivo de Château dIf. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "aix",
+   "name": "Aix-en-Provence",
+   "kind": "excursion",
+   "zone": "Fuera de Marsella",
+   "reason": "Aix-en-Provence: Cours Mirabeau y calles del casco como jornada propia sin montaña ni museos automáticos.",
+   "sourceIds": [
+    "aix",
+    "aix-train",
+    "aix-market"
+   ],
+   "coordinates": {
+    "lat": 43.526304,
+    "lon": 5.445429
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Aix-en-Provence",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "SNCF Connect confirma tren directo desde Marseille Saint-Charles a Aix-en-Provence con ejemplos 39-46 min, no duración/frecuencia garantizada para cualquier fecha. Elegir ida y vuelta; estación Aix-TGV está fuera de ciudad y no es este acceso. Mercados de mañana según plaza/día, no el mismo mercado todo el día.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "TER a Aix-en-Provence centro, no estación Aix-TGV",
+   "photo": {
+    "img": "assets/marsella/aix.jpg",
+    "alt": "Aix-en-Provence",
+    "source": "https://commons.wikimedia.org/wiki/File:Aix_en_Provence_-_panoramio_(1).jpg",
+    "author": "carlos corzo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Catedral de Saint-Sauveur en Aix-en-Provence, foto de archivo. Imagen del casco, no de Cours Mirabeau ni entrada reservada."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Puerto norte, Panier y Mucem",
+     "zone": "Vieux-Port → Panier → La Major → Fort Saint-Jean/Mucem",
+     "stopIds": [
+      "vieuxport",
+      "panier",
+      "major",
+      "mucem",
+      "saintjean"
+     ],
+     "editorialNote": "Un museo largo: Mucem, no todos los interiores del Panier además. Vieille Charité es sustitución cultural o patio breve si abre, no una segunda visita completa obligatoria. Mucem/fort martes cerrado y ascensor específico indisponible: elegir acceso apto o paseo bajo.",
+     "optionalStopIds": [
+      "charite"
+     ],
+     "pacing": "Estimación editorial con pausas, acceso por fecha y nada reservado."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Puerto norte, Panier y Mucem",
+     "zone": "Vieux-Port → Panier → La Major → Fort Saint-Jean/Mucem",
+     "stopIds": [
+      "vieuxport",
+      "panier",
+      "major",
+      "mucem",
+      "saintjean"
+     ],
+     "editorialNote": "Un museo largo: Mucem, no todos los interiores del Panier además. Vieille Charité es sustitución cultural o patio breve si abre, no una segunda visita completa obligatoria. Mucem/fort martes cerrado y ascensor específico indisponible: elegir acceso apto o paseo bajo.",
+     "optionalStopIds": [
+      "charite"
+     ],
+     "pacing": "Estimación editorial con pausas, acceso por fecha y nada reservado."
+    },
+    {
+     "title": "La Bonne Mère y la ribera sur",
+     "zone": "Bus a Notre-Dame → Saint-Victor → Pharo → Vallon des Auffes",
+     "stopIds": [
+      "garde",
+      "saintvictor",
+      "pharo",
+      "auffes"
+     ],
+     "editorialNote": "Subida en bus 60 según fecha; no desde el puerto a pie obligatoria. Después descenso/transporte elegido hacia Saint-Victor, paseo Pharo y Vallon des Auffes si queda tiempo y acceso apto. Tramo largo y con desniveles: acortar Auffes o elegir conexión urbana. Corniche opcional en vez de seguir sumando kilómetros. Fort Saint-Nicolas no jardín abierto asegurado: operador lo da cerrado en invierno y tours/eventos aparte.",
+     "optionalStopIds": [
+      "corniche"
+     ],
+     "pacing": "Estimación editorial con pausas, acceso por fecha y nada reservado."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Puerto norte, Panier y Mucem",
+     "zone": "Vieux-Port → Panier → La Major → Fort Saint-Jean/Mucem",
+     "stopIds": [
+      "vieuxport",
+      "panier",
+      "major",
+      "mucem",
+      "saintjean"
+     ],
+     "editorialNote": "Un museo largo: Mucem, no todos los interiores del Panier además. Vieille Charité es sustitución cultural o patio breve si abre, no una segunda visita completa obligatoria. Mucem/fort martes cerrado y ascensor específico indisponible: elegir acceso apto o paseo bajo.",
+     "optionalStopIds": [
+      "charite"
+     ],
+     "pacing": "Estimación editorial con pausas, acceso por fecha y nada reservado."
+    },
+    {
+     "title": "La Bonne Mère y la ribera sur",
+     "zone": "Bus a Notre-Dame → Saint-Victor → Pharo → Vallon des Auffes",
+     "stopIds": [
+      "garde",
+      "saintvictor",
+      "pharo",
+      "auffes"
+     ],
+     "editorialNote": "Subida en bus 60 según fecha; no desde el puerto a pie obligatoria. Después descenso/transporte elegido hacia Saint-Victor, paseo Pharo y Vallon des Auffes si queda tiempo y acceso apto. Tramo largo y con desniveles: acortar Auffes o elegir conexión urbana. Corniche opcional en vez de seguir sumando kilómetros. Fort Saint-Nicolas no jardín abierto asegurado: operador lo da cerrado en invierno y tours/eventos aparte.",
+     "optionalStopIds": [
+      "corniche"
+     ],
+     "pacing": "Estimación editorial con pausas, acceso por fecha y nada reservado."
+    },
+    {
+     "title": "Longchamp y calles del centro",
+     "zone": "Longchamp → transporte al centro → Cours Julien → Canebière",
+     "stopIds": [
+      "longchamp",
+      "julien",
+      "canebiere"
+     ],
+     "editorialNote": "Palacio/jardín con museo Beaux-Arts opcional dentro del bloque, no museo y todos los exteriores costeros. Elegir transporte entre Longchamp y Cours Julien para evitar cruce largo por defecto. Viento puede cerrar parque y acceso al museo. Este día puede sustituirse por If o Aix, nunca ambas excursiones.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial con pausas, acceso por fecha y nada reservado."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Calanques no se incluyen como sendero fácil ni excursión sin resolver acceso/condición física. Sugiton 2026 requiere reserva gratuita el 20/21 de junio,27 de junio-30 de agosto,5/6 y 12/13 de septiembre. Fechas 2027 no se infieren; cierre por incendio anula reserva, equipo/agua y regreso necesarios.",
+  "Jardines Fort Saint-Nicolas cerrados en invierno según operador; tours/eventos propios no implican jardín libre.",
+  "If separado del Frioul: no todas las travesías desembarcan, barco y monumento tienen pago/calendario propios."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros · Marsella",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-visitar-en-marsella/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "urban",
+   "title": "Turismo oficial · paseos urbanos",
+   "url": "https://www.marseille-tourisme.com/decouvrez-marseille/calanques-plages-et-nature/randonnees/randonnees-urbaines-a-marseille/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tourism",
+   "title": "Turismo oficial · Notre-Dame y acceso",
+   "url": "https://www.marseille-tourisme.com/decouvrez-marseille/culture-et-patrimoine/sites-et-monuments/la-basilique-notre-dame-de-la-garde/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "garde",
+   "title": "Santuario · horarios y acceso",
+   "url": "https://basiliquenotredamedelagarde.com/horaires-acces",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "garde-works",
+   "title": "Santuario · obras actuales",
+   "url": "https://basiliquenotredamedelagarde.com/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "major",
+   "title": "Diócesis · La Major",
+   "url": "https://diocese-marseille.fr/paroisse/sanctuaire-sainte-marie-majeure-cathedrale-la-major/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "victor",
+   "title": "Diócesis · Saint-Victor",
+   "url": "https://diocese-marseille.fr/paroisse/paroisse-saint-victor/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mucem",
+   "title": "Mucem · acceso y ascensor",
+   "url": "https://mucem.org/infos-pratiques/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fort",
+   "title": "Mucem · Fort Saint-Jean",
+   "url": "https://mucem.org/infos-pratiques/fort-saint-jean/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mucem-exhibition",
+   "title": "Mucem · dossier actual 2026/27",
+   "url": "https://mucem.org/uploads/2025/08/Dossier_de_Presse_Manger-les-images_Mucem_Fr-4.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "charite",
+   "title": "Turismo oficial · Vieille Charité y 8 de noviembre",
+   "url": "https://www.marseille-tourisme.com/decouvrez-marseille/culture-et-patrimoine/centre-de-la-vieille-charite-cvc-marseille-2eme-fr-2799684/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "parks",
+   "title": "Ville Marseille · parques",
+   "url": "https://www.marseille.fr/environnement/presentation",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "parks4",
+   "title": "Ville Marseille · Longchamp",
+   "url": "https://www.marseille.fr/environnement/parcs-et-jardins-du-4e-arrondissement",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mba",
+   "title": "Beaux-Arts · apertura y viento",
+   "url": "http://musees.marseille.fr/musee-des-beaux-arts-mba",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "if",
+   "title": "Château dIf · condiciones actuales",
+   "url": "https://www.chateau-if.fr/visiter/informations-pratiques",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "boat",
+   "title": "Le Bateau Frioul If · corredor marítimo",
+   "url": "https://www.lebateau-frioul-if.fr/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "aix",
+   "title": "Turismo Aix · casco y Cours Mirabeau",
+   "url": "https://www.aixenprovencetourism.com/en/aix-en-provence-en/must-dos-in-aix-en-provence/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "aix-train",
+   "title": "SNCF Connect · Marseille-Aix centro",
+   "url": "https://www.sncf-connect.com/en-en/train/route/marseille/aix-en-provence",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "aix-market",
+   "title": "Turismo Aix · mercados por plaza",
+   "url": "https://www.aixenprovencetourism.com/shopping/les-marches-aix-en-provence/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "calanques",
+   "title": "Parque Nacional · reserva Sugiton2026",
+   "url": "https://calanques-parcnational.fr/fr/des-decouvertes/preparer-sa-visite/reservation-sugiton",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "calanques-safety",
+   "title": "Parque Nacional · condiciones Sugiton",
+   "url": "https://calanques-parcnational.fr/fr/reservation-sugiton-informations-pratiques",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "citadelle",
+   "title": "Citadelle · jardines cerrados en invierno",
+   "url": "https://citadelledemarseille.org/en/practical-infos",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

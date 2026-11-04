@@ -1,0 +1,173 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "NP",
+ "country": "Nepal",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Solo valle de Katmandú y bordes orientales, con bases Katmandú, Nagarkot y Dhulikhel. No cubre Pokhara, Chitwan, Everest, Annapurna ni travesía del país.",
+ "verificationLimits": [
+  "Se reemplaza la propuesta por carretera Katmandú-Pokhara-Chitwan: Exteriores desaconseja las zonas afectadas de Dhading y a lo largo de los ríos Trishuli/Bhota Koshi. No se elimina este aviso porque un tramo reabra.",
+  "La ruta de valle requiere comprobación local de carreteras, condiciones meteorológicas y situación social para las fechas concretas; no se presenta como libre de riesgos.",
+  "Visados, entradas y alojamiento según pasaporte y fechas, sin importes ni disponibilidad supuestos."
+ ],
+ "routes": [
+  {
+   "id": "np-regional",
+   "title": "Valle de Katmandú, Nagarkot y Dhulikhel · 7 días",
+   "scope": "Solo valle de Katmandú y bordes orientales, con bases Katmandú, Nagarkot y Dhulikhel. No cubre Pokhara, Chitwan, Everest, Annapurna ni travesía del país.",
+   "pace": "7 días / 6 noches: Katmandú 3, Nagarkot 1, Dhulikhel 1, Katmandú 1. Carretera de día con conductor local y visitas agrupadas.",
+   "assumptions": "Adaptación editorial del circuito de Destination Nepal Tours: más tiempo para ciudades del valle y menos visitas por día. No es paquete reservado. Sin trekking, parapente, vuelos internos ni observación de fauna. El cambio de corredor no certifica seguridad; confirmar ruta exacta, alertas y condiciones antes de viajar.",
+   "sources": [
+    {
+     "id": "op",
+     "title": "Destination Nepal Tours · circuito valle, base editorial",
+     "url": "https://www.dntt.com.np/package-detail/26/7-days-kathmandu-nagarkot-dhulikhel-tour"
+    },
+    {
+     "id": "ntb",
+     "title": "Nepal Tourism Board · miradores y bases del valle",
+     "url": "https://ntb.gov.np/en/things-to-do/mountain-viewing"
+    },
+    {
+     "id": "patan",
+     "title": "Nepal Tourism Board · Patan",
+     "url": "https://ntb.gov.np/en/patan"
+    },
+    {
+     "id": "unesco",
+     "title": "UNESCO · siete zonas monumentales del valle",
+     "url": "https://whc.unesco.org/en/list/121/"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Nepal",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Nepal"
+    },
+    {
+     "id": "updates",
+     "title": "Nepal Tourism Board · avisos actuales",
+     "url": "https://ntb.gov.np/en/latest-travel-updates"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Katmandú",
+     "overnight": "Katmandú",
+     "stops": [
+      "Recepción y descanso",
+      "Thamel solo si queda margen"
+     ],
+     "transfer": "Aeropuerto de Katmandú al alojamiento. Vehículo elegido para hora de llegada, sin templos con entrada comprometida.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Katmandú histórico",
+     "overnight": "Katmandú",
+     "stops": [
+      "Durbar Square de Katmandú",
+      "Swayambhunath como segunda visita"
+     ],
+     "transfer": "Traslados urbanos con conductor y tramos a pie; escaleras de Swayambhu solo según movilidad. No añadir las tres ciudades reales el mismo día. Interiores según acceso confirmado.",
+     "sourceIds": [
+      "op",
+      "unesco"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Patan desde la misma base",
+     "overnight": "Katmandú",
+     "stops": [
+      "Durbar Square de Patan",
+      "Calles y patios de artesanos",
+      "Golden Temple solo si acceso permitido"
+     ],
+     "transfer": "Ida y vuelta urbana a Patan/Lalitpur. NTB la sitúa 5 km al sureste de Katmandú, no tiempo total garantizado con tráfico. Entradas por elegir; respetar espacios de culto.",
+     "sourceIds": [
+      "patan",
+      "maec"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Bhaktapur y noche en Nagarkot",
+     "overnight": "Nagarkot",
+     "stops": [
+      "Durbar Square de Bhaktapur",
+      "Tarde tranquila en Nagarkot"
+     ],
+     "transfer": "Conductor local: Katmandú-Bhaktapur-Nagarkot, corredor publicado por operador y NTB. Sin caminata añadida ni cifra de duración inventada. Viajar de día, confirmar estado de carretera y alojamiento antes; vistas solo si tiempo permite.",
+     "sourceIds": [
+      "op",
+      "ntb",
+      "unesco",
+      "updates"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Nagarkot a Dhulikhel",
+     "overnight": "Dhulikhel",
+     "stops": [
+      "Amanecer opcional según visibilidad",
+      "Panauti si carretera y margen permiten",
+      "Casco antiguo de Dhulikhel"
+     ],
+     "transfer": "Traslado por carretera con conductor, como el circuito del operador. No se convierte en trekking de seis horas. No se promete Everest visible ni carretera segura por estar fuera del Trishuli. Confirmar ruta local concreta y avisos antes.",
+     "sourceIds": [
+      "op",
+      "ntb",
+      "maec",
+      "updates"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Dhulikhel a Katmandú",
+     "overnight": "Katmandú",
+     "stops": [
+      "Boudhanath como visita principal",
+      "Pashupatinath solo recinto permitido si queda margen"
+     ],
+     "transfer": "Regreso de día al valle. El operador combina varios templos y Namo Buddha; aquí se reduce a Boudhanath y una opción para no apilar todo. Acceso de no hinduistas restringido en determinados templos; no garantizar interior de Pashupatinath.",
+     "sourceIds": [
+      "op",
+      "unesco",
+      "maec"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Salida desde Katmandú",
+     "overnight": null,
+     "stops": [
+      "Traslado al aeropuerto"
+     ],
+     "transfer": "Noche previa en Katmandú. Antelación según vuelo, tráfico y aerolínea; sin carretera interurbana ni vuelo interno añadido este día.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores recomienda viajar con precaución y evitar determinadas zonas afectadas por inundaciones, incluidos Rasuwa, Gorkha, Nuwakot, Dhading y corredores Bhota Koshi/Trishuli. No se incluyen. Esto no declara segura la alternativa: terremotos, desprendimientos, protestas y carreteras deficientes pueden afectar también al valle. Viajar de día con conductor y consultar avisos locales. Sanidad limitada, seguro amplio con evacuación. No se propone vuelo interno como solución automática: Exteriores señala riesgos de seguridad aérea.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Nepal"
+ },
+ "photo": {
+  "img": "assets/routes/np.jpg",
+  "name": "Puerta y entorno de acceso a Bhaktapur",
+  "source": "https://commons.wikimedia.org/wiki/File:Bhaktapur_Durbar_Square_image_01.jpg",
+  "author": "Suraj Belbase",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "caption": "Foto de archivo de 2016 del acceso de Bhaktapur, no panorámica de toda Durbar Square. Reducida de tamaño; no confirma estado actual ni acceso."
+ }
+}

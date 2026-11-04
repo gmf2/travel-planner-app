@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "cityId": "sansebastian",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "casa-urola",
+   "name": "Casa Urola · comedor y parrilla",
+   "address": "Fermin Calbeton Kalea, 20, 20003 Donostia / San Sebastián, Gipuzkoa, Spain",
+   "description": "Cocina vasca de temporada, verduras y pescados a la brasa en el comedor sobre la barra de pintxos. Es comida sentada, no una ronda barata de barra.",
+   "strength": "Michelin recomienda pescados planos y kokotxas; Gastroactitud2024 destaca carbón vegetal, verduras de temporada y revisión de cocina marinera. Carta propia distingue precios por plato y por kilo.",
+   "alert": "Restaurante arriba distinto de barra. Reserva web mínimo24h; pescados por kilo: confirmar peso y total.",
+   "caution": "Carta propia: rape38 €, kokotxas41 €, rodaballo/lenguado115 €/kg/besugo120 €/kg, pan2,20 €, postres9,50-15 €. Rango orientativo55-80 € sin bebida por persona con entrante compartido+principal de precio fijo+pan+postre; no cubre pescado porpeso o marisco especial. PrecioIVAincluido. Página mezcla varias cartas estacionales, guisante de primavera no se promete en noviembre. ReservaCOMEDOR comidasdiarias13-15:15/cenasjue-sáb19:45-23:15; franjas12-15/19-23 parecen contactoreservas, no cocina. Guardan reserva30min según web, no asumir llegada tardía ilimitada. Acceso comedor primera planta, barreras/escaleras por confirmar. Nada reservado, alergias a consultar.",
+   "officialUrl": "https://casaurolajatetxea.es/carta/",
+   "editorialUrl": "https://guide.michelin.com/es/es/pais-vasco/es-donostia-san-sebastian/restaurante/casa-urola",
+   "sourceUrls": [
+    "https://www.gastroactitud.com/pista/restaurantes-en-gipuzcoa-cerca-del-mar/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Casa+Urola&query_place_id=ChIJyanHmE2lUQ0Rcnh9u-v7n3k",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta/horarios propios, dos fuentes de cocina ydirección Maps, sin disponibilidad.",
+   "priceLabel": "55-80 € sin bebida con principal de precio fijo, estimación; por kilo aparte.",
+   "photo": {
+    "img": "assets/sansebastian/casa-urola-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes vascos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes vascos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "compactPrice": "55-80 € sin bebida, estimación; por kilo aparte.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "aquarium",
+   "name": "Aquarium · mar y patrimonio marítimo",
+   "address": "Plaza Carlos Blasco Imaz1, puerto de Donostia",
+   "description": "Recorrido interior de patrimonio marítimo y acuarios, con túnel panorámico. Alternativa de lluvia junto al puerto, no añadir obligatoriamente al paseo completo de Urgull.",
+   "duration": "Mínimo1,5 h según FAQ;2 h con calma estimación editorial.",
+   "compactDuration": "1,5-2 h",
+   "alert": "16 € adulto en tienda Turismoa. Invierno lunes cerrado salvo puente; última entrada1h antes. No pase prioritario.",
+   "caution": "Precio16 €adulto/8 €4-12años en tienda oficial SanSebastiánTurismoa, no checkout del operador; confirmar por fecha y tarifa. Página de tarifas Aquarium no muestra tabla legible en extracción; imagen llamada tarifas es fachada al inspeccionarla, no evidencia de precio. Audioguía3 €aparte propia. Operador: oct-mar mar-vie10-19,finessemana/festivos/puentes10-20,lunes cerrado salvo puente;abr/may/jun/sep laborables10-19/findes10-20;jul/ago10-20. Cerrado25dic/1y20ene. Taquilla yentrada cierran60min antes. FAQ sin reentrada, no comida dentro, solo perrosguíaacreditados, recorrido/accesosadaptados según operador. TicketTurismoa fecha fija/canje taquilla, no prioridad, online hasta8 del mismo día; cancelación no admitida dentro48h, condicionescompletas por revisar antescomprar. No trasladar políticaTurismoa a otra venta. Nada comprado.",
+   "officialUrl": "https://aquariumss.com/horarios/",
+   "sourceUrls": [
+    "https://aquariumss.com/preguntas-frecuentes/",
+    "https://aquariumss.com/tarifas/",
+    "https://shop.sansebastianturismoa.eus/product/el-aquarium-palacio-del-mar-de-donostia-san-sebastian/"
+   ],
+   "priceLabel": "16 € adulto tienda Turismoa; audioguía3 € operador, porfecha confirmar.",
+   "photo": {
+    "img": "assets/sansebastian/aquarium-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo marítimo imaginado junto al mar, no Aquarium real ni sus animales. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Museo marítimo imaginado junto al mar, no Aquarium real ni sus animales. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Horario/FAQ operador, tarifa tienda oficial Turismoa diferenciada, sin compra.",
+   "realPhotoPending": true
+  }
+ ]
+}

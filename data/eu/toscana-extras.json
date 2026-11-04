@@ -1,0 +1,159 @@
+{
+ "schemaVersion": 1,
+ "cityId": "toscana",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "siena_logge",
+   "name": "Osteria Le Logge · Siena",
+   "address": "Via del Porrione 33, Siena",
+   "description": "Cocina toscana con interpretación contemporánea en una antigua tienda que conserva mostrador y vitrinas. Opción para una comida con más pausa en Siena, no un desvío desde Pienza o Montepulciano. Michelin destaca la cocina y el local; la web propia publica tagliatelle caseras al ragù toscano. Carta en italiano e inglés con platos/precios distintos, por lo que hay que confirmar la carta del día.",
+   "compactDescription": "En Siena: ragù toscano y cocina contemporánea en una antigua tienda; comida con pausa.",
+   "priceLabel": "Referencia de cartas publicadas, no presupuesto cerrado: primi 22-26 €, secondi 30-32 €, postres 13 €. Primo + secondo + postre suman 65-71 € por persona antes de bebidas, posibles cubierto/servicio y extras. Idiomas muestran cartas distintas; no se ha confirmado qué versión rige hoy. Bistecca a peso, no incluida en esa suma.",
+   "compactPrice": "Carta: primo + secondo + postre 65-71 €; sin bebidas ni posibles cargos de mesa. Confirmar precios.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Web propia leída con dirección y horario; ficha Maps coincide en nombre/dirección. Michelin aporta criterio de selección. No se ha contrastado una carta fechada ni disponibilidad de mesa.",
+   "officialUrl": "https://osterialelogge.it/en/home-osteria",
+   "editorialUrl": "https://guide.michelin.com/en/toscana/siena/restaurant/osteria-le-logge",
+   "sourceUrls": [
+    "https://osterialelogge.it/menu",
+    "http://osterialelogge.it/en/menu"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Osteria+Le+Logge&query_place_id=ChIJa9D8NLcsKhMRCeun28mzFcw",
+   "lat": 43.31847519999999,
+   "lon": 11.3333542,
+   "strength": "Una opción distinta de la trattoria rápida: cocina toscana contemporánea y sala de antigua tienda. No se clasifica como restaurante económico por el símbolo €€ de una guía.",
+   "caution": "Web propia: lunes-sábado 12:00-14:45 y 19:00-22:45; domingo cerrado. Confirmar fecha, festivos, carta, alergias y cargos de mesa al reservar. No hay mesa ni reserva comprobada. No se atribuyen opciones seguras para alergias por la descripción del plato.",
+   "alert": "Cartas italiana/inglesa diferentes; precios y carta del día requieren confirmación. Domingo cerrado según la web.",
+   "compactAlert": "Domingo cerrado. Carta del día y precio sin confirmar.",
+   "photo": {
+    "img": "assets/toscana/siena_logge-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes toscanos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes toscanos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "montepulciano_borgo",
+   "name": "Osteria del Borgo · Montepulciano",
+   "address": "Via Ricci, 5, 53045 Montepulciano SI, Italy",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Osteria+del+Borgo&query_place_id=ChIJh4RSKxFcKRMRc73xSyHBQHQ",
+   "placeId": "ChIJh 4RSKxFcKRMRc 73xSyHBQHQ",
+   "lat": 43.09315,
+   "lon": 11.7807361,
+   "description": "Osteria junto a Piazza Grande para la jornada Montepulciano/Pienza, no para añadir una ida y vuelta desde Siena. Carta propia de pasta hecha a mano, pici all’aglione con ricotta, ribollita, jabalí y pecorino de Pienza. Flowandwander 2023 relata buena tabla de quesos/embutidos y pasta, con gnocchi menos convincentes; TasteAsYouGo 2013 describe una bruschetta sencilla bien ejecutada. Crónicas históricas, no garantía de carta o terraza actual. No confundir con Osteria del Conte ni Acquacheta.",
+   "compactDescription": "En Montepulciano, junto a Piazza Grande: pici hechos a mano y cocina toscana de tierra. Úsalo en esa etapa, no como desvío desde Siena.",
+   "priceLabel": "Web propia consultada: pici all’aglione 14 € + tiramisù7 € =21 €; pici 14 € + jabalí 19 € + tiramisù7 € =40 €. SIN bebida, coperto ni otros cargos cuyo importe no está publicado aquí. Fiorentina 5,50 €/100g y mínimo 1,2kg: mínimo de carne 66 €, no 5,50 € por plato/persona. Confirmar carta y cuenta completa para fecha, no es tarifa de reserva.",
+   "compactPrice": "Pasta + postre 21 €; pasta + jabalí + postre 40 €. Bebida/coperto aparte, importe pendiente.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.osteriadelborgo.it/osteria",
+   "editorialUrl": "https://www.flowandwander.com/blog/montepulciano-tuscany-italy",
+   "sourceUrls": [
+    "https://en.osteriadelborgo.it/osteria",
+    "https://www.tasteasyougo.com/2013/02/taste-of-tuscany-osteria-del-borgo-montepulciano-italy-review.html"
+   ],
+   "statusEvidence": "Carta actual visible en propia, con precios por plato y unidad de bistecca leídos. Maps coincide nombre y Via Ricci; crónicas independientes específicas históricas contrastadas. Sin mesa/servicio elegido. Publicación 2018 de página no es fecha del menú: pedir confirmación actual.",
+   "alert": "Propia cierra martes; no publica aquí horas de cocina. Terraza solo con buen tiempo/temporada y sin plaza prometida. Servicio y cierre estacional para fecha pendientes.",
+   "compactAlert": "Martes cerrado según propia; horas, apertura estacional y terraza por confirmar.",
+   "caution": "Sin reserva ni política de cancelación/cargos comprobadas. Hay sala subterránea; accesibilidad exacta no verificada. Carta con gluten, huevo, leche, frutos secos y otros alérgenos: pedir lista y adaptación, no inferir seguridad del nombre vegetal. Entrar en coche al casco/ZTL no autorizado por comer aquí; usar parking verificado de la ruta. No conducir tras beber.",
+   "photo": {
+    "img": "assets/toscana/siena_logge-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes toscanos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes toscanos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local. Concepto regional compartido entre fichas, no producto específico de este local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "lella",
+   "name": "Cocina toscana con Scuola di Cucina di Lella · Siena",
+   "address": "Via Fontebranda, 69, 53100 Siena SI, Italy",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Scuola+di+Cucina+di+Lella+-+Tuscan+Cooking+Class+in+Central+Siena&query_place_id=ChIJpUDkFLwsKhMRJJZ_-lubC_Q",
+   "lat": 43.3188623,
+   "lon": 11.3275081,
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/toscana/lella-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Cocina toscana imaginada, no cocina, receta ni producto de Lella. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Cocina toscana imaginada, no cocina, receta ni producto de Lella. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "editorialUrl": null,
+   "officialUrl": "https://www.scuoladicucinadilella.net/en/cooking-class-in-siena/",
+   "sourceUrls": [
+    "https://www.scuoladicucinadilella.net/en/book-cooking-class/"
+   ],
+   "description": "Clase participativa de cocina toscana con Francesco, de entrante a postre e incluyendo pasta fresca. El menú cambia; la web muestra cinco recetas como ejemplo, no un menú fijo. La comida preparada se sirve al final. Inglés e italiano según operador.",
+   "duration": "Aproximadamente 4 h según operador, incluida la comida preparada. Reservar media jornada y sustituir parte del paseo de Siena; no añadir después de conducir toda la región.",
+   "compactDuration": "≈4 h con comida; sustituye parte de la visita de Siena.",
+   "priceLabel": "Precio pendiente de confirmar directamente. Se han visto importes diferentes en intermediarios, que no se adoptan como tarifa propia. No hay precio final ni condiciones de cancelación comprobados.",
+   "alert": "Precio, sesión y cancelación sin confirmar. Media jornada en Siena; no planificar encima de la ruta de pueblos.",
+   "compactAlert": "No tarifa propia vigente comprobada; no sesión reservada.",
+   "caution": "Pedir al operador fecha, disponibilidad, precio total, mínimo de participantes, accesibilidad, alergias y cancelación antes de reservar. No se garantiza adaptación dietética. Nada reservado. Revisión 03/11/2026: la reserva propia dio primero error WordPress; la recarga mostró página sin precio ni producto reservable. La clase en grupo anuncia unas 4 h, cinco recetas, comida preparada y ¼ L de vino por persona, en inglés/italiano. No se trasladan condiciones de clase privada a esta selección.",
+   "statusEvidence": "Web propia verifica formato, duración, dirección y lenguas. Maps coincide en dirección. Los precios de intermediarios no se han tratado como tarifa actual del operador.",
+   "compactPrice": "Precio y condiciones por confirmar.",
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "contucci",
+   "name": "Contucci Experience · Montepulciano",
+   "address": "Via del Teatro, 1, 53045 Montepulciano SI, Italy",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Contucci&query_place_id=ChIJ7QKfThFcKRMRqHI1IJMIBdE",
+   "lat": 43.0923136,
+   "lon": 11.7814743,
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/toscana/contucci-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Bodega imaginada, no interior, botellas ni experiencia real de Contucci. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Bodega imaginada, no interior, botellas ni experiencia real de Contucci. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "editorialUrl": null,
+   "officialUrl": "https://www.contucci.it/contucci-experience/",
+   "sourceUrls": [
+    "https://www.contucci.it/azienda/"
+   ],
+   "description": "Visita guiada a salas del palacio, bodega y jardín panorámico cuando el clima permite, con cata de cuatro vinos. Producto distinto de la cata básica de tres vinos publicada en la página de empresa. No se promete entrada gratuita por reseñas antiguas.",
+   "duration": "Unas 2 h según operador, más llegada y acceso a pie. En el día Pienza-Montepulciano sustituye parte del paseo urbano. Una sesión a las 15:30 condiciona comida y hora de salida.",
+   "compactDuration": "≈2 h; sustituye parte del paseo de Montepulciano.",
+   "priceLabel": "Operador publica 40 €/persona con plato de salumi, pecorino, pan y aceite, o 25 €/persona con snacks. Sin transporte ni otras compras; confirmar total para tu grupo. La cata básica de 10 € es otro producto, no esta Experience.",
+   "compactPrice": "Publicado: 25 € con snacks o 40 € con plato local; transporte aparte.",
+   "alert": "Reserva con al menos 15 días de antelación. Operador publica 1 abril-6 enero, lunes/martes/viernes/sábado, 11:00 o 15:30. Año y calendario de festivos no fechados: confirmar sesión para tu fecha. No conducir tras catar; organizar conductor que no beba o transporte alternativo.",
+   "compactAlert": "Pedir con 15 días. Calendario sin año confirmado; no conducir tras catar.",
+   "caution": "Sin sesión ni disponibilidad confirmadas. Máximo20 según operador. Jardín condicionado al tiempo. Comunicar alergias o dieta al reservar, sin afirmar adaptación segura. Verificar cancelación y pago. Cata básica y Experience no son intercambiables.",
+   "statusEvidence": "Web propia leída: duración, dos precios/productos y temporada genérica sin año. Dirección Maps coincide. Condiciones de cancelación no verificadas.",
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ]
+}

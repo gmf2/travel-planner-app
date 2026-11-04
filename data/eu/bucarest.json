@@ -1,0 +1,1446 @@
+{
+ "schemaVersion": 1,
+ "country": "RO",
+ "id": "bucarest",
+ "name": "Bucarest",
+ "localName": "București",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "lipscani",
+   "name": "Calle Lipscani y el casco viejo",
+   "kind": "walk",
+   "zone": "Lipscani",
+   "reason": "La calle que da nombre al barrio viejo: antigua arteria de comerciantes (lipscani = 'de Leipzig'), hoy el corazón peatonal de bares, terrazas y fachadas decimonónicas del Centrul Vechi.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4318058,
+    "lon": 26.1015828
+   },
+   "coordinateSource": "Lipscani, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bucarest/lipscani-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Lipscani, calle imaginada. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Lipscani, calle imaginada. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "carturesti",
+   "name": "Librería Cărturești Carusel",
+   "kind": "walk",
+   "zone": "Lipscani",
+   "reason": "El 'carrusel de luz': la antigua sede bancaria Chrissoveloni reconvertida en una de las librerías más fotografiadas del mundo, seis plantas blancas con galerías, 10.000 libros y un bistró en la última planta.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4318945,
+    "lon": 26.1015779
+   },
+   "coordinateSource": "Cărturești Carusel, Strada Lipscani 55, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Librería en uso, no museo. El horario10-22 procede de su ficha propia antigua; comprobar festivos y servicio antes de ir. No usar horario de otra sucursal del directorio.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Ficha propia de Carusel publica lunes-domingo10-22; artículo fechado2015, el directorio actual confirma dirección pero no horario. Revalidar por fecha.",
+    "source": "https://blog.carturesti.ro/librarie/carturesti-carusel/"
+   },
+   "price": "Entrada libre (librería).",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/bucarest/carturesti.jpg",
+    "source": "https://www.pexels.com/photo/carturesti-carusel-in-bucharest-romania-16103344/",
+    "author": "Czapp Árpád",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Interior de la librería Cărturești Carusel con galerías visibles. No garantiza aforo ni acceso en la fecha elegida.",
+    "alt": "Interior de la librería Cărturești Carusel con galerías visibles. No garantiza aforo ni acceso en la fecha elegida."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "stavropoleos",
+   "name": "Monasterio Stavropoleos",
+   "kind": "monument",
+   "zone": "Casco viejo",
+   "reason": "Monasterio e iglesia de 1724 con columnas talladas y decoración brâncovenească en el casco viejo. La parada base es exterior; patio e interior dependen de acceso turístico confirmado fuera del culto.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.431803,
+    "lon": 26.0987087
+   },
+   "coordinateSource": "Mănăstirea Stavropoleos, Strada Poștei, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Dos páginas del propio monasterio discrepan: portada8-19,Descopera12-20(esta última contiene textos de edición sin completar). No se garantiza interior. Iglesia,patio y galería no equivalen a biblioteca/museo, cuyo acceso se indica para investigación/documentación.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Portada oficial8-19todoslosdías;subpáginaDescopera12-20enconflicto. Confirmar con monasterio,fuera de culto. Exterior como base.",
+    "source": "https://stavropoleos.ro/"
+   },
+   "price": null,
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/bucarest/stavropoleos.jpg",
+    "alt": "Pórtico de la iglesia de Stavropoleos: columnas talladas y pinturas exteriores. Detalle del templo, no del museo ni de toda la comunidad monástica.",
+    "caption": "Pórtico de la iglesia de Stavropoleos: columnas talladas y pinturas exteriores. Detalle del templo, no del museo ni de toda la comunidad monástica.",
+    "author": "liza sigareva",
+    "source": "https://www.pexels.com/photo/stavropoleos-monastery-architecture-in-bucharest-35870287/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://stavropoleos.ro/descopera/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "curtea_veche",
+   "name": "Curtea Veche, la corte de Vlad Țepeș",
+   "kind": "monument",
+   "zone": "Casco viejo",
+   "reason": "Antigua corte principesca junto a Lipscani, hoy cerrada por obras. Solo referencia del barrio desde calles públicas si visible, no recorrido por ruinas ni acceso garantizado al recinto.",
+   "sourceIds": [
+    "vv",
+    "wp",
+    "curtea-museum",
+    "curtea-works"
+   ],
+   "coordinates": {
+    "lat": 44.4300941,
+    "lon": 26.1020628
+   },
+   "coordinateSource": "Biserica Sfântul Anton - Curtea Veche, Strada Franceză, București (Nominatim; ruinas del palacio junto a la iglesia)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 5,
+   "durationType": "editorial-estimate",
+   "caution": "Museo y recinto arqueológico cerrados por obras. Ayuntamiento19oct2026: trabajos de puesta en seguridad durante tres meses, luego restauración. Solo contexto urbano desde calles públicas si visible; no prometer ver ruinas ni entrar. No sustituir cierre por un supuesto exterior seguro dentro del recinto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Cerrado por obras, sin fecha de reapertura confirmada.",
+    "source": "https://muzeulbucurestiului.ro/en/the-old-princely-court-museum.html"
+   },
+   "price": null,
+   "visitMode": "Referencia desde vía pública; recinto cerrado",
+   "photo": {
+    "img": "assets/bucarest/curtea_veche-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Curtea Veche, ruinas exteriores imaginadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Curtea Veche, ruinas exteriores imaginadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo y recinto arqueológico de Curtea Veche",
+    "noticeLabel": "Museo y recinto arqueológico de Curtea Veche",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedRanges": [
+     {
+      "start": "2026-11-03",
+      "end": "2026-12-31",
+      "label": "Museo y recinto arqueológico de Curtea Veche: obras, sin reapertura confirmada"
+     }
+    ],
+    "standingNotice": "Museo y recinto arqueológico cerrados por obras según el operador. Elegir una fecha no confirma reapertura; solo contexto desde vía pública si visible."
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "san_antonio",
+   "name": "Iglesia de San Antonio (Curtea Veche)",
+   "kind": "monument",
+   "zone": "Casco viejo",
+   "reason": "La iglesia más antigua de Bucarest (1546), la de la corte principesca: aquí se consagraban los voivodas; pequeña, con pórtico de columnas y frescos interiores del siglo XIX.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4300941,
+    "lon": 26.1020628
+   },
+   "coordinateSource": "Misma ubicación que Curtea Veche: la iglesia de San Antonio forma parte del conjunto (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Sin horario turístico verificado: visita diurna fuera de culto. Acceso turístico, aforo y posible aportación no verificados en primaria; exterior como base y respetar culto, no prometer interior libre.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Parroquia activa; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/bucarest/san_antonio.jpg",
+    "alt": "Iglesia de San Antonio-Curtea Veche de Bucarest entre árboles nevados. Vista exterior de archivo, no las ruinas del palacio de Curtea Veche.",
+    "caption": "Iglesia de San Antonio-Curtea Veche de Bucarest entre árboles nevados. Vista exterior de archivo, no las ruinas del palacio de Curtea Veche.",
+    "author": "Şahin Durmaz",
+    "source": "https://www.pexels.com/photo/curtea-veche-church-between-trees-in-bucharest-romania-10741120/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://biserica-sfantul-anton.ro/"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso turístico interior de Iglesia de San Antonio (Curtea Veche)",
+    "noticeLabel": "Acceso turístico interior de Iglesia de San Antonio (Curtea Veche)",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Templo activo: apertura turística y precio por confirmar. La parada base es exterior; culto no equivale a visita abierta."
+    ]
+   }
+  },
+  {
+   "id": "pasaje_macca",
+   "name": "Pasaje Macca-Vilacrosse",
+   "kind": "walk",
+   "zone": "Casco viejo",
+   "reason": "La galería cubierta en forma de Y de 1891, con techo de vidrio amarillento: antigua sede de la bolsa y hoy pasaje de cafés y fumadores de narguile entre Calea Victoriei y la calle Eugeniu Carada.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.433082,
+    "lon": 26.0990379
+   },
+   "coordinateSource": "Strada Eugeniu Carada (extremo del Pasajul Macca-Vilacrosse; sin nodo propio), București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "Pasaje comercial de acceso libre; algunas reseñas lo dan más cuidado de noche que de día. Coordenada en su extremo de Eugeniu Carada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bucarest/pasaje_macca.jpg",
+    "source": "https://www.flickr.com/photos/stefanjurca/27916202243/",
+    "author": "Stefan Jurca",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Bifurcación y cubierta acristalada del pasaje Macca-Vilacrosse. Foto de archivo; negocios y mobiliario pueden haber cambiado.",
+    "alt": "Dos brazos del pasaje Macca-Vilacrosse bajo cubierta amarilla."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "palacio_cec",
+   "name": "Palacio CEC",
+   "kind": "monument",
+   "zone": "Calea Victoriei",
+   "reason": "La sede de la Caja de Ahorros (1900, estilo Beaux-Arts) con su gran cúpula de vidrio y metal, frente al Museo Nacional de Historia: uno de los edificios-postal de la avenida.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4320131,
+    "lon": 26.096478
+   },
+   "coordinateSource": "Palatul CEC, Calea Victoriei 13, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "Edificio bancario en uso: visita exterior; el interior no es museo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bucarest/palacio_cec.jpg",
+    "alt": "Cúpula de metal y vidrio y entrada del Palacio CEC de Bucarest, vistas desde una calle del casco antiguo. Exterior del banco, no visita interior.",
+    "caption": "Cúpula de metal y vidrio y entrada del Palacio CEC de Bucarest, vistas desde una calle del casco antiguo. Exterior del banco, no visita interior.",
+    "author": "C&M Photography",
+    "source": "https://www.pexels.com/photo/historic-cec-palace-in-bucharest-at-daylight-38040780/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://visitbucharest.today/cec-palace/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "zlatari",
+   "name": "Iglesia Zlătari",
+   "kind": "monument",
+   "zone": "Calea Victoriei",
+   "reason": "La iglesia de los orfebres (1635-1850) en la propia Calea Victoriei: interior con pinturas de Gheorghe Tattarescu y reliquias de San Cipriano; sobrevivió intacta entre los bloques comunista y postcomunista.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4323044,
+    "lon": 26.0976448
+   },
+   "coordinateSource": "Biserica Zlătari, Calea Victoriei, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Sin horario turístico verificado: visita diurna fuera de culto. Acceso turístico, aforo y posible aportación no verificados en primaria; exterior como base y respetar culto, no prometer interior libre.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Parroquia activa; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/bucarest/zlatari-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Zlătari, concepto exterior sin arte sacro inventado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Zlătari, concepto exterior sin arte sacro inventado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso turístico interior de Iglesia Zlătari",
+    "noticeLabel": "Acceso turístico interior de Iglesia Zlătari",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Templo activo: apertura turística y precio por confirmar. La parada base es exterior; culto no equivale a visita abierta."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "museo_historia",
+   "name": "Museo Nacional de Historia de Rumanía",
+   "kind": "museum",
+   "zone": "Calea Victoriei",
+   "reason": "Museo en el antiguo Palacio de Correos. Su oferta publicada presenta Tesoro Histórico, copia de la Columna de Trajano y Lapidarium; confirmar áreas e importe por fecha.",
+   "sourceIds": [
+    "vv",
+    "wp",
+    "mnir"
+   ],
+   "coordinates": {
+    "lat": 44.4314876,
+    "lon": 26.0972086
+   },
+   "coordinateSource": "Muzeul Național de Istorie, Calea Victoriei 12, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Lunes y martes cerrado. Horario de invierno9-17. Portada presenta Tesoro Histórico, copia de Columna y Lapidarium; no prometer todas las colecciones históricas. Tarifa adulta32 lei en página general y10 temporal en aviso de obras aún publicado: confirmar salas e importe.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Miércoles a domingo 9-17; LUNES Y MARTES CERRADO; tienda hasta las 16:15. (Aviso oficial de horario de invierno desde 28-10-2026: 9-17 mié-do.)",
+    "source": "https://www.mnir.ro/"
+   },
+   "price": "Tarifa general publicada: 32 lei adulto,16 jubilado,8 estudiante. Aviso propio10/09/2025 mantiene adulto10 lei hasta acabar obras del Lapidarium; conflicto sin fecha de fin confirmada. Consultar taquilla, no tratar10 ni32 como importe final.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/bucarest/museo_historia-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo Nacional de Historia de Rumanía, concepto exterior sin piezas inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo Nacional de Historia de Rumanía, concepto exterior sin piezas inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo Nacional de Historia, no su fachada",
+    "noticeLabel": "Museo Nacional de Historia, no su fachada",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1,
+     2
+    ],
+    "notices": [
+     "Horario de invierno 9-17 miércoles-domingo. Tres exposiciones permanentes, no recorrido completo por toda la historia nacional. Tarifa adulta en conflicto: general32 lei frente a aviso temporal10 lei hasta terminar obras; confirmar importe y salas."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "plaza_universidad",
+   "name": "Plaza de la Universidad y Kilómetro Cero",
+   "kind": "walk",
+   "zone": "Piața Universității",
+   "reason": "El cruce neurálgico de la ciudad frente a la universidad (1864): escenario de las protestas de 1989 y 1990, con el monumento al Kilómetro Cero (1938) desde el que se miden todas las distancias de Rumanía.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4349679,
+    "lon": 26.1008803
+   },
+   "coordinateSource": "Piața Universității (Kilómetro Cero), București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bucarest/plaza_universidad-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: plaza de la Universidad, concepto urbano. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en plaza de la Universidad, concepto urbano. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "pasaje_ingles",
+   "name": "Pasaje Inglés (Pasajul Englez)",
+   "kind": "walk",
+   "zone": "Calea Victoriei",
+   "reason": "El estrecho pasadizo amarillo de 1855 entre la avenida y el antiguo Hotel English: el primer pasaje de la ciudad, hoy un rincón curioso y algo decadente para cruzar la manzana.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4367459,
+    "lon": 26.0985804
+   },
+   "coordinateSource": "Pasajul Englez, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": "Pasadizo residencial-comercial discreto: visita breve, sin expectativas de galería monumental.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bucarest/pasaje_ingles-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Pasaje Inglés, concepto de pasaje histórico. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Pasaje Inglés, concepto de pasaje histórico. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "plaza_revolucion",
+   "name": "Plaza de la Revolución",
+   "kind": "walk",
+   "zone": "Calea Victoriei",
+   "reason": "Donde cayó Ceaușescu: el balcón del antiguo Comité Central desde el que huyó en helicóptero (21-12-1989), el Memorial del Renacimiento ('la oliva en el palito') y el Ateneo asomando al fondo.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4386572,
+    "lon": 26.0974976
+   },
+   "coordinateSource": "Piața Revoluției, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bucarest/plaza_revolucion.jpg",
+    "alt": "Plaza de la Revolución: estatua ecuestre de Carol I y Biblioteca Central Universitaria detrás. No es la fachada del antiguo Comité Central.",
+    "caption": "Plaza de la Revolución: estatua ecuestre de Carol I y Biblioteca Central Universitaria detrás. No es la fachada del antiguo Comité Central.",
+    "author": "Alexey K.",
+    "source": "https://www.pexels.com/photo/historic-building-and-equestrian-statue-in-bucharest-30699840/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.bcub.ro/ceremonial-militar-la-statuia-regelui-carol-i-cu-ocazia-zilei-independentei-nationale-a-romaniei/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ateneo",
+   "name": "Ateneo Rumano (Ateneul Român)",
+   "kind": "monument",
+   "zone": "Piața George Enescu",
+   "reason": "La sala de conciertos más bella de Rumanía (1888): cúpula de 41 m, fresco circular de 70 m con la historia del país y sede de la Filarmónica Enescu; visitable fuera de horas de concierto.",
+   "sourceIds": [
+    "vv",
+    "wp",
+    "fge"
+   ],
+   "coordinates": {
+    "lat": 44.4413572,
+    "lon": 26.097361
+   },
+   "coordinateSource": "Ateneul Român, Strada Benjamin Franklin, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Visita15 lei, fuera de ensayos/conciertos; entrada de artistas en Benjamin Franklin con efectivo o taquilla de Constantin Esarcu. Noviembre: PDF enlazado como2026 contiene filas2025; no tratarlo como calendario2026 seguro. Diciembre: programa por día sujeto a cambios. No confundir horario de taquilla con visita.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Programa mensual, sujeto a ensayos/conciertos. PDF noviembre2026 tiene cabecera2026 pero filas2025: conflicto sin corregir por inferencia. Diciembre2026 publica días concretos y cierres; confirmar cambios antes de ir.",
+    "source": "https://www.filarmonicaenescu.ro/ro/info-program-bilete"
+   },
+   "price": "Visita turística15 lei según página de información propia. Conciertos son otro producto.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/bucarest/ateneo.jpg",
+    "source": "https://www.pexels.com/photo/cars-in-front-of-majestic-building-12623889/",
+    "author": "Cosmin ChiWu",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada y cúpula del Ateneo Rumano desde la calle. No representa una visita interior o concierto confirmado.",
+    "alt": "Fachada y cúpula del Ateneo Rumano desde la calle. No representa una visita interior o concierto confirmado."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Visita turística del Ateneo Rumano",
+    "noticeLabel": "Visita turística del Ateneo Rumano",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Visita15 lei. Programa de noviembre con año contradictorio(2026cabecera/2025filas), no confirmar horarios. Diciembre tiene calendario fechado, sujeto a ensayos/conciertos."
+    ],
+    "closedDates": [
+     "2026-12-05",
+     "2026-12-06",
+     "2026-12-12",
+     "2026-12-19",
+     "2026-12-20",
+     "2026-12-21",
+     "2026-12-22",
+     "2026-12-23"
+    ],
+    "specialDates": [
+     {
+      "date": "2026-12-01",
+      "text": "Programa de visita publicado para 01/12/2026: 9.00 – 18.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-02",
+      "text": "Programa de visita publicado para 02/12/2026: 9.00 – 9.30 y 14.00 – 16.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-03",
+      "text": "Programa de visita publicado para 03/12/2026: 9.00 – 9.30 y 14.00 – 16.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-04",
+      "text": "Programa de visita publicado para 04/12/2026: 9.00 – 13. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-07",
+      "text": "Programa de visita publicado para 07/12/2026: 9.00 – 9.30 y 14.00 – 15.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-08",
+      "text": "Programa de visita publicado para 08/12/2026: 9.00 – 9.30 y 14.00 – 15.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-09",
+      "text": "Programa de visita publicado para 09/12/2026: 9.00 – 9.30. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-10",
+      "text": "Programa de visita publicado para 10/12/2026: 9.00 – 9.30 y 14.00 – 16.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-11",
+      "text": "Programa de visita publicado para 11/12/2026: 9.00 – 13. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-13",
+      "text": "Programa de visita publicado para 13/12/2026: 9.00 –14.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-14",
+      "text": "Programa de visita publicado para 14/12/2026: 9.00 – 9.30. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-15",
+      "text": "Programa de visita publicado para 15/12/2026: 9.00 – 9.30 y 14.00 – 15.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-16",
+      "text": "Programa de visita publicado para 16/12/2026: 9.00 – 9.30 y 14.00 – 16.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-17",
+      "text": "Programa de visita publicado para 17/12/2026: 9.00 – 9.30 y 14.00 – 16.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-18",
+      "text": "Programa de visita publicado para 18/12/2026: 9.00 – 9.30 y 14.00 – 16.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-24",
+      "text": "Programa de visita publicado para 24/12/2026: 9.00 – 18.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-25",
+      "text": "Programa de visita publicado para 25/12/2026: 9.00 – 18.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-26",
+      "text": "Programa de visita publicado para 26/12/2026: 9.00 – 18.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-27",
+      "text": "Programa de visita publicado para 27/12/2026: 9.00 – 14.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-28",
+      "text": "Programa de visita publicado para 28/12/2026: 9.00 –14.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-29",
+      "text": "Programa de visita publicado para 29/12/2026: 9.00 – 12. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-30",
+      "text": "Programa de visita publicado para 30/12/2026: 9.00 – 18.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     },
+     {
+      "date": "2026-12-31",
+      "text": "Programa de visita publicado para 31/12/2026: 9.00 – 18.00. Sujeto a cambios por ensayos/conciertos; confirmar el mismo día."
+     }
+    ]
+   }
+  },
+  {
+   "id": "cismigiu",
+   "name": "Jardines Cișmigiu",
+   "kind": "park",
+   "zone": "Cișmigiu",
+   "reason": "El parque más antiguo del centro (1847): el lago con barcas en verano (pista de hielo en invierno), la rotonda de los escritores rumanos, el puente de los enamorados y cafés entre plátanos.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4372604,
+    "lon": 26.0906004
+   },
+   "coordinateSource": "Parcul Cișmigiu, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bucarest/cismigiu.jpg",
+    "alt": "Bucarest: paseo y bancos de Cișmigiu junto al monumento de Gheorghe Panu. Foto de archivo, no muestra el lago ni confirma el estado actual de todo el parque.",
+    "caption": "Bucarest: paseo y bancos de Cișmigiu junto al monumento de Gheorghe Panu. Foto de archivo, no muestra el lago ni confirma el estado actual de todo el parque.",
+    "author": "Crina Parasca",
+    "source": "https://unsplash.com/photos/white-statue-in-the-middle-of-the-park-3Wp-rzwXdIU",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "identitySource": "https://www.monumentfor.ro/monument~15~gheroghe-panu"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "unirii",
+   "name": "Plaza Unirii y el Bulevard Unirii",
+   "kind": "walk",
+   "zone": "Piața Unirii",
+   "reason": "El eje monumental del socialismo: el bulevar de 3,5 km 'más largo que los Campos Elíseos' flanqueado de bloques neoclásicos de los 80 y las fuentes de la plaza, con espectáculo de agua y luz en verano.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.428006,
+    "lon": 26.1025098
+   },
+   "coordinateSource": "Piața Unirii, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Las fuentes musicales de Unirii funcionan con espectáculo en temporada cálida (habitualmente fines de semana); fuera de temporada la plaza es solo paseo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bucarest/unirii-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Unirii, bulevar y fuentes imaginadas, no espectáculo programado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Unirii, bulevar y fuentes imaginadas, no espectáculo programado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "templo_coral",
+   "name": "Templo Coral",
+   "kind": "monument",
+   "zone": "Sfânta Vineri",
+   "reason": "La gran sinagoga neomorisca de 1866, la más importante de las que sobrevivieron a los 40: interior rojo y dorado con cúpula estrellada, memorial de la comunidad judía diezmada en el Holocausto.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4310197,
+    "lon": 26.1066534
+   },
+   "coordinateSource": "Templul Coral, Strada Sfânta Vineri, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Sin horario primario verificado: planificar con margen y llevar documento de identidad.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Sinagoga activa; horario de visita no verificado en primaria en esta sesión (confirmar antes de ir; suele requerir identificación).",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/bucarest/templo_coral-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Templo Coral, concepto exterior sin arte sacro inventado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Templo Coral, concepto exterior sin arte sacro inventado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso turístico interior de Templo Coral",
+    "noticeLabel": "Acceso turístico interior de Templo Coral",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Templo activo: apertura turística y precio por confirmar. La parada base es exterior; culto no equivale a visita abierta."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "parlamento",
+   "name": "Palacio del Parlamento (Casa del Pueblo)",
+   "kind": "monument",
+   "zone": "Dealul Spirii",
+   "reason": "Palacio del Parlamento, con visita guiada y reserva previa. El exterior monumental se ve sin comprar el tour; el programa interior depende de la visita contratada.",
+   "sourceIds": [
+    "vv",
+    "wp",
+    "cdep"
+   ],
+   "coordinates": {
+    "lat": 44.4275103,
+    "lon": 26.0872481
+   },
+   "coordinateSource": "Palatul Parlamentului, Strada Izvor 2-4, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Reserva de1-9personas por teléfono24h antes;10+ por email al menos3días antes. Venta presencial no garantiza plaza sin reserva. Revalidar documentación original y normas del control en página de reglas antes de cerrar una visita. No entrada reservada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Visitas guiadas DIARIAS 9:00-17:00; entradas en taquilla (Str. Izvor 2-4, sala Expozitii). DNI o pasaporte ORIGINAL obligatorio.",
+    "source": "https://cic.cdep.ro/en/vizitare"
+   },
+   "price": "Tour estándar:85 lei adulto;55 lei estudiantes19-26 acreditados;40 lei niños7-18;0-6 acompañados gratis. Tour privado hasta35personas3000 lei, producto distinto.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/bucarest/parlamento.jpg",
+    "source": "https://www.pexels.com/photo/palace-of-the-parliament-in-bucharest-romania-32940532/",
+    "author": "Daciana Cristina Visan",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Exterior del Palacio del Parlamento. No muestra salas de la visita guiada ni acredita entrada reservada.",
+    "alt": "Exterior del Palacio del Parlamento. No muestra salas de la visita guiada ni acredita entrada reservada."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Visita guiada del Palacio del Parlamento",
+    "noticeLabel": "Visita guiada del Palacio del Parlamento",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Reserva1-9personas por teléfono24h antes; grupos10+ por email al menos3días. Ventana9-17 no equivale a acceso sin reserva. DNI/pasaporte original y condiciones de control pendientes de revalidar en reglas completas."
+    ]
+   }
+  },
+  {
+   "id": "catedral_nacional",
+   "name": "Catedral Nacional (Mântuirii Neamului)",
+   "kind": "monument",
+   "zone": "Dealul Arsenalului",
+   "reason": "Catedral Nacional detrás del Parlamento. Parada exterior; horario turístico interior, aforo y posible aportación sin verificar. No añade una segunda visita interior garantizada.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4245,
+    "lon": 26.0822
+   },
+   "coordinateSource": "Punto editorial tras el Parlamento (Catedrala Națională, Calea 13 Septembrie 4-60; Nominatim sin nodo propio)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Horario no verificado; coordenada editorial tras el Parlamento (Nominatim sin nodo propio). Acceso turístico, aforo y posible aportación no verificados en primaria; exterior como base y respetar culto, no prometer interior libre.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Horario de visita turística no verificado en primaria en esta sesión (catedrala-nationala.ro).",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior sin verificar",
+   "photo": {
+    "img": "assets/bucarest/catedral_nacional-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Catedral Nacional, concepto exterior, no estado actual de obra o acceso. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Catedral Nacional, concepto exterior, no estado actual de obra o acceso. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso turístico interior de Catedral Nacional (Mântuirii Neamului)",
+    "noticeLabel": "Acceso turístico interior de Catedral Nacional (Mântuirii Neamului)",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Templo activo: apertura turística y precio por confirmar. La parada base es exterior; culto no equivale a visita abierta."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "pasaje_victoria",
+   "name": "Pasaje Victoria (Pasajul Victoria)",
+   "kind": "walk",
+   "zone": "Piața Amzei",
+   "reason": "El pasaje de las paraguas de colores suspendidas: la foto recurrente de Bucarest, un callejón corto con cafés bajo el techo de sombrillas cerca de Piața Amzei.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4523606,
+    "lon": 26.0889102
+   },
+   "coordinateSource": "Pasajul Victoria, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bucarest/pasaje_victoria-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Pasaje Victoria con paraguas imaginados, no promesa de montaje actual. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Pasaje Victoria con paraguas imaginados, no promesa de montaje actual. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "arco_triunfo",
+   "name": "Arco de Triunfo (Arcul de Triumf)",
+   "kind": "monument",
+   "zone": "Piața Arcul de Triumf",
+   "reason": "Arco de Triunfo en el bulevar Kiseleff, con visita exterior. El interior y la terraza requieren apertura y acceso confirmados, no se dan por incluidos.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4671902,
+    "lon": 26.0781271
+   },
+   "coordinateSource": "Arcul de Triumf, București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "El interior solo abre en fechas señaladas puntuales: parada exterior.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bucarest/arco_triunfo.jpg",
+    "source": "https://www.pexels.com/photo/traffic-at-arch-of-triumph-in-bucharest-during-fall-29242186/",
+    "author": "This And No Internet 25",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Arco de Triunfo de Bucarest y tráfico del entorno. Parada exterior; no indica apertura de terraza o museo.",
+    "alt": "Arco de Triunfo de Bucarest en otoño, con tráfico delante."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "herastrau",
+   "name": "Parque Herăstrău (Regele Mihai I)",
+   "kind": "park",
+   "zone": "Herăstrău",
+   "reason": "El parque-jardín junto al lago del mismo nombre: 187 ha con el Museo de la Aldea (Dimitrie Gusti) en su orilla, paseo en barco y los rosales y el parque japonés junto al arco.",
+   "sourceIds": [
+    "vv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.4704925,
+    "lon": 26.0818904
+   },
+   "coordinateSource": "Parcul Herăstrău (Regele Mihai I), București (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "El Museo de la Aldea tiene entrada propia (no verificado en primaria en esta sesión): parada de parque libre; museo opcional.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/bucarest/herastrau-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Herăstrău, lago imaginado en verano. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Herăstrău, lago imaginado en verano. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "therme",
+   "name": "Therme București",
+   "kind": "activity",
+   "zone": "Balotești (norte)",
+   "reason": "Complejo de piscinas y bienestar en Balotești. Galaxy está orientada a familias; The Palm y Elysium tienen condiciones de edad y entradas propias. Elegir zona y duración antes de salir de Bucarest.",
+   "sourceIds": [
+    "vv",
+    "wp",
+    "therme",
+    "therme-hours",
+    "therme-rules",
+    "therme-shop",
+    "therme-reg",
+    "therme-faq"
+   ],
+   "coordinates": {
+    "lat": 44.6054241,
+    "lon": 26.085355
+   },
+   "coordinateSource": "Therme București, Balotești, Ilfov (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 240,
+   "durationType": "editorial-estimate",
+   "caution": "Sustituye una tarde urbana, no se añade a Parlamento y norte. La tienda oficial marca mínimo 14 años para The Palm/Elysium y el reglamento excluye menores de 14; algunas FAQ dicen mayores de 14. Confirmar el caso de 14 años exactos. Hay una excepción para bebés acompañados en The Palm, pero las páginas difieren entre menores de 3 y hasta 3: confirmar si tiene 3 años. Menores de 14 siempre acompañados. Llevar bañador, toalla y chanclas; bebida, alquileres y traslado aparte. Revisar reglas y horario de la fecha.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lu-ju10-23;vi-sá9-24;do9-23. Instalaciones cierran30minantes. Consultar excepciones del día.",
+    "source": "https://www.therme.ro/opening-hours"
+   },
+   "price": "Galaxy3h:71/81 lei adulto; The Palm3h102/117; Elysium3h132/147. Primer precio lun-jue normal; segundo vi-do, festivos y vacaciones escolares. Galaxyniños3-1455/65. Extras10lei/30min; más5h30 pasa a tarifa día.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/bucarest/therme-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Therme, complejo de vidrio imaginado, no reproducción real del edificio ni de sus piscinas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Therme, complejo de vidrio imaginado, no reproducción real del edificio ni de sus piscinas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Zona y duración de Therme, no entrada genérica",
+    "noticeLabel": "Zona y duración de Therme, no entrada genérica",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Edad: tienda oficial indica mínimo 14 años para The Palm/Elysium; reglamento excluye menores de 14 y FAQ dice mayores de 14. Confirmar edad exacta de 14. La excepción infantil de The Palm requiere confirmar la frontera de 3 años. Galaxy: menores de 14 acompañados. Zona, duración, edad y calendario cambian la tarifa."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "sinaia_peles",
+   "name": "Sinaia y el castillo de Peleș",
+   "kind": "excursion",
+   "zone": "Sinaia (Cárpatos, Prahova)",
+   "reason": "Peleș como visita principal en Sinaia solo fuera del cierre documentado. Pelișor y el monasterio tienen accesos propios, no son sustitutos automáticos.",
+   "sourceIds": [
+    "vv",
+    "peles",
+    "peles-current"
+   ],
+   "coordinates": {
+    "lat": 45.3588352,
+    "lon": 25.5437657
+   },
+   "coordinateSource": "Castelul Peleș, Aleea Peleșului, Sinaia (Nominatim; corregido tras homónimo de Trakai, Lituania)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "No elegir el interior de Peleș durante cierre2nov-1dic2026. Pelișor es otro castillo: cierre28sep-3nov2026. Entrada solo día/franja comprados, no cambios ni reembolso ordinarios. Desde aparcamiento hay800m con pendiente, unos10-15min según operador; tren y última milla por fecha pendientes. Fotos interiores publicables solo con autorización escrita según operador: no usarlas como fotos del catálogo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Peleș cerrado2nov-1dic2026 inclusive. Habitual mié10-17, jue-do9:15-17, lun-mar cerrado. Última entrada individual16, venta15:45. Pelișor cierra28sep-3nov2026, tiene billete y último acceso16:15 propios.",
+    "source": "https://peles.ro/en/program-si-taxe/"
+   },
+   "price": "Peleș planta baja+primera:100 lei adulto,50 pensionista,25 alumno/estudiante/European Youth Card. Pelișor30/15/7,50, producto separado. Tarifa propia vigente desde2025; documentos para reducidas.",
+   "visitMode": "interior only outside confirmed closure",
+   "photo": {
+    "img": "assets/transilvania/peles.jpg",
+    "source": "https://www.pexels.com/photo/peles-castle-in-romania-5651718/",
+    "author": "Mika",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Exterior de Peleș. Interior cerrado del 02/11/2026 al 01/12/2026; foto de archivo.",
+    "alt": "Exterior de Peleș. Interior cerrado del 02/11/2026 al 01/12/2026; foto de archivo."
+   },
+   "url": "https://peles.ro/en/program-si-taxe/",
+   "access": "https://peles.ro/en/program-si-taxe/",
+   "closedDates": [
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29",
+    "2026-11-30",
+    "2026-12-01"
+   ],
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Interior de Peleș, no Pelișor ni todo Sinaia",
+    "noticeLabel": "Interior de Peleș, no Pelișor ni todo Sinaia",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1,
+     2
+    ],
+    "closedRanges": [
+     {
+      "start": "2026-11-02",
+      "end": "2026-12-01",
+      "label": "Interior de Peleș cerrado por conservación, no todo Sinaia"
+     }
+    ],
+    "notices": [
+     "Fecha/franja obligatorias; acceso por orden de llegada dentro de la franja. Última entrada individual16. Pelișor es otro producto; no sustituye automáticamente Peleș."
+    ],
+    "standingNotice": "Interior de Peleș cerrado por conservación del 02/11/2026 al 01/12/2026. No implica cierre de todo Sinaia. Pelișor es otra visita con calendario propio."
+   }
+  },
+  {
+   "id": "bran",
+   "name": "Castillo de Bran, con Brașov como opción",
+   "kind": "excursion",
+   "zone": "Bran (Transilvania, Brașov)",
+   "reason": "Visita al castillo de Bran. Añadir Brașov solo si conexiones, acceso y regreso dejan margen; no sumar Peleș ni prometer ambos interiores en una misma jornada.",
+   "sourceIds": [
+    "vv",
+    "bran"
+   ],
+   "coordinates": {
+    "lat": 45.5150774,
+    "lon": 25.3672373
+   },
+   "coordinateSource": "Castelul Bran, Bran, Brașov (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 600,
+   "durationType": "editorial-estimate",
+   "caution": "7noviembre2026 último acceso15. Día largo, sin acumular Peleș y Brașov por defecto. Web propia discrepa2h30/3h30 para tren Bucarest-Brașov y35/45/50min para conexión a Bran: no duración puerta a puerta confirmada ni13lei de bus como tarifa final. Billete estándar100lei adulto no incluye extras de30lei cada uno;5años figura en categorías pagada/gratuita, confirmar límite exacto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Noviembre-marzo: lunes12-18, martes-domingo9-18, horas de última entrada. Excepción7nov2026: último acceso15 por evento privado.",
+    "source": "https://bran-castle.com/pages/plan-your-visit"
+   },
+   "price": "Adulto 100 lei; niños 5-17 40; estudiantes 60; seniors 65+ 70; <5 gratis. Extras: Time Tunnel 30 lei, salas de tortura 30 lei.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/transilvania/bran.jpg",
+    "source": "https://www.pexels.com/photo/historic-bran-castle-in-autumn-sunlight-29344476/",
+    "author": "Alexandru MnM",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Castillo de Bran desde el exterior. No muestra Brașov ni confirma entrada para una fecha.",
+    "alt": "Castillo de Bran desde el exterior. No muestra Brașov ni confirma entrada para una fecha."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Último acceso al castillo de Bran",
+    "noticeLabel": "Último acceso al castillo de Bran",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "specialDates": [
+     {
+      "date": "2026-11-07",
+      "text": "7 noviembre2026: último acceso15 por evento privado, no18 del horario invernal normal."
+     }
+    ],
+    "weekdayNotices": [
+     {
+      "weekday": 1,
+      "text": "Lunes invernal: abre12, última entrada18; no ir a las9."
+     }
+    ],
+    "notices": [
+     "Invierno: martes-domingo desde9, última entrada18. Billete estándar no incluye Time Tunnel ni salas de tortura; documentación para descuentos."
+    ]
+   }
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "El casco viejo y su historia, sin entrar a Curtea Veche",
+     "zone": "Lipscani → Cărturești Carusel → Stavropoleos → Curtea Veche → San Antonio → Pasaje Macca-Vilacrosse",
+     "stopIds": [
+      "lipscani",
+      "carturesti",
+      "stavropoleos",
+      "curtea_veche",
+      "san_antonio",
+      "pasaje_macca"
+     ],
+     "editorialNote": "Librería y paseos peatonales. Curtea Veche cerrado: contexto desde calles públicas solo si visible, no visita de ruinas. SanAntonio es otra parada del conjunto, no otra gran visita. Iglesias interiores solo si se confirma acceso turístico."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "El casco viejo y su historia, sin entrar a Curtea Veche",
+     "zone": "Lipscani → Cărturești Carusel → Stavropoleos → Curtea Veche → San Antonio → Pasaje Macca-Vilacrosse",
+     "stopIds": [
+      "lipscani",
+      "carturesti",
+      "stavropoleos",
+      "curtea_veche",
+      "san_antonio",
+      "pasaje_macca"
+     ],
+     "editorialNote": "Librería y paseos peatonales. Curtea Veche cerrado: contexto desde calles públicas solo si visible, no visita de ruinas. SanAntonio es otra parada del conjunto, no otra gran visita. Iglesias interiores solo si se confirma acceso turístico."
+    },
+    {
+     "title": "Calea Victoriei: del tesoro dacio al Ateneo",
+     "zone": "Palacio CEC → Zlătari → Museo Nacional de Historia → Plaza de la Universidad (Km 0) → Pasaje Inglés → Plaza de la Revolución → Ateneo → Cișmigiu",
+     "stopIds": [
+      "palacio_cec",
+      "zlatari",
+      "museo_historia",
+      "plaza_universidad",
+      "pasaje_ingles",
+      "plaza_revolucion",
+      "ateneo",
+      "cismigiu"
+     ],
+     "editorialNote": "La avenida monumental de sur a norte: ojo, el Museo de Historia cierra LUNES Y MARTES (reordenar días si toca); el Ateneo solo se visita fuera de conciertos (confirmar ese mismo día); cierre en los jardines de Cișmigiu. Museo es una visita principal; Ateneo interior solo si agenda permite y puede sustituirla, no dos entradas garantizadas. Cișmigiu opcional según luz y energía."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "El casco viejo y su historia, sin entrar a Curtea Veche",
+     "zone": "Lipscani → Cărturești Carusel → Stavropoleos → Curtea Veche → San Antonio → Pasaje Macca-Vilacrosse",
+     "stopIds": [
+      "lipscani",
+      "carturesti",
+      "stavropoleos",
+      "curtea_veche",
+      "san_antonio",
+      "pasaje_macca"
+     ],
+     "editorialNote": "Librería y paseos peatonales. Curtea Veche cerrado: contexto desde calles públicas solo si visible, no visita de ruinas. SanAntonio es otra parada del conjunto, no otra gran visita. Iglesias interiores solo si se confirma acceso turístico."
+    },
+    {
+     "title": "Calea Victoriei: del tesoro dacio al Ateneo",
+     "zone": "Palacio CEC → Zlătari → Museo Nacional de Historia → Plaza de la Universidad (Km 0) → Pasaje Inglés → Plaza de la Revolución → Ateneo → Cișmigiu",
+     "stopIds": [
+      "palacio_cec",
+      "zlatari",
+      "museo_historia",
+      "plaza_universidad",
+      "pasaje_ingles",
+      "plaza_revolucion",
+      "ateneo",
+      "cismigiu"
+     ],
+     "editorialNote": "La avenida monumental de sur a norte: ojo, el Museo de Historia cierra LUNES Y MARTES (reordenar días si toca); el Ateneo solo se visita fuera de conciertos (confirmar ese mismo día); cierre en los jardines de Cișmigiu. Museo es una visita principal; Ateneo interior solo si agenda permite y puede sustituirla, no dos entradas garantizadas. Cișmigiu opcional según luz y energía."
+    },
+    {
+     "title": "Parlamento y norte urbano, sin apilar Therme",
+     "zone": "Unirii → Parlamento → Catedral Nacional exterior → Arco de Triunfo → Herăstrău",
+     "stopIds": [
+      "unirii",
+      "parlamento",
+      "catedral_nacional",
+      "arco_triunfo",
+      "herastrau"
+     ],
+     "editorialNote": "Mañana: Parlamento con reserva24h antes y documento físico, catedral exterior opcional. Tarde: traslado al norte, arco exterior y parque con luz. Alternativa de tarde: Therme sustituye arco+parque y requiere margen de traslado y 3-4,5h dentro. TemploCoral yPasajeVictoria opcionales, no se apilan. En invierno reducir paseo según luz."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Ateneo de noviembre con año contradictorio y MNIR con tarifas en conflicto. Revisión del usuario pendiente; no publicado.",
+  "Museo Nacional de Historia: LUNES Y MARTES cerrado; precio no publicado en la web oficial (no afirmar cifra).",
+  "Parlamento: SOLO con tour guiado y DNI/pasaporte FÍSICO; 85 lei adulto; sin documento no hay acceso.",
+  "Ateneo: visita solo fuera de conciertos/ensayos, sin franja fija publicada; pago en efectivo en la entrada de músicos.",
+  "Peleș: horarios/tarifas con ventanas fechadas 2024 en la web oficial: confirmar temporada vigente (verano martes solo tour básico; invierno lunes y martes cerrados).",
+  "Iglesias (Stavropoleos, San Antonio, Zlătari), Templo Coral y Catedral Nacional: sin horario turístico primario; visitas diurnas fuera de culto (Templo Coral: llevar identificación).",
+  "Therme: precios verificados (desde 71 lei Galaxy 3 h lu-jue) pero HORARIO no capturado; shuttle/taxi aparte.",
+  "Trenes CFR (Sinaia ~1 h 30, Brașov ~2 h 30): duraciones de fuente secundaria; las páginas de ruta de CFR son dinámicas, confirmar en bilete.cfrcalatori.ro.",
+  "Visitas: 12 fotos reales y 12 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Nada reservado.",
+  "Peleș2nov-1dic2026cerrado: no confiar en calendario2024.",
+  "CurteaVechecerrado y enobras; no entrada a ruinas."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vv",
+   "title": "Verviajando: Qué ver en Bucarest, 22 lugares imprescindibles",
+   "url": "https://verviajando.com/que-ver-en-bucarest-imprescindibles/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Bucarest y lugares",
+   "url": "https://es.wikipedia.org/wiki/Bucarest",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cdep",
+   "title": "Palacio del Parlamento: visitas y tarifas",
+   "url": "https://cic.cdep.ro/en/vizitare",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mnir",
+   "title": "Museo Nacional de Historia de Rumanía: programa",
+   "url": "https://www.mnir.ro/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fge",
+   "title": "Filarmónica Enescu: visita del Ateneo Rumano",
+   "url": "https://filarmonicaenescu.ro/en/vizitarea-ateneului-roman",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "therme",
+   "title": "Therme București: admission prices",
+   "url": "https://www.therme.ro/admission-prices",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "peles",
+   "title": "Peleș National Museum: opening hours (ventanas 2024)",
+   "url": "https://en.peles.ro/opening-hours/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bran",
+   "title": "Bran Castle: plan your visit",
+   "url": "https://bran-castle.com/pages/plan-your-visit",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "peles-current",
+   "title": "Peleș · tarifas/horario/cierres2026",
+   "url": "https://peles.ro/en/program-si-taxe/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "curtea-museum",
+   "title": "MuseoMunicipal · CurteaVechecerrado",
+   "url": "https://muzeulbucurestiului.ro/en/the-old-princely-court-museum.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "curtea-works",
+   "title": "Ayuntamiento19oct2026 · trabajos3meses",
+   "url": "https://www2.pmb.ro/pmb/comunicate/comunicat_presa.php?msj=2316",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "therme-hours",
+   "title": "Therme · horario",
+   "url": "https://www.therme.ro/opening-hours",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "therme-rules",
+   "title": "Therme · reglas",
+   "url": "https://www.therme.ro/rules-regulations",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mnir-tariffs",
+   "url": "https://www.mnir.ro/tarife-mnir/",
+   "title": "MNIR tarifa general32lei",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mnir-temporary",
+   "url": "https://www.mnir.ro/modificare-tarif-de-acces-adulti/",
+   "title": "MNIR aviso10lei temporal2025 aún publicado",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "athenaeum-details",
+   "url": "https://www.filarmonicaenescu.ro/ro/info-program-bilete",
+   "title": "Ateneo precio15lei y programas mensuales",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "athenaeum-dec",
+   "url": "https://documente.filarmonicaenescu.ro/ateneu/Romana/Program%20de%20vizitare%20decembrie%202026.pdf",
+   "title": "Ateneo diciembre2026 calendario",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "athenaeum-nov",
+   "url": "https://documente.filarmonicaenescu.ro/ateneu/Romana/Program%20de%20vizitare%20noiembrie%202026.pdf",
+   "title": "Ateneo noviembre cabecera2026 filas2025 conflicto",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "therme-shop",
+   "title": "Therme: selector oficial, edad mínima por zona",
+   "url": "https://therme.ro/shop/wizard",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "therme-reg",
+   "title": "Therme: reglamento y menores",
+   "url": "https://therme.ro/regulament",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "therme-faq",
+   "title": "Therme: preguntas frecuentes y excepciones infantiles",
+   "url": "https://www.therme.ro/frequently-asked-questions",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

@@ -1,0 +1,106 @@
+{
+ "schemaVersion": 1,
+ "cityId": "burdeos",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "tupina",
+   "name": "La Tupina",
+   "address": "6 Rue Prte de la Monnaie, 33800 Bordeaux, France",
+   "description": "Cocina del sudoeste en torno a la chimenea: magret, sanguette o macaronade. Comida de tradición y porciones generosas, no una parada ligera de tapas.",
+   "strength": "Michelin destaca asados, sanguette y macaronade, no solo fama. Carta propia permite una comida regional hacia Saint-Michel, con plato vegetariano separado aunque buena parte de la cocina usa pato, cerdo o foie.",
+   "alert": "Carta: magret 29 €, macaronade 30 €, postres 10-12 €. Unos 51-71 € por entrada+principal+postre sin bebida, estimación editorial.",
+   "caution": "Carta actual: entrada 12-26 € salvo caviar, principales 19 € vegetariano/29-49 € otros, postres 10-12 €, menú clásico 72 €. El menú semanal 23 € solo almuerzo excepto sábados/domingos/festivos; platos mostrados 27-30 octubre 2026 ya pasados, no menú de hoy garantizado. Horario propio extraído completo: martes-domingo 12-14 y 19-22, lunes solo 19-22. El texto legible resumido omite lunes noche, confirmado en HTML y Michelin. Pollo relleno contiene cerdo, fritas grasa de pato, macaronade nata/lard/foie, plato vegetariano cacahuete: consultar alergias, no garantías dietéticas. Nada reservado.",
+   "officialUrl": "https://www.latupina.com/menu",
+   "editorialUrl": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/bordeaux/restaurant/la-tupina",
+   "sourceUrls": [
+    "https://www.latupina.com/contact",
+    "https://www.latupina.com/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Tupina&query_place_id=ChIJdXlS4jQmVQ0RbiwkjMD9C88",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta/horarios propios y dirección Maps verificados; sin mesa ni disponibilidad futura comprobadas.",
+   "priceLabel": "51-71 € entrada+principal+postre sin bebida (estimación de carta); menú clásico 72 €.",
+   "photo": {
+    "img": "assets/burdeos/tupina-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Setas, ingredientes y olla imaginados de cocina del sudoeste francés. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Setas, ingredientes y olla imaginados de cocina del sudoeste francés. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "compactPrice": "51-71 € sin bebida estimados; menú72 €.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "vin-expo",
+   "name": "Cité du Vin: exposición y Belvédère",
+   "address": "134 Quai de Bacalan, 33300 Bordeaux, France",
+   "description": "Exposición interactiva sobre cultura del vino y copa final en Belvédère según billete. Es la misma visita del día 3, no otra actividad para duplicarla.",
+   "duration": "2-3 h según operador, sustituye bloque cultural principal.",
+   "alert": "23 € adulto fechado con una copa; 27 € con dos. No incluye Via Sensoria ni talleres. No reembolso ordinario; cambio de fecha solo bajo gestión del centro.",
+   "caution": "Billete open 28/32 € con 1/2 copas y fechado 23/27 €, niño 6-17 9 € fechado, pack 2+2 56 €. Multimedia 9 idiomas incluido español. FAQ permite solicitar cambio fecha llamando 0556162020, mientras CGV 4.1 dice no cambio/reembolso salvo excepciones: no prometer cambio garantizado ni gratis. 25 diciembre cerrado, 24 diciembre hasta 16, 25-31 enero 2027 cierre anunciado en homepage. No compra ni sesión reservada. Imagen parcial con barco delante, barco no incluido.",
+   "officialUrl": "https://www.laciteduvin.com/fr/info",
+   "sourceUrls": [
+    "https://www.laciteduvin.com/fr/faq",
+    "https://www.laciteduvin.com/fr/conditions-generales-de-vente-en-ligne-de-billets",
+    "https://www.laciteduvin.com/fr"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cit%C3%A9+du+Vin&query_place_id=ChIJnc9nRcQnVQ0RGtHWztxMV0E",
+   "priceLabel": "23 € adulto fechado/28 € open con una copa, según propio; talleres aparte.",
+   "photo": {
+    "img": "assets/burdeos/citeduvin.jpg",
+    "alt": "Cité du Vin · foto de archivo",
+    "author": "Anthony Levrot",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bordeaux_-_33100_-_2026.07.04_-_Le_Bato_-_Inter-Rives_Bordeaux_-_%C2%AB_La_Fauvette_%C2%BB_devant_la_Cit%C3%A9_du_Vin_%C2%A9_Anthony_Levrot.jpg",
+    "caption": "Cité du Vin al fondo y barco en primer plano, archivo. No incluye paseo en barco."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Tarifas, inclusiones y discrepancia FAQ/CGV leídas; no compra ni disponibilidad por fecha.",
+   "compactDuration": "2-3 h",
+   "compactAlert": "23 € fechado con una copa. Sin reembolso ordinario; cambio de fecha no garantizado.",
+   "photoPending": false
+  },
+  {
+   "id": "bassins-expo",
+   "name": "Bassins des Lumières: exposición inmersiva elegida",
+   "address": "Imp. Brown de Colstoun, 33300 Bordeaux, France",
+   "description": "Proyecciones sobre los estanques de la antigua base submarina. Alternativa a Cité du Vin, no un segundo museo obligatorio al final del mismo día.",
+   "duration": "1-1 h 15 según operador, más traslado y espera.",
+   "alert": "16 € adulto. La experiencia cambia por día: en 2-8 noviembre 2026 no todos días son Matisse/Kahlo. Última entrada 1 h antes, tarjeta solo.",
+   "caution": "Semana 2-8 noviembre 2026: Matisse/Kahlo mar/jue/vie 10-18; Dinosaurios lun/mié/dom 10-18 y sáb 10-20. No calendario anual ni exposición de foto 2024 garantizados. La ficha general permite intercambio hasta 24 h antes por 2 € por billete, no reembolso libre anunciado. Reserva online muy recomendada. Frío invierno; revisar sensibilidad a imagen/sonido/oscuridad y necesidades antes comprar, no accesibilidad total inferida. Transporte propio: bus 5 Bassins à Flot + 700 m pie o Tram C Ravezies + bus 9 Base Sous-Marine + 500 m pie, verificar servicio por fecha. Foto 2024 archivo.",
+   "officialUrl": "https://www.bassins-lumieres.com/fr/visiter/informations-pratiques/horaires",
+   "sourceUrls": [
+    "https://www.bassins-lumieres.com/fr/visiter/horaires-tarifs",
+    "https://www.bassins-lumieres.com/fr/visiter/informations-pratiques/acces"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bassins+des+Lumi%C3%A8res&query_place_id=ChIJpyY--JApVQ0RqUfd4KL6kX8",
+   "priceLabel": "16 € adulto, 15 € sénior 65+, 9 € 6-25; 43 € familia 2+2 según ficha.",
+   "photo": {
+    "img": "assets/burdeos/bassins.jpg",
+    "alt": "Bassins des Lumières · foto de archivo",
+    "author": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bassins_de_Lumi%C3%A8res_Boreaux_2024_(1).jpg",
+    "caption": "Proyección de archivo de 2024 en Bassins des Lumières. La experiencia actual cambia por día."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Calendario semanal actual, tarifas/política ficha y acceso verificados, no sesión reservada.",
+   "compactDuration": "1-1 h 15 + traslado",
+   "compactAlert": "16 €. Programa cambia por día; último acceso 1 h antes. Solo tarjeta.",
+   "photoPending": false
+  }
+ ]
+}

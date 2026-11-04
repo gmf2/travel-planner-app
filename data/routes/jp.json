@@ -1,0 +1,264 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "JP",
+ "country": "Japón",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "routes": [
+  {
+   "id": "jp-classic",
+   "title": "Japón: ciudades, Alpes y Miyajima · 15 días",
+   "scope": "Tokio, Takayama, Kioto, Koyasan, Osaka, Hiroshima y Miyajima con regreso a Tokio. Ruta de primera visita, no recorre Hokkaido, Kyushu ni Okinawa.",
+   "pace": "Llegada y salida incluidas. Los traslados tienen su propio espacio en el día; no son jornadas completas de visitas.",
+   "assumptions": "Propuesta editorial sin fecha elegida, reservas, precios ni disponibilidad. Revisar entrada al país, seguridad y transporte antes de viajar.",
+   "sources": [
+    {
+     "id": "route",
+     "title": "Itinerario de referencia",
+     "url": "https://www.japan-guide.com/e/e2400_tokyo_13.html"
+    },
+    {
+     "id": "takayama",
+     "title": "Japan Guide: acceso Takayama vía Nagoya o Toyama",
+     "url": "https://www.japan-guide.com/e/e5908.html"
+    },
+    {
+     "id": "nankai",
+     "title": "Nankai: Koyasan, conexión de cablecar y bus",
+     "url": "https://www.nankai.co.jp/en_railway/traffic/station/koyasan.html"
+    },
+    {
+     "id": "rinkan",
+     "title": "Rinkan Bus: mapa, paradas y horarios de Koyasan",
+     "url": "https://rinkan.co.jp/global/en/timetable/"
+    },
+    {
+     "id": "miyajima",
+     "title": "JNTO: acceso a Miyajima desde Hiroshima",
+     "url": "https://www.japan.travel/en/destinations/chugoku/hiroshima/miyajima/"
+    },
+    {
+     "id": "hiroshima",
+     "title": "JNTO: acceso ferroviario Hiroshima",
+     "url": "https://www.japan.travel/en/destinations/chugoku/hiroshima/"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Tokio",
+     "overnight": "Tokio",
+     "stops": [
+      "Llegada y paseo cerca del alojamiento"
+     ],
+     "transfer": "Narita → Tokio. Día de llegada flexible.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Tokio urbano",
+     "overnight": "Tokio",
+     "stops": [
+      "Asakusa y Senso-ji",
+      "Ueno como opción cercana"
+     ],
+     "transfer": "Traslados urbanos; selección editorial dentro de los cuatro días en Tokio de la fuente.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Tokio contemporáneo",
+     "overnight": "Tokio",
+     "stops": [
+      "Shibuya",
+      "Harajuku y entorno de Meiji-jingu"
+     ],
+     "transfer": "Traslados urbanos; no añadir excursión fuera de la ciudad el mismo día.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Excursión a Kamakura",
+     "overnight": "Tokio",
+     "stops": [
+      "Templos de Kamakura",
+      "Paseo por el centro"
+     ],
+     "transfer": "Tren de ida y vuelta desde Tokio. Excursión propuesta por la fuente; horarios por elegir.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Excursión a Nikko",
+     "overnight": "Tokio",
+     "stops": [
+      "Conjunto de santuarios de Nikko"
+     ],
+     "transfer": "Tren de ida y vuelta. Reservar margen de regreso, sin combinar con Kamakura.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Tokio → Takayama",
+     "overnight": "Takayama",
+     "stops": [
+      "Casco histórico de Takayama"
+     ],
+     "transfer": "Tokio→Nagoya en Tokaido Shinkansen y Hida Limited Express→Takayama: unas 4,5 h orientativas según Japan Guide; equipaje y transbordo aparte. Alternativa vía Toyama con conexiones más limitadas; no intercambiar corredores sin consultar horario.",
+     "sourceIds": [
+      "route",
+      "takayama"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Takayama → Kioto",
+     "overnight": "Kioto",
+     "stops": [
+      "Mañana en Takayama",
+      "Llegada a Kioto"
+     ],
+     "transfer": "Unas 3,5 h según Japan Guide. La tarde se dedica al traslado.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Kioto: este histórico",
+     "overnight": "Kioto",
+     "stops": [
+      "Higashiyama",
+      "Kiyomizu-dera",
+      "Gion"
+     ],
+     "transfer": "Jornada por el este; selección editorial para no cruzar toda la ciudad.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Kioto: oeste",
+     "overnight": "Kioto",
+     "stops": [
+      "Arashiyama",
+      "Tenryu-ji si encaja"
+     ],
+     "transfer": "Traslado al oeste de Kioto. No combinar con varios templos distantes.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "Excursión a Nara",
+     "overnight": "Kioto",
+     "stops": [
+      "Parque de Nara",
+      "Todai-ji como visita principal"
+     ],
+     "transfer": "Tren de ida y vuelta desde Kioto. Mantener equipaje en la misma base.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "Kioto → Koyasan",
+     "overnight": "Koyasan",
+     "stops": [
+      "Templos y paseo por Koyasan",
+      "Alojamiento en templo, solo si se elige y reserva"
+     ],
+     "transfer": "Kioto → Osaka/Namba → Gokurakubashi en Nankai → cablecar a Koyasan → bus al pueblo/templo. La referencia estima unas 3 h en total, no tren directo. Elegir combinación y hora de llegada del alojamiento antes de fijar visitas.",
+     "sourceIds": [
+      "route",
+      "nankai",
+      "rinkan"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Koyasan → Osaka",
+     "overnight": "Osaka",
+     "stops": [
+      "Mañana en Koyasan",
+      "Paseo de tarde por Osaka"
+     ],
+     "transfer": "Bus del pueblo → Koyasan Station → cablecar a Gokurakubashi → Nankai hacia Namba/Osaka. Referencia de unas 2 h, sumar acceso al hotel y esperas. No usar un bus interregional estacional como equivalente a este regreso.",
+     "sourceIds": [
+      "route",
+      "nankai",
+      "rinkan"
+     ]
+    },
+    {
+     "day": 13,
+     "title": "Osaka → Hiroshima → Miyajima",
+     "overnight": "Miyajima",
+     "stops": [
+      "Parque de la Paz de Hiroshima",
+      "Miyajima por la tarde"
+     ],
+     "transfer": "Osaka → Shin-Osaka → Hiroshima en Shinkansen (unas 2 h de referencia, no servicio elegido). Tras el Parque de la Paz, JR Sanyo Line Hiroshima → Miyajimaguchi unos 30 min y ferry unos 10 min según JNTO; caminata y esperas aparte. Confirmar hora de llegada/cena de Miyajima; museo de la Paz solo si cabe.",
+     "sourceIds": [
+      "route",
+      "hiroshima",
+      "miyajima"
+     ]
+    },
+    {
+     "day": 14,
+     "title": "Miyajima → Himeji → Tokio",
+     "overnight": "Tokio",
+     "stops": [
+      "Mañana en Miyajima",
+      "Castillo de Himeji si se reserva margen"
+     ],
+     "transfer": "Fuente: unas 2 h a Himeji y 3-4 h después a Tokio. Jornada larga de transporte; Himeji es opcional si conexiones o equipaje no encajan.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 15,
+     "title": "Salida desde Tokio",
+     "overnight": null,
+     "stops": [
+      "Salida según vuelo"
+     ],
+     "transfer": "Tokio → aeropuerto. Alojamiento la noche anterior en Tokio para no enlazar un tramo interurbano largo el mismo día.",
+     "sourceIds": [
+      "route"
+     ]
+    }
+   ]
+  }
+ ],
+ "photo": {
+  "img": "assets/routes/jp.jpg",
+  "name": "Kioto · templo Kiyomizu-dera",
+  "source": "https://www.flickr.com/photos/hyougushi/69579953/",
+  "author": "Hyougushi",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "caption": "Foto de archivo; recorte de presentación. No representa todas las etapas de la ruta."
+ },
+ "verificationLimits": [
+  "15 días/14 noches editoriales. Duraciones orientativas, no billetes ni conexiones protegidas. Presupuesto, entradas y alojamientos pendientes.",
+  "Koyasan requiere tren, cablecar y bus. Confirmar último bus y hora de llegada del shukubo elegido; no hay alojamiento reservado.",
+  "Día 14 Miyajima-Himeji-Tokio muy largo. Himeji es opcional, no una promesa de interior; sin margen se omite y se prioriza dormir en Tokio.",
+  "JNTO publica tasa de visitante de Miyajima de 100 JPY, además del transporte. Exenciones e importe para la fecha por confirmar; no es el precio del ferry ni el total del día."
+ ]
+}

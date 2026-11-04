@@ -1,0 +1,164 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "BD",
+ "country": "Bangladesh",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Solo Daca, Sonargaon y Sreemangal/Lawachara. No Sylhet fronterizo, Sundarbans, Chittagong Hill Tracts, frontera Myanmar ni isla San Martín.",
+ "verificationLimits": [
+  "MAEC aconseja extrema precaución especialmente fuera de principales ciudades. Excluir zonas de alto riesgo no certifica seguridad del corredor de Sreemangal.",
+  "El programa del operador dice todo el año; no se adopta como garantía frente a inundaciones, protestas o cierres. Verificar condiciones y permisos para fecha.",
+  "Sin presupuesto ni disponibilidad, visado según pasaporte, y horarios de museos/áreas naturales pendientes de fecha concreta.",
+  "Exteriores indica que españoles procedentes de España deben tramitar visado previo en la Embajada de Bangladesh en Madrid; on-arrival puede ser rechazado. No asumir entrada por llevar pasaporte español."
+ ],
+ "routes": [
+  {
+   "id": "bd-regional",
+   "title": "Daca, Sonargaon y Sreemangal · 7 días",
+   "scope": "Solo Daca, Sonargaon y Sreemangal/Lawachara. No Sylhet fronterizo, Sundarbans, Chittagong Hill Tracts, frontera Myanmar ni isla San Martín.",
+   "pace": "7 días / 6 noches: Daca 3, Sreemangal 2, Daca 1. Dos jornadas de carretera largas, no ritmo cómodo universal.",
+   "assumptions": "Adaptación editorial reducida del circuito Cholo de 7 días: se omite Sylhet y varios ríos para separar traslados. Conductor/guía local y estado de rutas comprobados para fecha. No trenes ni barcos nocturnos, visitas comunitarias solo con consentimiento; nada contratado.",
+   "sources": [
+    {
+     "id": "op",
+     "title": "Cholo Bangladesh Tours · Dhaka, Sonargaon y Sreemangal",
+     "url": "https://cholobangladeshtours.com/7-day-bangladesh-cultural-tour/"
+    },
+    {
+     "id": "official",
+     "title": "Bangladesh Tourism Board · región de Sylhet y Lawachara",
+     "url": "https://beautifulbangladesh.gov.bd/loc/sylhet"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Bangladesh",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Bangladesh"
+    },
+    {
+     "id": "dhaka-palace",
+     "title": "Bangladesh Tourism Board · Ahsan Manzil",
+     "url": "https://beautifulbangladesh.gov.bd/district-destination/dhaka/heritage/3"
+    },
+    {
+     "id": "dhaka-temple",
+     "title": "Bangladesh Tourism GIS · Dhakeshwari y Lalbagh",
+     "url": "https://gis.beautifulbangladesh.gov.bd/spot/dhakeshwari_temple"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Daca",
+     "overnight": "Daca",
+     "stops": [
+      "Recepción y descanso"
+     ],
+     "transfer": "Traslado DAC-hotel con conductor organizado. Tráfico puede consumir horas; sin visita obligatoria al centro antiguo tras vuelo.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Daca histórico con guía",
+     "overnight": "Daca",
+     "stops": [
+      "Lalbagh o Ahsan Manzil según calendario",
+      "Dhakeshwari y entorno solo si condiciones permiten"
+     ],
+     "transfer": "Vehículo con conductor y guía local, itinerario urbano reducido. No ferry público, barca por astilleros ni rickshaw obligatorio. Confirmar acceso y evitar aglomeraciones/protestas.",
+     "sourceIds": [
+      "op",
+      "maec",
+      "dhaka-palace",
+      "dhaka-temple"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Sonargaon desde Daca",
+     "overnight": "Daca",
+     "stops": [
+      "Panam Nagar",
+      "Museo de arte popular o Boro Sardar Bari según horario"
+     ],
+     "transfer": "Excursión por carretera de ida/vuelta con conductor. No repetir 50 min del operador como garantía: Exteriores advierte tráfico y trayectos lentos. Sin barca Meghna ni visita a isla añadidas; regresar de día.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Daca a Sreemangal",
+     "overnight": "Sreemangal",
+     "stops": [
+      "Jornada de traslado",
+      "Jardín de té cercano solo si queda margen y permiso"
+     ],
+     "transfer": "Operador estima 5-7 h por carretera, no tren nocturno ni tiempo garantizado. Conductor, vehículo y estado de vía confirmados antes, de día. No añadir Sonargaon o bosque al largo traslado.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Sreemangal y entorno",
+     "overnight": "Sreemangal",
+     "stops": [
+      "Jardines de té con permiso",
+      "Lawachara con guía y acceso confirmado como opción",
+      "Descanso o té local según preferencias"
+     ],
+     "transfer": "Misma base con traslados locales. Visitas a comunidades solo con consentimiento, no exposición turística de habitantes. Elegir bosque o visita cultural, sin cascada Hum Hum ni región fronteriza añadida. Condiciones y permisos por verificar para fecha.",
+     "sourceIds": [
+      "op",
+      "official",
+      "maec"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Regreso a Daca",
+     "overnight": "Daca",
+     "stops": [
+      "Jornada de carretera y descanso"
+     ],
+     "transfer": "Regreso de día por corredor confirmado con operador. Usar la referencia 5-7 h solo como orden de magnitud, no garantía en sentido contrario. Noche en Daca antes de vuelo. Sin lanzamiento de barco nocturno a Barisal ni salto a otra región.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Salida desde Daca",
+     "overnight": null,
+     "stops": [
+      "Traslado a DAC"
+     ],
+     "transfer": "Antelación amplia según hotel, vuelo y tráfico. Noche previa en Daca; no regreso desde Sreemangal ese mismo día.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores pide extrema precaución, evitar aglomeraciones y no viajar a Chittagong Hill Tracts, frontera Myanmar ni isla San Martín. Desaconseja transporte público en general y señala carreteras peligrosas, sobre todo de noche. Esta ruta con conductor no elimina esos riesgos: verificar condiciones, seguridad y vehículo antes. Inundaciones/ciclones, dengue y contaminación pueden alterar el viaje. Sanidad limitada fuera de Daca, seguro amplio con evacuación. Exteriores aconseja hotel con buenos estándares en Gulshan, Baridhara, Banani o zona próxima al aeropuerto y vehículo con conductor de máxima garantía contratado, preferentemente, mediante hotel de calidad. Esto no elimina riesgo vial o de cortes.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Bangladesh"
+ },
+ "photo": {
+  "img": "assets/routes/bd.jpg",
+  "name": "Jardín de té de Sreemangal",
+  "source": "https://commons.wikimedia.org/wiki/File:Sreemangal_tea_garden_2017-08-20.jpg",
+  "author": "Mar11",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "caption": "Foto de archivo de 2017. No confirma permiso de entrada, actividad actual ni condiciones de carretera."
+ }
+}

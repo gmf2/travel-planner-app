@@ -1,0 +1,86 @@
+{
+ "schemaVersion": 1,
+ "cityId": "cinqueterre",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "manarola_billy",
+   "name": "Trattoria dal Billy · pescado y pasta en Manarola",
+   "address": "Via Aldo Rollandi 122, Manarola; coincide en Maps y Frommer's, sin confirmación propia recuperada.",
+   "description": "Opción de comida pausada en la parte alta de Manarola: menú propio con anchoas saladas, entrante mixto de mar, tagliolini con marisco y pimientos, y trofie al pesto. Frommer’s destaca el entrante y el ambiente familiar para una ocasión especial; Katie Parla lo describe en 2010, una referencia histórica de gusto y no prueba de apertura actual.",
+   "compactDescription": "Manarola alta: entrante de mar, tagliolini con marisco o trofie al pesto. Comida pausada, no parada rápida.",
+   "priceLabel": "La carta propia leída no publica precios. Presupuesto de comida completa, bebidas y coperto pendientes de confirmar; no se inventa un precio por plato ni un rango actual.",
+   "compactPrice": "Precio de comida completa por confirmar; carta propia sin importes.",
+   "officialUrl": "https://www.trattoriabilly.com/menu/",
+   "editorialUrl": "https://www.frommers.com/destinations/the-cinque-terre/restaurants/trattoria-dal-billy/",
+   "sourceUrls": [
+    "https://www.trattoriabilly.com/",
+    "https://katieparla.com/cinque-terre-wrap-up/"
+   ],
+   "strength": "Cocina ligur de mar y pasta propia; coincidencia de platos concretos entre carta y crítica. No se atribuye estrella Michelin ni se promete terraza.",
+   "statusEvidence": "Carta y home propias leídas; Frommer’s sitúa el local en Via Aldo Rollandi 122 y publica viernes-miércoles 12:00-15:00/19:00-23:00, pero no se recuperó horario propio actual. Katie Parla es de 2010, solo apoyo de gusto histórico.",
+   "alert": "Precio, apertura de la fecha y cierre estacional pendientes. Ubicación Maps comprobada. Manarola alta: confirmar acceso y reserva, no apurar el último tren.",
+   "compactAlert": "Precio y apertura para fecha sin confirmar. Manarola alta; acceso con desnivel por comprobar.",
+   "caution": "No hay reserva. La terraza pequeña es solicitada según Frommer’s, no mesa garantizada. Confirmar restricciones alimentarias, escaleras, servicios, último tren, cancelación o garantía de tarjeta antes de reservar. Trofie propio lleva frutos secos y queso; no asumir aptitud para alergias ni dieta vegana.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/cinqueterre/manarola_billy-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes y costa ligures imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes y costa ligures imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Trattoria+dal+Billy&query_place_id=ChIJbZ0m85r61BIRbvsmTzPMtdM",
+   "placeId": "ChIJbZ0m85r61BIRbvsmTzPMtdM",
+   "lat": 44.1066904,
+   "lng": 9.7292119,
+   "locationCheckedAt": "2026-11-03",
+   "locationEvidence": "Ficha Maps coincide en nombre y dirección. Solo ubicación, no validación de horario, apertura futura, carta o accesibilidad.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "manarola_pesto_nessun",
+   "name": "Nessun Dorma · pesto con mortero en Manarola",
+   "address": "Terraza Nessun Dorma, Manarola (Cinque Terre)",
+   "description": "Taller en inglés para hacer pesto con hojas de albahaca y mortero de mármol, seguido de comida y cata de vino blanco de Cinque Terre. El operador incluye burrata, jamón y bruschetta; anuncia alternativas vegetarianas/veganas con aviso. Es actividad de cocina y comida, no un paseo guiado por los cinco pueblos.",
+   "compactDescription": "Pesto en mortero en Manarola, con comida y vino. Actividad distinta del recorrido de pueblos.",
+   "duration": "La página de experiencia indica 2 h 30 min; reservas/FAQ dicen 2 h más comida. Dejar unas 3 h como margen editorial, más acceso y tren, y confirmar fin real.",
+   "compactDuration": "2 h + comida; dejar unas 3 h más acceso, no hora final garantizada.",
+   "priceLabel": "Publicado 85 €/persona, con taller, comida, cata y delantal. Más comida/vino se paga aparte. FAQ: menores de 6 gratis y 6-9 mitad; edad de 10 años y condiciones concretas no claras, confirmar. No precio final de una reserva.",
+   "compactPrice": "85 €/persona publicados; comida y cata incluidas, extras aparte.",
+   "officialUrl": "https://www.nessundormacinqueterre.com/pestoexperience",
+   "sourceUrls": [
+    "https://www.nessundormacinqueterre.com/pestobooking",
+    "https://www.nessundormacinqueterre.com/faqexpe"
+   ],
+   "statusEvidence": "Precio 85 € coincide en experiencia y reservas. Horarios difieren: reservas publica 13:45/17:00 en temporada; FAQ 13:30/17:00 con otros días. No se adopta calendario fijo ni disponibilidad. Duración no idéntica entre páginas.",
+   "alert": "En caso de lluvia se cancela el taller de pesto. Horas/días discrepan entre páginas propias: comprobar sesión y temporada. Acceso por sendero y escaleras; cocina pequeña con riesgo de contaminación cruzada.",
+   "compactAlert": "Lluvia: se cancela pesto. Horarios propios contradictorios, confirmar sesión. Escaleras y posible contaminación cruzada.",
+   "caution": "Clase en inglés. FAQ ofrece cancelación gratis en cualquier momento desde la app y pide avisar por email; no explica plazo/forma de reembolso ni qué devuelve tras cancelación por lluvia, confirmar antes de pagar. No se ha reservado ni comprobado sesión. No asumir aptitud ante alergias. No añadir otra comida simultánea al plan.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/cinqueterre/manarola_pesto_nessun-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Pesto y litoral imaginados, no cocina, receta o vista real de Nessun Dorma. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Pesto y litoral imaginados, no cocina, receta o vista real de Nessun Dorma. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ]
+}

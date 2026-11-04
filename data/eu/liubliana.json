@@ -1,0 +1,882 @@
+{
+ "schemaVersion": 1,
+ "country": "SI",
+ "id": "liubliana",
+ "name": "Liubliana",
+ "localName": "Ljubljana",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "preseren",
+   "name": "Plaza Prešeren (Prešernov trg)",
+   "kind": "walk",
+   "zone": "Ribera del Ljubljanica",
+   "reason": "Plaza de entrada al casco, con el monumento a Prešeren y la fachada franciscana junto al Puente Triple.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.0513764,
+    "lon": 14.5059895
+   },
+   "coordinateSource": "Prešernov trg, Ljubljana (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/liubliana/preseren.jpg",
+    "source": "https://www.pexels.com/photo/ljubljana-s-vibrant-city-square-38723052/",
+    "author": "Zak Mogel",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Plaza Prešeren con la fachada franciscana y visitantes. Vista exterior de verano, no garantiza aforo o actividad en la fecha.",
+    "alt": "Plaza Prešeren con la fachada franciscana y visitantes. Vista exterior de verano, no garantiza aforo o actividad en la fecha."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "triple",
+   "name": "Puente Triple (Tromostovje)",
+   "kind": "walk",
+   "zone": "Ribera del Ljubljanica",
+   "reason": "Cruce peatonal de tres puentes sobre el Ljubljanica, entre la plaza Prešeren y el casco histórico.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.0511325,
+    "lon": 14.5062101
+   },
+   "coordinateSource": "Tromostovje, Stritarjeva ulica, Ljubljana (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/liubliana/triple.jpg",
+    "source": "https://www.pexels.com/photo/triple-bridge-on-river-in-ljubljana-20107277/",
+    "author": "Brett Bennett",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Puente Triple sobre el Ljubljanica y fachada franciscana al fondo. Vista exterior, sin acreditar una actividad reservada.",
+    "alt": "Puente Triple sobre el Ljubljanica y fachada franciscana al fondo. Vista exterior, sin acreditar una actividad reservada."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral de San Nicolás",
+   "kind": "monument",
+   "zone": "Centro histórico",
+   "reason": "Catedral de San Nicolás, con frescos barrocos y puertas de bronce. Interior turístico solo dentro de su horario y fuera de los actos religiosos.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.0507631,
+    "lon": 14.5082522
+   },
+   "coordinateSource": "Stolnica sv. Nikolaja, Dolničarjeva ulica, Ljubljana (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "El horario turístico propio discrepa entre idiomas los viernes y domingos. Confirmar la franja final, no confundir horario de culto con visita turística ni asumir entrada gratis.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Parroquia:lun/mié/jue/sáb 11-18,mar 14-18;vie textoSLhasta 18:30/ENhasta 18. DomingoSL 13:30-15/17-18 vsEN 13:30-15:30/17-18. Primer viecierra 14:30-17,primer sáb 15:30-17. Confirmar día yevento.",
+    "source": "https://stolnica.si/home/delovni-cas/"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/liubliana/catedral.jpg",
+    "source": "https://www.flickr.com/photos/jlascar/11992595764",
+    "author": "Jorge Láscar",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Nave y frescos interiores de la catedral de San Nicolás. Fotografía histórica, sin garantizar apertura turística o acceso durante culto. Recorte de presentación; original bajo CC BY 2.0.",
+    "alt": "Nave y frescos interiores de la catedral de San Nicolás. Fotografía histórica, sin garantizar apertura turística o acceso durante culto."
+   },
+   "accessRules": {
+    "scope": "Visita turística catedral de San Nicolás",
+    "noticeLabel": "Visita turística catedral de San Nicolás",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "nthWeekdayNotices": [
+     {
+      "weekday": 5,
+      "occurrence": 1,
+      "text": "Primer viernes: cierre turístico 14:30-17. Horario final del viernes discrepa por idioma; confirmar."
+     },
+     {
+      "weekday": 6,
+      "occurrence": 1,
+      "text": "Primer sábado: cierre turístico 15:30-17. No es cierre de todo el día."
+     }
+    ],
+    "weekdayNotices": [
+     {
+      "weekday": 2,
+      "text": "Martes: visita turística 14-18; no interior turístico por la mañana."
+     },
+     {
+      "weekday": 0,
+      "text": "Domingo: visita turística 13:30-15 en esloveno o 15:30 en inglés, y 17-18. Confirmar la franja de tarde; no acceso durante culto."
+     }
+    ],
+    "notices": [
+     "Horario turístico propio y actos pueden cambiar acceso. No se ha verificado gratuidad."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "mercado",
+   "name": "Mercado Central (Vodnikov trg)",
+   "kind": "market",
+   "zone": "Ribera del Ljubljanica",
+   "reason": "Mercado al aire libre, espacios cubiertos y columnata junto al río. Mejor como parada de mañana en un día de mercado.",
+   "sourceIds": [
+    "vc",
+    "vlj"
+   ],
+   "coordinates": {
+    "lat": 46.0511785,
+    "lon": 14.5095602
+   },
+   "coordinateSource": "Vodnikov trg, Ljubljana (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Domingo cerrado al completo: mover la visita al mercado a otro día si el itinerario cae en domingo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Al aire libre: verano Lu-Vi 6-18 y sáb 6-16; invierno Lu-Sá 6-16; DOMINGOS Y FESTIVOS CERRADO. Cubierto: Lu-Vi 7-16, sáb 7-14. Open Kitchen (Odprta kuhna): viernes desde mediados de marzo hasta fin de octubre.",
+    "source": "https://www.visitljubljana.com/en/poi/central-market"
+   },
+   "price": "Entrada libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/liubliana/mercado.jpg",
+    "source": "https://www.flickr.com/photos/franganillo/34368373344",
+    "author": "Jorge Franganillo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Puestos y productos del Mercado Central de Liubliana. No garantiza que opere en la fecha o que exista la misma oferta. Recorte de presentación; original bajo CC BY 2.0.",
+    "alt": "Puestos y productos del Mercado Central de Liubliana. No garantiza que opere en la fecha o que exista la misma oferta."
+   },
+   "accessRules": {
+    "scope": "Puestos del Mercado Central, no paseo exterior",
+    "noticeLabel": "Puestos del Mercado Central, no paseo exterior",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     0
+    ],
+    "notices": [
+     "Horario de cada espacio distinto. No se garantiza mercado en festivos; el paseo exterior no equivale a puestos abiertos."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "dragones",
+   "name": "Puente de los Dragones (Zmajski most)",
+   "kind": "walk",
+   "zone": "Trubarjeva",
+   "reason": "Puente sobre el río con sus figuras de dragones. Una parada exterior breve dentro del paseo de ribera.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.0519324,
+    "lon": 14.5104135
+   },
+   "coordinateSource": "Zmajski most, Resljeva cesta, Ljubljana (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/liubliana/dragones.jpg",
+    "source": "https://www.pexels.com/photo/dragon-bridge-and-ljubljana-cityscape-33490399/",
+    "author": "Nimród Fekete",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Vista del Puente de los Dragones desde el río. No muestra todos los dragones ni un paseo en barco incluido.",
+    "alt": "Vista del Puente de los Dragones desde el río. No muestra todos los dragones ni un paseo en barco incluido."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "carniceros",
+   "name": "Puente de los Carniceros (Mesarski most)",
+   "kind": "walk",
+   "zone": "Ribera del Ljubljanica",
+   "reason": "Pasarela entre el mercado y la ribera de Petkovškovo, con esculturas y candados en las barandillas.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.0517051,
+    "lon": 14.5088012
+   },
+   "coordinateSource": "Mesarski most, Petkovškovo nabrežje, Ljubljana (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/liubliana/carniceros-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: puente de los Carniceros, concepto del paseo fluvial. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en puente de los Carniceros, concepto del paseo fluvial. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "castillo",
+   "name": "Castillo de Liubljana (Ljubljanski grad)",
+   "kind": "monument",
+   "zone": "Colina del Castillo",
+   "reason": "Castillo sobre la colina: elegir patio exterior o entrada a torre, museos y contenidos del producto comprado. Funicular y recinto tienen horarios distintos.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "grad"
+   ],
+   "coordinates": {
+    "lat": 46.0487819,
+    "lon": 14.5085383
+   },
+   "coordinateSource": "Ljubljanski grad, Grajski grič, Ljubljana (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Tarifa propia revalidada: Castle Ticket 15 € adulto o 19 € con funicular. La última compra de entrada es una hora antes de cerrar el castillo, no una regla universal de último acceso. En noviembre, recinto 9-18 y funicular 9-19. Patio exterior y salas son productos distintos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abierto 365 días. Ene-abr y oct-dic: funicular 9-19, castillo 9-18; may-sep: funicular 9-22, castillo 9-20. 31 dic hasta las 17:00; 1 ene desde las 10:00. Última entrada 1 h antes del cierre.",
+    "source": "https://ljubljanskigrad.si/en/plan-your-visit/opening-hours/"
+   },
+   "price": "Castle Ticket: 15 € adulto o 19 € con funicular. Niños 7-18, estudiantes y jubilados: 10,50 € o 13,50 €. Familia: 36 € o 46 €. El producto guiado y la audioguía tienen otra tarifa.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/liubliana/castillo.jpg",
+    "alt": "Castillo de Liubliana: acceso exterior entre sus muros y la torre redonda. Foto de julio de 2022, no confirma horarios o acceso actuales.",
+    "caption": "Castillo de Liubliana: acceso exterior entre sus muros y la torre redonda. Foto de julio de 2022, no confirma horarios o acceso actuales.",
+    "author": "Lajos Kristóf Kántor",
+    "source": "https://www.pexels.com/photo/ljubljana-castle-in-summer-historic-architecture-39119133/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.ljubljanskigrad.si/en/why-to-the-castle/castle-spaces/"
+   },
+   "accessRules": {
+    "scope": "Castillo y funicular, horarios distintos",
+    "noticeLabel": "Castillo y funicular, horarios distintos",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "specialDates": [
+     {
+      "date": "2026-12-31",
+      "text": "31 de diciembre: castillo y funicular cierran a las 17. Compra de entrada hasta una hora antes del cierre."
+     }
+    ],
+    "notices": [
+     "Noviembre-diciembre: castillo9-18 y funicular9-19, salvo31diciembre. Última compra de entrada una hora antes de cerrar el castillo."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "centrohistorico",
+   "name": "Cascos antiguos: Stari trg y Mestni trg",
+   "kind": "walk",
+   "zone": "Centro histórico",
+   "reason": "Stari trg y Mestni trg, calles del casco bajo la colina con fachadas y terrazas. La Fuente Robba de la plaza es una copia; el original se visita en la Galería Nacional.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.0508,
+    "lon": 14.507
+   },
+   "coordinateSource": "Centro histórico ribereño entre Tromostovje y Mesarski most (punto editorial)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/liubliana/centrohistorico.jpg",
+    "alt": "Casco histórico de Liubliana junto al río, con las fachadas y el castillo en la colina. No es una vista completa de Stari trg y Mestni trg.",
+    "caption": "Casco histórico de Liubliana junto al río, con las fachadas y el castillo en la colina. No es una vista completa de Stari trg y Mestni trg.",
+    "author": "Zak Mogel",
+    "source": "https://www.pexels.com/photo/charming-ljubljana-old-town-with-castle-view-38723040/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.visitljubljana.com/en/visitors/sights-and-activities/explore-the-ljubljana-old-town"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "neboticnik",
+   "name": "Café Nebotičnik",
+   "kind": "viewpoint",
+   "zone": "Centro",
+   "reason": "Café y terraza de Nebotičnik para tomar algo con vistas a la ciudad. Comprobar acceso a la terraza, clima y servicio, sin mesa reservada.",
+   "sourceIds": [
+    "vc",
+    "neb"
+   ],
+   "coordinates": {
+    "lat": 46.0531631,
+    "lon": 14.5035858
+   },
+   "coordinateSource": "Nebotičnik, Štefanova ulica 1, Ljubljana (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lunes 9-22; martes a sábado 9-24; domingos y festivos 12-22.",
+    "source": "https://www.neboticnik.si/kavarna/"
+   },
+   "price": "Sin entrada: consumición de café.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/liubliana/neboticnik-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Nebotičnik, concepto de vista desde una terraza. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Nebotičnik, concepto de vista desde una terraza. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "tivoli",
+   "name": "Parque Tivoli",
+   "kind": "park",
+   "zone": "Tivoli",
+   "reason": "Paseo por el parque Tivoli y su eje Jakopič. Elegir un tramo acorde al tiempo disponible, sin convertirlo en una caminata larga obligatoria.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.0551457,
+    "lon": 14.4957283
+   },
+   "coordinateSource": "Park Tivoli, Ljubljana (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/liubliana/tivoli-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: parque Tivoli, paseo imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en parque Tivoli, paseo imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "nacional",
+   "name": "Museo Nacional de Eslovenia",
+   "kind": "museum",
+   "zone": "Tivoli",
+   "reason": "Sede central Muzejska del Museo Nacional, con arqueología, objetos históricos y lapidario. No confundirla con la sede Metelkova ni tratar toda colección como siempre expuesta.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "nms"
+   ],
+   "coordinates": {
+    "lat": 46.0519026,
+    "lon": 14.499565
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Narodni+muzej+Slovenije&query_place_id=ChIJUVnncGctZUcRNP6omC_a9Z0",
+   "coordinateMethod": "maps-place",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Sede Muzejska, no Metelkova. Adulto 8 € una sede o 10 € ambas; reducida 4/6 €. La ficha de admisión dice familia 16/17 €, pero la tienda Muzejska dice 15 €: precio familiar pendiente de confirmar. Primer domingo gratis salvo grandes temporales. Entrada accesible desde Prešernova 20 según sede.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Sede Muzejska: DIARIA 10-18, jueves hasta las 20:00. Cerrado 1 ene, 1 may, 1 nov y 25 dic. (La sede de Metelkova cierra los lunes.)",
+    "source": "https://www.nms.si/en/plan-your-visit/opening-hours-and-contact"
+   },
+   "price": "8 € adulto una sede, 10 € Muzejska+Metelkova; 4/6 € estudiantes y jubilados. Familia: conflicto 15 € en tienda frente a 16 € en admisión para una sede; confirmar.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/liubliana/nacional-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo Nacional de Eslovenia, concepto exterior sin piezas inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo Nacional de Eslovenia, concepto exterior sin piezas inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "accessRules": {
+    "scope": "Museo Nacional, sede Muzejska",
+    "noticeLabel": "Museo Nacional, sede Muzejska",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedMonthDays": [
+     "01-01",
+     "05-01",
+     "11-01",
+     "12-25"
+    ],
+    "specialDates": [
+     {
+      "date": "2026-12-24",
+      "text": "Muzejska 10-15 el 24 diciembre."
+     },
+     {
+      "date": "2026-12-31",
+      "text": "Muzejska 10-15 el 31 diciembre."
+     }
+    ]
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "galeria",
+   "name": "Galería Nacional (Narodna galerija)",
+   "kind": "museum",
+   "zone": "Tivoli",
+   "reason": "La pinacoteca nacional: del gótico esloveno y los frescos barrocos a los impresionistas eslovenos (Grohar, Jakopič), con la Fuente Robba original rescatada del ayuntamiento y una sala de arte europeo.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "ng"
+   ],
+   "coordinates": {
+    "lat": 46.0540237,
+    "lon": 14.5002606
+   },
+   "coordinateSource": "Narodna galerija, Puharjeva ulica 9, Ljubljana (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Lunesyfestivosseleccionados cerrado;24/31 diccierra 15,últimaentrada 30 minantes. Guardarbolsos>A 4 yabrigos. Primerdomingo gratuito colecciónpermanente, no asumir temporal/tourincluido.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes a domingo 10-18, jueves hasta las 20:00; LUNES CERRADA; también 1 ene, 1 may, 1 nov y 25 dic.",
+    "source": "https://www.ng-slo.si/en/visit-us/opening-hours-and-entrance-fee"
+   },
+   "price": "Colección permanente 10€ (6€ reducida, familia 20€); temporal 6€/4€/12€; combinada 14€/8€/28€. Primer domingo de mes gratis.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/liubliana/galeria-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Galería Nacional de Eslovenia, concepto exterior sin obras inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Galería Nacional de Eslovenia, concepto exterior sin obras inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "accessRules": {
+    "scope": "Interior Galería Nacional",
+    "noticeLabel": "Interior Galería Nacional",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "closedMonthDays": [
+     "01-01",
+     "05-01",
+     "11-01",
+     "12-25"
+    ],
+    "specialDates": [
+     {
+      "date": "2026-12-24",
+      "text": "Galería cierra a las 15; última entrada 14:30."
+     },
+     {
+      "date": "2026-12-31",
+      "text": "Galería cierra a las 15; última entrada 14:30."
+     }
+    ]
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "metelkova",
+   "name": "Metelkova Mesto",
+   "kind": "walk",
+   "zone": "Metelkova",
+   "reason": "Paseo exterior por el centro cultural de Metelkova, con murales y esculturas. Los locales y eventos tienen sus propias condiciones.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.0569137,
+    "lon": 14.5169257
+   },
+   "coordinateSource": "Metelkova, Masarykova cesta, Ljubljana (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "Espacio cultural con locales/eventos y usos cotidianos: paseo exterior respetuoso, interiores/sesiones con acceso yprecio propios. No garantizar acceso 24 h ni recomendar noche como universalmente mejor/segura.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/liubliana/metelkova.jpg",
+    "source": "https://www.flickr.com/photos/129231073@N06/48754242383",
+    "author": "Fred Romero",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Patio y fachadas de AKC Metelkova. Arte exterior de la fecha de la fotografía, sujeto a cambios; no incluye acceso a locales o eventos. Recorte de presentación; original bajo CC BY 2.0.",
+    "alt": "Patio y fachadas de AKC Metelkova. Arte exterior de la fecha de la fotografía, sujeto a cambios; no incluye acceso a locales o eventos."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "bled",
+   "name": "Lago Bled y su castillo",
+   "kind": "excursion",
+   "zone": "Bled (Alta Carniola)",
+   "reason": "Jornada en Bled: paseo de orilla y castillo, o alternativa de barca e isla con precio y tiempo separados. No se suman todas las opciones por defecto.",
+   "sourceIds": [
+    "vc",
+    "bledgrad"
+   ],
+   "coordinates": {
+    "lat": 46.3697035,
+    "lon": 14.1005205
+   },
+   "coordinateSource": "Blejski grad, Grajska cesta, Bled (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 480,
+   "durationType": "editorial-estimate",
+   "caution": "Elegir lago+castillo o barca+isla, no apilar vuelta completa y todas las entradas. Castillo en invierno 8-18; descuentos acreditados solo en taquilla. La página de tarifas publicada mantiene validez desde 2025, sin fecha de fin. Confirmar precio final antes de comprar.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Castillo abierto todos los días del año, incluidos festivos: abr-oct 8-20; nov-mar 8-18.",
+    "source": "https://www.blejski-grad.si/en/plan-your-visit/opening-hours/"
+   },
+   "price": "Castillo: 19 € adulto, 11,50 € estudiante, 16 € sénior 65+/discapacidad, 7 € niño según categoría publicada, hasta 6 gratis. La página vigente conserva fecha de validez 1 enero 2025. Barca/isla/iglesia aparte, no precio comprobado.",
+   "visitMode": "Excursión día completo con transporte separado",
+   "photo": {
+    "img": "assets/liubliana/bled.jpg",
+    "source": "https://www.pexels.com/photo/bled-castle-overlooking-lake-in-summer-20107292/",
+    "author": "Brett Bennett",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Lago Bled y castillo sobre el acantilado, vista desde la orilla en verano. No muestra interior ni garantiza tiempo o transporte.",
+    "alt": "Lago Bled y castillo sobre el acantilado, vista desde la orilla en verano. No muestra interior ni garantiza tiempo o transporte."
+   },
+   "accessRules": {
+    "scope": "Castillo de Bled, no paseo del lago",
+    "noticeLabel": "Castillo de Bled, no paseo del lago",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Noviembre-marzo: horario publicado8-18; eventos fuera de horario no incluidos. Transporte de ida y regreso por fecha, sin reserva."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "postojna",
+   "name": "Cuevas de Postojna y castillo Predjama",
+   "kind": "excursion",
+   "zone": "Postojna (Carniola Interior)",
+   "reason": "Visita de la cueva de Postojna, con tren y tramos a pie. Predjama es un segundo recinto que solo se añade con traslado y hora de regreso comprobados.",
+   "sourceIds": [
+    "vc",
+    "postojna"
+   ],
+   "coordinates": {
+    "lat": 45.7827107,
+    "lon": 14.2038553
+   },
+   "coordinateSource": "Postojnska jama, Postojna (Nominatim)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 480,
+   "durationType": "editorial-estimate",
+   "caution": "Cueva con franja fija: llegar 30 minutos antes al parque y 15 al embarque según condiciones publicadas. Shuttle solo para billete combinado, sujeto a disponibilidad, 2 € ida/vuelta. No se ha confirmado salida de noviembre. Sin traslado concreto, mantener cueva sola. Frío y marcha a pie; revisar horario y billete por fecha.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abierto 365 días; visita de cueva confranja. Tablaactualhorariosseleccionables requiererevisiónvisual, no todashorasdelencabezadoactivas. Predjamaticketúltima 30 minantescierre.",
+    "source": "https://www.postojnska-jama.eu/en/"
+   },
+   "price": "Tienda propia: cueva34,90 € adulto, combinado con Predjama49,90 €; estudiante16-25:27,80/39,90 €, niño6-15:20,70/29,90 €, hasta5:1/2 €. Belén viviente45 € adulto, producto distinto. No franja seleccionada.",
+   "visitMode": "Excursión día completo con transporte separado",
+   "photo": {
+    "img": "assets/liubliana/postojna.jpg",
+    "source": "https://www.pexels.com/photo/stunning-stalactites-and-stalagmites-in-postojna-cave-35391002/",
+    "author": "Carlo Giovanni Ghiardelli",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Formaciones interiores de la cueva de Postojna. No representa Predjama ni todo el recorrido, sin entrada reservada.",
+    "alt": "Formaciones interiores de la cueva de Postojna. No representa Predjama ni todo el recorrido, sin entrada reservada."
+   },
+   "accessRules": {
+    "scope": "Cueva de Postojna y traslado a Predjama",
+    "noticeLabel": "Cueva de Postojna y traslado a Predjama",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Predjama solo con traslado ida/vuelta verificado. Shuttle publicado2 € ida/vuelta para billete combinado, sujeto a disponibilidad, no confirmado en noviembre. Cueva y Belén de Navidad pueden tener productos distintos."
+    ]
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "El Ljubljanica: plazas, puentes y mercado",
+     "zone": "Prešernov trg → Puente Triple → Catedral → Mercado Central → Puente de los Carniceros → Puente de los Dragones",
+     "stopIds": [
+      "preseren",
+      "triple",
+      "catedral",
+      "mercado",
+      "carniceros",
+      "dragones"
+     ],
+     "editorialNote": "Puentes y ribera a pie; mercado por la mañana y no domingo. Catedral abre para turismo desde 11, martes desde 14 y domingo en franjas de tarde. Comprobar culto y accesibilidad de recintos."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "El Ljubljanica: plazas, puentes y mercado",
+     "zone": "Prešernov trg → Puente Triple → Catedral → Mercado Central → Puente de los Carniceros → Puente de los Dragones",
+     "stopIds": [
+      "preseren",
+      "triple",
+      "catedral",
+      "mercado",
+      "carniceros",
+      "dragones"
+     ],
+     "editorialNote": "Puentes y ribera a pie; mercado por la mañana y no domingo. Catedral abre para turismo desde 11, martes desde 14 y domingo en franjas de tarde. Comprobar culto y accesibilidad de recintos."
+    },
+    {
+     "title": "La colina del castillo y el casco viejo",
+     "zone": "Stari trg y Mestni trg → Castillo → Café Nebotičnik",
+     "stopIds": [
+      "centrohistorico",
+      "castillo",
+      "neboticnik"
+     ],
+     "editorialNote": "Calles del casco y subida a la colina. En noviembre, castillo cierra 18 y funicular 19; última compra de entrada una hora antes del cierre del castillo. Nebotičnik es pausa opcional de consumición, con acceso y terraza por comprobar."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "El Ljubljanica: plazas, puentes y mercado",
+     "zone": "Prešernov trg → Puente Triple → Catedral → Mercado Central → Puente de los Carniceros → Puente de los Dragones",
+     "stopIds": [
+      "preseren",
+      "triple",
+      "catedral",
+      "mercado",
+      "carniceros",
+      "dragones"
+     ],
+     "editorialNote": "Puentes y ribera a pie; mercado por la mañana y no domingo. Catedral abre para turismo desde 11, martes desde 14 y domingo en franjas de tarde. Comprobar culto y accesibilidad de recintos."
+    },
+    {
+     "title": "La colina del castillo y el casco viejo",
+     "zone": "Stari trg y Mestni trg → Castillo → Café Nebotičnik",
+     "stopIds": [
+      "centrohistorico",
+      "castillo",
+      "neboticnik"
+     ],
+     "editorialNote": "Calles del casco y subida a la colina. En noviembre, castillo cierra 18 y funicular 19; última compra de entrada una hora antes del cierre del castillo. Nebotičnik es pausa opcional de consumición, con acceso y terraza por comprobar."
+    },
+    {
+     "title": "Tivoli y un museo, Metelkova opcional",
+     "zone": "Parque Tivoli → Museo Nacional → Galería Nacional → Metelkova",
+     "stopIds": [
+      "tivoli",
+      "nacional"
+     ],
+     "editorialNote": "Tivoli y un museo principal: Nacional en sede Muzejska. Galería Nacional es alternativa, no segunda visita obligatoria. Metelkova queda como paseo exterior opcional con traslado propio.",
+     "optionalStopIds": [
+      "galeria",
+      "metelkova"
+     ]
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Visitas: 10 fotos reales y 5 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Catedral: página primaria turística leída; viernes y domingo discrepan según idioma. Confirmar horario final y precio, no se presume gratis.",
+  "Mercado cerrado domingo; horarios de cada espacio distintos, festivos por confirmar.",
+  "Castillo: última compra una hora antes del cierre, no último acceso universal. Funicular con horario distinto.",
+  "National Museum: Muzejska abre lunes, no confundir con Metelkova. Precio familiar discrepante entre tienda y admisión.",
+  "Postojna: tabla de horarios propia existe; elegir franja. Shuttle2 € ida/vuelta sujeto a disponibilidad para combinado, no servicio de noviembre garantizado.",
+  "Nada reservado; traslados por fecha y retorno pendientes."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en Liubliana",
+   "url": "https://www.viajeroscallejeros.com/que-ver-en-liubliana/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Liubliana y lugares",
+   "url": "https://es.wikipedia.org/wiki/Liubliana",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "grad",
+   "title": "Ljubljanski grad: opening hours y price list",
+   "url": "https://ljubljanskigrad.si/en/plan-your-visit/opening-hours/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ng",
+   "title": "Narodna galerija: opening hours and entrance fee",
+   "url": "https://www.ng-slo.si/en/visit-us/opening-hours-and-entrance-fee",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "nms",
+   "title": "Narodni muzej Slovenije: opening hours y admission",
+   "url": "https://www.nms.si/en/plan-your-visit/opening-hours-and-contact",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "postojna",
+   "title": "Postojnska jama: web oficial (apertura diaria, tarifas)",
+   "url": "https://www.postojnska-jama.eu/en/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bledgrad",
+   "title": "Blejski grad: opening hours y price list",
+   "url": "https://www.blejski-grad.si/en/plan-your-visit/price-list/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vlj",
+   "title": "Visit Ljubljana: Central Market (horarios)",
+   "url": "https://www.visitljubljana.com/en/poi/central-market",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "neb",
+   "title": "Nebotičnik: kavarna (horarios del café)",
+   "url": "https://www.neboticnik.si/kavarna/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cat-primary",
+   "title": "Catedral horarios con diferencias SL/EN",
+   "url": "https://stolnica.si/home/delovni-cas/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "post-times",
+   "title": "Postojna horarios activos",
+   "url": "https://www.postojnska-jama.eu/en/information/tour-timetables/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "post-shuttle",
+   "title": "Postojna shuttle",
+   "url": "https://www.postojnska-jama.eu/en/information/shuttle-bus/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bled-bus",
+   "title": "Bled turismo buses",
+   "url": "https://www.bled.si/en/information/how-to-get-to-bled/20190920131931/by-bus/",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

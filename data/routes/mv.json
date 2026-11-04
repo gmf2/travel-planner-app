@@ -1,0 +1,197 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "MV",
+ "country": "Maldivas",
+ "reviewedAt": "2026-11-02",
+ "status": "preview",
+ "coverageScope": "Dos islas locales con bases y noches de enlace en Malé; no es una ruta de resorts.",
+ "verificationLimits": [
+  "Seleccionar servicios y plazas con ambos operadores antes de reservar alojamientos. La ruta indica enlaces, no salidas confirmadas para un día futuro.",
+  "IMUGA se presenta gratis dentro de las 96 horas previas al vuelo de llegada según el formulario oficial, no al menos 96 horas antes. Consultar requisitos personales de entrada.",
+  "Alojamiento registrado y reserva confirmada de toda la estancia según Immigration. No se ha reservado nada.",
+  "Barcos y actividades marinas dependen del mar; no se dan por garantizados ni se incluyen tarifas antiguas."
+ ],
+ "routes": [
+  {
+   "id": "mv-islas-locales-9",
+   "title": "Malé, Maafushi y Fulidhoo · 9 días",
+   "scope": "Islas locales Malé, Maafushi y Fulidhoo. No resorts ni atolones lejanos. Los enlaces entre islas se hacen vía Malé con noches de tránsito, no ferry directo no contrastado.",
+   "pace": "9 días / 8 noches: Malé 1, Maafushi 3, Malé 1, Fulidhoo 2, Malé 1. Días de barco separados de la salida internacional.",
+   "assumptions": "Adaptación editorial del circuito de Life of Doing, ampliada de 7 a 9 días para no depender de un enlace directo Maafushi-Fulidhoo sin confirmar y para regresar a Malé el día anterior al vuelo. iCom respalda Malé-Maafushi; Dream Speed ofrece Malé/Fulidhoo como puertos. Antes de reservar noches hay que elegir servicios reales, embarcaderos y tiempos según fecha y mar. No se incluyen precios ni billetes.",
+   "sources": [
+    {
+     "id": "fuenteM1",
+     "title": "A Memorable 1 Week Maldives Itinerary on the Local Islands (Life of Doing, editorial privada)",
+     "url": "https://lifeofdoing.com/1-week-maldives-itinerary/"
+    },
+    {
+     "id": "maecMV",
+     "title": "MAEC - Recomendaciones de viaje Maldivas",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=maldivas"
+    },
+    {
+     "id": "icom",
+     "title": "iCom Tours · horarios Malé-Maafushi y aeropuerto",
+     "url": "https://www.icomtours.com/schedules"
+    },
+    {
+     "id": "dream",
+     "title": "Dream Speed · puertos Malé y Fulidhoo",
+     "url": "https://dreamspeedmaldives.com/"
+    },
+    {
+     "id": "visit",
+     "title": "Turismo Maldivas · islas locales y transporte",
+     "url": "https://visitmaldives.com/en/experience/pick-a-direction-in-maldives-and-lets-go"
+    },
+    {
+     "id": "imuga",
+     "title": "Maldives Immigration · declaración gratuita dentro de 96h",
+     "url": "https://imuga.immigration.gov.mv/traveller"
+    },
+    {
+     "id": "entry",
+     "title": "Maldives Immigration · condiciones de entrada de turistas",
+     "url": "https://immigration.gov.mv/visa/tourist-visa"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada y noche en Malé",
+     "overnight": "Malé",
+     "stops": [
+      "Llegada a Velana (MLE)",
+      "Descanso y paseo breve si hay margen"
+     ],
+     "transfer": "Traslado aeropuerto-Malé por taxi o servicio local elegido según llegada. Turismo oficial confirma taxi como opción. No se incluye precio ni tiempo fijo.",
+     "sourceIds": [
+      "fuenteM1",
+      "visit"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Lancha a Maafushi",
+     "overnight": "Maafushi",
+     "stops": [
+      "Traslado y alojamiento",
+      "Playa si el horario deja tiempo"
+     ],
+     "transfer": "iCom publica servicios Malé-Maafushi; el cuadro consultado muestra unos 30 minutos de navegación, no una garantía para tu fecha. Elegir salida, embarcadero y plazas antes de cerrar noches. Añadir equipaje y acceso al barco.",
+     "sourceIds": [
+      "icom"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Maafushi a ritmo de isla",
+     "overnight": "Maafushi",
+     "stops": [
+      "Playa habilitada para bañistas",
+      "Snorkel solo si eliges operador y condiciones seguras"
+     ],
+     "transfer": "Día en la misma isla. No se incluye excursión; comprobar reglas locales de vestimenta fuera de la playa habilitada.",
+     "sourceIds": [
+      "fuenteM1",
+      "maecMV"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Maafushi y mar opcional",
+     "overnight": "Maafushi",
+     "stops": [
+      "Paseo y descanso",
+      "Salida de snorkel o banco de arena opcional"
+     ],
+     "transfer": "Sin cambio de base. Excursión marina solo con operador, equipo, meteorología y vuelta comprobados. Si no sale barco, mantener día en tierra.",
+     "sourceIds": [
+      "fuenteM1",
+      "visit"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Regreso a Malé · noche de tránsito",
+     "overnight": "Malé",
+     "stops": [
+      "Lancha Maafushi-Malé",
+      "Noche de tránsito en la capital"
+     ],
+     "transfer": "Elegir servicio iCom de regreso a Malé. No se presupone enlace directo a Fulidhoo ni conexión entre dos lanchas el mismo día.",
+     "sourceIds": [
+      "icom"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "De Malé a Fulidhoo",
+     "overnight": "Fulidhoo",
+     "stops": [
+      "Traslado a Fulidhoo",
+      "Alojamiento y paseo"
+     ],
+     "transfer": "Dream Speed muestra Malé y Fulidhoo como puertos de su buscador. Hay que elegir servicio real, embarcadero y plazas para la fecha; no fijamos horario ni duración del blog como hecho operativo.",
+     "sourceIds": [
+      "dream",
+      "visit"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Fulidhoo",
+     "overnight": "Fulidhoo",
+     "stops": [
+      "Playa y paseo por la isla",
+      "Observación responsable de vida marina sin tocar ni alimentar animales"
+     ],
+     "transfer": "Día local sin traslado. No se programa buceo ni alimentación de tiburones o rayas. Snorkel opcional solo con condiciones y operador apropiados.",
+     "sourceIds": [
+      "fuenteM1",
+      "visit"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Regreso a Malé antes del vuelo",
+     "overnight": "Malé",
+     "stops": [
+      "Lancha de regreso a la capital",
+      "Noche de margen antes de salida"
+     ],
+     "transfer": "Elegir servicio Fulidhoo-Malé en Dream Speed según fecha y condiciones del mar. Una cancelación puede exigir cambiar noches o vuelo: la noche de margen reduce dependencia, no garantiza la conexión.",
+     "sourceIds": [
+      "dream"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Salida internacional",
+     "overnight": null,
+     "stops": [
+      "Traslado a Velana (MLE)"
+     ],
+     "transfer": "Salida después de dormir en Malé. Coordinar taxi o transporte al aeropuerto con horario del vuelo. No se une lancha desde otra isla y vuelo internacional este día.",
+     "sourceIds": [
+      "visit"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores indica precauciones generales y requisitos de alojamiento registrado. Consultar aviso vigente, condiciones del mar y seguro antes del viaje.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=maldivas"
+ },
+ "photo": {
+  "img": "assets/routes/mv.jpg",
+  "name": "Malé · frente portuario",
+  "source": "https://commons.wikimedia.org/wiki/File:Male_Waterfront_(32822673711).jpg",
+  "originalSource": "https://www.flickr.com/photos/davidstanleytravel/32822673711/",
+  "author": "David Stanley from Nanaimo, Canada",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "caption": "Foto de archivo de la capital. No muestra las playas de Maafushi o Fulidhoo ni el embarcadero confirmado de tu servicio."
+ }
+}

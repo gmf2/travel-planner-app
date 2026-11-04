@@ -1,0 +1,208 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "CY",
+ "country": "Chipre",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Zona controlada por la República de Chipre: Lárnaca, Nicosia sur, Limassol/Kourion y Pafos. No norte, Línea Verde, bases militares, Troodos ni Akamas.",
+ "verificationLimits": [
+  "Ruta editorial de 9 días con llegada, regreso y salida aparte, no la lista oficial de siete jornadas completas copiada sin traslados.",
+  "Horarios y conexiones concretos se eligen para fecha. No todos los monumentos son accesibles mediante el bus interurbano.",
+  "Chipre se conserva en el índice geográfico M49 de Asia occidental, aunque sea miembro UE y pueda encontrarse también en contexto europeo. No se afirma cobertura de toda la isla."
+ ],
+ "routes": [
+  {
+   "id": "cy-republica-9",
+   "title": "Lárnaca, Nicosia, Limassol y Pafos · 9 días",
+   "scope": "Zona controlada por la República de Chipre: Lárnaca, Nicosia sur, Limassol/Kourion y Pafos. No norte, Línea Verde, bases militares, Troodos ni Akamas.",
+   "pace": "9 días / 8 noches: Lárnaca 1, Nicosia 2, Limassol 2, Pafos 2, Lárnaca 1. Corredores interurbanos en bus y excursión local contratada aparte si se elige.",
+   "assumptions": "Adaptación editorial de Visit Cyprus, con visitas reducidas para dar espacio a traslados. Llegada/salida LCA, sin coche de alquiler ni cruce al norte supuestos. Entradas y excursión a Kourion no compradas. Documentación según pasaporte y fechas.",
+   "sources": [
+    {
+     "id": "guide",
+     "title": "Visit Cyprus · guía oficial e ideas de itinerarios",
+     "url": "https://www.visitcyprus.com/wp-content/uploads/2025/04/New-Guide-To-Cyprus-Booklet%5Fweb.pdf"
+    },
+    {
+     "id": "plan",
+     "title": "Visit Cyprus · planificador oficial",
+     "url": "https://www.visitcyprus.com/wp-content/uploads/files/PracticalInfo/travel_planner/Travel_Planner_-_English_web.pdf"
+    },
+    {
+     "id": "ln",
+     "title": "InterCity · Lárnaca-Nicosia",
+     "url": "https://intercity-buses.com/en/routes/larnaca-nicosia-nicosia-larnaca/"
+    },
+    {
+     "id": "nl",
+     "title": "InterCity · Nicosia-Limassol",
+     "url": "https://intercity-buses.com/en/routes/nicosia-limassol-limassol-nicosia/"
+    },
+    {
+     "id": "lp",
+     "title": "InterCity · Limassol-Pafos",
+     "url": "https://intercity-buses.com/en/routes/limassol-paphos-paphos-limassol/"
+    },
+    {
+     "id": "kourion",
+     "title": "Visit Cyprus · Kourion",
+     "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/kourion-archaeological-site/"
+    },
+    {
+     "id": "pafos",
+     "title": "Visit Cyprus · parque arqueológico de Pafos",
+     "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/archaeological-park-of-kato-pafos-paphos/"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Chipre",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Chipre"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Lárnaca",
+     "overnight": "Lárnaca",
+     "stops": [
+      "Llegada y alojamiento",
+      "Paseo Finikoudes si queda margen"
+     ],
+     "transfer": "Aeropuerto LCA a hotel con transporte elegido, sin empezar circuito por Troodos al llegar. Entrada por puestos de la República de Chipre, no Ercan como sustituto automático.",
+     "sourceIds": [
+      "guide",
+      "maec"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Lárnaca a Nicosia",
+     "overnight": "Nicosia",
+     "stops": [
+      "San Lázaro según apertura antes de salir",
+      "Llegada a casco antiguo sur de Nicosia"
+     ],
+     "transfer": "InterCity Lárnaca-Nicosia, operador estima 1 h 15 entre paradas del corredor, no aeropuerto-hotel. Elegir parada y salida según día. Sin cruce de Línea Verde ni visitas a zona militar.",
+     "sourceIds": [
+      "guide",
+      "ln",
+      "maec"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Nicosia cultural",
+     "overnight": "Nicosia",
+     "stops": [
+      "Museo Arqueológico de Chipre como interior principal",
+      "Laiki Geitonia y calles de Ledra/Onasagorou al sur",
+      "Leventis como opción, no segundo museo obligatorio"
+     ],
+     "transfer": "Día urbano en zona controlada por República de Chipre. No entrar a zona de separación ni cruzar al norte por completar un paseo; restricciones no se sustituyen por proximidad en mapa. Calendario de museo por verificar para fecha.",
+     "sourceIds": [
+      "guide",
+      "plan",
+      "maec"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Nicosia a Limassol",
+     "overnight": "Limassol",
+     "stops": [
+      "Traslado regional",
+      "Casco antiguo y entorno del puerto de Limassol"
+     ],
+     "transfer": "InterCity Nicosia-Limassol, referencia 1 h 45 aproximada. Paradas y variantes no idénticas para todas las salidas; confirmar conexión con hotel. No acumular varios yacimientos tras traslado.",
+     "sourceIds": [
+      "nl",
+      "guide"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Kourion desde Limassol",
+     "overnight": "Limassol",
+     "stops": [
+      "Kourion como visita principal",
+      "Kolossi solo si transporte y margen encajan"
+     ],
+     "transfer": "Excursión con conductor o tour elegido; bus interurbano no equivale a acceso al yacimiento. Kourion está 19 km al oeste de Limassol según oficina oficial. Cierra Navidad, Año Nuevo y Pascua ortodoxa; la nota de obras 1-7 diciembre 2025 no se extrapola a 2026. Visita con calor/terreno y acceso parcial considerados.",
+     "sourceIds": [
+      "kourion",
+      "guide"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Limassol a Pafos",
+     "overnight": "Pafos",
+     "stops": [
+      "Traslado a nueva base",
+      "Puerto y castillo por fuera"
+     ],
+     "transfer": "InterCity Limassol-Pafos, unos 1 h 15 entre paradas según operador. Karavella/Pervola no es necesariamente el hotel del puerto: sumar transporte local. No parada improvisada de Petra tou Romiou desde bus regular.",
+     "sourceIds": [
+      "lp",
+      "guide"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Pafos arqueológico",
+     "overnight": "Pafos",
+     "stops": [
+      "Parque arqueológico y mosaicos",
+      "Tumbas de los Reyes como opción separada según energía"
+     ],
+     "transfer": "Día en la misma base con traslados locales. La entrada del parque no incluye automáticamente Tumbas de los Reyes. Calendario oficial cierra Navidad, Año Nuevo y Pascua ortodoxa; confirmar para fecha. No sumar Akamas y rutas de costa como si todo estuviera al lado.",
+     "sourceIds": [
+      "pafos",
+      "guide"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Regreso a Lárnaca",
+     "overnight": "Lárnaca",
+     "stops": [
+      "Regreso regional",
+      "Descanso junto a la base final"
+     ],
+     "transfer": "Elegir traslado por carretera o conexión interurbana vía Limassol, confirmando ambas salidas y paradas. Sin duración fija prometida: páginas y PDF de Lárnaca-Pafos difieren en duración/servicios. Dormir en Lárnaca antes del vuelo; no fingir conexión protegida.",
+     "sourceIds": [
+      "lp",
+      "guide",
+      "maec"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Salida desde Lárnaca",
+     "overnight": null,
+     "stops": [
+      "Traslado a LCA"
+     ],
+     "transfer": "Antelación según hotel, tráfico y vuelo. Salida por zona de la República de Chipre. Si vuelo es PFO, reorganizar ruta antes de reservar, no cambiar aeropuerto tácitamente.",
+     "sourceIds": [
+      "guide",
+      "maec"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores indica normalidad civil pero mantiene atención a tensión regional. Entrada y salida por puestos controlados por República de Chipre; no usar Ercan como equivalente. Línea Verde es zona restringida con minas; quedan fuera norte y zonas militares. Incendios estivales, inundaciones y terremotos pueden afectar recorridos; no se declara toda la isla segura. Confirmar servicios para fecha y seguro médico.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Chipre"
+ },
+ "photo": {
+  "img": "assets/routes/cy.jpg",
+  "name": "Castillo y puerto de Pafos",
+  "source": "https://commons.wikimedia.org/wiki/File:Paphos_Castle_and_Paphos_Marina%2C_Paphos%2C_Cyprus.jpg",
+  "author": "Fry72, Karel Frydrýšek",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "caption": "Foto de archivo de 2023. No confirma acceso al castillo ni disponibilidad de servicios del puerto."
+ }
+}

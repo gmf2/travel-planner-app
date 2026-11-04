@@ -1,0 +1,1168 @@
+{
+ "schemaVersion": 1,
+ "country": "LV",
+ "id": "riga",
+ "name": "Riga",
+ "localName": "Riga",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "cabezas_negras",
+   "name": "Casa de los Cabezas Negras",
+   "kind": "monument",
+   "zone": "Vecrīga",
+   "reason": "El edificio más fotografiado de Riga: la casa gremial de 1334 de los mercaderes solteros, volada en 1941 y reconstruida en 1999, con su fachada renacentista flamenca y el reloj astronómico.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "black"
+   ],
+   "coordinates": {
+    "lat": 56.9471357,
+    "lon": 24.1069161
+   },
+   "coordinateSource": "nominatim: Melngalvju nams, Svaru iela 7, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Página anuncia noviembre sin año explícito: 6 de 9-12, 7/14/15/27 de 10-15, 10/11/12 cerrado. Confirmar año y vigencia antes de convertir a fechas cerradas automáticas. Tours guiados de pago aparte con reserva; no confundir oferta café 12 € con entrada simple.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "General diario 10-17, con cierres parciales y por eventos publicados aparte.",
+    "source": "https://www.melngalvjunams.lv/en/visit-us/exposition-and-working-hours"
+   },
+   "price": "10 € adulto, 6 € alumnos/estudiantes/mayores. Audioguía 4 € extra, incluye español según página actual, dispositivos limitados. Entrada parcial 7/5 € cuando aplique.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/cabezas_negras.jpg",
+    "source": "https://www.pexels.com/photo/house-of-the-blackheads-in-riga-latvia-30145401/",
+    "author": "Efrem Efre",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada completa de la Casa de los Cabezas Negras desde su plaza.",
+    "alt": "Fachada completa de la Casa de los Cabezas Negras desde su plaza."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "VisitaCasaCabezasNegras",
+    "noticeLabel": "CasaCabezasNegras",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "General10-17,10/6EUR,audio4aparte. Propioanuncianoviembre6parcial,7/14/15/27parcial,10/11/12cerrado,sinañoexplícito. Confirmarañoyvigencia;notomarlo comocalendarioanual."
+    ]
+   }
+  },
+  {
+   "id": "ayuntamiento",
+   "name": "Plaza del Ayuntamiento (Rātslaukums)",
+   "kind": "walk",
+   "zone": "Vecrīga",
+   "reason": "La plaza reconstruida tras la guerra donde el ayuntamiento neogótico mira a los Cabezas Negras: el centro ceremonial de la ciudad hanseática, con la estatua de Rolando.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9474904,
+    "lon": 24.1067317
+   },
+   "coordinateSource": "nominatim: Rātslaukums (plaza del Ayuntamiento), Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/ayuntamiento.jpg",
+    "alt": "Plaza del Ayuntamiento de Riga: ayuntamiento reconstruido y estatua de Roland. Vista exterior de archivo; no muestra el interior municipal.",
+    "caption": "Plaza del Ayuntamiento de Riga: ayuntamiento reconstruido y estatua de Roland. Vista exterior de archivo; no muestra el interior municipal.",
+    "author": "Efrem Efre",
+    "source": "https://www.pexels.com/photo/old-riga-27488687/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.liveriga.com/en/3232-town-hall-square"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ocupacion",
+   "name": "Museo de la Ocupación de Letonia",
+   "kind": "museum",
+   "zone": "Vecrīga",
+   "reason": "La historia de las dos ocupaciones (soviética, nazi, soviética) 1940-1991: un museo de historia del país, en la plaza de los Fusileros Letones.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "om"
+   ],
+   "coordinates": {
+    "lat": 56.946763,
+    "lon": 24.1067923
+   },
+   "coordinateSource": "nominatim: Latvijas Okupācijas muzejs, Mazā Grēcinieku iela 1, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "La guía lo anunciaba gratis: el precio oficial actual es 8 € (verificado en la web del museo).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Todos los días 10:00-18:00; CERRADO 1 ene, 23-24 jun y 24/25/26/31 dic. Visitas guiadas a las 11:00, 12:00, 13:00, 14:00, 15:00 y 16:00.",
+    "source": "https://okupacijasmuzejs.lv/en/main-exposition-info"
+   },
+   "price": "Adultos 8 €; estudiantes 5 €; gratis <18 años y varios colectivos. OJO: la guía dice 'gratuita', dato DESACTUALIZADO (la web oficial cobra 8 €).",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/riga/ocupacion-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo de la Ocupación de Letonia. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Museo de la Ocupación de Letonia: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "MuseodelaOcupaciónexposiciónprincipal",
+    "noticeLabel": "MuseodelaOcupación",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedDates": [
+     "2026-12-24",
+     "2026-12-25",
+     "2026-12-26",
+     "2026-12-31"
+    ],
+    "notices": [
+     "Diario10-18,8EURadulto/5estudiante;guíaaparte. No gratuito general por una guía antigua."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "san_pedro",
+   "name": "Iglesia de San Pedro",
+   "kind": "monument",
+   "zone": "Vecrīga",
+   "reason": "Iglesia de San Pedro con torre y mirador. La tarifa de torre incluye la iglesia; ascensor en la tercera planta según el operador, no acceso sin escaleras garantizado.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "peter"
+   ],
+   "coordinates": {
+    "lat": 56.9475214,
+    "lon": 24.1093181
+   },
+   "coordinateSource": "nominatim: Svētā Pētera baznīca, Reformācijas laukums, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Ascensor ubicado en tercera planta según tabla propia, no acceso sin escalones garantizado. Comprobar operación de torre y último billete, no prometer acceso nocturno solo por horario del edificio.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Página propia: diario 10-18, viernes y sábado 10-22. Último acceso de torre no confirmado.",
+    "source": "https://svpetera.lv/lv/"
+   },
+   "price": "Torre e iglesia: 9 € adulto, 7 € estudiante acreditado, 3 € escolar 8-18; hasta 7 gratis. Solo iglesia: 3/2/1 €. Tabla enlazada por la web propia (archivo de septiembre de 2024, vigente en página al consultar).",
+   "visitMode": "exterior; torre con entrada y operación confirmadas",
+   "photo": {
+    "img": "assets/riga/san_pedro.jpg",
+    "source": "https://www.pexels.com/photo/st-peter-s-church-spire-in-riga-s-historic-center-37526842/",
+    "author": "Marcelo Aut",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Iglesia de San Pedro con cuerpo y torre, desde el exterior. No garantiza acceso a torre.",
+    "alt": "Iglesia de San Pedro con cuerpo y torre, desde el exterior. No garantiza acceso a torre."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "muralla",
+   "name": "Restos de la muralla y Cuartel de Jacobo",
+   "kind": "monument",
+   "zone": "Vecrīga",
+   "reason": "El tramo conservado de la muralla del siglo XIII junto al Cuartel de Jacobo (Torna iela): la Riga medieval de la Liga Hanseática, hoy callejón de restaurantes.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9513,
+    "lon": 24.1076
+   },
+   "coordinateSource": "editorial: restos de la muralla y Jēkaba kazarmas (Torna iela); sin nodo OSM directo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Coordenada editorial (el tramo de muralla no tiene nodo OSM propio; anclada en Torna iela).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/muralla-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Restos de la muralla y Cuartel de Jacobo. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Restos de la muralla y Cuartel de Jacobo: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "livu",
+   "name": "Plaza Livu",
+   "kind": "walk",
+   "zone": "Vecrīga",
+   "reason": "El corazón social del casco viejo sobre el antiguo lecho del río Rīdzene: el Gremio Pequeño, el Gremio Grande, el 'salón de los gatos' y las terrazas más animadas de la ciudad.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9498554,
+    "lon": 24.1090824
+   },
+   "coordinateSource": "nominatim: Līvu laukums, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/livu-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Plaza Livu. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Plaza Livu: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "torre_polvora",
+   "name": "Torre de la Pólvora",
+   "kind": "monument",
+   "zone": "Vecrīga",
+   "reason": "La torre de 1330 del sistema defensivo, con nueve balas de cañón incrustadas en los muros: hoy sede del Museo de la Guerra de Letonia.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "war-closed",
+    "war-general"
+   ],
+   "coordinates": {
+    "lat": 56.9512224,
+    "lon": 24.1086779
+   },
+   "coordinateSource": "nominatim: Pulvertornis, Smilšu iela, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Aviso específico de cierre prevalece sobre página general que todavía muestra miércoles-domingo 10-18. No prometer entrada en noviembre/diciembre de 2026 ni reapertura automática el 1 de enero de 2027.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Exterior de torre como base. Museo de Guerra normalmente gratuito, pero edificio principal cerrado por reconstrucción desde 16 septiembre de 2026 hasta enero de 2027, sin fecha exacta de reapertura.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/torre_polvora-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Torre de la Pólvora. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Torre de la Pólvora: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "temporaryClosure": {
+    "from": "2026-09-16",
+    "untilText": "enero de 2027, día por confirmar",
+    "source": "https://www.karamuzejs.lv/lkm/no-16-septembra-latvijas-kara-muzejs-bus-slegts-uz-rekonstrukciju"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo de Guerra: edificio principal de Torre Pólvora, no exterior",
+    "noticeLabel": "Museo de Guerra / Torre Pólvora (interior)",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "standingNotice": "Museo de Guerra en la Torre de la Pólvora cerrado por reconstrucción desde16sept2026 hastaenero2027, sin fecha exacta de reapertura. Exterior como base, no entrada interior.",
+    "closedRanges": [
+     {
+      "start": "2026-09-16",
+      "end": "2026-12-31",
+      "label": "Museo de Guerra cerrado por obras, no exterior de la torre"
+     }
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "puerta_sueca",
+   "name": "Puerta Sueca",
+   "kind": "monument",
+   "zone": "Vecrīga",
+   "reason": "La única puerta de las murallas que sobrevive (1698, período sueco), abierta entre casas en Aldaru iela: el paso con más encanto del casco viejo.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9514451,
+    "lon": 24.1063783
+   },
+   "coordinateSource": "nominatim: Zviedru vārti, Aldaru iela, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/puerta_sueca-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Puerta Sueca. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Puerta Sueca: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "casa_gato",
+   "name": "Casa del Gato",
+   "kind": "monument",
+   "zone": "Vecrīga",
+   "reason": "El capricho art nouveau de 1909 con los dos gatos de lomo arqueado en las torrecillas: según la leyenda, el dueño los puso 'de espaldas' al Gremio que no le admitía.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9501829,
+    "lon": 24.1085411
+   },
+   "coordinateSource": "nominatim: Kaķu nams, Meistaru iela 10, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/casa_gato-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Casa del Gato. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Casa del Gato: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "plaza_catedral",
+   "name": "Plaza de la Catedral y el Dom",
+   "kind": "monument",
+   "zone": "Vecrīga",
+   "reason": "La mayor iglesia medieval del Báltico (1211): la catedral luterana con el claustro gótico, el órgano de 6.718 tubos de 1884 y la plaza Doma laukums, corazón de la Riga vieja.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "dom"
+   ],
+   "coordinates": {
+    "lat": 56.9491082,
+    "lon": 24.104738
+   },
+   "coordinateSource": "nominatim: Rīgas Doms, Herdera laukums, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "El PDF semanal encontrado terminaba el 2 noviembre de 2026, no horario actual de otra semana. No incluir concierto ni subida a torre con la entrada ordinaria.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "General lunes-sábado 10-17, domingo 14-17. Consultar tabla semanal por culto, conciertos y eventos.",
+    "source": "https://www.doms.lv/en/pages/47"
+   },
+   "price": "Dom: 5 € adulto, 3 € niños 11-18, hasta 10 gratis. Plaza exterior sin entrada; conciertos y torre son productos distintos.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/riga/plaza_catedral.jpg",
+    "alt": "Plaza del Dom y torre de la catedral en invierno, fotografía del 17/12/2018. El mercado de archivo no confirma puestos ni fechas de otra temporada.",
+    "caption": "Plaza del Dom y torre de la catedral en invierno, fotografía del 17/12/2018. El mercado de archivo no confirma puestos ni fechas de otra temporada.",
+    "author": "Ambam Gorilla",
+    "source": "https://www.pexels.com/photo/snowy-market-scene-with-cathedral-tower-28896393/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.liveriga.com/en/9576-main-squares"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "tres_hermanos",
+   "name": "Los Tres Hermanos",
+   "kind": "monument",
+   "zone": "Vecrīga",
+   "reason": "Las tres casas más antiguas de Riga en fila (s. XV-XVII) en Mazā Pils iela: el resumen del gótico doméstico, el renacimiento y el barroco civil letón en una sola foto.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9503492,
+    "lon": 24.1042906
+   },
+   "coordinateSource": "nominatim: Trīs brāļi, Mazā Pils iela, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/tres_hermanos-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Los Tres Hermanos. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Los Tres Hermanos: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "castillo",
+   "name": "Castillo de Riga",
+   "kind": "monument",
+   "zone": "Orilla del Daugava",
+   "reason": "Castillo de Riga junto al Daugava. La parte presidencial tiene acceso restringido; no confundirla con las salas del Museo Nacional de Historia en otra parte del conjunto, visita separada pendiente de revisar.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "castle-history"
+   ],
+   "coordinates": {
+    "lat": 56.9510511,
+    "lon": 24.1009729
+   },
+   "coordinateSource": "nominatim: Rīgas Pils, Pils laukums, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Paradaexterior; no afirmar que todo el castillo es residencia ni que todo interior es inaccesible. MuseoHistoriaenconjuntoconentrada/horariopropiospendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/castillo-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Castillo de Riga. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Castillo de Riga: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "canal",
+   "name": "Canal de la ciudad y parque Bastejkalna",
+   "kind": "park",
+   "zone": "Borde del casco viejo",
+   "reason": "El anillo verde que ocupa el antiguo foso: el canal con sus barcas de paseo, los puentecitos y la colina Bastejkalns, la transición entre la Riga medieval y la del siglo XIX.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9515545,
+    "lon": 24.1111244
+   },
+   "coordinateSource": "nominatim: Bastejkalna parks (canal de la ciudad), Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Parque libre; barcas del canal de pago (precio no verificado en primaria).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/canal-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Canal de la ciudad y parque Bastejkalna. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Canal de la ciudad y parque Bastejkalna: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "libertad",
+   "name": "Monumento a la Libertad",
+   "kind": "monument",
+   "zone": "Brīvības laukums",
+   "reason": "La 'Milda' de 1935: la mujer con tres estrellas que simboliza las regiones de Letonia, el punto cero emocional del país y centro de todas sus conmemoraciones.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9515092,
+    "lon": 24.113378
+   },
+   "coordinateSource": "nominatim: Brīvības piemineklis, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/libertad.jpg",
+    "alt": "Monumento a la Libertad de Riga: conjunto exterior, columna y figura con las tres estrellas. Fotografía de archivo.",
+    "caption": "Monumento a la Libertad de Riga: conjunto exterior, columna y figura con las tres estrellas. Fotografía de archivo.",
+    "author": "Ömer Faruk Uyar",
+    "source": "https://www.pexels.com/photo/freedom-monument-in-riga-under-a-clear-sky-33903919/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.liveriga.com/en/3231-freedom-monument"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ortodoxa",
+   "name": "Catedral ortodoxa de la Natividad",
+   "kind": "monument",
+   "zone": "Esplanāde",
+   "reason": "Catedral neobizantina inaugurada en 1884. Fue planetario y café durante el periodo soviético; restaurada después, vuelve a ser un templo ortodoxo.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9539108,
+    "lon": 24.1155134
+   },
+   "coordinateSource": "nominatim: Kristus Piedzimšanas pareizticīgo katedrāle, Brīvības bulvāris 23, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Interior/horarioturísticoyposibleaportaciónpendientes. Exteriorbase;respetarculto,ni entrada gratis ni fotografía interior asumidas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior sujeto al culto",
+   "photo": {
+    "img": "assets/riga/ortodoxa.jpg",
+    "alt": "Catedral de la Natividad de Riga: detalle exterior de sus cúpulas doradas y arcos. No confirma acceso ni permiso de fotografía interior.",
+    "caption": "Catedral de la Natividad de Riga: detalle exterior de sus cúpulas doradas y arcos. No confirma acceso ni permiso de fotografía interior.",
+    "author": "Efrem Efre",
+    "source": "https://www.pexels.com/photo/riga-nativity-of-christ-orthodox-cathedral-27437279/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.liveriga.com/en/3877-riga-s-nativity-of-christ-cathedral"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "radisson",
+   "name": "Vistas desde el Hotel Radisson Blu Latvija",
+   "kind": "viewpoint",
+   "zone": "Centrs",
+   "reason": "El mirador de pago más fácil de la ciudad: el Skyline Bar del piso 26 con la panorámica del casco viejo, el Daugava y los barrios de madera, ideal al atardecer.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9550177,
+    "lon": 24.1177516
+   },
+   "coordinateSource": "nominatim: Radisson Blu - Hotel Latvija, Elizabetes iela 55, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Acceso sujeto a aforo y eventos del hotel; horario del Skyline Bar no verificado en primaria.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Bar: consumición (precios no verificados en primaria).",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/riga/radisson-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Vistas desde el Hotel Radisson Blu Latvija. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Vistas desde el Hotel Radisson Blu Latvija: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "berga",
+   "name": "Berga Bazārs",
+   "kind": "walk",
+   "zone": "Centrs",
+   "reason": "La galería comercial de 1887 convertida en enclave boutique: tiendas, cafés y el lugar clásico para probar el Bálsamo Negro de Riga en su tienda histórica.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9503792,
+    "lon": 24.1227505
+   },
+   "coordinateSource": "nominatim: Berga bazārs, Dzirnavu iela, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/berga-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Berga Bazārs. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Berga Bazārs: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "art_nouveau",
+   "name": "Alberta iela y el Art Nouveau",
+   "kind": "walk",
+   "zone": "Centrs",
+   "reason": "La calle que es un museo al aire libre: las fachadas modernistas de Eisenstein (1901-1906) con mascarones, sirenas y atlantes, el mayor conjunto art nouveau de Europa.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "art",
+    "art-hours"
+   ],
+   "coordinates": {
+    "lat": 56.9590091,
+    "lon": 24.1098451
+   },
+   "coordinateSource": "nominatim: Alberta iela, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Museointerioropcional,nopaseodefachadas. Invierno5EURcompleto/3reducido,permiso fotos2extra. Lunesinteriorcerrado;fachadasdesdecallepúblicaindependientes. Últimobillete17:45no deja visita completa.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "MuseoAlberta12:martes-domingo10-18,taquilla10-17:45,lunescerrado. Iconoslunescruzado yrestocírculoscontrastadosvisualmentepágina propia3nov2026.",
+    "source": "https://jugendstils.riga.lv/eng/"
+   },
+   "price": "Paseo de fachadas exterior. Museo completo: invierno 1 octubre-30 abril 5 € (3 € reducida); verano 1 mayo-30 septiembre 9 € (5 € reducida). Interiores y virtual tienen entradas separadas; permiso de fotos 2 € extra.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/riga/art_nouveau-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Alberta iela y el Art Nouveau. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Alberta iela y el Art Nouveau: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "InteriorMuseoArtNouveauAlberta12,nofachadasdecalle",
+    "noticeLabel": "MuseoArtNouveau",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "notices": [
+     "Ma-do10-18,últimobillete17:45. Invierno5/3EUR,permiso foto2aparte. Paseoexteriorfachadasindependiente."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "mercado",
+   "name": "Mercado Central de Riga",
+   "kind": "market",
+   "zone": "Latgales",
+   "reason": "Mercado con pabellones históricos y zona al aire libre. La visita actual se centra en gastronomía y pescado: lácteos, verduras y carne figuran cerrados; no se prometen cinco hangares abiertos.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "central-hours"
+   ],
+   "coordinates": {
+    "lat": 56.9439629,
+    "lon": 24.1167294
+   },
+   "coordinateSource": "nominatim: Centrāltirgus, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "No prometer cinco hangares abiertos: lácteos/verdurasenobras,carnecerradaportécnica,sinreapertura publicada. Pescado/gastronomía y zonaexterior con horariospropios. Primerlunes todospabellones cierran,exterior sigue. Avisocartel«todayclosed»sinautenticaciónfecha no prueba cierre general3nov.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Gastronomía/pescado lun-sáb7:30-18,dom7:30-17. Exterior7-18diario. Primerlunesmespabellonescerradosporlimpieza,noexterior. Lácteos/verdurasobras,carneproblemastécnicos,cerradossegúnpropio.",
+    "source": "https://centraltirgus.lv/en/working-hours/"
+   },
+   "price": "Entrada libre.",
+   "visitMode": "interior y exterior según pabellón abierto",
+   "photo": {
+    "img": "assets/riga/mercado-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Mercado Central de Riga. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Mercado Central de Riga: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Pabellones del Mercado Central, no la zona exterior",
+    "noticeLabel": "MercadoCentral",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "nthWeekdayNotices": [
+     {
+      "weekday": 1,
+      "occurrence": 1,
+      "text": "Primerlunesmes:pabellonescerradospordíasanitario;exterior7-18abierto. Lácteos/verduras/carneyafiguran cerradosporobrastécnica."
+     }
+    ],
+    "weekdayNotices": [
+     {
+      "weekday": 0,
+      "text": "Domingo:pescado/gastronomía7:30-17,exterior7-18. Otros3pabellonescerrados."
+     }
+    ],
+    "notices": [
+     "Lunes-sábado: pescado y gastronomía7:30-18; exterior7-18. Lácteos,verduras y carne cerrados, sin reapertura publicada."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "biblioteca",
+   "name": "Biblioteca Nacional de Letonia",
+   "kind": "monument",
+   "zone": "Orilla izquierda del Daugava",
+   "reason": "Biblioteca Nacional de Letonia en la orilla izquierda del Daugava. Edificio diseñado por Gunnar Birkerts; acceso de visitantes y posibles vistas según horario y normas de la biblioteca, aún pendientes.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9410379,
+    "lon": 24.0967724
+   },
+   "coordinateSource": "nominatim: Latvijas Nacionālā bibliotēka, Mūkusalas iela 3, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Biblioteca en funcionamiento: respetar salas de lectura; el mirador depende del horario del edificio.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Horario de visita/mirador no verificado en primaria esta sesión.",
+    "source": "caution-sin-primaria"
+   },
+   "price": "Acceso general gratuito (servicios de biblioteca); visitas guiadas de pago no verificadas.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/riga/biblioteca.jpg",
+    "alt": "Biblioteca Nacional de Letonia desde el Daugava, con follaje de otoño. Fotografía del 23/10/2023; no muestra el interior ni confirma acceso.",
+    "caption": "Biblioteca Nacional de Letonia desde el Daugava, con follaje de otoño. Fotografía del 23/10/2023; no muestra el interior ni confirma acceso.",
+    "author": "Travel with Lenses",
+    "source": "https://www.pexels.com/photo/autumn-view-of-national-library-in-riga-latvia-37375885/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://lnb.lv/en/the-castle-of-light/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "agenskalns",
+   "name": "Mercado de Āgenskalns",
+   "kind": "market",
+   "zone": "Āgenskalns (orilla izquierda)",
+   "reason": "El mercado de barrio de 1914, monumento cultural nacional: productos frescos abajo y cocina local arriba, la alternativa castiza al Mercado Central cruzando el puente.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "agens-hours"
+   ],
+   "coordinates": {
+    "lat": 56.9359508,
+    "lon": 24.072201
+   },
+   "coordinateSource": "nominatim: Āgenskalna tirgus, Bāriņu iela, Riga",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "Distinguirplanta1mercado,cafés/baresplanta2ypatio:noalargar puestos de productos hasta horario delbar. Traslado desdeBiblioteca pendiente.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Planta1martes-sábado9-19,domingo-lunes9-17. Cafésplanta2dom-jue11-21,vi-sáb11-22. Baresdom-mar10-22,mié-sáb10-23. Patio/floresdiario8-19.",
+    "source": "https://www.agenskalnatirgus.lv/"
+   },
+   "price": "Entrada libre.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/riga/agenskalns-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Mercado de Āgenskalns. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Mercado de Āgenskalns: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "jurmala",
+   "name": "Jūrmala: costa del Báltico",
+   "kind": "excursion",
+   "zone": "Jūrmala",
+   "reason": "Excursión editorial de día completo a Jūrmala. Ķemeri es una alternativa aparte con traslado y acceso propios, no añadido automático al paseo de costa.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 56.9713141,
+    "lon": 23.7967943
+   },
+   "coordinateSource": "nominatim: Majori, Jūrmala",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Horarios y tarifas de tren pendientes de fuente primaria para la fecha real. No combinar automáticamente costa y pasarela de Ķemeri; comprobar regreso, luz y condiciones de pasarela.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Billete de tren de bajo coste (tarifa exacta no verificada en primaria); playa y calle peatonal libres.",
+   "visitMode": "excursióncontransporteyregresoporconfirmar",
+   "photo": {
+    "img": "assets/riga/jurmala-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Jūrmala: costa del Báltico. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Jūrmala: costa del Báltico: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "visit": "Excursión editorial de día completo a Jūrmala. Ķemeri es una alternativa aparte con traslado y acceso propios, no añadido automático al paseo de costa.",
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "sigulda",
+   "name": "Sigulda y el valle del Gauja",
+   "kind": "excursion",
+   "zone": "Parque Nacional de Gauja",
+   "reason": "La 'Suiza letona': los castillos de Turaida y Sigulda sobre el valle del Gauja, la cueva de Gūtmaņa con inscripciones del siglo XVII y, en otoño, bosques con colores de otoño.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 57.1824611,
+    "lon": 24.8508572
+   },
+   "coordinateSource": "nominatim: Turaidas mūra pils, Sigulda",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 480,
+   "durationType": "editorial-estimate",
+   "caution": "Día completo con una selección de lugares. Estación, Turaida, castillos, cueva y teleférico no son una cadena caminable corta ni toda incluida; transporte local, horarios y regreso pendientes de primaria.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Castillos de Turaida/Sigulda: entradas de pago no verificadas en primaria.",
+   "visitMode": "excursióncontransporteyregresoporconfirmar",
+   "photo": {
+    "img": "assets/riga/sigulda-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Sigulda y el valle del Gauja. No es una foto real ni una reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración generada con IA para Sigulda y el valle del Gauja: escena conceptual inspirada en el tipo de lugar. No reproduce con exactitud el edificio, sus obras o su estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Vecrīga: la ciudad hanseática",
+     "zone": "Casa de los Cabezas Negras → Plaza del Ayuntamiento → Museo de la Ocupación → San Pedro → Restos de la muralla → Plaza Livu → Torre de la Pólvora → Puerta Sueca → Casa del Gato",
+     "stopIds": [
+      "cabezas_negras",
+      "ayuntamiento",
+      "san_pedro",
+      "muralla",
+      "livu",
+      "torre_polvora",
+      "puerta_sueca",
+      "casa_gato"
+     ],
+     "editorialNote": "Casco viejo principalmente exterior. Elegir una visita principal entre Cabezas Negras, torre de San Pedro o Museo de la Ocupación; no las tres obligatorias. Torre de la Pólvora solo exterior durante reconstrucción del Museo de Guerra, sin entrada prometida.",
+     "optionalStopIds": [
+      "ocupacion"
+     ]
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Vecrīga: la ciudad hanseática",
+     "zone": "Casa de los Cabezas Negras → Plaza del Ayuntamiento → Museo de la Ocupación → San Pedro → Restos de la muralla → Plaza Livu → Torre de la Pólvora → Puerta Sueca → Casa del Gato",
+     "stopIds": [
+      "cabezas_negras",
+      "ayuntamiento",
+      "san_pedro",
+      "muralla",
+      "livu",
+      "torre_polvora",
+      "puerta_sueca",
+      "casa_gato"
+     ],
+     "editorialNote": "Casco viejo principalmente exterior. Elegir una visita principal entre Cabezas Negras, torre de San Pedro o Museo de la Ocupación; no las tres obligatorias. Torre de la Pólvora solo exterior durante reconstrucción del Museo de Guerra, sin entrada prometida.",
+     "optionalStopIds": [
+      "ocupacion"
+     ]
+    },
+    {
+     "title": "La catedral, el canal y el Art Nouveau",
+     "zone": "Plaza de la Catedral y Dom → Tres Hermanos → Castillo → Canal y Bastejkalna → Monumento a la Libertad → Catedral ortodoxa → Berga Bazārs → Alberta iela → Vistas del Radisson",
+     "stopIds": [
+      "plaza_catedral",
+      "tres_hermanos",
+      "castillo",
+      "canal",
+      "libertad",
+      "ortodoxa",
+      "berga",
+      "art_nouveau",
+      "radisson"
+     ],
+     "editorialNote": "Catedral según culto y tabla semanal, luego paseo por el canal y Alberta. Museo Art Nouveau interior opcional, no un añadido a varios museos. Radisson con consumición y acceso por confirmar, no mirador público garantizado."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Vecrīga: la ciudad hanseática",
+     "zone": "Casa de los Cabezas Negras → Plaza del Ayuntamiento → Museo de la Ocupación → San Pedro → Restos de la muralla → Plaza Livu → Torre de la Pólvora → Puerta Sueca → Casa del Gato",
+     "stopIds": [
+      "cabezas_negras",
+      "ayuntamiento",
+      "san_pedro",
+      "muralla",
+      "livu",
+      "torre_polvora",
+      "puerta_sueca",
+      "casa_gato"
+     ],
+     "editorialNote": "Casco viejo principalmente exterior. Elegir una visita principal entre Cabezas Negras, torre de San Pedro o Museo de la Ocupación; no las tres obligatorias. Torre de la Pólvora solo exterior durante reconstrucción del Museo de Guerra, sin entrada prometida.",
+     "optionalStopIds": [
+      "ocupacion"
+     ]
+    },
+    {
+     "title": "La catedral, el canal y el Art Nouveau",
+     "zone": "Plaza de la Catedral y Dom → Tres Hermanos → Castillo → Canal y Bastejkalna → Monumento a la Libertad → Catedral ortodoxa → Berga Bazārs → Alberta iela → Vistas del Radisson",
+     "stopIds": [
+      "plaza_catedral",
+      "tres_hermanos",
+      "castillo",
+      "canal",
+      "libertad",
+      "ortodoxa",
+      "berga",
+      "art_nouveau",
+      "radisson"
+     ],
+     "editorialNote": "Catedral según culto y tabla semanal, luego paseo por el canal y Alberta. Museo Art Nouveau interior opcional, no un añadido a varios museos. Radisson con consumición y acceso por confirmar, no mirador público garantizado."
+    },
+    {
+     "title": "Mercados y la orilla izquierda",
+     "zone": "Mercado Central → Biblioteca Nacional → Mercado de Āgenskalns",
+     "stopIds": [
+      "mercado",
+      "biblioteca",
+      "agenskalns"
+     ],
+     "editorialNote": "Mercado Central por la mañana, Biblioteca y Āgenskalns con traslado y horarios comprobados. La distancia en línea recta no es tiempo andando. Jūrmala o Sigulda sustituyen el día, no se añaden después de los mercados."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Museo de la Ocupación: diario 10-18, 8 € adultos / 5 € estudiantes (la guía decía 'gratuito': DESACTUALIZADO); cerrado 1 ene, 23-24 jun y 24/25/26/31 dic; guiadas 11-16 cada hora.",
+  "Sin primaria esta sesión: mirador de San Pedro, catedral/Dom, Museo de la Guerra (Torre de la Pólvora), Cabezas Negras interior, Museo Art Nouveau, mercados (horario exacto), Radisson Skyline, barcas del canal.",
+  "Castillo de Riga: residencia presidencial, NO visitable regularmente (exterior).",
+  "Trenes a Jūrmala y Sigulda sin primaria verificada: duraciones de fuente secundaria.",
+  "Visitas: 7 fotos reales y 16 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Nada reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "epv",
+   "title": "Es Parte del Viaje: qué ver en Riga (26 imprescindibles)",
+   "url": "https://espartedelviaje.com/que-ver-en-riga-letonia-mapa/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Riga y lugares",
+   "url": "https://es.wikipedia.org/wiki/Riga",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "om",
+   "title": "Museo de la Ocupación de Letonia: main exposition",
+   "url": "https://okupacijasmuzejs.lv/en/main-exposition-info",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "peter",
+   "title": "San Pedro: página propia y tabla de precios",
+   "url": "https://svpetera.lv/lv/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "black",
+   "title": "Casa Cabezas Negras: visita y tarifas",
+   "url": "https://www.melngalvjunams.lv/en/visit-us/exposition-and-working-hours",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "dom",
+   "title": "Catedral de Riga: visita",
+   "url": "https://www.doms.lv/en/pages/47",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "art",
+   "title": "Art Nouveau: precios por temporada",
+   "url": "https://jugendstils.riga.lv/eng/bilesu_cenas/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "art-hours",
+   "title": "Art Nouveau: portada",
+   "url": "https://jugendstils.riga.lv/eng/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "war-closed",
+   "title": "Museo de Guerra: cierre de reconstrucción",
+   "url": "https://www.karamuzejs.lv/lkm/no-16-septembra-latvijas-kara-muzejs-bus-slegts-uz-rekonstrukciju",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "war-general",
+   "title": "Museo de Guerra: página general sin aviso actual",
+   "url": "https://www.karamuzejs.lv/lkm/about-museum",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "central-hours",
+   "url": "https://centraltirgus.lv/en/working-hours/",
+   "title": "MercadoCentral:horarios/cierres",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "agens-hours",
+   "url": "https://www.agenskalnatirgus.lv/",
+   "title": "Āgenskalns:horariosporplanta",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "castle-history",
+   "title": "Museo Nacional Historia: castillo visitable parcialmente",
+   "url": "https://lnvm.gov.lv/en/riga-castle/permanent-and-temporary-exhibitions/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

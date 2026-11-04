@@ -1,0 +1,529 @@
+{
+ "schemaVersion": 1,
+ "country": "IT",
+ "id": "amalfitana",
+ "name": "Costa Amalfitana",
+ "localName": "Costiera Amalfitana",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "sorrento",
+   "name": "Sorrento: base de esta propuesta",
+   "kind": "walk",
+   "zone": "Sorrento",
+   "reason": "Base editorial de esta selección, con paseo por el casco y las marinas. Llegar a Amalfi o Ravello requiere organizar los desplazamientos; trenes y ferries no conectan por sí solos todos los lugares.",
+   "sourceIds": [
+    "vjb",
+    "wp",
+    "sita-winter-pdf"
+   ],
+   "coordinates": {
+    "lat": 40.624906,
+    "lon": 14.374836
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Sorrento%2C%20Napoli%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Base editorial para esta selección, no se declara mejor base universal: puede implicar largos desplazamientos hasta Amalfi/Ravello. El alojamiento no se elige ni reserva.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ciudad libre; museo Correale de pago (tarifa no verificada).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amalfitana/sorrento.jpg",
+    "source": "https://www.pexels.com/photo/town-and-hill-on-sea-shore-with-motorboats-moored-in-marina-19143164/",
+    "author": "K",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Marina y casas de Sorrento. No muestra todo el casco ni confirma ferries operativos.",
+    "alt": "Marina y casas de Sorrento. No muestra todo el casco ni confirma ferries operativos."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "positano",
+   "name": "Positano, el icono vertical",
+   "kind": "walk",
+   "zone": "Positano",
+   "reason": "El pueblo-escalera que cae al mar: la cúpula de mayólica de Santa Maria Assunta, las boutiques de lino y moda Positano y la playa de Spiaggia Grande bajo las casas de colores.",
+   "sourceIds": [
+    "vjb",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 40.628658,
+    "lon": 14.485496
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Positano%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Desniveles y muchas escaleras entre zonas de carretera, centro y playa. SITA sirve paradas de carretera como Sponda y Chiesa Nuova, no la playa. Comprobar parada adecuada y acceso al alojamiento.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Pueblo libre; playas privadas (lidi) de pago.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amalfitana/positano.jpg",
+    "source": "https://www.pexels.com/photo/stunning-coastal-view-of-positano-italy-28743772/",
+    "author": "Leon Hellegers",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Positano sobre la costa. Imagen vertical completa, no ruta peatonal sin escalones.",
+    "alt": "Positano sobre la costa. Imagen vertical completa, no ruta peatonal sin escalones."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "amalfi",
+   "name": "Amalfi, la república marinera",
+   "kind": "walk",
+   "zone": "Amalfi",
+   "reason": "El corazón histórico de la costa: el Duomo de San Andrés con su fachada árabe-normanda y el claustro del Paraíso, el arsenal de la república y el papel artesano (museo della Carta).",
+   "sourceIds": [
+    "vjb",
+    "wp",
+    "sita-winter-pdf"
+   ],
+   "coordinates": {
+    "lat": 40.634465,
+    "lon": 14.603436
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Duomo%20di%20Amalfi%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Duomo: horario y tarifa del claustro no verificados en primaria esta sesión.",
+    "source": "caution-sin-primaria"
+   },
+   "price": "Plaza libre; Duomo-claustro y museos de pago (tarifas no verificadas).",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/amalfitana/amalfi.jpg",
+    "source": "https://www.pexels.com/photo/historic-amalfi-cathedral-in-campania-italy-35177569/",
+    "author": "Edoardo Colombo",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada de la catedral de Amalfi. No muestra claustro ni acredita acceso al interior.",
+    "alt": "Fachada de la catedral de Amalfi. No muestra claustro ni acredita acceso al interior."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "atrani",
+   "name": "Atrani y su frente marítimo",
+   "kind": "walk",
+   "zone": "Atrani",
+   "reason": "Pueblo junto a Amalfi, con arcos y frente marítimo. La conexión a pie debe verificarse antes de usarla; no se fija un paseo de diez minutos ni se presupone accesibilidad sin escalones.",
+   "sourceIds": [
+    "vjb",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 40.636908,
+    "lon": 14.607541
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Atrani%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amalfitana/atrani.jpg",
+    "source": "https://www.pexels.com/photo/stunning-view-of-atrani-on-amalfi-coast-38046314/",
+    "author": "Ahmet Yüksek ✪",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Frente marítimo de Atrani. No acredita ruta a pie segura desde Amalfi.",
+    "alt": "Frente marítimo de Atrani. No acredita ruta a pie segura desde Amalfi."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ravello",
+   "name": "Ravello: elegir un jardín",
+   "kind": "walk",
+   "zone": "Ravello",
+   "reason": "La terraza a 350 m sobre el mar: Villa Rufolo (los jardines de Wagner) y Villa Cimbrone con la Terrazza dell'Infinito, y el festival de música en verano.",
+   "sourceIds": [
+    "vjb",
+    "wp",
+    "vrf",
+    "cimbrone-own",
+    "cimbrone-hours-own",
+    "sita-own"
+   ],
+   "coordinates": {
+    "lat": 40.648675,
+    "lon": 14.612663
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Villa%20Rufolo%2C%20Ravello%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 180,
+   "durationType": "editorial-estimate",
+   "caution": "Elegir un jardín principal. Rufolo: compra solo en el lugar y sin reserva según operador; Torre Museo desde 5 años. La tabla SITA incluye Amalfi-Ravello, pero enlaces completos desde Sorrento y vuelta aún no están comprobados. No usar escaleras desde Atrani por defecto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Rufolo desde 3 nov 2026 diario 9-17, last 16:30; antes 26 oct-2 nov 9-18, last 17:30. Cimbrone webpropia muestra 9-17:30, last 17; posiblescierres extraordinarios. Noticia datada 2019 pero excepción 31 oct 2026, confirmarfechaconcreta.",
+    "source": "https://www.villarufolo.it/en/opening-times-and-prices/"
+   },
+   "price": "Villa Rufolo 8€general, 7€gruposmín 15, 6€mayores 65 yniños 5-12; solo taquilla, sin reserva. Villa Cimbrone 10€general según propiohotel, descuentosgrupos/menores 12 importe pendiente. Son entradas separadas.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/amalfitana/ravello-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Ravello, terraza imaginada, no reproducción de un jardín concreto. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Ravello, terraza imaginada, no reproducción de un jardín concreto. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "accessRules": {
+    "scope": "Villas Rufolo y Cimbrone, no casco de Ravello",
+    "noticeLabel": "Villas Rufolo y Cimbrone, no casco de Ravello",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Desde 3 noviembre de 2026 Rufolo 9-17, última entrada 16:30. Cimbrone tiene horario y posibles cierres distintos: comprobar fecha, no confundir ambos jardines."
+    ]
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "furore",
+   "name": "Fiordo di Furore",
+   "kind": "viewpoint",
+   "zone": "Furore",
+   "reason": "Entrada de mar entre paredes rocosas, con una pequeña playa bajo el puente de la carretera costera. No se trata como una parada automática desde la SS 163.",
+   "sourceIds": [
+    "vjb",
+    "wp",
+    "furore-tourism"
+   ],
+   "coordinates": {
+    "lat": 40.614569,
+    "lon": 14.554854
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Fiordo%20di%20Furore%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "No parar el coche en la SS 163 ni improvisar una foto desde el puente. Acceso actual a playa y escaleras pendiente de verificar. No añadir al regreso Ravello-Sorrento sin confirmar un acceso seguro y el transporte de ida y vuelta.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso actual a escalera y playa pendiente; no se certifica entrada libre ni apertura.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amalfitana/furore-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Furore, concepto del fiordo, no acceso o escalera real. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Furore, concepto del fiordo, no acceso o escalera real. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "sendero_dioses",
+   "name": "Sendero de los Dioses (Sentiero degli Dei)",
+   "kind": "walk",
+   "zone": "Bomerano → Nocelle",
+   "reason": "Sendero CAI 327 entre Bomerano y Nocelle: la ficha del club publica 5,3 km para ese tramo. Continuar hasta Positano es otro tramo, no está incluido en esos kilómetros.",
+   "sourceIds": [
+    "vjb",
+    "wp",
+    "cai-327",
+    "agerola-dei"
+   ],
+   "coordinates": {
+    "lat": 40.629703,
+    "lon": 14.538359
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Bomerano%2C%20Agerola%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 240,
+   "durationType": "editorial-estimate",
+   "caution": "Alternativa de jornada propia, no añadido al plan costero. Hay tramos expuestos y variantes; comprobar avisos, estado y clima. CAI propone desde Nocelle el bus Flavio Gioia o los senderos 331/331a hacia Positano, pero aquí no se han verificado horarios ni conexiones. Los 1.700 escalones descritos por el ayuntamiento bajan a Arienzo y no directamente al centro. No se garantiza ruta abierta, duración total ni vuelta.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Condiciones de acceso y posible restricción actual por comprobar; no se certifica ruta abierta.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/amalfitana/sendero_dioses-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Sendero de los Dioses, paisaje imaginado, no trazado del camino ni prueba de acceso seguro. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Sendero de los Dioses, paisaje imaginado, no trazado del camino ni prueba de acceso seguro. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "capri",
+   "name": "Capri: excursión según navegación",
+   "kind": "excursion",
+   "zone": "Capri",
+   "reason": "Excursión insular según navegación: la Piazzetta, jardines de Augusto con vistas a los Faraglioni y Anacapri son opciones para elegir, no todo incluido en una jornada. Trayecto y duración dependen del puerto y servicio; comprobar horario y estado del mar.",
+   "sourceIds": [
+    "vjb",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 40.548843,
+    "lon": 14.228371
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Capri%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 480,
+   "durationType": "editorial-estimate",
+   "caution": "Excursión solo trasconfirmar ida/vuelta deoperadorparafecha ymar. No prometer último regreso ni acceso Gruta Azul. Ferry, funicular yotrasatracciones tienenprecios/temporadaspropiospendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ferry, funicular, silla de Solaro, Villa Jovis y Gruta Azul de pago; tarifas no verificadas en primaria esta sesión.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/amalfitana/capri.jpg",
+    "alt": "Capri: los Faraglioni frente a la costa, con pequeñas embarcaciones de archivo. No equivale a billete o paseo en barco incluido.",
+    "caption": "Capri: los Faraglioni frente a la costa, con pequeñas embarcaciones de archivo. No equivale a billete o paseo en barco incluido.",
+    "author": "Anna Holodna",
+    "source": "https://www.pexels.com/photo/stunning-view-of-faraglioni-rocks-in-capri-italy-37992610/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.capri.com/en/e/the-faraglioni-of-capri"
+   },
+   "transport": "Ferriesdesde Sorrento pendientes de fuenteprimaria yfecha. No convierte billete disponible enregresoasegurado.",
+   "photoPending": false
+  },
+  {
+   "id": "pompeya",
+   "name": "Pompeya, la ciudad detenida en el 79",
+   "kind": "excursion",
+   "zone": "Pompei",
+   "reason": "Yacimiento arqueológico de Pompeya como jornada propia. Elegir un sector y accesos según tiempo, condiciones y entrada; ida y vuelta desde Sorrento pendientes de verificar para la fecha.",
+   "sourceIds": [
+    "vjb",
+    "wp",
+    "pps"
+   ],
+   "coordinates": {
+    "lat": 40.749965,
+    "lon": 14.476101
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Scavi%20di%20Pompei%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Ticket nominativo, 20 milentradasdiarias y franjas estivales. No salir y reentrar con mismo ticket en mismo sitio. Cierra 25 dic/1 ene salvoaviso. Pompeii Artebus sin plataforma accesible; no presumirtotalmenteadaptado. Tiempo 4 h esestimacióneditorial, noreglamínima.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Invierno (15 oct-15 mar): 9:00-17:00, última entrada 15:30. Verano (16 mar-14 oct): apertura 9:00, última entrada 17:30, con franjas de entrada 9:00-13:00 (máx. 15.000) y 13:00-17:30 (máx. 5.000); tope diario 20.000 visitantes y billete NOMINATIVO.",
+    "source": "https://pompeiisites.org/info-per-la-visita/orari-e-tariffe/"
+   },
+   "price": "Pompei Express 20€solo ciudad; Pompei+25€añadevillas suburbanas, Boscoreale+navetta; Grande Pompei 30€3 días un acceso por sitio. Sitiosindividuales Boscoreale/Oplontis/Museo Stabia 8€, noatribuir 8€a Villa Arianna/San Marco. Reducida 2€UE 18 hasta 25 NO cumplidosconcondiciones, nomayores 25. Express+villas 8€adicionalcashless en Porta Ercolano, noigualprecioque Plus 25€.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/amalfitana/pompeya.jpg",
+    "alt": "Pompeya: columnas y restos del santuario de Apolo. Foto de archivo del yacimiento, no incluye el Vesubio ni confirma áreas abiertas para una fecha.",
+    "caption": "Pompeya: columnas y restos del santuario de Apolo. Foto de archivo del yacimiento, no incluye el Vesubio ni confirma áreas abiertas para una fecha.",
+    "author": "Alexis Fauvet",
+    "source": "https://unsplash.com/photos/ancient-roman-ruins-with-columns-and-mountains-NGa4et1u4mc",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "identitySource": "https://pompeiisites.org/progetti-di-scavo/santuario-di-apollo/"
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Sorrento con margen",
+     "stopIds": [
+      "sorrento"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Llegada, paseo y revisión de la logística regional. Centro, marinas e interiores son elecciones, no una lista obligatoria.",
+     "pacing": "Esquema editorial. Consultar buses de ida y vuelta, paradas en carretera, equipaje, comida y luz. Horario publicado no garantiza plaza, puntualidad ni ferries activos."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Sorrento con margen",
+     "stopIds": [
+      "sorrento"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Llegada, paseo y revisión de la logística regional. Centro, marinas e interiores son elecciones, no una lista obligatoria.",
+     "pacing": "Esquema editorial. Consultar buses de ida y vuelta, paradas en carretera, equipaje, comida y luz. Horario publicado no garantiza plaza, puntualidad ni ferries activos."
+    },
+    {
+     "title": "Amalfi o Positano",
+     "stopIds": [
+      "amalfi"
+     ],
+     "optionalStopIds": [
+      "atrani",
+      "positano"
+     ],
+     "editorialNote": "Ejemplo de tabla SITA vigente del 02/11/2026 al 21/03/2027: Sorrento 10:00 → Amalfi 11:40, columna G (diaria); regreso Amalfi 16:00 → Sorrento 17:40, también G. Son 3 h 20 min de bus y 4 h 20 min entre llegada y salida, sin contar acceso a paradas ni retrasos. No añadir Positano por defecto. Verificar avisos y billete para la fecha, sin plaza garantizada.",
+     "pacing": "Esquema editorial. Consultar buses de ida y vuelta, paradas en carretera, equipaje, comida y luz. Horario publicado no garantiza plaza, puntualidad ni ferries activos."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Sorrento con margen",
+     "stopIds": [
+      "sorrento"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Llegada, paseo y revisión de la logística regional. Centro, marinas e interiores son elecciones, no una lista obligatoria.",
+     "pacing": "Esquema editorial. Consultar buses de ida y vuelta, paradas en carretera, equipaje, comida y luz. Horario publicado no garantiza plaza, puntualidad ni ferries activos."
+    },
+    {
+     "title": "Amalfi o Positano",
+     "stopIds": [
+      "amalfi"
+     ],
+     "optionalStopIds": [
+      "atrani",
+      "positano"
+     ],
+     "editorialNote": "Ejemplo de tabla SITA vigente del 02/11/2026 al 21/03/2027: Sorrento 10:00 → Amalfi 11:40, columna G (diaria); regreso Amalfi 16:00 → Sorrento 17:40, también G. Son 3 h 20 min de bus y 4 h 20 min entre llegada y salida, sin contar acceso a paradas ni retrasos. No añadir Positano por defecto. Verificar avisos y billete para la fecha, sin plaza garantizada.",
+     "pacing": "Esquema editorial. Consultar buses de ida y vuelta, paradas en carretera, equipaje, comida y luz. Horario publicado no garantiza plaza, puntualidad ni ferries activos."
+    },
+    {
+     "title": "Ravello, un jardín principal",
+     "stopIds": [
+      "ravello"
+     ],
+     "optionalStopIds": [
+      "furore",
+      "sendero_dioses"
+     ],
+     "editorialNote": "Ejemplo de enlace del cuadro SITA vigente del 02/11/2026 al 21/03/2027 para lunes a sábado no festivo: Sorrento 10:00 → Amalfi 11:40 (G, diaria); Amalfi 12:30 → Ravello 12:55 (G); vuelta Ravello 16:35 → Amalfi 17:00 (F, lunes a sábado); Amalfi 17:30 → Sorrento 19:10 (F). Esperas publicadas de 50 min y 30 min, con 3 h 40 min entre llegada y salida de Ravello. El conjunto ocupa 9 h 10 min desde salida a regreso, no 9 h de visitas. Un jardín principal y comida, no añadir Furore. Verificar avisos, festivos, parada exacta y billete para la fecha; plazas y puntualidad no garantizadas.",
+     "pacing": "Esquema editorial. Consultar buses de ida y vuelta, paradas en carretera, equipaje, comida y luz. Horario publicado no garantiza plaza, puntualidad ni ferries activos."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Villa Rufolo: 8 € y solo taquilla. Villa Cimbrone: 10 €. Son entradas separadas.",
+  "Pompeya: 20, 25 y 30 € son productos distintos. La rebaja de 2 € es para ciudadanos de la UE desde los 18 hasta los 25 años no cumplidos, con las condiciones del operador.",
+  "Ferries a Capri y estado actual del Sendero de los Dioses pendientes: no se confirma operación para una fecha.",
+  "Duomo de Amalfi: tarifa y horario pendientes, sin promesa de interior al atardecer.",
+  "Visitas: 6 fotos reales y 3 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Festival de Ravello: Verano (junio-septiembre aprox., programa anual sin primaria extraída). Conciertos en los jardines de Villa Rufolo sobre el mar. Sin calendario confirmado para el modo Navidad."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vjb",
+   "title": "Viajablog: qué ver en la Costa Amalfitana",
+   "url": "https://www.viajablog.com/que-ver-en-la-costa-amalfitana/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Costa Amalfitana y lugares",
+   "url": "https://es.wikipedia.org/wiki/Costa_amalfitana",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vrf",
+   "title": "Villa Rufolo (Fondazione Ravello): horarios y tarifas",
+   "url": "https://www.villarufolo.it/en/opening-times-and-prices/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pps",
+   "title": "Parque Arqueológico de Pompeya: horarios y tarifas oficiales",
+   "url": "https://pompeiisites.org/info-per-la-visita/orari-e-tariffe/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cimbrone-own",
+   "title": "Hotel Villa Cimbrone: jardines y tarifa",
+   "url": "https://www.hotelvillacimbrone.com/villa-cimbrone/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cimbrone-hours-own",
+   "title": "Villa Cimbrone: apertura jardín",
+   "url": "https://www.hotelvillacimbrone.com/villa-cimbrone-gardens-2/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sita-own",
+   "title": "SITA: cambiohorarios 2 nov 2026",
+   "url": "https://sitasudtrasporti.it/campania/avvisi/orari-costiera-sita-dal-02-11-2026/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sita-winter-pdf",
+   "url": "https://sitasudtrasporti.it/campania/wp-content/uploads/sites/3/2026/10/ORARI-SITA-COSTIERA_INVERNO.pdf",
+   "title": "SITA: tabla invierno02/11/2026-21/03/2027, leída visualmente",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cai-327",
+   "title": "CAI Monti Lattari: tramo 327 Bomerano-Nocelle",
+   "url": "https://www.caimontilattari.it/sentiero/327/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "agerola-dei",
+   "title": "Ayuntamiento de Agerola: variantes y bajada a Arienzo",
+   "url": "https://www.comune.agerola.na.it/vivere_il_comune/luoghi/luogo_16.html",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "furore-tourism",
+   "title": "Amalfi Destination: entorno del Fiordo di Furore",
+   "url": "https://www.visitamalfi.info/fr/les-environs-damalfi/fiordo-di-furore/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

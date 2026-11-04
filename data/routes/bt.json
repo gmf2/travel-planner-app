@@ -1,0 +1,153 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "BT",
+ "country": "Bután",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Oeste: Paro, Thimphu y Punakha. No cubre Bumthang, centro ni este del país.",
+ "verificationLimits": [
+  "Propuesta editorial de 6 días / 5 noches a partir de un circuito comercial de 5 días. No es un paquete reservado ni una cotización.",
+  "Tiempos de carretera orientativos del operador; sumar visitas, tráfico y condiciones. Evitar carretera nocturna; el monzón puede causar desprendimientos.",
+  "SDF y visado según páginas oficiales consultadas; verificar la tarifa para las fechas del viaje. La FAQ de Inmigración aún fija el incentivo hasta agosto de 2027, sin asumir prórrogas publicadas solo en prensa."
+ ],
+ "routes": [
+  {
+   "id": "bt-west-6",
+   "title": "Paro, Thimphu y Punakha · 6 días",
+   "scope": "Oeste: Paro, Thimphu y Punakha. No cubre Bumthang, centro ni este del país.",
+   "pace": "6 días / 5 noches: Thimphu 2, Punakha 1, Paro 2. Día del Nido del Tigre sin traslado interurbano previo.",
+   "assumptions": "Adaptación editorial de Ambo Tours: se añade una noche en Paro para separar el traslado de la caminata. Guía certificado y vehículo con conductor organizados antes de viajar; no se asigna operador ni se contrata nada. La FAQ oficial exige guía. Nido del Tigre es opcional según forma física, altura y tiempo; alternativa tranquila en Paro, no otra caminata exigente. Visado y condiciones según pasaporte, sin inferir nacionalidad.",
+   "sources": [
+    {
+     "id": "btn",
+     "title": "Ambo Tours - Butan 5 dias (operador local)",
+     "url": "https://www.ambotours.com/our-tours/cultural-and-heritage-tours/5-days-bhutan-highlights/"
+    },
+    {
+     "id": "faq",
+     "title": "Bhutan Travel · FAQ, guía, SDF y documentación",
+     "url": "https://bhutan.travel/faqs"
+    },
+    {
+     "id": "visa",
+     "title": "Bhutan Travel · visado",
+     "url": "https://bhutan.travel/visa"
+    },
+    {
+     "id": "doi",
+     "title": "Inmigración · FAQ e incentivo SDF",
+     "url": "https://visit.doi.gov.bt/help/faq"
+    },
+    {
+     "id": "hike",
+     "title": "Bhutan Travel · excursiones a pie",
+     "url": "https://bhutan.travel/adventure-experiences"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Bután",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=But%C3%A1n"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Paro y base en Thimphu",
+     "overnight": "Thimphu",
+     "stops": [
+      "Recepción y traslado",
+      "Paseo breve por Thimphu si queda margen; descanso a la llegada"
+     ],
+     "transfer": "Paro-Thimphu: unos 54 km / 1 h de carretera según Ambo, sin paradas ni garantía. Ajustar a llegada y condiciones; no acumular museos este día.",
+     "sourceIds": [
+      "btn",
+      "maec"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Dochula y valle de Punakha",
+     "overnight": "Punakha",
+     "stops": [
+      "Paso Dochula si carretera y tiempo permiten",
+      "Dzong de Punakha con guía y acceso confirmado"
+     ],
+     "transfer": "Thimphu-Punakha: unos 71 km / 2 h de conducción según Ambo, más paradas. Dochula supera 3.000 m; no se promete visibilidad de montañas.",
+     "sourceIds": [
+      "btn",
+      "faq"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Punakha y regreso a Thimphu",
+     "overnight": "Thimphu",
+     "stops": [
+      "Khamsum Yueley Namgyal como paseo opcional, no obligatorio",
+      "Buddha Dordenma o Chorten Memorial si hay margen, no ambos forzados"
+     ],
+     "transfer": "Regreso Punakha-Thimphu por Dochula: unas 2 h base de Ambo, sin paradas. La subida a Khamsum ocupa alrededor de 1 h de subida según programa, más bajada y visita y se omite si carga demasiado el día.",
+     "sourceIds": [
+      "btn",
+      "maec"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Traslado a Paro y tarde tranquila",
+     "overnight": "Paro",
+     "stops": [
+      "Paro y descanso",
+      "Rinpung Dzong o Museo Nacional como alternativa, según guía y apertura"
+     ],
+     "transfer": "Thimphu-Paro: unos 54 km / 1 h de carretera según Ambo. Se duerme en Paro antes de la caminata, en vez de añadir ese traslado a la mañana del Nido del Tigre.",
+     "sourceIds": [
+      "btn",
+      "faq"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Nido del Tigre, o Paro sin caminata",
+     "overnight": "Paro",
+     "stops": [
+      "Taktsang con guía: jornada de caminata si condiciones y forma física permiten",
+      "Alternativa: paseo por Paro y una visita cultural con guía; sin subida obligatoria"
+     ],
+     "transfer": "Traslado local al inicio del sendero y regreso a Paro, coordinados con guía. Turismo oficial estima 5-6 h para la caminata completa; reservar el día, sin conducir a otra base ni añadir una lista de templos. Escaleras, desnivel y altura: no es un paseo accesible para todos.",
+     "sourceIds": [
+      "btn",
+      "hike",
+      "faq"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Salida desde Paro",
+     "overnight": null,
+     "stops": [
+      "Traslado al aeropuerto PBH",
+      "Paseo breve solo si la hora de salida deja margen"
+     ],
+     "transfer": "Noche anterior en Paro. Traslado al aeropuerto según vuelo real y antelación indicada por aerolínea/guía; no se añade Punakha ni una caminata el día de salida.",
+     "sourceIds": [
+      "btn"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores advierte de asistencia médica limitada, carreteras sinuosas y desprendimientos durante el monzón. Viajar por carretera de día y prever seguro con rescate si se hace montaña. FAQ oficial: guía certificado obligatorio. SDF adulto que paga en USD: 100 USD por noche, además de 40 USD de solicitud de visado no reembolsables; no incluye hoteles, guía, vehículo ni vuelos. Verificar aplicabilidad y cuantía según pasaporte y fechas. No es un presupuesto total.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=But%C3%A1n"
+ },
+ "photo": {
+  "img": "assets/routes/bt-punakha.jpg",
+  "name": "Dzong de Punakha",
+  "source": "https://commons.wikimedia.org/wiki/File:Punakha_dzong.JPG",
+  "author": "Carmen Haeßner",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "caption": "Foto de archivo del dzong de Punakha. Representa una etapa del oeste, no todo Bután ni condiciones actuales."
+ }
+}

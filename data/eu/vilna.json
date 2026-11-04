@@ -1,0 +1,1300 @@
+{
+ "schemaVersion": 1,
+ "country": "LT",
+ "id": "vilna",
+ "name": "Vilna",
+ "localName": "Vilnius",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "catedral",
+   "name": "Catedral de Vilna y su plaza",
+   "kind": "monument",
+   "zone": "Katedros aikštė",
+   "reason": "El corazón neoclásico de la ciudad: la catedral de San Estanislao y San Ladislao con su campanario exento (antigua torre defensiva) y el 'milagro' de la losa stebuklas en la plaza.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6858867,
+    "lon": 25.2877949
+   },
+   "coordinateSource": "nominatim: Arkikatedra bazilika, Katedros a., Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Acceso turístico, interior y posible precio sin fuente primaria actual. Exterior como base, respetar culto y controles; no asumir gratuidad ni patios abiertos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico y criptas (visitas guiadas) no verificados en primaria esta sesión.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/vilna/catedral.jpg",
+    "alt": "Catedral de Vilna: fachada neoclásica y campanario exento desde la plaza. Fotografía publicada en 2021; no muestra el interior.",
+    "caption": "Catedral de Vilna: fachada neoclásica y campanario exento desde la plaza. Fotografía publicada en 2021; no muestra el interior.",
+    "author": "Karina Kegy",
+    "source": "https://unsplash.com/photos/white-and-black-church-under-blue-sky-RhDuJKt38ac",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "identitySource": "https://www.govilnius.lt/visit-vilnius/places/the-cathedral-basilica-of-st-stanislaus-and-st-ladislaus"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "palacio_duque",
+   "name": "Palacio de los Grandes Duques",
+   "kind": "museum",
+   "zone": "Katedros aikštė",
+   "reason": "El palacio de los gobernantes de Lituania reconstruido en 2013 tras 200 años desaparecido: la historia del estado lituano desde el siglo XIII en la plaza de la catedral.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "duke-hours",
+    "duke-price"
+   ],
+   "coordinates": {
+    "lat": 54.6862083,
+    "lon": 25.2894439
+   },
+   "coordinateSource": "nominatim: Valdovų rūmai, Katedros a. 3, Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "El bloque de visita general muestra verano; se usa la página específica de horario, modificada 31/08/2026. Cerrado 24-26 diciembre de 2026. Elegir una visita principal, no sumar todas las rutas a Gediminas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Septiembre-mayo: martes/miércoles/viernes/sábado 10-18, jueves 10-20, domingo 10-16; lunes cerrado. Última entrada una hora antes.",
+    "source": "https://www.valdovurumai.lt/en/opening-hours/"
+   },
+   "price": "16 € adulto rutas I-IV. Por separado: I 6 €, II 10 €, III 4 €, IV 6 €; descuentos de combinación según taquilla.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/vilna/palacio_duque-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Palacio de los Grandes Duques, palacio imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Palacio de los Grandes Duques, palacio imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo Palacio Ducal, no plaza exterior",
+    "noticeLabel": "Palacio de los Grandes Duques",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "notices": [
+     "Invierno: ma/mi/vi/sá 10-18, jueves 10-20, domingo 10-16. Última entrada una hora antes."
+    ],
+    "closedDates": [
+     "2026-12-24",
+     "2026-12-25",
+     "2026-12-26"
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "arsenal",
+   "name": "Museo Nacional de Lituania (Nuevo Arsenal)",
+   "kind": "museum",
+   "zone": "Arsenalo g.",
+   "reason": "Nuevo Arsenal del Museo Nacional de Lituania, actualmente cerrado por reconstrucción según el museo. No es una alternativa interior disponible a la Torre de Gediminas.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "arsenal-own"
+   ],
+   "coordinates": {
+    "lat": 54.6873498,
+    "lon": 25.2891545
+   },
+   "coordinateSource": "nominatim: Lietuvos nacionalinis muziejus, Arsenalo g. 1, Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "No planificar visita interior. Otros centros del Museo Nacional tienen entrada y horarios propios.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Cerrado por reconstrucción; sin reapertura publicada.",
+    "source": "https://lnm.lt/en/museums/new-arsenal/"
+   },
+   "price": null,
+   "visitMode": "exterior, interior cerrado",
+   "photo": {
+    "img": "assets/vilna/arsenal-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Nuevo Arsenal, concepto exterior sin piezas inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Nuevo Arsenal, concepto exterior sin piezas inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Nuevo Arsenal, no otras sedes del Museo Nacional",
+    "noticeLabel": "Museo Nacional de Lituania (Nuevo Arsenal)",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [],
+    "notices": [],
+    "standingNotice": "Nuevo Arsenal cerrado por reconstrucción según el museo. No hay fecha de reapertura publicada; elegir fecha no habilita el interior.",
+    "closedRanges": [
+     {
+      "start": "2026-11-03",
+      "end": "2026-12-31",
+      "label": "Interior del Nuevo Arsenal por reconstrucción"
+     }
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "torre_gediminas",
+   "name": "Torre de Gediminas",
+   "kind": "monument",
+   "zone": "Colina del castillo",
+   "reason": "Torre de ladrillo rojo en la colina de Gediminas, con museo de historia y mirador sobre Vilna. La entrada al museo y el funicular son productos separados.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "ged-own"
+   ],
+   "coordinates": {
+    "lat": 54.6867584,
+    "lon": 25.2906845
+   },
+   "coordinateSource": "nominatim: Gedimino pilis, Arsenalo g., Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Salas de la torre sin acceso para silla de ruedas según museo. Funicular diario 10-20, taquilla cierra 30 minutos antes: 3 € ida/vuelta o 2 € solo trayecto, aparte de entrada al museo. Verificar operación del día y festivos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Diario 10-20, taquilla cierra 30 minutos antes; festivos según calendario propio.",
+    "source": "https://lnm.lt/en/museums/gediminas-castle-tower/"
+   },
+   "price": "Museo de torre 8 € adulto, 4 € reducida acreditada. Combo Historical Triangle 15 €, no todos los museos de Vilna. Último domingo del mes gratis según categorías/reglas del museo.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/vilna/torre_gediminas.jpg",
+    "source": "https://www.pexels.com/photo/gediminas-tower-in-vilnius-lithuania-38568703/",
+    "author": "Анжелика Jegorova",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Torre de Gediminas y colina desde el exterior. No es vista desde el mirador.",
+    "alt": "Torre de Gediminas y colina desde el exterior. No es vista desde el mirador."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "tres_cruces",
+   "name": "Colina de las Tres Cruces",
+   "kind": "viewpoint",
+   "zone": "Kalnų parkas",
+   "reason": "El otro gran mirador de Vilna: el monumento blanco a los franciscanos legendarios en la colina del parque Kalnų, con la vista simétrica a la de Gediminas sobre los tejados.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6867363,
+    "lon": 25.2975462
+   },
+   "coordinateSource": "nominatim: Trys kryžiai, Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Subida por escaleras/sendero del parque (15-20 min); resbaladizo con lluvia o nieve.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/vilna/tres_cruces-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Tres Cruces, concepto de colina y cruces. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Tres Cruces, concepto de colina y cruces. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "santa_ana",
+   "name": "Santa Ana y el conjunto bernardino",
+   "kind": "monument",
+   "zone": "Maironio g.",
+   "reason": "Conjunto de ladrillo gótico: Santa Ana conserva su fachada flamígera y, detrás, la iglesia y monasterio bernardinos. La historia de Napoleón que quiso llevarse Santa Ana es una leyenda local.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6830243,
+    "lon": 25.2932138
+   },
+   "coordinateSource": "nominatim: Šv. Onos bažnyčia, Maironio g. 8, Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Exterior como base. Turismo publica horarios/entrada gratuita, pero no confirma acceso a todo el monasterio ni patios. Respetar culto y comprobar avisos de la parroquia.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Go Vilnius publica Santa Ana mar-vie 16:30-19, sáb 10:30-19, dom 9-17; lunes no indicado. Horarios de culto y Bernadinos distintos. Confirmar con la parroquia antes de ir.",
+    "source": "https://www.govilnius.lt/visit-vilnius/places/church-of-st-anne-and-bernardine-complex"
+   },
+   "price": "Go Vilnius publica entrada gratuita; culto o cierres pueden limitar la visita.",
+   "visitMode": "exterior; interior si está abierto",
+   "photo": {
+    "img": "assets/vilna/santa_ana.jpg",
+    "alt": "Conjunto de Santa Ana y los Bernardinos: fachada bernardina al fondo y ladrillos góticos de Santa Ana en primer plano. No es una foto frontal de Santa Ana.",
+    "caption": "Conjunto de Santa Ana y los Bernardinos: fachada bernardina al fondo y ladrillos góticos de Santa Ana en primer plano. No es una foto frontal de Santa Ana.",
+    "author": "Marcelo Aut",
+    "source": "https://www.pexels.com/photo/historical-architecture-in-vilnius-lithuania-37527038/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.govilnius.lt/visit-vilnius/places/church-of-st-anne-and-bernardine-complex"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "uzupis",
+   "name": "La República de Užupis",
+   "kind": "walk",
+   "zone": "Užupis",
+   "reason": "El barrio que se autoproclamó república independiente en 1997: su constitución en 41 artículos colgada en la pared ('todo el mundo tiene derecho a ser feliz'), talleres de artistas y el ángel de la plaza.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6812812,
+    "lon": 25.2993836
+   },
+   "coordinateSource": "nominatim: Užupis, Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/vilna/uzupis-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Užupis, paseo fluvial imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Užupis, paseo fluvial imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "ayuntamiento",
+   "name": "Plaza del Ayuntamiento (Rotušės aikštė)",
+   "kind": "walk",
+   "zone": "Didžioji g.",
+   "reason": "La plaza del ayuntamiento neoclásico de 1799, corazón comercial de la Vilna vieja desde el siglo XV, con mercadillos y conciertos según temporada.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6780946,
+    "lon": 25.2868959
+   },
+   "coordinateSource": "nominatim: Vilniaus Rotušė, Didžioji g. 31",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/vilna/ayuntamiento-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Ayuntamiento de Vilna, edificio cívico imaginado. No es una foto real.",
+    "caption": "Ilustración IA conceptual del Ayuntamiento de Vilna. No es una foto real ni reproducción exacta del edificio o estado actual.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "puerta_aurora",
+   "name": "Puerta de la Aurora (Aušros Vartai)",
+   "kind": "monument",
+   "zone": "Aušros Vartų g.",
+   "reason": "La única puerta de la muralla que sobrevive (1522) y el santuario mariano más venerado de Lituania: la Virgen de la Puerta de la Aurora atrae peregrinos de todo el mundo católico y ortodoxo.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6743076,
+    "lon": 25.2895595
+   },
+   "coordinateSource": "nominatim: Aušros Vartai, Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": "Acceso turístico, interior y posible precio sin fuente primaria actual. Exterior como base, respetar culto y controles; no asumir gratuidad ni patios abiertos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Capilla activa; la visita turística respeta el culto (horario no publicado en primaria).",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/vilna/puerta_aurora-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Puerta de la Aurora, concepto exterior, no copia del icono. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Puerta de la Aurora, concepto exterior, no copia del icono. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "hales",
+   "name": "Mercado Halės",
+   "kind": "market",
+   "zone": "Pylimo g.",
+   "reason": "El mercado cubierto de 1906, el más antiguo de la ciudad: producto lituano, panaderías y pequeños puestos de comida del barrio entre el casco viejo y la estación.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "hales-own",
+    "hales-conflict"
+   ],
+   "coordinates": {
+    "lat": 54.6733746,
+    "lon": 25.2864627
+   },
+   "coordinateSource": "nominatim: Halės turgus, Pylimo g. 58, Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "No asumir lunes abierto o cerrado: fuentes propias se contradicen. La visita de mañana martes-domingo coincide entre páginas; comprobar puestos concretos. Aviso 1-2 noviembre sin año explícito y recurso alojado en octubre de 2025, no programado como cierre de 2026.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Página de visitantes y pie: martes-sábado 7-18, domingo 7-15. FAQ del propio sitio dice lunes-viernes 7-18 y sábado 7-16: contradicción sin resolver.",
+    "source": "https://halesturgaviete.lt/en/for-visitors/"
+   },
+   "price": "Entrada libre.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/vilna/hales-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Halės, mercado imaginado sin puestos reales. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Halės, mercado imaginado sin puestos reales. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Mercado Halės, no todos sus negocios",
+    "noticeLabel": "Mercado Halės",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [],
+    "notices": [
+     "Martes-sábado 7-18 y domingo 7-15 en página de visitantes. Lunes y sábado tarde tienen contradicción en FAQ; confirmar."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "mo_museum",
+   "name": "Museo MO (arte moderno)",
+   "kind": "museum",
+   "zone": "Pylimo g.",
+   "reason": "El museo de arte moderno y contemporáneo diseñado por Libeskind (2018): la colección privada de Butkus con el arte lituano desde 1960, a cinco minutos de la Puerta de la Aurora.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "mo-own"
+   ],
+   "coordinates": {
+    "lat": 54.6793497,
+    "lon": 25.2774967
+   },
+   "coordinateSource": "nominatim: MO muziejus, Pylimo g. 17, Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "10-20, martes cerrado. Cerrado 24 y 25 de diciembre y Domingo de Pascua. 1 de enero abre 13-20.",
+    "source": "https://mo.lt/en/for-your-visit/"
+   },
+   "price": "11 € general, 6 € reducida y 22 € familiar según categorías propias.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/vilna/mo_museum-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo MO, edificio imaginado sin obras inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo MO, edificio imaginado sin obras inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo MO, no bistró",
+    "noticeLabel": "Museo MO (arte moderno)",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     2
+    ],
+    "notices": [
+     "10-20 excepto martes. Entradas 11/6 €, familiar 22 €."
+    ],
+    "closedDates": [
+     "2026-12-24",
+     "2026-12-25"
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "bastion",
+   "name": "Bastión de la muralla",
+   "kind": "monument",
+   "zone": "Bokšto g.",
+   "reason": "El baluarte renacentista de la muralla defensiva con su galería de tiro y la terraza con vista sobre el casco viejo: un conjunto defensivo visitable según horario.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "bastion-own"
+   ],
+   "coordinates": {
+    "lat": 54.6770938,
+    "lon": 25.2928365
+   },
+   "coordinateSource": "nominatim: Vilniaus gynybinės sienos Bastėja, Bokšto g. 20",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Exposición 23/09/2026-29/08/2027: martes-domingo 10-18, festivos pueden variar.",
+    "source": "https://lnm.lt/en/events/exhibition-medieval-comics/"
+   },
+   "price": "Exposición Medieval Comics: 6 € general, 3 € reducida según museo.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/vilna/bastion-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: bastión, fortificación imaginada. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en bastión, fortificación imaginada. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Interior del Bastión, no paseo exterior",
+    "noticeLabel": "Bastión de la muralla",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "notices": [
+     "Exposición vigente hasta 29/08/2027: martes-domingo 10-18, 6/3 €. Festivos por confirmar."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "downtown_forest",
+   "name": "Mirador de Subačius y el 'bosque urbano'",
+   "kind": "viewpoint",
+   "zone": "Subačiaus g.",
+   "reason": "El mirador junto al barbacana con la postal de los tejados y torres del casco viejo: la vista que la guía llama el 'bosque del centro' por las copas entre iglesias.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6773746,
+    "lon": 25.293957
+   },
+   "coordinateSource": "nominatim: Barbakano apžvalgos aikštelė, Subačiaus g. (mirador)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/vilna/downtown_forest-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Subačius, paisaje urbano imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Subačius, paisaje urbano imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "literatura",
+   "name": "Calle de la Literatura (Literatų gatvė)",
+   "kind": "walk",
+   "zone": "Literatų g.",
+   "reason": "El callejón-homenaje a los escritores lituanos: más de 200 placas artísticas en las paredes dedicadas a poetas y novelistas, del Yiddish al polaco y el lituano.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.683,
+    "lon": 25.283
+   },
+   "coordinateSource": "editorial: Literatų gatvė (callejón de la Literatura, sin nodo OSM único)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Coordenada editorial en el callejón (sin nodo OSM único).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/vilna/literatura-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: calle de la Literatura, calle imaginada sin placas de artistas inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en calle de la Literatura, calle imaginada sin placas de artistas inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "universidad",
+   "name": "Universidad de Vilna",
+   "kind": "monument",
+   "zone": "Senamiestis",
+   "reason": "La universidad más antigua del Báltico (1579): sus 13 patios jesuíticos, la librería Littera con los frescos de 1978 y la torre astronómica del observatorio.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6828203,
+    "lon": 25.2878334
+   },
+   "coordinateSource": "nominatim: Vilniaus universitetas, Simono Daukanto aikštė",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Acceso turístico, interior y posible precio sin fuente primaria actual. Exterior como base, respetar culto y controles; no asumir gratuidad ni patios abiertos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Acceso a patios e interiores turísticos pendiente de primaria actual. Exterior como base, sin asumir patios libres.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/vilna/universidad-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Universidad de Vilna, patio y torre imaginados. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Universidad de Vilna, patio y torre imaginados. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "palacio_presidencial",
+   "name": "Palacio Presidencial",
+   "kind": "monument",
+   "zone": "S. Daukanto a.",
+   "reason": "El palacio del siglo XVIII de la plaza Daukanto: residencia del presidente (bandera izada cuando está) y, los domingos a las 12:00, la ceremonia del izado según la guía.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6829713,
+    "lon": 25.2863789
+   },
+   "coordinateSource": "nominatim: Lietuvos Respublikos prezidentūra, S. Daukanto a. 3",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "La visita del centro de arte interior requiere registro previo en la web oficial (la guía indica hasta 3 días antes, no verificado en primaria esta sesión); parada exterior segura.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/vilna/palacio_presidencial-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Palacio Presidencial, concepto exterior. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Palacio Presidencial, concepto exterior. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "calles",
+   "name": "Las calles del casco viejo",
+   "kind": "walk",
+   "zone": "Pilies/Didžioji",
+   "reason": "La columna vertebral peatonal de la Vilna vieja: Pilies gatvė con sus ámbar y terrazas, los patios escondidos y los pasajes hacia la calle Literatura y el ayuntamiento.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6833,
+    "lon": 25.2894
+   },
+   "coordinateSource": "editorial: Pilies gatvė, eje monumental del casco viejo (calle sin nodo único)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/vilna/calles.jpg",
+    "source": "https://www.pexels.com/photo/charming-winter-street-in-vilnius-old-town-37527043/",
+    "author": "Marcelo Aut",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Calle del casco viejo de Vilna en invierno, no una foto de la Catedral ni de Santa Ana.",
+    "alt": "Calle del casco viejo de Vilna en invierno, no una foto de la Catedral ni de Santa Ana."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "kgb",
+   "name": "Museo de las Ocupaciones y Luchas por la Libertad (KGB)",
+   "kind": "museum",
+   "zone": "Aukų g. 2A",
+   "reason": "Museo en la antigua sede del KGB, con exposiciones sobre la represión soviética y las ocupaciones. Incluye celdas del sótano y una sala de ejecuciones; contenido sensible.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "olkm",
+    "olkm-new"
+   ],
+   "coordinates": {
+    "lat": 54.688023,
+    "lon": 25.2706894
+   },
+   "coordinateSource": "nominatim: Okupacijų ir laisvės kovų muziejus, Aukų g. 2A, Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Contenido muy duro (celdas y sala de ejecuciones): valorar con menores. Antes llamado 'Museo de las Víctimas del Genocidio' (nombre aún usado en muchas guías).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Miércoles-sábado 10:00-18:00; domingo 10:00-17:00; LUNES Y MARTES CERRADO.",
+    "source": "https://genocid.lt/muziejus/en/plan-your-visit/"
+   },
+   "price": "Adultos 6 €; estudiantes/jubilados (y con ISIC/ITIC/Erasmus) 3 €; familias 9 € (1 adulto) y 15 € (2 adultos) con 1-4 niños <12; gratis exiliados y presos políticos, <7 y otros colectivos.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/vilna/kgb-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo de las Ocupaciones, edificio imaginado sin celdas o piezas inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo de las Ocupaciones, edificio imaginado sin celdas o piezas inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo de las Ocupaciones, no fachada",
+    "noticeLabel": "Museo de las Ocupaciones y Luchas por la Libertad (KGB)",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1,
+     2
+    ],
+    "notices": [
+     "Miércoles-sábado 10-18, domingo 10-17. General 6 €, reducida 3 €; contenido sensible."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "open_gallery",
+   "name": "Open Gallery (arte urbano)",
+   "kind": "walk",
+   "zone": "Panerių g.",
+   "reason": "La galería de arte urbano a cielo abierto en un antiguo patio industrial: murales de gran formato, instalaciones y eventos en la Vilna creativa de Naujamiestis.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6696766,
+    "lon": 25.2692306
+   },
+   "coordinateSource": "nominatim: Atvira meno galerija, Panerių g., Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Espacio abierto; horarios de eventos no verificados en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/vilna/open_gallery-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Open Gallery, mural geométrico inventado, no obra real del recinto. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Open Gallery, mural geométrico inventado, no obra real del recinto. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "san_pedro_pablo",
+   "name": "Iglesia de San Pedro y San Pablo",
+   "kind": "monument",
+   "zone": "Antakalnis",
+   "reason": "La capilla sixtina del barroco lituano: más de 2.000 figuras de estuco blanco cubriendo cada centímetro del interior, encargada por el hetman Pac en 1676.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6941154,
+    "lon": 25.3062063
+   },
+   "coordinateSource": "nominatim: Šv. apaštalų Petro ir Povilo bažnyčia, Antakalnis, Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Acceso turístico, interior y posible precio sin fuente primaria actual. Exterior como base, respetar culto y controles; no asumir gratuidad ni patios abiertos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/vilna/san_pedro_pablo-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: San Pedro y San Pablo, concepto exterior sin estucos inventados. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en San Pedro y San Pablo, concepto exterior sin estucos inventados. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "paupys",
+   "name": "Paupys Market y el barrio de Paupys",
+   "kind": "market",
+   "zone": "Paupys",
+   "reason": "El mercado gastronómico del nuevo barrio de Paupys: puestos de cocina de autor, cafés y cine en la antigua zona industrial de la orilla del Vilnia, a un paseo de Užupis.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.6785854,
+    "lon": 25.3030198
+   },
+   "coordinateSource": "nominatim: Paupio Turgus, Paupio g. 26, Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Horario no verificado en primaria esta sesión.",
+    "source": "caution-sin-primaria"
+   },
+   "price": "Entrada libre (consumición).",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/vilna/paupys-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Paupys, barrio y mercado imaginados, no puestos reales. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Paupys, barrio y mercado imaginados, no puestos reales. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "barco",
+   "name": "Paseo en barco por el Neris",
+   "kind": "activity",
+   "zone": "Neris",
+   "reason": "La ciudad desde el río: los paseos fluviales bajo los puentes con vistas al castillo y a las colinas, saliendo de los embarcaderos junto al puente Mindaugo.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.688,
+    "lon": 25.286
+   },
+   "coordinateSource": "editorial: embarcaderos del Neris junto al puente Mindaugo (paseos en barco comerciales)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Estacional (primavera-otoño); comparar operadores en el embarcadero el mismo día.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Excursiones comerciales con horarios propios (no verificados en primaria).",
+    "source": "caution-sin-primaria"
+   },
+   "price": "Paseo comercial de pago, precio no verificado en primaria.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/vilna/barco-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Neris, río imaginado sin barco u operador real. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Neris, río imaginado sin barco u operador real. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "torre_tv",
+   "name": "Torre de la Televisión",
+   "kind": "viewpoint",
+   "zone": "Karoliniškės",
+   "reason": "La torre de 326 m con el restaurante giratorio a 165 m y el memorial del 13 de enero de 1991 en su base: la vista total de Vilna y la historia de la independencia en un mismo lugar.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "tv-own"
+   ],
+   "coordinates": {
+    "lat": 54.6871468,
+    "lon": 25.214721
+   },
+   "coordinateSource": "nominatim: TV bokštas, Sausio 13-osios g. 10, Vilnius",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Fuera del centro, requiere traslado. Entrada online NO da prioridad y debe mostrarse en taquilla por aforo. Terraza exterior abril-octubre según condiciones; no garantizada en noviembre. Invierno 1 noviembre-15 abril acceso por galería subterránea por hielo, con tramo de escaleras; la traducción propia dice 56 stair segments, no inferir accesibilidad. Personas con movilidad reducida deben coordinar acceso especial. Billetes no reembolsables, sin carritos ni equipaje grande en mirador.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Taquilla diario 11-21, última venta 10 minutos antes; bistró 11-22. Terraza exterior estacional abril-octubre según tiempo.",
+    "source": "https://tvbokstas.lt/en/prices/"
+   },
+   "price": "Mirador/bistró TOLIAI planta 67: 18 € general, 9 € reducida según elegibilidad, familia 45 € (2 adultos y hasta 3 niños). Edge Walk 57 € y 360°air 33 € son productos distintos.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/vilna/torre_tv-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: torre de televisión, concepto de vista exterior. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en torre de televisión, concepto de vista exterior. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "trakai",
+   "name": "Castillo de Trakai y el lago Galvė",
+   "kind": "excursion",
+   "zone": "Trakai",
+   "reason": "El castillo-isla de ladrillo rojo del siglo XIV en el lago Galvė, capital medieval del Gran Ducado: el puente de madera, las salas ducales y la comunidad karaim con sus casas de madera y su kibinai.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "tim",
+    "trakai-price",
+    "trakai-notice"
+   ],
+   "coordinates": {
+    "lat": 54.6527297,
+    "lon": 24.9339191
+   },
+   "coordinateSource": "nominatim: Trakų salos pilis, Trakai",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Página propia de horario y su pie discrepan en ABRIL: tabla principal abril-septiembre diario 10-19, pie incluye abril entre martes-domingo 10-18. Noviembre coincide martes-domingo 10-18; diciembre-febrero miércoles-domingo 10-18. Último acceso 30 minutos antes, víspera festivo cierra 1 hora antes. Verificar abril con operador, no escoger versión por conveniencia. Transporte ida/vuelta pendiente de primaria para fecha real.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Castillo-isla: mar/abr/oct/nov martes-domingo 10:00-18:00; may-sep LUNES-DOMINGO 10:00-19:00; dic-feb miércoles-domingo 10:00-18:00 (web oficial).",
+    "source": "https://trakaimuziejus.lt/en/lankytojams/darbo-laikas/"
+   },
+   "price": "Castillo de la Isla: octubre-marzo 12 € adulto/6 € reducida; abril-septiembre 14/7 €. Tarifas 2026, no incluyen transporte ni visitas guiadas.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/vilna/trakai.jpg",
+    "source": "https://www.pexels.com/photo/trakai-island-castle-in-spring-reflection-34593856/",
+    "author": "Suphot Punnachaiya",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Castillo de la Isla de Trakai, fachada del conjunto y lago.",
+    "alt": "Castillo de la Isla de Trakai, fachada del conjunto y lago."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "kaunas",
+   "name": "Kaunas, la capital de entreguerras",
+   "kind": "excursion",
+   "zone": "Kaunas",
+   "reason": "Kaunas como jornada independiente, con casco viejo y arquitectura de entreguerras como opciones. Elegir un recorrido y comprobar ida y vuelta para la fecha, sin fijar una hora de traslado.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 54.8990086,
+    "lon": 23.8839599
+   },
+   "coordinateSource": "nominatim: Kauno pilis, Kaunas",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "Tren/bus sin primaria verificada esta sesión; museos de Kaunas de pago no verificados.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Museos y funiculares de Kaunas: entradas de pago no verificadas en primaria.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/vilna/kaunas-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Kaunas, avenida Laisvės imaginada. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Kaunas, avenida Laisvės imaginada. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "La Vilna vieja del sur",
+     "zone": "Plaza del Ayuntamiento → Puerta de la Aurora → Mercado Halės → Museo MO → Bastión → Mirador de Subačius → Calle de la Literatura → Calles del casco viejo",
+     "stopIds": [
+      "hales",
+      "ayuntamiento",
+      "puerta_aurora",
+      "bastion",
+      "downtown_forest",
+      "literatura",
+      "calles"
+     ],
+     "editorialNote": "Mercado por la mañana y paseo por casco viejo sur. Bastión exterior como base; elegir interior del bastión o museo MO si se confirma acceso, no ambos añadidos a todos los puntos. Mirador con luz y terreno adecuados, no garantía de vista por clima.",
+     "optionalStopIds": [
+      "mo_museum"
+     ]
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "La Vilna vieja del sur",
+     "zone": "Plaza del Ayuntamiento → Puerta de la Aurora → Mercado Halės → Museo MO → Bastión → Mirador de Subačius → Calle de la Literatura → Calles del casco viejo",
+     "stopIds": [
+      "hales",
+      "ayuntamiento",
+      "puerta_aurora",
+      "bastion",
+      "downtown_forest",
+      "literatura",
+      "calles"
+     ],
+     "editorialNote": "Mercado por la mañana y paseo por casco viejo sur. Bastión exterior como base; elegir interior del bastión o museo MO si se confirma acceso, no ambos añadidos a todos los puntos. Mirador con luz y terreno adecuados, no garantía de vista por clima.",
+     "optionalStopIds": [
+      "mo_museum"
+     ]
+    },
+    {
+     "title": "La colina, la catedral y Užupis",
+     "zone": "Catedral → Museo Nacional (Nuevo Arsenal) → Torre de Gediminas → Palacio de los Grandes Duques → Palacio Presidencial → Universidad → Santa Ana y Bernardino → Užupis → Colina de las Tres Cruces",
+     "stopIds": [
+      "catedral",
+      "torre_gediminas",
+      "palacio_presidencial",
+      "universidad",
+      "santa_ana",
+      "uzupis"
+     ],
+     "editorialNote": "Elegir Gediminas como visita principal o sustituir por Palacio Ducal; Nuevo Arsenal cerrado por reconstrucción; no tres museos y dos colinas en un día. Universidad y Palacio Presidencial exteriores salvo acceso confirmado. Užupis paseo, Tres Cruces opcional con luz y margen, no cierre obligatorio al atardecer.",
+     "optionalStopIds": [
+      "palacio_duque",
+      "tres_cruces"
+     ]
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "La Vilna vieja del sur",
+     "zone": "Plaza del Ayuntamiento → Puerta de la Aurora → Mercado Halės → Museo MO → Bastión → Mirador de Subačius → Calle de la Literatura → Calles del casco viejo",
+     "stopIds": [
+      "hales",
+      "ayuntamiento",
+      "puerta_aurora",
+      "bastion",
+      "downtown_forest",
+      "literatura",
+      "calles"
+     ],
+     "editorialNote": "Mercado por la mañana y paseo por casco viejo sur. Bastión exterior como base; elegir interior del bastión o museo MO si se confirma acceso, no ambos añadidos a todos los puntos. Mirador con luz y terreno adecuados, no garantía de vista por clima.",
+     "optionalStopIds": [
+      "mo_museum"
+     ]
+    },
+    {
+     "title": "La colina, la catedral y Užupis",
+     "zone": "Catedral → Museo Nacional (Nuevo Arsenal) → Torre de Gediminas → Palacio de los Grandes Duques → Palacio Presidencial → Universidad → Santa Ana y Bernardino → Užupis → Colina de las Tres Cruces",
+     "stopIds": [
+      "catedral",
+      "torre_gediminas",
+      "palacio_presidencial",
+      "universidad",
+      "santa_ana",
+      "uzupis"
+     ],
+     "editorialNote": "Elegir Gediminas como visita principal o sustituir por Palacio Ducal; Nuevo Arsenal cerrado por reconstrucción; no tres museos y dos colinas en un día. Universidad y Palacio Presidencial exteriores salvo acceso confirmado. Užupis paseo, Tres Cruces opcional con luz y margen, no cierre obligatorio al atardecer.",
+     "optionalStopIds": [
+      "palacio_duque",
+      "tres_cruces"
+     ]
+    },
+    {
+     "title": "La memoria soviética y el barroco de Antakalnis",
+     "zone": "Museo de las Ocupaciones → Open Gallery; escoger un eje opcional",
+     "stopIds": [
+      "kgb",
+      "open_gallery"
+     ],
+     "editorialNote": "KGB como visita principal de memoria, miércoles-sábado 10-18 y domingo 10-17, lunes-martes cerrado. Elegir después arte urbano, Antakalnis o Torre TV con traslado, no recorrer los tres extremos más Paupys por defecto. Si lunes o martes, intercambiar el museo con otro día abierto.",
+     "optionalStopIds": [
+      "san_pedro_pablo",
+      "torre_tv",
+      "paupys"
+     ]
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Museo del KGB: miércoles-sábado 10-18 y domingo 10-17; LUNES Y MARTES CERRADO; 6 € / 3 € reducida / familias 9-15 €; contenido duro (celdas reales).",
+  "Castillo de Trakai: mar-abr-oct-nov ma-do 10-18; may-sep lu-do 10-19; dic-feb mi-do 10-18 (horario oficial); PRECIO no extraído de primaria.",
+  "Sin primaria esta sesión: palacio ducal, museo nacional, torre de Gediminas (interior), criptas de la catedral, bastión, MO, torre de TV, barcos del Neris.",
+  "Palacio Presidencial: visita interior con registro previo según la guía (no verificado en primaria); exterior siempre.",
+  "Templos sin horario turístico primario: visita diurna fuera de culto; Puerta de la Aurora con culto activo intenso.",
+  "Trenes/buses a Trakai y Kaunas sin primaria verificada (duraciones de secundaria).",
+  "Visitas: 5 fotos reales y 20 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Nada reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "epv",
+   "title": "Es Parte del Viaje: qué ver en Vilna (30 lugares)",
+   "url": "https://espartedelviaje.com/que-ver-y-hacer-en-vilna-lituania/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Vilna y lugares",
+   "url": "https://es.wikipedia.org/wiki/Vilna",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "olkm",
+   "title": "Museo OLKM (KGB): plan your visit + tarifas",
+   "url": "https://genocid.lt/muziejus/en/plan-your-visit/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tim",
+   "title": "Museo de Historia de Trakai: horario",
+   "url": "https://trakaimuziejus.lt/en/lankytojams/darbo-laikas/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ged-own",
+   "title": "Museo Nacional: Gediminas",
+   "url": "https://lnm.lt/en/museums/gediminas-castle-tower/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tv-own",
+   "title": "Torre TV: precios y acceso",
+   "url": "https://tvbokstas.lt/en/prices/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "trakai-price",
+   "title": "Trakai: tarifas",
+   "url": "https://trakaimuziejus.lt/en/lankytojams/kainos/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "trakai-notice",
+   "title": "Trakai: aviso tarifas desde abril de 2026",
+   "url": "https://trakaimuziejus.lt/en/renginiai/svarbi-informacija-lankytojams-2/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "arsenal-own",
+   "url": "https://lnm.lt/en/museums/new-arsenal/",
+   "title": "Nuevo Arsenal cerrado por reconstrucción",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mo-own",
+   "url": "https://mo.lt/en/for-your-visit/",
+   "title": "Museo MO: visita",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hales-own",
+   "url": "https://halesturgaviete.lt/en/for-visitors/",
+   "title": "Halės: horarios",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hales-conflict",
+   "url": "https://halesturgaviete.lt/en/home/",
+   "title": "Halės: FAQ contradictoria",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bastion-own",
+   "url": "https://lnm.lt/en/events/exhibition-medieval-comics/",
+   "title": "Bastión: exposición 23/09/2026-29/08/2027",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "duke-hours",
+   "url": "https://www.valdovurumai.lt/en/opening-hours/",
+   "title": "Palacio Ducal: invierno",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "duke-price",
+   "url": "https://www.valdovurumai.lt/en/visit/",
+   "title": "Palacio Ducal: tarifas",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "olkm-new",
+   "url": "https://olkm.lt/en/for-visitors/ticket-and-service-prices/",
+   "title": "Museo Ocupaciones: tarifas",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

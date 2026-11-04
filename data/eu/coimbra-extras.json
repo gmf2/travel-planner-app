@@ -1,0 +1,71 @@
+{
+ "schemaVersion": 1,
+ "cityId": "coimbra",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "solar-bacalhau",
+   "name": "Solar do Bacalhau · bacalao en la Baixa",
+   "address": "Rua da Sota 10 e 12, 3000-392 Coimbra, Portugal",
+   "description": "Restaurante amplio especializado en cortes y recetas de bacalao, junto al casco de la Baixa. Más cómodo para comida sentada que una tasca mínima con cola.",
+   "strength": "GuíaRepsol2026 destaca bacalao no pão, pataniscas/bolinhos con arroz ycrostaalheira; describe localfamiliar/negocios yservicioinformal. Webpropiaactual confirmaespecialidad yoperación, PDFcartaalojadoRepsol verificado visualmente pero sinfecha.",
+   "alert": "Confirmar carta actual y corte del bacalao antes de pedir.",
+   "caution": "Webpropia actual:abierto diario12-22:30,RuaSota10, varias salas/patio. Cocinaúltimopedidos no separada, confirmardía. Repsol2026 banda35-60 €es orientación editorial, bebidas/cursosnoexplicados, no totalreservado. PDFdeRepsolsinfecha: posta19,50/lombo23,50/entradados15,50, NOpreciosactualesprimarios. Se retienen solo como referenciaarchivada enfuente, no presupuestodefinitivo porpersona. Cortesposta/lombo/badana/rabo diferentes, no elegir soloprecio. Reservasaconsejablesengrupo,sinmesaconfirmada. Alérgenos/halal/celíaco no garantizados poriconosdeguía, confirmar cocina; algunosbacalaosconpresunto/alheira no aptosparaquienomitecerdo.",
+   "officialUrl": "https://solardobacalhaucoimbra.pt/",
+   "editorialUrl": "https://www.guiarepsol.com/pt/fichas/restaurante/solar-do-bacalhau-pt405001/",
+   "sourceUrls": [
+    "https://www.guiarepsol.com/content/dam/repsol-guia/guia-cf/restaurante/pt/cartas/pt405001/media-filer_public-3b-71-3b715179-1f13-4cde-be17-0c8bf2cfc9bb-tmptmp8d7i9jl26aeb341e0c4c4edcb6a5d313631c356c.pdf"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurante+Solar+do+Bacalhau&query_place_id=ChIJ3eyJSQb5Ig0R0VVb7tbugCY",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Operación/identidadwebpropia, ubicaciónMaps,convicciónRepsol2026; precioeditorialnoprimario,sinmesa.",
+   "priceLabel": "35-60 € orientación GuíaRepsol2026; alcance y carta actual a confirmar.",
+   "compactPrice": "35-60 € orientación Repsol, no precio oficial.",
+   "photo": {
+    "img": "assets/coimbra/solar-bacalhau-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Bacalao e ingredientes portugueses imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Bacalao e ingredientes portugueses imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "joanina-university-science",
+   "name": "Joanina + Universidad + Ciencia",
+   "address": "Paço das Escolas, Universidade de Coimbra",
+   "description": "Programa conjunto de Biblioteca Joanina, Capilla y Palacio Real, más espacios de Ciencia. Es la visita universitaria del plan, no otro bloque para duplicar.",
+   "duration": "3 h según operador;billete válido2días con1entrada por espacio, sin repetir Joanina.",
+   "compactDuration": "3 h; billete2días",
+   "alert": "16,50 € publicado. Hora FIJA de Joanina, sin cambios ni devoluciones; otras salas antes/después con horario propio.",
+   "caution": "Programa116 incluye Paço(BibliotecaJoanina/CapillaSãoMiguel/PalacioReal),LaboratórioChimico,GabineteCuriosidades,Mineralogía/MuseoAcadémico.3hoperador, valido2días,1entradaespacio.50personascada20min Joanina, no significa toda visita3h dentrobiblioteca. Compraonlinehasta20minantes sujetoaforo, sin cambio/devolución. HorarioactualJoanina9-13/14-17 últimas12:40/16:40, no taquilla9-17 como visita continua. Capilla domingos11:45-14cerrada/oficios. Desdeene2027Curiosidades/Físicacierra primera lunesmes mantenimiento. Guiada25 €es otroproducto, no guía incluida aquí. Horarios/cierres porexámenes/actosconsultar antescomprar. Movilidad/escaleras porconfirmar. Nada comprado ni franja disponible revisada.",
+   "officialUrl": "https://visit.uc.pt/pt/program-list/116",
+   "sourceUrls": [
+    "https://visit.uc.pt/pt/info"
+   ],
+   "priceLabel": "16,50 € tarifa publicada; precio final/fecha por confirmar.",
+   "photo": {
+    "img": "assets/coimbra/universidad.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Universidad_de_Co%C3%ADmbra,_Portugal,_2012-05-10,_DD_12.JPG",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Universidad de Coímbra · foto de archivo del conjunto. No interior de Joanina ni franja confirmada."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Programa116yhorariosUCleídos, sin reserva.",
+   "photoPending": false
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "AZ",
+ "country": "Azerbaiyán",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Bakú, Gobustán y corredor noroeste vía Shamakhi, Gabala y Sheki. No cubre Karabaj, Najicheván, sur ni fronteras terrestres.",
+ "verificationLimits": [
+  "7 días / 6 noches editoriales, ampliados desde5d del operador para tener visita urbana y noche final en Bakú, sin regreso largo antes del vuelo.",
+  "Entrada y salida aéreas. No se usa la frase de tren diario a Tiflis de la página turística: contradice restricciones de frontera de avisos actuales.",
+  "Tiempos de carretera orientativos; cotización, conductor, accesos y hoteles no contratados. Gobustán y actividades de volcanes son distintas: solo se programa arte rupestre, no conducción sobre barro."
+ ],
+ "routes": [
+  {
+   "id": "az-west-7",
+   "title": "Bakú, Gobustán, Gabala y Sheki · 7 días",
+   "scope": "Bakú, Gobustán y corredor noroeste vía Shamakhi, Gabala y Sheki. No cubre Karabaj, Najicheván, sur ni fronteras terrestres.",
+   "pace": "7 días / 6 noches: Bakú 3, Gabala 1, Sheki 1, Bakú 1. Día de regreso separado de vuelo.",
+   "assumptions": "Adaptación de DriverBaku con dos días añadidos para ciudad y retorno seguro de tiempo. Coche con conductor seleccionado por el viajero para corredor regional, no un tour contratado. Las entradas de monumentos, guía y actividades se eligen aparte. No se infiere visado ni exención según nacionalidad. Confirmar condiciones de entrada aérea para el pasaporte real.",
+   "sources": [
+    {
+     "id": "db",
+     "title": "DriverBaku - Azerbaiyan 5 dias: Baku, Gabala y Sheki",
+     "url": "https://bakudriver.com/en/azerbaijan-5-day-itinerary-private-driver/"
+    },
+    {
+     "id": "tourism",
+     "title": "Azerbaijan Travel · corredor noroeste",
+     "url": "https://azerbaijan.travel/north-western-route"
+    },
+    {
+     "id": "gob",
+     "title": "Azerbaijan Travel · arte rupestre de Gobustán",
+     "url": "https://azerbaijan.travel/discover-gobustans-ancient-rock-art"
+    },
+    {
+     "id": "return",
+     "title": "DriverBaku · Bakú-Sheki,4-4,5h",
+     "url": "https://bakudriver.com/en/baku-sheki/"
+    },
+    {
+     "id": "map",
+     "title": "Google Maps · carretera Gabala-Sheki",
+     "url": "https://www.google.com/maps/dir/?api=1&destination=Sheki%2C+Azerbaijan&destination_place_id=ChIJOavewsaHR0ARTJ8mOt92cKU&origin=Gebele%2C+Azerbaijan&origin_place_id=ChIJByNpcIZIOEARrLjJFUnUq1g&travelmode=driving"
+    },
+    {
+     "id": "airport",
+     "title": "AeropuertoGYD · transporte al centro",
+     "url": "https://airport.az/en/transport/aero-express/from-airport/"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Azerbaiyán",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=azerbaiyan"
+    },
+    {
+     "id": "entry",
+     "title": "FCDO · restricciones de entrada",
+     "url": "https://www.gov.uk/foreign-travel-advice/azerbaijan/entry-requirements"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Bakú",
+     "overnight": "Bakú",
+     "stops": [
+      "Alojamiento y descanso",
+      "Paseo cerca de la base si queda tiempo"
+     ],
+     "transfer": "GYD al alojamiento. El aeropuerto publica Aeroexpress a estación de ferrocarril/metro 28 May. Elegir servicio y acceso final según hora; no se toma el tiempo del bus como puerta a puerta ni se fija tarifa antigua de esa página.",
+     "sourceIds": [
+      "airport",
+      "db"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Bakú: casco viejo y paseo marítimo",
+     "overnight": "Bakú",
+     "stops": [
+      "Icherisheher, casco antiguo",
+      "Bulevar marítimo",
+      "Elegir un museo o monumento interior según apertura"
+     ],
+     "transfer": "Día en la misma base. No intentar cubrir todos los museos: elegir una visita de pago y comprobar horario. Día urbano añadido para que Bakú no quede como simple aeropuerto.",
+     "sourceIds": [
+      "tourism"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Gobustán, excursión de día",
+     "overnight": "Bakú",
+     "stops": [
+      "Sector de arte rupestre de la reserva",
+      "Visita interpretativa según apertura y entrada elegidas"
+     ],
+     "transfer": "Turismo oficial sitúa reserva a unos 60 km al sur de Bakú. Elegir conductor/operador de ida y vuelta y puntos concretos de visita. No se añade volcán de barro ni se promete acceso con vehículo normal a pistas; son actividades separadas.",
+     "sourceIds": [
+      "db",
+      "gob"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Shamakhi y traslado a Gabala",
+     "overnight": "Gabala",
+     "stops": [
+      "Una parada principal en Shamakhi",
+      "Llegada y alojamiento en Gabala"
+     ],
+     "transfer": "DriverBaku indica 3-3,5 h para Bakú-Gabala sin visitas. Sumar Shamakhi, comida, paradas y check-in: reservar la jornada, no incluir además lago, teleférico y cascadas como obligatorios.",
+     "sourceIds": [
+      "db",
+      "tourism"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Gabala a Sheki",
+     "overnight": "Sheki",
+     "stops": [
+      "Traslado a Sheki",
+      "Centro histórico y exterior del Palacio de los Kanes; interior si confirma acceso"
+     ],
+     "transfer": "Ruta base Google Maps consultada el 3 de noviembre de 2026: 87,8 km / 1 h 24 min de conducción, sin tráfico por fecha ni pausas. Añadir salida/llegada y visita. No es duración garantizada hotel a hotel.",
+     "sourceIds": [
+      "map",
+      "db",
+      "tourism"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Regreso de Sheki a Bakú",
+     "overnight": "Bakú",
+     "stops": [
+      "Traslado regional de regreso",
+      "Tarde libre si queda margen"
+     ],
+     "transfer": "DriverBaku publica 300 km y 4-4,5 h por carretera entre Bakú y Sheki; referencia de corredor, no tráfico específico de regreso. Sumar descansos y condiciones. Dormir en Bakú antes de salida; no enlazar desde Sheki con vuelo este día.",
+     "sourceIds": [
+      "return",
+      "db"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Salida desde Bakú",
+     "overnight": null,
+     "stops": [
+      "Traslado a GYD"
+     ],
+     "transfer": "Elegir transporte al aeropuerto y antelación según vuelo real. Noche anterior en Bakú, sin regreso regional de varias horas antes del vuelo. Entrada/salida aéreas, no frontera terrestre añadida.",
+     "sourceIds": [
+      "airport",
+      "maec"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores recomienda evitar frontera con Armenia, al menos 5 km, y Karabaj/territorios con minas o permiso especial. Fronteras terrestres/ferroviarias tienen restricciones; no planificar entrada desde Georgia o Armenia. Se elige llegada y salida aéreas, con condiciones según pasaporte y fecha. Posibles cambios de espacio aéreo por tensión regional. Sanidad limitada fuera de Bakú, seguro con evacuación aconsejado.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=azerbaiyan"
+ },
+ "photo": {
+  "img": "assets/routes/az.jpg",
+  "name": "Fachada del Palacio de los Kanes de Sheki",
+  "source": "https://commons.wikimedia.org/wiki/File:Sheki_khan_palace_main_fa%C3%A7ade.jpg",
+  "author": "Sefer azeri",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "caption": "Foto de archivo exterior de Sheki. No confirma acceso interior ni condiciones actuales; no representa todo Azerbaiyán."
+ }
+}

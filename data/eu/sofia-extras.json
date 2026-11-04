@@ -1,0 +1,109 @@
+{
+ "schemaVersion": 1,
+ "cityId": "sofia",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "raketa",
+   "name": "Raketa Rakia Bar · platos búlgaros junto a Zaimov",
+   "address": "Yanko Sakazov17, Sofía",
+   "description": "Mesa de platos búlgaros y parrilla en un local de objetos retro. Shopska, judías con boletus o albóndigas con patatas y lyutenitsa; se va a propósito hacia Zaimov, no está dentro del circuito de Boyana.",
+   "strength": "Rebecca Richardson, Eat Stay Love Bulgaria30/12/2025, describe visitas repetidas durante años, Shopska y parrilla, porciones generosas y servicio que explica platos. Carta propia confirma esas recetas, no solo decoración nostálgica.",
+   "alert": "Carta propia cargada desde su página: Shopska8,90€, judías con boletus10,90€, albóndigas12,90€, creme caramel5,50€.",
+   "compactAlert": "Horario del comedor no publicado en páginas propias consultadas; confirmar por fecha.",
+   "caution": "Albóndigas12,90€+creme caramel5,50€=18,40€ sin bebida, cálculo editorial sobre carta propia. Bebidas y suplementos no cerrados. Albóndigas llevan huevo y carne; postre leche/huevo, ensalada queso; no garantía para alergias ni veganismo. Directorios discrepan cierre23/24; no usarlos como horario confirmado. Confirmar mesa y servicio antes de ir, no reserva hecha.",
+   "officialUrl": "https://raketarakiabar.bg/en/menu/",
+   "editorialUrl": "https://eatstaylovebulgaria.com/raketa-rakia-bar-a-great-place-to-take-visitors-in-sofia/",
+   "sourceUrls": [
+    "https://raketarakiabar.bg/en/",
+    "https://raketarakiabar.bg/wp-content/uploads/menu-cache/menu-en.json",
+    "https://raketarakiabar.bg/en/iconic/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Raketa+Rakia+Bar&query_place_id=ChIJp2LeeHiFqkARGm-_KVwH1PI",
+   "status": "source-conflict",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta JSON usada por página propia, crítica local específica y Maps coinciden. Horario de comedor propio pendiente; directorios23/24discrepan.",
+   "priceLabel": "18,40€ albóndigas+flan, bebida aparte; horario pendiente.",
+   "compactPrice": "Principal12,90€; flan+5,50€; bebida aparte.",
+   "photo": {
+    "img": "assets/sofia/raketa-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes búlgaros imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes búlgaros imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "boyana-visit",
+   "name": "Iglesia de Boyana",
+   "description": "Iglesia medieval UNESCO con frescos de1259. Permanencia máxima10minutos dentro y hasta9personas a la vez; el bloque horario de grupos no es la duración de visita.",
+   "strength": "Parada existente, no segunda entrada obligatoria.",
+   "alert": "Webpropiaactual6,14 €adulto(12lvmostrado),1,53 €estudiante;grupos10+4,09 €/estudiantes1,02 €. Ticketseparado,no pasecombinadoconMuseoHistóricoasumido.",
+   "caution": "Máximo9personas dentro, estancia10minutos,no30minutosdemuseo. Franjas alternas gruposreservados/individuales≤5; reservasindividualesenel sitio tras comprar. Billetesprecompradosválidoshastafinmes,transferenciasnocanjeadasnoreembolsadas. HorariosdeltextoENcontienenerrata12:30-3:00,no copiarfranjaincoherente. Trasladobus64/107pendienteoperador,nogarantizar.",
+   "officialUrl": "https://historymuseum.org/boyana-church-2/?lang=en",
+   "sourceUrls": [
+    "https://historymuseum.org/boyana-church-2/?lang=en"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "priceLabel": "Webpropiaactual6,14 €adulto(12lvmostrado),1,53 €estudiante;grupos10+4,09 €/estudiantes1,02 €. Ticketseparado,no pasecombinadoconMuseoHistóricoasumido.",
+   "photo": {
+    "img": "assets/sofia/boyana-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Boyana, concepto exterior sin frescos inventados. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Boyana, concepto exterior sin frescos inventados. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual. Imagen del lugar, no del producto contratado ni de salas abiertas.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true,
+   "visualScope": "Exterior o entorno del lugar; no muestra la actividad, las salas ni el producto contratado.",
+   "compactDuration": "Interior máximo10min; añadir espera y traslado.",
+   "compactPrice": "6,14 € adulto; 1,53 € estudiante.",
+   "compactAlert": "Máximo10min dentro y9personas. Espera y traslado aparte.",
+   "duration": "Máximo10minutos dentro según operador. Las franjas de30minutos ordenan entradas, no amplían la permanencia. Añadir espera y traslado."
+  },
+  {
+   "id": "arqueologico-visit",
+   "name": "Museo Arqueológico Nacional",
+   "description": "En la antigua mezquita Büyük Camii (1474): el tesoro de Valchitran, los bronces tracios, el mosaico de la deusa Madre y gran parte de los hallazgos de Serdica.",
+   "strength": "Parada existente, no segunda entrada obligatoria.",
+   "alert": "Adulto 6€ (11,73 BGN); estudiantes 1,50€; familia (1 adulto + niños <16) 6€; (2 adultos + niños) 8€. Visita guiada: 10€ búlgaro / 20€ inglés.",
+   "caution": null,
+   "officialUrl": "https://www.naim.bg/en/content/category/300/80/",
+   "sourceUrls": [
+    "https://www.naim.bg/en/content/category/300/80/"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "priceLabel": "Adulto 6€ (11,73 BGN); estudiantes 1,50€; familia (1 adulto + niños <16) 6€; (2 adultos + niños) 8€. Visita guiada: 10€ búlgaro / 20€ inglés.",
+   "photo": {
+    "img": "assets/sofia/arqueologico-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo Arqueológico, concepto exterior sin piezas inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo Arqueológico, concepto exterior sin piezas inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual. Imagen del lugar, no del producto contratado ni de salas abiertas.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true,
+   "visualScope": "Exterior o entorno del lugar; no muestra la actividad, las salas ni el producto contratado.",
+   "compactPrice": "6 € adulto; 1,50 € estudiante.",
+   "compactAlert": "Invierno: lunes cerrado,10-17; última entrada16:30."
+  }
+ ]
+}

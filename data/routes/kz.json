@@ -1,0 +1,177 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "KZ",
+ "country": "Kazajstán",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Sudeste del pais y capital; el oeste queda fuera.",
+ "verificationLimits": [
+  "7 días/6 noches editoriales, sin vuelos internos, vehículo, entradas ni hoteles elegidos. No se demuestra un presupuesto total.",
+  "Gran Lago de Almaty no es una excursión en coche hasta la orilla: aviso municipal 30/04/2026 mantiene restricción de vehículos. Revisar condiciones vigentes antes de salir; no copiar ofertas de traslado por encima de la barrera.",
+  "El sendero de 5,3 km y posible cablecar se presentaron como proyecto/obras en 23/07/2026, no como infraestructura abierta. El parque publica pago Kaspi; acceso de tarjetas extranjeras y alternativa de pago por confirmar, sin crear cuenta nueva.",
+  "Charyn: el parque describe una ruta de 3 km/1 h 40 min; el centro dice 3 km por sentido. No se promete circuito entero de 3 km: calcular regreso y escalera, con margen para calor y agua.",
+  "La entrada/servicio del parque es separado del coche de Almaty. Tarifas y taxi interior de página sin fecha no se convierten en precio actual garantizado.",
+  "Esta ruta no incluye Mangystau, Kolsai o Altyn-Emel. Revalidar documentación y condiciones para la fecha real."
+ ],
+ "routes": [
+  {
+   "id": "kz-7",
+   "title": "Astaná y Almaty · 7 días",
+   "scope": "Sudeste y capital: Astana, Almaty, Gran Lago de Almaty y canon de Charyn. No cubre el oeste (Mangystau).",
+   "pace": "7 días; transporte interurbano separado de las visitas. Duraciones de la fuente orientativas, no horarios contratados.",
+   "assumptions": "Vuelo interno entre Astaná y Almaty, orientativo de 90 min en el aire según el operador de referencia. No incluye billete, precio ni disponibilidad.",
+   "sources": [
+    {
+     "id": "kaz",
+     "title": "Asia Odyssey Travel - Kazajistan 7 dias, 3 rutas",
+     "url": "https://www.asiaodysseytravel.com/kazakhstan/7-day-itinerary.html"
+    },
+    {
+     "id": "bao-restriction",
+     "title": "Almaty RSK: restricción de vehículos al lago, 30/04/2026",
+     "url": "https://rsk.almaty.kz/ru/news/43814"
+    },
+    {
+     "id": "bao-project",
+     "title": "Almaty RSK: sendero proyectado/en obras, 23/07/2026",
+     "url": "https://rsk.almaty.kz/ru/news/44205"
+    },
+    {
+     "id": "bao-local",
+     "title": "MORN: acceso a pie y límites de sus estimaciones, 22/10/2026",
+     "url": "https://morn.kz/morning/big-almaty-lake/"
+    },
+    {
+     "id": "park-payment",
+     "title": "Ile-Alatau: pago de acceso, no permiso para conducir hasta el lago",
+     "url": "https://www.ile-alatau.kz/ru/tarify-parka/"
+    },
+    {
+     "id": "charyn-park",
+     "title": "Parque Charyn: normas y acceso, consulta 03/11/2026",
+     "url": "https://charyn-park.kz/ru/o-parke/"
+    },
+    {
+     "id": "charyn-route",
+     "title": "Parque Charyn: ruta Valle de los Castillos",
+     "url": "https://charyn-park.kz/ru/galereya-2/"
+    },
+    {
+     "id": "charyn-center",
+     "title": "Qazaq National Parks: sendero desde centro de visitantes",
+     "url": "https://qazaqnationalparks.kz/visitcenters/charyn"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Astana",
+     "overnight": "Astana",
+     "stops": [
+      "Arquitectura moderna de Astana"
+     ],
+     "transfer": "Aeropuerto → alojamiento en Astaná. Visitas solo si la llegada deja tiempo.",
+     "sourceIds": [
+      "kaz"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Astana",
+     "overnight": "Astana",
+     "stops": [
+      "Museo Nacional",
+      "Mezquita Hazret Sultan",
+      "Baiterek"
+     ],
+     "transfer": "Traslados locales según alojamiento y visitas elegidas. Sin horario ni reserva.",
+     "sourceIds": [
+      "kaz"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Vuelo a Almaty",
+     "overnight": "Almaty",
+     "stops": [
+      "Bazar Verde",
+      "Catedral Zenkov"
+     ],
+     "transfer": "Vuelo Astana-Almaty ~1,5 h orientativo (fuente kaz).",
+     "sourceIds": [
+      "kaz"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Almaty",
+     "overnight": "Almaty",
+     "stops": [
+      "Medeu y Shymbulak",
+      "Parque Panfilov"
+     ],
+     "transfer": "Traslados locales según alojamiento y visitas elegidas. Sin horario ni reserva.",
+     "sourceIds": [
+      "kaz"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Gran Lago de Almaty: acceso a pie condicionado",
+     "overnight": "Almaty",
+     "stops": [
+      "Lago solo si acceso y marcha de ida/vuelta son viables",
+      "No baño ni bajada a la orilla; comprobar normas del parque"
+     ],
+     "transfer": "Vehículo solo hasta punto autorizado/barrera, no hasta el lago. RSK mantiene prohibición de vehículos privados, motos y micromovilidad en aviso 30/04/2026. Desde allí, marcha de montaña y regreso: MORN cita 6-7 km por sentido/unas 3-3,5 h de subida más bajada, estimación secundaria no trazado verificado. Confirmar con parque acceso, pago y condiciones. Si no encaja, conservar base Almaty y omitir lago, sin sustitución silenciosa.",
+     "sourceIds": [
+      "kaz",
+      "bao-restriction",
+      "bao-project",
+      "bao-local",
+      "park-payment"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Cañón de Charyn",
+     "overnight": "Almaty",
+     "stops": [
+      "Valle de los Castillos según calor, luz y forma física",
+      "Regreso a Almaty; agua y protección solar, sin baño/atajos asumidos"
+     ],
+     "transfer": "Excursión de jornada por carretera a Charyn: el parque sitúa el área unos 200 km al este de Almaty, no duración puerta a puerta. Acordar centro/entrada del Valle de los Castillos, no ir a la oficina administrativa de Chundzha como si fuera el sendero. Descenso por escalera y marcha hasta río con retorno; no se permite bajar en coche privado al cañón. No combinar con Kolsai.",
+     "sourceIds": [
+      "kaz",
+      "charyn-park",
+      "charyn-route",
+      "charyn-center"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Salida",
+     "overnight": null,
+     "stops": [
+      "Ultimas compras en Almaty",
+      "Salida"
+     ],
+     "transfer": "Alojamiento → aeropuerto de Almaty. No regresar a Astaná salvo que el vuelo elegido lo exija.",
+     "sourceIds": [
+      "kaz"
+     ]
+    }
+   ]
+  }
+ ],
+ "photo": {
+  "img": "assets/routes/kz.jpg",
+  "name": "Astana · paseo junto al río Ishim",
+  "source": "https://commons.wikimedia.org/wiki/File:Astana_DSC04362_(7711355642).jpg",
+  "originalSource": "https://www.flickr.com/photos/87785618@N00/7711355642/",
+  "author": "jtstewart",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ }
+}

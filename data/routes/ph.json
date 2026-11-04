@@ -1,0 +1,229 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "PH",
+ "country": "Filipinas",
+ "reviewedAt": "2026-11-02",
+ "status": "preview",
+ "coverageScope": "Bohol y Palawan (El Nido, Coron); resto del archipielago fuera de esta cobertura.",
+ "verificationLimits": [
+  "Horarios, frecuencias y plazas para fechas concretas aún no comprobados. Las páginas de las aerolíneas respaldan enlaces, no este billete futuro.",
+  "La navegación ylos vuelos pueden cancelarse por mal tiempo; la noche colchón reduce dependencia, no garantiza conexión.",
+  "Excursiones enbarco sujetas aestado delmar, permisos y operador local."
+ ],
+ "routes": [
+  {
+   "id": "ph-islas-12",
+   "title": "Bohol, El Nido y Coron · 12 días",
+   "scope": "Bohol y Palawan (El Nido, Coron). No cubre Siargao, Cebu isla en profundidad, Boracay ni el norte (Banaue, Vigan).",
+   "pace": "12 días / 11 noches. Cada cambio de isla tiene su día; el regreso a Manila y la salida internacional se separan del último vuelo nacional.",
+   "assumptions": "Adaptación editorial de los destinos de Rough Guides, con rutas de Cebgo/Sunlight Air comprobadas en páginas de las propias aerolíneas. No incluye horarios, plazas ni billetes para fechas concretas. Los vuelos pueden no operar cada día: elegir servicios antes de cerrar noches.",
+   "sources": [
+    {
+     "id": "rg",
+     "title": "Rough Guides - Filipinas 10 dias (solo esqueleto de destinos; logistica antigua corregida)",
+     "url": "https://www.roughguides.com/philippines/itineraries/10-days/"
+    },
+    {
+     "id": "pna",
+     "title": "PNA (agencia estatal): apertura del aeropuerto Bohol-Panglao (TAG), 28/11/2018",
+     "url": "https://www.pna.gov.ph/index.php/articles/1055091"
+    },
+    {
+     "id": "cebhc",
+     "title": "Cebu Pacific (oficial): los vuelos Air SWIFT pasan a Cebgo/DG el 01/07/2026; rutas Clark-El Nido y El Nido con Bohol, Cebu, Boracay y Coron",
+     "url": "https://help.cebupacificair.com/article/air-swift-transitions-into-cebgo-operations-247334"
+    },
+    {
+     "id": "sun",
+     "title": "Sunlight Air (oficial): traslado completo de operaciones a Clark por mandato NAIA (29/03/2026)",
+     "url": "https://www.sunlightair.ph/announcements/sunlight-air-moves-manila-operations-to-clark"
+    },
+    {
+     "id": "pal",
+     "title": "Philippine Airlines · Manila MNL-Bohol TAG",
+     "url": "https://flights.philippineairlines.com/en/flights-from-manila-to-tagbilaran-city"
+    },
+    {
+     "id": "usu",
+     "title": "Sunlight Air · ruta Coron USU-Clark CRK y horario orientativo 2026",
+     "url": "https://www.sunlightair.ph/news-releases/flights-to-coron-from-clark-2x-daily"
+    },
+    {
+     "id": "airports",
+     "title": "Sunlight Air · ubicación de aeropuertos USU/CRK",
+     "url": "https://www.sunlightair.ph/airport-locations"
+    },
+    {
+     "id": "map-crk",
+     "title": "Google Maps · carretera Clark CRK-Manila MNL (ruta base)",
+     "url": "https://www.google.com/maps/dir/?api=1&destination=Ninoy+Aquino+International+Airport+%28MNL%29%2C+Pasay+City%2C+1300+Metro+Manila%2C+Philippines&destination_place_id=ChIJd0270sXOlzMREUQRimL6JIo&origin=Clark+Int%27l+Airport+%28CRK%29%2C+N+6900+CRK+Airport+Rd%2C+Clark+Freeport%2C+Zone%2C+2023+Pampanga%2C+Philippines&origin_place_id=ChIJwbMFPkLtljMRfuV9F3sH9Rg&travelmode=driving"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Manila",
+     "overnight": "Manila",
+     "stops": [
+      "Llegada a NAIA"
+     ],
+     "transfer": "Traslado del aeropuerto; duracion a contrastar.",
+     "sourceIds": [
+      "rg"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Vuelo a Bohol (Panglao)",
+     "overnight": "Bohol (Panglao)",
+     "stops": [
+      "Playa de Panglao"
+     ],
+     "transfer": "Vuelo Manila MNL-Bohol-Panglao TAG: la ruta figura en Philippine Airlines. TAG es el aeropuerto de Panglao desde 2018, aunque la página comercial siga diciendo Tagbilaran City. Horario, terminal y duración se eligen con la aerolínea; este día es traslado y playa si queda tiempo.",
+     "sourceIds": [
+      "pal",
+      "pna"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Interior de Bohol",
+     "overnight": "Bohol (Panglao)",
+     "stops": [
+      "Colinas de Chocolate",
+      "Santuario de tarseros de Corella"
+     ],
+     "transfer": "Tour de dia por la isla segun la fuente (rg).",
+     "sourceIds": [
+      "rg"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Vuelo directo a El Nido",
+     "overnight": "El Nido",
+     "stops": [
+      "Llegada a El Nido (aeropuerto Lio, ENI)"
+     ],
+     "transfer": "Vuelo Bohol-Panglao TAG-El Nido: Cebgo confirma el enlace El Nido-Bohol en su aviso de transición de julio 2026. Comprobar hora, frecuencia y acceso al alojamiento antes de fijar este día; no se presupone conexión por Cebú ni ferry adicional.",
+     "sourceIds": [
+      "cebhc"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "El Nido: tour A",
+     "overnight": "El Nido",
+     "stops": [
+      "Bahia de Bacuit: lagunas y playas (tour A)"
+     ],
+     "transfer": "Barco bangka de jornada segun la fuente (rg).",
+     "sourceIds": [
+      "rg"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "El Nido: tour C",
+     "overnight": "El Nido",
+     "stops": [
+      "Playas y snorkel (tour C)"
+     ],
+     "transfer": "Barco bangka de jornada segun la fuente (rg).",
+     "sourceIds": [
+      "rg"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Vuelo de El Nido a Coron",
+     "overnight": "Coron",
+     "stops": [
+      "Traslado de isla y llegada al alojamiento de Coron"
+     ],
+     "transfer": "Vuelo El Nido-Coron: ruta confirmada por Cebgo. Día destinado al traslado, con horario y duración por comprobar para la fecha. No garantizamos alternativa de ferry automática; si el vuelo no se ajusta, cambia las noches antes de reservar.",
+     "sourceIds": [
+      "cebhc"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Coron: island hopping",
+     "overnight": "Coron",
+     "stops": [
+      "Lagunas y naufragios de Coron"
+     ],
+     "transfer": "Barco de jornada segun la fuente (rg).",
+     "sourceIds": [
+      "rg"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Maquinit y monte Tapyas",
+     "overnight": "Coron",
+     "stops": [
+      "Fuentes termales de Maquinit",
+      "Monte Tapyas"
+     ],
+     "transfer": "Sin traslado interurbano (dia en la misma base).",
+     "sourceIds": [
+      "rg"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "Vuelo a Clark",
+     "overnight": "Clark",
+     "stops": [
+      "Traslado a la ciudad de salida"
+     ],
+     "transfer": "Vuelo Francisco B.Reyes/Busuanga USU-Clark CRK. Sunlight Air publica servicios de unos 1h 40 en su página 2026; verificar fecha y hora exactas. CRK no es Manila NAIA: dormir en Clark este día, sin conexión internacional.",
+     "sourceIds": [
+      "usu",
+      "airports"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "Clark a Manila · margen terrestre",
+     "overnight": "Manila",
+     "stops": [
+      "Traslado por carretera al alojamiento de Manila",
+      "Tarde libre sin compromisos rígidos"
+     ],
+     "transfer": "Clark CRK-Manila NAIA son unos 110 km/1h 41 min deruta base Google Maps, consultado 2/11/2026 sin tráfico específico. Eltráfico real y accesos pueden alargarlo; dedicar este día yno unirlo alvuelo desalida. Si sales por CRK, mantener la noche en Clark en vez de Manila.",
+     "sourceIds": [
+      "map-crk"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Salida internacional",
+     "overnight": null,
+     "stops": [
+      "Traslado alaeropuerto elegido, según reserva"
+     ],
+     "transfer": "Salida por MNL después de dormir Manila, opor CRK si adaptaste losdos últimos días. Verifica que aeropuerto yalojamiento coinciden.",
+     "sourceIds": [
+      "airports"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores consultado 2/11/2026 aconseja precaución yevitar determinadas zonas, especialmentecentro y suroeste de Mindanao yarchipiélago de Sulú. Esta ruta no incluye esas zonas. Tifones ytormentas(junio-diciembre) pueden dejar viajeros aislados: no fijar conexiones inflexibles después de una isla.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=filipinas"
+ },
+ "photo": {
+  "img": "assets/routes/ph.jpg",
+  "name": "El Nido · bahía y costa",
+  "source": "https://commons.wikimedia.org/wiki/File:El_Nido,_beaches_-_ElNido2105.jpg",
+  "originalSource": "https://www.flickr.com/photos/199350666@N08/53916325460",
+  "author": "lumoplank",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ }
+}

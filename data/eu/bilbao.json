@@ -1,0 +1,477 @@
+{
+ "schemaVersion": 1,
+ "country": "ES",
+ "id": "bilbao",
+ "name": "Bilbao",
+ "localName": "Bilbao",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "guggenheim",
+   "name": "Museo Guggenheim",
+   "kind": "visit",
+   "zone": "Abandoibarra",
+   "reason": "El museo de Gehry que transformó la ciudad; arquitectura y colección en media mañana.",
+   "sourceIds": [
+    "gug",
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 43.26883,
+    "lon": -2.934099
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Museo_Guggenheim_Bilbao",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Apertura habitual martes-domingo; ciertos lunes abren, comprobar calendario. Cerrado 25/12 y 1/1. Elige entrada antes de organizar el día.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Museo principal de pago; entrada por comprar",
+   "photo": {
+    "img": "assets/bilbao/guggenheim.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Museo_Guggenheim,_Bilbao_(31273245344).jpg",
+    "author": "Naotake Murayama",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Museo Guggenheim · foto de archivo de Wikimedia Commons; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ría",
+   "name": "Paseo de la ría y Zubizuri",
+   "kind": "visit",
+   "zone": "Abandoibarra / Ensanche",
+   "reason": "Paseo junto a la ría del Guggenheim al ayuntamiento: Puppy, pasarela Zubizuri y torres Isozaki.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 43.2663889,
+    "lon": -2.9280556
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Zubizuri",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo público",
+   "photo": {
+    "img": "assets/bilbao/ría.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bilbao_-_Zubizuri_07.jpg",
+    "author": "Basotxerri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Paseo de la ría y Zubizuri · foto de archivo de Wikimedia Commons; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "cascoviejo",
+   "name": "Casco Viejo y Plaza Nueva",
+   "kind": "visit",
+   "zone": "Casco Viejo",
+   "reason": "Las Siete Calles, la Plaza Nueva porticada y la Catedral de Santiago: el Bilbao viejo para pasear y tapear.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 43.2572222,
+    "lon": -2.9238889
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Casco_viejo_de_Bilbao",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Barrio de paseo",
+   "photo": {
+    "img": "assets/bilbao/cascoviejo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Casco_viejo.jpg",
+    "author": "Andrea Bocchino  www.andreabocchino.it",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Casco Viejo y Plaza Nueva · foto de archivo de Wikimedia Commons; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ribera",
+   "name": "Mercado de la Ribera",
+   "kind": "visit",
+   "zone": "Casco Viejo / ría",
+   "reason": "El mercado cubierto junto a la ría, frente al Casco Viejo; mañana de puestos y pintxos.",
+   "sourceIds": [
+    "market"
+   ],
+   "coordinates": {
+    "lat": 43.2555222,
+    "lon": -2.9242417
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Mercado_de_la_Ribera",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 35,
+   "durationType": "editorial-estimate",
+   "caution": "Puestos abiertos de lunes a sábado con horario propio. Visita por la mañana antes del museo; en domingo, solo paseo exterior, no mercado funcionando.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Mercado gratuito; mañanas",
+   "photo": {
+    "img": "assets/bilbao/ribera.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bilbao_-_Ribera.jpg",
+    "author": "PA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Mercado de la Ribera · foto de archivo de Wikimedia Commons; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "artxanda",
+   "name": "Funicular y mirador de Artxanda",
+   "kind": "visit",
+   "zone": "Artxanda",
+   "reason": "Subida en funicular al mirador que abraza toda la ciudad.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 43.2709194,
+    "lon": -2.9229139
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Funicular_de_Archanda",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 50,
+   "durationType": "editorial-estimate",
+   "caution": "Funicular de pago con horario amplio; puede parar por viento fuerte o mantenimiento. Comprobar el día.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Funicular de pago; mirador libre",
+   "photo": {
+    "img": "assets/bilbao/artxanda.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Funicular_de_Artxanda_1.jpg",
+    "author": "Xabier",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Funicular y mirador de Artxanda · foto de archivo de Wikimedia Commons; recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "granvia",
+   "name": "Gran Vía del Ensanche",
+   "kind": "visit",
+   "zone": "Ensanche",
+   "reason": "Paseo por el Ensanche. Azkuna Zentroa queda como desvío opcional, no visita incluida.",
+   "sourceIds": [
+    "wp",
+    "ot"
+   ],
+   "coordinates": {
+    "lat": 43.259939,
+    "lon": -2.936487
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Azkuna_Zentroa",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo urbano; Alhóndiga de acceso libre salvo exposiciones",
+   "photo": {
+    "img": "assets/bilbao/granvia.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bilbao_-_Gran_Via_2.jpg",
+    "author": "Zarateman",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Gran Vía de Don Diego López de Haro (Ensanche). Foto real Wikimedia Commons (sustituye interior de Azkuna Zentroa, que era otra parada); verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "puentecolgante",
+   "name": "Puente de Vizcaya (Puente Colgante)",
+   "kind": "visit",
+   "zone": "Getxo / margen izquierda",
+   "reason": "Puente transbordador entre Getxo y Portugalete. Llegar en metro; después paseo corto en su entorno.",
+   "sourceIds": [
+    "bridge",
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 43.32305556,
+    "lon": -3.01694444
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Puente_de_Vizcaya",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Llegar en metro a Areeta o Portugalete y continuar a pie. No es un tramo urbano continuo desde Zubizuri. Barquilla o pasarela solo con servicio y acceso confirmados ese día.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Acceso en metro; cruce de pago por elegir",
+   "photo": {
+    "img": "assets/bilbao/puentecolgante.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Puente_de_Vizcaya_o_colgante_de_Portugalete..jpg",
+    "author": "Jnov",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Puente de Vizcaya. Foto real Wikimedia Commons (sustituye mapa SVG); verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "gaztelugatxe",
+   "name": "San Juan de Gaztelugatxe",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 43.447,
+    "lon": -2.785
+   },
+   "zone": "Fuera de Bilbao",
+   "suggestedMinutes": 360,
+   "reason": "La ermita sobre el islote unida por un puente de arcos: la imagen de la costa vasca (y Rocadragón para fans).",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "Ticket gratuito obligatorio los días de acceso controlado, con calendario oficial. Sendero con desnivel y escalones; comprobar avisos y condiciones. Nada reservado.",
+   "sourceIds": [
+    "gaz"
+   ],
+   "photo": {
+    "img": "assets/bilbao/gaztelugatxe.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gaztelugatxe_en_espagne.jpg",
+    "author": "Clementp.fr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "San Juan de Gaztelugatxe Foto de Wikimedia Commons; descarga y recorte pendientes por el integrador."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "guernica",
+   "name": "Guernica · Casa de Juntas y museo",
+   "kind": "excursion",
+   "coordinates": {
+    "lat": 43.3169444,
+    "lon": -2.6766667
+   },
+   "zone": "Fuera de Bilbao",
+   "suggestedMinutes": 300,
+   "reason": "La villa símbolo del pueblo vasco: Gernikako Arbola, Casa de Juntas y el bombardeo de 1937.",
+   "visitMode": "Excursión propia; sustituye una jornada, no se añade",
+   "caution": "Confirmar apertura y acceso de Casa de Juntas y museo antes de fijar el día. No se garantizan ambos interiores.",
+   "sourceIds": [
+    "train",
+    "ot"
+   ],
+   "photo": {
+    "img": "assets/bilbao/guernica.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Guernica_-_Casa_de_Juntas,_Arbol_Nuevo_1.jpg",
+    "author": "Zarateman",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Guernica. Foto real Wikimedia Commons (sustituye bandera SVG); verificada visualmente 2/11/2026."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Mercado, Casco Viejo y Guggenheim",
+     "zone": "Abandoibarra → ría → Casco Viejo",
+     "stopIds": [
+      "ribera",
+      "cascoviejo",
+      "guggenheim",
+      "ría"
+     ],
+     "editorialNote": "Mercado y barrio por la mañana; museo después, según la franja elegida. Paseo breve por la ría, sin sumar un segundo museo.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h con museo, comida y pausas, estimación editorial."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Mercado, Casco Viejo y Guggenheim",
+     "zone": "Abandoibarra → ría → Casco Viejo",
+     "stopIds": [
+      "ribera",
+      "cascoviejo",
+      "guggenheim",
+      "ría"
+     ],
+     "editorialNote": "Mercado y barrio por la mañana; museo después, según la franja elegida. Paseo breve por la ría, sin sumar un segundo museo.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h, estimación editorial."
+    },
+    {
+     "title": "Ensanche y Artxanda",
+     "zone": "Ensanche → funicular de Artxanda",
+     "stopIds": [
+      "granvia",
+      "artxanda"
+     ],
+     "editorialNote": "Paseo por Gran Vía y subida al mirador si el funicular opera. Jornada ligera, con pausas; Azkuna Zentroa opcional.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "Media jornada flexible de paseo y mirador; no se presenta como 4-5 horas de entradas."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Mercado, Casco Viejo y Guggenheim",
+     "zone": "Abandoibarra → ría → Casco Viejo",
+     "stopIds": [
+      "ribera",
+      "cascoviejo",
+      "guggenheim",
+      "ría"
+     ],
+     "editorialNote": "Mercado y barrio por la mañana; museo después, según la franja elegida. Paseo breve por la ría, sin sumar un segundo museo.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "5-6 h, estimación editorial."
+    },
+    {
+     "title": "Ensanche y Artxanda",
+     "zone": "Ensanche → funicular de Artxanda",
+     "stopIds": [
+      "granvia",
+      "artxanda"
+     ],
+     "editorialNote": "Paseo por Gran Vía y subida al mirador si el funicular opera. Jornada ligera, con pausas; Azkuna Zentroa opcional.",
+     "optionalStopIds": [],
+     "geographyChecks": [],
+     "pacing": "Media jornada flexible de paseo y mirador; no se presenta como 4-5 horas de entradas."
+    },
+    {
+     "title": "Ría urbana y Puente de Vizcaya en metro",
+     "zone": "Zubizuri → metro → Areeta / Portugalete",
+     "stopIds": [
+      "ría",
+      "puentecolgante"
+     ],
+     "editorialNote": "Paseo corto en la ría urbana. Después, traslado en metro al Puente de Vizcaya y paseo por su entorno. No se propone andar toda la ría hasta la desembocadura.",
+     "optionalStopIds": [
+      "artxanda"
+     ],
+     "geographyChecks": [],
+     "pacing": "Media jornada o jornada tranquila, con metro, paseo y comida. Horarios de transporte y cruce por elegir."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "El Guggenheim cierra lunes en buena parte del año: comprobar calendario antes de fijar el orden de días.",
+  "Gaztelugatxe puede exigir ticket (gratuito) con franja en temporada alta; sin él puede no dejarse bajar.",
+  "Ninguna entrada, mesa o billete está reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "wp",
+   "title": "Wikipedia: Bilbao y artículos de cada lugar",
+   "url": "https://es.wikipedia.org/wiki/Bilbao",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ot",
+   "title": "Turismo oficial: Bilbao Turismo",
+   "url": "https://www.bilbaoturismo.net/",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en Bilbao",
+   "url": "https://www.viajeroscallejeros.com/que-ver-en-bilbao/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "mm",
+   "title": "Viajeros Callejeros: Bilbao en dos días",
+   "url": "https://www.viajeroscallejeros.com/bilbao-en-dos-dias/",
+   "type": "traveller-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "gug",
+   "title": "Guggenheim · horarios oficiales",
+   "url": "https://www.guggenheim-bilbao.eus/horarios-y-tarifas",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "bridge",
+   "title": "Turismo Euskadi · Puente de Vizcaya y acceso",
+   "url": "https://turismo.euskadi.eus/es/top10/patrimonio-cultural/puente-colgante-de-bizkaia/webtur00-content/es/",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "market",
+   "title": "Mercado de la Ribera · contacto y horarios",
+   "url": "https://mercadodelaribera.biz/contacto/",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "gaz",
+   "title": "Diputación de Bizkaia · Gaztelugatxe",
+   "url": "https://www.bizkaia.eus/es/gaztelugatxe",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  },
+  {
+   "id": "train",
+   "title": "Euskotren · E4 Bilbao-Bermeo",
+   "url": "https://www.euskotren.eus/en/node/130",
+   "retrievedAt": "2026-11-02",
+   "type": "official"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

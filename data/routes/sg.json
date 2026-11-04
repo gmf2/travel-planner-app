@@ -1,0 +1,145 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "SG",
+ "country": "Singapur",
+ "reviewedAt": "2026-11-02",
+ "status": "preview",
+ "coverageScope": "Una ruta urbana de 5 dias (3 de fuente oficial + llegada y salida editoriales).",
+ "verificationLimits": [
+  "Elegir alojamiento, horarios de transporte y entradas para fechas reales antes de cerrar el viaje. No se verifican plazas futuras.",
+  "SG Arrival Card gratuita dentro de los 3 días previos, incluido el de llegada, según ICA. No es un visado; comprobar requisitos personales aparte.",
+  "Foto de archivo representativa de una etapa, no del estado actual de todas las visitas."
+ ],
+ "routes": [
+  {
+   "id": "sg-relax-5",
+   "title": "Singapur urbano y jardines · 5 días",
+   "scope": "Distrito Cívico, Duxton Hill, Marina Bay, HortPark, río Singapur y Orchard Road. No incluye Sentosa ni el norte de la isla.",
+   "pace": "5 días / 4 noches, una sola base. Tres días completos, llegada y salida separados.",
+   "assumptions": "Adaptación editorial de la ruta de tres días del portal Visit Singapore, leída en su edición china. Se añaden llegada y salida; se omiten hoteles, restaurantes, spa y buses comerciales no contrastados. Una visita de museo, jardines y paseos, no entradas ni reservas incluidas.",
+   "sources": [
+    {
+     "id": "fuenteS1",
+     "title": "Relaxing in Singapore: a 3-day itinerary (Visit Singapore, organismo oficial de turismo STB)",
+     "url": "https://www.visitsingapore.com.cn/singapore-itineraries/relaxing-in-singapore-a-3-day-itinerary/"
+    },
+    {
+     "id": "maecSG",
+     "title": "MAEC - Recomendaciones de viaje Singapur",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=singapur"
+    },
+    {
+     "id": "changi",
+     "title": "Changi Airport · transporte al centro",
+     "url": "https://www.changiairport.com/en/at-changi/transport-and-directions/leaving-the-airport.html"
+    },
+    {
+     "id": "ica",
+     "title": "ICA · SG Arrival Card gratuita",
+     "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/sg-arrival-card-with-electronic-health-declaration"
+    },
+    {
+     "id": "np",
+     "title": "NParks · HortPark y cierres de senderos",
+     "url": "https://www.nparks.gov.sg/visit/parks/park-detail/hortpark/"
+    },
+    {
+     "id": "ng",
+     "title": "National Gallery · horarios y cierre parcial",
+     "url": "https://www.nationalgallery.sg/sg/en/visit/visitor-information.html"
+    },
+    {
+     "id": "fly",
+     "title": "Singapore Flyer · visita y meteorología",
+     "url": "https://www.singaporeflyer.com/en/plan-your-visit"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Singapur",
+     "overnight": "Singapur",
+     "stops": [
+      "Llegada a Changi y descanso",
+      "Paseo breve por Marina Bay solo si quedan tiempo y fuerzas"
+     ],
+     "transfer": "Changi indica MRT con cambio en Tanah Merah hacia East West Line, o en Expo hacia Downtown Line. No hay MRT directo al centro sin cambio. Elegir ruta según alojamiento, terminal y horario; taxi como alternativa, sin duración ni tarifa fija.",
+     "sourceIds": [
+      "changi"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Distrito Cívico, museo y Marina Bay",
+     "overnight": "Singapur",
+     "stops": [
+      "Distrito Cívico y exteriores de Raffles",
+      "National Gallery como única visita larga, si eliges entrada",
+      "Duxton Hill opcional si queda margen",
+      "Paseo por Marina Bay"
+     ],
+     "transfer": "Desplazamientos urbanos a pie y MRT según alojamiento. National Gallery publica 10:00-19:00, último acceso 18:30; la UOB Southeast Asia Gallery está cerrada hasta finales de 2027. El resto del museo no equivale a cierre total.",
+     "sourceIds": [
+      "fuenteS1",
+      "ng"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "HortPark y río Singapur",
+     "overnight": "Singapur",
+     "stops": [
+      "Jardines de HortPark",
+      "Clarke Quay y Boat Quay a pie",
+      "Crucero por el río solo como actividad opcional, con operador por elegir"
+     ],
+     "transfer": "Traslado urbano al jardín y después al río, no caminata continua. NParks indica HortPark 06:00-23:00. Forest Walk permanece cerrado por desprendimiento: no seguir esa conexión de Southern Ridges. Esta ruta visita el parque, no promete completar el sendero.",
+     "sourceIds": [
+      "fuenteS1",
+      "np"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Singapore Flyer y Orchard Road",
+     "overnight": "Singapur",
+     "stops": [
+      "Singapore Flyer si eliges entrada",
+      "Orchard Road y paseo libre"
+     ],
+     "transfer": "Enlaces urbanos en MRT o taxi según el punto elegido. Flyer publica 10:00-22:00, último acceso 21:30; confirmar antes de ir, puede suspenderse por mal tiempo. No se incluye bus panorámico, entrada ni reserva.",
+     "sourceIds": [
+      "fuenteS1",
+      "fly"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Salida desde Changi",
+     "overnight": null,
+     "stops": [
+      "traslado a Changi"
+     ],
+     "transfer": "Regreso al aeropuerto según terminal y vuelo. MRT con transbordo y horario operativo limitado; si el vuelo no encaja, elegir otro transporte y margen de facturación.",
+     "sourceIds": [
+      "changi"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores recomienda prudencia en zonas con aglomeraciones. Consultar condiciones de entrada y avisos vigentes antes del viaje.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=singapur"
+ },
+ "photo": {
+  "img": "assets/routes/sg.jpg",
+  "name": "Singapur · Marina Bay al anochecer",
+  "source": "https://commons.wikimedia.org/wiki/File:Singapore_Marina_Bay_Dusk_2018-02-27.jpg",
+  "originalSource": "https://www.flickr.com/photos/blieusong/40105381470/",
+  "author": "Benh LIEU SONG ( Flickr )",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "caption": "Foto de archivo de Marina Bay. No confirma acceso a edificios ni obras actuales."
+ }
+}

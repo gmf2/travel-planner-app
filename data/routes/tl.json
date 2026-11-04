@@ -1,0 +1,169 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "TL",
+ "country": "Timor-Leste",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Corredor terrestre Dili-Aileu-Maubisse y costa noreste hacia Baucau, con regreso a Dili entre regiones. No Ataúro, Oecussi, Jaco, costa sur ni cima Ramelau.",
+ "verificationLimits": [
+  "Adaptación editorial de corredores publicados por dos operadores, con noches añadidas Maubisse y Baucau para separar etapas. No se vende el paquete original ni existe reserva.",
+  "Ataúro retirado de esta ruta: horarios APORTIL y portales turísticos discrepan, y Exteriores advierte inseguridad del ferry y cautela con otras alternativas marítimas. No presentar cambio de compañía como solución de seguridad.",
+  "Conductor/4x4, estado de carreteras y alojamiento fuera de Dili pendientes para fechas concretas. Fuera del corredor marítimo no significa alternativa segura certificada."
+ ],
+ "routes": [
+  {
+   "id": "tl-tierra-7",
+   "title": "Dili, Maubisse y Baucau por tierra · 7 días",
+   "scope": "Corredor terrestre Dili-Aileu-Maubisse y costa noreste hacia Baucau, con regreso a Dili entre regiones. No Ataúro, Oecussi, Jaco, costa sur ni cima Ramelau.",
+   "pace": "7 días / 6 noches: Dili 2, Maubisse 1, Dili 1, Baucau 1, Dili 1. Cada región tiene traslado propio; no Maubisse-Baucau + visitas en una jornada.",
+   "assumptions": "Conductor local experimentado, vehículo adecuado, hoteles y estado de cada ruta confirmados antes de viajar. Sin mar, buceo, snorkel, ferry ni trekking de madrugada. Adaptación editorial con alcance regional, documentación según pasaporte y fecha.",
+   "sources": [
+    {
+     "id": "op",
+     "title": "Timor Indigenous Tours · Dili, Maubisse y Baucau, base de corredores",
+     "url": "https://timorindigenoustours.com/customised-4d3n_-tour_2-pax-2026/"
+    },
+    {
+     "id": "sunda",
+     "title": "Sunda Islands · circuito terrestre y pernocta Baucau",
+     "url": "https://www.sunda-islands.com/en/TL-DIL-03.php"
+    },
+    {
+     "id": "ref",
+     "title": "Rezerva · bases de una semana, fuente editorial local",
+     "url": "https://rezerva.tl/guide/7-day-itinerary"
+    },
+    {
+     "id": "aportil",
+     "title": "APORTIL · ferries y horarios publicados",
+     "url": "https://aportil.gov.tl/en/ferry/"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Timor Oriental",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Timor+Oriental"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Dili",
+     "overnight": "Dili",
+     "stops": [
+      "Llegada y descanso",
+      "Paseo corto según hora y condiciones"
+     ],
+     "transfer": "Aeropuerto DIL-hotel con traslado elegido. No varias visitas históricas tras vuelo ni carretera hacia Baucau al aterrizar.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Dili histórico",
+     "overnight": "Dili",
+     "stops": [
+      "Museo de la Resistencia o Chega según calendario",
+      "Santa Cruz con respeto",
+      "Mercado Tais como opción"
+     ],
+     "transfer": "Traslados urbanos con conductor/guía y tramos a pie. Seleccionar un museo principal, no prometer todos abiertos. Cristo Rei solo como alternativa con transporte, escaleras y condiciones adecuados; no baño añadido.",
+     "sourceIds": [
+      "op",
+      "ref",
+      "maec"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Dili a Maubisse",
+     "overnight": "Maubisse",
+     "stops": [
+      "Parada de Dare si acceso permite",
+      "Aileu y cultura del café según reserva local",
+      "Llegada a Maubisse"
+     ],
+     "transfer": "Jornada por carretera de montaña con conductor experimentado y vehículo adecuado. Corredor de operadores, no se copia vuelta completa a Dili el mismo día. Confirmar condiciones, paradas y alojamiento; sin duración garantizada ni subida Ramelau a madrugada.",
+     "sourceIds": [
+      "op",
+      "ref",
+      "maec"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Maubisse a Dili",
+     "overnight": "Dili",
+     "stops": [
+      "Mercado/pueblo según día y permiso local",
+      "Regreso a Dili"
+     ],
+     "transfer": "Carretera diurna de regreso, con estado de ruta confirmado. No enlazar regreso de montaña, barco ni vuelo internacional. Sin visita a casas sagradas sin consentimiento y guía.",
+     "sourceIds": [
+      "op",
+      "ref",
+      "maec"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Dili a Baucau",
+     "overnight": "Baucau",
+     "stops": [
+      "Ruta costera y llegada",
+      "Casco antiguo de Baucau"
+     ],
+     "transfer": "Conductor local por corredor noreste, paradas posibles en Manatuto/Laleia según condiciones. Rezerva orienta 3-4 h con paradas, no garantía ni prueba de carretera segura. No copiar afirmación de coche 2WD universal: MAEC aconseja todoterreno fuera de grandes centros, preferiblemente acompañado.",
+     "sourceIds": [
+      "op",
+      "sunda",
+      "ref",
+      "maec"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Baucau a Dili",
+     "overnight": "Dili",
+     "stops": [
+      "Paseo corto por Baucau según apertura",
+      "Regreso de día a Dili"
+     ],
+     "transfer": "Corredor costero de vuelta con margen por condiciones. Sin piscina, baño de playa ni excursión a Jaco añadidos. Dormir en Dili antes de salida; no conexión larga forzada el día del vuelo.",
+     "sourceIds": [
+      "op",
+      "sunda",
+      "maec"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Salida desde Dili",
+     "overnight": null,
+     "stops": [
+      "Traslado a DIL"
+     ],
+     "transfer": "Noche previa en Dili, antelación según vuelo. Limitaciones de vuelos y hoteles requieren reconfirmación; no salida vía frontera Indonesia supuesta.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores recomienda precaución en todos los desplazamientos, conductor y todoterreno fuera de principales centros, sin carretera nocturna. Noviembre-abril hay lluvias/ciclones con cortes y desprendimientos. Crocodilos, oleaje y escasos medios de rescate: no se programa baño. Advierte inseguridad del ferry Dili-Ataúro/Oecussi y pide evaluar otras alternativas con prudencia; no incluido. Sanidad muy limitada, seguro con evacuación aérea y prevención de mosquitos. Confirmar rutas locales, no declarar seguridad por excluir el mar.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Timor+Oriental"
+ },
+ "photo": {
+  "img": "assets/routes/tl.jpg",
+  "name": "Cristo Rei de Dili",
+  "source": "https://commons.wikimedia.org/wiki/File:Cristo_Rei_Dili_Timor_Leste_2.jpg",
+  "author": "Philip Nalangan",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "caption": "Foto de archivo de 2014. No confirma acceso actual, condición de escaleras ni baño seguro en la costa."
+ }
+}

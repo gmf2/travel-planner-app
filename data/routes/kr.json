@@ -1,0 +1,323 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "KR",
+ "country": "Corea del Sur",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Cobertura razonable del pais por el eje Seul-Busan mas Jeju; no incluye Jeonju ni la costa este.",
+ "verificationLimits": [
+  "KTO publica compra normal desde un mes antes. No se prometen una ventana universal, tarifas antiguas ni plazas: confirmar en Korail para la fecha.",
+  "KTO respalda el eje Seúl-Gyeongju-Busan. Los tiempos municipales son orientativos y no incluyen acceso local.",
+  "Jeju requiere vuelos internos y elegir transporte en la isla. No hay billetes, alquiler ni conductor contratados.",
+  "12 días/11 noches editoriales con noche final en Seúl. Billetes separados no protegidos; la noche reduce dependencia, no garantiza viaje sin cancelaciones.",
+  "Bukchon: restricción turística de 17:00 a 10:00 afecta zona roja Bukchon-ro 11-gil, no todo el barrio. El descanso dominical de callejones se presenta como petición municipal, no multa dominical universal.",
+  "Jardín Secreto por sesión/cupo y guía, entrada del palacio separada; lunes y excepción de festivos condicionan el orden. No reserva obtenida.",
+  "Hallasan es alternativa completa, no añadido a costa. Cumbre necesita reserva en rutas específicas, accesos/horas límite y condición física; 5 h de Gwaneumsa es solo ida. Cierre estival 2026 no se traslada sin comprobación a otra fecha."
+ ],
+ "routes": [
+  {
+   "id": "kr-north-jeju-12",
+   "title": "Seúl, Gyeongju, Busan y Jeju · 12 días",
+   "scope": "Seúl, eje ferroviario hacia Busan y selección de Jeju. No cubre Jeonju, toda Jeju, la costa oriental ni la DMZ.",
+   "pace": "12 días/11 noches editoriales. Regreso de Jeju separado del vuelo internacional por una noche en Seúl. Gyeongju-Busan y los recorridos de Jeju necesitan transporte local elegido; no son días completos de visitas más traslados.",
+   "assumptions": "Adaptación editorial de la ruta de la fuente. Sin vuelos, trenes, habitaciones, permisos ni entradas seleccionados. Noche final en Seúl, sin asegurar conexiones protegidas ni disponibilidad. Jardín Secreto y Hallasan son opcionales sujetos a condiciones propias.",
+   "sources": [
+    {
+     "id": "kor",
+     "title": "Korea Travel Atlas - Corea en 10 dias (verificada 15/10/2026)",
+     "url": "https://koreatravelatlas.com/itineraries/korea-10-days/"
+    },
+    {
+     "id": "arex",
+     "title": "Seoul Metropolitan Government - AREX y transporte de aeropuertos",
+     "url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/"
+    },
+    {
+     "id": "kto-rail",
+     "title": "KTO: líneas y compra de trenes, consultado 03/11/2026",
+     "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140656"
+    },
+    {
+     "id": "gyeongju-access",
+     "title": "Gyeongju municipal: acceso KTX, tiempos aproximados",
+     "url": "https://gyeongju.go.kr/open_content/english/page.do?mnu_uid=2577"
+    },
+    {
+     "id": "bukchon",
+     "title": "Ayuntamiento de Seúl: zona roja de Bukchon y restricción turística",
+     "url": "https://english.seoul.go.kr/notice-on-restrictions-for-tourist-visits-to-bukchon-special-management-area-effective-from-november-2024/"
+    },
+    {
+     "id": "bukchon-local",
+     "title": "Jongno: alcance de la zona especial de Bukchon",
+     "url": "https://culture.jongno.go.kr/media/ko/conts/111/web.do"
+    },
+    {
+     "id": "garden",
+     "title": "Visit Seoul: Jardín Secreto, actualizado 17/10/2026",
+     "url": "https://english.visitseoul.net/area/2024-cdggarden/ENPl8f5md"
+    },
+    {
+     "id": "halla",
+     "title": "Visit Jeju: Hallasan, reserva y senderos de cumbre",
+     "url": "https://www.visitjeju.net/en/detail/view?contentsid=CONT_000000000500685"
+    },
+    {
+     "id": "halla-trail",
+     "title": "Parque Hallasan: Gwaneumsa, 8,7 km / 5 h solo ida y límites por estación",
+     "url": "https://visithalla.jeju.go.kr/contents/contents.do?id=62"
+    },
+    {
+     "id": "airbusan",
+     "title": "Air Busan: consulta de horarios Busan-Jeju, sin vuelo seleccionado",
+     "url": "https://en.airbusan.com/web/individual/booking/schedule"
+    },
+    {
+     "id": "korean-air",
+     "title": "Korean Air: corredor Jeju-Seúl, sin billete seleccionado",
+     "url": "https://www.koreanair.com/flights/en/flights-from-jeju-to-seoul"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Seúl",
+     "overnight": "Seúl",
+     "stops": [
+      "Llegada y paseo cerca del alojamiento"
+     ],
+     "transfer": "Aeropuerto → alojamiento. No programar entradas comprometidas tras el vuelo.",
+     "sourceIds": [
+      "kor",
+      "arex"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Seúl: palacios y Bukchon",
+     "overnight": "Seúl",
+     "stops": [
+      "Changdeokgung; Jardín Secreto solo con sesión y acceso elegidos",
+      "Bukchon dentro de zona y horario permitidos",
+      "Insadong si queda tiempo"
+     ],
+     "transfer": "Jardín Secreto: Visit Seoul publica visita guiada por sesión y cupo, no paseo individual; exige entrada del palacio aparte. Cierra lunes, con apertura si festivo y cierre el siguiente día no festivo. Elegir fecha/idioma antes de ordenar el día. Bukchon-ro 11-gil, zona roja de unas 34.000 m²: visitas turísticas prohibidas de 17:00 a 10:00, vigentes desde 01/03/2025; no todo Bukchon es la misma zona. El ayuntamiento pide descanso de callejones el domingo. Respetar residentes, señalización y zonas, no visita nocturna tras el palacio.",
+     "sourceIds": [
+      "kor",
+      "garden",
+      "bukchon",
+      "bukchon-local"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Seúl: mercados y Namsan",
+     "overnight": "Seúl",
+     "stops": [
+      "Mercado Gwangjang",
+      "Namsan/N Seoul Tower",
+      "Myeongdong"
+     ],
+     "transfer": "Traslados locales según alojamiento y visitas elegidas; sin horario contratado.",
+     "sourceIds": [
+      "kor"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Seúl: Gangnam y Hongdae",
+     "overnight": "Seúl",
+     "stops": [
+      "Gangnam/Jamsil",
+      "Hongdae"
+     ],
+     "transfer": "Gangnam/Jamsil y Hongdae son áreas distintas: elegir una como principal, con transporte urbano al otro lado si apetece. Preparar salida a Gyeongju, sin entrada con hora fija en ambas áreas.",
+     "sourceIds": [
+      "kor"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Gyeongju, museo al aire libre",
+     "overnight": "Gyeongju",
+     "stops": [
+      "Parque de tumbas (Daereungwon)",
+      "Hwangnidan-gil",
+      "Estanque Wolji de noche"
+     ],
+     "transfer": "Seoul Station → Gyeongju Station en KTX: el municipio estima 2 h 10 min, no servicio seleccionado. Añadir estación → centro/hotel y esperas: el tiempo de tren no es puerta a puerta.",
+     "sourceIds": [
+      "kor",
+      "kto-rail",
+      "gyeongju-access"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Bulguksa y llegada a Busan",
+     "overnight": "Busan",
+     "stops": [
+      "Bulguksa como visita principal",
+      "Seokguram solo si transporte y margen permiten",
+      "Llegada y noche en Busan; Gwangalli opcional"
+     ],
+     "transfer": "Traslado desde Bulguksa/Seokguram a Gyeongju Station, KTX → Busan Station (unos 30 min según el municipio), después hotel. Las visitas no están en la estación: elegir transporte terrestre y margen, sin prometer Gwangalli antes de una hora fija. Seokguram no se suma como parada inmediata al KTX; elegir un conjunto si no encaja el traslado al tren.",
+     "sourceIds": [
+      "kor",
+      "kto-rail",
+      "gyeongju-access"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Busan",
+     "overnight": "Busan",
+     "stops": [
+      "Gamcheon Culture Village",
+      "Mercado Jagalchi",
+      "BIFF Square y Gukje Market"
+     ],
+     "transfer": "Metro y transporte local en el oeste y centro de Busan; no mezclar con el templo del extremo este.",
+     "sourceIds": [
+      "kor"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Vuelo a Jeju",
+     "overnight": "Jeju City",
+     "stops": [
+      "Traslado al aeropuerto de Gimhae y vuelo elegido a Jeju",
+      "Mercado Dongmun solo si llegada y horario permiten"
+     ],
+     "transfer": "Jornada Busan → aeropuerto Gimhae PUS → Jeju CJU → alojamiento. Air Busan ofrece consulta del corredor, no se ha seleccionado servicio/plaza ni se usa 1 h como puerta a puerta. Haedong Yonggungsa queda como alternativa para reorganizar un día de Busan, no visita fija antes del vuelo. Confirmar equipaje, aeropuerto y traslado a Jeju City.",
+     "sourceIds": [
+      "kor",
+      "airbusan"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Jeju este",
+     "overnight": "Seogwipo",
+     "stops": [
+      "Seongsan Ilchulbong según apertura",
+      "Cheonjiyeon si encaja al llegar al sur"
+     ],
+     "transfer": "Recorrido por el este y sur de Jeju en coche o transporte contratado. En bus, reducir paradas. No se garantiza circuito completo en una jornada.",
+     "sourceIds": [
+      "kor"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "Jeju oeste o Hallasan",
+     "overnight": "Jeju City",
+     "stops": [
+      "Jusangjeolli y una parada de costa oeste",
+      "Hallasan solo como alternativa de jornada entera, no añadido"
+     ],
+     "transfer": "Regreso por carretera a Jeju City. Hallasan sustituye el circuito de costa: cumbre de Baengnokdam por tramos superiores de Seongpanak/Gwaneumsa exige reserva y estado del sendero confirmado. Gwaneumsa publica 8,7 km y 5 h SOLO IDA, más bajada y accesos; no paseo corto entre paradas. Equipamiento, forma física, hora límite y meteorología por decidir. El cierre superior de Gwaneumsa del 01/08 al 30/09/2026 no se extrapola a otras fechas ni se toma como prueba de reapertura. Otras rutas no llegan a cumbre.",
+     "sourceIds": [
+      "kor",
+      "halla",
+      "halla-trail"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "Jeju a Seúl: noche antes de salir",
+     "overnight": "Seúl",
+     "stops": [
+      "Vuelo doméstico elegido y traslado al alojamiento",
+      "Descanso, sin vuelo internacional el mismo día"
+     ],
+     "transfer": "Jeju → Seúl: Korean Air publica corredor, no vuelo seleccionado. Confirmar aeropuerto exacto; si llega a Gimpo GMP, el AREX con paradas conecta con Seúl e Incheon, el expreso no para allí. Añadir equipaje y acceso al alojamiento. Noche en Seúl antes de salida, no conexión independiente Jeju-Gimpo-Incheon forzada en una jornada.",
+     "sourceIds": [
+      "kor",
+      "arex",
+      "korean-air"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Salida desde Seúl",
+     "overnight": null,
+     "stops": [
+      "Traslado al aeropuerto elegido y salida"
+     ],
+     "transfer": "Noche anterior en Seúl. Confirmar ICN/GMP y terminal antes de elegir hotel y transporte; AREX expreso solo Seoul Station-Incheon, el tren con paradas es otro producto. Horario real, equipaje y antelación de aerolínea por comprobar. Sin vuelo desde Jeju este día.",
+     "sourceIds": [
+      "arex",
+      "korean-air"
+     ]
+    }
+   ],
+   "previousRouteIds": [
+    "kr-10"
+   ],
+   "previousRouteNotes": [
+    {
+     "id": "kr-10",
+     "title": "Seúl, Gyeongju, Busan y Jeju · 11 días",
+     "days": [
+      {
+       "day": 1,
+       "title": "Llegada a Seúl"
+      },
+      {
+       "day": 2,
+       "title": "Seúl: palacios y Bukchon"
+      },
+      {
+       "day": 3,
+       "title": "Seúl: mercados y Namsan"
+      },
+      {
+       "day": 4,
+       "title": "Seúl: Gangnam y Hongdae"
+      },
+      {
+       "day": 5,
+       "title": "Gyeongju, museo al aire libre"
+      },
+      {
+       "day": 6,
+       "title": "Bulguksa y llegada a Busan"
+      },
+      {
+       "day": 7,
+       "title": "Busan"
+      },
+      {
+       "day": 8,
+       "title": "Vuelo a Jeju"
+      },
+      {
+       "day": 9,
+       "title": "Jeju este"
+      },
+      {
+       "day": 10,
+       "title": "Jeju oeste o Hallasan"
+      },
+      {
+       "day": 11,
+       "title": "Regreso y salida"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "photo": {
+  "img": "assets/routes/kr.jpg",
+  "name": "Seúl · puerta Sinmumun de Gyeongbokgung",
+  "source": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung,_Sinmunmun_gate.jpg",
+  "originalSource": "https://www.flickr.com/photos/gracewong/404178757/",
+  "author": "by Tom@HK",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ }
+}

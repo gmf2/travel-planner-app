@@ -1,0 +1,202 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "GE",
+ "country": "Georgia",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Tiflis, Stepantsminda y Kakheti. No cubre Kutaisi, costa, Svaneti, Abjasia ni Osetia del Sur.",
+ "verificationLimits": [
+  "9 días / 8 noches editoriales; se separan regreso de montaña, Kakheti y vuelo. No es circuito reservado ni conexión garantizada.",
+  "Acceso de montaña condicionado a carretera, meteorología y equipo. No se programa Truso ni Dariali como añadido improvisado cerca de frontera.",
+  "Fuente local actual comunica restauración en Narikala sin fecha oficial de reapertura: no se programa interior, murallas ni iglesia. La página turística oficial histórica no prueba acceso actual."
+ ],
+ "routes": [
+  {
+   "id": "ge-east-9",
+   "title": "Tiflis, Kazbegi y Kakheti · 9 días",
+   "scope": "Tiflis, Stepantsminda y Kakheti. No cubre Kutaisi, costa, Svaneti, Abjasia ni Osetia del Sur.",
+   "pace": "9 días / 8 noches: Tiflis 2, Stepantsminda 2, Tiflis 1, Sighnaghi 2, Tiflis 1. Jornada propia para cada cambio de región.",
+   "assumptions": "Adaptación editorial del tramo georgiano de Havenago, contrastada con turismo oficial y guía local. Coche con conductor o minibus seleccionado para cada tramo, sin vehículo contratado. Entrada/salida TBS y noche en Tiflis antes de vuelo. En invierno puede ser necesario prescindir de montaña y quedarse en la ciudad, sin prometer carretera abierta. Documentación según pasaporte, no nacionalidad inferida.",
+   "sources": [
+    {
+     "id": "hg",
+     "title": "havenago - Georgia y Armenia 10 dias (Tbilisi, Kazbegi, Yerevan)",
+     "url": "https://havenago.com/blog/georgia-caucasus-itinerary/"
+    },
+    {
+     "id": "kaz",
+     "title": "Georgia Travel · Stepantsminda",
+     "url": "https://georgia.travel/cities-towns/stepantsminda"
+    },
+    {
+     "id": "kak",
+     "title": "Georgia Travel · Kakheti",
+     "url": "https://georgia.travel/regions/kakheti"
+    },
+    {
+     "id": "nari",
+     "title": "Guía local · Narikala en obras",
+     "url": "https://tbilisilocalguide.com/tbilisi/narikala-fortress/"
+    },
+    {
+     "id": "route",
+     "title": "Travel Around Georgia · tiempos de carretera orientativos",
+     "url": "https://travelaroundgeorgia.ge/guides/georgia-7-days"
+    },
+    {
+     "id": "airport",
+     "title": "Georgia Travel · aeropuertos",
+     "url": "https://georgia.travel/coming-to-georgia/public-airports-in-georgia"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Georgia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=georgia"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Tiflis",
+     "overnight": "Tiflis",
+     "stops": [
+      "Alojamiento y descanso",
+      "Paseo breve por el entorno si queda margen"
+     ],
+     "transfer": "TBS al centro: turismo oficial publica bus 337 o taxi oficial. Elegir servicio según hora; no se toma 24/7 del taxi como horario del bus.",
+     "sourceIds": [
+      "airport",
+      "hg"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Tiflis: casco viejo y ciudad",
+     "overnight": "Tiflis",
+     "stops": [
+      "Kala, Metekhi y Puente de la Paz",
+      "Elegir un museo o paseo por Rustaveli",
+      "Narikala solo paisaje exterior desde zonas autorizadas, no interior"
+     ],
+     "transfer": "Día urbano. Fuente local actual indica restauración y acceso interior restringido en Narikala; no entrar tras vallas ni subir murallas. Teleférico y senderos tienen acceso/calendario propio, no precio 2 € supuesto. Baños de Abanotubani como opción con condiciones y reserva elegidas por el viajero, no incluidos.",
+     "sourceIds": [
+      "hg",
+      "nari"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Carretera Militar a Stepantsminda",
+     "overnight": "Stepantsminda (Kazbegi)",
+     "stops": [
+      "Traslado por carretera de montaña",
+      "Paradas breves autorizadas si condiciones y luz permiten"
+     ],
+     "transfer": "Tiflis-Stepantsminda: turismo oficial indica 2 h 55 orientativas; guía local 2,5-3 h sin paradas. Reservar buena parte del día con pausas y llegada. Comprobar estado del paso antes de salir; no continuar a frontera rusa.",
+     "sourceIds": [
+      "kaz",
+      "route",
+      "maec"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Gergeti según condiciones",
+     "overnight": "Stepantsminda (Kazbegi)",
+     "stops": [
+      "Iglesia de la Trinidad de Gergeti si acceso permitido",
+      "Paseo por Stepantsminda como alternativa o resto del día"
+     ],
+     "transfer": "Actividad de montaña opcional con guía/operador y forma física adecuados. No se fija subida de 2 h ni 4x4 por 20 € desde una fuente antigua. Si hay hielo, niebla, cierre o falta de equipo, permanecer en el pueblo; no sustituir por Truso/Dariali sin verificar.",
+     "sourceIds": [
+      "kaz",
+      "hg",
+      "maec"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Regreso de la montaña a Tiflis",
+     "overnight": "Tiflis",
+     "stops": [
+      "Regreso con margen",
+      "Museo o paseo por Rustaveli solo si queda tarde útil"
+     ],
+     "transfer": "Mismo corredor a Tiflis, unas 3 h de conducción base sin paradas, no garantía. Jornada separada de Kakheti para no concatenar 5-6 h de carretera más visitas.",
+     "sourceIds": [
+      "route",
+      "hg",
+      "maec"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "A Sighnaghi y Kakheti",
+     "overnight": "Sighnaghi",
+     "stops": [
+      "Llegada a Sighnaghi",
+      "Paseo por casco y vistas del valle si tiempo permite"
+     ],
+     "transfer": "Tiflis-Sighnaghi: Havenago orienta unas 2,5 h en coche; turismo oficial Kakheti publica referencia regional 1 h 50, no idéntica al puerta a puerta de Sighnaghi. Usar el tramo seleccionado y sumar pausas/check-in.",
+     "sourceIds": [
+      "hg",
+      "kak"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Kakheti a ritmo tranquilo",
+     "overnight": "Sighnaghi",
+     "stops": [
+      "Bodbe y paseo por Sighnaghi según apertura",
+      "Bodega opcional con horario y regreso elegidos, sin conducción después de cata"
+     ],
+     "transfer": "Día local/regional: elegir transporte entre base, Bodbe y bodega. Cata no incluida ni obligatoria; no se supone vendimia cualquier mes ni se añaden fronteras/áreas remotas.",
+     "sourceIds": [
+      "hg",
+      "kak"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Regreso a Tiflis antes de salir",
+     "overnight": "Tiflis",
+     "stops": [
+      "Traslado desde Kakheti",
+      "Tarde libre o visita urbana pendiente con horario confirmado"
+     ],
+     "transfer": "Sighnaghi-Tiflis unas 2,5 h orientativas de la fuente, sin paradas ni tráfico particular. No se enlaza con vuelo internacional este día: noche de margen en la ciudad.",
+     "sourceIds": [
+      "hg",
+      "kak"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Salida desde Tiflis",
+     "overnight": null,
+     "stops": [
+      "Traslado al aeropuerto TBS"
+     ],
+     "transfer": "Elegir bus 337 en horario real o traslado oficial y antelación del vuelo. No carretera desde Stepantsminda o Kakheti antes del aeropuerto este día.",
+     "sourceIds": [
+      "airport"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores recomienda precaución y evitar Abjasia, Osetia del Sur y sus líneas de separación, además de manifestaciones. Desde el 1 de enero de 2026 exige seguro de viaje con gastos médicos mínimos de 30.000 GEL según aviso consultado. En montaña hay nieve, avalanchas y desprendimientos; carretera no garantizada. Elegir seguro válido para actividades previstas y revisar aviso completo antes de viajar.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=georgia"
+ },
+ "photo": {
+  "img": "assets/routes/ge.jpg",
+  "name": "Iglesia de la Trinidad de Gergeti",
+  "source": "https://commons.wikimedia.org/wiki/File:Gergeti_Trinity_Church_14th_century_in_Georgia.jpg",
+  "author": "Nata Mostova (Natalia Mostova)",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "caption": "Foto de archivo de Gergeti y paisaje de montaña. No confirma carretera, nieve ni acceso del día."
+ }
+}

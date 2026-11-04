@@ -1,0 +1,218 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "KG",
+ "country": "Kirguistán",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Norte del pais; el sur solo como variante con vuelo no detallada.",
+ "verificationLimits": [
+  "8 días/7 noches editoriales; coche/conductor, campamentos, alojamiento, comidas y actividades sin precio total ni reservas.",
+  "Song-Kul tiene acceso por pasos de montaña y alojamiento estacional. Operador de vehículos describe junio-septiembre, con extremos de temporada cambiantes; no es un calendario de apertura garantizada. Confirmar paso y yurta para la fecha.",
+  "La fuente comercial de 6 días lista junio-septiembre, pero llama junio-agosto mejor temporada y todavía deja sus fechas 2027 por fijar: no demuestra disponibilidad ni permite copiar su precio como total de esta ruta.",
+  "Altyn-Arashan por pista en UAZ y caminando son opciones distintas. Comprobar forma física, equipo, estado de pista, conductor y regreso. No se añade Ala-Kul de un día ni se certifica acceso invernal.",
+  "Altitud, frío, señal limitada y clima pueden cambiar el reparto. Contratar seguro adecuado a altitud/actividad y verificar rescate antes de un trekking."
+ ],
+ "routes": [
+  {
+   "id": "kg-north-8",
+   "title": "Song-Kul e Issyk-Kul · 8 días",
+   "scope": "Bucle norte: Bishkek, Kochkor, Song-Kul, Karakol y orilla sur de Issyk-Kul. No recorre Osh, Alay ni el resto del sur.",
+   "pace": "8 días/7 noches con regreso a Bishkek separado de la salida aérea. El traslado Song-Kul-Karakol ocupa jornada larga; Altyn-Arashan no es un paseo breve.",
+   "assumptions": "Adaptación editorial de la guía de 7 días con una noche final en Bishkek. Requiere elegir transporte de montaña, campamento y fechas estivales; no es un paquete contratado. La noche de margen no protege billetes separados.",
+   "sources": [
+    {
+     "id": "kgz",
+     "title": "Visit Kyrgyzstan - itinerario 7 dias",
+     "url": "https://www.visitkyrgyzstan.org/itinerary-7-days/"
+    },
+    {
+     "id": "songkul-local",
+     "title": "Nomad Car: accesos y temporada, operador local de vehículos",
+     "url": "https://nomadcar.kg/en/o-nas/stati/road-trip-to-song-kul-when-to-go-which-car-to-choose-and-what-to-see"
+    },
+    {
+     "id": "operator-4wd",
+     "title": "Visit Kyrgyzstan: referencia de operador con UAZ a Altyn-Arashan, no oficina pública de turismo",
+     "url": "https://visitkyrgyzstan.kg/tour/discover-issyk-kul-song-kul-lakes/"
+    },
+    {
+     "id": "trekking",
+     "title": "Caravanistan: senderismo de Karakol y Ala-Kul",
+     "url": "https://caravanistan.com/kyrgyzstan/things-to-do/trekking/karakol/"
+    },
+    {
+     "id": "trek-experience",
+     "title": "Backpack Adventures: experiencia de marcha a Altyn-Arashan",
+     "url": "https://www.backpackadventures.org/altyn-arashan-kyrgyzstan/"
+    },
+    {
+     "id": "maec",
+     "title": "MAEC: Kirguistán, consulta 03/11/2026",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Kirguistán"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Bishkek",
+     "overnight": "Bishkek",
+     "stops": [
+      "Paseo suave por Bishkek según hora de llegada"
+     ],
+     "transfer": "Aeropuerto de Manas → alojamiento. Evitar visitas obligatorias el día de llegada.",
+     "sourceIds": [
+      "kgz"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Bishkek a Kochkor",
+     "overnight": "Kochkor",
+     "stops": [
+      "Taller de fieltro shyrdak en Kochkor"
+     ],
+     "transfer": "Marshrutka Bishkek-Kochkor ~3,5 h orientativo (fuente kgz).",
+     "sourceIds": [
+      "kgz"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Subida a Song-Kul",
+     "overnight": "yurta en Song-Kul",
+     "stops": [
+      "Lago Song-Kul",
+      "Noche en yurta"
+     ],
+     "transfer": "Kochkor → campamento elegido de Song-Kul en 4x4/conductor por elegir. La guía estima unas 2 h, pero depende del paso, pista y campamento; no puerta a puerta garantizado. Alternativa a caballo es otra actividad de 5-6 h orientativas, no sustitución automática. Confirmar paso abierto y yurta antes de salir; no prometerlo fuera de verano.",
+     "sourceIds": [
+      "kgz",
+      "songkul-local",
+      "operator-4wd"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Song-Kul a Karakol",
+     "overnight": "Karakol",
+     "stops": [
+      "Desfila dero Boom",
+      "Cholpon-Ata (comida)",
+      "Orilla norte de Issyk-Kul"
+     ],
+     "transfer": "Coche ~7-8 h orientativo; día columna de la ruta (fuente kgz).",
+     "sourceIds": [
+      "kgz"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Alrededores de Karakol",
+     "overnight": "Karakol",
+     "stops": [
+      "Jeti-Oguz como salida corta o Altyn-Arashan como jornada de senderismo, no ambas",
+      "Mezquita dungan si queda tiempo"
+     ],
+     "transfer": "Desde Karakol: elegir excursión con vehículo de montaña autorizado/local y conductor adecuado, o caminata larga desde Ak-Suu con regreso y luz calculados. Un operador usa UAZ y estima 2-3 h para su traslado; la experiencia independiente describe unos 15 km de marcha de acceso. No presentar como 3 h universales ni paseo sencillo. Ala-Kul no cabe además: Caravanistan describe circuito de 45 km habitualmente en 3 días.",
+     "sourceIds": [
+      "kgz",
+      "operator-4wd",
+      "trekking",
+      "trek-experience"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Orilla sur de Issyk-Kul",
+     "overnight": "Tamga o Bokonbaevo",
+     "stops": [
+      "Cañón Skazka",
+      "Cascada Barskoon si encaja en la carretera"
+     ],
+     "transfer": "Carretera por la orilla sur de Issyk-Kul. Duración no contrastada; reservar la jornada para desplazamiento y paradas.",
+     "sourceIds": [
+      "kgz"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Regreso a Bishkek: noche de margen",
+     "overnight": "Bishkek",
+     "stops": [
+      "Regreso por carretera",
+      "Burana opcional sin comprometer la noche en Bishkek"
+     ],
+     "transfer": "Carretera desde la orilla sur de Issyk-Kul → Bishkek, 5-6 h orientativas de la guía, con Burana solo si tiempo y acceso lo permiten. No vuelo internacional este día; dormir en Bishkek tras el tramo largo.",
+     "sourceIds": [
+      "kgz"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Salida desde Bishkek",
+     "overnight": null,
+     "stops": [
+      "Traslado al aeropuerto según vuelo elegido"
+     ],
+     "transfer": "Alojamiento en Bishkek → aeropuerto de Manas. Transfer y margen de facturación por elegir; sin excursión interurbana este día.",
+     "sourceIds": [
+      "kgz"
+     ]
+    }
+   ],
+   "previousRouteIds": [
+    "kg-7"
+   ],
+   "previousRouteNotes": [
+    {
+     "id": "kg-7",
+     "title": "Song-Kul e Issyk-Kul · 7 días",
+     "days": [
+      {
+       "day": 1,
+       "title": "Llegada a Bishkek"
+      },
+      {
+       "day": 2,
+       "title": "Bishkek a Kochkor"
+      },
+      {
+       "day": 3,
+       "title": "Subida a Song-Kul"
+      },
+      {
+       "day": 4,
+       "title": "Song-Kul a Karakol"
+      },
+      {
+       "day": 5,
+       "title": "Alrededores de Karakol"
+      },
+      {
+       "day": 6,
+       "title": "Orilla sur de Issyk-Kul"
+      },
+      {
+       "day": 7,
+       "title": "Regreso a Bishkek y salida"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "photo": {
+  "img": "assets/routes/kg.jpg",
+  "name": "Kirguistán · lago Song-Kul",
+  "source": "https://commons.wikimedia.org/wiki/File:Song-Kul,_Kyrgyzstan_(44530090202).jpg",
+  "originalSource": "https://www.flickr.com/photos/ninara/44530090202/",
+  "author": "Ninara from Helsinki, Finland",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ },
+ "advisory": {
+  "text": "Consulta MAEC 03/11/2026: viajar con precaución y evitar determinadas zonas. Advierte especialmente de la frontera con Tayikistán/Batken y posibles cierres; este bucle norte no pasa por esa frontera. No es una certificación de seguridad de carreteras o montaña.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Kirguistán"
+ }
+}

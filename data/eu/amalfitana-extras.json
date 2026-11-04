@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "cityId": "amalfitana",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "amalfi_da_gemma",
+   "name": "Trattoria Da Gemma · cocina de mar en Amalfi",
+   "address": "Via Fra Gerardo Sasso 11, Amalfi, Italia",
+   "description": "Comida especial en Amalfi, no en Sorrento: tradición local de mar con genovese, risotto de gambas y limón y sopa de pescado. Gambero Rosso destaca la sopa, para encargar con la mesa, y el risotto; la carta propia permite elegir menú o carta. Es la Trattoria, no La Cantina adyacente.",
+   "compactDescription": "En Amalfi: risotto de gambas y limón o sopa de pescado para compartir. Comida especial, no opción económica.",
+   "priceLabel": "Carta propia: Tradizione 75 €, Gemma 100 €, Vegetariano 70 €, para toda la mesa; bebidas excluidas, coperto incluido en menús. Genovese 29 €, risotto 30 €/persona mínimo dos porciones, sopa 120 € mínimo dos personas; pescado 10 €/100 g, no precio de un plato entero. Confirmar peso, bebidas y cargos de carta antes de pedir.",
+   "compactPrice": "Menús 70/75/100 € sin bebidas; toda la mesa. Carta y pescado por peso aparte.",
+   "officialUrl": "https://trattoria.trattoriadagemma.com/i-menu/",
+   "editorialUrl": "https://www.gamberorossointernational.com/news/where-to-eat-in-amalfi-the-6-best-spots-chosen-by-gambero-rosso/",
+   "sourceUrls": [
+    "https://trattoriadagemma.com/"
+   ],
+   "strength": "Criterio de cocina local: risotto al limón y sopa de pescado señalados por guía y coincidentes con carta propia. No se presenta como selección Michelin.",
+   "statusEvidence": "Menú y web propios coinciden en dirección; carta publica horario 12:00-14:30/19:00-22:00, miércoles cerrado. Horario estacional y festivos pendientes; ubicación Maps comprobada. Guía gastronómica distingue Trattoria y Cantina.",
+   "alert": "Miércoles cerrado según propio. Menús para toda la mesa; bebidas aparte. Pescado a peso y risotto mínimo dos: pedir total antes de elegir.",
+   "compactAlert": "Miércoles cerrado. Menús para toda la mesa; bebidas aparte. Pescado por peso.",
+   "caution": "No hay reserva ni compra. Confirmar servicio para fecha, acceso y escalones, alergias y política de cancelación o tarjeta. La guía aconseja reservar la sopa con la mesa; no se garantiza stock ni terraza. La opción vegetariana no prueba adaptación a alergias ni oferta vegana.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/amalfitana/amalfi_da_gemma-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes y costa de Amalfi imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes y costa de Amalfi imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Da+Gemma&query_place_id=ChIJQYaTdK6VOxMRKHXCBFEcggU",
+   "placeId": "ChIJQYaTdK6VOxMRKHXCBFEcggU",
+   "lat": 40.6346207,
+   "lng": 14.6022181,
+   "locationCheckedAt": "2026-11-03",
+   "locationEvidence": "Ficha Maps coincide en nombre y dirección. Solo ubicación, no validación de horario, apertura futura, carta o accesibilidad.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "sorrento_tirabuscio_pasta",
+   "name": "Tirabusciò · pasta en Sorrento, no en Amalfi",
+   "address": "Via Casarlano 19, 80067 Sorrento, Italia",
+   "description": "Clase de pasta fresca con preparación de recetas como ñoquis, ravioli y canelones, degustaciones de aceite y mozzarella, vino regional y tiramisú según la ficha propia. Se realiza en Sorrento: sirve si esa es la base o se reserva tiempo para llegar, no como actividad a pie desde Amalfi/Positano. La sesión es de grupo, no privada salvo acuerdo aparte.",
+   "duration": "Duración publicada 3 h 30 min, más llegada. El sitio .it ofrece traslado desde un punto de encuentro en el centro de Sorrento y vuelta; punto exacto, inclusión en esta tarifa y horario pendientes de confirmar. No traslado desde Amalfi, Positano ni hotel garantizado.",
+   "compactDuration": "3 h 30 min + llegada a Sorrento. No está en Amalfi ni Positano.",
+   "priceLabel": "Sitio propio .com: 150 €/persona publicados para Handmade Pasta Class. Ingredientes y degustaciones según ficha; confirmar total, suplementos y traslado para fecha. No se adopta tarifa de otra clase ni se garantiza precio final.",
+   "compactPrice": "150 €/persona publicados. Confirmar total y traslado desde Sorrento.",
+   "officialUrl": "https://tirabusciosorrento.com/en/cooking-class/handmade-pasta-class",
+   "sourceUrls": [
+    "https://tirabusciosorrento.it/cooking-school-handmade-pasta-menu/"
+   ],
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Ambos sitios propios coinciden en nombre, dirección y VAT 08128721217. .com publica 150 €/3,5 h y cancelación gratis sin plazo; .it detalla cancelación hasta 72 h antes, clases de grupo y lluvia en interior. No sesión disponible verificada.",
+   "alert": "Cancelación: .it publica gratis hasta 72 h antes; .com anuncia gratis sin detallar plazo. Confirmar la condición de la reserva antes de pagar, no interpretar gratis en cualquier momento. Idioma de clase, alergias, acceso sin escalones y punto de recogida pendientes.",
+   "compactAlert": "Base Sorrento. .it: cancelación gratis hasta 72 h; .com no da plazo. Confirmar idioma y condiciones.",
+   "caution": "Nada reservado ni comprado. La web .it indica terraza o sala interior con mal tiempo, pero confirmar sesión. Recogida descrita desde punto del centro de Sorrento, no del hotel ni de la Costa Amalfitana. No asumir adaptación ante alergias, ni que se elaboren todos los platos publicados en cualquier sesión. No añadir otra comida a la misma hora.",
+   "photo": {
+    "img": "assets/amalfitana/sorrento_tirabuscio_pasta-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Pasta y costa imaginadas, no cocina, receta ni vista de Tirabusciò. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Pasta y costa imaginadas, no cocina, receta ni vista de Tirabusciò. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ]
+}

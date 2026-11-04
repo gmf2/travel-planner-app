@@ -1,0 +1,146 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "PK",
+ "country": "Pakistán",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Solo Lahore e Islamabad enlazadas por M2. No Gilgit-Baltistán/Hunza, Peshawar, Baluchistán, áreas tribales ni frontera con India.",
+ "verificationLimits": [
+  "Exteriores advierte que buena parte del territorio no es seguro. Lahore/Punjab mantienen riesgo medio: excluir norte o zonas de alto riesgo no certifica seguridad de esta propuesta.",
+  "No se incluye ceremonia Wagah, cruce a India ni ruta a Hunza. El corredor M2 y las visitas requieren evaluación local y confirmación para fechas concretas.",
+  "No se trasladan tarifas ni horarios aéreos de blogs al itinerario. Entrada, visado, seguro y restricciones según pasaporte y fecha.",
+  "Wagah-Attari permanece cerrada desde el 23 de abril de 2025 según Exteriores: no salida a India terrestre incorporada por el paquete del operador."
+ ],
+ "routes": [
+  {
+   "id": "pk-regional",
+   "title": "Lahore e Islamabad · 6 días",
+   "scope": "Solo Lahore e Islamabad enlazadas por M2. No Gilgit-Baltistán/Hunza, Peshawar, Baluchistán, áreas tribales ni frontera con India.",
+   "pace": "6 días / 5 noches: Lahore 3, Islamabad 2. Llegada y salida aparte, carretera diurna con conductor.",
+   "assumptions": "Circuito regional editorial de dos bases, no ruta declarada segura ni paquete contratado. Se retira Hunza para no depender de carretera Abbottabad-Gilgit especialmente desaconsejada, vuelo sin confirmar ni trekking de altura. Verificar operador, seguridad y ruta de cada etapa para fecha.",
+   "sources": [
+    {
+     "id": "op",
+     "title": "Culture Express · Lahore-Islamabad, base de corredor, no Peshawar",
+     "url": "https://culturesexpress.com/trip/pakistan-gandhara-civilization-tours-2/"
+    },
+    {
+     "id": "other",
+     "title": "Across Pakistan Tours · corredor Islamabad-Lahore",
+     "url": "https://acrosspakistantours.com/index.php?Itemid=720&id=275&option=com_content&view=article"
+    },
+    {
+     "id": "official",
+     "title": "Punjab Tourism · Islamabad y carretera desde Lahore",
+     "url": "https://tourism.punjab.gov.pk/isb_pindi_tour"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Pakistán",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=pakistan"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Lahore",
+     "overnight": "Lahore",
+     "stops": [
+      "Llegada y descanso"
+     ],
+     "transfer": "Traslado LHE-hotel organizado con operador local; no visitas comprometidas tras vuelo.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Lahore histórico",
+     "overnight": "Lahore",
+     "stops": [
+      "Fuerte de Lahore",
+      "Badshahi exterior o visita según condiciones",
+      "Paseo breve con guía por casco histórico"
+     ],
+     "transfer": "Traslados urbanos organizados y selección de visitas. Precaución en lugares concurridos y de culto; no ceremonia Wagah ni frontera añadida. Suspender visitas si situación o controles lo exigen. Evitar mezquitas y mercados concurridos los viernes; cambiar de día o suprimir visitas, no limitarse a sustituir transporte.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Lahore cultural",
+     "overnight": "Lahore",
+     "stops": [
+      "Wazir Khan y calles históricas con guía",
+      "Shalimar como alternativa si acceso confirmado"
+     ],
+     "transfer": "Elegir un conjunto principal, no todos los bazares y templos. Calendarios de acceso por fecha; sin prometer monumentos vacíos ni seguridad por ser turísticos.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Lahore a Islamabad",
+     "overnight": "Islamabad",
+     "stops": [
+      "Jornada de traslado y alojamiento"
+     ],
+     "transfer": "Carretera M2 con conductor y condiciones de seguridad confirmadas. Punjab Tourism publica corredor Lahore-Islamabad; no se usa su ida/vuelta nocturna como recomendación. Sin mina Khewra ni desvío Rohtas impuesto al traslado. Duración concreta pendiente según ruta y controles.",
+     "sourceIds": [
+      "op",
+      "official",
+      "other",
+      "maec"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Islamabad cultural",
+     "overnight": "Islamabad",
+     "stops": [
+      "Faisal Mosque solo acceso permitido",
+      "Lok Virsa como interior principal",
+      "Pakistan Monument si queda margen"
+     ],
+     "transfer": "Traslados urbanos organizados. No añadir Rawalpindi, Taxila, senderismo Margalla y varios museos en el mismo día. Confirmar horarios, afluencia y controles.",
+     "sourceIds": [
+      "op",
+      "official",
+      "maec"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Salida desde Islamabad",
+     "overnight": null,
+     "stops": [
+      "Traslado a ISB"
+     ],
+     "transfer": "Noche previa en Islamabad. Vuelo y aeropuerto elegidos antes de reservar; no cruce a India ni vuelo desde Gilgit como conexión segura supuesta.",
+     "sourceIds": [
+      "op",
+      "maec"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores advierte que buena parte de Pakistán no es seguro y pide extrema precaución. Áreas tribales y Baluchistán están absolutamente desaconsejadas; Lahore/Punjab tienen riesgo medio y atentados han afectado lugares concurridos. Quedan fuera Hunza, carretera Abbottabad-Gilgit y fronteras, sin que eso convierta la alternativa en segura. Operador competente, transporte organizado de día, seguimiento de avisos y seguro con evacuación. Cancelar o cambiar plan si la situación local no permite visitas. Evitar mezquitas y mercados concurridos los viernes; el plan debe reorganizarse según calendario. No transporte público ni taxi improvisado desde aeropuerto. Contactar previamente con la Embajada según Exteriores.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=pakistan"
+ },
+ "photo": {
+  "img": "assets/routes/pk.jpg",
+  "name": "Mezquita Badshahi, Lahore",
+  "source": "https://commons.wikimedia.org/wiki/File:BADSHAHI_MOSQUE_LAHORE.jpg",
+  "author": "jawad",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "caption": "Foto de archivo de 2016. No confirma apertura actual ni situación de seguridad."
+ }
+}

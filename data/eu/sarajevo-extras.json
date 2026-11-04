@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "cityId": "sarajevo",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "dveri",
+   "name": "Dveri · cocina bosnia en Baščaršija",
+   "address": "Prote Bakovića12,Sarajevo",
+   "description": "Restaurante de cocina local e internacional en el casco antiguo. La crítica local destaca sopa de tomate, pollo y pastel casero; disponibilidad actual por confirmar.",
+   "strength": "Guía turística local y crítica gastronómica independiente coinciden en dirección y concepto.",
+   "alert": "Propio no responde; carta vigente y horarios propios pendientes. No tomar precios antiguos de un agregador como carta actual.",
+   "compactAlert": "Guía local9-23;sin confirmación del restaurante.",
+   "caution": "Bonjour publica sopa 6 + pollo 16 + postre 4 = 26 KM por persona sin bebida: ejemplo editorial, no menú fijo ni tarifa confirmada. Otra reproducción de carta propone platos y totales distintos; no sustituye carta propia. Foto real de comida pendiente; ilustración IA conceptual disponible. Ubicación Maps comprobada. Sin reserva.",
+   "officialUrl": "https://www.dveri.co.ba/",
+   "editorialUrl": "https://bonjour.ba/lifestyle/gourmet/vecera-za-dvoje-u-sarajevu-restoran-dveri",
+   "sourceUrls": [
+    "https://sarajevo.travel/ba/sta-raditi/dveri/95",
+    "https://food.balkanchina.com/en/r/bosnia-sarajevo-dveri"
+   ],
+   "status": "source-conflict",
+   "statusCheckedAt": "2026-11-03",
+   "priceLabel": "Carta propia pendiente. Ejemplo crítico26KM sin bebida, no total vigente garantizado.",
+   "compactPrice": "Precio propio pendiente",
+   "photo": {
+    "img": "assets/sarajevo/dveri-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes bosnios imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes bosnios imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dveri&query_place_id=ChIJQ8OFqsnIWEcRN2hZY0MagHg",
+   "placeId": "ChIJQ8OFqsnIWEcRN2hZY0MagHg",
+   "lat": 43.8594995,
+   "lng": 18.4305096,
+   "locationCheckedAt": "2026-11-03",
+   "locationEvidence": "Ficha Maps coincide en nombre y dirección. Solo ubicación, no validación de horario, apertura futura, carta o accesibilidad.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "sarajevo_copper_funky",
+   "name": "Funky Tours · taller de cobre en Sarajevo",
+   "address": "Salida: oficina Funky Tours, Besarina Čikma 5, Sarajevo; taller en el casco antiguo",
+   "description": "Taller práctico con instructora de cobre en un estudio del casco antiguo. El producto básico consiste en crear un imán de recuerdo; una džezva, cafetera bosnia, es una opción con suplemento y se debe avisar con antelación. La clase se anuncia en inglés y compartida, no privada. No es el taller más corto de Sulejman Hrgić anunciado por Homo Faber: son propuestas distintas.",
+   "duration": "La ficha alterna 2-3 horas y 3 horas. Dejar 3 h más llegada como margen editorial; confirmar hora final. El recorrido empieza en la oficina, no incluye recogida en hotel.",
+   "compactDuration": "2-3 h publicadas; dejar 3 h más llegada. Sin recogida en hotel.",
+   "priceLabel": "Desde 45 €/persona para imán, IVA 17% incluido según operador. Džezva: suplemento 15 €, avisando al menos un día antes. Propinas y seguro no incluidos. La ficha excluye comida/bebida pero menciona café durante el taller: confirmar, no se promete como incluido. No precio final para una sesión.",
+   "compactPrice": "Desde 45 €/persona imán; džezva +15 €. Confirmar total para fecha.",
+   "officialUrl": "https://funkytours.com/tour/bosnian-coppersmith-workshop-tour/",
+   "sourceUrls": [
+    "https://funkytours.com/terms-conditions/",
+    "https://funkytours.com/"
+   ],
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Producto y términos propios leídos. Lunes-sábado 10:00/14:00 publicados, sin plazas verificadas. Cabecera máximo 4 y edad 5+, mientras FAQ dice todas las edades: confirmar menores. La dirección de salida coincide en home/términos.",
+   "alert": "Producto: cancelación un día antes con reembolso; términos de excursión diaria: al menos 24 h, dentro de 24 h sin reembolso salvo condición específica. Cambio de fecha: producto dice en cualquier momento, términos avisan posible cargo a 3 días o menos. Confirmar condiciones de la sesión.",
+   "compactAlert": "Cancelar con al menos 24 h según términos. Cambios de fecha y bebidas con información propia contradictoria: confirmar.",
+   "caution": "No hay sesión ni reserva confirmada. Máximo 4 publicado; confirmar grupo, edad, acceso sin escalones y horario para fecha. La página aconseja reservar con 15 días de antelación, pero eso no prueba disponibilidad. No enviar formularios de autorización de tarjeta por mensaje. Seguir la compra segura del proveedor solo tras revisar sus condiciones. No confundir tarifa 45 € con otro taller de 25 € de otro artesano.",
+   "photo": {
+    "img": "assets/sarajevo/sarajevo_copper_funky-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Artesanía del cobre imaginada, no taller, artesano ni producto de Funky Tours. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Artesanía del cobre imaginada, no taller, artesano ni producto de Funky Tours. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ]
+}

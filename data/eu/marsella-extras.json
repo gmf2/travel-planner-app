@@ -1,0 +1,73 @@
+{
+ "schemaVersion": 1,
+ "cityId": "marsella",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "fonfon",
+   "name": "Chez Fonfon",
+   "address": "140 Rue du Vallon des Auffes, 13007 Marseille, France",
+   "description": "Bouillabaisse y bourride en el Vallon des Auffes. Mesa sentada de pescado como ocasión propia, no comida barata ni simple parada de paso.",
+   "strength": "Michelin destaca frescura y tradición marinera; Gault&Millau 2026 valora el entorno y clásicos de cocina marseillesa, con entusiasmo moderado. Encaja en la ribera sur, sin presentar la bouillabaisse como única forma de comer en Marsella.",
+   "alert": "Comida/cena de precio alto: carta actual y mesa por confirmar. Web propia diario 12-14/19-22.",
+   "caution": "Propio publica diario 12-14 y 19-22. Su web mezcla restaurante con tienda: 16,60 € corresponde producto envasado, NO bouillabaisse servida. PDF propio de 2023 con 62 € no prueba precio actual. TheFork revisado publica 65 € bouillabaisse/77 € medio: referencia de plataforma, no cotización final ni total con bebida. Alergias al pescado/marisco consultar; nada reservado. Foto compatible del local todavía pendiente: se rechazó imagen de bouillabaisse en otro restaurante del Vieux-Port para no falsear sede.",
+   "officialUrl": "https://www.chez-fonfon.com/",
+   "editorialUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/marseille/restaurant/chez-fonfon",
+   "sourceUrls": [
+    "https://fr.gaultmillau.com/fr/restaurants/chez-fonfon",
+    "https://www.thefork.fr/restaurant/chez-fonfon-r20615"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chez+Fonfon&query_place_id=ChIJv7UqDSrByRIRPV3h0TMH2Aw",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Identidad/dirección en Maps y horario propio; no mesa/servicio futuro garantizados. Revisión nocturna cerrado no es cierre permanente.",
+   "priceLabel": "Precio alto. Referencia TheFork 65 € bouillabaisse, bebida/otros platos aparte; confirmar carta final.",
+   "photo": {
+    "img": "assets/marsella/fonfon-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Pescado e ingredientes provenzales imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Pescado e ingredientes provenzales imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "cosquer",
+   "name": "Cosquer Méditerranée",
+   "address": "Esp. J4, 13002 Marseille, France",
+   "description": "Reproducción de la cueva Cosquer en recorrido con módulo, película y galería. Es una restitución en el J4, no la cueva submarina original.",
+   "duration": "2 h publicadas para visita completa. Sustituye el bloque largo del Mucem, no se añade a todos los museos.",
+   "alert": "Módulo: altura mínima 1,25 m, sin silla de ruedas a bordo y transferencia autónoma. Billete no cambiable ni reembolsable según operador.",
+   "caution": "Información propia anuncia 19 € adulto, 11 € 10-17 años, 6 € 6-9 años y gratis hasta 5; confirmar condición de acceso: misma página excluye menores de 3 del recorrido y exige 1,25 m mínimo en módulo, gratuidad no es aptitud. Entrada con franja, último slot 1 h 30 antes del cierre. Portada y ficha muestran cierre de hoy discordante 19:30/18: no prometer horario anual, comprobar calendario de fecha. Módulo exige instalarse solo en menos de 1 min, silla no embarca; alternativa espacio Confort VR/film 35 min. Claustrofobia, oscuridad, barreras y altura en galería pueden importar. Acompañamiento/acceso exacto consultar. No buceo ni visita a cueva original; sin entrada reservada.",
+   "officialUrl": "https://www.grotte-cosquer.com/infos-pratiques/",
+   "sourceUrls": [
+    "https://www.grotte-cosquer.com/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cosquer+M%C3%A9diterran%C3%A9e&query_place_id=ChIJW347lenByRIR5D3iYHI3ZCo",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Condiciones de operador y localización Maps contrastadas; hora de cierre discordante no resuelta para una fecha futura.",
+   "priceLabel": "19 € adulto publicado; confirmar tarifa/franja. No reembolsable según operador.",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Marseille_-_Mus%C3%A9e_de_la_grotte_Cosquer_-_5.jpg",
+    "author": "Peter Potrowl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "img": "assets/marsella/cosquer.jpg",
+    "caption": "© Peter Potrowl · Animal de la galería de Cosquer Méditerranée, archivo 2025. No es pared de cueva ni animal actual."
+   },
+   "compactDuration": "2 h",
+   "compactAlert": "Altura mínima 1,25 m; sin silla de ruedas en módulo, transferencia autónoma. Sin cambios/reembolso.",
+   "photoPending": false
+  }
+ ]
+}

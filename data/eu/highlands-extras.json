@@ -1,0 +1,122 @@
+{
+ "schemaVersion": 1,
+ "cityId": "highlands",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "inverness_rocpool",
+   "name": "Rocpool · Inverness",
+   "address": "1 Ness Walk, Inverness IV3 5NE, UK",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rocpool&query_place_id=ChIJy7OzY1Fxj0gRUCmnZo_Wj48",
+   "lat": 57.4766361,
+   "lon": -4.228463899999999,
+   "description": "Brasserie junto al Ness con producto escocés y sabores internacionales. Good Food Guide señala el trabajo con pescado y combinaciones frescas; el menú de almuerzo noviembre 2026 incluye merluza de Peterhead y fishcake de salmón/eglefino. Platos de menú son ejemplos fechados, no promesa para todas las estaciones. Es Rocpool Restaurant de 1 Ness Walk, no el hotel Rocpool Reserve.",
+   "compactDescription": "En Inverness: pescado escocés con sabores internacionales; encaja en el día urbano, no al volver tarde de Skye.",
+   "priceLabel": "Menú almuerzo noviembre 2026: 2 platos £28,95 antes de bebidas/extras y cargos no verificados. Navidad 2026: 2 platos comida £33,95 o early evening £38,95, no tarifa válida todo el año. Confirmar menú y cuenta total para fecha.",
+   "compactPrice": "Almuerzo nov. 2026: 2 platos £28,95; bebidas/extras aparte. Navidad tiene otros precios.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.rocpoolrestaurant.com/",
+   "editorialUrl": "https://www.thegoodfoodguide.co.uk/restaurant/rocpool/id/1115",
+   "sourceUrls": [
+    "https://www.rocpoolrestaurant.com/wp-content/uploads/2026/10/Lunch-November-2026.pdf",
+    "https://www.rocpoolrestaurant.com/wp-content/uploads/2026/09/Christmas-2026.pdf"
+   ],
+   "statusEvidence": "Web propia, PDFs fechados noviembre/Navidad 2026 y dirección Maps contrastados. Good Food Guide leído directamente, reseña Press&Journal secundaria. Sin mesa ni sesión seleccionada.",
+   "alert": "Reserva con tarjeta: £20/persona por no-show o cancelación sin 24 h de aviso según web; para grupos de 5 o más piden 48 h. Confirmar política final antes de reservar. Horario habitual martes-sábado, con excepciones de Navidad 2026 publicadas.",
+   "compactAlert": "Garantía con tarjeta: £20/persona por no-show/cancelación tardía. No hay reserva.",
+   "caution": "Almuerzo 12:00-14:00, última reserva 13:45 salvo sábado 14:00; cena 17:30-21:00, última 20:45 salvo sábado 21:00. Domingo/lunes habituales cerrado. PDF Navidad 2026: menú 03/12-29/12 y apertura 20/21/27/28 diciembre; cierre 31/12/2026-04/01/2027 y reapertura 05/01/2027. Confirmar servicio festivo exacto y alergias, no se ha verificado 25 diciembre. Guardan mesa 15 min sin aviso; avisar si acceso PMR/carrito para ubicación adecuada.",
+   "photo": {
+    "img": "assets/highlands/inverness_rocpool-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes de Highlands imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes de Highlands imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "fortwilliam_crannog",
+   "name": "Crannog at Garrison West · Fort William",
+   "address": "4 Cameron Square, Fort William PH33 6AJ, UK",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Crannog+at+Garrison+West&query_place_id=ChIJRWAnWavMjkgREqr-bYdbEig",
+   "placeId": "ChIJRWAnWavMjkgREqr-bYdbEig",
+   "lat": 56.81753819999999,
+   "lon": -5.1108101,
+   "description": "Pescado y marisco de costa en el centro de Fort William, como comida de su etapa; no salida adicional desde Inverness. Crannog se trasladó del antiguo muelle a Garrison West en Cameron Square: no usar la vieja dirección junto al lago. Hidden Scotland destaca vieiras, ostras, mejillones y pasta marinera; carta propia añade Cullen skink y bacalao de Mallaig con sidra local. No se promete disponibilidad diaria de mariscada/langosta.",
+   "compactDescription": "En Fort William, ahora en Cameron Square y no en el muelle: Cullen skink, pescado y marisco de costa.",
+   "priceLabel": "PDF enlazado por propia (titulado AW25): fish and chips 21,50 £ + crumble 9,50 £ =31 £; + café 4 £ =35 £. Bacalao de Mallaig 29,50 £ + crumble 9,50 £ + café 4 £ =43 £. Otra bebida, entrante y posibles cargos aparte; precios publicados de PDF sin fecha de actualización reciente confirmada, pedir carta vigente. Mesas 6+ llevan 10% propina añadida expresamente discrecional; no se puede dividir cuenta de mesas grandes.",
+   "compactPrice": "Fish & chips + crumble 31 £; con café 35 £. Otra bebida aparte; confirmar carta vigente.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.garrisonwest.co.uk/menus",
+   "editorialUrl": "https://hiddenscotland.com/listings/crannog-seafood-restaurant",
+   "sourceUrls": [
+    "https://www.garrisonwest.co.uk/_files/ugd/b4a77b_611768acf4c740e08857954620d1dc97.pdf",
+    "https://visitwesthighlands.co.uk/members/crannog-at-garrison-west/",
+    "https://www.garrisonwest.co.uk/"
+   ],
+   "statusEvidence": "MenúPDF enlazadoactualmentepropia y páginas 2/3 vistas. Dirección nueva confirmada propia/turismo/HiddenScotland y Maps. TítuloAW25 no certifica revisión 2026; precios actuales para fecha por confirmar. No se usa viejo Crannogpier.",
+   "alert": "Propia abre 7días: comida 12-14:30 y cena 17-21 (página de menús llama 14:30/21 última reserva). Confirmar último pedido y mesa; no equivale a disponibilidad. No hay reserva.",
+   "compactAlert": "Diario 12-14:30 y 17-21 publicados; confirmar última cocina, mesa y carta para fecha.",
+   "caution": "Política de cancelación/cargos y acceso sin escalones pendientes. Carta de alérgenos disponible a petición; algunas adaptaciones posibles, no garantizadas. Merluza lleva velouté de pollo: no inferir pescetariano por nombre de pescado. Ostras crudas con riesgo propio advertido por local. Pastel de lenteja/boniato adaptable vegano según carta, pedir sin yogur y confirmar resto/trazas. No conducir tras beber.",
+   "photo": {
+    "img": "assets/highlands/inverness_rocpool-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes de Highlands imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes de Highlands imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local. Concepto regional compartido entre fichas, no producto específico de este local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "inverness_leakey",
+   "name": "Leakey’s Bookshop · Inverness",
+   "address": "Church St, Inverness IV1 1EY, UK",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Leakey%27s+Bookshop&query_place_id=ChIJL_S5BVNxj0gRYRYyLNpIQIc",
+   "lat": 57.48024129999999,
+   "lon": -4.2285938,
+   "description": "Pausa para curiosear libros de segunda mano en Church Street. Actividad independiente, no una visita guiada ni un café prometido. Encaja en la jornada a pie por Inverness y permite dejar margen libre.",
+   "duration": "Reserva editorial de 30-60 min para curiosear, no duración del operador ni sesión. Compras aparte.",
+   "compactDuration": "30-60 min orientativos; parada libre en Inverness.",
+   "priceLabel": "No se ha verificado cobro de entrada; no se promete actividad gratuita ni compra incluida. Libros y otros productos se pagan si los eliges.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://leakeysbookshop.com/pages/summer-hours",
+   "editorialUrl": null,
+   "sourceUrls": [
+    "https://leakeysbookshop.com/"
+   ],
+   "statusEvidence": "Aviso propio confirma cierre lunes como cambio para todo el año, no solo verano. Martes-sábado 10:00-17:30 y dirección Maps coincidente. Festivos y accesibilidad por confirmar.",
+   "alert": "Martes-sábado 10:00-17:30 según web; lunes cerrado todo el año. No contar con domingo. Festivos y accesibilidad pendientes.",
+   "compactAlert": "Martes-sábado 10:00-17:30. No contar con lunes/domingo; confirmar festivos.",
+   "caution": "Confirmar acceso, escalones y necesidades de movilidad antes de ir; no se ha certificado accesibilidad. Nada reservado; no se han hecho compras.",
+   "photo": {
+    "img": "assets/highlands/inverness_leakey-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA de una librería imaginada; no es Leakey’s real ni foto.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA: librería imaginada, no interior, distribución, vistas ni estado real de Leakey’s. No es una foto real.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ]
+}

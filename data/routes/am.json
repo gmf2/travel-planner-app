@@ -1,0 +1,122 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "AM",
+ "country": "Armenia",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Ereván y circuito central Khor Virap-Garni-Geghard. No incluye Sevan, Tatev, Syunik ni una conexión terrestre con Georgia.",
+ "verificationLimits": [
+  "4 días / 3 noches con llegada y salida separadas del día completo de excursión. No es un viaje completo por todo Armenia.",
+  "Excursión de referencia Hyur de 8-9 h, no reserva ni garantía de salida en una fecha; seleccionar operador, horario y retorno antes del alojamiento.",
+  "No se reutiliza el supuesto cruce por Bavra del borrador ni se fijan precio de visado o exención según nacionalidad inferida."
+ ],
+ "routes": [
+  {
+   "id": "am-central-4",
+   "title": "Ereván, Garni, Geghard y Khor Virap · 4 días",
+   "scope": "Ereván y circuito central Khor Virap-Garni-Geghard. No incluye Sevan, Tatev, Syunik ni una conexión terrestre con Georgia.",
+   "pace": "4 días / 3 noches, todas en Ereván. Un día urbano y otro de carretera con visitas, más llegada y salida.",
+   "assumptions": "Adaptación editorial del tramo armenio de Havenago, contrastada con turismo oficial y circuito Hyur. Entrada y salida por Zvartnots EVN, sin paso terrestre supuesto desde Georgia. Excursión combinada como día completo, nunca antes de un vuelo el mismo día. Comprobar documentación según pasaporte y accesos por fecha antes de reservar.",
+   "sources": [
+    {
+     "id": "hg",
+     "title": "havenago - Georgia y Armenia 10 dias (Tbilisi, Kazbegi, Yerevan)",
+     "url": "https://havenago.com/blog/georgia-caucasus-itinerary/"
+    },
+    {
+     "id": "tourism",
+     "title": "Turismo de Armenia · ruta de primera visita",
+     "url": "https://armenia.travel/articles/the-perfect-7-day-itinerary-for-first-time-visitors/"
+    },
+    {
+     "id": "hyur",
+     "title": "Hyur · Khor Virap, Garni y Geghard, 8-9 h",
+     "url": "https://hyurservice.com/en/group-tours-armenia/group-tour-khor-virap-azat-reservoir-garni-geghard-lavash-baking"
+    },
+    {
+     "id": "airport",
+     "title": "Zvartnots · transporte y FAQ",
+     "url": "https://www.zvartnots.aero/EN/FAQ"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Armenia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=armenia"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Ereván",
+     "overnight": "Ereván",
+     "stops": [
+      "Llegada, alojamiento y descanso",
+      "Plaza de la República solo si queda margen"
+     ],
+     "transfer": "Zvartnots EVN a la base de Ereván. El aeropuerto publica buses 100 y 201: elegir línea, parada y última salida según llegada; no se fija tiempo puerta a puerta. Fuera de horario, traslado oficial con precio acordado.",
+     "sourceIds": [
+      "airport",
+      "tourism"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Ereván: centro y Cascada",
+     "overnight": "Ereván",
+     "stops": [
+      "Plaza de la República y entorno de la Ópera",
+      "Complejo de la Cascada, escaleras opcionales",
+      "Un museo como alternativa, no una lista de visitas obligatorias"
+     ],
+     "transfer": "Día en la misma base. Elegir entre Museo de Historia y arte de Cafesjian según interés y aperturas reales. No se garantiza vista del Ararat ni interior abierto en cualquier día.",
+     "sourceIds": [
+      "tourism"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Khor Virap, Garni y Geghard",
+     "overnight": "Ereván",
+     "stops": [
+      "Khor Virap",
+      "Templo de Garni",
+      "Monasterio de Geghard",
+      "Pausa de comida; Azat y lavash solo si figuran en el programa elegido"
+     ],
+     "transfer": "Circuito completo desde Ereván y regreso. Hyur publica 8-9 h, con ejemplo 10:00 a 18:00-19:00; esos horarios corresponden a su producto, no a todos los vehículos ni a una reserva. No se añade aeropuerto ni salida internacional esa tarde. Evitar desvíos hacia zonas fronterizas desaconsejadas.",
+     "sourceIds": [
+      "hyur",
+      "tourism",
+      "maec"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Salida desde Ereván",
+     "overnight": null,
+     "stops": [
+      "Traslado a Zvartnots EVN",
+      "Paseo breve solo si queda margen"
+     ],
+     "transfer": "Noche anterior en Ereván. Elegir transporte y antelación de aeropuerto según vuelo real; sin excursión interurbana antes de salir.",
+     "sourceIds": [
+      "airport"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores indica fronteras terrestres cerradas con Azerbaiyán y Turquía, y evitar áreas lindantes con Azerbaiyán, incluido Najicheván. También desaconseja paradas en Yeraskh y viajes no esenciales a determinadas zonas de Syunik. Esta ruta se limita al centro: no añadir Tatev, Goris ni cruces fronterizos sin revisar el aviso y el trazado concreto. Requisitos según pasaporte.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=armenia"
+ },
+ "photo": {
+  "img": "assets/routes/am.jpg",
+  "name": "Templo de Garni",
+  "source": "https://commons.wikimedia.org/wiki/File:Templo_de_Garni%2C_Armenia%2C_2016-10-02%2C_DD_03.jpg",
+  "author": "Diego Delso, delso.photo",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "caption": "Foto de archivo de Garni. Representa una etapa central, no todo Armenia ni condiciones actuales."
+ }
+}

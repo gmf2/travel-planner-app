@@ -1,0 +1,804 @@
+{
+ "schemaVersion": 1,
+ "country": "CH",
+ "id": "ginebra",
+ "name": "Ginebra",
+ "localName": "Genève",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "bourg",
+   "name": "Place du Bourg-de-Four",
+   "kind": "visit",
+   "zone": "Vieille Ville",
+   "reason": "Plaza del casco histórico y punto de partida para las calles en cuesta.",
+   "sourceIds": [
+    "vc",
+    "tourism"
+   ],
+   "coordinates": {
+    "lat": 46.20024,
+    "lon": 6.14922
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Place_du_Bourg-de-Four",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; interiores con acceso confirmado",
+   "photo": {
+    "img": "assets/ginebra/bourg.jpg",
+    "alt": "Place du Bourg-de-Four",
+    "source": "https://commons.wikimedia.org/wiki/File:Genf_25_Pl-B-d-Four.JPG",
+    "author": "Traumrune",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "caption": "Foto de archivo de Place du Bourg-de-Four. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "cathedral",
+   "name": "Catedral de San Pedro",
+   "kind": "visit",
+   "zone": "Vieille Ville",
+   "reason": "Catedral de Saint-Pierre; visita interior principal del casco, con subida opcional a torres.",
+   "sourceIds": [
+    "cathedral"
+   ],
+   "coordinates": {
+    "lat": 46.20111111,
+    "lon": 6.14861111
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/St._Pierre_Cathedral",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Invierno octubre-mayo: lunes-sábado 10-17:30, domingo 12-17:30 según operador; torres cierran 30 min antes. Junio-septiembre tiene horarios distintos y sábado reduce visita por conciertos. No se garantiza 31 de mayo, festivos ni culto por esa tabla. Torres con entrada aparte y escalones, opcionales.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Catedral según acceso; torres opcionales con entrada propia",
+   "photo": {
+    "img": "assets/ginebra/cathedral.jpg",
+    "alt": "Catedral de San Pedro",
+    "source": "https://commons.wikimedia.org/wiki/File:St_Pierre_Cathedral_(46717064755).jpg",
+    "author": "Torbjorn Toby Jorgensen",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Foto de archivo de Catedral de San Pedro. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "tavel",
+   "name": "Maison Tavel",
+   "kind": "visit",
+   "zone": "Vieille Ville",
+   "reason": "Historia urbana de Ginebra en su casa histórica, alternativa cultural a las torres o a otro museo.",
+   "sourceIds": [
+    "tavel"
+   ],
+   "coordinates": {
+    "lat": 46.2012,
+    "lon": 6.147
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Maison_Tavel",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Martes-domingo 11-18, lunes cerrado según museo. Pago libre según web propia, no afirmar entrada siempre gratuita ni tarifa fija. Confirmar agenda festiva.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Museo alternativo, no interior adicional obligatorio",
+   "photo": {
+    "img": "assets/ginebra/tavel.jpg",
+    "alt": "Maison Tavel",
+    "source": "https://commons.wikimedia.org/wiki/File:Tavel_House.JPG",
+    "author": "Credits to Mourad Ben Abdallah / Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Fachada de archivo de Maison Tavel. No confirma apertura."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "bastions",
+   "name": "Parc des Bastions",
+   "kind": "visit",
+   "zone": "Bastions",
+   "reason": "Paseo bajo el casco histórico entre árboles y puertas del parque.",
+   "sourceIds": [
+    "tourism",
+    "districts"
+   ],
+   "coordinates": {
+    "lat": 46.2,
+    "lon": 6.145
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Parc_des_Bastions",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; interiores con acceso confirmado",
+   "photo": {
+    "img": "assets/ginebra/bastions.jpg",
+    "alt": "Parc des Bastions",
+    "source": "https://commons.wikimedia.org/wiki/File:Parc_des_Bastions_2007-09-06.jpg",
+    "author": "Credits to Mourad Ben Abdallah / Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "caption": "Puerta de acceso del Parc des Bastions, no imagen de todo el parque."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "reformation",
+   "name": "Muro de los Reformadores",
+   "kind": "visit",
+   "zone": "Bastions",
+   "reason": "Muro con figuras de la Reforma, junto al paseo de Bastions.",
+   "sourceIds": [
+    "tourism",
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 46.20027778,
+    "lon": 6.14555556
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Reformation_Wall",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; interiores con acceso confirmado",
+   "photo": {
+    "img": "assets/ginebra/reformation.jpg",
+    "alt": "Muro de los Reformadores",
+    "source": "https://commons.wikimedia.org/wiki/File:ReformationsdenkmalGenf2.jpg",
+    "author": "Roland Zumbühl - www.picswiss.ch.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Foto de archivo de Muro de los Reformadores. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "horloge",
+   "name": "Reloj de Flores y Jardín Inglés",
+   "kind": "visit",
+   "zone": "Ribera sur",
+   "reason": "Reloj floral y pequeño paseo junto al lago en el Jardín Inglés.",
+   "sourceIds": [
+    "tourism",
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 46.204192,
+    "lon": 6.15097
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Horloge_fleurie_de_Gen%C3%A8ve",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": "Foto histórica: diseño floral cambia; no se promete la misma plantación ni inscripción.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; interiores con acceso confirmado",
+   "photo": {
+    "img": "assets/ginebra/horloge.jpg",
+    "alt": "Reloj de Flores y Jardín Inglés",
+    "source": "https://commons.wikimedia.org/wiki/File:Horloge_Fleurie_Geneve.jpg",
+    "author": "Jose Manuel at Portuguese Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "caption": "Foto de archivo de Reloj de Flores y Jardín Inglés. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "jet",
+   "name": "Jet d’Eau y ribera",
+   "kind": "visit",
+   "zone": "Ribera sur",
+   "reason": "Paseo por la ribera y vista al emplazamiento del Jet d’Eau; el agua solo cuando opere.",
+   "sourceIds": [
+    "jet-city",
+    "jet-owner"
+   ],
+   "coordinates": {
+    "lat": 46.207388,
+    "lon": 6.155904
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Jet_d%27eau_de_Gen%C3%A8ve",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 35,
+   "durationType": "editorial-estimate",
+   "caution": "Parado desde el 2 de noviembre de 2026 por mantenimiento. SIG indica hasta el 3 de diciembre; ciudad prevé vuelta el 4 de diciembre condicionada al tiempo. La foto con chorro es de archivo, no prueba funcionamiento actual. Viento/frío pueden detenerlo otros días; no entrar en dique cerrado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Ribera exterior; funcionamiento del chorro no garantizado",
+   "photo": {
+    "img": "assets/ginebra/jet.jpg",
+    "alt": "Jet d’Eau y ribera",
+    "source": "https://commons.wikimedia.org/wiki/File:Jet_d%27eau_de_Gen%C3%A8ve_(swiss).jpg",
+    "author": "Wikibusters",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto de archivo de Jet d’Eau y ribera. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "paquis",
+   "name": "Bains des Pâquis",
+   "kind": "visit",
+   "zone": "Ribera norte",
+   "reason": "Espigón y ambiente lacustre de Bains des Pâquis, opción de pausa cerca de la ribera norte.",
+   "sourceIds": [
+    "tourism",
+    "districts",
+    "buvette"
+   ],
+   "coordinates": {
+    "lat": 46.2103551,
+    "lon": 6.1541853
+   },
+   "coordinateSource": "https://fr.wikipedia.org/wiki/Bains_des_P%C3%A2quis",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "No incluye baño ni sauna. Accesos y actividades tienen condiciones propias; martes bienestar reservado a mujeres y no se asume entrada tras paseo. Buvette gestiona reservas por separado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; interiores con acceso confirmado",
+   "photo": {
+    "img": "assets/ginebra/paquis.jpg",
+    "alt": "Bains des Pâquis",
+    "source": "https://commons.wikimedia.org/wiki/File:Bains_des_P%C3%A2quis_le_soir.JPG",
+    "author": "Babsy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto de archivo de Bains des Pâquis. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "nations",
+   "name": "Place des Nations y Broken Chair",
+   "kind": "visit",
+   "zone": "Barrio internacional",
+   "reason": "Broken Chair en Place des Nations, referencia exterior del barrio internacional.",
+   "sourceIds": [
+    "vc",
+    "un"
+   ],
+   "coordinates": {
+    "lat": 46.2226,
+    "lon": 6.139
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Broken_Chair",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 35,
+   "durationType": "editorial-estimate",
+   "caution": "La foto muestra la silla, no un interior ONU. Visita guiada al Palais solo si se obtiene entrada: obras, oferta limitada, registro individual y seguridad. Llegar 30 min antes a puerta Pregny, 14 avenue de la Paix, no entrar por la silla. Consultar obras de transporte.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Plaza exterior; Palais opcional con reserva separada",
+   "photo": {
+    "img": "assets/ginebra/nations.jpg",
+    "alt": "Place des Nations y Broken Chair",
+    "source": "https://commons.wikimedia.org/wiki/File:Broken_chair_-_Geneva.jpg",
+    "author": "That1RandomHuman",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "caption": "Foto de archivo de Place des Nations y Broken Chair. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "redcross",
+   "name": "Museo de la Cruz Roja",
+   "kind": "visit",
+   "zone": "Barrio internacional",
+   "reason": "Museo humanitario como única visita cultural larga de la jornada internacional.",
+   "sourceIds": [
+    "redcross",
+    "redcross-works"
+   ],
+   "coordinates": {
+    "lat": 46.22722222,
+    "lon": 6.13694444
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/International_Red_Cross_and_Red_Crescent_Museum",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Martes-domingo 10-17 y jueves hasta 20 según operador; cerrado lunes,24/25/31 de diciembre y 1 de enero. Reforma gradual 2026-2028 con espacios que cambian o cierran temporalmente, no museo cerrado por completo. Elegir museo o visita ONU, no ambos impuestos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Museo con entrada elegida por fecha",
+   "photo": {
+    "img": "assets/ginebra/redcross.jpg",
+    "alt": "Museo de la Cruz Roja",
+    "source": "https://commons.wikimedia.org/wiki/File:Geneva_redcc_museum_entrance.jpg",
+    "author": "Julia Lukmanova",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "caption": "Escultura exterior del Museo de la Cruz Roja, no interior ni exposición vigente."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "botanical",
+   "name": "Jardín Botánico",
+   "kind": "visit",
+   "zone": "Sécheron",
+   "reason": "Jardín botánico y paseo verde entre barrio internacional y ribera.",
+   "sourceIds": [
+    "garden"
+   ],
+   "coordinates": {
+    "lat": 46.22508,
+    "lon": 6.14659
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Geneva_Botanical_Garden",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Jardín abierto 365 días según operador, invierno 8-17 y verano 8-19; invernaderos cierran a las 17 h en verano. Servicios y edificios con otros horarios; no todas las colecciones accesibles siempre. Acortar con frío o poca luz.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; interiores con acceso confirmado",
+   "photo": {
+    "img": "assets/ginebra/botanical.jpg",
+    "alt": "Jardín Botánico",
+    "source": "https://commons.wikimedia.org/wiki/File:Botanical_Garden_Geneva_2006_804.JPG",
+    "author": "Norbert Aepli, Switzerland (User:Noebu)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "caption": "Foto de archivo de Jardín Botánico. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ariana",
+   "name": "Museo Ariana",
+   "kind": "visit",
+   "zone": "Barrio internacional",
+   "reason": "Colecciones de cerámica y vidrio como alternativa al Museo de la Cruz Roja.",
+   "sourceIds": [
+    "ariana"
+   ],
+   "coordinates": {
+    "lat": 46.2254,
+    "lon": 6.1388
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Ariana",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Martes-domingo 10-17, lunes cerrado. Café tiene horario diferente. Elegir como sustitución cultural, no sumar todos los museos del barrio.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Interior alternativo con acceso confirmado",
+   "photo": {
+    "img": "assets/ginebra/ariana.jpg",
+    "alt": "Museo Ariana",
+    "source": "https://commons.wikimedia.org/wiki/File:Musee_Ariana_1_Geneve.JPG",
+    "author": "Gfuerst",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Foto de archivo de Museo Ariana. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "carouge",
+   "name": "Carouge",
+   "kind": "visit",
+   "zone": "Carouge",
+   "reason": "Barrio de trazado sardo: Place du Marché, calles y talleres para pasear sin lista de compras obligatoria.",
+   "sourceIds": [
+    "districts",
+    "vc"
+   ],
+   "coordinates": {
+    "lat": 46.18333333,
+    "lon": 6.13333333
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Carouge",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 100,
+   "durationType": "editorial-estimate",
+   "caution": "Llegar en tranvía o bus elegido en TPG; no a pie desde Naciones por inercia del listado. Tiendas/mercado y talleres tienen calendarios propios, no asumir actividad artesanal o mercado diario.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Paseo de barrio; comercios no garantizados",
+   "photo": {
+    "img": "assets/ginebra/carouge.jpg",
+    "alt": "Carouge",
+    "source": "https://commons.wikimedia.org/wiki/File:Carouge_Place_du_Temple1.jpg",
+    "author": "HJPD",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "caption": "Foto de archivo de Carouge. No confirma apertura actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lausanne",
+   "name": "Lausana",
+   "kind": "excursion",
+   "zone": "Fuera de Ginebra",
+   "reason": "Casco de Lausana y ribera Ouchy, con transporte de ida y vuelta por fecha.",
+   "sourceIds": [
+    "sbb",
+    "lausanne"
+   ],
+   "coordinates": {
+    "lat": 46.52,
+    "lon": 6.63333333
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Lausanne",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 360,
+   "durationType": "editorial-estimate",
+   "caution": "No se apila Lavaux, Montreux y Chillon en el mismo día. Calles con cuestas, metro/bus para bajar a Ouchy según elección. Catedral solo si calendario permite.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión propia",
+   "photo": {
+    "img": "assets/ginebra/lausanne.jpg",
+    "alt": "Lausana",
+    "source": "https://commons.wikimedia.org/wiki/File:Lausanne-cathe7.JPG",
+    "author": "Arnaud Gaillard (arnaud () amarys.com)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Foto de archivo de la catedral de Lausana, no de toda la excursión."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "saleve",
+   "name": "Teleférico del Salève",
+   "kind": "excursion",
+   "zone": "Francia, fuera de Ginebra",
+   "reason": "Miradores próximos a la estación superior del Salève, sin travesía ni actividad técnica.",
+   "sourceIds": [
+    "saleve",
+    "tpg"
+   ],
+   "coordinates": {
+    "lat": 46.16277778,
+    "lon": 6.18916667
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/T%C3%A9l%C3%A9ph%C3%A9rique_du_Sal%C3%A8ve",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Cerrado del 2 al 26 de noviembre de 2026 por mantenimiento; reapertura prevista el 27 de noviembre, no garantizada. Cierre especial del 4 al 8 de enero de 2027. Otros periodos con cierres semanales y clima: comprobar ida/vuelta antes. Francia, documento válido y condiciones de entrada. No senderismo de montaña obligatorio.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión solo con teleférico operativo y tiempo adecuado",
+   "photo": {
+    "img": "assets/ginebra/saleve.jpg",
+    "alt": "Teleférico del Salève",
+    "source": "https://commons.wikimedia.org/wiki/File:Telepherique_du_Saleve.jpg",
+    "author": "chronitis",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "caption": "Vista de archivo desde el teleférico hacia la estación inferior. No muestra cabina o condiciones actuales."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Casco histórico, Bastions y ribera",
+     "zone": "Vieille Ville → Bastions → Jardín Inglés",
+     "stopIds": [
+      "bourg",
+      "cathedral",
+      "bastions",
+      "reformation",
+      "horloge",
+      "jet"
+     ],
+     "editorialNote": "Catedral como interior principal, torres solo si te interesan y acceso lo permite. Bastions y reloj son paseos breves. Jet cerradodel 2 de noviembre al 3 de diciembre de 2026: paseo al lago, no espectáculo de agua. Con un día corto, no sumar Maison Tavel, ribera norte ni Carouge.",
+     "optionalStopIds": [
+      "tavel"
+     ],
+     "pacing": "Estimación editorial con pausas. Un interior principal por jornada; no horario reservado."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Casco histórico, Bastions y ribera",
+     "zone": "Vieille Ville → Bastions → Jardín Inglés",
+     "stopIds": [
+      "bourg",
+      "cathedral",
+      "bastions",
+      "reformation",
+      "horloge",
+      "jet"
+     ],
+     "editorialNote": "Catedral como interior principal, torres solo si te interesan y acceso lo permite. Bastions y reloj son paseos breves. Jet cerradodel 2 de noviembre al 3 de diciembre de 2026: paseo al lago, no espectáculo de agua. Con un día corto, no sumar Maison Tavel, ribera norte ni Carouge.",
+     "optionalStopIds": [
+      "tavel"
+     ],
+     "pacing": "Estimación editorial con pausas. Un interior principal por jornada; no horario reservado."
+    },
+    {
+     "title": "Ginebra internacional y jardín",
+     "zone": "Naciones → Cruz Roja → Jardín Botánico → Pâquis",
+     "stopIds": [
+      "nations",
+      "redcross",
+      "botanical",
+      "paquis"
+     ],
+     "editorialNote": "Museo de la Cruz Roja como visita principal. Si obtienes reserva ONU, sustituir museo, con puerta Pregny y30 min de control: no son dos visitas gratuitas sin reserva. Ariana alternativa. Botánico antes de17 h en invierno; Pâquis puede omitirse con poco tiempo/luz.",
+     "optionalStopIds": [
+      "ariana"
+     ],
+     "pacing": "Estimación editorial con pausas. Un interior principal por jornada; no horario reservado."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Casco histórico, Bastions y ribera",
+     "zone": "Vieille Ville → Bastions → Jardín Inglés",
+     "stopIds": [
+      "bourg",
+      "cathedral",
+      "bastions",
+      "reformation",
+      "horloge",
+      "jet"
+     ],
+     "editorialNote": "Catedral como interior principal, torres solo si te interesan y acceso lo permite. Bastions y reloj son paseos breves. Jet cerradodel 2 de noviembre al 3 de diciembre de 2026: paseo al lago, no espectáculo de agua. Con un día corto, no sumar Maison Tavel, ribera norte ni Carouge.",
+     "optionalStopIds": [
+      "tavel"
+     ],
+     "pacing": "Estimación editorial con pausas. Un interior principal por jornada; no horario reservado."
+    },
+    {
+     "title": "Ginebra internacional y jardín",
+     "zone": "Naciones → Cruz Roja → Jardín Botánico → Pâquis",
+     "stopIds": [
+      "nations",
+      "redcross",
+      "botanical",
+      "paquis"
+     ],
+     "editorialNote": "Museo de la Cruz Roja como visita principal. Si obtienes reserva ONU, sustituir museo, con puerta Pregny y30 min de control: no son dos visitas gratuitas sin reserva. Ariana alternativa. Botánico antes de17 h en invierno; Pâquis puede omitirse con poco tiempo/luz.",
+     "optionalStopIds": [
+      "ariana"
+     ],
+     "pacing": "Estimación editorial con pausas. Un interior principal por jornada; no horario reservado."
+    },
+    {
+     "title": "Tercer día opcional: historia y Carouge",
+     "zone": "Maison Tavel → tranvía/bus → Carouge",
+     "stopIds": [
+      "tavel",
+      "carouge"
+     ],
+     "editorialNote": "Dos días bastan para núcleo urbano. Un tercero para este museo y barrio sin prisa o sustituirlo por Lausana/Salève con condiciones verificadas. No justificar día entero con un solo monumento. Si eliges CERN, dedicarle bloque propio con transporte y no conservar todas las visitas de este día.",
+     "optionalStopIds": [
+      "ariana"
+     ],
+     "pacing": "Estimación editorial con pausas. Un interior principal por jornada; no horario reservado."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Jet d’Eau parado desde el 2 de nov2026; SIG fin3dic, ciudad reapertura prevista4dic según tiempo. Foto de archivo no implica chorro funcionando.",
+  "Portail des Nations se menciona en fuente de turismo, pero no se equipara con visita guiada Palais ni se incluye sin verificar acceso propio.",
+  "CERN alternativa científica, no parte obligatoria del día internacional: exposición gratuita con registro y visita guiada limitada solo en sitio, no túnel LHC visitable."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "tourism",
+   "title": "Geneva Tourism · dos días y alternativas",
+   "url": "https://www.geneve.com/en/see-do/attractions/visit-geneva-in-2-days",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros · Ginebra",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-en-ginebra/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "districts",
+   "title": "Geneva Tourism · barrios",
+   "url": "https://www.geneve.com/fr/que-faire/histoire-culture/les-quartiers-de-geneve",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cathedral",
+   "title": "Saint-Pierre · acceso y torres",
+   "url": "https://www.cathedrale-geneve.ch/en/practical-info/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tavel",
+   "title": "Maison Tavel · web del museo",
+   "url": "https://www.mahmah.ch/propos/maison-tavel",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "jet-city",
+   "title": "Ville de Genève · mantenimiento Jet d’Eau",
+   "url": "https://www.geneve.ch/jet-eau-geneve",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "jet-owner",
+   "title": "SIG · calendario del Jet d’Eau",
+   "url": "https://ww2.sig-ge.ch/en/a-propos-de-sig/nous-connaitre/sites_expositions/jet_deau",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "un",
+   "title": "ONU Ginebra · visitas y obras",
+   "url": "https://www.ungeneva.org/en/visit",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "unfaq",
+   "title": "ONU · reserva y registro",
+   "url": "https://www.ungeneva.org/en/faqs/812",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "redcross",
+   "title": "Cruz Roja · horarios",
+   "url": "https://redcrossmuseum.ch/en/prices-opening-hours-access/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "redcross-works",
+   "title": "Cruz Roja · reforma gradual",
+   "url": "https://redcrossmuseum.ch/en/expositions/permanent-exhibition/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "garden",
+   "title": "Botánico · horarios",
+   "url": "https://www.jardinbotaniquegeneve.ch/au-jardin/visiter/preparer-sa-visite/horaires",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ariana",
+   "title": "Ariana · horarios",
+   "url": "https://www.musee-ariana.ch/infos-pratiques",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "buvette",
+   "title": "Bains des Pâquis · buvette",
+   "url": "https://aubp.ch/buvette/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sauna",
+   "title": "Bains des Pâquis · bienestar",
+   "url": "https://aubp.ch/detente-bien-etre/sauna-hammam-et-bain-turc/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sbb",
+   "title": "SBB · enlaces desde Genève",
+   "url": "https://network.sbb.ch/en/station/GE",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "lausanne",
+   "title": "Lausanne Tourism · imprescindibles",
+   "url": "https://www.lausanne-tourisme.ch/en/highlights-of-lausanne/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "lausanne-access",
+   "title": "Lausanne Tourism · acceso",
+   "url": "https://www.lausanne-tourisme.ch/en/access-to-lausanne/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "saleve",
+   "title": "Salève · horarios por periodo",
+   "url": "https://www.telepherique-du-saleve.com/en/useful-information/opening-times-and-access/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tpg",
+   "title": "TPG · acceso al Salève",
+   "url": "https://www.tpg.ch/en/saleve-cable-car",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cern",
+   "title": "CERN · acceso individual",
+   "url": "https://visit.cern/families-individual-visitors",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cern-hours",
+   "title": "CERN · cierres actuales",
+   "url": "https://visit.cern/hours",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cern-tour",
+   "title": "CERN · visitas guiadas",
+   "url": "https://visit.cern/tours-individuals",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

@@ -1,0 +1,128 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "HK",
+ "country": "Hong Kong",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Centro de Hong Kong y excursión al casco histórico de Macao. No cubre Lantau, todas las islas, Nuevos Territorios ni Coloane.",
+ "verificationLimits": [
+  "Macao implica salir de Hong Kong y entrar en otro territorio. Requisitos y reentrada dependen del pasaporte; no se infiere nacionalidad.",
+  "Operador, terminal de Macao, último regreso, billetes y meteorología pendientes de concretar para la fecha.",
+  "Los precios del blog no son tarifas actuales. SkyPier es para pasajeros en tránsito aéreo, no el embarque desde Sheung Wan."
+ ],
+ "routes": [
+  {
+   "id": "hk-4",
+   "title": "Hong Kong y excursión a Macao · 5 días",
+   "scope": "Centro de Hong Kong y excursión al casco histórico de Macao. No cubre Lantau, todas las islas, Nuevos Territorios ni Coloane.",
+   "pace": "5 días con llegada y salida consideradas. Los tramos largos ocupan parte de su jornada, no se suman a un día completo de visitas.",
+   "assumptions": "Adaptación editorial: se añade un día de salida después de Macao para no encadenar ferri, frontera y vuelo internacional. Revisar documentación y condiciones de entrada de ambos territorios en fuentes oficiales; no se promete entrada sin visado.",
+   "sources": [
+    {
+     "id": "hkg",
+     "title": "hongkong-trip.com - Hong Kong y Macao 4 dias",
+     "url": "https://www.hongkong-trip.com/itineraries/hong-kong-and-macau-4-days/"
+    },
+    {
+     "id": "hktb-ferry",
+     "title": "Hong Kong Tourism Board: ferries yterminales de Macao",
+     "url": "https://www.discoverhongkong.com/eng/travel-guide/traveller-essentials/how-to-get-to-hong-kong.html"
+    },
+    {
+     "id": "turbo-docs",
+     "title": "Turbo Jet: documentación segúnnacionalidad",
+     "url": "https://www.turbojet.com.hk/en/routing-sailing-schedule/hong-kong-macau/passenger-reminder.aspx"
+    },
+    {
+     "id": "hk-gov-ferry",
+     "title": "Hong Kong Government: enlaces yoperadores marítimos",
+     "url": "https://www.gov.hk/en/residents/transport/crossboundary/ferryservices.htm"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada: Star Ferry y Tsim Sha Tsui",
+     "overnight": "Hong Kong",
+     "stops": [
+      "Airport Express",
+      "Star Ferry",
+      "Paseo de Tsim Sha Tsui (Avenue of Stars)",
+      "Bahia de noche"
+     ],
+     "transfer": "Airport Express a Hong Kong Station ~24 min (precio citado con fecha por la fuente) (hkg).",
+     "sourceIds": [
+      "hkg"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "The Peak y mercados",
+     "overnight": "Hong Kong",
+     "stops": [
+      "Victoria Peak y Peak Circle Walk",
+      "Central y Wan Chai",
+      "Mercado nocturno de Temple Street"
+     ],
+     "transfer": "Traslados locales según alojamiento y visitas elegidas; sin horario contratado.",
+     "sourceIds": [
+      "hkg"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Dia flexible: Sai Kung o ciudad",
+     "overnight": "Hong Kong",
+     "stops": [
+      "Elegir Sai Kung o Causeway Bay, no ambas",
+      "Paseo por la bahía según regreso"
+     ],
+     "transfer": "Sai Kung requiere MTR y minibús, unos 70 min orientativos según fuente. El resto del día depende de ese desplazamiento.",
+     "sourceIds": [
+      "hkg"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Macao y regreso",
+     "overnight": "Hong Kong",
+     "stops": [
+      "Plaza del Senado",
+      "Ruinas de San Pablo",
+      "Aldea de Taipa",
+      "Monte Fort"
+     ],
+     "transfer": "Sheung Wan (Hong Kong-Macau Ferry Terminal) → Macao y regreso: turismo estima 55-60 min de navegación, no frecuencias ni plazas del viaje. Elegir puerto de Macao (Outer Harbour/Taipa) según operador; sumar acceso, embarque e inmigración en ambos sentidos. SkyPier es otro servicio, solo para tránsito aéreo. Dormir en Hong Kong, sin vuelo ese día.",
+     "sourceIds": [
+      "hkg",
+      "hktb-ferry",
+      "turbo-docs",
+      "hk-gov-ferry"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Salida desde Hong Kong",
+     "overnight": null,
+     "stops": [
+      "Tiempo libre según vuelo"
+     ],
+     "transfer": "Alojamiento → aeropuerto de Hong Kong. Sin ferri internacional ese día.",
+     "sourceIds": [
+      "hkg"
+     ]
+    }
+   ]
+  }
+ ],
+ "photo": {
+  "img": "assets/routes/hk.jpg",
+  "name": "Hong Kong · puerto Victoria desde el Peak",
+  "source": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Harbour_Night_2019-06-11.jpg",
+  "originalSource": "https://www.flickr.com/photos/blieusong/48127957278/",
+  "author": "Benh LIEU SONG ( Flickr )",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ }
+}

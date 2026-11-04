@@ -1,0 +1,121 @@
+{
+ "schemaVersion": 1,
+ "cityId": "dolomitas",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "ortisei_snetonstube",
+   "name": "Snetonstube · Ortisei",
+   "address": "Streda Sneton, 26, 39046 Ortisei BZ, Italy",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Snetonstube%3A+restaurant+in+Ortisei+%2F+St.+Ulrich&query_place_id=ChIJZ_tV0PgSeEcRznlQASYBK4o",
+   "lat": 46.5763151,
+   "lon": 11.6713122,
+   "description": "Trattoria en una antigua cuadra, con recetario tirolés de sopas, canederli, spätzle, polenta y goulash. Gambero Rosso destaca la cocina sólida y la selección de vino por copa. El PDF de verano 2026 enlazado por la propia web incluye tris de canederli y sopa con canederli al speck; no se promete la misma carta en invierno.",
+   "compactDescription": "En Ortisei: canederli, spätzle y goulash en una trattoria tradicional. Buena parada de valle, sin excursión añadida.",
+   "priceLabel": "Importe de comida completa pendiente. La carta PDF verano 2026 enlazada por la web describe platos pero no muestra precios de comida en las páginas inspeccionadas; no se inventa rango ni se usan cifras históricas. Pedir carta y total actuales.",
+   "compactPrice": "Precio de comida completa pendiente; pedir carta actual antes de elegir.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://sneton.it/en/",
+   "editorialUrl": "https://www.gamberorossointernational.com/news/where-to-eat-in-val-gardena-the-20-best-restaurants-picked-by-gambero-rosso/",
+   "sourceUrls": [
+    "https://www.sneton.it/menu/menu-sneton-estate-2026.pdf",
+    "https://www.valgardena.it/it/indirizzi/dettagli-gastronomia/base/company/ortisei-val-gardena/snetonstube/2FB9AC1FC9784318B5F357643BBC417D/"
+   ],
+   "statusEvidence": "Web propia, PDF enlazado directamente, Gambero Rosso, turismo Val Gardena y dirección Maps contrastados. PDF comida páginas 2-3 inspeccionadas visualmente, sin precios; no confundir cifras históricas en liras del relato del local con carta actual.",
+   "alert": "Restaurante 12:00-14:15 y 18:00-22:15 en temporada de verano/invierno. Miércoles cerrado salvo Navidad y alrededor de mediados de agosto; vacaciones en mayo. Noviembre no queda definido: confirmar apertura para fecha.",
+   "compactAlert": "Verano/invierno: 12:00-14:15 y 18:00-22:15. Miércoles suele cerrar; confirmar temporada y fecha.",
+   "caution": "La enoteca 11:00-24:00 no equivale al servicio de cocina. Reservas válidas solo con confirmación; dentro de 36 h la web pide teléfono. Política de cancelación, posibles cargos y acceso sin escalones pendientes. No hay mesa reservada. Confirmar alergias con el local, no inferir seguridad por marcas V/G.",
+   "photo": {
+    "img": "assets/dolomitas/ortisei_snetonstube-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes y paisaje alpino imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes y paisaje alpino imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "funes_pitzock",
+   "name": "Pitzock · San Pietro/Val di Funes",
+   "address": "Via Pizack, 30, 39040 Funes BZ, Italy",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pitzock&query_place_id=ChIJ01STMbkReEcRt4QMMp2smoM",
+   "lat": 46.6405479,
+   "lon": 11.6838904,
+   "description": "Cocina alpina de Oskar Messner centrada en productores de Val di Funes. Gault&Millau 2026 destaca jarrete de cordero de la raza local Brillenschaf con risotto de hierbas, crema de ortiga tipo cappuccino y cannolo de polenta con manzana. La web confirma cordero, sopas y quesos locales, pero carta variable por temporada: no garantiza hoy esos platos concretos. Alternativa en el valle al visitar Funes, no parada añadida a Ortisei sin desplazamiento.",
+   "compactDescription": "Val di Funes: cordero local Brillenschaf, sopas tipo cappuccino y quesos. Cocina alpina de producto, no una pizzería económica.",
+   "priceLabel": "Importes de referencia editorial, NO carta propia actual: Il Golosario publica primeros 17 €, segundos 30 € y postres 12 €; primero+segundo+postre serían 59 €, sin bebida ni coperto confirmado. Degustación 62 € por 4 platos / 70 € por 5; precio medio editorial 75 € sin desglose. No consta fecha de esos precios. Pedir carta, suplementos y total antes de reservar.",
+   "compactPrice": "Referencia Il Golosario: 59 € tres platos, sin bebida/coperto; carta propia y total actuales pendientes.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://pitzock.com/eat-drink/?lang=it",
+   "editorialUrl": "https://www.gaultmillau.at/restaurant/pitzock",
+   "sourceUrls": [
+    "https://www.ilgolosario.it/it/pitzock-essen-trinken-ip02349",
+    "https://www.fondazioneslowfood.com/it/storie-cuochi-slowfood/osteria-pitzock-funes-bolzano/",
+    "https://pitzock.com/?lang=it"
+   ],
+   "statusEvidence": "Web propia cocina/horarios/dirección, crítica Gault&Millau 2026, Il Golosario precios sin fecha, relato histórico Slow Food y Maps Via Pizack 30 contrastados. No se usa la antigua dirección San Pietro 106 del relato Slow Food ni 14,5/20 histórico frente al 14/20 actual de Gault.",
+   "alert": "Propia: lun/mar/vie/sáb 12-14 y 18-21, jueves 17-21, domingo 12-14, miércoles cerrado. Gault/Golosario sitúan el jueves desde 18, no 17: confirmar inicio de cocina, temporada y fecha. Bar 10-22 no equivale a cocina.",
+   "compactAlert": "Miércoles cerrado; domingo solo comida. Jueves 17/18 h contradictorio: confirmar servicio y fecha.",
+   "caution": "No hay mesa reservada ni disponibilidad comprobada. Cancelación, posible depósito, acceso sin escalones y alergias pendientes; menú vegetariano en guía no garantiza adaptación vegana ni ausencia de contaminación. Avisar al reservar si se lleva perro, según propia.",
+   "photo": {
+    "img": "assets/dolomitas/ortisei_snetonstube-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes y paisaje alpino imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes y paisaje alpino imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local. Concepto regional compartido entre fichas, no producto específico de este local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "ortisei_woodcarving",
+   "name": "Ortisei · taller de talla en madera",
+   "address": "Strada Rezia, 1, 39046 Ortisei BZ, Italy",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Associazione+Turistica+Ortisei&query_place_id=ChIJ1R7VL_kSeEcR83M1frrKD4s",
+   "lat": 46.5749948,
+   "lon": 11.6712213,
+   "description": "Introducción supervisada a la talla en relieve, ligada a la tradición artesanal de Val Gardena. Sustituye una mañana de montaña de la jornada de Ortisei; no se suma como parada corta a Seceda. El punto publicado es la oficina de turismo, no una dirección de taller certificada.",
+   "duration": "3 h según operador, más llegada al encuentro. Periodo general junio-octubre y diciembre-abril; no hay sesión confirmada para una fecha futura.",
+   "compactDuration": "3 h en Ortisei; alternativa a una mañana de montaña.",
+   "priceLabel": "Estándar 90 €/persona. Solo huéspedes de alojamientos asociados: Val Gardena Active 35 € / Dolomites Val Gardena 70 €, previa comprobación de elegibilidad. No se asume descuento por alojarse en cualquier hotel.",
+   "compactPrice": "90 €/persona estándar; 35/70 € solo con alojamiento asociado elegible.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.valgardena-active.com/en/experience/wood-carving-class-experience-val-gardenas-traditional-handcraft-158577",
+   "sourceUrls": [
+    "https://www.val-gardena.com/en/events-calendar/detail/base/events/wood-carving-class-experience-val-gardena-s-traditional-handcraft/86A5F7FE50164A0DA24A18C9885FC7D9/"
+   ],
+   "statusEvidence": "Ficha del operador y agenda turística leídas. Agenda muestra fechas agosto-octubre 2026 ya pasadas; el periodo general de diciembre-abril no prueba calendario futuro ni plazas. La agenda escribe 09:30-12:30 a.m. de forma ambigua: se usa solo duración 3 h del operador.",
+   "alert": "Edad mínima 16 años, mínimo 1 participante, sin perros. Inscripción/cancelación hasta las 18:00 del día anterior; cancelación tardía o ausente: 10 €/persona según ficha. Idioma, materiales incluidos, accesibilidad y sesión exacta por confirmar.",
+   "compactAlert": "Desde 16 años. Cancelación después de las 18:00 del día anterior: 10 €/persona. Sesión por confirmar.",
+   "caution": "No hay inscripción ni pago. Confirmar la política final antes de reservar, incluido si el cargo de cancelación se suma o sustituye otra pérdida. El periodo general excluye noviembre/mayo; no proponerlo como actividad de hoy en noviembre. No se ha verificado entrada sin escalones ni adaptación de herramientas.",
+   "photo": {
+    "img": "assets/dolomitas/ortisei_woodcarving-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Talla en madera imaginada, no estudio ni pieza final del taller de Ortisei. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Talla en madera imaginada, no estudio ni pieza final del taller de Ortisei. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ]
+}

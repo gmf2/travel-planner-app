@@ -1,0 +1,104 @@
+{
+ "schemaVersion": 1,
+ "cityId": "amberes",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "bizie-lizie",
+   "name": "Bizie Lizie · brasserie belga en Zuid",
+   "address": "Vlaamsekaai 16, 2000 Antwerpen, Belgium",
+   "description": "Cocina belga de brasserie: croquetas de gambas, vol-au-vent y anguila en salsa verde. Un almuerzo o cena sentado en Zuid, no pausa rápida junto a la estación.",
+   "strength": "Michelin describe ejecución y sabores concretos de croquetas, casquería y anguila, con contraste en la carta propia. Elección más flexible de calendario que Ciro’s y menos centrada en casquería/coste alto que Bistrot du Nord.",
+   "alert": "Carta propia: vol-au-vent 29,95 €, anguila 34,95 €, croquetas de gambas 22,95 €.",
+   "compactAlert": "En Zuid; cocina publicada 11:30-22:30, 7/7. Confirmar fecha.",
+   "caution": "Croquetas de gambas + vol-au-vent suman 52,90 € por persona, cálculo editorial sin bebida, postre ni extras. Carta completa leída en HTML, extracción abreviada omite precios. Berenjena figura vegan, ensalada de cabra vegetariana; no garantía de alergias o contaminación cruzada. Horario propio 7/7 cocina 11:30-22:30; no disponibilidad de mesa comprobada. El relato editorial y la carta no garantizan cada plato en la fecha.",
+   "officialUrl": "https://bizielizie.be/menu/",
+   "editorialUrl": "https://guide.michelin.com/en/antwerpen/be-antwerpen/restaurant/bizie-lizie",
+   "sourceUrls": [
+    "https://bizielizie.be/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bizie+Lizie&query_place_id=ChIJiWoIcu32w0cRjX2qOUymvF0",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta y horario propios leídos; crítica Michelin específica y dirección Maps coincidente. Sin mesa ni reserva.",
+   "priceLabel": "Principal 24,95-44,95 €; croquetas+vol-au-vent 52,90 € sin bebidas/postre, cálculo editorial.",
+   "compactPrice": "Principales 24,95-44,95 €; extras y bebida aparte.",
+   "photo": {
+    "img": "assets/amberes/bizie-lizie-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes belgas imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes belgas imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "rubenshuis-visit",
+   "name": "Rubens Experience y jardín, no casa histórica",
+   "address": "Meir",
+   "description": "Rubens Experience y jardín barroco en el conjunto de Rubens. La residencia histórica no se visita por restauración hasta 2030 como pronto; Experience no equivale a entrar en su casa.",
+   "strength": "Producto cultural del catálogo, no actividad adicional para duplicar la misma visita.",
+   "alert": "Rubens Experience + jardín: 12€ (8€ reducida); <18 gratis; solo jardín 8€/6€; combinado con Museum Mayer van den Bergh 14€. Museo sin efectivo (solo tarjeta).",
+   "compactAlert": "Horario y producto propios. No entrada reservada.",
+   "caution": "Residencia histórica cerrada: reabrirá 2030 COMO PRONTO, no garantía de fecha. Abiertos Experience/jardín, miércoles cerrado; Experience franja fija, llegar 15 min antes.",
+   "officialUrl": "https://rubenshuis.be/en/visit",
+   "editorialUrl": "https://www.viajeroscallejeros.com/lugares-que-visitar-amberes/",
+   "sourceUrls": [
+    "https://rubenshuis.be/en/visit"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Condiciones del operador revisadas. Horario y última entrada por fecha, sin reserva.",
+   "priceLabel": "Rubens Experience + jardín: 12€ (8€ reducida); <18 gratis; solo jardín 8€/6€; combinado con Museum Mayer van den Bergh 14€. Museo sin efectivo (solo tarjeta).",
+   "photo": {
+    "img": "assets/amberes/rubenshuis.jpg",
+    "source": "https://www.flickr.com/photos/vitamindave/6232262830/",
+    "author": "David Huang",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Fachada histórica de Rubenshuis en Wapper. No muestra Rubens Experience ni jardín y no demuestra reapertura de la casa histórica, que sigue con obras. Recorte de presentación; original conservado bajo CC BY-SA 2.0.",
+    "alt": "Fachada histórica de Rubenshuis en Wapper. No muestra Rubens Experience ni jardín y no demuestra reapertura de la casa histórica, que sigue con obras."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "plantin-visit",
+   "name": "Plantin-Moretus: una visita de imprenta y libro",
+   "address": "Vrijdagmarkt",
+   "description": "Casa, imprenta y museo dedicados a Plantin y los Moretus. Una visita interior principal para entender la producción y circulación del libro, distinta del paseo de plazas.",
+   "strength": "Producto cultural del catálogo, no actividad adicional para duplicar la misma visita.",
+   "alert": "Cerrado hasta 4 diciembre 2026 inclusive; reapertura anunciada 5 diciembre.",
+   "compactAlert": "Cerrado hasta 4 diciembre 2026.",
+   "caution": "Museo cerrado por renovación hasta el 4 diciembre de 2026 inclusive, reapertura anunciada 5 diciembre, no apertura garantizada por existir billetes. La sala de lectura de investigación permanece con su propio régimen y no equivale a visita turística del museo o patio. Después comprobar horario, producto y cupo.",
+   "officialUrl": "https://museumplantinmoretus.be/en/plan-your-visit",
+   "editorialUrl": "https://www.viajeroscallejeros.com/lugares-que-visitar-amberes/",
+   "sourceUrls": [
+    "https://museumplantinmoretus.be/en/plan-your-visit",
+    "https://museumplantinmoretus.be/en/news/3-august-onwards-museum-closed-renovation-work"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Condiciones del operador revisadas. Horario y última entrada por fecha, sin reserva.",
+   "priceLabel": "12€ (26+); 8€ (18-25); <18 gratis; Museum Pass y Antwerp City Pass gratis. Pago solo con tarjeta.",
+   "photo": {
+    "img": "assets/amberes/plantin.jpg",
+    "source": "https://www.flickr.com/photos/xiquinho/53299374719/",
+    "author": "xiquinhosilva",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Entrada exterior del Museo Plantin-Moretus en Vrijdagmarkt. No muestra salas, prensas ni disponibilidad de acceso interior. Recorte de presentación; original conservado bajo CC BY 2.0.",
+    "alt": "Entrada exterior del Museo Plantin-Moretus en Vrijdagmarkt. No muestra salas, prensas ni disponibilidad de acceso interior."
+   },
+   "photoPending": false
+  }
+ ]
+}

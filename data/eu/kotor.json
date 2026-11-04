@@ -1,0 +1,1013 @@
+{
+ "schemaVersion": 1,
+ "country": "ME",
+ "id": "kotor",
+ "name": "Kotor",
+ "localName": "Kotor",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "puerta_mar",
+   "name": "Puerta del Mar",
+   "kind": "monument",
+   "zone": "Ciudad vieja",
+   "reason": "La entrada principal de 1555 al recinto veneciano: el bajorrelieve del ala de San Marcos sobre el arco y la fecha de la liberación de 1944 grabada en la piedra.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.4247534,
+    "lon": 18.769773
+   },
+   "coordinateSource": "nominatim: Sea gate, Kotor",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/kotor/puerta_mar-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Puerta del Mar, puerta medieval imaginada. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Puerta del Mar, puerta medieval imaginada. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "plaza_armas",
+   "name": "Plaza de Armas (Trg od oružja)",
+   "kind": "walk",
+   "zone": "Ciudad vieja",
+   "reason": "La plaza mayor de Kotor nada más cruzar la Puerta del Mar: la torre del reloj del siglo XVII, el pilar de la vergüenza y los cafés bajo los palacios venecianos.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.4246,
+    "lon": 18.7709
+   },
+   "coordinateSource": "editorial: Trg od oružja, junto a la Puerta del Mar (plaza sin nodo OSM propio)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/kotor/plaza_armas.jpg",
+    "source": "https://www.pexels.com/photo/charming-old-town-square-in-kotor-montenegro-34128970/",
+    "author": "Muhammed Fatih Beki",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Plaza de Armas con torre del reloj y fachadas.",
+    "alt": "Plaza de Armas con torre del reloj y fachadas."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "gatos",
+   "name": "Museo de los Gatos",
+   "kind": "museum",
+   "zone": "Ciudad vieja",
+   "reason": "El pequeño museo privado que celebra al animal símbolo de Kotor: litografías, monedas y postales felinas de siglos en un caserón de la Pjaca Gospe od Anđela.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.4250993,
+    "lon": 18.7702537
+   },
+   "coordinateSource": "nominatim: Muzej mačaka, Pjaca Gospe od Anđela, Kotor",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": "Precio y horario de visita pendientes de fuente primaria actual. Exterior como base; interior opcional tras comprobar acceso, no entrada garantizada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Horario/precio no verificados en primaria (museo privado sin web oficial localizada).",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/kotor/gatos-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo de los Gatos, gato imaginado en la calle, no interior o pieza del museo. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo de los Gatos, gato imaginado en la calle, no interior o pieza del museo. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "san_trifon",
+   "name": "Catedral de San Trifón",
+   "kind": "monument",
+   "zone": "Ciudad vieja",
+   "reason": "Catedral de San Trifón en su plaza del casco antiguo. Fachada como base; interior y colección solo tras confirmar precio y acceso turístico.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.4241672,
+    "lon": 18.7715425
+   },
+   "coordinateSource": "nominatim: Katedrala Svetog Tripuna, Kotor",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": "Precio y horario de visita pendientes de fuente primaria actual. Exterior como base; interior opcional tras comprobar acceso, no entrada garantizada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Horario de visita no publicado en primaria localizada.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/kotor/san_trifon.jpg",
+    "source": "https://www.pexels.com/photo/historic-cathedral-in-kotor-s-old-town-square-33740179/",
+    "author": "Hale .",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada de dos torres de la Catedral de San Trifón desde su plaza.",
+    "alt": "Fachada de dos torres de la Catedral de San Trifón desde su plaza."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "san_lucas",
+   "name": "Iglesia de San Lucas",
+   "kind": "monument",
+   "zone": "Trg Svetog Luke",
+   "reason": "Iglesia de 1195 con arquitectura románica y bizantina. Compartió culto católico y ortodoxo durante parte de su historia; la parroquia indica que el altar latino se retiró en 1810. No se prometen dos altares visibles hoy.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "luke-own"
+   ],
+   "coordinates": {
+    "lat": 42.4254878,
+    "lon": 18.7712032
+   },
+   "coordinateSource": "nominatim: Crkva sv. Luke, Pjaca od mlijeka, Kotor",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "Sin horario verificado: visita diurna fuera de culto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior solo si está abierto y fuera de culto",
+   "photo": {
+    "img": "assets/kotor/san_lucas.jpg",
+    "alt": "Iglesia de San Lucas de Kotor: fachada de piedra y espadaña, con la montaña al fondo. Vista exterior de archivo.",
+    "caption": "Iglesia de San Lucas de Kotor: fachada de piedra y espadaña, con la montaña al fondo. Vista exterior de archivo.",
+    "author": "Took A Snap",
+    "source": "https://www.pexels.com/photo/view-of-the-church-of-st-luke-in-kotor-montenegro-23940919/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.spckotor.com/en/temples/church-of-saint-luke-and-chapel-of-saint-spyridon/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "plaza_sanlucas",
+   "name": "Plaza de San Lucas",
+   "kind": "walk",
+   "zone": "Trg Svetog Luke",
+   "reason": "El rincón más fotogénico del casco viejo: la plazoleta medieval empedrada entre San Lucas y San Nicolás, con galerías de artesanía y terrazas pequeñas.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.4252,
+    "lon": 18.771
+   },
+   "coordinateSource": "editorial: Trg Svetog Luke (plaza sin nodo OSM propio, anclada junto a la iglesia de San Lucas)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/kotor/plaza_sanlucas-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: plaza de San Lucas, concepto de pequeña iglesia y plaza. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en plaza de San Lucas, concepto de pequeña iglesia y plaza. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "san_nicolas",
+   "name": "Iglesia de San Nicolás",
+   "kind": "monument",
+   "zone": "Trg Svetog Luke",
+   "reason": "La iglesia ortodoxa de 1909 con sus cúpulas neobizantinas y el iconostasio de 1908: el templo serbio-ortodoxo principal de la ciudad, a un paso del católico San Lucas.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.4252,
+    "lon": 18.7708
+   },
+   "coordinateSource": "editorial: iglesia ortodoxa de San Nicolás en el casco viejo (OSM resolvió una iglesia homónima en Dub, a 10 km, descartada)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "Exterior como base; horario turístico y posible aportación interior pendientes. No entrada gratuita asumida.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/kotor/san_nicolas.jpg",
+    "source": "https://www.pexels.com/photo/historic-orthodox-church-in-kotor-montenegro-37459876/",
+    "author": "Ervanur Aydın",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada y dos torres de San Nicolás en el casco antiguo.",
+    "alt": "Fachada y dos torres de San Nicolás en el casco antiguo."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "santa_clara",
+   "name": "Iglesia de Santa Clara",
+   "kind": "monument",
+   "zone": "Ciudad vieja",
+   "reason": "La pequeña iglesia del siglo XVII junto al antiguo convento de clarisas, con un bello portal barroco; hoy espacio de exposiciones ocasional.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.4248,
+    "lon": 18.7698
+   },
+   "coordinateSource": "editorial: iglesia de Santa Clara, casco viejo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": "Exterior desde calles públicas si accesibles, no acceso garantizado. Interior solo si se confirma apertura.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/kotor/santa_clara-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Santa Clara, iglesia imaginada, no réplica exacta. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Santa Clara, iglesia imaginada, no réplica exacta. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "colegiata",
+   "name": "Colegiata de Santa María",
+   "kind": "monument",
+   "zone": "Ciudad vieja",
+   "reason": "La iglesia de 1221 levantada sobre una basílica paleocristiana del siglo VI: la 'colegiata del río' con su campanario junto a la Puerta del Río y restos de mosaicos primitivos.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.4254,
+    "lon": 18.7707
+   },
+   "coordinateSource": "editorial: Colegiata de Santa María (Crkva sv. Marije Koledžate), casco viejo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "Sin horario verificado: visita diurna fuera de culto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/kotor/colegiata-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Santa María, iglesia imaginada. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Santa María, iglesia imaginada. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "puerta_rio",
+   "name": "Puerta del Río",
+   "kind": "monument",
+   "zone": "Ciudad vieja",
+   "reason": "Entrada norte de Kotor junto al río Škurda, alcanzada por un puente de piedra. Permite ver el foso fluvial y las defensas de este lado del casco antiguo.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.4262513,
+    "lon": 18.7721588
+   },
+   "coordinateSource": "nominatim: Vrata od Rijeke, Kotor",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/kotor/puerta_rio.jpg",
+    "alt": "Puerta del Río de Kotor y puente sobre el Škurda. No es la Puerta del Mar: se identifica por el puente y la entrada norte.",
+    "caption": "Puerta del Río de Kotor y puente sobre el Škurda. No es la Puerta del Mar: se identifica por el puente y la entrada norte.",
+    "author": "Viktoriia Kondratiuk",
+    "source": "https://www.pexels.com/photo/entrance-to-the-old-town-of-kotor-19982070/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://lovinmontenegro.com/attractions/kotor-municipality/kotor/river-gate-kotor/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "gurdic",
+   "name": "Fortaleza y puerta Gurdić",
+   "kind": "monument",
+   "zone": "Ciudad vieja (sur)",
+   "reason": "El bastión sur de 1470 reforzado por los venecianos, con su puerta doble sobre el antiguo foso: la entrada menos turística del recinto, junto a la carretera de la bahía.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.422266,
+    "lon": 18.7717403
+   },
+   "coordinateSource": "nominatim: Vrata od Gurdića (bastión/puerta sur), Kotor",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/kotor/gurdic-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Gurdić, puerta y bastión imaginados. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Gurdić, puerta y bastión imaginados. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "maritimo",
+   "name": "Museo Marítimo de Montenegro",
+   "kind": "museum",
+   "zone": "Pjaca od Cirkula",
+   "reason": "Tres siglos de tradición marinera de la Boka en el palacio barroco de los Grgurina: retratos de capitanes, armas, maquetas y el escudo de la cofradía Bokeljska mornarica.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "mm",
+    "maritime-local1196",
+    "maritime-en1196"
+   ],
+   "coordinates": {
+    "lat": 42.4250384,
+    "lon": 18.7713874
+   },
+   "coordinateSource": "nominatim: Museum Maritimum, Pjaca od Cirkula, Kotor",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Fuentes propias discrepan: portal local6 € adulto/2 € estudiante-niño, página EN5/1 €. ENpublica laborables octubre-abril09-15 y sábados/domingos/festivos09-13; portada local dice1diciembre-1abril08-15, sábado/festivo09-13 y no aclara domingo. Confirmar tarifa y horario de fecha; no usar4 € de guía ni prometer09o08como universal. Fotos/vídeo requieren permiso del museo. Necesidades de accesibilidad concretas por confirmar.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Conflicto propio: ENinvierno09-15laborables/fin de semana09-13; portada local1dic-1abr08-15, sábado/festivo09-13. Confirmar fecha y domingo.",
+    "source": "https://museummaritimum.com/mnewordpress/"
+   },
+   "price": "Portal local6 € adulto/2 € estudiante-niño; página EN5/1 €. Tarifa aplicable por confirmar, no precio cerrado.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/kotor/maritimo-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo Marítimo, palacio imaginado sin piezas inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo Marítimo, palacio imaginado sin piezas inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "murallas",
+   "name": "Murallas de Kotor (paseo del recinto bajo)",
+   "kind": "walk",
+   "zone": "Ciudad vieja",
+   "reason": "Murallas bajas junto al río Škurda y puertas del casco antiguo, vistas desde espacios públicos. Acceso al adarve y subida a San Juan tienen sus propias entradas; no se presume recorrido gratuito por encima del recinto.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "kcw",
+    "kcw-terms"
+   ],
+   "coordinates": {
+    "lat": 42.4258379,
+    "lon": 18.7721554
+   },
+   "coordinateSource": "nominatim: Main Entrance to St. John's Fortress (acceso oficial norte), Kotor",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Entradas oficiales Parilo y Škaljarska pjaca. Taquillas marzo-abril 8-18, mayo-septiembre 7-20, octubre-noviembre 8-17; diciembre-febrero cerradas y subida bajo riesgo propio según web. No equivale a gratuidad ni acceso irrestricto. Prohibido subir o permanecer después de las 22 todo el año. Escaleras empinadas y sin luz; priorizar luz diurna y condiciones del terreno. Venta online admite tarjetas, no solo efectivo. Billetes sin cambio, cancelación ni devolución salvo excepciones publicadas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Sistema de murallas y San Juan: 15 € individual en condiciones municipales. Exentos, incluidos menores de 12 y residentes de Montenegro, también necesitan billete válido y prueba cuando corresponda.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/kotor/murallas.jpg",
+    "source": "https://www.pexels.com/photo/bembo-bastion-on-skurda-river-in-kotor-montenegro-17861610/",
+    "author": "Emirhan Emiroğlu",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Murallas bajas y bastión Bembo junto al ríoŠkurda;no representa la subida aSanJuan.",
+    "alt": "Murallas bajas y bastión Bembo junto al ríoŠkurda;no representa la subida aSanJuan."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso sistema murallas/SanJuan, no todo casco viejo",
+    "noticeLabel": "Murallas y San Juan",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "noticeRanges": [
+     {
+      "text": "Taquillas y accesos oficiales8-17,15EURgeneral. Billete también exentos. Subida y bajada estimadas2-3h,acabar con luz; prohibido después22.",
+      "start": "2026-11-03",
+      "end": "2026-11-30"
+     },
+     {
+      "text": "Taquillas cerradas; web deja subida por cuenta y riesgo. Condiciones exigen billete válido incluso exentos: acceso/registro de invierno sin resolver. No recomendar subir sin confirmación, con lluvia/hielo o poca luz.",
+      "start": "2026-12-01",
+      "end": "2026-12-31"
+     }
+    ],
+    "notices": [
+     "Escalones empinados y sin luz; no atajos ni entradas no autorizadas. Online admite tarjeta; sin cambios ni devolución ordinaria."
+    ]
+   }
+  },
+  {
+   "id": "salud",
+   "name": "Iglesia de Nuestra Señora de la Salud",
+   "kind": "monument",
+   "zone": "Ladera de San Juan",
+   "reason": "La iglesia del siglo XVI a media subida de la fortaleza, votiva contra la peste: la terraza con el campanario sobre los tejados y la bahía es LA foto clásica de Kotor.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "kcw-terms"
+   ],
+   "coordinates": {
+    "lat": 42.4242715,
+    "lon": 18.7732589
+   },
+   "coordinateSource": "nominatim: Crkva Gospe od Zdravlja, Kotor",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Entradas oficiales Parilo y Škaljarska pjaca. Taquillas marzo-abril 8-18, mayo-septiembre 7-20, octubre-noviembre 8-17; diciembre-febrero cerradas y subida bajo riesgo propio según web. No equivale a gratuidad ni acceso irrestricto. Prohibido subir o permanecer después de las 22 todo el año. Escaleras empinadas y sin luz; priorizar luz diurna y condiciones del terreno. Venta online admite tarjetas, no solo efectivo. Billetes sin cambio, cancelación ni devolución salvo excepciones publicadas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Sistema de murallas y San Juan: 15 € individual en condiciones municipales. Exentos, incluidos menores de 12 y residentes de Montenegro, también necesitan billete válido y prueba cuando corresponda.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/kotor/salud.jpg",
+    "alt": "Iglesia de Nuestra Señora de la Salud sobre Kotor y bahía al fondo. Vista exterior desde arriba; no confirma acceso ni entrada incluida.",
+    "caption": "Iglesia de Nuestra Señora de la Salud sobre Kotor y bahía al fondo. Vista exterior desde arriba; no confirma acceso ni entrada incluida.",
+    "author": "Dusan Stupar",
+    "source": "https://www.pexels.com/photo/church-of-our-lady-of-remedy-in-kotor-montenegro-22034286/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.moonhoneytravel.com/kotor-fortress/"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso sistema murallas/SanJuan, no todo casco viejo",
+    "noticeLabel": "Murallas y San Juan",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "noticeRanges": [
+     {
+      "text": "Taquillas y accesos oficiales8-17,15EURgeneral. Billete también exentos. Subida y bajada estimadas2-3h,acabar con luz; prohibido después22.",
+      "start": "2026-11-03",
+      "end": "2026-11-30"
+     },
+     {
+      "text": "Taquillas cerradas; web deja subida por cuenta y riesgo. Condiciones exigen billete válido incluso exentos: acceso/registro de invierno sin resolver. No recomendar subir sin confirmación, con lluvia/hielo o poca luz.",
+      "start": "2026-12-01",
+      "end": "2026-12-31"
+     }
+    ],
+    "notices": [
+     "Escalones empinados y sin luz; no atajos ni entradas no autorizadas. Online admite tarjeta; sin cambios ni devolución ordinaria."
+    ]
+   }
+  },
+  {
+   "id": "san_juan",
+   "name": "Fortaleza de San Juan",
+   "kind": "monument",
+   "zone": "Ladera de San Juan",
+   "reason": "Fortaleza en lo alto del sistema de murallas. La subida y bajada desde accesos oficiales es el bloque principal del día, con escaleras, desnivel y pausas; decidir según terreno, luz y condición física.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "kcw",
+    "kcw-terms"
+   ],
+   "coordinates": {
+    "lat": 42.4232,
+    "lon": 18.776
+   },
+   "coordinateSource": "editorial: cima de la fortaleza de San Juan (~280 m); OSM solo resuelve la entrada/taquilla",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Entradas oficiales Parilo y Škaljarska pjaca. Taquillas marzo-abril 8-18, mayo-septiembre 7-20, octubre-noviembre 8-17; diciembre-febrero cerradas y subida bajo riesgo propio según web. No equivale a gratuidad ni acceso irrestricto. Prohibido subir o permanecer después de las 22 todo el año. Escaleras empinadas y sin luz; priorizar luz diurna y condiciones del terreno. Venta online admite tarjetas, no solo efectivo. Billetes sin cambio, cancelación ni devolución salvo excepciones publicadas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Taquillas y accesos oficiales: temporada alta 1 may-30 sep 7:00-20:00; marzo-abril 8:00-18:00; octubre-noviembre 8:00-17:00; diciembre-febrero taquillas CERRADAS, la subida queda abierta por cuenta y riesgo del visitante (web oficial).",
+    "source": "https://www.kotorcitywalls.me/"
+   },
+   "price": "Sistema de murallas y San Juan: 15 € individual en condiciones municipales. Exentos, incluidos menores de 12 y residentes de Montenegro, también necesitan billete válido y prueba cuando corresponda.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/kotor/san_juan.jpg",
+    "source": "https://www.pexels.com/photo/kotor-castle-seen-from-a-drone-2-26754188/",
+    "author": "Julien Goettelmann",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Vista aérea cercana de la Fortaleza de San Juan y su emplazamiento sobre Kotor.",
+    "alt": "Vista aérea cercana de la Fortaleza de San Juan y su emplazamiento sobre Kotor."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Acceso sistema murallas/SanJuan, no todo casco viejo",
+    "noticeLabel": "Murallas y San Juan",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "noticeRanges": [
+     {
+      "text": "Taquillas y accesos oficiales8-17,15EURgeneral. Billete también exentos. Subida y bajada estimadas2-3h,acabar con luz; prohibido después22.",
+      "start": "2026-11-03",
+      "end": "2026-11-30"
+     },
+     {
+      "text": "Taquillas cerradas; web deja subida por cuenta y riesgo. Condiciones exigen billete válido incluso exentos: acceso/registro de invierno sin resolver. No recomendar subir sin confirmación, con lluvia/hielo o poca luz.",
+      "start": "2026-12-01",
+      "end": "2026-12-31"
+     }
+    ],
+    "notices": [
+     "Escalones empinados y sin luz; no atajos ni entradas no autorizadas. Online admite tarjeta; sin cambios ni devolución ordinaria."
+    ]
+   }
+  },
+  {
+   "id": "miradores",
+   "name": "Miradores de la serpentina R-1",
+   "kind": "viewpoint",
+   "zone": "Carretera de Lovćen",
+   "reason": "La llegada escénica a Kotor: la carretera R-1 del parque de Lovćen baja en curvas de 180 grados con miradores sobre toda la bahía; el Horizont Bar ofrece terrazas suspendidas a cambio de una consumición.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.4358,
+    "lon": 18.7632
+   },
+   "coordinateSource": "editorial: mirador de la serpentina R-1 (zona Horizont Bar) sobre Kotor; sin nodo OSM directo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Miradores de la carretera R-1 solo con vehículo y paradas permitidas, no paseo urbano caminable. Conducción y tiempo reales por confirmar; en invierno comprobar carretera, nieve y luz. Sin vehículo, elegir casco viejo o Riva.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "alternativa con transporte y condiciones por confirmar",
+   "photo": {
+    "img": "assets/kotor/miradores-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: bahía de Kotor desde la montaña, paisaje imaginado, no punto de aparcamiento validado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en bahía de Kotor desde la montaña, paisaje imaginado, no punto de aparcamiento validado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "barco",
+   "name": "Paseo en barco por la bahía",
+   "kind": "activity",
+   "zone": "Riva (paseo marítimo)",
+   "reason": "La bahía desde el agua: salidas desde el paseo marítimo hacia la Cueva Azul de la península de Lustica y la isla artificial de Nuestra Señora de las Rocas frente a Perast.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.4246,
+    "lon": 18.768
+   },
+   "coordinateSource": "editorial: embarcaderos del paseo marítimo de Kotor (Riva), salida de los barcos de la bahía",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Operador, salida, precio y condiciones meteorológicas pendientes. Crucero opcional que sustituye otro bloque, no actividad incluida ni garantizada tras la fortaleza.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Excursiones comerciales con horarios propios por operador (no verificados en primaria).",
+    "source": "caution-sin-primaria"
+   },
+   "price": "Excursión comercial de pago; precio según operador y temporada (no verificado en primaria).",
+   "visitMode": "alternativa con transporte y condiciones por confirmar",
+   "photo": {
+    "img": "assets/kotor/barco-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: bahía de Kotor, paisaje imaginado, no barco u operador real. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en bahía de Kotor, paisaje imaginado, no barco u operador real. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "perast",
+   "name": "Perast y Nuestra Señora de las Rocas",
+   "kind": "excursion",
+   "zone": "Perast (bahía de Kotor)",
+   "reason": "El pueblo barroco de capitanes a 12 km de Kotor: palacios de piedra, 16 iglesias y la barca a la isla artificial de Nuestra Señora de las Rocas con su iglesia de 1632 y el museo de exvotos marineros.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 42.4862681,
+    "lon": 18.6988592
+   },
+   "coordinateSource": "nominatim: Perast, Opština Kotor",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Transporte y barcas sin primaria verificada; la iglesia-museo de la isla tiene entrada de pago no verificada en primaria.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Isla-museo y barcas de pago (precios no verificados en primaria).",
+   "visitMode": "alternativa con transporte y condiciones por confirmar",
+   "photo": {
+    "img": "assets/kotor/perast.jpg",
+    "alt": "Perast: iglesia de San Nicolás y campanario en el pueblo. No representa la isla de Nuestra Señora de las Rocas ni confirma una travesía en barca.",
+    "caption": "Perast: iglesia de San Nicolás y campanario en el pueblo. No representa la isla de Nuestra Señora de las Rocas ni confirma una travesía en barca.",
+    "author": "Hale Ş",
+    "source": "https://www.pexels.com/photo/historic-church-and-bell-tower-in-perast-montenegro-34578651/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.montenegro.travel/en/inspiration-for-a-dream-trip/en167/top-10-attractions-of-montenegro"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lovcen",
+   "name": "Parque Nacional Lovćen y mausoleo de Njegoš",
+   "kind": "excursion",
+   "zone": "PN Lovćen",
+   "reason": "La montaña negra que da nombre al país: la cumbre de Jezerski vrh (1.657 m) con el mausoleo de Njegoš tras 461 escalones y la vista que abarca de la bahía de Kotor al lago Skadar; bajada por la serpentina de los 25 lazos.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "npl",
+    "mausoleum",
+    "maus-hours",
+    "maus-price"
+   ],
+   "coordinates": {
+    "lat": 42.4000721,
+    "lon": 18.8374606
+   },
+   "coordinateSource": "nominatim: Njegošev Mauzolej, Cetinje-Lovćen",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 360,
+   "durationType": "editorial-estimate",
+   "caution": "Primaria mausoleo9-16,no9-18deguías. Se suben461escalones;altitud1660m. Parque3EURymausoleo8EURdosproductos. Carretera,nieve/hielo,vehículoyregreso porconfirmar; no combinar automáticamente conserpentinaoPerast.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Mausoleo11abr-15nov9-16todoslosdías;16nov-10abrcerrado segúnMuseoNacional. Parque y carreteras no equivalen a mausoleo abierto.",
+    "source": "https://en.narodnimuzej.me/radno-vrijeme/"
+   },
+   "price": "Parque3EUR/día/persona. Mausoleo con casa natal8EURadulto/4estudiante,entrada separada;gratis menores12segúnmuseo. Parking de turismo parque1EUR/hora aparte.",
+   "visitMode": "alternativa con transporte y condiciones por confirmar",
+   "photo": {
+    "img": "assets/kotor/lovcen.jpg",
+    "alt": "Mausoleo de Njegoš en la cima de Lovćen y sendero de acceso. Foto del 29/10/2022; no confirma acceso, apertura ni seguridad con nieve.",
+    "caption": "Mausoleo de Njegoš en la cima de Lovćen y sendero de acceso. Foto del 29/10/2022; no confirma acceso, apertura ni seguridad con nieve.",
+    "author": "Igor Meghega",
+    "source": "https://www.pexels.com/photo/mausoleum-of-negjos-on-top-of-the-lovcen-mountain-peak-14227345/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://en.narodnimuzej.me/posjeta-njegosev-mauzolej/"
+   },
+   "photoPending": false,
+   "transport": "Vehículo o tour con ruta y carretera confirmados. La distancia en línea recta no representa tiempo de carretera; no se garantiza el antiguo cálculo de 45-60 minutos al mausoleo.",
+   "accessRules": {
+    "scope": "MausoleoNjegoš,no todo ParqueLovćen",
+    "noticeLabel": "MausoleoNjegoš",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedRanges": [
+     {
+      "start": "2026-11-16",
+      "end": "2026-12-31",
+      "label": "Cerrado al visitante16nov-10abr segúnMuseoNacional;parqueconaccesopropio no implica entrada al mausoleo."
+     }
+    ],
+    "notices": [
+     "Hasta15novdiario9-16,8EURadulto/4estudiante,parque3EURaparte.461escalones;acceso condicionado a carretera y tiempo."
+    ]
+   }
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "El recinto veneciano",
+     "zone": "Puerta del Mar → Plaza de Armas → Museo de los Gatos → Catedral de San Trifón → San Lucas → Plaza de San Lucas → San Nicolás → Santa Clara → Colegiata de Santa María → Puerta del Río → Fortaleza/puerta Gurdić → Murallas (tramo bajo)",
+     "stopIds": [
+      "puerta_mar",
+      "plaza_armas",
+      "gatos",
+      "san_trifon",
+      "san_lucas",
+      "plaza_sanlucas",
+      "san_nicolas",
+      "santa_clara",
+      "colegiata",
+      "puerta_rio",
+      "gurdic",
+      "murallas"
+     ],
+     "editorialNote": "Circuito de plazas y puertas principalmente exterior. Elegir como máximo un interior de museo o templo si se confirma acceso; no todas las entradas seguidas. Murallas bajas y subida a San Juan no son accesos intercambiables: respetar billete y puertas oficiales."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "El recinto veneciano",
+     "zone": "Puerta del Mar → Plaza de Armas → Museo de los Gatos → Catedral de San Trifón → San Lucas → Plaza de San Lucas → San Nicolás → Santa Clara → Colegiata de Santa María → Puerta del Río → Fortaleza/puerta Gurdić → Murallas (tramo bajo)",
+     "stopIds": [
+      "puerta_mar",
+      "plaza_armas",
+      "gatos",
+      "san_trifon",
+      "san_lucas",
+      "plaza_sanlucas",
+      "san_nicolas",
+      "santa_clara",
+      "colegiata",
+      "puerta_rio",
+      "gurdic",
+      "murallas"
+     ],
+     "editorialNote": "Circuito de plazas y puertas principalmente exterior. Elegir como máximo un interior de museo o templo si se confirma acceso; no todas las entradas seguidas. Murallas bajas y subida a San Juan no son accesos intercambiables: respetar billete y puertas oficiales."
+    },
+    {
+     "title": "San Juan con margen y luz diurna",
+     "zone": "Acceso oficial → Nuestra Señora de la Salud → San Juan → descenso",
+     "stopIds": [
+      "salud",
+      "san_juan"
+     ],
+     "editorialNote": "La subida y bajada es el bloque principal, estimar 2-3 horas y pausas según condición física. Empezar con luz dentro de horarios, no recomendar amanecer antes de acceso ni atardecer sin margen. Marítimo o barco son alternativas opcionales, no ambos añadidos; invierno exige comprobar acceso, terreno y horario real.",
+     "optionalStopIds": [
+      "maritimo",
+      "barco"
+     ]
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "El recinto veneciano",
+     "zone": "Puerta del Mar → Plaza de Armas → Museo de los Gatos → Catedral de San Trifón → San Lucas → Plaza de San Lucas → San Nicolás → Santa Clara → Colegiata de Santa María → Puerta del Río → Fortaleza/puerta Gurdić → Murallas (tramo bajo)",
+     "stopIds": [
+      "puerta_mar",
+      "plaza_armas",
+      "gatos",
+      "san_trifon",
+      "san_lucas",
+      "plaza_sanlucas",
+      "san_nicolas",
+      "santa_clara",
+      "colegiata",
+      "puerta_rio",
+      "gurdic",
+      "murallas"
+     ],
+     "editorialNote": "Circuito de plazas y puertas principalmente exterior. Elegir como máximo un interior de museo o templo si se confirma acceso; no todas las entradas seguidas. Murallas bajas y subida a San Juan no son accesos intercambiables: respetar billete y puertas oficiales."
+    },
+    {
+     "title": "San Juan con margen y luz diurna",
+     "zone": "Acceso oficial → Nuestra Señora de la Salud → San Juan → descenso",
+     "stopIds": [
+      "salud",
+      "san_juan"
+     ],
+     "editorialNote": "La subida y bajada es el bloque principal, estimar 2-3 horas y pausas según condición física. Empezar con luz dentro de horarios, no recomendar amanecer antes de acceso ni atardecer sin margen. Marítimo o barco son alternativas opcionales, no ambos añadidos; invierno exige comprobar acceso, terreno y horario real.",
+     "optionalStopIds": [
+      "maritimo",
+      "barco"
+     ]
+    },
+    {
+     "title": "Riva y casco viejo, con alternativa por carretera",
+     "zone": "Miradores de la serpentina R-1 → Riva y Puerta del Mar",
+     "stopIds": [
+      "puerta_mar",
+      "plaza_armas"
+     ],
+     "editorialNote": "Base tranquila junto al casco viejo y Riva. Serpentina solo como alternativa con vehículo y carretera comprobados. Perast o Lovćen sustituyen bloques de ciudad; no añadir una excursión a una ruta de miradores sin calcular traslados.",
+     "optionalStopIds": [
+      "miradores"
+     ]
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Fortaleza de San Juan: taquillas oficiales estacionales (may-sep 7-20; mar-abr 8-18; oct-nov 8-17; dic-feb CERRADAS). Fuera de horario la subida es por cuenta y riesgo propio, NO gratuita garantizada; precio no extraído de la web oficial (secundaria indica 15 € en 2026).",
+  "Museo Marítimo: laborables verano 9-18 / invierno 9-15, sábados y festivos 9-13; domingos sin detalle oficial; precio no extraído de primaria.",
+  "Catedral de San Trifón: entrada de pago sin primaria verificada (llevar efectivo).",
+  "PN Lovćen: 3 €/día/persona verificado; mausoleo de Njegoš con entrada aparte sin primaria; sin transporte público verificado (coche/taxi/tour).",
+  "Perast: bus costero sin horario primario; barcas a la isla y museo sin tarifa primaria.",
+  "Templos sin horario turístico primario: visita diurna fuera de culto.",
+  "Serpentina R-1: solo con vehículo; colapsa con autocares en temporada alta (aviso de la guía).",
+  "Visitas: 10 fotos reales y 9 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Nada reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en Kotor",
+   "url": "https://www.viajeroscallejeros.com/que-ver-en-kotor/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Kotor y lugares",
+   "url": "https://es.wikipedia.org/wiki/Kotor",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "kcw",
+   "title": "Kotor City Walls: venta oficial de entradas y horarios de taquilla",
+   "url": "https://www.kotorcitywalls.me/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mm",
+   "title": "Museo Marítimo de Montenegro: working hours",
+   "url": "https://www.museummaritimum.com/english/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "npl",
+   "title": "Parques Nacionales de Montenegro: Lovćen (tarifas)",
+   "url": "https://nparkovi.me/sections/29/lovcen",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "kcw-terms",
+   "title": "Municipio de Kotor: condiciones de entrada",
+   "url": "https://www.kotorcitywalls.me/terms-of-use/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mausoleum",
+   "url": "https://en.narodnimuzej.me/posjeta-njegosev-mauzolej/",
+   "title": "Museo Nacional: mausoleoNjegoš",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "maus-hours",
+   "url": "https://en.narodnimuzej.me/radno-vrijeme/",
+   "title": "Museo Nacional:horarios",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "maus-price",
+   "url": "https://en.narodnimuzej.me/cjenovnik/",
+   "title": "Museo Nacional:precios",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "luke-own",
+   "title": "Parroquia ortodoxa de Kotor: San Lucas e historia de los altares",
+   "url": "https://www.spckotor.com/en/temples/church-of-saint-luke-and-chapel-of-saint-spyridon/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "maritime-local1196",
+   "url": "https://museummaritimum.com/mnewordpress/index.php/o-nama/",
+   "title": "Museo Marítimo: tarifas en portal local6/2EUR"
+  },
+  {
+   "id": "maritime-en1196",
+   "url": "https://www.museummaritimum.com/english/About-us.html",
+   "title": "Museo Marítimo: página EN5/1EUR y horario discordante"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

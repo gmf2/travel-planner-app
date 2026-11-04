@@ -1,0 +1,101 @@
+{
+ "schemaVersion": 1,
+ "cityId": "bratislava",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "zylinder",
+   "name": "Zylinder · cocina de Pressburg",
+   "address": "Hviezdoslavovo námestie 19, Bratislava",
+   "description": "Cocina eslovaca, húngara y austriaca de mesa: halušky de patata con queso bryndza, Tafelspitz o goulash. Parada junto al teatro histórico, no en la sede nueva de Eurovea.",
+   "strength": "Gault&Millau describe el caldo con crepes, Tafelspitz, goulash y Kaiserschmarrn; valora el sabor y señala servicio irregular y dumplings mejorables. Opción regional de mesa, no elección basada en estrellas de Maps.",
+   "alert": "Halušky 12 €, Tafelspitz 29 €, goulash húngaro 17 €, postres 6 €.",
+   "compactAlert": "Lun-sáb 11-23; domingo 11-22 según horario propio.",
+   "caution": "Halušky 12 € + postre 6 € = 18 €, cálculo editorial, sin bebida ni extras. La carta consultada no permite cerrar total con bebidas o suplementos. Halušky llevan bacon, lácteos y crema; no son vegetarianos por defecto. Confirmar alérgenos, carta y servicio por fecha. No mesa reservada. Falstaff publica domingo hasta 21, mientras la fuente propia publica 22: comprobar si se va tarde.",
+   "officialUrl": "https://www.zylinder.sk/en/restaurant-menu/",
+   "editorialUrl": "https://www.gault-millau.sk/en/zylinder-en",
+   "sourceUrls": [
+    "https://www.zylinder.sk/en/restaurant-menu/",
+    "https://www.zylinder.sk/en/contact/",
+    "https://www.falstaff.com/en/restaurants/zylinder-cafe-restaurant-bratislava"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zylinder+Cafe+Restaurant&query_place_id=ChIJ2fm6vEKJbEcRH3R9D8h_g44",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta propia, horario propio y dirección Maps coinciden. Gault&Millau aporta crítica concreta; Falstaff discrepa en cierre dominical.",
+   "priceLabel": "18 € halušky + postre; bebida y extras sin cerrar. Cálculo editorial.",
+   "compactPrice": "Halušky 12 €; postre +6 €; bebida aparte.",
+   "photo": {
+    "img": "assets/bratislava/zylinder-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes eslovacos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes eslovacos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "castillo-visit",
+   "name": "Castillo de Bratislava",
+   "description": "Recinto del castillo con vistas al Danubio y museo de pago como opción interior. El jardín barroco tiene horario propio.",
+   "strength": "Ya existe en el catálogo de paradas; no duplicar entrada o visita obligatoria.",
+   "alert": "Museo de Historia 14 € adulto,7 € estudiantes/niños acreditados,8 € sénior 62-69;70+,menores 6 y otras categorías gratis. Familia 18/33 € según composición. Maria Antonieta no incluida en general: producto aparte.",
+   "caution": "Museo cerrado martes y 12-13 noviembre 2026 por aviso extraordinario de la tienda oficial. No extrapolar ese aviso al cierre total del exterior. Jardín barroco noviembre-febrero 9-16 aunque recinto 8-22. General 14 € incluye tesoro y murallas del norte, no Maria Antonieta. Confirmar salas y acceso por fecha.",
+   "officialUrl": "https://snm-online.sk/en/bratislavsky-hrad/",
+   "sourceUrls": [
+    "https://snm-online.sk/en/bratislavsky-hrad/"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "priceLabel": "Museo de Historia 14 € adulto,7 € estudiantes/niños acreditados,8 € sénior 62-69;70+,menores 6 y otras categorías gratis. Familia 18/33 € según composición. Maria Antonieta no incluida en general: producto aparte.",
+   "photo": {
+    "img": "assets/bratislava/castillo.jpg",
+    "source": "https://www.pexels.com/photo/historic-bratislava-castle-under-clear-blue-sky-37710938/",
+    "author": "Renata Rafa",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Escalinata y exterior del castillo de Bratislava. No muestra el museo ni garantiza acceso al recinto en la fecha.",
+    "alt": "Escalinata y exterior del castillo de Bratislava. No muestra el museo ni garantiza acceso al recinto en la fecha."
+   },
+   "photoPending": false,
+   "compactPrice": "Museo14 € adulto; exterior aparte.",
+   "compactAlert": "Museo cerrado martes y12-13/11/2026; no cierra todo el exterior."
+  },
+  {
+   "id": "ufo-visit",
+   "name": "Mirador UFO del Most SNP",
+   "description": "Mirador sobre el Danubio en la estructura del Most SNP. Subida de pago opcional, independiente de una comida en el restaurante.",
+   "strength": "Ya existe en el catálogo de paradas; no duplicar entrada o visita obligatoria.",
+   "alert": "Tarifa normal: 11,50 € lun-vie de 10 a 13; 12,50 € resto. Del 25 diciembre al 4 enero: 15 € adulto. Day & Night: +3,50 €, dos entradas en 48 h. Solo recepción, sin reserva.",
+   "caution": "Tarifa especial de Navidad y Año Nuevo: 25 diciembre-4 enero, 15 € adulto. No entrada online ni aforo reservado. Bar/mirador 10-23; restaurante 12-23, comida aparte.",
+   "officialUrl": "https://www.u-f-o.sk/entry-fee",
+   "sourceUrls": [
+    "https://www.u-f-o.sk/entry-fee"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "priceLabel": "Tarifa normal: 11,50 € lun-vie de 10 a 13; 12,50 € resto. Del 25 diciembre al 4 enero: 15 € adulto. Day & Night: +3,50 €, dos entradas en 48 h. Solo recepción, sin reserva.",
+   "photo": {
+    "img": "assets/bratislava/ufo.jpg",
+    "source": "https://www.pexels.com/photo/ufo-bridge-in-bratislava-21625693/",
+    "author": "Vish Pix",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Most SNP y estructura del mirador UFO desde fuera. No muestra una vista tomada desde la plataforma ni incluye una subida.",
+    "alt": "Most SNP y estructura del mirador UFO desde fuera. No muestra una vista tomada desde la plataforma ni incluye una subida."
+   },
+   "photoPending": false,
+   "compactPrice": "Adulto11,50-12,50 € normal;15 € Navidad.",
+   "compactAlert": "25diciembre-4enero tarifa especial. Mirador y restaurante separados."
+  }
+ ]
+}

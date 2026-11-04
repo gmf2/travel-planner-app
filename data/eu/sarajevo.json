@@ -1,0 +1,999 @@
+{
+ "schemaVersion": 1,
+ "country": "BA",
+ "id": "sarajevo",
+ "name": "Sarajevo",
+ "localName": "Sarajevo",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "vijecnica",
+   "name": "Ayuntamiento (Vijećnica)",
+   "kind": "monument",
+   "zone": "Stari Grad",
+   "reason": "La joya neo-morisca de 1896 a orillas del Miljacka: biblioteca nacional incendiada en 1992 con dos millones de fondos, reconstruida piedra a piedra y reabierta en 2014; hoy salón ceremonial y exposiciones.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "vij",
+    "vij-info"
+   ],
+   "coordinates": {
+    "lat": 43.8591665,
+    "lon": 18.4333468
+   },
+   "coordinateSource": "nominatim: Vijećnica, Brodac, Sarajevo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "Horario recuperado9-17. Página indica cjenovnik/tarifario pero sin importes extraídos; HTMLdirecto403. No inventar10KM. Fachada exterior como base, interior opcional según entrada y programación.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Diario9-17 según página propia de servicio. Precio no legible en página extraída.",
+    "source": "https://vijecnica.ba/program/servisne-informacije"
+   },
+   "price": null,
+   "visitMode": "exterior; interior según acceso",
+   "photo": {
+    "img": "assets/sarajevo/vijecnica.jpg",
+    "source": "https://www.pexels.com/photo/brown-and-beige-striped-building-with-arches-under-a-clear-blue-sky-15078906/",
+    "author": "Vladimir Srajber",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fachada completa de Vijećnica desde el río. No acredita acceso interior.",
+    "alt": "Fachada completa de Vijećnica desde el río. No acredita acceso interior."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Visita interior Vijećnica",
+    "noticeLabel": "Vijećnica",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Horario propio diario9-17. Tarifa y posibles restricciones por eventos pendientes; exterior no requiere esta entrada."
+    ]
+   }
+  },
+  {
+   "id": "bascarsija",
+   "name": "Baščaršija, el barrio turco",
+   "kind": "walk",
+   "zone": "Baščaršija",
+   "reason": "Casco otomano con calles de comercios, talleres y cafés. Paseo entre Sebilj y Gazi Husrev-beg; comidas y compras aparte.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.8594311,
+    "lon": 18.431061
+   },
+   "coordinateSource": "nominatim: Baščaršija, Sarajevo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/sarajevo/bascarsija.jpg",
+    "alt": "Calle de talleres y comercios de Baščaršija. Vista exterior del barrio, no del interior de una tienda ni de todo el casco.",
+    "caption": "Calle de talleres y comercios de Baščaršija. Vista exterior del barrio, no del interior de una tienda ni de todo el casco.",
+    "author": "Drago Rapovac",
+    "source": "https://www.pexels.com/photo/bascarsija-sarajevo-bosnia-and-herzegovina-20813420/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://sarajevo.travel/en/text/explore-bascarsija-sarajevos-historic-core/203"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sebilj",
+   "name": "Fuente Sebilj",
+   "kind": "monument",
+   "zone": "Baščaršija",
+   "reason": "El icono de madera de la ciudad: la fuente neomorisca de 1891 (copia de la original de 1753) en el centro de la plaza de Baščaršija, rodeada de palomas y del primer café bosnio del día.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.8599,
+    "lon": 18.4307
+   },
+   "coordinateSource": "editorial: fuente Sebilj en el centro de la plaza de Baščaršija (OSM resolvió una pensión homónima, descartada)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": "Coordenada editorial en el centro de la plaza: Nominatim resolvió una pensión homónima ('Pension Sebilj') y se descartó.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/sarajevo/sebilj.jpg",
+    "source": "https://www.pexels.com/photo/sebilj-fountain-in-sarajevo-s-old-town-38499457/",
+    "author": "Hatice Kübra Kısa",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Fuente Sebilj completa en su plaza de Baščaršija.",
+    "alt": "Fuente Sebilj completa en su plaza de Baščaršija."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "gazi",
+   "name": "Mezquita Gazi Husrev-beg",
+   "kind": "monument",
+   "zone": "Baščaršija",
+   "reason": "La gran mezquita otomana de 1531, obra del período clásico: patio con fuente de abluciones, el reloj lunar de la torre y el legado del benefactor que levantó media Baščaršija.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "gazi-own",
+    "gazi-second"
+   ],
+   "coordinates": {
+    "lat": 43.8591512,
+    "lon": 18.429002
+   },
+   "coordinateSource": "nominatim: Gazi Husrev-begova džamija, Sarajevo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": "Horario turístico propio recuperado, no confundir con museo de la biblioteca. En invierno acudir por la mañana9-11 y confirmar cita con taquilla. Dos páginas propias contradicen acceso durante Ramadán: una lo suspende, otra publica ventanas; no prometer interior entonces. Límites31oct y1abr se solapan en la web. Culto/condiciones del día prevalecen.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Noviembre-marzo: interior de mezquita diario 9-11. Abril-octubre:9-12,14:30-16 y17:30-19 fuera de Ramadán. Fechas frontera31oct/1abr ambiguas y Ramadán con conflicto entre dos páginas propias.",
+    "source": "https://www.vakuf-gazi.ba/information-for-tourists/"
+   },
+   "price": "3 KM por persona para la mezquita. Museo de la madrasa: otros 3 KM, producto separado.",
+   "visitMode": "interior solo si se confirma acceso",
+   "photo": {
+    "img": "assets/sarajevo/gazi.jpg",
+    "source": "https://www.pexels.com/photo/aerial-view-of-gazi-husrev-beg-mosque-at-twilight-36707014/",
+    "author": "Amel Uzunovic",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Vista aérea de la mezquita Gazi Husrev-beg con cúpula y minarete. No representa el interior.",
+    "alt": "Vista aérea de la mezquita Gazi Husrev-beg con cúpula y minarete. No representa el interior."
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Visita turística interior de mezquita, no museo/biblioteca",
+    "noticeLabel": "Mezquita Gazi Husrev-beg",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Noviembre-diciembre: visita interior diaria9-11,3KM. Confirmar en información; no prometer acceso fuera de esa franja. Museo madrasa aparte."
+    ]
+   }
+  },
+  {
+   "id": "ferhadija",
+   "name": "Calle Ferhadija",
+   "kind": "walk",
+   "zone": "Ferhadija",
+   "reason": "La calle que une dos imperios: del caserío otomano al casco austrohúngaro, con la 'línea de encuentro de culturas' marcada en el suelo donde el Este se convierte en Oeste.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.8592203,
+    "lon": 18.4268324
+   },
+   "coordinateSource": "nominatim: calle Ferhadija, Sarajevo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/sarajevo/ferhadija-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Ferhadija, paseo imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Ferhadija, paseo imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral del Sagrado Corazón",
+   "kind": "monument",
+   "zone": "Ferhadija",
+   "reason": "Catedral católica neogótica consagrada en 1889, diseñada por Josip Vancaš. Parada exterior para ver el templo y su plaza; acceso al interior por confirmar fuera de culto.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.8594304,
+    "lon": 18.4253631
+   },
+   "coordinateSource": "nominatim: Katedrala Srca Isusova, Trg fra Grge Martića",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Horario turístico, interior y posible precio sin primaria actual. Visita exterior base, acceso interior solo tras confirmarlo y fuera de culto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior según acceso",
+   "photo": {
+    "img": "assets/sarajevo/catedral.jpg",
+    "alt": "Catedral del Sagrado Corazón de Sarajevo desde una calle lateral. Vista exterior con una torre y el lateral del templo; no muestra el interior.",
+    "caption": "Catedral del Sagrado Corazón de Sarajevo desde una calle lateral. Vista exterior con una torre y el lateral del templo; no muestra el interior.",
+    "author": "Zeyneb Ergi",
+    "source": "https://www.pexels.com/photo/historic-cathedral-in-sarajevo-street-view-37500638/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.vrhbosanska-nadbiskupija.org/nadbiskupija/katedrala"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "galeria",
+   "name": "Galería 11/07/95",
+   "kind": "museum",
+   "zone": "Ferhadija",
+   "reason": "Galería de memoria sobre el genocidio de Srebrenica. Audioguía disponible en español y otros11idiomas, coste/inclusión por confirmar. No se permite fotografiar dentro.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "g110795"
+   ],
+   "coordinates": {
+    "lat": 43.859,
+    "lon": 18.4243
+   },
+   "coordinateSource": "editorial: Trg fra Grge Martića 2/III (dirección oficial de la galería), junto a la catedral",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Fotografía NO permitida dentro. Tema duro (genocidio): valorar con menores. Precio a confirmar in situ.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Todos los días 9:00-21:00.",
+    "source": "https://galerija110795.ba/information-for-visitors/"
+   },
+   "price": "Precio de entrada no publicado en la página oficial de visita (descuentos de grupo con aviso previo por email); audioguías en español y otros 11 idiomas.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/sarajevo/galeria-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Galería 11/07/95, puerta imaginada, no reproducción de la galería o sus obras. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Galería 11/07/95, puerta imaginada, no reproducción de la galería o sus obras. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "markale",
+   "name": "Mercado Markale",
+   "kind": "market",
+   "zone": "Centar",
+   "reason": "El mercado cubierto de la ciudad y su memoria: escenario de las masacres de 1994 y 1995, con el muro de nombres en la fachada; hoy vuelve a ser el mercado de fruta, queso y flores del barrio.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.859016,
+    "lon": 18.4233479
+   },
+   "coordinateSource": "nominatim: Gradska tržnica Markale, Sarajevo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Espacio de memoria (placa y muro rojo de los fallecidos en la fachada norte): máximo respeto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Horario no verificado en primaria; mercado cubierto con actividad de mañana.",
+    "source": "caution-sin-primaria"
+   },
+   "price": "Entrada libre.",
+   "visitMode": "exterior; interior según acceso",
+   "photo": {
+    "img": "assets/sarajevo/markale-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Markale, mercado imaginado sin puestos reales. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Markale, mercado imaginado sin puestos reales. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "ortodoxa",
+   "name": "Catedral Ortodoxa de la Natividad",
+   "kind": "monument",
+   "zone": "Zelenih beretki",
+   "reason": "Catedral serbio-ortodoxa junto a la plaza Trg Oslobođenja. Parada exterior; acceso turístico y posible precio interior pendientes.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.8582206,
+    "lon": 18.4252077
+   },
+   "coordinateSource": "nominatim: Saborna crkva u Sarajevu, Zelenih beretki",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "Horario turístico, interior y posible precio sin primaria actual. Visita exterior base, acceso interior solo tras confirmarlo y fuera de culto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario turístico no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior según acceso",
+   "photo": {
+    "img": "assets/sarajevo/ortodoxa.jpg",
+    "alt": "Catedral ortodoxa de la Natividad de Sarajevo: campanario, cúpulas y fachada entre árboles. Archivo de abril de 2022; no muestra interior.",
+    "caption": "Catedral ortodoxa de la Natividad de Sarajevo: campanario, cúpulas y fachada entre árboles. Archivo de abril de 2022; no muestra interior.",
+    "author": "Buğra",
+    "source": "https://www.pexels.com/photo/old-historic-church-against-blue-sky-12898082/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.tourismbih.com/location/orthodox-church-of-the-nativity-of-the-theotokos/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "llama",
+   "name": "La Llama Eterna",
+   "kind": "monument",
+   "zone": "Centar",
+   "reason": "El memorial a las víctimas militares y civiles de la Segunda Guerra Mundial, ardiendo desde 1946 en el cruce de Ferhadija con el centro moderno; punto de referencia de todo sarajevita.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.8588071,
+    "lon": 18.4218192
+   },
+   "coordinateSource": "nominatim: Vječna vatra, Ferhadija",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 10,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/sarajevo/llama.jpg",
+    "source": "https://www.pexels.com/photo/eternal-flame-memorial-in-sarajevo-bosnia-29048531/",
+    "author": "Admir Nakic",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Llama Eterna y memorial de Sarajevo, respetando el espacio de memoria.",
+    "alt": "Llama Eterna y memorial de Sarajevo, respetando el espacio de memoria."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sinagoga",
+   "name": "Sinagoga Askenazí",
+   "kind": "monument",
+   "zone": "Drvenija",
+   "reason": "La sinagoga neomorisca de 1902, la mayor de la ciudad y hoy en culto: memoria de la comunidad judía sefardí y askenazí que encontró refugio en Sarajevo desde 1492.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.8563105,
+    "lon": 18.4250806
+   },
+   "coordinateSource": "nominatim: Aškenaška sinagoga, Sarajevo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": "Visita interior sin fuente primaria actual; no se promete acceso. Exterior desde espacio público respetando controles y culto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Templo activo; horario de visita no publicado en primaria.",
+    "source": "caution-sin-primaria"
+   },
+   "price": null,
+   "visitMode": "exterior; interior según acceso",
+   "photo": {
+    "img": "assets/sarajevo/sinagoga-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Sinagoga Askenazí, concepto exterior sin arte sacro inventado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Sinagoga Askenazí, concepto exterior sin arte sacro inventado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "latin",
+   "name": "Puente Latino",
+   "kind": "monument",
+   "zone": "Stari Grad",
+   "reason": "El puente otomano de piedra sobre el Miljacka junto al cual Gavrilo Princip mató al archiduque Francisco Fernando en 1914: el lugar donde empezó la Primera Guerra Mundial.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.8576268,
+    "lon": 18.4289339
+   },
+   "coordinateSource": "nominatim: Latinska ćuprija, Sarajevo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 15,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/sarajevo/latin.jpg",
+    "source": "https://www.pexels.com/photo/historic-stone-bridge-in-sarajevo-winter-scene-32279783/",
+    "author": "Migdad Rešidović",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Puente Latino sobre el río Miljacka en invierno.",
+    "alt": "Puente Latino sobre el río Miljacka en invierno."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "museo1878",
+   "name": "Museo de Sarajevo 1878-1918",
+   "kind": "museum",
+   "zone": "Stari Grad",
+   "reason": "El pequeño museo en la esquina del asesinato del archiduque: la Sarajevo de los 40 años austrohúngaros, con la ropa, las armas y las fotos de junio de 1914.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "sarajevomuseum"
+   ],
+   "coordinates": {
+    "lat": 43.8576,
+    "lon": 18.4285
+   },
+   "coordinateSource": "editorial: Museo de Sarajevo 1878-1918 junto al Puente Latino (sin nodo OSM directo)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Fuente propia ya localizada. Exterior con huellas, fragmento de monumento y paneles es gratuito según artículo del museo6ene2026; no confundir con la entrada interior. No añadir automáticamente todos los museos del abono.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Octubre-mayo: lunes-viernes10-16,sábado10-15,domingo cerrado. Mayo-octubre: lunes-viernes9-17,sábado10-15. Meses frontera mayo/octubre se solapan en la web.",
+    "source": "https://www.muzejsarajeva.ba/en/kontakt/"
+   },
+   "price": "5 KM adulto/turista; estudiantes2 KM, niños y pensionistas1 KM. Entrada conjunta cinco anexos20 KM; condiciones a confirmar.",
+   "visitMode": "interior solo si se confirma acceso",
+   "photo": {
+    "img": "assets/sarajevo/museo1878-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo 1878-1918, concepto de edificio y puente, no réplica real. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo 1878-1918, concepto de edificio y puente, no réplica real. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Interior Museo Sarajevo1878-1918, no exposición exterior gratuita",
+    "noticeLabel": "Museo Sarajevo1878-1918",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     0
+    ],
+    "notices": [
+     "Invierno lun-vie10-16;sábado10-15. Interior5KM general, exterior conceptual gratuito."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "historia",
+   "name": "Museo de Historia de Bosnia y Herzegovina",
+   "kind": "museum",
+   "zone": "Novo Sarajevo",
+   "reason": "La memoria del asedio de Sarajevo (1992-1995): la exposición permanente sobre los 1.425 días de sitio con objetos donados por los vecinos, además de la Yugoslavia socialista y la Bosnia antigua.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "muzejba"
+   ],
+   "coordinates": {
+    "lat": 43.8549367,
+    "lon": 18.4009044
+   },
+   "coordinateSource": "nominatim: Historijski Muzej Bosne i Hercegovine, Zmaja od Bosne",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Diario 9-19 según museo. Visita guiada en inglés 30 KM publicada aparte de la entrada; confirmar modalidad y reserva. Transporte desde centro sin línea primaria verificada, no garantizar tranvía 3.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Todos los días 9:00-19:00.",
+    "source": "https://muzej.ba/korisne-informacije/"
+   },
+   "price": "10 KM adultos; 2 KM grupos escolares; 1 KM personas con discapacidad; visita guiada 30 KM (inglés) / 20 KM (bosnio).",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/sarajevo/historia-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo de Historia de Bosnia, edificio imaginado sin piezas inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Museo de Historia de Bosnia, edificio imaginado sin piezas inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo de Historia de Bosnia y Herzegovina",
+    "noticeLabel": "Museo de Historia de Bosnia y Herzegovina",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Diario9-19,entrada10KM adulto. Guiado aparte30KMinglés/20KMbosnio. Reservar desplazamiento y regreso."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "tunel",
+   "name": "Túnel de la Esperanza (Tunel spasa)",
+   "kind": "museum",
+   "zone": "Ilidža",
+   "reason": "Museo del túnel construido durante el asedio de Sarajevo junto al aeropuerto. En el lado de Butmir se visitan25m auténticos y100m revitalizados según el operador, no los800m del túnel histórico.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "mcs"
+   ],
+   "coordinates": {
+    "lat": 43.8246123,
+    "lon": 18.340832
+   },
+   "coordinateSource": "nominatim: Tunel spasa, Donji Kotorac, Ilidža",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Noviembre-marzo 9-16, último acceso 15:30. Visita desde el lado de Butmir: conserva 25 m auténticos y 100 m revitalizados según operador, no se recorre el antiguo túnel entero bajo la pista. Desplazamiento de ida y vuelta pendiente de ruta primaria; reservar media jornada amplia. Efectivo KM obligatorio.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "1 abr-31 oct: 8:30-17:00 (última entrada 16:30); 1 nov-31 mar: 9:00-16:00 (última entrada 15:30).",
+    "source": "https://www.mcsarajevo.ba/tunel-spasa"
+   },
+   "price": "20 KM general; 8 KM estudiantes y escolares. Audioguía 3 KM extra. Gratis menores de 6. SOLO efectivo en KM: no tarjetas ni moneda extranjera.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/sarajevo/tunel-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Túnel de la Esperanza, casa imaginada sin reproducir el túnel ni sus piezas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Túnel de la Esperanza, casa imaginada sin reproducir el túnel ni sus piezas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Túnel de la Esperanza (Tunel spasa)",
+    "noticeLabel": "Túnel de la Esperanza (Tunel spasa)",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Invierno9-16,últimoacceso15:30. Entrada20KM,estudiantes/alumnos8KM,audio3KM. Solo efectivoKM."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "amarillo",
+   "name": "Bastión Amarillo (Žuta tabija)",
+   "kind": "viewpoint",
+   "zone": "Vratnik",
+   "reason": "El mirador de la muralla otomana de Vratnik: la panorámica clásica de Sarajevo entre tejados y minaretes, donde en Ramadán el cañonazo marca el fin del ayuno; el atardecer de la guía.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.861458,
+    "lon": 18.4377237
+   },
+   "coordinateSource": "nominatim: Žuta tabija, Vratnik, Sarajevo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Subida con cuestas por Vratnik (15-20 min desde Baščaršija); al atardecer según la guía.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/sarajevo/amarillo-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Bastión Amarillo, concepto de vistas desde la colina. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Bastión Amarillo, concepto de vistas desde la colina. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "avaz",
+   "name": "Torre Avaz Twist",
+   "kind": "viewpoint",
+   "zone": "Marijin Dvor",
+   "reason": "Torre de fachada helicoidal con mirador de pago en Marijin Dvor. Visita opcional con traslado: comprobar horario, acceso y visibilidad; no panorama garantizado.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "avaz-own"
+   ],
+   "coordinates": {
+    "lat": 43.8610821,
+    "lon": 18.4020199
+   },
+   "coordinateSource": "nominatim: Avaz Twist Tower, Tešanjska, Sarajevo",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Mirador de pago sin tarifa primaria verificada: comprobar in situ; junto a la estación de tren, a 15 min andando del Museo de Historia.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Horario para fecha no recuperado en la página propia del mirador. Confirmar antes del traslado.",
+    "source": "https://avaztwisttower.ba/experiences/observation-deck"
+   },
+   "price": "Web propia del mirador: entrada 5 KM publicada, no sesión ni compra confirmada. Confirmar tarifa y acceso para fecha.",
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/sarajevo/avaz.jpg",
+    "alt": "Sarajevo: fachada de vidrio y remate de la Avaz Twist Tower. Foto de archivo exterior, no vista desde el mirador ni entrada incluida.",
+    "caption": "Sarajevo: fachada de vidrio y remate de la Avaz Twist Tower. Foto de archivo exterior, no vista desde el mirador ni entrada incluida.",
+    "author": "Lothar Boris Piltz",
+    "source": "https://unsplash.com/photos/a-very-tall-building-with-a-sky-background-vFud5kqyK6Y",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "identitySource": "https://culturecard.ba/en/pages/avaz-observation-deck"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "mostar",
+   "name": "Mostar y su Stari Most",
+   "kind": "excursion",
+   "zone": "Mostar (Herzegovina)",
+   "reason": "Excursión editorial de día completo al puente Stari Most y al bazar de Kujundžiluk. Sustituye un día de Sarajevo; transporte y regreso por confirmar para la fecha real.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "zfbh",
+    "redvoznje"
+   ],
+   "coordinates": {
+    "lat": 43.3372636,
+    "lon": 17.8150367
+   },
+   "coordinateSource": "nominatim: Stari most, Mostar",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "Ruta de día completo condicionada a confirmar ida y vuelta con ŽFBH. La salida de 16:46 no permite este paseo de día desde Sarajevo. No usar las llegadas 8:35/19:07 a Sarajevo como salidas de Mostar. Tabla 2025/26 con notas estivales y una errata 2025 conservada; no prolongarla a 2027. Sin clavadistas o entradas a mezquitas garantizados.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Desde 13,90 KM por trayecto según Red vožnje (secundaria), no tarifa final verificada con ŽFBH.",
+   "visitMode": "excursión de día completo condicionada a ida y vuelta",
+   "photo": {
+    "img": "assets/sarajevo/mostar.jpg",
+    "alt": "Puente Viejo de Mostar sobre el Neretva y casco histórico. Foto de archivo; no confirma transporte de ida y vuelta desde Sarajevo.",
+    "caption": "Puente Viejo de Mostar sobre el Neretva y casco histórico. Foto de archivo; no confirma transporte de ida y vuelta desde Sarajevo.",
+    "author": "Ehsan Haque",
+    "source": "https://www.pexels.com/photo/aerial-view-of-historic-mostar-bridge-in-bosnia-30944550/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.tourismbih.com/location/old-bridge-mostar/"
+   },
+   "transport": "ŽFBH confirma salidas de Sarajevo hacia Čapljina a las 7:15 y 16:46 en tabla 2025/26. La página primaria no da paso por Mostar. Fuente secundaria Red vožnje: 7:15-9:13 ida y 17:09-19:07 regreso (trenes 723/722), unos 2 h por trayecto; verificar en operador para la fecha elegida antes de usarlo como conexión.",
+   "visit": "Excursión editorial de día completo al puente Stari Most y al bazar de Kujundžiluk. Sustituye un día de Sarajevo; transporte y regreso por confirmar para la fecha real.",
+   "minutes": 720,
+   "photoPending": false
+  },
+  {
+   "id": "vrelo_bosne",
+   "name": "Vrelo Bosne",
+   "kind": "excursion",
+   "zone": "Ilidža (Sarajevo)",
+   "reason": "Paseo opcional por el manantial del Bosna y la avenida de plátanos. Reservar media jornada amplia. No incluye Trebević ni Bjelašnica: son otros planes y otros traslados.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.8219913,
+    "lon": 18.269423
+   },
+   "coordinateSource": "nominatim: Vrelo Bosne, Ilidža",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Transporte, acceso y tarifas por confirmar. No combina automáticamente con montañas olímpicas ni teleférico.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Precio de acceso pendiente de primaria. No se presume gratuito; coche de caballos y servicios aparte, sin tarifa verificada.",
+   "visitMode": "excursión con acceso y transporte pendientes",
+   "photo": {
+    "img": "assets/sarajevo/vrelo_bosne-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Vrelo Bosne, arroyo y parque imaginados. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Vrelo Bosne, arroyo y parque imaginados. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "visit": "Paseo opcional por el manantial del Bosna y la avenida de plátanos. Reservar media jornada amplia. No incluye Trebević ni Bjelašnica: son otros planes y otros traslados.",
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Baščaršija y el 1914",
+     "zone": "Ayuntamiento (Vijećnica) → Puente Latino → Museo 1878-1918 → Fuente Sebilj → Baščaršija → Mezquita Gazi Husrev-beg → Sinagoga → Bastión Amarillo",
+     "stopIds": [
+      "vijecnica",
+      "latin",
+      "museo1878",
+      "sebilj",
+      "bascarsija",
+      "gazi",
+      "sinagoga",
+      "amarillo"
+     ],
+     "editorialNote": "En invierno, si se quiere entrar a Gazi Husrev-beg, empezar allí9-11 antes de seguir el paseo. Elegir un interior principal (mezquita o Museo1878-1918), no ambos obligatorios. Vijećnica exterior base, interior opcional según precio/programación. BastiónAmarillo opcional con cuestas y luz suficiente.",
+     "optionalStopIds": [
+      "amarillo"
+     ]
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Baščaršija y el 1914",
+     "zone": "Ayuntamiento (Vijećnica) → Puente Latino → Museo 1878-1918 → Fuente Sebilj → Baščaršija → Mezquita Gazi Husrev-beg → Sinagoga → Bastión Amarillo",
+     "stopIds": [
+      "vijecnica",
+      "latin",
+      "museo1878",
+      "sebilj",
+      "bascarsija",
+      "gazi",
+      "sinagoga",
+      "amarillo"
+     ],
+     "editorialNote": "En invierno, si se quiere entrar a Gazi Husrev-beg, empezar allí9-11 antes de seguir el paseo. Elegir un interior principal (mezquita o Museo1878-1918), no ambos obligatorios. Vijećnica exterior base, interior opcional según precio/programación. BastiónAmarillo opcional con cuestas y luz suficiente.",
+     "optionalStopIds": [
+      "amarillo"
+     ]
+    },
+    {
+     "title": "El eje austrohúngaro: del Sagrado Corazón a Srebrenica",
+     "zone": "Mercado Markale → Catedral del Sagrado Corazón → Llama Eterna → Catedral Ortodoxa → Calle Ferhadija → Galería 11/07/95 → Torre Avaz Twist",
+     "stopIds": [
+      "markale",
+      "catedral",
+      "llama",
+      "ortodoxa",
+      "ferhadija",
+      "galeria",
+      "avaz"
+     ],
+     "editorialNote": "Markale por la mañana, paseo Ferhadija y exteriores de las catedrales. Galería 11/07/95 como visita principal de memoria: horario diario 9-21, audioguía en español, sin fotos y precio por confirmar. Avaz opcional con traslado propio y acceso/tarifa pendientes, no una vista garantizada al final del día.",
+     "optionalStopIds": [
+      "avaz"
+     ]
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Baščaršija y el 1914",
+     "zone": "Ayuntamiento (Vijećnica) → Puente Latino → Museo 1878-1918 → Fuente Sebilj → Baščaršija → Mezquita Gazi Husrev-beg → Sinagoga → Bastión Amarillo",
+     "stopIds": [
+      "vijecnica",
+      "latin",
+      "museo1878",
+      "sebilj",
+      "bascarsija",
+      "gazi",
+      "sinagoga",
+      "amarillo"
+     ],
+     "editorialNote": "En invierno, si se quiere entrar a Gazi Husrev-beg, empezar allí9-11 antes de seguir el paseo. Elegir un interior principal (mezquita o Museo1878-1918), no ambos obligatorios. Vijećnica exterior base, interior opcional según precio/programación. BastiónAmarillo opcional con cuestas y luz suficiente.",
+     "optionalStopIds": [
+      "amarillo"
+     ]
+    },
+    {
+     "title": "El eje austrohúngaro: del Sagrado Corazón a Srebrenica",
+     "zone": "Mercado Markale → Catedral del Sagrado Corazón → Llama Eterna → Catedral Ortodoxa → Calle Ferhadija → Galería 11/07/95 → Torre Avaz Twist",
+     "stopIds": [
+      "markale",
+      "catedral",
+      "llama",
+      "ortodoxa",
+      "ferhadija",
+      "galeria",
+      "avaz"
+     ],
+     "editorialNote": "Markale por la mañana, paseo Ferhadija y exteriores de las catedrales. Galería 11/07/95 como visita principal de memoria: horario diario 9-21, audioguía en español, sin fotos y precio por confirmar. Avaz opcional con traslado propio y acceso/tarifa pendientes, no una vista garantizada al final del día.",
+     "optionalStopIds": [
+      "avaz"
+     ]
+    },
+    {
+     "title": "Memoria del asedio",
+     "zone": "Túnel de la Esperanza → Museo de Historia de Bosnia y Herzegovina",
+     "stopIds": [
+      "tunel",
+      "historia"
+     ],
+     "editorialNote": "Túnel por la mañana en invierno: abre 9-16 y último acceso 15:30; reservar tiempo de ida y vuelta antes de acudir al Museo de Historia (9-19). Dos espacios de memoria exigentes, con pausa; si el traslado se retrasa, elegir uno. No añadir Mostar ni Vrelo Bosne a este día."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Museo de Historia de BiH: diario 9-19, 10 KM (guiada 30 KM en inglés).",
+  "Galería 11/07/95: diario 9-21; precio no publicado en la web (audioguía en español disponible); fotografía prohibida.",
+  "Túnel de la Esperanza: abr-oct 8:30-17 (última 16:30) / nov-mar 9-16 (última 15:30); 20 KM, estudiantes 8 KM; a 9 km del centro.",
+  "Tren a Mostar verificado en horario ŽFBH 2025/2026: ida 7:15 y 16:46; regreso con llegada a Sarajevo 8:35 y 19:07, pero la hora exacta de paso por Mostar NO está extraída (verificar el día anterior en zfbh.ba).",
+  "Vijećnica, Museo 1878-1918 y mirador de la torre Avaz sin tarifario primario localizado tras búsqueda en el sitio: interiores por confirmar.",
+  "Mezquita, catedrales y sinagoga: templos activos sin horario turístico primario; visita diurna fuera de culto.",
+  "Visitas: 10 fotos reales y 9 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Nada reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: qué ver en Sarajevo",
+   "url": "https://www.viajeroscallejeros.com/que-ver-en-sarajevo/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Sarajevo y lugares",
+   "url": "https://es.wikipedia.org/wiki/Sarajevo",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "muzejba",
+   "title": "Museo de Historia de BiH: korisne informacije",
+   "url": "https://muzej.ba/korisne-informacije/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "g110795",
+   "title": "Galería 11/07/95: information for visitors",
+   "url": "https://galerija110795.ba/information-for-visitors/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mcs",
+   "title": "Memorial Center Sarajevo: Tunel spasa",
+   "url": "https://www.mcsarajevo.ba/tunel-spasa",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "zfbh",
+   "title": "ŽFBH: horario de trenes 2025/2026",
+   "url": "https://www.zfbh.ba/en/time-table/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vij",
+   "title": "Vijećnica: web oficial (historia; sin tarifario localizado)",
+   "url": "https://vijecnica.ba/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "redvoznje",
+   "title": "Red vožnje: tabla Sarajevo-Mostar, fuente secundaria de transporte",
+   "url": "https://redvoznje.ba/en/sarajevo-to-mostar-train/",
+   "type": "transport-aggregator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sarajevomuseum",
+   "url": "https://www.muzejsarajeva.ba/en/kontakt/",
+   "title": "Museo Sarajevo: horarios y entradas",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "gazi-own",
+   "url": "https://www.vakuf-gazi.ba/information-for-tourists/",
+   "title": "Gazi Husrev-beg vakuf: visita mezquita y museo",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "gazi-second",
+   "url": "https://begovadzamija.ba/en/tourism/",
+   "title": "Mezquita: información turística",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vij-info",
+   "url": "https://vijecnica.ba/program/servisne-informacije",
+   "title": "Vijećnica: servicio al visitante",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "avaz-own",
+   "name": "Avaz Twist Tower · mirador, web propia",
+   "url": "https://avaztwisttower.ba/experiences/observation-deck"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

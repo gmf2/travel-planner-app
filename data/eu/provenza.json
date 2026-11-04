@@ -1,0 +1,870 @@
+{
+ "schemaVersion": 1,
+ "country": "FR",
+ "id": "provenza",
+ "name": "Provenza",
+ "localName": "Provence",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "avinon",
+   "name": "Aviñón y Palacio de los Papas",
+   "kind": "walk",
+   "zone": "Aviñón",
+   "reason": "Palacio de los Papas como visita principal, con paseo por la ciudad amurallada. Puente de Saint-Bénézet y jardines son opciones según producto, horario y energía.",
+   "sourceIds": [
+    "lvm",
+    "wp",
+    "pdp"
+   ],
+   "coordinates": {
+    "lat": 43.950708,
+    "lon": 4.807685
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Palais%20des%20Papes%2C%20Avignon%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Obras de museografía hasta primavera de 2027, con posibles cambios de recorrido. La página oficial mantiene textos distintos sobre la mediación, nueva WebApp en 6 idiomas e Histopad en 7: confirmar qué se ofrece en la fecha. Llevar auriculares. Última entrada 1 h antes del cierre. Las gratuidades de residentes no se aplican por defecto a visitantes. Referencia coche: parking Palais des Papes, acceso 2 rue Ferruce, 24 h, altura máxima 1, 90 m y 825 plazas de capacidad, no plazas libres. Operador publica hora 2, 80 € / día 19, 30 € fuera julio-agosto, y 3, 20 € / 26, 80 € julio-agosto. Tarde 19-01 a 2 € solo entrada después de 19 y salida antes de 01 fuera julio-agosto. No es parking del hotel ni permiso para circular por calles peatonales.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Palacio de los Papas (oficial): 1-4 ene 10-18; 5 ene-6 feb 10-17; 7-28 feb 10-18; 1 mar-1 nov 9-19; 2 nov-18 dic 10-17; 19-31 dic 10-18; última entrada 1 h antes; abierto todos los días del año.",
+    "source": "https://palais-des-papes.com/tarifs/"
+   },
+   "price": "Palacio + jardines pontificios + puente: 19, 50 € general, 16 € reducida, 12 € de 10 a 17 años. Palacio solo: 16 €, 13 € reducida, 10 € de 10 a 17 años. Menores de 10 gratis según condiciones. CityPass 24 h: 24 €; 48 h: 32 €, producto distinto.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/provenza/avinon.jpg",
+    "source": "https://www.pexels.com/photo/historic-palace-of-the-popes-in-avignon-30037011/",
+    "author": "Bingqian Li",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Exterior del Palacio de los Papas en Aviñón. No muestra todas las visitas de la ciudad.",
+    "alt": "Exterior del Palacio de los Papas en Aviñón. No muestra todas las visitas de la ciudad."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "gordes",
+   "name": "Gordes, el balcón del Luberon",
+   "kind": "walk",
+   "zone": "Gordes",
+   "reason": "Pueblo de piedra seca en cascada sobre el valle, castillo renacentista y mirador de la carretera de entrada. El Village des Bories está fuera del casco y es una visita de pago aparte, no incluido en este paseo.",
+   "sourceIds": [
+    "lvm",
+    "wp",
+    "driving1020-0",
+    "gordes-parking1020",
+    "gordes-town1095",
+    "gordes-pay1095"
+   ],
+   "coordinates": {
+    "lat": 43.911064,
+    "lon": 5.200204
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Gordes%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Calles empinadas de piedra. Aparcar en Charles de Gaulle, confirmado en lista municipal y Maps, sin promesa de plaza. Evitar atravesar el pueblo en coche el martes por la mañana por mercado. PayByPhone publica comisión 15 %, máximo 2 € por transacción, y SMS opcional 0, 20 €; no incluidos en tarifa base del horodador. Autobuses y campers obligatoriamente en Gendarmerie, no usar su tarifa para coche.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Parking municipal de pago todos los días 8-19. Las 30 min gratis requieren ticket; zona azul distinta, 30 min con disco. No es horario de cierre del pueblo.",
+    "source": "https://www.gordes-village.com/stationnement%2Cstationner-a-gordes%2C1028%2C143.html"
+   },
+   "price": "Pueblo libre. Parking de coche: 30 min gratis con ticket obligatorio; hasta 4 h 8 €, más de 4 hasta 11 h 10 €, más de 11 h 30 €. Tarifa municipal consultada 03/11/2026, no una tarifa confirmada para 2027. Village des Bories aparte: 8 € adulto, 4 € estudiante/12-17 años, menores de 12 gratis según propia, no incluido aquí.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/provenza/gordes.jpg",
+    "source": "https://www.pexels.com/photo/charming-gordes-village-in-provence-france-38069762/",
+    "author": "Susanne Jutzeler, suju-foto",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Pueblo de Gordes en el Luberon. Foto de archivo, no estado actual del tiempo.",
+    "alt": "Pueblo de Gordes en el Luberon. Foto de archivo, no estado actual del tiempo."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "senanque",
+   "name": "Abadía de Sénanque",
+   "kind": "monument",
+   "zone": "Gordes",
+   "reason": "Abadía cisterciense en un valle junto a Gordes, con comunidad monástica activa. La lavanda es estacional y su floración no está garantizada.",
+   "sourceIds": [
+    "lvm",
+    "wp",
+    "senanque-own",
+    "senanque-access1020",
+    "driving1020-1",
+    "driving1020-2"
+   ],
+   "coordinates": {
+    "lat": 43.928455,
+    "lon": 5.18715
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Abbaye%20Notre-Dame%20de%20S%C3%A9nanque%2C%20Gordes%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 75,
+   "durationType": "editorial-estimate",
+   "caution": "Comunidad activa: silencio y ropa adecuada. Los campos de lavanda están cerrados al acceso y los drones están prohibidos. Escaleras: interior no accesible en silla de ruedas. Guiada en francés; HistoPad disponible en español. Última entrada no guiada 16: 00 según página principal; no desplazar visita a última luz para una foto. Acceso: D 177 de salida en sentido único hacia Venasque del 15/03 al 30/09, permanente para autocar/caravana/camión. Parking visitantes gratuito a 5 min a pie, sin noche/camping. Confirmar recorrido y señalización.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Guiadas de 1 h en francés: lunes a sábado 10: 30, 14: 00 y 15: 30; domingo 14: 00 y 15: 30. No guiadas con HistoPad: lunes a sábado 10: 00-11: 00 y 13: 00-16: 00 (horas finales de última entrada); domingo 13: 45-16: 00. Confirmar turno para la fecha.",
+    "source": "https://www.senanque.fr/visite-de-labbaye/"
+   },
+   "price": "Visita guiada o libre con HistoPad: 8 €. Estudiantes de 18 a 25 años con tarjeta: 6 €. De 6 a menos de 18 años: 4 €, gratis desde el tercer menor de 18. Menores de 6 gratis.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/provenza/senanque-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual de Abadía de Sénanque. No es una foto real ni reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Abadía de Sénanque. No es una foto real ni reproduce con exactitud edificios, caminos, temporada o acceso actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "fontaine_vaucluse",
+   "name": "Fontaine-de-Vaucluse, paseo junto a la Sorgue",
+   "kind": "walk",
+   "zone": "Fontaine-de-Vaucluse",
+   "reason": "Pueblo junto a la Sorgue y paseo autorizado hasta la barrera. El acceso al gouffre, la surgencia al pie del acantilado, está prohibido por riesgo de desprendimientos: no se propone llegar a la fuente ni se promete verla directamente.",
+   "sourceIds": [
+    "lvm",
+    "wp",
+    "fontaine-town",
+    "fontaine-decree",
+    "fontaine-department"
+   ],
+   "coordinates": {
+    "lat": 43.922123,
+    "lon": 5.127291
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Fontaine-de-Vaucluse%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "No sortear la barrera ni buscar otro acceso al gouffre. Decreto municipal 13-2026, firmado 05/02/2026: prohibida toda aproximación por cualquier acceso y actividades en/sobre/bajo el acantilado hasta nueva orden. Departamento permite paseo hasta la barrera, no los últimos unos 50 m. Respetar señalización, especialmente con lluvia. Obras o proyectos de mirador no prueban reapertura; el pueblo no está cerrado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Gouffre y pie del acantilado cerrados al público hasta nueva orden. Paseo solo por tramo autorizado, según señalización. No es un horario de apertura anual.",
+    "source": "https://www.fontainedevaucluse.fr/actualites/105-interdiction-de-toutes-activites-sur-et-sous-la-falaise-du-gouffre/"
+   },
+   "price": "No se ofrece entrada al gouffre cerrado. Coste de aparcamiento y visitas de museo en el pueblo pendientes.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/provenza/fontaine_vaucluse-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual de Fontaine-de-Vaucluse, paseo junto a la Sorgue. No es una foto real ni reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Fontaine-de-Vaucluse, paseo junto a la Sorgue. No es una foto real ni reproduce con exactitud edificios, caminos, temporada o acceso actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "accessRules": {
+    "scope": "Gouffre y pie del acantilado, no todo el pueblo",
+    "noticeLabel": "Acceso al gouffre prohibido",
+    "standingAdvisory": "Gouffre cerrado hasta nueva orden por riesgo de desprendimientos. Solo paseo autorizado hasta la barrera; no buscar accesos alternativos. El pueblo sigue siendo una visita distinta."
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "roussillon",
+   "name": "Roussillon: pueblo y sendero ocre",
+   "kind": "walk",
+   "zone": "Roussillon",
+   "reason": "Paseo por el pueblo de fachadas ocres, con el Sentier des Ocres como visita separada si está abierto. La foto muestra el pueblo, no el sendero.",
+   "sourceIds": [
+    "lvm",
+    "wp",
+    "ochres-own",
+    "ochres-calendar-own",
+    "driving1020-3"
+   ],
+   "coordinates": {
+    "lat": 43.902477,
+    "lon": 5.292088
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Roussillon%2C%20Vaucluse%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Recorridos 30-60 min según turismo. Sin reserva, pago en sitio; sendero arenoso y escaleras, no accesible completo a silla/carrito. Solo primeros 50 m al mirador accesibles. Puede cerrar por clima o riesgo de incendio. Parkings municipales de barrera Les Ocres/St Michel/St Joseph de pago: facturación por cuarto de hora hasta 12 h y luego por hora, importe exacto pendiente. Pasquier es zona azul de máximo 45 min con disco europeo, no papel escrito, y cierra jueves 06: 00-14: 30 por mercado. No usarla para una visita larga del sendero. Coches y autocares/camper tienen zonas distintas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Horario de temporada publicado, variable con clima/incendio. Nov 1-15 página editorial indica 10-16: 30 última, salida 17. Nov 16 invierno última 15: 30/salida 16, pero un apartado conserva año 2025/26 y ficha 2026/27 lista el periodo sin relación robusta en extracción; consultar fecha exacta. No prometer atardecer.",
+    "source": "https://www.luberon-apt.fr/ocres-en-luberon-0/le-sentier-des-ocres"
+   },
+   "price": "Sentier des Ocres: turismo publica 3, 50 € general, 2, 50 gruposmín 15; menores 10 gratis. Ficha estructurada de tarifas conserva vigencia 2025-4 ene 2026, mientras página editorial mantiene el precio: verificar tarifa de fecha antes de comprar.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/provenza/roussillon.jpg",
+    "source": "https://www.pexels.com/photo/charming-village-rooftops-in-roussillon-france-38611136/",
+    "author": "Susanne Jutzeler, suju-foto",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Tejados y fachadas ocres de Roussillon. No muestra el Sentier des Ocres ni acredita que esté abierto.",
+    "alt": "Tejados y fachadas ocres de Roussillon. No muestra el Sentier des Ocres ni acredita que esté abierto."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lacoste",
+   "name": "Lacoste, el pueblo del Marqués de Sade",
+   "kind": "walk",
+   "zone": "Lacoste",
+   "reason": "El pueblo colgado frente a Bonnieux con las ruinas del castillo del Marqués de Sade (restaurado por Pierre Cardin) y callejones empedrados entre talleres de artistas.",
+   "sourceIds": [
+    "lvm",
+    "wp",
+    "lacoste-own1100",
+    "lacoste-town1100"
+   ],
+   "coordinates": {
+    "lat": 43.831896,
+    "lon": 5.27285
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Lacoste%2C%20Vaucluse%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Castillo con taquilla y sin reserva según municipio para la temporada 2026, no prueba de apertura hoy o en 2027. Calles empinadas de piedra: calzado firme y valorar movilidad. Accesibilidad concreta, parking y política de devolución pendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Calendario publicado del castillo, solo 2026: 3-15 mayo y septiembre, lunes-viernes 10-13/14-18, sábado cerrado, domingo 14-18; 16 mayo-31 agosto, lunes-sábado 10-13/14-19 y domingo 14-19. No hay calendario verificado después del 30/09/2026: no planificar interior fuera de temporada sin confirmación. Pueblo exterior distinto.",
+    "source": "https://www.chateaudumarquisdesade.com/informations-pratiques"
+   },
+   "price": "Pueblo libre. Castillo: propia publica 5 €, menores de 12 gratis con justificante; municipio para septiembre 2026 dice menores de 10 acompañados. Umbral 10-11 años en conflicto, confirmar. Tarifas observadas 03/11/2026, no precio confirmado para 2027.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/provenza/lacoste-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual de Lacoste. No es una foto real ni reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Lacoste. No es una foto real ni reproduce con exactitud edificios, caminos, temporada o acceso actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "bonnieux",
+   "name": "Bonnieux y su iglesia alta",
+   "kind": "walk",
+   "zone": "Bonnieux",
+   "reason": "La terraza del Luberon: la iglesia vieja arriba con la vista sobre el valle del Calavon hacia Lacoste y Roussillon, y el bosque de cedros en la cresta cercana.",
+   "sourceIds": [
+    "lvm",
+    "wp",
+    "driving1020-4",
+    "driving1020-5",
+    "bonnieux-tourism1036",
+    "bonnieux-hotel1036"
+   ],
+   "coordinates": {
+    "lat": 43.823612,
+    "lon": 5.307826
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Bonnieux%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Subida de escalones a la iglesia alta; alternativa en la iglesia nueva de la base. Turismo de Apt indica parkings gratuitos en Bonnieux y carga eléctrica en Pré du Bourg. El hotel local Le Clos du Buis advierte zona azul en casco: máximo 1 h 30 con disco. No dar por gratuito e ilimitado cualquier hueco: leer panel. Maps no devolvió un lugar inequívoco llamado Pré du Bourg; el destino de conducción sigue siendo punto genérico, no plaza/parking confirmado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/provenza/bonnieux-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual de Bonnieux. No es una foto real ni reproducción exacta.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Bonnieux. No es una foto real ni reproduce con exactitud edificios, caminos, temporada o acceso actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "arles",
+   "name": "Arlés, la Roma provenzal",
+   "kind": "walk",
+   "zone": "Arlés",
+   "reason": "Casco histórico y un interior romano a elegir. Anfiteatro y teatro antiguo son edificios distintos; el billete combinado no elimina tiempo de traslado ni asegura que ambos estén abiertos. Pasear por plaza del Foro y junto al Ródano sin intentar todos los monumentos en una sola parada.",
+   "sourceIds": [
+    "lvm",
+    "wp",
+    "arles-tour1106",
+    "arles-pdf1106"
+   ],
+   "coordinates": {
+    "lat": 43.677622,
+    "lon": 4.630965
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Arles%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 180,
+   "durationType": "editorial-estimate",
+   "caution": "Los pases no incluyen fundaciones privadas. Glanum y Montmajour no están incluidos: el pase puede dar tarifa reducida, no entrada gratis. No elegir 19 € por supuesta rentabilidad sin contar visitas reales. Cancelación, accesibilidad por monumento y parking pendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Consultar calendario de cada monumento/museo y eventos para tu fecha. Folleto primavera 2026 indica última entrada 30 min antes; no se aplica horario de abril/mayo a noviembre o 2027. Pass no garantiza apertura de todos los sitios.",
+    "source": "https://www.arlestourisme.com/fr/comment-visiter-arles.html"
+   },
+   "price": "Turismo oficial consultado 03/11/2026: Pass Liberté 15 € general / 13 € reducido, 4 monumentos a elegir + Réattu + 1 museo a elegir, válido 1 mes; Avantage 19 €/16 €, 6 monumentos + 4 museos, 6 meses. Menores 18 acompañados gratis con justificante. Folleto primavera 2026: anfiteatro + teatro 11 €/9 €, no 11 € cada uno. No precio confirmado 2027; elegibilidad reducida y checkout por revisar.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/provenza/arles-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Arles, anfiteatro romano. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Arles, anfiteatro romano. No es una foto real ni una reproducción exacta de edificios, ruinas, caminos o acceso actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "saint_remy",
+   "name": "Saint-Rémy-de-Provence y Glanum",
+   "kind": "walk",
+   "zone": "Saint-Rémy-de-Provence",
+   "reason": "Paseo por Saint-Rémy y, si se elige, un interior principal: ruinas de Glanum o centro cultural Saint-Paul de Mausole, con habitación recreada de Van Gogh y reproducciones en jardín, no cuadros originales. Entradas separadas; no incluir ambos automáticamente en un paseo urbano corto.",
+   "sourceIds": [
+    "lvm",
+    "wp",
+    "glanum-own1106",
+    "glanum-pdf1106",
+    "stpaul-own1106",
+    "stpaul-tour1106"
+   ],
+   "coordinates": {
+    "lat": 43.788578,
+    "lon": 4.83175
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Saint-R%C3%A9my-de-Provence%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 210,
+   "durationType": "editorial-estimate",
+   "caution": "Glanum: visita libre 1 h 30 según CMN, poco sombreado, difícil movilidad motora; no subir a ruinas, perros salvo asistencia y bolsas grandes prohibidos, sin consigna. Saint-Paul: circuitos jardín accesibles según propia, turismo dice silla con ayuda; no certificar acceso autónomo a todas habitaciones. Clínica en activo, respetar zonas privadas. Añadir trayectos desde centro. Política de devolución y calendario 2027 Glanum pendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Glanum: 1 oct-31 mar 10-17, lunes cerrado, último acceso 45 min antes; 24/31 dic hasta 16. Cerrado 01/01, 01/05, 01/11, 11/11, 21/12 y 25/12 según web actual. Folleto 2026 omite 21/12 y discrepa sobre final de verano: consultar fecha. Saint-Paul: 01/10/2026-03/01/2027 diario 10: 15-17: 15, último acceso 16: 30, cerrado 25/12/2026 y 01/01/2027. Cierre invierno desde 04/01/2027; turismo anuncia 03/02/2027 reapertura, aún no confirmada en propia.",
+    "source": "https://www.site-glanum.fr/visiter/informations-pratiques"
+   },
+   "price": "Glanum: 9 € general, audioguía ES 4 € extra; combinado Hôtel deSade 12 € o Montmajour 14 €, sujeto a apertura de ambos. Menores 18 gratis; 18-25 deUE o residentes regulares en Francia con condiciones gratis. Parking municipal frente a Glanum 4 €/8 h coche según CMN. Saint-Paul: 10 € adulto / 7 € reducido; turismo publica reducido 8 € desde 03/02/2027, no aplicar 7 € a 2027. Menores 12 gratis según turismo. Sin checkout ni reserva.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/provenza/saint_remy-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Glanum, ruinas junto a Saint-Rémy. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Glanum, ruinas junto a Saint-Rémy. No es una foto real ni una reproducción exacta de edificios, ruinas, caminos o acceso actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "aix",
+   "name": "Aix-en-Provence",
+   "kind": "walk",
+   "zone": "Aix-en-Provence",
+   "reason": "Paseo por el casco de Aix-en-Provence y el Cours Mirabeau. Talleres, museos y mercados tienen calendario propio y no se dan por abiertos al pasar.",
+   "sourceIds": [
+    "lvm",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.529842,
+    "lon": 5.447474
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Aix-en-Provence%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 180,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ciudad libre; taller de Cézanne y museos de pago (tarifas no verificadas).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/marsella/aix.jpg",
+    "alt": "Catedral Saint-Sauveur de Aix-en-Provence, foto de archivo de carlos corzo, CC BY-SA 3.0. Original sin cambios; no muestra el Cours Mirabeau ni confirma visita interior.",
+    "source": "https://commons.wikimedia.org/wiki/File:Aix_en_Provence_-_panoramio_(1).jpg",
+    "author": "carlos corzo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Catedral Saint-Sauveur de Aix-en-Provence, foto de archivo de carlos corzo, CC BY-SA 3.0. Original sin cambios; no muestra el Cours Mirabeau ni confirma visita interior."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "valensole",
+   "name": "Valensole y la meseta de la lavanda",
+   "kind": "viewpoint",
+   "zone": "Valensole",
+   "reason": "El gran mar de lavanda de la Provenza: kilómetros de hileras violeta a finales de junio y julio, con el pueblo y sus destilerías de lavandín.",
+   "sourceIds": [
+    "lvm",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.837928,
+    "lon": 5.983987
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Valensole%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "La floración es aprox. mediados junio-mediados julio (variable con el año); fuera de esas fechas la meseta no tiene color; campos privados: foto desde los márgenes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre a las carreteras entre campos.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/provenza/valensole-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Valensole, escena imaginada de verano. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Valensole, escena imaginada de verano. No es una foto real ni una reproducción exacta de edificios, ruinas, caminos o acceso actual. Lavanda en verano imaginado, no estado actual de floración.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "pont_du_gard",
+   "name": "Pont du Gard, el acueducto romano",
+   "kind": "excursion",
+   "zone": "Vers-Pont-du-Gard",
+   "reason": "El puente-acueducto romano (49 m, tres pisos) sobre el Gardon: museo, senderos, zonas fluviales sujetas a normas y acceso según condiciones.",
+   "sourceIds": [
+    "lvm",
+    "wp",
+    "pdg",
+    "gard-prices-own",
+    "gard-faq-own"
+   ],
+   "coordinates": {
+    "lat": 43.94707,
+    "lon": 4.535601
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Pont%20du%20Gard%2C%20Vers-Pont-du-Gard%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Nov-feb espacios culturales cerrados; no todo el sitio. Lunes mañana mantenimiento cultural. Entrada libre al puente no incluye museo ni visita guiada. Parking nocturno después de medianoche prohibido.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Sitio abierto a diario 8: 00-24: 00 (aparcar de noche prohibido tras medianoche). Espacios culturales (museo, cine, Ludo): CERRADOS nov-feb; mar/oct 9-18; abr-may-jun-sep 9-19; jul-ago 9-20; LUNES POR LA MAÑANA cerrados por mantenimiento. Taquilla cierra 30 min antes; recomiendan llegar 50 min antes.",
+    "source": "https://pontdugard.fr/fr/horaires"
+   },
+   "price": "Acceso al puente/sitio libre a pie o bici. Parking 9 € por vehículo, independiente de duración/personas. Espacios culturales 8 € general / 6 reducida; menores 18, estudiantes en familia y discapacidad gratis con condiciones. Visita guiada 15/13/6 €, producto aparte.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/provenza/pont_du_gard.jpg",
+    "source": "https://www.pexels.com/photo/pont-du-gard-ancient-roman-aqueduct-in-france-30187770/",
+    "author": "SlimMars 13",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Tres niveles del acueducto de Pont du Gard sobre el río. No representa la apertura de los espacios culturales ni acceso al nivel superior.",
+    "alt": "Tres niveles del acueducto de Pont du Gard sobre el río. No representa la apertura de los espacios culturales ni acceso al nivel superior."
+   },
+   "accessRules": {
+    "scope": "Museo, cine y Ludo del Pont du Gard, no puente ni exteriores",
+    "noticeLabel": "Museo, cine y Ludo del Pont du Gard, no puente ni exteriores",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-02-28",
+    "closedRanges": [
+     {
+      "start": "2026-11-01",
+      "end": "2027-02-28",
+      "label": "espacios culturales por invierno"
+     }
+    ],
+    "standingNotice": "Museo, cine y Ludo del Pont du Gard cerrados en invierno, de noviembre a febrero. El puente y los exteriores tienen condiciones y horario propios."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "marsella",
+   "name": "Marsella, el puerto viejo y el Panier",
+   "kind": "excursion",
+   "zone": "Marsella",
+   "reason": "Jornada independiente en Marsella, con el Vieux-Port y el Panier como eje exterior. Elegir un interior si encaja; usar su catálogo propio si es una etapa del viaje. No se fija un traslado de una hora desde una región sin base única.",
+   "sourceIds": [
+    "lvm",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.296399,
+    "lon": 5.377789
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Marseille%2C%20France",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "Si Marsella es etapa propia, usar su paquete. No se duplica como gran colección de interiores en excursión de un día.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Museos, transporte y otros interiores con tarifas propias pendientes; no se atribuye entrada de pago a Notre-Dame de la Garde sin verificar.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/marsella/vieuxport.jpg",
+    "alt": "Vieux-Port de Marsella, panorámica de archivo de Ingo Mehling, CC BY-SA 3.0. Original sin cambios; no muestra el Panier ni confirma salidas de barco.",
+    "source": "https://commons.wikimedia.org/wiki/File:Marseille_Old_Port.jpg",
+    "author": "Ingo Mehling",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Vieux-Port de Marsella, panorámica de archivo de Ingo Mehling, CC BY-SA 3.0. Original sin cambios; no muestra el Panier ni confirma salidas de barco."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Aviñón, una visita principal",
+     "stopIds": [
+      "avinon"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Palacio como interior principal; puente y jardines solo si producto, horario y energía encajan. LesHalles si abierto, no promesa de mercado a cualquier hora.",
+     "pacing": "Jornada urbana a pie. Referencia parking Palais 24 h, altura 1,90 m y 2,80 €/h / 19,30 €/día fuera julio-agosto, distinto en verano; no hay reserva/plaza confirmada. Clase de cocina 09:30-14:15, si se confirma, sustituye buena parte del día, no se suma a palacio/puente/mercado completos. Precio y cancelación de cada producto propios."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Aviñón, una visita principal",
+     "stopIds": [
+      "avinon"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Palacio como interior principal; puente y jardines solo si producto, horario y energía encajan. LesHalles si abierto, no promesa de mercado a cualquier hora.",
+     "pacing": "Jornada urbana a pie. Referencia parking Palais 24 h, altura 1,90 m y 2,80 €/h / 19,30 €/día fuera julio-agosto, distinto en verano; no hay reserva/plaza confirmada. Clase de cocina 09:30-14:15, si se confirma, sustituye buena parte del día, no se suma a palacio/puente/mercado completos. Precio y cancelación de cada producto propios."
+    },
+    {
+     "title": "Gordes y Sénanque",
+     "stopIds": [
+      "gordes",
+      "senanque"
+     ],
+     "optionalStopIds": [
+      "fontaine_vaucluse"
+     ],
+     "editorialNote": "Gordes como paseo de 2-4 h según turismo y abadía según turno real. Desde parking Palais de Aviñón: Maps sin fecha/tráfico 46, 3 km / 47 min a un punto de Gordes; 2, 9 km / 6 min a Sénanque y vuelta a Aviñón 48 km / 50 min. La abadía describe acceso de 5 km desde Gordes: puntos distintos, no cronometrar al minuto ni tratar el punto genérico como parking. Bories, si se elige, añade desplazamiento y visita de 45-60 min: sustituir otra visita, no sumarlo automáticamente a Gordes y Sénanque.",
+     "pacing": "Unas 1 h 43 min de conducción pura calculada con resultados Maps, más parking, paseos, comida, colas y visita. D177: al salir de Sénanque sentido único hacia Venasque del 15/03 al 30/09, permanente para autocar/caravana/camión; respetar señalización, no invertir ruta por el navegador. Parking visitantes de abadía gratuito a 5 min a pie, sin noche/camping. Gordes: turismo publica 8 € hasta 4 h y 10 € hasta 11 h, pago diario 8-19; su FAQ resume mal 11 horas como 11am, comprobar cartel. Sin plaza reservada. Fontaine-de-Vaucluse es sustitución con ruta propia pendiente, no tercer pueblo obligatorio."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Aviñón, una visita principal",
+     "stopIds": [
+      "avinon"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Palacio como interior principal; puente y jardines solo si producto, horario y energía encajan. LesHalles si abierto, no promesa de mercado a cualquier hora.",
+     "pacing": "Jornada urbana a pie. Referencia parking Palais 24 h, altura 1,90 m y 2,80 €/h / 19,30 €/día fuera julio-agosto, distinto en verano; no hay reserva/plaza confirmada. Clase de cocina 09:30-14:15, si se confirma, sustituye buena parte del día, no se suma a palacio/puente/mercado completos. Precio y cancelación de cada producto propios."
+    },
+    {
+     "title": "Gordes y Sénanque",
+     "stopIds": [
+      "gordes",
+      "senanque"
+     ],
+     "optionalStopIds": [
+      "fontaine_vaucluse"
+     ],
+     "editorialNote": "Gordes como paseo de 2-4 h según turismo y abadía según turno real. Desde parking Palais de Aviñón: Maps sin fecha/tráfico 46, 3 km / 47 min a un punto de Gordes; 2, 9 km / 6 min a Sénanque y vuelta a Aviñón 48 km / 50 min. La abadía describe acceso de 5 km desde Gordes: puntos distintos, no cronometrar al minuto ni tratar el punto genérico como parking. Bories, si se elige, añade desplazamiento y visita de 45-60 min: sustituir otra visita, no sumarlo automáticamente a Gordes y Sénanque.",
+     "pacing": "Unas 1 h 43 min de conducción pura calculada con resultados Maps, más parking, paseos, comida, colas y visita. D177: al salir de Sénanque sentido único hacia Venasque del 15/03 al 30/09, permanente para autocar/caravana/camión; respetar señalización, no invertir ruta por el navegador. Parking visitantes de abadía gratuito a 5 min a pie, sin noche/camping. Gordes: turismo publica 8 € hasta 4 h y 10 € hasta 11 h, pago diario 8-19; su FAQ resume mal 11 horas como 11am, comprobar cartel. Sin plaza reservada. Fontaine-de-Vaucluse es sustitución con ruta propia pendiente, no tercer pueblo obligatorio."
+    },
+    {
+     "title": "Roussillon y un pueblo del Luberon",
+     "stopIds": [
+      "roussillon",
+      "bonnieux"
+     ],
+     "optionalStopIds": [
+      "lacoste"
+     ],
+     "editorialNote": "Sendero ocre primero si abre y el tiempo lo permite; luego Bonnieux, no sumar Lacoste como tercera obligación. Maps sin fecha/tráfico desde parking Palais: a parking des Ocres 56, 1 km / 55 min; hasta un punto de Bonnieux 10, 3 km / 15 min; vuelta Aviñón 54, 4 km / 51 min. No son trayectos desde tu hotel ni hasta un parking confirmado en Bonnieux.",
+     "pacing": "Unas 2 h 01 min de conducción pura calculada con resultados Maps, más parking, comida, caminatas y visitas. Hay tramos de peaje en las referencias desde/hacia Aviñón, coste no recuperado. Les Ocres es parking de barrera de pago; tarifa exacta pendiente. Pasquier zona azul solo 45 min con disco europeo, inaccesible jueves 6-14:30 por mercado. Parking/acceso final en Bonnieux pendientes. No incluye desvío a Lacoste ni tráfico o plazas para fecha. Turismo de Apt indica parkings gratuitos en Bonnieux y carga eléctrica en Pré du Bourg. El hotel local Le Clos du Buis advierte zona azul en casco: máximo 1 h 30 con disco. No dar por gratuito e ilimitado cualquier hueco: leer panel. Maps no devolvió un lugar inequívoco llamado Pré du Bourg; el destino de conducción sigue siendo punto genérico, no plaza/parking confirmado."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Palacio solo16 €, combinado Palacio+jardines+puente19,50 €, no confundir con jardines solos.",
+  "PontduGard puente libre a pie/bici; parking9 €, cultura8 € separado y cerrada en invierno.",
+  "Sénanque página actual y antigua discrepan en turnos; confirmar para fecha, no interior al atardecer garantizado.",
+  "SentierOcres precio editorial3,50 €, ficha de vigencia antigua; horario por fecha a comprobar, no garantizar tras puesta de sol.",
+  "Precios de otros interiores y transportes pendientes. Revisión del usuario pendiente; no publicado.",
+  "Floración de la lavanda: Aprox. mediados de junio a mediados de julio (variable cada año, sin fecha oficial). La meseta de Valensole y Sénanque se tiñen de violeta; fuera de esa ventana los campos están verdes o segados. Sin calendario confirmado para el modo Navidad.",
+  "Festival de Aviñón: Julio (fechas anuales del festival, sin primaria extraída). La ciudad se llena de teatro; alojamiento y aparcamiento complicados. Sin calendario confirmado para el modo Navidad."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "lvm",
+   "title": "Los Viajes de Mary: ruta por la Provenza en auto",
+   "url": "https://losviajesdemary.com/ruta-la-provenza-francesa-en-2-4-y-7-dias/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Provenza y lugares",
+   "url": "https://es.wikipedia.org/wiki/Provenza",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pdp",
+   "title": "Palacio de los Papas: tarifas y horarios oficiales (Avignon Tourisme)",
+   "url": "https://palais-des-papes.com/tarifs/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pdg",
+   "title": "Pont du Gard: horarios oficiales del sitio y espacios culturales",
+   "url": "https://pontdugard.fr/fr/horaires",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "gard-prices-own",
+   "title": "Pont du Gard: tarifas por producto",
+   "url": "https://pontdugard.fr/fr/node/20",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "gard-faq-own",
+   "title": "Pont du Gard: acceso libre y aparcamiento",
+   "url": "https://pontdugard.fr/fr/FAQ/tarifs-et-billetterie",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "senanque-own",
+   "title": "Sénanque: visitas y horarios actuales",
+   "url": "https://www.senanque.fr/visite-de-labbaye/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ochres-own",
+   "title": "Turismo Apt-Luberon: Sentier des Ocres",
+   "url": "https://www.luberon-apt.fr/ocres-en-luberon-0/le-sentier-des-ocres",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ochres-calendar-own",
+   "title": "Turismo Apt-Luberon: ficha calendario2026",
+   "url": "https://www.luberon-apt.fr/nature-parcs-et-jardins/sentier-des-ocres-2797879",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "parking-9",
+   "title": "Aviñón: parking Palais",
+   "url": "https://avignon-parkings.com/parking-du-palais-des-papes/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "parking-10",
+   "title": "Roussillon: parking municipal",
+   "url": "https://roussillon-en-provence.fr/infos-pratiques/stationnement-2/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "driving1020-0",
+   "title": "Maps: referencia en coche prov-avgordes sin fecha/tráfico",
+   "url": "https://www.google.com/maps/dir/?api=1&destination=84220+Gordes%2C+France&destination_place_id=ChIJzbbEDcMNyhIRJ2CSzg83-Gw&origin=2+Rue+Ferruce%2C+84000+Avignon%2C+France&origin_place_id=ChIJDWkOvIbrtRIRzcmJqRBmc6s&travelmode=driving",
+   "type": "routing-reference",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "driving1020-1",
+   "title": "Maps: referencia en coche prov-gordessenanque sin fecha/tráfico",
+   "url": "https://www.google.com/maps/dir/?api=1&destination=Abbaye+de+S%C3%A9nanque%2C+84220+Gordes%2C+France&destination_place_id=ChIJuxg847INyhIRoOw87wUSykc&origin=84220+Gordes%2C+France&origin_place_id=ChIJzbbEDcMNyhIRJ2CSzg83-Gw&travelmode=driving",
+   "type": "routing-reference",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "driving1020-2",
+   "title": "Maps: referencia en coche prov-senanqueav sin fecha/tráfico",
+   "url": "https://www.google.com/maps/dir/?api=1&destination=2+Rue+Ferruce%2C+84000+Avignon%2C+France&destination_place_id=ChIJDWkOvIbrtRIRzcmJqRBmc6s&origin=Abbaye+de+S%C3%A9nanque%2C+84220+Gordes%2C+France&origin_place_id=ChIJuxg847INyhIRoOw87wUSykc&travelmode=driving",
+   "type": "routing-reference",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "driving1020-3",
+   "title": "Maps: referencia en coche prov-avroussillon sin fecha/tráfico",
+   "url": "https://www.google.com/maps/dir/?api=1&destination=Av.+de+la+Burli%C3%A8re%2C+84220+Roussillon%2C+France&destination_place_id=ChIJ0VR63-MTyhIRSpfNaucoszQ&origin=2+Rue+Ferruce%2C+84000+Avignon%2C+France&origin_place_id=ChIJDWkOvIbrtRIRzcmJqRBmc6s&travelmode=driving",
+   "type": "routing-reference",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "driving1020-4",
+   "title": "Maps: referencia en coche prov-roussillonbonnieux sin fecha/tráfico",
+   "url": "https://www.google.com/maps/dir/?api=1&destination=84480+Bonnieux%2C+France&destination_place_id=ChIJA5erTasQyhIRAp7tDA5XzHI&origin=Av.+de+la+Burli%C3%A8re%2C+84220+Roussillon%2C+France&origin_place_id=ChIJ0VR63-MTyhIRSpfNaucoszQ&travelmode=driving",
+   "type": "routing-reference",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "driving1020-5",
+   "title": "Maps: referencia en coche prov-bonnieuxav sin fecha/tráfico",
+   "url": "https://www.google.com/maps/dir/?api=1&destination=2+Rue+Ferruce%2C+84000+Avignon%2C+France&destination_place_id=ChIJDWkOvIbrtRIRzcmJqRBmc6s&origin=84480+Bonnieux%2C+France&origin_place_id=ChIJA5erTasQyhIRAp7tDA5XzHI&travelmode=driving",
+   "type": "routing-reference",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "senanque-access1020",
+   "title": "Sénanque: acceso, sentido único y parking",
+   "url": "https://www.senanque.fr/plan-acces/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "gordes-parking1020",
+   "title": "Turismo Luberon: estacionar en Gordes",
+   "url": "https://uk.destinationluberon.com/page/gordes---en+50744.html",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bonnieux-tourism1036",
+   "title": "Turismo: Bonnieux y parkings gratuitos",
+   "url": "https://www.luberon-apt.fr/village/bonnieux",
+   "type": "official-tourism",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bonnieux-hotel1036",
+   "title": "Hotel local: zona azul 1 h 30 con disco",
+   "url": "https://leclosdubuis.com/foire-aux-questions/",
+   "type": "local-business-logistics",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fontaine-town",
+   "title": "Ayuntamiento: prohibición de acceso al gouffre",
+   "url": "https://www.fontainedevaucluse.fr/actualites/105-interdiction-de-toutes-activites-sur-et-sous-la-falaise-du-gouffre/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fontaine-decree",
+   "title": "Decreto municipal 13-2026 de 05/02/2026",
+   "url": "https://www.fontainedevaucluse.fr/media/documents/319_13-2026%20ARRETE%20INTERDISANT%20TOUTE%20ACTIVITE%20SUR%20LA%20FALAISE.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fontaine-department",
+   "title": "Departamento: tramo final cerrado y paseo hasta barrera",
+   "url": "https://www.vaucluse.fr/information-transversale/actualites-109/une-fermeture-devenue-inevitable-pour-la-securite-des-visiteurs-8461.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "gordes-town1095",
+   "title": "Ayuntamiento Gordes: parkings y tarifas",
+   "url": "https://www.gordes-village.com/stationnement%2Cstationner-a-gordes%2C1028%2C143.html",
+   "type": "official"
+  },
+  {
+   "id": "gordes-pay1095",
+   "title": "PayByPhone Gordes: tarifa y comisión de servicio",
+   "url": "https://www.paybyphone.fr/nos-villes/gordes",
+   "type": "operator"
+  },
+  {
+   "id": "lacoste-own1100",
+   "title": "Castillo del Marquis de Sade: calendario 2026 y tarifas",
+   "url": "https://www.chateaudumarquisdesade.com/informations-pratiques",
+   "type": "official"
+  },
+  {
+   "id": "lacoste-town1100",
+   "title": "Municipio Lacoste: septiembre 2026 y límite infantil diferente",
+   "url": "https://lacoste-84.com/fr/ev/2617838/1894817/visite-du-chateau-de-lacoste-2",
+   "type": "official"
+  },
+  {
+   "id": "arles-tour1106",
+   "title": "Turismo Arles: pases, alcance y validez",
+   "url": "https://www.arlestourisme.com/fr/comment-visiter-arles.html",
+   "type": "official"
+  },
+  {
+   "id": "arles-pdf1106",
+   "title": "Turismo Arles: folleto primavera2026, tabla p18",
+   "url": "https://www.arlestourisme.com/fr/assets/pdf/patrimoine/Arles,%20Patrimoine%20mondial%20rendez-vous%20de%20Printemps%202026.pdf",
+   "type": "official"
+  },
+  {
+   "id": "glanum-own1106",
+   "title": "CMN Glanum: tarifas, horarios y visita",
+   "url": "https://www.site-glanum.fr/visiter/informations-pratiques",
+   "type": "official"
+  },
+  {
+   "id": "glanum-pdf1106",
+   "title": "CMN Glanum: folleto2026, duración y movilidad",
+   "url": "https://www.site-glanum.fr/content/download/9825286/file/Glanum%20Fr%202026%20.pdf?inLanguage=fre-FR&version=11",
+   "type": "official"
+  },
+  {
+   "id": "stpaul-own1106",
+   "title": "Saint-Paul: horario invierno2026/27 y tarifas",
+   "url": "https://www.saintpauldemausole.fr/van-gogh.html",
+   "type": "official"
+  },
+  {
+   "id": "stpaul-tour1106",
+   "title": "Alpilles turismo: tarifas2026/27 y acceso con ayuda",
+   "url": "https://www.alpillesenprovence.com/fiches/cloitre-saint-paul-de-mausole-centre-culturel-et-touristique-van-gogh/",
+   "type": "official"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

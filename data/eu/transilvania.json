@@ -1,0 +1,599 @@
+{
+ "schemaVersion": 1,
+ "country": "RO",
+ "id": "transilvania",
+ "name": "Transilvania",
+ "localName": "Transilvania",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "brasov",
+   "name": "Brașov, la puerta de Transilvania",
+   "kind": "walk",
+   "zone": "Brașov",
+   "reason": "Paseo por el centro de Brașov, con la Plaza del Consejo y calles del casco histórico. Iglesia Negra y subida a Tâmpa son visitas distintas, pendientes de horario, precio y operación; no se incluyen como interiores ni teleférico confirmados.",
+   "sourceIds": [
+    "moch",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 45.640997,
+    "lon": 25.58807
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Biserica%20Neagr%C4%83%2C%20Bra%C8%99ov%2C%20Romania",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Casco libre; Iglesia Negra y teleférico de Tâmpa de pago (tarifas no verificadas esta sesión).",
+   "visitMode": "exterior+interior",
+   "photo": {
+    "img": "assets/transilvania/brasov.jpg",
+    "source": "https://www.pexels.com/photo/rainy-day-at-bra-ov-s-historic-town-square-38070503/",
+    "author": "Lajos Kristóf Kántor",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Plaza del Consejo y Casa del Consejo de Brașov. Foto de archivo, no entrada a la Iglesia Negra ni subida a Tâmpa.",
+    "alt": "Plaza del Consejo y Casa del Consejo de Brașov. Foto de archivo, no entrada a la Iglesia Negra ni subida a Tâmpa."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "bran",
+   "name": "Castillo de Bran",
+   "kind": "landmark",
+   "zone": "Bran",
+   "reason": "Castillo en Bran, al sur de Brașov, visitable con entrada propia. Su asociación turística con Drácula no convierte la novela en historia del edificio.",
+   "sourceIds": [
+    "moch",
+    "wp",
+    "bran",
+    "bran-own",
+    "transbus-own",
+    "transbus-out",
+    "transbus-back"
+   ],
+   "coordinates": {
+    "lat": 45.515077,
+    "lon": 25.367237
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Castelul%20Bran%2C%20Romania",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "El 7 de noviembre de 2026, última entrada a las 15 por evento privado según operador, no cada 7 de noviembre. Tabla de gratuidad dice 0-5 y tarifa infantil empieza en 5: conflicto de frontera para quien tenga exactamente cinco años, confirmar. Parking externo de pago. Operador publica ruta Brașov-Bran y bus desde estación 2, pero tiempos y frecuencias son aproximados, no ida y vuelta validada para la fecha. Transporte: la web del castillo aproxima 13 lei; la ficha de Transbus SA en Autogari, actualizada en julio de 2026, indica 15 lei por trayecto. Publica salida 09:00 de Autogara 2, llegada 09:54 a Bran Centru Castel; regreso 15:38, llegada 16:15 a Autogara 2. Es referencia sin fecha elegida ni plazas verificadas. Confirmar en operador o taquilla y contar acceso desde el alojamiento.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abril a 30 de octubre: lunes desde 12, martes-domingo desde 9, última entrada 19. Del 1 de noviembre al 31 de marzo: lunes desde 12 y otros días desde 9, última entrada 18. El 31 de octubre tiene evento propio, no se completa esa laguna con horario ordinario. El 7 de noviembre de 2026, última entrada 15.",
+    "source": "https://bran-castle.com/pages/plan-your-visit"
+   },
+   "price": "Noviembre-diciembre: adulto 100 lei, niño de 5-17 años 40 lei, estudiante con carné 60 lei, mayor de 65 con ID 70 lei. Grupo escolar mínimo 20: 30 lei. Royal Tour + Fast Pass: 170 lei adulto y 110 lei niño. Royal guiada + Fast Pass: 210 lei adulto y 150 lei niño. Túnel y tortura por separado: 30 lei cada uno. El cartel desde 40 RON es precio infantil, no adulto.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/transilvania/bran.jpg",
+    "source": "https://www.pexels.com/photo/historic-bran-castle-in-autumn-sunlight-29344476/",
+    "author": "Alexandru MnM",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Castillo de Bran desde el exterior, con sus torres y fachadas. Foto de archivo; entrada y horario se comprueban aparte.",
+    "alt": "Castillo de Bran desde el exterior, con sus torres y fachadas. Foto de archivo; entrada y horario se comprueban aparte."
+   },
+   "accessRules": {
+    "scope": "Visita del castillo de Bran.",
+    "specialDates": [
+     {
+      "date": "2026-11-07",
+      "text": "Bran: última entrada a las 15 por evento privado del 7 de noviembre de 2026."
+     }
+    ],
+    "verifiedThrough": "2026-12-31",
+    "noticeLabel": "Castillo de Bran"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "peles",
+   "name": "Sinaia: castillos Peleș y Pelișor",
+   "kind": "museum",
+   "zone": "Sinaia",
+   "reason": "Peleș y Pelișor son dos museos con entradas y calendarios separados en Sinaia. La foto muestra Peleș desde el exterior. Su interior está cerrado del 2 de noviembre al 1 de diciembre de 2026; Pelișor debe comprobarse por separado.",
+   "sourceIds": [
+    "moch",
+    "wp",
+    "peles"
+   ],
+   "coordinates": {
+    "lat": 45.360085,
+    "lon": 25.542733
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Castelul%20Pele%C8%99%2C%20Sinaia%2C%20Romania",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Peleș cerrado del 2 de noviembre al 1 de diciembre de 2026; Pelișor del 28 de septiembre al 3 de noviembre de 2026. No basta cambiar día para salvar estos cierres. Billetes por franjas, válidos solo ese día, sin reprogramación ni reembolso. Entrada por orden de llegada dentro de franja. La página contiene conflicto entre último grupo de Peleș a las 15:15 y guiada inglesa de miércoles 15:30; no prometer esta última sin confirmar. Fotografía amateur sin flash permitida según tarifa, pero reglas antiguas de la misma página aún hablan de tasa: no cobrar 150 lei inventados. Fotos interiores solo personales y publicación no autorizada según museo; usar exteriores para la aplicación salvo licencia aparte.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lunes y martes cerrado. Miércoles 10-17, jueves-domingo 9:15-17. Peleș: última entrada individual 16, venta final 15:45, último grupo indicado 15:15 con conflicto de inglés de miércoles 15:30. Pelișor: venta final 16:10 y entrada final 16:15, aunque aviso general de cabecera dice no entrada después de 16. Consultar límite específico al reservar y no planificar al minuto. Cierres extraordinarios de 2026 prevalecen.",
+    "source": "https://peles.ro/en/program-si-taxe/"
+   },
+   "price": "Peleș, planta baja y primera: 100 lei adulto, 50 pensionista, 25 alumno/estudiante o European Youth Card. Pelișor: 30/15/7,50/7,50 lei. Sin descuento general de grupo. Guiadas en inglés sin recargo según disponibilidad y horario. No son precios de todas las plantas ni combinada de dos castillos.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/transilvania/peles.jpg",
+    "source": "https://www.pexels.com/photo/peles-castle-in-romania-5651718/",
+    "author": "Mika",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Exterior de Peleș en Sinaia. Foto de archivo: el interior permanece cerrado del 02/11 al 01/12 de 2026 según el museo.",
+    "alt": "Exterior de Peleș en Sinaia. Foto de archivo: el interior permanece cerrado del 02/11 al 01/12 de 2026 según el museo."
+   },
+   "accessRules": {
+    "scope": "Interior de Peleș. Pelișor tiene calendario propio, no incluido en esta comprobación.",
+    "closedRanges": [
+     {
+      "start": "2026-11-02",
+      "end": "2026-12-01",
+      "label": "Peleș por limpieza y conservación"
+     }
+    ],
+    "closedWeekdays": [
+     1,
+     2
+    ],
+    "verifiedThrough": "2026-12-31",
+    "noticeLabel": "Interior de Peleș, no Pelișor",
+    "standingNotice": "Interior de Peleș cerrado del 02/11 al 01/12 de 2026 por limpieza y conservación. Pelișor tiene calendario propio; esta foto exterior no confirma acceso al recinto."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sighisoara",
+   "name": "Sighișoara, la ciudadela medieval",
+   "kind": "walk",
+   "zone": "Sighișoara",
+   "reason": "La ciudadela sajona habitada más intacta de Europa (UNESCO): la Torre del Reloj con su museo, la escalera cubierta de madera hasta la Iglesia de la Colina y la casa natal de Vlad Țepeș.",
+   "sourceIds": [
+    "moch",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.219248,
+    "lon": 24.793257
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Turnul%20cu%20Ceas%2C%20Sighi%C8%99oara%2C%20Romania",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Calles empedradas y empinadas; la escalera cubierta tiene 175 peldaños.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Casco libre; Torre del Reloj y museos de pago (tarifas no verificadas esta sesión).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/transilvania/sighisoara.jpg",
+    "alt": "Sighișoara: Torre del Reloj sobre los tejados del casco medieval. Vista de archivo, no confirma entrada a la torre.",
+    "caption": "Sighișoara: Torre del Reloj sobre los tejados del casco medieval. Vista de archivo, no confirma entrada a la torre.",
+    "author": "ArWeltAtty Attila",
+    "source": "https://www.pexels.com/photo/sighisoara-27413478/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://romaniatourism.com/sighisoara.html"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "rasnov",
+   "name": "Râșnov: jardín de la fortaleza, no interior",
+   "kind": "landmark",
+   "zone": "Râșnov",
+   "reason": "La fortaleza campesina sobre la colina entre Brașov y Bran, con el mirador sobre el valle y el letrero estilo Hollywood.",
+   "sourceIds": [
+    "moch",
+    "wp",
+    "rasnov-own"
+   ],
+   "coordinates": {
+    "lat": 45.590587,
+    "lon": 25.469378
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Cetatea%20R%C3%A2%C8%99nov%2C%20Romania",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "No prometer visita del interior de la fortaleza. Jardín y ascensor son productos y operaciones distintos. La página publica ruta desde Brașov, pero la conexión concreta y regreso quedan pendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Fortaleza cerrada por rehabilitación. Se puede visitar el jardín: verano, junio-agosto, 9-19; invierno 9-17 según página. Operación del ascensor requiere comprobación separada.",
+    "source": "https://cetatea-rasnov.ro/info-utile/"
+   },
+   "price": "Entrada al jardín de pago, importe pendiente. Ascensor inclinado: 30 lei ida y vuelta adulto y 20 niño; un trayecto 20/10 lei. No es precio de acceso completo a la fortaleza.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/transilvania/rasnov-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Rasnov, ruinas imaginadas sin promesa de acceso a la fortaleza. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Rasnov, ruinas imaginadas sin promesa de acceso a la fortaleza. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "accessRules": {
+    "scope": "Interior de fortaleza Râșnov, no jardín",
+    "noticeLabel": "Interior de fortaleza Râșnov, no jardín",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Interior cerrado por rehabilitación. Solo jardín con horario propio; comprobar ascensor y acceso por separado."
+    ]
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "prejmer",
+   "name": "Iglesia fortificada de Prejmer",
+   "kind": "landmark",
+   "zone": "Prejmer",
+   "reason": "La iglesia-fortaleza sajona del siglo XIII (UNESCO): la muralla circular con 272 celdas para refugiar a todo el pueblo, parte del patrimonio fortificado sajón.",
+   "sourceIds": [
+    "moch",
+    "wp",
+    "prejmer-own",
+    "prejmer-contact-own"
+   ],
+   "coordinates": {
+    "lat": 45.722,
+    "lon": 25.773736
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Biserica%20fortificat%C4%83%20din%20Prejmer%2C%20Romania",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "No está en el corredor Brașov-Bran como añadido automático. Es una salida propia desde Brașov; acceso, precio y regreso para la fecha pendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Portada: temporada del 1 de abril al 15 de octubre de 2026, lunes-sábado 9-17:30 y domingo 11-17:30 como última entrada. Pie publica fuera de temporada del 16 de octubre al 31 de marzo 9-16. Contacto conserva temporada del 1 de mayo al 31 de octubre: conflicto, confirmar domingos de invierno y bordes de temporada.",
+    "source": "https://bisericafortificataprejmer.ro/"
+   },
+   "price": "Precio pendiente: la página primaria abierta no publica importe suficiente para fijar 20 o 30 lei.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/transilvania/prejmer-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Prejmer, iglesia fortificada imaginada sin interior inventado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Prejmer, iglesia fortificada imaginada sin interior inventado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "sibiu",
+   "name": "Sibiu, la ciudad de los ojos",
+   "kind": "excursion",
+   "zone": "Sibiu",
+   "reason": "La antigua capital sajona de Transilvania: las plazas Mare y Mica, el Puente de las Mentiras, la catedral evangélica y los tejados con 'ojos' que vigilan al paseante.",
+   "sourceIds": [
+    "moch",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 45.797768,
+    "lon": 24.150081
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Catedrala%20Evanghelic%C4%83%2C%20Sibiu%2C%20Romania",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 360,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Casco libre; catedral y museo Brukenthal de pago sin primaria esta sesión.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/transilvania/sibiu.jpg",
+    "alt": "Sibiu: Torre del Consejo vista a través de una reja del casco histórico. No es una panorámica completa de sus plazas.",
+    "caption": "Sibiu: Torre del Consejo vista a través de una reja del casco histórico. No es una panorámica completa de sus plazas.",
+    "author": "Christopher Politano",
+    "source": "https://www.pexels.com/photo/historic-sibiu-tower-framed-through-ironwork-33402110/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://romaniatourism.com/sibiu.html"
+   },
+   "planningStatus": "requires-separate-stage-not-selectable",
+   "photoPending": false
+  },
+  {
+   "id": "transfagarasan",
+   "name": "Transfăgărășan y el lago Bâlea",
+   "kind": "excursion",
+   "zone": "Bâlea Lac (Făgăraș)",
+   "reason": "La carretera de montaña más famosa de Rumanía: curvas entre picos de los Făgăraș hasta el lago glaciar Bâlea a 2.034 m (coordenada de la excursión en el lago).",
+   "sourceIds": [
+    "moch",
+    "wp",
+    "road-agerpres"
+   ],
+   "coordinates": {
+    "lat": 45.603315,
+    "lon": 24.617049
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=B%C3%A2lea%20Lac%2C%20Romania",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 360,
+   "durationType": "editorial-estimate",
+   "caution": "AGERPRES informa cierre temporal de DN7C desde el 27 de octubre de 2026 a las 18, entre km 108 y 130,800, por nieve y niebla, citando CNAIR. Eso no prueba estado actual ni cierre de toda la carretera. Sin reapertura comprobada, no ofrecer cruce operativo ni excursión desde Brașov. Teleférico no es sustituto garantizado: operación y retorno pendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Estado de carretera y teleférico sin confirmar para fecha. No fecha fija anual de apertura o cierre deducida de años previos.",
+    "source": "https://agerpres.ro/2026/10/27/cnair-conditiile-meteorologice-nefavorabile-inchid-temporar-circulatia-pe-transfagarasan-dn-7c--1607401"
+   },
+   "price": "Acceso, parking y teleférico de Bâlea pendientes; no se publica precio cero como garantía.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/transilvania/transfagarasan.jpg",
+    "alt": "Transfăgărășan: carretera y valle de los Făgăraș en una foto de archivo. No muestra el lago Bâlea ni confirma que el tramo alpino esté abierto.",
+    "caption": "Transfăgărășan: carretera y valle de los Făgăraș en una foto de archivo. No muestra el lago Bâlea ni confirma que el tramo alpino esté abierto.",
+    "author": "CALIN STAN",
+    "source": "https://unsplash.com/photos/birds-eye-view-of-landscape-dHRopH1O8uY",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "identitySource": "https://romaniatourism.com/scenic-drives-romania-transfagarasan.html"
+   },
+   "planningStatus": "requires-separate-stage-not-selectable",
+   "accessRules": {
+    "scope": "Carretera DN7C Transfăgărășan",
+    "noticeLabel": "Carretera DN7C Transfăgărășan",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "CNAIR anunció cierre temporal por meteorología de km 108 a 130,8 el 27 octubre de 2026. No consta reapertura verificada para la fecha ni cierre de toda la carretera."
+    ],
+    "standingAdvisory": "Aviso de acceso: CNAIR anunció cierre temporal de DN7C entre km 108 y 130,8 el 27/10/2026 por meteorología. Reapertura no verificada. No planificar el cruce alpino como operativo; no implica cierre de toda la carretera. Comprobar estado para fecha y teleférico por separado."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "turda",
+   "name": "Salina Turda, la mina subterránea",
+   "kind": "excursion",
+   "zone": "Turda",
+   "reason": "La mina de sal reconvertida en parque subterráneo: la sala Rudolf de 80 m de profundidad con noria y barcas en el lago salino, a 2 h al noroeste de Brașov.",
+   "sourceIds": [
+    "moch",
+    "wp",
+    "turda-own"
+   ],
+   "coordinates": {
+    "lat": 46.587705,
+    "lon": 23.787327
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Salina%20Turda%2C%20Romania",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "No habilitada como excursión de ida y vuelta desde Brașov en este borrador. Requiere etapa propia o base cercana y ruta validada. No se salva una distancia excesiva con un consejo genérico.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Diario 9-17, última entrada 16:20 según primaria. Calendarios especiales por fecha se comprueban antes del viaje.",
+    "source": "https://www.salinaturda.eu/vizitare-si-tarife/"
+   },
+   "price": "Salina Turda: adulto 75 lei lunes-viernes y 90 fines de semana/festivos. Mayores de 65: 50/60 lei; niños 3-18: 48/59. Menores de 3 gratis. Parking 10 lei/hora. Barco 56 lei por 20 minutos, máximo tres personas; noria 35 lei por ocho minutos. Actividades no incluidas en entrada general.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/transilvania/turda-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Salina Turda, pabellón exterior imaginado, no entrada real ni reproducción del interior. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Salina Turda, pabellón exterior imaginado, no entrada real ni reproducción del interior. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "planningStatus": "requires-separate-stage-not-selectable",
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Brașov sin castillo añadido obligatorio",
+     "stopIds": [
+      "brasov"
+     ],
+     "optionalStopIds": [
+      "bran"
+     ],
+     "editorialNote": "Centro histórico como paseo de base. Iglesia Negra y Tâmpa requieren comprobación propia, no se garantizan ambas. Bran es otra salida con transporte y regreso, no una tarde obligatoria después de interiores y montaña.",
+     "pacing": "Estimación editorial. Prever conducción, parking fuera del centro, comida y luz. No hay tiempos de traslado verificados para una fecha concreta."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Brașov sin castillo añadido obligatorio",
+     "stopIds": [
+      "brasov"
+     ],
+     "optionalStopIds": [
+      "bran"
+     ],
+     "editorialNote": "Centro histórico como paseo de base. Iglesia Negra y Tâmpa requieren comprobación propia, no se garantizan ambas. Bran es otra salida con transporte y regreso, no una tarde obligatoria después de interiores y montaña.",
+     "pacing": "Estimación editorial. Prever conducción, parking fuera del centro, comida y luz. No hay tiempos de traslado verificados para una fecha concreta."
+    },
+    {
+     "title": "Bran, visita principal con regreso",
+     "stopIds": [
+      "bran"
+     ],
+     "optionalStopIds": [
+      "rasnov",
+      "prejmer"
+     ],
+     "editorialNote": "Visita principal con ida y vuelta. Referencia Autogari/Transbus SA: salida 09:00 de Autogara 2, llegada 09:54 a Bran; regreso 15:38, llegada 16:15. No confirma servicio ni plazas para tu fecha. El 7 de noviembre de 2026 la última entrada del castillo es a las 15. Râșnov y Prejmer son alternativas, no se suman.",
+     "pacing": "Estimación editorial. Prever conducción, parking fuera del centro, comida y luz. No hay tiempos de traslado verificados para una fecha concreta."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Brașov sin castillo añadido obligatorio",
+     "stopIds": [
+      "brasov"
+     ],
+     "optionalStopIds": [
+      "bran"
+     ],
+     "editorialNote": "Centro histórico como paseo de base. Iglesia Negra y Tâmpa requieren comprobación propia, no se garantizan ambas. Bran es otra salida con transporte y regreso, no una tarde obligatoria después de interiores y montaña.",
+     "pacing": "Estimación editorial. Prever conducción, parking fuera del centro, comida y luz. No hay tiempos de traslado verificados para una fecha concreta."
+    },
+    {
+     "title": "Bran, visita principal con regreso",
+     "stopIds": [
+      "bran"
+     ],
+     "optionalStopIds": [
+      "rasnov",
+      "prejmer"
+     ],
+     "editorialNote": "Visita principal con ida y vuelta. Referencia Autogari/Transbus SA: salida 09:00 de Autogara 2, llegada 09:54 a Bran; regreso 15:38, llegada 16:15. No confirma servicio ni plazas para tu fecha. El 7 de noviembre de 2026 la última entrada del castillo es a las 15. Râșnov y Prejmer son alternativas, no se suman.",
+     "pacing": "Estimación editorial. Prever conducción, parking fuera del centro, comida y luz. No hay tiempos de traslado verificados para una fecha concreta."
+    },
+    {
+     "title": "Sinaia, solo si abren los castillos",
+     "stopIds": [
+      "peles"
+     ],
+     "optionalStopIds": [
+      "sighisoara"
+     ],
+     "editorialNote": "No es un día interior disponible durante el cierre de Peleș del 2 de noviembre al 1 de diciembre de 2026. No basta reordenar días. Pelișor tiene calendario y entrada separados; comprobarlos antes de decidir una visita a Sinaia. Sighișoara requiere otra ruta, no añadido de tarde.",
+     "pacing": "Estimación editorial. Prever conducción, parking fuera del centro, comida y luz. No hay tiempos de traslado verificados para una fecha concreta."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Bran: adulto 100 lei, desde 40 es infantil; productos fast pass adulto 170 o guiado 210, no precios infantiles de 110/150.",
+  "Râșnov: interior de fortaleza cerrado, jardín y ascensor aparte.",
+  "Prejmer tiene temporadas contradictorias en páginas propias; confirmar domingos de invierno.",
+  "Peleș y Pelișor: cierres datados de 2026, billetes no reprogramables; no fijar día sin comprobar.",
+  "Turda, Sibiu y Transfăgărășan no se habilitan como excursiones desde Brașov.",
+  "Fotografías de interiores de Peleș con restricciones de publicación. Transporte por fecha y revisión del usuario pendientes."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "moch",
+   "title": "De Mayor Quiero Ser Mochilera: Qué ver en Transilvania, 15 imprescindibles",
+   "url": "https://demayorquierosermochilera.com/rumania/que-ver-transilvania-rumania/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Transilvania",
+   "url": "https://es.wikipedia.org/wiki/Transilvania",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bran",
+   "title": "Bran Castle: visita y entradas",
+   "url": "https://www.bran-castle.com/pages/tickets",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "peles",
+   "title": "Muzeul Național Peleș: programa y tarifas + avisos de cierre",
+   "url": "https://peles.ro/en/program-si-taxe/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bran-own",
+   "title": "Bran: tarifas de noviembre-diciembre y accesos",
+   "url": "https://bran-castle.com/pages/plan-your-visit",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rasnov-own",
+   "title": "Râșnov: fortaleza cerrada, jardín y ascensor",
+   "url": "https://cetatea-rasnov.ro/info-utile/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "prejmer-own",
+   "title": "Prejmer: temporada de 2026 y horario",
+   "url": "https://bisericafortificataprejmer.ro/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "prejmer-contact-own",
+   "title": "Prejmer: página con temporada contradictoria",
+   "url": "https://bisericafortificataprejmer.ro/contact-2/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "turda-own",
+   "title": "Salina Turda: precios y última entrada",
+   "url": "https://www.salinaturda.eu/vizitare-si-tarife/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "road-agerpres",
+   "title": "AGERPRES: cierre temporal comunicado por CNAIR el 27 octubre de 2026",
+   "url": "https://agerpres.ro/2026/10/27/cnair-conditiile-meteorologice-nefavorabile-inchid-temporar-circulatia-pe-transfagarasan-dn-7c--1607401",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "transbus-own",
+   "url": "https://transbuscodreanu.com/Curse",
+   "title": "Transbus Codreanu: contacto de estaciones",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "transbus-out",
+   "url": "https://transbus.autogari.ro/Transport/Brasov-Bran",
+   "title": "Autogari: ficha TransbusSA hacia Bran,actualizada07/2026",
+   "type": "transport-aggregator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "transbus-back",
+   "url": "https://transbus.autogari.ro/Transport/Bran-Brasov",
+   "title": "Autogari: ficha TransbusSA regreso,actualizada07/2026",
+   "type": "transport-aggregator",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

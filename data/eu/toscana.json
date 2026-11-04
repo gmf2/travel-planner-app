@@ -1,0 +1,710 @@
+{
+ "schemaVersion": 1,
+ "country": "IT",
+ "id": "toscana",
+ "name": "Toscana",
+ "localName": "Toscana",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "siena",
+   "name": "Siena: Piazza del Campo y Duomo",
+   "kind": "walk",
+   "zone": "Siena",
+   "reason": "Paseo por Piazza del Campo y el casco histórico. El complejo del Duomo es la visita interior principal; pavimento descubierto y tejados requieren comprobar fecha y producto.",
+   "sourceIds": [
+    "vdv",
+    "wp",
+    "opa",
+    "sigerico-parking"
+   ],
+   "coordinates": {
+    "lat": 43.318947,
+    "lon": 11.331657
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Piazza%20del%20Campo%2C%20Siena%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 300,
+   "durationType": "editorial-estimate",
+   "caution": "Coche: Santa Caterina, Via Esterna di Fontebranda, abierto 24 h, altura máxima 2 m; operador publica 2 €/h y 35 € por día continuo, comprobado 03/11/2026. Subida mecánica gratuita cercana, sin funcionamiento en vivo confirmado. No entrar en ZTL siguiendo el centro.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Del 1 de noviembre al 24 de diciembre de 2026: 10:30-17:30, último acceso 17:00; catedral en festivos desde 13:30 salvo pavimento descubierto hasta el 15 de noviembre, desde 10:00. El 1 de diciembre: catedral hasta 15:00, último 14:30; resto hasta 17:00, último 16:30. Del 26 de diciembre al 6 de enero de 2027: 10:00-19:00; catedral en festivos 13:30-18:00. Celebraciones pueden cambiar horarios. No se publica aquí intervalo para el 25 de diciembre.",
+    "source": "https://operaduomo.siena.it/visita/"
+   },
+   "price": "Opa Si Pass: 16 € durante scopertura del suelo (27jun-31jul y18ago-15nov según tarifa publicada); 3 € niños7-11, hasta6 gratis. Validez3días consecutivos; tarifa adulta ordinaria fuera de scopertura pendiente. Producto con tejados distinto, no incluido por defecto.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/toscana/siena.jpg",
+    "source": "https://www.pexels.com/photo/piazza-del-campo-siena-tuscany-italy-15891009/",
+    "author": "Petr Ganaj",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Piazza del Campo y Palazzo Pubblico de Siena. No muestra el pavimento del Duomo.",
+    "alt": "Piazza del Campo y Palazzo Pubblico de Siena. No muestra el pavimento del Duomo."
+   },
+   "accessRules": {
+    "scope": "Catedral de Siena, no casco urbano",
+    "noticeLabel": "Catedral de Siena, no casco urbano",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2027-01-06",
+    "specialDates": [
+     {
+      "date": "2026-12-01",
+      "text": "Catedral de Siena: cierre anticipado a las 15, último acceso 14:30; otros espacios tienen horario propio."
+     }
+    ],
+    "notices": [
+     "Horario turístico condicionado por celebraciones. Scopertura del pavimento hasta 15 noviembre de 2026, no todo el año. Consultar producto y calendario."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "san_gimignano",
+   "name": "San Gimignano y sus torres",
+   "kind": "walk",
+   "zone": "San Gimignano",
+   "reason": "El pueblo de las 14 torres supervivientes: la Piazza della Cisterna, la colegiata con frescos de Ghirlandaio, la Vernaccia local y la vista desde la Torre Grossa.",
+   "sourceIds": [
+    "vdv",
+    "wp",
+    "sg-parking"
+   ],
+   "coordinates": {
+    "lat": 43.467799,
+    "lon": 11.043211
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=San%20Gimignano%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Coche: P1 Giubileo al sur, fuera del casco; ayuntamiento publica 2 €/h primeras 2 h, 1,50 €/h siguientes, máximo 7 € primeras  24 h. Revisado 03/11/2026. Citybus 2 solo anunciado abril-octubre, no prometerlo en invierno; acceso a pie de pocos cientos de metros según ayuntamiento. No confirma plazas libres.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Pueblo libre; museos cívicos y Torre Grossa de pago (tarifa no verificada en primaria).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/toscana/san_gimignano.jpg",
+    "source": "https://www.pexels.com/photo/historic-towers-in-san-gimignano-under-blue-sky-38038776/",
+    "author": "Reinhard Bruckner",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Torres medievales en San Gimignano. No acredita acceso al interior ni a las torres.",
+    "alt": "Torres medievales en San Gimignano. No acredita acceso al interior ni a las torres."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "monteriggioni",
+   "name": "Monteriggioni y su recinto amurallado",
+   "kind": "walk",
+   "zone": "Monteriggioni",
+   "reason": "Paseo por el pequeño núcleo dentro del recinto amurallado. No se estima aquí el tiempo de conducción desde Siena; murallas y museo requieren comprobar producto y horario.",
+   "sourceIds": [
+    "vdv",
+    "wp",
+    "mon-parking"
+   ],
+   "coordinates": {
+    "lat": 43.389977,
+    "lon": 11.223594
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Monteriggioni%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Aparcamientos oficiales Castello a 50 m y Cipressino a 250 m del pueblo según Turismo Monteriggioni; pago 08:00-20:00, tarifa y plazas libres no confirmadas. Entrar al recinto a pie, no usar su centro como destino de conducción.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Pueblo libre; museo/muralla de pago (tarifa no verificada).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/toscana/monteriggioni-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Monteriggioni, concepto de pueblo amurallado toscano. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Monteriggioni, concepto de pueblo amurallado toscano. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "volterra",
+   "name": "Volterra, la ciudad etrusca de alabastro",
+   "kind": "walk",
+   "zone": "Volterra",
+   "reason": "Tres mil años de historia: la Porta all'Arco etrusca, el teatro romano, la Piazza dei Priori medieval y los talleres de alabastro, lejos de las rutas masificadas.",
+   "sourceIds": [
+    "vdv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.400337,
+    "lon": 10.860019
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Volterra%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ciudad libre; museo etrusco Guarnacci de pago (tarifa no verificada).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/toscana/volterra.jpg",
+    "alt": "Volterra: restos del escenario del teatro romano de Vallebuona. Es un detalle del conjunto arqueológico, no toda la ciudad.",
+    "caption": "Volterra: restos del escenario del teatro romano de Vallebuona. Es un detalle del conjunto arqueológico, no toda la ciudad.",
+    "author": "Christina & Peter",
+    "source": "https://www.pexels.com/photo/ancient-roman-theater-ruins-in-volterra-italy-29546110/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.visittuscany.com/it/attrazioni/teatro-romano-volterra/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "san_galgano",
+   "name": "Abadía de San Galgano y la espada en la roca",
+   "kind": "monument",
+   "zone": "Chiusdino",
+   "reason": "Ruinas de la abadía cisterciense sin techo. La ermita de Montesiepi está en la colina y sus condiciones de visita deben comprobarse por separado; los museos del billete están en Chiusdino.",
+   "sourceIds": [
+    "vdv",
+    "wp",
+    "sangalgano-own"
+   ],
+   "coordinates": {
+    "lat": 43.14941,
+    "lon": 11.155325
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Abbazia%20di%20San%20Galgano%2C%20Chiusdino%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Compra en taquilla sin reserva posible según fundación; online opcional. Museos en Chiusdino, no dentro de las ruinas. Reducción grupos de MÁS de20, no20 exactos; edad6-18 y mayores65 con condiciones. Cierre27septiembre2026 fue aviso puntual pasado, no anual.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abadía diaria nov-abr9-18, may-jun y sep-oct9-19, jul-ago9-20. Fin de semana de Pascua9-19. Museos en Chiusdino oct-may10:30-18,jun-sep10:30-19. Horarios distintos a abadía.",
+    "source": "https://www.fondazionesangalgano.it/biglietti-e-orari/"
+   },
+   "price": "Abadía+un museo: 8 € general / 6 € reducida; abadía+los dos museos: 9/7 €. Familia 2 progenitores+1 menor18: 16/18 € según producto; con2+ hijos18/20 €. Menores6 gratis. No es acceso gratuito a las ruinas.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/toscana/san_galgano.jpg",
+    "source": "https://www.pexels.com/photo/san-galgano-abbey-in-italy-25473685/",
+    "author": "Wolfgang Schlaifer",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Nave sin cubierta de la abadía de San Galgano. No muestra la espada de Montesiepi ni el museo de Chiusdino.",
+    "alt": "Nave sin cubierta de la abadía de San Galgano."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "pienza",
+   "name": "Pienza, la ciudad ideal del Renacimiento",
+   "kind": "walk",
+   "zone": "Pienza",
+   "reason": "La ciudad utópica que Pío II mandó construir a Rossellino: la Piazza Pio II con su catedral, el Palazzo Piccolomini con jardín colgante sobre el Val d'Orcia y el pecorino en cada tienda.",
+   "sourceIds": [
+    "vdv",
+    "wp",
+    "pienza-parking"
+   ],
+   "coordinates": {
+    "lat": 43.076549,
+    "lon": 11.678908
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Pienza%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Coche: aparcamiento de pago Via degli Archi según Turismo Pienza. Tarifas y plazas libres no comprobadas. Las plazas junto a las murallas están reservadas a residentes; no usarlas como alternativa turística.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ciudad libre; Palazzo Piccolomini de pago (tarifa no verificada).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/toscana/pienza.jpg",
+    "source": "https://www.pexels.com/photo/duomo-and-palazzo-piccolomini-pienza-tuscany-italy-18261814/",
+    "author": "urtimud.89",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Pienza desde el paisaje de la Val d’Orcia. No muestra el interior de catedral o palacio.",
+    "alt": "Pienza desde el paisaje de la Val d’Orcia. No muestra el interior de catedral o palacio."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "san_quirico",
+   "name": "San Quirico d'Orcia y los cipreses",
+   "kind": "viewpoint",
+   "zone": "San Quirico d'Orcia",
+   "reason": "El corazón fotográfico del Val d'Orcia: los dos grupos de cipreses más fotografiados de la Toscana en la carretera a Montalcino, la colegiata románica y los jardines Horti Leonini.",
+   "sourceIds": [
+    "vdv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.060395,
+    "lon": 11.603645
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=San%20Quirico%20d%27Orcia%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Casco de San Quirico como parada. Cipreses fuera del centro son opción fotográfica solo con acceso y estacionamiento legal seguros. No parar en arcén, cruzar carretera por foto ni entrar en campo privado. No se ha verificado disponibilidad de apartadero para tu visita.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/toscana/san_quirico-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Campo de San Quirico d'Orcia, concepto de cipreses. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Campo de San Quirico d'Orcia, concepto de cipreses. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "realPhotoPending": true,
+   "photoPending": false
+  },
+  {
+   "id": "montepulciano",
+   "name": "Montepulciano, la colina del Vino Nobile",
+   "kind": "walk",
+   "zone": "Montepulciano",
+   "reason": "La perla del siglo XVI: la Piazza Grande con el Palazzo Comunale (torre con vista a los Apeninos), el templo de San Biagio de Sangallo al pie de la colina y las bodegas históricas del Vino Nobile bajo los palacios.",
+   "sourceIds": [
+    "vdv",
+    "wp",
+    "montep-parking",
+    "montep-ztl"
+   ],
+   "coordinates": {
+    "lat": 43.094528,
+    "lon": 11.78268
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Montepulciano%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Coche: P5 Piazzale Pietro Nenni como referencia exterior. Ayuntamiento publica 1,50 €/h, pago 08:00-20:00 todo el año, comprobado 03/11/2026. No confirma plazas libres ni ascensor operativo; casco en pendiente. No circular en ZTL sin autorización. Idiomas de la página municipal discrepan en abril: no inferir permiso por ese horario.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ciudad libre; torre y bodegas con degustación de pago (tarifas no verificadas).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/toscana/montepulciano.jpg",
+    "source": "https://www.pexels.com/photo/clock-tower-between-narrow-streets-14015644/",
+    "author": "Gildo Cancelli",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Calle y torre del reloj en el centro de Montepulciano. No muestra una bodega ni acceso reservado.",
+    "alt": "Calle y torre del reloj en el centro de Montepulciano. No muestra una bodega ni acceso reservado."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "arezzo",
+   "name": "Arezzo, la ciudad de Vasari y Piero della Francesca",
+   "kind": "walk",
+   "zone": "Arezzo",
+   "reason": "Paseo por la Piazza Grande y el casco de Arezzo. Los frescos de San Francesco y el mercado de antigüedades tienen acceso o calendario propios, no se incluyen automáticamente en una parada urbana.",
+   "sourceIds": [
+    "vdv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.517144,
+    "lon": 11.763928
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Arezzo%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ciudad libre; fresco de Piero (capilla Bacci) de pago con reserva (tarifa no verificada en primaria).",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/toscana/arezzo.jpg",
+    "source": "https://www.pexels.com/photo/arezzo-27377441/",
+    "author": "Manousos Kampanellis",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Catedral de los santos Pedro y Donato y parte del casco de Arezzo desde el aire. No muestra los frescos de San Francesco ni acredita entrada a museos.",
+    "alt": "Catedral de Arezzo y casco histórico desde el aire."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lucca",
+   "name": "Lucca y sus murallas renacentistas",
+   "kind": "walk",
+   "zone": "Lucca",
+   "reason": "Paseo por el casco de Lucca y un tramo de las murallas arboladas. Piazza dell’Anfiteatro y las torres son opciones de la ciudad; elegir una subida si su entrada y horario encajan. No se promete concierto diario de Puccini sin programación verificada.",
+   "sourceIds": [
+    "vdv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.017764,
+    "lon": 10.45443
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Lucca%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 180,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ciudad libre; torre Guinigi y torre delle Ore de pago (tarifas no verificadas).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/toscana/lucca.jpg",
+    "source": "https://www.pexels.com/photo/aerial-view-of-historic-italian-city-at-sunset-31205433/",
+    "author": "Pascal Küffer",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Tejados del casco de Lucca al atardecer, con Torre delle Ore y campanario de San Michele. No muestra todo el recorrido de las murallas ni acredita entrada a las torres.",
+    "alt": "Casco de Lucca al atardecer, Torre delle Ore y campanario de San Michele."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "pisa",
+   "name": "Pisa y la Piazza dei Miracoli",
+   "kind": "monument",
+   "zone": "Pisa",
+   "reason": "Piazza dei Miracoli, con la catedral, torre, baptisterio y Camposanto como visitas de acceso separado. Elegir los interiores según reserva y tiempo; no se dan todos por incluidos.",
+   "sourceIds": [
+    "vdv",
+    "wp",
+    "pisa-before",
+    "pisa-faq",
+    "pisa-access",
+    "pisa-cancel",
+    "pisa-buy",
+    "pisa-hours"
+   ],
+   "coordinates": {
+    "lat": 43.723086,
+    "lon": 10.395321
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Piazza%20dei%20Miracoli%2C%20Pisa%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 240,
+   "durationType": "editorial-estimate",
+   "caution": "Torre: en 2026 admiten nacidos en 2018 o antes, aunque aún no cumplan 8 ese año; 2019+ excluidos. Para 2027 hay que revisar edad, precios y calendario: cambiar la fecha del plan no actualiza estas condiciones. Menores de 18 acompañados, documento de edad. Subida a pie unos 30 min, escalones irregulares y resbaladizos; valorar movilidad/corazón. Guardarropa gratuito para bolsos de visitantes Torre: llegar 15 min antes, no llevar maletas grandes. Tardanza: sin acceso ni reembolso. Pedido con Torre: cancelar completo o cambiar hora (no fecha) hasta 2 h antes; sin Torre, cancelar hasta 24:00 GMT del día si no usado. Revalidar condiciones al comprar. Accesibilidad: contactar 5 días antes; gratuidad no significa subida sin escalones. Ventana online 90 días en venta frente a FAQ 15: comprobar calendario.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Calendario propio publicado hasta 06/01/2027; revisar fecha y edificio. Torre con hora y cupo al comprar, no 24 h. Catedral desde 10:00, variable con culto/festivos; baptisterio puede tener áreas en restauración. No convertir horario de un día en regla anual.",
+    "source": "https://www.opapisa.it/en/opening-and-closing-time/"
+   },
+   "price": "Venta oficial observada el 03/11/2026 para esa fecha: Torre + pase Catedral 20 €; visita completa + Torre 27 €; completa sin Torre 11 €. No es precio futuro ni plaza reservada. Catedral sola gratuita con pase horario recogido en taquilla, con cupo; no entrada libre sin control. Torre sin tarifa reducida general; menores de 18 también pagan si cumplen edad.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/toscana/pisa.jpg",
+    "source": "https://www.pexels.com/photo/architectural-photography-of-piazza-dei-miracoli-3468652/",
+    "author": "Camelia Andreea",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Catedral de Pisa y torre al fondo, en la Piazza dei Miracoli. No confirma entradas ni acceso a los edificios.",
+    "alt": "Catedral de Pisa y torre al fondo, en la Piazza dei Miracoli. No confirma entradas ni acceso a los edificios."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "florencia",
+   "name": "Florencia, la cuna del Renacimiento",
+   "kind": "excursion",
+   "zone": "Florencia",
+   "reason": "Jornada independiente en Florencia. Elegir una zona y un interior principal según reserva, sin fijar aquí un tiempo de viaje desde Siena. Usar su planificación propia si es una etapa del viaje.",
+   "sourceIds": [
+    "vdv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 43.769796,
+    "lon": 11.25564
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Firenze%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "Si Florencia es una etapa propia del viaje, usar su paquete específico; museos principales requieren reserva anticipada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Uffizi, Duomo-cúpula y Accademia de pago con reserva; tarifas no verificadas esta sesión.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/florence/signoria.jpg",
+    "source": "https://www.flickr.com/photos/houseofhall/5921351900/",
+    "author": "Dr Bob Hall",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Palazzo Vecchio y Piazza della Signoria, Florencia. Foto de archivo de 2011; no muestra toda la ciudad.",
+    "alt": "Palazzo Vecchio y Piazza della Signoria, Florencia. Foto de archivo de 2011; no muestra toda la ciudad."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "cinque_terre",
+   "name": "Cinque Terre, los cinco pueblos colgados",
+   "kind": "excursion",
+   "zone": "Cinque Terre (Liguria)",
+   "reason": "Etapa separada en Cinque Terre, no excursión automática de ida y vuelta desde Siena. Usar catálogo propio y valorar cambio de base en La Spezia/Levanto.",
+   "sourceIds": [
+    "vdv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 44.146522,
+    "lon": 9.655558
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Monterosso%20al%20Mare%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 600,
+   "durationType": "editorial-estimate",
+   "caution": "No se garantiza una jornada útil con regreso a Siena. Consultar paquete propio, trenes y alojamiento si se elige esta ampliación.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Cinque Terre Card (trenes+senderos) de pago; tarifa no verificada en primaria esta sesión.",
+   "visitMode": "Etapa separada; transporte y base pendientes de elegir",
+   "photo": {
+    "img": "assets/cinqueterre/manarola.jpg",
+    "source": "https://www.pexels.com/photo/colorful-cliffside-village-of-manarola-italy-37961030/",
+    "author": "Jarod Barton",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Manarola, uno de los cinco pueblos de Cinque Terre. No representa toda la región ni valida una excursión desde Siena.",
+    "alt": "Manarola, uno de los cinco pueblos de Cinque Terre. No representa toda la región ni valida una excursión desde Siena."
+   },
+   "visit": "Etapa separada; no apilar después de otros pueblos de Toscana.",
+   "transport": "Conexión Siena-LaSpezia oLevanto pendiente para fecha concreta. No usar163km aéreos como tiempo ni trayecto de carretera.",
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Siena, una gran visita",
+     "stopIds": [
+      "siena"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Piazza del Campo y casco histórico; complejo del Duomo como interior principal, reservar margen y comprobar producto y celebraciones. Torre del Mangia es alternativa de interior, no obligación adicional.",
+     "pacing": "Estimación editorial. Prever conducción, parking fuera del centro, comida y luz. No hay tiempos de traslado verificados para una fecha concreta."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Siena, una gran visita",
+     "stopIds": [
+      "siena"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Piazza del Campo y casco histórico; complejo del Duomo como interior principal, reservar margen y comprobar producto y celebraciones. Torre del Mangia es alternativa de interior, no obligación adicional.",
+     "pacing": "Estimación editorial. Prever conducción, parking fuera del centro, comida y luz. No hay tiempos de traslado verificados para una fecha concreta."
+    },
+    {
+     "title": "San Gimignano y Monteriggioni",
+     "stopIds": [
+      "monteriggioni",
+      "san_gimignano"
+     ],
+     "optionalStopIds": [
+      "volterra"
+     ],
+     "editorialNote": "Siena → Monteriggioni → San Gimignano → Siena. Referencia Maps sin fecha ni tráfico: aprox. 18 min / 19,6 km; 30 min / 25,3 km; 37 min / 39,8 km entre zonas de aparcamiento consultadas, no desde el hotel. Añadir aparcar, caminar y comer. No garantiza acceso ni plazas. Volterra sustituye San Gimignano, no tercera ciudad.",
+     "pacing": "Dejar la mañana para Monteriggioni y llegar a San Gimignano para comer y visitar por la tarde. Conducción orientativa aprox. 1 h 25 min sin tráfico; es estimación de ruta, no tiempo puerta a puerta. Comprobar estado de carretera y parkings para tu fecha."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Siena, una gran visita",
+     "stopIds": [
+      "siena"
+     ],
+     "optionalStopIds": [],
+     "editorialNote": "Piazza del Campo y casco histórico; complejo del Duomo como interior principal, reservar margen y comprobar producto y celebraciones. Torre del Mangia es alternativa de interior, no obligación adicional.",
+     "pacing": "Estimación editorial. Prever conducción, parking fuera del centro, comida y luz. No hay tiempos de traslado verificados para una fecha concreta."
+    },
+    {
+     "title": "San Gimignano y Monteriggioni",
+     "stopIds": [
+      "monteriggioni",
+      "san_gimignano"
+     ],
+     "optionalStopIds": [
+      "volterra"
+     ],
+     "editorialNote": "Siena → Monteriggioni → San Gimignano → Siena. Referencia Maps sin fecha ni tráfico: aprox. 18 min / 19,6 km; 30 min / 25,3 km; 37 min / 39,8 km entre zonas de aparcamiento consultadas, no desde el hotel. Añadir aparcar, caminar y comer. No garantiza acceso ni plazas. Volterra sustituye San Gimignano, no tercera ciudad.",
+     "pacing": "Dejar la mañana para Monteriggioni y llegar a San Gimignano para comer y visitar por la tarde. Conducción orientativa aprox. 1 h 25 min sin tráfico; es estimación de ruta, no tiempo puerta a puerta. Comprobar estado de carretera y parkings para tu fecha."
+    },
+    {
+     "title": "Pienza y Montepulciano",
+     "stopIds": [
+      "pienza",
+      "montepulciano"
+     ],
+     "optionalStopIds": [
+      "san_quirico"
+     ],
+     "editorialNote": "Siena → Pienza → Montepulciano → Siena. Referencia Maps sin fecha ni tráfico entre zonas de aparcamiento: aprox. 1 h 2 min / 55 km; 18 min / 14,1 km; 55 min / 64 km. Añadir acceso a pie, parking y comida. San Quirico sustituye uno de los dos pueblos, no se añade por defecto.",
+     "pacing": "Conducción de referencia aprox. 2 h 15 min sin tráfico. Pienza por la mañana y Montepulciano por la tarde con comida entre visitas; evitar cargar también San Quirico/cipreses. Aparcamientos consultados no son tu hotel ni garantizan plazas o acceso."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "San Galgano de pago, museos en Chiusdino y horarios separados.",
+  "Siena suelo18ago-15nov2026 según ventanas publicadas; catedral festivos con excepciones de scopertura. OpaSiPass y producto tejados no equivalentes.",
+  "Rutas reducidas a dos localidades por día; tiempos de carretera y aparcamiento no medidos.",
+  "Precios/horarios de muchos interiores de pueblos aún pendientes, no gratuidad de edificios por paseo urbano libre.",
+  "Visitas: 11 fotos reales y 2 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Palio di Siena: 2 de julio y 16 de agosto (fechas fijas anuales). La Piazza del Campo se valla y vive la carrera; el acceso y los servicios cambian esos días. Sin calendario confirmado para el modo Navidad.",
+  "Scopertura del pavimento del Duomo de Siena: 27 jun-31 jul, 18 ago-15 oct y 1-15 nov (calendario oficial 2026). Único periodo para ver el pavimento de mármol completo; pase a 16 €. Sin calendario confirmado para el modo Navidad."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vdv",
+   "title": "Viviendo de Viaje: ruta por la Toscana en coche",
+   "url": "https://www.viviendodeviaje.com/ruta-por-la-toscana/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Toscana y lugares",
+   "url": "https://es.wikipedia.org/wiki/Toscana",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "opa",
+   "title": "Opera Duomo Siena: visita (horarios 2026, Opa Si Pass, pavimento)",
+   "url": "https://operaduomo.siena.it/visita/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sangalgano-own",
+   "title": "Fundación San Galgano: entradas y horarios",
+   "url": "https://www.fondazionesangalgano.it/biglietti-e-orari/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sigerico-parking",
+   "title": "Si.Ge.Ri.Co: Santa Caterina, acceso y tarifa",
+   "url": "https://sigericospa.it/parcheggio-santa-caterina/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sg-parking",
+   "title": "Ayuntamiento San Gimignano: P1 Giubileo",
+   "url": "https://www.comune.sangimignano.si.it/it/page/p1-giubileo",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mon-parking",
+   "title": "Turismo Monteriggioni: aparcamientos",
+   "url": "https://www.monteriggioniturismo.it/it/info-e-servizi/parcheggi",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pienza-parking",
+   "title": "Turismo Pienza: aparcamientos y servicios",
+   "url": "https://www.pienzawelcome.it/informazioni-utili-pienza/servizi/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "montep-parking",
+   "title": "Ayuntamiento Montepulciano: aparcamientos y tarifa2026",
+   "url": "https://www.comune.montepulciano.si.it/novita/montepulciano-la-sosta-si-potra-pagare-con-lapp/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "montep-ztl",
+   "title": "Ayuntamiento Montepulciano: ZTL",
+   "url": "https://www.comune.montepulciano.si.it/istruzioni-ztl/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pisa-before",
+   "title": "Pisa: condiciones propias antes de comprar",
+   "url": "https://www.opapisa.it/en/tickets/a-few-words-of-advice-before-you-buy-your-ticket/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pisa-faq",
+   "title": "Pisa: FAQ y edad por año de nacimiento",
+   "url": "https://www.opapisa.it/en/informations/faq/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pisa-access",
+   "title": "Pisa: accesibilidad propia",
+   "url": "https://www.opapisa.it/en/informations/accessibility-2/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pisa-cancel",
+   "title": "Pisa: cambios y cancelación",
+   "url": "https://www.opapisa.it/en/policy-of-modification-and-cancellation/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pisa-buy",
+   "title": "Pisa: venta oficial y combinaciones",
+   "url": "https://www.opapisa.it/en/tickets/buy/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "pisa-hours",
+   "title": "Pisa: calendario de horarios",
+   "url": "https://www.opapisa.it/en/opening-and-closing-time/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

@@ -1,0 +1,936 @@
+{
+ "schemaVersion": 1,
+ "country": "LU",
+ "id": "luxemburgo",
+ "name": "Luxemburgo",
+ "localName": "Luxembourg",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "adolphe",
+   "name": "Pont Adolphe",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Puente y pasarela peatonal con vistas al valle, sin garantizar recorrido sin barreras desde cualquier acceso.",
+   "sourceIds": [
+    "guide"
+   ],
+   "coordinates": {
+    "lat": 49.6083531,
+    "lon": 6.1270177
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Pont+Adolphe&query_place_id=ChIJ2-f5X9RIlUcRznEwz2XUlf0",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "visitMode": "Exterior; lluvia/hielo puede importar",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/adolphe.jpg",
+    "alt": "Pont Adolphe y valle de la Pétrusse, fotografía de archivo. No demuestra acceso sin barreras por todos los caminos.",
+    "caption": "Pont Adolphe y valle de la Pétrusse, fotografía de archivo. No demuestra acceso sin barreras por todos los caminos.",
+    "source": "https://www.pexels.com/photo/adolphe-bridge-in-luxembourg-19909061/",
+    "author": "Ad Thiry",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "constitution",
+   "name": "Place de la Constitution y Gëlle Fra",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Mirador de ciudad alta, con valle abajo sin bajada obligatoria.",
+   "sourceIds": [
+    "guide"
+   ],
+   "coordinates": {
+    "lat": 49.60929669999999,
+    "lon": 6.129454099999999
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Place+de+la+Constitution&query_place_id=ChIJ4TNWl9RIlUcRVMdqi3BYdn0",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "visitMode": "Exterior, no acceso automático a casamatas",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/constitution.jpg",
+    "alt": "Gëlle Fra: detalle de la figura dorada y la parte alta del obelisco en la Place de la Constitution. No es una panorámica de la plaza.",
+    "caption": "Gëlle Fra: detalle de la figura dorada y la parte alta del obelisco en la Place de la Constitution. No es una panorámica de la plaza.",
+    "author": "Sebastien Devocelle",
+    "source": "https://www.pexels.com/photo/golden-statue-on-luxembourg-s-gelle-fra-monument-38024421/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.luxembourg-city.com/en/tours-activities/sights/monuments-and-squares/centenary-of-gelle-fra"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "guillaume",
+   "name": "Place Guillaume II",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Plaza y fachadas en el casco, punto de oficina turística.",
+   "sourceIds": [
+    "guide"
+   ],
+   "coordinates": {
+    "lat": 49.6106802,
+    "lon": 6.1311262
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Place+Guillaume+II&query_place_id=ChIJq5mRM9NIlUcR8ElHIwxZKp8",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "visitMode": "Exterior; no mercado diario garantizado",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/guillaume.jpg",
+    "alt": "Place Guillaume II: fachada del Ayuntamiento de Luxemburgo. No muestra toda la plaza ni confirma acceso al edificio.",
+    "caption": "Place Guillaume II: fachada del Ayuntamiento de Luxemburgo. No muestra toda la plaza ni confirma acceso al edificio.",
+    "author": "Ad Thiry",
+    "source": "https://www.pexels.com/photo/luxembourg-city-hall-18320393/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.luxembourg-city.com/en/place/monument/town-hall"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "armes",
+   "name": "Place d'Armes",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Pausa en plaza y calles del casco, sin restaurante reservado.",
+   "sourceIds": [
+    "guide"
+   ],
+   "coordinates": {
+    "lat": 49.6113393,
+    "lon": 6.1294756
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Place+d%27Armes&query_place_id=ChIJwxzXIgBPlUcRyYn9XiqY3-c",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "visitMode": "Paseo exterior",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/armes-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Place d'Armes, plaza imaginada. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Place d'Armes, plaza imaginada. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "palacio",
+   "name": "Palacio Gran Ducal",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Fachada de palacio en ciudad alta, sin interior turístico en noviembre.",
+   "sourceIds": [
+    "palace"
+   ],
+   "coordinates": {
+    "lat": 49.61088789999999,
+    "lon": 6.1327603
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Palais+Grand-Ducal&query_place_id=ChIJX3FcNi1PlUcRiAHqH_ajLS0",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 25,
+   "durationType": "editorial-estimate",
+   "caution": "Propio dice verano 2026 agotado y terminado. Ventas primavera/verano 2027 por anunciar, no inferir fechas/precio 2027. Tour 75 min en verano con reserva, no interior todo el año. Visitas salen LCTO Place Guillaume II, no puerta palacio. Accesibilidad consultar antes de comprar.",
+   "visitMode": "Interior 2026 solo 18 julio-30 agosto ya terminado; 2027 ventas aún no abiertas",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/palacio.jpg",
+    "alt": "Fachada del Palacio Gran Ducal en la ciudad de Luxemburgo. No el Palacio del Luxemburgo de París; no acredita visita interior.",
+    "caption": "Fachada del Palacio Gran Ducal en la ciudad de Luxemburgo. No el Palacio del Luxemburgo de París; no acredita visita interior.",
+    "source": "https://www.pexels.com/photo/grand-ducal-palace-in-luxembourg-city-36826012/",
+    "author": "Livy Travels",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Interior turístico del Palacio Gran Ducal",
+    "noticeLabel": "Interior turístico del Palacio Gran Ducal",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Temporada de visitas2026 terminada. Ventas de primavera/verano2027 por anunciar, sin visita interior ordinaria de noviembre. El plan contempla fachada."
+    ]
+   }
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral Notre-Dame de Luxemburgo",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Fachada y posible interior fuera de culto, sin tour con audio comprado.",
+   "sourceIds": [
+    "cat"
+   ],
+   "coordinates": {
+    "lat": 49.6099441,
+    "lon": 6.131558
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Cathedral+Notre-Dame+of+Luxembourg&query_place_id=ChIJ8Yc5p9RIlUcRxiaoQPb0gI0",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 50,
+   "durationType": "editorial-estimate",
+   "caution": "Audio-tour comercial otra ficha dice domingo 8 h, ficha edificio 9 h: confirmar acceso domingo, no tomar horario app como apertura de templo. Cripta/interiores y servicios religiosos no garantizados por horario general.",
+   "visitMode": "LCTO publica lun-sáb 8-18/dom 9-19, culto limita visita",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/catedral.jpg",
+    "alt": "Entrada y fachada de Notre-Dame en la ciudad de Luxemburgo. Foto exterior, no horario de culto ni acceso interior.",
+    "caption": "Entrada y fachada de Notre-Dame en la ciudad de Luxemburgo. Foto exterior, no horario de culto ni acceso interior.",
+    "source": "https://www.pexels.com/photo/gothic-architecture-at-luxembourg-cathedral-29462143/",
+    "author": "Tokuo Nobuhiro",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "corniche",
+   "name": "Chemin de la Corniche",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Paseo de miradores sobre el Grund, tramo elegido con desniveles.",
+   "sourceIds": [
+    "guide"
+   ],
+   "coordinates": {
+    "lat": 49.6101047,
+    "lon": 6.1343636
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Chemin+de+la+Corniche&query_place_id=ChIJOwUzkdJIlUcRsm1WX7BzObU",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "visitMode": "Exterior, no todo valle a pie obligatorio",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/corniche.jpg",
+    "source": "https://www.flickr.com/photos/cedricbonhomme/53681341085",
+    "author": "Cédric Bonhomme",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "caption": "Vista del Grund y de la abadía de Neumünster desde el entorno de la Corniche. No muestra todo el paseo ni garantiza acceso sin escalones. Recorte de presentación; original conservado bajo CC BY-SA 4.0.",
+    "alt": "Vista del Grund y de la abadía de Neumünster desde el entorno de la Corniche. No muestra todo el paseo ni garantiza acceso sin escalones."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "bock",
+   "name": "Casamatas del Bock",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Red subterránea del Bock como único bloque de casamatas del día.",
+   "sourceIds": [
+    "bock"
+   ],
+   "coordinates": {
+    "lat": 49.611591,
+    "lon": 6.1366026
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Casemates+du+Bock&query_place_id=ChIJNW7n4zJPlUcRc95AAJEMmcY",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Horario 2026 por temporada:julio-agosto 9:45 último 19;28 marzo-30 junio/1 septiembre-8 noviembre 9:45 último 17;9 noviembre-31 diciembre y 2 enero-27 marzo 10:45 último 14:45. Cabecera genérica 9:45-17 no vale invierno. 11 € adulto; franja 45 min máximo, 15 min retraso no garantizado. Escaleras y pasajes estrechos, necesidades especiales llamar LCTO antes de comprar. No prometer acceso PMR ni bajar sin forma física.",
+   "visitMode": "Desde el 9 de noviembre al 31 de diciembre de 2026: abre 10:45, última entrada 14:45. Cerrado el 25 de diciembre.",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/bock-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: casamatas del Bock, paisaje exterior imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en casamatas del Bock, paisaje exterior imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Casamatas del Bock",
+    "noticeLabel": "Casamatas del Bock",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedMonthDays": [
+     "01-01",
+     "12-25"
+    ],
+    "noticeRanges": [
+     {
+      "start": "2026-11-09",
+      "end": "2026-12-31",
+      "text": "Bock: desde 10:45, última entrada 14:45 en temporada baja 2026. No planificar última visita a las 17 de la cabecera general."
+     }
+    ]
+   },
+   "price": "2026:11 € adulto,9 € estudiante o sénior 60+,5,50 € niño 4-12. Menores de 4: comprobar condiciones de gratuidad y entrada en producto final.",
+   "openingHours": {
+    "text": "Hasta 8 noviembre 2026, desde 9:45 y última entrada 17. Del 9 noviembre al 31 diciembre 2026, desde 10:45 y última 14:45. Cierra 25 diciembre y 1 enero. Reserva de franja y condiciones de acceso propias.",
+    "source": "https://www.luxembourg-city.com/en/tours-activities/underground/bock-casemates"
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "neumunster",
+   "name": "Abadía de Neumünster / Grund",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Exterior de antigua abadía y tramo del Grund, con conexión de regreso elegida.",
+   "sourceIds": [
+    "guide"
+   ],
+   "coordinates": {
+    "lat": 49.61053219999999,
+    "lon": 6.1363906
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Neum%C3%BCnster+Abbey&query_place_id=ChIJ020-aM1IlUcRgRNhsNgxsAc",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Desnivel entre ciudad alta/Grund. Elegir ascensor o transporte que opere por fecha; no todo paseo bajada/subida sin escalones. Programación centro cultural separada.",
+   "visitMode": "Exterior, no exposición/evento/interior incluidos",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/neumunster.jpg",
+    "alt": "Conjunto de Neumünster y barrio Grund vistos desde altura. No implica que este mirador sea accesible sin desnivel.",
+    "caption": "Conjunto de Neumünster y barrio Grund vistos desde altura. No implica que este mirador sea accesible sin desnivel.",
+    "source": "https://www.pexels.com/photo/aerial-view-of-luxembourg-cityscape-with-abbey-34127880/",
+    "author": "Toufic Haddad",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "elevator",
+   "name": "Ascensor panorámico Pfaffenthal",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Ascensor gratuito entre parque Pescatore y Pfaffenthal, con pasarela de cristal y vistas.",
+   "sourceIds": [
+    "elevator"
+   ],
+   "coordinates": {
+    "lat": 49.61536719999999,
+    "lon": 6.1297009
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Ascenseur+Panoramique+du+Pfaffenthal&query_place_id=ChIJrelcAyxPlUcRVPc_kw2gPGc",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "LCTO: primer lunes mantenimiento 9:00 hasta 5:45 día siguiente, comprobar estado actual. 3 noviembre 2026 no es primer lunes, pero eso no verifica servicio en fecha futura. Altura 71 m/cristal puede importar por vértigo. No confundir con ascensor Grund de otro emplazamiento.",
+   "visitMode": "Gratis; servicio publicado 5:45-1:00. Primer lunes, mantenimiento desde las 9 hasta las 5:45 del martes; comprobar estado.",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/elevator-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: ascensor de Pfaffenthal, concepto de torre y pasarela. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en ascensor de Pfaffenthal, concepto de torre y pasarela. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Ascensor de Pfaffenthal",
+    "noticeLabel": "Ascensor de Pfaffenthal",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "nthWeekdayNotices": [
+     {
+      "weekday": 1,
+      "occurrence": 1,
+      "text": "Primer lunes: mantenimiento anunciado desde 9 hasta 5:45 del día siguiente. Confirmar estado antes de bajar al valle; no es cierre de todo el día.",
+      "nextDayText": "Mantenimiento del primer lunes: la reapertura publicada es a las 5:45 de hoy. Confirmar estado antes de usarlo, sin prometer servicio tras una incidencia."
+     }
+    ],
+    "notices": [
+     "Servicio publicado5:45-1:00, gratis, sujeto a incidencias. Comprobar estado y alternativa de regreso; no confundir con ascensor del Grund."
+    ]
+   },
+   "realPhotoPending": true
+  },
+  {
+   "id": "national",
+   "name": "Nationalmusée um Fëschmaart",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Museo nacional en casco como alternativa cultural a las casamatas.",
+   "sourceIds": [
+    "national"
+   ],
+   "coordinates": {
+    "lat": 49.6114524,
+    "lon": 6.133840699999999
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Fishmarket&query_place_id=ChIJKWTsOC1PlUcRHjT6fnb9wZI",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 100,
+   "durationType": "editorial-estimate",
+   "caution": "Lunes cerrado. Martes-miércoles y viernes-domingo 10-18, jueves 10-20. Cierra 1 de enero, 23 de junio, 1 de noviembre y 25 de diciembre. Tarifa general 7 €, con gratuidades por edad, tarjeta y hora. Confirmar salas elegidas: no se presume toda la colección gratis.",
+   "visitMode": "Lunes cerrado; jueves hasta 20 según propio",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/national.jpg",
+    "source": "https://www.flickr.com/photos/hb1248/49308949613",
+    "author": "Heribert Bechen, 5 million visits - many thanks!",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Sala y mosaico expuesto en Nationalmusée. Fotografía histórica de la colección, no garantía de salas u obras disponibles en la fecha. Recorte de presentación; original conservado bajo CC BY-SA 2.0.",
+    "alt": "Sala y mosaico expuesto en Nationalmusée. Fotografía histórica de la colección, no garantía de salas u obras disponibles en la fecha."
+   },
+   "accessRules": {
+    "scope": "Nationalmusée um Fëschmaart",
+    "noticeLabel": "Nationalmusée um Fëschmaart",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "closedMonthDays": [
+     "01-01",
+     "06-23",
+     "11-01",
+     "12-25"
+    ]
+   },
+   "price": "7 € individual;12 € combinado con Dräi Eechelen el mismo día;5 € grupo 6+. Gratis menores de 26, discapacidad+1, última hora, jueves 17:30-20 y tarjetas listadas por museo.",
+   "openingHours": {
+    "text": "Martes-miércoles y viernes-domingo 10-18, jueves 10-20, lunes cerrado. Cierra 1 enero,23 junio,1 noviembre y 25 diciembre; otros festivos abren salvo lunes.",
+    "source": "https://www.nationalmusee.lu/en/visit/practical-infos/opening-times-and-admission"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "petrusse",
+   "name": "Casamatas de la Pétrusse",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Casamatas de Pétrusse como alternativa al Bock, no segunda red subterránea obligatoria.",
+   "sourceIds": [
+    "petrusse"
+   ],
+   "coordinates": {
+    "lat": 49.6094551,
+    "lon": 6.1298296
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=P%C3%A9trusse+Casemates&query_place_id=ChIJh5b7XdNIlUcRiJ0KR_s8eMA",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "12,60 € adulto 2026; franja y máximo 45 min, 15 min retraso no garantiza acceso. Temporada alta 1 julio-31 agosto 9:45 última 19; media 28 marzo-30 junio/1 septiembre-25 octubre 9:45 última 17; baja 2 enero-27 marzo/26 octubre-31 diciembre 10:45 última 14:45. Necesidades especiales consultar LCTO antes de comprar; escaleras/no accesibilidad total asumida.",
+   "visitMode": "Desde 26 octubre-31 diciembre 2026: 10:45-14:45 última entrada; 25 diciembre/1 enero cerrado",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/petrusse-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: casamatas de la Pétrusse, paisaje exterior imaginado. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en casamatas de la Pétrusse, paisaje exterior imaginado. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Casamatas de la Pétrusse",
+    "noticeLabel": "Casamatas de la Pétrusse",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedMonthDays": [
+     "01-01",
+     "12-25"
+    ],
+    "notices": [
+     "Temporada baja26octubre-31diciembre2026: desde10:45, última entrada14:45. Una red alternativa al Bock, no segunda visita subterránea por defecto."
+    ]
+   },
+   "price": "2026:12,60 € adulto,10,15 € estudiante o sénior 60+,6,30 € niño 4-12. Condiciones finales de entrada y niños pequeños por confirmar.",
+   "realPhotoPending": true
+  },
+  {
+   "id": "mudam",
+   "name": "Mudam Luxembourg",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Un museo de arte contemporáneo en Kirchberg como bloque largo del día, arquitectura y exposición elegidas.",
+   "sourceIds": [
+    "mudam"
+   ],
+   "coordinates": {
+    "lat": 49.6171219,
+    "lon": 6.140340999999999
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Mudam+Museum+of+Modern+Art&query_place_id=ChIJrZbnDjFPlUcRriw1h1HQDr4",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 100,
+   "durationType": "editorial-estimate",
+   "caution": "Propio 10 € adulto/7 € 21-25 y sénior 65+, estudiantes válidos gratis, miércoles 18-21 gratis. 24/31 diciembre 10-15; 30 junio/25 diciembre cerrado. No copiar 8 € de guía de museos antigua. Confirmar exposición y salas antes de entrar.",
+   "visitMode": "Lunes cerrado; miércoles 10-21, otros días de apertura 10-18. Festivos y montaje: consultar condiciones.",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/mudam.jpg",
+    "source": "https://www.flickr.com/photos/alexprevot/52822013339",
+    "author": "Alexandre Prevot",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "caption": "Exterior de Mudam con cubierta acristalada y fortificaciones. No representa la exposición actual ni disponibilidad de acceso interior. Recorte de presentación; original conservado bajo CC BY-SA 2.0.",
+    "alt": "Exterior de Mudam con cubierta acristalada y fortificaciones. No representa la exposición actual ni disponibilidad de acceso interior."
+   },
+   "accessRules": {
+    "scope": "Interior de Mudam",
+    "noticeLabel": "Interior de Mudam",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedWeekdays": [
+     1
+    ],
+    "closedMonthDays": [
+     "06-30",
+     "12-25"
+    ],
+    "specialDates": [
+     {
+      "date": "2026-12-24",
+      "text": "Mudam cierra a las 15."
+     },
+     {
+      "date": "2026-12-31",
+      "text": "Mudam cierra a las 15."
+     }
+    ]
+   },
+   "price": "10 € adulto;7 € de 21-25,65+ y grupos 15+. Gratis menores de 21, estudiantes con carné, discapacidad y acompañante según lista. Miércoles 18-21 gratis; montaje 7 €.",
+   "openingHours": {
+    "text": "Mar 10-18, mié 10-21, jue-dom 10-18. Lunes cerrado.24 y 31 diciembre 10-15;30 junio y 25 diciembre cerrado. Consultar salas durante montaje.",
+    "source": "https://www.mudam.com/visit/plan-your-visit"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "thungen",
+   "name": "Fort Thüngen / Dräi Eechelen",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Exterior del fuerte junto a Mudam, con museo interior solo como alternativa.",
+   "sourceIds": [
+    "m3e"
+   ],
+   "coordinates": {
+    "lat": 49.6170467,
+    "lon": 6.1402202
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Fort+Th%C3%BCngen&query_place_id=ChIJt6PrmzFPlUcR5z-4zphJJ84",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "La parada principal es exterior. Para museo: 7 € individual o 12 € combinado con Nationalmusée el mismo día. Lunes cerrado salvo Pascua y Pentecostés. Horarios especiales y festivos en condiciones por fecha; el exterior no garantiza todas las galerías.",
+   "visitMode": "Parada exterior. Museo alternativo: lunes cerrado salvo excepciones; miércoles 10-20, otros días de apertura 10-18.",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/thungen-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Fort Thüngen, concepto de bastiones. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Fort Thüngen, concepto de bastiones. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Museo Dräi Eechelen, no exterior del fuerte",
+    "noticeLabel": "Museo Dräi Eechelen, no exterior del fuerte",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedMonthDays": [
+     "01-01",
+     "06-23",
+     "08-15",
+     "11-01",
+     "12-25"
+    ],
+    "weekdayNotices": [
+     {
+      "weekday": 1,
+      "text": "Museo cerrado lunes salvo lunes de Pascua y Pentecostés. El exterior del fuerte es una visita distinta."
+     }
+    ],
+    "specialDates": [
+     {
+      "date": "2026-12-24",
+      "text": "Dräi Eechelen cierra a las 14."
+     },
+     {
+      "date": "2026-12-31",
+      "text": "Dräi Eechelen cierra a las 16:30."
+     }
+    ]
+   },
+   "price": "7 € individual;12 € combinado con Nationalmusée el mismo día;5 € grupo 6+. Gratuidades: menores de 26, movilidad reducida+1, última hora y miércoles 17:30-20, entre otras tarjetas publicadas.",
+   "realPhotoPending": true
+  },
+  {
+   "id": "filarmonica",
+   "name": "Philharmonie Luxembourg",
+   "kind": "urban",
+   "zone": "Luxemburgo ciudad",
+   "reason": "Fachada de filarmónica en la plaza de Europa, sin concierto ni visita interior incluidos.",
+   "sourceIds": [
+    "guide"
+   ],
+   "coordinates": {
+    "lat": 49.61856969999999,
+    "lon": 6.1424806
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Philharmonie+Luxembourg&query_place_id=ChIJwUtUxTBPlUcRJt5a3LF36g8",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "visitMode": "Exterior, programación con billete aparte",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/filarmonica.jpg",
+    "source": "https://www.flickr.com/photos/borkurdotnet/5695930163",
+    "author": "Börkur Sigurbjörnsson",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Exterior de Philharmonie Luxembourg, sin concierto ni visita interior incluidos. Recorte de presentación; original conservado bajo CC BY 2.0.",
+    "alt": "Exterior de Philharmonie Luxembourg, sin concierto ni visita interior incluidos."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "vianden",
+   "name": "Vianden y su castillo",
+   "kind": "excursion",
+   "zone": "Fuera de Luxemburgo ciudad",
+   "reason": "Jornada propia por Vianden con castillo si abre y traslado por transporte público.",
+   "sourceIds": [
+    "vianden",
+    "vianden-bus",
+    "transport"
+   ],
+   "coordinates": {
+    "lat": 49.9350345,
+    "lon": 6.2027224
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Vianden+Castle&query_place_id=ChIJAViZ7X37v0cRIr2yg5fv88M",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Propio 13 € adulto, tasa turística 1 € incluida, audio 2 € extra; no reserva obligatoria sin guía.2 enero-fin febrero/noviembre-diciembre 10-16, marzo/octubre 10-17, abril-septiembre 10-18; última 30 min antes. Cabecera 10-17 genérica no vale noviembre. Tren Luxembourg-Ettelbruck+bus 180/181 según turismo;180 Place Engelmann para castillo,181 Breck/Gare para casco. No tren a Vianden ni telesilla invierno prometidos; elegir conexión regreso y subida a pie apta.",
+   "visitMode": "Castillo invierno 10-16/última 15:30; 1 enero/2 noviembre/25 diciembre cerrado",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/vianden.jpg",
+    "alt": "Exterior del castillo de Vianden desde la ladera. No acredita visita interior, apertura o llegada sin pendiente.",
+    "caption": "Exterior del castillo de Vianden desde la ladera. No acredita visita interior, apertura o llegada sin pendiente.",
+    "source": "https://www.pexels.com/photo/historic-vianden-castle-architecture-in-luxembourg-38578892/",
+    "author": "NIKOLAOS IOANNIDIS",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false,
+   "accessRules": {
+    "scope": "Interior del castillo de Vianden",
+    "noticeLabel": "Interior del castillo de Vianden",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "closedMonthDays": [
+     "01-01",
+     "11-02",
+     "12-25"
+    ],
+    "notices": [
+     "Noviembre-diciembre10-16, última entrada15:30. Castillo en cuesta; autobús al pueblo no equivale a entrada accesible."
+    ]
+   },
+   "price": "13 € adulto,7 € estudiante mayor de 13 con carné,4 € de 6-12; tasa municipal 1 € incluida. Audioguía 2 € aparte. El rango de 13 años queda ambiguo: confirmar categoría final, no inventar gratuidad."
+  },
+  {
+   "id": "echternach",
+   "name": "Echternach, casco y basílica",
+   "kind": "excursion",
+   "zone": "Fuera de Luxemburgo ciudad",
+   "reason": "Paseo por Echternach, plaza y entorno de antigua abadía, sin sendero Mullerthal automático.",
+   "sourceIds": [
+    "echternach",
+    "bus201",
+    "transport"
+   ],
+   "coordinates": {
+    "lat": 49.813596,
+    "lon": 6.421992299999999
+   },
+   "coordinateSource": "https://www.google.com/maps/search/?api=1&query=Abbey+of+Echternach&query_place_id=ChIJZZ06Z3ZglUcRViS7fyFNG58",
+   "coordinateMethod": "Maps: identidad/dirección comprobadas, punto aproximado no entrada verificada",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Administración confirma 201 Limpertsberg-Echternach y avisos obras 6-7 noviembre 2026 Junglinster, Nonnemillen desde 29 octubre hasta fin obras. Confirmar paradas/ida-vuelta por día. Basílica culto limita visita, domingo mañana no interior asegurado; no interior abadía completo incluido. Mullerthal Trail y desfiladeros requieren ruta/equipo/condición física aparte, no se hereda aptitud de ciudad.",
+   "visitMode": "Bus 201 corredor Luxemburgo-Echternach; no senderos rocosos incluidos",
+   "reviewedAt": "2026-11-03",
+   "photo": {
+    "img": "assets/luxemburgo/echternach-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Echternach, concepto de plaza y basílica. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Echternach, concepto de plaza y basílica. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Ciudad alta y el Grund",
+     "zone": "Pont Adolphe → Constitution → catedral → plazas → palacio → Corniche y Grund",
+     "stopIds": [
+      "adolphe",
+      "constitution",
+      "catedral",
+      "guillaume",
+      "armes",
+      "palacio",
+      "corniche",
+      "neumunster"
+     ],
+     "editorialNote": "Casco con pausas y conexión de regreso, no interiores de palacio en noviembre. Recortar una plaza si se elige museo o casamatas. Desnivel al Grund, no paseo llano garantizado.",
+     "optionalStopIds": [
+      "national"
+     ]
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Ciudad alta y el Grund",
+     "zone": "Pont Adolphe → Constitution → catedral → plazas → palacio → Corniche y Grund",
+     "stopIds": [
+      "adolphe",
+      "constitution",
+      "catedral",
+      "guillaume",
+      "armes",
+      "palacio",
+      "corniche",
+      "neumunster"
+     ],
+     "editorialNote": "Casco con pausas y conexión de regreso, no interiores de palacio en noviembre. Recortar una plaza si se elige museo o casamatas. Desnivel al Grund, no paseo llano garantizado.",
+     "optionalStopIds": [
+      "national"
+     ]
+    },
+    {
+     "title": "Bock, Pfaffenthal y ciudad baja",
+     "zone": "Bock → ascensor de Pfaffenthal → paseo del valle",
+     "stopIds": [
+      "bock",
+      "elevator"
+     ],
+     "editorialNote": "Una red subterránea: Bock. Pétrusse es alternativa, no segunda visita obligatoria. Desde el 9 de noviembre de 2026, última entrada a las 14:45. El ascensor puede cerrar por mantenimiento o incidencia: elegir ida y regreso alternativos si no opera. Nationalmusée es otra opción interior.",
+     "optionalStopIds": [
+      "national",
+      "petrusse"
+     ]
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Ciudad alta y el Grund",
+     "zone": "Pont Adolphe → Constitution → catedral → plazas → palacio → Corniche y Grund",
+     "stopIds": [
+      "adolphe",
+      "constitution",
+      "catedral",
+      "guillaume",
+      "armes",
+      "palacio",
+      "corniche",
+      "neumunster"
+     ],
+     "editorialNote": "Casco con pausas y conexión de regreso, no interiores de palacio en noviembre. Recortar una plaza si se elige museo o casamatas. Desnivel al Grund, no paseo llano garantizado.",
+     "optionalStopIds": [
+      "national"
+     ]
+    },
+    {
+     "title": "Bock, Pfaffenthal y ciudad baja",
+     "zone": "Bock → ascensor de Pfaffenthal → paseo del valle",
+     "stopIds": [
+      "bock",
+      "elevator"
+     ],
+     "editorialNote": "Una red subterránea: Bock. Pétrusse es alternativa, no segunda visita obligatoria. Desde el 9 de noviembre de 2026, última entrada a las 14:45. El ascensor puede cerrar por mantenimiento o incidencia: elegir ida y regreso alternativos si no opera. Nationalmusée es otra opción interior.",
+     "optionalStopIds": [
+      "national",
+      "petrusse"
+     ]
+    },
+    {
+     "title": "Kirchberg cultural",
+     "zone": "Conexión a Kirchberg → Mudam → exterior de Fort Thüngen → exterior de Philharmonie",
+     "stopIds": [
+      "mudam",
+      "thungen",
+      "filarmonica"
+     ],
+     "editorialNote": "Mudam es el único museo largo del día. Dräi Eechelen queda como alternativa interior o parada exterior breve. Comprobar transporte y apertura en la fecha. Vianden o Echternach sustituyen la jornada urbana, no se añaden ambas.",
+     "optionalStopIds": []
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Visitas: 11 fotos reales y 6 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Bock desde9noviembre2026 y Pétrusse desde26octubre2026: última entrada14:45. No usar horario genérico de cabecera para invierno.",
+  "Palacio solo fachada fuera de la temporada confirmada; ventas2027 no publicadas.",
+  "Transporte nacional en2ªclase gratuito según turismo, no1ªclase ni trenes internacionales o servicios privados.",
+  "Museos con tarifas actuales7/10 €, gratuidades por categoría y hora. No se presume toda colección gratis.",
+  "Ascensor Pfaffenthal puede cerrar por mantenimiento; elegir alternativa de regreso sin confundirlo con otro ascensor.",
+  "Nada reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "guide",
+   "title": "Guía independiente de ciudad",
+   "url": "https://www.viajandoporelmundomundial.com/que-ver-en-luxemburgo/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bock",
+   "title": "LCTO · Bock",
+   "url": "https://www.luxembourg-city.com/en/tours-activities/underground/bock-casemates",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "petrusse",
+   "title": "LCTO · Pétrusse",
+   "url": "https://www.luxembourg-city.com/en/tours-activities/underground/petrusse-casemates",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "palace",
+   "title": "LCTO · palacio 2026/2027",
+   "url": "https://www.luxembourg-city.com/en/place/iconic-buildings/grand-ducal-palace",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cat",
+   "title": "LCTO · catedral",
+   "url": "https://www.luxembourg-city.com/en/place/church/cathedral-of-the-blessed-virgin",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "elevator",
+   "title": "LCTO · ascensor y mantenimiento",
+   "url": "https://www.luxembourg-city.com/en/place/monument/panoramic-elevator-of-the-pfaffenthal",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "mudam",
+   "title": "Mudam · apertura/precio",
+   "url": "https://www.mudam.com/visit/plan-your-visit",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "national",
+   "title": "Nationalmusée · apertura/precio",
+   "url": "https://www.nationalmusee.lu/en/visit/practical-infos/opening-times-and-admission",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "m3e",
+   "title": "DräiEechelen · apertura/precio",
+   "url": "https://m3e.public.lu/en/infos-pratiques.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vianden",
+   "title": "CastilloVianden · condiciones",
+   "url": "https://castle-vianden.lu/besuch/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vianden-bus",
+   "title": "TurismoVianden · llegada",
+   "url": "https://www.visit-vianden.lu/en/faq/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "bus201",
+   "title": "Administración transporte · línea 201",
+   "url": "https://www.mobiliteit.lu/en/line/bus-201-rgtr-2/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "echternach",
+   "title": "Turismo · cascoEchternach",
+   "url": "https://www.visitluxembourg.com/place/echternach",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "transport",
+   "title": "Turismo · transporte nacional",
+   "url": "https://www.visitluxembourg.com/plan-your-stay/getting-around",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

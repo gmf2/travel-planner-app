@@ -1,0 +1,1 @@
+Fuente revisada (File gen5, 2026-11-03) y scripts que generaron data/eu, data/pl/index.json, data/routes y assets de la expansion 33 ciudades + 12 regiones Europa y 52 paises Asia. Contenido verbatim del review; regenerable con build_eu.py y build_asia.py; validate.py verifica integridad (0 errores al publicar).

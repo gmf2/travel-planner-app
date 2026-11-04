@@ -1,0 +1,776 @@
+{
+ "schemaVersion": 1,
+ "country": "FI",
+ "id": "helsinki",
+ "name": "Helsinki",
+ "localName": "Helsinki",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "plazasenado",
+   "name": "Plaza del Senado",
+   "kind": "walk",
+   "zone": "Centro histórico",
+   "reason": "Corazón neoclásico de Helsinki, flanqueado por la Catedral, el Palacio del Gobierno y la Universidad.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 60.16947,
+    "lon": 24.95228
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Plaza_del_Senado_%28Helsinki%29",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/helsinki/plazasenado.jpg",
+    "alt": "Senate Square - Senaatintori - Senatstorget, Helsinki, Finland.jpg",
+    "author": "Matti Mattila",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Senate_Square_-_Senaatintori_-_Senatstorget,_Helsinki,_Finland.jpg",
+    "caption": "Panorámica de archivo de la Plaza del Senado. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral de Helsinki",
+   "kind": "monument",
+   "zone": "Centro histórico",
+   "reason": "La catedral luterana blanca de Carl Ludwig Engel, símbolo de la ciudad sobre la Plaza del Senado.",
+   "sourceIds": [
+    "cat-now"
+   ],
+   "coordinates": {
+    "lat": 60.17039,
+    "lon": 24.95212
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Catedral_de_Helsinki",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "La web propia distingue entrada obligatoria en temporada y aportación voluntaria de 8 € del 5 de noviembre al 31 de mayo, con cripta cerrada en invierno. No usar el aviso de 10 € del verano2026 como regla actual. Revisar semana y ceremonias; los días2-4noviembre no quedan resueltos por esos dos periodos. Ningún interior garantizado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; interior según horario semanal de visitantes",
+   "photo": {
+    "img": "assets/helsinki/catedral.jpg",
+    "alt": "Lutheran Cathedral Helsinki.jpg",
+    "author": "Hans Hillewaert",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lutheran_Cathedral_Helsinki.jpg",
+    "caption": "Foto de archivo de Catedral de Helsinki. No confirma acceso ni condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "uspenski",
+   "name": "Catedral ortodoxa Uspenski",
+   "kind": "monument",
+   "zone": "Katajanokka",
+   "reason": "Mayor catedral ortodoxa de Europa occidental, de ladrillo rojo y cúpulas doradas sobre el puerto.",
+   "sourceIds": [
+    "usp"
+   ],
+   "coordinates": {
+    "lat": 60.16833,
+    "lon": 24.96
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Uspenski_Cathedral",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "5 € adultos, menores de18 gratis según parroquia. Septiembre-abril: martes-viernes9:30-16, sábado10-15, domingo13-16, lunes cerrado; excepciones semanales por culto. Semana2-8nov2026: sábado7 solo10-11, domingo8 solo culto. Verificar la semana del viaje, no entrar durante servicios como visita turística.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; interior de pago según calendario",
+   "photo": {
+    "img": "assets/helsinki/uspenski.jpg",
+    "alt": "Uspenski Cathedral, Helsinki (by Pudelek).jpg",
+    "author": "Pudelek (Marcin Szala)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Uspenski_Cathedral,_Helsinki_(by_Pudelek).jpg",
+    "caption": "Foto de archivo de Catedral ortodoxa Uspenski. No confirma acceso ni condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "plazamercado",
+   "name": "Plaza del Mercado (Kauppatori)",
+   "kind": "walk",
+   "zone": "Puerto Sur",
+   "reason": "Mercado al aire libre junto al puerto Sur, con puestos de salmón, bayas y artesanía; de aquí sale el ferry a Suomenlinna.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "hsl"
+   ],
+   "coordinates": {
+    "lat": 60.167,
+    "lon": 24.955
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Market_Square%2C_Helsinki",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/helsinki/plazamercado.jpg",
+    "alt": "Market Square by the South Harbour in Helsinki, Finland, 1969 – 01.tif",
+    "author": "SKY-FOTO Möller",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Market_Square_by_the_South_Harbour_in_Helsinki,_Finland,_1969_%E2%80%93_01.tif",
+    "caption": "Foto de archivo de Plaza del Mercado (Kauppatori). No confirma acceso ni condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "vanhakauppahalli",
+   "name": "Mercado Viejo (Vanha Kauppahalli)",
+   "kind": "food",
+   "zone": "Puerto Sur",
+   "reason": "El mercado cubierto más antiguo de Helsinki (1889), con puestos de productos finlandeses junto a la Plaza del Mercado.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "vkh"
+   ],
+   "coordinates": {
+    "lat": 60.16611,
+    "lon": 24.95278
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Old_Market_Hall%2C_Helsinki",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Lunes-sábado8-18 según operador; domingo cerrado. Cada puesto puede tener otro horario. No se garantiza almuerzo dentro si cierra; usar una alternativa abierta en el entorno.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Lu-sá 8-18; domingos cerrado.",
+    "source": "https://vanhakauppahalli.fi/en/"
+   },
+   "price": null,
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/helsinki/vanhakauppahalli.jpg",
+    "alt": "Old Market Hall - Vanha Kauppahalli, Helsinki (29282721726).jpg",
+    "author": "Discovering Finland",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_Market_Hall_-_Vanha_Kauppahalli,_Helsinki_(29282721726).jpg",
+    "caption": "Foto de archivo de Mercado Viejo (Vanha Kauppahalli). No confirma acceso ni condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "esplanadi",
+   "name": "Parque Esplanadi",
+   "kind": "walk",
+   "zone": "Centro",
+   "reason": "El bulevar ajardinado más elegante de la ciudad, entre el puerto y la zona comercial, con terrazas y el quiosco de música Kappeli.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 60.1675,
+    "lon": 24.94778
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Esplanadi",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/helsinki/esplanadi.jpg",
+    "alt": "Esplanadi, Helsinki, Finlandia, 2012-08-14, DD 01.JPG",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Esplanadi,_Helsinki,_Finlandia,_2012-08-14,_DD_01.JPG",
+    "caption": "Foto de archivo de Parque Esplanadi. No confirma acceso ni condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "kamppi",
+   "name": "Capilla del Silencio de Kamppi",
+   "kind": "monument",
+   "zone": "Kamppi",
+   "reason": "Capilla de madera curva inaugurada en 2012, un remanso de calma en plena plaza Narinkka.",
+   "sourceIds": [
+    "kam"
+   ],
+   "coordinates": {
+    "lat": 60.16944,
+    "lon": 24.93593
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Capilla_de_Kamppi",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Martes-sábado11-18, domingo y lunes cerrado según web propia. Adultos5 €, con exenciones publicadas. Dentro, silencio y sin flash; exterior como alternativa si cierra.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; interior opcional de silencio",
+   "photo": {
+    "img": "assets/helsinki/kamppi.jpg",
+    "alt": "Kamppi Chapel, Helsinki - DSC04316.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Kamppi_Chapel,_Helsinki_-_DSC04316.JPG",
+    "caption": "Foto de archivo de Capilla del Silencio de Kamppi. No confirma acceso ni condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "estacion",
+   "name": "Estación Central de Helsinki",
+   "kind": "monument",
+   "zone": "Centro",
+   "reason": "Obra maestra del nacionalismo romántico de Eliel Saarinen (1919), con las estatuas de los portadores de faroles.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 60.17105,
+    "lon": 24.94145
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Estaci%C3%B3n_Central_de_Helsinki",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/helsinki/estacion.jpg",
+    "alt": "Estación central de FF.CC. de Helsinki, Finlandia, 2012-08-14, DD 05.JPG",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_central_de_FF.CC._de_Helsinki,_Finlandia,_2012-08-14,_DD_05.JPG",
+    "caption": "Foto de archivo de Estación Central de Helsinki. No confirma acceso ni condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "oodi",
+   "name": "Biblioteca Oodi",
+   "kind": "monument",
+   "zone": "Töölönlahti",
+   "reason": "Biblioteca central inaugurada en 2018, icono de la arquitectura finlandesa contemporánea frente al Parlamento.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "oodi"
+   ],
+   "coordinates": {
+    "lat": 60.17382,
+    "lon": 24.93806
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Biblioteca_Central_de_Helsinki_Oodi",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abierta los 7 días; sá-do 10-20 (lunes a viernes desde primera hora).",
+    "source": "https://www.oodihelsinki.fi/en/"
+   },
+   "price": null,
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/helsinki/oodi.jpg",
+    "alt": "Central Library Oodi in Helsinki 02.jpg",
+    "author": "Ninaras",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Central_Library_Oodi_in_Helsinki_02.jpg",
+    "caption": "Foto de archivo de Biblioteca Oodi. No confirma acceso ni condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "temppeliaukio",
+   "name": "Iglesia de la Roca (Temppeliaukio)",
+   "kind": "monument",
+   "zone": "Töölö",
+   "reason": "Iglesia excavada en la roca viva en 1969 con techo de cobre de 24 m; acústica excepcional.",
+   "sourceIds": [
+    "temp"
+   ],
+   "coordinates": {
+    "lat": 60.17298,
+    "lon": 24.92524
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Iglesia_de_Temppeliaukio",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": "8 € adultos según operador; horario exacto se publica una semana antes. El operador anuncia visitas todos los días, pero no significa acceso a toda hora ni durante actos. Confirmar la semana elegida.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "interior",
+   "photo": {
+    "img": "assets/helsinki/temppeliaukio.jpg",
+    "alt": "Interior de roca y altar de Temppeliaukio",
+    "author": "Inhorw",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Temppeliaukio_Church_Interior.JPG",
+    "caption": "Foto de archivo del interior de roca y altar. Color natural; no confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sibelius",
+   "name": "Monumento a Sibelius",
+   "kind": "monument",
+   "zone": "Parque Sibelius",
+   "reason": "Escultura de 600 tubos de acero de Eila Hiltunen (1967) dedicada al compositor Jean Sibelius, en el parque junto al mar.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 60.18194,
+    "lon": 24.91347
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Monumento_a_Sibelius",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 40,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/helsinki/sibelius.jpg",
+    "alt": "Sibelius park3.jpg",
+    "author": "Tappinen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sibelius_park3.jpg",
+    "caption": "Foto de archivo del Monumento a Sibelius visto a distancia en su parque. No detalle de los tubos."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "suomenlinna",
+   "name": "Fortaleza de Suomenlinna",
+   "kind": "monument",
+   "zone": "Islas del puerto Sur",
+   "reason": "Fortaleza marítima del siglo XVIII Patrimonio de la Humanidad, repartida en seis islas a 15 minutos en ferry de la Plaza del Mercado.",
+   "sourceIds": [
+    "hsl",
+    "fares",
+    "suo"
+   ],
+   "coordinates": {
+    "lat": 60.14361,
+    "lon": 24.98444
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Suomenlinna",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 240,
+   "durationType": "editorial-estimate",
+   "caution": "HSL desde Plaza del Mercado: unos15min, todo el año; al menos una salida por hora en invierno, no frecuencia fija20-30min. BilleteAB:3,30 € en app o tarjetaHSL,3,50 € con pago contactless según tarifaactual; no asumir mismo precio en todos los medios. Elegir ida y vuelta; hielo/viento y locales pueden limitar visita. No es un recorrido accesible íntegramente sin escalones.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Fortaleza exterior; museos y servicios con calendario propio",
+   "photo": {
+    "img": "assets/helsinki/suomenlinna.jpg",
+    "alt": "Suomenlinna.jpg",
+    "author": "Michal Pise, Michal.Pise",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Suomenlinna.jpg",
+    "caption": "Foto de archivo de Fortaleza de Suomenlinna. No confirma acceso ni condiciones del día."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "tallin",
+   "name": "Tallin (Estonia)",
+   "kind": "excursion",
+   "zone": "Mar Báltico",
+   "reason": "Casco medieval amurallado Patrimonio de la Humanidad a 2 horas en ferry: la excursión clásica desde Helsinki.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "tallink"
+   ],
+   "coordinates": {
+    "lat": 59.43722,
+    "lon": 24.745
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Tallin",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "Llegar con antelación indicada por Tallink: puerta cierra20min antes, no es la hora recomendada de llegada. Llevar documento válido para Estonia según nacionalidad; fecha y condiciones marítimas pueden cambiar servicios. Nada reservado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión propia con transporte y retorno elegidos por fecha",
+   "photo": {
+    "img": "assets/helsinki/tallin.jpg",
+    "alt": "Old town of Tallinn 06-03-2012.jpg",
+    "author": "Ivar Leidus (Iifar)",
+    "license": "CC BY-SA 3.0 ee",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/ee/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_town_of_Tallinn_06-03-2012.jpg",
+    "caption": "Foto de archivo de Tallin (Estonia). Representa el destino, no confirma transporte ni condiciones actuales."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "porvoo",
+   "name": "Porvoo",
+   "kind": "excursion",
+   "zone": "Uusimaa",
+   "reason": "Segunda ciudad más antigua de Finlandia: casitas de madera de colores y almacenes rojos junto al río, a 50 km de Helsinki.",
+   "sourceIds": [
+    "porvoo",
+    "por"
+   ],
+   "coordinates": {
+    "lat": 60.39306,
+    "lon": 25.66389
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Porvoo",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Paseo por casco viejo y ribera como base. Iglesias, tiendas y cafés tienen calendarios propios, sin interior garantizado. No se usa barco ni tren turístico de verano como enlace anual.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión propia con transporte y retorno elegidos por fecha",
+   "photo": {
+    "img": "assets/helsinki/porvoo.jpg",
+    "alt": "Old Porvoo riverside.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_Porvoo_riverside.jpg",
+    "caption": "Foto de archivo de Porvoo. Representa el destino, no confirma transporte ni condiciones actuales."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "sipoonkorpi",
+   "name": "Parque Nacional de Sipoonkorpi",
+   "kind": "excursion",
+   "zone": "Sipoo/Vantaa",
+   "reason": "Bosque finlandés, lagos y formaciones rocosas a unos 25 km del centro; senderos desde la puerta de Kuusijärvi (con sauna de humo pública).",
+   "sourceIds": [
+    "hslparks",
+    "trail",
+    "rules",
+    "hop"
+   ],
+   "coordinates": {
+    "lat": 60.315,
+    "lon": 25.21889
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Sipoonkorpi_National_Park",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Bosque sin garantía de camino despejado de nieve/hielo. Confirmar estado y rutas oficiales antes de ir; ante mal tiempo elegir ciudad, no otro sendero improvisado. Grytberget restringido1marzo-15mayo; Viirilänsuo tiene restricciones propias. Usar trazado señalado, no un pin genérico como ruta de senderismo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión propia con transporte y retorno elegidos por fecha",
+   "photo": {
+    "img": "assets/helsinki/sipoonkorpi.jpg",
+    "alt": "Sipoonkorpi 104.jpg",
+    "author": "Nemo bis",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sipoonkorpi_104.jpg",
+    "caption": "Foto de archivo de Parque Nacional de Sipoonkorpi. Representa el destino, no confirma transporte ni condiciones actuales."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Centro histórico y puerto",
+     "zone": "Plaza del Senado → Katajanokka → Mercado → Esplanadi",
+     "stopIds": [
+      "plazasenado",
+      "catedral",
+      "uspenski",
+      "plazamercado",
+      "vanhakauppahalli",
+      "esplanadi"
+     ],
+     "editorialNote": "Plaza y puerto por fuera. Elegir como mucho una catedral interior según culto/horario y pago. Mercado Viejo lunes-sábado; domingo no contar con almuerzo allí. En invierno, paseo más corto con pausa interior abierta.",
+     "pacing": "Estimación editorial con pausas. Revisar interiores, transporte y luz por fecha."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Centro histórico y puerto",
+     "zone": "Plaza del Senado → Katajanokka → Mercado → Esplanadi",
+     "stopIds": [
+      "plazasenado",
+      "catedral",
+      "uspenski",
+      "plazamercado",
+      "vanhakauppahalli",
+      "esplanadi"
+     ],
+     "editorialNote": "Plaza y puerto por fuera. Elegir como mucho una catedral interior según culto/horario y pago. Mercado Viejo lunes-sábado; domingo no contar con almuerzo allí. En invierno, paseo más corto con pausa interior abierta.",
+     "pacing": "Estimación editorial con pausas. Revisar interiores, transporte y luz por fecha."
+    },
+    {
+     "title": "Arquitectura y roca",
+     "zone": "Kamppi → estación → Oodi → Töölö",
+     "stopIds": [
+      "kamppi",
+      "estacion",
+      "oodi",
+      "temppeliaukio",
+      "sibelius"
+     ],
+     "editorialNote": "Kamppi exterior si cierra. Oodi y Temppeliaukio como interiores principales, con horario semanal confirmado. Sibelius es extensión exterior opcional con luz y fuerzas: llegar con transporte si conviene, no una subida o caminata obligatoria.",
+     "pacing": "Estimación editorial con pausas. Revisar interiores, transporte y luz por fecha."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Centro histórico y puerto",
+     "zone": "Plaza del Senado → Katajanokka → Mercado → Esplanadi",
+     "stopIds": [
+      "plazasenado",
+      "catedral",
+      "uspenski",
+      "plazamercado",
+      "vanhakauppahalli",
+      "esplanadi"
+     ],
+     "editorialNote": "Plaza y puerto por fuera. Elegir como mucho una catedral interior según culto/horario y pago. Mercado Viejo lunes-sábado; domingo no contar con almuerzo allí. En invierno, paseo más corto con pausa interior abierta.",
+     "pacing": "Estimación editorial con pausas. Revisar interiores, transporte y luz por fecha."
+    },
+    {
+     "title": "Arquitectura y roca",
+     "zone": "Kamppi → estación → Oodi → Töölö",
+     "stopIds": [
+      "kamppi",
+      "estacion",
+      "oodi",
+      "temppeliaukio",
+      "sibelius"
+     ],
+     "editorialNote": "Kamppi exterior si cierra. Oodi y Temppeliaukio como interiores principales, con horario semanal confirmado. Sibelius es extensión exterior opcional con luz y fuerzas: llegar con transporte si conviene, no una subida o caminata obligatoria.",
+     "pacing": "Estimación editorial con pausas. Revisar interiores, transporte y luz por fecha."
+    },
+    {
+     "title": "Suomenlinna con ferry",
+     "zone": "Plaza del Mercado → Suomenlinna → regreso",
+     "stopIds": [
+      "suomenlinna"
+     ],
+     "editorialNote": "Media jornada larga o día tranquilo según rutas y servicios elegidos, no una única visita de museo. FerryHSL de ida y vuelta seleccionado por fecha; frecuencias menores en invierno. No añadir otra excursión este día. No contar con mercado abierto al volver un domingo.",
+     "pacing": "Estimación editorial con pausas. Revisar interiores, transporte y luz por fecha."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Nada reservado; condiciones por fecha. Fuentes detalladas en cada parada."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: Lugares que ver en Helsinki",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-en-helsinki/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Helsinki y lugares",
+   "url": "https://es.wikipedia.org/wiki/Helsinki",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hsl",
+   "title": "HSL: ferry a Suomenlinna",
+   "url": "https://www.hsl.fi/en/travelling/visitors/suomenlinna",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "suo",
+   "title": "Suomenlinna (web oficial)",
+   "url": "https://www.suomenlinna.fi/en/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "temp",
+   "title": "Iglesia Temppeliaukio",
+   "url": "https://temppeliaukionkirkko.fi/en/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "oodi",
+   "title": "Biblioteca Oodi",
+   "url": "https://www.oodihelsinki.fi/en/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "vkh",
+   "title": "Mercado Viejo (Vanha Kauppahalli)",
+   "url": "https://vanhakauppahalli.fi/en/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cat",
+   "title": "Parroquia de la Catedral: aviso de entradas 2026",
+   "url": "https://www.helsinginseurakunnat.fi/tuomiokirkkoseurakunta/uutiset/helsinginkeskustankirkoissapaasymaksukesalla2026-kirkkopassinytsaatavillamyosdigitaalisena",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "tallink",
+   "title": "Tallink: ferry Helsinki-Tallin",
+   "url": "https://www.tallink.com/travelling/one-way/helsinki-tallinn-ferry",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "porvoo",
+   "title": "OnniBus: Helsinki-Porvoo",
+   "url": "https://www.onnibus.com/from-helsinki-to-porvoo-cheap-bus-tickets",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hslparks",
+   "title": "HSL: parques naturales en transporte público",
+   "url": "https://www.hsl.fi/en/travelling/outdoor-attractions-by-public-transport",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "luo",
+   "title": "Luontoon: bus hop-on hop-off a Sipoonkorpi (verano 2026)",
+   "url": "https://www.luontoon.fi/en/destinations/sipoonkorpi-national-park/news/sipoonkorpi-national-park-can-be-easily-reached-in-summer-2026-by-the-hop-on-hop-off-bus",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "cat-now",
+   "title": "Catedral · visitantes y temporada actual",
+   "url": "https://www.helsingintuomiokirkko.fi/en/index/uusipaataso.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "usp",
+   "title": "Uspenski · parroquia y excepciones semanales",
+   "url": "https://hos.fi/en/uspenski-cathedral-main-cathedral-of-the-orthodox-parish-of-helsinki-and-the-diocese-of-helsinki/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "kam",
+   "title": "Kamppi · precios y apertura2026",
+   "url": "https://www.kampinkappeli.fi/en/uutiset/kamppichapel-discoveraplaceofperfectsilencerightintheheartofhelsinki",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fares",
+   "title": "HSL · tarifas actuales por forma de pago",
+   "url": "https://www.hsl.fi/liput-ja-hinnat/kertaliput/kertalipun-hinta",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "por",
+   "title": "Visit Porvoo · acceso",
+   "url": "https://www.visitporvoo.fi/en/arriving/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "hop",
+   "title": "Sipoo · bus899 verano2026",
+   "url": "https://www.sipoo.fi/en/visit-sipoo/see-experience/nature-experiences/sipoonkorpi-hop-on-hop-off-bus-service/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "trail",
+   "title": "Vantaa · Kuusijärvi-Bisajärvi, 6 km ida y vuelta",
+   "url": "https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/kuusijarvi-sipoonkorven-kansallispuisto-retkeilyreitti-2km",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rules",
+   "title": "Metsähallitus · restricciones del parque2026",
+   "url": "https://www.metsa.fi/tiedotteet/sipoonkorven-kansallispuiston-jarjestyssaanto-suojelee-alueen-lajeja-ja-luontotyyppeja-rajoituksia-liikkumiseen-grytbergetissa-ja-viirilansuolla/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

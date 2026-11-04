@@ -1,0 +1,79 @@
+{
+ "schemaVersion": 1,
+ "cityId": "lavaleta",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "rubino",
+   "name": "Rubino · mesa maltesa e italiana",
+   "address": "53 Triq l-Ifran / Old Bakery Street, Valletta VLT1454",
+   "description": "Restaurante de cocina maltesa e italiana que nació como pastelería. Aljotta, conejo frito y cassata son un ejemplo de su carta publicada como samplemenu,no plato garantizado cada día.",
+   "strength": "MICHELIN2021describiócocinalocalyclásicosenunlocalpequeño. PropioafirmaBibpor7años;sincontrastardistinción2026enfichavigente,noetiquetarcomoBibactualverificado.",
+   "alert": "Propio: lunes-viernes 12:30-14:30 y 19-22:30; sábados solo 19-22:30; domingos cerrado.",
+   "compactAlert": "Sábado sin almuerzo,domingo cerrado.",
+   "caution": "El menú de ejemplo cambia: confirmar alérgenos y disponibilidad. Foto real de comida pendiente; ilustración IA conceptual disponible; ubicación Maps comprobada. Sin reserva. Crítica MICHELIN de 2021 no prueba distinción actual.",
+   "officialUrl": "https://www.rubinomalta.com/",
+   "editorialUrl": "https://guide.michelin.com/en/article/features/michelin-bib-gourmand-restaurants-in-malta",
+   "sourceUrls": [
+    "https://www.rubinomalta.com/menu",
+    "https://www.rubinomalta.com/contact"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "priceLabel": "Ejemplo de carta propia: aljotta 11 € + conejo 24,50 € + cassata 6,50 € = 42 €/persona sin bebida. Carta orientativa, no menú fijo.",
+   "compactPrice": "42 € ejemplo de comida sin bebida.",
+   "photo": {
+    "img": "assets/lavaleta/rubino-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes malteses imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes malteses imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rubino&query_place_id=ChIJVxzLnStFDhMRRAT7ht56b9U",
+   "placeId": "ChIJVxzLnStFDhMRRAT7ht56b9U",
+   "lat": 35.8992029,
+   "lng": 14.5119824,
+   "locationCheckedAt": "2026-11-03",
+   "locationEvidence": "Ficha Maps coincide en nombre y dirección. Solo ubicación, no validación de horario, apertura futura, carta o accesibilidad.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "valletta_food_colour",
+   "name": "Colour My Travel · paseo gastronómico en La Valeta",
+   "address": "Encuentro: New Parliament Building, Republic Street, La Valeta, Malta",
+   "description": "Paseo guiado en inglés con degustaciones en varios establecimientos del casco urbano. La comida varía por temporada; no se garantiza una lista cerrada de platos ni la entrada a monumentos. El operador considera las degustaciones suficientes para sustituir el almuerzo de la mayoría: no añadir otra comida a la misma hora.",
+   "duration": "Duración publicada 3 h; llegar 10-15 min antes. Calendario por consultar, sin hora ni sesión disponibles confirmadas.",
+   "compactDuration": "3 h de paseo y degustaciones; llegar 10-15 min antes.",
+   "priceLabel": "Publicado 50 €/persona, paseo guiado y degustaciones, con una bebida al final según FAQ. Llevar agua. Precio final y condiciones de menores por confirmar para fecha; no se ha comprado.",
+   "compactPrice": "50 €/persona publicados; degustaciones y una bebida final.",
+   "officialUrl": "https://www.colourmytravel.com/tours/valletta-food-tour",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Ficha propia completa y FAQ leídas: 50 €, 3 h, inglés, punto de encuentro, cancelación y límites alimentarios. Calendario no verificado; no disponibilidad confirmada.",
+   "alert": "El operador dice que NO puede adaptar el tour a alergias o intolerancias. Opción vegetariana solo avisando por email al reservar. Reembolso completo si se cancela hasta 24 h antes del inicio, hora local; llegar tarde no da derecho a reembolso.",
+   "compactAlert": "No adapta alergias/intolerancias. Vegetariano con aviso. Cancelar hasta 24 h antes; tarde no reembolso.",
+   "caution": "No hay reserva ni compra. Confirmar movilidad, escalones, recorrido, menores, horario y necesidades concretas antes de pagar. No se traslada el comentario de una reseña sobre movilidad a una garantía de acceso. No se asume recogida en hotel ni que el horario encaje con un crucero particular.",
+   "photo": {
+    "img": "assets/lavaleta/valletta_food_colour-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Calle maltesa imaginada, no paradas ni productos de Colour My Travel. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Calle maltesa imaginada, no paradas ni productos de Colour My Travel. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "BN",
+ "country": "Brunéi",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Capital Bandar Seri Begawan, Kampong Ayer y excursión cultural a Tutong. No Ulu Temburong, canopy, cascadas ni costa de Belait.",
+ "verificationLimits": [
+  "Adaptación de cuatro a cinco días del circuito patrimonial de Freme, separando llegada y visitas de capital/río. No es paquete contratado.",
+  "Freme anuncia suspendidos hasta nuevo aviso sus tours a Ulu Temburong, cascadas y actividades acuáticas por bajo nivel de agua. El texto de programa debajo no prueba disponibilidad: se retira del itinerario. No se afirma cierre universal del parque por una sola operadora.",
+  "Tutong y visita en barca urbana requieren confirmación directa para fecha, condiciones y anfitriones; no se presuponen por no figurar en el aviso de Temburong."
+ ],
+ "routes": [
+  {
+   "id": "bn-capital-tutong-5",
+   "title": "Capital, Kampong Ayer y Tutong · 5 días",
+   "scope": "Capital Bandar Seri Begawan, Kampong Ayer y excursión cultural a Tutong. No Ulu Temburong, canopy, cascadas ni costa de Belait.",
+   "pace": "5 días / 4 noches en Bandar Seri Begawan: dos jornadas urbanas y una excursión a Tutong, con llegada y salida aparte.",
+   "assumptions": "Adaptación editorial de Freme, sin operador asignado ni comidas, entradas o barcas contratadas. Traslados organizados según fecha. No turismo de selva rellenado con servicios suspendidos. Documentación según pasaporte y fechas.",
+   "sources": [
+    {
+     "id": "op",
+     "title": "Freme · circuito patrimonio y Tutong, base editorial",
+     "url": "https://freme.com/product/4d3n-brunei-darussalam-heritage-package/"
+    },
+    {
+     "id": "tutong",
+     "title": "Brunei Tourism · distrito Tutong",
+     "url": "https://www.bruneitourism.com/tutong/"
+    },
+    {
+     "id": "ayer",
+     "title": "Brunei Tourism · Kampong Ayer",
+     "url": "https://www.bruneitourism.com/places/kampong-ayer/"
+    },
+    {
+     "id": "museum",
+     "title": "Brunei Tourism · museos y galerías",
+     "url": "https://www.bruneitourism.com/museums-galleries/"
+    },
+    {
+     "id": "closure",
+     "title": "Freme · aviso de suspensión Ulu Temburong y actividades acuáticas",
+     "url": "https://freme.com/product/explore-temburong-residents-wkd/"
+    },
+    {
+     "id": "maec",
+     "title": "Exteriores · Brunéi",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=brunei"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Bandar Seri Begawan",
+     "overnight": "Bandar Seri Begawan",
+     "stops": [
+      "Llegada y traslado",
+      "Paseo corto junto al río si queda margen"
+     ],
+     "transfer": "Aeropuerto BWN-alojamiento con traslado elegido. No BKI ni entrada a Malasia implícita. Se suprime la gira nocturna obligatoria del paquete para no cargar llegada.",
+     "sourceIds": [
+      "op"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Centro y patrimonio de la capital",
+     "overnight": "Bandar Seri Begawan",
+     "stops": [
+      "Omar Ali Saifuddien por fuera, interior solo si se confirma visita",
+      "Royal Regalia Museum según calendario",
+      "Waterfront"
+     ],
+     "transfer": "Desplazamientos urbanos con transporte elegido. No copiar horas ni gratuidad de un blog. Respetar oración, ropa y restricciones de visitantes. Viernes 12-14 h cierran negocios según operador; reordenar el día y confirmar museos/mezquitas.",
+     "sourceIds": [
+      "op",
+      "museum",
+      "maec"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Kampong Ayer y barrios de la capital",
+     "overnight": "Bandar Seri Begawan",
+     "stops": [
+      "Kampong Ayer con guía local y visita respetuosa",
+      "Galería cultural como opción según apertura",
+      "Jame’ Asr Hassanil Bolkiah exterior o Gadong como opción"
+     ],
+     "transfer": "Barca local solo con condiciones, seguridad y precio acordados antes. No es navegación de Ulu Temburong ni se deduce que cualquier servicio fluvial esté disponible. Regreso a misma base; no entrar en casas o pasarelas privadas sin permiso.",
+     "sourceIds": [
+      "ayer",
+      "op",
+      "maec"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Tutong cultural",
+     "overnight": "Bandar Seri Begawan",
+     "stops": [
+      "Lamin Warisan y patrimonio local según reserva",
+      "Una actividad artesanal o de producción local a elegir",
+      "Regreso a la capital"
+     ],
+     "transfer": "Excursión de día con conductor/operador, como circuito de Freme. Actividades y anfitriones requieren confirmación previa, no acceso espontáneo garantizado. Sin río, canopy, parque Ulu Temburong ni cascadas añadidas; no fijar duración de carretera no publicada por fuente.",
+     "sourceIds": [
+      "op",
+      "tutong",
+      "closure"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Salida desde Bandar Seri Begawan",
+     "overnight": null,
+     "stops": [
+      "Traslado a BWN"
+     ],
+     "transfer": "Noche anterior en capital y salida según vuelo. No excursionar a Tutong ni Temburong antes del vuelo.",
+     "sourceIds": [
+      "op"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Exteriores pide familiarizarse con leyes y costumbres conservadoras. Homosexualidad y relaciones extramatrimoniales están penalizadas; evitar expresiones públicas de afecto. No vender ni consumir alcohol en público, y durante Ramadán comer/beber/fumar en público en horas de ayuno conlleva responsabilidad penal. Respetar vestimenta y culto, confirmar cierres del viernes. Condiciones de selva y río requieren operador competente, no declarar seguras por baja delincuencia.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=brunei"
+ },
+ "photo": {
+  "img": "assets/routes/bn.jpg",
+  "name": "Mezquita Omar Ali Saifuddien, Bandar Seri Begawan",
+  "source": "https://commons.wikimedia.org/wiki/File:Omar_Ali_Saifuddien_Mosque.jpg",
+  "author": "Mx. Granger",
+  "license": "CC0 1.0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "caption": "Foto de archivo de 2019, recorte de la fuente. No confirma horario de visitas ni acceso interior actual."
+ }
+}

@@ -1,0 +1,293 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "VN",
+ "country": "Vietnam",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "routes": [
+  {
+   "id": "vn-connected-12",
+   "title": "Vietnam de norte a sur · 12 días",
+   "scope": "Hanói, Ha Long, Hoi An y Hué, Ciudad Ho Chi Minh y delta del Mekong. Primera visita con noches de enlace; no cubre Sapa, Ha Giang ni todas las regiones.",
+   "pace": "12 días/11 noches. Noche en Hanói después de la bahía y visita de Hué separada del vuelo al sur. Ritmo activo, con dos vuelos internos por elegir.",
+   "assumptions": "Adaptación editorial de la propuesta oficial de 10 días a 12 para reducir conexiones frágiles. No es paquete, presupuesto ni reserva; sin horarios ni plazas elegidos. La noche de enlace no protege billetes separados.",
+   "sources": [
+    {
+     "id": "route",
+     "title": "Itinerario de referencia",
+     "url": "https://www.vietnam.travel/plan-your-trip/recommended-trip/vietnam-highlights"
+    },
+    {
+     "id": "transport",
+     "title": "Vietnam Tourism: modos y distancias internas",
+     "url": "https://vietnam.travel/plan-your-trip/transport-within-vietnam/"
+    },
+    {
+     "id": "halong",
+     "title": "Vietnam Tourism: Ha Long, carretera y tormentas",
+     "url": "https://vietnam.travel/place-to-go/red-river-delta/ha-long/"
+    },
+    {
+     "id": "weather",
+     "title": "Vietnam Tourism: clima por región y Tết",
+     "url": "https://vietnam.travel/faqs/"
+    },
+    {
+     "id": "airnorth",
+     "title": "Vietnam Airlines: corredor HAN-DAD, no vuelo seleccionado",
+     "url": "https://www.vietnamairlines.com/en-vn/flights-from-hanoi-to-da-nang"
+    },
+    {
+     "id": "airsouth",
+     "title": "Vietnam Airlines: corredor HUI-SGN, no vuelo seleccionado",
+     "url": "https://www.vietnamairlines.com/en-vn/flights-to-ho-chi-minh-city"
+    },
+    {
+     "id": "maec",
+     "title": "MAEC: recomendaciones Vietnam consultadas 03/11/2026",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Vietnam"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Hanói",
+     "overnight": "Hanói",
+     "stops": [
+      "Llegada y paseo suave por el entorno del alojamiento"
+     ],
+     "transfer": "Aeropuerto → alojamiento. Sin visitas con entrada comprometidas el día de llegada.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Hanói: historia y casco antiguo",
+     "overnight": "Hanói",
+     "stops": [
+      "Templo de la Literatura",
+      "Museo de Etnología",
+      "Barrio antiguo",
+      "Marionetas acuáticas como opción de tarde"
+     ],
+     "transfer": "Traslados urbanos. La distancia entre museo y centro requiere transporte; no se presenta como paseo continuo.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Hanói → Ha Long",
+     "overnight": "Bahía de Ha Long",
+     "stops": [
+      "Bahía de Ha Long",
+      "Noche en barco, solo si se elige y reserva esa opción"
+     ],
+     "transfer": "Hanói → puerto de Ha Long por carretera: turismo estima unas 2,5 h, sin recogida en hotel ni espera. Confirmar puerto y hora límite del barco. Crucero sujeto al estado del mar y autorización.",
+     "sourceIds": [
+      "route",
+      "halong",
+      "maec"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Ha Long → Hanói: noche de enlace",
+     "overnight": "Hanói",
+     "stops": [
+      "Desembarque según crucero",
+      "Regreso y descanso; no vuelo interno este día"
+     ],
+     "transfer": "Puerto→Hanói por carretera. Hora de desembarque, puerto y traslados dependen del operador. Si se cancela navegación, adaptar la bahía sin forzar barco.",
+     "sourceIds": [
+      "route",
+      "halong",
+      "maec"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Hanói → Da Nang → Hoi An",
+     "overnight": "Hoi An",
+     "stops": [
+      "Traslado al aeropuerto",
+      "Llegada a Hoi An y paseo solo si hay margen"
+     ],
+     "transfer": "Hotel→HAN; vuelo HAN-DAD por elegir; aeropuerto Da Nang→Hoi An por carretera. La aerolínea publica corredor directo y alternativas con escala: seleccionar servicio real, equipaje y terminal, sin fijar duración total por el tiempo de vuelo.",
+     "sourceIds": [
+      "route",
+      "airnorth",
+      "transport"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "My Son y Hoi An",
+     "overnight": "Hoi An",
+     "stops": [
+      "Santuario de My Son",
+      "Casco antiguo de Hoi An",
+      "Puente japonés y calles históricas"
+     ],
+     "transfer": "Excursión de ida y vuelta desde Hoi An a My Son. Tarde urbana sin sumar otro traslado largo.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Hoi An → Hué",
+     "overnight": "Hué",
+     "stops": [
+      "Museo Cham de Da Nang, si encaja",
+      "Paso Hai Van",
+      "Tumba de Tu Duc"
+     ],
+     "transfer": "Hoi An→Da Nang→Hué por carretera. Hai Van y Museo Cham solo si conductor, estado y horario encajan; llegada y registro en Hué. No se promete tren directo desde Hoi An.",
+     "sourceIds": [
+      "route",
+      "transport"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Hué: ciudadela y entorno",
+     "overnight": "Hué",
+     "stops": [
+      "Ciudadela imperial como visita principal",
+      "Thien Mu o una tumba, según tiempo y aperturas"
+     ],
+     "transfer": "Jornada local de Hué; entradas y transporte separados. Se retira el vuelo del mismo día para no subordinar toda la visita a una salida por elegir.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Hué → Ciudad Ho Chi Minh",
+     "overnight": "Ciudad Ho Chi Minh",
+     "stops": [
+      "Traslado al aeropuerto de Hué",
+      "Llegada al alojamiento del sur"
+     ],
+     "transfer": "Hotel → HUI; vuelo HUI-SGN por elegir; aeropuerto → hotel. Vietnam Airlines publica este corredor, no plazas del viaje ni terminal definitiva. Tarde flexible sin interiores comprometidos.",
+     "sourceIds": [
+      "airsouth",
+      "transport"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "Cu Chi y Ciudad Ho Chi Minh",
+     "overnight": "Ciudad Ho Chi Minh",
+     "stops": [
+      "Túneles de Cu Chi",
+      "Palacio de la Reunificación, según horario",
+      "Correos y entorno de la catedral por fuera"
+     ],
+     "transfer": "Excursión Cu Chi y regreso; elegir visitas de tarde según tiempo disponible, sin prometer todos los interiores.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "Delta del Mekong",
+     "overnight": "Ciudad Ho Chi Minh",
+     "stops": [
+      "Ben Tre",
+      "Canales y pueblos del delta"
+     ],
+     "transfer": "Excursión de ida y vuelta desde Ciudad Ho Chi Minh. Actividades sujetas a operador y condiciones.",
+     "sourceIds": [
+      "route"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Salida desde Ciudad Ho Chi Minh",
+     "overnight": null,
+     "stops": [
+      "Tiempo libre según vuelo"
+     ],
+     "transfer": "Alojamiento → aeropuerto. No incluye vuelo internacional ni conexión garantizada.",
+     "sourceIds": [
+      "route"
+     ]
+    }
+   ],
+   "previousRouteIds": [
+    "vn-classic"
+   ],
+   "previousRouteNotes": [
+    {
+     "id": "vn-classic",
+     "title": "Vietnam de norte a sur · 10 días",
+     "days": [
+      {
+       "day": 1,
+       "title": "Llegada a Hanói"
+      },
+      {
+       "day": 2,
+       "title": "Hanói: historia y casco antiguo"
+      },
+      {
+       "day": 3,
+       "title": "Hanói → Ha Long"
+      },
+      {
+       "day": 4,
+       "title": "Ha Long → Hoi An"
+      },
+      {
+       "day": 5,
+       "title": "My Son y Hoi An"
+      },
+      {
+       "day": 6,
+       "title": "Hoi An → Hué"
+      },
+      {
+       "day": 7,
+       "title": "Hué → Ciudad Ho Chi Minh"
+      },
+      {
+       "day": 8,
+       "title": "Cu Chi y Ciudad Ho Chi Minh"
+      },
+      {
+       "day": 9,
+       "title": "Delta del Mekong"
+      },
+      {
+       "day": 10,
+       "title": "Salida desde Ciudad Ho Chi Minh"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "photo": {
+  "img": "assets/routes/vn.jpg",
+  "name": "Hanói · monumento junto al lago Hoan Kiem",
+  "source": "https://www.flickr.com/photos/101561334@N08/9753437533/",
+  "author": "Gary Todd",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "caption": "Foto de archivo; recorte de presentación. No representa todas las etapas de la ruta."
+ },
+ "advisory": {
+  "text": "MAEC recomienda viajar con precaución. Lluvias, tifones e inundaciones pueden afectar carretera y navegación. Vietnam Tourism destaca tormentas e inundaciones en el centro entre septiembre y noviembre; no se promete operativa de Ha Long, Hoi An o Hué por estación o fecha.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Vietnam"
+ },
+ "verificationLimits": [
+  "12 días/11 noches editoriales; coste completo, alojamientos, entradas, puertos y servicios elegidos aún pendientes. No hay reservas ni conexiones protegidas.",
+  "Bahía y delta sujetos a meteorología y autoridades. Una fecha fuera de meses de lluvia no certifica navegación segura; revisar avisos para el viaje.",
+  "No se copian frecuencias, terminales ni tarifas de páginas aéreas que contienen textos contradictorios. Se usan solo para respaldar los corredores HAN-DAD y HUI-SGN.",
+  "Los trenes son alternativa de otro ritmo: no sustituir vuelos por tren dentro de este reparto sin añadir tiempo/noches. Hoi An no es estación ferroviaria.",
+  "Visados/documentación según pasaporte y fecha, sin inferir nacionalidad. Confirmar calendario Tết y servicios antes de cerrar etapas."
+ ]
+}

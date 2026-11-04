@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "cityId": "valencia",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "carmela",
+   "name": "Casa Carmela · arroz a leña",
+   "address": "C/ d'Isabel de Villena, 155, Poblats Marítims, 46011 València, Valencia, Spain",
+   "description": "Paella valenciana cocinada a leña de naranjo junto a la Malvarrosa. Comida propia en la costa, no una pausa rápida entre museos del centro.",
+   "strength": "Ricard Camarena recomienda en BBC el método tradicional a leña. Carta propia 2 noviembre 2026 confirma valenciana por encargo, mínimo dos raciones y arroz a mesa completa.",
+   "alert": "Paella valenciana 25 €/ración, mínimo 2 y por encargo. Lunes-sábado 13-16; domingo cerrado.",
+   "caution": "Carta 2 noviembre 2026: valenciana con pollo, conejo, pato, verduras y caracoles por encargo; arroces a mesa completa y mínimo 2. Senyoret/negro 25 €, marisco 28 €, por ración no paellera completa. Menú degustación 62 € incluye pan, excluye café y bebidas, mesa completa. El precio de arroz no es comida completa: añadir entrantes, postre y bebida según elección. Restaurante confirma reservas solo al aceptarlas, lun-sáb 13-16/domingo cerrado. Consultar alergias, pescado/marisco en fondos de varios arroces; verduras por encargo no garantiza aptitud vegana o sin contaminación. Traslado costa y servicio largo deben sustituir tiempo del plan. Nada reservado.",
+   "officialUrl": "https://www.casa-carmela.com/",
+   "editorialUrl": "https://www.bbc.com/travel/article/20240916-a-michelin-chefs-guide-to-the-best-paella-in-valencia",
+   "sourceUrls": [
+    "https://www.casa-carmela.com/carta/carta.pdf"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Casa+Carmela&query_place_id=ChIJ9-rCGHdIYA0R9c5tfV6sydc",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta PDF y condiciones de reserva propias, ubicación Maps; sin mesa ni paella encargada.",
+   "priceLabel": "25 € por ración de valenciana, mínimo dos, no total de comida. Menú 62 € sin bebida/café.",
+   "photo": {
+    "img": "assets/valencia/carmela-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Arroz crudo, verduras y paellera vacía imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Arroz crudo, verduras y paellera vacía imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "compactPrice": "Valenciana25 €/ración, mínimo2; menú62 € sin bebida/café.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "nicolas-inmersiva",
+   "name": "San Nicolás: entrada inmersiva",
+   "address": "C/ dels Cavallers, 35, Ciutat Vella, 46001 València, Valencia, Spain",
+   "description": "Iglesia, audioguía y experiencia La Luz de San Nicolás. Un interior alternativo del casco, no todas las sedes de un billete combinado.",
+   "duration": "Unos 60-90 min, estimación editorial; experiencia de luz anuncia 20 min.",
+   "compactDuration": "60-90 min orientativos",
+   "alert": "16 € online/18 € taquilla. Lunes solo culto, no visita turística; último acceso 1 h antes.",
+   "caution": "Página de compra propia: Entrada Inmersiva 16 € web/18 € taquilla, reducida13/15 con acreditación. Incluye audio castellano/valenciano/inglés/italiano/francés y La Luz con tótems, vidriera digital y mapping. Preferente19 € y guiada20 € son productos distintos. Inmersiva mar-vie10:30-19/sáb10-19/dom13-20 según ficha compra; preferente publica otros horarios10:30-20/sáb10-19:30/dom11-20. Página horarios sigue octubre2026, no prueba noviembre actual: confirmar día y sesión, no tomar franja más amplia como universal. Culto impide turismo, última entrada1h antes. Edad gratuita dice hasta12 en operador, no resolver frontera para una compra sin comprobar billete. Condiciones de cambio/cancelación aún no verificadas: consultar antes pagar, no cancelación gratis asumida. Nada reservado, foto real pendiente; visual IA conceptual disponible.",
+   "officialUrl": "https://www.sannicolasvalencia.com/compra-tu-entrada/",
+   "sourceUrls": [
+    "https://www.sannicolasvalencia.com/horarios/",
+    "https://www.sannicolasvalencia.com/la-luz-de-san-nicolas/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parr%C3%B2quia+de+Sant+Nicolau+de+Bari+i+Sant+Pere+M%C3%A0rtir+de+Val%C3%A8ncia&query_place_id=ChIJ0xmTFlJPYA0RQthjecGioow",
+   "priceLabel": "16 € web/18 € taquilla inmersiva, no preferente ni combinada.",
+   "photo": {
+    "img": "assets/valencia/nicolas-inmersiva-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Iglesia valenciana imaginada, no San Nicolás real ni su espectáculo inmersivo. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Iglesia valenciana imaginada, no San Nicolás real ni su espectáculo inmersivo. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Ficha de producto primaria leída; calendario por día y política antes compra pendientes.",
+   "realPhotoPending": true
+  }
+ ]
+}

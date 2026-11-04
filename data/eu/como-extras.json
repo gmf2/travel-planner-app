@@ -1,0 +1,85 @@
+{
+ "schemaVersion": 1,
+ "cityId": "como",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "como_feel",
+   "name": "Feel Como · cena de cocina local contemporánea",
+   "address": "Via Armando Diaz, 54, 22100 Como CO, Italy",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Feel+Como&query_place_id=ChIJeYQcKkuchkcRjxwxtwkd6_8",
+   "lat": 45.8094066,
+   "lon": 9.0813612,
+   "description": "Cocina contemporánea de Federico Beretta basada en caza, pescado de agua dulce, hierbas del bosque y productos lácteos de la zona. Michelin destaca ese vínculo con el territorio; la carta propia incluye ravioli de gallina y lucioperca. Es una comida pausada de 2-3 h, no una trattoria rápida ni una parada antes de coger el último barco.",
+   "compactDescription": "En Como: caza, pescado de lago y hierbas silvestres. Cena especial de 2-3 h, no comida rápida entre barcos.",
+   "priceLabel": "Carta por persona: 2 platos 70 € o 3 platos 90 €. Degustación 130 € para toda la mesa; grupos de 5-8 solo degustación según web. Bebidas, postres/quesos, suplementos y posibles cargos aparte por confirmar; risotto de trufa +15 € publicado. No es total final.",
+   "compactPrice": "2 platos 70 € / 3 platos 90 €; degustación 130 €. Bebidas, suplementos y extras aparte.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.feelcomo.com/en/menu/",
+   "editorialUrl": "https://guide.michelin.com/en/lombardia/como/restaurant/feel",
+   "sourceUrls": [
+    "https://www.feelcomo.com/en/",
+    "https://www.feelcomo.com/en/prenota/",
+    "https://feel.prenota-web.it/prenotazioni/?lang=en&ristorante="
+   ],
+   "statusEvidence": "Carta, home, reserva propia/proveedor y Michelin leídos; dirección Maps coincidente. Web propia admite almuerzo sábado/domingo, Michelin solo sábado: confirmar servicio de domingo.",
+   "alert": "Tarjeta como garantía: cancelación/modificación con 48 h de antelación; después o no-show 75 €/persona según reserva publicada. Lácteos, huevo, ajo/cebolla, hierbas y otros ingredientes base no se pueden excluir; no ofrece cocina vegana. Confirmar restricciones con el local antes de reservar.",
+   "compactAlert": "Garantía con tarjeta: 75 €/persona si se cancela tarde (<48 h) o no-show. No hay reserva.",
+   "caution": "Propio: cena martes-domingo 19:00-23:00, última llegada 21:30; almuerzo sábado/domingo 12:00-15:00, última llegada 13:30, lunes cerrado. Michelin no muestra almuerzo domingo: confirmar. Seis mesas, máximo 16 plazas; reserva requerida también almuerzo. No se ha verificado acceso sin escalones. Vegetariano solo por petición previa y degustación para toda la mesa; no asumir aptitud ante alergias. Proveedor pide email para 6-8 personas.",
+   "photo": {
+    "img": "assets/como/como_feel-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes y paisaje del lago imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes y paisaje del lago imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "como_silk_museum",
+   "name": "Museo della Seta · Como",
+   "address": "Via Castelnuovo, 9, 22100 Como CO, Italy",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Museo+della+Seta+di+Como&query_place_id=ChIJdy9kMS6chkcRGo3HHT252zs",
+   "lat": 45.80281240000001,
+   "lon": 9.0947861,
+   "description": "Proceso de la seda desde el gusano hasta el acabado, con maquinaria y herramientas de la industria textil comasca. Visita independiente bajo techo; no taller de teñido incluido ni traslado desde el lago. La web tiene recorridos táctiles/LIS y declara el museo accesible, confirmar las necesidades concretas.",
+   "duration": "Reserva editorial de 60-90 min para visita libre, más desplazamiento desde el casco; no duración de un taller guiado.",
+   "compactDuration": "60-90 min orientativos bajo techo en Como; traslado aparte.",
+   "priceLabel": "Entrada individual ordinaria 10 €. Estudiantes/menores de 18: 5 €; mayores de 65: 7 €, sujetos a acreditación. Audioguías limitadas incluidas según FAQ, idiomas concretos por confirmar. No incluye taller ni compras.",
+   "compactPrice": "Individual ordinaria 10 €; visita libre, no taller incluido.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.museosetacomo.com/prenota",
+   "sourceUrls": [
+    "https://www.museosetacomo.com/contatti",
+    "https://www.museosetacomo.com/faq"
+   ],
+   "statusEvidence": "Taquilla, FAQ y contactos propios leídos; dirección Maps coincidente. FAQ enumera 8 salas, home 10: no se adopta número exacto como recorrido cerrado.",
+   "alert": "Martes 14:00-18:00; miércoles-domingo 10:00-13:00 y 14:00-18:00; lunes cerrado. Grupos de 10-25 requieren reserva y guía. Festivos, última entrada y cancelación de compra online pendientes.",
+   "compactAlert": "Martes solo tarde; miércoles-domingo mañana/tarde. Lunes cerrado; confirmar festivos.",
+   "caution": "Entrada se compra en museo o formulario online: no se ha comprado. Guía para grupos no se asume para una persona; idiomas de guía con suplemento y acuerdo previo. Talleres Silk Experiences 2025/26 son productos distintos para mínimo 10 personas y no se incorporan a esta visita. Confirmar audioguía disponible y adaptaciones de accesibilidad.",
+   "photo": {
+    "img": "assets/como/como_silk_museum-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Hilos de seda imaginados, no piezas ni máquinas reales del museo. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Hilos de seda imaginados, no piezas ni máquinas reales del museo. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ]
+}

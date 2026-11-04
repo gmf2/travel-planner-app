@@ -1,0 +1,578 @@
+{
+ "schemaVersion": 1,
+ "country": "IT",
+ "id": "como",
+ "name": "Lago de Como",
+ "localName": "Lago di Como",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "como",
+   "name": "Como, la puerta del lago",
+   "kind": "walk",
+   "zone": "Como",
+   "reason": "La ciudad-base: el Duomo gótico-renacentista, el paseo marítimo hasta Villa Olmo, el casco amurallado y la estación de ferries y trenes a Milán.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 45.811768,
+    "lon": 9.083662
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Duomo%20di%20Como",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": " Centro histórico ZTL: no conducir hasta el restaurante o Duomo por una ruta sin comprobar. Referencia Valduce, acceso Viale Lecco 9, abierto 24 h según operador, no parking del hotel. Turismo publica diurno 06:30-20:30 primera hora 1,50 € y horas siguientes 2 € cada una; confirmar tarifa de máquina. Altura y plaza libre pendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Ciudad libre; museos de pago (tarifas no verificadas).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/como/como.jpg",
+    "alt": "Frente de la ciudad de Como, cúpula de la catedral y lago. No foto de todo el lago ni prueba de apertura de la catedral.",
+    "caption": "Frente de la ciudad de Como, cúpula de la catedral y lago. No foto de todo el lago ni prueba de apertura de la catedral.",
+    "source": "https://www.pexels.com/photo/historic-como-cathedral-and-lake-in-lombardy-italy-37732177/",
+    "author": "Yana Oleksiuk",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "brunate",
+   "name": "Brunate y el Faro Voltiano",
+   "kind": "viewpoint",
+   "zone": "Brunate",
+   "reason": "El balcón sobre el lago: se sube en el funicular histórico de 1894 desde Como y se sigue a pie hasta el Faro Voltiano para la vista completa del primer brazo.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "brunate-own"
+   ],
+   "coordinates": {
+    "lat": 45.81947,
+    "lon": 9.095989
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Brunate%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "El Faro no está en la estación. El recorrido tiene desnivel. Elegir paseo por Brunate o subida al Faro según luz, acceso y condiciones. No se promete regreso después del atardecer sin verificar la última bajada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Horario y avisos del funicular pendientes. La tarifa no demuestra frecuencia ni última bajada. Faro y funicular son servicios distintos.",
+    "source": "https://www.funicolarecomo.it/tariffecentro.htm"
+   },
+   "price": "Funicular desde el 1 de septiembre de 2026: 3,70 € ida o 7,40 € ida y vuelta. Reducida hasta 12 años: 2,50 € o 5 €. Hasta 4 años gratis. Faro Voltiano: tarifa y acceso pendientes.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/como/brunate-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Brunate, panorama imaginado del lago, no recorrido del funicular. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Brunate, panorama imaginado del lago, no recorrido del funicular. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "bellagio",
+   "name": "Bellagio, la perla del lago",
+   "kind": "walk",
+   "zone": "Bellagio",
+   "reason": "El pueblo en la punta donde se dividen los brazos del lago: las salitadas empedradas con tiendas, el paseo de los jardines de Villa Melzi (solo jardines, de pago) y el embarcadero central.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "navigation-own",
+    "navigation-winter-own"
+   ],
+   "coordinates": {
+    "lat": 45.987255,
+    "lon": 9.2613
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Bellagio%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Ejemplo publicado, no reserva: del 02/11/2026 al 14/03/2027, salvo 25/12/2026 y 01/01/2027 con servicio reducido, barco ordinario 14 Como 09:50 → Bellagio 11:10; vuelta ordinaria 19 Bellagio 16:20 → Como 18:00. Ambas columnas son Gior. (diarias). Quedan 5 h 10 entre llegada y salida en Bellagio, no tiempo neto de visitas. No es servicio rápido SR ni conexión combinada con Varenna/Menaggio. Comprobar avisos, aforo y horario vigente antes de salir; la tabla no confirma billete ni embarque. Villa Melzi: precio y temporada pendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Pueblo libre; jardines de Villa Melzi de pago (tarifa no verificada en primaria).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/como/bellagio.jpg",
+    "alt": "Frente lacustre de Bellagio con edificios y ladera al fondo. No acredita acceso a villas ni servicio de ferri.",
+    "caption": "Frente lacustre de Bellagio con edificios y ladera al fondo. No acredita acceso a villas ni servicio de ferri.",
+    "source": "https://www.pexels.com/photo/buildings-near-the-body-of-water-9768050/",
+    "author": "Nicola Vidali",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "accessRules": {
+    "scope": "Barco Como-Bellagio, ejemplo de horario",
+    "noticeLabel": "Barco Como-Bellagio, no billete confirmado",
+    "verifiedFrom": "2026-11-02",
+    "verifiedThrough": "2027-03-14",
+    "notices": [
+     "Ejemplo publicado, no reserva: del 02/11/2026 al 14/03/2027, salvo 25/12/2026 y 01/01/2027 con servicio reducido, barco ordinario 14 Como 09:50 → Bellagio 11:10; vuelta ordinaria 19 Bellagio 16:20 → Como 18:00. Ambas columnas son Gior. (diarias). Quedan 5 h 10 entre llegada y salida en Bellagio, no tiempo neto de visitas. No es servicio rápido SR ni conexión combinada con Varenna/Menaggio. Comprobar avisos, aforo y horario vigente antes de salir; la tabla no confirma billete ni embarque."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "varenna",
+   "name": "Varenna, el pueblo de pescadores",
+   "kind": "walk",
+   "zone": "Varenna",
+   "reason": "El más romántico: el paseo de los enamorados sobre el agua, el castillo de Vezio arriba y la Villa Monastero con su jardín botánico de 2 km junto al lago.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.009979,
+    "lon": 9.283159
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Varenna%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Al castillo de Vezio se sube a pie por sendero empinado (~20 min).",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Pueblo libre; Villa Monastero y castillo de Vezio de pago (tarifas no verificadas).",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/como/varenna.jpg",
+    "alt": "Frente de casas de Varenna junto al lago de Como. Foto representativa del pueblo, no horario de barcos.",
+    "caption": "Frente de casas de Varenna junto al lago de Como. Foto representativa del pueblo, no horario de barcos.",
+    "source": "https://www.pexels.com/photo/town-varenna-on-lake-como-in-italy-7946861/",
+    "author": "SHVETS production",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "menaggio",
+   "name": "Menaggio y su paseo marítimo",
+   "kind": "walk",
+   "zone": "Menaggio",
+   "reason": "La tercera punta del triángulo central: el elegante paseo junto al lago, la plaza del café y el punto de partida hacia el valle Menaggio y Porlezza.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.019784,
+    "lon": 9.238951
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Menaggio%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Acceso libre.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/como/menaggio-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Menaggio, concepto de paseo junto al lago. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Menaggio, concepto de paseo junto al lago. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "villa_carlotta",
+   "name": "Villa Carlotta, el museo-jardín de Tremezzo",
+   "kind": "museum",
+   "zone": "Tremezzina",
+   "reason": "La villa del siglo XVII con los Canova y Hayez dentro y el jardín botánico de azaleas y rododendros fuera: el esplendor del lago en primavera.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "carlotta-own",
+    "navigation-own"
+   ],
+   "coordinates": {
+    "lat": 45.986402,
+    "lon": 9.230836
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Villa%20Carlotta%2C%20Tremezzina%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Página vigente de 2026 encontrada. Precio y fechas de 2027 pendientes. No usar los 45 minutos de barco que menciona la villa como conexión universal desde Como: el operador distingue servicio rápido con suplemento y servicio ordinario.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Del 19 de octubre al 8 de noviembre de 2026: 10-18, último billete a las 17; museo cierra 17:30. Aperturas del 14-15, 21-22 y 28-29 de noviembre y del 5-8 de diciembre de 2026: 10-16, último billete 15:30. Otros días solo por acuerdo previo según operador, no apertura ordinaria garantizada.",
+    "source": "https://www.villacarlotta.it/it/visita/"
+   },
+   "price": "2026: 17,50 € adulto; 15 € mayores de 65 con documento; 7 € estudiantes de 6-18; 12 € estudiantes de 19-25. De 0-5 años gratis. Familia de dos adultos y dos niños de 6-18: 35 €. Discapacidad y acompañante gratis con las condiciones del operador.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "img": "assets/como/villa_carlotta-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Villa Carlotta, exterior y jardín imaginados, sin obras inventadas. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Villa Carlotta, exterior y jardín imaginados, sin obras inventadas. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "accessRules": {
+    "scope": "Villa Carlotta: visita ordinaria",
+    "noticeLabel": "Villa Carlotta: visita ordinaria",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-08",
+    "notices": [
+     "Del 19 octubre al 8 noviembre de 2026, 10-18. Después solo 14-15, 21-22 y 28-29 noviembre y 5-8 diciembre, 10-16. En otros días, únicamente por acuerdo previo con operador; no apertura ordinaria garantizada."
+    ]
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "villa_balbianello",
+   "name": "Villa del Balbianello, la villa de las películas",
+   "kind": "museum",
+   "zone": "Lenno",
+   "reason": "La villa del cardenal Durini y de Guido Monzino en la punta de Lavedo (FAI): la loggia de los arcos sobre el agua donde se rodaron Star Wars y Casino Royale.",
+   "sourceIds": [
+    "epv",
+    "wp",
+    "fai"
+   ],
+   "coordinates": {
+    "lat": 45.965088,
+    "lon": 9.202502
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Villa%20del%20Balbianello%2C%20Lenno%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Reserva obligatoria. Interior solo en tour de 50 minutos, italiano o inglés, máximo 16 personas. La hora elegida es de acceso al recinto, no de inicio del tour: se asigna en taquilla, con espera máxima de 60 minutos. Acceso a pie desde Lenno: 1 km en subida y grava, unos 25 minutos, o sendero de 2,5 km, unos 45 minutos. No apto para carritos o dificultades de marcha según FAI. Acceso adaptado requiere coordinación previa. Taxiboat externo de pago y con reserva, no incluido. FAI no permite llegar a la villa en coche: parking Mercato Via Comoedia (antigua Via degli Artigiani), o alternativas Via Diaz y Silvio Pellico. Mercato no quedó identificado de forma fiable en Maps, no usar el resultado genérico Via Statale como si fuera ese parking. Referencia verificada hacia alternativa Via Armando Diaz 11: desde Valduce ida 41 min / 27,3 km, vuelta 43 min / 27,9 km sin fecha/tráfico. Eso no incluye paseo desde esa plaza hasta acceso del sendero; tarifa/plazas de Lenno pendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "FAI publica en noviembre 10-17, último acceso al parque 16 y al tour 15. Diciembre de 2026 solo días 1, 4, 5, 6, 8, 11, 12, 13, 15, 18, 19, 20, 22, 26, 27 y 29. Enero de 2027 solo 2, 3, 5 y 6, de 10-17. Confirmar calendario de venta; no convertir fechas de esta temporada en regla anual.",
+    "source": "https://fondoambiente.it/luoghi/villa-del-balbianello/visita"
+   },
+   "price": "Solo parque: 15 € general, 11 € de 6-18 años y estudiantes hasta 25. Familia: 42 €, dos adultos y dos o más niños de 6-18. Villa y parque: 25 € o 17 € reducida; familia 66 €. Hasta 5 años gratis. Discapacidad y acompañante: parque gratis; interior 5 € por persona con condiciones.",
+   "visitMode": "interior+exterior",
+   "photo": {
+    "source": "https://www.pexels.com/photo/villa-del-balbianello-by-lake-como-in-italy-19873394/",
+    "author": "Emmanuel HENAFF",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Villa del Balbianello vista desde el lago. No es foto del interior ni prueba de desembarco o acceso disponible.",
+    "img": "assets/como/villa_balbianello.jpg",
+    "alt": "Villa del Balbianello vista desde el lago. No es foto del interior ni prueba de desembarco o acceso disponible."
+   },
+   "accessRules": {
+    "scope": "Villa del Balbianello",
+    "noticeLabel": "Villa del Balbianello",
+    "verifiedFrom": "2026-11-03",
+    "verifiedThrough": "2026-12-31",
+    "notices": [
+     "Reserva obligatoria. Diciembre y enero solo días seleccionados del calendario del operador: consultar venta de la fecha; no visita diaria garantizada ni fechas convertidas en regla anual."
+    ]
+   },
+   "photoPending": false
+  },
+  {
+   "id": "nesso",
+   "name": "Nesso y su cascada del Orrido",
+   "kind": "viewpoint",
+   "zone": "Nesso",
+   "reason": "El pueblo partido por la garganta del Orrido: la cascada que cae al lago bajo el puente romano de la Strada Regina, con escaleras que bajan al agua.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 45.911422,
+    "lon": 9.157113
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Nesso%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "No es una parada automática de regreso en barco o por carretera. Escaleras empinadas, acceso peatonal legal y parking por verificar. No detener el coche en el arcén para una foto.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Condiciones de acceso y servicios pendientes. No se presume que todo sea gratuito.",
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/como/nesso.jpg",
+    "alt": "Puente y cascada del Orrido en Nesso. Imagen de mayo de 2023, no estado actual de caudal, acceso o seguridad.",
+    "caption": "Puente y cascada del Orrido en Nesso. Imagen de mayo de 2023, no estado actual de caudal, acceso o seguridad.",
+    "source": "https://www.pexels.com/photo/clinging-plant-on-hotel-building-in-nesso-italy-20412779/",
+    "author": "Alejandro Aznar",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "photoPending": false
+  },
+  {
+   "id": "milan",
+   "name": "Milán, la capital lombarda",
+   "kind": "excursion",
+   "zone": "Milán",
+   "reason": "Jornada independiente en Milán. Elegir un eje del centro y un interior según reserva; comprobar ida y vuelta desde la estación y base elegidas, sin fijar aquí cuarenta minutos.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 45.464194,
+    "lon": 9.189635
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Milano%2C%20Italy",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 480,
+   "durationType": "editorial-estimate",
+   "caution": "Excursión independiente. Última Cena: comprobar reservas y aforo actuales, sin prometer una antelación fija de varias semanas.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Duomo-terrazas, Última Cena y museos de pago; tarifas no verificadas en primaria.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/milan/duomo.jpg",
+    "source": "https://www.flickr.com/photos/133727831@N02/19931719823/",
+    "author": "Tomek Rychtyk",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Fachada del Duomo de Milán. Foto de archivo existente, no acredita acceso interior ni terrazas.",
+    "alt": "Fachada del Duomo de Milán. Foto de archivo existente, no acredita acceso interior ni terrazas."
+   },
+   "transport": "Trenes de Como a Milán por confirmar según estación, hora y fecha.",
+   "photoPending": false
+  },
+  {
+   "id": "lugano",
+   "name": "Lugano, la Suiza italiana",
+   "kind": "excursion",
+   "zone": "Lugano (Suiza)",
+   "reason": "Jornada independiente en Lugano, con paseo junto al lago, parque Ciani y casco urbano como opciones. El Monte Brè exige comprobar su propio transporte y calendario; no se fija un traslado de cuarenta minutos.",
+   "sourceIds": [
+    "epv",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 46.003801,
+    "lon": 8.951227
+   },
+   "coordinateSource": "https://www.openstreetmap.org/search?query=Lugano%2C%20Switzerland",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 420,
+   "durationType": "editorial-estimate",
+   "caution": "Excursión a Suiza, con un lago distinto al de Como. Moneda CHF y documentación según situación personal. Transporte y precios exactos pendientes.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": "Monte Brè/San Salvatore y museos de pago; tarifas no verificadas en primaria.",
+   "visitMode": "Excursión de jornada propia; acceso a interiores y transporte por comprobar",
+   "photo": {
+    "img": "assets/como/lugano-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Lugano, concepto de paseo junto al lago. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Lugano, concepto de paseo junto al lago. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "transport": "Conexión de Como a Lugano por confirmar para la fecha y estaciones. Nada reservado.",
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Como y Brunate opcional",
+     "stopIds": [
+      "como"
+     ],
+     "optionalStopIds": [
+      "brunate"
+     ],
+     "editorialNote": "Casco y paseo de Como. Brunate es opción de tarde si operación y regreso están confirmados. Faro no obligatorio después del funicular.",
+     "pacing": "Jornada urbana a pie. Coche: referencia Valduce Viale Lecco 9, 24 h; centro ZTL, no entrar hasta hotel/restaurante sin verificar permiso. Museo de la Seda 60-90 min editoriales más desplazamiento, en lugar de parte del paseo/Brunate; Feel cena 2-3 h, no reserva ni total cerrado."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Como y Brunate opcional",
+     "stopIds": [
+      "como"
+     ],
+     "optionalStopIds": [
+      "brunate"
+     ],
+     "editorialNote": "Casco y paseo de Como. Brunate es opción de tarde si operación y regreso están confirmados. Faro no obligatorio después del funicular.",
+     "pacing": "Jornada urbana a pie. Coche: referencia Valduce Viale Lecco 9, 24 h; centro ZTL, no entrar hasta hotel/restaurante sin verificar permiso. Museo de la Seda 60-90 min editoriales más desplazamiento, en lugar de parte del paseo/Brunate; Feel cena 2-3 h, no reserva ni total cerrado."
+    },
+    {
+     "title": "Bellagio, una localidad principal",
+     "stopIds": [
+      "bellagio"
+     ],
+     "optionalStopIds": [
+      "varenna",
+      "menaggio"
+     ],
+     "editorialNote": "Día completo con transporte de ida y vuelta elegido en horario vigente; no sumar Varenna y Menaggio por proximidad visual en mapa. Sustituyen Bellagio si se prefiere.",
+     "pacing": "Elegir el barco y margen de embarque antes de cerrar visitas. Ejemplo de tabla ordinaria 02/11/2026-14/03/2027: Como 09:50-Bellagio 11:10 y Bellagio 16:20-Como 18:00, salvo 25 diciembre/1 enero con servicio reducido. Es tabla publicada, no disponibilidad de billete. No traslada automáticamente ese horario a otras fechas o puertos."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Como y Brunate opcional",
+     "stopIds": [
+      "como"
+     ],
+     "optionalStopIds": [
+      "brunate"
+     ],
+     "editorialNote": "Casco y paseo de Como. Brunate es opción de tarde si operación y regreso están confirmados. Faro no obligatorio después del funicular.",
+     "pacing": "Jornada urbana a pie. Coche: referencia Valduce Viale Lecco 9, 24 h; centro ZTL, no entrar hasta hotel/restaurante sin verificar permiso. Museo de la Seda 60-90 min editoriales más desplazamiento, en lugar de parte del paseo/Brunate; Feel cena 2-3 h, no reserva ni total cerrado."
+    },
+    {
+     "title": "Bellagio, una localidad principal",
+     "stopIds": [
+      "bellagio"
+     ],
+     "optionalStopIds": [
+      "varenna",
+      "menaggio"
+     ],
+     "editorialNote": "Día completo con transporte de ida y vuelta elegido en horario vigente; no sumar Varenna y Menaggio por proximidad visual en mapa. Sustituyen Bellagio si se prefiere.",
+     "pacing": "Elegir el barco y margen de embarque antes de cerrar visitas. Ejemplo de tabla ordinaria 02/11/2026-14/03/2027: Como 09:50-Bellagio 11:10 y Bellagio 16:20-Como 18:00, salvo 25 diciembre/1 enero con servicio reducido. Es tabla publicada, no disponibilidad de billete. No traslada automáticamente ese horario a otras fechas o puertos."
+    },
+    {
+     "title": "Balbianello con reserva",
+     "stopIds": [
+      "villa_balbianello"
+     ],
+     "optionalStopIds": [
+      "villa_carlotta",
+      "nesso"
+     ],
+     "editorialNote": "Día centrado en una villa, traslado a Lenno y paseo de acceso. Villa Carlotta sustituye el día si calendario o cupo Balbianello no encajan. Nesso no parada obligatoria de regreso. Alternativa coche de referencia Valduce a parking Via Armando Diaz 11, Lenno: 41 min / 27,3 km ida y 43 min / 27,9 km vuelta, sin fecha/tráfico; no hasta la villa.",
+     "pacing": "Unos 1 h 24 min de conducción de referencia, más aparcar y llegar al inicio del sendero; desde Lenno FAI indica 1 km en subida/grava unos 25 min, o sendero 2,5 km/45 min. Añadir visita y regreso. Parking de pago, tarifa y plaza pendientes. Taxiboat externo de pago/reserva no incluido. El tiempo desde parking Via Diaz al sendero no está verificado, no asumir 25 min totales desde esa plaza."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Vista de trabajo: faltan comprobaciones de transporte y condiciones por fecha. Nada reservado.",
+  "Villa Carlotta tiene página de 2026 vigente, con precio general de 17,50 € y días concretos de apertura en noviembre y diciembre.",
+  "Balbianello: 15 € parque o 25 € villa y parque. Reserva obligatoria. Discapacidad: parque gratis, interior 5 € por persona.",
+  "Funicular de Brunate: 7,40 € ida y vuelta desde el 1 de septiembre de 2026. Horarios de regreso y acceso al Faro pendientes.",
+  "No usar servicio rápido como precio ordinario ni sumar varias localidades sin verificar la ida y vuelta.",
+  "Visitas: 6 fotos reales y 4 ilustraciones IA señaladas. Revisión de la ampliación por el usuario pendiente; no publicada.",
+  "Barcos: el PDF anuncia servicio reducido el 25/12/2026 y 01/01/2027. No usar el ejemplo ordinario Como-Bellagio esos días; consultar tabla especial y avisos."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "epv",
+   "title": "Es Parte del Viaje: qué ver en el Lago di Como",
+   "url": "https://espartedelviaje.com/que-ver-en-lago-di-como/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Lago de Como y lugares",
+   "url": "https://es.wikipedia.org/wiki/Lago_de_Como",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fai",
+   "title": "FAI: Villa del Balbianello (visita, tarifas, reserva obligatoria)",
+   "url": "https://fondoambiente.it/luoghi/villa-del-balbianello/visita",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "carlotta-own",
+   "title": "Villa Carlotta: visita2026",
+   "url": "https://www.villacarlotta.it/it/visita/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "brunate-own",
+   "title": "FunicularComoBrunate: tarifa1sep2026",
+   "url": "https://www.funicolarecomo.it/PDF/260831-tariffe.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "navigation-own",
+   "title": "NavigazioneLaghi: horariosComo",
+   "url": "https://www.navigazionelaghi.it/biglietti-e-orari-lago-di-como/",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "navigation-winter-own",
+   "title": "Navigazione: horario2nov2026-14mar2027",
+   "url": "https://www.navigazionelaghi.it/wp-content/uploads/2026/10/Orario_Pieghevole-2026-27.pdf",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "access-7",
+   "title": "Como: zonas y parkings",
+   "url": "https://www.visitcomo.eu/it/scoprire/organizza/Muoversi/auto",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "access-8",
+   "title": "Valduce: horario",
+   "url": "https://www.autosilovalduce.it/orari.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "access-9",
+   "title": "Tremezzina: acceso a Balbianello",
+   "url": "https://www.comune.tremezzina.co.it/vivere_il_comune/luoghi/luogo_28.html",
+   "type": "official",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

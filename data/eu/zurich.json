@@ -1,0 +1,1023 @@
+{
+ "schemaVersion": 1,
+ "country": "CH",
+ "id": "zurich",
+ "name": "Zúrich",
+ "localName": "Zürich",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "centrohistorico",
+   "name": "Centro histórico (Altstadt y Niederdorf)",
+   "kind": "walk",
+   "zone": "Casco antiguo",
+   "reason": "Casco antiguo de trazado medieval a ambas orillas del Limmat: callejuelas adoquinadas, casas gremiales renacentistas de fachadas de colores y el animado barrio peatonal de Niederdorf.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.37,
+    "lon": 8.542
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Altstadt_%28Zurich%29",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/zurich/centrohistorico.jpg",
+    "alt": "Zürich view Quaibrücke 20200702.jpg",
+    "author": "Daniel Kraft",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_view_Quaibr%C3%BCcke_20200702.jpg",
+    "caption": "Foto de archivo de Centro histórico (Altstadt y Niederdorf). No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "grossmunster",
+   "name": "Iglesia de Grossmünster",
+   "kind": "monument",
+   "zone": "Casco antiguo",
+   "reason": "Gran iglesia románica (1100-1220) de torres gemelas donde Zwingli inició la Reforma protestante suiza en 1519; la torre Karlsturm se sube por 187 escalones.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "ref"
+   ],
+   "coordinates": {
+    "lat": 47.37014,
+    "lon": 8.54399
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Grossm%C3%BCnster",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Martes cerrado por clases de órgano; la torre Karlsturm solo abre de viernes a domingo (hasta nuevo aviso). No ascensor; 187 escalones y pasos estrechos, subida puede limitarse por aforo/tiempo.4 de noviembre de 2026 solo 10-13:30, 14 de noviembre cerrado; no horario general sobre excepción.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Verano (1-3 a 31-10): lu-sa 10-18, do 12-18; invierno (1-11 a 28-2): lu-sa 10-17, do 12-17. Cierres extraordinarios frecuentes publicados por la parroquia. Martes cerrado por clases de órgano (hasta nuevo aviso); torre Karlsturm solo vi-do, última subida 1 hora antes del cierre.",
+    "source": "https://www.reformiert-zuerich.ch/kirchgemeinde/kirchen/grossmuenster/besuch/"
+   },
+   "price": null,
+   "visitMode": "Martes cerrado; torre solo viernes-domingo y 187 escalones",
+   "photo": {
+    "img": "assets/zurich/grossmunster.jpg",
+    "alt": "Zürich (CH), Grossmünster -- 2011 -- 1404.jpg",
+    "author": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_(CH),_Grossm%C3%BCnster_--_2011_--_1404.jpg",
+    "caption": "Foto de archivo de Iglesia de Grossmünster. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "limmatquai",
+   "name": "Limmatquai",
+   "kind": "walk",
+   "zone": "Casco antiguo",
+   "reason": "Paseo ribereño de un kilómetro junto al Limmat, flanqueado por casas gremiales como el Haus zum Rüden y el Rathaus renacentista construido sobre el río.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.372003,
+    "lon": 8.542824
+   },
+   "coordinateSource": "https://de.wikipedia.org/wiki/Limmatquai",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/zurich/limmatquai.jpg",
+    "alt": "Limmatquai mit Grossmünstertürmen Zürich.jpg",
+    "author": "JoachimKohler-HB",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Limmatquai_mit_Grossm%C3%BCnstert%C3%BCrmen_Z%C3%BCrich.jpg",
+    "caption": "Foto de archivo de Limmatquai. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "polyterrasse",
+   "name": "Polyterrasse",
+   "kind": "walk",
+   "zone": "Central / ETH",
+   "reason": "Terraza-mirador junto al edificio principal de la ETH Zürich, con una de las mejores panorámicas del casco antiguo, el Limmat y las torres del Grossmünster; se sube a pie o con el histórico funicular rojo Polybahn.",
+   "sourceIds": [
+    "vc",
+    "poly"
+   ],
+   "coordinates": {
+    "lat": 47.37638889,
+    "lon": 8.54805556
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/ETH_Zurich",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Polybahn: lunes-viernes 6:30-21, sábado 7:30-21, domingos/festivos 9-21; cada 5 min según operador. Mantenimiento el 12 de noviembre y 17 de diciembre de 2026 sin servicio 6:30-aprox.17 h. No accesible en silla; a pie implica subida/escaleras, no alternativa universal sin barreras. Comprobar funcionamiento por fecha. No entrada al edificio ETH incluida.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Mirador; Polybahn de pago y no accesible en silla, cierres por fecha",
+   "photo": {
+    "img": "assets/zurich/polyterrasse.jpg",
+    "alt": "Polyterrasse Zürich 2022-09-24 01.jpg",
+    "author": "Leonhard Lenz",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Polyterrasse_Z%C3%BCrich_2022-09-24_01.jpg",
+    "caption": "Foto de archivo de Polyterrasse. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "fraumunster",
+   "name": "Fraumünster",
+   "kind": "monument",
+   "zone": "Münsterhof",
+   "reason": "Iglesia fundada en 853 como convento benedictino, célebre por las vidrieras de Marc Chagall (1970), la cripta y un órgano de más de 5.000 tubos; su esbelta torre verde se ve desde toda la ciudad.",
+   "sourceIds": [
+    "vc",
+    "fraum"
+   ],
+   "coordinates": {
+    "lat": 47.36972222,
+    "lon": 8.54111111
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Fraum%C3%BCnster",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Cierres y recortes excepcionales publicados para noviembre de 2026: 18,27,29 cerrado; 3 de noviembre solo 10-12 y otros días cierre temprano. Consultar fecha exacta. Visita con tasa, no entrada libre ni acceso al culto turístico garantizado.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Verano (1-3 a 31-10): lu-sa 10-18, do 12-18; invierno (1-11 a 28-2): lu-sa 10-17, do 12-17. Cierres extraordinarios frecuentes publicados por la parroquia. Última entrada 15 minutos antes del cierre.",
+    "source": "https://www.reformiert-zuerich.ch/kirchgemeinde/kirchen/fraumuenster/besuch/"
+   },
+   "price": null,
+   "visitMode": "Interior de pago según fecha; última entrada 15 min antes",
+   "photo": {
+    "img": "assets/zurich/fraumunster.jpg",
+    "alt": "Fraumünster, Münsterbrücke and St. Peter, Zürich, 20250330 1243 7934.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fraum%C3%BCnster,_M%C3%BCnsterbr%C3%BCcke_and_St._Peter,_Z%C3%BCrich,_20250330_1243_7934.jpg",
+    "caption": "Foto de archivo de Fraumünster. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "peterskirche",
+   "name": "Peterskirche",
+   "kind": "monument",
+   "zone": "Casco antiguo",
+   "reason": "Iglesia de San Pedro con gran reloj de torre sobre las calles del casco; aquí se visita el exterior.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.37111111,
+    "lon": 8.54083333
+   },
+   "coordinateSource": "https://de.wikipedia.org/wiki/St._Peter_%28Z%C3%BCrich%29",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/zurich/peterskirche.jpg",
+    "alt": "Kirche St. Peter Zürich.jpg",
+    "author": "Photones",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kirche_St._Peter_Z%C3%BCrich.jpg",
+    "caption": "Foto de archivo de Peterskirche. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "augustinergasse",
+   "name": "Augustinergasse",
+   "kind": "walk",
+   "zone": "Casco antiguo",
+   "reason": "Estrecha calle peatonal medieval que une la iglesia de San Pedro con Bahnhofstrasse, famosa por sus fachadas de colores con miradores de madera tallada y pintada.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.3725161,
+    "lon": 8.5386482
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/zurich/augustinergasse.jpg",
+    "alt": "Augustinergasse 21 & 25 in Zürich (2013).jpg",
+    "author": "JoachimKohler-HB",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Augustinergasse_21_%26_25_in_Z%C3%BCrich_(2013).jpg",
+    "caption": "Foto de archivo de Augustinergasse. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "bahnhofstrasse",
+   "name": "Bahnhofstrasse",
+   "kind": "walk",
+   "zone": "Bahnhofstrasse",
+   "reason": "Paseo comercial entre fachadas, relojerías y chocolaterías hacia la estación. No se supone cada comercio abierto ni se incluyen compras.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.37138611,
+    "lon": 8.53865
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Bahnhofstrasse",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "source": "https://commons.wikimedia.org/wiki/File:Bahnhofstrasse-2019.jpg",
+    "author": "KeanoManu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "img": "assets/zurich/bahnhofstrasse.jpg",
+    "alt": "Bahnhofstrasse hacia la estación en 2019",
+    "caption": "Foto de archivo 2019: calle y raíles hacia estación, no tiendas abiertas hoy."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lindenhof",
+   "name": "Lindenhof",
+   "kind": "walk",
+   "zone": "Casco antiguo",
+   "reason": "Colina donde nació la ciudad en época romana hace más de 2.000 años, hoy un mirador tranquilo con tilos sobre el Limmat, las torres del casco antiguo y partidas de ajedrez gigante.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.37305556,
+    "lon": 8.54083333
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Lindenhof_hill",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/zurich/lindenhof.jpg",
+    "alt": "Lindenhof Hill, Zurich, 20250330 1227 7917.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lindenhof_Hill,_Zurich,_20250330_1227_7917.jpg",
+    "caption": "Foto de archivo de Lindenhof. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "museonacional",
+   "name": "Museo Nacional de Zúrich",
+   "kind": "museum",
+   "zone": "Estación central",
+   "reason": "Museo de historia y cultura de Suiza, junto a la estación, con edificio de aspecto de castillo y exposiciones de distintas épocas.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "lm"
+   ],
+   "coordinates": {
+    "lat": 47.37916667,
+    "lon": 8.53972222
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Swiss_National_Museum",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Museo y bistró martes-domingo 10-17. Excepciones publicadas: 21 y 28 de diciembre de 2026 (lunes) abre 10-17; 24 de diciembre 10-14; 25,26,31 de diciembre de 2026 y 1 de enero de 2027 abre 10-17. No aplicar cierre navideño genérico de otros museos.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes a domingo 10-17; lunes cerrado. Cierres festivos puntuales publicados por el museo.",
+    "source": "https://www.landesmuseum.ch/en"
+   },
+   "price": null,
+   "visitMode": "Generalmente lunes cerrado, excepciones navideñas 2026",
+   "photo": {
+    "img": "assets/zurich/museonacional.jpg",
+    "alt": "Zürich Switzerland-Landesmuseum-Zürich-02.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_Switzerland-Landesmuseum-Z%C3%BCrich-02.jpg",
+    "caption": "Foto de archivo de Museo Nacional de Zúrich. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lago",
+   "name": "Lago de Zúrich (Bürkliplatz)",
+   "kind": "walk",
+   "zone": "Lago",
+   "reason": "Paseo de ribera junto a Bürkliplatz para vistas y pausa. No incluye baño, crucero ni visita a Kilchberg.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.366545,
+    "lon": 8.54127
+   },
+   "coordinateSource": "https://de.wikipedia.org/wiki/B%C3%BCrkliplatz",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Paseo exterior. Servicios de barco, duración, billete y condiciones se verifican aparte para fecha; no salida incluida en este plan.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/zurich/lago.jpg",
+    "alt": "Bürkliplatz - Zürichsee - Zimmerberg 2010-09-01 18-47-38.JPG",
+    "author": "Roland zh",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File%3AB%C3%BCrkliplatz_-_Z%C3%BCrichsee_-_Zimmerberg_2010-09-01_18-47-38.JPG",
+    "caption": "Foto de archivo de Lago de Zúrich (Bürkliplatz). No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lindt",
+   "name": "Lindt Home of Chocolate",
+   "kind": "museum",
+   "zone": "Kilchberg",
+   "reason": "Museo del chocolate en Kilchberg con exposición multimedia y degustaciones del recorrido elegido. Alternativa de medio día con entrada y traslado, no fábrica completa visitable.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "lindt"
+   ],
+   "coordinates": {
+    "lat": 47.3184,
+    "lon": 8.551
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Lindt_Home_of_Chocolate",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 150,
+   "durationType": "editorial-estimate",
+   "caution": "Cerrado el 3 de noviembre de 2026 por mantenimiento,4 de noviembre abre a las 12 h.24/31 de diciembre hasta las 16 h;25/26 de diciembre y 1 de enero cerrado. Reserva y franja por confirmar; último slot 17:30 no garantiza llegar sin billete. No hay foto libre del edificio validada aún, no se sustituye por foto de la fábrica antigua. Acceso por transporte elegido por fecha, no barco automático. Alergias/restricciones consultar operador.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abierto a diario 10-19 (última entrada 17:30). Cierres por mantenimiento 5-5-2026 y 3-11-2026; 25 y 26 de diciembre y 1 de enero cerrado. Recomienda reserva online previa.",
+    "source": "https://www.lindt-home-of-chocolate.com/en"
+   },
+   "price": null,
+   "visitMode": "Alternativa Kilchberg con entrada; cierre el 03/11/2026; ilustración IA, foto real pendiente",
+   "photo": {
+    "img": "assets/zurich/lindt-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Lindt, entrada genérica imaginada, no edificio real ni exposición del museo. No es una foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual inspirada en Lindt, entrada genérica imaginada, no edificio real ni exposición del museo. No es una foto real ni reproducción exacta de edificios, monumentos, caminos, clima o estado actual.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "fifa",
+   "name": "Museo de la FIFA",
+   "kind": "museum",
+   "zone": "Enge",
+   "reason": "Museo interactivo de 3.500 m² con los trofeos de los Mundiales masculino y femenino, camisetas legendarias como la de Maradona y un cine inmersivo de 180°.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "fifa"
+   ],
+   "coordinates": {
+    "lat": 47.363509,
+    "lon": 8.531749
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/FIFA_Museum",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes a domingo 10-18; última admisión 17:30; lunes cerrado.",
+    "source": "https://www.fifamuseum.com/en/zurich/plan-your-visit/opening-hours-and-directions"
+   },
+   "price": null,
+   "visitMode": "Lunes cerrado, última entrada 17:30",
+   "photo": {
+    "img": "assets/zurich/fifa.jpg",
+    "alt": "FIFA museum, Zurich 03.jpg",
+    "author": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:FIFA_museum,_Zurich_03.jpg",
+    "caption": "Foto de archivo de Museo de la FIFA. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "opera",
+   "name": "Ópera de Zúrich",
+   "kind": "monument",
+   "zone": "Sechseläutenplatz",
+   "reason": "Fachada de la ópera y Sechseläutenplatz junto al lago. Visita interior solo con tour o función elegidos y entrada aparte.",
+   "sourceIds": [
+    "vc",
+    "opera"
+   ],
+   "coordinates": {
+    "lat": 47.365,
+    "lon": 8.54694444
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Zurich_Opera_House",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 30,
+   "durationType": "editorial-estimate",
+   "caution": "Tours públicos de 60 min, idioma alemán/inglés según calendario, plazas limitadas y compra previa. Referencia publicada 15 CHF, no reserva hecha. Punto de encuentro foyer de taquilla/Bernhard Theater. Salida solo al final, recorridos/escaleras y zonas cambian por ensayos; movilidad reducida requiere consulta. Página genérica fines de semana no garantiza tour en cualquier sábado/domingo.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; tour interior con fecha/idioma/entrada aparte",
+   "photo": {
+    "img": "assets/zurich/opera.jpg",
+    "alt": "Opernhaus Zürich - Sechseläutenplatz 2013-08-31 18-30-40.JPG",
+    "author": "Roland zh",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Opernhaus_Z%C3%BCrich_-_Sechsel%C3%A4utenplatz_2013-08-31_18-30-40.JPG",
+    "caption": "Foto de archivo de Ópera de Zúrich. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "jardinchino",
+   "name": "Jardín Chino",
+   "kind": "walk",
+   "zone": "Zürichhorn",
+   "reason": "Jardín de inspiración china con pabellones y estanque junto al lago, gratuito y abierto en invierno también.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "sz"
+   ],
+   "coordinates": {
+    "lat": 47.35444444,
+    "lon": 8.55194444
+   },
+   "coordinateSource": "https://de.wikipedia.org/wiki/Chinagarten_Z%C3%BCrich",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Abierto todo el año y gratis desde 2023: mayo-octubre 11-19; noviembre-abril 11-17.",
+    "source": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/park-und-gruenanlagen/chinagarten.html"
+   },
+   "price": null,
+   "visitMode": "Gratis; noviembre-abril 11-17, mayo-octubre 11-19",
+   "photo": {
+    "img": "assets/zurich/jardinchino.jpg",
+    "alt": "Chinagarten Zürich 4.jpg",
+    "author": "Tiia Monto",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chinagarten_Z%C3%BCrich_4.jpg",
+    "caption": "Foto de archivo de Jardín Chino. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "jardinbotanico",
+   "name": "Jardín Botánico de la Universidad",
+   "kind": "walk",
+   "zone": "Distrito 7",
+   "reason": "Jardín botánico universitario con miles de especies y tres invernaderos de cúpula con climas tropical, subtropical y de sabana.",
+   "sourceIds": [
+    "vc",
+    "botanical"
+   ],
+   "coordinates": {
+    "lat": 47.358566,
+    "lon": 8.560817
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Botanical_Garden_of_the_University_of_Zurich",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Jardín universitario UZH en Zollikerstrasse 107, no Alter Botanischer Garten del centro. Gratis; nov-mar lunes-viernes 8-18, fines de semana/festivos 8-17;abr-oct lunes-viernes7-19,fines de semana/festivos 8-18. Invernaderos diarios 9:30-16:45 según UZH. No perros salvo asistencia, menores de 12 acompañados; no parque de juego. Acceso por fecha, no colección completa garantizada.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Exterior UZH de Zollikerstrasse 107: nov-mar 8-18 laborables,8-17 fines de semana/festivos;abr-oct 7-19 laborables,8-18 fines de semana/festivos. Invernaderos 9:30-16:45.",
+    "source": "https://www.bg.uzh.ch/en/visit/openinghours.html"
+   },
+   "price": null,
+   "visitMode": "Jardín universitario; invernaderos hasta 16:45, no viejo jardín del centro",
+   "photo": {
+    "img": "assets/zurich/jardinbotanico.jpg",
+    "alt": "Botanischer Garten Universität Zürich IMG 4728.JPG",
+    "author": "Roland zh",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Botanischer_Garten_Universit%C3%A4t_Z%C3%BCrich_IMG_4728.JPG",
+    "caption": "Foto de archivo de Jardín Botánico de la Universidad. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "uetliberg",
+   "name": "Mirador Uetliberg",
+   "kind": "viewpoint",
+   "zone": "Uetliberg",
+   "reason": "Mirador Uetliberg como alternativa de medio día, con tren y subida final a pie; vistas según tiempo, sin senderismo adicional incluido.",
+   "sourceIds": [
+    "vc",
+    "szu"
+   ],
+   "coordinates": {
+    "lat": 47.34944444,
+    "lon": 8.49138889
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Uetliberg",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 240,
+   "durationType": "editorial-estimate",
+   "caution": "SZU: tramo Zürich HB-Selnau cerrado hasta el 12 de diciembre de 2026 inclusive por retraso de obras; reapertura prevista el 13 de diciembre. Durante corte: paseo señalizado HB-Selnau 12 min o tranvía 3/14 a Stauffacher+paseo 6 min hasta Selnau para enlazar S10. Confirmar conexión por fecha en ZVV y reservar más tiempo. No salida directa desde HB garantizada por horario general de línea. Acceso final cuesta arriba, nieve/hielo/mal tiempo pueden desaconsejarlo. No vistas despejadas ni torre incluida.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "S10: corredor Uetliberg desde Selnau durante corte HB-Selnau hasta el 12 de diciembre de 2026; verificar conexión de la fecha. No se publican aquí horas genéricas como servicio vigente de HB.",
+    "source": "https://www.szu.ch/en/hb/passengers-s10/"
+   },
+   "price": null,
+   "visitMode": "Alternativa con subida; corte HB-Selnau hasta el 12 de diciembre de 2026",
+   "photo": {
+    "img": "assets/zurich/uetliberg.jpg",
+    "alt": "Uetliberg NW.jpg",
+    "author": "Tschubby",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Uetliberg_NW.jpg",
+    "caption": "Foto de archivo de Mirador Uetliberg. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "kunsthaus",
+   "name": "Kunsthaus Zürich",
+   "kind": "museum",
+   "zone": "Heimplatz",
+   "reason": "Colección de arte y exposiciones temporales en edificios histórico y Chipperfield. No se garantiza cada obra en sala.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "kh"
+   ],
+   "coordinates": {
+    "lat": 47.3703,
+    "lon": 8.5481
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Kunsthaus_Z%C3%BCrich",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": {
+    "text": "Martes-miércoles y viernes-domingo 10-18; jueves 10-20; lunes cerrado. 24 y 31 de diciembre 10-16; 25 de diciembre y 1 de enero cerrado.",
+    "source": "https://www.kunsthaus.ch/besuch-planen/besucherinfos/"
+   },
+   "price": null,
+   "visitMode": "Generalmente lunes cerrado;24/31 de diciembre hasta las 16 h",
+   "photo": {
+    "img": "assets/zurich/kunsthaus.jpg",
+    "alt": "Kunsthaus Zürich 2011-08-06 18-44-30 ShiftN2.jpg",
+    "author": "Roland zh",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kunsthaus_Z%C3%BCrich_2011-08-06_18-44-30_ShiftN2.jpg",
+    "caption": "Foto de archivo de Kunsthaus Zürich. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "distrito5",
+   "name": "Distrito 5 / Zürich-West",
+   "kind": "walk",
+   "zone": "Zürich-West",
+   "reason": "Zürich-West: barrio industrial transformado, con Prime Tower y paseo hacia arcos del Viadukt. Alternativa independiente de medio día, no añadido tras todos los museos.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 47.3875069,
+    "lon": 8.5206272
+   },
+   "coordinateSource": "https://nominatim.openstreetmap.org/ (OSM)",
+   "coordinateMethod": "nominatim-osm",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": null,
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/zurich/distrito5.jpg",
+    "alt": "Zürich Prime Tower, Hardbrucke (Ank Kumar, Infosys) 03.jpg",
+    "author": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_Prime_Tower,_Hardbrucke_(Ank_Kumar,_Infosys)_03.jpg",
+    "caption": "Foto de archivo de Distrito 5 / Zürich-West. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "cataratasdelrin",
+   "name": "Cataratas del Rin",
+   "kind": "excursion",
+   "zone": "Neuhausen / Schaffhausen",
+   "reason": "Cataratas del Rin y miradores del lado elegido, sin barco o roca central incluidos.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "rhein"
+   ],
+   "coordinates": {
+    "lat": 47.67722222,
+    "lon": 8.61583333
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Rhine_Falls",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 540,
+   "durationType": "editorial-estimate",
+   "caution": "Barcos no incluidos. Ruta Mändli 30 min publicó temporada 29 de marzo-18 de octubre de 2026, ya acabada; ferries/eventos y otros operadores pueden tener calendario distinto. No roca central o cruce en noviembre por foto turística. Accesos de Schloss Laufen con escaleras, no ruta universal sin barreras; precios de acceso verificar parafecha.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión sustitutiva, sin barco ni montaña añadidos",
+   "photo": {
+    "img": "assets/zurich/cataratasdelrin.jpg",
+    "alt": "Chutes du Rhin - Octobre 2021.jpg",
+    "author": "Christian David",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chutes_du_Rhin_-_Octobre_2021.jpg",
+    "caption": "Foto de archivo de Cataratas del Rin. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "lucerna",
+   "name": "Lucerna",
+   "kind": "excursion",
+   "zone": "Lucerna",
+   "reason": "Kapellbrücke, casco antiguo y paseo del lago en Lucerna. No subida a Pilatus/Rigi ni crucero incluidos.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "sbb"
+   ],
+   "coordinates": {
+    "lat": 47.0523,
+    "lon": 8.3059
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Lucerna_%28ciudad%29",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 600,
+   "durationType": "editorial-estimate",
+   "caution": "No Pilatus/Titlis/Rigi/Jungfraujoch ni crucero añadidos. Si incorporas montaña, cambia duración, billetes, condiciones y cancelación.",
+   "reviewedAt": "2026-11-03",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión sustitutiva, sin barco ni montaña añadidos",
+   "photo": {
+    "img": "assets/zurich/lucerna.jpg",
+    "alt": "Luzern Kapellbruecke.jpg",
+    "author": "Ikiwaner",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Luzern_Kapellbruecke.jpg",
+    "caption": "Foto de archivo de Lucerna. No confirma apertura ni condiciones actuales. Recorte de presentación."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Casco antiguo a ambas orillas",
+     "zone": "Niederdorf → Grossmünster → Fraumünster → San Pedro → Augustinergasse → Lindenhof",
+     "stopIds": [
+      "centrohistorico",
+      "grossmunster",
+      "fraumunster",
+      "peterskirche",
+      "augustinergasse",
+      "lindenhof"
+     ],
+     "editorialNote": "Bucle del casco sin subir a ETH y volver al sur. Iglesias por exterior si cierran o hay culto; torre opcional no cuenta como obligatoria. No todas las callejuelas ni tiendas en una mañana.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial con pausas; elegir acceso por fecha, nada reservado."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Casco antiguo a ambas orillas",
+     "zone": "Niederdorf → Grossmünster → Fraumünster → San Pedro → Augustinergasse → Lindenhof",
+     "stopIds": [
+      "centrohistorico",
+      "grossmunster",
+      "fraumunster",
+      "peterskirche",
+      "augustinergasse",
+      "lindenhof"
+     ],
+     "editorialNote": "Bucle del casco sin subir a ETH y volver al sur. Iglesias por exterior si cierran o hay culto; torre opcional no cuenta como obligatoria. No todas las callejuelas ni tiendas en una mañana.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial con pausas; elegir acceso por fecha, nada reservado."
+    },
+    {
+     "title": "Museo Nacional, terraza y ribera",
+     "zone": "Museo Nacional → Polyterrasse → Limmatquai → Bahnhofstrasse → Bürkliplatz",
+     "stopIds": [
+      "museonacional",
+      "polyterrasse",
+      "limmatquai",
+      "bahnhofstrasse",
+      "lago"
+     ],
+     "editorialNote": "Un museo largo y paseo de ribera. Polybahn con calendario de mantenimiento, no libre de barreras. Museo tiene aperturas navideñas especiales. FIFA puede sustituir museo y requiere reorganizar tramo hacia Enge, no cruzar ciudad y volver para apilar dos museos.",
+     "optionalStopIds": [
+      "fifa",
+      "distrito5"
+     ],
+     "pacing": "Estimación editorial con pausas; elegir acceso por fecha, nada reservado."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Casco antiguo a ambas orillas",
+     "zone": "Niederdorf → Grossmünster → Fraumünster → San Pedro → Augustinergasse → Lindenhof",
+     "stopIds": [
+      "centrohistorico",
+      "grossmunster",
+      "fraumunster",
+      "peterskirche",
+      "augustinergasse",
+      "lindenhof"
+     ],
+     "editorialNote": "Bucle del casco sin subir a ETH y volver al sur. Iglesias por exterior si cierran o hay culto; torre opcional no cuenta como obligatoria. No todas las callejuelas ni tiendas en una mañana.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial con pausas; elegir acceso por fecha, nada reservado."
+    },
+    {
+     "title": "Museo Nacional, terraza y ribera",
+     "zone": "Museo Nacional → Polyterrasse → Limmatquai → Bahnhofstrasse → Bürkliplatz",
+     "stopIds": [
+      "museonacional",
+      "polyterrasse",
+      "limmatquai",
+      "bahnhofstrasse",
+      "lago"
+     ],
+     "editorialNote": "Un museo largo y paseo de ribera. Polybahn con calendario de mantenimiento, no libre de barreras. Museo tiene aperturas navideñas especiales. FIFA puede sustituir museo y requiere reorganizar tramo hacia Enge, no cruzar ciudad y volver para apilar dos museos.",
+     "optionalStopIds": [
+      "fifa",
+      "distrito5"
+     ],
+     "pacing": "Estimación editorial con pausas; elegir acceso por fecha, nada reservado."
+    },
+    {
+     "title": "Arte y orilla este",
+     "zone": "Kunsthaus → Ópera exterior → Jardín Chino",
+     "stopIds": [
+      "kunsthaus",
+      "opera",
+      "jardinchino"
+     ],
+     "editorialNote": "Kunsthaus como único museo largo, ópera por fuera y jardín antes de cierre 17 en invierno. Si incluye tour de ópera con hora, sustituye parte cultural. Botánico UZH es alternativa al Chino, no añadido automático después de16:45. Uetliberg o Lindt sustituye este día por plan independiente, jamás ambos más museos.",
+     "optionalStopIds": [
+      "jardinbotanico",
+      "uetliberg",
+      "lindt"
+     ],
+     "pacing": "Estimación editorial con pausas; elegir acceso por fecha, nada reservado."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "S10 no sale de HB durante cortehasta el 12 de diciembre de 2026, ver alternativa SZU.",
+  "Cada iglesia/museo tiene calendario propio; no cerrar todo en Navidad por inferencia.",
+  "Lindt en Kilchberg: ilustración IA conceptual; foto real pendiente.",
+  "Jungfraujoch/Titlis/Pilatus no forman parte del plan de Lucerna."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: 20 lugares que ver en Zúrich",
+   "url": "https://www.viajeroscallejeros.com/lugares-que-ver-en-zurich/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Zúrich y lugares",
+   "url": "https://es.wikipedia.org/wiki/Z%C3%BArich",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "ref",
+   "title": "Reformierte Kirche Zürich: visita Grossmünster y Fraumünster",
+   "url": "https://www.reformiert-zuerich.ch/kirchgemeinde/kirchen/grossmuenster/besuch/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "lm",
+   "title": "Landesmuseum Zürich: horarios",
+   "url": "https://www.landesmuseum.ch/en",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "lindt",
+   "title": "Lindt Home of Chocolate: visita",
+   "url": "https://www.lindt-home-of-chocolate.com/en",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fifa",
+   "title": "Museo FIFA: horarios y acceso",
+   "url": "https://www.fifamuseum.com/en/zurich/plan-your-visit/opening-hours-and-directions",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "kh",
+   "title": "Kunsthaus Zürich: información de visita",
+   "url": "https://www.kunsthaus.ch/besuch-planen/besucherinfos/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sz",
+   "title": "Ciudad de Zúrich: Chinagarten",
+   "url": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/park-und-gruenanlagen/chinagarten.html",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rhein",
+   "title": "Rheinfall: acceso y precios",
+   "url": "https://rheinfall.ch/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "sbb",
+   "title": "SBB: conexiones Zúrich-Lucerna",
+   "url": "https://network.sbb.ch/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "r2r",
+   "title": "Rome2Rio: tren Zúrich-cataratas del Rin (agregador)",
+   "url": "https://www.rome2rio.com/",
+   "type": "aggregator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "szu",
+   "title": "SZU · corte HB-Selnau y alternativas",
+   "url": "https://www.szu.ch/en/hb/passengers-s10/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "poly",
+   "title": "Polybahn · horarios y mantenimiento",
+   "url": "https://www.polybahn.ch/en/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "opera",
+   "title": "Ópera · tours públicos y condiciones",
+   "url": "https://www.opernhaus.ch/en/backstage/guided-tours/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "botanical",
+   "title": "UZH · jardín e invernaderos",
+   "url": "https://www.bg.uzh.ch/en/visit/openinghours.html",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "fraum",
+   "title": "Fraumünster · acceso por fecha",
+   "url": "https://www.reformiert-zuerich.ch/kirchgemeinde/kirchen/fraumuenster/besuch/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "luzern-direct",
+   "title": "SBB · corredor directo a Lucerna",
+   "url": "https://network.sbb.ch/en/station/ZUE/target/LZ",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rh-transport",
+   "title": "Erlebnis Rheinfall · acceso tren y lados",
+   "url": "https://erlebnis-rheinfall.ch/en/medieval-christmas-market",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  },
+  {
+   "id": "rh-boats",
+   "title": "Mändli · temporada 2026 y condiciones de barco",
+   "url": "https://schiffmaendli.ch/en/30_minute_rhine_falls_boat_ride/",
+   "type": "operator",
+   "retrievedAt": "2026-11-03"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}

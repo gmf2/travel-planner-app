@@ -1,0 +1,105 @@
+{
+ "schemaVersion": 1,
+ "cityId": "sevilla",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "eslava",
+   "name": "Eslava · tapas en San Lorenzo",
+   "address": "C. Eslava, 3, Casco Antiguo, 41002 Sevilla, Spain",
+   "description": "Yema sobre bizcocho de boletus y cigarro para Bécquer de choco, algas y bechamel de tinta. Opción de tapas creativas cerca de San Lorenzo, distinta de una comida de grandes raciones.",
+   "strength": "Cosas de Comé cuenta origen y composición de las especialidades y cambio de propiedad en 2023. Carta propia 2026 mantiene los dos platos; no atribuir cocina actual a propietarios antiguos.",
+   "alert": "Yema 6,20 € y cigarro 6,50 € según PDF 2026. Tres o cuatro tapas + postre: 23-34 € sin bebida ni pan, estimación editorial.",
+   "caution": "PDF 2026 inspeccionado: charlota 4,80 €, yema 6,20 €, cigarro 6,50 €, croquetas 4,20/8,50/12,80 € según tamaño; postres 6,90 €, pan/picos 1,90 €. Elegir formato define total, no menú cerrado. Web propia /reservas/: lunes cerrado, domingo solo mediodía salvo Domingo de Resurrección; barra y mesas altas por orden de llegada, reservas solo salón. Hora exacta de cocina no confirmada por propio, consultar antes reservar. Otra página antigua contiene texto ajeno y se descarta como prueba de operación. Huevo, lácteos, gluten, moluscos/pescado en especialidades; opción sin gluten para yema no garantiza ausencia de contaminación cruzada. Nada reservado.",
+   "officialUrl": "https://espacioeslava.com/reservas/",
+   "editorialUrl": "https://sevilla.cosasdecome.es/asi-nacio-el-huevo-del-eslava-el-plato-que-revoluciono-el-tapeo-sevillano/",
+   "sourceUrls": [
+    "https://espacioeslava.com/wp-content/uploads/2026/02/CARTA_ESLAVA.pdf",
+    "https://spainfoodguide.com/restaurant/eslava/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Espacio+Eslava&query_place_id=ChIJn3Y6IglsEg0R2Ig0DZZQtRs",
+   "status": "source-verified-with-hours-caveat",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta PDF 2026 y página nueva de reservas verificadas; horas exactas pendientes antes reservar, fuente antigua descartada.",
+   "priceLabel": "23-34 € por 3-4 tapas + postre sin bebida ni pan, estimación; tamaño y platos cambian total.",
+   "photo": {
+    "img": "assets/sevilla/eslava-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes imaginados de cocina andaluza. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes imaginados de cocina andaluza. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "compactPrice": "23-34 € sin bebida ni pan, estimación.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "alcazar-interior",
+   "name": "Real Alcázar: palacios y jardines",
+   "address": "Real Alcázar de Sevilla, Patio de Banderas, Sevilla",
+   "description": "Palacios y jardines como bloque largo del día 2, no actividad adicional que duplicar. Cuarto Real Alto y visitas nocturnas son otros productos.",
+   "duration": "2-3 h propuesta editorial con pausas, no duración garantizada por operador.",
+   "alert": "15,50 € general; Cuarto Real Alto 5,50 € extra según propio. Elegir franja y comprobar recargos finales antes pagar.",
+   "caution": "Invierno 1 octubre-31 marzo 9:30-17, desalojo 17:45; verano 1 abril-30 septiembre 9:30-19, desalojo 19:45. No confundir acceso con salida. Cerrado 1/6 enero, Viernes Santo, 25 diciembre; actos oficiales o alertas pueden alterar. Reducida 8 € por categoría y documento, Cuarto Real Alto aparte. Sin devolución ordinaria salvo supuestos normativos: cierre parcial de jardines/mantenimiento/clima no implica reembolso y comisión de gestión no se devuelve. Revisar documentos, nombre y franja en venta, no acceso universal por ser jardín. Nada reservado.",
+   "officialUrl": "https://alcazarsevilla.org/prepara-la-visita/",
+   "sourceUrls": [
+    "https://alcazarsevilla.org/normativa-uso-real-alcazar/"
+   ],
+   "priceLabel": "15,50 € general; Cuarto Real Alto 5,50 € adicional, recargos finales por verificar.",
+   "photo": {
+    "img": "assets/sevilla/alcazar.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fachada_del_Palacio_del_rey_don_Pedro.jpg",
+    "author": "Alberto.Bravo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Foto de archivo del Real Alcázar, no prueba de jardines o salas abiertos en la fecha elegida."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Tarifas, temporadas y normativa oficial leídas, sin franja ni compra.",
+   "compactDuration": "2-3 h orientativas",
+   "compactAlert": "15,50 € general; Cuarto Real Alto +5,50 € y recargos por verificar. Sin devolución ordinaria.",
+   "photoPending": false
+  },
+  {
+   "id": "flamenco-puro",
+   "name": "Museo del Baile Flamenco: Puro Flamenco",
+   "address": "C. Manuel Rojas Marcos, 3, Casco Antiguo, 41004 Sevilla, Spain",
+   "description": "Baile, cante y guitarra durante una hora. Billete de solo espectáculo no incluye cena, bebida ni visita del museo.",
+   "duration": "1 h según operador; dejar margen para entrar y regresar.",
+   "alert": "29 € adulto show /33 € museo+show. Cancelar dentro de 48 h cuesta 50%, mismo día 100%, según política propia.",
+   "caution": "Propio anuncia 17/19/20:45 según calendario, confirmar producto y franja. Show 29 € adulto/22 € reducido/15 € niño 6-12; combinado 33/26/19 €. No confundir con Sueños Flamencos en bóveda con bebida ni Matinée a las 12 h. Museo primer lunes: web dice 14:30, billetterie 16 h; otros textos inicio 10/11 h y cierre 18/18:45, consultar antes combinar. Modificar gratis al menos un día antes; cancelar antes de 48 h sin coste, dentro de 48 h 50%, mismo día 100%; tramitan reembolso hasta 10 días, no abono bancario garantizado. Reglas de menores de otros productos discordantes, no trasladar límite de 10 años a Puro: confirmar categoría cuando aplique. Nada reservado, foto real pendiente; visual IA conceptual disponible.",
+   "officialUrl": "https://museodelbaileflamenco.com/tablao-flamenco/",
+   "sourceUrls": [
+    "https://tickets.museodelbaileflamenco.com/",
+    "https://museodelbaileflamenco.com/politica-de-cancelacion-modificacion-y-reembolso/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Flamenco+Dance+Museum&query_place_id=ChIJN0x4AhtsEg0RLZKWuBJFEvg",
+   "priceLabel": "29 € adulto show /33 € museo+show, categoría reducida con acreditación.",
+   "photo": {
+    "img": "assets/sevilla/flamenco-puro-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Flamenco, escena imaginada, no artistas, sala ni espectáculo reales. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Flamenco, escena imaginada, no artistas, sala ni espectáculo reales. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Operador, billetterie y política leídos; horarios de museo discordantes explícitos, sin sesión reservada.",
+   "compactDuration": "1 h",
+   "compactAlert": "29 € show/33 € museo+show. Cancelación <48 h: 50%; mismo día: 100%.",
+   "realPhotoPending": true
+  }
+ ]
+}

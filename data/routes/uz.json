@@ -1,0 +1,161 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "UZ",
+ "country": "Uzbekistán",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Eje clasico de la Ruta de la Seda; el este y el oeste remotos quedan fuera.",
+ "verificationLimits": [
+  "El operador respalda el eje ferroviario Tashkent-Samarcanda-Bujara. No hay fecha, tarifa ni plazas seleccionadas.",
+  "El tren alternativo del día 4 no incluye Rabati Malik: cambia el transporte y las visitas, no es una reserva equivalente.",
+  "Las tablas regulares pueden diferir: confirmar estación, clase, horario y billete para la fecha antes de cerrar alojamientos."
+ ],
+ "routes": [
+  {
+   "id": "uz-8",
+   "title": "Ruta de la Seda · 8 días",
+   "scope": "Tashkent, Samarcanda, Bujara y Jiva. No cubre el valle de Fergana ni Karakalpakstan (Nukus, mar de Aral).",
+   "pace": "8 días con llegada y salida consideradas. Los tramos largos ocupan parte de su jornada, no se suman a un día completo de visitas.",
+   "assumptions": "La fuente es un tour de operador publicado en el portal oficial; horarios de trenes pendientes de contraste.",
+   "sources": [
+    {
+     "id": "uzb",
+     "title": "Uzbekistan Travel - Classic Tour 8 dias (portal oficial / Advantour)",
+     "url": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/"
+    },
+    {
+     "id": "rail-official",
+     "title": "Uzbekistan Railways: buscador de billetes, nofecha seleccionada",
+     "url": "https://eticket.railway.uz/en/home/"
+    },
+    {
+     "id": "rail-schedule",
+     "title": "Operador ferroviario: tablaregular, no disponibilidad elegida",
+     "url": "https://uzrailpass.uz/en/pages/poezd-jadvali"
+    },
+    {
+     "id": "rail-corridor",
+     "title": "Advantour: Samarcanda-Bujara, distintas clases/trenes",
+     "url": "https://www.advantour.com/uzbekistan/trains/samarkand-bukhara.htm"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Tashkent",
+     "overnight": "Tashkent",
+     "stops": [
+      "Complejo Khast-Imom",
+      "Bazar Chorsu, si la llegada lo permite"
+     ],
+     "transfer": "Aeropuerto → alojamiento. La fuente es un tour con conductor; no se garantiza visita completa tras aterrizar.",
+     "sourceIds": [
+      "uzb"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Tren Afrosiyob a Samarcanda",
+     "overnight": "Samarcanda",
+     "stops": [
+      "Registán",
+      "Gur-e Amir"
+     ],
+     "transfer": "Tren Afrosiyob Tashkent → Samarcanda: la fuente de operador usa unas 2 h 10 min. Servicio y horario reales por elegir; no se publica el 08:00 como horario vigente.",
+     "sourceIds": [
+      "uzb"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Samarcanda",
+     "overnight": "Samarcanda",
+     "stops": [
+      "Mezquita Bibi-Khanym",
+      "Necropolis Shah-i-Zinda",
+      "Pueblo de Koni Ghil (papel de morera)"
+     ],
+     "transfer": "Traslados locales según alojamiento y visitas elegidas; sin horario contratado.",
+     "sourceIds": [
+      "uzb"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Samarcanda a Bujara",
+     "overnight": "Bujara",
+     "stops": [
+      "Caravasar Rabati Malik",
+      "Bujara antigua"
+     ],
+     "transfer": "Base del circuito: coche vía Rabati Malik, unas 4 h/280 km orientativos del operador. Alternativa ferroviaria Samarcanda-Bujara: distintos trenes y duraciones (Advantour aprox. 1,5-3,75 h), sin parada en Rabati Malik incluida. Elegir coche o tren al concretar fecha; estación → hotel aparte.",
+     "sourceIds": [
+      "uzb",
+      "rail-official",
+      "rail-schedule",
+      "rail-corridor"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Bujara",
+     "overnight": "Bujara",
+     "stops": [
+      "Palacio Sitorai Mokhi-Khosa",
+      "Complejo Bahaouddin Naqshbandi"
+     ],
+     "transfer": "Traslados locales según alojamiento y visitas elegidas; sin horario contratado.",
+     "sourceIds": [
+      "uzb"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Bujara a Jiva por el Kyzylkum",
+     "overnight": "Jiva",
+     "stops": [
+      "Desierto de Kyzylkum"
+     ],
+     "transfer": "Carretera Bujará → Jiva por Kyzylkum: unos 480 km y 7-8 h según el tour publicado, orientativo. Jornada de traslado, sin añadir visitas largas.",
+     "sourceIds": [
+      "uzb"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Jiva y vuelo a Tashkent",
+     "overnight": "Tashkent",
+     "stops": [
+      "Ichan-Qala"
+     ],
+     "transfer": "Jiva → aeropuerto de Urgench: unos 45 min, más vuelo a Tashkent de 1 h 40 min según el tour. Añadir facturación, recogida y traslados; no son horarios contratados.",
+     "sourceIds": [
+      "uzb"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Salida",
+     "overnight": null,
+     "stops": [
+      "Salida desde Tashkent"
+     ],
+     "transfer": "Alojamiento → aeropuerto de Tashkent según el vuelo elegido.",
+     "sourceIds": [
+      "uzb"
+     ]
+    }
+   ]
+  }
+ ],
+ "photo": {
+  "img": "assets/routes/uz.jpg",
+  "name": "Samarcanda · plaza del Registán",
+  "source": "https://commons.wikimedia.org/wiki/File:Registan_-_Gusjer.jpg",
+  "originalSource": "https://www.flickr.com/photos/20244534@N00/3087484514/",
+  "author": "Gustavo Jeronimo from Aranjuez, Spain",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ }
+}

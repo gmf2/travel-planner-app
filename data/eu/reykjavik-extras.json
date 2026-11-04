@@ -1,0 +1,68 @@
+{
+ "schemaVersion": 1,
+ "cityId": "reykjavik",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "messinn",
+   "name": "Messinn · sartenes de pescado",
+   "address": "Lækjargata 6, 101 Reykjavík, Iceland",
+   "description": "Pescado servido en la sartén con patata y verduras en Lækjargata. Cocina de mantequilla y salsas, no una marisquería de producto crudo.",
+   "strength": "Grapevine2018 elogió la sartén de pez lobo y consistencia, criticó algunos desvíos y porciones reducidas: crítica histórica no precio vigente. PDF propio actual confirma plokkfiskur, pezlobo, bacalao ychar.",
+   "alert": "Confirmar mesa y carta por fecha. Mucha mantequilla/crema y frutos secos en varios platos; no asumir dieta sin lácteos.",
+   "caution": "PDFactual enlaceMenuEN desdeweb: plokkfiskur5450ISK,codtongue5500,plaice5750,pezlobo/ling5800,bacalao/char/salmón5900,luxurypan7950;postre2900,pan1550. Sarténestándar+postre8350-8800ISK sinbebida/pan, cálculoeditorial; luxurypan10850distinto. No conversióneuro ni precio2018actual. PDFsinfechamantenido enmenúweb, confirmardía/cambios. Dom-jue11:30-21/vie-sáb11:30-22 propio, cocinaúltimopedidos no separada. Lækjargata6b concreto, no buffetGrandi deartículos2017/2019. Platosconcrema/mantequilla/alcohol/frutossecos, alérgenos consultar; chickpeafrittersvegano nogarantiza librefrutossecos. Nada reservado.",
+   "officialUrl": "https://www.messinn.com/en",
+   "editorialUrl": "https://grapevine.is/food/review/2018/10/03/a-messi-eater-fresh-creamy-seafood-in-a-bucolic-setting-at-messinn/",
+   "sourceUrls": [
+    "https://dineout-sites-messinn.cdn.prismic.io/dineout-sites-messinn/abqrcbbci2UF6MEp_messinnMENUen.pdf"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Messinn&query_place_id=ChIJ84QQXi0L1kgR91608ywTlqo",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "PDFpropioactual inspeccionado, horario/direcciónprimaria, crítica2018histórica. Sinmesa.",
+   "priceLabel": "8350-8800 ISK sartén estándar+postre, sin bebida/pan, cálculo editorial.",
+   "compactPrice": "8350-8800 ISK sartén+postre, sin bebida/pan.",
+   "photo": {
+    "img": "assets/reykjavik/messinn-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Pescado e ingredientes islandeses imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Pescado e ingredientes islandeses imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "hallgrimskirkja-tower",
+   "name": "Hallgrímskirkja · torre",
+   "address": "Hallgrímstorg1, Reykjavík",
+   "description": "Subida a la torre como extra del paseo por la iglesia. La fotografía muestra el exterior, no garantiza la vista o entrada a la torre.",
+   "duration": "30-45min orientativos más espera; no duración oficial.",
+   "compactDuration": "30-45 min + espera",
+   "alert": "1500 ISK adulto. Invierno10-17, última torre16:45; culto/concierto puede cerrar torre y nave.",
+   "caution": "Tarifa desde1jun2026publica1500ISKadulto/1300estudiante acreditado ydiscapacidad/200niños7-16; línea65+incompleta enextracción,no tarifa inferida. Semana2-8nov2026tieneexcepciones:7noviglesia/torre11:30-12:45cerradas;8nov10:30-12:30cerradas,nave13:45-14:45; no tratar todosdías10-17sininterrupción. Webconservabloquesabril/maypasantiguos, no mezclar. Acceso/restriccionesmovilidad,ascensor/escaleras aúltimavista porcomprobar antes compra. Conciertopago productoaparte, no incluido torre. No billetecomprado ni sesiónreservada; horariosreligiosos yclimaconsultar porfecha.",
+   "officialUrl": "https://www.hallgrimskirkja.is/en-gb/opnunartimar",
+   "priceLabel": "1500 ISK adulto publicado desdejun2026, por fecha confirmar.",
+   "photo": {
+    "img": "assets/reykjavik/hallgrimskirkja.jpg",
+    "alt": "Hallgrímskirkja.jpeg",
+    "author": "Andreas Tille",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hallgr%C3%ADmskirkja.jpeg",
+    "caption": "Hallgrímskirkja · foto de archivo exterior. No vista desde torre ni acceso confirmado."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Tarifajun2026ysemana2-8novleídas enoperador, sincompra.",
+   "photoPending": false
+  }
+ ]
+}

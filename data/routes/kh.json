@@ -1,0 +1,215 @@
+{
+ "schemaVersion": 1,
+ "countryCode": "KH",
+ "country": "Camboya",
+ "reviewedAt": "2026-11-03",
+ "status": "preview",
+ "coverageScope": "Oeste y sur; noreste e islas fuera.",
+ "verificationLimits": [
+  "9 días/8 noches editoriales, sin reservas. Vuelos internacionales, alojamientos, comidas, bus, entradas y barco no forman un total presupuestado.",
+  "Angkor Enterprise publica 37 USD/1 día, 62 USD/3 días dentro de 7 y 72 USD/7 días dentro de 30, consultado 03/11/2026. La propuesta usa templos dos días: el de 1 día no cubre ambos. Confirmar tarifa/producto/templos para la fecha antes de comprar.",
+  "La franja general del portal no garantiza idéntico horario en cada templo o torre. Restricciones, vestimenta y acceso se comprueban por monumento.",
+  "SAI y KTI son aeropuertos distintos de los terminales antiguos. No usar precios antiguos de taxi ni convertir el trayecto urbano en tiempo total de vuelo.",
+  "Bus diurno y bus nocturno no son intercambiables dentro del reparto de noches. No se ha elegido horario ni comprobado una plaza.",
+  "Tonlé Sap y carreteras dependen de lluvia y crecidas. No se garantiza navegación ni adaptación dietética/accesible sin operador elegido."
+ ],
+ "routes": [
+  {
+   "id": "kh-9",
+   "title": "Angkor, Phnom Penh y Kampot · 9 días",
+   "scope": "Oeste y sur: Siem Reap, Phnom Penh, Kampot/Kep. No cubre el noreste ni las islas (Koh Rong).",
+   "pace": "9 días / 8 noches. Los siete días de visitas de la guía más regreso por carretera y salida separados: adaptación editorial para no perder Kep ni fingir una conexión garantizada.",
+   "assumptions": "Llegada por Siem Reap, salida por Phnom Penh. Sin cruce terrestre desde Tailandia. No incluye entradas, billetes ni visados. Cambios por lluvia, estado de carreteras o navegación se comprueban para la fecha real.",
+   "sources": [
+    {
+     "id": "kh",
+     "title": "Visit Cambodia · guía editorial privada, revisada 12/06/2026",
+     "url": "https://visitcambodia.travel/itineraries/7-days-cambodia/"
+    },
+    {
+     "id": "angkor-official",
+     "title": "Angkor Enterprise: productos y validez consultados 03/11/2026",
+     "url": "https://www.angkorenterprise.gov.kh/en/available-tickets"
+    },
+    {
+     "id": "angkor-faq",
+     "title": "Angkor Enterprise: documentación y condiciones de visita",
+     "url": "https://www.angkorenterprise.gov.kh/en"
+    },
+    {
+     "id": "sai",
+     "title": "Aeropuerto SAI: bus y enlace urbano, no traslado al hotel incluido",
+     "url": "https://english.sai-airport.com/jcjtjb/38836.jhtml"
+    },
+    {
+     "id": "kti",
+     "title": "Aeropuerto Techo KTI: Airport Express Bus",
+     "url": "https://www.techoairport.com.kh/transportation/public"
+    },
+    {
+     "id": "kti-transition",
+     "title": "Air Cambodia: cambio de PNH a KTI desde 09/09/2025",
+     "url": "https://www.aircambodia.com/en/offer/important-notice"
+    },
+    {
+     "id": "bus-capital",
+     "title": "Giant Ibis: corredor Siem Reap-Phnom Penh",
+     "url": "https://www.giantibis.com/routes/siem-reap-to-phnom-penh"
+    },
+    {
+     "id": "bus-kampot",
+     "title": "Giant Ibis: corredor Phnom Penh-Kampot",
+     "url": "https://www.giantibis.com/routes/phnom-penh-to-kampot"
+    }
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Llegada a Siem Reap",
+     "overnight": "Siem Reap",
+     "stops": [
+      "Llegada y descanso",
+      "Paseo por Psar Chas, si queda tiempo"
+     ],
+     "transfer": "Llegada a Siem Reap Angkor (SAI). El aeropuerto enlaza al bus con parada urbana en 7 Makara Road, frente a ACE School: el hotel no está incluido en ese billete. Añadir inmigración, equipaje, espera y último tramo; sin entrada al templo comprometida al aterrizar.",
+     "sourceIds": [
+      "kh",
+      "sai"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Angkor: circuito pequeno",
+     "overnight": "Siem Reap",
+     "stops": [
+      "Amanecer en Angkor Wat",
+      "Puerta sur de Angkor Thom",
+      "Bayon",
+      "Ta Prohm"
+     ],
+     "transfer": "Circuito pequeño en tuk-tuk/conductor por elegir; 25 km y 5-6 h son estimaciones de la guía, no un paseo a pie. Como hay templos también el día 3, revisar pase de 3 días: 62 USD, válido para 3 días dentro de 7 según Angkor Enterprise consultado 03/11/2026. No son 62 USD por cada día ni presupuesto total; transporte aparte.",
+     "sourceIds": [
+      "kh",
+      "angkor-official",
+      "angkor-faq"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Banteay Srei y Tonle Sap",
+     "overnight": "Siem Reap",
+     "stops": [
+      "Banteay Srei (45 min, ir a primera hora)",
+      "Museo de las Minas",
+      "Aldea sobre pilotes Kampong Phluk"
+     ],
+     "transfer": "Banteay Srei y Tonlé Sap exigen transporte separado del circuito pequeño y margen por nivel del agua. Confirmar templos incluidos y producto del barco: el pase de Angkor no equivale a un paseo lacustre. Evitar ofertas de orfanatos flotantes. Si lluvia o crecida impiden navegar, omitir barco y conservar noche en Siem Reap.",
+     "sourceIds": [
+      "kh",
+      "angkor-faq"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "A Phnom Penh",
+     "overnight": "Phnom Penh",
+     "stops": [
+      "Paseo del rio Sisowath Quay",
+      "Wat Phnom",
+      "Mercado Central (art deco)"
+     ],
+     "transfer": "Bus diurno Siem Reap → Phnom Penh por elegir: Giant Ibis publica unas 6 h para el corredor. Sumar acceso a terminal, presentación, paradas y hotel; su página mezcla instrucciones de bus nocturno, no tomarlas como servicio diurno confirmado. Jornada de traslado, sin interiores con hora comprometida.",
+     "sourceIds": [
+      "kh",
+      "bus-capital"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Phnom Penh: memoria y palacio",
+     "overnight": "Phnom Penh",
+     "stops": [
+      "Tuol Sleng con audioguía",
+      "Choeung Ek, solo si apetece continuar con una jornada de memoria",
+      "Alternativa ligera: Palacio Real y Pagoda de Plata (no sumar todos los museos)"
+     ],
+     "transfer": "Tuol Sleng y Choeung Ek son lugares de memoria del genocidio, no visitas recreativas. La fuente estima unos 45 min hasta Choeung Ek. Deja tiempo para descanso y decide si prefieres la alternativa del palacio.",
+     "sourceIds": [
+      "kh"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Kampot",
+     "overnight": "Kampot",
+     "stops": [
+      "Casco antiguo de Kampot",
+      "Campos de sal (nov-may)",
+      "Barca al atardecer por el Praek Tuek Chhu"
+     ],
+     "transfer": "Phnom Penh → Kampot en bus por elegir: Giant Ibis publica 150 km/4 h y pide llegar 30 min antes a su salida desde Street 106. La recogida gratuita solo aplica a hoteles asociados; llegada a oficina en Street 724, después hotel aparte. Servicio y precio para fecha sin seleccionar.",
+     "sourceIds": [
+      "kh",
+      "bus-kampot"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Pimienta, cuevas y cangrejo en Kep",
+     "overnight": "Kampot",
+     "stops": [
+      "Granjas de pimienta junto al Lago Secreto",
+      "Templo-cueva Phnom Chhnork",
+      "Mercado de cangrejo de Kep"
+     ],
+     "transfer": "Excursión local desde Kampot a granjas/cueva/Kep; retorno a Kampot. No combinar con el bus matinal de salida a Phnom Penh.",
+     "sourceIds": [
+      "kh"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Regreso a Phnom Penh",
+     "overnight": "Phnom Penh",
+     "stops": [
+      "Traslado de vuelta a la capital",
+      "Tarde libre, sin nuevas reservas rígidas"
+     ],
+     "transfer": "Regreso Kampot → Phnom Penh por carretera: el operador publica corredor de unas 4 h, no tiempo puerta a puerta. Confirmar salida y parada del sentido de vuelta; dormir en Phnom Penh antes del vuelo, sin conexión internacional este día.",
+     "sourceIds": [
+      "kh",
+      "bus-kampot"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Salida desde Phnom Penh",
+     "overnight": null,
+     "stops": [
+      "Traslado al aeropuerto según el vuelo elegido"
+     ],
+     "transfer": "Hotel → Techo International Airport (KTI), no al antiguo PNH: Air Cambodia anunció el traslado de operaciones desde 09/09/2025. KTI publica bus urbano Airport Express 05:30-23:30, horario de referencia consultado 03/11/2026, no salida elegida. Añadir acceso a parada, espera y margen de facturación del vuelo; taxi u otra opción si horario no encaja.",
+     "sourceIds": [
+      "kh",
+      "kti",
+      "kti-transition"
+     ]
+    }
+   ]
+  }
+ ],
+ "advisory": {
+  "text": "Revisado el 2 de noviembre de 2026: Exteriores aconseja evitar la frontera con Tailandia y sus pasos terrestres por enfrentamientos y cierres. Esta ruta entra y sale por avión, sin esa frontera. Lluvias y crecidas pueden afectar Tonlé Sap y carreteras; ajusta el día de lago si no es seguro.",
+  "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Camboya"
+ },
+ "photo": {
+  "img": "assets/routes/kh.jpg",
+  "name": "Angkor Wat · amanecer",
+  "source": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_Dawn2.jpg",
+  "originalSource": "https://www.flickr.com/photos/137294100@N08/53888294633/",
+  "author": "Radek Kucharski",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "caption": "Foto de archivo; recorte de presentación. Imagen de una etapa, no de toda la ruta."
+ }
+}

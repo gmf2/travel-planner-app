@@ -1,0 +1,108 @@
+{
+ "schemaVersion": 1,
+ "cityId": "liubliana",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "klobasarna",
+   "name": "Klobasarna · salchicha y sopa eslovenas en el casco",
+   "address": "Ciril-Metodov trg15,1000 Ljubljana",
+   "description": "Parada pequeña y directa junto a la catedral para salchicha de Carniola con mostaza, rábano picante y pan, o sopa del día. Más pausa corta que cena larga.",
+   "strength": "Gault&Millau2026 describe la combinación de salchicha, mostaza, rábano y pan, y destaca jota o ričet y štruklji dulces. La carta propia coincide con ese formato compacto.",
+   "alert": "Media salchicha5,50 €, entera9,50 €, sopa6,50 € o con salchicha8,50 €; štruklji6,50 €.",
+   "compactAlert": "Domingo10-15. Septiembre-junio lun-sáb10-21. Local pequeño.",
+   "caution": "Entera9,50 €+agua2,20 €=11,70 €, cálculo editorial; con dulce6,50 €, total18,20 €. La sopa con salchicha8,50 € es alternativa, no se suma por defecto. Carta marca mostaza, gluten, huevo, lácteos, nueces y sulfitos; la sopa sin salchicha no queda acreditada como vegana. Confirmar alérgenos y servicio por fecha. No mesa reservada ni disponibilidad comprobada.",
+   "officialUrl": "https://www.klobasarna.si/en",
+   "editorialUrl": "https://si.gaultmillau.com/en/restaurants/klobasarna",
+   "sourceUrls": [
+    "https://www.klobasarna.si/en"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Klobasarna&query_place_id=ChIJj0-lEGMtZUcRZ3hFTQ6mX3c",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta y horario propios completos, crítica Gault&Millau específica2026 y dirección Maps coincidente.",
+   "priceLabel": "11,70 € entera+agua;18,20 € con dulce. Cálculo sobre carta, sin extras.",
+   "compactPrice": "Entera+agua11,70 €; dulce aparte.",
+   "photo": {
+    "img": "assets/liubliana/klobasarna-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes eslovenos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes eslovenos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "castillo-visit",
+   "name": "Castillo de Liubljana (Ljubljanski grad)",
+   "address": "Colina del Castillo",
+   "description": "Castillo sobre la colina: elegir patio exterior o entrada a torre, museos y contenidos del producto comprado. Funicular y recinto tienen horarios distintos.",
+   "strength": "Visita ya presente en el catálogo. No se añade como segunda entrada o segundo recorrido obligatorio.",
+   "alert": "Castle Ticket: 15 € adulto o 19 € con funicular. Niños 7-18, estudiantes y jubilados: 10,50 € o 13,50 €. Familia: 36 € o 46 €. El producto guiado y la audioguía tienen otra tarifa.",
+   "compactAlert": "Recinto y funicular tienen horarios distintos; sin entrada reservada.",
+   "caution": "Tarifa propia revalidada: Castle Ticket 15 € adulto o 19 € con funicular. La última compra de entrada es una hora antes de cerrar el castillo, no una regla universal de último acceso. En noviembre, recinto 9-18 y funicular 9-19. Patio exterior y salas son productos distintos.",
+   "officialUrl": "https://www.ljubljanskigrad.si/en/plan-your-visit/price-list/",
+   "editorialUrl": "https://www.viajeroscallejeros.com/que-ver-en-liubliana/",
+   "sourceUrls": [
+    "https://www.ljubljanskigrad.si/en/plan-your-visit/price-list/"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Operador y producto contrastados. La franja y el transporte final siguen por elegir.",
+   "priceLabel": "Castle Ticket: 15 € adulto o 19 € con funicular. Niños 7-18, estudiantes y jubilados: 10,50 € o 13,50 €. Familia: 36 € o 46 €. El producto guiado y la audioguía tienen otra tarifa.",
+   "photo": {
+    "img": "assets/liubliana/castillo.jpg",
+    "alt": "Castillo de Liubliana: acceso exterior entre sus muros y la torre redonda. Foto de julio de 2022, no confirma horarios o acceso actuales.",
+    "caption": "Castillo de Liubliana: acceso exterior entre sus muros y la torre redonda. Foto de julio de 2022, no confirma horarios o acceso actuales. Imagen del lugar, no del producto contratado ni de salas abiertas.",
+    "author": "Lajos Kristóf Kántor",
+    "source": "https://www.pexels.com/photo/ljubljana-castle-in-summer-historic-architecture-39119133/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "identitySource": "https://www.ljubljanskigrad.si/en/why-to-the-castle/castle-spaces/"
+   },
+   "photoPending": false,
+   "realPhotoPending": false,
+   "visualScope": "Exterior o entorno del lugar; no muestra la actividad, las salas ni el producto contratado.",
+   "compactPrice": "15 € adulto; 19 € con funicular."
+  },
+  {
+   "id": "postojna-visit",
+   "name": "Cuevas de Postojna y castillo Predjama",
+   "address": "Postojna (Carniola Interior)",
+   "description": "Visita de la cueva de Postojna, con tren y tramos a pie. Predjama es un segundo recinto que solo se añade con traslado y hora de regreso comprobados.",
+   "strength": "Visita ya presente en el catálogo. No se añade como segunda entrada o segundo recorrido obligatorio.",
+   "alert": "Tienda propia: cueva34,90 € adulto, combinado con Predjama49,90 €; estudiante16-25:27,80/39,90 €, niño6-15:20,70/29,90 €, hasta5:1/2 €. Belén viviente45 € adulto, producto distinto. No franja seleccionada.",
+   "compactAlert": "Predjama solo con traslado y regreso comprobados.",
+   "caution": "Cueva con franja fija: llegar 30 minutos antes al parque y 15 al embarque según condiciones publicadas. Shuttle solo para billete combinado, sujeto a disponibilidad, 2 € ida/vuelta. No se ha confirmado salida de noviembre. Sin traslado concreto, mantener cueva sola. Frío y marcha a pie; revisar horario y billete por fecha.",
+   "officialUrl": "https://tickets.postojnska-jama.eu/en/all.html",
+   "editorialUrl": "https://www.viajeroscallejeros.com/que-ver-en-liubliana/",
+   "sourceUrls": [
+    "https://tickets.postojnska-jama.eu/en/all.html"
+   ],
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Operador y producto contrastados. La franja y el transporte final siguen por elegir.",
+   "priceLabel": "Tienda propia: cueva34,90 € adulto, combinado con Predjama49,90 €; estudiante16-25:27,80/39,90 €, niño6-15:20,70/29,90 €, hasta5:1/2 €. Belén viviente45 € adulto, producto distinto. No franja seleccionada.",
+   "photo": {
+    "img": "assets/liubliana/postojna.jpg",
+    "source": "https://www.pexels.com/photo/stunning-stalactites-and-stalagmites-in-postojna-cave-35391002/",
+    "author": "Carlo Giovanni Ghiardelli",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "caption": "Formaciones interiores de la cueva de Postojna. No representa Predjama ni todo el recorrido, sin entrada reservada.",
+    "alt": "Formaciones interiores de la cueva de Postojna. No representa Predjama ni todo el recorrido, sin entrada reservada."
+   },
+   "photoPending": false,
+   "compactPrice": "Cueva34,90 €; combinado49,90 € adulto."
+  }
+ ]
+}

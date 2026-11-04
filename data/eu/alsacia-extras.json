@@ -1,0 +1,162 @@
+{
+ "schemaVersion": 1,
+ "cityId": "alsacia",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "colmar_brenner",
+   "name": "Wistub Brenner · Colmar",
+   "address": "1 Rue Turenne, 68000 Colmar, France",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=WISTUB+BRENNER&query_place_id=ChIJp--pIeZlkUcRRiMte6ByDtE",
+   "lat": 48.0739142,
+   "lon": 7.3577921,
+   "description": "Winstub de cocina alsaciana en Petite Venise. Michelin señala la tarta de cebolla de Papi Lucien, la choucroute y el codillo con salsa de Pinot Noir; la carta propia incluye esos platos. Encaja en la jornada de Colmar, no como comida obligatoria tras visitar pueblos distantes.",
+   "compactDescription": "En Colmar: tarta de cebolla, choucroute y cocina alsaciana en Petite Venise.",
+   "priceLabel": "Carta propia: entrante+principal o principal+postre 40,90 €; tres platos 48,90 €, bebidas y suplementos aparte. Platos con +3/+7 €. El precio del entrante solo se contradice en la misma página:24,90 / 25,90 €, por lo que no se adopta. Confirmar cuenta total y menú para fecha, especialmente Navidad.",
+   "compactPrice": "2 platos 40,90 €; 3 platos 48,90 €. Bebidas y suplementos aparte. Confirmar fecha.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://wistub-brenner.fr/",
+   "editorialUrl": "https://guide.michelin.com/us/en/grand-est/colmar/restaurant/wistub-brenner",
+   "sourceUrls": [
+    "https://wistub-brenner.fr/carte-menus/"
+   ],
+   "statusEvidence": "Web propia, Michelin y dirección Maps coinciden. Web propia discrepa en entrante individual y franja de apertura; no hay disponibilidad de mesa comprobada.",
+   "alert": "Horarios de carta y portada no coinciden; confirmar servicio y menú de tu fecha.",
+   "compactAlert": "Confirmar horario y menú de fecha; no hay mesa reservada.",
+   "caution": "Portada: cocina 12:00-14:00 y 19:00-22:00, carta de tarde hasta 15:45. Página carta: acogida 11:45-16:00 y 18:45-22:00. Diferenciar acogida/cocina y confirmar horario. No trasladar precios/condiciones a Chalet Navidad o producto VIP distinto. Alérgenos y adaptación se confirman con el restaurante, no por marcas G/V de una carta.",
+   "strength": "Cocina regional concreta respaldada por guía independiente y carta propia, dentro de la jornada de Colmar.",
+   "photo": {
+    "img": "assets/alsacia/colmar_brenner-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes alsacianos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes alsacianos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "riquewihr_brendelstub",
+   "name": "Brendelstub · Riquewihr",
+   "address": "48 Rue du Général de Gaulle, 68340 Riquewihr, France",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=D%27Brendelstub+-+Restaurant+Riquewihr%2C+Alsace+%5BJL+BRENDEL%5D&query_place_id=ChIJ8-r93algkUcRRPg4zvLu0fA",
+   "placeId": "ChIJ8-r 93algkUcRRPg 4zvLu 0fA",
+   "lat": 48.1672379,
+   "lon": 7.296532899999999,
+   "description": "Winstub contemporánea en la calle principal de Riquewihr, para su etapa y no un regreso extra desde Colmar. Cocina al fuego, jamón a la broche, tartes flambées y hortalizas del jardín. Gault&Millau 2025 destaca la mano propia en trucha marinada, sandre con knepfles y cerdo especiado; son ejemplos históricos, no platos garantizados. No es La Table du Gourmet, que tiene otra dirección y otros menús.",
+   "compactDescription": "En Riquewihr: tartes flambées al fuego y jamón a la broche. Alternativa más sencilla a Colmar, sin otra excursión.",
+   "priceLabel": "PDF octubre 2026 enlazado actualmente por propia: menú Terroir 34 € (tarte flambée, jamón con verduras y soufflé al marc); bebidas aparte. Opción ligera: tarte original 11 € + ensalada 5 € + crème brûlée 9 € =25 € sin bebida. No es cuenta final para fecha ni menú de La Table du Gourmet. Gault&Millau 2025 cita 33 €, se usa PDF propio 34 € más reciente.",
+   "compactPrice": "Menú 34 € o ejemplo flam + ensalada + postre 25 €, sin bebidas. Confirmar fecha y total.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://jlbrendel.com/fr/restaurants/brendelstub.html",
+   "editorialUrl": "https://fr.gaultmillau.com/fr/restaurants/d-brendel-stub",
+   "sourceUrls": [
+    "https://jlbrendel.com/media/original/6730e4bd6c9f0/carte-stub-octobre-2026-2.pdf",
+    "https://www.visit.alsace/229002333-restaurant-brendelstub/",
+    "https://www.lefrenchguide.com/restaurants/riquewihr-68340/d-brendelstub-restaurant-riquewihr-alsace-jl-brendel"
+   ],
+   "statusEvidence": "Enlace del menú confirmado en web propia y PDF páginas 3/4 visto. Nombre/dirección Maps coinciden, no apertura. Gault&Millau 2025 crítica específica y turismo leídos. No usar horario de La Table du Gourmet para esta winstub.",
+   "alert": "Horario propio no recuperado. Guía Gault&Millau publica diario 12-14/19-23:30; LeFrenchGuide cierra martes/miércoles y limita cena 21:30. Horario contradictorio: confirmar día y cocina antes de desplazarse.",
+   "compactAlert": "Horario sin resolver: una guía cierra mar/mié y otra no. Confirmar servicio para fecha.",
+   "caution": "Sin reserva ni condiciones de cancelación/cargos comprobadas. Acceso sin escalones pendiente. La masa sin gluten +3,50 € publicada no certifica ausencia de trazas ni aptitud celíaca; alérgenos disponibles en recepción. Cerdo, leche y postre con alcohol en menú Terroir; alternativas dietéticas por confirmar. No conducir tras beber. Aparcar fuera del casco según señalización, no entrar por tener restaurante.",
+   "photo": {
+    "img": "assets/alsacia/colmar_brenner-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes alsacianos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes alsacianos imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante; los paisajes son imaginados, no vistas del local. No es una foto real ni permite deducir qué ingredientes usa el local. Concepto regional compartido entre fichas, no producto específico de este local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "colmar_chocolate",
+   "name": "Choco-Story: museo + taller · Colmar",
+   "address": "12 Pl. de la Cathédrale, 68000 Colmar, France",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Choco+Story+Colmar&query_place_id=ChIJfcmjVlhlkUcRrFLJ1luDoUo",
+   "lat": 48.0769418,
+   "lon": 7.358578599999999,
+   "description": "Visita libre al museo del chocolate y sesión práctica para crear tabletas con un chocolatero. El taller se realiza en francés o inglés; el audioguía de museo tiene español. Son formatos distintos, no se promete taller en español. Sustituye otro interior de Colmar, no añadido al final de una jornada de pueblos.",
+   "duration": "Aproximadamente 2 h 15 min: 90 min museo + 45 min taller según operador. La sesión tiene hora elegida; la visita va antes o después con margen de cierre.",
+   "compactDuration": "≈2 h 15 min total; museo 90 min + taller 45 min.",
+   "priceLabel": "Portada propia: 45 €/persona visita+taller; chocolate caliente opcional 4 €. Entrada solo museo 15 € adulto es otro producto. Página antigua de taller dice 35 € y 6 años, en conflicto con portada/billetterie: confirmar precio final del producto al seleccionar fecha.",
+   "compactPrice": "Publicado 45 € visita+taller; página antigua 35 € en conflicto. Confirmar checkout.",
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "officialUrl": "https://www.choco-story-colmar.fr/",
+   "editorialUrl": null,
+   "sourceUrls": [
+    "https://www.choco-story-colmar.fr/billetterie-accueil/",
+    "https://www.choco-story-colmar.fr/les-ateliers-tout-chocolat/"
+   ],
+   "statusEvidence": "Portada y billetterie leídas, horario/duración/producto diferenciados. Contradicción antigua 35 € / 6 años frente 45 € / 7 años conservada. Sin sesión/plazas/checkout verificados.",
+   "alert": "Venta definitiva/no reembolso según billetterie. Desde 7 años y menores de 10 con adulto que también paga según billetterie; una página antigua difiere. Cierre en enero después de vacaciones, fechas exactas por confirmar. Sesión francés/inglés.",
+   "compactAlert": "Sin reembolso. Taller francés/inglés. Edad/tarifa de página antigua difieren; confirmar.",
+   "caution": "Horario publicado 10:00-18:00, última entrada museo 17:00, no usar esa última entrada para el paquete de 2 h 15 min. Enero: cierre tras vacaciones sin fechas concretas verificadas. Confirmar alergias, accesibilidad, edad, sesión y precio final antes de comprar. Nada comprado.",
+   "photo": {
+    "img": "assets/alsacia/colmar_chocolate-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Taller de chocolate imaginado, no salas, moldes ni producto de Choco-Story. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Taller de chocolate imaginado, no salas, moldes ni producto de Choco-Story. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  },
+  {
+   "id": "kaysersberg_verrerie",
+   "name": "Verrerie de Kaysersberg · demostración de vidrio soplado",
+   "address": "30 Rue du Général de Gaulle, 68240 Kaysersberg Vignoble, France",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Verrerie+de+Kaysersberg+-+Artisanat+et+d%C3%A9monstration+de+soufflage+du+verre+en+Alsace&query_place_id=ChIJkRXUduVgkUcRKlHIteMdDVk",
+   "lat": 48.138747,
+   "lon": 7.263434,
+   "description": "Observar a maestros vidrieros soplar y dar forma al vidrio en su taller, junto a la iglesia Sainte-Croix. Turismo local y Alsace des Petits describen el proceso real con caña, colores y trabajo manual. Es una demostración para mirar, no curso participativo ni pieza creada por ti. Encaja durante la parada Kaysersberg sin otra excursión.",
+   "compactDescription": "Ver vidrio soplado en un taller de Kaysersberg. Demostración, no clase participativa.",
+   "duration": "Reserva editorial 20-40 min para observar si hay trabajo en marcha; operador no publica duración fija ni sesión garantizada. Traslado y aparcamiento aparte.",
+   "compactDuration": "20-40 min orientativos, no duración oficial ni sesión garantizada.",
+   "priceLabel": "Visita libre y gratuita, sin cita según operador. Compras de tienda opcionales y de pago; no se requiere comprar una pieza según la visita publicada. No incluye parking ni taller participativo.",
+   "compactPrice": "Demostración gratuita y sin cita publicada; compras opcionales aparte.",
+   "officialUrl": "https://www.verrerie-kaysersberg.fr/atelier",
+   "editorialUrl": "https://www.alsace-des-petits.fr/experiences_et_decouvertes/verrerie_d_art_kaysersberg_68",
+   "sourceUrls": [
+    "https://www.visit.alsace/230101732-verrerie-dart/",
+    "https://www.kaysersberg.com/visiter/artisans-dart/"
+   ],
+   "status": "partial-source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Propia/turismo local/familias y dirección Maps coinciden. Propia y familias indican martes-sábado, Visit Alsace lunes-sábado: discrepancia conservada. Sin calendario de producción para fecha, lenguaje de explicación o acceso verificados.",
+   "alert": "Propia: martes-sábado 10-12 y 14-17, cerrado en enero. Visit Alsace también incluye lunes: confirmar día y que haya demostración antes de ir. Horario de tienda no prueba taller funcionando.",
+   "compactAlert": "Mar-sáb 10-12 / 14-17 propios; enero cerrado. Lunes contradictorio, confirmar demostración.",
+   "caution": "Idiomas, distancia de seguridad al horno, acceso sin escalones y adaptación a menores pendientes. No tocar herramientas ni vidrio caliente; seguir indicaciones del taller. Fuentes discrepan sobre perros y no se adopta parking gratis del portal familiar como hecho. Sin reserva/pago realizados.",
+   "photo": {
+    "img": "assets/alsacia/kaysersberg_verrerie-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Vidrio soplado imaginado, no taller, artesano o pieza de Verrerie de Kaysersberg. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Vidrio soplado imaginado, no taller, artesano o pieza de Verrerie de Kaysersberg. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "cityId": "edinburgh",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "scran-scallie",
+   "name": "The Scran & Scallie · pub escocés",
+   "address": "1 Comely Bank Rd, Edinburgh EH4 1DR, UK",
+   "description": "Fish pie, haggis y platos de producto escocés en Stockbridge. Buena comida sentada al salir de Dean Village o del Botánico, no junto al castillo.",
+   "strength": "Michelin describe pub de barrio de comida reconfortante, recomienda haggis y fishpie. Carta Food enlazada desde web confirma ambos, verduras y opciones vegetarianas bajo petición.",
+   "alert": "Reserva con tarjeta: cancelar<24h/no-show puede costar £30 comida/£40 cena por persona. No reservar sin aceptar condiciones.",
+   "caution": "PDF Food enlazado desde botón propio: fishpie£21,75, haggisentrada£14,75, steakpie£22,50, principales£17,75-27,50 excepto steakprecio mercado, postres£10,75. Principal+postre£28,50-38,25 sin bebida, antes propina opcional12,5% añadida y£1donativo/cuenta. No convertir a euros ni presentar subtotal como total final. Carta estacional sin fecha; consultar día. Abierto diario desde12 hasta último pedido21, salvo25dic. CondicionesSep2026: confirmar reserva24h antes, mesa puede liberarse al retrasarse20min; cancelar/cambiar24h, £30persona comida/£40cena por cancelación tardía/no-show. Grupos/corporativo depósitos/plazos4/2semanas distintos. Plantaúnica acceso silla según web, necesidades concretas consultar. Nada reservado.",
+   "officialUrl": "https://scranandscallie.com/menus/",
+   "editorialUrl": "https://guide.michelin.com/gb/en/city-of-edinburgh/edinburgh/restaurant/the-scran-scallie",
+   "sourceUrls": [
+    "https://scranandscallie.com/table-reservations/",
+    "https://scranandscallie.com/wp-content/uploads/2026/09/SSterms-V3-Sep-26.pdf",
+    "https://drive.google.com/uc?export=view&id=1INdEoeiAig-VEuMTrcINc7XWDjtOKUkN"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Scran+and+Scallie&query_place_id=ChIJ8XsD6rjHh0gRE7vqBGotCMU",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta propia PDF3p leída/primera página inspeccionada ycondicionesSep2026; sin mesa.",
+   "priceLabel": "£28,50-38,25 principal+postre sin bebida; más propina opcional12,5% y£1/cuenta.",
+   "compactPrice": "£28,50-38,25 sin bebida, +12,5% opcional y£1/cuenta.",
+   "photo": {
+    "img": "assets/edinburgh/scran-scallie-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes y olla imaginados de cocina escocesa. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes y olla imaginados de cocina escocesa. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "castle-admission",
+   "name": "Castillo · entrada de día",
+   "address": "Castlehill, Edinburgh",
+   "description": "Recinto histórico, vistas y museos con entrada diurna. Es el bloque del castillo del plan, no otro recorrido para duplicarlo.",
+   "duration": "Mínimo2h según operador;2-3h editorial con pausas ycontroles.",
+   "compactDuration": "2-3 h",
+   "alert": "£23,50 web/£26 taquilla adulto. Franja y aforo; entradas no reembolsables ordinarias. Cerrado25/26dic.",
+   "caution": "Adulto16-64£23,50online/£26taquilla,65+/desempleado£19/21,7-15£11,50/13;estudiante no reducción automática. Audioguía£4 aparte, Flexi£38 adulto ventana7días distinto. Si agotado online no quedan más en castillo. Abr-sep9:30-18 última17/oct-mar9:30-17 última16;24diccierra16última15,25/26cerrado,1eneabre11. GreatHallsemana9nov andamios/barreras porlimpieza pero abierta, no cierre total. OneOClockGun13 salvo domingos/ViernesSanto/Navidad, no pase garantizado. HESentradasordinarias no reembolsables; cambiofecha solo si aforo por formulario, no libregarantizado. Cierreporclima puede modificar acceso. No tratar CastleofLight/afternoontea como incluido ni reservar acto con tarifa general. Desnivel/adoquines y museoshorarios propios, no acceso total sinbarreras. Nada comprado.",
+   "officialUrl": "https://www.edinburghcastle.scot/plan-your-visit/tickets/",
+   "sourceUrls": [
+    "https://www.edinburghcastle.scot/plan-your-visit/opening-times/",
+    "https://www.historicenvironment.scot/about-us/contact/tickets-and-visiting-our-sites/changes-cancellations-and-refunds/"
+   ],
+   "priceLabel": "£23,50web/£26taquilla adulto, audioguía£4aparte; porfecha confirmar.",
+   "photo": {
+    "img": "assets/edinburgh/castillo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Edinburgh_Castle_from_the_Grassmarket_-_geograph.org.uk_-_2541093.jpg",
+    "author": "kim traynor",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "fileTitle": "File:Edinburgh Castle from the Grassmarket - geograph.org.uk - 2541093.jpg",
+    "candFile": "castillo-cand4",
+    "caption": "Castillo de Edimburgo · foto de archivo exterior. No billete, acceso interior o evento confirmado."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Tarifa/horarioscastillo yHEScambio/reembolso, sincheckout.",
+   "photoPending": false
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "schemaVersion": 1,
+ "cityId": "madrid",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "primera",
+   "name": "La Primera · Gran Vía 1",
+   "address": "Gran Vía, 1, Centro, 28013 Madrid, Spain",
+   "description": "Cocina cántabra para una comida sentada entre Gran Vía y Cibeles: rabas de Santander, pudin de cabracho o merluza. Alternativa a otra parada de tapas de La Latina.",
+   "strength": "La crónica de Alberto Granados destaca fritura de rabas y croquetas; otra crítica de 2016 la veía más correcta que memorable. Se conserva como opción práctica de cocina norteña, no mejor restaurante de Madrid ni unanimidad crítica.",
+   "alert": "Rabas 21 €, merluza 25 €, postres 9 €. Compartiendo entrante + principal + postre: 32-46,50 € sin bebida, estimación editorial.",
+   "caution": "Carta propia: entrantes 13,50-25 €, principales 16-25 €, postres 9 €, IVA 10% incluido. Compartiendo un entrante entre dos, más principal y postre, 32-46,50 € sin bebida; un entrante entero, 38,50-59 €. No menú cerrado. Cocina 13-16 y 20-23 lun-jue/dom, viernes-sábado cena hasta 23:30. Horario de local 8-1 entre semana/9:30-1 fin de semana NO es horario continuo de cocina. Carta distingue platos aptos para celíacos y otros modificables avisando encargado, no garantía de ausencia de contaminación cruzada. Verduras con jamón, croquetas de lacón, pescados/mariscos habituales: consultar alergias. Críticas antiguas y mixtas no prueban servicio actual; carta y localización actuales contrastadas. Nada reservado.",
+   "officialUrl": "https://restaurantelaprimera.com/carta/",
+   "editorialUrl": "https://www.albertogranados.com/planetaenconserva/restaurante-la-primera/",
+   "sourceUrls": [
+    "https://restaurantelaprimera.com/localizacion/",
+    "https://anatomiadelgusto.com/2016/12/18/la-primera/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Primera&query_place_id=ChIJKQa5L3soQg0RotYzWfofot4",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta/horarios y dirección actuales; crítica histórica mixta, sin mesa comprobada.",
+   "priceLabel": "32-46,50 € compartiendo entrante + principal + postre sin bebida, estimación de carta.",
+   "photo": {
+    "img": "assets/madrid/primera-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Ingredientes imaginados de cocina madrileña. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Ingredientes imaginados de cocina madrileña. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "compactPrice": "32-46,50 € sin bebida, estimación.",
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "palacio-interior",
+   "name": "Palacio Real: salas en visita libre",
+   "address": "Palacio Real de Madrid, calle de Bailén, Madrid",
+   "description": "Interior de salas del Palacio Real, distinto del exterior del día 1. Sustituye parte del paseo de Austrias, no se añade a todas las subidas y museos.",
+   "duration": "45 min de salas según Patrimonio, más seguridad/cola y recorrido elegido.",
+   "alert": "18 € adulto visita libre; cocina/Galería/guía tienen productos y precios separados. Último acceso 1 h antes del cierre.",
+   "caution": "Invierno octubre-marzo lun-sáb 10-18/dom 10-16, verano abril-septiembre lun-sáb 10-19/dom 10-16. 24/31 diciembre 2026 cierre 15/último acceso 14; 1 enero/6 enero/1 mayo/25 diciembre 2026 cerrado y actos oficiales pueden añadir cierres. No gratuidad universal: lun-jue 16-18 invierno/17-19 verano solo categorías y nacionalidad acreditadas, en taquilla para visita libre con acceso 1 h antes. Cocina ni Galería incluidas en 18 €; combinado 24 € es otro producto. Sin fecha ni franja reservadas.",
+   "officialUrl": "https://tickets.patrimonionacional.es/es/tickets/palacio-real-de-madrid",
+   "sourceUrls": [
+    "https://tickets.patrimonionacional.es/es/tickets/palacio-real-de-madrid"
+   ],
+   "mapsUrl": null,
+   "priceLabel": "18 € libre /9 € reducida según acreditación; visita guiada y combinados aparte.",
+   "photo": {
+    "img": "assets/madrid/palacioreal.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Palacio_Real_de_Madrid_Julio_2016_(cropped).jpg",
+    "author": "Tim Adams",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Exterior del Palacio Real en foto de archivo. No muestra salas abiertas ni acceso interior confirmado."
+   },
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Venta oficial calendario 2026 y productos leídos, sin disponibilidad por fecha ni compra.",
+   "compactDuration": "45 min de salas + seguridad y cola",
+   "compactAlert": "18 € visita libre. Cocina/Galería aparte; último acceso 1 h antes.",
+   "photoPending": false
+  },
+  {
+   "id": "real-audio",
+   "name": "Teatro Real: visita con audioguía",
+   "address": "Pl. de Isabel II, s/n, Centro, 28013 Madrid, Spain",
+   "description": "Recorrido interior con audioguía en el propio móvil, no función de ópera ni tour técnico de backstage.",
+   "duration": "50 min-1 h según operador; programación sujeta cambios.",
+   "alert": "10 € general/9 € reducida. Sala Principal puede cerrarse por actividad técnica; sesión 12 h NO incluye Sala Principal.",
+   "caution": "Propio actual: 10:30-14:30, último acceso 13:30, calendario actualizado mensualmente. Audioguía en smartphone; español/inglés coinciden en toda página, francés arriba pero pie omite: consultar sesión si necesario. Ficha antigua 2018 dice 7 € y hasta 16:30, no precio/horario actual. Puntualidad imprescindible; no usar mención a 5 min como tolerancia. Sin cambios de modalidad/horario/otros elementos tras comprar. Recorrido puede cambiar, Sala Principal puede cerrar y sesión 12 h no la incluye. No función ni acceso a restaurante. Consultar recorrido accesible. Sin sesión reservada, foto real pendiente; visual IA conceptual disponible.",
+   "officialUrl": "https://www.teatroreal.es/es/visita-teatro-real",
+   "sourceUrls": [
+    "https://www.esmadrid.com/informacion-turistica/teatro-real"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Teatro+Real&query_place_id=ChIJZY540HsoQg0Rrq2nqutjg6I",
+   "priceLabel": "10 € general /9 € reducida, audio; visita guiada 13 € es otro producto.",
+   "photo": {
+    "img": "assets/madrid/real-audio-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Teatro Real, exterior imaginado, no visita interior ni reproducción exacta. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Teatro Real, exterior imaginado, no visita interior ni reproducción exacta. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Página actual propia leída, diferencias de audio/guiada y ficha 2018 descartadas, sin sesión reservada.",
+   "compactDuration": "50 min-1 h",
+   "compactAlert": "10 € audio. Sesión 12 h SIN Sala Principal; otras visitas pueden tener cierres.",
+   "realPhotoPending": true
+  }
+ ]
+}

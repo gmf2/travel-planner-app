@@ -1,0 +1,73 @@
+{
+ "schemaVersion": 1,
+ "cityId": "helsinki",
+ "reviewedAt": "2026-11-03",
+ "scope": "Ideas revisadas para comer y hacer algo distinto; no son reservas ni sesiones confirmadas.",
+ "catalogRevision": "2026-11-03-expansion-eu2-v1",
+ "food": [
+  {
+   "id": "sea-horse",
+   "name": "Sea Horse · clásicos de Helsinki",
+   "address": "Kapteeninkatu 11, 00140 Helsinki, Finland",
+   "description": "Arenque frito, albóndigas y vorschmack en un comedor clásico de Ullanlinna. Para conocer cocina de siempre y ambiente, no fine dining.",
+   "strength": "TimeOutmayo2026describe confort tradicional abundante y3/5, recomienda experiencia clásica, no excelencia sinreparos. Carta propia fechada29sep-6dic2026 confirma platos/precios actuales.",
+   "alert": "Carta hasta el 6 dic 2026; festivos/Navidad pueden usar otro menú. Reserva aconsejada.",
+   "caution": "Carta EN válida29sep-6dic2026: arenque23 €, albóndigas24,sopa salmón16entrada/24principal,reno33,postres7-14. Principal+postre30-47 € sinbebida, rangoeditorial; menúSeaHorse55/vegetal50 con bebidas recomendadas APARTE, no maridaje incluido. No mezclar minimenu grupos>12 quecambiaarenque24/sopa25 con cartaindividual. CartaTimeOutmayoarenque24antigua, prevalece23propia actual. Horaslocal lun-mar12-22,mié-vie12-23,sáb15-23,dom15-22;alcoholotrasfranjasnoasumidas,cocina exacta confirmar. LsignificalactosefreeenFinlandia,no librelechegarantizado: alergias consultar. Nada reservado.",
+   "officialUrl": "https://www.seahorse.fi/en/our-menu/",
+   "editorialUrl": "https://www.timeout.com/helsinki/restaurants/sea-horse",
+   "sourceUrls": [
+    "https://www.seahorse.fi/en/restaurant-sea-horse/"
+   ],
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant+Sea+Horse&query_place_id=ChIJtQpbILgLkkYR_Q8zrTMdT-w",
+   "status": "source-verified",
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Carta fechada/horariospropios ycrítica2026, sinmesa.",
+   "priceLabel": "30-47 € principal+postre sin bebida, estimación; menú55/vegetal50 aparte.",
+   "compactPrice": "30-47 € sin bebida, estimación; menú 55 € aparte.",
+   "photo": {
+    "img": "assets/helsinki/sea-horse-ai.jpg",
+    "imageType": "ai-illustration",
+    "scopeLabel": "IA de ingredientes · no es plato del local",
+    "alt": "Ilustración IA conceptual: Salmón e ingredientes finlandeses imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Salmón e ingredientes finlandeses imaginados. No representa platos, raciones, carta, alérgenos ni sala del restaurante. No es una foto real ni permite deducir qué ingredientes usa el local.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "realPhotoPending": true
+  }
+ ],
+ "activities": [
+  {
+   "id": "ateneum",
+   "name": "Ateneum · arte finlandés",
+   "address": "Kaivokatu2, Helsinki",
+   "description": "Museo de arte junto a la estación. Bloque interior alternativo para lluvia o interés en pintura, no añadirlo a todos los museos del día.",
+   "duration": "1,5-2,5h orientativas, elegir salas envezdeverlotodo.",
+   "compactDuration": "1,5-2,5 h orientativas",
+   "alert": "21 € web/23 € taquilla. Lunes cerrado; 6 y 24-25 dic 2026 cerrado. Sin reembolso ordinario; revisar flexibilidad.",
+   "caution": "Tarifa21online/23taquilla,13reducida(18-24/estudiante/jubilado/desempleado,etc),<18gratis;sinrecargoonline FAQ. Mar/vie10-18,mié/jue10-20,sáb/dom10-17,lunescerrado;ventaticketscierra30minantes. FAQactualpermite usar ticketanticipado otra vez/fecha sinavisar por noagotamientoactual; no es reentrada ilimitada ni promesafutura eterna, revisar validez yevento. Transferible si receptor cumpletarifa;reembolso solo fallooperador. Díasgratis2026publicados6nov/11dic, no calendarioanualinventado. Acceso adaptadoAteneuminkuja, principalKaivokatu. Nada comprado, exposiciónporfecha pendiente.",
+   "officialUrl": "https://ateneum.fi/en/opening-hours-and-tickets/",
+   "sourceUrls": [
+    "https://ateneum.fi/en/how-do-i-buy-tickets-online/"
+   ],
+   "priceLabel": "21 € web/23 €taquilla estándar, sin recargo online segúnFAQ.",
+   "photo": {
+    "img": "assets/helsinki/ateneum-ai.jpg",
+    "imageType": "ai-illustration",
+    "alt": "Ilustración IA conceptual: Museo de arte imaginado, no fachada exacta ni obras de Ateneum. No es foto real.",
+    "author": "Ilustración generada con IA",
+    "source": "",
+    "license": "Ilustración conceptual, no documento fotográfico",
+    "caption": "Ilustración IA conceptual: Museo de arte imaginado, no fachada exacta ni obras de Ateneum. No es una foto real ni describe el estado actual o lo incluido en una reserva.",
+    "reviewStatus": "pending-user-preview"
+   },
+   "photoPending": false,
+   "statusCheckedAt": "2026-11-03",
+   "statusEvidence": "Horario/tarifa yFAQactuales, sincompra.",
+   "realPhotoPending": true
+  }
+ ]
+}

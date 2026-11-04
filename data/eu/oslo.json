@@ -1,0 +1,758 @@
+{
+ "schemaVersion": 1,
+ "country": "NO",
+ "id": "oslo",
+ "name": "Oslo",
+ "localName": "Oslo",
+ "selectionReason": "Segunda lista europea confirmada por el usuario el 2 nov 2026.",
+ "reviewedAt": "2026-11-03",
+ "status": "editorially-reviewed-pilot",
+ "planningAssumptions": "Primera visita de 1 a 3 días, sin fechas ni reservas.",
+ "stops": [
+  {
+   "id": "karljohans",
+   "name": "Karl Johans gate",
+   "kind": "walk",
+   "zone": "Centro",
+   "reason": "El gran bulevar peatonal que une la estación central con el Palacio Real.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 59.91306,
+    "lon": 10.74083
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Karl_Johans_gate",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Calle abierta todo el año; comercios con horario comercial.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/oslo/karljohans.jpg",
+    "alt": "Oslo, Karl Johans gate (1).jpg",
+    "author": "Palickap",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oslo,_Karl_Johans_gate_(1).jpg",
+    "caption": "Foto de archivo de Karl Johans gate. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "palacioreal",
+   "name": "Palacio Real de Oslo",
+   "kind": "visit",
+   "zone": "Centro",
+   "reason": "Residencia oficial del rey sobre la colina de Slottsparken, con cambio de guardia diario.",
+   "sourceIds": [
+    "pal"
+   ],
+   "coordinates": {
+    "lat": 59.91722,
+    "lon": 10.7275
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Palacio_Real_de_Oslo",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Temporada pública 2026 terminó el 16 de agosto. El operador anuncia vuelta en junio de 2027 sin fecha de día confirmada aquí. Fuera de temporada, no se programa visita interior.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior y parque; no entrada interior incluida",
+   "photo": {
+    "img": "assets/oslo/palacioreal.jpg",
+    "alt": "Royal Palace, Oslo (2015).JPG",
+    "author": "Beata May",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Royal_Palace,_Oslo_(2015).JPG",
+    "caption": "Foto de archivo de Palacio Real de Oslo. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "catedral",
+   "name": "Catedral de Oslo",
+   "kind": "visit",
+   "zone": "Centro",
+   "reason": "Iglesia barroca del siglo XVII con techo pintado y vidrieras.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 59.91232,
+    "lon": 10.74696
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Oslo_Cathedral",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 20,
+   "durationType": "editorial-estimate",
+   "caution": "Exterior. Interior según culto y horario de la comunidad.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior e interior sujeto a culto",
+   "photo": {
+    "img": "assets/oslo/catedral.jpg",
+    "alt": "2012.11.09.Oslodomkirke.jpg",
+    "author": "Nina-no\n\n\n\n\n\nThis photo was taken by Nina-no.  \nPlease credit this photo Nina Aldin Thune in the immediate vicinity of t",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2012.11.09.Oslodomkirke.jpg",
+    "caption": "Foto de archivo de Catedral de Oslo. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "ayuntamiento",
+   "name": "Ayuntamiento de Oslo",
+   "kind": "visit",
+   "zone": "Pipervika",
+   "reason": "Edificio de ladrillo rojo de 1950 donde se entrega el Nobel de la Paz; torre con el mayor carillón nórdico.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "oc"
+   ],
+   "coordinates": {
+    "lat": 59.91167,
+    "lon": 10.73361
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Ayuntamiento_de_Oslo",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Exterior como base. Acceso interior sujeto a calendario y actos municipales, no se incluye entrada garantizada.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior, interior solo si permite el calendario",
+   "photo": {
+    "img": "assets/oslo/ayuntamiento.jpg",
+    "alt": "Oslo Rådhus - Oslo City Hall - Oslo, Norway 2020-09-16.jpg",
+    "author": "Ryan Hodnett",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oslo_R%C3%A5dhus_-_Oslo_City_Hall_-_Oslo,_Norway_2020-09-16.jpg",
+    "caption": "Foto de archivo de Ayuntamiento de Oslo. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "nobelpaz",
+   "name": "Centro Nobel de la Paz",
+   "kind": "visit",
+   "zone": "Pipervika",
+   "reason": "Museo sobre los premiados con el Nobel de la Paz en la antigua estación Vestbanen.",
+   "sourceIds": [
+    "np"
+   ],
+   "coordinates": {
+    "lat": 59.91148,
+    "lon": 10.73048
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Nobel_Peace_Center",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 60,
+   "durationType": "editorial-estimate",
+   "caution": "Entre 7 septiembre y 12 diciembre 2026, The Medal Chamber y The Nobel Field cerradas mientras se preparan exposiciones. No es cierre total. Segunda planta sin acceso para silla de ruedas por ascensor 7 septiembre-11 diciembre 2026. Consultar accesibilidad. Visitas guiadas sábados/domingos según operador.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Alternativa al Museo Nacional; exposiciones parciales",
+   "photo": {
+    "img": "assets/oslo/nobelpaz.jpg",
+    "alt": "Nobel Peace Center 12.jpg",
+    "author": "Sean Hayford O'Leary",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nobel_Peace_Center_12.jpg",
+    "caption": "Foto de archivo de Centro Nobel de la Paz. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "akerbrygge",
+   "name": "Aker Brygge",
+   "kind": "walk",
+   "zone": "Pipervika",
+   "reason": "Antiguo astillero reconvertido en paseo de restaurantes y muelle con vistas al fiordo.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 59.90972,
+    "lon": 10.72667
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Aker_Brygge",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Paseo abierto; locales con horario propio.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "exterior",
+   "photo": {
+    "img": "assets/oslo/akerbrygge.jpg",
+    "alt": "Oslo Aker Brygge 2005 June 19.jpg",
+    "author": "Chris Nyborg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Oslo_Aker_Brygge_2005_June_19.jpg",
+    "caption": "Foto de archivo de Aker Brygge. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "akershus",
+   "name": "Fortaleza de Akershus",
+   "kind": "visit",
+   "zone": "Puerto",
+   "reason": "Fortaleza medieval sobre el fiordo, con murallas, castillo y vistas al puerto.",
+   "sourceIds": [
+    "ak"
+   ],
+   "coordinates": {
+    "lat": 59.90661,
+    "lon": 10.73625
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Fortaleza_de_Akershus",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Castillo: septiembre-abril sábados/domingos 12-17; mayo-agosto lunes-sábado 10-16 y domingo 12-16. Actos oficiales pueden cerrar sin aviso; billete in situ. No confundir con horario del recinto exterior.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Entorno de la fortaleza; castillo interior según calendario",
+   "photo": {
+    "img": "assets/oslo/akershus.jpg",
+    "alt": "Akershus festning.jpg",
+    "author": "Pudelek (Marcin Szala)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Akershus_festning.jpg",
+    "caption": "Foto de archivo de Fortaleza de Akershus. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "opera",
+   "name": "Ópera de Oslo",
+   "kind": "visit",
+   "zone": "Bjørvika",
+   "reason": "Arquitectura de mármol junto al agua en Bjørvika. Exterior como base; tejado solo con condiciones y acceso seguros.",
+   "sourceIds": [
+    "op"
+   ],
+   "coordinates": {
+    "lat": 59.90694,
+    "lon": 10.75361
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/%C3%93pera_de_Oslo",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 45,
+   "durationType": "editorial-estimate",
+   "caution": "Hielo, viento, obras o eventos pueden limitar el acceso. No usar horario del vestíbulo como horario del tejado. El 3 noviembre 2026 el edificio cierra hasta las 18 por evento privado según operador. Confirmar el día elegido. No hay función incluida.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Exterior; tejado solo con acceso seguro y autorizado",
+   "photo": {
+    "img": "assets/oslo/opera.jpg",
+    "alt": "New Opera in Oslo.jpg",
+    "author": "Pudelek (Marcin Szala)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:New_Opera_in_Oslo.jpg",
+    "caption": "Foto de archivo de Ópera de Oslo. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "munch",
+   "name": "Museo Munch",
+   "kind": "visit",
+   "zone": "Bjørvika",
+   "reason": "Museo dedicado a Edvard Munch en Bjørvika. Elegir exposición y entrada para la fecha, sin garantizar una obra concreta siempre visible.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "mu"
+   ],
+   "coordinates": {
+    "lat": 59.90575,
+    "lon": 10.75531
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Museo_Munch",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Horario oficial (munchmuseet.no/en/visit): dom-mar 10-18, mié-sáb 10-21; revisar festivos.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Museo de pago, visita principal del día",
+   "photo": {
+    "img": "assets/oslo/munch.jpg",
+    "alt": "MUNCH Museum front (2020) 4.jpg",
+    "author": "Premeditated",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MUNCH_Museum_front_(2020)_4.jpg",
+    "caption": "Foto de archivo de Museo Munch. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "museonacional",
+   "name": "Museo Nacional",
+   "kind": "visit",
+   "zone": "Pipervika",
+   "reason": "El mayor museo de arte, arquitectura y diseño de Noruega.",
+   "sourceIds": [
+    "nm-now"
+   ],
+   "coordinates": {
+    "lat": 59.91167,
+    "lon": 10.72917
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte%2C_Arquitectura_y_Dise%C3%B1o",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 120,
+   "durationType": "editorial-estimate",
+   "caution": "Horario oficial revisado: lunes cerrado, martes/miércoles 10-20, jueves-domingo 10-17. Cerrado 24-26 diciembre y 31 diciembre 2026-1 enero 2027. Mover este interior a día abierto, no sumar MUNCH además por defecto.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Museo de pago; única visita larga del día 1",
+   "photo": {
+    "img": "assets/oslo/museonacional.jpg",
+    "alt": "Nye Nasjonalmuseet (2022) (2).jpg",
+    "author": "Premeditated",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nye_Nasjonalmuseet_(2022)_(2).jpg",
+    "caption": "Foto de archivo de Museo Nacional. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "vigeland",
+   "name": "Parque Vigeland (Frogner)",
+   "kind": "visit",
+   "zone": "Frogner",
+   "reason": "Más de 200 esculturas de Gustav Vigeland en el parque Frogner, con el monolito.",
+   "sourceIds": [
+    "vc",
+    "wp"
+   ],
+   "coordinates": {
+    "lat": 59.9253,
+    "lon": 10.70536
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Parque_Frogner",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Parque de acceso libre las 24 h.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Parque exterior; no museo interior incluido",
+   "photo": {
+    "img": "assets/oslo/vigeland.jpg",
+    "alt": "NOR-2016-Frogner Park-Vigeland Installation-View from the monolith.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg",
+    "caption": "Foto de archivo de Parque Vigeland (Frogner). No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "museohistorico",
+   "name": "Museo de Historia Cultural (Vikingos)",
+   "kind": "visit",
+   "zone": "Centro",
+   "reason": "Sustituye al Museo de los Barcos Vikingos, CERRADO hasta nov-2027: aquí están las exposiciones VÍKINGR y Miðgarðr.",
+   "sourceIds": [
+    "hm",
+    "vk"
+   ],
+   "coordinates": {
+    "lat": 59.91681,
+    "lon": 10.73547
+   },
+   "coordinateSource": "https://en.wikipedia.org/wiki/Museum_of_Cultural_History%2C_Oslo",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Este museo no está en Bygdøy. El museo de barcos vikingos sigue cerrado y el operador anuncia 2027, sin tomar noviembre como fecha segura. Elegir este interior en sustitución de otro, no como desvío entre Vigeland y Fram.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Museo Histórico en el centro, alternativa a otro museo",
+   "photo": {
+    "img": "assets/oslo/museohistorico.jpg",
+    "alt": "Historisk museum oslo.jpg",
+    "author": "Vidariv",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Historisk_museum_oslo.jpg",
+    "caption": "Foto de archivo de Museo de Historia Cultural (Vikingos). No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "fram",
+   "name": "Museo del Fram",
+   "kind": "visit",
+   "zone": "Bygdøy",
+   "reason": "El barco polar Fram de Nansen y Amundsen, visitable por dentro.",
+   "sourceIds": [
+    "vc",
+    "wp",
+    "fr"
+   ],
+   "coordinates": {
+    "lat": 59.90333,
+    "lon": 10.69944
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Museo_del_Fram",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 90,
+   "durationType": "editorial-estimate",
+   "caution": "Abierto los 365 días, 10:00-17:00 según frammuseum.no.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Museo de pago en Bygdøy; traslado aparte",
+   "photo": {
+    "img": "assets/oslo/fram.jpg",
+    "alt": "Fram museum oslo.jpg",
+    "author": "Hans-Petter Fjeld",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Fram_museum_oslo.jpg",
+    "caption": "Foto de archivo de Museo del Fram. No confirma acceso actual."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "hovedoya",
+   "name": "Isla de Hovedøya",
+   "kind": "excursion",
+   "zone": "Fiordo de Oslo",
+   "reason": "Ruinas de un monasterio cisterciense del siglo XII, playas y rutas a pie a menos de 5 km del puerto.",
+   "sourceIds": [
+    "ruter-b1"
+   ],
+   "coordinates": {
+    "lat": 59.89464,
+    "lon": 10.73012
+   },
+   "coordinateSource": "https://no.wikipedia.org/wiki/Hoved%C3%B8ya",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 240,
+   "durationType": "editorial-estimate",
+   "caution": "Sin B1 el 24, 25 y 26 diciembre ni 1 enero; 31 diciembre tiene horario especial. Visita invernal con luz; hielo/viento pueden cambiar acceso. Elegir ida y vuelta antes de salir, no nadar por defecto.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión propia condicionada a fecha y acceso",
+   "photo": {
+    "img": "assets/oslo/hovedoya.jpg",
+    "alt": "Hovedøya (01).jpg",
+    "author": "Tore Sætre",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hoved%C3%B8ya_(01).jpg",
+    "caption": "Foto de archivo del fiordo y entorno de Hovedøya, no de las ruinas del monasterio."
+   },
+   "photoPending": false
+  },
+  {
+   "id": "heddal",
+   "name": "Heddal · solo con apertura o cita confirmada",
+   "kind": "excursion",
+   "zone": "Telemark",
+   "reason": "La mayor iglesia de madera de Noruega, favorita de la guía.",
+   "sourceIds": [
+    "hed",
+    "vy",
+    "farte"
+   ],
+   "coordinates": {
+    "lat": 59.57944,
+    "lon": 9.17639
+   },
+   "coordinateSource": "https://es.wikipedia.org/wiki/Iglesia_de_madera_de_Heddal",
+   "coordinateMethod": "wikipedia-api",
+   "suggestedMinutes": 600,
+   "durationType": "editorial-estimate",
+   "caution": "Temporada pública 2026 terminó el 13 septiembre. En noviembre solo con cita confirmada por la iglesia; no se presupone calendario 2027. No salir buscando interior abierto sin confirmación. Servicios locales limitados: comprobar cuatro tramos. Si no encaja, elegir jornada urbana.",
+   "reviewedAt": "2026-11-02",
+   "openingHours": null,
+   "price": null,
+   "visitMode": "Excursión propia condicionada a fecha y acceso",
+   "photo": {
+    "img": "assets/oslo/heddal.jpg",
+    "alt": "Stavechurch-heddal.jpg",
+    "author": "Micha L. Rieser",
+    "license": "Uso permitido con atribución",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stavechurch-heddal.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stavechurch-heddal.jpg",
+    "caption": "Foto de archivo exterior de Heddal. Micha L. Rieser permite el uso con atribución; no confirma apertura interior."
+   },
+   "photoPending": false
+  }
+ ],
+ "plans": {
+  "1": {
+   "days": [
+    {
+     "title": "Centro y Museo Nacional",
+     "zone": "Catedral → Karl Johans → Palacio → Aker Brygge",
+     "stopIds": [
+      "catedral",
+      "karljohans",
+      "palacioreal",
+      "ayuntamiento",
+      "museonacional",
+      "akerbrygge"
+     ],
+     "editorialNote": "Paseo hacia el oeste sin volver desde el Palacio a la Catedral. Palacio y Ayuntamiento por fuera. Museo Nacional como único interior largo si abre; lunes intercambiar con el día de MUNCH o elegir otro plan. Nobel sustituye al Nacional, no se apilan dos museos.",
+     "optionalStopIds": [
+      "nobelpaz"
+     ],
+     "pacing": "Estimación editorial de visitas con pausas. Traslados y aperturas requieren elegir fecha; nada reservado."
+    }
+   ]
+  },
+  "2": {
+   "days": [
+    {
+     "title": "Centro y Museo Nacional",
+     "zone": "Catedral → Karl Johans → Palacio → Aker Brygge",
+     "stopIds": [
+      "catedral",
+      "karljohans",
+      "palacioreal",
+      "ayuntamiento",
+      "museonacional",
+      "akerbrygge"
+     ],
+     "editorialNote": "Paseo hacia el oeste sin volver desde el Palacio a la Catedral. Palacio y Ayuntamiento por fuera. Museo Nacional como único interior largo si abre; lunes intercambiar con el día de MUNCH o elegir otro plan. Nobel sustituye al Nacional, no se apilan dos museos.",
+     "optionalStopIds": [
+      "nobelpaz"
+     ],
+     "pacing": "Estimación editorial de visitas con pausas. Traslados y aperturas requieren elegir fecha; nada reservado."
+    },
+    {
+     "title": "Akershus, Ópera y MUNCH",
+     "zone": "Akershus → Bjørvika",
+     "stopIds": [
+      "akershus",
+      "opera",
+      "munch"
+     ],
+     "editorialNote": "Fortaleza por fuera salvo acceso al castillo elegido, frente marítimo y MUNCH como museo principal. Tejado de la Ópera solo si acceso y tiempo son seguros. No volver al Museo Nacional al oeste este día.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial de visitas con pausas. Traslados y aperturas requieren elegir fecha; nada reservado."
+    }
+   ]
+  },
+  "3": {
+   "days": [
+    {
+     "title": "Centro y Museo Nacional",
+     "zone": "Catedral → Karl Johans → Palacio → Aker Brygge",
+     "stopIds": [
+      "catedral",
+      "karljohans",
+      "palacioreal",
+      "ayuntamiento",
+      "museonacional",
+      "akerbrygge"
+     ],
+     "editorialNote": "Paseo hacia el oeste sin volver desde el Palacio a la Catedral. Palacio y Ayuntamiento por fuera. Museo Nacional como único interior largo si abre; lunes intercambiar con el día de MUNCH o elegir otro plan. Nobel sustituye al Nacional, no se apilan dos museos.",
+     "optionalStopIds": [
+      "nobelpaz"
+     ],
+     "pacing": "Estimación editorial de visitas con pausas. Traslados y aperturas requieren elegir fecha; nada reservado."
+    },
+    {
+     "title": "Akershus, Ópera y MUNCH",
+     "zone": "Akershus → Bjørvika",
+     "stopIds": [
+      "akershus",
+      "opera",
+      "munch"
+     ],
+     "editorialNote": "Fortaleza por fuera salvo acceso al castillo elegido, frente marítimo y MUNCH como museo principal. Tejado de la Ópera solo si acceso y tiempo son seguros. No volver al Museo Nacional al oeste este día.",
+     "optionalStopIds": [],
+     "pacing": "Estimación editorial de visitas con pausas. Traslados y aperturas requieren elegir fecha; nada reservado."
+    },
+    {
+     "title": "Vigeland y Fram con transporte",
+     "zone": "Frogner → Bygdøy",
+     "stopIds": [
+      "vigeland",
+      "fram"
+     ],
+     "editorialNote": "Parque Vigeland con luz y Museo Fram como interior principal. Enlace entre zonas en transporte: elegir bus/Ruter por fecha, no se promete ferry invernal a Bygdøy ni ruta a pie. Museo Histórico es una alternativa céntrica a otro museo, no una parada en Bygdøy.",
+     "optionalStopIds": [
+      "museohistorico"
+     ],
+     "pacing": "Estimación editorial de visitas con pausas. Traslados y aperturas requieren elegir fecha; nada reservado."
+    }
+   ]
+  }
+ },
+ "seasons": {},
+ "events": [],
+ "cautions": [
+  "Museo de los Barcos Vikingos CERRADO hasta ~nov-2027 (vikingtidsmuseet.no): sustituido por el Museo de Historia Cultural.",
+  "Centro Nobel de la Paz: exposiciones 'The Medal Chamber' y 'The Nobel Field' cerradas (nobelpeacecenter.org).",
+  "Horarios de Akershus, Museo Nacional, Palacio y ferris no verificados en operador: pendientes.",
+  "Nada reservado."
+ ],
+ "excludedOrOptional": [],
+ "sources": [
+  {
+   "id": "vc",
+   "title": "Viajeros Callejeros: Qué ver en Oslo",
+   "url": "https://www.viajeroscallejeros.com/que-ver-en-oslo/",
+   "type": "editorial-guide",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "wp",
+   "title": "Wikipedia: Oslo y lugares",
+   "url": "https://es.wikipedia.org/wiki/Oslo",
+   "type": "encyclopedia",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "mu",
+   "title": "MUNCH: horarios",
+   "url": "https://www.munchmuseet.no/en/visit/",
+   "type": "operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "fr",
+   "title": "Museo del Fram",
+   "url": "https://www.frammuseum.no/",
+   "type": "operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "np",
+   "title": "Centro Nobel de la Paz",
+   "url": "https://www.nobelpeacecenter.org/en/visit/",
+   "type": "operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "oc",
+   "title": "Ayuntamiento de Oslo",
+   "url": "https://www.oslo.kommune.no/oslo-city-hall/",
+   "type": "operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "vk",
+   "title": "Museo de la Era Vikinga",
+   "url": "https://www.vikingtidsmuseet.no/english/viking-ship-museum/index.html",
+   "type": "operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "nm",
+   "title": "Nasjonalmuseet",
+   "url": "https://www.nasjonalmuseet.no/en/visit/",
+   "type": "operator",
+   "retrievedAt": "2026-11-02"
+  },
+  {
+   "id": "ruter-b1",
+   "title": "Ruter · B1 invierno desde19oct2026",
+   "url": "https://cdn.sanity.io/files/5a84xxkm/prod/00a5f46f6d8e4a9ab11c2ee522ef84a171d3ede3.pdf",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "hed",
+   "title": "Heddal · temporada y visitas",
+   "url": "https://www.heddalstavkirke.no/",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "vy",
+   "title": "Vy · Oslo-Notodden VY1",
+   "url": "https://www.vy.no/buss/oslo-notodden",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "farte",
+   "title": "Farte · línea4 Notodden-Heddal",
+   "url": "https://www.farte.no/media/vdikm4c3/4-notodden-tuven-heddal-stavkyrkje-kvantum-17082026.pdf?#page=1",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "pal",
+   "title": "Corte Real · Palacio",
+   "url": "https://www.royalcourt.no/visits-and-cultural-activities/visit-the-royal-palace/guided-tours-of-the-royal-palace",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "ak",
+   "title": "Akershus · castillo y horarios",
+   "url": "https://www.forsvarshistoriskmuseum.no/akershus-slott/en",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "op",
+   "title": "Ópera · información práctica",
+   "url": "https://www.operaen.no/en/your-visit-at-oslo-operahouse/practical-information/",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "nm-now",
+   "title": "Museo Nacional · horarios",
+   "url": "https://www.nasjonalmuseet.no/en/visit/locations/the-national-museum/",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  },
+  {
+   "id": "hm",
+   "title": "Museo Histórico · visita en el centro",
+   "url": "https://www.historiskmuseum.no/english/visit-us/",
+   "retrievedAt": "2026-11-03",
+   "type": "official"
+  }
+ ],
+ "coordinateNotice": "Puntos aproximados para situar lugares o zonas. No equivalen a entradas accesibles ni a rutas peatonales verificadas.",
+ "seasonalVariants": {},
+ "seasonalPlans": {},
+ "excursions": [],
+ "catalogRevision": "2026-11-03-expansion-eu2-v1"
+}
